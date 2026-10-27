@@ -8,6 +8,7 @@ for args in [
     ["-m", "alembic", "-c", "backend/alembic.ini", "upgrade", "head"],
     ["scripts/normalize_transcription.py"],
     ["scripts/geography.py"],
+    ["scripts/house_geography.py"],
     ["scripts/import_data.py"],
     ["scripts/refresh_2026.py"],
 ]:

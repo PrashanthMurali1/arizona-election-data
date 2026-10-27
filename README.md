@@ -1,6 +1,6 @@
 # Arizona Election Explorer
 
-A local, dark-themed dashboard for exploring certified Arizona elections. Browse the election catalog, compare statewide candidates, select a county on the Census map or in the sortable table, and inspect full results, turnout and source reconciliation.
+A local, dark-themed dashboard for exploring Arizona election results. Browse the election catalog, compare candidates, select a county or congressional district on the map or sortable table, and inspect results, turnout and source details.
 
 **2026 general-election activity is available.** Before candidate results are released, its neutral county map and table show official participation metrics with separate source dates: registration for all 15 counties, early returns for Maricopa and Pima, and additional Pima ballot-status categories. Missing figures remain N/A. Refresh is manual; see [2026 sources, coverage and validation](docs/2026-import-report.md).
 
@@ -9,6 +9,8 @@ A local, dark-themed dashboard for exploring certified Arizona elections. Browse
 **2022 MVP implemented and verified.** 2022, 2018 and 2014 governor results reconcile for every reported candidate across all 15 counties. The 2018 import combines VEST ballot-candidate precinct sums, OpenElections named write-ins and official turnout, with documented source checks. Nothing has been deployed.
 
 **U.S. Senate results are available for 2016, 2018, 2020 (special), 2022 and 2024.** All 61 candidate records reconcile across 15 counties per election, including every officially canvassed named write-in. The 2020 special election uses the existing interface and labels. There is no 2014 or 2026 Arizona U.S. Senate entry. See the [Senate source and verification report](docs/us-senate-import-report.md).
+
+**U.S. House results are available for all nine districts in 2014, 2016, 2018, 2020, 2022 and 2024.** All 54 regular contests and 160 candidate records reconcile, including the final 2014 CD2 recount. House views use the appropriate historical congressional district maps with the existing design. The April 24, 2018 CD8 and September 23, 2025 CD7 special views display civicAPI candidate reports, clearly labeled as civicAPI data rather than official canvass results. See the [House import and validation report](docs/us-house-import-report.md).
 
 ## Requirements and stack
 

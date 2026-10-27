@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import { Link, useNavigate, useParams } from "react-router-dom";
 import type { Activity, Detail, Election, Geography, Results } from "../types";
 import EarlyVotingPage from "./EarlyVotingPage";
+import HouseElectionPage from "./HouseElectionPage";
 import SnapshotNotice from "../SnapshotNotice";
 import { get, useResource } from "../api";
 import {
@@ -15,6 +16,14 @@ import { number } from "../results";
 import CountyMap from "../Map";
 import CountyTable from "../CountyTable";
 export default function ElectionPage() {
+  const { id = "" } = useParams();
+  return id.includes("-us-house") ? (
+    <HouseElectionPage key={id} id={id} />
+  ) : (
+    <StatewideElectionPage />
+  );
+}
+function StatewideElectionPage() {
   const { id = "" } = useParams();
   const navigate = useNavigate();
   const catalog = useResource<Election[]>("/api/elections");

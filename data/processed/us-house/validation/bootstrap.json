@@ -1,0 +1,33 @@
+{
+  "clean_bootstrap": "passed",
+  "repeat_bootstrap": "passed",
+  "stable_non_audit_table_counts": {
+    "alembic_version": 1,
+    "offices": 4,
+    "election_events": 9,
+    "sources": 45,
+    "geographic_units": 34,
+    "parties": 21,
+    "candidates": 273,
+    "boundary_versions": 3,
+    "turnout": 97,
+    "geometries": 33,
+    "contests": 69,
+    "participations": 273,
+    "vote_results": 2362,
+    "publication_snapshots": 3,
+    "election_publications": 2,
+    "current_snapshots": 3,
+    "metric_observations": 22
+  },
+  "append_only_audit_counts": [
+    {
+      "import_runs": 67,
+      "refresh_attempts": 3
+    },
+    {
+      "import_runs": 134,
+      "refresh_attempts": 6
+    }
+  ]
+}

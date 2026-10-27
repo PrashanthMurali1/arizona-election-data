@@ -8,6 +8,8 @@ export function Availability({ status }: { status: string }) {
       <span aria-hidden="true">{status === "verified" ? "✓" : "◷"}</span>{" "}
       {status === "verified"
         ? "Verified results"
+        : status === "civicapi"
+          ? "civicAPI report"
         : status === "pre_results"
           ? "Voting in progress"
           : status === "unofficial"

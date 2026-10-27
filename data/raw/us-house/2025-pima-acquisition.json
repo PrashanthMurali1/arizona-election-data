@@ -1,0 +1,20 @@
+[
+  {
+    "path": "data/raw/us-house/2025-pima-summary.csv",
+    "url": "https://content.civicplus.com/api/assets/1f753e7d-c1ea-4c62-b206-ea36bb568d38",
+    "status": 200,
+    "sha256": "88cd4181359a80fd376c096510a5f8e971fb5b235772a55ab871feb3d47978c8"
+  },
+  {
+    "path": "data/raw/us-house/2025-pima-summary.pdf",
+    "url": "https://content.civicplus.com/api/assets/200a66c7-8271-4fe6-8e6a-8e75c2926836",
+    "status": 200,
+    "sha256": "6f41671d23aeb8c46c24497e921ea5c5ab38506f8e4d2ee80be20b6f07440235"
+  },
+  {
+    "path": "data/raw/us-house/2025-pima-canvass.pdf",
+    "url": "https://content.civicplus.com/api/assets/4d660969-dee7-4c76-8270-9d4a294456ed",
+    "status": 200,
+    "sha256": "4ac87aad895b4f8d1a860b0a7aabb719b41b02c76fd55bedda51b22fb01b2ba6"
+  }
+]

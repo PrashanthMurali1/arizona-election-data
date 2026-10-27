@@ -1,0 +1,157 @@
+STATE OF ARIZONA OFFICIAL CANVASS (https://apps.azsos.gov/election/2022/General/canvass/2022dec05_general_election_canvass_web.pdf)
+citeturn91search11 [wordlim: 200] Published: 3.9 years ago; Crawled: 3.9 years ago; STATE OF ARIZONA OFFICIAL CANVASS  
+2022 General Election - Nov 08, 2022 ... <td>(REP) Andy Biggs *</td>
+STATE OF ARIZONA OFFICIAL CANVASS  
+2022 General Election - Nov 08, 2022  
+Compiled and Issued by the Arizona Secretary of State  
+Report Date/Time: 12/5/2022 10:00:00 AM
+
+<table id="e1">
+<tr>
+<th></th>
+<th>Apache</th>
+<th>Cochise</th>
+<th>Coconino</th>
+<th>Gila</th>
+<th>Graham</th>
+<th>Greenlee</th>
+<th>La Paz</th>
+<th>Maricopa</th>
+<th>Mohave</th>
+<th>Navajo</th>
+<th>Pima</th>
+<th>Pinal</th>
+<th>Santa Cruz</th>
+<th>Yavapai</th>
+<th>Yuma</th>
+<th>TOTAL</th>
+</tr>
+<tr>
+<td><b>U.S. Representative in Congress - District No. 5</b></td>
+<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+</tr>
+<tr>
+<td>(REP) Andy Biggs *</td>
+<td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>148,905</td><td>---</td><td>---</td><td>---</td><td>33,559</td><td>---</td><td>---</td><td>---</td><td>182,464</td>
+</tr>
+<tr>
+<td>(DEM) Javier Garcia Ramos</td>
+<td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>102,496</td><td>---</td><td>---</td><td>---</td><td>17,747</td><td>---</td><td>---</td><td>---</td><td>120,243</td>
+</tr>
+<tr>
+<td>(IND) Clint William Smith</td>
+<td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>16,093</td><td>---</td><td>---</td><td>---</td><td>2,758</td><td>---</td><td>---</td><td>---</td><td>18,851</td>
+</tr>
+<tr>
+<td>(DEM) Debra Jo "D-Jo" Borden (Write-In)</td>
+<td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>32</td><td>---</td><td>---</td><td>---</td><td>0</td><td>---</td><td>---</td><td>---</td><td>32</td>
+</tr>
+<tr>
+<td><b>U.S. Representative in Congress - District No. 6</b></td>
+<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+</tr>
+<tr>
+<td>(REP) Juan Ciscomani *</td>
+<td>---</td><td>26,180</td><td>---</td><td>---</td><td>7,938</td><td>1,540</td><td>---</td><td>---</td><td>---</td><td>---</td><td>124,199</td><td>17,344</td><td>---</td><td>---</td><td>---</td><td>177,201</td>
+</tr>
+<tr>
+<td>(DEM) Kirsten Engel</td>
+<td>---</td><td>12,405</td><td>---</td><td>---</td><td>2,329</td><td>878</td><td>---</td><td>---</td><td>---</td><td>---</td><td>143,239</td><td>13,118</td><td>---</td><td>---</td><td>---</td><td>171,969</td>
+</tr>
+<tr>
+<td>(DEM) Avery Alexander Thornton (Write-In)</td>
+<td>---</td><td>16</td><td>---</td><td>---</td><td>0</td><td>0</td><td>---</td><td>---</td><td>---</td><td>---</td><td>53</td><td>2</td><td>---</td><td>---</td><td>---</td><td>71</td>
+</tr>
+<tr>
+<td>(NON) Frank Bertone (Write-In)</td>
+<td>---</td><td>15</td><td>---</td><td>---</td><td>0</td><td>0</td><td>---</td><td>---</td><td>---</td><td>---</td><td>26</td><td>1</td><td>---</td><td>---</td><td>---</td><td>42</td>
+</tr>
+<tr>
+<td><b>U.S. Representative in Congress - District No. 7</b></td>
+<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+</tr>
+<tr>
+<td>(REP) Luis Pozzolo</td>
+<td>---</td><td>2,883</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>8,699</td><td>---</td><td>---</td><td>42,845</td><td>1,157</td><td>4,907</td><td>---</td><td>8,953</td><td>69,444</td>
+</tr>
+<tr>
+<td>(DEM) Raúl Grijalva *</td>
+<td>---</td><td>5,163</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>14,668</td><td>---</td><td>---</td><td>86,339</td><td>602</td><td>8,209</td><td>---</td><td>11,437</td><td>126,418</td>
+</tr>
+<tr>
+<td><b>U.S. Representative in Congress - District No. 8</b></td>
+<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+</tr>
+<tr>
+<td>(REP) Debbie Lesko *</td>
+<td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>197,555</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>197,555</td>
+</tr>
+<tr>
+<td>(DEM) Alixandria Guzman (Write-In)</td>
+<td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>2,013</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>2,013</td>
+</tr>
+<tr>
+<td>(DEM) Jeremy Spreitzer (Write-In)</td>
+<td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>5,145</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>5,145</td>
+</tr>
+<tr>
+<td><b>U.S. Representative in Congress - District No. 9</b></td>
+<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+</tr>
+<tr>
+<td>(REP) Paul Gosar *</td>
+<td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>4,260</td><td>105,342</td><td>63,643</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>19,551</td><td>192,796</td>
+</tr>
+<tr>
+<td>(DEM) Richard Grayson (Write-In)</td>
+<td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>61</td><td>3,047</td><td>214</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>209</td><td>3,531</td>
+</tr>
+<tr>
+<td>(DEM) Tom T. (Write-In)</td>
+<td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>9</td><td>734</td><td>25</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>90</td><td>858</td>
+</tr>
+<tr>
+<td><b>Governor</b></td>
+<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+</tr>
+<tr>
+<td>(REP) Kari Lake</td>
+<td>8,870</td><td>27,481</td><td>20,298</td><td>14,763</td><td>7,760</td><td>1,526</td><td>3,847</td><td>752,714</td><td>61,125</td><td>22,340</td><td>157,034</td><td>83,773</td><td>4,371</td><td>78,832</td><td>26,040</td><td>1,270,774</td>
+</tr>
+<tr>
+<td>(DEM) Katie Hobbs *</td>
+<td>17,739</td><td>19,137</td><td>34,389</td><td>7,674</td><td>3,087</td><td>920</td><td>1,646</td><td>790,352</td><td>20,369</td><td>18,058</td><td>241,398</td><td>60,019</td><td>8,724</td><td>44,316</td><td>20,063</td><td>1,287,891</td>
+</tr>
+<tr>
+<td>(REP) Steph "Steph" Noelle Denny (Write-In)</td>
+<td>0</td><td>2</td><td>5</td><td>4</td><td>0</td><td>0</td><td>1</td><td>42</td><td>3</td><td>1</td><td>10</td><td>3</td><td>1</td><td>1</td><td>1</td><td>74</td>
+</tr>
+<tr>
+<td>(REP) Alice Novoa (Write-In)</td>
+<td>2</td><td>4</td><td>0</td><td>2</td><td>0</td><td>0</td><td>1</td><td>32</td><td>1</td><td>1</td><td>6</td><td>0</td><td>1</td><td>5</td><td>0</td><td>55</td>
+</tr>
+<tr>
+<td>(LBT) Mikaela "Mikki" Shonnie Lutes-Burton (Write-In)</td>
+<td>1</td><td>10</td><td>9</td><td>6</td><td>0</td><td>0</td><td>0</td><td>132</td><td>3</td><td>3</td><td>21</td><td>16</td><td>0</td><td>12</td><td>0</td><td>213</td>
+</tr>
+<tr>
+<td>(NON) Anthony Camboni (Write-In)</td>
+<td>1</td><td>0</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>22</td><td>0</td><td>2</td><td>10</td><td>1</td><td>1</td><td>1</td><td>1</td><td>41</td>
+</tr>
+<tr>
+<td>(IND) RayShawn "Shawn" D'Anthony Merrill (Write-In)</td>
+<td>0</td><td>7</td><td>3</td><td>0</td><td>0</td><td>0</td><td>1</td><td>20</td><td>0</td><td>0</td><td>5</td><td>6</td><td>1</td><td>1</td><td>0</td><td>44</td>
+</tr>
+<tr>
+<td>(GRN) William Josué Pounds IV (Write-In)</td>
+<td>0</td><td>7</td><td>7</td><td>1</td><td>0</td><td>0</td><td>0</td><td>85</td><td>3</td><td>3</td><td>19</td><td>4</td><td>0</td><td>10</td><td>0</td><td>139</td>
+</tr>
+<tr>
+<td>(GRN) Liana West (Write-In)</td>
+<td>1</td><td>18</td><td>14</td><td>0</td><td>0</td><td>0</td><td>3</td><td>136</td><td>6</td><td>3</td><td>50</td><td>4</td><td>0</td><td>13</td><td>6</td><td>254</td>
+</tr>
+</table>
+
+* Winner
+
+Page 2

@@ -1,0 +1,205 @@
+[
+  {
+    "district": 1,
+    "name": "Tom O’Halleran",
+    "party_text": "Democrat",
+    "write_in": false,
+    "votes": 188469
+  },
+  {
+    "district": 1,
+    "name": "Tiffany Shedd",
+    "party_text": "Republican",
+    "write_in": false,
+    "votes": 176709
+  },
+  {
+    "district": 2,
+    "name": "Ann Kirkpatrick",
+    "party_text": "Democrat",
+    "write_in": false,
+    "votes": 209945
+  },
+  {
+    "district": 2,
+    "name": "Brandon Martin",
+    "party_text": "Republican",
+    "write_in": false,
+    "votes": 170975
+  },
+  {
+    "district": 2,
+    "name": "Iman Bah",
+    "party_text": "Write-in (Independent)",
+    "write_in": true,
+    "votes": 99
+  },
+  {
+    "district": 2,
+    "name": "Brandon Schlass",
+    "party_text": "Write-in (Common Sense Moderate)",
+    "write_in": true,
+    "votes": 35
+  },
+  {
+    "district": 3,
+    "name": "Raúl M. Grijalva",
+    "party_text": "Democrat",
+    "write_in": false,
+    "votes": 174243
+  },
+  {
+    "district": 3,
+    "name": "Daniel Wood",
+    "party_text": "Republican",
+    "write_in": false,
+    "votes": 95594
+  },
+  {
+    "district": 4,
+    "name": "Delina DiSanto",
+    "party_text": "Democrat",
+    "write_in": false,
+    "votes": 120484
+  },
+  {
+    "district": 4,
+    "name": "Paul A. Gosar",
+    "party_text": "Republican",
+    "write_in": false,
+    "votes": 278002
+  },
+  {
+    "district": 4,
+    "name": "Brett Brennan",
+    "party_text": "Write-in (Libertarian)",
+    "write_in": true,
+    "votes": 67
+  },
+  {
+    "district": 4,
+    "name": "Ana Perez Gissy",
+    "party_text": "Write-in (Independent)",
+    "write_in": true,
+    "votes": 39
+  },
+  {
+    "district": 4,
+    "name": "Miko Jones",
+    "party_text": "Write-in (Democratic)",
+    "write_in": true,
+    "votes": 19
+  },
+  {
+    "district": 4,
+    "name": "Emily Robinson",
+    "party_text": "Write-in (Independent)",
+    "write_in": true,
+    "votes": 7
+  },
+  {
+    "district": 4,
+    "name": "Don Overholser",
+    "party_text": "Write-in (Republican)",
+    "write_in": true,
+    "votes": 5
+  },
+  {
+    "district": 5,
+    "name": "Joan Greene",
+    "party_text": "Democrat",
+    "write_in": false,
+    "votes": 183171
+  },
+  {
+    "district": 5,
+    "name": "Andy Biggs",
+    "party_text": "Republican",
+    "write_in": false,
+    "votes": 262414
+  },
+  {
+    "district": 5,
+    "name": "Karen Stephens",
+    "party_text": "Write-in (Republican)",
+    "write_in": true,
+    "votes": 72
+  },
+  {
+    "district": 6,
+    "name": "Hiral Tipirneni",
+    "party_text": "Democrat",
+    "write_in": false,
+    "votes": 199644
+  },
+  {
+    "district": 6,
+    "name": "David Schweikert",
+    "party_text": "Republican",
+    "write_in": false,
+    "votes": 217783
+  },
+  {
+    "district": 7,
+    "name": "Ruben Gallego",
+    "party_text": "Democrat",
+    "write_in": false,
+    "votes": 165452
+  },
+  {
+    "district": 7,
+    "name": "Joshua Barnett",
+    "party_text": "Republican",
+    "write_in": false,
+    "votes": 50226
+  },
+  {
+    "district": 7,
+    "name": "Roxanne Rodriguez",
+    "party_text": "Write-in (Libertarian)",
+    "write_in": true,
+    "votes": 51
+  },
+  {
+    "district": 7,
+    "name": "J. Travis Kirkham",
+    "party_text": "Write-in (Republican)",
+    "write_in": true,
+    "votes": 3
+  },
+  {
+    "district": 8,
+    "name": "Michael Muscato",
+    "party_text": "Democrat",
+    "write_in": false,
+    "votes": 170816
+  },
+  {
+    "district": 8,
+    "name": "Debbie Lesko",
+    "party_text": "Republican",
+    "write_in": false,
+    "votes": 251633
+  },
+  {
+    "district": 8,
+    "name": "Taliban Hendrix",
+    "party_text": "Write-in (Independent)",
+    "write_in": true,
+    "votes": 18
+  },
+  {
+    "district": 9,
+    "name": "Greg Stanton",
+    "party_text": "Democrat",
+    "write_in": false,
+    "votes": 217094
+  },
+  {
+    "district": 9,
+    "name": "Dave Giles",
+    "party_text": "Republican",
+    "write_in": false,
+    "votes": 135180
+  }
+]

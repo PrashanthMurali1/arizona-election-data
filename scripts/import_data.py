@@ -390,6 +390,15 @@ if __name__ == "__main__":
     parser.add_argument(
         "--year", type=int, help="Import only this year; preserve other contests"
     )
-    parser.add_argument("--office", choices=["governor", "attorney-general", "us-senate"], help="Import only this office; preserve other contests")
+    parser.add_argument(
+        "--office",
+        choices=["governor", "attorney-general", "us-senate", "us-house"],
+        help="Import only this office; preserve other contests",
+    )
     args = parser.parse_args()
-    import_all(args.year, args.office)
+    if args.office != "us-house":
+        import_all(args.year, args.office)
+    if args.office in {None, "us-house"}:
+        from scripts.import_house import import_all as import_house
+
+        import_house(args.year)

@@ -21,11 +21,13 @@ export default function CountyTable({
   selected,
   onSelect,
   provisional = false,
+  unitKind = "county",
 }: {
   counties: Results[];
   selected: string | null;
   onSelect: (id: string) => void;
   provisional?: boolean;
+  unitKind?: "county" | "district";
 }) {
   const [key, setKey] = useState<SortKey>("total_votes");
   const [direction, setDirection] = useState<"asc" | "desc">("desc");
@@ -44,8 +46,9 @@ export default function CountyTable({
     <div className="table-scroll">
       <table>
         <caption className="sr-only">
-          County election results. Select a column heading to sort and a county
-          name to view full results.
+          {unitKind === "district"
+            ? "District election results. Select a column heading to sort and a district name to view full results."
+            : "County election results. Select a column heading to sort and a county name to view full results."}
         </caption>
         <thead>
           <tr>
@@ -62,9 +65,11 @@ export default function CountyTable({
                 }
               >
                 <button onClick={() => sort(c.key)}>
-                  {c.key === "winner" && provisional
-                    ? "Current leader"
-                    : c.label}{" "}
+                  {c.key === "name" && unitKind === "district"
+                    ? "District"
+                    : c.key === "winner" && provisional
+                      ? "Current leader"
+                      : c.label}{" "}
                   <span aria-hidden="true">
                     {key === c.key ? (direction === "asc" ? "↑" : "↓") : "↕"}
                   </span>

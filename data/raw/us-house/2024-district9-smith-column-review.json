@@ -1,0 +1,38 @@
+{
+  "candidate": "Quacy Smith",
+  "original_indexed_cells": [
+    "NA",
+    "NA",
+    "NA",
+    "NA",
+    "NA",
+    2065,
+    97093,
+    22998,
+    "NA",
+    "NA",
+    "NA",
+    "NA",
+    "NA",
+    "NA",
+    10484
+  ],
+  "actual_county_cells": {
+    "Apache": "NA",
+    "Cochise": "NA",
+    "Coconino": "NA",
+    "Gila": "NA",
+    "Graham": "NA",
+    "Greenlee": "NA",
+    "La Paz": 2065,
+    "Maricopa": 97093,
+    "Mohave": 22998,
+    "Navajo": "NA",
+    "Pima": "NA",
+    "Pinal": "NA",
+    "Santa Cruz": "NA",
+    "Yavapai": "NA",
+    "Yuma": 10484
+  },
+  "method": "Actual county precinct records, not a residual allocation. Original indexed county columns were shifted."
+}

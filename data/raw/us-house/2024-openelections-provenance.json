@@ -1,0 +1,96 @@
+{
+  "repository_commit": "bf14331521f62f74cb17848ab11ca3dfd27f4f82",
+  "authority": "OpenElections transcription of county results; district totals checked independently against House Clerk official statistics",
+  "members": [
+    {
+      "path": "2024/General/20241105__az__general__apache__precinct.csv",
+      "url": "https://raw.githubusercontent.com/openelections/openelections-data-az/bf14331521f62f74cb17848ab11ca3dfd27f4f82/2024/General/20241105__az__general__apache__precinct.csv",
+      "sha256": "cbc2bbff008f008b61cd955876665aee572aef873b1083208cd72450b3b56f5b",
+      "retrieved_at": "2026-10-27T18:08:32.158737+00:00"
+    },
+    {
+      "path": "2024/General/20241105__az__general__cochise__precinct.csv",
+      "url": "https://raw.githubusercontent.com/openelections/openelections-data-az/bf14331521f62f74cb17848ab11ca3dfd27f4f82/2024/General/20241105__az__general__cochise__precinct.csv",
+      "sha256": "184a997b1a3ce2a6f208a17f96d06d385c64a94ce5009d6f6a000befd69826b2",
+      "retrieved_at": "2026-10-27T18:08:32.354243+00:00"
+    },
+    {
+      "path": "2024/General/20241105__az__general__coconino__precinct.csv",
+      "url": "https://raw.githubusercontent.com/openelections/openelections-data-az/bf14331521f62f74cb17848ab11ca3dfd27f4f82/2024/General/20241105__az__general__coconino__precinct.csv",
+      "sha256": "45e8137cd555ddb1d6b7f7782af990d1c6226285b58cde71a6aebb26d2ddf532",
+      "retrieved_at": "2026-10-27T18:08:33.424539+00:00"
+    },
+    {
+      "path": "2024/General/20241105__az__general__gila__precinct.csv",
+      "url": "https://raw.githubusercontent.com/openelections/openelections-data-az/bf14331521f62f74cb17848ab11ca3dfd27f4f82/2024/General/20241105__az__general__gila__precinct.csv",
+      "sha256": "d3df64ccd2be37093c10ecb05ceee4f7071be65813b486f68df17529dbf4e934",
+      "retrieved_at": "2026-10-27T18:08:32.162762+00:00"
+    },
+    {
+      "path": "2024/General/20241105__az__general__graham__precinct.csv",
+      "url": "https://raw.githubusercontent.com/openelections/openelections-data-az/bf14331521f62f74cb17848ab11ca3dfd27f4f82/2024/General/20241105__az__general__graham__precinct.csv",
+      "sha256": "c76fa2d222fe9aadda2bf916215dc5894259a336790a2822c1bbb25774d01613",
+      "retrieved_at": "2026-10-27T18:08:32.304198+00:00"
+    },
+    {
+      "path": "2024/General/20241105__az__general__greenlee__precinct.csv",
+      "url": "https://raw.githubusercontent.com/openelections/openelections-data-az/bf14331521f62f74cb17848ab11ca3dfd27f4f82/2024/General/20241105__az__general__greenlee__precinct.csv",
+      "sha256": "64e29aefd4c25390bde7bd1ed0e1c14e664b70e3d1998a202d59dcafdb79af60",
+      "retrieved_at": "2026-10-27T18:08:32.504866+00:00"
+    },
+    {
+      "path": "2024/General/20241105__az__general__la paz__precinct.csv",
+      "url": "https://raw.githubusercontent.com/openelections/openelections-data-az/bf14331521f62f74cb17848ab11ca3dfd27f4f82/2024/General/20241105__az__general__la%20paz__precinct.csv",
+      "sha256": "ce23ac0e3ee18c2b9dd9891aa0143c1776fd6f119621569160061b30c20277ab",
+      "retrieved_at": "2026-10-27T18:08:32.538570+00:00"
+    },
+    {
+      "path": "2024/General/20241105__az__general__maricopa__precinct.csv",
+      "url": "https://raw.githubusercontent.com/openelections/openelections-data-az/bf14331521f62f74cb17848ab11ca3dfd27f4f82/2024/General/20241105__az__general__maricopa__precinct.csv",
+      "sha256": "d338c70e939df068e85c80fe7800732462a2673b09fbc128755c8bca6c486a8a",
+      "retrieved_at": "2026-10-27T18:08:33.421732+00:00"
+    },
+    {
+      "path": "2024/General/20241105__az__general__mohave__precinct.csv",
+      "url": "https://raw.githubusercontent.com/openelections/openelections-data-az/bf14331521f62f74cb17848ab11ca3dfd27f4f82/2024/General/20241105__az__general__mohave__precinct.csv",
+      "sha256": "4d37598f9200c19864a2f329c69291a78ed07d4e487597c6a5cef88eeddf1582",
+      "retrieved_at": "2026-10-27T18:08:33.015317+00:00"
+    },
+    {
+      "path": "2024/General/20241105__az__general__navajo__precinct.csv",
+      "url": "https://raw.githubusercontent.com/openelections/openelections-data-az/bf14331521f62f74cb17848ab11ca3dfd27f4f82/2024/General/20241105__az__general__navajo__precinct.csv",
+      "sha256": "4cc92e0acbf9d708351e2373efc4eb35a45312e4728409cb07f0cc10ca01b6fb",
+      "retrieved_at": "2026-10-27T18:08:32.918001+00:00"
+    },
+    {
+      "path": "2024/General/20241105__az__general__pima__precinct.csv",
+      "url": "https://raw.githubusercontent.com/openelections/openelections-data-az/bf14331521f62f74cb17848ab11ca3dfd27f4f82/2024/General/20241105__az__general__pima__precinct.csv",
+      "sha256": "54d3da9afa91ff75489e6ad7e7b8b8bf97c7dafce63c96814fac5c61ab76c683",
+      "retrieved_at": "2026-10-27T18:08:33.071207+00:00"
+    },
+    {
+      "path": "2024/General/20241105__az__general__pinal__precinct.csv",
+      "url": "https://raw.githubusercontent.com/openelections/openelections-data-az/bf14331521f62f74cb17848ab11ca3dfd27f4f82/2024/General/20241105__az__general__pinal__precinct.csv",
+      "sha256": "8318bcd03666fe8a33b2c2bc50725929b10fbdb6ac208348855ac0c29e12baae",
+      "retrieved_at": "2026-10-27T18:08:33.328102+00:00"
+    },
+    {
+      "path": "2024/General/20241105__az__general__santa_cruz__precinct.csv",
+      "url": "https://raw.githubusercontent.com/openelections/openelections-data-az/bf14331521f62f74cb17848ab11ca3dfd27f4f82/2024/General/20241105__az__general__santa_cruz__precinct.csv",
+      "sha256": "2d96337de51647a2e2bf1e0b193cb9ba12d0aaf6dbfc14fdffb2ef9ae8d9c96a",
+      "retrieved_at": "2026-10-27T18:08:33.817690+00:00"
+    },
+    {
+      "path": "2024/General/20241105__az__general__yavapai__precinct.csv",
+      "url": "https://raw.githubusercontent.com/openelections/openelections-data-az/bf14331521f62f74cb17848ab11ca3dfd27f4f82/2024/General/20241105__az__general__yavapai__precinct.csv",
+      "sha256": "767994edb9110770e05e3e8169ac4f2d60cb3712e5195f28445e5e722b2f54f5",
+      "retrieved_at": "2026-10-27T18:08:33.437982+00:00"
+    },
+    {
+      "path": "2024/General/20241105__az__general__yuma__precinct.csv",
+      "url": "https://raw.githubusercontent.com/openelections/openelections-data-az/bf14331521f62f74cb17848ab11ca3dfd27f4f82/2024/General/20241105__az__general__yuma__precinct.csv",
+      "sha256": "2af7e45ada3405a3caf74ed94ad9ee7d60dc1e6e21b366b1dab61bff822868e5",
+      "retrieved_at": "2026-10-27T18:08:33.751489+00:00"
+    }
+  ]
+}

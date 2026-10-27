@@ -1,0 +1,48 @@
+STATE OF ARIZONA OFFICIAL CANVASS (https://apps.azsos.gov/election/2018/2018_1203_signed_official_statewide_canvass.pdf)
+citeturn90search12 [wordlim: 200] Published: 7.9 years ago; STATE OF ARIZONA OFFICIAL CANVASS  
+2018 General Election - Nov 06, 2018 ... | (REP) Debbie Lesko * | --- | --- | --- | --- | --- | --- | --- | 168,835 | --- | --- | --- | --- | --- | --- | --- | 168,835 |
+STATE OF ARIZONA OFFICIAL CANVASS  
+2018 General Election - Nov 06, 2018  
+Compiled and Issued by the Arizona Secretary of State
+
+Report Date/Time: 11/30/2018 8:11:45 AM
+
+<table id="e1">
+
+| Contest / Candidate | Apache | Cochise | Coconino | Gila | Graham | Greenlee | La Paz | Maricopa | Mohave | Navajo | Pima | Pinal | Santa Cruz | Yavapai | Yuma | TOTAL |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| **U.S. Representative in Congress - District No. 5** | | | | | | | | | | | | | | | | |
+| (REP) Andy Biggs * | --- | --- | --- | --- | --- | --- | --- | 186,037 | --- | --- | --- | --- | --- | --- | --- | 186,037 |
+| (DEM) Joan Greene | --- | --- | --- | --- | --- | --- | --- | 127,027 | --- | --- | --- | --- | --- | --- | --- | 127,027 |
+| **U.S. Representative in Congress - District No. 6** | | | | | | | | | | | | | | | | |
+| (REP) David Schweikert * | --- | --- | --- | --- | --- | --- | --- | 173,140 | --- | --- | --- | --- | --- | --- | --- | 173,140 |
+| (DEM) Anita Malik | --- | --- | --- | --- | --- | --- | --- | 140,559 | --- | --- | --- | --- | --- | --- | --- | 140,559 |
+| **U.S. Representative in Congress - District No. 7** | | | | | | | | | | | | | | | | |
+| (REP) James "007" Bond IV (Write-In) | --- | --- | --- | --- | --- | --- | --- | 301 | --- | --- | --- | --- | --- | --- | --- | 301 |
+| (DEM) Ruben Gallego * | --- | --- | --- | --- | --- | --- | --- | 113,044 | --- | --- | --- | --- | --- | --- | --- | 113,044 |
+| (GRN) Gary Swing | --- | --- | --- | --- | --- | --- | --- | 18,706 | --- | --- | --- | --- | --- | --- | --- | 18,706 |
+| **U.S. Representative in Congress - District No. 8** | | | | | | | | | | | | | | | | |
+| (REP) Debbie Lesko * | --- | --- | --- | --- | --- | --- | --- | 168,835 | --- | --- | --- | --- | --- | --- | --- | 168,835 |
+| (DEM) Hiral Tipirneni | --- | --- | --- | --- | --- | --- | --- | 135,569 | --- | --- | --- | --- | --- | --- | --- | 135,569 |
+| (NPP) Steven Hummel (Write-In) | --- | --- | --- | --- | --- | --- | --- | 13 | --- | --- | --- | --- | --- | --- | --- | 13 |
+| **U.S. Representative in Congress - District No. 9** | | | | | | | | | | | | | | | | |
+| (REP) Stephen L Ferrara | --- | --- | --- | --- | --- | --- | --- | 101,662 | --- | --- | --- | --- | --- | --- | --- | 101,662 |
+| (DEM) Greg Stanton * | --- | --- | --- | --- | --- | --- | --- | 159,583 | --- | --- | --- | --- | --- | --- | --- | 159,583 |
+| **Governor** | | | | | | | | | | | | | | | | |
+| (REP) Doug Ducey * | 9,175 | 29,638 | 22,778 | 14,444 | 7,776 | 1,637 | 3,852 | 800,210 | 56,682 | 21,880 | 184,621 | 75,272 | 4,792 | 74,148 | 23,958 | 1,330,863 |
+| (DEM) David Garcia | 14,955 | 14,576 | 30,712 | 5,623 | 2,569 | 832 | 1,122 | 603,055 | 13,580 | 13,646 | 195,227 | 38,801 | 8,407 | 32,159 | 19,077 | 994,341 |
+| (GRN) Cary D. Dolego (Write-In) | 3 | 1 | 1 | 0 | 0 | 0 | 0 | 5 | 0 | 2 | 2 | 0 | 0 | 0 | 0 | 13 |
+| (GRN) Angel Torres | 912 | 1,201 | 1,440 | 468 | 276 | 80 | 129 | 29,495 | 1,325 | 1,055 | 8,678 | 2,767 | 261 | 2,029 | 846 | 50,962 |
+| (RTO) Arthur Ray "RT" Arvizu (Write-In) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 5 | 0 | 0 | 2 | 3 | 0 | 2 | 0 | 12 |
+| (HUM) James "MarvelMan" Gibson II (Write-In) | 0 | 2 | 1 | 0 | 0 | 0 | 0 | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 7 |
+| (NONE) Christian Komor (Write-In) | 2 | 3 | 5 | 0 | 1 | 0 | 0 | 36 | 3 | 0 | 8 | 3 | 0 | 5 | 0 | 66 |
+| (NONE) Patrick Masoya (Write-In) | 2 | 3 | 9 | 0 | 2 | 0 | 0 | 128 | 3 | 4 | 16 | 6 | 0 | 1 | 3 | 177 |
+| **State Senator - District No. 1** | | | | | | | | | | | | | | | | |
+| (REP) Karen Fann * | --- | --- | --- | --- | --- | --- | --- | 21,904 | --- | --- | --- | --- | --- | 54,952 | --- | 76,856 |
+| (DEM) Jo Craycraft | --- | --- | --- | --- | --- | --- | --- | 10,475 | --- | --- | --- | --- | --- | 23,079 | --- | 33,554 |
+
+</table>
+
+* Winner
+
+Page 2

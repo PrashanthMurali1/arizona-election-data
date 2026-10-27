@@ -93,7 +93,11 @@ export default function Home() {
                               ?.office
                           }
                         </h3>
-                        <span className="muted">Statewide office</span>
+                        <span className="muted">
+                          {office === "us-house"
+                            ? "Congressional districts"
+                            : "Statewide office"}
+                        </span>
                         <span className="office-rule" />
                       </div>
                       <div className="election-grid">
@@ -113,10 +117,19 @@ export default function Home() {
                                 <Availability status={e.status} />
                               </div>
                               <strong className="card-year">{e.year}</strong>
-                              <h3>Arizona {e.office}</h3>
+                              <h3>
+                                Arizona {e.office}
+                                {e.district_label
+                                  ? ` · ${e.district_label}`
+                                  : ""}
+                              </h3>
                               <p>
-                                {e.status === "verified"
-                                  ? `${e.county_count} counties · ${e.candidate_count} candidates`
+                                {e.status === "civicapi"
+                                  ? `${e.district_count ?? 1} special-election district · civicAPI candidate report · ${e.date}`
+                                  : e.status === "verified"
+                                  ? e.district_count !== undefined
+                                    ? `${e.district_count} ${e.district_count === 1 ? "district" : "districts"} · ${e.candidate_count} candidates${e.kind === "special" ? ` · ${e.date}` : ""}`
+                                    : `${e.county_count} counties · ${e.candidate_count} candidates`
                                   : e.status === "pre_results"
                                     ? "General-election participation · candidate results not released"
                                     : e.status === "unofficial"
@@ -125,7 +138,9 @@ export default function Home() {
                               </p>
                               <div className="card-bottom">
                                 <span>
-                                  {e.status === "verified"
+                                  {e.status === "civicapi"
+                                    ? "Explore civicAPI report"
+                                    : e.status === "verified"
                                     ? "Explore results"
                                     : e.status === "pre_results"
                                       ? "Explore early voting"
@@ -148,11 +163,10 @@ export default function Home() {
                 ✓
               </span>
               <div>
-                <h3>Built on the official record.</h3>
+                <h3>Sources are clear for every election.</h3>
                 <p>
-                  County results are reconciled against published statewide
-                  totals. Every election includes its sources and verification
-                  status.
+                  Each results page identifies its data source and how its
+                  reported figures are presented.
                 </p>
               </div>
               <Link to="/methodology">Our methodology ↗</Link>

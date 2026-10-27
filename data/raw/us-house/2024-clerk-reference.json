@@ -1,0 +1,184 @@
+[
+  {
+    "district": 1,
+    "name": "David Schweikert",
+    "party_text": "Republican",
+    "write_in": false,
+    "votes": 225538
+  },
+  {
+    "district": 1,
+    "name": "Amish Shah",
+    "party_text": "Democrat",
+    "write_in": false,
+    "votes": 208966
+  },
+  {
+    "district": 2,
+    "name": "Elijah Crane",
+    "party_text": "Republican",
+    "write_in": false,
+    "votes": 221413
+  },
+  {
+    "district": 2,
+    "name": "Jonathan Nez",
+    "party_text": "Democrat",
+    "write_in": false,
+    "votes": 184963
+  },
+  {
+    "district": 2,
+    "name": "Richard William Ester",
+    "party_text": "Write-in (Independent)",
+    "write_in": true,
+    "votes": 28
+  },
+  {
+    "district": 2,
+    "name": "David Alexander",
+    "party_text": "Write-in (Democratic)",
+    "write_in": true,
+    "votes": 22
+  },
+  {
+    "district": 2,
+    "name": "Charles “Charlie” Everette Holt, Jr.",
+    "party_text": "Write-in (None)",
+    "write_in": true,
+    "votes": 5
+  },
+  {
+    "district": 3,
+    "name": "Jeff Zink",
+    "party_text": "Republican",
+    "write_in": false,
+    "votes": 53705
+  },
+  {
+    "district": 3,
+    "name": "Yassamin Ansari",
+    "party_text": "Democrat",
+    "write_in": false,
+    "votes": 143336
+  },
+  {
+    "district": 3,
+    "name": "Alan Aversa",
+    "party_text": "Green",
+    "write_in": false,
+    "votes": 5008
+  },
+  {
+    "district": 3,
+    "name": "Candace Cunningham",
+    "party_text": "Write-in (Green)",
+    "write_in": true,
+    "votes": 16
+  },
+  {
+    "district": 4,
+    "name": "Kelly Cooper",
+    "party_text": "Republican",
+    "write_in": false,
+    "votes": 152052
+  },
+  {
+    "district": 4,
+    "name": "Greg Stanton",
+    "party_text": "Democrat",
+    "write_in": false,
+    "votes": 176428
+  },
+  {
+    "district": 4,
+    "name": "Vincent Beck-Jones",
+    "party_text": "Green",
+    "write_in": false,
+    "votes": 6065
+  },
+  {
+    "district": 5,
+    "name": "Andy Biggs",
+    "party_text": "Republican",
+    "write_in": false,
+    "votes": 255628
+  },
+  {
+    "district": 5,
+    "name": "Katrina Schaffner",
+    "party_text": "Democrat",
+    "write_in": false,
+    "votes": 167680
+  },
+  {
+    "district": 6,
+    "name": "Juan Ciscomani",
+    "party_text": "Republican",
+    "write_in": false,
+    "votes": 215596
+  },
+  {
+    "district": 6,
+    "name": "Kirsten Engel",
+    "party_text": "Democrat",
+    "write_in": false,
+    "votes": 204774
+  },
+  {
+    "district": 6,
+    "name": "Athena Eastwood",
+    "party_text": "Green",
+    "write_in": false,
+    "votes": 10759
+  },
+  {
+    "district": 6,
+    "name": "Luis Pozzolo",
+    "party_text": "Write-in (Independent)",
+    "write_in": true,
+    "votes": 91
+  },
+  {
+    "district": 7,
+    "name": "Daniel Francis Butierez, Sr.",
+    "party_text": "Republican",
+    "write_in": false,
+    "votes": 99057
+  },
+  {
+    "district": 7,
+    "name": "Raúl M. Grijalva",
+    "party_text": "Democrat",
+    "write_in": false,
+    "votes": 171954
+  },
+  {
+    "district": 8,
+    "name": "Abraham “Abe” Hamadeh",
+    "party_text": "Republican",
+    "write_in": false,
+    "votes": 208269
+  },
+  {
+    "district": 8,
+    "name": "Gregory Whitten",
+    "party_text": "Democrat",
+    "write_in": false,
+    "votes": 160344
+  },
+  {
+    "district": 9,
+    "name": "Paul A. Gosar",
+    "party_text": "Republican",
+    "write_in": false,
+    "votes": 249583
+  },
+  {
+    "district": 9,
+    "name": "Quacy Smith",
+    "party_text": "Democrat",
+    "write_in": false,
+    "votes": 132640
+  }
+]

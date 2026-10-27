@@ -1,0 +1,30 @@
+district,party,name,write_in,04001,04003,04005,04007,04009,04011,04012,04013,04015,04017,04019,04021,04023,04025,04027,official_total,source_id
+1,DEM,Tom O'Halleran,false,23605,NA,44842,4902,4436,1380,NA,554,265,24205,32078,43034,NA,9168,NA,188469,house-2020-canvass
+1,REP,Tiffany Shedd,false,11110,NA,26800,4427,10153,2226,NA,93,116,26371,37473,48324,NA,9616,NA,176709,house-2020-canvass
+2,IND,Iman Bah,true,NA,28,NA,NA,NA,NA,NA,NA,NA,NA,71,NA,NA,NA,NA,99,house-2020-canvass
+2,DEM,Ann Kirkpatrick,false,NA,24288,NA,NA,NA,NA,NA,NA,NA,NA,185657,NA,NA,NA,NA,209945,house-2020-canvass
+2,REP,Brandon Martin,false,NA,34796,NA,NA,NA,NA,NA,NA,NA,NA,136179,NA,NA,NA,NA,170975,house-2020-canvass
+2,CSM,Brandon Schlass,true,NA,6,NA,NA,NA,NA,NA,NA,NA,NA,29,NA,NA,NA,NA,35,house-2020-canvass
+3,DEM,Raúl Grijalva,false,NA,NA,NA,NA,NA,NA,NA,56986,NA,NA,80121,139,13493,NA,23504,174243,house-2020-canvass
+3,REP,Daniel Wood,false,NA,NA,NA,NA,NA,NA,NA,40521,NA,NA,34808,10,5729,NA,14526,95594,house-2020-canvass
+4,LBT,Brett Brennan,true,NA,NA,NA,3,NA,NA,1,7,12,NA,NA,11,NA,29,4,67,house-2020-canvass
+4,DEM,Delina DiSanto,false,NA,NA,NA,4288,NA,NA,2042,10982,23394,NA,NA,31579,NA,38687,9512,120484,house-2020-canvass
+4,REP,Paul Gosar,false,NA,NA,NA,13501,NA,NA,5063,23060,76395,NA,NA,57507,NA,81887,20589,278002,house-2020-canvass
+4,DEM,Miko Jones,true,NA,NA,NA,0,NA,NA,3,0,6,NA,NA,5,NA,2,3,19,house-2020-canvass
+4,REP,Don Overholser,true,NA,NA,NA,1,NA,NA,0,1,1,NA,NA,0,NA,1,1,5,house-2020-canvass
+4,IND,Ana Perez Gissy,true,NA,NA,NA,4,NA,NA,0,0,12,NA,NA,6,NA,15,2,39,house-2020-canvass
+4,IND,Emily Robinson,true,NA,NA,NA,3,NA,NA,0,0,0,NA,NA,0,NA,4,0,7,house-2020-canvass
+5,REP,Andy Biggs,false,NA,NA,NA,NA,NA,NA,NA,262414,NA,NA,NA,NA,NA,NA,NA,262414,house-2020-canvass
+5,DEM,Joan Greene,false,NA,NA,NA,NA,NA,NA,NA,183171,NA,NA,NA,NA,NA,NA,NA,183171,house-2020-canvass
+5,REP,Karen Stephens,true,NA,NA,NA,NA,NA,NA,NA,72,NA,NA,NA,NA,NA,NA,NA,72,house-2020-canvass
+6,REP,David Schweikert,false,NA,NA,NA,NA,NA,NA,NA,217783,NA,NA,NA,NA,NA,NA,NA,217783,house-2020-canvass
+6,DEM,Hiral Tipirneni,false,NA,NA,NA,NA,NA,NA,NA,199644,NA,NA,NA,NA,NA,NA,NA,199644,house-2020-canvass
+7,REP,Joshua Barnett,false,NA,NA,NA,NA,NA,NA,NA,50226,NA,NA,NA,NA,NA,NA,NA,50226,house-2020-canvass
+7,DEM,Ruben Gallego,false,NA,NA,NA,NA,NA,NA,NA,165452,NA,NA,NA,NA,NA,NA,NA,165452,house-2020-canvass
+7,REP,J.Travis Kirkham,true,NA,NA,NA,NA,NA,NA,NA,3,NA,NA,NA,NA,NA,NA,NA,3,house-2020-canvass
+7,LBT,Roxanne Rodriguez,true,NA,NA,NA,NA,NA,NA,NA,51,NA,NA,NA,NA,NA,NA,NA,51,house-2020-canvass
+8,IND,Taliban Hendrix,true,NA,NA,NA,NA,NA,NA,NA,18,NA,NA,NA,NA,NA,NA,NA,18,house-2020-canvass
+8,REP,Debbie Lesko,false,NA,NA,NA,NA,NA,NA,NA,251633,NA,NA,NA,NA,NA,NA,NA,251633,house-2020-canvass
+8,DEM,Michael Muscato,false,NA,NA,NA,NA,NA,NA,NA,170816,NA,NA,NA,NA,NA,NA,NA,170816,house-2020-canvass
+9,REP,Dave Giles,false,NA,NA,NA,NA,NA,NA,NA,135180,NA,NA,NA,NA,NA,NA,NA,135180,house-2020-canvass
+9,DEM,Greg Stanton,false,NA,NA,NA,NA,NA,NA,NA,217094,NA,NA,NA,NA,NA,NA,NA,217094,house-2020-canvass

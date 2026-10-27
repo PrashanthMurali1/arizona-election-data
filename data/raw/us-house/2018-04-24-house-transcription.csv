@@ -1,0 +1,4 @@
+district,party,name,write_in,category,04001,04003,04005,04007,04009,04011,04012,04013,04015,04017,04019,04021,04023,04025,04027,official_total,source_id
+8,REP,Debbie Lesko,false,named_candidate,NA,NA,NA,NA,NA,NA,NA,96012,NA,NA,NA,NA,NA,NA,NA,,house-2018-04-24-review
+8,DEM,Hiral Tipirneni,false,named_candidate,NA,NA,NA,NA,NA,NA,NA,87331,NA,NA,NA,NA,NA,NA,NA,,house-2018-04-24-review
+8,NONE,Write-In Candidate (eligibility unresolved),true,aggregate_write_in_unresolved,NA,NA,NA,NA,NA,NA,NA,636,NA,NA,NA,NA,NA,NA,NA,,house-2018-04-24-review

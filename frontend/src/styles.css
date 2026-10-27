@@ -700,6 +700,8 @@ select {
 }
 .table-scroll {
   width: 100%;
+  min-width: 0;
+  max-width: 100%;
   overflow-x: auto;
   overscroll-behavior-x: contain;
 }
@@ -903,6 +905,7 @@ td:nth-child(4) {
   margin: 22px 0;
 }
 .sources-grid a {
+  min-width: 0;
   border: 1px solid var(--line);
   border-radius: 6px;
   padding: 20px;
@@ -926,6 +929,7 @@ td:nth-child(4) {
   font-size: 11px;
   color: var(--muted);
   line-height: 1.7;
+  overflow-wrap: anywhere;
 }
 .sources > a {
   font-size: 12px;

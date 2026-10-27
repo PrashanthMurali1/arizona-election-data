@@ -1,0 +1,27 @@
+district,party,name,write_in,04001,04003,04005,04007,04009,04011,04012,04013,04015,04017,04019,04021,04023,04025,04027,official_total,source_id
+1,REP,David Schweikert,false,NA,NA,NA,NA,NA,NA,NA,225538,NA,NA,NA,NA,NA,NA,NA,225538,house-2024-canvass
+1,DEM,Amish Shah,false,NA,NA,NA,NA,NA,NA,NA,208966,NA,NA,NA,NA,NA,NA,NA,208966,house-2024-canvass
+2,REP,Eli Crane,false,9792,NA,24602,17584,101,NA,NA,99,87,26635,NA,46905,NA,95608,NA,221413,house-2024-canvass
+2,DEM,Jonathan Nez,false,22012,NA,43868,8994,1039,NA,NA,490,228,23273,NA,34964,NA,50095,NA,184963,house-2024-canvass
+2,DEM,David Alexander,true,2,NA,4,2,0,NA,NA,0,0,1,NA,3,NA,10,NA,22,house-2024-canvass
+2,IND,Richard William Ester,true,1,NA,4,5,0,NA,NA,0,0,1,NA,4,NA,13,NA,28,house-2024-canvass
+2,NON,"Charles ""Charlie"" Everette Holt Jr.",true,0,NA,2,0,0,NA,NA,0,0,0,NA,0,NA,3,NA,5,house-2024-canvass
+3,REP,Jeff Zink,false,NA,NA,NA,NA,NA,NA,NA,53705,NA,NA,NA,NA,NA,NA,NA,53705,house-2024-canvass
+3,DEM,Yassamin Ansari,false,NA,NA,NA,NA,NA,NA,NA,143336,NA,NA,NA,NA,NA,NA,NA,143336,house-2024-canvass
+3,GRN,Alan Aversa,false,NA,NA,NA,NA,NA,NA,NA,5008,NA,NA,NA,NA,NA,NA,NA,5008,house-2024-canvass
+3,GRN,Candace Cunningham,true,NA,NA,NA,NA,NA,NA,NA,16,NA,NA,NA,NA,NA,NA,NA,16,house-2024-canvass
+4,REP,Kelly Cooper,false,NA,NA,NA,NA,NA,NA,NA,152052,NA,NA,NA,NA,NA,NA,NA,152052,house-2024-canvass
+4,DEM,Greg Stanton,false,NA,NA,NA,NA,NA,NA,NA,176428,NA,NA,NA,NA,NA,NA,NA,176428,house-2024-canvass
+4,GRN,Vincent Beck-Jones,false,NA,NA,NA,NA,NA,NA,NA,6065,NA,NA,NA,NA,NA,NA,NA,6065,house-2024-canvass
+5,REP,Andy Biggs,false,NA,NA,NA,NA,NA,NA,NA,202984,NA,NA,NA,52644,NA,NA,NA,255628,house-2024-canvass
+5,DEM,Katrina Schaffner,false,NA,NA,NA,NA,NA,NA,NA,140694,NA,NA,NA,26986,NA,NA,NA,167680,house-2024-canvass
+6,REP,Juan Ciscomani,false,NA,30620,NA,NA,10534,2110,NA,NA,NA,NA,150660,21672,NA,NA,NA,215596,house-2024-canvass
+6,DEM,Kirsten Engel,false,NA,14983,NA,NA,2871,992,NA,NA,NA,NA,169358,16570,NA,NA,NA,204774,house-2024-canvass
+6,GRN,Athena Eastwood,false,NA,1479,NA,NA,336,106,NA,NA,NA,NA,7959,879,NA,NA,NA,10759,house-2024-canvass
+6,IND,Luis Pozzolo,true,NA,25,NA,NA,0,0,NA,NA,NA,NA,61,5,NA,NA,NA,91,house-2024-canvass
+7,REP,Daniel Francis Butierez Sr.,false,NA,3957,NA,NA,NA,NA,NA,13726,NA,NA,59306,1624,6793,NA,13651,99057,house-2024-canvass
+7,DEM,Raúl M. Grijalva,false,NA,6543,NA,NA,NA,NA,NA,22394,NA,NA,113269,847,11946,NA,16955,171954,house-2024-canvass
+8,REP,"Abraham ""Abe"" Hamadeh",false,NA,NA,NA,NA,NA,NA,NA,208269,NA,NA,NA,NA,NA,NA,NA,208269,house-2024-canvass
+8,DEM,Gregory Whitten,false,NA,NA,NA,NA,NA,NA,NA,160344,NA,NA,NA,NA,NA,NA,NA,160344,house-2024-canvass
+9,REP,Paul Gosar,false,NA,NA,NA,NA,NA,NA,5260,137529,82372,NA,NA,NA,NA,NA,24422,249583,house-2024-openelections
+9,DEM,Quacy Smith,false,NA,NA,NA,NA,NA,NA,2065,97093,22998,NA,NA,NA,NA,NA,10484,132640,house-2024-openelections

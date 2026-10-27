@@ -1,0 +1,38 @@
+THOMAS C. HORNE (https://apps.azsos.gov/election/2014/General/CourtOrderedRecountResults.pdf)
+citeturn95search12 [wordlim: 200] Published: 11.9 years ago; michele.forney@azag.gov ... ORDER RE: RECOUNT RESULTS ... A recount of the votes cast for Candidates Ron Barber and Martha McSally in the November 4, 2014 General Election for the office of U.S.
+THOMAS C. HORNE  
+Attorney General  
+Firm Bar No. 14000  
+
+Michele L. Forney (019775)  
+Assistant Attorney General  
+1275 West Washington Street  
+Phoenix, Arizona 85007-2926  
+Telephone: (602) 542-7826  
+Facsimile: (602) 542-8308  
+michele.forney@azag.gov  
+
+Attorneys for Petitioner Secretary of State Ken Bennett  
+
+IN THE SUPERIOR COURT OF THE STATE OF ARIZONA  
+IN AND FOR THE COUNTY OF MARICOPA  
+
+IN THE MATTER OF the November 4, 2014 General Election for the Office of U.S. Representative for Congressional District 2.
+
+Case No: CV2014-014445  
+
+ORDER RE: RECOUNT RESULTS  
+
+Priority Case—A.R.S. § 16-663(A)  
+
+(Assigned to the Hon. Katherine Cooper)  
+
+A recount of the votes cast for Candidates Ron Barber and Martha McSally in the November 4, 2014 General Election for the office of U.S. Representative for Congressional District 2 having been conducted according to law, and the results having been reported as follows:
+
+<table id="e1">
+<tr><th colspan="4">2014 General Election Recount<br>U.S. Rep. in Congress Dist. 2</th></tr>
+<tr><th>County</th><th>Precincts</th><th>Barber</th><th>McSally</th></tr>
+<tr><td>Cochise</td><td>49</td><td>14,677</td><td>21,737</td></tr>
+<tr><td>Pima</td><td>145</td><td>94,870</td><td>87,977</td></tr>
+<tr><td>Totals</td><td>194</td><td>109,547</td><td>109,714</td></tr>
+</table>

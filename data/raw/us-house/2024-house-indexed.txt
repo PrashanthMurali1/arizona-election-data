@@ -1,0 +1,169 @@
+STATE OF ARIZONA OFFICIAL CANVASS (https://apps.azsos.gov/election/2024/ge/canvass/20241105_GeneralCanvass_Signed.pdf)
+citeturn104search0 [wordlim: 200] Published: 1.9 years ago; Crawled: 1.9 years ago; STATE OF ARIZONA OFFICIAL CANVASS  
+2024 General Election - Nov 05, 2024 ... <td>(DEM) Jonathan Nez</td>
+STATE OF ARIZONA OFFICIAL CANVASS  
+2024 General Election - Nov 05, 2024  
+Compiled and Issued by the Arizona Secretary of State  
+Report Date/Time: 11/22/2024 7:04:17 PM
+
+<table id="e1">
+<tr>
+<th></th>
+<th>Apache</th>
+<th>Cochise</th>
+<th>Coconino</th>
+<th>Gila</th>
+<th>Graham</th>
+<th>Greenlee</th>
+<th>La Paz</th>
+<th>Maricopa</th>
+<th>Mohave</th>
+<th>Navajo</th>
+<th>Pima</th>
+<th>Pinal</th>
+<th>Santa Cruz</th>
+<th>Yavapai</th>
+<th>Yuma</th>
+<th>TOTAL</th>
+</tr>
+<tr>
+<td><b>U.S. Representative in Congress - District No. 2</b></td>
+<td colspan="16"></td>
+</tr>
+<tr>
+<td>(REP) Eli Crane *</td>
+<td>9,792</td><td>--</td><td>24,602</td><td>17,584</td><td>101</td><td>--</td><td>--</td><td>99</td><td>87</td><td>26,635</td><td>--</td><td>46,905</td><td>--</td><td>95,608</td><td>--</td><td>221,413</td>
+</tr>
+<tr>
+<td>(DEM) Jonathan Nez</td>
+<td>22,012</td><td>--</td><td>43,868</td><td>8,994</td><td>1,039</td><td>--</td><td>--</td><td>490</td><td>228</td><td>23,273</td><td>--</td><td>34,964</td><td>--</td><td>50,095</td><td>--</td><td>184,963</td>
+</tr>
+<tr>
+<td>(DEM) David Alexander (Write-In)</td>
+<td>2</td><td>--</td><td>4</td><td>2</td><td>0</td><td>--</td><td>--</td><td>0</td><td>0</td><td>1</td><td>--</td><td>3</td><td>--</td><td>10</td><td>--</td><td>22</td>
+</tr>
+<tr>
+<td>(IND) Richard William Ester (Write-In)</td>
+<td>1</td><td>--</td><td>4</td><td>5</td><td>0</td><td>--</td><td>--</td><td>0</td><td>0</td><td>1</td><td>--</td><td>4</td><td>--</td><td>13</td><td>--</td><td>28</td>
+</tr>
+<tr>
+<td>(NON) Charles "Charlie" Everette Holt Jr. (Write-In)</td>
+<td>0</td><td>--</td><td>2</td><td>0</td><td>0</td><td>--</td><td>--</td><td>0</td><td>0</td><td>0</td><td>--</td><td>0</td><td>--</td><td>3</td><td>--</td><td>5</td>
+</tr>
+
+<tr>
+<td><b>U.S. Representative in Congress - District No. 3</b></td>
+<td colspan="16"></td>
+</tr>
+<tr>
+<td>(REP) Jeff Zink</td>
+<td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>53,705</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>53,705</td>
+</tr>
+<tr>
+<td>(DEM) Yassamin Ansari *</td>
+<td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>143,336</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>143,336</td>
+</tr>
+<tr>
+<td>(GRN) Alan Aversa</td>
+<td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>5,008</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>5,008</td>
+</tr>
+<tr>
+<td>(GRN) Candace Cunningham (Write-In)</td>
+<td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>16</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>16</td>
+</tr>
+
+<tr>
+<td><b>U.S. Representative in Congress - District No. 4</b></td>
+<td colspan="16"></td>
+</tr>
+<tr>
+<td>(REP) Kelly Cooper</td>
+<td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>152,052</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>152,052</td>
+</tr>
+<tr>
+<td>(DEM) Greg Stanton *</td>
+<td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>176,428</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>176,428</td>
+</tr>
+<tr>
+<td>(GRN) Vincent Beck-Jones</td>
+<td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>6,065</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>6,065</td>
+</tr>
+
+<tr>
+<td><b>U.S. Representative in Congress - District No. 5</b></td>
+<td colspan="16"></td>
+</tr>
+<tr>
+<td>(REP) Andy Biggs *</td>
+<td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>202,984</td><td>--</td><td>--</td><td>--</td><td>52,644</td><td>--</td><td>--</td><td>--</td><td>255,628</td>
+</tr>
+<tr>
+<td>(DEM) Katrina Schaffner</td>
+<td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>140,694</td><td>--</td><td>--</td><td>--</td><td>26,986</td><td>--</td><td>--</td><td>--</td><td>167,680</td>
+</tr>
+
+<tr>
+<td><b>U.S. Representative in Congress - District No. 6</b></td>
+<td colspan="16"></td>
+</tr>
+<tr>
+<td>(REP) Juan Ciscomani *</td>
+<td>--</td><td>30,620</td><td>--</td><td>--</td><td>10,534</td><td>2,110</td><td>--</td><td>--</td><td>--</td><td>--</td><td>150,660</td><td>21,672</td><td>--</td><td>--</td><td>--</td><td>215,596</td>
+</tr>
+<tr>
+<td>(DEM) Kirsten Engel</td>
+<td>--</td><td>14,983</td><td>--</td><td>--</td><td>2,871</td><td>992</td><td>--</td><td>--</td><td>--</td><td>--</td><td>169,358</td><td>16,570</td><td>--</td><td>--</td><td>--</td><td>204,774</td>
+</tr>
+<tr>
+<td>(GRN) Athena Eastwood</td>
+<td>--</td><td>1,479</td><td>--</td><td>--</td><td>336</td><td>106</td><td>--</td><td>--</td><td>--</td><td>--</td><td>7,959</td><td>879</td><td>--</td><td>--</td><td>--</td><td>10,759</td>
+</tr>
+<tr>
+<td>(IND) Luis Pozzolo (Write-In)</td>
+<td>--</td><td>25</td><td>--</td><td>--</td><td>0</td><td>0</td><td>--</td><td>--</td><td>--</td><td>--</td><td>61</td><td>5</td><td>--</td><td>--</td><td>--</td><td>91</td>
+</tr>
+
+<tr>
+<td><b>U.S. Representative in Congress - District No. 7</b></td>
+<td colspan="16"></td>
+</tr>
+<tr>
+<td>(REP) Daniel Francis Butierez Sr.</td>
+<td>--</td><td>3,957</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>13,726</td><td>--</td><td>--</td><td>59,306</td><td>1,624</td><td>6,793</td><td>--</td><td>13,651</td><td>99,057</td>
+</tr>
+<tr>
+<td>(DEM) Raúl M. Grijalva *</td>
+<td>--</td><td>6,543</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>22,394</td><td>--</td><td>--</td><td>113,269</td><td>847</td><td>11,946</td><td>--</td><td>16,955</td><td>171,954</td>
+</tr>
+
+<tr>
+<td><b>U.S. Representative in Congress - District No. 8</b></td>
+<td colspan="16"></td>
+</tr>
+<tr>
+<td>(REP) Abraham "Abe" Hamadeh *</td>
+<td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>208,269</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>208,269</td>
+</tr>
+<tr>
+<td>(DEM) Gregory Whitten</td>
+<td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>160,344</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>160,344</td>
+</tr>
+
+<tr>
+<td><b>U.S. Representative in Congress - District No. 9</b></td>
+<td colspan="16"></td>
+</tr>
+<tr>
+<td>(REP) Paul Gosar *</td>
+<td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>5,260</td><td>137,529</td><td>82,372</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>24,422</td><td>249,583</td>
+</tr>
+<tr>
+<td>(DEM) Quacy Smith</td>
+<td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>2,065</td><td>97,093</td><td>22,998</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>10,484</td><td>132,640</td>
+</tr>
+</table>
+
+* Winner
+
+Page 6
+

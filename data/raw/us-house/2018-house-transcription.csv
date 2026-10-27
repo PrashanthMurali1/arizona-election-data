@@ -1,0 +1,25 @@
+district,party,name,write_in,04001,04003,04005,04007,04009,04011,04012,04013,04015,04017,04019,04021,04023,04025,04027,official_total,source_id
+1,REP,Wendy Rogers,false,8078,NA,18780,2812,6886,1379,NA,46,75,18331,28704,30650,NA,7043,NA,122784,house-2018-canvass
+1,DEM,Tom O'Halleran,false,16905,NA,35864,4022,3658,1160,NA,309,180,18018,24662,30465,NA,7997,NA,143240,house-2018-canvass
+1,IND,David Shock,true,10,NA,23,3,5,0,NA,0,0,4,4,13,NA,3,NA,65,house-2018-canvass
+2,REP,Melissa Grable,true,NA,12,NA,NA,NA,NA,NA,NA,NA,NA,7,NA,NA,NA,NA,19,house-2018-canvass
+2,REP,Lea Marquez Peterson,false,NA,26198,NA,NA,NA,NA,NA,NA,NA,NA,106885,NA,NA,NA,NA,133083,house-2018-canvass
+2,DEM,Ann Kirkpatrick,false,NA,18539,NA,NA,NA,NA,NA,NA,NA,NA,142461,NA,NA,NA,NA,161000,house-2018-canvass
+2,IND,Jordan Flayer,true,NA,17,NA,NA,NA,NA,NA,NA,NA,NA,33,NA,NA,NA,NA,50,house-2018-canvass
+3,REP,"Nicolas ""Nick"" Pierson",false,NA,NA,NA,NA,NA,NA,NA,25548,NA,NA,25722,4,4314,NA,9280,64868,house-2018-canvass
+3,DEM,Raúl Grijalva,false,NA,NA,NA,NA,NA,NA,NA,34698,NA,NA,56256,102,9109,NA,14485,114650,house-2018-canvass
+4,REP,Paul Gosar,false,NA,NA,NA,9794,NA,NA,3533,14639,52492,NA,NA,34481,NA,60246,13657,188842,house-2018-canvass
+4,DEM,David Brill,false,NA,NA,NA,3510,NA,NA,1399,6697,16873,NA,NA,19371,NA,30849,5822,84521,house-2018-canvass
+4,GRN,Haryaksha Gregor Knauer,false,NA,NA,NA,169,NA,NA,76,245,981,NA,NA,789,NA,1194,218,3672,house-2018-canvass
+5,REP,Andy Biggs,false,NA,NA,NA,NA,NA,NA,NA,186037,NA,NA,NA,NA,NA,NA,NA,186037,house-2018-canvass
+5,DEM,Joan Greene,false,NA,NA,NA,NA,NA,NA,NA,127027,NA,NA,NA,NA,NA,NA,NA,127027,house-2018-canvass
+6,REP,David Schweikert,false,NA,NA,NA,NA,NA,NA,NA,173140,NA,NA,NA,NA,NA,NA,NA,173140,house-2018-canvass
+6,DEM,Anita Malik,false,NA,NA,NA,NA,NA,NA,NA,140559,NA,NA,NA,NA,NA,NA,NA,140559,house-2018-canvass
+7,REP,"James ""007"" Bond IV",true,NA,NA,NA,NA,NA,NA,NA,301,NA,NA,NA,NA,NA,NA,NA,301,house-2018-canvass
+7,DEM,Ruben Gallego,false,NA,NA,NA,NA,NA,NA,NA,113044,NA,NA,NA,NA,NA,NA,NA,113044,house-2018-canvass
+7,GRN,Gary Swing,false,NA,NA,NA,NA,NA,NA,NA,18706,NA,NA,NA,NA,NA,NA,NA,18706,house-2018-canvass
+8,REP,Debbie Lesko,false,NA,NA,NA,NA,NA,NA,NA,168835,NA,NA,NA,NA,NA,NA,NA,168835,house-2018-canvass
+8,DEM,Hiral Tipirneni,false,NA,NA,NA,NA,NA,NA,NA,135569,NA,NA,NA,NA,NA,NA,NA,135569,house-2018-canvass
+8,NPP,Steven Hummel,true,NA,NA,NA,NA,NA,NA,NA,13,NA,NA,NA,NA,NA,NA,NA,13,house-2018-canvass
+9,REP,Stephen L Ferrara,false,NA,NA,NA,NA,NA,NA,NA,101662,NA,NA,NA,NA,NA,NA,NA,101662,house-2018-canvass
+9,DEM,Greg Stanton,false,NA,NA,NA,NA,NA,NA,NA,159583,NA,NA,NA,NA,NA,NA,NA,159583,house-2018-canvass

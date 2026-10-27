@@ -1,0 +1,30 @@
+district,party,name,write_in,04001,04003,04005,04007,04009,04011,04012,04013,04015,04017,04019,04021,04023,04025,04027,official_total,source_id
+1,DEM,Ann Kirkpatrick,false,15539,NA,23035,3165,2367,925,NA,121,93,13989,15330,17959,NA,4868,NA,97391,house-2014-canvass
+1,REP,Andy Tobin,false,5242,NA,13561,2357,4748,960,NA,28,51,13041,20837,21390,NA,5508,NA,87723,house-2014-canvass
+2,DEM,Ron Barber,false,NA,14677,NA,NA,NA,NA,NA,NA,NA,NA,94870,NA,NA,NA,NA,109547,house-2014-recount
+2,NONE,Sampson U. Ramirez,true,NA,2,NA,NA,NA,NA,NA,NA,NA,NA,54,NA,NA,NA,NA,56,house-2014-canvass
+2,REP,Sydney Dudikoff,true,NA,5,NA,NA,NA,NA,NA,NA,NA,NA,43,NA,NA,NA,NA,48,house-2014-canvass
+2,REP,Martha McSally,false,NA,21737,NA,NA,NA,NA,NA,NA,NA,NA,87977,NA,NA,NA,NA,109714,house-2014-recount
+3,DEM,Raul Grijalva,false,NA,NA,NA,NA,NA,NA,NA,14052,NA,NA,30980,61,5841,NA,7258,58192,house-2014-canvass
+3,IND,F. Sanchez,true,NA,NA,NA,NA,NA,NA,NA,3,NA,NA,32,0,0,NA,8,43,house-2014-canvass
+3,REP,Gabby Saucedo Mercer,false,NA,NA,NA,NA,NA,NA,NA,16010,NA,NA,19611,5,3552,NA,7007,46185,house-2014-canvass
+3,MRK,Lee Thompson,true,NA,NA,NA,NA,NA,NA,NA,2,NA,NA,6,0,0,NA,0,8,house-2014-canvass
+4,DEM,Mike Weisser,false,NA,NA,NA,2222,NA,NA,799,2566,10280,NA,NA,9347,NA,16946,3019,45179,house-2014-canvass
+4,LBT,Chris Rike,false,NA,NA,NA,437,NA,NA,167,479,1934,NA,NA,1479,NA,2531,413,7440,house-2014-canvass
+4,REP,Paul Gosar,false,NA,NA,NA,7306,NA,NA,2447,7657,33472,NA,NA,20035,NA,42948,8695,122560,house-2014-canvass
+5,DEM,James Woods,false,NA,NA,NA,NA,NA,NA,NA,54596,NA,NA,NA,NA,NA,NA,NA,54596,house-2014-canvass
+5,REP,Matt Salmon,false,NA,NA,NA,NA,NA,NA,NA,124867,NA,NA,NA,NA,NA,NA,NA,124867,house-2014-canvass
+6,DEM,W. John Williamson,false,NA,NA,NA,NA,NA,NA,NA,70198,NA,NA,NA,NA,NA,NA,NA,70198,house-2014-canvass
+6,REP,David Schweikert,false,NA,NA,NA,NA,NA,NA,NA,129578,NA,NA,NA,NA,NA,NA,NA,129578,house-2014-canvass
+7,AEL,Rebecca DeWitt,false,NA,NA,NA,NA,NA,NA,NA,3858,NA,NA,NA,NA,NA,NA,NA,3858,house-2014-canvass
+7,DEM,Ruben Gallego,false,NA,NA,NA,NA,NA,NA,NA,54235,NA,NA,NA,NA,NA,NA,NA,54235,house-2014-canvass
+7,DEM,Gustavo Ortega,true,NA,NA,NA,NA,NA,NA,NA,17,NA,NA,NA,NA,NA,NA,NA,17,house-2014-canvass
+7,IND,Samuel Esquivel,true,NA,NA,NA,NA,NA,NA,NA,4,NA,NA,NA,NA,NA,NA,NA,4,house-2014-canvass
+7,JOS,José Peñalosa,false,NA,NA,NA,NA,NA,NA,NA,3496,NA,NA,NA,NA,NA,NA,NA,3496,house-2014-canvass
+7,LBT,Joe Cobb,false,NA,NA,NA,NA,NA,NA,NA,10715,NA,NA,NA,NA,NA,NA,NA,10715,house-2014-canvass
+7,REP,Gary Dunn,true,NA,NA,NA,NA,NA,NA,NA,129,NA,NA,NA,NA,NA,NA,NA,129,house-2014-canvass
+8,AEL,Stephen Dolgos,false,NA,NA,NA,NA,NA,NA,NA,41066,NA,NA,NA,NA,NA,NA,NA,41066,house-2014-canvass
+8,REP,Trent Franks,false,NA,NA,NA,NA,NA,NA,NA,128710,NA,NA,NA,NA,NA,NA,NA,128710,house-2014-canvass
+9,DEM,Kyrsten Sinema,false,NA,NA,NA,NA,NA,NA,NA,88609,NA,NA,NA,NA,NA,NA,NA,88609,house-2014-canvass
+9,LBT,Powell Gammill,false,NA,NA,NA,NA,NA,NA,NA,5612,NA,NA,NA,NA,NA,NA,NA,5612,house-2014-canvass
+9,REP,Wendy Rogers,false,NA,NA,NA,NA,NA,NA,NA,67841,NA,NA,NA,NA,NA,NA,NA,67841,house-2014-canvass

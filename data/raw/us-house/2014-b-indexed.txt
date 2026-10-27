@@ -1,0 +1,153 @@
+STATE OF ARIZONA OFFICIAL CANVASS (https://apps.azsos.gov/election/2014/general/Canvass2014GE.pdf)
+citeturn89search13 [wordlim: 200] Published: 11.9 years ago; STATE OF ARIZONA OFFICIAL CANVASS  
+2014 General Election - November 4, 2014 ... <td>(DEM) Kyrsten Sinema *</td>
+STATE OF ARIZONA OFFICIAL CANVASS  
+2014 General Election - November 4, 2014  
+Compiled and Issued by the Arizona Secretary of State
+
+Report Date/Time: 12/01/2014 07:31 AM  
+Page Number 2
+
+<table id="e1">
+<tr>
+<th></th>
+<th>Apache</th>
+<th>Cochise</th>
+<th>Coconino</th>
+<th>Gila</th>
+<th>Graham</th>
+<th>Greenlee</th>
+<th>La Paz</th>
+<th>Maricopa</th>
+<th>Mohave</th>
+<th>Navajo</th>
+<th>Pima</th>
+<th>Pinal</th>
+<th>Santa Cruz</th>
+<th>Yavapai</th>
+<th>Yuma</th>
+<th>TOTAL</th>
+</tr>
+<tr>
+<td><b>U.S. REPRESENTATIVE IN CONGRESS - DISTRICT NO. 7</b></td>
+<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+</tr>
+<tr>
+<td>(AEL) Rebecca DeWitt</td>
+<td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>3,858</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>3,858</td>
+</tr>
+<tr>
+<td>(DEM) Ruben Gallego *</td>
+<td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>54,235</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>54,235</td>
+</tr>
+<tr>
+<td>(DEM) Gustavo Ortega (Write-In)</td>
+<td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>17</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>17</td>
+</tr>
+<tr>
+<td>(IND) Samuel Esquivel (Write-In)</td>
+<td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>4</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>4</td>
+</tr>
+<tr>
+<td>(JOS) José Peñalosa</td>
+<td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>3,496</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>3,496</td>
+</tr>
+<tr>
+<td>(LBT) Joe Cobb</td>
+<td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>10,715</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>10,715</td>
+</tr>
+<tr>
+<td>(REP) Gary Dunn (Write-In)</td>
+<td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>129</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>129</td>
+</tr>
+
+<tr>
+<td><b>U.S. REPRESENTATIVE IN CONGRESS - DISTRICT NO. 8</b></td>
+<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+</tr>
+<tr>
+<td>(AEL) Stephen Dolgos</td>
+<td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>41,066</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>41,066</td>
+</tr>
+<tr>
+<td>(REP) Trent Franks *</td>
+<td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>128,710</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>128,710</td>
+</tr>
+
+<tr>
+<td><b>U.S. REPRESENTATIVE IN CONGRESS - DISTRICT NO. 9</b></td>
+<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+</tr>
+<tr>
+<td>(DEM) Kyrsten Sinema *</td>
+<td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>88,609</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>88,609</td>
+</tr>
+<tr>
+<td>(LBT) Powell Gammill</td>
+<td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>5,612</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>5,612</td>
+</tr>
+<tr>
+<td>(REP) Wendy Rogers</td>
+<td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>67,841</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>67,841</td>
+</tr>
+
+<tr>
+<td><b>GOVERNOR</b></td>
+<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+</tr>
+<tr>
+<td>(AEL) John Lewis Mealer</td>
+<td>458</td><td>457</td><td>496</td><td>202</td><td>90</td><td>29</td><td>53</td><td>8,167</td><td>604</td><td>553</td><td>2,312</td><td>832</td><td>90</td><td>820</td><td>269</td><td>15,432</td>
+</tr>
+<tr>
+<td>(DEM) Fred DuVal</td>
+<td>13,562</td><td>12,709</td><td>20,212</td><td>5,253</td><td>1,919</td><td>792</td><td>846</td><td>346,879</td><td>10,662</td><td>12,128</td><td>136,302</td><td>26,131</td><td>5,819</td><td>23,210</td><td>10,497</td><td>626,921</td>
+</tr>
+<tr>
+<td>(IND) Brian Bailey (Write-In)</td>
+<td>2</td><td>0</td><td>12</td><td>0</td><td>0</td><td>0</td><td>1</td><td>21</td><td>2</td><td>3</td><td>6</td><td>0</td><td>0</td><td>3</td><td>0</td><td>50</td>
+</tr>
+<tr>
+<td>(IND) Cary Dolego (Write-In)</td>
+<td>0</td><td>0</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>20</td><td>0</td><td>1</td><td>6</td><td>0</td><td>0</td><td>0</td><td>0</td><td>29</td>
+</tr>
+<tr>
+<td>(IND) Diana-Elizabeth R.R. Kennedy (Write-In)</td>
+<td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>1</td><td>3</td><td>0</td><td>0</td><td>1</td><td>0</td><td>7</td>
+</tr>
+<tr>
+<td>(LBT) Barry J. Hess</td>
+<td>684</td><td>1,611</td><td>1,650</td><td>769</td><td>269</td><td>104</td><td>195</td><td>32,466</td><td>2,242</td><td>1,080</td><td>8,899</td><td>2,966</td><td>239</td><td>3,287</td><td>876</td><td>57,337</td>
+</tr>
+<tr>
+<td>(NONE) J Johnson (Write-In)</td>
+<td>5</td><td>12</td><td>36</td><td>5</td><td>3</td><td>1</td><td>1</td><td>998</td><td>11</td><td>13</td><td>164</td><td>231</td><td>1</td><td>26</td><td>13</td><td>1,520</td>
+</tr>
+<tr>
+<td>(NONE) Curtis Woolsey (Write-In)</td>
+<td>1</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>8</td><td>0</td><td>0</td><td>4</td><td>0</td><td>0</td><td>0</td><td>0</td><td>15</td>
+</tr>
+<tr>
+<td>(REP) Doug Ducey *</td>
+<td>5,871</td><td>21,662</td><td>14,528</td><td>9,610</td><td>4,985</td><td>995</td><td>2,388</td><td>469,200</td><td>33,150</td><td>13,569</td><td>122,966</td><td>41,313</td><td>3,175</td><td>46,806</td><td>14,844</td><td>805,062</td>
+</tr>
+<tr>
+<td>(REP) Alice Novoa (Write-In)</td>
+<td>1</td><td>8</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>18</td><td>4</td><td>1</td><td>8</td><td>0</td><td>0</td><td>1</td><td>0</td><td>43</td>
+</tr>
+
+<tr>
+<td><b>STATE SENATOR - DISTRICT NO. 1</b></td>
+<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+</tr>
+<tr>
+<td>(IND) Teri Frost (Write-In)</td>
+<td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>39</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>100</td><td>---</td><td>139</td>
+</tr>
+<tr>
+<td>(REP) Steve Pierce *</td>
+<td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>15,021</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>40,252</td><td>---</td><td>55,273</td>
+</tr>
+</table>
+
+* Elected

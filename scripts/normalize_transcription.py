@@ -72,3 +72,6 @@ if __name__ == "__main__":
     for raw in sorted((ROOT / "data/raw/us-senate").glob("*-transcription.csv")):
         if "-turnout-" not in raw.name:
             normalize_senate(raw)
+    from scripts.normalize_house import normalize as normalize_house
+
+    normalize_house()

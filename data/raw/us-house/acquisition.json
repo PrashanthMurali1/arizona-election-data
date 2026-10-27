@@ -1,0 +1,74 @@
+[
+  {
+    "path": "data/raw/us-house/districts-2012-plan.zip",
+    "url": "https://www2.census.gov/geo/tiger/GENZ2014/shp/cb_2014_us_cd114_500k.zip",
+    "http_status": 200,
+    "retrieved_at": "2026-10-27T18:00:49.127713+00:00",
+    "sha256": "f6b92d1f722125801e59cbddaf22a0c50a4bf08e6945fc94d7e8d17321f0c47b"
+  },
+  {
+    "path": "data/raw/us-house/districts-2022-plan.zip",
+    "url": "https://www2.census.gov/geo/tiger/GENZ2022/shp/cb_2022_us_cd118_500k.zip",
+    "http_status": 200,
+    "retrieved_at": "2026-10-27T18:00:49.135798+00:00",
+    "sha256": "7d16875ca4d56f63402b122e37a47690a0b3edb30129b475b7d3e79191dcf774"
+  },
+  {
+    "path": "data/raw/us-house/clerk-2014.pdf",
+    "url": "https://clerk.house.gov/member_info/electionInfo/2014/114-statistics.pdf",
+    "http_status": 200,
+    "retrieved_at": "2026-10-27T18:00:44.319698+00:00",
+    "sha256": "5e4e2208ef8bb6f9e3ba6bb988801dd9a53dbd3cb29596331a78ff79dbed5f1b"
+  },
+  {
+    "path": "data/raw/us-house/clerk-2016.pdf",
+    "url": "https://clerk.house.gov/member_info/electionInfo/2016/115-statistics.pdf",
+    "http_status": 404,
+    "retrieved_at": "2026-10-27T18:00:43.963467+00:00"
+  },
+  {
+    "path": "data/raw/us-house/clerk-2018.pdf",
+    "url": "https://clerk.house.gov/member_info/electionInfo/2018/116-statistics.pdf",
+    "http_status": 404,
+    "retrieved_at": "2026-10-27T18:00:43.959054+00:00"
+  },
+  {
+    "path": "data/raw/us-house/clerk-2020.pdf",
+    "url": "https://clerk.house.gov/member_info/electionInfo/2020/statistics2020.pdf",
+    "http_status": 200,
+    "retrieved_at": "2026-10-27T18:00:44.539400+00:00",
+    "sha256": "666b2a1f673f263087c141c4d44b0dce47cbddc8f4df27fbc8b415cf05842b76"
+  },
+  {
+    "path": "data/raw/us-house/clerk-2022.pdf",
+    "url": "https://clerk.house.gov/member_info/electionInfo/2022/statistics2022.pdf",
+    "http_status": 200,
+    "retrieved_at": "2026-10-27T18:00:44.299100+00:00",
+    "sha256": "ef9b8cefcc44bebbdc4928bf346b50e00a72dd3bb54a71ed93ec60d4ebf47690"
+  },
+  {
+    "path": "data/raw/us-house/clerk-2024.pdf",
+    "url": "https://clerk.house.gov/member_info/electionInfo/2024/statistics2024.pdf",
+    "http_status": 200,
+    "retrieved_at": "2026-10-27T18:00:44.296493+00:00",
+    "sha256": "d4ba800fc17135b616ae556c92861080ab962d95916ace34b546c5aac824aec4"
+  },
+  {
+    "path": "data/raw/us-house/clerk-2016.pdf",
+    "url": "https://clerk.house.gov/member_info/electionInfo/2016/statistics2016.pdf",
+    "status": 200,
+    "sha256": "6d2eba0e60e3f32153a5ba9c369a42a04616ccc73b5b3bca927ea6a11cade3a3",
+    "retrieved_on": "2026-10-28",
+    "retrieval_precision": "date",
+    "notes": "Correct official publication URL; supersedes earlier unsuccessful URL attempt."
+  },
+  {
+    "path": "data/raw/us-house/clerk-2018.pdf",
+    "url": "https://clerk.house.gov/member_info/electionInfo/2018/statistics2018.pdf",
+    "status": 200,
+    "sha256": "35ef9bc223d89cbd3ce4c544a88e93523394060d400001d365612c97f9348c53",
+    "retrieved_on": "2026-10-28",
+    "retrieval_precision": "date",
+    "notes": "Correct official publication URL; supersedes earlier unsuccessful URL attempt."
+  }
+]

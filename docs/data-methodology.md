@@ -180,3 +180,38 @@ The original official 2016 signed PDF and 2020 detailed-results XML ZIP are reta
 Official turnout/registration covers all counties and statewide for each Senate election. The 2018 and 2022 contests reuse the existing election-event turnout records. New event records for 2016, 2020 and 2024 retain source percentages and definitions. Repeated imports update the same event/unit records and never duplicate them. The 2020 contest ID is `az-2020-us-senate-special`, its normalized `contest_kind` and API `kind` identify a special election, and its source notes record the term expiring January 2023. Its shared November election event remains `az-2020-general` with event kind `general`. The existing schema supports this convention without a migration. The existing catalog, page heading and selector show the special-election wording using their existing text positions.
 
 Run `.venv/bin/python scripts/normalize_us_senate.py` followed by `.venv/bin/python scripts/import_data.py --office us-senate` for an offline Senate-only refresh of the retained historical data. Add `--year YEAR` to scope an import further. Bootstrap invokes the same normalizer. Existing Governor and Attorney General API payload hashes remain unchanged.
+## U.S. House district archive
+
+House elections use independent district contests grouped by election event in
+the existing catalog and selector. Six regular elections (2014–2024) contain
+all nine districts, with 160 candidate records including 45 named write-ins.
+Each regular candidate's actual county records reconcile with an independent
+official House Clerk district total, except the explicitly superseded 2014 CD2
+pre-recount totals. Final court-certified recount counts are retained.
+
+The 2012 and 2022 boundary plans use retained Census congressional polygons,
+native NAD83 geographic coordinates, and plan-qualified district IDs. House
+maps, tables and selection panels use district-specific candidates, shares and
+winners; no statewide House candidate roster or winner is created. Specials
+are separate events; their eight nonparticipating districts are Not contested,
+not missing returns or zero-vote contests.
+
+The April 24, 2018 CD8 and September 23, 2025 CD7 special views use civicAPI
+race reports directly. Their source panel labels them civicAPI reports, not
+official canvass results. Candidate totals are imported as provided; no
+separate canvass reconciliation or write-in results are represented. The
+retained responses are `data/raw/us-house/civicapi/race-29426.json` and
+`race-6240.json`, retrieved October 28, 2026. Their manifest checksums cover
+those exact JSON response files. Provider `last_updated` timestamps and
+reported percentages appear in the in-app report details. County-level values
+and turnout are unavailable in these special-election views; no county
+allocations or turnout values are inferred. No House district-turnout records
+are currently exposed in these views.
+
+Special elections remain distinct events from regular general elections.
+Repeated imports preserve result and turnout identities.
+
+See the [House import report](us-house-import-report.md) for exact source URLs,
+retained file/checksum bindings, extraction and recount methods, candidate-level
+tables, civicAPI reports, commands, verification results and limitations.
+The machine-readable registry is `data/raw/us-house/manifest.json`.

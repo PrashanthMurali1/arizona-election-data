@@ -1,0 +1,208 @@
+ (https://apps.azsos.gov/election/2025/sge-canvass/09232025-SantaCruz-Canvass.pdf)
+citeturn153view0 [wordlim: 200] Crawled: 3 days ago; Content type: application/pdf; Number of pages: 54; Source: open({"ref_id":"turn141view1","lineno":0}); Total lines: 1245
+L0@P2: Summary Results Report OFFICIAL RESULTS
+L1@P2: Special General Election
+L2@P2: September 23, 2025 County of Santa Cruz, State of Arizona
+L3@P2: Statistics TOTAL Election
+L4@P2: Day
+L5@P2: Early
+L6@P2: Voting
+L7@P2: Provisional
+L8@P2: Election Day Precincts Reporting 24 of 24 24 0 24
+L9@P2: Precincts Complete 24 of 24 24 0 24
+L10@P2: Precincts Partially Reported 0 of 24 0 0 0
+L11@P2: Absentee/ Early Precincts Reporting 24 of 24 24 24 24
+L12@P2: Registered Voters - Total 32,081
+L13@P2: Ballots Cast - Total 7,085 726 6,357 2
+L14@P2: Ballots Cast - Blank 14 1 13 0
+L15@P2: Voter Turnout - Total 22.08%
+L16@P2: TOTAL VOTE % Election
+L17@P2: Day
+L18@P2: Early
+L19@P2: Voting
+L20@P2: Provisional
+L21@P2: U.S. Representative in Congress Dist. 7
+L22@P2: Vote For 1
+L23@P2: DEM GRIJALVA, ADELITA 4,912 69.63% 333 4,578 1
+L24@P2: REP BUTIEREZ SR., DANIEL 2,047 29.02% 382 1,664 1
+L25@P2: GRN QUINTANA, EDUARDO 56 0.79% 2 54 0
+L26@P2: NOL GRAYSON, RICHARD 28 0.40% 2 26 0
+L27@P2: Write-In Totals 11 0.16% 3 8 0
+L28@P2:  Write-In: Invalid Write-in 7 0.10% 1 6 0
+L29@P2:  Write-In: REP BEASLEY,
+L30@P2: JEFFREY "JEFF" 3 0.04% 1 2 0
+L31@P2:  Write-In: PND WOOD, DANIEL 1 0.01% 1 0 0
+L32@P2:  Write-In: REP HATCH, G. 0 0.00% 0 0 0
+L33@P2:  Write-In: REP MCALLISTER,
+L34@P2: DAVID MCALLISTER 0 0.00% 0 0 0
+L35@P2:  Write-In: NOL IRWIN SR.,
+L36@P2: NATHANIEL JAMES 0 0.00% 0 0 0
+L37@P2:  Write-In: IND DI GENOVA,
+L38@P2: TRISTA ""TRISTA"" 0 0.00% 0 0 0
+L39@P2:  Write-In: NON ROSE, JAMES 0 0.00% 0 0 0
+L40@P2:  Write-In: DEM LAVERS, CHEVAL 0 0.00% 0 0 0
+L41@P2:  Write-In: REP BLOCK, AVERY 0 0.00% 0 0 0
+L42@P2:  Not Assigned 0 0.00% 0 0 0
+L43@P2: Total Votes Cast 7,054 100.00% 722 6,330 2
+L44@P2: Overvotes 17 3 14 0
+L45@P2: Undervotes 14 1 13 0
+L46@P2: Precincts Reporting 24 of 24
+L47@P2-3: Cumulative Official Final Report_CD7 Special General Election_09232025 - 09/29/2025 12:39 PM Page 1 of 1Nogales 1
+L48@P3: Statement of Votes Cast OFFICIAL RESULTS
+L49@P3: Special General Election
+L50@P3: September 23, 2025 County of Santa Cruz, State of Arizona
+L51@P3: Statistics TOTAL Election
+L52@P3: Day
+L53@P3: Early
+L54@P3: Voting
+L55@P3: Provisional
+L56@P3: Registered Voters - Total 611
+L57@P3: Ballots Cast - Total 93 4 89 0
+L58@P3: Ballots Cast - Blank 0 0 0 0
+L59@P3: Voter Turnout - Total 15.22%
+L60@P3: TOTAL VOTE % Election
+L61@P3: Day
+L62@P3: Early
+L63@P3: Voting
+L64@P3: Provisional
+L65@P3: U.S. Representative in Congress Dist. 7
+L66@P3: Vote For 1
+L67@P3: DEM GRIJALVA, ADELITA 71 77.17% 3 68 0
+L68@P3: REP BUTIEREZ SR., DANIEL 20 21.74% 0 20 0
+L69@P3: GRN QUINTANA, EDUARDO 1 1.09% 0 1 0
+L70@P3: NOL GRAYSON, RICHARD 0 0.00% 0 0 0
+L71@P3: Write-In Totals 0 0.00% 0 0 0
+L72@P3:  Write-In: REP HATCH, G. 0 0.00% 0 0 0
+L73@P3:  Write-In: REP MCALLISTER,
+L74@P3: DAVID MCALLISTER 0 0.00% 0 0 0
+L75@P3:  Write-In: NOL IRWIN SR.,
+L76@P3: NATHANIEL JAMES 0 0.00% 0 0 0
+L77@P3:  Write-In: IND DI GENOVA,
+L78@P3: TRISTA ""TRISTA"" 0 0.00% 0 0 0
+L79@P3:  Write-In: NON ROSE, JAMES 0 0.00% 0 0 0
+L80@P3:  Write-In: PND WOOD, DANIEL 0 0.00% 0 0 0
+L81@P3:  Write-In: Invalid Write-in 0 0.00% 0 0 0
+L82@P3:  Write-In: DEM LAVERS, CHEVAL 0 0.00% 0 0 0
+L83@P3:  Write-In: REP BEASLEY,
+L84@P3: JEFFREY "JEFF" 0 0.00% 0 0 0
+L85@P3:  Write-In: REP BLOCK, AVERY 0 0.00% 0 0 0
+L86@P3:  Not Assigned 0 0.00% 0 0 0
+L87@P3: Total Votes Cast 92 100.00% 3 89 0
+L88@P3: Overvotes 1 1 0 0
+L89@P3: Undervotes 0 0 0 0
+L90@P3-4: Statement of Votes Cast by Precinct_CD7SpecialGeneralElection_09232025 - 09/29/2025 12:41 PM Page 1 of 24Nogales 2
+L91@P4: Statement of Votes Cast OFFICIAL RESULTS
+L92@P4: Special General Election
+L93@P4: September 23, 2025 County of Santa Cruz, State of Arizona
+L94@P4: Statistics TOTAL Election
+L95@P4: Day
+L96@P4: Early
+L97@P4: Voting
+L98@P4: Provisional
+L99@P4: Registered Voters - Total 1,658
+L100@P4: Ballots Cast - Total 177 17 160 0
+L101@P4: Ballots Cast - Blank 0 0 0 0
+L102@P4: Voter Turnout - Total 10.68%
+L103@P4: TOTAL VOTE % Election
+L104@P4: Day
+L105@P4: Early
+L106@P4: Voting
+L107@P4: Provisional
+L108@P4: U.S. Representative in Congress Dist. 7
+L109@P4: Vote For 1
+L110@P4: DEM GRIJALVA, ADELITA 153 86.93% 14 139 0
+L111@P4: REP BUTIEREZ SR., DANIEL 21 11.93% 1 20 0
+L112@P4: GRN QUINTANA, EDUARDO 1 0.57% 0 1 0
+L113@P4: NOL GRAYSON, RICHARD 0 0.00% 0 0 0
+L114@P4: Write-In Totals 1 0.57% 1 0 0
+L115@P4:  Write-In: REP BEASLEY,
+L116@P4: JEFFREY "JEFF" 1 0.57% 1 0 0
+L117@P4:  Write-In: REP HATCH, G. 0 0.00% 0 0 0
+L118@P4:  Write-In: REP MCALLISTER,
+L119@P4: DAVID MCALLISTER 0 0.00% 0 0 0
+L120@P4:  Write-In: NOL IRWIN SR.,
+L121@P4: NATHANIEL JAMES 0 0.00% 0 0 0
+L122@P4:  Write-In: IND DI GENOVA,
+L123@P4: TRISTA ""TRISTA"" 0 0.00% 0 0 0
+L124@P4:  Write-In: NON ROSE, JAMES 0 0.00% 0 0 0
+L125@P4:  Write-In: PND WOOD, DANIEL 0 0.00% 0 0 0
+L126@P4:  Write-In: Invalid Write-in 0 0.00% 0 0 0
+L127@P4:  Write-In: DEM LAVERS, CHEVAL 0 0.00% 0 0 0
+L128@P4:  Write-In: REP BLOCK, AVERY 0 0.00% 0 0 0
+L129@P4:  Not Assigned 0 0.00% 0 0 0
+L130@P4: Total Votes Cast 176 100.00% 16 160 0
+L131@P4: Overvotes 1 1 0 0
+L132@P4: Undervotes 0 0 0 0
+L133@P4-5: Statement of Votes Cast by Precinct_CD7SpecialGeneralElection_09232025 - 09/29/2025 12:41 PM Page 2 of 24Nogales 3
+L134@P5: Statement of Votes Cast OFFICIAL RESULTS
+L135@P5: Special General Election
+L136@P5: September 23, 2025 County of Santa Cruz, State of Arizona
+L137@P5: Statistics TOTAL Election
+L138@P5: Day
+L139@P5: Early
+L140@P5: Voting
+L141@P5: Provisional
+L142@P5: Registered Voters - Total 964
+L143@P5: Ballots Cast - Total 144 9 135 0
+L144@P5: Ballots Cast - Blank 0 0 0 0
+L145@P5: Voter Turnout - Total 14.94%
+L146@P5: TOTAL VOTE % Election
+L147@P5: Day
+L148@P5: Early
+L149@P5: Voting
+L150@P5: Provisional
+L151@P5: U.S. Representative in Congress Dist. 7
+L152@P5: Vote For 1
+L153@P5: DEM GRIJALVA, ADELITA 117 81.25% 6 111 0
+L154@P5: REP BUTIEREZ SR., DANIEL 24 16.67% 3 21 0
+L155@P5: GRN QUINTANA, EDUARDO 2 1.39% 0 2 0
+L156@P5: NOL GRAYSON, RICHARD 0 0.00% 0 0 0
+L157@P5: Write-In Totals 1 0.69% 0 1 0
+L158@P5:  Write-In: Invalid Write-in 1 0.69% 0 1 0
+L159@P5:  Write-In: REP HATCH, G. 0 0.00% 0 0 0
+L160@P5:  Write-In: REP MCALLISTER,
+L161@P5: DAVID MCALLISTER 0 0.00% 0 0 0
+L162@P5:  Write-In: NOL IRWIN SR.,
+L163@P5: NATHANIEL JAMES 0 0.00% 0 0 0
+L164@P5:  Write-In: IND DI GENOVA,
+L165@P5: TRISTA ""TRISTA"" 0 0.00% 0 0 0
+L166@P5:  Write-In: NON ROSE, JAMES 0 0.00% 0 0 0
+L167@P5:  Write-In: PND WOOD, DANIEL 0 0.00% 0 0 0
+L168@P5:  Write-In: DEM LAVERS, CHEVAL 0 0.00% 0 0 0
+L169@P5:  Write-In: REP BEASLEY,
+L170@P5: JEFFREY "JEFF" 0 0.00% 0 0 0
+L171@P5:  Write-In: REP BLOCK, AVERY 0 0.00% 0 0 0
+L172@P5:  Not Assigned 0 0.00% 0 0 0
+L173@P5: Total Votes Cast 144 100.00% 9 135 0
+L174@P5: Overvotes 0 0 0 0
+L175@P5: Undervotes 0 0 0 0
+L176@P5-6: Statement of Votes Cast by Precinct_CD7SpecialGeneralElection_09232025 - 09/29/2025 12:41 PM Page 3 of 24Nogales 4
+L177@P6: Statement of Votes Cast OFFICIAL RESULTS
+L178@P6: Special General Election
+L179@P6: September 23, 2025 County of Santa Cruz, State of Arizona
+L180@P6: Statistics TOTAL Election
+L181@P6: Day
+L182@P6: Early
+L183@P6: Voting
+L184@P6: Provisional
+L185@P6: Registered Voters - Total 488
+L186@P6: Ballots Cast - Total 94 1 93 0
+L187@P6: Ballots Cast - Blank 0 0 0 0
+L188@P6: Voter Turnout - Total 19.26%
+L189@P6: TOTAL VOTE % Election
+L190@P6: Day
+L191@P6: Early
+L192@P6: Voting
+L193@P6: Provisional
+L194@P6: U.S. Representative in Congress Dist. 7
+L195@P6: Vote For 1
+L196@P6: DEM GRIJALVA, ADELITA 84 89.36% 1 83 0
+L197@P6: REP BUTIEREZ SR., DANIEL 10 10.64% 0 10 0
+L198@P6: GRN QUINTANA, EDUARDO 0 0.00% 0 0 0
+L199@P6: NOL GRAYSON, RICHARD 0 0.00% 0 0 0
+L200@P6: Write-In Totals 0 0.00% 0 0 0
+L201@P6:  Write-In: REP HATCH, G. 0 0.00% 0 0 0
+L202@P6:  Write-In: REP MCALLISTER,
+L203@P6: DAVID MCALLISTER 0 0.00% 0 0 0
+L204@P6:  Write-In: NOL IRWIN SR.,
+

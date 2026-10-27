@@ -1,0 +1,31 @@
+ (https://www.cochise.az.gov/DocumentCenter/View/23695/Unofficial-Results-CD7-PDF)
+citeturn155view0 [wordlim: 200] Crawled: last month; Content type: application/pdf; Number of pages: 1; Source: open({"ref_id":"turn144view0","lineno":0}); Total lines: 28
+L0@P0: Summary Results Report UNOFFICIAL RESULTS
+L1@P0: Special General Election
+L2@P0: September 23, 2025 County of Cochise
+L3@P0: Statistics TOTAL Election
+L4@P0: Day
+L5@P0: Early
+L6@P0: Voting
+L7@P0: Provisional Late Early
+L8@P0: Voting
+L9@P0: Ballots Cast - Total 4,690 294 4,341 55 0
+L10@P0: Ballots Cast - Blank 2 1 1 0 0
+L11@P0: TOTAL Election
+L12@P0: Day
+L13@P0: Early
+L14@P0: Voting
+L15@P0: Provisional Late Early
+L16@P0: Voting
+L17@P0: Vote For 1
+L18@P0: U.S. Representative in Congress Dist. 7
+L19@P0: REP BUTIEREZ SR., DANIEL 1,277 173 1,093 11 0
+L20@P0: DEM GRIJALVA, ADELITA 3,327 117 3,167 43 0
+L21@P0: GRN QUINTANA, EDUARDO 56 1 55 0 0
+L22@P0: NOL GRAYSON, RICHARD 21 2 18 1 0
+L23@P0: Write-In Totals 5 0 5 0 0
+L24@P0: Overvotes 2 0 2 0 0
+L25@P0: Undervotes 2 1 1 0 0
+L26@P0: Contest Totals 4,690 294 4,341 55 0
+L27@P0: Election Summary - 09/29/2025 02:10PM Page 1 of 1
+

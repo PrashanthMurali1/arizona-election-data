@@ -1,0 +1,13 @@
+{
+  "id": "census-cd-2012",
+  "title": "U.S. Census Bureau \u2014 114th Congress district boundaries",
+  "url": "https://www2.census.gov/geo/tiger/GENZ2014/shp/cb_2014_us_cd114_500k.zip",
+  "sha256": "f6b92d1f722125801e59cbddaf22a0c50a4bf08e6945fc94d7e8d17321f0c47b",
+  "notes": "Arizona subset of Census 2014 1:500,000 cartographic congressional boundaries for Congress 114, representing the plan first used in 2012. Nine original Polygon/MultiPolygon geometries; no county approximation or added simplification. Native geographic NAD83 (EPSG:4269) longitude/latitude coordinates retained, with CRS identified explicitly. District IDs include the plan year.",
+  "vintage": 2014,
+  "plan": 2012,
+  "coordinate_reference_system": "GEOGCS[\"GCS_North_American_1983\",DATUM[\"D_North_American_1983\",SPHEROID[\"GRS_1980\",6378137,298.257222101]],PRIMEM[\"Greenwich\",0],UNIT[\"Degree\",0.017453292519943295]]",
+  "raw_path": "data/raw/us-house/districts-2012-plan.zip",
+  "geojson_sha256": "9bc49808b5ab6dd127d77ae978e25d36c60584f6837e7de5db7db1b448cbf0ff",
+  "retrieved_at": "2026-10-27T18:00:49.127713+00:00"
+}

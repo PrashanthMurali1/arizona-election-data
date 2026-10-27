@@ -1,0 +1,13 @@
+{
+  "id": "census-cd-2022",
+  "title": "U.S. Census Bureau \u2014 118th Congress district boundaries",
+  "url": "https://www2.census.gov/geo/tiger/GENZ2022/shp/cb_2022_us_cd118_500k.zip",
+  "sha256": "7d16875ca4d56f63402b122e37a47690a0b3edb30129b475b7d3e79191dcf774",
+  "notes": "Arizona subset of Census 2022 1:500,000 cartographic congressional boundaries for Congress 118, representing the plan first used in 2022. Nine original Polygon/MultiPolygon geometries; no county approximation or added simplification. Native geographic NAD83 (EPSG:4269) longitude/latitude coordinates retained, with CRS identified explicitly. District IDs include the plan year.",
+  "vintage": 2022,
+  "plan": 2022,
+  "coordinate_reference_system": "GEOGCS[\"GCS_North_American_1983\",DATUM[\"D_North_American_1983\",SPHEROID[\"GRS_1980\",6378137,298.257222101]],PRIMEM[\"Greenwich\",0],UNIT[\"Degree\",0.017453292519943295]]",
+  "raw_path": "data/raw/us-house/districts-2022-plan.zip",
+  "geojson_sha256": "12b7f9d8305f6e1d750f674618649bd6549e342a025afc3278f02e8bae9c452e",
+  "retrieved_at": "2026-10-27T18:00:49.135798+00:00"
+}
