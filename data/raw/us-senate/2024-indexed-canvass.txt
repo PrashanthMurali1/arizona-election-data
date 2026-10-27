@@ -1,0 +1,112 @@
+STATE OF ARIZONA OFFICIAL CANVASS (https://apps.azsos.gov/election/2024/ge/canvass/20241105_GeneralCanvass_Signed.pdf)
+citeturn76search12 [wordlim: 200] Published: 1.9 years ago; Crawled: 1.9 years ago; STATE OF ARIZONA OFFICIAL CANVASS  
+2024 General Election - Nov 05, 2024 ... <td>President R Boddie (Write-In), President</td> ... Senator</strong></td>
+STATE OF ARIZONA OFFICIAL CANVASS  
+2024 General Election - Nov 05, 2024  
+Compiled and Issued by the Arizona Secretary of State  
+Report Date/Time: 11/22/2024 7:04:17 PM
+
+<table id="e1">
+<tr>
+<th></th>
+<th>Apache</th>
+<th>Cochise</th>
+<th>Coconino</th>
+<th>Gila</th>
+<th>Graham</th>
+<th>Greenlee</th>
+<th>La Paz</th>
+<th>Maricopa</th>
+<th>Mohave</th>
+<th>Navajo</th>
+<th>Pima</th>
+<th>Pinal</th>
+<th>Santa Cruz</th>
+<th>Yavapai</th>
+<th>Yuma</th>
+<th>TOTAL</th>
+</tr>
+<tr>
+<td>NONE</td>
+<td colspan="16"></td>
+</tr>
+<tr>
+<td>President R Boddie (Write-In), President</td>
+<td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>4</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>4</td>
+</tr>
+<tr><td>Eric Stoneham, Vice President</td><td colspan="16"></td></tr>
+<tr><td>Robin Campbell, Elector</td><td colspan="16"></td></tr>
+<tr><td>Miriam Canty, Elector</td><td colspan="16"></td></tr>
+<tr><td>Qualonda Hill, Elector</td><td colspan="16"></td></tr>
+<tr><td>Robert Lewis JR, Elector</td><td colspan="16"></td></tr>
+<tr><td>Ignacio J.R. Martinez, Elector</td><td colspan="16"></td></tr>
+<tr><td>Blake Preston, Elector</td><td colspan="16"></td></tr>
+<tr><td>Marian Rious, Elector</td><td colspan="16"></td></tr>
+<tr><td>Paige Salcido, Elector</td><td colspan="16"></td></tr>
+<tr><td>Victor Smith, Elector</td><td colspan="16"></td></tr>
+<tr><td>Erica White, Elector</td><td colspan="16"></td></tr>
+<tr><td>Nimarius Wickware, Elector</td><td colspan="16"></td></tr>
+
+<tr>
+<td><strong>U.S. Senator</strong></td>
+<td colspan="16"></td>
+</tr>
+<tr>
+<td>(REP) Kari Lake</td>
+<td>11,283</td><td>33,184</td><td>24,825</td><td>17,433</td><td>10,385</td><td>2,078</td><td>4,998</td><td>940,465</td><td>79,494</td><td>27,218</td><td>193,021</td><td>115,595</td><td>6,370</td><td>93,200</td><td>36,212</td><td>1,595,761</td>
+</tr>
+<tr>
+<td>(DEM) Ruben Gallego *</td>
+<td>19,901</td><td>23,347</td><td>42,924</td><td>9,330</td><td>4,235</td><td>1,102</td><td>2,292</td><td>1,045,766</td><td>26,578</td><td>22,173</td><td>298,751</td><td>86,674</td><td>11,986</td><td>52,077</td><td>29,199</td><td>1,676,335</td>
+</tr>
+<tr>
+<td>(GRN) Eduardo Quintana</td>
+<td>675</td><td>1,562</td><td>1,721</td><td>564</td><td>373</td><td>103</td><td>219</td><td>43,852</td><td>2,398</td><td>1,078</td><td>13,859</td><td>4,622</td><td>596</td><td>2,555</td><td>1,691</td><td>75,868</td>
+</tr>
+<tr>
+<td>(REP) Jannie "Jannie" Prosser (Write-In)</td>
+<td>1</td><td>3</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>52</td><td>3</td><td>0</td><td>12</td><td>3</td><td>0</td><td>7</td><td>0</td><td>82</td>
+</tr>
+<tr>
+<td>(LBT) Sarah Williams (Write-In)</td>
+<td>0</td><td>12</td><td>6</td><td>0</td><td>0</td><td>1</td><td>0</td><td>384</td><td>9</td><td>6</td><td>54</td><td>32</td><td>0</td><td>20</td><td>11</td><td>535</td>
+</tr>
+<tr>
+<td>(IND) Christopher Beckett (Write-In)</td>
+<td>3</td><td>1</td><td>4</td><td>0</td><td>0</td><td>0</td><td>0</td><td>57</td><td>1</td><td>0</td><td>26</td><td>5</td><td>1</td><td>4</td><td>1</td><td>103</td>
+</tr>
+<tr>
+<td>(NON) David Bozic (Write-In)</td>
+<td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>6</td><td>1</td><td>0</td><td>2</td><td>1</td><td>0</td><td>2</td><td>0</td><td>12</td>
+</tr>
+<tr>
+<td>(NON) Shawn Petty (Write-In)</td>
+<td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>10</td><td>1</td><td>0</td><td>3</td><td>4</td><td>2</td><td>0</td><td>2</td><td>24</td>
+</tr>
+<tr>
+<td>(UAT) Benjamin Rodriguez (Write-In)</td>
+<td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td>
+</tr>
+<tr>
+<td>(IND) Steven Cavin Sanders (Write-In)</td>
+<td>0</td><td>5</td><td>3</td><td>1</td><td>0</td><td>0</td><td>0</td><td>55</td><td>2</td><td>1</td><td>14</td><td>5</td><td>0</td><td>4</td><td>2</td><td>92</td>
+</tr>
+
+<tr>
+<td><strong>U.S. Representative in Congress - District No. 1</strong></td>
+<td colspan="16"></td>
+</tr>
+<tr>
+<td>(REP) David Schweikert *</td>
+<td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>225,538</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>225,538</td>
+</tr>
+<tr>
+<td>(DEM) Amish Shah</td>
+<td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>208,966</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>208,966</td>
+</tr>
+</table>
+
+* Winner
+
+Page 5
+

@@ -8,6 +8,8 @@ A local, dark-themed dashboard for exploring certified Arizona elections. Browse
 
 **2022 MVP implemented and verified.** 2022, 2018 and 2014 governor results reconcile for every reported candidate across all 15 counties. The 2018 import combines VEST ballot-candidate precinct sums, OpenElections named write-ins and official turnout, with documented source checks. Nothing has been deployed.
 
+**U.S. Senate results are available for 2016, 2018, 2020 (special), 2022 and 2024.** All 61 candidate records reconcile across 15 counties per election, including every officially canvassed named write-in. The 2020 special election uses the existing interface and labels. There is no 2014 or 2026 Arizona U.S. Senate entry. See the [Senate source and verification report](docs/us-senate-import-report.md).
+
 ## Requirements and stack
 
 Tested on an Apple Silicon Mac with **Python 3.13.7**, **Node 24.9.0**, and **npm 11.6.0**. Use Python 3.13 and Node 24 LTS for the documented setup. No Docker, accounts, API keys or paid services are required.

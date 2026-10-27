@@ -1,0 +1,28 @@
+{
+  "year": 2022,
+  "election_date": "2022-11-08",
+  "contest_id": "az-2022-us-senate",
+  "contest_kind": "regular",
+  "candidate_count": 11,
+  "source_id": "canvass-2022-us-senate",
+  "source_title": "Arizona Secretary of State \u2014 2022 official U.S. Senate canvass",
+  "source_url": "https://apps.azsos.gov/election/2022/General/canvass/2022dec05_general_election_canvass_web.pdf",
+  "reported_at": "2022-12-05T10:00:00-07:00",
+  "report_time_precision": "datetime",
+  "retrieved_on": "2026-10-27",
+  "retrieval_precision": "date",
+  "source_notes": "2022 regular Arizona U.S. Senate election. All 11 official named candidates, including write-ins, and all 15 county records reconcile to the printed statewide canvass totals. The official PDF host returned 403; retained indexed official table text and a reviewed CSV provide the canvass reference. Checksums identify retained text/CSV, not an unavailable original PDF binary. Existing Governor/Attorney General event turnout is shared. ",
+  "canvass_page": 1,
+  "snapshots": [
+    {
+      "path": "data/raw/us-senate/2022-transcription.csv",
+      "sha256": "9b79e3804007bd9c4c572bd591b90c4c20dfb34fe4c0f2cdf0602c6217f25fd2"
+    },
+    {
+      "path": "data/raw/us-senate/2022-indexed-canvass.txt",
+      "sha256": "484cb9d7e660e0a70827489cf91de2d1f61ec5de31bbc333e615c983b100e48a"
+    }
+  ],
+  "additional_sources": [],
+  "canvass_extract_path": "data/raw/us-senate/2022-indexed-canvass.txt"
+}

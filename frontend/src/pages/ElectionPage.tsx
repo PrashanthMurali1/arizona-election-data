@@ -123,6 +123,7 @@ export default function ElectionPage() {
             {years.map((e) => (
               <option key={e.id} value={e.id}>
                 {e.year}
+                {e.kind === "special" ? " · special election" : ""}
                 {e.status === "pre_results"
                   ? " · voting in progress"
                   : e.status === "unofficial"

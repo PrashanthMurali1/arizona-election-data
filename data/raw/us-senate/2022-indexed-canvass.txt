@@ -1,0 +1,143 @@
+STATE OF ARIZONA OFFICIAL CANVASS (https://apps.azsos.gov/election/2022/General/canvass/2022dec05_general_election_canvass_web.pdf)
+citeturn79search5 [wordlim: 200] Published: 3.9 years ago; Crawled: 3.9 years ago; STATE OF ARIZONA OFFICIAL CANVASS  
+2022 General Election - Nov 08, 2022 ... <td>(REP) Blake Masters</td>
+STATE OF ARIZONA OFFICIAL CANVASS  
+2022 General Election - Nov 08, 2022  
+Compiled and Issued by the Arizona Secretary of State  
+Report Date/Time: 12/5/2022 10:00:00 AM
+
+<table id="e1">
+<tr>
+<th></th>
+<th>Apache</th>
+<th>Cochise</th>
+<th>Coconino</th>
+<th>Gila</th>
+<th>Graham</th>
+<th>Greenlee</th>
+<th>La Paz</th>
+<th>Maricopa</th>
+<th>Mohave</th>
+<th>Navajo</th>
+<th>Pima</th>
+<th>Pinal</th>
+<th>Santa Cruz</th>
+<th>Yavapai</th>
+<th>Yuma</th>
+<th>TOTAL</th>
+</tr>
+<tr>
+<td><b>Total Eligible Registration</b></td>
+<td>51,981</td><td>77,394</td><td>90,829</td><td>33,949</td><td>19,487</td><td>4,669</td><td>11,311</td><td>2,435,397</td><td>146,919</td><td>69,040</td><td>639,885</td><td>262,694</td><td>29,189</td><td>166,052</td><td>105,133</td><td>4,143,929</td>
+</tr>
+<tr>
+<td><b>Total Ballots Cast</b></td>
+<td>27,010</td><td>47,284</td><td>55,475</td><td>22,802</td><td>11,006</td><td>2,487</td><td>5,594</td><td>1,562,758</td><td>82,758</td><td>40,974</td><td>403,556</td><td>145,600</td><td>13,308</td><td>124,871</td><td>46,830</td><td>2,592,313</td>
+</tr>
+<tr>
+<td><b>Voter Turnout Percent</b></td>
+<td>51.96%</td><td>61.10%</td><td>61.08%</td><td>67.17%</td><td>56.48%</td><td>53.27%</td><td>49.46%</td><td>64.17%</td><td>56.33%</td><td>59.35%</td><td>63.07%</td><td>55.43%</td><td>45.59%</td><td>75.20%</td><td>44.54%</td><td>62.56%</td>
+</tr>
+<tr>
+<td><b>Precincts</b></td>
+<td>44</td><td>55</td><td>75</td><td>39</td><td>22</td><td>8</td><td>11</td><td>935</td><td>24</td><td>14</td><td>278</td><td>109</td><td>24</td><td>49</td><td>46</td><td>1,733</td>
+</tr>
+
+<tr><td colspan="17"><b>U.S. Senator</b></td></tr>
+<tr>
+<td>(REP) Blake Masters</td>
+<td>8,163</td><td>25,539</td><td>18,697</td><td>13,958</td><td>7,388</td><td>1,392</td><td>3,656</td><td>710,491</td><td>58,737</td><td>20,970</td><td>144,936</td><td>78,820</td><td>3,892</td><td>75,752</td><td>23,917</td><td>1,196,308</td>
+</tr>
+<tr>
+<td>(DEM) Mark Kelly *</td>
+<td>18,005</td><td>20,002</td><td>35,149</td><td>7,984</td><td>3,243</td><td>970</td><td>1,711</td><td>809,573</td><td>21,040</td><td>18,724</td><td>248,230</td><td>62,009</td><td>8,988</td><td>45,258</td><td>21,141</td><td>1,322,027</td>
+</tr>
+<tr>
+<td>(LBT) Marc J. Victor</td>
+<td>549</td><td>1,383</td><td>1,199</td><td>601</td><td>255</td><td>100</td><td>160</td><td>31,099</td><td>2,117</td><td>927</td><td>7,544</td><td>3,650</td><td>304</td><td>2,633</td><td>1,241</td><td>53,762</td>
+</tr>
+<tr>
+<td>(REP) Sherrise Bordes (Write-In)</td>
+<td>0</td><td>3</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>8</td><td>1</td><td>1</td><td>2</td><td>0</td><td>0</td><td>1</td><td>0</td><td>17</td>
+</tr>
+<tr>
+<td>(REP) Christopher Bullock (Write-In)</td>
+<td>2</td><td>0</td><td>2</td><td>0</td><td>0</td><td>0</td><td>1</td><td>13</td><td>1</td><td>2</td><td>2</td><td>0</td><td>1</td><td>2</td><td>1</td><td>27</td>
+</tr>
+<tr>
+<td>(REP) Edward Davida (Write-In)</td>
+<td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>3</td>
+</tr>
+<tr>
+<td>(REP) Roxanne Renee Rodriguez (Write-In)</td>
+<td>0</td><td>0</td><td>4</td><td>0</td><td>0</td><td>0</td><td>1</td><td>9</td><td>2</td><td>0</td><td>1</td><td>2</td><td>0</td><td>1</td><td>0</td><td>20</td>
+</tr>
+<tr>
+<td>(DEM) Ty Richard McLean Jr. (Write-In)</td>
+<td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>13</td><td>1</td><td>1</td><td>1</td><td>0</td><td>1</td><td>2</td><td>1</td><td>21</td>
+</tr>
+<tr>
+<td>(DEM) Todd James Smeltzer (Write-In)</td>
+<td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>1</td><td>3</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>6</td>
+</tr>
+<tr>
+<td>(DEM) William "Will" Michael Taylor (Write-In)</td>
+<td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>5</td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>8</td>
+</tr>
+<tr>
+<td>(IND) Lester "Skip" Maul (Write-In)</td>
+<td>0</td><td>64</td><td>5</td><td>0</td><td>0</td><td>0</td><td>0</td><td>11</td><td>0</td><td>2</td><td>7</td><td>4</td><td>0</td><td>2</td><td>0</td><td>95</td>
+</tr>
+
+<tr><td colspan="17"><b>U.S. Representative in Congress - District No. 1</b></td></tr>
+<tr>
+<td>(REP) David Schweikert *</td>
+<td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>182,336</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>182,336</td>
+</tr>
+<tr>
+<td>(DEM) Jevin D. Hodge</td>
+<td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>179,141</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>179,141</td>
+</tr>
+
+<tr><td colspan="17"><b>U.S. Representative in Congress - District No. 2</b></td></tr>
+<tr>
+<td>(REP) Eli Crane *</td>
+<td>8,486</td><td>---</td><td>19,741</td><td>14,569</td><td>51</td><td>---</td><td>---</td><td>46</td><td>64</td><td>21,667</td><td>---</td><td>31,136</td><td>---</td><td>78,409</td><td>---</td><td>174,169</td>
+</tr>
+<tr>
+<td>(DEM) Tom O'Halleran</td>
+<td>18,020</td><td>---</td><td>34,831</td><td>7,774</td><td>489</td><td>---</td><td>---</td><td>311</td><td>130</td><td>18,480</td><td>---</td><td>25,173</td><td>---</td><td>43,943</td><td>---</td><td>149,151</td>
+</tr>
+<tr>
+<td>(IND) Chris Sarappo (Write-In)</td>
+<td>1</td><td>---</td><td>25</td><td>3</td><td>0</td><td>---</td><td>---</td><td>0</td><td>0</td><td>13</td><td>---</td><td>9</td><td>---</td><td>25</td><td>---</td><td>76</td>
+</tr>
+
+<tr><td colspan="17"><b>U.S. Representative in Congress - District No. 3</b></td></tr>
+<tr>
+<td>(REP) Jeff Nelson Zink</td>
+<td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>32,475</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>32,475</td>
+</tr>
+<tr>
+<td>(DEM) Ruben Gallego *</td>
+<td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>108,599</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>108,599</td>
+</tr>
+
+<tr><td colspan="17"><b>U.S. Representative in Congress - District No. 4</b></td></tr>
+<tr>
+<td>(REP) Kelly Cooper</td>
+<td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>116,521</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>116,521</td>
+</tr>
+<tr>
+<td>(DEM) Greg Stanton *</td>
+<td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>148,941</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>148,941</td>
+</tr>
+<tr>
+<td>(IND) Stephan "Steve" Jones (Write-In)</td>
+<td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>36</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>36</td>
+</tr>
+</table>
+
+* Winner
+
+Page 1

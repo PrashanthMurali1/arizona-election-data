@@ -55,7 +55,7 @@ def client():
 def test_clean_migration_and_import(client):
     assert client.get("/api/health").json() == {"status": "ok"}
     catalog = client.get("/api/elections").json()
-    assert len(catalog) == 8
+    assert len(catalog) == 13
     assert len([x for x in catalog if x["office_id"] == "governor"]) == 4
     assert len([x for x in catalog if x["office_id"] == "attorney-general"]) == 4
     assert all(x["id"] != "az-2026-us-senate" for x in catalog)

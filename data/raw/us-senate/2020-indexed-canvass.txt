@@ -1,0 +1,50 @@
+STATE OF ARIZONA OFFICIAL CANVASS (https://apps.azsos.gov/election/2020/2020_general_state_canvass.pdf)
+citeturn78search1 [wordlim: 200] Published: 5.9 years ago; Crawled: 5.9 years ago; STATE OF ARIZONA OFFICIAL CANVASS  
+2020 General Election - Nov 03, 2020 ... Senator (Term Expires Jan. ... | (DEM) Mohammad "Mike Obama" Arif (Write-In) | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 37 | 3 | 2 | 13 | 8 | 0 | 3 | 0 | 68 |
+STATE OF ARIZONA OFFICIAL CANVASS  
+2020 General Election - Nov 03, 2020  
+Compiled and Issued by the Arizona Secretary of State
+
+Report Date/Time:11/24/2020 1:35:33 PM
+
+<table id="e1">
+
+| Contest / Candidate | Apache | Cochise | Coconino | Gila | Graham | Greenlee | La Paz | Maricopa | Mohave | Navajo | Pima | Pinal | Santa Cruz | Yavapai | Yuma | TOTAL |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| **U.S. Senator (Term Expires Jan. 2023)** | | | | | | | | | | | | | | | | |
+| (REP) Edward Davida (Write-In) | 1 | 1 | 0 | 1 | 1 | 0 | 0 | 18 | 3 | 0 | 1 | 0 | 0 | 1 | 1 | 28 |
+| (REP) Martha McSally | 11,052 | 35,214 | 27,255 | 17,889 | 10,303 | 2,225 | 4,835 | 984,203 | 75,359 | 26,952 | 207,317 | 104,048 | 5,685 | 90,180 | 35,144 | 1,637,661 |
+| (REP) John Schiess (Write-In) | 1 | 2 | 5 | 2 | 2 | 0 | 0 | 51 | 5 | 0 | 11 | 9 | 0 | 3 | 1 | 92 |
+| (REP) Debbie Simmons (Write-In) | 3 | 2 | 0 | 1 | 0 | 0 | 0 | 32 | 4 | 5 | 47 | 2 | 0 | 1 | 1 | 98 |
+| (REP) Patrick "Pat" Thomas (Write-In) | 2 | 0 | 3 | 1 | 0 | 0 | 0 | 19 | 0 | 1 | 3 | 0 | 0 | 0 | 0 | 29 |
+| (DEM) Mohammad "Mike Obama" Arif (Write-In) | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 37 | 3 | 2 | 13 | 8 | 0 | 3 | 0 | 68 |
+| (DEM) Adam Chilton (Write-In) | 0 | 0 | 2 | 1 | 0 | 0 | 0 | 10 | 1 | 0 | 2 | 2 | 0 | 1 | 0 | 19 |
+| (DEM) Perry Kapadia (Write-In) | 1 | 1 | 4 | 0 | 0 | 0 | 1 | 41 | 2 | 0 | 5 | 1 | 0 | 1 | 1 | 58 |
+| (DEM) Mark Kelly * | 24,050 | 24,843 | 45,561 | 9,648 | 4,506 | 1,403 | 2,492 | 1,064,396 | 27,414 | 24,396 | 309,142 | 79,114 | 13,689 | 51,852 | 33,961 | 1,716,467 |
+| (DEM) Buzz Stewart (Write-In) | 3 | 0 | 2 | 0 | 0 | 1 | 0 | 15 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 22 |
+| (LBT) Matthew "Doc" Dorchester (Write-In) | 6 | 8 | 6 | 3 | 1 | 0 | 1 | 229 | 20 | 1 | 47 | 23 | 1 | 27 | 6 | 379 |
+| (IND) Christopher Beckett (Write-In) | 0 | 3 | 1 | 0 | 0 | 0 | 0 | 44 | 7 | 1 | 5 | 6 | 0 | 0 | 2 | 69 |
+| (IND) William "Will" Decker (Write-In) | 1 | 0 | 1 | 0 | 0 | 0 | 0 | 13 | 1 | 1 | 3 | 0 | 0 | 1 | 0 | 21 |
+| (IRP) Nicholas N. Glenn (Write-In) | 0 | 1 | 3 | 2 | 0 | 1 | 0 | 109 | 1 | 1 | 16 | 11 | 0 | 6 | 1 | 152 |
+| (IND) Matthew Haupt (Write-In) | 0 | 6 | 0 | 0 | 0 | 0 | 0 | 18 | 0 | 1 | 4 | 3 | 1 | 4 | 0 | 37 |
+| (IND) Benjamin Rodriguez (Write-In) | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 9 | 0 | 1 | 2 | 3 | 0 | 0 | 0 | 17 |
+| (UPA) Joshua Rodriguez (Write-In) | 1 | 2 | 1 | 0 | 0 | 0 | 0 | 38 | 2 | 0 | 9 | 6 | 0 | 8 | 2 | 69 |
+| (IND) Frank Saenz (Write-In) | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 3 | 0 | 2 | 1 | 1 | 0 | 0 | 0 | 8 |
+| (None) Jim Stevens (Write-In) | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 12 | 0 | 5 | 3 | 0 | 0 | 1 | 0 | 23 |
+| **U.S. Representative in Congress - District No. 1** | | | | | | | | | | | | | | | | |
+| (REP) Tiffany Shedd | 11,110 | — | 26,800 | 4,427 | 10,153 | 2,226 | — | 93 | 116 | 26,371 | 37,473 | 48,324 | — | 9,616 | — | 176,709 |
+| (DEM) Tom O'Halleran * | 23,605 | — | 44,842 | 4,902 | 4,436 | 1,380 | — | 554 | 265 | 24,205 | 32,078 | 43,034 | — | 9,168 | — | 188,469 |
+| **U.S. Representative in Congress - District No. 2** | | | | | | | | | | | | | | | | |
+| (REP) Brandon Martin | — | 34,796 | — | — | — | — | — | — | — | — | 136,179 | — | — | — | — | 170,975 |
+| (DEM) Ann Kirkpatrick * | — | 24,288 | — | — | — | — | — | — | — | — | 185,657 | — | — | — | — | 209,945 |
+| (IND) Iman Bah (Write-In) | — | 28 | — | — | — | — | — | — | — | — | 71 | — | — | — | — | 99 |
+| (CSM) Brandon Schlass (Write-In) | — | 6 | — | — | — | — | — | — | — | — | 29 | — | — | — | — | 35 |
+| **U.S. Representative in Congress - District No. 3** | | | | | | | | | | | | | | | | |
+| (REP) Daniel Wood | — | — | — | — | — | — | — | 40,521 | — | — | 34,808 | 10 | 5,729 | — | 14,526 | 95,594 |
+| (DEM) Raúl Grijalva * | — | — | — | — | — | — | — | 56,986 | — | — | 80,121 | 139 | 13,493 | — | 23,504 | 174,243 |
+
+</table>
+
+* *Winner
+
+Page 5

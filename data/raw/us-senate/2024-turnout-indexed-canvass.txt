@@ -1,0 +1,141 @@
+STATE OF ARIZONA OFFICIAL CANVASS (https://apps.azsos.gov/election/2024/ge/canvass/20241105_GeneralCanvass_Signed.pdf)
+citeturn80search0 [wordlim: 200] Published: 1.9 years ago; Crawled: 1.9 years ago; STATE OF ARIZONA OFFICIAL CANVASS  
+2024 General Election - Nov 05, 2024 ... <td>Total Eligible Registration</td> ... Constance DeLarge, Elector
+STATE OF ARIZONA OFFICIAL CANVASS  
+2024 General Election - Nov 05, 2024  
+Compiled and Issued by the Arizona Secretary of State  
+Report Date/Time: 11/22/2024 7:04:17 PM
+
+<table id="e1">
+<tr>
+<th></th>
+<th>Apache</th>
+<th>Cochise</th>
+<th>Coconino</th>
+<th>Gila</th>
+<th>Graham</th>
+<th>Greenlee</th>
+<th>La Paz</th>
+<th>Maricopa</th>
+<th>Mohave</th>
+<th>Navajo</th>
+<th>Pima</th>
+<th>Pinal</th>
+<th>Santa Cruz</th>
+<th>Yavapai</th>
+<th>Yuma</th>
+<th>TOTAL</th>
+</tr>
+<tr>
+<td>Total Eligible Registration</td>
+<td>54,060</td>
+<td>82,242</td>
+<td>90,681</td>
+<td>34,653</td>
+<td>20,714</td>
+<td>4,720</td>
+<td>12,375</td>
+<td>2,587,196</td>
+<td>147,549</td>
+<td>69,774</td>
+<td>662,357</td>
+<td>282,639</td>
+<td>31,758</td>
+<td>175,209</td>
+<td>111,666</td>
+<td>4,367,593</td>
+</tr>
+<tr>
+<td>Total Ballots Cast</td>
+<td>32,685</td>
+<td>59,501</td>
+<td>70,993</td>
+<td>27,979</td>
+<td>15,327</td>
+<td>3,341</td>
+<td>7,700</td>
+<td>2,078,460</td>
+<td>111,355</td>
+<td>51,386</td>
+<td>518,466</td>
+<td>211,595</td>
+<td>19,428</td>
+<td>150,885</td>
+<td>68,910</td>
+<td>3,428,011</td>
+</tr>
+<tr>
+<td>Voter Turnout Percent</td>
+<td>60.46%</td>
+<td>72.35%</td>
+<td>78.29%</td>
+<td>80.74%</td>
+<td>73.99%</td>
+<td>70.78%</td>
+<td>62.22%</td>
+<td>80.34%</td>
+<td>75.47%</td>
+<td>73.65%</td>
+<td>78.28%</td>
+<td>74.86%</td>
+<td>61.18%</td>
+<td>86.12%</td>
+<td>61.71%</td>
+<td>78.49%</td>
+</tr>
+<tr>
+<td>Precincts</td>
+<td>44</td>
+<td>55</td>
+<td>75</td>
+<td>39</td>
+<td>23</td>
+<td>6</td>
+<td>11</td>
+<td>935</td>
+<td>24</td>
+<td>21</td>
+<td>266</td>
+<td>109</td>
+<td>24</td>
+<td>58</td>
+<td>47</td>
+<td>1,737</td>
+</tr>
+</table>
+
+President of the United States
+
+Republican*  
+Donald J. Trump, President — 12,795 | 35,936 | 27,576 | 18,901 | 11,177 | 2,308 | 5,470 | 1,051,531 | 85,683 | 29,480 | 214,669 | 126,926 | 7,699 | 99,346 | 40,745 | 1,770,242  
+JD Vance, Vice President  
+Abegal Gonzalez, Elector  
+Lisa Green, Elector  
+Nathan C. Jackson, Elector  
+Thomas W. Lewis, Elector  
+Dottie Lizer, Elector  
+Myron Lizer, Elector  
+Steven R. McEwen, Elector  
+Belinda Rodriguez, Elector  
+Trevor Smith, Elector  
+Gina Swoboda, Elector  
+Robert L. Swoboda, Elector
+
+Democratic  
+Kamala D. Harris, President — 18,872 | 22,296 | 41,504 | 8,504 | 3,867 | 954 | 2,101 | 980,016 | 24,081 | 20,754 | 292,450 | 80,656 | 11,265 | 48,717 | 26,823 | 1,582,860  
+Tim Walz, Vice President  
+Yolanda Bejarano, Elector  
+Constance DeLarge, Elector  
+Coral Evans, Elector  
+Amelia Flores, Elector  
+Marisol Garcia, Elector  
+Doreen Garlid, Elector  
+Adelita Grijalva, Elector  
+Molly McGovern, Elector  
+Priya Sundareshan, Elector  
+Maria Valdez, Elector  
+Dora Lisa Vasquez, Elector
+
+* Winner
+
+Page 1

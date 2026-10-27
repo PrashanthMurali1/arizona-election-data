@@ -13,6 +13,10 @@ from scripts.normalize import COUNTIES
 
 
 def reconcile(data, reference_path=None):
+    if data.get("office_id") == "us-senate":
+        from scripts.senate_sources import verify_provenance
+
+        verify_provenance(ROOT / data["provenance_path"])
     expected = {c[0] for c in COUNTIES}
     for unit, turnout in data.get("turnout", {}).items():
         if unit not in expected | {"04"}:
@@ -126,7 +130,7 @@ def reconcile(data, reference_path=None):
     )
 
 
-def import_all(year=None):
+def import_all(year=None, office=None):
     selected_year = year
     geo = json.loads((ROOT / "data/geography/az-counties-2022.geojson").read_text())
     if len(geo["features"]) != 15 or {
@@ -186,6 +190,8 @@ def import_all(year=None):
             for p in sorted((ROOT / "data/processed/us-senate").glob("*.json"))
         )
         for p, office_id in datasets:
+            if office is not None and office_id != office:
+                continue
             data = json.loads(p.read_text())
             if selected_year is not None and data.get("year") != selected_year:
                 continue
@@ -268,6 +274,11 @@ def import_all(year=None):
                 "NONE": "No affiliation",
                 "RTO": "RTO (as reported)",
                 "HUM": "HUM (as reported)",
+                "ATP": "ATP (as reported)",
+                "TOR": "TOR (as reported)",
+                "IRP": "IRP (as reported)",
+                "UPA": "UPA (as reported)",
+                "UAT": "UAT (as reported)",
             }
             for c in data["candidates"]:
                 candidate_report = next(
@@ -310,6 +321,20 @@ def import_all(year=None):
                         )
                     )
             for unit, t in data.get("turnout", {}).items():
+                turnout_source = t.get("source_id", source)
+                existing = s.scalar(
+                    select(Turnout).where(Turnout.event_id == event, Turnout.unit_id == unit)
+                )
+                if existing:
+                    if existing.source_id != turnout_source:
+                        if any(getattr(existing, key) != t.get(key) for key in ["ballots_cast", "registered_voters", "percent"]):
+                            raise ValueError("Conflicting event turnout from another contest source")
+                        continue
+                    existing.ballots_cast = t.get("ballots_cast")
+                    existing.registered_voters = t.get("registered_voters")
+                    existing.percent = t.get("percent")
+                    existing.definition = t.get("definition", existing.definition)
+                    continue
                 s.add(
                     Turnout(
                         event_id=event,
@@ -317,8 +342,8 @@ def import_all(year=None):
                         ballots_cast=t.get("ballots_cast"),
                         registered_voters=t.get("registered_voters"),
                         percent=t.get("percent"),
-                        definition="Official reported turnout: total ballots cast / total eligible registration; rounded by source.",
-                        source_id=source,
+                        definition=t.get("definition", "Official reported turnout: total ballots cast / total eligible registration; rounded by source."),
+                        source_id=turnout_source,
                     )
                 )
             s.add(
@@ -334,7 +359,7 @@ def import_all(year=None):
         raise ValueError("No normalized election matched the requested import")
     report_path = ROOT / "data/processed/reconciliation.json"
     all_reports = reports
-    if selected_year is not None and report_path.exists():
+    if (selected_year is not None or office is not None) and report_path.exists():
         updated = {r["contest"] for r in reports}
         all_reports = [
             r
@@ -365,4 +390,6 @@ if __name__ == "__main__":
     parser.add_argument(
         "--year", type=int, help="Import only this year; preserve other contests"
     )
-    import_all(parser.parse_args().year)
+    parser.add_argument("--office", choices=["governor", "attorney-general", "us-senate"], help="Import only this office; preserve other contests")
+    args = parser.parse_args()
+    import_all(args.year, args.office)

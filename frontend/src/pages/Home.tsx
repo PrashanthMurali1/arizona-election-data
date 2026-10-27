@@ -108,7 +108,7 @@ export default function Home() {
                             >
                               <div className="card-top">
                                 <span className="eyebrow">
-                                  GENERAL ELECTION
+                                  {e.kind.toUpperCase()} ELECTION
                                 </span>
                                 <Availability status={e.status} />
                               </div>

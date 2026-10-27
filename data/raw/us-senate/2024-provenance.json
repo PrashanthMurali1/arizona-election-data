@@ -1,0 +1,49 @@
+{
+  "year": 2024,
+  "election_date": "2024-11-05",
+  "contest_id": "az-2024-us-senate",
+  "contest_kind": "regular",
+  "candidate_count": 10,
+  "source_id": "canvass-2024-us-senate",
+  "source_title": "Arizona Secretary of State \u2014 2024 official U.S. Senate canvass",
+  "source_url": "https://apps.azsos.gov/election/2024/ge/canvass/20241105_GeneralCanvass_Signed.pdf",
+  "reported_at": "2024-11-22T19:04:17-07:00",
+  "report_time_precision": "datetime",
+  "retrieved_on": "2026-10-27",
+  "retrieval_precision": "date",
+  "source_notes": "2024 regular Arizona U.S. Senate election. All 10 official named candidates, including write-ins, and all 15 county records reconcile to the printed statewide canvass totals. The official PDF host returned 403; retained indexed official table text and a reviewed CSV provide the canvass reference. Checksums identify retained text/CSV, not an unavailable original PDF binary. Official page-1 eligible registration, ballots and published turnout retained. ",
+  "canvass_page": 5,
+  "snapshots": [
+    {
+      "path": "data/raw/us-senate/2024-transcription.csv",
+      "sha256": "8ea7683bff3b69909212c79765a3d525b09fa4620dc28eaa519373939cfa82e5"
+    },
+    {
+      "path": "data/raw/us-senate/2024-indexed-canvass.txt",
+      "sha256": "7d1c0ce44c8054a28bdbce9832a332227a76e6c6caeefbab256288df3f9c9eaf"
+    },
+    {
+      "path": "data/raw/us-senate/2024-turnout-transcription.csv",
+      "sha256": "db10a67c5fb943ffa0b16311b0e9935bb0500906763a431e2d0154787a142fa0"
+    },
+    {
+      "path": "data/raw/us-senate/2024-turnout-indexed-canvass.txt",
+      "sha256": "9862882d42feeaa2c4a68a25efcf6ca7767b74fb30bf8eac3ba0597359e1bb96"
+    },
+    {
+      "path": "data/raw/us-senate/az-2024-general-canvass-senate.csv",
+      "sha256": "f6cdf23d5fa1199e97129362f32784a1d1e8b2eff077045738891988ec5a39ec",
+      "role": "Secondary county-bucket corroboration only"
+    }
+  ],
+  "additional_sources": [],
+  "canvass_extract_path": "data/raw/us-senate/2024-indexed-canvass.txt",
+  "turnout_path": "data/raw/us-senate/2024-turnout-transcription.csv",
+  "turnout_definition": "Official canvass turnout: total ballots cast / total eligible registration; published rounded percentage retained.",
+  "secondary_acquisition": {
+    "url": "https://raw.githubusercontent.com/Camreyn/civicresultmaps/5195a57d913c839106ce1d2de32e3510d9ef3d3a/data/az-2024-general-canvass-senate.csv",
+    "retrieved_on": "2026-10-27",
+    "retrieval_precision": "date",
+    "role": "Corroboration only; official canvass supplies all actual candidates and votes"
+  }
+}
