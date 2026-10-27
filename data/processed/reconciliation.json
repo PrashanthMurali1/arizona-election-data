@@ -842,5 +842,146 @@
         "candidate_metadata_matches_reference": true
       }
     ]
+  },
+  {
+    "contest": "az-2014-attorney-general",
+    "status": "verified",
+    "county_count": 15,
+    "complete_county_count": 15,
+    "expected_county_count": 15,
+    "missing_candidates": [],
+    "unexpected_candidates": [],
+    "reference": "https://apps.azsos.gov/election/2014/general/Canvass2014GE.pdf",
+    "reference_snapshot": "data/raw/attorney-general/2014-transcription.csv",
+    "reference_sha256": "64a3c83ce347f3da0bc04a0823164d574c1d47090ca4e32bf4d948f675ec3875",
+    "candidates": [
+      {
+        "candidate": "Mark Brnovich",
+        "county_sum": 782361,
+        "official_statewide": 782361,
+        "normalized_statewide": 782361,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "Felecia Rotellini",
+        "county_sum": 696054,
+        "official_statewide": 696054,
+        "normalized_statewide": 696054,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "Anthony Camboni (Write-In)",
+        "county_sum": 265,
+        "official_statewide": 265,
+        "normalized_statewide": 265,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      }
+    ]
+  },
+  {
+    "contest": "az-2018-attorney-general",
+    "status": "verified",
+    "county_count": 15,
+    "complete_county_count": 15,
+    "expected_county_count": 15,
+    "missing_candidates": [],
+    "unexpected_candidates": [],
+    "reference": "https://apps.azsos.gov/election/2018/2018_1203_signed_official_statewide_canvass.pdf",
+    "reference_snapshot": "data/raw/attorney-general/2018-transcription.csv",
+    "reference_sha256": "37071173880c924fb0b12db7ba1a7c8c269e5c3e6657ae87b396f6af50f1419f",
+    "candidates": [
+      {
+        "candidate": "Mark Brnovich",
+        "county_sum": 1201398,
+        "official_statewide": 1201398,
+        "normalized_statewide": 1201398,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "January Contreras",
+        "county_sum": 1120726,
+        "official_statewide": 1120726,
+        "normalized_statewide": 1120726,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "Anthony Camboni (Write-In)",
+        "county_sum": 346,
+        "official_statewide": 346,
+        "normalized_statewide": 346,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      }
+    ]
+  },
+  {
+    "contest": "az-2022-attorney-general",
+    "status": "verified",
+    "county_count": 15,
+    "complete_county_count": 15,
+    "expected_county_count": 15,
+    "missing_candidates": [],
+    "unexpected_candidates": [],
+    "reference": "https://apps.azsos.gov/election/2022/General/canvass/2022dec05_general_election_canvass_web.pdf",
+    "reference_snapshot": "data/raw/attorney-general/2022-transcription.csv",
+    "reference_sha256": "2ae47085455dced616ffc9fcb3fa910c7aeeb8d6789f98a411228fe9a48edb4f",
+    "candidates": [
+      {
+        "candidate": "Abraham \"Abe\" Hamadeh",
+        "county_sum": 1254102,
+        "official_statewide": 1254102,
+        "normalized_statewide": 1254102,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "Kris Mayes",
+        "county_sum": 1254613,
+        "official_statewide": 1254613,
+        "normalized_statewide": 1254613,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "Samantha Severson (Write-In)",
+        "county_sum": 418,
+        "official_statewide": 418,
+        "normalized_statewide": 418,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      }
+    ]
   }
 ]

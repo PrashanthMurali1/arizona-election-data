@@ -8,8 +8,13 @@ test("catalog, candidate results, county map, details, sorting, year navigation 
   await expect(
     page.getByRole("heading", { name: "Election catalog" }),
   ).toBeVisible();
-  await expect(page.locator(".election-card")).toHaveCount(4);
-  await page.locator(".election-card").filter({ hasText: "2022" }).click();
+  await expect(page.locator(".election-card")).toHaveCount(8);
+  await page
+    .locator(".office-section")
+    .filter({ hasText: "Arizona Governor" })
+    .locator(".election-card")
+    .filter({ hasText: "2022" })
+    .click();
   await expect(
     page.getByRole("heading", { name: "Governor 2022", exact: true }),
   ).toBeVisible();
@@ -86,7 +91,7 @@ test("mobile layout contains overflow and supports county selection", async ({
 test("desktop layout and catalog screenshots", async ({ page }) => {
   await page.setViewportSize({ width: 1440, height: 1000 });
   await page.goto("/");
-  await expect(page.locator(".election-card")).toHaveCount(4);
+  await expect(page.locator(".election-card")).toHaveCount(8);
   await page.screenshot({ path: "test-results/catalog.png", fullPage: true });
   await page.goto("/elections/az-2022-governor");
   await expect(page.locator(".county-map path")).toHaveCount(15);
@@ -103,7 +108,11 @@ test("2018 certified results, source caveat, county selection, sorting and mobil
   const errors: string[] = [];
   page.on("pageerror", (e) => errors.push(e.message));
   await page.goto("/");
-  const card = page.locator(".election-card").filter({ hasText: "2018" });
+  const card = page
+    .locator(".office-section")
+    .filter({ hasText: "Arizona Governor" })
+    .locator(".election-card")
+    .filter({ hasText: "2018" });
   await expect(card).toContainText("Verified results");
   await card.click();
   await expect(
@@ -170,7 +179,11 @@ test("2026 participation is distinct from candidate results", async ({
   const errors: string[] = [];
   page.on("pageerror", (e) => errors.push(e.message));
   await page.goto("/");
-  const card = page.locator(".election-card").filter({ hasText: "2026" });
+  const card = page
+    .locator(".office-section")
+    .filter({ hasText: "Arizona Governor" })
+    .locator(".election-card")
+    .filter({ hasText: "2026" });
   await expect(card).toContainText("Voting in progress");
   await card.click();
   await expect(
@@ -234,4 +247,29 @@ test("2026 participation is distinct from candidate results", async ({
   await page.getByLabel("Election year").selectOption("az-2022-governor");
   await expect(page.locator(".statewide .candidate-row")).toHaveCount(9);
   expect(errors).toEqual([]);
+});
+
+test("Attorney General archive and 2026 participation share the existing interface", async ({
+  page,
+}) => {
+  await page.goto("/");
+  const office = page
+    .locator(".office-section")
+    .filter({ hasText: "Arizona Attorney General" });
+  await expect(office.locator(".election-card")).toHaveCount(4);
+  await office.locator(".election-card").filter({ hasText: "2026" }).click();
+  await expect(
+    page.getByRole("heading", { name: "Attorney General 2026", exact: true }),
+  ).toBeVisible();
+  await expect(page.locator(".county-map path.other")).toHaveCount(15);
+  await expect(page.locator(".candidate-row")).toHaveCount(0);
+  await expect(page.locator(".notice")).toContainText(
+    "not votes cast specifically for Attorney General",
+  );
+  await page.getByLabel("Election year").selectOption("az-2022-attorney-general");
+  await expect(
+    page.getByRole("heading", { name: "Attorney General 2022", exact: true }),
+  ).toBeVisible();
+  await expect(page.locator(".statewide .candidate-row")).toHaveCount(3);
+  await expect(page.locator(".contest-total strong")).toHaveText("2,509,133");
 });

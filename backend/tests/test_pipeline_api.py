@@ -55,13 +55,11 @@ def client():
 def test_clean_migration_and_import(client):
     assert client.get("/api/health").json() == {"status": "ok"}
     catalog = client.get("/api/elections").json()
-    assert len(catalog) == 4
-    assert {x["year"]: x["status"] for x in catalog} == {
-        2026: "pre_results",
-        2022: "verified",
-        2018: "verified",
-        2014: "verified",
-    }
+    assert len(catalog) == 8
+    assert len([x for x in catalog if x["office_id"] == "governor"]) == 4
+    assert len([x for x in catalog if x["office_id"] == "attorney-general"]) == 4
+    assert all(x["id"] != "az-2026-us-senate" for x in catalog)
+    assert client.get("/api/elections/az-2026-us-senate").status_code == 404
     result = client.get("/api/elections/az-2022-governor").json()
     assert result["statewide"]["total_votes"] == 2559485
     candidates = result["statewide"]["candidates"]
@@ -357,6 +355,52 @@ def test_2026_real_sources_and_pre_release_api(client):
     assert client.get("/api/elections/az-2022-governor/activity").json() is None
 
 
+def test_attorney_general_history_and_2026_event_activity(client):
+    totals = {
+        2014: [
+            ("Mark Brnovich", 782361),
+            ("Felecia Rotellini", 696054),
+            ("Anthony Camboni (Write-In)", 265),
+        ],
+        2018: [
+            ("Mark Brnovich", 1201398),
+            ("January Contreras", 1120726),
+            ("Anthony Camboni (Write-In)", 346),
+        ],
+        2022: [
+            ('Abraham "Abe" Hamadeh', 1254102),
+            ("Kris Mayes", 1254613),
+            ("Samantha Severson (Write-In)", 418),
+        ],
+    }
+    for year, expected in totals.items():
+        detail = client.get(f"/api/elections/az-{year}-attorney-general").json()
+        assert detail["election"]["status"] == "verified"
+        assert detail["election"]["county_count"] == 15
+        assert detail["statewide"]["total_votes"] == sum(v for _, v in expected)
+        assert [
+            (c["name"], c["votes"]) for c in detail["statewide"]["candidates"]
+        ] == sorted(expected, key=lambda x: -x[1])
+        assert detail["reconciliation"]["status"] == "verified"
+        assert len(detail["reconciliation"]["candidates"]) == 3
+        assert all(
+            c["difference"] == 0 and not c["missing_counties"]
+            for c in detail["reconciliation"]["candidates"]
+        )
+        county_rows = client.get(
+            f"/api/elections/az-{year}-attorney-general/counties"
+        ).json()
+        assert len(county_rows) == 15
+        assert all(len(row["candidates"]) == 3 for row in county_rows)
+    rows = client.get("/api/elections/az-2026-attorney-general/counties").json()
+    activity = client.get("/api/elections/az-2026-attorney-general/activity").json()
+    assert len(rows) == 15
+    assert all(not row["candidates"] and row["winner"] is None for row in rows)
+    assert activity["stage"] == "pre_results"
+    assert activity["coverage"]["registered_voters"] == 15
+    assert activity["coverage"]["ballots_received"] == 2
+
+
 def test_2026_snapshot_idempotence_and_historical_values(client):
     from backend.app.models import PublicationSnapshot, MetricObservation
     from backend.app.main import election, counties
@@ -494,7 +538,6 @@ def test_2026_staleness_corrections_and_older_snapshots(client, tmp_path):
                 s, SnapshotInput.model_validate(values), root=tmp_path, now=now
             )
         s.rollback()
-
 
 def test_2026_source_adapter_guards(monkeypatch):
     from scripts import refresh_2026 as refresh
@@ -675,4 +718,23 @@ def test_2026_result_stages_and_certification_guard(client, tmp_path, monkeypatc
             apply_snapshot(
                 s, SnapshotInput.model_validate(payload), root=tmp_path, now=after
             )
+        s.rollback()
+    ag_payload = copy.deepcopy(payload)
+    ag_payload.update(
+        office_id="attorney-general",
+        stream="results-attorney-general",
+        release_id="synthetic-ag-unofficial",
+    )
+    with SessionLocal() as s:
+        apply_snapshot(
+            s, SnapshotInput.model_validate(ag_payload), root=tmp_path, now=after
+        )
+        ag = s.get(Contest, "az-2026-attorney-general")
+        governor = s.get(Contest, CONTEST)
+        ag_results = results(s, ag, s.get(GeographicUnit, "04"))
+        gov_results = results(s, governor, s.get(GeographicUnit, "04"))
+        assert ag_results.status == "unofficial" and len(ag_results.candidates) == 2
+        assert gov_results.candidates == []
+        assert activity(s, "az-2026-attorney-general", now=after)["reported_leaders"]
+        assert activity(s, CONTEST, now=after)["reported_leaders"] == {}
         s.rollback()

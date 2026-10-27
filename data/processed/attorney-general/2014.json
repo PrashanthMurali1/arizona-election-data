@@ -1,0 +1,88 @@
+{
+  "year": 2014,
+  "date": "2014-11-04",
+  "office_id": "attorney-general",
+  "office": "Attorney General",
+  "source_url": "https://apps.azsos.gov/election/2014/general/Canvass2014GE.pdf",
+  "source_sha256": "64a3c83ce347f3da0bc04a0823164d574c1d47090ca4e32bf4d948f675ec3875",
+  "source_notes": "Reviewed transcription of the official 2014 Arizona statewide canvass Attorney General rows. See data/raw/attorney-general/2014-provenance.json for report date, source URL, transcription method and checksum. No turnout duplicated; turnout belongs to event.",
+  "reference_path": "data/raw/attorney-general/2014-transcription.csv",
+  "candidates": [
+    {
+      "id": "ag-2014-0",
+      "name": "Mark Brnovich",
+      "party": "REP",
+      "write_in": false,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 5901,
+        "04003": 20066,
+        "04005": 14360,
+        "04007": 9203,
+        "04009": 4731,
+        "04011": 965,
+        "04012": 2327,
+        "04013": 457696,
+        "04015": 31900,
+        "04017": 13483,
+        "04019": 117418,
+        "04021": 40246,
+        "04023": 3042,
+        "04025": 46371,
+        "04027": 14652
+      },
+      "statewide": 782361
+    },
+    {
+      "id": "ag-2014-1",
+      "name": "Felecia Rotellini",
+      "party": "DEM",
+      "write_in": false,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 14549,
+        "04003": 15548,
+        "04005": 21733,
+        "04007": 6241,
+        "04009": 2403,
+        "04011": 916,
+        "04012": 1075,
+        "04013": 385096,
+        "04015": 13234,
+        "04017": 13463,
+        "04019": 148243,
+        "04021": 29887,
+        "04023": 6149,
+        "04025": 26123,
+        "04027": 11394
+      },
+      "statewide": 696054
+    },
+    {
+      "id": "ag-2014-2",
+      "name": "Anthony Camboni (Write-In)",
+      "party": "NONE",
+      "write_in": true,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 11,
+        "04003": 3,
+        "04005": 17,
+        "04007": 13,
+        "04009": 0,
+        "04011": 1,
+        "04012": 0,
+        "04013": 127,
+        "04015": 5,
+        "04017": 1,
+        "04019": 51,
+        "04021": 16,
+        "04023": 0,
+        "04025": 14,
+        "04027": 6
+      },
+      "statewide": 265
+    }
+  ],
+  "turnout": {}
+}

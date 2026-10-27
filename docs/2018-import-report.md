@@ -40,7 +40,7 @@ Official turnout, ballots and eligible registration cover **all 15 counties and 
 
 - Added a focused `normalize_2018.py` adapter and a checksum-validating `download_2018.py` helper, using existing dependencies.
 - Existing normalization/bootstrap now invokes the 2018 adapter. The obsolete availability placeholder is archived so it cannot overwrite verified data.
-- Added `import_data.py --year 2018` to update this contest without rewriting other years' results and retain their reconciliation reports.
+- `import_data.py --year 2018` updates 2018 Governor and Attorney General contests and retains other years' result records and reconciliation reports.
 - Added supplemental input provenance through existing Source/VoteResult relationships and the source-reference endpoint. No schema changes were required.
 - Updated methodology text and generic source labels; no CSS, layout or result interaction redesign.
 

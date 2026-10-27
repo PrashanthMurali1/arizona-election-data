@@ -1,0 +1,88 @@
+{
+  "year": 2018,
+  "date": "2018-11-06",
+  "office_id": "attorney-general",
+  "office": "Attorney General",
+  "source_url": "https://apps.azsos.gov/election/2018/2018_1203_signed_official_statewide_canvass.pdf",
+  "source_sha256": "37071173880c924fb0b12db7ba1a7c8c269e5c3e6657ae87b396f6af50f1419f",
+  "source_notes": "Reviewed transcription of the official 2018 Arizona statewide canvass Attorney General rows. See data/raw/attorney-general/2018-provenance.json for report date, source URL, transcription method and checksum. No turnout duplicated; turnout belongs to event.",
+  "reference_path": "data/raw/attorney-general/2018-transcription.csv",
+  "candidates": [
+    {
+      "id": "ag-2018-0",
+      "name": "Mark Brnovich",
+      "party": "REP",
+      "write_in": false,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 8401,
+        "04003": 26722,
+        "04005": 20715,
+        "04007": 13226,
+        "04009": 7275,
+        "04011": 1493,
+        "04012": 3524,
+        "04013": 727133,
+        "04015": 52936,
+        "04017": 19854,
+        "04019": 157997,
+        "04021": 68428,
+        "04023": 3768,
+        "04025": 67693,
+        "04027": 22233
+      },
+      "statewide": 1201398
+    },
+    {
+      "id": "ag-2018-1",
+      "name": "January Contreras",
+      "party": "DEM",
+      "write_in": false,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 16309,
+        "04003": 18024,
+        "04005": 32889,
+        "04007": 6891,
+        "04009": 3129,
+        "04011": 999,
+        "04012": 1430,
+        "04013": 672560,
+        "04015": 17229,
+        "04017": 16015,
+        "04019": 222055,
+        "04021": 46792,
+        "04023": 9310,
+        "04025": 36483,
+        "04027": 20611
+      },
+      "statewide": 1120726
+    },
+    {
+      "id": "ag-2018-2",
+      "name": "Anthony Camboni (Write-In)",
+      "party": "NONE",
+      "write_in": true,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 11,
+        "04003": 8,
+        "04005": 12,
+        "04007": 1,
+        "04009": 0,
+        "04011": 0,
+        "04012": 1,
+        "04013": 227,
+        "04015": 5,
+        "04017": 7,
+        "04019": 33,
+        "04021": 17,
+        "04023": 0,
+        "04025": 21,
+        "04027": 3
+      },
+      "statewide": 346
+    }
+  ],
+  "turnout": {}
+}

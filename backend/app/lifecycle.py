@@ -29,6 +29,7 @@ from .publication_input import SnapshotInput
 
 EVENT = "az-2026-general"
 CONTEST = "az-2026-governor"
+AG_CONTEST = "az-2026-attorney-general"
 RELEASE_AFTER = datetime(
     2026, 11, 4, 3, tzinfo=timezone.utc
 )  # Nov 3, 8pm America/Phoenix
@@ -107,6 +108,33 @@ def ensure_current(s):
             )
         )
         s.flush()
+    if not s.get(Contest, AG_CONTEST):
+        s.merge(Office(id="attorney-general", name="Attorney General"))
+        s.add(
+            Contest(
+                id=AG_CONTEST,
+                event_id=EVENT,
+                office_id="attorney-general",
+                jurisdiction_id="04",
+                boundary_id="county-2022",
+                source_id="2026-availability",
+                status="pre_results",
+                notes="Voting in progress — candidate results not yet released. Participation figures concern the general election, not votes cast specifically for Attorney General.",
+            )
+        )
+        s.flush()
+    if not s.get(ElectionPublication, AG_CONTEST):
+        s.add(
+            ElectionPublication(
+                contest_id=AG_CONTEST,
+                stage="pre_results",
+                completeness="unavailable",
+                verification="source_checked",
+                result_snapshot_id=None,
+                notes="General-election participation and candidate results are separate.",
+            )
+        )
+        s.flush()
     if not s.get(ElectionPublication, CONTEST):
         s.add(
             ElectionPublication(
@@ -153,6 +181,9 @@ def apply_snapshot(s: Session, data: SnapshotInput, *, root=ROOT, now=None):
     ):
         raise ValueError("Source publication date is in the future")
     ensure_current(s)
+    target_contest = {
+        "attorney-general": AG_CONTEST,
+    }.get(data.office_id, CONTEST)
     units = set(
         s.scalars(select(GeographicUnit.id).where(GeographicUnit.kind == "county"))
     ) | {"04"}
@@ -204,6 +235,9 @@ def apply_snapshot(s: Session, data: SnapshotInput, *, root=ROOT, now=None):
                 raise ValueError("A complete unit must have every candidate value")
     payload = data.model_dump()
     identity = data.model_dump(exclude={"retrieved_at"})
+    # Keep IDs stable for reviewed manifests created before office_id existed.
+    if "office_id" not in data.model_fields_set:
+        identity.pop("office_id", None)
     identity["source"].pop("raw_path")
     if identity.get("certification"):
         identity["certification"].pop("raw_path")
@@ -255,7 +289,7 @@ def apply_snapshot(s: Session, data: SnapshotInput, *, root=ROOT, now=None):
                     warnings.append(
                         f"{v.geoid} {v.candidate} corrected downward: {prior} to {v.votes}."
                     )
-    publication = s.get(ElectionPublication, CONTEST)
+    publication = s.get(ElectionPublication, target_contest)
     if (
         data.kind == "results"
         and publication.stage == "certified"
@@ -302,7 +336,7 @@ def apply_snapshot(s: Session, data: SnapshotInput, *, root=ROOT, now=None):
             PublicationSnapshot(
                 id=sid,
                 event_id=EVENT,
-                contest_id=CONTEST,
+                contest_id=target_contest,
                 stream=data.stream,
                 kind=data.kind,
                 stage=data.stage,
@@ -353,17 +387,24 @@ def apply_snapshot(s: Session, data: SnapshotInput, *, root=ROOT, now=None):
         if data.kind == "results":
             old_ids = list(
                 s.scalars(
-                    select(Participation.id).where(Participation.contest_id == CONTEST)
+                    select(Participation.id).where(
+                        Participation.contest_id == target_contest
+                    )
                 )
             )
             s.execute(
                 delete(VoteResult).where(VoteResult.participation_id.in_(old_ids))
             )
-            s.execute(delete(Participation).where(Participation.contest_id == CONTEST))
+            s.execute(
+                delete(Participation).where(Participation.contest_id == target_contest)
+            )
             s.flush()
             vote_values = {(v.geoid, v.candidate): v.votes for v in data.votes}
             for c in data.candidates:
-                cid = "2026-" + c.key
+                prefix = {
+                    "attorney-general": "2026-ag-",
+                }.get(data.office_id, "2026-")
+                cid = prefix + c.key
                 if not s.get(Party, c.party):
                     s.add(Party(id=c.party, name=c.party_name))
                 s.merge(Candidate(id=cid, name=c.name))
@@ -371,7 +412,7 @@ def apply_snapshot(s: Session, data: SnapshotInput, *, root=ROOT, now=None):
                 s.add(
                     Participation(
                         id=cid,
-                        contest_id=CONTEST,
+                        contest_id=target_contest,
                         candidate_id=cid,
                         party_id=c.party,
                         write_in=c.write_in,
@@ -404,7 +445,7 @@ def apply_snapshot(s: Session, data: SnapshotInput, *, root=ROOT, now=None):
             publication.verification = data.verification
             publication.result_snapshot_id = sid
             publication.notes = data.notes
-            contest = s.get(Contest, CONTEST)
+            contest = s.get(Contest, target_contest)
             contest.status = "verified" if data.stage == "certified" else "unofficial"
             contest.notes = data.notes
             contest.source_id = "snapshot-" + sid
@@ -413,7 +454,7 @@ def apply_snapshot(s: Session, data: SnapshotInput, *, root=ROOT, now=None):
 
                 s.add(
                     ImportRun(
-                        contest_id=CONTEST,
+                        contest_id=target_contest,
                         created_at=now.isoformat(),
                         status="verified",
                         report=reconciliation,
@@ -454,6 +495,8 @@ def activity(s, contest_id, now=None):
     warnings = []
     for cursor in cursors:
         snap = s.get(PublicationSnapshot, cursor.snapshot_id)
+        if snap.kind == "results" and snap.contest_id != contest_id:
+            continue
         source = s.get(Source, snap.source_id)
         sources[source.id] = source
         failure = s.scalar(
@@ -566,6 +609,15 @@ def activity(s, contest_id, now=None):
         )
         .order_by(RefreshAttempt.id.desc())
     ):
+        valid_result_streams = {
+            AG_CONTEST: {"results-attorney-general"},
+            CONTEST: {"results", "results-governor"},
+        }.get(contest_id, set())
+        if (
+            attempt.stream.startswith("results")
+            and attempt.stream not in valid_result_streams
+        ):
+            continue
         cursor = next((c for c in cursors if c.stream == attempt.stream), None)
         if (cursor is None or attempt.attempted_at > cursor.checked_at) and not any(
             f["stream"] == attempt.stream for f in failures

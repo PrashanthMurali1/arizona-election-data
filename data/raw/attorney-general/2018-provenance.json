@@ -1,0 +1,28 @@
+{
+  "year": 2018,
+  "source_url": "https://apps.azsos.gov/election/2018/2018_1203_signed_official_statewide_canvass.pdf",
+  "source_title": "Arizona Secretary of State \u2014 2018 official statewide canvass",
+  "report_time": "2018-11-30T08:11:45-07:00",
+  "retrieved_date": "2026-10-27",
+  "source_pdf_sha256": null,
+  "reviewed_transcription": "data/raw/attorney-general/2018-transcription.csv",
+  "transcription_sha256": "37071173880c924fb0b12db7ba1a7c8c269e5c3e6657ae87b396f6af50f1419f",
+  "counties": [
+    "04001",
+    "04003",
+    "04005",
+    "04007",
+    "04009",
+    "04011",
+    "04012",
+    "04013",
+    "04015",
+    "04017",
+    "04019",
+    "04021",
+    "04023",
+    "04025",
+    "04027"
+  ],
+  "notes": "Manually reviewed transcription of the Attorney General contest rows from the official statewide canvass. The original source PDF could not be acquired as a local binary; official published canvass tables were consulted. County values and the statewide TOTAL column are retained as reported."
+}

@@ -55,6 +55,7 @@ class VoteInput(StrictModel):
 class SnapshotInput(StrictModel):
     election_date: Literal["2026-11-03"]
     election_kind: Literal["general"]
+    office_id: Literal["governor", "attorney-general"] = "governor"
     stream: str = Field(pattern=r"^[a-z][a-z0-9_-]{0,79}$")
     kind: Literal["participation", "results"]
     stage: Literal["pre_results", "unofficial", "certified"]
@@ -121,7 +122,20 @@ class SnapshotInput(StrictModel):
             self.metrics
             or self.stage == "pre_results"
             or self.vote_scope == "participation"
-            or self.stream != "results"
+            or self.stream
+            not in {
+                "results",
+                "results-governor",
+                "results-attorney-general",
+            }
+            or (
+                self.office_id == "attorney-general"
+                and self.stream != "results-attorney-general"
+            )
+            or (
+                self.office_id == "governor"
+                and self.stream == "results-attorney-general"
+            )
         ):
             raise ValueError(
                 "Results must be a single publisher results stream, with explicit vote scope"
