@@ -1,0 +1,168 @@
+{
+  "election_date": "2026-11-03",
+  "election_kind": "general",
+  "stream": "registration",
+  "kind": "participation",
+  "stage": "pre_results",
+  "completeness": "complete",
+  "verification": "source_checked",
+  "source": {
+    "title": "Arizona Secretary of State — 2026 active registration",
+    "url": "https://apps.azsos.gov/election/VoterReg/2026/State-Voter-Registration-November-2026.pdf",
+    "raw_path": "data/raw/2026/snapshots/1afafaab5dd48ca2f7d942f8b8342b3132f565858e7a3dd645c2e962192c6ac8.csv",
+    "sha256": "1afafaab5dd48ca2f7d942f8b8342b3132f565858e7a3dd645c2e962192c6ac8",
+    "notes": "Reviewed transcription of the official indexed PDF page 1 total column. Original direct PDF download returned HTTP 403. All 15 GE county totals sum exactly to the separately printed statewide total, independently corroborated by the official October 20 press release. APR/PE rows and inactive/federal-only sections are excluded. Publication has a date but no source clock time; no time has been invented."
+  },
+  "reported_at": "2026-10-20",
+  "report_precision": "date",
+  "retrieved_at": "2026-10-27T15:24:45+00:00",
+  "release_id": "2026-general-active-registration",
+  "vote_scope": "participation",
+  "metrics": [
+    {
+      "geoid": "04001",
+      "key": "registered_voters",
+      "label": "Active registered voters",
+      "value": 53295,
+      "definition": "Active registered voters, GE 2026 total column (all parties). Registration is not a ballot-return count, governor contest votes, or a turnout denominator for this display.",
+      "coverage_note": "Official county and statewide figures; source publication date October 20, no clock time.",
+      "completeness": "complete"
+    },
+    {
+      "geoid": "04003",
+      "key": "registered_voters",
+      "label": "Active registered voters",
+      "value": 82634,
+      "definition": "Active registered voters, GE 2026 total column (all parties). Registration is not a ballot-return count, governor contest votes, or a turnout denominator for this display.",
+      "coverage_note": "Official county and statewide figures; source publication date October 20, no clock time.",
+      "completeness": "complete"
+    },
+    {
+      "geoid": "04005",
+      "key": "registered_voters",
+      "label": "Active registered voters",
+      "value": 88175,
+      "definition": "Active registered voters, GE 2026 total column (all parties). Registration is not a ballot-return count, governor contest votes, or a turnout denominator for this display.",
+      "coverage_note": "Official county and statewide figures; source publication date October 20, no clock time.",
+      "completeness": "complete"
+    },
+    {
+      "geoid": "04007",
+      "key": "registered_voters",
+      "label": "Active registered voters",
+      "value": 34245,
+      "definition": "Active registered voters, GE 2026 total column (all parties). Registration is not a ballot-return count, governor contest votes, or a turnout denominator for this display.",
+      "coverage_note": "Official county and statewide figures; source publication date October 20, no clock time.",
+      "completeness": "complete"
+    },
+    {
+      "geoid": "04009",
+      "key": "registered_voters",
+      "label": "Active registered voters",
+      "value": 20623,
+      "definition": "Active registered voters, GE 2026 total column (all parties). Registration is not a ballot-return count, governor contest votes, or a turnout denominator for this display.",
+      "coverage_note": "Official county and statewide figures; source publication date October 20, no clock time.",
+      "completeness": "complete"
+    },
+    {
+      "geoid": "04011",
+      "key": "registered_voters",
+      "label": "Active registered voters",
+      "value": 4611,
+      "definition": "Active registered voters, GE 2026 total column (all parties). Registration is not a ballot-return count, governor contest votes, or a turnout denominator for this display.",
+      "coverage_note": "Official county and statewide figures; source publication date October 20, no clock time.",
+      "completeness": "complete"
+    },
+    {
+      "geoid": "04012",
+      "key": "registered_voters",
+      "label": "Active registered voters",
+      "value": 11338,
+      "definition": "Active registered voters, GE 2026 total column (all parties). Registration is not a ballot-return count, governor contest votes, or a turnout denominator for this display.",
+      "coverage_note": "Official county and statewide figures; source publication date October 20, no clock time.",
+      "completeness": "complete"
+    },
+    {
+      "geoid": "04013",
+      "key": "registered_voters",
+      "label": "Active registered voters",
+      "value": 2589827,
+      "definition": "Active registered voters, GE 2026 total column (all parties). Registration is not a ballot-return count, governor contest votes, or a turnout denominator for this display.",
+      "coverage_note": "Official county and statewide figures; source publication date October 20, no clock time.",
+      "completeness": "complete"
+    },
+    {
+      "geoid": "04015",
+      "key": "registered_voters",
+      "label": "Active registered voters",
+      "value": 146942,
+      "definition": "Active registered voters, GE 2026 total column (all parties). Registration is not a ballot-return count, governor contest votes, or a turnout denominator for this display.",
+      "coverage_note": "Official county and statewide figures; source publication date October 20, no clock time.",
+      "completeness": "complete"
+    },
+    {
+      "geoid": "04017",
+      "key": "registered_voters",
+      "label": "Active registered voters",
+      "value": 73154,
+      "definition": "Active registered voters, GE 2026 total column (all parties). Registration is not a ballot-return count, governor contest votes, or a turnout denominator for this display.",
+      "coverage_note": "Official county and statewide figures; source publication date October 20, no clock time.",
+      "completeness": "complete"
+    },
+    {
+      "geoid": "04019",
+      "key": "registered_voters",
+      "label": "Active registered voters",
+      "value": 657885,
+      "definition": "Active registered voters, GE 2026 total column (all parties). Registration is not a ballot-return count, governor contest votes, or a turnout denominator for this display.",
+      "coverage_note": "Official county and statewide figures; source publication date October 20, no clock time.",
+      "completeness": "complete"
+    },
+    {
+      "geoid": "04021",
+      "key": "registered_voters",
+      "label": "Active registered voters",
+      "value": 291682,
+      "definition": "Active registered voters, GE 2026 total column (all parties). Registration is not a ballot-return count, governor contest votes, or a turnout denominator for this display.",
+      "coverage_note": "Official county and statewide figures; source publication date October 20, no clock time.",
+      "completeness": "complete"
+    },
+    {
+      "geoid": "04023",
+      "key": "registered_voters",
+      "label": "Active registered voters",
+      "value": 32952,
+      "definition": "Active registered voters, GE 2026 total column (all parties). Registration is not a ballot-return count, governor contest votes, or a turnout denominator for this display.",
+      "coverage_note": "Official county and statewide figures; source publication date October 20, no clock time.",
+      "completeness": "complete"
+    },
+    {
+      "geoid": "04025",
+      "key": "registered_voters",
+      "label": "Active registered voters",
+      "value": 175542,
+      "definition": "Active registered voters, GE 2026 total column (all parties). Registration is not a ballot-return count, governor contest votes, or a turnout denominator for this display.",
+      "coverage_note": "Official county and statewide figures; source publication date October 20, no clock time.",
+      "completeness": "complete"
+    },
+    {
+      "geoid": "04027",
+      "key": "registered_voters",
+      "label": "Active registered voters",
+      "value": 111922,
+      "definition": "Active registered voters, GE 2026 total column (all parties). Registration is not a ballot-return count, governor contest votes, or a turnout denominator for this display.",
+      "coverage_note": "Official county and statewide figures; source publication date October 20, no clock time.",
+      "completeness": "complete"
+    },
+    {
+      "geoid": "04",
+      "key": "registered_voters",
+      "label": "Active registered voters",
+      "value": 4374827,
+      "definition": "Active registered voters, GE 2026 total column (all parties). Registration is not a ballot-return count, governor contest votes, or a turnout denominator for this display.",
+      "coverage_note": "Official county and statewide figures; source publication date October 20, no clock time.",
+      "completeness": "complete"
+    }
+  ],
+  "notes": "Reviewed transcription of the official indexed PDF page 1 total column. Original direct PDF download returned HTTP 403. All 15 GE county totals sum exactly to the separately printed statewide total, independently corroborated by the official October 20 press release. APR/PE rows and inactive/federal-only sections are excluded. Publication has a date but no source clock time; no time has been invented."
+}

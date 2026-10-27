@@ -1,0 +1,6 @@
+{
+  "url": "https://www2.census.gov/geo/tiger/GENZ2022/shp/cb_2022_us_county_500k.zip",
+  "sha256": "4a2c23c5486916115137fed7e84a32a4dcfeae453d02840d3e3f1fd8efc3ba58",
+  "vintage": 2022,
+  "notes": "Official Census cartographic boundary file, 1:500,000; Arizona subset, no hand-drawn geometry. Used as a common visualization vintage for historical county results."
+}

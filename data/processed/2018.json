@@ -1,0 +1,820 @@
+{
+  "year": 2018,
+  "date": "2018-11-06",
+  "source_url": "https://apps.azsos.gov/election/2018/2018_1203_signed_official_statewide_canvass.pdf",
+  "source_sha256": "c7bf75a49f94691763cd0facec39b607b3c74c84175eccbd1d4e03bbbcff314b",
+  "source_notes": "All eight certified candidates reconcile with the official statewide canvass. Three ballot candidates use VEST precinct sums; five named write-ins use retained OpenElections county records. Official turnout is from canvass page 1. VEST’s broader write-in aggregate is excluded: 3,203 versus 275 certified named write-ins.",
+  "candidates": [
+    {
+      "id": "2018-0",
+      "name": "Doug Ducey",
+      "party": "REP",
+      "write_in": false,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 9175,
+        "04003": 29638,
+        "04005": 22778,
+        "04007": 14444,
+        "04009": 7776,
+        "04011": 1637,
+        "04012": 3852,
+        "04013": 800210,
+        "04015": 56682,
+        "04017": 21880,
+        "04019": 184621,
+        "04021": 75272,
+        "04023": 4792,
+        "04025": 74148,
+        "04027": 23958
+      },
+      "statewide": 1330863,
+      "county_source_id": "vest-2018"
+    },
+    {
+      "id": "2018-1",
+      "name": "David Garcia",
+      "party": "DEM",
+      "write_in": false,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 14955,
+        "04003": 14576,
+        "04005": 30712,
+        "04007": 5623,
+        "04009": 2569,
+        "04011": 832,
+        "04012": 1122,
+        "04013": 603055,
+        "04015": 13580,
+        "04017": 13646,
+        "04019": 195227,
+        "04021": 38801,
+        "04023": 8407,
+        "04025": 32159,
+        "04027": 19077
+      },
+      "statewide": 994341,
+      "county_source_id": "vest-2018"
+    },
+    {
+      "id": "2018-2",
+      "name": "Cary D. Dolego (Write-In)",
+      "party": "GRN",
+      "write_in": true,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 3,
+        "04003": 1,
+        "04005": 1,
+        "04007": 0,
+        "04009": 0,
+        "04011": 0,
+        "04012": 0,
+        "04013": 5,
+        "04015": 0,
+        "04017": 0,
+        "04019": 2,
+        "04021": 1,
+        "04023": 0,
+        "04025": 0,
+        "04027": 0
+      },
+      "statewide": 13,
+      "county_source_id": "openelections-2018"
+    },
+    {
+      "id": "2018-3",
+      "name": "Angel Torres",
+      "party": "GRN",
+      "write_in": false,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 912,
+        "04003": 1201,
+        "04005": 1440,
+        "04007": 468,
+        "04009": 276,
+        "04011": 80,
+        "04012": 129,
+        "04013": 29495,
+        "04015": 1325,
+        "04017": 1055,
+        "04019": 8678,
+        "04021": 2767,
+        "04023": 261,
+        "04025": 2029,
+        "04027": 846
+      },
+      "statewide": 50962,
+      "county_source_id": "vest-2018"
+    },
+    {
+      "id": "2018-4",
+      "name": "Arthur Ray \"RT\" Arvizu (Write-In)",
+      "party": "RTO",
+      "write_in": true,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 0,
+        "04003": 0,
+        "04005": 0,
+        "04007": 0,
+        "04009": 0,
+        "04011": 0,
+        "04012": 0,
+        "04013": 5,
+        "04015": 0,
+        "04017": 0,
+        "04019": 2,
+        "04021": 3,
+        "04023": 0,
+        "04025": 2,
+        "04027": 0
+      },
+      "statewide": 12,
+      "county_source_id": "openelections-2018"
+    },
+    {
+      "id": "2018-5",
+      "name": "James \"MarvelMan\" Gibson II (Write-In)",
+      "party": "HUM",
+      "write_in": true,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 0,
+        "04003": 2,
+        "04005": 1,
+        "04007": 0,
+        "04009": 0,
+        "04011": 0,
+        "04012": 0,
+        "04013": 4,
+        "04015": 0,
+        "04017": 0,
+        "04019": 0,
+        "04021": 0,
+        "04023": 0,
+        "04025": 0,
+        "04027": 0
+      },
+      "statewide": 7,
+      "county_source_id": "openelections-2018"
+    },
+    {
+      "id": "2018-6",
+      "name": "Christian Komor (Write-In)",
+      "party": "NONE",
+      "write_in": true,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 2,
+        "04003": 3,
+        "04005": 5,
+        "04007": 0,
+        "04009": 1,
+        "04011": 0,
+        "04012": 0,
+        "04013": 36,
+        "04015": 3,
+        "04017": 0,
+        "04019": 8,
+        "04021": 3,
+        "04023": 0,
+        "04025": 5,
+        "04027": 0
+      },
+      "statewide": 66,
+      "county_source_id": "openelections-2018"
+    },
+    {
+      "id": "2018-7",
+      "name": "Patrick Masoya (Write-In)",
+      "party": "NONE",
+      "write_in": true,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 2,
+        "04003": 3,
+        "04005": 9,
+        "04007": 0,
+        "04009": 2,
+        "04011": 0,
+        "04012": 0,
+        "04013": 128,
+        "04015": 3,
+        "04017": 4,
+        "04019": 16,
+        "04021": 6,
+        "04023": 0,
+        "04025": 1,
+        "04027": 3
+      },
+      "statewide": 177,
+      "county_source_id": "openelections-2018"
+    }
+  ],
+  "turnout": {
+    "04001": {
+      "registered_voters": 49800,
+      "ballots_cast": 25559,
+      "percent": 51.32
+    },
+    "04003": {
+      "registered_voters": 70854,
+      "ballots_cast": 45927,
+      "percent": 64.82
+    },
+    "04005": {
+      "registered_voters": 83239,
+      "ballots_cast": 55948,
+      "percent": 67.21
+    },
+    "04007": {
+      "registered_voters": 29875,
+      "ballots_cast": 20825,
+      "percent": 69.71
+    },
+    "04009": {
+      "registered_voters": 17906,
+      "ballots_cast": 10786,
+      "percent": 60.24
+    },
+    "04011": {
+      "registered_voters": 4535,
+      "ballots_cast": 2599,
+      "percent": 57.31
+    },
+    "04012": {
+      "registered_voters": 10048,
+      "ballots_cast": 5164,
+      "percent": 51.39
+    },
+    "04013": {
+      "registered_voters": 2254596,
+      "ballots_cast": 1454103,
+      "percent": 64.5
+    },
+    "04015": {
+      "registered_voters": 116346,
+      "ballots_cast": 72545,
+      "percent": 62.35
+    },
+    "04017": {
+      "registered_voters": 63034,
+      "ballots_cast": 37176,
+      "percent": 58.98
+    },
+    "04019": {
+      "registered_voters": 557532,
+      "ballots_cast": 393352,
+      "percent": 70.55
+    },
+    "04021": {
+      "registered_voters": 202079,
+      "ballots_cast": 118345,
+      "percent": 58.56
+    },
+    "04023": {
+      "registered_voters": 28238,
+      "ballots_cast": 13668,
+      "percent": 48.4
+    },
+    "04025": {
+      "registered_voters": 140724,
+      "ballots_cast": 109551,
+      "percent": 77.85
+    },
+    "04027": {
+      "registered_voters": 87457,
+      "ballots_cast": 44362,
+      "percent": 50.72
+    },
+    "04": {
+      "registered_voters": 3716263,
+      "ballots_cast": 2409910,
+      "percent": 64.85
+    }
+  },
+  "additional_sources": [
+    {
+      "id": "vest-2018",
+      "title": "VEST / UF Election Lab — 2018 Arizona precinct results",
+      "url": "https://election.lab.ufl.edu/dataset/az-2018-precinct-level-election-results/",
+      "sha256": "5f92efa410a2dbe57c1c7f710cfdf28a8a93a29c5692429d01dd66f1885e67d7",
+      "notes": "Retained public az_2018.zip. G18GOVRDUC, G18GOVDGAR and G18GOVGTOR match the official canvass in all 15 counties. G18GOVOWRI is a broader aggregate (3,203), excluded from certified candidate results (275 named write-ins)."
+    },
+    {
+      "id": "openelections-2018",
+      "title": "OpenElections — 2018 Arizona county results",
+      "url": "https://github.com/openelections/openelections-data-az/blob/5675ad1dbf77ce24fdd320127215f81b17e1a866/2018/20181106__az__general__county.csv",
+      "sha256": "33c07809ebd9b7fe1baaf3b993fdd492b0e6944ce27a2ec58df544590ee409b4",
+      "notes": "Pinned revision 5675ad1. Retains all five named write-in candidates and their actual county values; their statewide totals match the official canvass. Dolego: Navajo 0 and Pinal 1, confirmed from this source after a conflicting indexed-table extraction."
+    }
+  ],
+  "input_validation": {
+    "checks": {
+      "ballot_candidate_cells_match": true,
+      "ballot_candidate_statewide_match": true,
+      "named_write_in_total_match": true,
+      "certified_contest_total_match": true,
+      "official_candidate_count": 8,
+      "county_count": 15
+    },
+    "precinct_count": 1489,
+    "precinct_counts": {
+      "04001": 44,
+      "04003": 49,
+      "04005": 71,
+      "04007": 39,
+      "04009": 22,
+      "04012": 11,
+      "04015": 24,
+      "04021": 102,
+      "04023": 24,
+      "04025": 45,
+      "04017": 14,
+      "04027": 44,
+      "04013": 743,
+      "04019": 249,
+      "04011": 8
+    },
+    "ballot_candidates": [
+      {
+        "geoid": "04001",
+        "field": "G18GOVRDUC",
+        "candidate": "Doug Ducey",
+        "vest_votes": 9175,
+        "official_votes": 9175,
+        "difference": 0
+      },
+      {
+        "geoid": "04003",
+        "field": "G18GOVRDUC",
+        "candidate": "Doug Ducey",
+        "vest_votes": 29638,
+        "official_votes": 29638,
+        "difference": 0
+      },
+      {
+        "geoid": "04005",
+        "field": "G18GOVRDUC",
+        "candidate": "Doug Ducey",
+        "vest_votes": 22778,
+        "official_votes": 22778,
+        "difference": 0
+      },
+      {
+        "geoid": "04007",
+        "field": "G18GOVRDUC",
+        "candidate": "Doug Ducey",
+        "vest_votes": 14444,
+        "official_votes": 14444,
+        "difference": 0
+      },
+      {
+        "geoid": "04009",
+        "field": "G18GOVRDUC",
+        "candidate": "Doug Ducey",
+        "vest_votes": 7776,
+        "official_votes": 7776,
+        "difference": 0
+      },
+      {
+        "geoid": "04011",
+        "field": "G18GOVRDUC",
+        "candidate": "Doug Ducey",
+        "vest_votes": 1637,
+        "official_votes": 1637,
+        "difference": 0
+      },
+      {
+        "geoid": "04012",
+        "field": "G18GOVRDUC",
+        "candidate": "Doug Ducey",
+        "vest_votes": 3852,
+        "official_votes": 3852,
+        "difference": 0
+      },
+      {
+        "geoid": "04013",
+        "field": "G18GOVRDUC",
+        "candidate": "Doug Ducey",
+        "vest_votes": 800210,
+        "official_votes": 800210,
+        "difference": 0
+      },
+      {
+        "geoid": "04015",
+        "field": "G18GOVRDUC",
+        "candidate": "Doug Ducey",
+        "vest_votes": 56682,
+        "official_votes": 56682,
+        "difference": 0
+      },
+      {
+        "geoid": "04017",
+        "field": "G18GOVRDUC",
+        "candidate": "Doug Ducey",
+        "vest_votes": 21880,
+        "official_votes": 21880,
+        "difference": 0
+      },
+      {
+        "geoid": "04019",
+        "field": "G18GOVRDUC",
+        "candidate": "Doug Ducey",
+        "vest_votes": 184621,
+        "official_votes": 184621,
+        "difference": 0
+      },
+      {
+        "geoid": "04021",
+        "field": "G18GOVRDUC",
+        "candidate": "Doug Ducey",
+        "vest_votes": 75272,
+        "official_votes": 75272,
+        "difference": 0
+      },
+      {
+        "geoid": "04023",
+        "field": "G18GOVRDUC",
+        "candidate": "Doug Ducey",
+        "vest_votes": 4792,
+        "official_votes": 4792,
+        "difference": 0
+      },
+      {
+        "geoid": "04025",
+        "field": "G18GOVRDUC",
+        "candidate": "Doug Ducey",
+        "vest_votes": 74148,
+        "official_votes": 74148,
+        "difference": 0
+      },
+      {
+        "geoid": "04027",
+        "field": "G18GOVRDUC",
+        "candidate": "Doug Ducey",
+        "vest_votes": 23958,
+        "official_votes": 23958,
+        "difference": 0
+      },
+      {
+        "geoid": "04001",
+        "field": "G18GOVDGAR",
+        "candidate": "David Garcia",
+        "vest_votes": 14955,
+        "official_votes": 14955,
+        "difference": 0
+      },
+      {
+        "geoid": "04003",
+        "field": "G18GOVDGAR",
+        "candidate": "David Garcia",
+        "vest_votes": 14576,
+        "official_votes": 14576,
+        "difference": 0
+      },
+      {
+        "geoid": "04005",
+        "field": "G18GOVDGAR",
+        "candidate": "David Garcia",
+        "vest_votes": 30712,
+        "official_votes": 30712,
+        "difference": 0
+      },
+      {
+        "geoid": "04007",
+        "field": "G18GOVDGAR",
+        "candidate": "David Garcia",
+        "vest_votes": 5623,
+        "official_votes": 5623,
+        "difference": 0
+      },
+      {
+        "geoid": "04009",
+        "field": "G18GOVDGAR",
+        "candidate": "David Garcia",
+        "vest_votes": 2569,
+        "official_votes": 2569,
+        "difference": 0
+      },
+      {
+        "geoid": "04011",
+        "field": "G18GOVDGAR",
+        "candidate": "David Garcia",
+        "vest_votes": 832,
+        "official_votes": 832,
+        "difference": 0
+      },
+      {
+        "geoid": "04012",
+        "field": "G18GOVDGAR",
+        "candidate": "David Garcia",
+        "vest_votes": 1122,
+        "official_votes": 1122,
+        "difference": 0
+      },
+      {
+        "geoid": "04013",
+        "field": "G18GOVDGAR",
+        "candidate": "David Garcia",
+        "vest_votes": 603055,
+        "official_votes": 603055,
+        "difference": 0
+      },
+      {
+        "geoid": "04015",
+        "field": "G18GOVDGAR",
+        "candidate": "David Garcia",
+        "vest_votes": 13580,
+        "official_votes": 13580,
+        "difference": 0
+      },
+      {
+        "geoid": "04017",
+        "field": "G18GOVDGAR",
+        "candidate": "David Garcia",
+        "vest_votes": 13646,
+        "official_votes": 13646,
+        "difference": 0
+      },
+      {
+        "geoid": "04019",
+        "field": "G18GOVDGAR",
+        "candidate": "David Garcia",
+        "vest_votes": 195227,
+        "official_votes": 195227,
+        "difference": 0
+      },
+      {
+        "geoid": "04021",
+        "field": "G18GOVDGAR",
+        "candidate": "David Garcia",
+        "vest_votes": 38801,
+        "official_votes": 38801,
+        "difference": 0
+      },
+      {
+        "geoid": "04023",
+        "field": "G18GOVDGAR",
+        "candidate": "David Garcia",
+        "vest_votes": 8407,
+        "official_votes": 8407,
+        "difference": 0
+      },
+      {
+        "geoid": "04025",
+        "field": "G18GOVDGAR",
+        "candidate": "David Garcia",
+        "vest_votes": 32159,
+        "official_votes": 32159,
+        "difference": 0
+      },
+      {
+        "geoid": "04027",
+        "field": "G18GOVDGAR",
+        "candidate": "David Garcia",
+        "vest_votes": 19077,
+        "official_votes": 19077,
+        "difference": 0
+      },
+      {
+        "geoid": "04001",
+        "field": "G18GOVGTOR",
+        "candidate": "Angel Torres",
+        "vest_votes": 912,
+        "official_votes": 912,
+        "difference": 0
+      },
+      {
+        "geoid": "04003",
+        "field": "G18GOVGTOR",
+        "candidate": "Angel Torres",
+        "vest_votes": 1201,
+        "official_votes": 1201,
+        "difference": 0
+      },
+      {
+        "geoid": "04005",
+        "field": "G18GOVGTOR",
+        "candidate": "Angel Torres",
+        "vest_votes": 1440,
+        "official_votes": 1440,
+        "difference": 0
+      },
+      {
+        "geoid": "04007",
+        "field": "G18GOVGTOR",
+        "candidate": "Angel Torres",
+        "vest_votes": 468,
+        "official_votes": 468,
+        "difference": 0
+      },
+      {
+        "geoid": "04009",
+        "field": "G18GOVGTOR",
+        "candidate": "Angel Torres",
+        "vest_votes": 276,
+        "official_votes": 276,
+        "difference": 0
+      },
+      {
+        "geoid": "04011",
+        "field": "G18GOVGTOR",
+        "candidate": "Angel Torres",
+        "vest_votes": 80,
+        "official_votes": 80,
+        "difference": 0
+      },
+      {
+        "geoid": "04012",
+        "field": "G18GOVGTOR",
+        "candidate": "Angel Torres",
+        "vest_votes": 129,
+        "official_votes": 129,
+        "difference": 0
+      },
+      {
+        "geoid": "04013",
+        "field": "G18GOVGTOR",
+        "candidate": "Angel Torres",
+        "vest_votes": 29495,
+        "official_votes": 29495,
+        "difference": 0
+      },
+      {
+        "geoid": "04015",
+        "field": "G18GOVGTOR",
+        "candidate": "Angel Torres",
+        "vest_votes": 1325,
+        "official_votes": 1325,
+        "difference": 0
+      },
+      {
+        "geoid": "04017",
+        "field": "G18GOVGTOR",
+        "candidate": "Angel Torres",
+        "vest_votes": 1055,
+        "official_votes": 1055,
+        "difference": 0
+      },
+      {
+        "geoid": "04019",
+        "field": "G18GOVGTOR",
+        "candidate": "Angel Torres",
+        "vest_votes": 8678,
+        "official_votes": 8678,
+        "difference": 0
+      },
+      {
+        "geoid": "04021",
+        "field": "G18GOVGTOR",
+        "candidate": "Angel Torres",
+        "vest_votes": 2767,
+        "official_votes": 2767,
+        "difference": 0
+      },
+      {
+        "geoid": "04023",
+        "field": "G18GOVGTOR",
+        "candidate": "Angel Torres",
+        "vest_votes": 261,
+        "official_votes": 261,
+        "difference": 0
+      },
+      {
+        "geoid": "04025",
+        "field": "G18GOVGTOR",
+        "candidate": "Angel Torres",
+        "vest_votes": 2029,
+        "official_votes": 2029,
+        "difference": 0
+      },
+      {
+        "geoid": "04027",
+        "field": "G18GOVGTOR",
+        "candidate": "Angel Torres",
+        "vest_votes": 846,
+        "official_votes": 846,
+        "difference": 0
+      }
+    ],
+    "vest_write_in_comparison": {
+      "status": "excluded_noncomparable_aggregate",
+      "vest_total": 3203,
+      "official_named_total": 275,
+      "difference": 2928,
+      "counties": [
+        {
+          "geoid": "04001",
+          "county": "Apache",
+          "vest_aggregate_write_ins": 46,
+          "official_named_write_ins": 7,
+          "difference": 39
+        },
+        {
+          "geoid": "04003",
+          "county": "Cochise",
+          "vest_aggregate_write_ins": 68,
+          "official_named_write_ins": 9,
+          "difference": 59
+        },
+        {
+          "geoid": "04005",
+          "county": "Coconino",
+          "vest_aggregate_write_ins": 84,
+          "official_named_write_ins": 16,
+          "difference": 68
+        },
+        {
+          "geoid": "04007",
+          "county": "Gila",
+          "vest_aggregate_write_ins": 23,
+          "official_named_write_ins": 0,
+          "difference": 23
+        },
+        {
+          "geoid": "04009",
+          "county": "Graham",
+          "vest_aggregate_write_ins": 17,
+          "official_named_write_ins": 3,
+          "difference": 14
+        },
+        {
+          "geoid": "04011",
+          "county": "Greenlee",
+          "vest_aggregate_write_ins": 11,
+          "official_named_write_ins": 0,
+          "difference": 11
+        },
+        {
+          "geoid": "04012",
+          "county": "La Paz",
+          "vest_aggregate_write_ins": 4,
+          "official_named_write_ins": 0,
+          "difference": 4
+        },
+        {
+          "geoid": "04013",
+          "county": "Maricopa",
+          "vest_aggregate_write_ins": 1935,
+          "official_named_write_ins": 178,
+          "difference": 1757
+        },
+        {
+          "geoid": "04015",
+          "county": "Mohave",
+          "vest_aggregate_write_ins": 73,
+          "official_named_write_ins": 6,
+          "difference": 67
+        },
+        {
+          "geoid": "04017",
+          "county": "Navajo",
+          "vest_aggregate_write_ins": 55,
+          "official_named_write_ins": 4,
+          "difference": 51
+        },
+        {
+          "geoid": "04019",
+          "county": "Pima",
+          "vest_aggregate_write_ins": 527,
+          "official_named_write_ins": 28,
+          "difference": 499
+        },
+        {
+          "geoid": "04021",
+          "county": "Pinal",
+          "vest_aggregate_write_ins": 180,
+          "official_named_write_ins": 13,
+          "difference": 167
+        },
+        {
+          "geoid": "04023",
+          "county": "Santa Cruz",
+          "vest_aggregate_write_ins": 13,
+          "official_named_write_ins": 0,
+          "difference": 13
+        },
+        {
+          "geoid": "04025",
+          "county": "Yavapai",
+          "vest_aggregate_write_ins": 139,
+          "official_named_write_ins": 8,
+          "difference": 131
+        },
+        {
+          "geoid": "04027",
+          "county": "Yuma",
+          "vest_aggregate_write_ins": 28,
+          "official_named_write_ins": 3,
+          "difference": 25
+        }
+      ],
+      "explanation": "VEST reports a broader aggregate write-in field, not the five named certified candidates. Maricopa final official county summary reports the same 1,935 aggregate write-ins as VEST, versus 178 across the named candidates in the statewide canvass. The aggregate is retained unchanged for audit and is not imported or allocated to candidates.",
+      "investigation_source": "https://elections.maricopa.gov/asset/jcr%3A097c22c0-1af9-4570-8257-1af35576f9e5/11-06-2018%20Canvass%20BOS%20SUMMARY%20NOV%202018.pdf"
+    }
+  }
+}

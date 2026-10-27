@@ -1,0 +1,42 @@
+{
+  "election_date": "2026-11-03",
+  "election_kind": "general",
+  "stream": "maricopa",
+  "kind": "participation",
+  "stage": "pre_results",
+  "completeness": "partial",
+  "verification": "source_checked",
+  "source": {
+    "title": "Maricopa County Elections — early returns in hand",
+    "url": "https://services.arcgis.com/ykpntM6e3tHvzKRJ/arcgis/rest/services/Maricopa_County_Early_Voting_Returns_In_Hand/FeatureServer/0",
+    "raw_path": "data/raw/2026/snapshots/86278fd42240cea723e859572a5a5eccb3fb77a2ab949b35f643fad2eec7a2fb.json",
+    "sha256": "86278fd42240cea723e859572a5a5eccb3fb77a2ab949b35f643fad2eec7a2fb",
+    "notes": "Sum of the official layer’s 944 non-null general-election precinct records. 12 layer records have no election label/counts and are excluded, not treated as zero. Returns include all signature-review dispositions; they are not accepted ballots or candidate votes."
+  },
+  "reported_at": "2026-10-27T15:03:13.005000+00:00",
+  "report_precision": "datetime",
+  "retrieved_at": "2026-10-27T15:39:46.838410+00:00",
+  "release_id": "maricopa-general-2026-10-27T15:03:13.005000+00:00",
+  "vote_scope": "participation",
+  "metrics": [
+    {
+      "geoid": "04013",
+      "key": "ballots_requested",
+      "label": "Ballots requested (source Requests)",
+      "value": 1978119,
+      "definition": "Official aggregate Requests field; requests are distinct from ballots mailed, issued, received or accepted.",
+      "coverage_note": "944 general-election records; 12 null/unattributed layer records excluded. Partial source coverage.",
+      "completeness": "partial"
+    },
+    {
+      "geoid": "04013",
+      "key": "ballots_received",
+      "label": "Early voting returns in hand",
+      "value": 660040,
+      "definition": "Official aggregate Returns field: all early voting returns in hand, regardless of disposition in signature review. Not an accepted-ballot count.",
+      "coverage_note": "944 general-election records; 12 null/unattributed layer records excluded. Partial source coverage.",
+      "completeness": "partial"
+    }
+  ],
+  "notes": "Sum of the official layer’s 944 non-null general-election precinct records. 12 layer records have no election label/counts and are excluded, not treated as zero. Returns include all signature-review dispositions; they are not accepted ballots or candidate votes."
+}

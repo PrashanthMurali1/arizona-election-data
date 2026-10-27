@@ -1,0 +1,10 @@
+{
+  "source_url": "https://apps.azsos.gov/election/VoterReg/2026/State-Voter-Registration-November-2026.pdf",
+  "landing_page": "https://azsos.gov/elections/election-information/voter-registration-counts",
+  "publication_reference": "https://azsos.gov/news/1079",
+  "published_date": "2026-10-20",
+  "report_period": "2026 General Election - November 03, 2026; Active; GE 2026 rows only",
+  "method": "Reviewed transcription of the official indexed PDF page 1 total column. Original direct PDF download returned HTTP 403. All 15 GE county totals sum exactly to the separately printed statewide total, independently corroborated by the official October 20 press release. APR/PE rows and inactive/federal-only sections are excluded. Publication has a date but no source clock time; no time has been invented.",
+  "statewide_reference": 4374827,
+  "retrieved_at": "2026-10-27T15:24:45+00:00"
+}

@@ -1,0 +1,316 @@
+{
+  "year": 2022,
+  "date": "2022-11-08",
+  "source_url": "https://apps.azsos.gov/election/2022/General/canvass/2022dec05_general_election_canvass_web.pdf",
+  "source_sha256": "7f168bfa13d4ef3cfec51d5d35661a580e8bd36c832acd12357a12c90a41ca02",
+  "source_notes": "Reviewed transcription of the official Arizona statewide canvass. Governor results: page 2; official turnout: page 1. All reported candidates, including named write-ins, are retained.",
+  "candidates": [
+    {
+      "id": "2022-0",
+      "name": "Kari Lake",
+      "party": "REP",
+      "write_in": false,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 8870,
+        "04003": 27481,
+        "04005": 20298,
+        "04007": 14763,
+        "04009": 7760,
+        "04011": 1526,
+        "04012": 3847,
+        "04013": 752714,
+        "04015": 61125,
+        "04017": 22340,
+        "04019": 157034,
+        "04021": 83773,
+        "04023": 4371,
+        "04025": 78832,
+        "04027": 26040
+      },
+      "statewide": 1270774
+    },
+    {
+      "id": "2022-1",
+      "name": "Katie Hobbs",
+      "party": "DEM",
+      "write_in": false,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 17739,
+        "04003": 19137,
+        "04005": 34389,
+        "04007": 7674,
+        "04009": 3087,
+        "04011": 920,
+        "04012": 1646,
+        "04013": 790352,
+        "04015": 20369,
+        "04017": 18058,
+        "04019": 241398,
+        "04021": 60019,
+        "04023": 8724,
+        "04025": 44316,
+        "04027": 20063
+      },
+      "statewide": 1287891
+    },
+    {
+      "id": "2022-2",
+      "name": "Steph \"Steph\" Noelle Denny (Write-In)",
+      "party": "REP",
+      "write_in": true,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 0,
+        "04003": 2,
+        "04005": 5,
+        "04007": 4,
+        "04009": 0,
+        "04011": 0,
+        "04012": 1,
+        "04013": 42,
+        "04015": 3,
+        "04017": 1,
+        "04019": 10,
+        "04021": 3,
+        "04023": 1,
+        "04025": 1,
+        "04027": 1
+      },
+      "statewide": 74
+    },
+    {
+      "id": "2022-3",
+      "name": "Alice Novoa (Write-In)",
+      "party": "REP",
+      "write_in": true,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 2,
+        "04003": 4,
+        "04005": 0,
+        "04007": 2,
+        "04009": 0,
+        "04011": 0,
+        "04012": 1,
+        "04013": 32,
+        "04015": 1,
+        "04017": 1,
+        "04019": 6,
+        "04021": 0,
+        "04023": 1,
+        "04025": 5,
+        "04027": 0
+      },
+      "statewide": 55
+    },
+    {
+      "id": "2022-4",
+      "name": "Mikaela \"Mikki\" Shonnie Lutes-Burton (Write-In)",
+      "party": "LBT",
+      "write_in": true,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 1,
+        "04003": 10,
+        "04005": 9,
+        "04007": 6,
+        "04009": 0,
+        "04011": 0,
+        "04012": 0,
+        "04013": 132,
+        "04015": 3,
+        "04017": 3,
+        "04019": 21,
+        "04021": 16,
+        "04023": 0,
+        "04025": 12,
+        "04027": 0
+      },
+      "statewide": 213
+    },
+    {
+      "id": "2022-5",
+      "name": "Anthony Camboni (Write-In)",
+      "party": "NON",
+      "write_in": true,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 1,
+        "04003": 0,
+        "04005": 2,
+        "04007": 0,
+        "04009": 0,
+        "04011": 0,
+        "04012": 0,
+        "04013": 22,
+        "04015": 0,
+        "04017": 2,
+        "04019": 10,
+        "04021": 1,
+        "04023": 1,
+        "04025": 1,
+        "04027": 1
+      },
+      "statewide": 41
+    },
+    {
+      "id": "2022-6",
+      "name": "RayShawn \"Shawn\" D'Anthony Merrill (Write-In)",
+      "party": "IND",
+      "write_in": true,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 0,
+        "04003": 7,
+        "04005": 3,
+        "04007": 0,
+        "04009": 0,
+        "04011": 0,
+        "04012": 1,
+        "04013": 20,
+        "04015": 0,
+        "04017": 0,
+        "04019": 5,
+        "04021": 6,
+        "04023": 1,
+        "04025": 1,
+        "04027": 0
+      },
+      "statewide": 44
+    },
+    {
+      "id": "2022-7",
+      "name": "William Josué Pounds IV (Write-In)",
+      "party": "GRN",
+      "write_in": true,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 0,
+        "04003": 7,
+        "04005": 7,
+        "04007": 1,
+        "04009": 0,
+        "04011": 0,
+        "04012": 0,
+        "04013": 85,
+        "04015": 3,
+        "04017": 3,
+        "04019": 19,
+        "04021": 4,
+        "04023": 0,
+        "04025": 10,
+        "04027": 0
+      },
+      "statewide": 139
+    },
+    {
+      "id": "2022-8",
+      "name": "Liana West (Write-In)",
+      "party": "GRN",
+      "write_in": true,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 1,
+        "04003": 18,
+        "04005": 14,
+        "04007": 0,
+        "04009": 0,
+        "04011": 0,
+        "04012": 3,
+        "04013": 136,
+        "04015": 6,
+        "04017": 3,
+        "04019": 50,
+        "04021": 4,
+        "04023": 0,
+        "04025": 13,
+        "04027": 6
+      },
+      "statewide": 254
+    }
+  ],
+  "turnout": {
+    "04001": {
+      "registered_voters": 51981,
+      "ballots_cast": 27010,
+      "percent": 51.96
+    },
+    "04003": {
+      "registered_voters": 77394,
+      "ballots_cast": 47284,
+      "percent": 61.1
+    },
+    "04005": {
+      "registered_voters": 90829,
+      "ballots_cast": 55475,
+      "percent": 61.08
+    },
+    "04007": {
+      "registered_voters": 33949,
+      "ballots_cast": 22802,
+      "percent": 67.17
+    },
+    "04009": {
+      "registered_voters": 19487,
+      "ballots_cast": 11006,
+      "percent": 56.48
+    },
+    "04011": {
+      "registered_voters": 4669,
+      "ballots_cast": 2487,
+      "percent": 53.27
+    },
+    "04012": {
+      "registered_voters": 11311,
+      "ballots_cast": 5594,
+      "percent": 49.46
+    },
+    "04013": {
+      "registered_voters": 2435397,
+      "ballots_cast": 1562758,
+      "percent": 64.17
+    },
+    "04015": {
+      "registered_voters": 146919,
+      "ballots_cast": 82758,
+      "percent": 56.33
+    },
+    "04017": {
+      "registered_voters": 69040,
+      "ballots_cast": 40974,
+      "percent": 59.35
+    },
+    "04019": {
+      "registered_voters": 639885,
+      "ballots_cast": 403556,
+      "percent": 63.07
+    },
+    "04021": {
+      "registered_voters": 262694,
+      "ballots_cast": 145600,
+      "percent": 55.43
+    },
+    "04023": {
+      "registered_voters": 29189,
+      "ballots_cast": 13308,
+      "percent": 45.59
+    },
+    "04025": {
+      "registered_voters": 166052,
+      "ballots_cast": 124871,
+      "percent": 75.2
+    },
+    "04027": {
+      "registered_voters": 105133,
+      "ballots_cast": 46830,
+      "percent": 44.54
+    },
+    "04": {
+      "registered_voters": 4143929,
+      "ballots_cast": 2592313,
+      "percent": 62.56
+    }
+  }
+}

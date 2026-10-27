@@ -1,0 +1,63 @@
+{
+  "election_date": "2026-11-03",
+  "election_kind": "general",
+  "stream": "pima",
+  "kind": "participation",
+  "stage": "pre_results",
+  "completeness": "partial",
+  "verification": "source_checked",
+  "source": {
+    "title": "Pima County Recorder — early ballot status",
+    "url": "https://recorder.pima.gov/BallotProcessingReports",
+    "raw_path": "data/raw/2026/snapshots/9cf1a525abb8246ab685e8c3cc64899a423c9c405d7d3f0f328faf56a58d2e96.pdf",
+    "sha256": "9cf1a525abb8246ab685e8c3cc64899a423c9c405d7d3f0f328faf56a58d2e96",
+    "notes": "Official daily general-election status, as of end of source day. When multiple ballots are sent to a voter, only the last ballot issued is included in these status totals. Returns include ballots awaiting verification or follow-up; they are not votes counted."
+  },
+  "reported_at": "2026-10-26",
+  "report_precision": "date",
+  "retrieved_at": "2026-10-27T15:39:27.334681+00:00",
+  "release_id": "pima-general-2026-10-26",
+  "vote_scope": "participation",
+  "metrics": [
+    {
+      "geoid": "04019",
+      "key": "ballots_issued",
+      "label": "Ballots Sent (latest issue)",
+      "value": 494284,
+      "definition": "Official daily general-election status, as of end of source day. When multiple ballots are sent to a voter, only the last ballot issued is included in these status totals. Returns include ballots awaiting verification or follow-up; they are not votes counted.",
+      "coverage_note": "",
+      "completeness": "complete"
+    },
+    {
+      "geoid": "04019",
+      "key": "ballots_received",
+      "label": "Number of Early Ballots Returned",
+      "value": 190232,
+      "definition": "Official daily general-election status, as of end of source day. When multiple ballots are sent to a voter, only the last ballot issued is included in these status totals. Returns include ballots awaiting verification or follow-up; they are not votes counted.",
+      "coverage_note": "",
+      "completeness": "complete"
+    },
+    {
+      "geoid": "04019",
+      "key": "ballots_verified_ready",
+      "label": "Ballots Verified and Ready to be Turned Over",
+      "value": 8413,
+      "definition": "Source category for verified ballots awaiting turnover; excludes ballots already turned over. Do not treat as all accepted ballots.",
+      "coverage_note": "",
+      "completeness": "complete"
+    },
+    {
+      "geoid": "04019",
+      "key": "ballots_turned_over",
+      "label": "Ballots Turned Over to the Elections Department",
+      "value": 155299,
+      "definition": "Recorder-to-Elections transfer count; turnover is not tabulation or candidate votes.",
+      "coverage_note": "",
+      "completeness": "complete"
+    }
+  ],
+  "notes": "Official daily general-election status, as of end of source day. When multiple ballots are sent to a voter, only the last ballot issued is included in these status totals. Returns include ballots awaiting verification or follow-up; they are not votes counted.",
+  "source_warnings": [
+    "Pima source figures: returned 190232 + not yet returned 304160 = 494392, versus Ballots Sent 494284 (difference +108). Source values retained without adjustment; processing categories must not be treated as a synchronized accounting identity."
+  ]
+}

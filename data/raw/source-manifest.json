@@ -1,0 +1,104 @@
+{
+  "accessed_on": "2026-10-27",
+  "method": "2014/2022 retain the original reviewed transcriptions. The completed 2018 update uses the public VEST/UF ZIP for three ballot candidates, actual OpenElections county CSV records for five named write-ins, and a reviewed official page-1 turnout transcription. Original Arizona PDF downloads remain HTTP 403; indexed canvass tables and the official statewide guide supply authoritative reference totals.",
+  "hash_scope": "CSV hashes identify reviewed table snapshots, not source PDF binaries. The 2018 VEST ZIP has its own binary SHA256.",
+  "sources": [
+    {
+      "year": 2014,
+      "url": "https://apps.azsos.gov/election/2014/general/Canvass2014GE.pdf",
+      "pages": {
+        "governor": 2,
+        "turnout": 1
+      },
+      "snapshots": [
+        {
+          "path": "data/raw/2014-governor-transcription.csv",
+          "sha256": "46cfe7c9072d66f4b0a4ae5c6107fc199f5781953db4fc495b8ed14c7b736875"
+        },
+        {
+          "path": "data/raw/2014-turnout-transcription.csv",
+          "sha256": "0f5458aea541724fb2d210fa8513ee22081c466ab74b9e28a5b6dd12620628ff"
+        }
+      ]
+    },
+    {
+      "year": 2022,
+      "url": "https://apps.azsos.gov/election/2022/General/canvass/2022dec05_general_election_canvass_web.pdf",
+      "pages": {
+        "governor": 2,
+        "turnout": 1
+      },
+      "snapshots": [
+        {
+          "path": "data/raw/2022-governor-transcription.csv",
+          "sha256": "7f168bfa13d4ef3cfec51d5d35661a580e8bd36c832acd12357a12c90a41ca02"
+        },
+        {
+          "path": "data/raw/2022-turnout-transcription.csv",
+          "sha256": "1b332ceab2140d36cd4470ee9ffd7ea06e88e04c64c8e45d226d912a85e3ae77"
+        }
+      ]
+    },
+    {
+      "year": 2018,
+      "url": "https://apps.azsos.gov/election/2018/2018_1203_signed_official_statewide_canvass.pdf",
+      "status": "all 15 counties and eight certified candidates available; VEST aggregate write-ins excluded with comparison report",
+      "pages": {
+        "governor": 2,
+        "turnout": 1
+      },
+      "method": "Ballot candidates: VEST precinct sums checked against the official indexed canvass and OpenElections. Five named write-ins: actual OpenElections county CSV, checked against official statewide candidate totals. Official turnout: reviewed page-1 transcription. The unreviewed indexed Dolego row mislocated Navajo/Pinal values; the actual OpenElections records are Navajo 0, Pinal 1. No vote was inferred or redistributed.",
+      "official_statewide_crosscheck": "https://azsos.gov/sites/default/files/2023-11/new_party_guide_final_202108.pdf",
+      "alternative": {
+        "provider": "Voting and Election Science Team (VEST), via University of Florida Election Lab",
+        "landing_page": "https://election.lab.ufl.edu/dataset/az-2018-precinct-level-election-results/",
+        "download_url": "https://election.lab.ufl.edu/data-downloads/resultsdata/2018/precinct/az_2018.zip",
+        "citation": "https://doi.org/10.7910/DVN/UBKYRU",
+        "az_file_update": "2021-06-02"
+      },
+      "archive_reference": "https://azmemory.azlibrary.gov/nodes/view/102727",
+      "retrieval_failures": [
+        "Direct official canvass PDF: Cloudflare HTTP 403",
+        "State Library page and displaypdf: HTTP 403",
+        "Harvard Dataverse API: HTTP 403"
+      ],
+      "snapshots": [
+        {
+          "path": "data/raw/2018-governor-transcription.csv",
+          "sha256": "c7bf75a49f94691763cd0facec39b607b3c74c84175eccbd1d4e03bbbcff314b"
+        },
+        {
+          "path": "data/raw/2018-turnout-transcription.csv",
+          "sha256": "a3cc7d694255769f4a532f2b2f872c4daddf1e95aa18c1a9ee84e9d24c570e62"
+        },
+        {
+          "path": "data/raw/2018/az_2018.zip",
+          "sha256": "5f92efa410a2dbe57c1c7f710cfdf28a8a93a29c5692429d01dd66f1885e67d7"
+        },
+        {
+          "path": "data/raw/2018/openelections-county.csv",
+          "sha256": "33c07809ebd9b7fe1baaf3b993fdd492b0e6944ce27a2ec58df544590ee409b4"
+        },
+        {
+          "path": "data/raw/2018/vest-documentation.txt",
+          "sha256": "e2acc0911fbad27a95302885138efdaf95b392123009cbd94fbdfd15e83f8468"
+        },
+        {
+          "path": "data/raw/2018/yavapai-write-ins.pdf",
+          "sha256": "e7916a953487dda1d6cc51aa36963a954217b809b28340419d4fc90113f86067"
+        }
+      ],
+      "openelections": {
+        "repository": "https://github.com/openelections/openelections-data-az",
+        "revision": "5675ad1dbf77ce24fdd320127215f81b17e1a866",
+        "download_url": "https://raw.githubusercontent.com/openelections/openelections-data-az/5675ad1dbf77ce24fdd320127215f81b17e1a866/2018/20181106__az__general__county.csv",
+        "reason": "Named write-in county records absent from VEST; resolves indexed Dolego row extraction error with actual records."
+      },
+      "excluded_extraction": {
+        "path": "data/raw/2018/indexed-governor-unreviewed.csv",
+        "sha256": "3f5a7416c8d16a88e061903690404d688c59b45ed1143abc70660ca06c01e92c",
+        "reason": "Unreviewed indexed Dolego county row sums to 14; actual OpenElections county records resolve Navajo 0 and Pinal 1. This extraction is not an election input."
+      }
+    }
+  ]
+}

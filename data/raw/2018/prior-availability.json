@@ -1,0 +1,9 @@
+{
+  "year": 2018,
+  "date": "2018-11-06",
+  "source_url": "https://apps.azsos.gov/election/2018/2018_1203_signed_official_statewide_canvass.pdf",
+  "source_sha256": "",
+  "source_notes": "The official canvass has been located, but its result tables could not be reliably extracted. Candidate results, county results and turnout await verification.",
+  "candidates": [],
+  "turnout": {}
+}
