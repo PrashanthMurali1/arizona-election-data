@@ -1,0 +1,28 @@
+{
+  "year": 2022,
+  "source_url": "https://apps.azsos.gov/election/2022/General/canvass/2022dec05_general_election_canvass_web.pdf",
+  "source_title": "Arizona Secretary of State \u2014 2022 official statewide canvass",
+  "report_time": "2022-12-05T10:00:00-07:00",
+  "retrieved_date": "2026-10-27",
+  "source_pdf_sha256": null,
+  "reviewed_transcription": "data/raw/attorney-general/2022-transcription.csv",
+  "transcription_sha256": "2ae47085455dced616ffc9fcb3fa910c7aeeb8d6789f98a411228fe9a48edb4f",
+  "counties": [
+    "04001",
+    "04003",
+    "04005",
+    "04007",
+    "04009",
+    "04011",
+    "04012",
+    "04013",
+    "04015",
+    "04017",
+    "04019",
+    "04021",
+    "04023",
+    "04025",
+    "04027"
+  ],
+  "notes": "Manually reviewed transcription of the Attorney General contest rows from the official statewide canvass. The original source PDF could not be acquired as a local binary; official published canvass tables were consulted. County values and the statewide TOTAL column are retained as reported."
+}

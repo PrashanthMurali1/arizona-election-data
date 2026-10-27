@@ -1,0 +1,28 @@
+{
+  "year": 2018,
+  "election_date": "2018-11-06",
+  "contest_id": "az-2018-us-senate",
+  "contest_kind": "regular",
+  "candidate_count": 10,
+  "source_id": "canvass-2018-us-senate",
+  "source_title": "Arizona Secretary of State \u2014 2018 official U.S. Senate canvass",
+  "source_url": "https://apps.azsos.gov/election/2018/2018_1203_signed_official_statewide_canvass.pdf",
+  "reported_at": "2018-11-30T08:11:45-07:00",
+  "report_time_precision": "datetime",
+  "retrieved_on": "2026-10-27",
+  "retrieval_precision": "date",
+  "source_notes": "2018 regular Arizona U.S. Senate election. All 10 official named candidates, including write-ins, and all 15 county records reconcile to the printed statewide canvass totals. The official PDF host returned 403; retained indexed official table text and a reviewed CSV provide the canvass reference. Checksums identify retained text/CSV, not an unavailable original PDF binary. The older OpenElections copy omits Jeff Pearce in Mohave; the official canvass explicitly reports 1. Its absence was not converted to zero. Existing event turnout is shared. ",
+  "canvass_page": 1,
+  "snapshots": [
+    {
+      "path": "data/raw/us-senate/2018-transcription.csv",
+      "sha256": "6d3efd473bfbbf62205733c6d77ffcb35c35c6a4b16b78d33010f7370631dde2"
+    },
+    {
+      "path": "data/raw/us-senate/2018-indexed-canvass.txt",
+      "sha256": "fc56de2eb93f0fe56b10557f9f49c2c37c0fe4977d0ca89188f645bd3d447687"
+    }
+  ],
+  "additional_sources": [],
+  "canvass_extract_path": "data/raw/us-senate/2018-indexed-canvass.txt"
+}

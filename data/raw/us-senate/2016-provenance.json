@@ -1,0 +1,40 @@
+{
+  "year": 2016,
+  "election_date": "2016-11-08",
+  "contest_id": "az-2016-us-senate",
+  "contest_kind": "regular",
+  "candidate_count": 11,
+  "source_id": "canvass-2016-us-senate",
+  "source_title": "Arizona Secretary of State \u2014 2016 official U.S. Senate canvass",
+  "source_url": "https://apps.azsos.gov/election/2016/General/Official%20Signed%20State%20Canvass.pdf",
+  "reported_at": "2016-11-29T15:03:33-07:00",
+  "report_time_precision": "datetime",
+  "retrieved_on": "2026-10-27",
+  "retrieval_precision": "date",
+  "source_notes": "2016 regular Arizona U.S. Senate election. All 11 official named candidates, including write-ins, and all 15 county records reconcile to the printed statewide canvass totals. Reviewed page-11 transcription from the retained official signed PDF, acquired from a pinned public mirror after the official host returned 403. All eleven missing one-vote glyphs in the hidden text layer were read from the visible page; no blank was interpreted as zero. Official page-1 turnout retained. ",
+  "canvass_page": 11,
+  "snapshots": [
+    {
+      "path": "data/raw/us-senate/2016-transcription.csv",
+      "sha256": "d7cf5ab9ca0cc034f1b221b7bb9f9cecc4c4d23dcc5e3097366bfac497ff49ee"
+    },
+    {
+      "path": "data/raw/us-senate/az-2016-general-official-signed-state-canvass.pdf",
+      "sha256": "a765b3d03bcbdcaba4e3e869bd24cbb6dc2288841d7848eaa18b46e099ccaada"
+    },
+    {
+      "path": "data/raw/us-senate/2016-turnout-transcription.csv",
+      "sha256": "2c31a570d7d54647a44c349e65580109a4f5f92dbae7ecddbaa3619b35b4e01d"
+    }
+  ],
+  "additional_sources": [],
+  "acquisition": {
+    "path": "data/raw/us-senate/az-2016-general-official-signed-state-canvass.pdf",
+    "download_url": "https://raw.githubusercontent.com/Camreyn/civicresultmaps/5195a57d913c839106ce1d2de32e3510d9ef3d3a/data/az-2016-general-official-signed-state-canvass.pdf",
+    "commit": "5195a57d913c839106ce1d2de32e3510d9ef3d3a",
+    "sha256": "a765b3d03bcbdcaba4e3e869bd24cbb6dc2288841d7848eaa18b46e099ccaada",
+    "retrieved_at": "2026-10-27T17:11:42.791869+00:00"
+  },
+  "turnout_path": "data/raw/us-senate/2016-turnout-transcription.csv",
+  "turnout_definition": "Official canvass turnout: total ballots cast / total eligible registration; published rounded percentage retained."
+}

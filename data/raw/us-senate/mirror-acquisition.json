@@ -1,0 +1,16 @@
+[
+  {
+    "path": "data/raw/us-senate/az-2016-general-official-signed-state-canvass.pdf",
+    "download_url": "https://raw.githubusercontent.com/Camreyn/civicresultmaps/5195a57d913c839106ce1d2de32e3510d9ef3d3a/data/az-2016-general-official-signed-state-canvass.pdf",
+    "commit": "5195a57d913c839106ce1d2de32e3510d9ef3d3a",
+    "sha256": "a765b3d03bcbdcaba4e3e869bd24cbb6dc2288841d7848eaa18b46e099ccaada",
+    "retrieved_at": "2026-10-27T17:11:42.791869+00:00"
+  },
+  {
+    "path": "data/raw/us-senate/az-2020-general-results-detail.xml.zip",
+    "download_url": "https://raw.githubusercontent.com/Camreyn/civicresultmaps/5195a57d913c839106ce1d2de32e3510d9ef3d3a/data/az-2020-general-results-detail.xml.zip",
+    "commit": "5195a57d913c839106ce1d2de32e3510d9ef3d3a",
+    "sha256": "542f2e4d60463d6ad23b78e2de0f73759806945c6bcaedc6c0a7dd7aec422c06",
+    "retrieved_at": "2026-10-27T17:11:43.541000+00:00"
+  }
+]

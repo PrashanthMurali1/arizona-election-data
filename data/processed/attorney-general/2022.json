@@ -1,0 +1,88 @@
+{
+  "year": 2022,
+  "date": "2022-11-08",
+  "office_id": "attorney-general",
+  "office": "Attorney General",
+  "source_url": "https://apps.azsos.gov/election/2022/General/canvass/2022dec05_general_election_canvass_web.pdf",
+  "source_sha256": "2ae47085455dced616ffc9fcb3fa910c7aeeb8d6789f98a411228fe9a48edb4f",
+  "source_notes": "Reviewed transcription of the official 2022 Arizona statewide canvass Attorney General rows. See data/raw/attorney-general/2022-provenance.json for report date, source URL, transcription method and checksum. No turnout duplicated; turnout belongs to event.",
+  "reference_path": "data/raw/attorney-general/2022-transcription.csv",
+  "candidates": [
+    {
+      "id": "ag-2022-0",
+      "name": "Abraham \"Abe\" Hamadeh",
+      "party": "REP",
+      "write_in": false,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 8481,
+        "04003": 27664,
+        "04005": 19700,
+        "04007": 14538,
+        "04009": 7640,
+        "04011": 1462,
+        "04012": 3775,
+        "04013": 740960,
+        "04015": 60592,
+        "04017": 21748,
+        "04019": 157350,
+        "04021": 82724,
+        "04023": 4282,
+        "04025": 77481,
+        "04027": 25705
+      },
+      "statewide": 1254102
+    },
+    {
+      "id": "ag-2022-1",
+      "name": "Kris Mayes",
+      "party": "DEM",
+      "write_in": false,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 17871,
+        "04003": 18481,
+        "04005": 34043,
+        "04007": 7727,
+        "04009": 3084,
+        "04011": 938,
+        "04012": 1648,
+        "04013": 766869,
+        "04015": 19583,
+        "04017": 18119,
+        "04019": 236264,
+        "04021": 58953,
+        "04023": 8723,
+        "04025": 42810,
+        "04027": 19500
+      },
+      "statewide": 1254613
+    },
+    {
+      "id": "ag-2022-2",
+      "name": "Samantha Severson (Write-In)",
+      "party": "LBT",
+      "write_in": true,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 3,
+        "04003": 16,
+        "04005": 31,
+        "04007": 4,
+        "04009": 0,
+        "04011": 2,
+        "04012": 3,
+        "04013": 239,
+        "04015": 10,
+        "04017": 12,
+        "04019": 60,
+        "04021": 16,
+        "04023": 3,
+        "04025": 18,
+        "04027": 1
+      },
+      "statewide": 418
+    }
+  ],
+  "turnout": {}
+}

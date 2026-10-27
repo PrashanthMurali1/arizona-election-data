@@ -1,0 +1,28 @@
+{
+  "year": 2014,
+  "source_url": "https://apps.azsos.gov/election/2014/general/Canvass2014GE.pdf",
+  "source_title": "Arizona Secretary of State \u2014 2014 official statewide canvass",
+  "report_time": "2014-12-01",
+  "retrieved_date": "2026-10-27",
+  "source_pdf_sha256": null,
+  "reviewed_transcription": "data/raw/attorney-general/2014-transcription.csv",
+  "transcription_sha256": "64a3c83ce347f3da0bc04a0823164d574c1d47090ca4e32bf4d948f675ec3875",
+  "counties": [
+    "04001",
+    "04003",
+    "04005",
+    "04007",
+    "04009",
+    "04011",
+    "04012",
+    "04013",
+    "04015",
+    "04017",
+    "04019",
+    "04021",
+    "04023",
+    "04025",
+    "04027"
+  ],
+  "notes": "Manually reviewed transcription of the Attorney General contest rows from the official statewide canvass. The original source PDF could not be acquired as a local binary; official published canvass tables were consulted. County values and the statewide TOTAL column are retained as reported."
+}

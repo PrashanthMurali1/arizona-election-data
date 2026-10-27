@@ -1,4 +1,85 @@
 import { test, expect } from "@playwright/test";
+
+test("Senate archive reuses results, county selection, year navigation and responsive layout", async ({
+  page,
+}) => {
+  const errors: string[] = [];
+  page.on("pageerror", (e) => errors.push(e.message));
+  await page.goto("/");
+  const office = page
+    .locator(".office-section")
+    .filter({ hasText: "Arizona U.S. Senate" });
+  await expect(office.locator(".election-card")).toHaveCount(5);
+  await expect(
+    office.locator(".election-card").filter({ hasText: "2020" }),
+  ).toContainText("SPECIAL ELECTION");
+  await office.locator(".election-card").filter({ hasText: "2024" }).click();
+  const elections: [number, string, number, string][] = [
+    [2024, "az-2024-us-senate", 10, "3,348,814"],
+    [2022, "az-2022-us-senate", 11, "2,572,294"],
+    [2020, "az-2020-us-senate-special", 19, "3,355,317"],
+    [2018, "az-2018-us-senate", 10, "2,384,308"],
+    [2016, "az-2016-us-senate", 11, "2,530,730"],
+  ];
+  for (const [year, id, count, total] of elections) {
+    await page.getByLabel("Election year").selectOption(id);
+    await expect(
+      page.getByRole("heading", { name: `U.S. Senate ${year}`, exact: true }),
+    ).toBeVisible();
+    await expect(page.locator(".statewide .candidate-row")).toHaveCount(count);
+    await expect(page.locator(".contest-total strong")).toHaveText(total);
+    await expect(page.locator(".county-map path")).toHaveCount(15);
+    await expect(
+      page
+        .getByRole("region", { name: "County results table" })
+        .locator("tbody tr"),
+    ).toHaveCount(15);
+  }
+  const years = page.getByLabel("Election year");
+  await expect(years.locator("option")).toHaveCount(5);
+  await expect(
+    years.locator('option[value="az-2020-us-senate-special"]'),
+  ).toContainText("special election");
+  await years.selectOption("az-2020-us-senate-special");
+  await expect(page.locator(".election-heading .eyebrow")).toContainText(
+    "SPECIAL ELECTION",
+  );
+  const table = page.getByRole("region", { name: "County results table" });
+  await table.getByRole("button", { name: "Contest votes" }).click();
+  await expect(table.locator("tbody tr").first()).toContainText("Greenlee");
+  await table.getByRole("button", { name: "Contest votes" }).click();
+  await expect(table.locator("tbody tr").first()).toContainText("Maricopa");
+  await table.getByRole("button", { name: "Pima", exact: true }).focus();
+  await page.keyboard.press("Enter");
+  const detail = page.getByRole("region", { name: "Selected county details" });
+  await expect(
+    detail.getByRole("heading", { name: "Pima County" }),
+  ).toBeVisible();
+  await expect(detail.locator(".candidate-row")).toHaveCount(19);
+  await expect(detail).toContainText("309,142");
+  await page
+    .getByRole("button", {
+      name: "Mohave County, Martha McSally. View county results.",
+    })
+    .click();
+  await expect(
+    detail.getByRole("heading", { name: "Mohave County" }),
+  ).toBeVisible();
+  await page.setViewportSize({ width: 390, height: 844 });
+  expect(
+    await page.evaluate(() => document.documentElement.scrollWidth),
+  ).toBeLessThanOrEqual(390);
+  await table.getByRole("button", { name: "Apache", exact: true }).click();
+  await expect(
+    detail.getByRole("heading", { name: "Apache County" }),
+  ).toBeVisible();
+  await page.screenshot({
+    path: "test-results/senate-2020-mobile.png",
+    fullPage: true,
+  });
+  expect(errors).toEqual([]);
+});
+
 test("catalog, candidate results, county map, details, sorting, year navigation and error handling", async ({
   page,
 }) => {
@@ -8,8 +89,13 @@ test("catalog, candidate results, county map, details, sorting, year navigation 
   await expect(
     page.getByRole("heading", { name: "Election catalog" }),
   ).toBeVisible();
-  await expect(page.locator(".election-card")).toHaveCount(4);
-  await page.locator(".election-card").filter({ hasText: "2022" }).click();
+  await expect(page.locator(".election-card")).toHaveCount(13);
+  await page
+    .locator(".office-section")
+    .filter({ hasText: "Arizona Governor" })
+    .locator(".election-card")
+    .filter({ hasText: "2022" })
+    .click();
   await expect(
     page.getByRole("heading", { name: "Governor 2022", exact: true }),
   ).toBeVisible();
@@ -86,7 +172,7 @@ test("mobile layout contains overflow and supports county selection", async ({
 test("desktop layout and catalog screenshots", async ({ page }) => {
   await page.setViewportSize({ width: 1440, height: 1000 });
   await page.goto("/");
-  await expect(page.locator(".election-card")).toHaveCount(4);
+  await expect(page.locator(".election-card")).toHaveCount(13);
   await page.screenshot({ path: "test-results/catalog.png", fullPage: true });
   await page.goto("/elections/az-2022-governor");
   await expect(page.locator(".county-map path")).toHaveCount(15);
@@ -103,7 +189,11 @@ test("2018 certified results, source caveat, county selection, sorting and mobil
   const errors: string[] = [];
   page.on("pageerror", (e) => errors.push(e.message));
   await page.goto("/");
-  const card = page.locator(".election-card").filter({ hasText: "2018" });
+  const card = page
+    .locator(".office-section")
+    .filter({ hasText: "Arizona Governor" })
+    .locator(".election-card")
+    .filter({ hasText: "2018" });
   await expect(card).toContainText("Verified results");
   await card.click();
   await expect(
@@ -170,7 +260,11 @@ test("2026 participation is distinct from candidate results", async ({
   const errors: string[] = [];
   page.on("pageerror", (e) => errors.push(e.message));
   await page.goto("/");
-  const card = page.locator(".election-card").filter({ hasText: "2026" });
+  const card = page
+    .locator(".office-section")
+    .filter({ hasText: "Arizona Governor" })
+    .locator(".election-card")
+    .filter({ hasText: "2026" });
   await expect(card).toContainText("Voting in progress");
   await card.click();
   await expect(
@@ -234,4 +328,31 @@ test("2026 participation is distinct from candidate results", async ({
   await page.getByLabel("Election year").selectOption("az-2022-governor");
   await expect(page.locator(".statewide .candidate-row")).toHaveCount(9);
   expect(errors).toEqual([]);
+});
+
+test("Attorney General archive and 2026 participation share the existing interface", async ({
+  page,
+}) => {
+  await page.goto("/");
+  const office = page
+    .locator(".office-section")
+    .filter({ hasText: "Arizona Attorney General" });
+  await expect(office.locator(".election-card")).toHaveCount(4);
+  await office.locator(".election-card").filter({ hasText: "2026" }).click();
+  await expect(
+    page.getByRole("heading", { name: "Attorney General 2026", exact: true }),
+  ).toBeVisible();
+  await expect(page.locator(".county-map path.other")).toHaveCount(15);
+  await expect(page.locator(".candidate-row")).toHaveCount(0);
+  await expect(page.locator(".notice")).toContainText(
+    "not votes cast specifically for Attorney General",
+  );
+  await page
+    .getByLabel("Election year")
+    .selectOption("az-2022-attorney-general");
+  await expect(
+    page.getByRole("heading", { name: "Attorney General 2022", exact: true }),
+  ).toBeVisible();
+  await expect(page.locator(".statewide .candidate-row")).toHaveCount(3);
+  await expect(page.locator(".contest-total strong")).toHaveText("2,509,133");
 });

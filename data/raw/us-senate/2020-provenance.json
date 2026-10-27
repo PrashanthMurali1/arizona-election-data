@@ -1,0 +1,56 @@
+{
+  "year": 2020,
+  "election_date": "2020-11-03",
+  "contest_id": "az-2020-us-senate-special",
+  "contest_kind": "special",
+  "candidate_count": 19,
+  "source_id": "canvass-2020-us-senate",
+  "source_title": "Arizona Secretary of State \u2014 2020 official U.S. Senate canvass",
+  "source_url": "https://apps.azsos.gov/election/2020/2020_general_state_canvass.pdf",
+  "reported_at": "2020-11-24T13:35:33-07:00",
+  "report_time_precision": "datetime",
+  "retrieved_on": "2026-10-27",
+  "retrieval_precision": "date",
+  "source_notes": "2020 special Arizona U.S. Senate election. All 19 official named candidates, including write-ins, and all 15 county records reconcile to the printed statewide canvass totals. The official PDF host returned 403; retained indexed official table text and a reviewed CSV provide the canvass reference. Checksums identify retained text/CSV, not an unavailable original PDF binary. Special election for the term expiring January 2023. County results and turnout come from the retained official XML ZIP acquired from a pinned public mirror; every candidate/county cell and statewide total matches the independently extracted final canvass. XML Mathew Haupt is displayed as Matthew Haupt following the final canvass. ",
+  "canvass_page": 5,
+  "snapshots": [
+    {
+      "path": "data/raw/us-senate/2020-transcription.csv",
+      "sha256": "68494eb43ffac33b3f8d2ffaa100fab085d64d143eab01dea04eb7dfe05015a7"
+    },
+    {
+      "path": "data/raw/us-senate/2020-indexed-canvass.txt",
+      "sha256": "e53da0294a3e7b47753d595c7eabc6d6a0396af22a631ad38d58e374a4a0b500"
+    },
+    {
+      "path": "data/raw/us-senate/2020-turnout-transcription.csv",
+      "sha256": "c25c4fbacfb93331020d8f1e6bf079cc1bbd2af593c0d1559e0916019b8a0edc"
+    },
+    {
+      "path": "data/raw/us-senate/az-2020-general-results-detail.xml.zip",
+      "sha256": "542f2e4d60463d6ad23b78e2de0f73759806945c6bcaedc6c0a7dd7aec422c06"
+    }
+  ],
+  "additional_sources": [
+    {
+      "id": "us-senate-2020-official-xml",
+      "title": "Arizona Secretary of State \u2014 2020 official detailed results XML",
+      "url": "https://apps.azsos.gov/election/2020/resultsdetail_2020generalxml.zip",
+      "sha256": "542f2e4d60463d6ad23b78e2de0f73759806945c6bcaedc6c0a7dd7aec422c06",
+      "notes": "Original official XML ZIP retained from pinned public mirror; acquired 2026-10-27T17:11:43.541000+00:00. Report timestamp 2020-11-24 12:58:30.96 America/Phoenix. All 19 Senate candidates and 285 county cells match the final statewide canvass. See data/raw/us-senate/2020-provenance.json for acquisition URL and original candidate-name alias."
+    }
+  ],
+  "canvass_extract_path": "data/raw/us-senate/2020-indexed-canvass.txt",
+  "turnout_path": "data/raw/us-senate/2020-turnout-transcription.csv",
+  "turnout_definition": "Official XML voterTurnout: ballotsCast / totalVoters; published voterTurnout percentage retained.",
+  "xml_path": "data/raw/us-senate/az-2020-general-results-detail.xml.zip",
+  "acquisition": {
+    "path": "data/raw/us-senate/az-2020-general-results-detail.xml.zip",
+    "download_url": "https://raw.githubusercontent.com/Camreyn/civicresultmaps/5195a57d913c839106ce1d2de32e3510d9ef3d3a/data/az-2020-general-results-detail.xml.zip",
+    "commit": "5195a57d913c839106ce1d2de32e3510d9ef3d3a",
+    "sha256": "542f2e4d60463d6ad23b78e2de0f73759806945c6bcaedc6c0a7dd7aec422c06",
+    "retrieved_at": "2026-10-27T17:11:43.541000+00:00"
+  },
+  "xml_reported_at": "2020-11-24T12:58:30.96-07:00",
+  "turnout_source_id": "us-senate-2020-official-xml"
+}

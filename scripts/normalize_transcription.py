@@ -63,3 +63,12 @@ if __name__ == "__main__":
         normalize(int(p.name[:4]))
     for p in sorted((ROOT / "data/raw").glob("*-availability.json")):
         (ROOT / "data/processed" / f"{p.name[:4]}.json").write_text(p.read_text())
+    from scripts.normalize_attorney_general import normalize as normalize_ag
+
+    for year in (2014, 2018, 2022):
+        normalize_ag(year)
+    from scripts.normalize_us_senate import normalize as normalize_senate
+
+    for raw in sorted((ROOT / "data/raw/us-senate").glob("*-transcription.csv")):
+        if "-turnout-" not in raw.name:
+            normalize_senate(raw)

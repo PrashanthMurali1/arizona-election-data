@@ -78,7 +78,8 @@ export default function EarlyVotingPage({
         </strong>
         <p>
           These figures describe participation in the November general election.
-          They are not votes for governor, candidate support, or a forecast.
+          They are not votes cast specifically for {election.office}, candidate
+          support, or a forecast.
         </p>
       </div>
       <section

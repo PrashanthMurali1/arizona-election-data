@@ -1,0 +1,414 @@
+{
+  "year": 2016,
+  "date": "2016-11-08",
+  "event_id": "az-2016-general",
+  "contest_id": "az-2016-us-senate",
+  "contest_kind": "regular",
+  "office_id": "us-senate",
+  "office": "U.S. Senate",
+  "source_id": "canvass-2016-us-senate",
+  "source_title": "Arizona Secretary of State — 2016 official U.S. Senate canvass",
+  "source_url": "https://apps.azsos.gov/election/2016/General/Official%20Signed%20State%20Canvass.pdf",
+  "source_sha256": "d7cf5ab9ca0cc034f1b221b7bb9f9cecc4c4d23dcc5e3097366bfac497ff49ee",
+  "source_notes": "2016 regular Arizona U.S. Senate election. All 11 official named candidates, including write-ins, and all 15 county records reconcile to the printed statewide canvass totals. Reviewed page-11 transcription from the retained official signed PDF, acquired from a pinned public mirror after the official host returned 403. All eleven missing one-vote glyphs in the hidden text layer were read from the visible page; no blank was interpreted as zero. Official page-1 turnout retained. ",
+  "reference_path": "data/raw/us-senate/2016-transcription.csv",
+  "provenance_path": "data/raw/us-senate/2016-provenance.json",
+  "additional_sources": [],
+  "input_validation": {
+    "source_checksums_validated": true,
+    "canvass_candidate_count": 11,
+    "county_count": 15,
+    "xml_matches_final_canvass": null
+  },
+  "candidates": [
+    {
+      "id": "senate-2016-0",
+      "name": "Sheila Bilyeu",
+      "party": "DEM",
+      "write_in": true,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 2,
+        "04003": 0,
+        "04005": 1,
+        "04007": 0,
+        "04009": 0,
+        "04011": 0,
+        "04012": 0,
+        "04013": 21,
+        "04015": 0,
+        "04017": 0,
+        "04019": 8,
+        "04021": 1,
+        "04023": 0,
+        "04025": 0,
+        "04027": 1
+      },
+      "statewide": 34
+    },
+    {
+      "id": "senate-2016-1",
+      "name": "Ann Kirkpatrick",
+      "party": "DEM",
+      "write_in": false,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 18446,
+        "04003": 17642,
+        "04005": 31695,
+        "04007": 6701,
+        "04009": 3280,
+        "04011": 1189,
+        "04012": 1629,
+        "04013": 602635,
+        "04015": 19045,
+        "04017": 17645,
+        "04019": 202213,
+        "04021": 45402,
+        "04023": 9745,
+        "04025": 34527,
+        "04027": 19451
+      },
+      "statewide": 1031245
+    },
+    {
+      "id": "senate-2016-2",
+      "name": "Gene Scott II",
+      "party": "DEM",
+      "write_in": true,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 3,
+        "04003": 0,
+        "04005": 0,
+        "04007": 0,
+        "04009": 0,
+        "04011": 0,
+        "04012": 0,
+        "04013": 3,
+        "04015": 0,
+        "04017": 0,
+        "04019": 0,
+        "04021": 0,
+        "04023": 0,
+        "04025": 0,
+        "04027": 1
+      },
+      "statewide": 7
+    },
+    {
+      "id": "senate-2016-3",
+      "name": "Gary Swing",
+      "party": "GRN",
+      "write_in": false,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 1312,
+        "04003": 3163,
+        "04005": 3129,
+        "04007": 1620,
+        "04009": 871,
+        "04011": 268,
+        "04012": 450,
+        "04013": 79724,
+        "04015": 6615,
+        "04017": 2727,
+        "04019": 19403,
+        "04021": 8405,
+        "04023": 589,
+        "04025": 7619,
+        "04027": 2739
+      },
+      "statewide": 138634
+    },
+    {
+      "id": "senate-2016-4",
+      "name": "Sydney Dudikoff",
+      "party": "REP",
+      "write_in": true,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 6,
+        "04003": 10,
+        "04005": 23,
+        "04007": 12,
+        "04009": 8,
+        "04011": 0,
+        "04012": 0,
+        "04013": 336,
+        "04015": 5,
+        "04017": 2,
+        "04019": 45,
+        "04021": 14,
+        "04023": 1,
+        "04025": 23,
+        "04027": 9
+      },
+      "statewide": 494
+    },
+    {
+      "id": "senate-2016-5",
+      "name": "John McCain",
+      "party": "REP",
+      "write_in": false,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 7944,
+        "04003": 27636,
+        "04005": 24031,
+        "04007": 13157,
+        "04009": 7728,
+        "04011": 1784,
+        "04012": 3662,
+        "04013": 842425,
+        "04015": 50486,
+        "04017": 18760,
+        "04019": 187910,
+        "04021": 72787,
+        "04023": 5635,
+        "04025": 68032,
+        "04027": 27290
+      },
+      "statewide": 1359267
+    },
+    {
+      "id": "senate-2016-6",
+      "name": "Anthony Camboni",
+      "party": "NONE",
+      "write_in": true,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 1,
+        "04003": 0,
+        "04005": 1,
+        "04007": 0,
+        "04009": 0,
+        "04011": 0,
+        "04012": 0,
+        "04013": 28,
+        "04015": 0,
+        "04017": 0,
+        "04019": 0,
+        "04021": 14,
+        "04023": 0,
+        "04025": 0,
+        "04027": 1
+      },
+      "statewide": 45
+    },
+    {
+      "id": "senate-2016-7",
+      "name": "Santos Chavez",
+      "party": "NONE",
+      "write_in": true,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 0,
+        "04003": 0,
+        "04005": 0,
+        "04007": 0,
+        "04009": 0,
+        "04011": 0,
+        "04012": 0,
+        "04013": 4,
+        "04015": 0,
+        "04017": 0,
+        "04019": 0,
+        "04021": 0,
+        "04023": 0,
+        "04025": 0,
+        "04027": 0
+      },
+      "statewide": 4
+    },
+    {
+      "id": "senate-2016-8",
+      "name": "Leonard Clark",
+      "party": "IND",
+      "write_in": true,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 4,
+        "04003": 3,
+        "04005": 0,
+        "04007": 0,
+        "04009": 0,
+        "04011": 0,
+        "04012": 0,
+        "04013": 58,
+        "04015": 0,
+        "04017": 0,
+        "04019": 13,
+        "04021": 1,
+        "04023": 0,
+        "04025": 3,
+        "04027": 1
+      },
+      "statewide": 83
+    },
+    {
+      "id": "senate-2016-9",
+      "name": "Selena Lopez",
+      "party": "IND",
+      "write_in": true,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 2,
+        "04003": 7,
+        "04005": 1,
+        "04007": 0,
+        "04009": 4,
+        "04011": 0,
+        "04012": 0,
+        "04013": 117,
+        "04015": 0,
+        "04017": 3,
+        "04019": 28,
+        "04021": 17,
+        "04023": 15,
+        "04025": 29,
+        "04027": 0
+      },
+      "statewide": 223
+    },
+    {
+      "id": "senate-2016-10",
+      "name": "Pat Quinn",
+      "party": "IND",
+      "write_in": true,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 16,
+        "04003": 27,
+        "04005": 17,
+        "04007": 5,
+        "04009": 2,
+        "04011": 0,
+        "04012": 0,
+        "04013": 395,
+        "04015": 11,
+        "04017": 13,
+        "04019": 117,
+        "04021": 41,
+        "04023": 4,
+        "04025": 34,
+        "04027": 12
+      },
+      "statewide": 694
+    }
+  ],
+  "turnout": {
+    "04001": {
+      "ballots_cast": 28492,
+      "registered_voters": 48240,
+      "percent": 59.06,
+      "definition": "Official canvass turnout: total ballots cast / total eligible registration; published rounded percentage retained.",
+      "source_id": "canvass-2016-us-senate"
+    },
+    "04003": {
+      "ballots_cast": 50601,
+      "registered_voters": 75157,
+      "percent": 67.33,
+      "definition": "Official canvass turnout: total ballots cast / total eligible registration; published rounded percentage retained.",
+      "source_id": "canvass-2016-us-senate"
+    },
+    "04005": {
+      "ballots_cast": 60744,
+      "registered_voters": 81461,
+      "percent": 74.57,
+      "definition": "Official canvass turnout: total ballots cast / total eligible registration; published rounded percentage retained.",
+      "source_id": "canvass-2016-us-senate"
+    },
+    "04007": {
+      "ballots_cast": 22953,
+      "registered_voters": 29566,
+      "percent": 77.63,
+      "definition": "Official canvass turnout: total ballots cast / total eligible registration; published rounded percentage retained.",
+      "source_id": "canvass-2016-us-senate"
+    },
+    "04009": {
+      "ballots_cast": 12535,
+      "registered_voters": 17806,
+      "percent": 70.4,
+      "definition": "Official canvass turnout: total ballots cast / total eligible registration; published rounded percentage retained.",
+      "source_id": "canvass-2016-us-senate"
+    },
+    "04011": {
+      "ballots_cast": 3376,
+      "registered_voters": 4702,
+      "percent": 71.8,
+      "definition": "Official canvass turnout: total ballots cast / total eligible registration; published rounded percentage retained.",
+      "source_id": "canvass-2016-us-senate"
+    },
+    "04012": {
+      "ballots_cast": 6056,
+      "registered_voters": 8884,
+      "percent": 68.17,
+      "definition": "Official canvass turnout: total ballots cast / total eligible registration; published rounded percentage retained.",
+      "source_id": "canvass-2016-us-senate"
+    },
+    "04013": {
+      "ballots_cast": 1608875,
+      "registered_voters": 2161716,
+      "percent": 74.43,
+      "definition": "Official canvass turnout: total ballots cast / total eligible registration; published rounded percentage retained.",
+      "source_id": "canvass-2016-us-senate"
+    },
+    "04015": {
+      "ballots_cast": 81114,
+      "registered_voters": 115339,
+      "percent": 70.33,
+      "definition": "Official canvass turnout: total ballots cast / total eligible registration; published rounded percentage retained.",
+      "source_id": "canvass-2016-us-senate"
+    },
+    "04017": {
+      "ballots_cast": 41288,
+      "registered_voters": 63943,
+      "percent": 64.57,
+      "definition": "Official canvass turnout: total ballots cast / total eligible registration; published rounded percentage retained.",
+      "source_id": "canvass-2016-us-senate"
+    },
+    "04019": {
+      "ballots_cast": 427102,
+      "registered_voters": 544270,
+      "percent": 78.47,
+      "definition": "Official canvass turnout: total ballots cast / total eligible registration; published rounded percentage retained.",
+      "source_id": "canvass-2016-us-senate"
+    },
+    "04021": {
+      "ballots_cast": 131628,
+      "registered_voters": 189462,
+      "percent": 69.47,
+      "definition": "Official canvass turnout: total ballots cast / total eligible registration; published rounded percentage retained.",
+      "source_id": "canvass-2016-us-senate"
+    },
+    "04023": {
+      "ballots_cast": 16769,
+      "registered_voters": 26276,
+      "percent": 63.82,
+      "definition": "Official canvass turnout: total ballots cast / total eligible registration; published rounded percentage retained.",
+      "source_id": "canvass-2016-us-senate"
+    },
+    "04025": {
+      "ballots_cast": 116053,
+      "registered_voters": 137390,
+      "percent": 84.47,
+      "definition": "Official canvass turnout: total ballots cast / total eligible registration; published rounded percentage retained.",
+      "source_id": "canvass-2016-us-senate"
+    },
+    "04027": {
+      "ballots_cast": 53911,
+      "registered_voters": 84254,
+      "percent": 63.99,
+      "definition": "Official canvass turnout: total ballots cast / total eligible registration; published rounded percentage retained.",
+      "source_id": "canvass-2016-us-senate"
+    },
+    "04": {
+      "ballots_cast": 2661497,
+      "registered_voters": 3588466,
+      "percent": 74.17,
+      "definition": "Official canvass turnout: total ballots cast / total eligible registration; published rounded percentage retained.",
+      "source_id": "canvass-2016-us-senate"
+    }
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "input_path": "data/raw/2018/openelections-county.csv",
+  "sha256": "33c07809ebd9b7fe1baaf3b993fdd492b0e6944ce27a2ec58df544590ee409b4",
+  "input_url": "https://github.com/openelections/openelections-data-az/blob/5675ad1dbf77ce24fdd320127215f81b17e1a866/2018/20181106__az__general__county.csv",
+  "selection": "Official canvass records are primary for all Senate cells. Secondary missing records are not zeroes.",
+  "candidates": [
+    {
+      "candidate": "Robert Kay",
+      "present_counties": 15,
+      "missing_counties": [],
+      "county_value_mismatches": [],
+      "published_secondary_statewide": 37,
+      "secondary_county_sum": 37,
+      "official_statewide": 37,
+      "secondary_party": "REP",
+      "official_party": "REP"
+    },
+    {
+      "candidate": "Martha McSally",
+      "present_counties": 15,
+      "missing_counties": [],
+      "county_value_mismatches": [],
+      "published_secondary_statewide": 1135200,
+      "secondary_county_sum": 1135200,
+      "official_statewide": 1135200,
+      "secondary_party": "REP",
+      "official_party": "REP"
+    },
+    {
+      "candidate": "Sheila Bilyeu",
+      "present_counties": 15,
+      "missing_counties": [],
+      "county_value_mismatches": [],
+      "published_secondary_statewide": 42,
+      "secondary_county_sum": 42,
+      "official_statewide": 42,
+      "secondary_party": "DEM",
+      "official_party": "DEM"
+    },
+    {
+      "candidate": "Kyrsten Sinema",
+      "present_counties": 15,
+      "missing_counties": [],
+      "county_value_mismatches": [],
+      "published_secondary_statewide": 1191100,
+      "secondary_county_sum": 1191100,
+      "official_statewide": 1191100,
+      "secondary_party": "DEM",
+      "official_party": "DEM"
+    },
+    {
+      "candidate": "Barry Hess",
+      "present_counties": 15,
+      "missing_counties": [],
+      "county_value_mismatches": [],
+      "published_secondary_statewide": 365,
+      "secondary_county_sum": 365,
+      "official_statewide": 365,
+      "secondary_party": "LBT",
+      "official_party": "LBT"
+    },
+    {
+      "candidate": "Angela Green",
+      "present_counties": 15,
+      "missing_counties": [],
+      "county_value_mismatches": [],
+      "published_secondary_statewide": 57442,
+      "secondary_county_sum": 57442,
+      "official_statewide": 57442,
+      "secondary_party": "GRN",
+      "official_party": "GRN"
+    },
+    {
+      "candidate": "Edward Davida",
+      "present_counties": 15,
+      "missing_counties": [],
+      "county_value_mismatches": [],
+      "published_secondary_statewide": 2,
+      "secondary_county_sum": 2,
+      "official_statewide": 2,
+      "secondary_party": "ATP",
+      "official_party": "ATP"
+    },
+    {
+      "candidate": "Michael DeCarlo",
+      "present_counties": 15,
+      "missing_counties": [],
+      "county_value_mismatches": [],
+      "published_secondary_statewide": 45,
+      "secondary_county_sum": 45,
+      "official_statewide": 45,
+      "secondary_party": "",
+      "official_party": "NONE"
+    },
+    {
+      "candidate": "Jeff Pearce",
+      "present_counties": 14,
+      "missing_counties": [
+        "Mohave"
+      ],
+      "county_value_mismatches": [],
+      "published_secondary_statewide": 29,
+      "secondary_county_sum": 28,
+      "official_statewide": 29,
+      "secondary_party": "IND",
+      "official_party": "IND"
+    },
+    {
+      "candidate": "Jonathan Ringham B",
+      "present_counties": 15,
+      "missing_counties": [],
+      "county_value_mismatches": [],
+      "published_secondary_statewide": 46,
+      "secondary_county_sum": 46,
+      "official_statewide": 46,
+      "secondary_party": "TOR",
+      "official_party": "TOR"
+    }
+  ]
+}

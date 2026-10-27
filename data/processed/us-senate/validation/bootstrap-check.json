@@ -1,0 +1,12 @@
+{
+  "clean_bootstrap_passed": true,
+  "repeat_bootstrap_counts_unchanged": true,
+  "counts": {
+    "contests": 13,
+    "participations": 97,
+    "vote_results": 1552,
+    "turnout": 96,
+    "publication_snapshots": 3,
+    "metric_observations": 22
+  }
+}

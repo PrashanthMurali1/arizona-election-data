@@ -4,7 +4,11 @@ A local, dark-themed dashboard for exploring certified Arizona elections. Browse
 
 **2026 general-election activity is available.** Before candidate results are released, its neutral county map and table show official participation metrics with separate source dates: registration for all 15 counties, early returns for Maricopa and Pima, and additional Pima ballot-status categories. Missing figures remain N/A. Refresh is manual; see [2026 sources, coverage and validation](docs/2026-import-report.md).
 
+**Attorney General results are also available for 2014, 2018 and 2022**, with all three candidate rosters reconciled to the official canvass across 15 counties. The 2026 Attorney General page shares the event-level participation snapshots and pre-results state. See the [Attorney General report](docs/attorney-general-import-report.md).
+
 **2022 MVP implemented and verified.** 2022, 2018 and 2014 governor results reconcile for every reported candidate across all 15 counties. The 2018 import combines VEST ballot-candidate precinct sums, OpenElections named write-ins and official turnout, with documented source checks. Nothing has been deployed.
+
+**U.S. Senate results are available for 2016, 2018, 2020 (special), 2022 and 2024.** All 61 candidate records reconcile across 15 counties per election, including every officially canvassed named write-in. The 2020 special election uses the existing interface and labels. There is no 2014 or 2026 Arizona U.S. Senate entry. See the [Senate source and verification report](docs/us-senate-import-report.md).
 
 ## Requirements and stack
 
@@ -67,9 +71,9 @@ python scripts/import_data.py
 python scripts/refresh_2026.py
 ```
 
-The importer reads `data/processed/{year}.json`, independently reads the official-reference statewide totals and candidate roster from `data/raw/*-governor-transcription.csv`, and writes **`data/processed/reconciliation.json`**. An incomplete import with results, or an incomplete 2022 import, exits nonzero. The 2018 import retains and reports VEST’s noncomparable aggregate write-in field separately; it is not assigned to named candidates. Input type/relationship errors abort the transaction.
+The importer reads the normalized Governor and Attorney General records, independently checks each candidate's county cells and statewide total against the retained canvass transcription, and writes **`data/processed/reconciliation.json`**. An incomplete import with results exits nonzero. The 2018 Governor import retains and reports VEST’s noncomparable aggregate write-in field separately; it is not assigned to named candidates. Input type/relationship errors abort the transaction.
 
-For a scoped 2018 rebuild/import, preserving other contest records:
+For a scoped 2018 rebuild/import, preserving other election years:
 
 ```sh
 python scripts/normalize_2018.py

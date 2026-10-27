@@ -5,9 +5,18 @@
 | Year | Office | Candidate records | Counties | Status | Official turnout |
 | --- | --- | ---: | ---: | --- | --- |
 | 2026 | Arizona Governor, general | No candidate results released/imported as of October 27 | 15 | Pre-results participation; source-checked metrics with separate coverage | Registration all counties; early returns 2 counties; no derived turnout |
+| 2026 | Arizona Attorney General, general | No candidate results released/imported as of October 27 | 15 | Pre-results participation shared with Governor event | Same event-level metrics; no AG vote records |
+| 2024 | Arizona U.S. Senate, regular | 10 (7 named write-ins) | 15 | Verified against official statewide candidate totals | All counties and statewide |
+| 2022 | Arizona U.S. Senate, regular | 11 (8 named write-ins) | 15 | Verified against official statewide candidate totals | Existing event turnout shared |
 | 2022 | Arizona Governor, general | 9 (7 named write-ins) | 15 | Verified against official statewide candidate totals | All counties and statewide |
+| 2022 | Arizona Attorney General, general | 3 (1 named write-in) | 15 | Verified against official statewide candidate totals | Event-level official turnout shared with Governor |
+| 2020 | Arizona U.S. Senate, special | 19 (17 named write-ins) | 15 | Verified against final canvass; official XML county results | All counties and statewide |
+| 2018 | Arizona U.S. Senate, regular | 10 (7 named write-ins) | 15 | Verified against official statewide candidate totals | Existing event turnout shared |
 | 2018 | Arizona Governor, general | 8 (5 named write-ins) | 15 | Verified against official statewide candidate totals; alternative inputs documented below | All counties and statewide |
+| 2018 | Arizona Attorney General, general | 3 (1 named write-in) | 15 | Verified against official statewide candidate totals | Event-level official turnout shared with Governor |
+| 2016 | Arizona U.S. Senate, regular | 11 (8 named write-ins) | 15 | Verified against signed official canvass | All counties and statewide |
 | 2014 | Arizona Governor, general | 10 (6 named write-ins) | 15 | Verified against official statewide candidate totals | All counties and statewide |
+| 2014 | Arizona Attorney General, general | 3 (1 named write-in) | 15 | Verified against official statewide candidate totals | Event-level official turnout shared with Governor |
 
 The county geometry always has 15 features, including when a selected election has no verified results. Geographic coverage is distinct from result completeness.
 
@@ -87,7 +96,7 @@ For example, 2022 Maricopa reports 1,562,758 ballots, 2,435,397 eligible registr
 
 The downloaded ZIP is retained under `data/raw/counties.zip`; the Arizona-only GeoJSON and checksum metadata are under `data/geography`. These are official Census generalized cartographic boundaries, not full-resolution TIGER/Line road/administrative extracts. Their scale is suitable for this fixed, statewide no-zoom display. No additional simplification is performed. Stable five-digit GEOIDs connect results to geography; names are labels only.
 
-Boundary version `county-2022` stores vintage 2022 explicitly. Both imported historical governor contests use that common county visualization layer. Future district elections require separate vintage-correct geometry and identifiers; this map must not be assumed appropriate for historical congressional or legislative districts.
+Boundary version `county-2022` stores vintage 2022 explicitly. Imported statewide contests use that common county visualization layer. Future district elections require separate vintage-correct geometry and identifiers; this map must not be assumed appropriate for historical congressional or legislative districts.
 
 ## Known limitations
 
@@ -150,7 +159,7 @@ python scripts/normalize_2018.py
 python scripts/import_data.py --year 2018
 ```
 
-The existing `normalize_transcription.py` and `bootstrap.py` also invoke the 2018 adapter. The old top-level availability placeholder has been archived, preventing it from overwriting the completed normalized dataset. The scoped importer preserves the other years' contest records and merges the 2018 report into `data/processed/reconciliation.json`; repeat imports replace result cells without duplicating contests, candidates, vote records or turnout. Source discrepancies cause nonzero failure instead of vote adjustment.
+The existing `normalize_transcription.py` and `bootstrap.py` also invoke the 2018 adapter. The old top-level availability placeholder has been archived, preventing it from overwriting the completed normalized dataset. The year-scoped importer preserves other election years' contest records and imports the selected 2018 contests into `data/processed/reconciliation.json`; repeat imports replace result cells without duplicating contests, candidates, vote records or turnout. Source discrepancies cause nonzero failure instead of vote adjustment.
 
 The completed import has **zero outstanding certified-candidate discrepancies**. The separate VEST aggregate mismatch remains visible as a documented excluded category. API, clean-database/repeat-import checks and browser interactions are recorded in [the 2018 import report](2018-import-report.md). All 2014 and 2022 normalized file hashes and API payload hashes were unchanged by the scoped update.
 
@@ -158,3 +167,16 @@ The completed import has **zero outstanding certified-candidate discrepancies**.
 
 The current 2026 general-election page reports official participation rather than candidate votes before results are released. See the [2026 source and validation report](2026-import-report.md) for source URLs, exact definitions, report/retrieval timestamps, county coverage, preserved source discrepancies, manual refresh commands and future result-certification requirements. The historical methodology above remains applicable to certified historical results.
 
+## U.S. Senate coverage (October 27, 2026)
+
+The regular Arizona U.S. Senate elections in **2016, 2018, 2022 and 2024**, plus the **November 3, 2020 special election**, are imported and reconciled for all 15 counties. There was no Arizona U.S. Senate election in 2014 or 2026; neither appears in the application. The 2018 election has one Senate contest. Calendar references include the [U.S. Senate's Arizona history](https://www.senate.gov/states/AZ/senators.htm), [official 2022 canvass](https://apps.azsos.gov/election/2022/General/canvass/2022dec05_general_election_canvass_web.pdf), and [Congressional Directory documenting the 2020 special election](https://www.govinfo.gov/content/pkg/CDIR-2022-10-26/html/CDIR-2022-10-26-AZ.htm).
+
+The import covers **61 candidate records, 47 named write-ins, and 915 candidate/county cells**. Every candidate county sum equals the independently printed official statewide TOTAL. The complete official canvass rosters contain named write-ins without an additional aggregate write-in row. Broader county-report write-in aggregates are not added to these certified candidate totals. Shares use the complete certified contest-vote denominator.
+
+The original official 2016 signed PDF and 2020 detailed-results XML ZIP are retained from a pinned public mirror after direct official requests returned HTTP 403. Indexed official canvass tables are retained for 2018, 2020, 2022 and 2024. The 2016 scan was visually reviewed, including eleven visible one-vote cells omitted from its hidden text layer. All 2020 XML county cells, statewide totals, parties and write-in flags independently agree with the final canvass; its Mathew Haupt label is displayed as Matthew Haupt following the final canvass. A missing Jeff Pearce/Mohave row in the older 2018 OpenElections file is documented; the official canvass explicitly supplies one vote. No missing secondary record is treated as zero.
+
+`data/raw/us-senate/*-provenance.json` records report/retrieval dates, acquisition URLs, methods and checksums for each retained file. SHA256 values distinguish original PDF/ZIP bytes, indexed text, and reviewed CSV transcriptions. They do not claim a hash of an inaccessible original PDF. Normalization checks the hashes and independently compares the reviewed CSVs against retained official indexed tables; 2020 also compares the original XML cell by cell. Original PDF binaries remain unavailable for 2018, 2020, 2022 and 2024, although the official 2020 XML is retained. These retention limitations are documented in the [Senate import report](us-senate-import-report.md), with full candidate reconciliation tables and executed checks.
+
+Official turnout/registration covers all counties and statewide for each Senate election. The 2018 and 2022 contests reuse the existing election-event turnout records. New event records for 2016, 2020 and 2024 retain source percentages and definitions. Repeated imports update the same event/unit records and never duplicate them. The 2020 contest ID is `az-2020-us-senate-special`, its normalized `contest_kind` and API `kind` identify a special election, and its source notes record the term expiring January 2023. Its shared November election event remains `az-2020-general` with event kind `general`. The existing schema supports this convention without a migration. The existing catalog, page heading and selector show the special-election wording using their existing text positions.
+
+Run `.venv/bin/python scripts/normalize_us_senate.py` followed by `.venv/bin/python scripts/import_data.py --office us-senate` for an offline Senate-only refresh of the retained historical data. Add `--year YEAR` to scope an import further. Bootstrap invokes the same normalizer. Existing Governor and Attorney General API payload hashes remain unchanged.

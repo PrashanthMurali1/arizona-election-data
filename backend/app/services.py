@@ -27,7 +27,7 @@ def metadata(s: Session, c: Contest):
         date=e.date,
         office_id=c.office_id,
         office=s.get(Office, c.office_id).name,
-        kind=e.kind,
+        kind="special" if c.office_id == "us-senate" and c.id.endswith("-special") else e.kind,
         status=c.status,
         notes=c.notes,
         county_count=counties,

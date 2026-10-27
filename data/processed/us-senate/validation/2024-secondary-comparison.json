@@ -1,0 +1,83 @@
+{
+  "secondary_url": "https://github.com/Camreyn/civicresultmaps/blob/5195a57d913c839106ce1d2de32e3510d9ef3d3a/data/az-2024-general-canvass-senate.csv",
+  "selection": "Corroboration only. Actual complete candidate data come from the official indexed canvass.",
+  "counties": [
+    {
+      "geoid": "04001",
+      "county": "Apache",
+      "matches_all_three_buckets": true
+    },
+    {
+      "geoid": "04003",
+      "county": "Cochise",
+      "matches_all_three_buckets": true
+    },
+    {
+      "geoid": "04005",
+      "county": "Coconino",
+      "matches_all_three_buckets": true
+    },
+    {
+      "geoid": "04007",
+      "county": "Gila",
+      "matches_all_three_buckets": true
+    },
+    {
+      "geoid": "04009",
+      "county": "Graham",
+      "matches_all_three_buckets": true
+    },
+    {
+      "geoid": "04011",
+      "county": "Greenlee",
+      "matches_all_three_buckets": true
+    },
+    {
+      "geoid": "04012",
+      "county": "La Paz",
+      "matches_all_three_buckets": true
+    },
+    {
+      "geoid": "04013",
+      "county": "Maricopa",
+      "matches_all_three_buckets": true
+    },
+    {
+      "geoid": "04015",
+      "county": "Mohave",
+      "matches_all_three_buckets": true
+    },
+    {
+      "geoid": "04017",
+      "county": "Navajo",
+      "matches_all_three_buckets": true
+    },
+    {
+      "geoid": "04019",
+      "county": "Pima",
+      "matches_all_three_buckets": true
+    },
+    {
+      "geoid": "04021",
+      "county": "Pinal",
+      "matches_all_three_buckets": true
+    },
+    {
+      "geoid": "04023",
+      "county": "Santa Cruz",
+      "matches_all_three_buckets": true
+    },
+    {
+      "geoid": "04025",
+      "county": "Yavapai",
+      "matches_all_three_buckets": true
+    },
+    {
+      "geoid": "04027",
+      "county": "Yuma",
+      "matches_all_three_buckets": true
+    }
+  ],
+  "input_path": "data/raw/us-senate/az-2024-general-canvass-senate.csv",
+  "sha256": "f6cdf23d5fa1199e97129362f32784a1d1e8b2eff077045738891988ec5a39ec"
+}
