@@ -21,7 +21,12 @@ from .schemas import (
     SourceOut,
     GeometryOut,
     ActivityOut,
+    HouseElectionOut,
+    HouseOverviewOut,
+    HouseDistrictDetailOut,
+    HouseDistrictOut,
 )
+from . import house
 from .lifecycle import activity
 from .services import metadata, results
 
@@ -53,16 +58,28 @@ def health(s: DB):
     return {"status": "ok"}
 
 
-@app.get("/api/elections", response_model=list[ElectionOut])
+@app.get("/api/elections", response_model=list[HouseElectionOut | ElectionOut])
 def elections(s: DB):
     return [
-        metadata(s, c) for c in s.scalars(select(Contest).order_by(Contest.id.desc()))
-    ]
+        metadata(s, c)
+        for c in s.scalars(
+            select(Contest)
+            .where(Contest.office_id != "us-house")
+            .order_by(Contest.id.desc())
+        )
+    ] + house.catalog(s)
 
 
-@app.get("/api/elections/{id}", response_model=DetailOut)
+@app.get(
+    "/api/elections/{id}",
+    response_model=HouseOverviewOut | HouseDistrictDetailOut | DetailOut,
+)
 def election(id: str, s: DB):
+    if house.is_overview(id):
+        return house.overview(s, id)
     c = contest(s, id)
+    if c.office_id == "us-house":
+        return house.district_detail(s, c)
     run = s.scalar(
         select(ImportRun)
         .where(ImportRun.contest_id == id)
@@ -105,6 +122,11 @@ def election(id: str, s: DB):
 @app.get("/api/elections/{id}/statewide", response_model=ResultsOut)
 def statewide(id: str, s: DB):
     c = contest(s, id)
+    if c.office_id == "us-house":
+        raise HTTPException(
+            404,
+            "House results are district-specific; no statewide House contest exists",
+        )
     return results(s, c, s.get(GeographicUnit, c.jurisdiction_id))
 
 
@@ -141,11 +163,19 @@ def county(id: str, geoid: str, s: DB):
 
 @app.get("/api/elections/{id}/sources", response_model=list[SourceOut])
 def sources(id: str, s: DB):
+    if house.is_overview(id):
+        return house.overview(s, id)["sources"]
+    c = contest(s, id)
+    if c.office_id == "us-house":
+        return house.source_rows(s, [c])
     return election(id, s).sources
 
 
 @app.get("/api/elections/{id}/activity", response_model=ActivityOut | None)
 def election_activity(id: str, s: DB):
+    if house.is_overview(id):
+        house.resolve(s, id)
+        return None
     contest(s, id)
     return activity(s, id)
 
@@ -154,6 +184,9 @@ def election_activity(id: str, s: DB):
 def election_snapshots(id: str, s: DB):
     from .models import PublicationSnapshot
 
+    if house.is_overview(id):
+        house.resolve(s, id)
+        return []
     contest(s, id)
     return [
         dict(
@@ -175,6 +208,11 @@ def election_snapshots(id: str, s: DB):
             .order_by(PublicationSnapshot.retrieved_at)
         )
     ]
+
+
+@app.get("/api/elections/{id}/districts", response_model=list[HouseDistrictOut])
+def house_districts(id: str, s: DB):
+    return house.overview(s, id)["districts"]
 
 
 @app.get("/api/geography/{boundary_id}", response_model=GeometryOut)

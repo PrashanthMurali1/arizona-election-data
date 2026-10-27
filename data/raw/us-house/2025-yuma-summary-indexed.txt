@@ -1,0 +1,258 @@
+ (https://apps.azsos.gov/election/2025/sge-canvass/Yuma-Canvass-2025SGE.pdf)
+citeturn152view0 [wordlim: 200] Crawled: 2 weeks ago; Content type: application/pdf; Number of pages: 45; Source: open({"ref_id":"turn140view2","lineno":0}); Total lines: 908
+L0@P2: County of Yuma, State of Arizona OFFICIAL RESULTS
+L1@P2: Special General Election
+L2@P2: September 23, 2025
+L3@P2: Statistics TOTAL Election
+L4@P2: Day
+L5@P2: Early
+L6@P2: Voting
+L7@P2: Provisional Late Early
+L8@P2: Voting
+L9@P2: Registered Voters - Total 59,820
+L10@P2: Ballots Cast - Total 8,989 564 8,239 10 176
+L11@P2: Ballots Cast - Blank 6 0 6 0 0
+L12@P2: Voter Turnout - Total 15.03%
+L13@P2: TOTAL Election
+L14@P2: Day
+L15@P2: Early
+L16@P2: Voting
+L17@P2: Provisional Late Early
+L18@P2: Voting
+L19@P2: Vote For 1
+L20@P2: U.S. Representative in Congress Dist. 7
+L21@P2: REP BUTIEREZ SR., DANIEL 3,378 274 3,065 1 38
+L22@P2: DEM GRIJALVA, ADELITA 5,421 286 4,988 9 138
+L23@P2: GRN QUINTANA, EDUARDO 113 3 110 0 0
+L24@P2: NOL GRAYSON, RICHARD 55 1 54 0 0
+L25@P2: Write-In Totals 7 0 7 0 0
+L26@P2: Write-In: Irwin Sr., James Nathaniel 0 0 0 0 0
+L27@P2: Write-In: Rose, James 0 0 0 0 0
+L28@P2: Write-In: Wood, Daniel 1 0 1 0 0
+L29@P2: Write-In: Beasley, Jeffrey "Jeff" 0 0 0 0 0
+L30@P2: Write-In: Block, Avery 0 0 0 0 0
+L31@P2: Write-In: Hatch, G. Sevillr 0 0 0 0 0
+L32@P2: Write-In: McAllister, David McAllister 0 0 0 0 0
+L33@P2: Write-In: UNOFFICIAL 6 0 6 0 0
+L34@P2: Write-In: Lavers, Cheval 0 0 0 0 0
+L35@P2: Write-In: di Genova, Trista ""Trista"" 0 0 0 0 0
+L36@P2: Not Assigned 0 0 0 0 0
+L37@P2: Overvotes 9 0 9 0 0
+L38@P2: Undervotes 6 0 6 0 0
+L39@P2: Contest Totals 8,989 564 8,239 10 176
+L40@P2-3: Election Summary - 09/25/2025 04:23PM Page 1 of 12025 Special General Election CD7
+L41@P3: September 23, 2025 Yuma County, Arizona
+L42@P3: Write-in Names Report
+L43@P3: Heading Candidate Name
+L44@P3: U.S. Representative in Congress Dist. 7 Total Write-In Votes : 7
+L45@P3: Beasley, Jeffrey "Jeff" 0
+L46@P3: Block, Avery 0
+L47@P3: Hatch, G. Sevillr 0
+L48@P3: Irwin Sr., James Nathaniel 0
+L49@P3: Lavers, Cheval 0
+L50@P3: McAllister, David McAllister 0
+L51@P3: Rose, James 0
+L52@P3: UNOFFICIAL 6
+L53@P3: Wood, Daniel 1
+L54@P3: di Genova, Trista ""Trista"" 0
+L55@P3: Not Assigned 0
+L56@P3-4: Write-in Names Report 09/25/2025 04:39PM Page 1 of1PRECINCT 01
+L57@P4: Yuma County, State of Arizona OFFICIAL RESULTS
+L58@P4: Special General Election
+L59@P4: September 23, 2025
+L60@P4: Statistics TOTAL Election
+L61@P4: Day
+L62@P4: Early
+L63@P4: Voting
+L64@P4: Provisional Late Early
+L65@P4: Voting
+L66@P4: Registered Voters - Total 1,149
+L67@P4: Ballots Cast - Total 249 13 234 0 2
+L68@P4: Ballots Cast - Blank 0 0 0 0 0
+L69@P4: Voter Turnout - Total 21.67%
+L70@P4: TOTAL Election
+L71@P4: Day
+L72@P4: Early
+L73@P4: Voting
+L74@P4: Provisional Late Early
+L75@P4: Voting
+L76@P4: Vote For 1
+L77@P4: U.S. Representative in Congress Dist. 7
+L78@P4: REP BUTIEREZ SR., DANIEL 125 7 118 0 0
+L79@P4: DEM GRIJALVA, ADELITA 121 6 113 0 2
+L80@P4: GRN QUINTANA, EDUARDO 2 0 2 0 0
+L81@P4: NOL GRAYSON, RICHARD 1 0 1 0 0
+L82@P4: Write-In Totals 0 0 0 0 0
+L83@P4-5: Precinct Summary - 09/25/2025 04:27PM Page 1 of 27PRECINCT 02
+L84@P5: Yuma County, State of Arizona OFFICIAL RESULTS
+L85@P5: Special General Election
+L86@P5: September 23, 2025
+L87@P5: Statistics TOTAL Election
+L88@P5: Day
+L89@P5: Early
+L90@P5: Voting
+L91@P5: Provisional Late Early
+L92@P5: Voting
+L93@P5: Registered Voters - Total 1,879
+L94@P5: Ballots Cast - Total 220 16 200 0 4
+L95@P5: Ballots Cast - Blank 0 0 0 0 0
+L96@P5: Voter Turnout - Total 11.71%
+L97@P5: TOTAL Election
+L98@P5: Day
+L99@P5: Early
+L100@P5: Voting
+L101@P5: Provisional Late Early
+L102@P5: Voting
+L103@P5: Vote For 1
+L104@P5: U.S. Representative in Congress Dist. 7
+L105@P5: REP BUTIEREZ SR., DANIEL 101 9 91 0 1
+L106@P5: DEM GRIJALVA, ADELITA 113 7 103 0 3
+L107@P5: GRN QUINTANA, EDUARDO 3 0 3 0 0
+L108@P5: NOL GRAYSON, RICHARD 2 0 2 0 0
+L109@P5: Write-In Totals 1 0 1 0 0
+L110@P5-6: Precinct Summary - 09/25/2025 04:27PM Page 2 of 27PRECINCT 03
+L111@P6: Yuma County, State of Arizona OFFICIAL RESULTS
+L112@P6: Special General Election
+L113@P6: September 23, 2025
+L114@P6: Statistics TOTAL Election
+L115@P6: Day
+L116@P6: Early
+L117@P6: Voting
+L118@P6: Provisional Late Early
+L119@P6: Voting
+L120@P6: Registered Voters - Total 3,156
+L121@P6: Ballots Cast - Total 476 33 432 1 10
+L122@P6: Ballots Cast - Blank 0 0 0 0 0
+L123@P6: Voter Turnout - Total 15.08%
+L124@P6: TOTAL Election
+L125@P6: Day
+L126@P6: Early
+L127@P6: Voting
+L128@P6: Provisional Late Early
+L129@P6: Voting
+L130@P6: Vote For 1
+L131@P6: U.S. Representative in Congress Dist. 7
+L132@P6: REP BUTIEREZ SR., DANIEL 153 13 138 0 2
+L133@P6: DEM GRIJALVA, ADELITA 309 20 280 1 8
+L134@P6: GRN QUINTANA, EDUARDO 10 0 10 0 0
+L135@P6: NOL GRAYSON, RICHARD 2 0 2 0 0
+L136@P6: Write-In Totals 2 0 2 0 0
+L137@P6-7: Precinct Summary - 09/25/2025 04:27PM Page 3 of 27PRECINCT 04
+L138@P7: Yuma County, State of Arizona OFFICIAL RESULTS
+L139@P7: Special General Election
+L140@P7: September 23, 2025
+L141@P7: Statistics TOTAL Election
+L142@P7: Day
+L143@P7: Early
+L144@P7: Voting
+L145@P7: Provisional Late Early
+L146@P7: Voting
+L147@P7: Registered Voters - Total 2,749
+L148@P7: Ballots Cast - Total 461 42 415 1 3
+L149@P7: Ballots Cast - Blank 0 0 0 0 0
+L150@P7: Voter Turnout - Total 16.77%
+L151@P7: TOTAL Election
+L152@P7: Day
+L153@P7: Early
+L154@P7: Voting
+L155@P7: Provisional Late Early
+L156@P7: Voting
+L157@P7: Vote For 1
+L158@P7: U.S. Representative in Congress Dist. 7
+L159@P7: REP BUTIEREZ SR., DANIEL 195 23 170 0 2
+L160@P7: DEM GRIJALVA, ADELITA 255 18 235 1 1
+L161@P7: GRN QUINTANA, EDUARDO 8 0 8 0 0
+L162@P7: NOL GRAYSON, RICHARD 3 1 2 0 0
+L163@P7: Write-In Totals 0 0 0 0 0
+L164@P7-8: Precinct Summary - 09/25/2025 04:27PM Page 4 of 27PRECINCT 05
+L165@P8: Yuma County, State of Arizona OFFICIAL RESULTS
+L166@P8: Special General Election
+L167@P8: September 23, 2025
+L168@P8: Statistics TOTAL Election
+L169@P8: Day
+L170@P8: Early
+L171@P8: Voting
+L172@P8: Provisional Late Early
+L173@P8: Voting
+L174@P8: Registered Voters - Total 11
+L175@P8: Ballots Cast - Total 4 0 4 0 0
+L176@P8: Ballots Cast - Blank 0 0 0 0 0
+L177@P8: Voter Turnout - Total 36.36%
+L178@P8: TOTAL Election
+L179@P8: Day
+L180@P8: Early
+L181@P8: Voting
+L182@P8: Provisional Late Early
+L183@P8: Voting
+L184@P8: Vote For 1
+L185@P8: U.S. Representative in Congress Dist. 7
+L186@P8: REP BUTIEREZ SR., DANIEL 0 0 0 0 0
+L187@P8: DEM GRIJALVA, ADELITA 4 0 4 0 0
+L188@P8: GRN QUINTANA, EDUARDO 0 0 0 0 0
+L189@P8: NOL GRAYSON, RICHARD 0 0 0 0 0
+L190@P8: Write-In Totals 0 0 0 0 0
+L191@P8-9: Precinct Summary - 09/25/2025 04:27PM Page 5 of 27PRECINCT 07
+L192@P9: Yuma County, State of Arizona OFFICIAL RESULTS
+L193@P9: Special General Election
+L194@P9: September 23, 2025
+L195@P9: Statistics TOTAL Election
+L196@P9: Day
+L197@P9: Early
+L198@P9: Voting
+L199@P9: Provisional Late Early
+L200@P9: Voting
+L201@P9: Registered Voters - Total 2,655
+L202@P9: Ballots Cast - Total 486 31 444 1 10
+L203@P9: Ballots Cast - Blank 0 0 0 0 0
+L204@P9: Voter Turnout - Total 18.31%
+L205@P9: TOTAL Election
+L206@P9: Day
+L207@P9: Early
+L208@P9: Voting
+L209@P9: Provisional Late Early
+L210@P9: Voting
+L211@P9: Vote For 1
+L212@P9: U.S. Representative in Congress Dist. 7
+L213@P9: REP BUTIEREZ SR., DANIEL 213 22 189 0 2
+L214@P9: DEM GRIJALVA, ADELITA 258 9 240 1 8
+L215@P9: GRN QUINTANA, EDUARDO 7 0 7 0 0
+L216@P9: NOL GRAYSON, RICHARD 7 0 7 0 0
+L217@P9: Write-In Totals 0 0 0 0 0
+L218@P9-10: Precinct Summary - 09/25/2025 04:27PM Page 6 of 27PRECINCT 08
+L219@P10: Yuma County, State of Arizona OFFICIAL RESULTS
+L220@P10: Special General Election
+L221@P10: September 23, 2025
+L222@P10: Statistics TOTAL Election
+L223@P10: Day
+L224@P10: Early
+L225@P10: Voting
+L226@P10: Provisional Late Early
+L227@P10: Voting
+L228@P10: Registered Voters - Total 2,718
+L229@P10: Ballots Cast - Total 588 31 549 1 7
+L230@P10: Ballots Cast - Blank 0 0 0 0 0
+L231@P10: Voter Turnout - Total 21.63%
+L232@P10: TOTAL Election
+L233@P10: Day
+L234@P10: Early
+L235@P10: Voting
+L236@P10: Provisional Late Early
+L237@P10: Voting
+L238@P10: Vote For 1
+L239@P10: U.S. Representative in Congress Dist. 7
+L240@P10: REP BUTIEREZ SR., DANIEL 289 23 263 1 2
+L241@P10: DEM GRIJALVA, ADELITA 292 8 279 0 5
+L242@P10: GRN QUINTANA, EDUARDO 3 0 3 0 0
+L243@P10: NOL GRAYSON, RICHARD 3 0 3 0 0
+L244@P10: Write-In Totals 1 0 1 0 0
+L245@P10-11: Precinct Summary - 09/25/2025 04:27PM Page 7 of 27PRECINCT 09
+L246@P11: Yuma County, State of Arizona OFFICIAL RESULTS
+L247@P11: Special General Election
+L248@P11: September 23, 2025
+L249@P11: Statistics TOTAL Election
+L250@P11: Day
+L251@P11: Early
+L252@P11: Voting
+L253@P11: Provisional Late Early
+L254@P11: Voting
+

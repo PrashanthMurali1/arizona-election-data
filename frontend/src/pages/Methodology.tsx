@@ -86,6 +86,26 @@ export default function Methodology() {
         </p>
       </section>
       <section>
+        <h2>U.S. House district results</h2>
+        <p>
+          House elections contain separate contests for each congressional
+          district. Their maps use Census congressional boundaries for the plan
+          first used in 2012 or 2022, as appropriate to the election. Selecting
+          a district shows its own candidates and vote shares. District numbers
+          across different plans do not identify the same geography.
+        </p>
+        <p>
+          The six regular elections from 2014 through 2024 include all nine
+          districts and reconcile with official House Clerk statistics. The
+          final court-certified 2014 District 2 recount supersedes the original
+          canvass. Special-election views cover only the contested district;
+          other districts are labeled Not contested. The 2018 CD8 and 2025 CD7
+          special views display civicAPI candidate reports and identify them as
+          civicAPI data, not official canvass results. Write-in results,
+          county-level allocations and special-election turnout are not shown.
+        </p>
+      </section>
+      <section>
         <h2>Historical availability</h2>
         <p>
           The 2018 election includes all 15 counties and eight certified

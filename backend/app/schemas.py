@@ -63,6 +63,32 @@ class DetailOut(BaseModel):
     reconciliation: dict[str, Any] | None
 
 
+class HouseElectionOut(ElectionOut):
+    district_count: int
+    selection_label: str
+    district_label: str | None
+
+
+class HouseDistrictOut(ResultsOut):
+    contest_id: str | None
+    contested: bool
+
+
+class HouseOverviewOut(BaseModel):
+    election: HouseElectionOut
+    districts: list[HouseDistrictOut]
+    default_district: str
+    sources: list[SourceOut]
+    reconciliation: dict[str, Any]
+
+
+class HouseDistrictDetailOut(BaseModel):
+    election: ElectionOut
+    district: ResultsOut
+    sources: list[SourceOut]
+    reconciliation: dict[str, Any] | None
+
+
 class GeometryOut(BaseModel):
     type: str = "FeatureCollection"
     boundary_id: str

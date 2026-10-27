@@ -1,0 +1,170 @@
+[
+  {
+    "district": 1,
+    "name": "Tom O’Halleran",
+    "party_text": "Democrat",
+    "write_in": false,
+    "votes": 143240
+  },
+  {
+    "district": 1,
+    "name": "Wendy Rogers",
+    "party_text": "Republican",
+    "write_in": false,
+    "votes": 122784
+  },
+  {
+    "district": 1,
+    "name": "David Shock",
+    "party_text": "Write-in (Independent)",
+    "write_in": true,
+    "votes": 65
+  },
+  {
+    "district": 2,
+    "name": "Ann Kirkpatrick",
+    "party_text": "Democrat",
+    "write_in": false,
+    "votes": 161000
+  },
+  {
+    "district": 2,
+    "name": "Lea Marquez Peterson",
+    "party_text": "Republican",
+    "write_in": false,
+    "votes": 133083
+  },
+  {
+    "district": 2,
+    "name": "Jordan Flayer",
+    "party_text": "Write-in (Independent)",
+    "write_in": true,
+    "votes": 50
+  },
+  {
+    "district": 2,
+    "name": "Melissa Grable",
+    "party_text": "Write-in (Republican)",
+    "write_in": true,
+    "votes": 19
+  },
+  {
+    "district": 3,
+    "name": "Raúl M. Grijalva",
+    "party_text": "Democrat",
+    "write_in": false,
+    "votes": 114650
+  },
+  {
+    "district": 3,
+    "name": "Nicolas “Nick” Pierson",
+    "party_text": "Republican",
+    "write_in": false,
+    "votes": 64868
+  },
+  {
+    "district": 4,
+    "name": "David Brill",
+    "party_text": "Democrat",
+    "write_in": false,
+    "votes": 84521
+  },
+  {
+    "district": 4,
+    "name": "Paul A. Gosar",
+    "party_text": "Republican",
+    "write_in": false,
+    "votes": 188842
+  },
+  {
+    "district": 4,
+    "name": "Haryaksha Gregor Knauer",
+    "party_text": "Green",
+    "write_in": false,
+    "votes": 3672
+  },
+  {
+    "district": 5,
+    "name": "Joan Greene",
+    "party_text": "Democrat",
+    "write_in": false,
+    "votes": 127027
+  },
+  {
+    "district": 5,
+    "name": "Andy Biggs",
+    "party_text": "Republican",
+    "write_in": false,
+    "votes": 186037
+  },
+  {
+    "district": 6,
+    "name": "Anita Malik",
+    "party_text": "Democrat",
+    "write_in": false,
+    "votes": 140559
+  },
+  {
+    "district": 6,
+    "name": "David Schweikert",
+    "party_text": "Republican",
+    "write_in": false,
+    "votes": 173140
+  },
+  {
+    "district": 7,
+    "name": "Ruben Gallego",
+    "party_text": "Democrat",
+    "write_in": false,
+    "votes": 113044
+  },
+  {
+    "district": 7,
+    "name": "Gary Swing",
+    "party_text": "Green",
+    "write_in": false,
+    "votes": 18706
+  },
+  {
+    "district": 7,
+    "name": "James “007” Bond IV",
+    "party_text": "Write-in (Republican)",
+    "write_in": true,
+    "votes": 301
+  },
+  {
+    "district": 8,
+    "name": "Hiral Tipirneni",
+    "party_text": "Democrat",
+    "write_in": false,
+    "votes": 135569
+  },
+  {
+    "district": 8,
+    "name": "Debbie Lesko",
+    "party_text": "Republican",
+    "write_in": false,
+    "votes": 168835
+  },
+  {
+    "district": 8,
+    "name": "Steven Hummel",
+    "party_text": "Write-in (New Paradigm Party)",
+    "write_in": true,
+    "votes": 13
+  },
+  {
+    "district": 9,
+    "name": "Greg Stanton",
+    "party_text": "Democrat",
+    "write_in": false,
+    "votes": 159583
+  },
+  {
+    "district": 9,
+    "name": "Stephen L. Ferrara",
+    "party_text": "Republican",
+    "write_in": false,
+    "votes": 101662
+  }
+]

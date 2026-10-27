@@ -1,0 +1,184 @@
+[
+  {
+    "district": 1,
+    "name": "Paul Babeu",
+    "party_text": "Republican",
+    "write_in": false,
+    "votes": 121745
+  },
+  {
+    "district": 1,
+    "name": "Tom O’Halleran",
+    "party_text": "Democrat",
+    "write_in": false,
+    "votes": 142219
+  },
+  {
+    "district": 1,
+    "name": "Ray Parrish",
+    "party_text": "Green",
+    "write_in": false,
+    "votes": 16746
+  },
+  {
+    "district": 2,
+    "name": "Martha McSally",
+    "party_text": "Republican",
+    "write_in": false,
+    "votes": 179806
+  },
+  {
+    "district": 2,
+    "name": "Matt Heinz",
+    "party_text": "Democrat",
+    "write_in": false,
+    "votes": 135873
+  },
+  {
+    "district": 3,
+    "name": "Raúl M. Grijalva",
+    "party_text": "Democrat",
+    "write_in": false,
+    "votes": 148973
+  },
+  {
+    "district": 3,
+    "name": "Bill Abatecola",
+    "party_text": "Write-in (Republican)",
+    "write_in": true,
+    "votes": 1303
+  },
+  {
+    "district": 3,
+    "name": "Jaime Vasquez",
+    "party_text": "Write-in (Republican)",
+    "write_in": true,
+    "votes": 332
+  },
+  {
+    "district": 3,
+    "name": "Harvey Martin",
+    "party_text": "Write-in (Democratic)",
+    "write_in": true,
+    "votes": 283
+  },
+  {
+    "district": 3,
+    "name": "Federico A. Sanchez",
+    "party_text": "Write-in (Independent)",
+    "write_in": true,
+    "votes": 144
+  },
+  {
+    "district": 4,
+    "name": "Paul A. Gosar",
+    "party_text": "Republican",
+    "write_in": false,
+    "votes": 203487
+  },
+  {
+    "district": 4,
+    "name": "Mikel Weisser",
+    "party_text": "Democrat",
+    "write_in": false,
+    "votes": 81296
+  },
+  {
+    "district": 5,
+    "name": "Andy Biggs",
+    "party_text": "Republican",
+    "write_in": false,
+    "votes": 205184
+  },
+  {
+    "district": 5,
+    "name": "Talia Fuentes",
+    "party_text": "Democrat",
+    "write_in": false,
+    "votes": 114940
+  },
+  {
+    "district": 6,
+    "name": "David Schweikert",
+    "party_text": "Republican",
+    "write_in": false,
+    "votes": 201578
+  },
+  {
+    "district": 6,
+    "name": "W. John Williamson",
+    "party_text": "Democrat",
+    "write_in": false,
+    "votes": 122866
+  },
+  {
+    "district": 7,
+    "name": "Eve Nunez",
+    "party_text": "Republican",
+    "write_in": false,
+    "votes": 39286
+  },
+  {
+    "district": 7,
+    "name": "Ruben Gallego",
+    "party_text": "Democrat",
+    "write_in": false,
+    "votes": 119465
+  },
+  {
+    "district": 7,
+    "name": "Neil B. Westbrooks",
+    "party_text": "Write-in (Green)",
+    "write_in": true,
+    "votes": 60
+  },
+  {
+    "district": 8,
+    "name": "Trent Franks",
+    "party_text": "Republican",
+    "write_in": false,
+    "votes": 204942
+  },
+  {
+    "district": 8,
+    "name": "Mark Salazar",
+    "party_text": "Green",
+    "write_in": false,
+    "votes": 93954
+  },
+  {
+    "district": 8,
+    "name": "Hayden Keener III",
+    "party_text": "Write-in (Republican)",
+    "write_in": true,
+    "votes": 75
+  },
+  {
+    "district": 9,
+    "name": "Dave Giles",
+    "party_text": "Republican",
+    "write_in": false,
+    "votes": 108350
+  },
+  {
+    "district": 9,
+    "name": "Kyrsten Sinema",
+    "party_text": "Democrat",
+    "write_in": false,
+    "votes": 169055
+  },
+  {
+    "district": 9,
+    "name": "Cary Dolego",
+    "party_text": "Write-in (Green)",
+    "write_in": true,
+    "votes": 56
+  },
+  {
+    "district": 9,
+    "name": "Axel Bello",
+    "party_text": "Write-in (Independent)",
+    "write_in": true,
+    "votes": 46
+  }
+]

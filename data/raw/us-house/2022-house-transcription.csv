@@ -1,0 +1,27 @@
+district,party,name,write_in,04001,04003,04005,04007,04009,04011,04012,04013,04015,04017,04019,04021,04023,04025,04027,official_total,source_id
+1,REP,David Schweikert,false,NA,NA,NA,NA,NA,NA,NA,182336,NA,NA,NA,NA,NA,NA,NA,182336,house-2022-canvass
+1,DEM,Jevin D. Hodge,false,NA,NA,NA,NA,NA,NA,NA,179141,NA,NA,NA,NA,NA,NA,NA,179141,house-2022-canvass
+2,REP,Eli Crane,false,8486,NA,19741,14569,51,NA,NA,46,64,21667,NA,31136,NA,78409,NA,174169,house-2022-canvass
+2,DEM,Tom O'Halleran,false,18020,NA,34831,7774,489,NA,NA,311,130,18480,NA,25173,NA,43943,NA,149151,house-2022-canvass
+2,IND,Chris Sarappo,true,1,NA,25,3,0,NA,NA,0,0,13,NA,9,NA,25,NA,76,house-2022-canvass
+3,REP,Jeff Nelson Zink,false,NA,NA,NA,NA,NA,NA,NA,32475,NA,NA,NA,NA,NA,NA,NA,32475,house-2022-canvass
+3,DEM,Ruben Gallego,false,NA,NA,NA,NA,NA,NA,NA,108599,NA,NA,NA,NA,NA,NA,NA,108599,house-2022-canvass
+4,REP,Kelly Cooper,false,NA,NA,NA,NA,NA,NA,NA,116521,NA,NA,NA,NA,NA,NA,NA,116521,house-2022-canvass
+4,DEM,Greg Stanton,false,NA,NA,NA,NA,NA,NA,NA,148941,NA,NA,NA,NA,NA,NA,NA,148941,house-2022-canvass
+4,IND,"Stephan ""Steve"" Jones",true,NA,NA,NA,NA,NA,NA,NA,36,NA,NA,NA,NA,NA,NA,NA,36,house-2022-canvass
+5,REP,Andy Biggs,false,NA,NA,NA,NA,NA,NA,NA,148905,NA,NA,NA,33559,NA,NA,NA,182464,house-2022-canvass
+5,DEM,Javier Garcia Ramos,false,NA,NA,NA,NA,NA,NA,NA,102496,NA,NA,NA,17747,NA,NA,NA,120243,house-2022-canvass
+5,IND,Clint William Smith,false,NA,NA,NA,NA,NA,NA,NA,16093,NA,NA,NA,2758,NA,NA,NA,18851,house-2022-canvass
+5,DEM,"Debra Jo ""D-Jo"" Borden",true,NA,NA,NA,NA,NA,NA,NA,32,NA,NA,NA,0,NA,NA,NA,32,house-2022-canvass
+6,REP,Juan Ciscomani,false,NA,26180,NA,NA,7938,1540,NA,NA,NA,NA,124199,17344,NA,NA,NA,177201,house-2022-canvass
+6,DEM,Kirsten Engel,false,NA,12405,NA,NA,2329,878,NA,NA,NA,NA,143239,13118,NA,NA,NA,171969,house-2022-canvass
+6,DEM,Avery Alexander Thornton,true,NA,16,NA,NA,0,0,NA,NA,NA,NA,53,2,NA,NA,NA,71,house-2022-canvass
+6,NON,Frank Bertone,true,NA,15,NA,NA,0,0,NA,NA,NA,NA,26,1,NA,NA,NA,42,house-2022-canvass
+7,REP,Luis Pozzolo,false,NA,2883,NA,NA,NA,NA,NA,8699,NA,NA,42845,1157,4907,NA,8953,69444,house-2022-canvass
+7,DEM,Raúl Grijalva,false,NA,5163,NA,NA,NA,NA,NA,14668,NA,NA,86339,602,8209,NA,11437,126418,house-2022-canvass
+8,REP,Debbie Lesko,false,NA,NA,NA,NA,NA,NA,NA,197555,NA,NA,NA,NA,NA,NA,NA,197555,house-2022-canvass
+8,DEM,Alixandria Guzman,true,NA,NA,NA,NA,NA,NA,NA,2013,NA,NA,NA,NA,NA,NA,NA,2013,house-2022-canvass
+8,DEM,Jeremy Spreitzer,true,NA,NA,NA,NA,NA,NA,NA,5145,NA,NA,NA,NA,NA,NA,NA,5145,house-2022-canvass
+9,REP,Paul Gosar,false,NA,NA,NA,NA,NA,NA,4260,105342,63643,NA,NA,NA,NA,NA,19551,192796,house-2022-canvass
+9,DEM,Richard Grayson,true,NA,NA,NA,NA,NA,NA,61,3047,214,NA,NA,NA,NA,NA,209,3531,house-2022-canvass
+9,DEM,Tom T.,true,NA,NA,NA,NA,NA,NA,9,734,25,NA,NA,NA,NA,NA,90,858,house-2022-canvass

@@ -1,0 +1,38 @@
+{
+  "candidate": "Paul Gosar",
+  "original_indexed_cells": [
+    "NA",
+    "NA",
+    "NA",
+    "NA",
+    "NA",
+    5260,
+    137529,
+    82372,
+    "NA",
+    "NA",
+    "NA",
+    "NA",
+    "NA",
+    "NA",
+    24422
+  ],
+  "actual_county_cells": {
+    "Apache": "NA",
+    "Cochise": "NA",
+    "Coconino": "NA",
+    "Gila": "NA",
+    "Graham": "NA",
+    "Greenlee": "NA",
+    "La Paz": 5260,
+    "Maricopa": 137529,
+    "Mohave": 82372,
+    "Navajo": "NA",
+    "Pima": "NA",
+    "Pinal": "NA",
+    "Santa Cruz": "NA",
+    "Yavapai": "NA",
+    "Yuma": 24422
+  },
+  "method": "Actual county precinct records, not a residual allocation. Original indexed county columns were shifted."
+}

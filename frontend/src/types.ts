@@ -11,6 +11,45 @@ export interface Election {
   county_count: number;
   candidate_count: number;
   boundary_id: string;
+  district_count?: number;
+  selection_label?: string;
+  district_label?: string | null;
+}
+
+export interface HouseDistrict extends Results {
+  contest_id: string | null;
+  contested: boolean;
+}
+export interface HouseReport {
+  status: string;
+  district: number;
+  kind?: "county_reconciliation" | "provider_results";
+  provider?: {
+    provider: string;
+    percent_reporting: number | null;
+    last_updated: string | null;
+  } | null;
+  candidates: {
+    candidate: string;
+    county_sum?: number | null;
+    official_district?: number | null;
+    difference?: number | null;
+    missing_counties?: string[];
+    votes?: number;
+    percent?: number | null;
+    winner?: boolean;
+  }[];
+}
+export interface HouseOverview {
+  election: Election;
+  districts: HouseDistrict[];
+  default_district: string;
+  sources: Source[];
+  reconciliation: {
+    status: string;
+    district_count: number;
+    reports: Record<string, HouseReport>;
+  };
 }
 export interface Candidate {
   id: string;

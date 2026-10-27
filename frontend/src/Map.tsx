@@ -27,12 +27,14 @@ export default function CountyMap({
   selected,
   onSelect,
   mode = "results",
+  unitKind = "county",
 }: {
   geography: Geography;
   counties: Results[];
   selected: string | null;
   onSelect: (id: string) => void;
   mode?: "results" | "activity" | "unofficial";
+  unitKind?: "county" | "district";
 }) {
   const features = useMemo(() => geography.features.map(rewind), [geography]);
   const projection = useMemo(
@@ -53,7 +55,11 @@ export default function CountyMap({
         className="county-map"
         viewBox="0 0 480 490"
         role="group"
-        aria-label="Arizona counties. Select a county to view results."
+        aria-label={
+          unitKind === "district"
+            ? "Arizona congressional districts. Select a district to view results."
+            : "Arizona counties. Select a county to view results."
+        }
       >
         {features.map((f) => {
           const id = String(f.properties?.geoid);
@@ -62,35 +68,46 @@ export default function CountyMap({
               ? undefined
               : counties.find((c) => c.geoid === id);
           const center = path.centroid(f);
+          const inactive =
+            unitKind === "district" && row?.status === "not_contested";
           return (
             <g key={id}>
               <path
                 className={`county ${partyClass(row?.winner?.party)} ${selected === id ? "selected" : ""}`}
                 d={path(f) ?? ""}
-                tabIndex={0}
+                tabIndex={inactive ? -1 : 0}
                 role="button"
                 aria-label={
-                  mode === "activity"
-                    ? `${f.properties?.name} County. View early-voting activity.`
-                    : `${f.properties?.name} County, ${row?.winner?.name ?? "winner unavailable"}. View county results.`
+                  inactive
+                    ? `${f.properties?.name}. Not contested in this election.`
+                    : unitKind === "district"
+                      ? `${f.properties?.name}, ${row?.winner?.name ?? "winner unavailable"}. View district results.`
+                      : mode === "activity"
+                        ? `${f.properties?.name} County. View early-voting activity.`
+                        : `${f.properties?.name} County, ${row?.winner?.name ?? "winner unavailable"}. View county results.`
                 }
                 aria-pressed={selected === id}
-                onClick={() => onSelect(id)}
+                aria-disabled={inactive || undefined}
+                onClick={() => {
+                  if (!inactive) onSelect(id);
+                }}
                 onKeyDown={(e) => {
                   if (e.key === "Enter" || e.key === " ") {
                     e.preventDefault();
-                    onSelect(id);
+                    if (!inactive) onSelect(id);
                   }
                 }}
               >
                 <title>
                   {f.properties?.name}:{" "}
-                  {mode === "activity"
-                    ? "Participation reports"
-                    : (row?.winner?.name ??
-                      (mode === "unofficial"
-                        ? "No reported leader"
-                        : "No verified winner"))}
+                  {inactive
+                    ? "Not contested"
+                    : mode === "activity"
+                      ? "Participation reports"
+                      : (row?.winner?.name ??
+                        (mode === "unofficial"
+                          ? "No reported leader"
+                          : "No verified winner"))}
                 </title>
               </path>
               <text
@@ -99,7 +116,7 @@ export default function CountyMap({
                 className="map-label"
                 aria-hidden="true"
               >
-                {f.properties?.name}
+                {f.properties?.label ?? f.properties?.name}
               </text>
             </g>
           );
@@ -133,7 +150,9 @@ export default function CountyMap({
           ? "All counties · neutral participation map"
           : mode === "unofficial"
             ? "Current reported leader · unofficial"
-            : "County winner · solid party colors"}
+            : unitKind === "district"
+              ? "District winner · solid party colors"
+              : "County winner · solid party colors"}
         <br />
         U.S. Census Bureau · {geography.vintage} boundaries
       </p>

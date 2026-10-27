@@ -89,7 +89,7 @@ test("catalog, candidate results, county map, details, sorting, year navigation 
   await expect(
     page.getByRole("heading", { name: "Election catalog" }),
   ).toBeVisible();
-  await expect(page.locator(".election-card")).toHaveCount(13);
+  await expect(page.locator(".election-card")).toHaveCount(21);
   await page
     .locator(".office-section")
     .filter({ hasText: "Arizona Governor" })
@@ -172,7 +172,7 @@ test("mobile layout contains overflow and supports county selection", async ({
 test("desktop layout and catalog screenshots", async ({ page }) => {
   await page.setViewportSize({ width: 1440, height: 1000 });
   await page.goto("/");
-  await expect(page.locator(".election-card")).toHaveCount(13);
+  await expect(page.locator(".election-card")).toHaveCount(21);
   await page.screenshot({ path: "test-results/catalog.png", fullPage: true });
   await page.goto("/elections/az-2022-governor");
   await expect(page.locator(".county-map path")).toHaveCount(15);

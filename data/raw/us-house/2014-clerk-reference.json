@@ -1,0 +1,205 @@
+[
+  {
+    "district": 1,
+    "name": "Andy Tobin",
+    "party_text": "Republican",
+    "write_in": false,
+    "votes": 87723
+  },
+  {
+    "district": 1,
+    "name": "Ann Kirkpatrick",
+    "party_text": "Democrat",
+    "write_in": false,
+    "votes": 97391
+  },
+  {
+    "district": 2,
+    "name": "Martha McSally",
+    "party_text": "Republican",
+    "write_in": false,
+    "votes": 109704
+  },
+  {
+    "district": 2,
+    "name": "Ron Barber",
+    "party_text": "Democrat",
+    "write_in": false,
+    "votes": 109543
+  },
+  {
+    "district": 2,
+    "name": "Sampson U. Ramirez",
+    "party_text": "Write-in (None)",
+    "write_in": true,
+    "votes": 56
+  },
+  {
+    "district": 2,
+    "name": "Sydney Dudikoff",
+    "party_text": "Write-in (Republican)",
+    "write_in": true,
+    "votes": 48
+  },
+  {
+    "district": 3,
+    "name": "Gabby Saucedo Mercer",
+    "party_text": "Republican",
+    "write_in": false,
+    "votes": 46185
+  },
+  {
+    "district": 3,
+    "name": "Raúl M. Grijalva",
+    "party_text": "Democrat",
+    "write_in": false,
+    "votes": 58192
+  },
+  {
+    "district": 3,
+    "name": "F. Sanchez",
+    "party_text": "Write-in (Independent)",
+    "write_in": true,
+    "votes": 43
+  },
+  {
+    "district": 3,
+    "name": "Lee Thompson",
+    "party_text": "Write-in (Marketing Managers)",
+    "write_in": true,
+    "votes": 8
+  },
+  {
+    "district": 4,
+    "name": "Paul A. Gosar",
+    "party_text": "Republican",
+    "write_in": false,
+    "votes": 122560
+  },
+  {
+    "district": 4,
+    "name": "Mike Weisser",
+    "party_text": "Democrat",
+    "write_in": false,
+    "votes": 45179
+  },
+  {
+    "district": 4,
+    "name": "Chris Rike",
+    "party_text": "Libertarian",
+    "write_in": false,
+    "votes": 7440
+  },
+  {
+    "district": 5,
+    "name": "Matt Salmon",
+    "party_text": "Republican",
+    "write_in": false,
+    "votes": 124867
+  },
+  {
+    "district": 5,
+    "name": "James Woods",
+    "party_text": "Democrat",
+    "write_in": false,
+    "votes": 54596
+  },
+  {
+    "district": 6,
+    "name": "David Schweikert",
+    "party_text": "Republican",
+    "write_in": false,
+    "votes": 129578
+  },
+  {
+    "district": 6,
+    "name": "W. John Williamson",
+    "party_text": "Democrat",
+    "write_in": false,
+    "votes": 70198
+  },
+  {
+    "district": 7,
+    "name": "Ruben Gallego",
+    "party_text": "Democrat",
+    "write_in": false,
+    "votes": 54235
+  },
+  {
+    "district": 7,
+    "name": "Joe Cobb",
+    "party_text": "Libertarian",
+    "write_in": false,
+    "votes": 10715
+  },
+  {
+    "district": 7,
+    "name": "Rebecca DeWitt",
+    "party_text": "Americans Elect",
+    "write_in": false,
+    "votes": 3858
+  },
+  {
+    "district": 7,
+    "name": "José Peñalosa",
+    "party_text": "José Peñalosa",
+    "write_in": false,
+    "votes": 3496
+  },
+  {
+    "district": 7,
+    "name": "Gary Dunn",
+    "party_text": "Write-in (Republican)",
+    "write_in": true,
+    "votes": 129
+  },
+  {
+    "district": 7,
+    "name": "Gustavo Ortega",
+    "party_text": "Write-in (Democrat)",
+    "write_in": true,
+    "votes": 17
+  },
+  {
+    "district": 7,
+    "name": "Samuel Esquivel",
+    "party_text": "Write-in (Independent)",
+    "write_in": true,
+    "votes": 4
+  },
+  {
+    "district": 8,
+    "name": "Trent Franks",
+    "party_text": "Republican",
+    "write_in": false,
+    "votes": 128710
+  },
+  {
+    "district": 8,
+    "name": "Stephen Dolgos",
+    "party_text": "Americans Elect",
+    "write_in": false,
+    "votes": 41066
+  },
+  {
+    "district": 9,
+    "name": "Wendy Rogers",
+    "party_text": "Republican",
+    "write_in": false,
+    "votes": 67841
+  },
+  {
+    "district": 9,
+    "name": "Kyrsten Sinema",
+    "party_text": "Democrat",
+    "write_in": false,
+    "votes": 88609
+  },
+  {
+    "district": 9,
+    "name": "Powell Gammill",
+    "party_text": "Libertarian",
+    "write_in": false,
+    "votes": 5612
+  }
+]

@@ -1,0 +1,14 @@
+district,party,name,write_in,category,04001,04003,04005,04007,04009,04011,04012,04013,04015,04017,04019,04021,04023,04025,04027,official_total,source_id
+7,DEM,Adelita Grijalva,false,named_candidate,NA,3327,NA,NA,NA,NA,NA,6221,NA,NA,49992,275,4912,NA,5421,,house-2025-09-23-review
+7,REP,Daniel Francis Butierez Sr.,false,named_candidate,NA,1277,NA,NA,NA,NA,NA,2800,NA,NA,19982,460,2047,NA,3378,,house-2025-09-23-review
+7,GRN,Eduardo Quintana,false,named_candidate,NA,56,NA,NA,NA,NA,NA,94,NA,NA,793,6,56,NA,113,,house-2025-09-23-review
+7,NOL,Richard Grayson,false,named_candidate,NA,21,NA,NA,NA,NA,NA,60,NA,NA,364,9,28,NA,55,,house-2025-09-23-review
+7,DEM,Cheval Lavers,true,named_candidate,NA,,NA,NA,NA,NA,NA,0,NA,NA,1,,0,NA,0,,house-2025-09-23-review
+7,REP,"Jeffrey ""Jeff"" Beasley",true,named_candidate,NA,,NA,NA,NA,NA,NA,0,NA,NA,6,,3,NA,0,,house-2025-09-23-review
+7,REP,Avery Block,true,named_candidate,NA,,NA,NA,NA,NA,NA,0,NA,NA,2,,0,NA,0,,house-2025-09-23-review
+7,REP,G. Sevillr Hatch,true,named_candidate,NA,,NA,NA,NA,NA,NA,0,NA,NA,2,,0,NA,0,,house-2025-09-23-review
+7,REP,David McAllister,true,named_candidate,NA,,NA,NA,NA,NA,NA,0,NA,NA,0,,0,NA,0,,house-2025-09-23-review
+7,NOL,Nathaniel James Irwin Sr.,true,named_candidate,NA,,NA,NA,NA,NA,NA,0,NA,NA,1,,0,NA,0,,house-2025-09-23-review
+7,IND,Trista di Genova,true,named_candidate,NA,,NA,NA,NA,NA,NA,0,NA,NA,3,,0,NA,0,,house-2025-09-23-review
+7,PND,Daniel Wood,true,named_candidate,NA,,NA,NA,NA,NA,NA,0,NA,NA,0,,1,NA,1,,house-2025-09-23-review
+7,NONE,James Rose,true,named_candidate,NA,,NA,NA,NA,NA,NA,0,NA,NA,8,,0,NA,0,,house-2025-09-23-review

@@ -1,0 +1,5 @@
+district,party,name,write_in,category,04001,04003,04005,04007,04009,04011,04012,04013,04015,04017,04019,04021,04023,04025,04027,reported_total,source_id
+7,DEM,Adelita Grijalva,false,named_candidate,,,,,,,,,,,,,,,,70043,house-2025-special-civicapi
+7,REP,Daniel Butierez,false,named_candidate,,,,,,,,,,,,,,,,29893,house-2025-special-civicapi
+7,GRN,Eduardo Quintana,false,named_candidate,,,,,,,,,,,,,,,,1116,house-2025-special-civicapi
+7,NOL,Richard Grayson,false,named_candidate,,,,,,,,,,,,,,,,536,house-2025-special-civicapi

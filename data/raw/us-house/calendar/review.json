@@ -1,0 +1,125 @@
+[
+  {
+    "congress": 113,
+    "url": "https://history.house.gov/Institution/Vacancies-Successors/Vacancies-Successors/",
+    "method": "POST",
+    "form": {
+      "htmlContentID": "36507224024"
+    },
+    "http_status": 200,
+    "headings": [
+      "113th Congress, 1st Session",
+      "113th Congress, 2nd Session"
+    ],
+    "path": "data/raw/us-house/calendar/vacancies-113.html",
+    "sha256": "e8353608845109425d6876201b8db8095e2ffb0e80beedda2c38fd37e412284b",
+    "arizona_rows": [],
+    "retrieved_on": "2026-10-28"
+  },
+  {
+    "congress": 114,
+    "url": "https://history.house.gov/Institution/Vacancies-Successors/Vacancies-Successors/",
+    "method": "POST",
+    "form": {
+      "htmlContentID": "36507224025"
+    },
+    "http_status": 200,
+    "headings": [
+      "114th Congress, 1st Session",
+      "114th Congress, 2nd Session"
+    ],
+    "path": "data/raw/us-house/calendar/vacancies-114.html",
+    "sha256": "7a7018116cc86372348ac13fb998ef443f6df1576207823ba4d8aec6a10cabb5",
+    "arizona_rows": [],
+    "retrieved_on": "2026-10-28"
+  },
+  {
+    "congress": 115,
+    "url": "https://history.house.gov/Institution/Vacancies-Successors/Vacancies-Successors/",
+    "method": "POST",
+    "form": {
+      "htmlContentID": "36507224026"
+    },
+    "http_status": 200,
+    "headings": [
+      "115th Congress, 1st Session",
+      "115th Congress, 2nd Session"
+    ],
+    "path": "data/raw/us-house/calendar/vacancies-115.html",
+    "sha256": "c1ef6d4d975b52b4c1dca8968973794324bc62fd88add7b6ce63f2fb89d99159",
+    "arizona_rows": [
+      "Arizona, 8th The Honorable Trent Franks (R) resigned from the 115th Congress on December 8, 2017. The Honorable Debbie Lesko (R) was elected April 24, 2018, in a special election. Representative Lesko was added to the rolls of the House upon executing the oath of office on May 7, 2018."
+    ],
+    "retrieved_on": "2026-10-28"
+  },
+  {
+    "congress": 116,
+    "url": "https://history.house.gov/Institution/Vacancies-Successors/Vacancies-Successors/",
+    "method": "POST",
+    "form": {
+      "htmlContentID": "36507224027"
+    },
+    "http_status": 200,
+    "headings": [
+      "116th Congress, 1st Session",
+      "116th Congress, 2nd Session"
+    ],
+    "path": "data/raw/us-house/calendar/vacancies-116.html",
+    "sha256": "9276aacd76c69b6a10444ec764c337b392565c32af369efae0ebe9c5130229ed",
+    "arizona_rows": [],
+    "retrieved_on": "2026-10-28"
+  },
+  {
+    "congress": 117,
+    "url": "https://history.house.gov/Institution/Vacancies-Successors/Vacancies-Successors/",
+    "method": "POST",
+    "form": {
+      "htmlContentID": "36507224028"
+    },
+    "http_status": 200,
+    "headings": [
+      "117th Congress, 1st Session",
+      "117th Congress, 2nd Session"
+    ],
+    "path": "data/raw/us-house/calendar/vacancies-117.html",
+    "sha256": "db516d29f7df3d745f4c5f70306d569cbce26edf373ac1a28d9e7d30be4fed51",
+    "arizona_rows": [],
+    "retrieved_on": "2026-10-28"
+  },
+  {
+    "congress": 118,
+    "url": "https://history.house.gov/Institution/Vacancies-Successors/Vacancies-Successors/",
+    "method": "POST",
+    "form": {
+      "htmlContentID": "36507224029"
+    },
+    "http_status": 200,
+    "headings": [
+      "118th Congress, 1st Session",
+      "118th Congress, 2nd Session "
+    ],
+    "path": "data/raw/us-house/calendar/vacancies-118.html",
+    "sha256": "7fc07cce67fdf3e8e30d0b707e9461dd578090975577c738da0d0e9328aa996b",
+    "arizona_rows": [],
+    "retrieved_on": "2026-10-28"
+  },
+  {
+    "congress": 119,
+    "url": "https://history.house.gov/Institution/Vacancies-Successors/Vacancies-Successors/",
+    "method": "POST",
+    "form": {
+      "htmlContentID": "36507225535"
+    },
+    "http_status": 200,
+    "headings": [
+      "119th Congress, 1st Session",
+      "119th Congress, 2nd Session"
+    ],
+    "path": "data/raw/us-house/calendar/vacancies-119.html",
+    "sha256": "3b0f4cd308e2d876cd2571c47e074c3681000181c607fd0472b63a458db20ee0",
+    "arizona_rows": [
+      "Arizona, 7th The Honorable Ra\u00fal M. Grijalva (D) died on March 13, 2025. The Honorable Adelita S. Grijalva (D) was elected September 23, 2025, in a special election. Representative Grijalva was added to the rolls of the House upon executing the oath of office on November 12, 2025."
+    ],
+    "retrieved_on": "2026-10-28"
+  }
+]

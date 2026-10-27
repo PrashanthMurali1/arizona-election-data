@@ -1,0 +1,184 @@
+[
+  {
+    "district": 1,
+    "name": "David Schweikert",
+    "party_text": "Republican",
+    "write_in": false,
+    "votes": 182336
+  },
+  {
+    "district": 1,
+    "name": "Jevin Hodge",
+    "party_text": "Democrat",
+    "write_in": false,
+    "votes": 179141
+  },
+  {
+    "district": 2,
+    "name": "Eli Crane",
+    "party_text": "Republican",
+    "write_in": false,
+    "votes": 174169
+  },
+  {
+    "district": 2,
+    "name": "Tom O’Halleran",
+    "party_text": "Democrat",
+    "write_in": false,
+    "votes": 149151
+  },
+  {
+    "district": 2,
+    "name": "Chris Sarappo",
+    "party_text": "Write-in (Independent)",
+    "write_in": true,
+    "votes": 76
+  },
+  {
+    "district": 3,
+    "name": "Jeff Zink",
+    "party_text": "Republican",
+    "write_in": false,
+    "votes": 32475
+  },
+  {
+    "district": 3,
+    "name": "Ruben Gallego",
+    "party_text": "Democrat",
+    "write_in": false,
+    "votes": 108599
+  },
+  {
+    "district": 4,
+    "name": "Kelly Cooper",
+    "party_text": "Republican",
+    "write_in": false,
+    "votes": 116521
+  },
+  {
+    "district": 4,
+    "name": "Greg Stanton",
+    "party_text": "Democrat",
+    "write_in": false,
+    "votes": 148941
+  },
+  {
+    "district": 4,
+    "name": "Stephan “Steve” Jones",
+    "party_text": "Write-in (Independent)",
+    "write_in": true,
+    "votes": 36
+  },
+  {
+    "district": 5,
+    "name": "Andy Biggs",
+    "party_text": "Republican",
+    "write_in": false,
+    "votes": 182464
+  },
+  {
+    "district": 5,
+    "name": "Javier Ramos",
+    "party_text": "Democrat",
+    "write_in": false,
+    "votes": 120243
+  },
+  {
+    "district": 5,
+    "name": "Clint Smith",
+    "party_text": "Independent",
+    "write_in": false,
+    "votes": 18851
+  },
+  {
+    "district": 5,
+    "name": "Debra Jo “D-Jo” Borden",
+    "party_text": "Write-in (Democratic)",
+    "write_in": true,
+    "votes": 32
+  },
+  {
+    "district": 6,
+    "name": "Juan Ciscomani",
+    "party_text": "Republican",
+    "write_in": false,
+    "votes": 177201
+  },
+  {
+    "district": 6,
+    "name": "Kirsten Engel",
+    "party_text": "Democrat",
+    "write_in": false,
+    "votes": 171969
+  },
+  {
+    "district": 6,
+    "name": "Avery Alexander Thornton",
+    "party_text": "Write-in (Democratic)",
+    "write_in": true,
+    "votes": 71
+  },
+  {
+    "district": 6,
+    "name": "Frank Bertone",
+    "party_text": "Write-in (None)",
+    "write_in": true,
+    "votes": 42
+  },
+  {
+    "district": 7,
+    "name": "Luis Pozzolo",
+    "party_text": "Republican",
+    "write_in": false,
+    "votes": 69444
+  },
+  {
+    "district": 7,
+    "name": "Raúl M. Grijalva",
+    "party_text": "Democrat",
+    "write_in": false,
+    "votes": 126418
+  },
+  {
+    "district": 8,
+    "name": "Debbie Lesko",
+    "party_text": "Republican",
+    "write_in": false,
+    "votes": 197555
+  },
+  {
+    "district": 8,
+    "name": "Jeremy Spreitzer",
+    "party_text": "Write-in (Democratic)",
+    "write_in": true,
+    "votes": 5145
+  },
+  {
+    "district": 8,
+    "name": "Alixandria Guzman",
+    "party_text": "Write-in (Democratic)",
+    "write_in": true,
+    "votes": 2013
+  },
+  {
+    "district": 9,
+    "name": "Paul Gosar",
+    "party_text": "Republican",
+    "write_in": false,
+    "votes": 192796
+  },
+  {
+    "district": 9,
+    "name": "Richard Grayson",
+    "party_text": "Write-in (Democratic)",
+    "write_in": true,
+    "votes": 3531
+  },
+  {
+    "district": 9,
+    "name": "Tom T.",
+    "party_text": "Write-in (Democratic)",
+    "write_in": true,
+    "votes": 858
+  }
+]

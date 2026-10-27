@@ -1,0 +1,5 @@
+# These retained CSV snapshots were hashed with CSV-writer CRLF line endings.
+# Preserve those exact working-tree bytes on fresh checkouts on every platform.
+data/raw/us-senate/*.csv text eol=crlf
+data/raw/us-house/*.csv text eol=crlf
+data/raw/attorney-general/*.csv text eol=crlf

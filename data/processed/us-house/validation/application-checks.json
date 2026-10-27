@@ -1,0 +1,96 @@
+{
+  "review_date": "2026-10-28",
+  "house_views": [
+    {
+      "id": "az-2014-us-house",
+      "date": "2014-11-04",
+      "kind": "general",
+      "status": "verified",
+      "district_count": 9,
+      "candidate_count": 29
+    },
+    {
+      "id": "az-2016-us-house",
+      "date": "2016-11-08",
+      "kind": "general",
+      "status": "verified",
+      "district_count": 9,
+      "candidate_count": 26
+    },
+    {
+      "id": "az-2018-us-house",
+      "date": "2018-11-06",
+      "kind": "general",
+      "status": "verified",
+      "district_count": 9,
+      "candidate_count": 24
+    },
+    {
+      "id": "az-2020-us-house",
+      "date": "2020-11-03",
+      "kind": "general",
+      "status": "verified",
+      "district_count": 9,
+      "candidate_count": 29
+    },
+    {
+      "id": "az-2018-us-house-special-08",
+      "date": "2018-04-24",
+      "kind": "special",
+      "status": "incomplete",
+      "district_count": 1,
+      "candidate_count": 3
+    },
+    {
+      "id": "az-2022-us-house",
+      "date": "2022-11-08",
+      "kind": "general",
+      "status": "verified",
+      "district_count": 9,
+      "candidate_count": 26
+    },
+    {
+      "id": "az-2024-us-house",
+      "date": "2024-11-05",
+      "kind": "general",
+      "status": "verified",
+      "district_count": 9,
+      "candidate_count": 26
+    },
+    {
+      "id": "az-2025-us-house-special-07",
+      "date": "2025-09-23",
+      "kind": "special",
+      "status": "incomplete",
+      "district_count": 1,
+      "candidate_count": 13
+    }
+  ],
+  "existing_office_api_payloads_unchanged": [
+    "az-2026-governor",
+    "az-2026-attorney-general",
+    "az-2024-us-senate",
+    "az-2022-us-senate",
+    "az-2022-governor",
+    "az-2022-attorney-general",
+    "az-2020-us-senate-special",
+    "az-2018-us-senate",
+    "az-2018-governor",
+    "az-2018-attorney-general",
+    "az-2016-us-senate",
+    "az-2014-governor",
+    "az-2014-attorney-general"
+  ],
+  "backend_tests_passed": 34,
+  "frontend_unit_tests_passed": 5,
+  "browser_tests_passed": 9,
+  "production_build": "passed",
+  "css_asset": "index-CwVMxme7.css (unchanged)",
+  "schema_check": "No new upgrade operations detected",
+  "raw_snapshot_checksums": "passed",
+  "full_verification": false,
+  "outstanding": [
+    "2018 special final official roster/denominator and aggregate write-in eligibility.",
+    "2025 special final official district reference; 18 named write-in county cells; final certified Pinal ballot-candidate source."
+  ]
+}

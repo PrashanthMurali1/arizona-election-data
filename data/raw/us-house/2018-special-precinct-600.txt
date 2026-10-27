@@ -1,0 +1,469 @@
+Precinct Report (https://apps.azsos.gov/election/2018/2018_0424_maricopa_final_precinct_report.pdf)
+citeturn118view0 [wordlim: 200] Crawled: last week; Content type: application/pdf; Number of pages: 72; Source: open({"ref_id":"turn107view0","lineno":600}); Total lines: 2077
+L433@P14: DEM - TIPIRNENI, HIRAL 162 59.12%
+L434@P14: Write-In Candidate 1 0.36%
+L435@P14-15: Total... 274 100.00%FINAL OFFICIAL RESULTS
+L436@P15: MRC_20180424_E
+L437@P15: April 24, 2018
+L438@P15: Precinct Report
+L439@P15: MARICOPA COUNTY
+L440@P15: 0149 COYOTE HILLS
+L441@P15: Registration & Turnout 3,347
+L442@P15: Election Day Paper Turnout 151 4.51%
+L443@P15: Early Voting Paper Turnout 1135 33.91%
+L444@P15: Early Voting Edge Turnout 0 0.00%
+L445@P15: Election Day Edge Turnout 0 0.00%
+L446@P15: Total... 1,286 38.42%
+L447@P15: US Rep Dst CD 8 (Final)
+L448@P15: REP - LESKO, DEBBIE 789 61.35%
+L449@P15: DEM - TIPIRNENI, HIRAL 493 38.34%
+L450@P15: Write-In Candidate 4 0.31%
+L451@P15: Total... 1,286 100.00%
+L452@P15: May 03, 2018 9:48 AM Page 16 of 72
+L453@P15: 0150 COYOTE LAKES
+L454@P15: Registration & Turnout 2,145
+L455@P15: Election Day Paper Turnout 90 4.20%
+L456@P15: Early Voting Paper Turnout 760 35.43%
+L457@P15: Early Voting Edge Turnout 0 0.00%
+L458@P15: Election Day Edge Turnout 0 0.00%
+L459@P15: Total... 850 39.63%
+L460@P15: US Rep Dst CD 8 (Final)
+L461@P15: REP - LESKO, DEBBIE 428 50.53%
+L462@P15: DEM - TIPIRNENI, HIRAL 417 49.23%
+L463@P15: Write-In Candidate 2 0.24%
+L464@P15-16: Total... 847 100.00%FINAL OFFICIAL RESULTS
+L465@P16: MRC_20180424_E
+L466@P16: April 24, 2018
+L467@P16: Precinct Report
+L468@P16: MARICOPA COUNTY
+L469@P16: 0151 CREEDANCE
+L470@P16: Registration & Turnout 4,326
+L471@P16: Election Day Paper Turnout 177 4.09%
+L472@P16: Early Voting Paper Turnout 1222 28.25%
+L473@P16: Early Voting Edge Turnout 0 0.00%
+L474@P16: Election Day Edge Turnout 0 0.00%
+L475@P16: Total... 1,399 32.34%
+L476@P16: US Rep Dst CD 8 (Final)
+L477@P16: REP - LESKO, DEBBIE 668 47.85%
+L478@P16: DEM - TIPIRNENI, HIRAL 725 51.93%
+L479@P16: Write-In Candidate 3 0.21%
+L480@P16: Total... 1,396 100.00%
+L481@P16: May 03, 2018 9:48 AM Page 17 of 72
+L482@P16: 0153 CRESCENT
+L483@P16: Registration & Turnout 1,141
+L484@P16: Election Day Paper Turnout 57 5.00%
+L485@P16: Early Voting Paper Turnout 741 64.94%
+L486@P16: Early Voting Edge Turnout 0 0.00%
+L487@P16: Election Day Edge Turnout 0 0.00%
+L488@P16: Total... 798 69.94%
+L489@P16: US Rep Dst CD 8 (Final)
+L490@P16: REP - LESKO, DEBBIE 466 58.62%
+L491@P16: DEM - TIPIRNENI, HIRAL 320 40.25%
+L492@P16: Write-In Candidate 9 1.13%
+L493@P16-17: Total... 795 100.00%FINAL OFFICIAL RESULTS
+L494@P17: MRC_20180424_E
+L495@P17: April 24, 2018
+L496@P17: Precinct Report
+L497@P17: MARICOPA COUNTY
+L498@P17: 0156 CROSBY
+L499@P17: Registration & Turnout 1,212
+L500@P17: Election Day Paper Turnout 78 6.44%
+L501@P17: Early Voting Paper Turnout 664 54.79%
+L502@P17: Early Voting Edge Turnout 0 0.00%
+L503@P17: Election Day Edge Turnout 0 0.00%
+L504@P17: Total... 742 61.22%
+L505@P17: US Rep Dst CD 8 (Final)
+L506@P17: REP - LESKO, DEBBIE 386 52.16%
+L507@P17: DEM - TIPIRNENI, HIRAL 354 47.84%
+L508@P17: Write-In Candidate 0 0.00%
+L509@P17: Total... 740 0.00%
+L510@P17: May 03, 2018 9:48 AM Page 18 of 72
+L511@P17: 0161 DAHLIA
+L512@P17: Registration & Turnout 1,981
+L513@P17: Election Day Paper Turnout 83 4.19%
+L514@P17: Early Voting Paper Turnout 595 30.04%
+L515@P17: Early Voting Edge Turnout 0 0.00%
+L516@P17: Election Day Edge Turnout 0 0.00%
+L517@P17: Total... 678 34.23%
+L518@P17: US Rep Dst CD 8 (Final)
+L519@P17: REP - LESKO, DEBBIE 353 52.22%
+L520@P17: DEM - TIPIRNENI, HIRAL 316 46.75%
+L521@P17: Write-In Candidate 7 1.04%
+L522@P17-18: Total... 676 100.00%FINAL OFFICIAL RESULTS
+L523@P18: MRC_20180424_E
+L524@P18: April 24, 2018
+L525@P18: Precinct Report
+L526@P18: MARICOPA COUNTY
+L527@P18: 0162 DAISY
+L528@P18: Registration & Turnout 2,036
+L529@P18: Election Day Paper Turnout 88 4.32%
+L530@P18: Early Voting Paper Turnout 526 25.83%
+L531@P18: Early Voting Edge Turnout 0 0.00%
+L532@P18: Election Day Edge Turnout 0 0.00%
+L533@P18: Total... 614 30.16%
+L534@P18: US Rep Dst CD 8 (Final)
+L535@P18: REP - LESKO, DEBBIE 291 47.70%
+L536@P18: DEM - TIPIRNENI, HIRAL 317 51.97%
+L537@P18: Write-In Candidate 2 0.33%
+L538@P18: Total... 610 100.00%
+L539@P18: May 03, 2018 9:48 AM Page 19 of 72
+L540@P18: 0168 DEADMAN WASH
+L541@P18: Registration & Turnout 4,262
+L542@P18: Election Day Paper Turnout 191 4.48%
+L543@P18: Early Voting Paper Turnout 1461 34.28%
+L544@P18: Early Voting Edge Turnout 0 0.00%
+L545@P18: Election Day Edge Turnout 0 0.00%
+L546@P18: Total... 1,652 38.76%
+L547@P18: US Rep Dst CD 8 (Final)
+L548@P18: REP - LESKO, DEBBIE 1085 65.72%
+L549@P18: DEM - TIPIRNENI, HIRAL 564 34.16%
+L550@P18: Write-In Candidate 2 0.12%
+L551@P18-19: Total... 1,651 100.00%FINAL OFFICIAL RESULTS
+L552@P19: MRC_20180424_E
+L553@P19: April 24, 2018
+L554@P19: Precinct Report
+L555@P19: MARICOPA COUNTY
+L556@P19: 0176 DESERT EDGE
+L557@P19: Registration & Turnout 3,846
+L558@P19: Election Day Paper Turnout 123 3.20%
+L559@P19: Early Voting Paper Turnout 997 25.92%
+L560@P19: Early Voting Edge Turnout 0 0.00%
+L561@P19: Election Day Edge Turnout 0 0.00%
+L562@P19: Total... 1,120 29.12%
+L563@P19: US Rep Dst CD 8 (Final)
+L564@P19: REP - LESKO, DEBBIE 489 43.70%
+L565@P19: DEM - TIPIRNENI, HIRAL 629 56.21%
+L566@P19: Write-In Candidate 1 0.09%
+L567@P19: Total... 1,119 100.00%
+L568@P19: May 03, 2018 9:48 AM Page 20 of 72
+L569@P19: 0177 DESERT HARBOR
+L570@P19: Registration & Turnout 4,481
+L571@P19: Election Day Paper Turnout 223 4.98%
+L572@P19: Early Voting Paper Turnout 1674 37.36%
+L573@P19: Early Voting Edge Turnout 0 0.00%
+L574@P19: Election Day Edge Turnout 0 0.00%
+L575@P19: Total... 1,897 42.33%
+L576@P19: US Rep Dst CD 8 (Final)
+L577@P19: REP - LESKO, DEBBIE 932 49.18%
+L578@P19: DEM - TIPIRNENI, HIRAL 959 50.61%
+L579@P19: Write-In Candidate 4 0.21%
+L580@P19-20: Total... 1,895 100.00%FINAL OFFICIAL RESULTS
+L581@P20: MRC_20180424_E
+L582@P20: April 24, 2018
+L583@P20: Precinct Report
+L584@P20: MARICOPA COUNTY
+L585@P20: 0180 DESERT HILLS
+L586@P20: Registration & Turnout 3,688
+L587@P20: Election Day Paper Turnout 203 5.50%
+L588@P20: Early Voting Paper Turnout 1239 33.60%
+L589@P20: Early Voting Edge Turnout 0 0.00%
+L590@P20: Election Day Edge Turnout 0 0.00%
+L591@P20: Total... 1,442 39.10%
+L592@P20: US Rep Dst CD 8 (Final)
+L593@P20: REP - LESKO, DEBBIE 911 63.18%
+L594@P20: DEM - TIPIRNENI, HIRAL 523 36.27%
+L595@P20: Write-In Candidate 8 0.55%
+L596@P20: Total... 1,442 100.00%
+L597@P20: May 03, 2018 9:48 AM Page 21 of 72
+L598@P20: 0182 DESERT OASIS
+L599@P20: Registration & Turnout 4,144
+L600@P20: Election Day Paper Turnout 178 4.30%
+L601@P20: Early Voting Paper Turnout 1338 32.29%
+L602@P20: Early Voting Edge Turnout 0 0.00%
+L603@P20: Election Day Edge Turnout 0 0.00%
+L604@P20: Total... 1,516 36.58%
+L605@P20: US Rep Dst CD 8 (Final)
+L606@P20: REP - LESKO, DEBBIE 974 64.29%
+L607@P20: DEM - TIPIRNENI, HIRAL 535 35.31%
+L608@P20: Write-In Candidate 6 0.40%
+L609@P20-21: Total... 1,515 100.00%FINAL OFFICIAL RESULTS
+L610@P21: MRC_20180424_E
+L611@P21: April 24, 2018
+L612@P21: Precinct Report
+L613@P21: MARICOPA COUNTY
+L614@P21: 0183 DESERT SAGE
+L615@P21: Registration & Turnout 5,846
+L616@P21: Election Day Paper Turnout 214 3.66%
+L617@P21: Early Voting Paper Turnout 2212 37.84%
+L618@P21: Early Voting Edge Turnout 0 0.00%
+L619@P21: Election Day Edge Turnout 0 0.00%
+L620@P21: Total... 2,426 41.50%
+L621@P21: US Rep Dst CD 8 (Final)
+L622@P21: REP - LESKO, DEBBIE 1218 50.23%
+L623@P21: DEM - TIPIRNENI, HIRAL 1204 49.65%
+L624@P21: Write-In Candidate 3 0.12%
+L625@P21: Total... 2,425 100.00%
+L626@P21: May 03, 2018 9:48 AM Page 22 of 72
+L627@P21: 0185 DESERT THUNDER
+L628@P21: Registration & Turnout 4,460
+L629@P21: Election Day Paper Turnout 142 3.18%
+L630@P21: Early Voting Paper Turnout 1065 23.88%
+L631@P21: Early Voting Edge Turnout 0 0.00%
+L632@P21: Election Day Edge Turnout 0 0.00%
+L633@P21: Total... 1,207 27.06%
+L634@P21: US Rep Dst CD 8 (Final)
+L635@P21: REP - LESKO, DEBBIE 515 42.70%
+L636@P21: DEM - TIPIRNENI, HIRAL 688 57.05%
+L637@P21: Write-In Candidate 3 0.25%
+L638@P21-22: Total... 1,206 100.00%FINAL OFFICIAL RESULTS
+L639@P22: MRC_20180424_E
+L640@P22: April 24, 2018
+L641@P22: Precinct Report
+L642@P22: MARICOPA COUNTY
+L643@P22: 0186 DESERT VISTA
+L644@P22: Registration & Turnout 1,910
+L645@P22: Election Day Paper Turnout 89 4.66%
+L646@P22: Early Voting Paper Turnout 618 32.36%
+L647@P22: Early Voting Edge Turnout 0 0.00%
+L648@P22: Election Day Edge Turnout 0 0.00%
+L649@P22: Total... 707 37.02%
+L650@P22: US Rep Dst CD 8 (Final)
+L651@P22: REP - LESKO, DEBBIE 311 43.99%
+L652@P22: DEM - TIPIRNENI, HIRAL 396 56.01%
+L653@P22: Write-In Candidate 0 0.00%
+L654@P22: Total... 707 0.00%
+L655@P22: May 03, 2018 9:48 AM Page 23 of 72
+L656@P22: 0206 DUSTY TRAIL
+L657@P22: Registration & Turnout 7,261
+L658@P22: Election Day Paper Turnout 257 3.54%
+L659@P22: Early Voting Paper Turnout 3383 46.59%
+L660@P22: Early Voting Edge Turnout 0 0.00%
+L661@P22: Election Day Edge Turnout 0 0.00%
+L662@P22: Total... 3,640 50.13%
+L663@P22: US Rep Dst CD 8 (Final)
+L664@P22: REP - LESKO, DEBBIE 2165 59.54%
+L665@P22: DEM - TIPIRNENI, HIRAL 1434 39.44%
+L666@P22: Write-In Candidate 37 1.02%
+L667@P22-23: Total... 3,636 100.00%FINAL OFFICIAL RESULTS
+L668@P23: MRC_20180424_E
+L669@P23: April 24, 2018
+L670@P23: Precinct Report
+L671@P23: MARICOPA COUNTY
+L672@P23: 0209 DYSART
+L673@P23: Registration & Turnout 1,240
+L674@P23: Election Day Paper Turnout 34 2.74%
+L675@P23: Early Voting Paper Turnout 371 29.92%
+L676@P23: Early Voting Edge Turnout 0 0.00%
+L677@P23: Election Day Edge Turnout 0 0.00%
+L678@P23: Total... 405 32.66%
+L679@P23: US Rep Dst CD 8 (Final)
+L680@P23: REP - LESKO, DEBBIE 197 48.64%
+L681@P23: DEM - TIPIRNENI, HIRAL 206 50.86%
+L682@P23: Write-In Candidate 2 0.49%
+L683@P23: Total... 405 100.00%
+L684@P23: May 03, 2018 9:48 AM Page 24 of 72
+L685@P23: 0216 EL MIRAGE
+L686@P23: Registration & Turnout 4,541
+L687@P23: Election Day Paper Turnout 131 2.88%
+L688@P23: Early Voting Paper Turnout 847 18.65%
+L689@P23: Early Voting Edge Turnout 0 0.00%
+L690@P23: Election Day Edge Turnout 0 0.00%
+L691@P23: Total... 978 21.54%
+L692@P23: US Rep Dst CD 8 (Final)
+L693@P23: REP - LESKO, DEBBIE 362 37.05%
+L694@P23: DEM - TIPIRNENI, HIRAL 612 62.64%
+L695@P23: Write-In Candidate 3 0.31%
+L696@P23-24: Total... 977 100.00%FINAL OFFICIAL RESULTS
+L697@P24: MRC_20180424_E
+L698@P24: April 24, 2018
+L699@P24: Precinct Report
+L700@P24: MARICOPA COUNTY
+L701@P24: 0219 EMERALD
+L702@P24: Registration & Turnout 2,373
+L703@P24: Election Day Paper Turnout 179 7.54%
+L704@P24: Early Voting Paper Turnout 1423 59.97%
+L705@P24: Early Voting Edge Turnout 0 0.00%
+L706@P24: Election Day Edge Turnout 0 0.00%
+L707@P24: Total... 1,602 67.51%
+L708@P24: US Rep Dst CD 8 (Final)
+L709@P24: REP - LESKO, DEBBIE 885 55.28%
+L710@P24: DEM - TIPIRNENI, HIRAL 712 44.47%
+L711@P24: Write-In Candidate 4 0.25%
+L712@P24: Total... 1,601 100.00%
+L713@P24: May 03, 2018 9:48 AM Page 25 of 72
+L714@P24: 0244 FRONTIER
+L715@P24: Registration & Turnout 5,393
+L716@P24: Election Day Paper Turnout 217 4.02%
+L717@P24: Early Voting Paper Turnout 1674 31.04%
+L718@P24: Early Voting Edge Turnout 0 0.00%
+L719@P24: Election Day Edge Turnout 0 0.00%
+L720@P24: Total... 1,891 35.06%
+L721@P24: US Rep Dst CD 8 (Final)
+L722@P24: REP - LESKO, DEBBIE 976 51.64%
+L723@P24: DEM - TIPIRNENI, HIRAL 911 48.20%
+L724@P24: Write-In Candidate 3 0.16%
+L725@P24-25: Total... 1,890 100.00%FINAL OFFICIAL RESULTS
+L726@P25: MRC_20180424_E
+L727@P25: April 24, 2018
+L728@P25: Precinct Report
+L729@P25: MARICOPA COUNTY
+L730@P25: 0250 GAVILAN PEAK
+L731@P25: Registration & Turnout 3,724
+L732@P25: Election Day Paper Turnout 190 5.10%
+L733@P25: Early Voting Paper Turnout 1163 31.23%
+L734@P25: Early Voting Edge Turnout 0 0.00%
+L735@P25: Election Day Edge Turnout 0 0.00%
+L736@P25: Total... 1,353 36.33%
+L737@P25: US Rep Dst CD 8 (Final)
+L738@P25: REP - LESKO, DEBBIE 758 56.11%
+L739@P25: DEM - TIPIRNENI, HIRAL 587 43.45%
+L740@P25: Write-In Candidate 6 0.44%
+L741@P25: Total... 1,351 100.00%
+L742@P25: May 03, 2018 9:48 AM Page 26 of 72
+L743@P25: 0251 GEMINI
+L744@P25: Registration & Turnout 3,241
+L745@P25: Election Day Paper Turnout 170 5.25%
+L746@P25: Early Voting Paper Turnout 903 27.86%
+L747@P25: Early Voting Edge Turnout 0 0.00%
+L748@P25: Election Day Edge Turnout 0 0.00%
+L749@P25: Total... 1,073 33.11%
+L750@P25: US Rep Dst CD 8 (Final)
+L751@P25: REP - LESKO, DEBBIE 490 45.75%
+L752@P25: DEM - TIPIRNENI, HIRAL 576 53.78%
+L753@P25: Write-In Candidate 5 0.47%
+L754@P25-26: Total... 1,071 100.00%FINAL OFFICIAL RESULTS
+L755@P26: MRC_20180424_E
+L756@P26: April 24, 2018
+L757@P26: Precinct Report
+L758@P26: MARICOPA COUNTY
+L759@P26: 0259 GLENCROFT
+L760@P26: Registration & Turnout 2,851
+L761@P26: Election Day Paper Turnout 75 2.63%
+L762@P26: Early Voting Paper Turnout 675 23.68%
+L763@P26: Early Voting Edge Turnout 0 0.00%
+L764@P26: Election Day Edge Turnout 0 0.00%
+L765@P26: Total... 750 26.31%
+L766@P26: US Rep Dst CD 8 (Final)
+L767@P26: REP - LESKO, DEBBIE 322 42.93%
+L768@P26: DEM - TIPIRNENI, HIRAL 426 56.80%
+L769@P26: Write-In Candidate 2 0.27%
+L770@P26: Total... 750 100.00%
+L771@P26: May 03, 2018 9:48 AM Page 27 of 72
+L772@P26: 0267 GOODYEAR
+L773@P26: Registration & Turnout 1,463
+L774@P26: Election Day Paper Turnout 48 3.28%
+L775@P26: Early Voting Paper Turnout 355 24.27%
+L776@P26: Early Voting Edge Turnout 0 0.00%
+L777@P26: Election Day Edge Turnout 0 0.00%
+L778@P26: Total... 403 27.55%
+L779@P26: US Rep Dst CD 8 (Final)
+L780@P26: REP - LESKO, DEBBIE 165 40.94%
+L781@P26: DEM - TIPIRNENI, HIRAL 231 57.32%
+L782@P26: Write-In Candidate 7 1.74%
+L783@P26-27: Total... 403 100.00%FINAL OFFICIAL RESULTS
+L784@P27: MRC_20180424_E
+L785@P27: April 24, 2018
+L786@P27: Precinct Report
+L787@P27: MARICOPA COUNTY
+L788@P27: 0269 GRAND
+L789@P27: Registration & Turnout 4,744
+L790@P27: Election Day Paper Turnout 158 3.33%
+L791@P27: Early Voting Paper Turnout 3528 74.37%
+L792@P27: Early Voting Edge Turnout 0 0.00%
+L793@P27: Election Day Edge Turnout 0 0.00%
+L794@P27: Total... 3,686 77.70%
+L795@P27: US Rep Dst CD 8 (Final)
+L796@P27: REP - LESKO, DEBBIE 2029 55.11%
+L797@P27: DEM - TIPIRNENI, HIRAL 1647 44.73%
+L798@P27: Write-In Candidate 6 0.16%
+L799@P27: Total... 3,682 100.00%
+L800@P27: May 03, 2018 9:48 AM Page 28 of 72
+L801@P27: 0270 GRANITE FALLS
+L802@P27: Registration & Turnout 4,227
+L803@P27: Election Day Paper Turnout 141 3.34%
+L804@P27: Early Voting Paper Turnout 2176 51.48%
+L805@P27: Early Voting Edge Turnout 0 0.00%
+L806@P27: Election Day Edge Turnout 0 0.00%
+L807@P27: Total... 2,317 54.81%
+L808@P27: US Rep Dst CD 8 (Final)
+L809@P27: REP - LESKO, DEBBIE 1227 53.07%
+L810@P27: DEM - TIPIRNENI, HIRAL 1082 46.80%
+L811@P27: Write-In Candidate 3 0.13%
+L812@P27-28: Total... 2,312 100.00%FINAL OFFICIAL RESULTS
+L813@P28: MRC_20180424_E
+L814@P28: April 24, 2018
+L815@P28: Precinct Report
+L816@P28: MARICOPA COUNTY
+L817@P28: 0273 GREENBRIAR
+L818@P28: Registration & Turnout 2,758
+L819@P28: Election Day Paper Turnout 121 4.39%
+L820@P28: Early Voting Paper Turnout 1000 36.26%
+L821@P28: Early Voting Edge Turnout 0 0.00%
+L822@P28: Election Day Edge Turnout 0 0.00%
+L823@P28: Total... 1,121 40.65%
+L824@P28: US Rep Dst CD 8 (Final)
+L825@P28: REP - LESKO, DEBBIE 635 56.70%
+L826@P28: DEM - TIPIRNENI, HIRAL 479 42.77%
+L827@P28: Write-In Candidate 6 0.54%
+L828@P28: Total... 1,120 100.00%
+L829@P28: May 03, 2018 9:48 AM Page 29 of 72
+L830@P28: 0277 GREYSTONE
+L831@P28: Registration & Turnout 1,332
+L832@P28: Election Day Paper Turnout 68 5.11%
+L833@P28: Early Voting Paper Turnout 902 67.72%
+L834@P28: Early Voting Edge Turnout 0 0.00%
+L835@P28: Election Day Edge Turnout 0 0.00%
+L836@P28: Total... 970 72.82%
+L837@P28: US Rep Dst CD 8 (Final)
+L838@P28: REP - LESKO, DEBBIE 570 58.88%
+L839@P28: DEM - TIPIRNENI, HIRAL 396 40.91%
+L840@P28: Write-In Candidate 2 0.21%
+L841@P28-29: Total... 968 100.00%FINAL OFFICIAL RESULTS
+L842@P29: MRC_20180424_E
+L843@P29: April 24, 2018
+L844@P29: Precinct Report
+L845@P29: MARICOPA COUNTY
+L846@P29: 0284 HAPPY TRAILS
+L847@P29: Registration & Turnout 721
+L848@P29: Election Day Paper Turnout 11 1.53%
+L849@P29: Early Voting Paper Turnout 464 64.36%
+L850@P29: Early Voting Edge Turnout 0 0.00%
+L851@P29: Election Day Edge Turnout 0 0.00%
+L852@P29: Total... 475 65.88%
+L853@P29: US Rep Dst CD 8 (Final)
+L854@P29: REP - LESKO, DEBBIE 312 65.82%
+L855@P29: DEM - TIPIRNENI, HIRAL 162 34.18%
+L856@P29: Write-In Candidate 0 0.00%
+L857@P29: Total... 474 0.00%
+L858@P29: May 03, 2018 9:48 AM Page 30 of 72
+L859@P29: 0285 HAPPY VALLEY
+L860@P29: Registration & Turnout 2,895
+L861@P29: Election Day Paper Turnout 137 4.73%
+L862@P29: Early Voting Paper Turnout 1162 40.14%
+L863@P29: Early Voting Edge Turnout 0 0.00%
+L864@P29: Election Day Edge Turnout 0 0.00%
+L865@P29: Total... 1,299 44.87%
+L866@P29: US Rep Dst CD 8 (Final)
+L867@P29: REP - LESKO, DEBBIE 723 55.74%
+L868@P29: DEM - TIPIRNENI, HIRAL 570 43.95%
+L869@P29: Write-In Candidate 4 0.31%
+L870@P29-30: Total... 1,297 100.00%FINAL OFFICIAL RESULTS
+L871@P30: MRC_20180424_E
+L872@P30: April 24, 2018
+L873@P30: Precinct Report
+L874@P30: MARICOPA COUNTY
+L875@P30: 0292 HASTINGS
+L876@P30: Registration & Turnout 3,272
+L877@P30: Election Day Paper Turnout 162 4.95%
+L878@P30: Early Voting Paper Turnout 932 28.48%
+L879@P30: Early Voting Edge Turnout 0 0.00%
+L880@P30: Election Day Edge Turnout 0 0.00%
+L881@P30: Total... 1,094 33.44%
+L882@P30: US Rep Dst CD 8 (Final)
+L883@P30: REP - LESKO, DEBBIE 588 53.75%
+L884@P30: DEM - TIPIRNENI, HIRAL 505 46.16%
+L885@P30: Write-In Candidate 1 0.09%
+L886@P30: Total... 1,094 100.00%
+L887@P30: May 03, 2018 9:48 AM Page 31 of 72
+L888@P30: 0303 HILLCREST
+L889@P30: Registration & Turnout 2,322
+L890@P30: Election Day Paper Turnout 121 5.21%
+L891@P30: Early Voting Paper Turnout 1430 61.58%
+L892@P30: Early Voting Edge Turnout 0 0.00%
+L893@P30: Election Day Edge Turnout 0 0.00%
+L894@P30: Total... 1,551 66.80%
+L895@P30: US Rep Dst CD 8 (Final)
+L896@P30: REP - LESKO, DEBBIE 853 55.14%
+L897@P30: DEM - TIPIRNENI, HIRAL 685 44.28%
+L898@P30: Write-In Candidate 9 0.58%
+

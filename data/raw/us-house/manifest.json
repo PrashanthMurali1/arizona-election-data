@@ -1,0 +1,519 @@
+{
+  "scope": "2014–2024 regular Arizona U.S. House elections and completed special general elections since 2014",
+  "events": [
+    {
+      "overview_id": "az-2014-us-house",
+      "event_id": "az-2014-general",
+      "year": 2014,
+      "date": "2014-11-04",
+      "kind": "general",
+      "plan": 2012,
+      "districts": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "source": {
+        "id": "house-2014-canvass",
+        "title": "Arizona Secretary of State — 2014 U.S. House results",
+        "url": "https://apps.azsos.gov/election/2014/general/Canvass2014GE.pdf",
+        "sha256": "e227f255c6cba9c486aebaafe2e60c7b73fc0ce4f8165f11b23276bda8b12cdc",
+        "notes": "All nine independent House district contests; votes and percentages belong to each selected district. Official district totals and complete candidate rosters checked against House Clerk statistics. District turnout is N/A unless an explicitly district-specific source is retained. The final court-certified CD2 recount supersedes Ron Barber and Martha McSally original-canvas/Clerk totals; other candidate rows are retained unchanged. Live official PDF requests were blocked. Reviewed indexed official tables and retained CSVs are identified separately from original PDF binaries.  Checksum covers retained file: data/raw/us-house/2014-house-transcription.csv."
+      },
+      "additional_sources": [
+        {
+          "id": "house-2014-clerk",
+          "title": "U.S. House Clerk — 2014 official election statistics",
+          "url": "https://clerk.house.gov/member_info/electionInfo/2014/114-statistics.pdf",
+          "sha256": "5e4e2208ef8bb6f9e3ba6bb988801dd9a53dbd3cb29596331a78ff79dbed5f1b",
+          "notes": "Original official PDF retained. Every Arizona House candidate is matched by district, reported total and source-name alias. The 2014 publication predates the CD2 recount; those two values are explicitly superseded by the court-certified recount. Checksum covers retained file: data/raw/us-house/clerk-2014.pdf."
+        },
+        {
+          "id": "house-2014-recount",
+          "title": "Arizona court-certified 2014 Congressional District 2 recount",
+          "url": "https://apps.azsos.gov/election/2014/General/CourtOrderedRecountResults.pdf",
+          "sha256": "625cd11cb600fc01d561c25a120aac0925f87b19c2dc940f915784d36aa74232",
+          "notes": "Retained indexed court-order table: Ron Barber 14,677 Cochise + 94,870 Pima = 109,547; Martha McSally 21,737 Cochise + 87,977 Pima = 109,714. Replaces only these two candidates; original canvass and Clerk values retained for audit. Hash identifies the indexed text extract. Checksum covers retained file: data/raw/us-house/2014-recount-indexed.txt."
+        }
+      ],
+      "reference_path": "data/raw/us-house/2014-house-transcription.csv",
+      "clerk_path": "data/raw/us-house/clerk-2014.pdf",
+      "reported_at": "2014-12-01T07:31:00-07:00",
+      "retrieved_on": "2026-10-28",
+      "retrieval_precision": "date",
+      "notes": "All nine independent House district contests; votes and percentages belong to each selected district. Official district totals and complete candidate rosters checked against House Clerk statistics. District turnout is N/A unless an explicitly district-specific source is retained. The final court-certified CD2 recount supersedes Ron Barber and Martha McSally original-canvas/Clerk totals; other candidate rows are retained unchanged. Live official PDF requests were blocked. Reviewed indexed official tables and retained CSVs are identified separately from original PDF binaries. ",
+      "district_turnout": {}
+    },
+    {
+      "overview_id": "az-2016-us-house",
+      "event_id": "az-2016-general",
+      "year": 2016,
+      "date": "2016-11-08",
+      "kind": "general",
+      "plan": 2012,
+      "districts": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "source": {
+        "id": "house-2016-canvass",
+        "title": "Arizona Secretary of State — 2016 U.S. House results",
+        "url": "https://apps.azsos.gov/election/2016/General/Official%20Signed%20State%20Canvass.pdf",
+        "sha256": "a765b3d03bcbdcaba4e3e869bd24cbb6dc2288841d7848eaa18b46e099ccaada",
+        "notes": "All nine independent House district contests; votes and percentages belong to each selected district. Official district totals and complete candidate rosters checked against House Clerk statistics. District turnout is N/A unless an explicitly district-specific source is retained. Official signed PDF pages 11–12 were visually reviewed, including Jaime Vasquez/Pinal and Federico A. Sanchez/Santa Cruz one-vote cells omitted by the text layer.  Checksum covers retained file: data/raw/us-senate/az-2016-general-official-signed-state-canvass.pdf."
+      },
+      "additional_sources": [
+        {
+          "id": "house-2016-clerk",
+          "title": "U.S. House Clerk — 2016 official election statistics",
+          "url": "https://clerk.house.gov/member_info/electionInfo/2016/statistics2016.pdf",
+          "sha256": "6d2eba0e60e3f32153a5ba9c369a42a04616ccc73b5b3bca927ea6a11cade3a3",
+          "notes": "Original official PDF retained; complete district candidate rosters and totals independently cross-check Arizona records. Checksum covers retained file: data/raw/us-house/clerk-2016.pdf."
+        }
+      ],
+      "reference_path": "data/raw/us-house/2016-house-transcription.csv",
+      "clerk_path": "data/raw/us-house/clerk-2016.pdf",
+      "reported_at": "2016-11-29T15:03:33-07:00",
+      "retrieved_on": "2026-10-28",
+      "retrieval_precision": "date",
+      "notes": "All nine independent House district contests; votes and percentages belong to each selected district. Official district totals and complete candidate rosters checked against House Clerk statistics. District turnout is N/A unless an explicitly district-specific source is retained. Official signed PDF pages 11–12 were visually reviewed, including Jaime Vasquez/Pinal and Federico A. Sanchez/Santa Cruz one-vote cells omitted by the text layer. ",
+      "district_turnout": {}
+    },
+    {
+      "overview_id": "az-2018-us-house",
+      "event_id": "az-2018-general",
+      "year": 2018,
+      "date": "2018-11-06",
+      "kind": "general",
+      "plan": 2012,
+      "districts": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "source": {
+        "id": "house-2018-canvass",
+        "title": "Arizona Secretary of State — 2018 U.S. House results",
+        "url": "https://apps.azsos.gov/election/2018/2018_1203_signed_official_statewide_canvass.pdf",
+        "sha256": "0ff4479cf488f5e3133ab91747b50fb93fee277bcfadf2a28abf280ad2cb0055",
+        "notes": "All nine independent House district contests; votes and percentages belong to each selected district. Official district totals and complete candidate rosters checked against House Clerk statistics. District turnout is N/A unless an explicitly district-specific source is retained. Live official PDF requests were blocked. Reviewed indexed official tables and retained CSVs are identified separately from original PDF binaries.  Checksum covers retained file: data/raw/us-house/2018-house-transcription.csv."
+      },
+      "additional_sources": [
+        {
+          "id": "house-2018-clerk",
+          "title": "U.S. House Clerk — 2018 official election statistics",
+          "url": "https://clerk.house.gov/member_info/electionInfo/2018/statistics2018.pdf",
+          "sha256": "35ef9bc223d89cbd3ce4c544a88e93523394060d400001d365612c97f9348c53",
+          "notes": "Original official PDF retained; complete district candidate rosters and totals independently cross-check Arizona records. Checksum covers retained file: data/raw/us-house/clerk-2018.pdf."
+        }
+      ],
+      "reference_path": "data/raw/us-house/2018-house-transcription.csv",
+      "clerk_path": "data/raw/us-house/clerk-2018.pdf",
+      "reported_at": "2018-11-30T08:11:45-07:00",
+      "retrieved_on": "2026-10-28",
+      "retrieval_precision": "date",
+      "notes": "All nine independent House district contests; votes and percentages belong to each selected district. Official district totals and complete candidate rosters checked against House Clerk statistics. District turnout is N/A unless an explicitly district-specific source is retained. Live official PDF requests were blocked. Reviewed indexed official tables and retained CSVs are identified separately from original PDF binaries. ",
+      "district_turnout": {}
+    },
+    {
+      "overview_id": "az-2020-us-house",
+      "event_id": "az-2020-general",
+      "year": 2020,
+      "date": "2020-11-03",
+      "kind": "general",
+      "plan": 2012,
+      "districts": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "source": {
+        "id": "house-2020-canvass",
+        "title": "Arizona Secretary of State — 2020 U.S. House results",
+        "url": "https://apps.azsos.gov/election/2020/resultsdetail_2020generalxml.zip",
+        "sha256": "542f2e4d60463d6ad23b78e2de0f73759806945c6bcaedc6c0a7dd7aec422c06",
+        "notes": "All nine independent House district contests; votes and percentages belong to each selected district. Official district totals and complete candidate rosters checked against House Clerk statistics. District turnout is N/A unless an explicitly district-specific source is retained. Original official detailed-results XML ZIP supplies every reported county record.  Checksum covers retained file: data/raw/us-senate/az-2020-general-results-detail.xml.zip."
+      },
+      "additional_sources": [
+        {
+          "id": "house-2020-clerk",
+          "title": "U.S. House Clerk — 2020 official election statistics",
+          "url": "https://clerk.house.gov/member_info/electionInfo/2020/statistics2020.pdf",
+          "sha256": "666b2a1f673f263087c141c4d44b0dce47cbddc8f4df27fbc8b415cf05842b76",
+          "notes": "Original official PDF retained; complete district candidate rosters and totals independently cross-check Arizona records. Checksum covers retained file: data/raw/us-house/clerk-2020.pdf."
+        }
+      ],
+      "reference_path": "data/raw/us-house/2020-house-transcription.csv",
+      "clerk_path": "data/raw/us-house/clerk-2020.pdf",
+      "reported_at": "2020-11-24T12:58:30.96-07:00",
+      "retrieved_on": "2026-10-28",
+      "retrieval_precision": "date",
+      "notes": "All nine independent House district contests; votes and percentages belong to each selected district. Official district totals and complete candidate rosters checked against House Clerk statistics. District turnout is N/A unless an explicitly district-specific source is retained. Original official detailed-results XML ZIP supplies every reported county record. ",
+      "district_turnout": {}
+    },
+    {
+      "overview_id": "az-2022-us-house",
+      "event_id": "az-2022-general",
+      "year": 2022,
+      "date": "2022-11-08",
+      "kind": "general",
+      "plan": 2022,
+      "districts": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "source": {
+        "id": "house-2022-canvass",
+        "title": "Arizona Secretary of State — 2022 U.S. House results",
+        "url": "https://apps.azsos.gov/election/2022/General/canvass/2022dec05_general_election_canvass_web.pdf",
+        "sha256": "170f9d93015056daa395b053c01442c6c7af8363e401063e1dfe8a400810eadb",
+        "notes": "All nine independent House district contests; votes and percentages belong to each selected district. Official district totals and complete candidate rosters checked against House Clerk statistics. District turnout is N/A unless an explicitly district-specific source is retained. Live official PDF requests were blocked. Reviewed indexed official tables and retained CSVs are identified separately from original PDF binaries.  Checksum covers retained file: data/raw/us-house/2022-house-transcription.csv."
+      },
+      "additional_sources": [
+        {
+          "id": "house-2022-clerk",
+          "title": "U.S. House Clerk — 2022 official election statistics",
+          "url": "https://clerk.house.gov/member_info/electionInfo/2022/statistics2022.pdf",
+          "sha256": "ef9b8cefcc44bebbdc4928bf346b50e00a72dd3bb54a71ed93ec60d4ebf47690",
+          "notes": "Original official PDF retained; complete district candidate rosters and totals independently cross-check Arizona records. Checksum covers retained file: data/raw/us-house/clerk-2022.pdf."
+        }
+      ],
+      "reference_path": "data/raw/us-house/2022-house-transcription.csv",
+      "clerk_path": "data/raw/us-house/clerk-2022.pdf",
+      "reported_at": "2022-12-05T10:00:00-07:00",
+      "retrieved_on": "2026-10-28",
+      "retrieval_precision": "date",
+      "notes": "All nine independent House district contests; votes and percentages belong to each selected district. Official district totals and complete candidate rosters checked against House Clerk statistics. District turnout is N/A unless an explicitly district-specific source is retained. Live official PDF requests were blocked. Reviewed indexed official tables and retained CSVs are identified separately from original PDF binaries. ",
+      "district_turnout": {}
+    },
+    {
+      "overview_id": "az-2024-us-house",
+      "event_id": "az-2024-general",
+      "year": 2024,
+      "date": "2024-11-05",
+      "kind": "general",
+      "plan": 2022,
+      "districts": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "source": {
+        "id": "house-2024-canvass",
+        "title": "Arizona Secretary of State — 2024 U.S. House results",
+        "url": "https://apps.azsos.gov/election/2024/ge/canvass/20241105_GeneralCanvass_Signed.pdf",
+        "sha256": "f56ee47d6ed2e370f4f99655ce9779fcecd80f20f5ed21bbc1c2868ab8c38789",
+        "notes": "All nine independent House district contests; votes and percentages belong to each selected district. Official district totals and complete candidate rosters checked against House Clerk statistics. District turnout is N/A unless an explicitly district-specific source is retained. An indexed D9 column-position error is corrected from actual county precinct records in the pinned OpenElections archive; no residual allocation was used. Live official PDF requests were blocked. Reviewed indexed official tables and retained CSVs are identified separately from original PDF binaries.  Checksum covers retained file: data/raw/us-house/2024-house-transcription.csv."
+      },
+      "additional_sources": [
+        {
+          "id": "house-2024-clerk",
+          "title": "U.S. House Clerk — 2024 official election statistics",
+          "url": "https://clerk.house.gov/member_info/electionInfo/2024/statistics2024.pdf",
+          "sha256": "d4ba800fc17135b616ae556c92861080ab962d95916ace34b546c5aac824aec4",
+          "notes": "Original official PDF retained; complete district candidate rosters and totals independently cross-check Arizona records. Checksum covers retained file: data/raw/us-house/clerk-2024.pdf."
+        },
+        {
+          "id": "house-2024-openelections",
+          "title": "OpenElections — pinned 2024 Arizona county precinct results",
+          "url": "https://github.com/openelections/openelections-data-az/tree/bf14331521f62f74cb17848ab11ca3dfd27f4f82/2024/General",
+          "sha256": "b4defa4b3d818d12748f1f0f362f7be951265d8951fe8e0fc6c8be01e3f158ca",
+          "notes": "Original 15 county CSVs retained in a compressed archive with pinned URLs and member checksums. Actual D9 county records resolve a column reconstruction error in the indexed statewide table. County values are never allocated from a statewide residual. Checksum covers retained file: data/raw/us-house/2024-openelections.zip."
+        }
+      ],
+      "reference_path": "data/raw/us-house/2024-house-transcription.csv",
+      "clerk_path": "data/raw/us-house/clerk-2024.pdf",
+      "reported_at": "2024-11-22T19:04:17-07:00",
+      "retrieved_on": "2026-10-28",
+      "retrieval_precision": "date",
+      "notes": "All nine independent House district contests; votes and percentages belong to each selected district. Official district totals and complete candidate rosters checked against House Clerk statistics. District turnout is N/A unless an explicitly district-specific source is retained. An indexed D9 column-position error is corrected from actual county precinct records in the pinned OpenElections archive; no residual allocation was used. Live official PDF requests were blocked. Reviewed indexed official tables and retained CSVs are identified separately from original PDF binaries. ",
+      "district_turnout": {}
+    },
+    {
+      "overview_id": "az-2018-us-house-special-08",
+      "event_id": "az-2018-04-24-us-house-special-08",
+      "year": 2018,
+      "date": "2018-04-24",
+      "kind": "special",
+      "plan": 2012,
+      "districts": [
+        8
+      ],
+      "source": {
+        "id": "house-2018-special-civicapi",
+        "title": "civicAPI — 2018 Arizona CD8 special general results",
+        "url": "https://civicapi.org/api/v2/race/29426",
+        "sha256": "8d75dac8620f8084e8d7ebf162298e4cd63e805d87dc657b8f4e842a450e5062",
+        "notes": "civicAPI race report; candidate totals shown as reported. Provider reports 100% reporting; last updated 2026-01-10T00:48:49.686Z. Retrieved 2026-10-28 (date precision). SHA-256 covers retained response snapshot data/raw/us-house/civicapi/race-29426.json (8d75dac8620f8084e8d7ebf162298e4cd63e805d87dc657b8f4e842a450e5062). These are civicAPI-reported results, not official canvass results."
+      },
+      "additional_sources": [],
+      "reference_path": "data/raw/us-house/2018-special-civicapi.csv",
+      "reported_at": "2026-01-10T00:48:49.686Z",
+      "retrieved_on": "2026-10-28",
+      "retrieval_precision": "date",
+      "notes": "civicAPI reports the 2018-04-24 Arizona CD8 special general election. Candidate totals and reporting percentage are displayed as reported by civicAPI; they are not official canvass results.",
+      "district_turnout": {},
+      "validation_method": "civicAPI district-level candidate totals from retained race response; no separate canvass reconciliation.",
+      "source_scope": "civicapi_district"
+    },
+    {
+      "overview_id": "az-2025-us-house-special-07",
+      "event_id": "az-2025-09-23-us-house-special-07",
+      "year": 2025,
+      "date": "2025-09-23",
+      "kind": "special",
+      "plan": 2022,
+      "districts": [
+        7
+      ],
+      "source": {
+        "id": "house-2025-special-civicapi",
+        "title": "civicAPI — 2025 Arizona CD7 special general results",
+        "url": "https://civicapi.org/api/v2/race/6240",
+        "sha256": "5927e9cabade13cfc4a426a028e93c77ed8e4c4dd456830132936b78e89806ae",
+        "notes": "civicAPI race report; candidate totals shown as reported. Provider reports 100% reporting; last updated 2026-01-14T03:20:12.635Z. Retrieved 2026-10-28 (date precision). SHA-256 covers retained response snapshot data/raw/us-house/civicapi/race-6240.json (5927e9cabade13cfc4a426a028e93c77ed8e4c4dd456830132936b78e89806ae). These are civicAPI-reported results, not official canvass results."
+      },
+      "additional_sources": [],
+      "reference_path": "data/raw/us-house/2025-special-civicapi.csv",
+      "reported_at": "2026-01-14T03:20:12.635Z",
+      "retrieved_on": "2026-10-28",
+      "retrieval_precision": "date",
+      "notes": "civicAPI reports the 2025-09-23 Arizona CD7 special general election. Candidate totals and reporting percentage are displayed as reported by civicAPI; they are not official canvass results.",
+      "district_turnout": {},
+      "validation_method": "civicAPI district-level candidate totals from retained race response; no separate canvass reconciliation.",
+      "source_scope": "civicapi_district"
+    }
+  ],
+  "snapshots": [
+    {
+      "path": "data/raw/us-house/2014-house-transcription.csv",
+      "sha256": "e227f255c6cba9c486aebaafe2e60c7b73fc0ce4f8165f11b23276bda8b12cdc"
+    },
+    {
+      "path": "data/raw/us-house/clerk-2014.pdf",
+      "sha256": "5e4e2208ef8bb6f9e3ba6bb988801dd9a53dbd3cb29596331a78ff79dbed5f1b"
+    },
+    {
+      "path": "data/raw/us-house/2014-c-indexed.txt",
+      "sha256": "779779ee822f3c35b871ada19cbf890e4be85797b498d532f68386e38fb17eed"
+    },
+    {
+      "path": "data/raw/us-house/2014-b-indexed.txt",
+      "sha256": "74bafd0c79f53a4d92313774930c0ecd6f0e8d2153e21cb159650b44561157b6"
+    },
+    {
+      "path": "data/raw/us-house/2014-recount-indexed.txt",
+      "sha256": "625cd11cb600fc01d561c25a120aac0925f87b19c2dc940f915784d36aa74232"
+    },
+    {
+      "path": "data/raw/us-house/2016-house-transcription.csv",
+      "sha256": "673f477cc9c21720851dda448ad791efd1e1725702af564cde221159076a8d1a"
+    },
+    {
+      "path": "data/raw/us-house/clerk-2016.pdf",
+      "sha256": "6d2eba0e60e3f32153a5ba9c369a42a04616ccc73b5b3bca927ea6a11cade3a3"
+    },
+    {
+      "path": "data/raw/us-senate/az-2016-general-official-signed-state-canvass.pdf",
+      "sha256": "a765b3d03bcbdcaba4e3e869bd24cbb6dc2288841d7848eaa18b46e099ccaada"
+    },
+    {
+      "path": "data/raw/us-house/2018-house-transcription.csv",
+      "sha256": "0ff4479cf488f5e3133ab91747b50fb93fee277bcfadf2a28abf280ad2cb0055"
+    },
+    {
+      "path": "data/raw/us-house/clerk-2018.pdf",
+      "sha256": "35ef9bc223d89cbd3ce4c544a88e93523394060d400001d365612c97f9348c53"
+    },
+    {
+      "path": "data/raw/us-senate/2018-indexed-canvass.txt",
+      "sha256": "fc56de2eb93f0fe56b10557f9f49c2c37c0fe4977d0ca89188f645bd3d447687"
+    },
+    {
+      "path": "data/raw/us-house/2018-b-indexed.txt",
+      "sha256": "8c535cab381f0fbad2cab730d3a3e85900aeae87786e764f311f602c53d5fc98"
+    },
+    {
+      "path": "data/raw/us-house/2020-house-transcription.csv",
+      "sha256": "923962d331294585c5b5f9d8cfebb14ea55675d6c58403e812c07df2a515e4ad"
+    },
+    {
+      "path": "data/raw/us-house/clerk-2020.pdf",
+      "sha256": "666b2a1f673f263087c141c4d44b0dce47cbddc8f4df27fbc8b415cf05842b76"
+    },
+    {
+      "path": "data/raw/us-senate/az-2020-general-results-detail.xml.zip",
+      "sha256": "542f2e4d60463d6ad23b78e2de0f73759806945c6bcaedc6c0a7dd7aec422c06"
+    },
+    {
+      "path": "data/raw/us-house/2022-house-transcription.csv",
+      "sha256": "170f9d93015056daa395b053c01442c6c7af8363e401063e1dfe8a400810eadb"
+    },
+    {
+      "path": "data/raw/us-house/clerk-2022.pdf",
+      "sha256": "ef9b8cefcc44bebbdc4928bf346b50e00a72dd3bb54a71ed93ec60d4ebf47690"
+    },
+    {
+      "path": "data/raw/us-senate/2022-indexed-canvass.txt",
+      "sha256": "484cb9d7e660e0a70827489cf91de2d1f61ec5de31bbc333e615c983b100e48a"
+    },
+    {
+      "path": "data/raw/us-house/2022-b-indexed.txt",
+      "sha256": "44074c551b6ce34fe9dc81f3546f33f41a9eda7a027e779c08887e46df52da3e"
+    },
+    {
+      "path": "data/raw/us-house/2024-house-transcription.csv",
+      "sha256": "f56ee47d6ed2e370f4f99655ce9779fcecd80f20f5ed21bbc1c2868ab8c38789"
+    },
+    {
+      "path": "data/raw/us-house/clerk-2024.pdf",
+      "sha256": "d4ba800fc17135b616ae556c92861080ab962d95916ace34b546c5aac824aec4"
+    },
+    {
+      "path": "data/raw/us-senate/2024-indexed-canvass.txt",
+      "sha256": "7d1c0ce44c8054a28bdbce9832a332227a76e6c6caeefbab256288df3f9c9eaf"
+    },
+    {
+      "path": "data/raw/us-house/2024-house-indexed.txt",
+      "sha256": "695034b44e819de06aac7a0edb991cb5d7480f55ffcd2a599ad483ee5f3f6bf3"
+    },
+    {
+      "path": "data/raw/us-house/2024-openelections.zip",
+      "sha256": "b4defa4b3d818d12748f1f0f362f7be951265d8951fe8e0fc6c8be01e3f158ca"
+    },
+    {
+      "path": "data/raw/us-house/2024-openelections-provenance.json",
+      "sha256": "5a2b2dee575414ce86c52a62b204e91ac2ea3d9e521faafe67826cd4a8585df0"
+    },
+    {
+      "path": "data/raw/us-house/2018-special-precinct-indexed.txt",
+      "sha256": "8529d2594a2ebe3d586fd312082121ea96a7b46303bbbc30cef79c260c0c82e9"
+    },
+    {
+      "path": "data/raw/us-house/civicapi/race-29426.json",
+      "sha256": "8d75dac8620f8084e8d7ebf162298e4cd63e805d87dc657b8f4e842a450e5062"
+    },
+    {
+      "path": "data/raw/us-house/2018-04-24-house-transcription.csv",
+      "sha256": "ba85c9648a423934b5dddb1d2cfcb3e3e18b744821ce1cc6b09e4ed1382b5d97"
+    },
+    {
+      "path": "data/raw/us-house/2025-cochise-summary-indexed.txt",
+      "sha256": "a3f6f07b502206395bde7739e85a5f4557bcc7bf6045a2819724913b1493a53f"
+    },
+    {
+      "path": "data/raw/us-house/2025-maricopa-summary-indexed.txt",
+      "sha256": "a83530640517a211de8e353689152a2fa61f01c277f8321acb4651fc85c303ff"
+    },
+    {
+      "path": "data/raw/us-house/2025-pima-canvass.pdf",
+      "sha256": "4ac87aad895b4f8d1a860b0a7aabb719b41b02c76fd55bedda51b22fb01b2ba6"
+    },
+    {
+      "path": "data/raw/us-house/2025-santa-cruz-summary-indexed.txt",
+      "sha256": "e0d83962658b7f1af84f8d400aee2c83f4aec6702ccbea2d2c1723d601ead31e"
+    },
+    {
+      "path": "data/raw/us-house/2025-yuma-summary-indexed.txt",
+      "sha256": "1b477e1c5ff171555389537f0adf00009ecb5d230d0ddd43fcb4b330b9663ce0"
+    },
+    {
+      "path": "data/raw/us-house/civicapi/race-6240.json",
+      "sha256": "5927e9cabade13cfc4a426a028e93c77ed8e4c4dd456830132936b78e89806ae"
+    },
+    {
+      "path": "data/raw/us-house/2025-09-23-house-transcription.csv",
+      "sha256": "9c1dde6b779c4e2ea0bd69aaf8b6884341d2b496241f7f6ef40d6dfb84ff5131"
+    },
+    {
+      "path": "data/raw/us-house/civicapi/2018-special-search.json",
+      "sha256": "65ff4d4b6fa8953aa24fd3799312be714bf537215289940f6cdbba870eb4ee46"
+    },
+    {
+      "path": "data/raw/us-house/civicapi/2025-special-search.json",
+      "sha256": "a9f445122f909300dffa5c79293a8adb30008d2c1e298e766efee8b9a26d7e10"
+    },
+    {
+      "path": "data/raw/us-house/civicapi/years.json",
+      "sha256": "4629c5a984e1c759ccda5cbf3d3da286a5f7ac375a7149617c6ae8163fe79443"
+    },
+    {
+      "path": "data/raw/us-house/calendar/vacancies-114.html",
+      "sha256": "7a7018116cc86372348ac13fb998ef443f6df1576207823ba4d8aec6a10cabb5"
+    },
+    {
+      "path": "data/raw/us-house/calendar/vacancies-118.html",
+      "sha256": "7fc07cce67fdf3e8e30d0b707e9461dd578090975577c738da0d0e9328aa996b"
+    },
+    {
+      "path": "data/raw/us-house/calendar/vacancies-119.html",
+      "sha256": "3b0f4cd308e2d876cd2571c47e074c3681000181c607fd0472b63a458db20ee0"
+    },
+    {
+      "path": "data/raw/us-house/calendar/vacancies-115.html",
+      "sha256": "c1ef6d4d975b52b4c1dca8968973794324bc62fd88add7b6ce63f2fb89d99159"
+    },
+    {
+      "path": "data/raw/us-house/calendar/vacancies-113.html",
+      "sha256": "e8353608845109425d6876201b8db8095e2ffb0e80beedda2c38fd37e412284b"
+    },
+    {
+      "path": "data/raw/us-house/calendar/vacancies-116.html",
+      "sha256": "9276aacd76c69b6a10444ec764c337b392565c32af369efae0ebe9c5130229ed"
+    },
+    {
+      "path": "data/raw/us-house/calendar/review.json",
+      "sha256": "1bc9e4bf48a829fb23059dba87fd8f02ee695e8bb34e5435e23b898cca4a6ff3"
+    },
+    {
+      "path": "data/raw/us-house/calendar/vacancies-117.html",
+      "sha256": "db516d29f7df3d745f4c5f70306d569cbce26edf373ac1a28d9e7d30be4fed51"
+    },
+    {
+      "path": "data/raw/us-house/2018-special-civicapi.csv",
+      "sha256": "5a38760693ce4cd62b7b7adc38356d02fe951db491d019fc282b1c58dd9ac3eb"
+    },
+    {
+      "path": "data/raw/us-house/2025-special-civicapi.csv",
+      "sha256": "80ee853e715a438f399e136ccc624f0a97e958c3fcb721d167f5cf6396a1cff9"
+    }
+  ]
+}
