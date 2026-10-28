@@ -151,3 +151,7 @@ class ActivityOut(BaseModel):
     reported_leaders: dict[str, CandidateOut]
     refresh_mode: str
     statewide_policy: str
+
+
+class EarlyVotingActivityOut(ActivityOut):
+    revision: str

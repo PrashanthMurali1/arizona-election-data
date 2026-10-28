@@ -121,30 +121,26 @@ def fetch_provider_inputs():
     acquisitions, payloads, failures, unavailable = [], [], [], []
 
     def get(url):
-        response = requests.get(url, timeout=35)
+        response = requests.get(url, timeout=(5, 25), allow_redirects=False)
         metadata = retain(response)
         acquisitions.append(metadata)
         return response, metadata
 
-    # Public tracker/documentation discovery only; no candidate, polling or forecast endpoints.
-    for url in [
-        "https://civicapi.org/early-vote/az",
-        "https://civicapi.org/api/v2/early-vote/AZ/capabilities",
-        "https://www.decisionlabs.ai/docs/api",
-    ]:
-        try:
-            get(url)
-        except requests.RequestException as exc:
-            acquisitions.append({"url": url, "error": str(exc), "retrieved_at": datetime.now(timezone.utc).isoformat()})
+    # Scheduled refreshes request only these civicAPI participation feeds.
     for category in CATEGORIES:
         stream = f"early-vote-{category}"
         try:
             response, metadata = get(f"https://civicapi.org/api/v2/early-vote/AZ/{category}")
             if response.status_code == 404:
                 unavailable.append({"category": category, "url": metadata["url"], "reason": response.json().get("error", "Not provided")})
+                if category != "inperson":
+                    failures.append((stream, "Early-vote feed unavailable (HTTP 404); previous data preserved"))
                 continue
             response.raise_for_status()
-            payloads.append(early_vote_input(response.json(), metadata, category))
+            payload = early_vote_input(response.json(), metadata, category)
+            if not any(metric["value"] is not None for metric in payload["metrics"]):
+                raise ValueError("Response contains no participation counts; previous data preserved")
+            payloads.append(payload)
         except (requests.RequestException, ValueError, KeyError, TypeError) as exc:
             failures.append((stream, str(exc)))
     index = RAW / "providers" / f"early-vote-acquisition-{datetime.now(timezone.utc).strftime('%Y%m%dT%H%M%S%fZ')}.json"

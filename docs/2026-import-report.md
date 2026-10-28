@@ -6,8 +6,8 @@ Updated October 28, 2026. One **2026 Early Voting** catalog entry now presents s
 
 | Provider category | Statewide count | County coverage | Provider snapshot date |
 | --- | ---: | ---: | --- |
-| Requested | 3,289,914 | 15/15 | October 27, 2026 (date only) |
-| Returned | 1,143,275 | 15/15 | October 27, 2026 (date only) |
+| Requested | 3,289,914 | 15/15 | October 28, 2026 (date only) |
+| Returned | 1,143,275 | 15/15 | October 28, 2026 (date only) |
 
 | Provider party category | Requested | Returned |
 | --- | ---: | ---: |
@@ -45,6 +45,10 @@ The feeds publish `snapshot_date: 2026-10-27` without a clock time; that date pr
 - **Requested**: retrieved `2026-10-28T06:51:10.914382+00:00`. Response `data/raw/2026/snapshots/f0aacef62e2bd85dfad449b2d87c48c9814bbabcb63387abb5797bcdd2296b24.json`. SHA-256 `f0aacef62e2bd85dfad449b2d87c48c9814bbabcb63387abb5797bcdd2296b24`.
 - **Returned**: retrieved `2026-10-28T06:51:11.323836+00:00`. Response `data/raw/2026/snapshots/6b443a57cc7ae5e3856065e9320c4cbfb2386f74cb379e4ecf151291963c780f.json`. SHA-256 `6b443a57cc7ae5e3856065e9320c4cbfb2386f74cb379e4ecf151291963c780f`.
 
+The automatic-refresh implementation exercised two live manual refreshes. The latest acquisition index is `data/raw/2026/providers/early-vote-acquisition-20261028T083439812841Z.json`. Both feeds now report `snapshot_date: 2026-10-28`, with unchanged participation counts; the repeated refresh reused snapshot/observation records (`created: false`) and advanced retrieval times. Requested was retrieved at `2026-10-28T08:34:38.495297+00:00`, retained as `data/raw/2026/snapshots/96128180593e87d694606477192980dfd3dd91edbd0d4a43eb825db3d9aaebf7.json`, SHA-256 `96128180593e87d694606477192980dfd3dd91edbd0d4a43eb825db3d9aaebf7`. Returned was retrieved at `2026-10-28T08:34:39.508833+00:00`, retained as `data/raw/2026/snapshots/d980bf7a56c668bfdbd583524cc66195c37dee0d7275c0624081c70d60238795.json`, SHA-256 `d980bf7a56c668bfdbd583524cc66195c37dee0d7275c0624081c70d60238795`. Each digest covers the exact named response file. Earlier releases above remain retained.
+
+After the user granted macOS Documents access to Python, the persistent LaunchAgent successfully ran the same importer without a foreground terminal at `2026-10-28T08:37:21.976899+00:00`. The newer acquisition index `data/raw/2026/providers/early-vote-acquisition-20261028T083721879082Z.json` records the new retrieval timestamps and the same retained response files/checksums. Both imports returned `created: false, advanced: true`. The six-hour schedule is active; see [operations](early-voting-refresh.md) for its local-host limitations.
+
 Each category is stored once on the November 3 general-election event. The shared catalog/API view is a read-only alias over the existing storage anchor; it creates no new office, contest, snapshot or observation records. Original office API URLs remain compatible, while their browser page URLs redirect to the shared page. The two retained releases contain 128 observations: 16 geographic units × 2 categories × (one total plus three party buckets). No candidate `Participation` or `VoteResult` records are created.
 
 Stable snapshot identities prevent duplicates when data is unchanged. A new retrieval updates the check time. Older dated responses are archived without replacing newer category values. Archived official-source and earlier result-record snapshots are excluded from these current participation views; they are not re-fetched by this workflow.
@@ -54,7 +58,7 @@ Stable snapshot identities prevent duplicates when data is unchanged. A new retr
 From the repository root:
 
 ```sh
-# Fetch early-voting participation feeds and provider documentation only.
+# Fetch only civicAPI Arizona early-voting participation feeds.
 .venv/bin/python scripts/refresh_2026.py --early-voting
 
 # Equivalent alias; also early-voting-only.
@@ -65,7 +69,13 @@ From the repository root:
 .venv/bin/python scripts/refresh_2026.py --manifest data/raw/2026/manifests/early-vote-returned-597dd81a7b1e8e6561d564081e4a12f44356056a30680aabb8c2c36663299f38.json
 ```
 
-No-argument offline replay also includes the early-vote manifests; older result-record manifests cannot reactivate the earlier candidate-record source panels while event participation is active. Retrieval dates are not changed by offline replay. Refresh remains manual.
+No-argument offline replay also includes the early-vote manifests; older result-record manifests cannot reactivate the earlier candidate-record source panels while event participation is active. Retrieval dates are not changed by offline replay. The live command now uses a cross-process lock and records job status. A persistent macOS LaunchAgent runs the same command every six hours. See [refresh operations](early-voting-refresh.md) for installation, status, logs and schedule changes. Current refreshes no longer request the tracker, capabilities or Decision Labs documentation used during initial discovery.
+
+The shared page loads its existing API on entry, then uses SSE revision notifications after completed import commits. It does not poll every minute. Connection/reconnection announces the current revision, so missed updates are recovered without repeatedly fetching an unchanged revision. API requests read the database directly, so imports become visible without restarting the server. Background updates preserve county selection and table sorting; failed requests keep the last loaded data. The bottom Sources & coverage section distinguishes the source report date from the last successful retrieval and uses the existing notice style for failed refreshes or stale data. The removed Source snapshots section stays absent. See [refresh operations](early-voting-refresh.md) for the local audit-file notification mechanism and reconnect behavior.
+
+Automatic-refresh technical checks cover feed scope/timeouts, successful and repeated imports, old-snapshot protection, failed/empty feed preservation, overlapping-job exclusion, logging/status and launchd configuration. Additional SSE checks cover canonical-only revisions, post-import finished markers, initial/reconnect catch-up, duplicate suppression and disconnect cleanup. Focused browser checks cover the canonical page, zero/missing behavior, no periodic data requests over six simulated hours, revision-driven updates, retained selection/sorting, reconnect recovery, failures and leaving/re-entering the page. These are application checks, without independent election-data verification.
+
+The SSE change passed 14 focused backend tests, 7 frontend unit tests, 3 focused browser checks and the production TypeScript/Vite build. The real browser also confirmed the SSE endpoint returns streaming content with caching disabled. The six-hour LaunchAgent remains loaded with its prior successful exit status; its configuration and ingestion path were not changed by this display-refresh update.
 
 ## County records displayed
 

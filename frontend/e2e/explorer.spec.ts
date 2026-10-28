@@ -262,7 +262,12 @@ test("one 2026 Early Voting catalog entry shows registration colors and populate
   await expect(card).toHaveCount(1);
   await expect(page.locator('.catalog a[href="/elections/az-2026-governor"]')).toHaveCount(0);
   await expect(page.locator('.catalog a[href="/elections/az-2026-attorney-general"]')).toHaveCount(0);
+  const connected = page.waitForResponse((response) => response.url().endsWith("/az-2026-early-voting/updates"));
   await card.click();
+  const streamResponse = await connected;
+  expect(streamResponse.status()).toBe(200);
+  expect(streamResponse.headers()["content-type"]).toContain("text/event-stream");
+  expect(streamResponse.headers()["cache-control"]).toContain("no-cache");
   await expect(page).toHaveURL(/\/elections\/az-2026-early-voting$/);
   await expect(page.getByRole("heading", { name: "2026 Early Voting", exact: true })).toBeVisible();
   await expect(page.getByRole("heading", { name: "Source snapshots", exact: true })).toHaveCount(0);
@@ -388,4 +393,131 @@ test("early-voting columns preserve zero and partial data; ties, Other and missi
   await expect(detail.locator(".activity-metric")).toHaveCount(1);
   await expect(detail.locator(".activity-value strong").last()).toHaveText("10");
   await expect(detail).not.toContainText("N/A");
+});
+
+test("early-voting notifications refresh once, recover missed updates and clean up", async ({ page }) => {
+  await page.clock.install();
+  await page.addInitScript(() => {
+    const sources: { url: string; closed: boolean; emit: (event: string, revision?: string) => void }[] = [];
+    class FakeEventSource extends EventTarget {
+      closed = false;
+      constructor(public url: string) {
+        super();
+        sources.push(this);
+      }
+      close() { this.closed = true; }
+      emit(event: string, revision?: string) {
+        if (!this.closed) this.dispatchEvent(event === "revision"
+          ? new MessageEvent(event, { data: JSON.stringify({revision}) }) : new Event(event));
+      }
+    }
+    Object.assign(window, { EventSource: FakeEventSource, earlyVotingStreams: sources });
+  });
+  let updated = false;
+  let browserFailure = false;
+  let jobFailure = false;
+  let revision = "initial";
+  let activityRequests = 0;
+  let hold: Promise<void> | null = null;
+  let stateBefore = 0;
+  let pimaBefore = 0;
+  await page.route("**/api/elections/az-2026-early-voting/activity", async (route) => {
+    activityRequests++;
+    if (browserFailure) {
+      await route.fulfill({ status: 503, json: { error: "Synthetic local API failure" } });
+      return;
+    }
+    const response = await route.fetch();
+    const data = await response.json();
+    data.revision = revision;
+    const state = data.statewide.metrics.find((m: {key: string}) => m.key === "ballots_received");
+    const pima = data.counties.find((c: {geoid: string}) => c.geoid === "04019");
+    const returned = pima.metrics.find((m: {key: string}) => m.key === "ballots_received");
+    stateBefore = state.value;
+    pimaBefore = returned.value;
+    if (updated) {
+      state.value += 10;
+      returned.value += 10;
+      for (const release of data.releases) release.retrieved_at = new Date().toISOString();
+    }
+    if (jobFailure) {
+      data.stale = true;
+      data.failures = [{stream: "early-vote-returned", attempted_at: new Date().toISOString(), error: "Synthetic failed scheduled refresh"}];
+      data.releases.find((r: {stream: string}) => r.stream === "early-vote-returned").error = "Synthetic failed scheduled refresh";
+    }
+    if (hold) await hold;
+    await route.fulfill({ response, json: data });
+  });
+  await page.goto("/elections/az-2026-early-voting");
+  await page.getByRole("button", { name: "Pima County. View early-voting activity." }).click();
+  const detail = page.getByRole("region", { name: "Selected county details" });
+  const state = page.getByRole("region", { name: "Statewide participation availability" });
+  const table = page.getByRole("region", { name: "County participation table" });
+  const emit = (event: string, next?: string) => page.evaluate(({event, next}) => {
+    const streams = (window as typeof window & {earlyVotingStreams: {closed: boolean; emit: (e: string, r?: string) => void}[]}).earlyVotingStreams;
+    streams.filter((s) => !s.closed).forEach((s) => s.emit(event, next));
+  }, {event, next});
+  const activeConnections = () => page.evaluate(() =>
+    (window as typeof window & {earlyVotingStreams: {closed: boolean}[]}).earlyVotingStreams.filter((s) => !s.closed).length);
+  await expect.poll(activeConnections).toBe(1);
+  expect(activityRequests).toBe(1);
+  await emit("revision", "initial");
+  await page.clock.fastForward(6 * 60 * 60 * 1000);
+  expect(activityRequests).toBe(1); // No recurring browser polling, even after six hours.
+  await table.getByRole("button", { name: "Returned", exact: false }).click();
+  await expect(table.locator('th[aria-sort="ascending"]')).toContainText("Returned");
+  updated = true;
+  revision = "committed-1";
+  let release = () => {};
+  hold = new Promise<void>((resolve) => { release = resolve; });
+  await emit("revision", revision);
+  await expect.poll(() => activityRequests).toBe(2);
+  await emit("revision", revision);
+  await emit("revision", revision);
+  expect(activityRequests).toBe(2); // One in-flight fetch despite duplicate events.
+  hold = null;
+  release();
+  await expect(state).toContainText((stateBefore + 10).toLocaleString("en-US"));
+  await expect(detail).toContainText((pimaBefore + 10).toLocaleString("en-US"));
+  await expect(detail.getByRole("heading", { name: "Pima County" })).toBeVisible();
+  await expect(table.locator('th[aria-sort="ascending"]')).toContainText("Returned");
+  await expect(page.locator('.county-map path[aria-label^="Pima County."]')).toHaveClass(/selected/);
+  await expect(page.locator(".sources")).toContainText("Last successful retrieval:");
+  await expect(page.locator(".sources")).toContainText("Source report:");
+  expect(activityRequests).toBe(2);
+  await emit("revision", revision);
+  await page.clock.fastForward(60_000);
+  expect(activityRequests).toBe(2);
+  browserFailure = true;
+  revision = "committed-2";
+  await emit("revision", revision);
+  await expect(page.locator(".sources")).toContainText("Update check failed");
+  await expect(state).toContainText((stateBefore + 10).toLocaleString("en-US"));
+  browserFailure = false;
+  jobFailure = true;
+  // EventSource reconnects automatically and replays the current revision.
+  await emit("error");
+  await expect(page.locator(".sources")).toContainText("Update connection interrupted");
+  await emit("revision", revision);
+  await expect(page.locator(".sources")).toContainText("Early-voting refresh delayed");
+  await expect(page.locator(".sources")).toContainText("Synthetic failed scheduled refresh");
+  await expect(detail.getByRole("heading", { name: "Pima County" })).toBeVisible();
+  await expect(table.locator('th[aria-sort="ascending"]')).toContainText("Returned");
+  await expect(page.getByRole("heading", { name: "Source snapshots", exact: true })).toHaveCount(0);
+  expect(activityRequests).toBe(4);
+  // Resuming a suspended tab establishes one connection and catches a missed revision.
+  jobFailure = false;
+  revision = "committed-3";
+  await page.evaluate(() => document.dispatchEvent(new Event("visibilitychange")));
+  await expect.poll(activeConnections).toBe(1);
+  await emit("revision", revision);
+  await expect.poll(() => activityRequests).toBe(5);
+  await expect(page.locator(".sources")).not.toContainText("Update connection interrupted");
+  await page.locator(".breadcrumbs").getByRole("link", {name: "Election catalog", exact: true}).click();
+  await expect.poll(activeConnections).toBe(0);
+  await page.getByRole("link", {name: "2026 Early Voting", exact: true}).click();
+  await expect.poll(() => activityRequests).toBe(6);
+  await expect.poll(activeConnections).toBe(1);
+  await emit("revision", revision);
+  expect(activityRequests).toBe(6);
 });

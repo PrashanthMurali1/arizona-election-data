@@ -17,6 +17,7 @@ export default function EarlyVotingPage({
   selected,
   onSelect,
   detailRef,
+  refreshError = null,
 }: {
   election: Election;
   years: Election[];
@@ -26,6 +27,7 @@ export default function EarlyVotingPage({
   selected: string | null;
   onSelect: (id: string) => void;
   detailRef: RefObject<HTMLElement | null>;
+  refreshError?: string | null;
 }) {
   const navigate = useNavigate();
   const county = activity.counties.find((c) => c.geoid === selected);
@@ -270,6 +272,12 @@ export default function EarlyVotingPage({
       <section className="sources">
         <p className="eyebrow">TRANSPARENT BY DESIGN</p>
         <h2>Sources & coverage</h2>
+        {compactDetails && (refreshError || activity.stale) && (
+          <div className="notice" role="status">
+            <strong>{refreshError ? "Update check failed" : activity.failures.length ? "Early-voting refresh delayed" : "Early-voting data may be outdated"}</strong>
+            <p>{refreshError ?? "Showing the last successfully retrieved figures. A refresh failed or retrieval is more than 12 hours old."}</p>
+          </div>
+        )}
         <p>
           Active registration: {activity.coverage.registered_voters} /{" "}
           {activity.counties.length} counties. Requested: {activity.coverage.ballots_requested} / {activity.counties.length}. Returned:{" "}
@@ -288,13 +296,24 @@ export default function EarlyVotingPage({
           </p>
         ))}
         <div className="sources-grid">
-          {activity.sources.map((s) => (
+          {activity.sources.map((s) => {
+            const release = activity.releases.find((r) => r.source_id === s.id);
+            return (
             <a key={s.id} href={s.url} target="_blank" rel="noreferrer">
               <small>{provider ? "PROVIDER REPORT ↗" : "OFFICIAL AGGREGATE SOURCE ↗"}</small>
               <strong>{s.title}</strong>
               <span>{s.notes}</span>
+              {compactDetails && release && (
+                <span>
+                  Source report: {reportTime(release.reported_at, release.report_precision)}
+                  <br />
+                  Last successful retrieval: {reportTime(release.retrieved_at)}
+                  {release.error && <><br />Latest refresh failed: {release.error}</>}
+                </span>
+              )}
             </a>
-          ))}
+            );
+          })}
         </div>
         <Link to="/methodology">Read the data methodology ↗</Link>
       </section>

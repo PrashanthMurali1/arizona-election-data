@@ -1,5 +1,6 @@
 from typing import Annotated
-from fastapi import FastAPI, Depends, HTTPException
+from fastapi import FastAPI, Depends, HTTPException, Request
+from fastapi.responses import StreamingResponse
 from sqlalchemy import select, func
 from sqlalchemy.orm import Session
 from .database import SessionLocal
@@ -21,12 +22,14 @@ from .schemas import (
     SourceOut,
     GeometryOut,
     ActivityOut,
+    EarlyVotingActivityOut,
     HouseElectionOut,
     HouseOverviewOut,
     HouseDistrictDetailOut,
     HouseDistrictOut,
 )
 from . import house
+from . import early_vote_updates
 from .lifecycle import activity, CONTEST, AG_CONTEST
 from .services import metadata, results
 
@@ -188,13 +191,25 @@ def sources(id: str, s: DB):
     return election(id, s).sources
 
 
-@app.get("/api/elections/{id}/activity", response_model=ActivityOut | None)
+@app.get("/api/elections/{id}/activity", response_model=EarlyVotingActivityOut | ActivityOut | None)
 def election_activity(id: str, s: DB):
     if house.is_overview(id):
         house.resolve(s, id)
         return None
     current_contest = contest(s, id)
-    return activity(s, current_contest.id)
+    value = activity(s, current_contest.id)
+    if id == EARLY_VOTING and value:
+        return EarlyVotingActivityOut(**value, revision=early_vote_updates.revision(value))
+    return value
+
+
+@app.get("/api/elections/az-2026-early-voting/updates")
+async def early_voting_updates(request: Request):
+    return StreamingResponse(
+        early_vote_updates.events(request),
+        media_type="text/event-stream",
+        headers={"Cache-Control": "no-cache, no-transform", "X-Accel-Buffering": "no"},
+    )
 
 
 @app.get("/api/elections/{id}/snapshots")

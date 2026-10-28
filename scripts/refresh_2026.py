@@ -364,6 +364,28 @@ def save_manifest(data):
     return parsed
 
 
+def refresh_early_voting():
+    from scripts.provider_2026 import fetch_provider_inputs
+
+    try:
+        payloads, failures = fetch_provider_inputs()
+    except Exception as exc:
+        payloads = []
+        failures = [(f"early-vote-{category}", str(exc)) for category in ("requested", "returned")]
+    for payload in payloads:
+        try:
+            data = save_manifest(payload)
+            with SessionLocal.begin() as s:
+                print(data.stream, json.dumps(apply_snapshot(s, data)), flush=True)
+        except Exception as exc:
+            failures.append((payload["stream"], str(exc)))
+    for stream, error in failures:
+        print(stream, "FAILED; last successful participation data preserved:", error, flush=True)
+        with SessionLocal.begin() as s:
+            record_failure(s, stream, error)
+    return 1 if failures else 0
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     group = parser.add_mutually_exclusive_group()
@@ -383,22 +405,9 @@ def main():
     )
     args = parser.parse_args()
     if args.providers:
-        from scripts.provider_2026 import fetch_provider_inputs
+        from scripts.early_vote_runtime import run_refresh
 
-        payloads, failures = fetch_provider_inputs()
-        for payload in payloads:
-            try:
-                data = save_manifest(payload)
-                with SessionLocal.begin() as s:
-                    print(data.stream, json.dumps(apply_snapshot(s, data)))
-            except Exception as exc:
-                failures.append((payload["stream"], str(exc)))
-        for stream, error in failures:
-            with SessionLocal.begin() as s:
-                record_failure(s, stream, error)
-            print(stream, "FAILED; last successful provider report preserved:", error)
-        if failures:
-            raise SystemExit(1)
+        raise SystemExit(run_refresh(refresh_early_voting))
     elif args.fetch:
         streams = ["maricopa", "pima"] if args.fetch == "all" else [args.fetch]
         failures = []

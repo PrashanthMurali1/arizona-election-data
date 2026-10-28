@@ -126,6 +126,7 @@ export interface Participation {
   metrics: ActivityMetric[];
 }
 export interface Activity {
+  revision?: string;
   stage: "pre_results" | "unofficial" | "certified";
   candidate_availability: "not_released" | "not_imported" | "published" | "test_data" | "not_reporting";
   provider_participation?: {
