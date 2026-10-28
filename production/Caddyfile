@@ -1,0 +1,42 @@
+{
+	auto_https off
+	admin off
+	grace_period 30s
+	servers {
+		trusted_proxies static private_ranges
+	}
+}
+
+:80 {
+	root * /srv
+	# Cloudflare terminates visitor TLS; the tunnel's Docker origin stays HTTP.
+	@public_http {
+		host azelections.app
+		header X-Forwarded-Proto http
+	}
+	redir @public_http https://azelections.app{uri} 308
+	header {
+		X-Content-Type-Options nosniff
+		Referrer-Policy strict-origin-when-cross-origin
+	}
+
+	handle /api/* {
+		header {
+			Cache-Control "no-store, no-transform"
+			defer
+		}
+		# Caddy flushes text/event-stream immediately without response buffering.
+		# Keep its default cancellation behavior when a browser disconnects.
+		reverse_proxy backend:8000
+	}
+
+	handle /assets/* {
+		file_server
+	}
+
+	handle {
+		header Cache-Control "no-cache"
+		try_files {path} /index.html
+		file_server
+	}
+}

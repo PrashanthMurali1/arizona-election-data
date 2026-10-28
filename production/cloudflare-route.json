@@ -1,0 +1,12 @@
+{
+  "config": {
+    "ingress": [
+      {
+        "hostname": "azelections.app",
+        "service": "http://caddy:80",
+        "originRequest": {"httpHostHeader": "azelections.app"}
+      },
+      {"service": "http_status:404"}
+    ]
+  }
+}

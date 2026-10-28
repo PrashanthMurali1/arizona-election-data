@@ -1,5 +1,7 @@
 # 2026 early-voting participation reports
 
+Production cutover: the shared page is now served by Docker Compose on loopback port 8080, using a separate persistent copy of the populated database. The container cron worker replaces the disabled LaunchAgent. Use `docker compose exec --user app scheduler python production/refresh_job.py` for a production refresh. Earlier host commands and activation history below describe the retained local development dataset. See [production hosting](production-hosting.md) for current scheduler status, data paths and backups.
+
 Updated October 28, 2026. One **2026 Early Voting** catalog entry now presents shared civicAPI participation at `/elections/az-2026-early-voting`. The previous 2026 Governor and Attorney General page URLs redirect to it. No candidate-result, polling or forecast endpoints are queried by the current refresh. No deployment, visual redesign or schema migration was performed.
 
 ## Displayed participation

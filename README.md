@@ -1,12 +1,14 @@
 # Arizona Election Explorer
 
+The Docker Compose production build is live at **https://azelections.app**, with local viewing at **http://127.0.0.1:8080**. Its cron worker now owns the six-hour refresh schedule; the old macOS LaunchAgent is disabled. See [local production hosting](docs/production-hosting.md) for operations and the prepared Cloudflare Tunnel configuration for `azelections.app`. The existing `azelections-prod` public tunnel is active following explicit user approval.
+
 A local, dark-themed dashboard for exploring Arizona election results. Browse the election catalog, compare candidates, select a county or congressional district on the map or sortable table, and inspect results, turnout and source details.
 
 **2026 Early Voting is available as one catalog entry.** The shared page at `/elections/az-2026-early-voting` displays civicAPI's October 28 participation data: **3,289,914 requested** and **1,143,275 returned** ballots, plus all 15 counties and party-registration breakdowns. The table hides wholly unavailable columns. Counties are blue/red for the uniquely largest Democratic/Republican registration group among returned ballots; Other/ties/missing remain gray. Colors do not indicate candidate choices. The old 2026 Governor/AG page URLs redirect here. Refresh with `.venv/bin/python scripts/refresh_2026.py --early-voting`; see [2026 sources and coverage](docs/2026-import-report.md).
 
 **Attorney General results are also available for 2014, 2018 and 2022**, with all three candidate rosters reconciled to the official canvass across 15 counties. Current 2026 participation appears in the shared Early Voting entry. See the [Attorney General report](docs/attorney-general-import-report.md).
 
-**2022 MVP implemented and verified.** 2022, 2018 and 2014 governor results reconcile for every reported candidate across all 15 counties. The 2018 import combines VEST ballot-candidate precinct sums, OpenElections named write-ins and official turnout, with documented source checks. Nothing has been deployed.
+**2022 MVP implemented and verified.** 2022, 2018 and 2014 governor results reconcile for every reported candidate across all 15 counties. The 2018 import combines VEST ballot-candidate precinct sums, OpenElections named write-ins and official turnout, with documented source checks. The current Docker/Cloudflare hosting status is documented above.
 
 **U.S. Senate results are available for 2016, 2018, 2020 (special), 2022 and 2024.** All 61 candidate records reconcile across 15 counties per election, including every officially canvassed named write-in. The 2020 special election uses the existing interface and labels. There is no 2014 or 2026 Arizona U.S. Senate entry. See the [Senate source and verification report](docs/us-senate-import-report.md).
 

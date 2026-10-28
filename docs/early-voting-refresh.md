@@ -1,8 +1,10 @@
 # Automatic 2026 early-voting refresh
 
-The current host is macOS, with the application's Python virtual environment and persistent SQLite database in this checkout. `scripts/manage_early_vote_schedule.py` manages a user LaunchAgent rather than a web-worker or browser timer. No deployment or hosted scheduler is configured.
+**Current production workflow:** the Docker Compose cron worker now owns the six-hour schedule. The macOS LaunchAgent was disabled after timed cron checks passed. Use the [production hosting guide](production-hosting.md) for production refreshes, status and logs; do not reinstall the LaunchAgent while the container scheduler is active. The original host database remains retained separately.
 
-## Schedule and activation
+The legacy local workflow below uses the application's Python virtual environment and SQLite database in this checkout. `scripts/manage_early_vote_schedule.py` manages its user LaunchAgent rather than a web-worker or browser timer. Activation details below describe the earlier setup, before the production cutover.
+
+## Legacy schedule and activation
 
 From the repository root:
 

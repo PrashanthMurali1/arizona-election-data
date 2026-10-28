@@ -1,0 +1,16 @@
+.git
+.venv
+.production
+.env
+.env.*
+!.env.example
+**/node_modules
+**/dist
+**/__pycache__
+**/.pytest_cache
+**/test-results
+**/playwright-report
+backend/local
+data
+*.db
+*.db-*

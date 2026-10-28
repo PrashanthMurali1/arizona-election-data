@@ -267,7 +267,8 @@ test("one 2026 Early Voting catalog entry shows registration colors and populate
   const streamResponse = await connected;
   expect(streamResponse.status()).toBe(200);
   expect(streamResponse.headers()["content-type"]).toContain("text/event-stream");
-  expect(streamResponse.headers()["cache-control"]).toContain("no-cache");
+  expect(streamResponse.headers()["cache-control"]).toMatch(/\b(?:no-cache|no-store)\b/);
+  expect(streamResponse.headers()["cache-control"]).toContain("no-transform");
   await expect(page).toHaveURL(/\/elections\/az-2026-early-voting$/);
   await expect(page.getByRole("heading", { name: "2026 Early Voting", exact: true })).toBeVisible();
   await expect(page.getByRole("heading", { name: "Source snapshots", exact: true })).toHaveCount(0);
