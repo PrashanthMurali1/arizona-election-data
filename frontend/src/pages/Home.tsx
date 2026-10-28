@@ -2,7 +2,6 @@ import { Link } from "react-router-dom";
 import type { Election } from "../types";
 import { useResource } from "../api";
 import { Availability, ErrorState, Loading } from "../components";
-import { number } from "../results";
 export default function Home() {
   const {
     data: elections,
@@ -33,40 +32,6 @@ export default function Home() {
       ) : (
         elections && (
           <>
-            <section className="stats" aria-label="Archive overview">
-              <div>
-                <span>Election records</span>
-                <strong>
-                  {number(elections.length)}
-                  <small>in the archive</small>
-                </strong>
-              </div>
-              <div>
-                <span>Verified elections</span>
-                <strong>
-                  {number(
-                    elections.filter((e) => e.status === "verified").length,
-                  )}
-                  <small>official totals reconciled</small>
-                </strong>
-              </div>
-              <div>
-                <span>Arizona counties</span>
-                <strong>
-                  {number(Math.max(0, ...elections.map((e) => e.county_count)))}
-                  <small>across the state</small>
-                </strong>
-              </div>
-              <div>
-                <span>Coverage</span>
-                <strong>
-                  {elections.length
-                    ? `${Math.min(...elections.map((e) => e.year))}—${Math.max(...elections.map((e) => e.year))}`
-                    : "N/A"}
-                  <small>general elections</small>
-                </strong>
-              </div>
-            </section>
             <section className="catalog">
               <div className="section-heading">
                 <div>
