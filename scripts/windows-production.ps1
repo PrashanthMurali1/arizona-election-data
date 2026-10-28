@@ -8,8 +8,7 @@ $ErrorActionPreference = 'Stop'
 Set-StrictMode -Version Latest
 
 function Invoke-Docker {
-    param([Parameter(ValueFromRemainingArguments = $true)][string[]]$Arguments)
-    & docker @Arguments
+    & docker @args
     if ($LASTEXITCODE -ne 0) { throw "Docker operation failed (exit $LASTEXITCODE)." }
 }
 
@@ -43,7 +42,8 @@ try {
             $port = $configuration.services.frontend.ports[0].published
             $base = "http://127.0.0.1:$port"
             $health = Invoke-RestMethod "$base/api/health" -TimeoutSec 15
-            $catalog = @(Invoke-RestMethod "$base/api/elections" -TimeoutSec 30)
+            $catalog = Invoke-RestMethod "$base/api/elections" -TimeoutSec 30
+            $catalog = @($catalog)
             if ($catalog.Count -eq 0) { throw 'Election catalog is empty.' }
             $null = Invoke-RestMethod "$base/api/elections/az-2026-early-voting/activity" -TimeoutSec 30
             foreach ($election in $catalog) {

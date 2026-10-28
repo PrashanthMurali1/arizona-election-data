@@ -1,19 +1,44 @@
 # Windows deployment and migration
 
-The Windows migration keeps the existing Compose services, single-worker FastAPI backend, Caddy frontend, SQLite named volume, cron refresh worker and remotely managed Cloudflare Tunnel. Preparation does not activate the Windows public connector. Run commands from the repository root unless stated otherwise; stop on any command failure.
+The Windows deployment is live at **https://azelections.app**, with local viewing at **http://127.0.0.1:8080**. It keeps the existing Compose services, single-worker FastAPI backend, Caddy frontend, SQLite named volume, cron refresh worker and remotely managed Cloudflare Tunnel. Run commands from the repository root unless stated otherwise; stop on any command failure.
 
-## Verified status — October 28, 2026
+## Current deployment — October 29, 2026 (IST)
+
+- **Cutover completed after user approval and confirmation that the Mac scheduler and tunnel were stopped.** The final export was verified and imported before activation. Every row in all 19 database tables matched that export before the Windows scheduler began refreshing.
+- Windows frontend, backend, scheduler and tunnel are running **healthy**. Initialization/migration exited successfully. Only loopback port 8080 is published; Cloudflare reaches `http://caddy:80` through the existing `azelections-prod` tunnel. **No DNS, route or account configuration changes were made.** The connector received the existing `azelections.app` ingress and 404 catch-all from Cloudflare.
+- Cloudflare accepted the private token and registered healthy QUIC connections. Hostname-validated **TLS 1.3**, HTTPS root/API/deep links, HTTP 308 redirect preserving path/query, API `no-store, no-transform`, matching local/public activity revisions and SSE initial revision plus heartbeat all pass. Edge certificate expiry: January 26, 2027. Read-only evidence: `.production/public-cutover-check.json`.
+- All **11 non-mutating public browser tests pass**, including maps, historical views, selection/sorting, responsive layout and client update/reconnect handling. The test that forces production imports was not run publicly: automatic approval review rejected its live database writes. Read-only public tests were used instead. Actual committed-import delivery and recovery had already passed on the private rehearsal deployment; they were not forced again on the public database.
+- The scheduler's automatic startup refresh succeeded with exit code 0. Cron is `0 0,6,12,18 * * *` in **Asia/Kolkata**. Core contest, candidate, vote-result, turnout and geography table contents remain identical to the final export after startup. A natural six-hour cron slot and Windows reboot recovery have not yet been observed.
+- Post-cutover standalone recovery backup: `.production/backups/backup-20261028T195624716656Z.db` (UTC filename). Final migration evidence: `.production/windows-verification.json`. The Mac state/export and pre-cutover Windows backups are retained for rollback. Keep the Mac scheduler and connector stopped while Windows is serving.
+- Known limitation: historical rebuild tests remain blocked by the seven House calendar provenance mismatches inherited from the Mac; the full isolated backend run had 22 passes and 31 dependent setup errors. Those source checks were preserved. Migration verification does not independently re-certify election figures.
+
+## Preparation and rehearsal report — October 28, 2026
+
+This section records the earlier preparation state; the current deployment above supersedes statements about pending activation or stopped Windows services.
 
 - Host: Windows build 26200, AMD64. Node 24.15.0/npm 11.14.1 and Python 3.14 are available. Production still uses Python 3.13 and Node 22 inside its unchanged Dockerfiles.
 - Docker Desktop 4.97.0 installed successfully through WinGet. Its CLI reports 29.9.2 and Compose reports 5.6.1. After the user completed WSL installation, the engine reports `linux/x86_64`. Both production images build successfully on Windows. Both default and public/scheduled Compose configurations pass `docker compose config --quiet`.
 - WSL is now verified at version 3.0.3.0 with kernel 6.18.54.1-1. Earlier installation attempts failed with `0x80072ee2`; that prerequisite is resolved. No reboot was initiated by the agent.
 - Frontend: `npm.cmd ci`, all 7 unit tests and production build pass on Windows. Python: all 4 standalone migration tests and 11 backend checks (backup/restore, Cloudflare inspection and retained 2026 participation API tests) pass. These tests use disposable databases and synthetic credentials.
-- Linux container checks: all 5 migration tests pass, including a complete export/import round trip with retained job audit and nested source manifests. All 5 backup/restore and Cloudflare inspection tests pass in a disposable container without network access or production mounts. Caddy validates the built configuration. The pinned cloudflared 2026.10.3 image pulls and reports its version on AMD64; it was never started as a connector.
-- PowerShell helper syntax and its real healthy-engine preflight pass. Its missing-Docker guard was exercised before installation. Build also succeeded directly through Compose; app start/verify remain pending data transfer.
-- A broader native backend run could not complete: raw House calendar HTML files in the checkout do not match their recorded hashes, even after LF/CRLF normalization. Original mixed source bytes may have been lost when initially committed. Do not change recorded hashes or regenerate election figures to bypass this. Transfer the original `.production/raw` from the Mac. Native Unix refresh-lock/SSE test modules also require Linux; run the full suite inside Docker once available.
-- No production database, private token or `.production` state was present in this checkout. The user confirmed access to the Mac for export. No Windows app containers, scheduler or connector have been started. Live Mac state and authenticated Cloudflare settings have not been inspected in this migration session.
+- Linux container checks: all 5 migration tests pass, including a complete export/import round trip with retained job audit and nested source manifests. All 19 focused backend tests pass in an isolated, network-disabled Linux container (backup/restore, credentials, retained participation APIs, file locking, job audit and SSE). Caddy validates the built configuration. The pinned cloudflared 2026.10.3 image pulls and reports its version on AMD64; it was never started as a connector.
+- The supplied `C:\Users\prash\Desktop\windows\windows-transfer-20261028T171046137160Z` rehearsal export imports successfully: exact file inventory, all 259 SHA-256 digests, populated database and SQLite quick_check pass. Initial Windows named-volume counts match the export across all 19 tables, including 69 contests, 2,271 vote results, 406 metric observations and 13 publication snapshots. Baseline retained privately in `.production/migration-baseline.json`.
+- Local frontend/backend are running healthy at **http://127.0.0.1:8080**. Initialization, ownership setup, backup-before-migration and the PowerShell Start/Verify/Backup operations pass. Corrected NTFS inheritance after the first startup exposed an unreadable seed, and fixed PowerShell handling of array responses and forwarding `ps -a`. Only loopback port 8080 is published.
+- Private production smoke checks pass: real civicAPI import → Caddy SSE delivery; idempotent repeated import; cross-container overlapping-job exclusion; deliberate network failure preserving previous metrics; successful recovery; container recreation preserving records/revision; SSE reconnect; unchanged fingerprints for all 19 historical catalog views. `.production/check-report.json` retains the report. Tests intentionally refresh only the Windows rehearsal copy.
+- All **12 browser tests pass** against the Windows Docker stack with one worker, including desktop/mobile maps, selection/sorting, historical views, early voting, live committed-import delivery and reconnect recovery. Updated the early-voting test to assert displayed totals against its received API response rather than stale release totals. The production browser test now uses a one-off refresh container, so it does not require a permanent scheduler.
+- The supplied token was checked for the existing tunnel ID and saved privately at the configured path. Its mount is readable as Linux UID/GID 501:20, verified in a network-disabled container without exposing contents. Cloudflare acceptance remains untested because activation would receive live traffic. The six-hour Asia/Kolkata cron configuration, daemon and health check pass in an isolated container without production mounts or network; no natural scheduled slot has been observed on Windows.
+- The Mac export report confirms the **same seven House calendar HTML provenance mismatches already exist in the active Mac raw mount**, with 339 other local checksum comparisons passing there. These are inherited source-integrity issues, not transfer corruption. Full historical rebuild verification remains limited by them. No recorded hashes or election figures were changed to bypass checks. The exact transferred bytes and report remain preserved.
+- Full Linux backend-suite attempt using disposable copies of the transferred sources: **22 passed, 31 setup errors**, all remaining errors depend on historical import/bootstrap blocked by the retained source-integrity issue. Log: `.production/backend-full-suite.log`. The full suite is not green; the working migrated database and all local browser checks were verified separately. A generated-JSON CRLF reproducibility failure was resolved by restoring the documented LF working-tree endings; no data content changed.
+- Local recovery backup: `.production/backups/backup-20261028T173616972779Z.db`. The original export remains untouched on Desktop. User-supplied `.env` values were applied exactly. No live Mac services, authenticated Cloudflare settings, DNS or routing were changed. **No permanent Windows scheduler or public connector has been started.**
 
-The end-to-end migration is pending authentic Mac data transfer, local application/container checks and approved cutover. No application containers remain running after the disposable checks. The older Mac execution reports are historical evidence only.
+On October 29, 2026 (IST), the user confirmed that the existing `azelections-prod` tunnel's only application route was `azelections.app` → `http://caddy:80`. Planned and actual DNS/route changes: **zero**. This route inventory was user-confirmed, then corroborated by the connector's received ingress configuration after activation. The original transfer was a rehearsal snapshot; a fresh final snapshot was subsequently installed as recorded below.
+
+### Approved cutover progress — October 29, 2026 (IST)
+
+The user approved the complete cutover, then supplied `C:\Users\prash\Desktop\windows-transfer-20261028T193841230856Z` as the final export. Its complete inventory, every manifest digest and populated SQLite integrity check passed. It was staged privately at `.production/final-stage-20261028T193841230856Z` before stopping the Windows rehearsal app. Rehearsal database backups were saved, and its raw files were retained in `.production/backups/before-final-import-20261028T194959Z/raw`.
+
+The final database, raw sources, job status and logs were installed into Windows; backup-before-migration and app startup passed. Every row of all **19 database tables** matches the final Mac export, verified with per-table content hashes in `.production/final-import-verification.json`. All **11 non-mutating browser checks pass** on the final imported snapshot. Local health, all 20 catalog entries, historical detail APIs, early-voting activity, deep links, hostname-scoped HTTP→HTTPS with path/query preservation, forwarded HTTPS without loops and API cache headers also pass. No refresh tests were run after installing the final snapshot.
+
+The user subsequently confirmed that the Mac scheduler was stopped and its tunnel was initially still running, then confirmed the Mac tunnel had stopped. The Windows connector and scheduler were activated under the existing approval and passed readiness/public checks. This handoff is complete; keep the Mac connector and scheduler stopped unless following the rollback procedure.
 
 ## Compatibility and preserved configuration
 
@@ -139,7 +164,8 @@ if ($LASTEXITCODE -ne 0) { throw 'Import failed' }
 if (-not (Test-Path .env)) { Copy-Item .env.example .env }
 # Review the Mac values before continuing; retain its interval/timezone/port choices.
 $identity = [System.Security.Principal.WindowsIdentity]::GetCurrent().Name
-icacls .production /inheritance:r /grant:r "${identity}:(OI)(CI)F" /T
+icacls .production /inheritance:r /grant:r "${identity}:(OI)(CI)F"
+icacls '.production\*' /inheritance:e /T
 icacls .env /inheritance:r /grant:r "${identity}:F"
 powershell.exe -NoProfile -ExecutionPolicy Bypass -File scripts/windows-production.ps1 Build
 powershell.exe -NoProfile -ExecutionPolicy Bypass -File scripts/windows-production.ps1 Start
@@ -150,6 +176,8 @@ Review `.env` for `APP_UID`, `APP_GID`, `LOCAL_PORT`, `REFRESH_TIMEZONE`, `REFRE
 
 The helper explicitly targets only backend/frontend; it never starts the scheduler or tunnel. Initialization seeds an empty volume, retains transferred audit/log files, applies Linux ownership and runs backup-before-migration. Changing the seed later does **not** replace an existing database.
 
+Keep the ACL change on the parent directory and enable inheritance below it as shown. Applying `/inheritance:r` recursively can leave seed files without effective read access in Docker. Use Windows backslashes in `icacls` paths; its native argument parser can misinterpret slash-separated wildcard paths. The protected tree may retain standard explicit SYSTEM/Administrators entries; do not grant broad Users/Everyone access to work around an unreadable mount.
+
 ## Local verification before cutover
 
 Inspect maps, county/district selections, sorting, historical details, early-voting metrics, source links and deep-link reloads at `http://127.0.0.1:8080`. Confirm exported record counts and retained source checksums against the Mac before allowing any refreshes. Verify a stopped/recreated backend/frontend retains those records.
@@ -157,8 +185,11 @@ Inspect maps, county/district selections, sorting, historical details, early-vot
 ```powershell
 # Standalone technical migration tests (host Python, no app dependencies).
 py -m unittest discover -s production/tests -v
-# Full backend suite in Linux; isolated temporary DBs, scheduler remains stopped.
-docker compose run --rm --no-deps backend python -m pytest backend/tests -q
+# Full backend suite in Linux, with disposable copies of retained data.
+# No production state volume, writable host mounts or network are supplied.
+$dataMount = 'type=bind,source=' + (Join-Path $PWD 'data') + ',target=/reference-data,readonly'
+$rawMount = 'type=bind,source=' + (Join-Path $PWD '.production/raw') + ',target=/incoming-raw,readonly'
+docker run --rm --network none --user 0:0 --mount $dataMount --mount $rawMount az-election-explorer-backend:local python -c "import shutil,subprocess,sys; shutil.copytree('/reference-data','/app/data',dirs_exist_ok=True); shutil.copytree('/incoming-raw','/app/data/raw',dirs_exist_ok=True); sys.exit(subprocess.call([sys.executable,'-m','pytest','backend/tests','-q']))"
 # Private mutating smoke test: real refresh, SSE, failure/recovery and persistence.
 # This existing script assumes port 8080 and requires host requests.
 .\.venv\Scripts\python.exe scripts/check_production.py
@@ -185,13 +216,43 @@ py scripts/inspect_cloudflare.py save-connector-token
 docker compose --profile public --profile scheduled config --quiet
 ```
 
-The token helper checks the embedded tunnel ID, protects the NTFS parent directory and saves the token without printing it. That verifies local format/ID only; Cloudflare acceptance/readiness remains pending activation. Existing Linux UID/GID can read the Compose secret through Docker Desktop's file-sharing implementation; verify this during approved activation. If access fails, stop the connector and fix the private mount/ACL; do not publish the token or make it broadly readable.
+The token helper checks the embedded tunnel ID, protects the NTFS parent directory and saves the token without printing it. Saving alone verifies local format/ID only. Cloudflare acceptance, connector readiness and UID/GID access through Docker Desktop were subsequently verified during the approved activation. If access fails during recovery, stop the connector and fix the private mount/ACL; do not publish the token or make it broadly readable.
 
 No remote account access is needed for ordinary migration if the existing routing is as documented. Optional authenticated read-only inventory remains available through `inspect_cloudflare.py authenticate` and `inspect`. No account credentials were supplied here. Cloudflare [replicas can receive live traffic through the same tunnel](https://developers.cloudflare.com/cloudflare-one/networks/connectors/cloudflare-tunnel/configure-tunnels/tunnel-availability/); starting Windows alongside Mac is a production change, not a harmless readiness check.
 
-## Approved final cutover
+## Cutover procedure (completed; retained for recovery)
 
 Request approval only after private checks pass and current route inventory is reviewed. Proposed Cloudflare configuration diff is **zero** if it matches the existing origin. Scope of cutover: stop Mac scheduler, transfer a final consistent snapshot, stop Mac connector, start Windows connector and scheduler. Expect a short outage while the connectors switch; open SSE sessions reconnect. Retain Mac state for rollback.
+
+### Mac agent handoff for the final snapshot
+
+**Cutover approved and completed on October 29, 2026 (IST).** Approval covered pausing the Mac scheduler, transferring/importing a final snapshot, stopping its connector, then starting the Windows connector and scheduler, with no DNS or route changes. A pre-cutover Windows backup was saved at `.production/backups/backup-20261028T193504668529Z.db` (UTC filename). The final export and activation are recorded above. The prompt and commands below document the completed procedure; do not repeat them on the live deployment unnecessarily.
+
+Paste this prompt into the agent on the Mac to perform the approved first phase. It pauses Mac refreshes but leaves the live site serving until Windows is ready:
+
+```text
+I approve pausing the Arizona Election Explorer Mac scheduler to prepare the
+final Windows migration snapshot. Read the repository instructions and inspect
+the current deployment. Stop only the Compose scheduler, allowing an active
+refresh to drain, and confirm the legacy host LaunchAgent remains disabled.
+Keep the Mac backend, frontend and Cloudflare connector running.
+
+Use the verified production migration export helper to create a NEW export from
+the active Docker database and raw mount under the importer lock, with online
+SQLite backup, standalone DELETE journal, quick_check, job audit/logs and a root
+SHA-256 manifest written last. Verify the complete export. Preserve all source
+bytes and report the known seven calendar HTML provenance mismatches without
+changing hashes or figures. Do not bootstrap, fetch sources or refresh data.
+
+Give me the absolute export path and transfer instructions for the entire
+folder. Keep credentials out of the export and output. Confirm the scheduler
+is stopped while backend/frontend/tunnel remain healthy. Leave the scheduler
+paused for final Windows import; do not stop the Mac tunnel, change any routing,
+or start another connector until I explicitly confirm Windows is ready.
+If I cancel the migration, restart the Mac scheduler and verify its health.
+```
+
+### Final import and connector switch
 
 1. On Mac, after approval: `docker compose --profile scheduled stop scheduler`. Confirm any legacy LaunchAgent/host writer remains disabled. Re-run the export command above with writers stopped. Keep Mac backend/tunnel serving reads while transferring the final export.
 2. On Windows, stop any rehearsal scheduler and frontend/backend: `docker compose --profile scheduled stop scheduler frontend backend`. Keep tunnel stopped. Validate/import the final export in a fresh staging checkout using `prepare_production.py --from-export`; its checks run before modifying the rehearsal state. Copy its verified raw files into the Windows `.production/raw` mount and its database into `.production/backups/cutover.db`:

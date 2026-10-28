@@ -1,4 +1,5 @@
 import { test, expect } from "@playwright/test";
+import type { Activity, Participation } from "../src/types";
 
 test("Senate archive reuses results, county selection, year navigation and responsive layout", async ({
   page,
@@ -263,7 +264,17 @@ test("one 2026 Early Voting catalog entry shows registration colors and populate
   await expect(page.locator('.catalog a[href="/elections/az-2026-governor"]')).toHaveCount(0);
   await expect(page.locator('.catalog a[href="/elections/az-2026-attorney-general"]')).toHaveCount(0);
   const connected = page.waitForResponse((response) => response.url().endsWith("/az-2026-early-voting/updates"));
+  const activityLoaded = page.waitForResponse((response) => response.url().endsWith("/az-2026-early-voting/activity"));
   await card.click();
+  const activity: Activity = await (await activityLoaded).json();
+  // The production scheduler updates participation totals. Check the rendered
+  // values against the response this page received instead of an older release.
+  const formatted = (value: number | null) => {
+    expect(typeof value).toBe("number");
+    return value!.toLocaleString("en-US");
+  };
+  const metric = (row: Participation, key: string) => formatted(row.metrics.find((m) => m.key === key)!.value);
+  const pima = activity.counties.find((county) => county.geoid === "04019")!;
   const streamResponse = await connected;
   expect(streamResponse.status()).toBe(200);
   expect(streamResponse.headers()["content-type"]).toContain("text/event-stream");
@@ -283,8 +294,8 @@ test("one 2026 Early Voting catalog entry shows registration colors and populate
   await expect(page.locator('.county-map path[aria-label^="Apache County."] title')).toContainText("Democratic registration");
   await expect(page.getByText("Colors show the largest party-registration group among returned early ballots in each county. They do not show which candidates voters selected or how they voted.", { exact: true })).toBeVisible();
   const state = page.getByRole("region", { name: "Statewide participation availability" });
-  await expect(state).toContainText("3,289,914");
-  await expect(state).toContainText("1,143,275");
+  await expect(state).toContainText(metric(activity.statewide, "ballots_requested"));
+  await expect(state).toContainText(metric(activity.statewide, "ballots_received"));
   await expect(state).toContainText("15 / 15");
   await page.getByRole("button", { name: "Pima County. View early-voting activity." }).click();
   const detail = page.getByRole("region", { name: "Selected county details" });
@@ -292,9 +303,9 @@ test("one 2026 Early Voting catalog entry shows registration colors and populate
   await expect(detail.locator(".activity-metric")).toHaveCount(8);
   await expect(detail).not.toContainText("N/A");
   await expect(detail.getByText("Active registered voters", { exact: true })).toHaveCount(0);
-  await expect(detail).toContainText("492,659");
-  await expect(detail).toContainText("183,930");
-  await expect(detail).toContainText("89,873");
+  await expect(detail).toContainText(metric(pima, "ballots_requested"));
+  await expect(detail).toContainText(metric(pima, "ballots_received"));
+  await expect(detail).toContainText(metric(pima, "ballots_received__democratic"));
   await expect(detail).toContainText("date only");
   await expect(detail).toContainText("As of:");
   await expect(detail).toContainText("Retrieved:");
@@ -317,8 +328,8 @@ test("one 2026 Early Voting catalog entry shows registration colors and populate
   await page.keyboard.press("Enter");
   await expect(detail.getByRole("heading", { name: "Apache County" })).toBeVisible();
   await expect(page.locator('.county-map path[aria-label^="Apache County."]')).toHaveClass(/selected/);
-  await expect(page.locator(".sources")).toContainText("Democratic: 1,053,507");
-  await expect(page.locator(".sources")).toContainText("Democratic: 430,622");
+  for (const report of activity.provider_participation!.reports)
+    await expect(page.locator(".sources")).toContainText(`Democratic: ${formatted(report.breakdowns["04"].Democratic)}`);
   await expect(page.getByRole("heading", { name: "Sources & coverage", exact: true })).toBeVisible();
   await expect(page.locator(".sources")).toContainText("civicAPI");
   await expect(page.locator('.sources a[href^="https://civicapi.org/api/v2/early-vote/AZ/"]')).toHaveCount(2);

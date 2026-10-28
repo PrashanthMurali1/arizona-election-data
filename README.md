@@ -1,6 +1,6 @@
 # Arizona Election Explorer
 
-The Docker Compose production build was deployed at **https://azelections.app** on the M1 Mac. Migration to Windows is prepared; the Windows public connector has not been started. See [Windows deployment and cutover](docs/windows-deployment.md) for the current verification report, transfer commands, operations and rollback. The [Mac hosting report](docs/production-hosting.md) records the previous deployment. Local production viewing uses **http://127.0.0.1:8080**.
+The Docker Compose production build is now hosted on this **Windows computer** at **https://azelections.app**, with local viewing at **http://127.0.0.1:8080**. Frontend, backend, six-hour refresh scheduler and the existing Cloudflare Tunnel connector are healthy after the approved Mac-to-Windows cutover. See [Windows deployment and operations](docs/windows-deployment.md) for verification, backups and rollback. The [Mac hosting report](docs/production-hosting.md) records the previous deployment.
 
 A local, dark-themed dashboard for exploring Arizona election results. Browse the election catalog, compare candidates, select a county or congressional district on the map or sortable table, and inspect results, turnout and source details.
 
