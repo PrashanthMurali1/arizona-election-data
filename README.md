@@ -1,6 +1,6 @@
 # Arizona Election Explorer
 
-The Docker Compose production build is live at **https://azelections.app**, with local viewing at **http://127.0.0.1:8080**. Its cron worker now owns the six-hour refresh schedule; the old macOS LaunchAgent is disabled. See [local production hosting](docs/production-hosting.md) for operations and the prepared Cloudflare Tunnel configuration for `azelections.app`. The existing `azelections-prod` public tunnel is active following explicit user approval.
+The Docker Compose production build was deployed at **https://azelections.app** on the M1 Mac. Migration to Windows is prepared; the Windows public connector has not been started. See [Windows deployment and cutover](docs/windows-deployment.md) for the current verification report, transfer commands, operations and rollback. The [Mac hosting report](docs/production-hosting.md) records the previous deployment. Local production viewing uses **http://127.0.0.1:8080**.
 
 A local, dark-themed dashboard for exploring Arizona election results. Browse the election catalog, compare candidates, select a county or congressional district on the map or sortable table, and inspect results, turnout and source details.
 
@@ -137,9 +137,9 @@ npm ci --prefix frontend
 .\.venv\Scripts\python.exe -m uvicorn backend.app.main:app --host 127.0.0.1 --port 8000 --reload
 ```
 
-In a second terminal run `npm run dev --prefix frontend -- --port 5173 --strictPort`. Activation is optional because the commands use the virtual environment executable directly. A custom database can use `$env:DATABASE_URL = "sqlite:///C:/local-data/elections.db"`; create its parent directory first. Python paths and the data pipeline are platform-independent. Windows has not been tested on hardware.
+In a second terminal run `npm.cmd run dev --prefix frontend -- --port 5173 --strictPort`. Activation is optional because the commands use the virtual environment executable directly. A custom database can use `$env:DATABASE_URL = "sqlite:///C:/local-data/elections.db"`; create its parent directory first. Native participation job locking and macOS LaunchAgent management use Unix APIs; use the Linux Docker scheduler for Windows production. Windows timezone data is installed automatically by the requirements file.
 
-For browser tests use `$env:PLAYWRIGHT_BROWSERS_PATH = "node_modules/.cache/ms-playwright"` in `frontend`, run `npx playwright install chromium` and `npx playwright test`. The test-server config locates the Windows virtual environment executable automatically. Production hosting configuration and process supervision are future work.
+For browser tests use `$env:PLAYWRIGHT_BROWSERS_PATH = "node_modules/.cache/ms-playwright"` in `frontend`, run `npx.cmd playwright install chromium` and `npx.cmd playwright test`. The test-server config locates the Windows virtual environment executable automatically. For production use [the Windows Docker deployment guide](docs/windows-deployment.md), which keeps the existing cron worker and Cloudflare Tunnel architecture.
 
 ## Troubleshooting
 

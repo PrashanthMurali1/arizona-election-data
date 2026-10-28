@@ -8,11 +8,15 @@ import argparse
 import base64
 import json
 import os
+import subprocess
 from getpass import getpass
 from pathlib import Path
 from urllib.parse import urlsplit, urlunsplit
 
-import requests
+try:
+    import requests
+except ImportError:
+    requests = None  # Connector-only token saving uses only the standard library.
 
 ROOT = Path(__file__).resolve().parents[1]
 PRIVATE = ROOT / ".production/secrets"
@@ -23,9 +27,14 @@ TARGET = json.loads((ROOT / "production/cloudflare-target.json").read_text())
 
 def private_write(path, content):
     path.parent.mkdir(parents=True, exist_ok=True, mode=0o700)
+    if os.name == 'nt':
+        # chmod does not restrict Windows ACLs. Protect the directory before writing.
+        identity = subprocess.run(['whoami'], capture_output=True, text=True, check=True).stdout.strip()
+        subprocess.run(['icacls', str(path.parent), '/inheritance:r', '/grant:r', identity + ':(OI)(CI)F'], capture_output=True, check=True)
     fd = os.open(path, os.O_CREAT | os.O_TRUNC | os.O_WRONLY, 0o600)
     with os.fdopen(fd, "w") as output:
-        os.fchmod(output.fileno(), 0o600)
+        if os.name != 'nt':
+            os.fchmod(output.fileno(), 0o600)
         output.write(content)
 
 
@@ -38,6 +47,8 @@ def connector_matches(token):
 
 
 def inspect():
+    if requests is None:
+        raise SystemExit('Read-only API inspection requires the requests package; connector-only token saving does not')
     if not API_TOKEN.is_file():
         raise SystemExit(
             "Cloudflare API credentials missing. Run: .venv/bin/python scripts/inspect_cloudflare.py authenticate"

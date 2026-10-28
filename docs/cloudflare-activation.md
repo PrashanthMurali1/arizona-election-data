@@ -1,5 +1,7 @@
 # Activate the existing azelections-prod tunnel
 
+> The activation report below describes the Mac deployment. Windows migration uses the same tunnel and existing routing; follow [Windows deployment and cutover](windows-deployment.md). A new connector can immediately receive live requests. No Windows connector has been activated during migration preparation.
+
 Target: **azelections-prod**, tunnel ID **333d2484-25bd-408c-94d6-a0d1e44bf19c**, zone **azelections.app**. Do not create a replacement tunnel. The target DNS and hostname-scoped rule expressions are retained in `production/cloudflare-target.json`; the proposed application ingress is in `production/cloudflare-route.json`. That ingress file is a template, not permission to overwrite the existing tunnel configuration.
 
 Current status, October 28: **public activation was explicitly approved and completed**. The existing `azelections-prod` connector is running and healthy. Normal DNS and certificate-validated HTTPS work at **https://azelections.app**. HTTP redirects to HTTPS with status 308 and preserves the path/query. All **12 public browser checks passed** serially, including live committed-import SSE delivery and missed-import recovery with selection/sorting preserved. No DNS, Cloudflare route or account API changes were made by the agent; the user configured the route/CNAME in the dashboard.

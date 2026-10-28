@@ -1,6 +1,7 @@
 .git
 .venv
 .production
+.production-cache
 .env
 .env.*
 !.env.example

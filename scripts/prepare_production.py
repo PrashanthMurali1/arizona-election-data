@@ -1,6 +1,6 @@
 """Back up existing local data and prepare a separate, private production seed."""
 
-import fcntl
+import argparse
 import hashlib
 import json
 import shutil
@@ -26,7 +26,49 @@ def backup(source, destination):
     destination.chmod(0o600)
 
 
+def prepare_export(source):
+    """Import a completed, checksummed export without requiring Unix host APIs."""
+    source = source.resolve()
+    from production.manage_db import check
+
+    manifest = json.loads((source / 'manifest.json').read_text())
+    actual = {p.relative_to(source).as_posix() for p in source.rglob('*') if p.is_file() and p != source / 'manifest.json'}
+    if set(manifest) != actual or not {'elections.db'}.issubset(actual) or not (source / 'raw').is_dir():
+        raise RuntimeError('Incomplete migration export')
+    for name, digest in manifest.items():
+        path = (source / name).resolve()
+        if not path.is_relative_to(source) or hashlib.sha256(path.read_bytes()).hexdigest() != digest:
+            raise RuntimeError('Migration export checksum mismatch')
+    check(source / 'elections.db')
+    if TARGET.exists():
+        raise SystemExit('Production directory already exists; retain it and use a fresh checkout for import')
+    TARGET.mkdir(mode=0o700)
+    seed = TARGET / 'seed'
+    seed.mkdir()
+    backup(source / 'elections.db', seed / 'elections.db')
+    shutil.copytree(source / 'raw', TARGET / 'raw')
+    if (source / 'audit').is_dir():
+        shutil.copytree(source / 'audit', seed / 'audit')
+    (TARGET / 'backups').mkdir()
+    (TARGET / 'secrets').mkdir(mode=0o700)
+    (TARGET / 'preparation.json').write_text(json.dumps({'source': str(source), 'manifest': manifest}, indent=2) + '\n')
+    print('Verified export imported. No containers or tunnel started.')
+
+
 def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--from-export', type=Path, help='Completed manage_db.py export directory')
+    args = parser.parse_args()
+    if args.from_export:
+        # Direct script invocation otherwise puts only scripts/ on sys.path.
+        import sys
+        sys.path.insert(0, str(ROOT))
+        prepare_export(args.from_export)
+        return
+    if __import__('os').name == 'nt':
+        raise SystemExit('On Windows use --from-export with a completed Mac production export; do not seed from stale host data')
+    import fcntl
+
     seed = TARGET / "seed/elections.db"
     if seed.exists():
         raise SystemExit(

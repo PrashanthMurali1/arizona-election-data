@@ -2,7 +2,9 @@
 
 import base64
 import json
+import os
 import stat
+import subprocess
 
 import pytest
 from test_pipeline_api import ROOT  # noqa: F401 -- establishes module search path
@@ -136,5 +138,11 @@ def test_connector_only_setup_requires_no_account_api_call(
     inspection.main()
     assert not calls
     assert inspection.CONNECTOR_TOKEN.read_text().strip() == token
-    assert stat.S_IMODE(inspection.CONNECTOR_TOKEN.stat().st_mode) == 0o600
+    if os.name == 'nt':
+        acl = subprocess.run(['icacls', str(inspection.CONNECTOR_TOKEN.parent)], capture_output=True, text=True, check=True).stdout
+        identity = subprocess.run(['whoami'], capture_output=True, text=True, check=True).stdout.strip()
+        assert identity.lower() in acl.lower()
+        assert '(I)' not in acl  # inherited broad access was removed
+    else:
+        assert stat.S_IMODE(inspection.CONNECTOR_TOKEN.stat().st_mode) == 0o600
     assert token not in capsys.readouterr().out

@@ -1,6 +1,6 @@
 """Real migrations and importer on an isolated clean database; no production fixtures."""
 
-import copy, json, os, subprocess, sys
+import atexit, copy, json, os, subprocess, sys
 from pathlib import Path
 import pytest
 
@@ -12,6 +12,8 @@ import tempfile
 TEST_DIR = tempfile.TemporaryDirectory(prefix="az-election-tests-")
 os.environ["DATABASE_URL"] = "sqlite:///" + str(Path(TEST_DIR.name) / "test.db")
 from backend.app.database import engine, SessionLocal
+# Release pooled handles before TemporaryDirectory's exit cleanup on Windows.
+atexit.register(engine.dispose)
 from backend.app.models import Contest, Participation, VoteResult, Turnout, ImportRun
 from sqlalchemy import select, func
 from scripts.import_data import reconcile
