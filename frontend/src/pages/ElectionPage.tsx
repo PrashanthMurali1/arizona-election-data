@@ -37,12 +37,15 @@ function StatewideElectionPage() {
   } | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [selected, setSelected] = useState<string | null>(null);
+  const [refreshError, setRefreshError] = useState<string | null>(null);
+  const revisionRef = useRef<string | null>(null);
   const detailRef = useRef<HTMLElement>(null);
   useEffect(() => {
     const controller = new AbortController();
     setState(null);
     setError(null);
     setSelected(null);
+    revisionRef.current = null;
     get<Detail>(`/api/elections/${id}`, controller.signal)
       .then(async (detail) => {
         const [counties, geo, activity] = await Promise.all([
@@ -56,14 +59,89 @@ function StatewideElectionPage() {
             controller.signal,
           ),
         ]);
-        if (!controller.signal.aborted)
+        if (!controller.signal.aborted) {
+          revisionRef.current = activity?.revision ?? null;
           setState({ detail, counties, geo, activity });
+        }
       })
       .catch((e) => {
         if (e.name !== "AbortError") setError(e.message);
       });
     return () => controller.abort();
   }, [id]);
+  const updatesReady = id === "az-2026-early-voting" && state !== null;
+  useEffect(() => {
+    setRefreshError(null);
+    if (!updatesReady) return;
+    const controller = new AbortController();
+    const seen = new Set([revisionRef.current]);
+    let target: string | null = revisionRef.current;
+    let pending = false;
+    let stream: EventSource | null = null;
+    let fetchFailed = false;
+    async function refresh() {
+      if (pending || !target || seen.has(target)) return;
+      const requested = target;
+      pending = true;
+      try {
+        const requests = [
+          get<Detail>(`/api/elections/${id}`, controller.signal),
+          get<Results[]>(`/api/elections/${id}/counties`, controller.signal),
+          get<Activity | null>(`/api/elections/${id}/activity`, controller.signal),
+        ] as const;
+        // Keep the group in flight until every request settles, including failures.
+        await Promise.allSettled(requests);
+        const [detail, counties, activity] = await Promise.all(requests);
+        if (!controller.signal.aborted) {
+          if (!activity?.revision) throw new Error("Missing data revision");
+          seen.add(requested);
+          seen.add(activity.revision);
+          revisionRef.current = activity.revision;
+          setState((previous) => previous ? { ...previous, detail, counties, activity } : previous);
+          fetchFailed = false;
+          setRefreshError(null);
+        }
+      } catch {
+        if (!controller.signal.aborted) {
+          fetchFailed = true;
+          setRefreshError("Could not check for updates. Showing the last successfully loaded data.");
+        }
+      } finally {
+        pending = false;
+        // Coalesce notifications received during a fetch; never overlap requests.
+        if (!controller.signal.aborted && target !== requested) void refresh();
+      }
+    }
+    function connect() {
+      stream?.close();
+      const source = new EventSource(`/api/elections/${id}/updates`);
+      stream = source;
+      source.addEventListener("revision", (event) => {
+        if (controller.signal.aborted || stream !== source) return;
+        try {
+          const value = JSON.parse((event as MessageEvent).data).revision;
+          if (typeof value !== "string") return;
+          target = value;
+          if (seen.has(value) && !fetchFailed) setRefreshError(null);
+          void refresh();
+        } catch { /* An invalid notification cannot replace displayed data. */ }
+      });
+      source.addEventListener("error", () => {
+        if (!controller.signal.aborted && stream === source)
+          setRefreshError("Update connection interrupted. Showing the last successfully loaded data; reconnecting automatically.");
+      });
+    }
+    connect();
+    const resume = () => { if (document.visibilityState === "visible") connect(); };
+    window.addEventListener("focus", resume);
+    document.addEventListener("visibilitychange", resume);
+    return () => {
+      controller.abort();
+      stream?.close();
+      window.removeEventListener("focus", resume);
+      document.removeEventListener("visibilitychange", resume);
+    };
+  }, [id, updatesReady]);
   function selectCounty(geoid: string) {
     setSelected(geoid);
     requestAnimationFrame(() =>
@@ -89,6 +167,7 @@ function StatewideElectionPage() {
         selected={selected}
         onSelect={selectCounty}
         detailRef={detailRef}
+        refreshError={refreshError}
       />
     );
   const provisional = activity?.stage === "unofficial";

@@ -1,0 +1,688 @@
+{
+  "election_date": "2026-11-03",
+  "election_kind": "general",
+  "office_id": "governor",
+  "stream": "early-vote-requested",
+  "kind": "participation",
+  "stage": "pre_results",
+  "completeness": "partial",
+  "verification": "provider_report",
+  "provider_participation": {
+    "provider": "civicAPI",
+    "category": "requested",
+    "label": "Requested",
+    "breakdowns": {
+      "04": {
+        "Democratic": 1053507,
+        "Other": 1071953,
+        "Republican": 1164454
+      },
+      "04001": {
+        "Democratic": 15100,
+        "Other": 7217,
+        "Republican": 7041
+      },
+      "04003": {
+        "Democratic": 15239,
+        "Other": 18991,
+        "Republican": 21553
+      },
+      "04005": {
+        "Democratic": 27585,
+        "Other": 20557,
+        "Republican": 16460
+      },
+      "04007": {
+        "Democratic": 5436,
+        "Other": 6426,
+        "Republican": 13260
+      },
+      "04009": {
+        "Democratic": 2680,
+        "Other": 3011,
+        "Republican": 7025
+      },
+      "04011": {
+        "Democratic": 891,
+        "Other": 834,
+        "Republican": 1118
+      },
+      "04012": {
+        "Democratic": 1267,
+        "Other": 2018,
+        "Republican": 3297
+      },
+      "04013": {
+        "Democratic": 633176,
+        "Other": 670632,
+        "Republican": 702911
+      },
+      "04015": {
+        "Democratic": 14057,
+        "Other": 26364,
+        "Republican": 56227
+      },
+      "04017": {
+        "Democratic": 14706,
+        "Other": 12226,
+        "Republican": 19176
+      },
+      "04019": {
+        "Democratic": 205549,
+        "Other": 157555,
+        "Republican": 129555
+      },
+      "04021": {
+        "Democratic": 54146,
+        "Other": 68949,
+        "Republican": 82105
+      },
+      "04023": {
+        "Democratic": 10288,
+        "Other": 7537,
+        "Republican": 3964
+      },
+      "04025": {
+        "Democratic": 28435,
+        "Other": 39028,
+        "Republican": 73488
+      },
+      "04027": {
+        "Democratic": 24952,
+        "Other": 30608,
+        "Republican": 27274
+      }
+    }
+  },
+  "source": {
+    "title": "civicAPI — Arizona Ballots Requested",
+    "url": "https://civicapi.org/api/v2/early-vote/AZ/requested",
+    "raw_path": "data/raw/2026/snapshots/96128180593e87d694606477192980dfd3dd91edbd0d4a43eb825db3d9aaebf7.json",
+    "sha256": "96128180593e87d694606477192980dfd3dd91edbd0d4a43eb825db3d9aaebf7",
+    "notes": "Early-voting participation report from civicAPI: Requested, as of 2026-10-28. Shared event-level figures for the 2026 Governor and Attorney General pages; no candidate results are imported. Party categories describe the provider's ballot breakdowns and do not indicate candidate support. Retained response: data/raw/2026/snapshots/96128180593e87d694606477192980dfd3dd91edbd0d4a43eb825db3d9aaebf7.json. SHA-256 covers that exact response file: 96128180593e87d694606477192980dfd3dd91edbd0d4a43eb825db3d9aaebf7. Retrieval time is recorded separately on the snapshot."
+  },
+  "reported_at": "2026-10-28",
+  "report_precision": "date",
+  "retrieved_at": "2026-10-28T08:34:38.495297+00:00",
+  "release_id": "civicapi-early-vote-AZ-requested-96128180593e87d694606477192980dfd3dd91edbd0d4a43eb825db3d9aaebf7",
+  "vote_scope": "participation",
+  "metrics": [
+    {
+      "geoid": "04",
+      "key": "ballots_requested",
+      "label": "Requested",
+      "definition": "civicAPI Requested early-voting participation. The endpoint's votes field counts ballots, not candidate votes. The total uses this unit's supplied total, or sums its supplied party buckets when no aggregate is supplied. Statewide figures use only the statewide_total block; county totals are never added into a statewide figure.",
+      "value": 3289914,
+      "completeness": "complete",
+      "coverage_note": "Provider category: requested; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04",
+      "key": "ballots_requested__democratic",
+      "label": "Requested · Democratic",
+      "definition": "Requested ballots in civicAPI's Democratic participation category. This is a provider party breakdown, not votes or support for any candidate.",
+      "value": 1053507,
+      "completeness": "complete",
+      "coverage_note": "Party label preserved as reported by civicAPI; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04",
+      "key": "ballots_requested__other",
+      "label": "Requested · Other",
+      "definition": "Requested ballots in civicAPI's Other participation category. This is a provider party breakdown, not votes or support for any candidate.",
+      "value": 1071953,
+      "completeness": "complete",
+      "coverage_note": "Party label preserved as reported by civicAPI; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04",
+      "key": "ballots_requested__republican",
+      "label": "Requested · Republican",
+      "definition": "Requested ballots in civicAPI's Republican participation category. This is a provider party breakdown, not votes or support for any candidate.",
+      "value": 1164454,
+      "completeness": "complete",
+      "coverage_note": "Party label preserved as reported by civicAPI; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04001",
+      "key": "ballots_requested",
+      "label": "Requested",
+      "definition": "civicAPI Requested early-voting participation. The endpoint's votes field counts ballots, not candidate votes. The total uses this unit's supplied total, or sums its supplied party buckets when no aggregate is supplied. Statewide figures use only the statewide_total block; county totals are never added into a statewide figure.",
+      "value": 29358,
+      "completeness": "complete",
+      "coverage_note": "Provider category: requested; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04001",
+      "key": "ballots_requested__democratic",
+      "label": "Requested · Democratic",
+      "definition": "Requested ballots in civicAPI's Democratic participation category. This is a provider party breakdown, not votes or support for any candidate.",
+      "value": 15100,
+      "completeness": "complete",
+      "coverage_note": "Party label preserved as reported by civicAPI; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04001",
+      "key": "ballots_requested__other",
+      "label": "Requested · Other",
+      "definition": "Requested ballots in civicAPI's Other participation category. This is a provider party breakdown, not votes or support for any candidate.",
+      "value": 7217,
+      "completeness": "complete",
+      "coverage_note": "Party label preserved as reported by civicAPI; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04001",
+      "key": "ballots_requested__republican",
+      "label": "Requested · Republican",
+      "definition": "Requested ballots in civicAPI's Republican participation category. This is a provider party breakdown, not votes or support for any candidate.",
+      "value": 7041,
+      "completeness": "complete",
+      "coverage_note": "Party label preserved as reported by civicAPI; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04003",
+      "key": "ballots_requested",
+      "label": "Requested",
+      "definition": "civicAPI Requested early-voting participation. The endpoint's votes field counts ballots, not candidate votes. The total uses this unit's supplied total, or sums its supplied party buckets when no aggregate is supplied. Statewide figures use only the statewide_total block; county totals are never added into a statewide figure.",
+      "value": 55783,
+      "completeness": "complete",
+      "coverage_note": "Provider category: requested; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04003",
+      "key": "ballots_requested__democratic",
+      "label": "Requested · Democratic",
+      "definition": "Requested ballots in civicAPI's Democratic participation category. This is a provider party breakdown, not votes or support for any candidate.",
+      "value": 15239,
+      "completeness": "complete",
+      "coverage_note": "Party label preserved as reported by civicAPI; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04003",
+      "key": "ballots_requested__other",
+      "label": "Requested · Other",
+      "definition": "Requested ballots in civicAPI's Other participation category. This is a provider party breakdown, not votes or support for any candidate.",
+      "value": 18991,
+      "completeness": "complete",
+      "coverage_note": "Party label preserved as reported by civicAPI; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04003",
+      "key": "ballots_requested__republican",
+      "label": "Requested · Republican",
+      "definition": "Requested ballots in civicAPI's Republican participation category. This is a provider party breakdown, not votes or support for any candidate.",
+      "value": 21553,
+      "completeness": "complete",
+      "coverage_note": "Party label preserved as reported by civicAPI; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04005",
+      "key": "ballots_requested",
+      "label": "Requested",
+      "definition": "civicAPI Requested early-voting participation. The endpoint's votes field counts ballots, not candidate votes. The total uses this unit's supplied total, or sums its supplied party buckets when no aggregate is supplied. Statewide figures use only the statewide_total block; county totals are never added into a statewide figure.",
+      "value": 64602,
+      "completeness": "complete",
+      "coverage_note": "Provider category: requested; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04005",
+      "key": "ballots_requested__democratic",
+      "label": "Requested · Democratic",
+      "definition": "Requested ballots in civicAPI's Democratic participation category. This is a provider party breakdown, not votes or support for any candidate.",
+      "value": 27585,
+      "completeness": "complete",
+      "coverage_note": "Party label preserved as reported by civicAPI; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04005",
+      "key": "ballots_requested__other",
+      "label": "Requested · Other",
+      "definition": "Requested ballots in civicAPI's Other participation category. This is a provider party breakdown, not votes or support for any candidate.",
+      "value": 20557,
+      "completeness": "complete",
+      "coverage_note": "Party label preserved as reported by civicAPI; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04005",
+      "key": "ballots_requested__republican",
+      "label": "Requested · Republican",
+      "definition": "Requested ballots in civicAPI's Republican participation category. This is a provider party breakdown, not votes or support for any candidate.",
+      "value": 16460,
+      "completeness": "complete",
+      "coverage_note": "Party label preserved as reported by civicAPI; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04007",
+      "key": "ballots_requested",
+      "label": "Requested",
+      "definition": "civicAPI Requested early-voting participation. The endpoint's votes field counts ballots, not candidate votes. The total uses this unit's supplied total, or sums its supplied party buckets when no aggregate is supplied. Statewide figures use only the statewide_total block; county totals are never added into a statewide figure.",
+      "value": 25122,
+      "completeness": "complete",
+      "coverage_note": "Provider category: requested; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04007",
+      "key": "ballots_requested__democratic",
+      "label": "Requested · Democratic",
+      "definition": "Requested ballots in civicAPI's Democratic participation category. This is a provider party breakdown, not votes or support for any candidate.",
+      "value": 5436,
+      "completeness": "complete",
+      "coverage_note": "Party label preserved as reported by civicAPI; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04007",
+      "key": "ballots_requested__other",
+      "label": "Requested · Other",
+      "definition": "Requested ballots in civicAPI's Other participation category. This is a provider party breakdown, not votes or support for any candidate.",
+      "value": 6426,
+      "completeness": "complete",
+      "coverage_note": "Party label preserved as reported by civicAPI; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04007",
+      "key": "ballots_requested__republican",
+      "label": "Requested · Republican",
+      "definition": "Requested ballots in civicAPI's Republican participation category. This is a provider party breakdown, not votes or support for any candidate.",
+      "value": 13260,
+      "completeness": "complete",
+      "coverage_note": "Party label preserved as reported by civicAPI; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04009",
+      "key": "ballots_requested",
+      "label": "Requested",
+      "definition": "civicAPI Requested early-voting participation. The endpoint's votes field counts ballots, not candidate votes. The total uses this unit's supplied total, or sums its supplied party buckets when no aggregate is supplied. Statewide figures use only the statewide_total block; county totals are never added into a statewide figure.",
+      "value": 12716,
+      "completeness": "complete",
+      "coverage_note": "Provider category: requested; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04009",
+      "key": "ballots_requested__democratic",
+      "label": "Requested · Democratic",
+      "definition": "Requested ballots in civicAPI's Democratic participation category. This is a provider party breakdown, not votes or support for any candidate.",
+      "value": 2680,
+      "completeness": "complete",
+      "coverage_note": "Party label preserved as reported by civicAPI; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04009",
+      "key": "ballots_requested__other",
+      "label": "Requested · Other",
+      "definition": "Requested ballots in civicAPI's Other participation category. This is a provider party breakdown, not votes or support for any candidate.",
+      "value": 3011,
+      "completeness": "complete",
+      "coverage_note": "Party label preserved as reported by civicAPI; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04009",
+      "key": "ballots_requested__republican",
+      "label": "Requested · Republican",
+      "definition": "Requested ballots in civicAPI's Republican participation category. This is a provider party breakdown, not votes or support for any candidate.",
+      "value": 7025,
+      "completeness": "complete",
+      "coverage_note": "Party label preserved as reported by civicAPI; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04011",
+      "key": "ballots_requested",
+      "label": "Requested",
+      "definition": "civicAPI Requested early-voting participation. The endpoint's votes field counts ballots, not candidate votes. The total uses this unit's supplied total, or sums its supplied party buckets when no aggregate is supplied. Statewide figures use only the statewide_total block; county totals are never added into a statewide figure.",
+      "value": 2843,
+      "completeness": "complete",
+      "coverage_note": "Provider category: requested; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04011",
+      "key": "ballots_requested__democratic",
+      "label": "Requested · Democratic",
+      "definition": "Requested ballots in civicAPI's Democratic participation category. This is a provider party breakdown, not votes or support for any candidate.",
+      "value": 891,
+      "completeness": "complete",
+      "coverage_note": "Party label preserved as reported by civicAPI; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04011",
+      "key": "ballots_requested__other",
+      "label": "Requested · Other",
+      "definition": "Requested ballots in civicAPI's Other participation category. This is a provider party breakdown, not votes or support for any candidate.",
+      "value": 834,
+      "completeness": "complete",
+      "coverage_note": "Party label preserved as reported by civicAPI; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04011",
+      "key": "ballots_requested__republican",
+      "label": "Requested · Republican",
+      "definition": "Requested ballots in civicAPI's Republican participation category. This is a provider party breakdown, not votes or support for any candidate.",
+      "value": 1118,
+      "completeness": "complete",
+      "coverage_note": "Party label preserved as reported by civicAPI; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04012",
+      "key": "ballots_requested",
+      "label": "Requested",
+      "definition": "civicAPI Requested early-voting participation. The endpoint's votes field counts ballots, not candidate votes. The total uses this unit's supplied total, or sums its supplied party buckets when no aggregate is supplied. Statewide figures use only the statewide_total block; county totals are never added into a statewide figure.",
+      "value": 6582,
+      "completeness": "complete",
+      "coverage_note": "Provider category: requested; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04012",
+      "key": "ballots_requested__democratic",
+      "label": "Requested · Democratic",
+      "definition": "Requested ballots in civicAPI's Democratic participation category. This is a provider party breakdown, not votes or support for any candidate.",
+      "value": 1267,
+      "completeness": "complete",
+      "coverage_note": "Party label preserved as reported by civicAPI; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04012",
+      "key": "ballots_requested__other",
+      "label": "Requested · Other",
+      "definition": "Requested ballots in civicAPI's Other participation category. This is a provider party breakdown, not votes or support for any candidate.",
+      "value": 2018,
+      "completeness": "complete",
+      "coverage_note": "Party label preserved as reported by civicAPI; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04012",
+      "key": "ballots_requested__republican",
+      "label": "Requested · Republican",
+      "definition": "Requested ballots in civicAPI's Republican participation category. This is a provider party breakdown, not votes or support for any candidate.",
+      "value": 3297,
+      "completeness": "complete",
+      "coverage_note": "Party label preserved as reported by civicAPI; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04013",
+      "key": "ballots_requested",
+      "label": "Requested",
+      "definition": "civicAPI Requested early-voting participation. The endpoint's votes field counts ballots, not candidate votes. The total uses this unit's supplied total, or sums its supplied party buckets when no aggregate is supplied. Statewide figures use only the statewide_total block; county totals are never added into a statewide figure.",
+      "value": 2006719,
+      "completeness": "complete",
+      "coverage_note": "Provider category: requested; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04013",
+      "key": "ballots_requested__democratic",
+      "label": "Requested · Democratic",
+      "definition": "Requested ballots in civicAPI's Democratic participation category. This is a provider party breakdown, not votes or support for any candidate.",
+      "value": 633176,
+      "completeness": "complete",
+      "coverage_note": "Party label preserved as reported by civicAPI; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04013",
+      "key": "ballots_requested__other",
+      "label": "Requested · Other",
+      "definition": "Requested ballots in civicAPI's Other participation category. This is a provider party breakdown, not votes or support for any candidate.",
+      "value": 670632,
+      "completeness": "complete",
+      "coverage_note": "Party label preserved as reported by civicAPI; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04013",
+      "key": "ballots_requested__republican",
+      "label": "Requested · Republican",
+      "definition": "Requested ballots in civicAPI's Republican participation category. This is a provider party breakdown, not votes or support for any candidate.",
+      "value": 702911,
+      "completeness": "complete",
+      "coverage_note": "Party label preserved as reported by civicAPI; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04015",
+      "key": "ballots_requested",
+      "label": "Requested",
+      "definition": "civicAPI Requested early-voting participation. The endpoint's votes field counts ballots, not candidate votes. The total uses this unit's supplied total, or sums its supplied party buckets when no aggregate is supplied. Statewide figures use only the statewide_total block; county totals are never added into a statewide figure.",
+      "value": 96648,
+      "completeness": "complete",
+      "coverage_note": "Provider category: requested; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04015",
+      "key": "ballots_requested__democratic",
+      "label": "Requested · Democratic",
+      "definition": "Requested ballots in civicAPI's Democratic participation category. This is a provider party breakdown, not votes or support for any candidate.",
+      "value": 14057,
+      "completeness": "complete",
+      "coverage_note": "Party label preserved as reported by civicAPI; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04015",
+      "key": "ballots_requested__other",
+      "label": "Requested · Other",
+      "definition": "Requested ballots in civicAPI's Other participation category. This is a provider party breakdown, not votes or support for any candidate.",
+      "value": 26364,
+      "completeness": "complete",
+      "coverage_note": "Party label preserved as reported by civicAPI; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04015",
+      "key": "ballots_requested__republican",
+      "label": "Requested · Republican",
+      "definition": "Requested ballots in civicAPI's Republican participation category. This is a provider party breakdown, not votes or support for any candidate.",
+      "value": 56227,
+      "completeness": "complete",
+      "coverage_note": "Party label preserved as reported by civicAPI; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04017",
+      "key": "ballots_requested",
+      "label": "Requested",
+      "definition": "civicAPI Requested early-voting participation. The endpoint's votes field counts ballots, not candidate votes. The total uses this unit's supplied total, or sums its supplied party buckets when no aggregate is supplied. Statewide figures use only the statewide_total block; county totals are never added into a statewide figure.",
+      "value": 46108,
+      "completeness": "complete",
+      "coverage_note": "Provider category: requested; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04017",
+      "key": "ballots_requested__democratic",
+      "label": "Requested · Democratic",
+      "definition": "Requested ballots in civicAPI's Democratic participation category. This is a provider party breakdown, not votes or support for any candidate.",
+      "value": 14706,
+      "completeness": "complete",
+      "coverage_note": "Party label preserved as reported by civicAPI; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04017",
+      "key": "ballots_requested__other",
+      "label": "Requested · Other",
+      "definition": "Requested ballots in civicAPI's Other participation category. This is a provider party breakdown, not votes or support for any candidate.",
+      "value": 12226,
+      "completeness": "complete",
+      "coverage_note": "Party label preserved as reported by civicAPI; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04017",
+      "key": "ballots_requested__republican",
+      "label": "Requested · Republican",
+      "definition": "Requested ballots in civicAPI's Republican participation category. This is a provider party breakdown, not votes or support for any candidate.",
+      "value": 19176,
+      "completeness": "complete",
+      "coverage_note": "Party label preserved as reported by civicAPI; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04019",
+      "key": "ballots_requested",
+      "label": "Requested",
+      "definition": "civicAPI Requested early-voting participation. The endpoint's votes field counts ballots, not candidate votes. The total uses this unit's supplied total, or sums its supplied party buckets when no aggregate is supplied. Statewide figures use only the statewide_total block; county totals are never added into a statewide figure.",
+      "value": 492659,
+      "completeness": "complete",
+      "coverage_note": "Provider category: requested; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04019",
+      "key": "ballots_requested__democratic",
+      "label": "Requested · Democratic",
+      "definition": "Requested ballots in civicAPI's Democratic participation category. This is a provider party breakdown, not votes or support for any candidate.",
+      "value": 205549,
+      "completeness": "complete",
+      "coverage_note": "Party label preserved as reported by civicAPI; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04019",
+      "key": "ballots_requested__other",
+      "label": "Requested · Other",
+      "definition": "Requested ballots in civicAPI's Other participation category. This is a provider party breakdown, not votes or support for any candidate.",
+      "value": 157555,
+      "completeness": "complete",
+      "coverage_note": "Party label preserved as reported by civicAPI; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04019",
+      "key": "ballots_requested__republican",
+      "label": "Requested · Republican",
+      "definition": "Requested ballots in civicAPI's Republican participation category. This is a provider party breakdown, not votes or support for any candidate.",
+      "value": 129555,
+      "completeness": "complete",
+      "coverage_note": "Party label preserved as reported by civicAPI; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04021",
+      "key": "ballots_requested",
+      "label": "Requested",
+      "definition": "civicAPI Requested early-voting participation. The endpoint's votes field counts ballots, not candidate votes. The total uses this unit's supplied total, or sums its supplied party buckets when no aggregate is supplied. Statewide figures use only the statewide_total block; county totals are never added into a statewide figure.",
+      "value": 205200,
+      "completeness": "complete",
+      "coverage_note": "Provider category: requested; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04021",
+      "key": "ballots_requested__democratic",
+      "label": "Requested · Democratic",
+      "definition": "Requested ballots in civicAPI's Democratic participation category. This is a provider party breakdown, not votes or support for any candidate.",
+      "value": 54146,
+      "completeness": "complete",
+      "coverage_note": "Party label preserved as reported by civicAPI; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04021",
+      "key": "ballots_requested__other",
+      "label": "Requested · Other",
+      "definition": "Requested ballots in civicAPI's Other participation category. This is a provider party breakdown, not votes or support for any candidate.",
+      "value": 68949,
+      "completeness": "complete",
+      "coverage_note": "Party label preserved as reported by civicAPI; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04021",
+      "key": "ballots_requested__republican",
+      "label": "Requested · Republican",
+      "definition": "Requested ballots in civicAPI's Republican participation category. This is a provider party breakdown, not votes or support for any candidate.",
+      "value": 82105,
+      "completeness": "complete",
+      "coverage_note": "Party label preserved as reported by civicAPI; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04023",
+      "key": "ballots_requested",
+      "label": "Requested",
+      "definition": "civicAPI Requested early-voting participation. The endpoint's votes field counts ballots, not candidate votes. The total uses this unit's supplied total, or sums its supplied party buckets when no aggregate is supplied. Statewide figures use only the statewide_total block; county totals are never added into a statewide figure.",
+      "value": 21789,
+      "completeness": "complete",
+      "coverage_note": "Provider category: requested; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04023",
+      "key": "ballots_requested__democratic",
+      "label": "Requested · Democratic",
+      "definition": "Requested ballots in civicAPI's Democratic participation category. This is a provider party breakdown, not votes or support for any candidate.",
+      "value": 10288,
+      "completeness": "complete",
+      "coverage_note": "Party label preserved as reported by civicAPI; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04023",
+      "key": "ballots_requested__other",
+      "label": "Requested · Other",
+      "definition": "Requested ballots in civicAPI's Other participation category. This is a provider party breakdown, not votes or support for any candidate.",
+      "value": 7537,
+      "completeness": "complete",
+      "coverage_note": "Party label preserved as reported by civicAPI; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04023",
+      "key": "ballots_requested__republican",
+      "label": "Requested · Republican",
+      "definition": "Requested ballots in civicAPI's Republican participation category. This is a provider party breakdown, not votes or support for any candidate.",
+      "value": 3964,
+      "completeness": "complete",
+      "coverage_note": "Party label preserved as reported by civicAPI; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04025",
+      "key": "ballots_requested",
+      "label": "Requested",
+      "definition": "civicAPI Requested early-voting participation. The endpoint's votes field counts ballots, not candidate votes. The total uses this unit's supplied total, or sums its supplied party buckets when no aggregate is supplied. Statewide figures use only the statewide_total block; county totals are never added into a statewide figure.",
+      "value": 140951,
+      "completeness": "complete",
+      "coverage_note": "Provider category: requested; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04025",
+      "key": "ballots_requested__democratic",
+      "label": "Requested · Democratic",
+      "definition": "Requested ballots in civicAPI's Democratic participation category. This is a provider party breakdown, not votes or support for any candidate.",
+      "value": 28435,
+      "completeness": "complete",
+      "coverage_note": "Party label preserved as reported by civicAPI; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04025",
+      "key": "ballots_requested__other",
+      "label": "Requested · Other",
+      "definition": "Requested ballots in civicAPI's Other participation category. This is a provider party breakdown, not votes or support for any candidate.",
+      "value": 39028,
+      "completeness": "complete",
+      "coverage_note": "Party label preserved as reported by civicAPI; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04025",
+      "key": "ballots_requested__republican",
+      "label": "Requested · Republican",
+      "definition": "Requested ballots in civicAPI's Republican participation category. This is a provider party breakdown, not votes or support for any candidate.",
+      "value": 73488,
+      "completeness": "complete",
+      "coverage_note": "Party label preserved as reported by civicAPI; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04027",
+      "key": "ballots_requested",
+      "label": "Requested",
+      "definition": "civicAPI Requested early-voting participation. The endpoint's votes field counts ballots, not candidate votes. The total uses this unit's supplied total, or sums its supplied party buckets when no aggregate is supplied. Statewide figures use only the statewide_total block; county totals are never added into a statewide figure.",
+      "value": 82834,
+      "completeness": "complete",
+      "coverage_note": "Provider category: requested; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04027",
+      "key": "ballots_requested__democratic",
+      "label": "Requested · Democratic",
+      "definition": "Requested ballots in civicAPI's Democratic participation category. This is a provider party breakdown, not votes or support for any candidate.",
+      "value": 24952,
+      "completeness": "complete",
+      "coverage_note": "Party label preserved as reported by civicAPI; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04027",
+      "key": "ballots_requested__other",
+      "label": "Requested · Other",
+      "definition": "Requested ballots in civicAPI's Other participation category. This is a provider party breakdown, not votes or support for any candidate.",
+      "value": 30608,
+      "completeness": "complete",
+      "coverage_note": "Party label preserved as reported by civicAPI; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04027",
+      "key": "ballots_requested__republican",
+      "label": "Requested · Republican",
+      "definition": "Requested ballots in civicAPI's Republican participation category. This is a provider party breakdown, not votes or support for any candidate.",
+      "value": 27274,
+      "completeness": "complete",
+      "coverage_note": "Party label preserved as reported by civicAPI; snapshot date: 2026-10-28."
+    }
+  ],
+  "notes": "Early-voting participation report from civicAPI: Requested, as of 2026-10-28. Shared event-level figures for the 2026 Governor and Attorney General pages; no candidate results are imported. Party categories describe the provider's ballot breakdowns and do not indicate candidate support."
+}

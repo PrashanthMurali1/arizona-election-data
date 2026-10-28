@@ -10,3 +10,7 @@ dist/
 .DS_Store
 playwright-report/
 test-results/
+/backend/local/logs/
+/backend/local/*.lock
+/backend/local/early-voting-refresh-status.json
+/backend/local/launchd/

@@ -1,0 +1,688 @@
+{
+  "election_date": "2026-11-03",
+  "election_kind": "general",
+  "office_id": "governor",
+  "stream": "early-vote-returned",
+  "kind": "participation",
+  "stage": "pre_results",
+  "completeness": "partial",
+  "verification": "provider_report",
+  "provider_participation": {
+    "provider": "civicAPI",
+    "category": "returned",
+    "label": "Returned",
+    "breakdowns": {
+      "04": {
+        "Democratic": 430622,
+        "Other": 267217,
+        "Republican": 445436
+      },
+      "04001": {
+        "Democratic": 3775,
+        "Other": 1097,
+        "Republican": 1774
+      },
+      "04003": {
+        "Democratic": 7252,
+        "Other": 5663,
+        "Republican": 9094
+      },
+      "04005": {
+        "Democratic": 13691,
+        "Other": 6556,
+        "Republican": 6753
+      },
+      "04007": {
+        "Democratic": 3022,
+        "Other": 2466,
+        "Republican": 7053
+      },
+      "04009": {
+        "Democratic": 1144,
+        "Other": 692,
+        "Republican": 2564
+      },
+      "04011": {
+        "Democratic": 435,
+        "Other": 204,
+        "Republican": 317
+      },
+      "04012": {
+        "Democratic": 497,
+        "Other": 505,
+        "Republican": 1214
+      },
+      "04013": {
+        "Democratic": 247498,
+        "Other": 156415,
+        "Republican": 255150
+      },
+      "04015": {
+        "Democratic": 6995,
+        "Other": 7572,
+        "Republican": 23116
+      },
+      "04017": {
+        "Democratic": 5607,
+        "Other": 3055,
+        "Republican": 7862
+      },
+      "04019": {
+        "Democratic": 89873,
+        "Other": 42707,
+        "Republican": 51350
+      },
+      "04021": {
+        "Democratic": 25318,
+        "Other": 19343,
+        "Republican": 33301
+      },
+      "04023": {
+        "Democratic": 1594,
+        "Other": 580,
+        "Republican": 505
+      },
+      "04025": {
+        "Democratic": 17517,
+        "Other": 16305,
+        "Republican": 37830
+      },
+      "04027": {
+        "Democratic": 6404,
+        "Other": 4057,
+        "Republican": 7553
+      }
+    }
+  },
+  "source": {
+    "title": "civicAPI — Arizona Ballots Returned",
+    "url": "https://civicapi.org/api/v2/early-vote/AZ/returned",
+    "raw_path": "data/raw/2026/snapshots/d980bf7a56c668bfdbd583524cc66195c37dee0d7275c0624081c70d60238795.json",
+    "sha256": "d980bf7a56c668bfdbd583524cc66195c37dee0d7275c0624081c70d60238795",
+    "notes": "Early-voting participation report from civicAPI: Returned, as of 2026-10-28. Shared event-level figures for the 2026 Governor and Attorney General pages; no candidate results are imported. Party categories describe the provider's ballot breakdowns and do not indicate candidate support. Retained response: data/raw/2026/snapshots/d980bf7a56c668bfdbd583524cc66195c37dee0d7275c0624081c70d60238795.json. SHA-256 covers that exact response file: d980bf7a56c668bfdbd583524cc66195c37dee0d7275c0624081c70d60238795. Retrieval time is recorded separately on the snapshot."
+  },
+  "reported_at": "2026-10-28",
+  "report_precision": "date",
+  "retrieved_at": "2026-10-28T08:37:21.560280+00:00",
+  "release_id": "civicapi-early-vote-AZ-returned-d980bf7a56c668bfdbd583524cc66195c37dee0d7275c0624081c70d60238795",
+  "vote_scope": "participation",
+  "metrics": [
+    {
+      "geoid": "04",
+      "key": "ballots_received",
+      "label": "Returned",
+      "definition": "civicAPI Returned early-voting participation. The endpoint's votes field counts ballots, not candidate votes. The total uses this unit's supplied total, or sums its supplied party buckets when no aggregate is supplied. Statewide figures use only the statewide_total block; county totals are never added into a statewide figure.",
+      "value": 1143275,
+      "completeness": "complete",
+      "coverage_note": "Provider category: returned; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04",
+      "key": "ballots_received__democratic",
+      "label": "Returned · Democratic",
+      "definition": "Returned ballots in civicAPI's Democratic participation category. This is a provider party breakdown, not votes or support for any candidate.",
+      "value": 430622,
+      "completeness": "complete",
+      "coverage_note": "Party label preserved as reported by civicAPI; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04",
+      "key": "ballots_received__other",
+      "label": "Returned · Other",
+      "definition": "Returned ballots in civicAPI's Other participation category. This is a provider party breakdown, not votes or support for any candidate.",
+      "value": 267217,
+      "completeness": "complete",
+      "coverage_note": "Party label preserved as reported by civicAPI; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04",
+      "key": "ballots_received__republican",
+      "label": "Returned · Republican",
+      "definition": "Returned ballots in civicAPI's Republican participation category. This is a provider party breakdown, not votes or support for any candidate.",
+      "value": 445436,
+      "completeness": "complete",
+      "coverage_note": "Party label preserved as reported by civicAPI; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04001",
+      "key": "ballots_received",
+      "label": "Returned",
+      "definition": "civicAPI Returned early-voting participation. The endpoint's votes field counts ballots, not candidate votes. The total uses this unit's supplied total, or sums its supplied party buckets when no aggregate is supplied. Statewide figures use only the statewide_total block; county totals are never added into a statewide figure.",
+      "value": 6646,
+      "completeness": "complete",
+      "coverage_note": "Provider category: returned; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04001",
+      "key": "ballots_received__democratic",
+      "label": "Returned · Democratic",
+      "definition": "Returned ballots in civicAPI's Democratic participation category. This is a provider party breakdown, not votes or support for any candidate.",
+      "value": 3775,
+      "completeness": "complete",
+      "coverage_note": "Party label preserved as reported by civicAPI; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04001",
+      "key": "ballots_received__other",
+      "label": "Returned · Other",
+      "definition": "Returned ballots in civicAPI's Other participation category. This is a provider party breakdown, not votes or support for any candidate.",
+      "value": 1097,
+      "completeness": "complete",
+      "coverage_note": "Party label preserved as reported by civicAPI; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04001",
+      "key": "ballots_received__republican",
+      "label": "Returned · Republican",
+      "definition": "Returned ballots in civicAPI's Republican participation category. This is a provider party breakdown, not votes or support for any candidate.",
+      "value": 1774,
+      "completeness": "complete",
+      "coverage_note": "Party label preserved as reported by civicAPI; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04003",
+      "key": "ballots_received",
+      "label": "Returned",
+      "definition": "civicAPI Returned early-voting participation. The endpoint's votes field counts ballots, not candidate votes. The total uses this unit's supplied total, or sums its supplied party buckets when no aggregate is supplied. Statewide figures use only the statewide_total block; county totals are never added into a statewide figure.",
+      "value": 22009,
+      "completeness": "complete",
+      "coverage_note": "Provider category: returned; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04003",
+      "key": "ballots_received__democratic",
+      "label": "Returned · Democratic",
+      "definition": "Returned ballots in civicAPI's Democratic participation category. This is a provider party breakdown, not votes or support for any candidate.",
+      "value": 7252,
+      "completeness": "complete",
+      "coverage_note": "Party label preserved as reported by civicAPI; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04003",
+      "key": "ballots_received__other",
+      "label": "Returned · Other",
+      "definition": "Returned ballots in civicAPI's Other participation category. This is a provider party breakdown, not votes or support for any candidate.",
+      "value": 5663,
+      "completeness": "complete",
+      "coverage_note": "Party label preserved as reported by civicAPI; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04003",
+      "key": "ballots_received__republican",
+      "label": "Returned · Republican",
+      "definition": "Returned ballots in civicAPI's Republican participation category. This is a provider party breakdown, not votes or support for any candidate.",
+      "value": 9094,
+      "completeness": "complete",
+      "coverage_note": "Party label preserved as reported by civicAPI; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04005",
+      "key": "ballots_received",
+      "label": "Returned",
+      "definition": "civicAPI Returned early-voting participation. The endpoint's votes field counts ballots, not candidate votes. The total uses this unit's supplied total, or sums its supplied party buckets when no aggregate is supplied. Statewide figures use only the statewide_total block; county totals are never added into a statewide figure.",
+      "value": 27000,
+      "completeness": "complete",
+      "coverage_note": "Provider category: returned; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04005",
+      "key": "ballots_received__democratic",
+      "label": "Returned · Democratic",
+      "definition": "Returned ballots in civicAPI's Democratic participation category. This is a provider party breakdown, not votes or support for any candidate.",
+      "value": 13691,
+      "completeness": "complete",
+      "coverage_note": "Party label preserved as reported by civicAPI; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04005",
+      "key": "ballots_received__other",
+      "label": "Returned · Other",
+      "definition": "Returned ballots in civicAPI's Other participation category. This is a provider party breakdown, not votes or support for any candidate.",
+      "value": 6556,
+      "completeness": "complete",
+      "coverage_note": "Party label preserved as reported by civicAPI; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04005",
+      "key": "ballots_received__republican",
+      "label": "Returned · Republican",
+      "definition": "Returned ballots in civicAPI's Republican participation category. This is a provider party breakdown, not votes or support for any candidate.",
+      "value": 6753,
+      "completeness": "complete",
+      "coverage_note": "Party label preserved as reported by civicAPI; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04007",
+      "key": "ballots_received",
+      "label": "Returned",
+      "definition": "civicAPI Returned early-voting participation. The endpoint's votes field counts ballots, not candidate votes. The total uses this unit's supplied total, or sums its supplied party buckets when no aggregate is supplied. Statewide figures use only the statewide_total block; county totals are never added into a statewide figure.",
+      "value": 12541,
+      "completeness": "complete",
+      "coverage_note": "Provider category: returned; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04007",
+      "key": "ballots_received__democratic",
+      "label": "Returned · Democratic",
+      "definition": "Returned ballots in civicAPI's Democratic participation category. This is a provider party breakdown, not votes or support for any candidate.",
+      "value": 3022,
+      "completeness": "complete",
+      "coverage_note": "Party label preserved as reported by civicAPI; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04007",
+      "key": "ballots_received__other",
+      "label": "Returned · Other",
+      "definition": "Returned ballots in civicAPI's Other participation category. This is a provider party breakdown, not votes or support for any candidate.",
+      "value": 2466,
+      "completeness": "complete",
+      "coverage_note": "Party label preserved as reported by civicAPI; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04007",
+      "key": "ballots_received__republican",
+      "label": "Returned · Republican",
+      "definition": "Returned ballots in civicAPI's Republican participation category. This is a provider party breakdown, not votes or support for any candidate.",
+      "value": 7053,
+      "completeness": "complete",
+      "coverage_note": "Party label preserved as reported by civicAPI; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04009",
+      "key": "ballots_received",
+      "label": "Returned",
+      "definition": "civicAPI Returned early-voting participation. The endpoint's votes field counts ballots, not candidate votes. The total uses this unit's supplied total, or sums its supplied party buckets when no aggregate is supplied. Statewide figures use only the statewide_total block; county totals are never added into a statewide figure.",
+      "value": 4400,
+      "completeness": "complete",
+      "coverage_note": "Provider category: returned; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04009",
+      "key": "ballots_received__democratic",
+      "label": "Returned · Democratic",
+      "definition": "Returned ballots in civicAPI's Democratic participation category. This is a provider party breakdown, not votes or support for any candidate.",
+      "value": 1144,
+      "completeness": "complete",
+      "coverage_note": "Party label preserved as reported by civicAPI; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04009",
+      "key": "ballots_received__other",
+      "label": "Returned · Other",
+      "definition": "Returned ballots in civicAPI's Other participation category. This is a provider party breakdown, not votes or support for any candidate.",
+      "value": 692,
+      "completeness": "complete",
+      "coverage_note": "Party label preserved as reported by civicAPI; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04009",
+      "key": "ballots_received__republican",
+      "label": "Returned · Republican",
+      "definition": "Returned ballots in civicAPI's Republican participation category. This is a provider party breakdown, not votes or support for any candidate.",
+      "value": 2564,
+      "completeness": "complete",
+      "coverage_note": "Party label preserved as reported by civicAPI; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04011",
+      "key": "ballots_received",
+      "label": "Returned",
+      "definition": "civicAPI Returned early-voting participation. The endpoint's votes field counts ballots, not candidate votes. The total uses this unit's supplied total, or sums its supplied party buckets when no aggregate is supplied. Statewide figures use only the statewide_total block; county totals are never added into a statewide figure.",
+      "value": 956,
+      "completeness": "complete",
+      "coverage_note": "Provider category: returned; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04011",
+      "key": "ballots_received__democratic",
+      "label": "Returned · Democratic",
+      "definition": "Returned ballots in civicAPI's Democratic participation category. This is a provider party breakdown, not votes or support for any candidate.",
+      "value": 435,
+      "completeness": "complete",
+      "coverage_note": "Party label preserved as reported by civicAPI; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04011",
+      "key": "ballots_received__other",
+      "label": "Returned · Other",
+      "definition": "Returned ballots in civicAPI's Other participation category. This is a provider party breakdown, not votes or support for any candidate.",
+      "value": 204,
+      "completeness": "complete",
+      "coverage_note": "Party label preserved as reported by civicAPI; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04011",
+      "key": "ballots_received__republican",
+      "label": "Returned · Republican",
+      "definition": "Returned ballots in civicAPI's Republican participation category. This is a provider party breakdown, not votes or support for any candidate.",
+      "value": 317,
+      "completeness": "complete",
+      "coverage_note": "Party label preserved as reported by civicAPI; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04012",
+      "key": "ballots_received",
+      "label": "Returned",
+      "definition": "civicAPI Returned early-voting participation. The endpoint's votes field counts ballots, not candidate votes. The total uses this unit's supplied total, or sums its supplied party buckets when no aggregate is supplied. Statewide figures use only the statewide_total block; county totals are never added into a statewide figure.",
+      "value": 2216,
+      "completeness": "complete",
+      "coverage_note": "Provider category: returned; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04012",
+      "key": "ballots_received__democratic",
+      "label": "Returned · Democratic",
+      "definition": "Returned ballots in civicAPI's Democratic participation category. This is a provider party breakdown, not votes or support for any candidate.",
+      "value": 497,
+      "completeness": "complete",
+      "coverage_note": "Party label preserved as reported by civicAPI; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04012",
+      "key": "ballots_received__other",
+      "label": "Returned · Other",
+      "definition": "Returned ballots in civicAPI's Other participation category. This is a provider party breakdown, not votes or support for any candidate.",
+      "value": 505,
+      "completeness": "complete",
+      "coverage_note": "Party label preserved as reported by civicAPI; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04012",
+      "key": "ballots_received__republican",
+      "label": "Returned · Republican",
+      "definition": "Returned ballots in civicAPI's Republican participation category. This is a provider party breakdown, not votes or support for any candidate.",
+      "value": 1214,
+      "completeness": "complete",
+      "coverage_note": "Party label preserved as reported by civicAPI; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04013",
+      "key": "ballots_received",
+      "label": "Returned",
+      "definition": "civicAPI Returned early-voting participation. The endpoint's votes field counts ballots, not candidate votes. The total uses this unit's supplied total, or sums its supplied party buckets when no aggregate is supplied. Statewide figures use only the statewide_total block; county totals are never added into a statewide figure.",
+      "value": 659063,
+      "completeness": "complete",
+      "coverage_note": "Provider category: returned; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04013",
+      "key": "ballots_received__democratic",
+      "label": "Returned · Democratic",
+      "definition": "Returned ballots in civicAPI's Democratic participation category. This is a provider party breakdown, not votes or support for any candidate.",
+      "value": 247498,
+      "completeness": "complete",
+      "coverage_note": "Party label preserved as reported by civicAPI; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04013",
+      "key": "ballots_received__other",
+      "label": "Returned · Other",
+      "definition": "Returned ballots in civicAPI's Other participation category. This is a provider party breakdown, not votes or support for any candidate.",
+      "value": 156415,
+      "completeness": "complete",
+      "coverage_note": "Party label preserved as reported by civicAPI; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04013",
+      "key": "ballots_received__republican",
+      "label": "Returned · Republican",
+      "definition": "Returned ballots in civicAPI's Republican participation category. This is a provider party breakdown, not votes or support for any candidate.",
+      "value": 255150,
+      "completeness": "complete",
+      "coverage_note": "Party label preserved as reported by civicAPI; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04015",
+      "key": "ballots_received",
+      "label": "Returned",
+      "definition": "civicAPI Returned early-voting participation. The endpoint's votes field counts ballots, not candidate votes. The total uses this unit's supplied total, or sums its supplied party buckets when no aggregate is supplied. Statewide figures use only the statewide_total block; county totals are never added into a statewide figure.",
+      "value": 37683,
+      "completeness": "complete",
+      "coverage_note": "Provider category: returned; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04015",
+      "key": "ballots_received__democratic",
+      "label": "Returned · Democratic",
+      "definition": "Returned ballots in civicAPI's Democratic participation category. This is a provider party breakdown, not votes or support for any candidate.",
+      "value": 6995,
+      "completeness": "complete",
+      "coverage_note": "Party label preserved as reported by civicAPI; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04015",
+      "key": "ballots_received__other",
+      "label": "Returned · Other",
+      "definition": "Returned ballots in civicAPI's Other participation category. This is a provider party breakdown, not votes or support for any candidate.",
+      "value": 7572,
+      "completeness": "complete",
+      "coverage_note": "Party label preserved as reported by civicAPI; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04015",
+      "key": "ballots_received__republican",
+      "label": "Returned · Republican",
+      "definition": "Returned ballots in civicAPI's Republican participation category. This is a provider party breakdown, not votes or support for any candidate.",
+      "value": 23116,
+      "completeness": "complete",
+      "coverage_note": "Party label preserved as reported by civicAPI; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04017",
+      "key": "ballots_received",
+      "label": "Returned",
+      "definition": "civicAPI Returned early-voting participation. The endpoint's votes field counts ballots, not candidate votes. The total uses this unit's supplied total, or sums its supplied party buckets when no aggregate is supplied. Statewide figures use only the statewide_total block; county totals are never added into a statewide figure.",
+      "value": 16524,
+      "completeness": "complete",
+      "coverage_note": "Provider category: returned; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04017",
+      "key": "ballots_received__democratic",
+      "label": "Returned · Democratic",
+      "definition": "Returned ballots in civicAPI's Democratic participation category. This is a provider party breakdown, not votes or support for any candidate.",
+      "value": 5607,
+      "completeness": "complete",
+      "coverage_note": "Party label preserved as reported by civicAPI; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04017",
+      "key": "ballots_received__other",
+      "label": "Returned · Other",
+      "definition": "Returned ballots in civicAPI's Other participation category. This is a provider party breakdown, not votes or support for any candidate.",
+      "value": 3055,
+      "completeness": "complete",
+      "coverage_note": "Party label preserved as reported by civicAPI; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04017",
+      "key": "ballots_received__republican",
+      "label": "Returned · Republican",
+      "definition": "Returned ballots in civicAPI's Republican participation category. This is a provider party breakdown, not votes or support for any candidate.",
+      "value": 7862,
+      "completeness": "complete",
+      "coverage_note": "Party label preserved as reported by civicAPI; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04019",
+      "key": "ballots_received",
+      "label": "Returned",
+      "definition": "civicAPI Returned early-voting participation. The endpoint's votes field counts ballots, not candidate votes. The total uses this unit's supplied total, or sums its supplied party buckets when no aggregate is supplied. Statewide figures use only the statewide_total block; county totals are never added into a statewide figure.",
+      "value": 183930,
+      "completeness": "complete",
+      "coverage_note": "Provider category: returned; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04019",
+      "key": "ballots_received__democratic",
+      "label": "Returned · Democratic",
+      "definition": "Returned ballots in civicAPI's Democratic participation category. This is a provider party breakdown, not votes or support for any candidate.",
+      "value": 89873,
+      "completeness": "complete",
+      "coverage_note": "Party label preserved as reported by civicAPI; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04019",
+      "key": "ballots_received__other",
+      "label": "Returned · Other",
+      "definition": "Returned ballots in civicAPI's Other participation category. This is a provider party breakdown, not votes or support for any candidate.",
+      "value": 42707,
+      "completeness": "complete",
+      "coverage_note": "Party label preserved as reported by civicAPI; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04019",
+      "key": "ballots_received__republican",
+      "label": "Returned · Republican",
+      "definition": "Returned ballots in civicAPI's Republican participation category. This is a provider party breakdown, not votes or support for any candidate.",
+      "value": 51350,
+      "completeness": "complete",
+      "coverage_note": "Party label preserved as reported by civicAPI; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04021",
+      "key": "ballots_received",
+      "label": "Returned",
+      "definition": "civicAPI Returned early-voting participation. The endpoint's votes field counts ballots, not candidate votes. The total uses this unit's supplied total, or sums its supplied party buckets when no aggregate is supplied. Statewide figures use only the statewide_total block; county totals are never added into a statewide figure.",
+      "value": 77962,
+      "completeness": "complete",
+      "coverage_note": "Provider category: returned; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04021",
+      "key": "ballots_received__democratic",
+      "label": "Returned · Democratic",
+      "definition": "Returned ballots in civicAPI's Democratic participation category. This is a provider party breakdown, not votes or support for any candidate.",
+      "value": 25318,
+      "completeness": "complete",
+      "coverage_note": "Party label preserved as reported by civicAPI; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04021",
+      "key": "ballots_received__other",
+      "label": "Returned · Other",
+      "definition": "Returned ballots in civicAPI's Other participation category. This is a provider party breakdown, not votes or support for any candidate.",
+      "value": 19343,
+      "completeness": "complete",
+      "coverage_note": "Party label preserved as reported by civicAPI; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04021",
+      "key": "ballots_received__republican",
+      "label": "Returned · Republican",
+      "definition": "Returned ballots in civicAPI's Republican participation category. This is a provider party breakdown, not votes or support for any candidate.",
+      "value": 33301,
+      "completeness": "complete",
+      "coverage_note": "Party label preserved as reported by civicAPI; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04023",
+      "key": "ballots_received",
+      "label": "Returned",
+      "definition": "civicAPI Returned early-voting participation. The endpoint's votes field counts ballots, not candidate votes. The total uses this unit's supplied total, or sums its supplied party buckets when no aggregate is supplied. Statewide figures use only the statewide_total block; county totals are never added into a statewide figure.",
+      "value": 2679,
+      "completeness": "complete",
+      "coverage_note": "Provider category: returned; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04023",
+      "key": "ballots_received__democratic",
+      "label": "Returned · Democratic",
+      "definition": "Returned ballots in civicAPI's Democratic participation category. This is a provider party breakdown, not votes or support for any candidate.",
+      "value": 1594,
+      "completeness": "complete",
+      "coverage_note": "Party label preserved as reported by civicAPI; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04023",
+      "key": "ballots_received__other",
+      "label": "Returned · Other",
+      "definition": "Returned ballots in civicAPI's Other participation category. This is a provider party breakdown, not votes or support for any candidate.",
+      "value": 580,
+      "completeness": "complete",
+      "coverage_note": "Party label preserved as reported by civicAPI; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04023",
+      "key": "ballots_received__republican",
+      "label": "Returned · Republican",
+      "definition": "Returned ballots in civicAPI's Republican participation category. This is a provider party breakdown, not votes or support for any candidate.",
+      "value": 505,
+      "completeness": "complete",
+      "coverage_note": "Party label preserved as reported by civicAPI; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04025",
+      "key": "ballots_received",
+      "label": "Returned",
+      "definition": "civicAPI Returned early-voting participation. The endpoint's votes field counts ballots, not candidate votes. The total uses this unit's supplied total, or sums its supplied party buckets when no aggregate is supplied. Statewide figures use only the statewide_total block; county totals are never added into a statewide figure.",
+      "value": 71652,
+      "completeness": "complete",
+      "coverage_note": "Provider category: returned; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04025",
+      "key": "ballots_received__democratic",
+      "label": "Returned · Democratic",
+      "definition": "Returned ballots in civicAPI's Democratic participation category. This is a provider party breakdown, not votes or support for any candidate.",
+      "value": 17517,
+      "completeness": "complete",
+      "coverage_note": "Party label preserved as reported by civicAPI; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04025",
+      "key": "ballots_received__other",
+      "label": "Returned · Other",
+      "definition": "Returned ballots in civicAPI's Other participation category. This is a provider party breakdown, not votes or support for any candidate.",
+      "value": 16305,
+      "completeness": "complete",
+      "coverage_note": "Party label preserved as reported by civicAPI; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04025",
+      "key": "ballots_received__republican",
+      "label": "Returned · Republican",
+      "definition": "Returned ballots in civicAPI's Republican participation category. This is a provider party breakdown, not votes or support for any candidate.",
+      "value": 37830,
+      "completeness": "complete",
+      "coverage_note": "Party label preserved as reported by civicAPI; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04027",
+      "key": "ballots_received",
+      "label": "Returned",
+      "definition": "civicAPI Returned early-voting participation. The endpoint's votes field counts ballots, not candidate votes. The total uses this unit's supplied total, or sums its supplied party buckets when no aggregate is supplied. Statewide figures use only the statewide_total block; county totals are never added into a statewide figure.",
+      "value": 18014,
+      "completeness": "complete",
+      "coverage_note": "Provider category: returned; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04027",
+      "key": "ballots_received__democratic",
+      "label": "Returned · Democratic",
+      "definition": "Returned ballots in civicAPI's Democratic participation category. This is a provider party breakdown, not votes or support for any candidate.",
+      "value": 6404,
+      "completeness": "complete",
+      "coverage_note": "Party label preserved as reported by civicAPI; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04027",
+      "key": "ballots_received__other",
+      "label": "Returned · Other",
+      "definition": "Returned ballots in civicAPI's Other participation category. This is a provider party breakdown, not votes or support for any candidate.",
+      "value": 4057,
+      "completeness": "complete",
+      "coverage_note": "Party label preserved as reported by civicAPI; snapshot date: 2026-10-28."
+    },
+    {
+      "geoid": "04027",
+      "key": "ballots_received__republican",
+      "label": "Returned · Republican",
+      "definition": "Returned ballots in civicAPI's Republican participation category. This is a provider party breakdown, not votes or support for any candidate.",
+      "value": 7553,
+      "completeness": "complete",
+      "coverage_note": "Party label preserved as reported by civicAPI; snapshot date: 2026-10-28."
+    }
+  ],
+  "notes": "Early-voting participation report from civicAPI: Returned, as of 2026-10-28. Shared event-level figures for the 2026 Governor and Attorney General pages; no candidate results are imported. Party categories describe the provider's ballot breakdowns and do not indicate candidate support."
+}

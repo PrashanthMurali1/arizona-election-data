@@ -584,7 +584,7 @@ def activity(s, contest_id, now=None):
             )
             .order_by(RefreshAttempt.id.desc())
         )
-        stale = bool(failure) or now - instant(cursor.checked_at) > timedelta(hours=24)
+        stale = bool(failure) or now - instant(cursor.checked_at) > timedelta(hours=12 if shared else 24)
         releases.append(
             dict(
                 id=snap.id,
@@ -742,7 +742,7 @@ def activity(s, contest_id, now=None):
             for x in sources.values()
         ],
         reported_leaders=leaders,
-        refresh_mode="manual",
+        refresh_mode="external_job" if shared else "manual",
         statewide_policy=(
             "Statewide totals use the provider's statewide party buckets; county figures remain separate. Party categories describe participation, not candidate votes."
             if participation_report

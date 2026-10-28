@@ -20,7 +20,8 @@ from scripts.provider_2026 import early_vote_input
 
 def retained(category):
     files = [(p, json.loads(p.read_text())) for p in (ROOT / "data/raw/2026/manifests").glob(f"early-vote-{category}-*.json")]
-    path, payload = max(files, key=lambda row: row[1]["retrieved_at"])
+    # Pin the first retained release so automatic live refreshes do not change fixtures.
+    path, payload = min(files, key=lambda row: row[1]["retrieved_at"])
     return path, payload, json.loads((ROOT / payload["source"]["raw_path"]).read_text())
 
 
@@ -98,7 +99,9 @@ def test_single_catalog_view_reuses_existing_event_records(client):
     detail = client.get("/api/elections/az-2026-early-voting").json()
     assert detail["election"]["id"] == entries[0]["id"]
     assert detail["statewide"]["candidates"] == []
-    assert client.get("/api/elections/az-2026-early-voting/activity").json() == client.get("/api/elections/az-2026-governor/activity").json()
+    canonical = client.get("/api/elections/az-2026-early-voting/activity").json()
+    assert canonical.pop("revision")
+    assert canonical == client.get("/api/elections/az-2026-governor/activity").json()
     assert len(client.get("/api/elections/az-2026-early-voting/counties").json()) == 15
     assert len(client.get("/api/elections/az-2026-early-voting/snapshots").json()) == 2
     with SessionLocal() as s:
