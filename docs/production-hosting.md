@@ -1,5 +1,7 @@
 # Local production hosting on the M1 Mac
 
+> Historical Mac execution report. For the Windows migration, current verification status, data export/import, PowerShell operations and approved cutover procedure, use [Windows deployment](windows-deployment.md). Statements below about active services and login startup describe the Mac deployment, not the Windows computer.
+
 The application is live at **https://azelections.app**, using the existing **azelections-prod** Cloudflare Tunnel after explicit user approval. Local viewing remains **http://127.0.0.1:8080**. The `public` Compose profile is active. No router ports, public backend port or database port are exposed; the UI is unchanged.
 
 ## Execution report — October 28, 2026

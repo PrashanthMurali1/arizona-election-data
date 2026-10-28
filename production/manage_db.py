@@ -1,6 +1,8 @@
 """Production SQLite initialization, online backup, migrations and offline restore."""
 
 import argparse
+import hashlib
+import json
 import os
 import shutil
 import sqlite3
@@ -49,6 +51,12 @@ def initialize():
         seed = Path("/seed/elections.db")
         check(seed)
         shutil.copy2(seed, DB)
+        # Retain the last job status and logs from a migration export, if supplied.
+        audit = Path('/seed/audit')
+        if audit.is_dir():
+            shutil.copytree(audit, STATE, dirs_exist_ok=True)
+        for path in STATE.rglob('*'):
+            os.chown(path, int(os.environ['APP_UID']), int(os.environ['APP_GID']))
         os.chown(DB, int(os.environ["APP_UID"]), int(os.environ["APP_GID"]))
         print("Initialized production volume from retained seed", flush=True)
     check(DB)
@@ -77,6 +85,33 @@ def migrate():
     )
 
 
+def export_migration():
+    """Run in the Linux backend container; cooperate with its refresh lock."""
+    import fcntl
+
+    destination = BACKUPS / ('windows-transfer-' + datetime.now(UTC).strftime('%Y%m%dT%H%M%S%fZ'))
+    with (STATE / 'early-voting-refresh.lock').open('a+') as lock:
+        fcntl.flock(lock, fcntl.LOCK_EX)
+        saved = backup('migration')
+        destination.mkdir()
+        shutil.copy2(saved, destination / 'elections.db')
+        shutil.copytree(ROOT / 'data/raw', destination / 'raw')
+        audit = destination / 'audit'
+        audit.mkdir()
+        status = STATE / 'early-voting-refresh-status.json'
+        if status.is_file():
+            shutil.copy2(status, audit / status.name)
+        if (STATE / 'logs').is_dir():
+            shutil.copytree(STATE / 'logs', audit / 'logs')
+        manifest = {
+            str(path.relative_to(destination)).replace('\\', '/'): hashlib.sha256(path.read_bytes()).hexdigest()
+            for path in destination.rglob('*') if path.is_file()
+        }
+        (destination / 'manifest.json').write_text(json.dumps(manifest, indent=2) + '\n')
+    print(f'Migration export: {destination}', flush=True)
+    return destination
+
+
 def restore(path, offline):
     if not offline:
         raise SystemExit("Stop backend and scheduler, then pass --offline to restore")
@@ -101,7 +136,7 @@ def restore(path, offline):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument(
-        "action", choices=["initialize", "migrate", "backup", "restore"]
+        "action", choices=["initialize", "migrate", "backup", "restore", "export"]
     )
     parser.add_argument("--backup", type=Path)
     parser.add_argument("--offline", action="store_true")
@@ -111,4 +146,4 @@ if __name__ == "__main__":
             parser.error("restore requires --backup")
         restore(args.backup, args.offline)
     else:
-        {"initialize": initialize, "migrate": migrate, "backup": backup}[args.action]()
+        {"initialize": initialize, "migrate": migrate, "backup": backup, "export": export_migration}[args.action]()

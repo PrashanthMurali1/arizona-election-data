@@ -3,9 +3,9 @@ import { execFileSync } from "node:child_process";
 import { resolve } from "node:path";
 
 test("production imports reach an open browser and reconnect recovers missed imports", async ({ page, context }) => {
-  test.skip(!process.env.PLAYWRIGHT_BASE_URL, "Requires the private production Compose stack and active scheduler");
+  test.skip(!process.env.PLAYWRIGHT_BASE_URL, "Requires the private production Compose stack");
   test.setTimeout(120_000);
-  const refresh = () => execFileSync("docker", ["compose", "exec", "--user", "app", "scheduler", "python", "production/refresh_job.py"],
+  const refresh = () => execFileSync("docker", ["compose", "run", "--rm", "--no-deps", "backend", "python", "production/refresh_job.py"],
     { cwd: resolve(".."), timeout: 90_000, stdio: "pipe" });
   const activityPath = "/api/elections/az-2026-early-voting/activity";
   await page.goto("/elections/az-2026-early-voting");
