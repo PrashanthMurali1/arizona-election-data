@@ -1,104 +1,100 @@
-# 2026 general-election participation and results lifecycle
+# 2026 early-voting participation reports
 
-Verified locally on October 27, 2026. This is a manual snapshot feature, not a live feed. No deployment was performed.
+Updated October 28, 2026. One **2026 Early Voting** catalog entry now presents shared civicAPI participation at `/elections/az-2026-early-voting`. The previous 2026 Governor and Attorney General page URLs redirect to it. No candidate-result, polling or forecast endpoints are queried by the current refresh. No deployment, visual redesign or schema migration was performed.
 
-## Official availability
+## Displayed participation
 
-The [Secretary of State's 2026 election page](https://azsos.gov/elections/election-information/2026-election-info) identifies November 3 as the general election, October 7 as the start of early voting, and November 23 as the scheduled statewide canvass. The [election information page](https://azsos.gov/elections/election-information) says initial candidate results are released after 8 p.m. on election night. The general-election release gate is therefore November 3, 2026, 20:00 America/Phoenix (November 4, 03:00 UTC). General-election candidate results were not available at acquisition. The July 21 primary reports linked from the 2026 page and older canvasses embedded in Pima's PDF were excluded.
+| Provider category | Statewide count | County coverage | Provider snapshot date |
+| --- | ---: | ---: | --- |
+| Requested | 3,289,914 | 15/15 | October 27, 2026 (date only) |
+| Returned | 1,143,275 | 15/15 | October 27, 2026 (date only) |
 
-The current database has no 2026 candidate vote records. All 15 counties appear with neutral coloring and N/A where no verified metric was obtained. After the release gate, an unrefreshed installation says results have not been imported rather than continuing to assert that officials have not released results.
+| Provider party category | Requested | Returned |
+| --- | ---: | ---: |
+| Democratic | 1,053,507 | 430,622 |
+| Other | 1,071,953 | 267,217 |
+| Republican | 1,164,454 | 445,436 |
 
-## Obtained metrics
+These party categories describe the provider's participation breakdowns. They are not votes or support for candidates. The API's field named `votes` holds ballot counts in these early-vote endpoints.
 
-| Metric | County coverage | Published values retained |
-| --- | --- | --- |
-| Active registered voters | 15/15 | Official statewide 4,374,827; county sum agrees exactly |
-| Requests | 1/15 | Maricopa 1,978,119 |
-| Early returns received/in hand | 2/15 | Maricopa 660,040; Pima 190,232 |
-| Ballots Sent, latest issue | 1/15 | Pima 494,284 |
-| Verified and ready for turnover | 1/15 | Pima 8,413 |
-| Turned over to Elections | 1/15 | Pima 155,299 |
-| Mail-only issuance | 0/15 | N/A |
-| Overall accepted ballots | 0/15 | N/A |
-| In-person early participation | 0/15 | N/A |
+Statewide counts and party breakdowns appear on the shared page. The existing table currently shows **County, Requested and Returned**. Columns are hidden only when all counties lack their values; explicit zero keeps a column visible, and missing cells remain N/A in partially populated columns. The default sort is Returned descending, falling back to another visible metric or County when needed. County details retain the supplied party breakdowns and source definitions. Registration, mailed/issued, accepted and in-person figures remain unavailable.
 
-These are general-election participation records, not governor votes. No candidate shares, leaders, winners, participation percentages or derived statewide ballot totals are displayed before results. Registration is the only imported directly published statewide metric. No party-registration breakdown was imported.
+The map uses only each county's Returned breakdown: a unique Democratic maximum is blue, a unique Republican maximum is red, and Other maxima, ties or missing breakdowns are gray. The current snapshot yields five blue and ten red counties. Requested and statewide party counts never determine county coloring. The existing colors, shapes and selection interactions are preserved. The map heading, legend and tooltips refer to registration, and the explanation states: **Colors show the largest party-registration group among returned early ballots in each county. They do not show which candidates voters selected or how they voted.**
 
-### Secretary of State active registration
+## Source discovery and extraction
 
-- [Official PDF](https://apps.azsos.gov/election/VoterReg/2026/State-Voter-Registration-November-2026.pdf), page 1, Active / GE 2026 total column.
-- [Official October 20 publication](https://azsos.gov/news/1079) independently confirms the statewide active total.
-- Reporting/publication date: October 20, 2026; clock time unavailable.
-- Retrieved/reviewed: October 27, 2026, 08:24:45 MST (15:24:45 UTC).
-- Method: reviewed transcription of the indexed official PDF into `data/raw/2026/registration-reviewed.csv`, with provenance in `registration-provenance.json`. Direct binary PDF retrieval returned HTTP 403; the retained CSV checksum identifies the reviewed transcription, not the inaccessible original PDF. APR/primary, inactive and federal-only sections were excluded. All 15 county totals sum exactly to the separately printed 4,374,827 statewide figure.
+The public [Arizona early-vote tracker](https://civicapi.org/early-vote/az) uses these feeds:
 
-### Maricopa County Elections
+- [Requested](https://civicapi.org/api/v2/early-vote/AZ/requested).
+- [Returned](https://civicapi.org/api/v2/early-vote/AZ/returned).
+- [Capabilities](https://civicapi.org/api/v2/early-vote/AZ/capabilities), which lists requested/returned party data for Arizona.
+- [In-person](https://civicapi.org/api/v2/early-vote/AZ/inperson), which returned HTTP 404 with `early-vote data not found`.
 
-- [Official ArcGIS item and publisher metadata](https://www.arcgis.com/sharing/rest/content/items/4f442e13c5514ce7b719844c90a5efe5?f=json), owner `MaricopaElectionsGIS`.
-- [Official Early Voting Returns In Hand layer](https://services.arcgis.com/ykpntM6e3tHvzKRJ/arcgis/rest/services/Maricopa_County_Early_Voting_Returns_In_Hand/FeatureServer/0).
-- Source last edit: October 27, 2026, 08:03:13.005 MST (15:03:13.005 UTC). This is a layer edit time, not an invented ballot cutoff.
-- Retrieved: October 27, 2026, 08:39:46.838 MST (15:39:46.838 UTC).
-- Method: public server-side aggregate sums and non-null counts grouped by election labels, with geometry disabled. No voter records were acquired. Publisher, layer metadata, aggregate response and post-query metadata are archived together. A source edit during acquisition causes refresh failure.
-- Only `NOV 3 2026 GENERAL ELECTION` is eligible. The 944 labelled records all have Requests/Returns counts. Another 12 layer records lack election labels and counts; they are excluded, never converted to zeros. Both metrics are explicitly marked partial source coverage (944 of 956 layer records). The layer's Returns definition includes all signature-review dispositions; it does not establish accepted ballots.
+Decision Labs' [public API documentation](https://www.decisionlabs.ai/docs/api) was inspected for participation endpoints; it does not list an early-voting feed. civicAPI supplies the usable data, so no Decision Labs values are combined with it.
 
-### Pima County Recorder
+Each `statewide_total` object contains provider party buckets. The adapter displays its supplied aggregate when one exists, otherwise sums the party-bucket counts in that same object, as the provider tracker does. Each county total similarly uses that county's own supplied buckets. Missing counts are never treated as zero when forming a total. Statewide figures are never inferred from county totals. Requested and Returned are separate stages and are never added together into turnout.
 
-- [Official Ballot Processing Reports](https://recorder.pima.gov/BallotProcessingReports).
-- Source report: end of day October 26, 2026, date only; no source clock time was supplied.
-- Retrieved: October 27, 2026, 08:39:27.335 MST (15:39:27.335 UTC).
-- Method: download the PDF through its public form, retain the original bytes, extract exactly the page headed `Early Ballot Status Report`, `2026 GENERAL ELECTION`, and `Status as of end of day`. Other election pages are ignored; ambiguous/missing general-election pages fail validation.
-- `Ballots Sent` includes only the latest issued ballot when more than one was sent to a voter. It is not mail-only issuance. `Verified and Ready` excludes ballots already turned over; turnover does not mean tabulation. Neither is substituted for an overall accepted count. Early-voting site ballots issued are not treated as in-person votes cast.
-- Outstanding source arithmetic caution: returned 190,232 + not yet returned 304,160 = 494,392, which exceeds Ballots Sent 494,284 by **108**. Source values remain unchanged, with the caution visible in the application. These categories must not be assumed to form a synchronized accounting identity. No official explanation was obtained; the difference remains unresolved.
+All source party labels and counts are preserved. A county or category with missing fields remains partial/unavailable without blocking other supplied records. There is no comparison between county and state sums, no corroboration against other providers or government sites, no write-in investigation and no independent election-data verification. Only response parsing, geographic assignment and storage/display integrity are checked.
 
-Other counties have registration but no verified early-activity figures in this import. This is an import coverage limitation, not a claim that those counties publish no records. No polling, forecasts, third-party estimates or historical candidate data were used as current metrics.
+## Retained snapshots and provenance
 
-## Storage, provenance and refresh
+The acquisition index is `data/raw/2026/providers/early-vote-acquisition-20261028T065111735917Z.json`. It retains the exact tracker/documentation/capability/feed URLs, HTTP statuses, retrieval timestamps, raw file paths and SHA-256 values, including the unavailable in-person response.
 
-Migration `0002_publication_snapshots` adds publication state, immutable snapshots, current-stream pointers, event-level metric observations and refresh-attempt history. Publication stage, numerical completeness and source verification are separate fields. Metrics attach to the election event and remain separate from candidate vote records.
+The feeds publish `snapshot_date: 2026-10-27` without a clock time; that date precision is preserved. Retrieval timestamps are separate, shown in America/Phoenix by the application and recorded in UTC below. Each checksum identifies the exact retained response bytes, not a derived total or official canvass.
 
-Raw files are content-addressed under `data/raw/2026/snapshots/`; reviewed manifests under `data/raw/2026/manifests/` retain URLs, SHA-256, definitions, geography, reporting precision and retrieval times. Every import verifies the raw checksum and official source URL. Date-only reports retain date precision. Offset timestamps are normalized to UTC in storage and displayed in America/Phoenix.
+- **Requested**: retrieved `2026-10-28T06:51:10.914382+00:00`. Response `data/raw/2026/snapshots/f0aacef62e2bd85dfad449b2d87c48c9814bbabcb63387abb5797bcdd2296b24.json`. SHA-256 `f0aacef62e2bd85dfad449b2d87c48c9814bbabcb63387abb5797bcdd2296b24`.
+- **Returned**: retrieved `2026-10-28T06:51:11.323836+00:00`. Response `data/raw/2026/snapshots/6b443a57cc7ae5e3856065e9320c4cbfb2386f74cb379e4ecf151291963c780f.json`. SHA-256 `6b443a57cc7ae5e3856065e9320c4cbfb2386f74cb379e4ecf151291963c780f`.
 
-From the project root, using the virtual environment:
+Each category is stored once on the November 3 general-election event. The shared catalog/API view is a read-only alias over the existing storage anchor; it creates no new office, contest, snapshot or observation records. Original office API URLs remain compatible, while their browser page URLs redirect to the shared page. The two retained releases contain 128 observations: 16 geographic units × 2 categories × (one total plus three party buckets). No candidate `Participation` or `VoteResult` records are created.
+
+Stable snapshot identities prevent duplicates when data is unchanged. A new retrieval updates the check time. Older dated responses are archived without replacing newer category values. Archived official-source and earlier result-record snapshots are excluded from these current participation views; they are not re-fetched by this workflow.
+
+## Exact import commands
+
+From the repository root:
 
 ```sh
-# Apply migrations, then replay retained releases offline; never implies a new retrieval.
-.venv/bin/python -m alembic -c backend/alembic.ini upgrade head
-.venv/bin/python scripts/refresh_2026.py
+# Fetch early-voting participation feeds and provider documentation only.
+.venv/bin/python scripts/refresh_2026.py --early-voting
 
-# Explicitly acquire both currently supported county sources.
-.venv/bin/python scripts/refresh_2026.py --fetch all
+# Equivalent alias; also early-voting-only.
+.venv/bin/python scripts/refresh_2026.py --providers
 
-# Or refresh one source.
-.venv/bin/python scripts/refresh_2026.py --fetch maricopa
-.venv/bin/python scripts/refresh_2026.py --fetch pima
-
-# Import a reviewed future official aggregate/candidate release.
-.venv/bin/python scripts/refresh_2026.py --manifest data/raw/2026/manifests/REVIEWED-RELEASE.json
+# Replay these exact retained responses offline.
+.venv/bin/python scripts/refresh_2026.py --manifest data/raw/2026/manifests/early-vote-requested-b73d820adab8aee59251bed245089e719dbd6615ad109f585b48d967d0a7ffce.json
+.venv/bin/python scripts/refresh_2026.py --manifest data/raw/2026/manifests/early-vote-returned-597dd81a7b1e8e6561d564081e4a12f44356056a30680aabb8c2c36663299f38.json
 ```
 
-`scripts/bootstrap.py` also migrates and replays retained 2026 inputs. Registration refresh requires a new reviewed transcription/provenance and manifest; there is no automatic registration PDF extractor. Review its actual election period, official total and source date, then use `registration()` and `save_manifest()` in `scripts/refresh_2026.py` to retain the newly reviewed manifest before replaying it. Do not change the old immutable snapshot files.
+No-argument offline replay also includes the early-vote manifests; older result-record manifests cannot reactivate the earlier candidate-record source panels while event participation is active. Retrieval dates are not changed by offline replay. Refresh remains manual.
 
-Repeated identical inputs create no duplicate snapshots, observations or votes; refresh attempts are retained for audit. New cumulative releases replace current figures rather than adding to them. Older reports remain archived without replacing newer ones. Decreases and changed definitions trigger cautions. A failed county fetch exits nonzero, records the failure and leaves the last successful figures visible. Failed refreshes or retrievals older than 24 hours mark data stale. Replaying an old file does not clear failure staleness. This 24-hour rule concerns retrieval age, not a claim that registration changes daily.
+## County records displayed
 
-API: the normal catalog/detail/county routes expose 2026. `/api/elections/az-2026-governor/activity` exposes metric coverage, sources, report/retrieval dates, source failures and availability. `/api/elections/az-2026-governor/snapshots` exposes retained release payloads for audit. Historical activity responses are null.
+These values are extracted separately from each county's own Requested/Returned party buckets. The rows are not added together or reconciled against statewide values.
 
-## Future candidate releases
+| County | Requested | Returned |
+| --- | ---: | ---: |
+| Apache | 29,358 | 6,646 |
+| Cochise | 55,783 | 22,009 |
+| Coconino | 64,602 | 27,000 |
+| Gila | 25,122 | 12,541 |
+| Graham | 12,716 | 4,400 |
+| Greenlee | 2,843 | 956 |
+| La Paz | 6,582 | 2,216 |
+| Maricopa | 2,006,719 | 659,063 |
+| Mohave | 96,648 | 37,683 |
+| Navajo | 46,108 | 16,524 |
+| Pima | 492,659 | 183,930 |
+| Pinal | 205,200 | 77,962 |
+| Santa Cruz | 21,789 | 2,679 |
+| Yavapai | 140,951 | 71,652 |
+| Yuma | 82,834 | 18,014 |
 
-The strict reviewed-manifest schema is `backend/app/publication_input.py`. It requires the November 3 general election, an official retained raw source with checksum, a single `results` stream, an explicit `total` or `early_only` scope, the full source candidate/write-in roster, GEOID-keyed vote cells, and explicit roster/unit completeness. Missing cells remain null; true zeros remain zero. Results imports are gated until the official release time. The application does not infer completeness from positive numbers.
+## Technical checks and remaining limits
 
-One publisher's results snapshot replaces the active 2026 candidate release atomically; county snapshots are not mixed into a purported synchronized statewide release. Shares use the reported contest-vote sum only when the source roster and reporting unit are complete. Unofficial leaders are labelled current reported leaders, and the winner field remains null. Complete county/state candidate disagreements are flagged without adjustments. Certification additionally requires a retained final-canvass source, an independently reviewed statewide/county reference CSV and the existing full candidate/15-county reconciliation. A certified release cannot be replaced by an unofficial release.
+Technical checks cover parsing and field mapping, shared event storage, explicit zero versus missing behavior, partial coverage, absence of candidate results, retained response binding, idempotent replay and older-snapshot protection. They do not corroborate or reconcile election figures.
 
-No automatic election-night feed parser, automatic refresh scheduler or actual 2026 candidate/canvass release has been added. Future official result formats must be reviewed and converted into this contract. Certification logic was verified with isolated, explicitly synthetic test releases; those fixtures are never imported into the working database.
+Executed checks passed: 6 focused backend tests, 7 frontend unit tests, 10 browser checks, production TypeScript/Vite build, Alembic schema check and whitespace check. Coverage includes the single catalog entry, canonical API alias, both old-page redirects, all-empty columns, explicit zero/partial values, visible default sorting, Democratic/Republican maxima, Other/ties/missing cases, county selection, keyboard controls and mobile overflow. Both exact manifests were replayed without duplicating stored records. All 19 historical election-view API fingerprints match the pre-change baseline. Canonical and office snapshot APIs expose the same shared early-vote release IDs.
 
-## Executed verification
+The full historical backend suite previously stopped during its unrelated House bootstrap at a checksum mismatch for `data/raw/us-house/calendar/vacancies-114.html`. That file is outside this update and is unchanged. Dedicated early-vote tests use an isolated migrated database without that historical bootstrap.
 
-- Clean temporary-database migrations, historical imports and retained 2026 imports: backend suite, **13 passed**.
-- Actual registration statewide reconciliation: all 15 counties, exact match 4,374,827.
-- All 15 GEOIDs, no pre-release candidates/shares/winners, no manufactured statewide returns, real metric coverage and source cautions: API assertions passed.
-- Idempotence, zero versus missing, downward correction history, older-release preservation, checksum tampering, failed-refresh staleness, primary rejection, timestamp precision, unofficial denominator/leader rules and certified reconciliation gates: passed in isolated tests.
-- Frontend unit checks: **5 passed**. Production TypeScript/Vite build: passed.
-- Browser checks: **5 passed**, including historical navigation, 2026 county map/table selection, keyboard use, null-last sorting, neutral colors, source dates/cautions and mobile overflow.
-- Ordinary local bootstrap/replay succeeded. Alembic model/migration drift check passed.
-- Historical detail/county API SHA-256 fingerprints for 2014, 2018 and 2022 match `data/processed/2026/historical-baseline.json`; historical numerical values and behavior remain unchanged.
-
-Candidate-level 2026 reconciliation is not applicable before publication. This implementation does not claim certified or fully reconciled 2026 candidate results. The Pima arithmetic caution, Maricopa partial layer coverage, original registration PDF download restriction and incomplete county activity coverage remain explicit limitations.
+The usable feeds cover Requested and Returned statewide and all 15 counties. No in-person data is available from the inspected Arizona endpoint, and registration, mailed/issued and accepted values are not supplied. No missing category is zero-filled or substituted from another source.

@@ -32,20 +32,25 @@ export default function Methodology() {
       <section>
         <h2>2026 participation and reporting stages</h2>
         <p>
-          Before general-election candidate results are released, the 2026 page
-          shows official registration and early-voting activity with a neutral
-          map. These figures concern election participation, not votes for
-          governor. Received, requested, issued and signature-review statuses
-          retain their source definitions. N/A means no verified figure was
-          imported; county reports are never added into a statewide estimate.
+          The shared 2026 Early Voting page displays civicAPI early-voting
+          participation reports. Requested and returned ballots appear statewide
+          and by county, with the provider's party categories preserved. These
+          categories describe participation, not candidate support. Missing
+          metrics are N/A, while an explicit zero remains zero. Candidate results
+          stay unavailable. Blue/red counties indicate the uniquely largest
+          Democratic/Republican party-registration group among returned ballots.
+          Other, tied or missing breakdowns remain gray. These colors do not show
+          which candidates voters selected or how they voted.
         </p>
         <p>
           Source snapshots are refreshed manually and show their own reporting
           and retrieval dates in America/Phoenix. Previous releases and source
-          corrections remain auditable. Unofficial candidate results identify
-          current reported leaders and the published contest-vote denominator;
-          certification requires a final canvass and full reconciliation. Source
-          coverage and arithmetic cautions appear on the election page.
+          corrections remain auditable. These 2026 records are attributed to the
+          provider rather than described as official canvass results or
+          independently verified data. Statewide totals use the supplied
+          statewide party buckets; county totals are not added into a statewide
+          estimate. Requested and returned categories are kept separate. No
+          state/county corroboration or election-data reconciliation is performed.
         </p>
       </section>
       <section>

@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import { Link, useNavigate, useParams } from "react-router-dom";
+import { Link, Navigate, useNavigate, useParams } from "react-router-dom";
 import type { Activity, Detail, Election, Geography, Results } from "../types";
 import EarlyVotingPage from "./EarlyVotingPage";
 import HouseElectionPage from "./HouseElectionPage";
@@ -17,6 +17,8 @@ import CountyMap from "../Map";
 import CountyTable from "../CountyTable";
 export default function ElectionPage() {
   const { id = "" } = useParams();
+  if (id === "az-2026-governor" || id === "az-2026-attorney-general")
+    return <Navigate to="/elections/az-2026-early-voting" replace />;
   return id.includes("-us-house") ? (
     <HouseElectionPage key={id} id={id} />
   ) : (

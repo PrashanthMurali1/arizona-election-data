@@ -1,6 +1,6 @@
 from typing import Annotated
 from fastapi import FastAPI, Depends, HTTPException
-from sqlalchemy import select
+from sqlalchemy import select, func
 from sqlalchemy.orm import Session
 from .database import SessionLocal
 from .models import (
@@ -27,7 +27,7 @@ from .schemas import (
     HouseDistrictOut,
 )
 from . import house
-from .lifecycle import activity
+from .lifecycle import activity, CONTEST, AG_CONTEST
 from .services import metadata, results
 
 app = FastAPI(
@@ -43,13 +43,27 @@ def session():
 
 
 DB = Annotated[Session, Depends(session)]
+EARLY_VOTING = "az-2026-early-voting"
 
 
 def contest(s, id):
-    c = s.get(Contest, id)
+    c = s.get(Contest, CONTEST if id == EARLY_VOTING else id)
     if not c:
         raise HTTPException(404, "Election contest not found")
     return c
+
+
+def early_voting_metadata(s):
+    """An event-level catalog view over the retained participation, not a new contest."""
+    value = metadata(s, contest(s, EARLY_VOTING)).model_dump()
+    value.update(
+        id=EARLY_VOTING,
+        office_id="early-voting",
+        office="Early Voting",
+        county_count=s.scalar(select(func.count()).select_from(GeographicUnit).where(GeographicUnit.kind == "county")),
+        notes="2026 general-election early-voting participation and returned-ballot party-registration breakdowns. Registration does not indicate candidate choices.",
+    )
+    return ElectionOut(**value)
 
 
 @app.get("/api/health")
@@ -60,11 +74,12 @@ def health(s: DB):
 
 @app.get("/api/elections", response_model=list[HouseElectionOut | ElectionOut])
 def elections(s: DB):
-    return [
+    shared = [early_voting_metadata(s)] if s.get(Contest, CONTEST) else []
+    return shared + [
         metadata(s, c)
         for c in s.scalars(
             select(Contest)
-            .where(Contest.office_id != "us-house")
+            .where(Contest.office_id != "us-house", Contest.id.not_in([CONTEST, AG_CONTEST]))
             .order_by(Contest.id.desc())
         )
     ] + house.catalog(s)
@@ -77,7 +92,9 @@ def elections(s: DB):
 def election(id: str, s: DB):
     if house.is_overview(id):
         return house.overview(s, id)
+    requested_id = id
     c = contest(s, id)
+    id = c.id
     if c.office_id == "us-house":
         return house.district_detail(s, c)
     run = s.scalar(
@@ -112,7 +129,7 @@ def election(id: str, s: DB):
             if source["id"] not in existing_ids
         )
     return DetailOut(
-        election=metadata(s, c),
+        election=early_voting_metadata(s) if requested_id == EARLY_VOTING else metadata(s, c),
         statewide=results(s, c, s.get(GeographicUnit, c.jurisdiction_id)),
         sources=[SourceOut.model_validate(x, from_attributes=True) for x in sources],
         reconciliation=run.report if run else None,
@@ -176,8 +193,8 @@ def election_activity(id: str, s: DB):
     if house.is_overview(id):
         house.resolve(s, id)
         return None
-    contest(s, id)
-    return activity(s, id)
+    current_contest = contest(s, id)
+    return activity(s, current_contest.id)
 
 
 @app.get("/api/elections/{id}/snapshots")
@@ -187,7 +204,7 @@ def election_snapshots(id: str, s: DB):
     if house.is_overview(id):
         house.resolve(s, id)
         return []
-    contest(s, id)
+    current_contest = contest(s, id)
     return [
         dict(
             id=snap.id,
@@ -204,9 +221,10 @@ def election_snapshots(id: str, s: DB):
         )
         for snap in s.scalars(
             select(PublicationSnapshot)
-            .where(PublicationSnapshot.contest_id == id)
+            .where(PublicationSnapshot.event_id == current_contest.event_id)
             .order_by(PublicationSnapshot.retrieved_at)
         )
+        if snap.contest_id == current_contest.id or snap.payload.get("provider_participation")
     ]
 
 

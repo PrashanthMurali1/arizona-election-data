@@ -1,0 +1,54 @@
+{
+  "acquisitions": [
+    {
+      "url": "https://civicapi.org/early-vote/az",
+      "http_status": 200,
+      "retrieved_at": "2026-10-28T06:51:08.659991+00:00",
+      "raw_path": "data/raw/2026/snapshots/2b7313f669ef5f86c4eff5528ec4d92034bc294393fba2a8597ae1e0bd891a76.html",
+      "sha256": "2b7313f669ef5f86c4eff5528ec4d92034bc294393fba2a8597ae1e0bd891a76"
+    },
+    {
+      "url": "https://civicapi.org/api/v2/early-vote/AZ/capabilities",
+      "http_status": 200,
+      "retrieved_at": "2026-10-28T06:51:09.688417+00:00",
+      "raw_path": "data/raw/2026/snapshots/6c03068db934c60c824094034dde222a15dca6f739c418660d269c760424a736.json",
+      "sha256": "6c03068db934c60c824094034dde222a15dca6f739c418660d269c760424a736"
+    },
+    {
+      "url": "https://www.decisionlabs.ai/docs/api",
+      "http_status": 200,
+      "retrieved_at": "2026-10-28T06:51:09.840694+00:00",
+      "raw_path": "data/raw/2026/snapshots/29d461fd840d1b22e4bbe46d2870200eb8df27f8176029f6e771de4c688b01c5.html",
+      "sha256": "29d461fd840d1b22e4bbe46d2870200eb8df27f8176029f6e771de4c688b01c5"
+    },
+    {
+      "url": "https://civicapi.org/api/v2/early-vote/AZ/requested",
+      "http_status": 200,
+      "retrieved_at": "2026-10-28T06:51:10.914382+00:00",
+      "raw_path": "data/raw/2026/snapshots/f0aacef62e2bd85dfad449b2d87c48c9814bbabcb63387abb5797bcdd2296b24.json",
+      "sha256": "f0aacef62e2bd85dfad449b2d87c48c9814bbabcb63387abb5797bcdd2296b24"
+    },
+    {
+      "url": "https://civicapi.org/api/v2/early-vote/AZ/returned",
+      "http_status": 200,
+      "retrieved_at": "2026-10-28T06:51:11.323836+00:00",
+      "raw_path": "data/raw/2026/snapshots/6b443a57cc7ae5e3856065e9320c4cbfb2386f74cb379e4ecf151291963c780f.json",
+      "sha256": "6b443a57cc7ae5e3856065e9320c4cbfb2386f74cb379e4ecf151291963c780f"
+    },
+    {
+      "url": "https://civicapi.org/api/v2/early-vote/AZ/inperson",
+      "http_status": 404,
+      "retrieved_at": "2026-10-28T06:51:11.734235+00:00",
+      "raw_path": "data/raw/2026/snapshots/9a3bbe817a9da7ae46a21e6bf82f9accd2b24ca3eb7fe07d709d46c172add8e6.json",
+      "sha256": "9a3bbe817a9da7ae46a21e6bf82f9accd2b24ca3eb7fe07d709d46c172add8e6"
+    }
+  ],
+  "unavailable": [
+    {
+      "category": "inperson",
+      "url": "https://civicapi.org/api/v2/early-vote/AZ/inperson",
+      "reason": "early-vote data not found"
+    }
+  ],
+  "failures": []
+}

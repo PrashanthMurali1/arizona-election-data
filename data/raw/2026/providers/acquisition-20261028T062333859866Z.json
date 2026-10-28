@@ -1,0 +1,54 @@
+{
+  "acquisitions": [
+    {
+      "url": "https://www.decisionlabs.ai/docs/api",
+      "http_status": 200,
+      "retrieved_at": "2026-10-28T06:23:29.707471+00:00",
+      "raw_path": "data/raw/2026/snapshots/29d461fd840d1b22e4bbe46d2870200eb8df27f8176029f6e771de4c688b01c5.html",
+      "sha256": "29d461fd840d1b22e4bbe46d2870200eb8df27f8176029f6e771de4c688b01c5"
+    },
+    {
+      "url": "https://www.decisionlabs.ai/states/az",
+      "http_status": 200,
+      "retrieved_at": "2026-10-28T06:23:29.815577+00:00",
+      "raw_path": "data/raw/2026/snapshots/ba3826c4c711644d2d1d6e18def23846bca76acdc08dbdb4aea71dc3ba30437a.html",
+      "sha256": "ba3826c4c711644d2d1d6e18def23846bca76acdc08dbdb4aea71dc3ba30437a"
+    },
+    {
+      "url": "https://www.decisionlabs.ai/api/elections/2026",
+      "http_status": 400,
+      "retrieved_at": "2026-10-28T06:23:30.190215+00:00",
+      "raw_path": "data/raw/2026/snapshots/65e36ff36ac304402e86955febd12b777de64fd198cf31a6be41c0ada473210a.json",
+      "sha256": "65e36ff36ac304402e86955febd12b777de64fd198cf31a6be41c0ada473210a"
+    },
+    {
+      "url": "https://civicapi.org/api/v2/race/search?query=Arizona+Governor&startDate=2026-11-03&endDate=2026-11-03&limit=100",
+      "http_status": 200,
+      "retrieved_at": "2026-10-28T06:23:31.341566+00:00",
+      "raw_path": "data/raw/2026/snapshots/159e3edf089ab6a3f3398ee64f1c537aea2c84f805d1644d4f0e4593b1d06dad.json",
+      "sha256": "159e3edf089ab6a3f3398ee64f1c537aea2c84f805d1644d4f0e4593b1d06dad"
+    },
+    {
+      "url": "https://civicapi.org/api/v2/race/86928",
+      "http_status": 200,
+      "retrieved_at": "2026-10-28T06:23:31.707674+00:00",
+      "raw_path": "data/raw/2026/snapshots/37f91df1efa8c43f42356e4ecd0a174693ea4d9c5a48388db1b40acab26ae0bd.json",
+      "sha256": "37f91df1efa8c43f42356e4ecd0a174693ea4d9c5a48388db1b40acab26ae0bd"
+    },
+    {
+      "url": "https://civicapi.org/api/v2/race/search?query=Arizona+Attorney+General&startDate=2026-11-03&endDate=2026-11-03&limit=100",
+      "http_status": 200,
+      "retrieved_at": "2026-10-28T06:23:32.731083+00:00",
+      "raw_path": "data/raw/2026/snapshots/8c98562ce59bc48a24c2062ab37f6a9b3087bf4ee9dda72af2d8f8f1b4f166c8.json",
+      "sha256": "8c98562ce59bc48a24c2062ab37f6a9b3087bf4ee9dda72af2d8f8f1b4f166c8"
+    },
+    {
+      "url": "https://civicapi.org/api/v2/race/86930",
+      "http_status": 200,
+      "retrieved_at": "2026-10-28T06:23:33.859394+00:00",
+      "raw_path": "data/raw/2026/snapshots/2b239b4538dea21610ed2d43a0ed8556e045bce52f96a45aed8e456a18e9c0af.json",
+      "sha256": "2b239b4538dea21610ed2d43a0ed8556e045bce52f96a45aed8e456a18e9c0af"
+    }
+  ],
+  "failures": []
+}

@@ -61,8 +61,19 @@ def local_file(path, root=ROOT):
     return result
 
 
-def check_source(source, root=ROOT):
+def check_source(source, root=ROOT, provider=None):
     host = urlparse(source.url).hostname or ""
+    provider_hosts = {
+        "civicAPI": {"civicapi.org", "www.civicapi.org"},
+        "Decision Labs": {"decisionlabs.ai", "www.decisionlabs.ai"},
+    }
+    if provider:
+        if urlparse(source.url).scheme != "https" or host not in provider_hosts.get(provider, set()):
+            raise ValueError("Provider report URL must belong to the selected provider")
+        raw = local_file(source.raw_path, root).read_bytes()
+        if hashlib.sha256(raw).hexdigest() != source.sha256:
+            raise ValueError("Raw provider snapshot checksum does not match")
+        return raw
     if urlparse(source.url).scheme != "https" or not (
         host.endswith(".gov")
         or host == "results.arizona.vote"
@@ -165,7 +176,8 @@ def record_failure(s, stream, error, now=None):
 
 def apply_snapshot(s: Session, data: SnapshotInput, *, root=ROOT, now=None):
     now = now or utcnow()
-    check_source(data.source, root)
+    provider = data.provider_report or data.provider_participation
+    check_source(data.source, root, provider=provider.provider if provider else None)
     if instant(data.retrieved_at) > now + timedelta(minutes=5):
         raise ValueError("Retrieval time is in the future")
     if data.report_precision == "datetime" and instant(
@@ -197,12 +209,13 @@ def apply_snapshot(s: Session, data: SnapshotInput, *, root=ROOT, now=None):
                 "Missing metrics require unavailable status; a genuine zero remains a value"
             )
     if data.kind == "results":
-        if now < RELEASE_AFTER:
+        if not data.provider_report and now < RELEASE_AFTER:
             raise ValueError(
                 "General-election candidate results have not reached the official release time"
             )
         if (
-            data.report_precision == "datetime"
+            not data.provider_report
+            and data.report_precision == "datetime"
             and instant(data.reported_at) < RELEASE_AFTER
         ):
             raise ValueError("Result timestamp predates general-election release")
@@ -235,6 +248,10 @@ def apply_snapshot(s: Session, data: SnapshotInput, *, root=ROOT, now=None):
                 raise ValueError("A complete unit must have every candidate value")
     payload = data.model_dump()
     identity = data.model_dump(exclude={"retrieved_at"})
+    if data.provider_report is None:
+        identity.pop("provider_report", None)
+    if data.provider_participation is None:
+        identity.pop("provider_participation", None)
     # Keep IDs stable for reviewed manifests created before office_id existed.
     if "office_id" not in data.model_fields_set:
         identity.pop("office_id", None)
@@ -249,6 +266,7 @@ def apply_snapshot(s: Session, data: SnapshotInput, *, root=ROOT, now=None):
     warnings = list(data.source_warnings)
     if (
         data.kind == "results"
+        and not data.provider_report
         and data.roster_complete
         and units <= set(data.complete_units)
     ):
@@ -260,7 +278,7 @@ def apply_snapshot(s: Session, data: SnapshotInput, *, root=ROOT, now=None):
                 warnings.append(
                     f"{candidate.name}: county sum {county_sum} differs from published statewide {state_value}; source figures retained without adjustment."
                 )
-    if previous:
+    if previous and not data.provider_participation:
         if data.kind == "participation":
             old = {(m["geoid"], m["key"]): m for m in previous.payload["metrics"]}
             for m in data.metrics:
@@ -366,6 +384,11 @@ def apply_snapshot(s: Session, data: SnapshotInput, *, root=ROOT, now=None):
         or not data.reported_at
         or data.reported_at >= previous.reported_at
     )
+    if provider:
+        if previous and previous.reported_at and not data.reported_at:
+            advance = False
+        if data.stage == "pre_results" and publication.stage != "pre_results":
+            advance = False
     if (
         previous
         and previous.reported_at == data.reported_at
@@ -384,6 +407,28 @@ def apply_snapshot(s: Session, data: SnapshotInput, *, root=ROOT, now=None):
         else:
             cursor.snapshot_id = sid
             cursor.checked_at = max(cursor.checked_at, data.retrieved_at)
+        shared_participation = any(
+            s.get(PublicationSnapshot, current.snapshot_id).payload.get("provider_participation")
+            for current in s.scalars(select(CurrentSnapshot).where(CurrentSnapshot.event_id == EVENT))
+        )
+        if data.provider_report and data.stage == "pre_results" and not shared_participation:
+            publication.completeness = data.completeness
+            publication.verification = "provider_report"
+            publication.notes = data.notes
+            contest = s.get(Contest, target_contest)
+            contest.source_id = "snapshot-" + sid
+            contest.notes = data.notes
+        if data.provider_participation:
+            for contest_id in (CONTEST, AG_CONTEST):
+                current_publication = s.get(ElectionPublication, contest_id)
+                if current_publication.stage != "pre_results":
+                    continue
+                current_publication.completeness = "partial"
+                current_publication.verification = "provider_report"
+                current_publication.notes = "Early-voting participation reports from the selected provider, shared by Governor and Attorney General. Candidate results are unavailable."
+                current_contest = s.get(Contest, contest_id)
+                current_contest.source_id = "snapshot-" + sid
+                current_contest.notes = current_publication.notes
         if data.kind == "results":
             old_ids = list(
                 s.scalars(
@@ -489,12 +534,42 @@ def activity(s, contest_id, now=None):
             select(CurrentSnapshot).where(CurrentSnapshot.event_id == contest.event_id)
         )
     )
+    shared = [
+        snap for cursor in cursors
+        if (snap := s.get(PublicationSnapshot, cursor.snapshot_id)).payload.get("provider_participation")
+    ] if publication.stage == "pre_results" else []
+    shared_provider = max(shared, key=lambda snap: snap.retrieved_at).payload["provider_participation"]["provider"] if shared else None
+    shared = [snap for snap in shared if snap.payload["provider_participation"]["provider"] == shared_provider]
+    shared_ids = {snap.id for snap in shared}
+    participation_report = {
+        "provider": shared_provider,
+        "reports": [dict(**snap.payload["provider_participation"], source_id=snap.source_id, snapshot_id=snap.id) for snap in shared],
+    } if shared else None
+    selected_provider = next(
+        (
+            snap
+            for cursor in cursors
+            if (snap := s.get(PublicationSnapshot, cursor.snapshot_id)).contest_id == contest_id
+            and snap.source_id == contest.source_id
+            and snap.payload.get("provider_report")
+        ),
+        None,
+    )
+    if shared:
+        selected_provider = None
+    provider_report = selected_provider.payload["provider_report"] if selected_provider else None
     observations = {}
     sources = {}
     releases = []
     warnings = []
     for cursor in cursors:
         snap = s.get(PublicationSnapshot, cursor.snapshot_id)
+        if shared and snap.id not in shared_ids:
+            continue
+        if not shared and selected_provider and snap.id != selected_provider.id:
+            continue
+        if not shared and snap.payload.get("provider_report") and snap.contest_id != contest_id:
+            continue
         if snap.kind == "results" and snap.contest_id != contest_id:
             continue
         source = s.get(Source, snap.source_id)
@@ -546,13 +621,19 @@ def activity(s, contest_id, now=None):
             )
 
     def metrics(unit):
+        extra_keys = sorted({key for geoid, key in observations if geoid == unit and key not in METRICS})
+        labels = [*METRICS.items(), *((key, key) for key in extra_keys)]
         return [
             observations.get(
                 (unit, key),
                 dict(
                     key=key,
                     label=label,
-                    definition="No verified official figure imported for this county/metric.",
+                    definition=(
+                        "The selected provider has not supplied this metric."
+                        if provider_report or participation_report
+                        else "No verified official figure imported for this county/metric."
+                    ),
                     value=None,
                     completeness="unavailable",
                     coverage_note="N/A does not mean zero.",
@@ -564,7 +645,7 @@ def activity(s, contest_id, now=None):
                     stale=False,
                 ),
             )
-            for key, label in METRICS.items()
+            for key, label in labels
         ]
 
     counties = [
@@ -609,6 +690,10 @@ def activity(s, contest_id, now=None):
         )
         .order_by(RefreshAttempt.id.desc())
     ):
+        if shared and attempt.stream not in {snap.stream for snap in shared}:
+            continue
+        if selected_provider and attempt.stream != selected_provider.stream:
+            continue
         valid_result_streams = {
             AG_CONTEST: {"results-attorney-general"},
             CONTEST: {"results", "results-governor"},
@@ -634,12 +719,16 @@ def activity(s, contest_id, now=None):
         candidate_availability=(
             "published"
             if publication.stage != "pre_results"
+            else provider_report["race_status"]
+            if provider_report
             else "not_released"
             if now < RELEASE_AFTER
             else "not_imported"
         ),
         completeness=publication.completeness,
         verification=publication.verification,
+        provider_report=provider_report,
+        provider_participation=participation_report,
         notes=publication.notes,
         statewide=dict(geoid="04", name="Arizona", metrics=metrics("04")),
         counties=counties,
@@ -654,5 +743,9 @@ def activity(s, contest_id, now=None):
         ],
         reported_leaders=leaders,
         refresh_mode="manual",
-        statewide_policy="Only directly published statewide figures are shown. County releases have separate source dates and are never presented as a synchronized statewide report.",
+        statewide_policy=(
+            "Statewide totals use the provider's statewide party buckets; county figures remain separate. Party categories describe participation, not candidate votes."
+            if participation_report
+            else "Only directly published statewide figures are shown. County releases have separate source dates and are never presented as a synchronized statewide report."
+        ),
     )

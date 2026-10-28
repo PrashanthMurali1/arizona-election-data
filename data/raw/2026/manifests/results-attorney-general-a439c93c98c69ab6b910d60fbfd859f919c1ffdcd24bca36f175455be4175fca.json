@@ -1,0 +1,48 @@
+{
+  "election_date": "2026-11-03",
+  "election_kind": "general",
+  "office_id": "attorney-general",
+  "stream": "results-attorney-general",
+  "kind": "participation",
+  "stage": "pre_results",
+  "completeness": "unavailable",
+  "verification": "provider_report",
+  "source": {
+    "title": "civicAPI — 2026 Arizona Attorney General",
+    "url": "https://civicapi.org/api/v2/race/86930",
+    "raw_path": "data/raw/2026/snapshots/2b239b4538dea21610ed2d43a0ed8556e045bce52f96a45aed8e456a18e9c0af.json",
+    "sha256": "2b239b4538dea21610ed2d43a0ed8556e045bce52f96a45aed8e456a18e9c0af",
+    "notes": "civicAPI lists Kris Mayes (Democratic), Warren Petersen (Republican) with 0% reporting. No candidate results are reporting. Source zero placeholders are retained in the snapshot; the view remains pre-results. No participation figures are inferred from candidate records. Provider last_updated: 2026-10-22T21:58:38.170Z. Retrieved: 2026-10-28T06:23:33.859394+00:00. Retained response: data/raw/2026/snapshots/2b239b4538dea21610ed2d43a0ed8556e045bce52f96a45aed8e456a18e9c0af.json. SHA-256 covers that exact response file: 2b239b4538dea21610ed2d43a0ed8556e045bce52f96a45aed8e456a18e9c0af."
+  },
+  "reported_at": "2026-10-22T21:58:38.170Z",
+  "report_precision": "datetime",
+  "retrieved_at": "2026-10-28T06:23:33.859394+00:00",
+  "release_id": "civicapi-race-86930-2b239b4538dea21610ed2d43a0ed8556e045bce52f96a45aed8e456a18e9c0af",
+  "vote_scope": "participation",
+  "notes": "civicAPI lists Kris Mayes (Democratic), Warren Petersen (Republican) with 0% reporting. No candidate results are reporting. Source zero placeholders are retained in the snapshot; the view remains pre-results. No participation figures are inferred from candidate records.",
+  "provider_report": {
+    "provider": "civicAPI",
+    "record_id": "86930",
+    "test_data": false,
+    "race_status": "not_reporting",
+    "percent_reporting": 0,
+    "candidates": [
+      {
+        "name": "Kris Mayes",
+        "party": "Democratic",
+        "votes": 0,
+        "percent": 0,
+        "winner": false
+      },
+      {
+        "name": "Warren Petersen",
+        "party": "Republican",
+        "votes": 0,
+        "percent": 0,
+        "winner": false
+      }
+    ],
+    "county_percentages": {},
+    "county_reporting": {}
+  }
+}

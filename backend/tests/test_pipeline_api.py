@@ -55,9 +55,10 @@ def client():
 def test_clean_migration_and_import(client):
     assert client.get("/api/health").json() == {"status": "ok"}
     catalog = client.get("/api/elections").json()
-    assert len(catalog) == 21
-    assert len([x for x in catalog if x["office_id"] == "governor"]) == 4
-    assert len([x for x in catalog if x["office_id"] == "attorney-general"]) == 4
+    assert len(catalog) == 20
+    assert len([x for x in catalog if x["office_id"] == "governor"]) == 3
+    assert len([x for x in catalog if x["office_id"] == "attorney-general"]) == 3
+    assert len([x for x in catalog if x["office_id"] == "early-voting"]) == 1
     assert all(x["id"] != "az-2026-us-senate" for x in catalog)
     assert client.get("/api/elections/az-2026-us-senate").status_code == 404
     result = client.get("/api/elections/az-2022-governor").json()
@@ -288,70 +289,27 @@ def test_2018_normalization_is_reproducible_and_detects_missing_votes():
     assert sum(r["G18GOVOWRI"] for r in totals.values()) == 3203
 
 
-def test_2026_real_sources_and_pre_release_api(client):
-    detail = client.get("/api/elections/az-2026-governor").json()
-    assert detail["election"]["status"] == "pre_results"
-    assert detail["statewide"]["candidates"] == []
-    assert detail["statewide"]["winner"] is None
-    assert detail["statewide"]["total_votes"] is None
-    rows = client.get("/api/elections/az-2026-governor/counties").json()
-    assert len(rows) == 15
-    assert all(
-        r["candidates"] == [] and r["winner"] is None and r["total_votes"] is None
-        for r in rows
-    )
-    a = client.get("/api/elections/az-2026-governor/activity").json()
-    assert a["stage"] == "pre_results" and a["reported_leaders"] == {}
-    assert a["coverage"]["registered_voters"] == 15
-    assert a["coverage"]["ballots_received"] == 2
-    assert (
-        a["coverage"]["ballots_accepted"] == 0 and a["coverage"]["in_person_early"] == 0
-    )
-    assert (
-        next(
-            m["value"]
-            for m in a["statewide"]["metrics"]
-            if m["key"] == "registered_voters"
-        )
-        == 4374827
-    )
-    assert (
-        next(
-            m["value"]
-            for m in a["statewide"]["metrics"]
-            if m["key"] == "ballots_received"
-        )
-        is None
-    )
-    assert (
-        sum(
-            next(m["value"] for m in r["metrics"] if m["key"] == "registered_voters")
-            for r in a["counties"]
-        )
-        == 4374827
-    )
-    pima = next(c for c in a["counties"] if c["geoid"] == "04019")
-    assert (
-        next(m["value"] for m in pima["metrics"] if m["key"] == "ballots_received")
-        == 190232
-    )
-    assert (
-        next(m["value"] for m in pima["metrics"] if m["key"] == "ballots_issued")
-        == 494284
-    )
-    assert (
-        next(
-            m["value"] for m in pima["metrics"] if m["key"] == "ballots_verified_ready"
-        )
-        == 8413
-    )
-    assert any("difference +108" in w for w in a["warnings"])
-    maricopa = next(c for c in a["counties"] if c["geoid"] == "04013")
-    received = next(m for m in maricopa["metrics"] if m["key"] == "ballots_received")
-    assert received["value"] >= 660040 and received["completeness"] == "partial"
-    assert "signature review" in received["definition"]
-    assert "12" in received["coverage_note"]
-    assert len(client.get("/api/elections/az-2026-governor/snapshots").json()) >= 3
+def test_2026_provider_availability_and_pre_release_api(client):
+    for office in ("governor", "attorney-general"):
+        endpoint = f"/api/elections/az-2026-{office}"
+        detail = client.get(endpoint).json()
+        assert detail["election"]["status"] == "pre_results"
+        assert detail["statewide"]["candidates"] == []
+        assert detail["statewide"]["winner"] is None
+        assert detail["statewide"]["total_votes"] is None
+        rows = client.get(endpoint + "/counties").json()
+        assert len(rows) == 15
+        assert all(not r["candidates"] and r["winner"] is None and r["total_votes"] is None for r in rows)
+        activity = client.get(endpoint + "/activity").json()
+        assert activity["stage"] == "pre_results" and activity["reported_leaders"] == {}
+        assert activity["candidate_availability"] == "not_released"
+        assert activity["provider_report"] is None
+        assert activity["provider_participation"]["provider"] == "civicAPI"
+        assert activity["coverage"]["ballots_requested"] == 15
+        assert activity["coverage"]["ballots_received"] == 15
+        assert len(activity["sources"]) == len(activity["releases"]) == 2
+        assert all(source["url"].startswith("https://civicapi.org/api/v2/early-vote/") for source in activity["sources"])
+        assert not activity["warnings"]
     assert client.get("/api/elections/az-2022-governor/activity").json() is None
 
 
@@ -397,8 +355,8 @@ def test_attorney_general_history_and_2026_event_activity(client):
     assert len(rows) == 15
     assert all(not row["candidates"] and row["winner"] is None for row in rows)
     assert activity["stage"] == "pre_results"
-    assert activity["coverage"]["registered_voters"] == 15
-    assert activity["coverage"]["ballots_received"] == 2
+    assert activity["coverage"]["registered_voters"] == 0
+    assert activity["coverage"]["ballots_received"] == 15
 
 
 def test_2026_snapshot_idempotence_and_historical_values(client):
@@ -489,6 +447,11 @@ def test_2026_staleness_corrections_and_older_snapshots(client, tmp_path):
     )
     now = datetime(2026, 10, 27, 11, tzinfo=timezone.utc)
     with SessionLocal() as s:
+        # Exercise the archived official-stream behavior without the current provider selection.
+        s.get(Contest, CONTEST).source_id = "2026-availability"
+        from backend.app.models import CurrentSnapshot
+        from sqlalchemy import delete
+        s.execute(delete(CurrentSnapshot).where(CurrentSnapshot.stream.like("early-vote-%")))
         apply_snapshot(s, SnapshotInput.model_validate(values), root=tmp_path, now=now)
         reduced = copy.deepcopy(values)
         reduced["metrics"][0]["value"] = 0

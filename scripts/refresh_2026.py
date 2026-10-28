@@ -1,4 +1,4 @@
-"""Explicit official aggregate refreshes; archived inputs support offline replay."""
+"""Explicit 2026 source refreshes; archived inputs support offline replay."""
 
 import argparse
 import csv
@@ -368,6 +368,10 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     group = parser.add_mutually_exclusive_group()
     group.add_argument(
+        "--providers", "--early-voting", action="store_true",
+        help="Refresh shared 2026 early-voting participation only; never fetch candidate races",
+    )
+    group.add_argument(
         "--fetch",
         choices=["maricopa", "pima", "all"],
         help="Explicit network refresh; previous values survive source failures",
@@ -378,7 +382,24 @@ def main():
         help="Import one reviewed aggregate/result release from data/raw",
     )
     args = parser.parse_args()
-    if args.fetch:
+    if args.providers:
+        from scripts.provider_2026 import fetch_provider_inputs
+
+        payloads, failures = fetch_provider_inputs()
+        for payload in payloads:
+            try:
+                data = save_manifest(payload)
+                with SessionLocal.begin() as s:
+                    print(data.stream, json.dumps(apply_snapshot(s, data)))
+            except Exception as exc:
+                failures.append((payload["stream"], str(exc)))
+        for stream, error in failures:
+            with SessionLocal.begin() as s:
+                record_failure(s, stream, error)
+            print(stream, "FAILED; last successful provider report preserved:", error)
+        if failures:
+            raise SystemExit(1)
+    elif args.fetch:
         streams = ["maricopa", "pima"] if args.fetch == "all" else [args.fetch]
         failures = []
         for stream in streams:

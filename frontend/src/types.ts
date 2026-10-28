@@ -127,7 +127,31 @@ export interface Participation {
 }
 export interface Activity {
   stage: "pre_results" | "unofficial" | "certified";
-  candidate_availability: "not_released" | "not_imported" | "published";
+  candidate_availability: "not_released" | "not_imported" | "published" | "test_data" | "not_reporting";
+  provider_participation?: {
+    provider: string;
+    reports: {
+      category: string;
+      label: string;
+      source_id: string;
+      snapshot_id: string;
+      breakdowns: Record<string, Record<string, number | null>>;
+    }[];
+  } | null;
+  provider_report?: {
+    provider: string;
+    record_id: string;
+    test_data: boolean;
+    race_status: string;
+    percent_reporting: number | null;
+    candidates: {
+      name: string;
+      party: string;
+      votes: number | null;
+      percent: number | null;
+      winner: boolean;
+    }[];
+  } | null;
   completeness: string;
   verification: string;
   notes: string;
