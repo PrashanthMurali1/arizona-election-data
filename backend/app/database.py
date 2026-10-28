@@ -10,7 +10,7 @@ DATABASE_URL = os.getenv(
 )
 engine = create_engine(
     DATABASE_URL,
-    connect_args={"check_same_thread": False}
+    connect_args={"check_same_thread": False, "timeout": 15}
     if DATABASE_URL.startswith("sqlite")
     else {},
 )
