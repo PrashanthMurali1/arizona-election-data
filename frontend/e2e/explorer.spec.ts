@@ -265,6 +265,9 @@ test("one 2026 Early Voting catalog entry shows registration colors and populate
   await card.click();
   await expect(page).toHaveURL(/\/elections\/az-2026-early-voting$/);
   await expect(page.getByRole("heading", { name: "2026 Early Voting", exact: true })).toBeVisible();
+  await expect(page.getByRole("heading", { name: "Source snapshots", exact: true })).toHaveCount(0);
+  await expect(page.getByRole("region", { name: "Reporting dates and source status" })).toHaveCount(0);
+  await expect(page.locator(".notice > strong")).toHaveText("Early-voting participation reports.");
   await expect(page.locator(".candidate-row")).toHaveCount(0);
   await expect(page.locator(".county-map path.dem")).toHaveCount(5);
   await expect(page.locator(".county-map path.rep")).toHaveCount(10);
@@ -280,10 +283,18 @@ test("one 2026 Early Voting catalog entry shows registration colors and populate
   await page.getByRole("button", { name: "Pima County. View early-voting activity." }).click();
   const detail = page.getByRole("region", { name: "Selected county details" });
   await expect(detail.getByRole("heading", { name: "Pima County" })).toBeVisible();
+  await expect(detail.locator(".activity-metric")).toHaveCount(8);
+  await expect(detail).not.toContainText("N/A");
+  await expect(detail.getByText("Active registered voters", { exact: true })).toHaveCount(0);
   await expect(detail).toContainText("492,659");
   await expect(detail).toContainText("183,930");
   await expect(detail).toContainText("89,873");
   await expect(detail).toContainText("date only");
+  await expect(detail).toContainText("As of:");
+  await expect(detail).toContainText("Retrieved:");
+  await expect(detail).toContainText("Early ballots requested in this county.");
+  await expect(detail).toContainText("Early ballots returned, grouped by Democratic voter registration.");
+  await expect(detail).not.toContainText(/civicAPI/i);
   const table = page.getByRole("region", { name: "County participation table" });
   await expect(table.locator("thead th")).toHaveCount(3);
   for (const [i, label] of ["County", "Requested", "Returned"].entries())
@@ -302,6 +313,10 @@ test("one 2026 Early Voting catalog entry shows registration colors and populate
   await expect(page.locator('.county-map path[aria-label^="Apache County."]')).toHaveClass(/selected/);
   await expect(page.locator(".sources")).toContainText("Democratic: 1,053,507");
   await expect(page.locator(".sources")).toContainText("Democratic: 430,622");
+  await expect(page.getByRole("heading", { name: "Sources & coverage", exact: true })).toBeVisible();
+  await expect(page.locator(".sources")).toContainText("civicAPI");
+  await expect(page.locator('.sources a[href^="https://civicapi.org/api/v2/early-vote/AZ/"]')).toHaveCount(2);
+  expect((await page.locator("main > :not(.sources)").allTextContents()).join(" ")).not.toMatch(/civicAPI/i);
   await page.setViewportSize({ width: 390, height: 844 });
   expect(await page.evaluate(() => document.documentElement.scrollWidth)).toBeLessThanOrEqual(390);
   await page.screenshot({ path: "test-results/2026-mobile.png", fullPage: true });
@@ -331,6 +346,11 @@ test("early-voting columns preserve zero and partial data; ties, Other and missi
       for (const metric of county.metrics) {
         metric.value = metric.key === "ballots_requested" && county.geoid === "04001" ? 10
           : metric.key === "ballots_accepted" && county.geoid === "04003" ? 0 : null;
+        if (metric.value === 0) {
+          metric.definition = "Synthetic zero-count participation fixture.";
+          metric.coverage_note = "";
+          metric.completeness = "complete";
+        }
       }
     }
     const returned = data.provider_participation.reports.find((r: {category: string}) => r.category === "returned");
@@ -353,6 +373,11 @@ test("early-voting columns preserve zero and partial data; ties, Other and missi
   await expect(table.locator("tbody tr").filter({ hasText: "Coconino" })).toContainText("N/A");
   await table.getByRole("button", { name: "Accepted", exact: false }).click();
   await expect(table.locator("tbody tr").first()).toContainText("Cochise");
+  await table.getByRole("button", { name: "Cochise", exact: true }).click();
+  const detail = page.getByRole("region", { name: "Selected county details" });
+  await expect(detail.locator(".activity-metric")).toHaveCount(1);
+  await expect(detail.locator(".activity-value strong").last()).toHaveText("0");
+  await expect(detail).not.toContainText("N/A");
   for (const name of ["Apache", "Cochise", "Coconino"])
     await expect(page.locator(`.county-map path[aria-label^="${name} County."]`)).toHaveClass(/other/);
   // Requested is Democratic in this fixture; Returned still determines Pinal's red color.
@@ -360,4 +385,7 @@ test("early-voting columns preserve zero and partial data; ties, Other and missi
   await page.locator('.county-map path[aria-label^="Apache County."]').focus();
   await page.keyboard.press("Space");
   await expect(page.getByRole("region", { name: "Selected county details" }).getByRole("heading", { name: "Apache County" })).toBeVisible();
+  await expect(detail.locator(".activity-metric")).toHaveCount(1);
+  await expect(detail.locator(".activity-value strong").last()).toHaveText("10");
+  await expect(detail).not.toContainText("N/A");
 });

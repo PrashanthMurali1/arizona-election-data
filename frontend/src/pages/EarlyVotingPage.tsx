@@ -1,6 +1,6 @@
 import { Link, useNavigate } from "react-router-dom";
 import type { RefObject } from "react";
-import type { Activity, Election, Geography, Results } from "../types";
+import type { Activity, ActivityMetric, Election, Geography, Results } from "../types";
 import CountyMap from "../Map";
 import ActivityTable from "../ActivityTable";
 import SnapshotNotice from "../SnapshotNotice";
@@ -29,12 +29,29 @@ export default function EarlyVotingPage({
 }) {
   const navigate = useNavigate();
   const county = activity.counties.find((c) => c.geoid === selected);
+  const compactDetails = election.id === "az-2026-early-voting";
+  const countyMetrics = county?.metrics.filter((metric) => !compactDetails || metric.value != null) ?? [];
   const participation = activity.provider_participation;
   const provider = participation
     ? { provider: participation.provider, test_data: false }
     : activity.provider_report;
   const firstMetric = participation ? "ballots_requested" : "registered_voters";
   const returnedBreakdowns = participation?.reports.find((report) => report.category === "returned")?.breakdowns ?? {};
+  const detailLabel = (metric: ActivityMetric) => compactDetails
+    ? metric.label.replace(/\bcivicapi(?:['’]s)?\s*/gi, "").trim()
+    : metric.label;
+  function detailDescription(metric: ActivityMetric) {
+    if (!compactDetails) return `${metric.definition} ${metric.coverage_note}`;
+    const key = metric.key.split("__")[0];
+    const action = key === "ballots_requested" ? "requested" : key === "ballots_received" ? "returned" : null;
+    if (action) {
+      const party = metric.label.split("·").slice(1).join("·").trim();
+      return party
+        ? `Early ballots ${action}, grouped by ${party} voter registration.`
+        : `Early ballots ${action} in this county.`;
+    }
+    return `${metric.definition} ${metric.coverage_note}`.replace(/\bcivicapi(?:['’]s)?\s*/gi, "").trim();
+  }
   return (
     <>
       <div className="breadcrumbs">
@@ -80,7 +97,9 @@ export default function EarlyVotingPage({
       </section>
       <div className="notice" role="status">
         <strong>
-          {participation
+          {compactDetails
+            ? "Early-voting participation reports."
+            : participation
             ? `Early-voting participation reports · ${participation.provider}.`
             : provider?.test_data
             ? `${provider.provider} marks this race record as test data — live results unavailable.`
@@ -94,7 +113,7 @@ export default function EarlyVotingPage({
           These figures describe participation in the November general election.
           Party categories indicate voter registration, not candidate choices or how anyone voted.
         </p>
-        {provider && !participation && <p>{activity.notes}</p>}
+        {!compactDetails && provider && !participation && <p>{activity.notes}</p>}
       </div>
       <section
         className="panel statewide"
@@ -105,7 +124,7 @@ export default function EarlyVotingPage({
             <p className="eyebrow">GENERAL-ELECTION PARTICIPATION</p>
             <h2>Early-voting activity</h2>
           </div>
-          <span className="muted">{provider ? `${provider.provider} source records` : "Official source records"}</span>
+          {!compactDetails && <span className="muted">{provider ? `${provider.provider} source records` : "Official source records"}</span>}
         </div>
         <div className="turnout-metrics statewide-activity">
           <div>
@@ -131,7 +150,7 @@ export default function EarlyVotingPage({
           <span>{activity.statewide_policy}</span>
         </div>
       </section>
-      <SnapshotNotice activity={activity} />
+      {!compactDetails && <SnapshotNotice activity={activity} />}
       <section className="county-section">
         <div className="section-heading">
           <div>
@@ -207,29 +226,28 @@ export default function EarlyVotingPage({
               </button>
             </div>
             <div className="activity-details">
-              {county.metrics.map((m) => (
+              {countyMetrics.map((m) => (
                 <div className="activity-metric" key={m.key}>
                   <div className="activity-value">
-                    <strong>{m.label}</strong>
+                    <strong>{detailLabel(m)}</strong>
                     <strong>
                       {number(m.value)}
                       {m.completeness === "partial" ? " *" : ""}
                     </strong>
                   </div>
                   <p className="footnote">
-                    {m.definition} {m.coverage_note}
+                    {detailDescription(m)}
                   </p>
                   {m.source_id && (
                     <p className="footnote">
-                      Source report / last edit:{" "}
+                      {compactDetails ? "As of:" : "Source report / last edit:"}{" "}
                       {reportTime(m.reported_at, m.report_precision)} ·
                       Retrieved: {reportTime(m.retrieved_at)}
                       {m.stale ? " · Stale" : ""}
-                      <br />
-                      {
-                        activity.sources.find((s) => s.id === m.source_id)
-                          ?.title
-                      }
+                      {!compactDetails && <>
+                        <br />
+                        {activity.sources.find((s) => s.id === m.source_id)?.title}
+                      </>}
                     </p>
                   )}
                 </div>
