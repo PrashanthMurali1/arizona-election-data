@@ -1,6 +1,6 @@
 import { Link, useNavigate } from "react-router-dom";
 import type { RefObject } from "react";
-import type { Activity, Election, Geography, Results } from "../types";
+import type { Activity, ActivityMetric, Election, Geography, Results } from "../types";
 import CountyMap from "../Map";
 import ActivityTable from "../ActivityTable";
 import SnapshotNotice from "../SnapshotNotice";
@@ -29,6 +29,29 @@ export default function EarlyVotingPage({
 }) {
   const navigate = useNavigate();
   const county = activity.counties.find((c) => c.geoid === selected);
+  const compactDetails = election.id === "az-2026-early-voting";
+  const countyMetrics = county?.metrics.filter((metric) => !compactDetails || metric.value != null) ?? [];
+  const participation = activity.provider_participation;
+  const provider = participation
+    ? { provider: participation.provider, test_data: false }
+    : activity.provider_report;
+  const firstMetric = participation ? "ballots_requested" : "registered_voters";
+  const returnedBreakdowns = participation?.reports.find((report) => report.category === "returned")?.breakdowns ?? {};
+  const detailLabel = (metric: ActivityMetric) => compactDetails
+    ? metric.label.replace(/\bcivicapi(?:['’]s)?\s*/gi, "").trim()
+    : metric.label;
+  function detailDescription(metric: ActivityMetric) {
+    if (!compactDetails) return `${metric.definition} ${metric.coverage_note}`;
+    const key = metric.key.split("__")[0];
+    const action = key === "ballots_requested" ? "requested" : key === "ballots_received" ? "returned" : null;
+    if (action) {
+      const party = metric.label.split("·").slice(1).join("·").trim();
+      return party
+        ? `Early ballots ${action}, grouped by ${party} voter registration.`
+        : `Early ballots ${action} in this county.`;
+    }
+    return `${metric.definition} ${metric.coverage_note}`.replace(/\bcivicapi(?:['’]s)?\s*/gi, "").trim();
+  }
   return (
     <>
       <div className="breadcrumbs">
@@ -42,7 +65,9 @@ export default function EarlyVotingPage({
         <div>
           <p className="eyebrow">ARIZONA · GENERAL ELECTION</p>
           <h1>
-            {election.office} <span>{election.year}</span>
+            {election.office_id === "early-voting" ? (
+              <><span>{election.year}</span> {election.office}</>
+            ) : <>{election.office} <span>{election.year}</span></>}
           </h1>
           <div className="election-meta">
             <Availability status="pre_results" />
@@ -72,15 +97,23 @@ export default function EarlyVotingPage({
       </section>
       <div className="notice" role="status">
         <strong>
-          {activity.candidate_availability === "not_imported"
+          {compactDetails
+            ? "Early-voting participation reports."
+            : participation
+            ? `Early-voting participation reports · ${participation.provider}.`
+            : provider?.test_data
+            ? `${provider.provider} marks this race record as test data — live results unavailable.`
+            : provider
+            ? `${provider.provider} has not started reporting candidate results.`
+            : activity.candidate_availability === "not_imported"
             ? "Candidate results have not been imported — refresh official sources."
             : "Voting in progress — candidate results not yet released."}
         </strong>
         <p>
           These figures describe participation in the November general election.
-          They are not votes cast specifically for {election.office}, candidate
-          support, or a forecast.
+          Party categories indicate voter registration, not candidate choices or how anyone voted.
         </p>
+        {!compactDetails && provider && !participation && <p>{activity.notes}</p>}
       </div>
       <section
         className="panel statewide"
@@ -91,17 +124,17 @@ export default function EarlyVotingPage({
             <p className="eyebrow">GENERAL-ELECTION PARTICIPATION</p>
             <h2>Early-voting activity</h2>
           </div>
-          <span className="muted">Official source records</span>
+          {!compactDetails && <span className="muted">{provider ? `${provider.provider} source records` : "Official source records"}</span>}
         </div>
         <div className="turnout-metrics statewide-activity">
           <div>
-            <small>Official active registered voters</small>
+            <small>{participation ? "Requested" : provider ? "Provider registered voters" : "Official active registered voters"}</small>
             <strong>
-              {number(activityValue(activity.statewide, "registered_voters"))}
+              {number(activityValue(activity.statewide, firstMetric))}
             </strong>
           </div>
           <div>
-            <small>Official statewide early returns</small>
+            <small>{participation ? "Returned" : provider ? "Provider statewide early returns" : "Official statewide early returns"}</small>
             <strong>
               {number(activityValue(activity.statewide, "ballots_received"))}
             </strong>
@@ -117,7 +150,7 @@ export default function EarlyVotingPage({
           <span>{activity.statewide_policy}</span>
         </div>
       </section>
-      <SnapshotNotice activity={activity} />
+      {!compactDetails && <SnapshotNotice activity={activity} />}
       <section className="county-section">
         <div className="section-heading">
           <div>
@@ -129,12 +162,12 @@ export default function EarlyVotingPage({
         <div className="county-grid">
           <section
             className="panel map-panel"
-            aria-label="County participation map"
+            aria-label="Returned-ballot party-registration map"
           >
             <div className="panel-heading">
               <h3>Arizona</h3>
               <span className="muted">
-                All {activity.counties.length} counties
+                Returned-ballot party registration
               </span>
             </div>
             <CountyMap
@@ -142,7 +175,8 @@ export default function EarlyVotingPage({
               counties={counties}
               selected={selected}
               onSelect={onSelect}
-              mode="activity"
+              mode="registration"
+              registrationBreakdowns={returnedBreakdowns}
             />
           </section>
           <section
@@ -159,7 +193,7 @@ export default function EarlyVotingPage({
               onSelect={onSelect}
             />
             <p className="footnote table-note">
-              N/A means no verified official figure imported. * Partial source
+              {provider ? "N/A means the selected provider has not supplied this metric." : "N/A means no verified official figure imported."} * Partial source
               coverage. Requested, sent, received and accepted are different
               stages. Select a county for exact source labels, definitions and
               dates; county rows are not a statewide total.
@@ -192,29 +226,28 @@ export default function EarlyVotingPage({
               </button>
             </div>
             <div className="activity-details">
-              {county.metrics.map((m) => (
+              {countyMetrics.map((m) => (
                 <div className="activity-metric" key={m.key}>
                   <div className="activity-value">
-                    <strong>{m.label}</strong>
+                    <strong>{detailLabel(m)}</strong>
                     <strong>
                       {number(m.value)}
                       {m.completeness === "partial" ? " *" : ""}
                     </strong>
                   </div>
                   <p className="footnote">
-                    {m.definition} {m.coverage_note}
+                    {detailDescription(m)}
                   </p>
                   {m.source_id && (
                     <p className="footnote">
-                      Source report / last edit:{" "}
+                      {compactDetails ? "As of:" : "Source report / last edit:"}{" "}
                       {reportTime(m.reported_at, m.report_precision)} ·
                       Retrieved: {reportTime(m.retrieved_at)}
                       {m.stale ? " · Stale" : ""}
-                      <br />
-                      {
-                        activity.sources.find((s) => s.id === m.source_id)
-                          ?.title
-                      }
+                      {!compactDetails && <>
+                        <br />
+                        {activity.sources.find((s) => s.id === m.source_id)?.title}
+                      </>}
                     </p>
                   )}
                 </div>
@@ -227,7 +260,7 @@ export default function EarlyVotingPage({
             <div>
               <h3>Explore a county’s participation</h3>
               <p>
-                Select any county on the map or in the table to see official
+                Select any county on the map or in the table to see sourced
                 aggregate figures, source dates and unavailable metrics.
               </p>
             </div>
@@ -239,17 +272,25 @@ export default function EarlyVotingPage({
         <h2>Sources & coverage</h2>
         <p>
           Active registration: {activity.coverage.registered_voters} /{" "}
-          {activity.counties.length} counties. Returns:{" "}
+          {activity.counties.length} counties. Requested: {activity.coverage.ballots_requested} / {activity.counties.length}. Returned:{" "}
           {activity.coverage.ballots_received} / {activity.counties.length}.
           Ballots accepted: {activity.coverage.ballots_accepted} /{" "}
           {activity.counties.length}. In-person early participation:{" "}
           {activity.coverage.in_person_early} / {activity.counties.length}.
           These coverage counts do not imply that unavailable values are zero.
         </p>
+        {participation?.reports.map((report) => (
+          <p key={report.snapshot_id}>
+            <strong>{report.label} · statewide provider party breakdown: </strong>
+            {Object.entries(report.breakdowns["04"] ?? {})
+              .map(([party, value]) => `${party}: ${number(value)}`)
+              .join(" · ")}
+          </p>
+        ))}
         <div className="sources-grid">
           {activity.sources.map((s) => (
             <a key={s.id} href={s.url} target="_blank" rel="noreferrer">
-              <small>OFFICIAL AGGREGATE SOURCE ↗</small>
+              <small>{provider ? "PROVIDER REPORT ↗" : "OFFICIAL AGGREGATE SOURCE ↗"}</small>
               <strong>{s.title}</strong>
               <span>{s.notes}</span>
             </a>

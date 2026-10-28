@@ -1,6 +1,7 @@
 """Reviewed aggregate release contract. No voter-level or forecast inputs."""
 
 from datetime import date, datetime, timezone
+import re
 from typing import Literal
 from pydantic import BaseModel, ConfigDict, Field, field_validator, model_validator
 
@@ -19,22 +20,20 @@ class SnapshotSource(StrictModel):
 
 class MetricInput(StrictModel):
     geoid: str
-    key: Literal[
-        "registered_voters",
-        "ballots_requested",
-        "ballots_mailed",
-        "ballots_issued",
-        "ballots_verified_ready",
-        "ballots_turned_over",
-        "ballots_received",
-        "ballots_accepted",
-        "in_person_early",
-    ]
+    key: str
     label: str
     definition: str
     value: int | None = Field(ge=0, strict=True)
     completeness: Literal["complete", "partial", "unavailable"]
     coverage_note: str = ""
+
+    @field_validator("key")
+    @classmethod
+    def metric_key(cls, value):
+        base = {"registered_voters", "ballots_requested", "ballots_mailed", "ballots_issued", "ballots_verified_ready", "ballots_turned_over", "ballots_received", "ballots_accepted", "in_person_early"}
+        if value not in base and not re.fullmatch(r"(?:ballots_requested|ballots_received|in_person_early)__[a-z0-9_-]{1,64}", value):
+            raise ValueError("Unsupported participation metric key")
+        return value
 
 
 class CandidateInput(StrictModel):
@@ -52,6 +51,32 @@ class VoteInput(StrictModel):
     votes: int | None = Field(ge=0, strict=True)
 
 
+class ProviderCandidate(StrictModel):
+    name: str
+    party: str
+    votes: int | None = Field(ge=0, strict=True)
+    percent: float | None = Field(default=None, ge=0, le=100)
+    winner: bool = False
+
+
+class ProviderReport(StrictModel):
+    provider: Literal["civicAPI", "Decision Labs"]
+    record_id: str
+    test_data: bool
+    race_status: Literal["test_data", "not_reporting", "reporting", "called"]
+    percent_reporting: float | None = Field(ge=0, le=100)
+    candidates: list[ProviderCandidate]
+    county_percentages: dict[str, dict[str, float | None]] = {}
+    county_reporting: dict[str, float | None] = {}
+
+
+class ProviderParticipation(StrictModel):
+    provider: Literal["civicAPI", "Decision Labs"]
+    category: Literal["requested", "returned", "inperson"]
+    label: str
+    breakdowns: dict[str, dict[str, int | None]] = {}
+
+
 class SnapshotInput(StrictModel):
     election_date: Literal["2026-11-03"]
     election_kind: Literal["general"]
@@ -60,7 +85,9 @@ class SnapshotInput(StrictModel):
     kind: Literal["participation", "results"]
     stage: Literal["pre_results", "unofficial", "certified"]
     completeness: Literal["complete", "partial", "unavailable"]
-    verification: Literal["source_checked", "reconciled"]
+    verification: Literal["source_checked", "reconciled", "provider_report"]
+    provider_report: ProviderReport | None = None
+    provider_participation: ProviderParticipation | None = None
     source: SnapshotSource
     reported_at: str | None
     report_precision: Literal["datetime", "date", "unknown"]
@@ -90,6 +117,28 @@ class SnapshotInput(StrictModel):
 
     @model_validator(mode="after")
     def timestamps_and_kind(self):
+        if self.provider_participation and (
+            self.kind != "participation"
+            or self.stage != "pre_results"
+            or self.verification != "provider_report"
+            or self.provider_report
+            or self.stream != f"early-vote-{self.provider_participation.category}"
+            or self.office_id != "governor"
+        ):
+            raise ValueError("Early-vote reports are shared event participation streams")
+        if self.provider_report:
+            if (
+                self.verification != "provider_report"
+                or self.stage == "certified"
+                or self.certification
+                or self.reference_path
+                or self.stream != f"results-{self.office_id}"
+            ):
+                raise ValueError("Provider reports use their office stream and carry no canvass certification")
+            if self.provider_report.test_data and (self.kind == "results" or self.metrics):
+                raise ValueError("Provider test data cannot populate live votes or participation")
+        elif self.verification == "provider_report" and not self.provider_participation:
+            raise ValueError("Provider provenance is required")
         if self.report_precision == "unknown":
             if self.reported_at is not None:
                 raise ValueError("Unknown source time must be null")

@@ -16,6 +16,19 @@ export default function SnapshotNotice({ activity }: { activity: Activity }) {
           its own reporting date; retrieval time is separate. A date-only source
           has no invented clock time.
         </p>
+        {activity.provider_participation && (
+          <p className="footnote">
+            Early-voting participation reports from {activity.provider_participation.provider}.
+            {" "}Requested and returned ballots retain their separate source dates.
+          </p>
+        )}
+        {activity.provider_report && (
+          <p className="footnote">
+            {activity.provider_report.provider} report · {activity.provider_report.race_status.replaceAll("_", " ")}
+            {" · "}Provider reporting: {activity.provider_report.percent_reporting == null ? "N/A" : `${activity.provider_report.percent_reporting}%`}
+            {activity.provider_report.test_data ? " (test data; excluded from live results)" : ""}.
+          </p>
+        )}
         {activity.stale && (
           <div className="notice" role="status">
             <strong>Stale source data</strong>

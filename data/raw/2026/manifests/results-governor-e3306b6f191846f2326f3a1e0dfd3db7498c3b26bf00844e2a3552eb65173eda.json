@@ -1,0 +1,62 @@
+{
+  "election_date": "2026-11-03",
+  "election_kind": "general",
+  "office_id": "governor",
+  "stream": "results-governor",
+  "kind": "participation",
+  "stage": "pre_results",
+  "completeness": "unavailable",
+  "verification": "provider_report",
+  "source": {
+    "title": "civicAPI — 2026 Arizona Governor",
+    "url": "https://civicapi.org/api/v2/race/86928",
+    "raw_path": "data/raw/2026/snapshots/37f91df1efa8c43f42356e4ecd0a174693ea4d9c5a48388db1b40acab26ae0bd.json",
+    "sha256": "37f91df1efa8c43f42356e4ecd0a174693ea4d9c5a48388db1b40acab26ae0bd",
+    "notes": "civicAPI marks this race record as test_data=true. Its candidate totals, percentages and calls are test data and are excluded from live results. No participation figures are inferred from candidate records. Provider last_updated: 2026-10-27T17:45:00.000Z. Retained response: data/raw/2026/snapshots/37f91df1efa8c43f42356e4ecd0a174693ea4d9c5a48388db1b40acab26ae0bd.json. Retrieval time is recorded on the snapshot. SHA-256 covers that exact response file: 37f91df1efa8c43f42356e4ecd0a174693ea4d9c5a48388db1b40acab26ae0bd."
+  },
+  "reported_at": "2026-10-27T17:45:00.000Z",
+  "report_precision": "datetime",
+  "retrieved_at": "2026-10-28T06:25:48.925826+00:00",
+  "release_id": "civicapi-race-86928-37f91df1efa8c43f42356e4ecd0a174693ea4d9c5a48388db1b40acab26ae0bd",
+  "vote_scope": "participation",
+  "notes": "civicAPI marks this race record as test_data=true. Its candidate totals, percentages and calls are test data and are excluded from live results. No participation figures are inferred from candidate records.",
+  "provider_report": {
+    "provider": "civicAPI",
+    "record_id": "86928",
+    "test_data": true,
+    "race_status": "test_data",
+    "percent_reporting": 100,
+    "candidates": [
+      {
+        "name": "Katie Hobbs",
+        "party": "Democratic",
+        "votes": 1218813,
+        "percent": 50.83,
+        "winner": true
+      },
+      {
+        "name": "Andy Biggs",
+        "party": "Republican",
+        "votes": 1119586,
+        "percent": 46.69,
+        "winner": false
+      },
+      {
+        "name": "Teri Hourihan",
+        "party": "No Labels",
+        "votes": 31689,
+        "percent": 1.32,
+        "winner": false
+      },
+      {
+        "name": "Risa Lombardo",
+        "party": "Green",
+        "votes": 27608,
+        "percent": 1.15,
+        "winner": false
+      }
+    ],
+    "county_percentages": {},
+    "county_reporting": {}
+  }
+}

@@ -41,7 +41,9 @@ def results(s: Session, c: Contest, unit: GeographicUnit):
     if publication:
         from .lifecycle import utcnow, RELEASE_AFTER
 
-        if publication.stage == "pre_results" or utcnow() < RELEASE_AFTER:
+        if publication.stage == "pre_results" or (
+            publication.verification != "provider_report" and utcnow() < RELEASE_AFTER
+        ):
             return ResultsOut(
                 geoid=unit.id,
                 name=unit.name,
@@ -89,6 +91,16 @@ def results(s: Session, c: Contest, unit: GeographicUnit):
         for p, n, party, v in rows
     ]
     candidates.sort(key=lambda r: -(r.votes if r.votes is not None else -1))
+    if publication and publication.verification == "provider_report" and publication.result_snapshot_id:
+        snapshot = s.get(PublicationSnapshot, publication.result_snapshot_id)
+        report = snapshot.payload["provider_report"]
+        percentages = (
+            {c["name"]: c.get("percent") for c in report["candidates"]}
+            if unit.id == "04"
+            else report["county_percentages"].get(unit.id, {})
+        )
+        for candidate in candidates:
+            candidate.percent = percentages.get(candidate.name)
     winner = (
         candidates[0]
         if complete

@@ -2,9 +2,9 @@
 
 A local, dark-themed dashboard for exploring Arizona election results. Browse the election catalog, compare candidates, select a county or congressional district on the map or sortable table, and inspect results, turnout and source details.
 
-**2026 general-election activity is available.** Before candidate results are released, its neutral county map and table show official participation metrics with separate source dates: registration for all 15 counties, early returns for Maricopa and Pima, and additional Pima ballot-status categories. Missing figures remain N/A. Refresh is manual; see [2026 sources, coverage and validation](docs/2026-import-report.md).
+**2026 Early Voting is available as one catalog entry.** The shared page at `/elections/az-2026-early-voting` displays civicAPI's October 27 participation data: **3,289,914 requested** and **1,143,275 returned** ballots, plus all 15 counties and party-registration breakdowns. The table hides wholly unavailable columns. Counties are blue/red for the uniquely largest Democratic/Republican registration group among returned ballots; Other/ties/missing remain gray. Colors do not indicate candidate choices. The old 2026 Governor/AG page URLs redirect here. Refresh with `python scripts/refresh_2026.py --early-voting`; see [2026 sources and coverage](docs/2026-import-report.md).
 
-**Attorney General results are also available for 2014, 2018 and 2022**, with all three candidate rosters reconciled to the official canvass across 15 counties. The 2026 Attorney General page shares the event-level participation snapshots and pre-results state. See the [Attorney General report](docs/attorney-general-import-report.md).
+**Attorney General results are also available for 2014, 2018 and 2022**, with all three candidate rosters reconciled to the official canvass across 15 counties. Current 2026 participation appears in the shared Early Voting entry. See the [Attorney General report](docs/attorney-general-import-report.md).
 
 **2022 MVP implemented and verified.** 2022, 2018 and 2014 governor results reconcile for every reported candidate across all 15 counties. The 2018 import combines VEST ballot-candidate precinct sums, OpenElections named write-ins and official turnout, with documented source checks. Nothing has been deployed.
 
@@ -91,7 +91,7 @@ python scripts/download_sources.py
 python scripts/normalize.py
 ```
 
-For an explicit 2026 county refresh, run `python scripts/refresh_2026.py --fetch all` (or `--fetch maricopa` / `--fetch pima`). The command archives each official aggregate source, imports a new release only when its contents change, and preserves previous values on failure. Offline replay without `--fetch` does not update the retrieval date. The [2026 report](docs/2026-import-report.md) documents the reviewed-manifest command for future candidate releases; no automatic election-night feed or scheduler is configured.
+For the current 2026 refresh, run `python scripts/refresh_2026.py --early-voting` (`--providers` is an alias). It fetches only early-vote feeds and provider tracker/documentation pages; it never queries candidate races, polling or forecasts. Requested and returned categories are stored once per event and shared by both offices. No state/county corroboration or canvass reconciliation is performed. Offline replay preserves original retrieval times. The [2026 report](docs/2026-import-report.md) documents exact manifests, endpoints and current coverage. No scheduler is configured.
 
 The Secretary of State PDF URLs returned Cloudflare HTTP 403 during development. Downloads report failures; they never substitute election-night results. `normalize.py` is an optional PDF-layout adapter and writes normalized 2022 data only when all nine candidate rows parse; historical PDF extraction is review-only. The documented bootstrap uses reviewed CSV snapshots and does not require live PDF access. See [data methodology](docs/data-methodology.md).
 

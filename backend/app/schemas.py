@@ -137,6 +137,8 @@ class ActivityOut(BaseModel):
     candidate_availability: str
     completeness: str
     verification: str
+    provider_report: dict[str, Any] | None = None
+    provider_participation: dict[str, Any] | None = None
     notes: str
     statewide: ParticipationOut
     counties: list[ParticipationOut]

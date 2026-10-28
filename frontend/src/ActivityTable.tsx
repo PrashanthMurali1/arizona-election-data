@@ -1,16 +1,7 @@
 import { useMemo, useState } from "react";
 import type { Participation } from "./types";
-import { activityValue, sortActivity } from "./activity";
+import { activityValue, sortActivity, visibleActivityColumns, defaultActivitySort } from "./activity";
 import { number } from "./results";
-const columns = [
-  ["name", "County"],
-  ["registered_voters", "Active registered"],
-  ["ballots_requested", "Requested"],
-  ["ballots_issued", "Sent / issued"],
-  ["ballots_received", "Returns"],
-  ["ballots_accepted", "Accepted"],
-  ["in_person_early", "In-person early"],
-];
 export default function ActivityTable({
   counties,
   selected,
@@ -20,24 +11,24 @@ export default function ActivityTable({
   selected: string | null;
   onSelect: (id: string) => void;
 }) {
-  const [key, setKey] = useState("registered_voters");
+  const [key, setKey] = useState("ballots_received");
   const [direction, setDirection] = useState<"asc" | "desc">("desc");
+  const columns = visibleActivityColumns(counties);
+  const activeKey = columns.some(([column]) => column === key) ? key : defaultActivitySort(columns);
+  const activeDirection = activeKey === key ? direction : activeKey === "name" ? "asc" : "desc";
   const rows = useMemo(
-    () => sortActivity(counties, key, direction),
-    [counties, key, direction],
+    () => sortActivity(counties, activeKey, activeDirection),
+    [counties, activeKey, activeDirection],
   );
   function sort(k: string) {
-    if (k === key) setDirection((d) => (d === "desc" ? "asc" : "desc"));
-    else {
-      setKey(k);
-      setDirection(k === "name" ? "asc" : "desc");
-    }
+    setKey(k);
+    setDirection(k === activeKey ? activeDirection === "desc" ? "asc" : "desc" : k === "name" ? "asc" : "desc");
   }
   return (
     <div className="table-scroll">
-      <table className="activity-table">
+      <table className={`activity-table${columns.length <= 3 ? " compact" : ""}`}>
         <caption className="sr-only">
-          General-election participation by county, not gubernatorial candidate
+          General-election participation by county, not candidate
           votes. Sort columns and select county names for source definitions and
           reporting dates.
         </caption>
@@ -48,8 +39,8 @@ export default function ActivityTable({
                 key={k}
                 scope="col"
                 aria-sort={
-                  key === k
-                    ? direction === "asc"
+                  activeKey === k
+                    ? activeDirection === "asc"
                       ? "ascending"
                       : "descending"
                     : "none"
@@ -58,7 +49,7 @@ export default function ActivityTable({
                 <button onClick={() => sort(k)}>
                   {label}{" "}
                   <span aria-hidden="true">
-                    {key === k ? (direction === "asc" ? "↑" : "↓") : "↕"}
+                    {activeKey === k ? (activeDirection === "asc" ? "↑" : "↓") : "↕"}
                   </span>
                 </button>
               </th>

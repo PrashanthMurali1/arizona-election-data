@@ -96,6 +96,8 @@ export default function Home() {
                         <span className="muted">
                           {office === "us-house"
                             ? "Congressional districts"
+                            : office === "early-voting"
+                              ? "Statewide participation"
                             : "Statewide office"}
                         </span>
                         <span className="office-rule" />
@@ -109,6 +111,7 @@ export default function Home() {
                               to={`/elections/${e.id}`}
                               className="election-card"
                               key={e.id}
+                              aria-label={e.office_id === "early-voting" ? `${e.year} Early Voting` : undefined}
                             >
                               <div className="card-top">
                                 <span className="eyebrow">
@@ -118,13 +121,15 @@ export default function Home() {
                               </div>
                               <strong className="card-year">{e.year}</strong>
                               <h3>
-                                Arizona {e.office}
+                                {e.office_id === "early-voting" ? e.office : `Arizona ${e.office}`}
                                 {e.district_label
                                   ? ` · ${e.district_label}`
                                   : ""}
                               </h3>
                               <p>
-                                {e.status === "civicapi"
+                                {e.office_id === "early-voting"
+                                  ? `${e.county_count} counties · Requested and returned ballots`
+                                  : e.status === "civicapi"
                                   ? `${e.district_count ?? 1} special-election district · civicAPI candidate report · ${e.date}`
                                   : e.status === "verified"
                                   ? e.district_count !== undefined

@@ -4,8 +4,7 @@
 
 | Year | Office | Candidate records | Counties | Status | Official turnout |
 | --- | --- | ---: | ---: | --- | --- |
-| 2026 | Arizona Governor, general | No candidate results released/imported as of October 27 | 15 | Pre-results participation; source-checked metrics with separate coverage | Registration all counties; early returns 2 counties; no derived turnout |
-| 2026 | Arizona Attorney General, general | No candidate results released/imported as of October 27 | 15 | Pre-results participation shared with Governor event | Same event-level metrics; no AG vote records |
+| 2026 | Arizona Early Voting, general election | None; pre-results | 15 | One civicAPI participation catalog entry | Requested/returned: statewide and all 15 counties; all-empty table columns hidden |
 | 2024 | Arizona U.S. Senate, regular | 10 (7 named write-ins) | 15 | Verified against official statewide candidate totals | All counties and statewide |
 | 2022 | Arizona U.S. Senate, regular | 11 (8 named write-ins) | 15 | Verified against official statewide candidate totals | Existing event turnout shared |
 | 2022 | Arizona Governor, general | 9 (7 named write-ins) | 15 | Verified against official statewide candidate totals | All counties and statewide |
@@ -165,7 +164,9 @@ The completed import has **zero outstanding certified-candidate discrepancies**.
 
 ## 2026 participation extension
 
-The current 2026 general-election page reports official participation rather than candidate votes before results are released. See the [2026 source and validation report](2026-import-report.md) for source URLs, exact definitions, report/retrieval timestamps, county coverage, preserved source discrepancies, manual refresh commands and future result-certification requirements. The historical methodology above remains applicable to certified historical results.
+The shared 2026 Early Voting page uses event-level participation from civicAPI's `/api/v2/early-vote/AZ/requested` and `/returned` feeds. The October 27 reports supply statewide and all 15 counties' Requested/Returned counts, including Democratic, Other and Republican provider categories. In these feeds, `votes` means ballot participation counts, not candidate votes. Display totals use each response's own statewide/county party buckets; county totals are never summed to produce or reconcile the statewide figure, and requested/returned stages are never added together. All supplied party counts are retained as metrics; missing values remain null and explicit zeros remain zero. The in-person feed returns 404, while registration, mailed/issued and accepted figures are not supplied. No state/county websites, candidate races, polling or forecasts are queried by the current refresh. There is no independent corroboration, arithmetic reconciliation or write-in investigation. See the [2026 early-voting report](2026-import-report.md) for exact endpoints, snapshots, timestamps, commands and technical checks. Historical source reconciliation above remains applicable to historical results.
+
+The catalog uses `/elections/az-2026-early-voting`; the two old office page URLs redirect there. County colors use the largest returned-ballot party-registration group: Democratic blue, Republican red, and Other/ties/missing gray. Registration does not indicate candidate choices. Only wholly missing metric columns are hidden; explicit zero values and partially populated columns remain visible.
 
 ## U.S. Senate coverage (October 27, 2026)
 
