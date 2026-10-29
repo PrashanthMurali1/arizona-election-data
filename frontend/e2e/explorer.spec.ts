@@ -670,7 +670,7 @@ test("early-voting notifications refresh once, recover missed updates and clean 
   await expect.poll(() => activityRequests).toBe(5);
   await expect(page.locator(".sources")).not.toContainText("Update connection interrupted");
   await page.locator(".sources").getByRole("link", {name: "Read the data methodology ↗", exact: true}).click();
-  await expect(page.locator(".methodology .lead")).toContainText("This is a personal hobby project, not a professional company.");
+  await expect(page.locator(".methodology")).toContainText("Arizona Election Explorer is an independent, personal hobby and educational project built out of an interest in elections, political geography, data visualization, and software engineering.");
   await expect.poll(activeConnections).toBe(0);
   await page.getByRole("navigation", {name: "Main navigation"}).getByRole("link", {name: "Election catalog", exact: true}).click();
   await expect.poll(activeConnections).toBe(1);
