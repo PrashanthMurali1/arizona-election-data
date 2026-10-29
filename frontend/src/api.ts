@@ -1,10 +1,11 @@
 import { useEffect, useState } from "react";
+import { cacheUrl } from "./cacheUrl";
 export async function get<T>(
   url: string,
   signal?: AbortSignal,
   cache: RequestCache = "default",
 ): Promise<T> {
-  const response = await fetch(url, { signal, cache });
+  const response = await fetch(cacheUrl(url), { signal, cache });
   if (!response.ok)
     throw new Error(
       `Unable to load election data (${response.status}). Check that the backend is running and the database has been imported.`,

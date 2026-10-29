@@ -8,11 +8,18 @@ test("HTTP cache survives reloads and forced validation transfers no unchanged b
   const network = await context.newCDPSession(page);
   await network.send("Network.enable");
   const statuses: number[] = [];
-  network.on("Network.responseReceivedExtraInfo", (event) =>
-    statuses.push(event.statusCode),
+  const requests = new Map<string, string>();
+  let target = "";
+  network.on("Network.requestWillBeSent", (event) =>
+    requests.set(event.requestId, event.request.url),
   );
+  network.on("Network.responseReceivedExtraInfo", (event) => {
+    if (requests.get(event.requestId) === target)
+      statuses.push(event.statusCode);
+  });
   await page.goto("/methodology");
   const url = `/api/elections/az-2026-early-voting/activity?cache-test=${Date.now()}`;
+  target = new URL(url, page.url()).href;
   const load = (cache: RequestCache = "default") =>
     page.evaluate(
       async ({ url, cache }) => {

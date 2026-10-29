@@ -1,5 +1,6 @@
 """Browser caching for serialized API responses; no server-side response store."""
 from hashlib import sha256
+import re
 
 from fastapi import HTTPException, Request, Response
 from fastapi.routing import APIRoute
@@ -23,7 +24,12 @@ class BrowserCacheRoute(APIRoute):
                 return response
 
             path = request.url.path
-            if path.startswith("/api/geography/"):
+            historical_election = re.match(
+                r"^/api/elections/az-(\d{4})-(?:us-senate|us-house|governor|attorney-general)(?:$|[-/])", path
+            )
+            if historical_election and int(historical_election[1]) <= 2025:
+                policy = "private, max-age=86400, must-revalidate, no-transform"
+            elif path.startswith("/api/geography/"):
                 policy = "private, max-age=86400, must-revalidate, no-transform"
             elif path == "/api/elections/az-2026-early-voting/activity":
                 policy = "private, max-age=300, must-revalidate, no-transform"

@@ -1,9 +1,10 @@
-import { useRef, useState, type KeyboardEvent } from "react";
+import { useEffect, useRef, useState, type KeyboardEvent } from "react";
 import { Link } from "react-router-dom";
 import type { Election } from "../types";
 import { useResource } from "../api";
 import { Availability, ErrorState, Loading } from "../components";
 import LiveElection from "./LiveElection";
+import { prefetchElections } from "../electionPrefetch";
 
 const catalogTabs = [
   { id: "live", label: "Live Elections", offices: ["early-voting"] },
@@ -22,10 +23,15 @@ const catalogTabs = [
 export default function Home() {
   const [selectedTab, setSelectedTab] =
     useState<(typeof catalogTabs)[number]["id"]>("live");
+  const [federalOffice, setFederalOffice] = useState("us-senate");
+  const [stateOffice, setStateOffice] = useState("governor");
   const tabRefs = useRef<(HTMLButtonElement | null)[]>([]);
-  const selectedOffices: readonly string[] = catalogTabs.find(
-    (tab) => tab.id === selectedTab,
-  )!.offices;
+  const selectedOffices: readonly string[] =
+    selectedTab === "federal"
+      ? [federalOffice]
+      : selectedTab === "state"
+        ? [stateOffice]
+        : catalogTabs.find((tab) => tab.id === selectedTab)!.offices;
 
   function navigateTabs(
     event: KeyboardEvent<HTMLButtonElement>,
@@ -58,6 +64,34 @@ export default function Home() {
     error,
     loading,
   } = useResource<Election[]>("/api/elections");
+  const prefetchOffice =
+    selectedTab === "federal"
+      ? federalOffice
+      : selectedTab === "state"
+        ? stateOffice
+        : null;
+  useEffect(() => {
+    if (!prefetchOffice || !elections) return;
+    const controller = new AbortController();
+    let running = false;
+    const warm = async () => {
+      if (running || controller.signal.aborted) return;
+      running = true;
+      try {
+        await prefetchElections(elections, prefetchOffice, controller.signal);
+      } finally {
+        running = false;
+      }
+    };
+    // Skip StrictMode's immediately cancelled first effect.
+    queueMicrotask(() => void warm());
+    window.addEventListener("online", warm);
+    return () => {
+      controller.abort();
+      window.removeEventListener("online", warm);
+    };
+  }, [prefetchOffice, elections]);
+
   const categoryElections =
     elections?.filter((e) => selectedOffices.includes(e.office_id)) ?? [];
   return (
@@ -125,6 +159,36 @@ export default function Home() {
                   hidden={selectedTab !== tab.id}
                   tabIndex={0}
                 >
+                  {selectedTab === tab.id && tab.id === "federal" && (
+                    <div className="catalog-office-filter">
+                      <label htmlFor="federal-office">Federal office</label>
+                      <select
+                        id="federal-office"
+                        value={federalOffice}
+                        onChange={(event) =>
+                          setFederalOffice(event.target.value)
+                        }
+                      >
+                        <option value="us-senate">U.S. Senate</option>
+                        <option value="us-house">U.S. House</option>
+                      </select>
+                    </div>
+                  )}
+                  {selectedTab === tab.id && tab.id === "state" && (
+                    <div className="catalog-office-filter">
+                      <label htmlFor="state-office">State office</label>
+                      <select
+                        id="state-office"
+                        value={stateOffice}
+                        onChange={(event) => setStateOffice(event.target.value)}
+                      >
+                        <option value="governor">Governor</option>
+                        <option value="attorney-general">
+                          Attorney General
+                        </option>
+                      </select>
+                    </div>
+                  )}
                   {selectedTab === tab.id &&
                     (categoryElections.length === 0 ? (
                       <p className="empty">
@@ -159,7 +223,7 @@ export default function Home() {
                           <div className="election-grid">
                             {elections
                               .filter((e) => e.office_id === office)
-                              .sort((a, b) => b.year - a.year)
+                              .sort((a, b) => b.date.localeCompare(a.date))
                               .map((e) => (
                                 <Link
                                   to={`/elections/${e.id}`}
