@@ -1024,10 +1024,28 @@ caption {
   font-size: 21px;
   margin-bottom: 15px;
 }
-.methodology section p {
+.methodology h3 {
+  font-size: 17px;
+  line-height: 1.5;
+  margin: 26px 0 12px;
+}
+.methodology section p,
+.methodology section li {
   font-size: 14px;
   color: #b3bfc6;
   line-height: 1.9;
+}
+.methodology section ul {
+  padding-left: 24px;
+  margin: 16px 0;
+}
+.methodology section li + li {
+  margin-top: 8px;
+}
+.methodology section a {
+  color: var(--accent);
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }
 .text-link {
   color: var(--accent);
@@ -1376,7 +1394,8 @@ caption {
   .methodology h1 {
     font-size: 39px;
   }
-  .methodology section p {
+  .methodology section p,
+  .methodology section li {
     font-size: 13px;
   }
   footer {
