@@ -147,9 +147,13 @@ export default function EarlyVotingDashboard({
   const provider = participation
     ? { provider: participation.provider, test_data: false }
     : activity.provider_report;
-  const returnedBreakdowns =
-    participation?.reports.find((report) => report.category === "returned")
-      ?.breakdowns ?? {};
+  const returnedReport = participation?.reports.find(
+    (report) => report.category === "returned",
+  );
+  const returnedBreakdowns = returnedReport?.breakdowns ?? {};
+  const returnedSource = activity.sources.find(
+    (source) => source.id === returnedReport?.source_id,
+  );
   return (
     <>
       <section className="election-heading">
@@ -296,58 +300,21 @@ export default function EarlyVotingDashboard({
             </p>
           </div>
         )}
-        <p>
-          Active registration: {activity.coverage.registered_voters} /{" "}
-          {activity.counties.length} counties. Requested:{" "}
-          {activity.coverage.ballots_requested} / {activity.counties.length}.
-          Returned: {activity.coverage.ballots_received} /{" "}
-          {activity.counties.length}. Ballots accepted:{" "}
-          {activity.coverage.ballots_accepted} / {activity.counties.length}.
-          In-person early participation: {activity.coverage.in_person_early} /{" "}
-          {activity.counties.length}. These coverage counts do not imply that
-          unavailable values are zero.
+        <p className="source-attribution">
+          Early voting participation report from{" "}
+          {returnedSource ? (
+            <a href={returnedSource.url} target="_blank" rel="noreferrer">
+              civicAPI
+            </a>
+          ) : (
+            "civicAPI"
+          )}
+          . Counts come from{" "}
+          <a href="https://civicapi.org/early-vote/" target="_blank" rel="noreferrer">
+            civicAPI
+          </a>
+          , which collects them from state election offices.
         </p>
-        {participation?.reports.map((report) => (
-          <p key={report.snapshot_id}>
-            <strong>
-              {report.label} · statewide provider party breakdown:{" "}
-            </strong>
-            {Object.entries(report.breakdowns["04"] ?? {})
-              .map(([party, value]) => `${party}: ${number(value)}`)
-              .join(" · ")}
-          </p>
-        ))}
-        <div className="sources-grid">
-          {activity.sources.map((s) => {
-            const release = activity.releases.find((r) => r.source_id === s.id);
-            return (
-              <a key={s.id} href={s.url} target="_blank" rel="noreferrer">
-                <small>
-                  {provider
-                    ? "PROVIDER REPORT ↗"
-                    : "OFFICIAL AGGREGATE SOURCE ↗"}
-                </small>
-                <strong>{s.title}</strong>
-                <span>{s.notes}</span>
-                {release && (
-                  <span>
-                    Source report:{" "}
-                    {reportTime(release.reported_at, release.report_precision)}
-                    <br />
-                    Last successful retrieval:{" "}
-                    {reportTime(release.retrieved_at)}
-                    {release.error && (
-                      <>
-                        <br />
-                        Latest refresh failed: {release.error}
-                      </>
-                    )}
-                  </span>
-                )}
-              </a>
-            );
-          })}
-        </div>
         <Link to="/methodology">Read the data methodology ↗</Link>
       </section>
     </>

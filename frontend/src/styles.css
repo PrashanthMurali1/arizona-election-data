@@ -950,6 +950,11 @@ td:nth-child(4) {
   color: var(--muted);
   max-width: 900px;
 }
+.sources .source-attribution a {
+  color: var(--accent);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
 .sources-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;

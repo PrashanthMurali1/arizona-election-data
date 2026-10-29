@@ -444,11 +444,16 @@ test("embedded 2026 Early Voting shows registration colors and populated columns
   await page.keyboard.press("Enter");
   await expect(detail.getByRole("heading", { name: "Apache County" })).toBeVisible();
   await expect(page.locator('.county-map path[aria-label^="Apache County."]')).toHaveClass(/selected/);
-  for (const report of activity.provider_participation!.reports)
-    await expect(page.locator(".sources")).toContainText(`Democratic: ${formatted(report.breakdowns["04"].Democratic)}`);
+  const sources = page.locator(".sources");
   await expect(page.getByRole("heading", { name: "Sources & coverage", exact: true })).toBeVisible();
-  await expect(page.locator(".sources")).toContainText("civicAPI");
-  await expect(page.locator('.sources a[href^="https://civicapi.org/api/v2/early-vote/AZ/"]')).toHaveCount(2);
+  await expect(sources.locator(".source-attribution")).toHaveText("Early voting participation report from civicAPI. Counts come from civicAPI, which collects them from state election offices.");
+  const returnedReport = activity.provider_participation!.reports.find((report) => report.category === "returned")!;
+  await expect(sources.getByRole("link", { name: "civicAPI", exact: true }).nth(0)).toHaveAttribute("href", activity.sources.find((source) => source.id === returnedReport.source_id)!.url);
+  await expect(sources.getByRole("link", { name: "Read the data methodology ↗", exact: true })).toHaveAttribute("href", "/methodology");
+  await expect(sources.getByRole("link", { name: "civicAPI", exact: true }).nth(1)).toHaveAttribute("href", "https://civicapi.org/early-vote/");
+  await expect(sources.locator(".sources-grid")).toHaveCount(0);
+  await expect(sources).not.toContainText(/Active registration:|Requested:|statewide provider party breakdown|data\/raw|SHA-256|Source report:|Last successful retrieval:/);
+  await sources.screenshot({ path: "test-results/early-voting-sources-desktop.png" });
   expect((await page.locator(".embedded-early-voting > :not(.sources)").allTextContents()).join(" ")).not.toMatch(/civicAPI/i);
   await page.setViewportSize({ width: 390, height: 844 });
   expect(await page.evaluate(() => document.documentElement.scrollWidth)).toBeLessThanOrEqual(390);
@@ -473,6 +478,8 @@ test("embedded 2026 Early Voting shows registration colors and populated columns
   expect(scrolling.canScroll).toBe(true);
   expect(scrolling.offset).toBeGreaterThan(0);
   await table.screenshot({ path: "test-results/early-voting-table-mobile.png" });
+  await expect(sources.locator(".source-attribution")).toHaveText("Early voting participation report from civicAPI. Counts come from civicAPI, which collects them from state election offices.");
+  await sources.screenshot({ path: "test-results/early-voting-sources-mobile.png" });
   await checkBars(activity.counties.find((county) => county.geoid === "04001")!);
   await detail.screenshot({ path: "test-results/2026-county-mobile.png" });
   await page.screenshot({ path: "test-results/2026-mobile.png", fullPage: true });
@@ -630,8 +637,9 @@ test("early-voting notifications refresh once, recover missed updates and clean 
   await expect(detail.getByRole("heading", { name: "Pima County" })).toBeVisible();
   await expect(table.locator('th[aria-sort="ascending"]')).toContainText("Total Early Votes (Returned Ballots)");
   await expect(page.locator('.county-map path[aria-label^="Pima County."]')).toHaveClass(/selected/);
-  await expect(page.locator(".sources")).toContainText("Last successful retrieval:");
-  await expect(page.locator(".sources")).toContainText("Source report:");
+  await expect(page.locator(".sources")).not.toContainText(/Last successful retrieval:|Source report:/);
+  await expect(state.locator(".county-timestamps")).toContainText("Retrieved:");
+  await expect(detail.locator(".county-timestamps")).toContainText("As of:");
   expect(activityRequests).toBe(2);
   await emit("revision", revision);
   await page.clock.fastForward(60_000);
@@ -648,7 +656,7 @@ test("early-voting notifications refresh once, recover missed updates and clean 
   await expect(page.locator(".sources")).toContainText("Update connection interrupted");
   await emit("revision", revision);
   await expect(page.locator(".sources")).toContainText("Early-voting refresh delayed");
-  await expect(page.locator(".sources")).toContainText("Synthetic failed scheduled refresh");
+  await expect(page.locator(".sources")).toContainText("Showing the last successfully retrieved figures.");
   await expect(detail.getByRole("heading", { name: "Pima County" })).toBeVisible();
   await expect(table.locator('th[aria-sort="ascending"]')).toContainText("Total Early Votes (Returned Ballots)");
   await expect(page.getByRole("heading", { name: "Source snapshots", exact: true })).toHaveCount(0);
@@ -662,6 +670,7 @@ test("early-voting notifications refresh once, recover missed updates and clean 
   await expect.poll(() => activityRequests).toBe(5);
   await expect(page.locator(".sources")).not.toContainText("Update connection interrupted");
   await page.locator(".sources").getByRole("link", {name: "Read the data methodology ↗", exact: true}).click();
+  await expect(page.locator(".methodology .lead")).toContainText("This is a personal hobby project, not a professional company.");
   await expect.poll(activeConnections).toBe(0);
   await page.getByRole("navigation", {name: "Main navigation"}).getByRole("link", {name: "Election catalog", exact: true}).click();
   await expect.poll(activeConnections).toBe(1);
