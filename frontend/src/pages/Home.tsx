@@ -22,10 +22,15 @@ const catalogTabs = [
 export default function Home() {
   const [selectedTab, setSelectedTab] =
     useState<(typeof catalogTabs)[number]["id"]>("live");
+  const [federalOffice, setFederalOffice] = useState("us-senate");
+  const [stateOffice, setStateOffice] = useState("governor");
   const tabRefs = useRef<(HTMLButtonElement | null)[]>([]);
-  const selectedOffices: readonly string[] = catalogTabs.find(
-    (tab) => tab.id === selectedTab,
-  )!.offices;
+  const selectedOffices: readonly string[] =
+    selectedTab === "federal"
+      ? [federalOffice]
+      : selectedTab === "state"
+        ? [stateOffice]
+        : catalogTabs.find((tab) => tab.id === selectedTab)!.offices;
 
   function navigateTabs(
     event: KeyboardEvent<HTMLButtonElement>,
@@ -125,6 +130,36 @@ export default function Home() {
                   hidden={selectedTab !== tab.id}
                   tabIndex={0}
                 >
+                  {selectedTab === tab.id && tab.id === "federal" && (
+                    <div className="catalog-office-filter">
+                      <label htmlFor="federal-office">Federal office</label>
+                      <select
+                        id="federal-office"
+                        value={federalOffice}
+                        onChange={(event) =>
+                          setFederalOffice(event.target.value)
+                        }
+                      >
+                        <option value="us-senate">U.S. Senate</option>
+                        <option value="us-house">U.S. House</option>
+                      </select>
+                    </div>
+                  )}
+                  {selectedTab === tab.id && tab.id === "state" && (
+                    <div className="catalog-office-filter">
+                      <label htmlFor="state-office">State office</label>
+                      <select
+                        id="state-office"
+                        value={stateOffice}
+                        onChange={(event) => setStateOffice(event.target.value)}
+                      >
+                        <option value="governor">Governor</option>
+                        <option value="attorney-general">
+                          Attorney General
+                        </option>
+                      </select>
+                    </div>
+                  )}
                   {selectedTab === tab.id &&
                     (categoryElections.length === 0 ? (
                       <p className="empty">
@@ -159,7 +194,7 @@ export default function Home() {
                           <div className="election-grid">
                             {elections
                               .filter((e) => e.office_id === office)
-                              .sort((a, b) => b.year - a.year)
+                              .sort((a, b) => b.date.localeCompare(a.date))
                               .map((e) => (
                                 <Link
                                   to={`/elections/${e.id}`}

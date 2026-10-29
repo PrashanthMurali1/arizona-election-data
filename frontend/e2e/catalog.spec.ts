@@ -42,13 +42,11 @@ const categories = [
     ids: [
       "az-2024-us-senate",
       "az-2018-us-senate",
-      "az-2024-us-house",
-      "az-2022-us-house",
     ],
   },
   {
     name: "State Elections",
-    ids: ["az-2022-governor", "az-2018-governor", "az-2022-attorney-general"],
+    ids: ["az-2022-governor", "az-2018-governor"],
   },
 ];
 
@@ -168,6 +166,56 @@ for (const width of [1440, 390, 320]) {
       await expect(page.locator(".election-card")).toHaveCount(
         category.ids.length,
       );
+      if (category.name === "Federal Elections") {
+        const picker = panel.getByRole("combobox", { name: "Federal office" });
+        await expect(picker).toHaveValue("us-senate");
+        await expect(picker.locator("option")).toHaveText(["U.S. Senate", "U.S. House"]);
+        const box = await picker.boundingBox();
+        expect(box!.height).toBeGreaterThanOrEqual(44);
+        expect(box!.x + box!.width).toBeLessThanOrEqual(width);
+        await picker.selectOption("us-house");
+        await expect(panel.locator(".election-card")).toHaveCount(2);
+        expect(await panel.locator(".election-card").evaluateAll((cards) =>
+          cards.map((card) => card.getAttribute("href")),
+        )).toEqual(["/elections/az-2024-us-house", "/elections/az-2022-us-house"]);
+        await panel.scrollIntoViewIfNeeded();
+        await page.screenshot({ path: `test-results/catalog-${width}-house.png`, fullPage: true });
+        await tabs.getByRole("tab", { name: "State Elections" }).click();
+        await tab.click();
+        await expect(picker).toHaveValue("us-house");
+        await tabs.getByRole("tab", { name: "Live Elections" }).click();
+        await tab.click();
+        await expect(picker).toHaveValue("us-house");
+        await picker.focus();
+        await page.keyboard.type("U.S. Senate");
+        await page.keyboard.press("Enter");
+        await expect(picker).toHaveValue("us-senate");
+        await expect(panel.locator(".election-card")).toHaveCount(2);
+      }
+      if (category.name === "State Elections") {
+        const picker = panel.getByRole("combobox", { name: "State office" });
+        await expect(picker).toHaveValue("governor");
+        await expect(picker.locator("option")).toHaveText(["Governor", "Attorney General"]);
+        const box = await picker.boundingBox();
+        expect(box!.height).toBeGreaterThanOrEqual(44);
+        expect(box!.x + box!.width).toBeLessThanOrEqual(width);
+        await picker.selectOption("attorney-general");
+        await expect(panel.locator(".election-card")).toHaveCount(1);
+        await expect(panel.locator(".election-card")).toHaveAttribute("href", "/elections/az-2022-attorney-general");
+        await panel.scrollIntoViewIfNeeded();
+        await page.screenshot({ path: `test-results/catalog-${width}-attorney-general.png`, fullPage: true });
+        await tabs.getByRole("tab", { name: "Federal Elections" }).click();
+        await tab.click();
+        await expect(picker).toHaveValue("attorney-general");
+        await tabs.getByRole("tab", { name: "Live Elections" }).click();
+        await tab.click();
+        await expect(picker).toHaveValue("attorney-general");
+        await picker.focus();
+        await page.keyboard.type("Governor");
+        await page.keyboard.press("Enter");
+        await expect(picker).toHaveValue("governor");
+        await expect(panel.locator(".election-card")).toHaveCount(2);
+      }
       if (category.name === "Live Elections") {
         await expect(panel.locator(".county-map path")).toHaveCount(15);
         await expect(
@@ -248,6 +296,8 @@ test("tabs support roving focus, arrow wraparound, Home/End and panel focus", as
   await expect(
     page.getByRole("tabpanel", { name: "State Elections" }),
   ).toBeFocused();
+  await page.keyboard.press("Tab");
+  await expect(page.getByRole("combobox", { name: "State office" })).toBeFocused();
   await page.keyboard.press("Tab");
   await expect(
     page.locator('a[href="/elections/az-2022-governor"]'),
@@ -449,7 +499,7 @@ test("embedded loading and API errors stay inside Live Elections and other tabs 
   await expect(panel.getByRole("alert")).toContainText("503");
   await expect.poll(() => streamCount(page)).toBe(1);
   await page.getByRole("tab", { name: "Federal Elections" }).click();
-  await expect(page.locator(".election-card")).toHaveCount(4);
+  await expect(page.locator(".election-card")).toHaveCount(2);
   await expect.poll(() => streamCount(page)).toBe(0);
 });
 

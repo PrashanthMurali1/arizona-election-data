@@ -92,7 +92,7 @@ test("catalog, candidate results, county map, details, sorting, year navigation 
     page.getByRole("heading", { name: "Election catalog" }),
   ).toBeVisible();
   await page.getByRole("tab", { name: "State Elections" }).click();
-  await expect(page.locator(".election-card")).toHaveCount(6);
+  await expect(page.locator(".election-card")).toHaveCount(3);
   await page
     .locator(".office-section")
     .filter({ hasText: "Arizona Governor" })
@@ -345,6 +345,7 @@ test("embedded 2026 Early Voting shows registration colors and populated columns
 test("historical Attorney General entries remain in State Elections", async ({ page }) => {
   await page.goto("/");
   await page.getByRole("tab", { name: "State Elections" }).click();
+  await page.getByRole("combobox", { name: "State office" }).selectOption("attorney-general");
   const office = page.locator(".office-section").filter({ hasText: "Arizona Attorney General" });
   await expect(office.locator(".election-card")).toHaveCount(3);
   await office.locator(".election-card").filter({ hasText: "2022" }).click();
