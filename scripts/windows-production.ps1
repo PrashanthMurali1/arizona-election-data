@@ -60,7 +60,7 @@ try {
             Write-Host "PASS health, $($catalog.Count) catalog entries, historical detail APIs, activity API and frontend deep link at $base"
             Invoke-Docker compose ps -a
         }
-        'Status' { Invoke-Docker compose --profile scheduled --profile public ps -a }
+        'Status' { Invoke-Docker compose --profile public ps -a }
         'Logs' { Invoke-Docker compose logs --tail 100 backend frontend }
         'Backup' { Invoke-Docker compose exec -T backend python production/manage_db.py backup }
         'Stop' { Invoke-Docker compose stop backend frontend }

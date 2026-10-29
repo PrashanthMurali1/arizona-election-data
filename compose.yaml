@@ -64,28 +64,6 @@ services:
       retries: 3
       start_period: 15s
 
-  scheduler:
-    <<: *app
-    profiles: [scheduled]
-    user: "0:0"
-    command: [python, production/start_scheduler.py]
-    environment:
-      DATABASE_URL: sqlite:////app/backend/local/elections.db
-      TZ: ${REFRESH_TIMEZONE:-Asia/Kolkata}
-      REFRESH_INTERVAL_HOURS: ${REFRESH_INTERVAL_HOURS:-6}
-      APP_LOG_LEVEL: ${APP_LOG_LEVEL:-INFO}
-    depends_on:
-      backend:
-        condition: service_healthy
-    restart: unless-stopped
-    stop_grace_period: 120s
-    healthcheck:
-      test: [CMD, python, production/start_scheduler.py, --check]
-      interval: 30s
-      timeout: 5s
-      retries: 3
-      start_period: 120s
-
   frontend:
     build:
       context: .

@@ -114,7 +114,7 @@ def export_migration():
 
 def restore(path, offline):
     if not offline:
-        raise SystemExit("Stop backend and scheduler, then pass --offline to restore")
+        raise SystemExit("Pause and drain Relay production jobs and stop backend, then pass --offline to restore")
     path = path.resolve()
     check(path)
     backup("before-restore")

@@ -16,14 +16,6 @@ services:
     secrets:
       - newrelic_license_key
     command: [python, production/start_monitored_backend.py, python, production/run_backend.py]
-  scheduler:
-    # Log export only; no APM agent launcher.
-    image: az-election-explorer-backend:newrelic
-    environment:
-      NEW_RELIC_LOGS_ENABLED: ${NEW_RELIC_LOGS_ENABLED:-true}
-      NEW_RELIC_LOGS_REGION: ${NEW_RELIC_LOGS_REGION:-US}
-      NEW_RELIC_LOGS_PER_MINUTE: ${NEW_RELIC_LOGS_PER_MINUTE:-10}
-    secrets: [newrelic_license_key]
   tunnel:
     environment:
       NEW_RELIC_LOGS_ENABLED: ${NEW_RELIC_LOGS_ENABLED:-true}

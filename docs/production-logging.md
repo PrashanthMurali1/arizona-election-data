@@ -1,6 +1,8 @@
+> Current scheduling is owned by Relay. The legacy Windows task and Docker cron container/service were removed on 2026-10-29. View refresh executions at http://127.0.0.1:8765. Later dated observations mentioning cron are historical.
+
 # Production logging
 
-Application, scheduler and tunnel diagnostics are JSON on stdout, with UTC
+Application, refresh-job and tunnel diagnostics are JSON on stdout, with UTC
 `timestamp`, `severity`, `service` and static `event` fields. API failures include a
 generated request correlation ID; each refresh has a generated job correlation
 ID. Incoming IDs are not trusted. Successful API responses include `X-Request-ID`.
@@ -10,10 +12,10 @@ agent bootstrap/registration diagnostics retain its native format.
 
 | Severity | Events |
 | --- | --- |
-| INFO | Backend/scheduler/tunnel start and stop; refresh start/completion with outcome and duration; tunnel connections registered |
+| INFO | Backend/tunnel start and stop; refresh start/completion with outcome and duration; tunnel connections registered |
 | WARNING | Overlapping refresh skipped, provider timeout/unavailable feed, invalid job status, last successful refresh older than 12 hours, stale early-voting data observed through the activity API, handled 4xx other than routine 404 |
 | ERROR | Unhandled API/database failures, handled 5xx, provider/import failures, failed refresh completion, connector failures |
-| CRITICAL | Backend cannot initialize its database, SQLite corruption/not-a-database, scheduler/cron cannot operate, refresh runtime cannot initialize, connector unexpectedly exits |
+| CRITICAL | Backend cannot initialize its database, SQLite corruption/not-a-database, refresh runtime cannot initialize, connector unexpectedly exits |
 
 Stale-source warnings occur when the activity endpoint observes existing stale
 metadata. They do not fetch providers or change results. There is no new retry
@@ -26,8 +28,8 @@ Run from the repository root in PowerShell. The existing `.env` Compose override
 keeps New Relic enabled.
 
 ```powershell
-docker compose --profile scheduled --profile public logs --since 30m --tail 200 backend scheduler tunnel frontend
-docker compose --profile scheduled --profile public ps
+docker compose --profile public logs --since 30m --tail 200 backend tunnel frontend
+docker compose --profile public ps
 # Refresh JSON is also retained on the Linux state volume:
 docker compose exec -T backend tail -n 50 backend/local/logs/early-voting-refresh.log
 ```
@@ -75,10 +77,10 @@ dynamic/user-provided event names or route templates. New Relic additionally
 strips exception messages from APM error traces and retains SQL obfuscation.
 
 `APP_LOG_LEVEL=INFO` is the default. Set it in the ignored `.env` and recreate the
-backend and scheduler to raise the minimum severity:
+backend through a reviewed, pinned-image deployment after pausing and draining Relay production jobs. Do not recreate mutable-tag containers while the deployment engine owns them. For status:
 
 ```powershell
-docker compose --profile scheduled up -d --no-deps --wait backend scheduler
+docker compose --profile public ps
 ```
 
 Supported values: DEBUG, INFO, WARNING, ERROR, CRITICAL. DEBUG does not enable
@@ -102,12 +104,12 @@ or other apps may contribute to the account's total usage. Disabling automatic
 log instrumentation does not disable APM error collection.
 
 Selected logs are now exported asynchronously via the official New Relic Logs
-API from all four services. WARNING, ERROR and CRITICAL events are eligible,
+API from the backend, frontend, tunnel and one-off refresh jobs. WARNING, ERROR and CRITICAL events are eligible,
 along with the small startup/shutdown and refresh-completion summaries. Normal
 requests and heartbeats remain excluded. Events are serialized through the same
 safe formatter and duplicate filter before entering the export queue. The key is
 mounted privately in each service and sent only in the HTTPS authentication
-header. Cron explicitly inherits the export flags, never the key itself.
+header. Relay invokes the refresh job in the current backend container, inheriting its capped export configuration and mounted key-file reference.
 
 Each process selects at most 10 events/minute by default, with a 100-event memory
 queue and batches of at most 10. Oversized exception details are omitted above

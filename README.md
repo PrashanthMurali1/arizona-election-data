@@ -1,11 +1,11 @@
 # Arizona Election Explorer
 
-The Docker Compose production build is now hosted on this **Windows computer** at **https://azelections.app**, with local viewing at **http://127.0.0.1:8080**. Frontend, backend, six-hour refresh scheduler and the existing Cloudflare Tunnel connector are healthy after the approved Mac-to-Windows cutover. See [Windows deployment and operations](docs/windows-deployment.md) for verification, backups and rollback. The [Mac hosting report](docs/production-hosting.md) records the previous deployment.
+The Docker Compose production build is now hosted on this **Windows computer** at **https://azelections.app**, with local viewing at **http://127.0.0.1:8080**. Frontend, backend and the existing Cloudflare Tunnel connector are healthy. The local Relay platform owns deployment checks and six-hour refresh scheduling; the legacy Windows task and Docker cron container have been removed. See [Windows deployment and operations](docs/windows-deployment.md) for verification, backups and rollback. The [Mac hosting report](docs/production-hosting.md) records the previous deployment.
 
 The production backend also supports [New Relic APM monitoring](docs/newrelic-monitoring.md), enabled through a Compose override and a private runtime license-key mount.
 See [production logging](docs/production-logging.md) for structured events, rotation, incident diagnosis and the free-tier ingestion policy.
 The private [New Relic dashboard and alerts](docs/newrelic-dashboards.md) cover API performance, error spikes, reporting silence and scheduled refresh health.
-The Windows host also runs a [scheduled deployment worker](docs/automatic-deployment.md), checking `main` every two minutes and deploying tested changes from an isolated checkout.
+The Windows host runs [Relay-managed deployment checks](docs/automatic-deployment.md) every two minutes, reusing the verified deployment engine and isolated checkout. Relay also schedules refreshes at 00:00/06:00/12:00/18:00 Asia/Kolkata. Open http://127.0.0.1:8765 for run history and controls.
 
 A local, dark-themed dashboard for exploring Arizona election results. Browse the election catalog, compare candidates, select a county or congressional district on the map or sortable table, and inspect results, turnout and source details.
 
@@ -142,9 +142,9 @@ npm ci --prefix frontend
 .\.venv\Scripts\python.exe -m uvicorn backend.app.main:app --host 127.0.0.1 --port 8000 --reload
 ```
 
-In a second terminal run `npm.cmd run dev --prefix frontend -- --port 5173 --strictPort`. Activation is optional because the commands use the virtual environment executable directly. A custom database can use `$env:DATABASE_URL = "sqlite:///C:/local-data/elections.db"`; create its parent directory first. Native participation job locking and macOS LaunchAgent management use Unix APIs; use the Linux Docker scheduler for Windows production. Windows timezone data is installed automatically by the requirements file.
+In a second terminal run `npm.cmd run dev --prefix frontend -- --port 5173 --strictPort`. Activation is optional because the commands use the virtual environment executable directly. A custom database can use `$env:DATABASE_URL = "sqlite:///C:/local-data/elections.db"`; create its parent directory first. Native participation job locking and macOS LaunchAgent management use Unix APIs; use Relay to invoke the refresh job inside the Linux backend container for Windows production. Windows timezone data is installed automatically by the requirements file.
 
-For browser tests use `$env:PLAYWRIGHT_BROWSERS_PATH = "node_modules/.cache/ms-playwright"` in `frontend`, run `npx.cmd playwright install chromium` and `npx.cmd playwright test`. The test-server config locates the Windows virtual environment executable automatically. For production use [the Windows Docker deployment guide](docs/windows-deployment.md), which keeps the existing cron worker and Cloudflare Tunnel architecture.
+For browser tests use `$env:PLAYWRIGHT_BROWSERS_PATH = "node_modules/.cache/ms-playwright"` in `frontend`, run `npx.cmd playwright install chromium` and `npx.cmd playwright test`. The test-server config locates the Windows virtual environment executable automatically. For production use [the Windows Docker deployment guide](docs/windows-deployment.md), with Relay scheduling and the existing Cloudflare Tunnel.
 
 ## Troubleshooting
 

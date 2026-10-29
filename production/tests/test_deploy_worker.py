@@ -47,9 +47,8 @@ def worker(tmp_path,monkeypatch):
     ('README.md',set()),('frontend/e2e/catalog.spec.ts',set()),('frontend/src/a.test.tsx',set()),
     ('backend/tests/test_api.py',set()),('scripts/deploy_worker.py',set()),
     ('frontend/src/Home.tsx',{'frontend'}),('frontend/public/logo.svg',{'frontend'}),
-    ('backend/app/models.py',{'backend','scheduler'}),('scripts/refresh_2026.py',{'backend','scheduler'}),
-    ('production/start_scheduler.py',{'backend','scheduler'}),
-    ('backend/app/log_export.py',set(d.SERVICES)),('backend/app/observability.py',set(d.SERVICES)),
+    ('backend/app/models.py',{'backend'}),('scripts/refresh_2026.py',{'backend'}),
+        ('backend/app/log_export.py',set(d.SERVICES)),('backend/app/observability.py',set(d.SERVICES)),
     ('production/run_tunnel.py',set(d.SERVICES)),('production/frontend.Dockerfile',{'frontend'}),
     ('production/tunnel.Dockerfile',{'tunnel'}),('.dockerignore',set(d.SERVICES)),
 ])
@@ -83,7 +82,7 @@ def test_production_storage_identity_and_monitoring_cannot_silently_change(field
 def test_build_args_and_secret_sources_are_part_of_runtime_plan(worker):
     cfg=config()
     cfg['services']['backend']['build']['args']={'APP_UID':'502'}
-    assert set(d.affected_services(worker.state['manifest'],d.source_fingerprints({}),cfg))=={'backend','scheduler'}
+    assert set(d.affected_services(worker.state['manifest'],d.source_fingerprints({}),cfg))=={'backend'}
 
 
 def test_retries_never_overwrite_a_previously_tagged_image(worker,monkeypatch,tmp_path):
@@ -275,7 +274,7 @@ def test_failed_incompatible_migration_blocks_rollback_and_retry(worker,monkeypa
     monkeypatch.setattr(worker,'compose',compose)
     monkeypatch.setattr(worker,'image_id',lambda image:'id')
     with pytest.raises(d.Failure):
-        worker.activate(path,cfg,['backend','scheduler'],d.source_fingerprints({}),True)
+        worker.activate(path,cfg,['backend'],d.source_fingerprints({}),True)
     assert worker.state['blocked'] and not worker.state['journal']['rollback_allowed']
     assert not any('restore' in call for call in calls)
     monkeypatch.setattr(worker,'check_engine',lambda:None)
@@ -291,7 +290,7 @@ def test_migration_command_pins_candidate_and_bypasses_dependencies(worker,monke
     monkeypatch.setattr(worker,'image_id',lambda image:'id')
     monkeypatch.setattr(worker,'image_assets',lambda image:['/assets/new.js'])
     monkeypatch.setattr(worker,'verify_live',lambda *a:fake_live())
-    worker.activate(path,cfg,['backend','scheduler'],d.source_fingerprints({}),False)
+    worker.activate(path,cfg,['backend'],d.source_fingerprints({}),False)
     migration=next(call for call in calls if 'migrate' in call)
     assert migration[0]==path and '--no-deps' in migration and 'backend' in migration
     assert not any('initialize' in call for call in calls)
@@ -345,14 +344,32 @@ def test_deployment_logs_redact_unknown_metadata_and_export_summaries():
     record=logging.LogRecord('elections',logging.INFO,'',0,'SECRET',(),None)
     record.event='deployment_succeeded'
     record.commit_sha=SHA
-    record.services=['backend','scheduler']
+    record.services=['backend']
     record.phase='verify'
     record.rollback='not_needed'
     record.reason='SECRET'
     record.password='SECRET'
     value=json.loads(JsonFormatter('deploy_worker').format(record))
     assert 'SECRET' not in json.dumps(value)
-    assert value['commit_sha']==SHA and value['services']=='backend,scheduler'
+    assert value['commit_sha']==SHA and value['services']=='backend'
     exporter=LogExporter('not-a-real-key',start=False)
     exporter.submit(value)
     assert exporter.queue.qsize()==1
+
+
+def test_old_manifest_cron_entry_does_not_require_a_container(worker, monkeypatch):
+    worker.state['manifest']['scheduler'] = {'image_id': 'retired-image'}
+    monkeypatch.setattr(worker, 'inspect', fake_live)
+    assert set(worker.drift_check()) == set(d.SERVICES)
+
+
+def test_old_rollback_journal_never_recreates_cron(worker, monkeypatch):
+    calls = []
+    monkeypatch.setattr(worker, 'compose', lambda *a, **k: calls.append(a))
+    worker.bring_up('old-config.json', ['backend', 'scheduler'], 'rollback')
+    assert len(calls) == 1 and calls[0][-1] == 'backend'
+    assert 'scheduler' not in calls[0] and 'create' not in calls[0]
+    worker.bring_up('old-config.json', ['scheduler'], 'rollback')
+    assert len(calls) == 1
+    with pytest.raises(d.Failure, match='unsupported_service'):
+        worker.bring_up('old-config.json', ['arbitrary'], 'rollback')
