@@ -6,6 +6,7 @@ test("House archive uses each district's candidates and historical geometry", as
   const errors: string[] = [];
   page.on("pageerror", (e) => errors.push(e.message));
   await page.goto("/");
+  await page.getByRole("tab", { name: "Federal Elections" }).click();
   const office = page
     .locator(".office-section")
     .filter({ hasText: "Arizona U.S. House" });

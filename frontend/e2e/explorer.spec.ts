@@ -7,6 +7,7 @@ test("Senate archive reuses results, county selection, year navigation and respo
   const errors: string[] = [];
   page.on("pageerror", (e) => errors.push(e.message));
   await page.goto("/");
+  await page.getByRole("tab", { name: "Federal Elections" }).click();
   const office = page
     .locator(".office-section")
     .filter({ hasText: "Arizona U.S. Senate" });
@@ -90,7 +91,8 @@ test("catalog, candidate results, county map, details, sorting, year navigation 
   await expect(
     page.getByRole("heading", { name: "Election catalog" }),
   ).toBeVisible();
-  await expect(page.locator(".election-card")).toHaveCount(20);
+  await page.getByRole("tab", { name: "State Elections" }).click();
+  await expect(page.locator(".election-card")).toHaveCount(6);
   await page
     .locator(".office-section")
     .filter({ hasText: "Arizona Governor" })
@@ -173,7 +175,8 @@ test("mobile layout contains overflow and supports county selection", async ({
 test("desktop layout and catalog screenshots", async ({ page }) => {
   await page.setViewportSize({ width: 1440, height: 1000 });
   await page.goto("/");
-  await expect(page.locator(".election-card")).toHaveCount(20);
+  await expect(page.locator(".election-card")).toHaveCount(0);
+  await expect(page.getByRole("heading", {name: "2026 Early Voting", exact: true})).toBeVisible();
   await page.screenshot({ path: "test-results/catalog.png", fullPage: true });
   await page.goto("/elections/az-2022-governor");
   await expect(page.locator(".county-map path")).toHaveCount(15);
@@ -190,6 +193,7 @@ test("2018 certified results, source caveat, county selection, sorting and mobil
   const errors: string[] = [];
   page.on("pageerror", (e) => errors.push(e.message));
   await page.goto("/");
+  await page.getByRole("tab", { name: "State Elections" }).click();
   const card = page
     .locator(".office-section")
     .filter({ hasText: "Arizona Governor" })
@@ -255,17 +259,15 @@ test("2018 certified results, source caveat, county selection, sorting and mobil
   expect(errors).toEqual([]);
 });
 
-test("one 2026 Early Voting catalog entry shows registration colors and populated columns", async ({ page }) => {
+test("embedded 2026 Early Voting shows registration colors and populated columns", async ({ page }) => {
   const errors: string[] = [];
   page.on("pageerror", (e) => errors.push(e.message));
-  await page.goto("/");
-  const card = page.getByRole("link", { name: "2026 Early Voting", exact: true });
-  await expect(card).toHaveCount(1);
-  await expect(page.locator('.catalog a[href="/elections/az-2026-governor"]')).toHaveCount(0);
-  await expect(page.locator('.catalog a[href="/elections/az-2026-attorney-general"]')).toHaveCount(0);
   const connected = page.waitForResponse((response) => response.url().endsWith("/az-2026-early-voting/updates"));
   const activityLoaded = page.waitForResponse((response) => response.url().endsWith("/az-2026-early-voting/activity"));
-  await card.click();
+  await page.goto("/");
+  await expect(page.locator(".election-card")).toHaveCount(0);
+  await expect(page.locator('.catalog a[href="/elections/az-2026-governor"]')).toHaveCount(0);
+  await expect(page.locator('.catalog a[href="/elections/az-2026-attorney-general"]')).toHaveCount(0);
   const activity: Activity = await (await activityLoaded).json();
   // The production scheduler updates participation totals. Check the rendered
   // values against the response this page received instead of an older release.
@@ -280,11 +282,11 @@ test("one 2026 Early Voting catalog entry shows registration colors and populate
   expect(streamResponse.headers()["content-type"]).toContain("text/event-stream");
   expect(streamResponse.headers()["cache-control"]).toMatch(/\b(?:no-cache|no-store)\b/);
   expect(streamResponse.headers()["cache-control"]).toContain("no-transform");
-  await expect(page).toHaveURL(/\/elections\/az-2026-early-voting$/);
+  await expect(page).toHaveURL(/\/$/);
   await expect(page.getByRole("heading", { name: "2026 Early Voting", exact: true })).toBeVisible();
   await expect(page.getByRole("heading", { name: "Source snapshots", exact: true })).toHaveCount(0);
   await expect(page.getByRole("region", { name: "Reporting dates and source status" })).toHaveCount(0);
-  await expect(page.locator(".notice > strong")).toHaveText("Early-voting participation reports.");
+  await expect(page.locator(".embedded-early-voting > .notice > strong")).toHaveText("Early-voting participation reports.");
   await expect(page.locator(".candidate-row")).toHaveCount(0);
   await expect(page.locator(".county-map path.dem")).toHaveCount(5);
   await expect(page.locator(".county-map path.rep")).toHaveCount(10);
@@ -333,7 +335,7 @@ test("one 2026 Early Voting catalog entry shows registration colors and populate
   await expect(page.getByRole("heading", { name: "Sources & coverage", exact: true })).toBeVisible();
   await expect(page.locator(".sources")).toContainText("civicAPI");
   await expect(page.locator('.sources a[href^="https://civicapi.org/api/v2/early-vote/AZ/"]')).toHaveCount(2);
-  expect((await page.locator("main > :not(.sources)").allTextContents()).join(" ")).not.toMatch(/civicAPI/i);
+  expect((await page.locator(".embedded-early-voting > :not(.sources)").allTextContents()).join(" ")).not.toMatch(/civicAPI/i);
   await page.setViewportSize({ width: 390, height: 844 });
   expect(await page.evaluate(() => document.documentElement.scrollWidth)).toBeLessThanOrEqual(390);
   await page.screenshot({ path: "test-results/2026-mobile.png", fullPage: true });
@@ -347,6 +349,7 @@ test("both old 2026 page URLs redirect and historical Attorney General entries r
     await expect(page.getByRole("heading", { name: "2026 Early Voting", exact: true })).toBeVisible();
   }
   await page.goto("/");
+  await page.getByRole("tab", { name: "State Elections" }).click();
   const office = page.locator(".office-section").filter({ hasText: "Arizona Attorney General" });
   await expect(office.locator(".election-card")).toHaveCount(3);
   await office.locator(".election-card").filter({ hasText: "2022" }).click();
@@ -525,9 +528,9 @@ test("early-voting notifications refresh once, recover missed updates and clean 
   await emit("revision", revision);
   await expect.poll(() => activityRequests).toBe(5);
   await expect(page.locator(".sources")).not.toContainText("Update connection interrupted");
-  await page.locator(".breadcrumbs").getByRole("link", {name: "Election catalog", exact: true}).click();
+  await page.locator(".sources").getByRole("link", {name: "Read the data methodology ↗", exact: true}).click();
   await expect.poll(activeConnections).toBe(0);
-  await page.getByRole("link", {name: "2026 Early Voting", exact: true}).click();
+  await page.getByRole("navigation", {name: "Main navigation"}).getByRole("link", {name: "Election catalog", exact: true}).click();
   await expect.poll(() => activityRequests).toBe(6);
   await expect.poll(activeConnections).toBe(1);
   await emit("revision", revision);
