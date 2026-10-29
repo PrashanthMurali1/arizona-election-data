@@ -118,6 +118,8 @@ def early_vote_input(feed, acquisition, category):
 
 
 def fetch_provider_inputs():
+    import logging
+    from backend.app.observability import emit
     acquisitions, payloads, failures, unavailable = [], [], [], []
 
     def get(url):
@@ -134,6 +136,7 @@ def fetch_provider_inputs():
             if response.status_code == 404:
                 unavailable.append({"category": category, "url": metadata["url"], "reason": response.json().get("error", "Not provided")})
                 if category != "inperson":
+                    emit(logging.WARNING, 'participation_feed_unavailable', feed=category, status_code=404)
                     failures.append((stream, "Early-vote feed unavailable (HTTP 404); previous data preserved"))
                 continue
             response.raise_for_status()
@@ -142,9 +145,10 @@ def fetch_provider_inputs():
                 raise ValueError("Response contains no participation counts; previous data preserved")
             payloads.append(payload)
         except (requests.RequestException, ValueError, KeyError, TypeError) as exc:
+            emit(logging.WARNING if isinstance(exc, requests.Timeout) else logging.ERROR,
+                 'participation_feed_failed', exc=exc, feed=category, outcome='failed')
             failures.append((stream, str(exc)))
     index = RAW / "providers" / f"early-vote-acquisition-{datetime.now(timezone.utc).strftime('%Y%m%dT%H%M%S%fZ')}.json"
     index.parent.mkdir(parents=True, exist_ok=True)
     index.write_text(json.dumps({"acquisitions": acquisitions, "unavailable": unavailable, "failures": failures}, indent=2) + "\n")
-    print("Early-vote acquisition index:", index.relative_to(ROOT))
     return payloads, failures

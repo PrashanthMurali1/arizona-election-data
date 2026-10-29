@@ -7,7 +7,8 @@ to alert when Windows or Docker is down.
 
 Save the New Relic **ingest license key**, not a user API key, as one line in
 `.production/secrets/newrelic-license-key`. This directory is ignored by Git and
-excluded from Docker builds. The key is mounted only into the backend at runtime.
+excluded from Docker builds. The key is mounted at runtime into the backend for
+APM and into all four services for sanitized Logs API export.
 Keep the existing private NTFS permissions; never paste the key into a command,
 commit it or print resolved Compose configuration.
 
@@ -45,8 +46,11 @@ Confirm transactions, response times and error rate appear. Agent logs should
 confirm registration and reporting; a healthy app alone does not establish that
 New Relic received data.
 
-SQL is obfuscated, request parameter/header attributes are excluded, automatic
-browser injection and log forwarding are disabled. The license key is not baked
+SQL is obfuscated, request parameter/header attributes are excluded, exception
+messages are stripped, and automatic browser injection and APM log instrumentation/
+forwarding are disabled. Sanitized selected logs use a separate bounded Logs API
+exporter. See [production logging](production-logging.md) for diagnostics, limits
+and privacy behavior. The license key is not baked
 into an image or passed as a command-line argument.
 
 For outage detection, configure a public New Relic synthetic monitor against
@@ -54,16 +58,17 @@ For outage detection, configure a public New Relic synthetic monitor against
 connect its failure alert to your desired notification destination. APM cannot
 send telemetry when the host is asleep or Docker is stopped.
 
-Rollback without modifying data:
+Disable APM while retaining the current logging code, without modifying data:
 
 ```powershell
+docker compose -f compose.yaml build backend
 docker compose -f compose.yaml up -d --no-deps --wait backend
 ```
 
-This restores the original `az-election-explorer-backend:local` image and command.
-Also remove COMPOSE_FILE and COMPOSE_PATH_SEPARATOR from `.env` to keep APM
-disabled in subsequent operations. Keep the original image until the monitored
-deployment is verified.
+This builds and starts `az-election-explorer-backend:local` without the agent
+launcher. Build first: an older local image may lack the current startup script.
+Also remove COMPOSE_FILE and COMPOSE_PATH_SEPARATOR from `.env` to keep APM and
+Logs API export disabled in subsequent base-only operations.
 
 References: [Python agent setup](https://github.com/newrelic/newrelic-python-agent),
 [agent configuration](https://docs.newrelic.com/docs/apm/agents/python-agent/configuration/python-agent-configuration/),

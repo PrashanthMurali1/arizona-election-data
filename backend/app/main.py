@@ -1,4 +1,7 @@
 from typing import Annotated
+from contextlib import asynccontextmanager
+import logging
+import time
 from fastapi import FastAPI, Depends, HTTPException, Request
 from fastapi.responses import StreamingResponse
 from sqlalchemy import select, func
@@ -32,12 +35,31 @@ from . import house
 from . import early_vote_updates
 from .lifecycle import activity, CONTEST, AG_CONTEST
 from .services import metadata, results
+from .observability import RequestLogging, emit
+
+
+@asynccontextmanager
+async def lifespan(app):
+    started = time.monotonic()
+    try:
+        with SessionLocal() as s:
+            s.execute(select(Contest.id).limit(1))
+    except Exception as exc:
+        emit(logging.CRITICAL, 'backend_startup_failed', exc=exc, outcome='failed')
+        raise
+    emit(logging.INFO, 'backend_started', outcome='success', duration_ms=round((time.monotonic()-started)*1000))
+    try:
+        yield
+    finally:
+        emit(logging.INFO, 'backend_stopped', outcome='success', duration_ms=round((time.monotonic()-started)*1000))
 
 app = FastAPI(
+    lifespan=lifespan,
     title="Arizona Election Explorer",
     version="1.0.0",
     description="Certified election results, reporting units, turnout and provenance. Null values mean unavailable; contest votes are distinct from ballots cast.",
 )
+app.add_middleware(RequestLogging)
 
 
 def session():
@@ -198,6 +220,8 @@ def election_activity(id: str, s: DB):
         return None
     current_contest = contest(s, id)
     value = activity(s, current_contest.id)
+    if id == EARLY_VOTING and value and value.get('stale'):
+        emit(logging.WARNING, 'early_voting_data_stale')
     if id == EARLY_VOTING and value:
         return EarlyVotingActivityOut(**value, revision=early_vote_updates.revision(value))
     return value

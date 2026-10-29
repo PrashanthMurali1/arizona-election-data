@@ -13,6 +13,7 @@ x-app: &app
   environment:
     DATABASE_URL: sqlite:////app/backend/local/elections.db
     TZ: ${REFRESH_TIMEZONE:-Asia/Kolkata}
+    APP_LOG_LEVEL: ${APP_LOG_LEVEL:-INFO}
   volumes:
     - state:/app/backend/local
     - ./.production/raw:/app/data/raw
@@ -49,7 +50,7 @@ services:
       args:
         APP_UID: ${APP_UID:-501}
         APP_GID: ${APP_GID:-20}
-    command: [python, -m, uvicorn, backend.app.main:app, --host, 0.0.0.0, --port, "8000", --workers, "1", --timeout-graceful-shutdown, "30", --proxy-headers, --forwarded-allow-ips, "*"]
+    command: [python, production/run_backend.py]
     depends_on:
       migrate:
         condition: service_completed_successfully
@@ -72,6 +73,7 @@ services:
       DATABASE_URL: sqlite:////app/backend/local/elections.db
       TZ: ${REFRESH_TIMEZONE:-Asia/Kolkata}
       REFRESH_INTERVAL_HOURS: ${REFRESH_INTERVAL_HOURS:-6}
+      APP_LOG_LEVEL: ${APP_LOG_LEVEL:-INFO}
     depends_on:
       backend:
         condition: service_healthy
@@ -112,10 +114,14 @@ services:
       retries: 3
 
   tunnel:
-    image: cloudflare/cloudflared:2026.10.3
+    image: az-election-explorer-tunnel:local
+    build:
+      context: .
+      dockerfile: production/tunnel.Dockerfile
+    init: true
     user: "${APP_UID:-501}:${APP_GID:-20}"
     profiles: [public]
-    command: [tunnel, --no-autoupdate, --metrics, "0.0.0.0:2000", run, --token-file, /run/secrets/tunnel_token]
+    command: [tunnel, --no-autoupdate, --output, json, --metrics, "0.0.0.0:2000", run, --token-file, /run/secrets/tunnel_token]
     secrets: [tunnel_token]
     depends_on:
       frontend:

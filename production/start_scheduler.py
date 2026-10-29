@@ -10,6 +10,9 @@ from pathlib import Path
 from zoneinfo import ZoneInfo
 
 ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT))
+import logging
+from backend.app.observability import configure_logging, emit
 
 
 def configure():
@@ -25,13 +28,21 @@ def configure():
     Path("/etc/localtime").symlink_to(source)
     Path("/etc/timezone").write_text(zone + "\n")
     entries = ",".join(str(hour) for hour in range(0, 24, hours))
+    level = os.getenv('APP_LOG_LEVEL', 'INFO').upper()
+    if level not in {'DEBUG', 'INFO', 'WARNING', 'ERROR', 'CRITICAL'}:
+        level = 'INFO'
+    export = 'true' if os.getenv('NEW_RELIC_LOGS_ENABLED', '').lower() == 'true' else 'false'
+    region = 'EU' if os.getenv('NEW_RELIC_LOGS_REGION') == 'EU' else 'US'
+    export_limit = max(1, min(int(os.getenv('NEW_RELIC_LOGS_PER_MINUTE', '10')), 60))
     Path("/etc/cron.d/early-voting").write_text(
         "SHELL=/bin/sh\nPATH=/usr/local/bin:/usr/bin:/bin\n"
         "DATABASE_URL=sqlite:////app/backend/local/elections.db\n"
-        f"TZ={zone}\n0 {entries} * * * app /usr/local/bin/python /app/production/refresh_job.py\n"
+        f"APP_LOG_LEVEL={level}\n"
+        f"NEW_RELIC_LOGS_ENABLED={export}\nNEW_RELIC_LOGS_REGION={region}\nNEW_RELIC_LOGS_PER_MINUTE={export_limit}\n"
+        f"TZ={zone}\n0 {entries} * * * root runuser -u app -- /usr/local/bin/python /app/production/refresh_job.py > /proc/1/fd/1 2> /proc/1/fd/2\n"
     )
     Path("/etc/cron.d/early-voting").chmod(0o644)
-    print(f"Cron: hours {entries}, minute 00, timezone {zone}", flush=True)
+    emit(logging.INFO, 'scheduler_configured')
 
 
 def main():
@@ -41,6 +52,8 @@ def main():
             raise SystemExit(1)
         return
     configure()
+    started = time.monotonic()
+    emit(logging.INFO, 'scheduler_started', outcome='success')
     # Catch up once on container startup; failures do not stop future cron slots.
     run = subprocess.Popen(
         [
@@ -55,11 +68,12 @@ def main():
 
     def stop(signum, _frame):
         run.send_signal(signum)
+        emit(logging.INFO, 'scheduler_stopped', outcome='cancelled', duration_ms=round((time.monotonic()-started)*1000))
         raise SystemExit(0)
 
     signal.signal(signal.SIGTERM, stop)
     signal.signal(signal.SIGINT, stop)
-    print("Startup refresh exit_code:", run.wait(), flush=True)
+    run.wait()  # The refresh runtime logs its own outcome exactly once.
     cron = subprocess.Popen(["/usr/sbin/cron", "-f"])
 
     def drain(_signum, _frame):
@@ -76,12 +90,20 @@ def main():
                         break
                     except BlockingIOError:
                         time.sleep(0.5)
+        emit(logging.INFO, 'scheduler_stopped', outcome='success', duration_ms=round((time.monotonic()-started)*1000))
         raise SystemExit(0)
 
     signal.signal(signal.SIGTERM, drain)
     signal.signal(signal.SIGINT, drain)
-    raise SystemExit(cron.wait())
+    code = cron.wait()
+    emit(logging.CRITICAL, 'scheduler_cron_exited', outcome='failed', exit_code=code)
+    raise SystemExit(code or 1)
 
 
 if __name__ == "__main__":
-    main()
+    configure_logging('scheduler')
+    try:
+        main()
+    except Exception as exc:
+        emit(logging.CRITICAL, 'scheduler_failed', exc=exc, outcome='failed')
+        raise SystemExit(1)

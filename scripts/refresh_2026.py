@@ -5,6 +5,7 @@ import csv
 import hashlib
 import io
 import json
+import logging
 import re
 import sys
 from datetime import datetime, timezone
@@ -19,6 +20,7 @@ sys.path.insert(0, str(ROOT))
 from backend.app.database import SessionLocal
 from backend.app.publication_input import SnapshotInput
 from backend.app.lifecycle import apply_snapshot, record_failure
+from backend.app.observability import emit, failure_level
 
 LAYER = "https://services.arcgis.com/ykpntM6e3tHvzKRJ/arcgis/rest/services/Maricopa_County_Early_Voting_Returns_In_Hand/FeatureServer/0"
 PIMA = "https://recorder.pima.gov/BallotProcessingReports"
@@ -370,17 +372,18 @@ def refresh_early_voting():
     try:
         payloads, failures = fetch_provider_inputs()
     except Exception as exc:
+        emit(failure_level(exc), 'participation_acquisition_failed', exc=exc, outcome='failed')
         payloads = []
         failures = [(f"early-vote-{category}", str(exc)) for category in ("requested", "returned")]
     for payload in payloads:
         try:
             data = save_manifest(payload)
             with SessionLocal.begin() as s:
-                print(data.stream, json.dumps(apply_snapshot(s, data)), flush=True)
+                apply_snapshot(s, data)
         except Exception as exc:
+            emit(failure_level(exc), 'participation_import_failed', exc=exc, outcome='failed')
             failures.append((payload["stream"], str(exc)))
     for stream, error in failures:
-        print(stream, "FAILED; last successful participation data preserved:", error, flush=True)
         with SessionLocal.begin() as s:
             record_failure(s, stream, error)
     return 1 if failures else 0
