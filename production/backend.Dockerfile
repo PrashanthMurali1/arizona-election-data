@@ -9,6 +9,8 @@ RUN apt-get update && apt-get install -y --no-install-recommends cron tzdata ca-
     && useradd --uid "${APP_UID}" --gid "${APP_GID}" --create-home app
 COPY backend/requirements.txt backend/requirements.txt
 RUN pip install --no-cache-dir -r backend/requirements.txt
+COPY production/requirements-monitoring.txt production/requirements-monitoring.txt
+RUN pip install --no-cache-dir -r production/requirements-monitoring.txt
 COPY backend backend
 COPY scripts scripts
 COPY production production

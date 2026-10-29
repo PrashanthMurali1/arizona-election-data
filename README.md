@@ -2,6 +2,8 @@
 
 The Docker Compose production build is now hosted on this **Windows computer** at **https://azelections.app**, with local viewing at **http://127.0.0.1:8080**. Frontend, backend, six-hour refresh scheduler and the existing Cloudflare Tunnel connector are healthy after the approved Mac-to-Windows cutover. See [Windows deployment and operations](docs/windows-deployment.md) for verification, backups and rollback. The [Mac hosting report](docs/production-hosting.md) records the previous deployment.
 
+The production backend also supports [New Relic APM monitoring](docs/newrelic-monitoring.md), enabled through a Compose override and a private runtime license-key mount.
+
 A local, dark-themed dashboard for exploring Arizona election results. Browse the election catalog, compare candidates, select a county or congressional district on the map or sortable table, and inspect results, turnout and source details.
 
 **2026 Early Voting is available as one catalog entry.** The shared page at `/elections/az-2026-early-voting` displays civicAPI's October 28 participation data: **3,289,914 requested** and **1,143,275 returned** ballots, plus all 15 counties and party-registration breakdowns. The table hides wholly unavailable columns. Counties are blue/red for the uniquely largest Democratic/Republican registration group among returned ballots; Other/ties/missing remain gray. Colors do not indicate candidate choices. The old 2026 Governor/AG page URLs redirect here. Refresh with `.venv/bin/python scripts/refresh_2026.py --early-voting`; see [2026 sources and coverage](docs/2026-import-report.md).
