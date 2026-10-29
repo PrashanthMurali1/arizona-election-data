@@ -98,7 +98,8 @@ def test_lock_and_job_audit_preserve_success_on_failure_and_skip_overlap(tmp_pat
         assert run_refresh(lambda: pytest.fail("Overlapping callback ran"), local=tmp_path) == 0
         assert json.loads(status_path.read_text()) == failed
     log = (tmp_path / "logs/early-voting-refresh.log").read_text()
-    assert "SUCCESS" in log and "FAILED" in log and "SKIPPED" in log
+    events = [json.loads(line) for line in log.splitlines()]
+    assert {'success', 'failed', 'skipped'} <= {row.get('outcome') for row in events}
 
 
 def test_launchd_configuration_uses_persistent_calendar_and_absolute_paths(monkeypatch, tmp_path):

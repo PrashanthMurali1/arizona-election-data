@@ -9,9 +9,33 @@ services:
       NEW_RELIC_HOST: ${NEW_RELIC_HOST:-collector.newrelic.com}
       NEW_RELIC_CONFIG_FILE: /app/production/newrelic.ini
       NEW_RELIC_LOG: stdout
+      APP_LOG_LEVEL: ${APP_LOG_LEVEL:-INFO}
+      NEW_RELIC_LOGS_ENABLED: ${NEW_RELIC_LOGS_ENABLED:-true}
+      NEW_RELIC_LOGS_REGION: ${NEW_RELIC_LOGS_REGION:-US}
+      NEW_RELIC_LOGS_PER_MINUTE: ${NEW_RELIC_LOGS_PER_MINUTE:-10}
     secrets:
       - newrelic_license_key
-    command: [python, production/start_monitored_backend.py, python, -m, uvicorn, backend.app.main:app, --host, 0.0.0.0, --port, "8000", --workers, "1", --timeout-graceful-shutdown, "30", --proxy-headers, --forwarded-allow-ips, "*"]
+    command: [python, production/start_monitored_backend.py, python, production/run_backend.py]
+  scheduler:
+    # Log export only; no APM agent launcher.
+    image: az-election-explorer-backend:newrelic
+    environment:
+      NEW_RELIC_LOGS_ENABLED: ${NEW_RELIC_LOGS_ENABLED:-true}
+      NEW_RELIC_LOGS_REGION: ${NEW_RELIC_LOGS_REGION:-US}
+      NEW_RELIC_LOGS_PER_MINUTE: ${NEW_RELIC_LOGS_PER_MINUTE:-10}
+    secrets: [newrelic_license_key]
+  tunnel:
+    environment:
+      NEW_RELIC_LOGS_ENABLED: ${NEW_RELIC_LOGS_ENABLED:-true}
+      NEW_RELIC_LOGS_REGION: ${NEW_RELIC_LOGS_REGION:-US}
+      NEW_RELIC_LOGS_PER_MINUTE: ${NEW_RELIC_LOGS_PER_MINUTE:-10}
+    secrets: [newrelic_license_key]
+  frontend:
+    environment:
+      NEW_RELIC_LOGS_ENABLED: ${NEW_RELIC_LOGS_ENABLED:-true}
+      NEW_RELIC_LOGS_REGION: ${NEW_RELIC_LOGS_REGION:-US}
+      NEW_RELIC_LOGS_PER_MINUTE: ${NEW_RELIC_LOGS_PER_MINUTE:-10}
+    secrets: [newrelic_license_key]
 
 secrets:
   newrelic_license_key:

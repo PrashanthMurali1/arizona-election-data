@@ -1,6 +1,31 @@
 {
 	auto_https off
 	admin off
+	# Runtime logs only; no per-request access logger. Drop request data even
+	# when the reverse proxy attaches it to a runtime error.
+	log {
+		output stdout
+		sampling {
+			interval 5m
+			first 1
+			thereafter 1000
+		}
+		format append {
+			service frontend
+			event caddy_runtime
+			wrap filter {
+				wrap json {
+					level_key severity
+					time_key timestamp
+					time_format rfc3339_nano
+				}
+				fields {
+					request delete
+					resp_headers delete
+				}
+			}
+		}
+	}
 	grace_period 30s
 	servers {
 		trusted_proxies static private_ranges

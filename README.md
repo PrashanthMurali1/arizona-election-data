@@ -3,6 +3,8 @@
 The Docker Compose production build is now hosted on this **Windows computer** at **https://azelections.app**, with local viewing at **http://127.0.0.1:8080**. Frontend, backend, six-hour refresh scheduler and the existing Cloudflare Tunnel connector are healthy after the approved Mac-to-Windows cutover. See [Windows deployment and operations](docs/windows-deployment.md) for verification, backups and rollback. The [Mac hosting report](docs/production-hosting.md) records the previous deployment.
 
 The production backend also supports [New Relic APM monitoring](docs/newrelic-monitoring.md), enabled through a Compose override and a private runtime license-key mount.
+See [production logging](docs/production-logging.md) for structured events, rotation, incident diagnosis and the free-tier ingestion policy.
+The private [New Relic dashboard and alerts](docs/newrelic-dashboards.md) cover API performance, error spikes, reporting silence and scheduled refresh health.
 
 A local, dark-themed dashboard for exploring Arizona election results. Browse the election catalog, compare candidates, select a county or congressional district on the map or sortable table, and inspect results, turnout and source details.
 
