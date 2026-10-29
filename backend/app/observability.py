@@ -56,6 +56,28 @@ class JsonFormatter(logging.Formatter):
             value['route'] = route
         if record.exc_info and record.exc_info[1]:
             value['exception'] = exception_details(record.exc_info[1])
+        commit = getattr(record, 'commit_sha', None)
+        if isinstance(commit, str) and re.fullmatch('[0-9a-f]{40}', commit):
+            value['commit_sha'] = commit
+        services = getattr(record, 'services', None)
+        if isinstance(services, (list, tuple)) and all(s in {'backend','scheduler','frontend','tunnel'} for s in services):
+            value['services'] = ','.join(sorted(set(services)))
+        allowed = {
+            'phase': {'preflight','fetch','render','build','test','backup','migrate','activate','verify','rollback','adopt'},
+            'rollback': {'not_needed','succeeded','blocked','failed'},
+            'reason': {'unsafe_path','tool_unavailable','command_timeout','command_failed','docker_unavailable',
+                       'unexpected_remote','dirty_checkout','invalid_commit','dirty_release','protected_storage_changed',
+                       'runtime_drift','production_unhealthy','unsupported_build_config','unsafe_build_context',
+                       'health_failed','asset_mismatch','image_reference_drift','already_initialized',
+                       'frontend_evidence_mismatch','source_evidence_mismatch','backup_failed','monitoring_failed',
+                       'migration_recovery_required','activation_failed','recovery_required','data_release_required',
+                       'not_initialized','deployment_in_progress','no_previous_release'},
+        }
+        allowed['reason'].add('protected_configuration_changed')
+        for key, choices in allowed.items():
+            item = getattr(record, key, None)
+            if isinstance(item, str) and item in choices:
+                value[key] = item
         return json.dumps(value, separators=(',', ':'), ensure_ascii=True)
 
 
