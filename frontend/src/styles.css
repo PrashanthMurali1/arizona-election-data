@@ -227,6 +227,54 @@ h3 {
 .section-heading .eyebrow {
   margin-bottom: 7px;
 }
+.catalog-tabs {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 32px;
+  border-bottom: 1px solid var(--line);
+}
+.catalog-tabs [role="tab"] {
+  border: 0;
+  border-bottom: 3px solid transparent;
+  border-radius: 0;
+  padding: 14px 4px;
+  color: var(--muted);
+  font-weight: 600;
+}
+.catalog-tabs [role="tab"]:hover {
+  background: var(--panel);
+  color: var(--accent);
+}
+.catalog-tabs [aria-selected="true"] {
+  border-bottom-color: var(--accent);
+  color: var(--accent);
+}
+.catalog [role="tabpanel"]:focus-visible {
+  outline: 3px solid #b8f2d5;
+  outline-offset: 4px;
+}
+.embedded-early-voting .embedded-election-title {
+  font-size: 28px;
+  letter-spacing: -0.8px;
+  line-height: 1.25;
+  margin-bottom: 12px;
+}
+.embedded-early-voting h4,
+.embedded-early-voting h5 {
+  font-family: Manrope, system-ui, sans-serif;
+  font-weight: 600;
+  margin: 0;
+}
+.embedded-early-voting h4 {
+  font-size: 22px;
+  letter-spacing: -0.6px;
+}
+.embedded-early-voting h5 {
+  font-size: 16px;
+}
+.embedded-early-voting .sources > h4 {
+  margin-bottom: 20px;
+}
 .office-heading {
   display: flex;
   align-items: center;
@@ -1142,6 +1190,17 @@ caption {
   .election-grid {
     grid-template-columns: 1fr;
     gap: 15px;
+  }
+  .catalog-tabs {
+    gap: 8px;
+    margin-bottom: 24px;
+  }
+  .catalog-tabs [role="tab"] {
+    flex: 1;
+    min-width: 0;
+    padding: 12px 4px;
+    font-size: 12px;
+    line-height: 1.5;
   }
   .election-card {
     padding: 23px;

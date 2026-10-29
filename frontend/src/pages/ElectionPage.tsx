@@ -22,13 +22,26 @@ export default function ElectionPage() {
   return id.includes("-us-house") ? (
     <HouseElectionPage key={id} id={id} />
   ) : (
-    <StatewideElectionPage />
+    <StatewideElectionRoute id={id} />
   );
 }
-function StatewideElectionPage() {
-  const { id = "" } = useParams();
-  const navigate = useNavigate();
+function StatewideElectionRoute({ id }: { id: string }) {
   const catalog = useResource<Election[]>("/api/elections");
+  return (
+    <StatewideElectionPage key={id} id={id} catalog={catalog.data ?? []} />
+  );
+}
+
+export function StatewideElectionPage({
+  id,
+  catalog,
+  embedded = false,
+}: {
+  id: string;
+  catalog: Election[];
+  embedded?: boolean;
+}) {
+  const navigate = useNavigate();
   const [state, setState] = useState<{
     detail: Detail;
     counties: Results[];
@@ -87,7 +100,10 @@ function StatewideElectionPage() {
         const requests = [
           get<Detail>(`/api/elections/${id}`, controller.signal),
           get<Results[]>(`/api/elections/${id}/counties`, controller.signal),
-          get<Activity | null>(`/api/elections/${id}/activity`, controller.signal),
+          get<Activity | null>(
+            `/api/elections/${id}/activity`,
+            controller.signal,
+          ),
         ] as const;
         // Keep the group in flight until every request settles, including failures.
         await Promise.allSettled(requests);
@@ -97,14 +113,18 @@ function StatewideElectionPage() {
           seen.add(requested);
           seen.add(activity.revision);
           revisionRef.current = activity.revision;
-          setState((previous) => previous ? { ...previous, detail, counties, activity } : previous);
+          setState((previous) =>
+            previous ? { ...previous, detail, counties, activity } : previous,
+          );
           fetchFailed = false;
           setRefreshError(null);
         }
       } catch {
         if (!controller.signal.aborted) {
           fetchFailed = true;
-          setRefreshError("Could not check for updates. Showing the last successfully loaded data.");
+          setRefreshError(
+            "Could not check for updates. Showing the last successfully loaded data.",
+          );
         }
       } finally {
         pending = false;
@@ -124,15 +144,21 @@ function StatewideElectionPage() {
           target = value;
           if (seen.has(value) && !fetchFailed) setRefreshError(null);
           void refresh();
-        } catch { /* An invalid notification cannot replace displayed data. */ }
+        } catch {
+          /* An invalid notification cannot replace displayed data. */
+        }
       });
       source.addEventListener("error", () => {
         if (!controller.signal.aborted && stream === source)
-          setRefreshError("Update connection interrupted. Showing the last successfully loaded data; reconnecting automatically.");
+          setRefreshError(
+            "Update connection interrupted. Showing the last successfully loaded data; reconnecting automatically.",
+          );
       });
     }
     connect();
-    const resume = () => { if (document.visibilityState === "visible") connect(); };
+    const resume = () => {
+      if (document.visibilityState === "visible") connect();
+    };
     window.addEventListener("focus", resume);
     document.addEventListener("visibilitychange", resume);
     return () => {
@@ -153,14 +179,12 @@ function StatewideElectionPage() {
   const { detail, counties, geo, activity } = state;
   const { election, statewide } = detail;
   const county = counties.find((c) => c.geoid === selected);
-  const years = catalog.data?.filter(
-    (e) => e.office_id === election.office_id,
-  ) ?? [election];
+  const years = catalog.filter((e) => e.office_id === election.office_id);
   if (activity?.stage === "pre_results")
     return (
       <EarlyVotingPage
         election={election}
-        years={years}
+        years={years.length ? years : [election]}
         activity={activity}
         geo={geo}
         counties={counties}
@@ -168,6 +192,7 @@ function StatewideElectionPage() {
         onSelect={selectCounty}
         detailRef={detailRef}
         refreshError={refreshError}
+        embedded={embedded}
       />
     );
   const provisional = activity?.stage === "unofficial";
