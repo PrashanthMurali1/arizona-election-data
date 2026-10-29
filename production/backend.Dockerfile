@@ -14,5 +14,7 @@ RUN pip install --no-cache-dir -r production/requirements-monitoring.txt
 COPY backend backend
 COPY scripts scripts
 COPY production production
+# Candidate tests inspect the unrendered deployment definitions.
+COPY compose.yaml compose.newrelic.yaml ./
 RUN mkdir -p backend/local data/raw
 USER app

@@ -373,3 +373,20 @@ def test_old_rollback_journal_never_recreates_cron(worker, monkeypatch):
     assert len(calls) == 1
     with pytest.raises(d.Failure, match='unsupported_service'):
         worker.bring_up('old-config.json', ['arbitrary'], 'rollback')
+
+
+@pytest.mark.parametrize('message,expected', [
+    ("FileNotFoundError: [Errno 2] No such file or directory: '/app/compose.yaml'", d.Failure),
+    ('getaddrinfo ENOTFOUND registry.npmjs.org', d.Deferred),
+    ('connect ETIMEDOUT', d.Deferred),
+    ('read ECONNRESET', d.Deferred),
+    ('Could not resolve host: github.com', d.Deferred),
+])
+def test_command_distinguishes_missing_files_from_network_errors(worker, message, expected):
+    with pytest.raises(d.Failure) as caught:
+        worker.command([sys.executable, '-c',
+                        'import sys; print(sys.argv[1]); sys.exit(1)', message], phase='test')
+    assert type(caught.value) is expected
+    assert caught.value.reason == 'command_failed'
+    assert caught.value.phase == 'test'
+    assert caught.value.code == 1

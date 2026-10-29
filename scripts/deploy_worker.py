@@ -256,8 +256,11 @@ class Worker:
         reader.join(timeout=3)
         output = b''.join(chunks).decode('utf-8', errors='replace')
         if code:
-            temporary = transient or any(x in output.lower() for x in (
-                'enotfound', 'etimedout', 'econnreset', 'could not resolve host',
+            # Match Node error codes as tokens: FileNotFoundError contains
+            # ENOTFOUND but is a deterministic failure, not a DNS outage.
+            temporary = transient or bool(re.search(
+                r'\b(?:enotfound|etimedout|econnreset)\b', output, re.IGNORECASE)) or any(
+                x in output.lower() for x in ('could not resolve host',
                 'network is unreachable', 'tls handshake timeout', 'i/o timeout'))
             raise (Deferred if temporary else Failure)('command_failed', self.phase, code)
         return output.strip()
