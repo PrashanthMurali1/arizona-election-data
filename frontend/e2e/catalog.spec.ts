@@ -231,9 +231,12 @@ for (const width of [1440, 390, 320]) {
         await expect(
           panel.getByRole("heading", { name: "Pima County", exact: true }),
         ).toBeVisible();
-        await expect(panel.locator(".sources")).toContainText(
-          "statewide provider party breakdown",
+        await expect(panel.locator(".source-attribution")).toHaveText(
+          "Early voting participation report from civicAPI. Counts come from civicAPI, which collects them from state election offices.",
         );
+        await expect(
+          panel.locator('.sources a[href="/methodology"]'),
+        ).toBeVisible();
       }
       if (category.name !== "Live Elections") {
         await expect(
