@@ -296,48 +296,192 @@ test("embedded 2026 Early Voting shows registration colors and populated columns
   await expect(page.locator('.county-map path[aria-label^="Apache County."] title')).toContainText("Democratic registration");
   await expect(page.getByText("Colors show the largest party-registration group among returned early ballots in each county. They do not show which candidates voters selected or how they voted.", { exact: true })).toBeVisible();
   const state = page.getByRole("region", { name: "Statewide participation availability" });
-  await expect(state).toContainText(metric(activity.statewide, "ballots_requested"));
-  await expect(state).toContainText(metric(activity.statewide, "ballots_received"));
-  await expect(state).toContainText("15 / 15");
+  await expect(state).not.toContainText(/Requested|Counties with a sourced return figure|15 \/ 15/);
+  await expect(state.locator(".activity-metric")).toHaveCount(4);
+  for (const key of ["ballots_received", "ballots_received__democratic", "ballots_received__republican", "ballots_received__other"])
+    await expect(state).toContainText(`${metric(activity.statewide, key)} ballots`);
   await page.getByRole("button", { name: "Pima County. View early-voting activity." }).click();
   const detail = page.getByRole("region", { name: "Selected county details" });
   await expect(detail.getByRole("heading", { name: "Pima County" })).toBeVisible();
-  await expect(detail.locator(".activity-metric")).toHaveCount(8);
+  const detailMetrics = detail.locator(".activity-metric");
+  const returnedMetrics = [
+    ["ballots_received", "Total Early Votes"],
+    ["ballots_received__democratic", "Registered Democrats"],
+    ["ballots_received__republican", "Registered Republican"],
+    ["ballots_received__other", "Registered Independents"],
+  ];
+  await expect(detailMetrics).toHaveCount(4);
+  for (const [i, [key, label]] of returnedMetrics.entries()) {
+    await expect(detailMetrics.nth(i).locator(".candidate-info > div > strong").first()).toHaveText(label);
+    await expect(detailMetrics.nth(i).locator(".activity-count")).toHaveText(`${metric(pima, key)} ballots`);
+    await expect(detailMetrics.nth(i)).not.toContainText("As of:");
+    await expect(detailMetrics.nth(i)).not.toContainText("Retrieved:");
+  }
+  async function checkBars(county: Participation) {
+    const total = county.metrics.find((m) => m.key === "ballots_received")!.value!;
+    const colors = ["rgb(119, 131, 141)", "rgb(70, 140, 221)", "rgb(221, 98, 107)", "rgb(84, 167, 123)"];
+    const badges = ["ALL", "DEM", "REP", "IND"];
+    for (const [i, [key]] of returnedMetrics.entries()) {
+      const row = detailMetrics.nth(i);
+      const description = i === 0
+        ? "Early ballots returned in this county."
+        : `Early ballots returned by registered ${["", "Democratic", "Republican", "Independent"][i]} voters. They do not show which candidates voters selected or how they voted.${i === 3 ? " The source categorizes this group as ‘Other’." : ""}`;
+      await expect(row.locator(".footnote")).toHaveText(description);
+      const descriptionGap = await row.evaluate((metric) =>
+        metric.querySelector(".footnote")!.getBoundingClientRect().top -
+        metric.querySelector(".vote-track")!.getBoundingClientRect().bottom,
+      );
+      expect(descriptionGap).toBe(12);
+      const share = county.metrics.find((m) => m.key === key)!.value! / total * 100;
+      await expect(row.locator(".party-chip")).toHaveText(badges[i]);
+      await expect(row.locator(".vote-value strong")).toHaveText(i === 0 ? `${metric(county, key)} ballots` : `${share.toFixed(2)}%`);
+      if (i === 0) {
+        await expect(row.locator(".activity-count")).toHaveCount(1);
+        await expect(row.locator(".vote-value small")).toHaveCount(0);
+        await expect(row).not.toContainText("%");
+        await expect(row.locator(".vote-track")).not.toHaveAttribute("aria-label", /%/);
+      }
+      await expect(row.locator(".vote-track > div")).toHaveCSS("background-color", colors[i]);
+      const widths = await row.locator(".vote-track").evaluate((track) => ({
+        track: track.getBoundingClientRect().width,
+        fill: track.firstElementChild!.getBoundingClientRect().width,
+      }));
+      expect(widths.fill / widths.track * 100).toBeCloseTo(share, 1);
+    }
+  }
+  async function checkAlignment() {
+    const positions = await detailMetrics.evaluateAll((metrics) => metrics.map((metric) => {
+      const rect = (selector: string) => metric.querySelector(selector)!.getBoundingClientRect();
+      return {
+        badge: rect(".party-chip").top,
+        label: rect(".candidate-info > div > strong").top,
+        value: rect(".vote-value strong").top,
+        bar: rect(".vote-track").top,
+        description: rect(".footnote").top,
+        barInset: rect(".vote-track").left - metric.getBoundingClientRect().left,
+        descriptionInset: rect(".footnote").left - metric.getBoundingClientRect().left,
+      };
+    }));
+    for (const [left, right] of [[0, 1], [2, 3]]) {
+      for (const key of ["badge", "label", "value", "bar", "description"] as const)
+        expect(positions[left][key]).toBe(positions[right][key]);
+    }
+    for (const position of positions) {
+      expect(position.barInset).toBe(46);
+      expect(position.descriptionInset).toBe(position.barInset);
+    }
+  }
+  await checkBars(pima);
+  await checkAlignment();
   await expect(detail).not.toContainText("N/A");
   await expect(detail.getByText("Active registered voters", { exact: true })).toHaveCount(0);
-  await expect(detail).toContainText(metric(pima, "ballots_requested"));
+  await expect(detail).not.toContainText(/requested/i);
   await expect(detail).toContainText(metric(pima, "ballots_received"));
   await expect(detail).toContainText(metric(pima, "ballots_received__democratic"));
   await expect(detail).toContainText("date only");
   await expect(detail).toContainText("As of:");
   await expect(detail).toContainText("Retrieved:");
-  await expect(detail).toContainText("Early ballots requested in this county.");
-  await expect(detail).toContainText("Early ballots returned, grouped by Democratic voter registration.");
+  await expect(detail.locator(".county-timestamps")).toHaveCount(1);
+  expect((await detail.locator(".county-timestamps").innerText()).match(/As of:/g)).toHaveLength(1);
+  await expect(detail).toContainText("Early ballots returned in this county.");
+  await expect(detail).toContainText("Early ballots returned by registered Democratic voters.");
+  await expect(detail).toContainText("The source categorizes this group as ‘Other’.");
+  const desktopPositions = await detailMetrics.evaluateAll((metrics) => metrics.map((metric) => {
+    const { x, y } = metric.getBoundingClientRect();
+    return { x, y };
+  }));
+  expect(desktopPositions[0].y).toBe(desktopPositions[1].y);
+  expect(desktopPositions[0].x).toBe(desktopPositions[2].x);
+  await detail.screenshot({ path: "test-results/2026-county-desktop.png" });
   await expect(detail).not.toContainText(/civicAPI/i);
   const table = page.getByRole("region", { name: "County participation table" });
-  await expect(table.locator("thead th")).toHaveCount(3);
-  for (const [i, label] of ["County", "Requested", "Returned"].entries())
+  await expect(table.locator("thead th")).toHaveCount(5);
+  for (const [i, label] of ["County", "Total Early Votes (Returned Ballots)", "Registered Democrats", "Registered Republicans", "Registered Independents"].entries())
     await expect(table.locator("thead th").nth(i)).toContainText(label);
   await expect(table.locator("tbody tr")).toHaveCount(15);
+  for (const county of activity.counties) {
+    const row = table.locator("tbody tr").filter({ has: page.getByRole("button", { name: county.name, exact: true }) });
+    for (const [i, [key]] of returnedMetrics.entries())
+      await expect(row.locator("td").nth(i)).toHaveText(metric(county, key));
+  }
+  await expect(table.locator("thead")).not.toContainText("Requested");
+  await table.screenshot({ path: "test-results/early-voting-table-desktop.png" });
   await expect(table.locator("tbody")).not.toContainText("N/A");
-  await expect(table.locator('th[aria-sort="descending"]')).toContainText("Returned");
+  await expect(table.locator('th[aria-sort="descending"]')).toContainText("Total Early Votes (Returned Ballots)");
   await expect(table.locator("tbody tr").first()).toContainText("Maricopa");
-  await table.getByRole("button", { name: "Returned", exact: false }).click();
+  await table.getByRole("button", { name: "Total Early Votes (Returned Ballots)", exact: false }).click();
   await expect(table.locator("tbody tr").first()).toContainText("Greenlee");
-  await table.getByRole("button", { name: "Returned", exact: false }).click();
+  await table.getByRole("button", { name: "Total Early Votes (Returned Ballots)", exact: false }).click();
   await expect(table.locator("tbody tr").first()).toContainText("Maricopa");
+  for (const [key, label] of [["ballots_received__democratic", "Registered Democrats"], ["ballots_received__republican", "Registered Republicans"], ["ballots_received__other", "Registered Independents"], ["name", "County"]]) {
+    for (const direction of key === "name" ? ["asc", "desc"] : ["desc", "asc"]) {
+      await table.getByRole("button", { name: label, exact: false }).click();
+      const expected = [...activity.counties].sort((a, b) => {
+        const comparison = key === "name" ? a.name.localeCompare(b.name)
+          : a.metrics.find((m) => m.key === key)!.value! - b.metrics.find((m) => m.key === key)!.value!;
+        return comparison * (direction === "asc" ? 1 : -1) || a.name.localeCompare(b.name);
+      }).map((county) => `${county.name}↗`);
+      expect(await table.locator("tbody th button").allTextContents()).toEqual(expected);
+    }
+  }
+  await table.getByRole("button", { name: "Maricopa", exact: true }).click();
+  const maricopa = activity.counties.find((county) => county.geoid === "04013")!;
+  for (const width of [1440, 1000, 768]) {
+    await page.setViewportSize({ width, height: 1000 });
+    await checkAlignment();
+    await checkBars(maricopa);
+    expect(await page.evaluate(() => document.documentElement.scrollWidth)).toBeLessThanOrEqual(width);
+  }
+  await detail.screenshot({ path: "test-results/2026-county-alignment-desktop.png" });
+  for (const width of [390, 320]) {
+    await page.setViewportSize({ width, height: 844 });
+    await checkBars(maricopa);
+    expect(await page.evaluate(() => document.documentElement.scrollWidth)).toBeLessThanOrEqual(width);
+  }
+  await detail.screenshot({ path: "test-results/2026-county-alignment-mobile.png" });
+  await page.setViewportSize({ width: 1280, height: 900 });
   await table.getByRole("button", { name: "Apache" }).focus();
   await page.keyboard.press("Enter");
   await expect(detail.getByRole("heading", { name: "Apache County" })).toBeVisible();
   await expect(page.locator('.county-map path[aria-label^="Apache County."]')).toHaveClass(/selected/);
-  for (const report of activity.provider_participation!.reports)
-    await expect(page.locator(".sources")).toContainText(`Democratic: ${formatted(report.breakdowns["04"].Democratic)}`);
+  const sources = page.locator(".sources");
   await expect(page.getByRole("heading", { name: "Sources & coverage", exact: true })).toBeVisible();
-  await expect(page.locator(".sources")).toContainText("civicAPI");
-  await expect(page.locator('.sources a[href^="https://civicapi.org/api/v2/early-vote/AZ/"]')).toHaveCount(2);
+  await expect(sources.locator(".source-attribution")).toHaveText("Early voting participation report from civicAPI. Counts come from civicAPI, which collects them from state election offices.");
+  const returnedReport = activity.provider_participation!.reports.find((report) => report.category === "returned")!;
+  await expect(sources.getByRole("link", { name: "civicAPI", exact: true }).nth(0)).toHaveAttribute("href", activity.sources.find((source) => source.id === returnedReport.source_id)!.url);
+  await expect(sources.getByRole("link", { name: "Read the data methodology ↗", exact: true })).toHaveAttribute("href", "/methodology");
+  await expect(sources.getByRole("link", { name: "civicAPI", exact: true }).nth(1)).toHaveAttribute("href", "https://civicapi.org/early-vote/");
+  await expect(sources.locator(".sources-grid")).toHaveCount(0);
+  await expect(sources).not.toContainText(/Active registration:|Requested:|statewide provider party breakdown|data\/raw|SHA-256|Source report:|Last successful retrieval:/);
+  await sources.screenshot({ path: "test-results/early-voting-sources-desktop.png" });
   expect((await page.locator(".embedded-early-voting > :not(.sources)").allTextContents()).join(" ")).not.toMatch(/civicAPI/i);
   await page.setViewportSize({ width: 390, height: 844 });
   expect(await page.evaluate(() => document.documentElement.scrollWidth)).toBeLessThanOrEqual(390);
+  await expect(detailMetrics).toHaveCount(4);
+  await expect(detail).not.toContainText(/requested/i);
+  for (const [i, [, label]] of returnedMetrics.entries())
+    await expect(detailMetrics.nth(i).locator(".candidate-info > div > strong").first()).toHaveText(label);
+  const mobilePositions = await detailMetrics.evaluateAll((metrics) => metrics.map((metric) => {
+    const { x, y } = metric.getBoundingClientRect();
+    return { x, y };
+  }));
+  for (let i = 1; i < mobilePositions.length; i++) {
+    expect(mobilePositions[i].x).toBe(mobilePositions[0].x);
+    expect(mobilePositions[i].y).toBeGreaterThan(mobilePositions[i - 1].y);
+  }
+  const scroll = table.locator(".table-scroll");
+  const scrolling = await scroll.evaluate((element) => {
+    const canScroll = element.scrollWidth > element.clientWidth;
+    element.scrollLeft = element.scrollWidth;
+    return { canScroll, offset: element.scrollLeft };
+  });
+  expect(scrolling.canScroll).toBe(true);
+  expect(scrolling.offset).toBeGreaterThan(0);
+  await table.screenshot({ path: "test-results/early-voting-table-mobile.png" });
+  await expect(sources.locator(".source-attribution")).toHaveText("Early voting participation report from civicAPI. Counts come from civicAPI, which collects them from state election offices.");
+  await sources.screenshot({ path: "test-results/early-voting-sources-mobile.png" });
+  await checkBars(activity.counties.find((county) => county.geoid === "04001")!);
+  await detail.screenshot({ path: "test-results/2026-county-mobile.png" });
   await page.screenshot({ path: "test-results/2026-mobile.png", fullPage: true });
   expect(errors).toEqual([]);
 });
@@ -360,8 +504,9 @@ test("early-voting columns preserve zero and partial data; ties, Other and missi
     const data = await response.json();
     for (const county of data.counties) {
       for (const metric of county.metrics) {
-        metric.value = metric.key === "ballots_requested" && county.geoid === "04001" ? 10
-          : metric.key === "ballots_accepted" && county.geoid === "04003" ? 0 : null;
+        metric.value = metric.key === "ballots_received" && county.geoid === "04001" ? 10
+          : metric.key === "ballots_received__other" && county.geoid === "04003" ? 0
+          : metric.key === "ballots_received__democratic" && county.geoid === "04001" ? 5 : null;
         if (metric.value === 0) {
           metric.definition = "Synthetic zero-count participation fixture.";
           metric.coverage_note = "";
@@ -379,21 +524,20 @@ test("early-voting columns preserve zero and partial data; ties, Other and missi
   });
   await page.goto("/");
   const table = page.getByRole("region", { name: "County participation table" });
-  await expect(table.locator("thead th")).toHaveCount(3);
-  await expect(table.locator("thead")).toContainText("Requested");
-  await expect(table.locator("thead")).toContainText("Accepted");
-  await expect(table.locator("thead")).not.toContainText("Returned");
-  await expect(table.locator('th[aria-sort="descending"]')).toContainText("Requested");
+  await expect(table.locator("thead th")).toHaveCount(5);
+  await expect(table.locator("thead")).not.toContainText(/Requested|Accepted/);
+  await expect(table.locator('th[aria-sort="descending"]')).toContainText("Total Early Votes (Returned Ballots)");
   await expect(table.locator("tbody tr").first()).toContainText("Apache");
   await expect(table.locator("tbody tr").filter({ hasText: "Cochise" }).locator("td").last()).toHaveText("0");
-  await expect(table.locator("tbody tr").filter({ hasText: "Coconino" })).toContainText("N/A");
-  await table.getByRole("button", { name: "Accepted", exact: false }).click();
+  await expect(table.locator("tbody tr").filter({ hasText: "Coconino" }).locator("td")).toHaveText(["N/A", "N/A", "N/A", "N/A"]);
+  await table.getByRole("button", { name: "Registered Independents", exact: false }).click();
+  await expect(table.locator("tbody tr").first()).toContainText("Cochise");
+  await table.getByRole("button", { name: "Registered Independents", exact: false }).click();
   await expect(table.locator("tbody tr").first()).toContainText("Cochise");
   await table.getByRole("button", { name: "Cochise", exact: true }).click();
   const detail = page.getByRole("region", { name: "Selected county details" });
   await expect(detail.locator(".activity-metric")).toHaveCount(1);
-  await expect(detail.locator(".activity-value strong").last()).toHaveText("0");
-  await expect(detail).not.toContainText("N/A");
+  await expect(detail.locator(".activity-count")).toHaveText("0 ballots");
   for (const name of ["Apache", "Cochise", "Coconino"])
     await expect(page.locator(`.county-map path[aria-label^="${name} County."]`)).toHaveClass(/other/);
   // Requested is Democratic in this fixture; Returned still determines Pinal's red color.
@@ -401,8 +545,8 @@ test("early-voting columns preserve zero and partial data; ties, Other and missi
   await page.locator('.county-map path[aria-label^="Apache County."]').focus();
   await page.keyboard.press("Space");
   await expect(page.getByRole("region", { name: "Selected county details" }).getByRole("heading", { name: "Apache County" })).toBeVisible();
-  await expect(detail.locator(".activity-metric")).toHaveCount(1);
-  await expect(detail.locator(".activity-value strong").last()).toHaveText("10");
+  await expect(detail.locator(".activity-metric")).toHaveCount(2);
+  await expect(detail.locator(".activity-count").first()).toHaveText("10 ballots");
   await expect(detail).not.toContainText("N/A");
 });
 
@@ -475,8 +619,8 @@ test("early-voting notifications refresh once, recover missed updates and clean 
   await emit("revision", "initial");
   await page.clock.fastForward(60_000);
   expect(activityRequests).toBe(1); // Recent cache needs no repeated data request.
-  await table.getByRole("button", { name: "Returned", exact: false }).click();
-  await expect(table.locator('th[aria-sort="ascending"]')).toContainText("Returned");
+  await table.getByRole("button", { name: "Total Early Votes (Returned Ballots)", exact: false }).click();
+  await expect(table.locator('th[aria-sort="ascending"]')).toContainText("Total Early Votes (Returned Ballots)");
   updated = true;
   revision = "committed-1";
   let release = () => {};
@@ -491,10 +635,11 @@ test("early-voting notifications refresh once, recover missed updates and clean 
   await expect(state).toContainText((stateBefore + 10).toLocaleString("en-US"));
   await expect(detail).toContainText((pimaBefore + 10).toLocaleString("en-US"));
   await expect(detail.getByRole("heading", { name: "Pima County" })).toBeVisible();
-  await expect(table.locator('th[aria-sort="ascending"]')).toContainText("Returned");
+  await expect(table.locator('th[aria-sort="ascending"]')).toContainText("Total Early Votes (Returned Ballots)");
   await expect(page.locator('.county-map path[aria-label^="Pima County."]')).toHaveClass(/selected/);
-  await expect(page.locator(".sources")).toContainText("Last successful retrieval:");
-  await expect(page.locator(".sources")).toContainText("Source report:");
+  await expect(page.locator(".sources")).not.toContainText(/Last successful retrieval:|Source report:/);
+  await expect(state.locator(".county-timestamps")).toContainText("Retrieved:");
+  await expect(detail.locator(".county-timestamps")).toContainText("As of:");
   expect(activityRequests).toBe(2);
   await emit("revision", revision);
   await page.clock.fastForward(60_000);
@@ -511,9 +656,9 @@ test("early-voting notifications refresh once, recover missed updates and clean 
   await expect(page.locator(".sources")).toContainText("Update connection interrupted");
   await emit("revision", revision);
   await expect(page.locator(".sources")).toContainText("Early-voting refresh delayed");
-  await expect(page.locator(".sources")).toContainText("Synthetic failed scheduled refresh");
+  await expect(page.locator(".sources")).toContainText("Showing the last successfully retrieved figures.");
   await expect(detail.getByRole("heading", { name: "Pima County" })).toBeVisible();
-  await expect(table.locator('th[aria-sort="ascending"]')).toContainText("Returned");
+  await expect(table.locator('th[aria-sort="ascending"]')).toContainText("Total Early Votes (Returned Ballots)");
   await expect(page.getByRole("heading", { name: "Source snapshots", exact: true })).toHaveCount(0);
   expect(activityRequests).toBe(4);
   // Resuming a suspended tab establishes one connection and catches a missed revision.
@@ -525,9 +670,111 @@ test("early-voting notifications refresh once, recover missed updates and clean 
   await expect.poll(() => activityRequests).toBe(5);
   await expect(page.locator(".sources")).not.toContainText("Update connection interrupted");
   await page.locator(".sources").getByRole("link", {name: "Read the data methodology ↗", exact: true}).click();
+  await expect(page.locator(".methodology .lead")).toContainText("This is a personal hobby project, not a professional company.");
   await expect.poll(activeConnections).toBe(0);
   await page.getByRole("navigation", {name: "Main navigation"}).getByRole("link", {name: "Election catalog", exact: true}).click();
   await expect.poll(activeConnections).toBe(1);
   await emit("revision", revision);
   await expect.poll(() => activityRequests).toBe(6);
 });
+
+for (const total of [0, null]) {
+  test(`county returned-ballot bars handle a ${total === null ? "missing" : "zero"} total`, async ({ page }) => {
+    // Synthetic display edge cases; never alter the stored participation data.
+    await page.route("**/api/elections/az-2026-early-voting/activity", async (route) => {
+      const response = await route.fetch();
+      const activity: Activity = await response.json();
+      const county = activity.counties.find((county) => county.geoid === "04019")!;
+      county.metrics.find((metric) => metric.key === "ballots_received")!.value = total;
+      if (total === 0) {
+        for (const metric of county.metrics)
+          if (metric.key.startsWith("ballots_received__")) metric.value = 0;
+      }
+      await route.fulfill({ response, json: activity });
+    });
+    await page.goto("/");
+    await page.getByRole("button", { name: "Pima County. View early-voting activity." }).click();
+    const detail = page.getByRole("region", { name: "Selected county details" });
+    const rows = detail.locator(".activity-metric");
+    await expect(rows).toHaveCount(total === null ? 3 : 4);
+    for (const width of [1280, 390]) {
+      await page.setViewportSize({ width, height: 844 });
+      for (const row of await rows.all()) {
+        const isTotal = await row.locator(".party-chip").textContent() === "ALL";
+        await expect(row.locator(".vote-value strong")).toHaveText(isTotal ? "0 ballots" : "N/A");
+        await expect(row.locator(".vote-track")).toHaveAttribute("aria-label", isTotal ? /0 ballots/ : /share unavailable/);
+        expect(await row.locator(".vote-track > div").evaluate((fill) => fill.getBoundingClientRect().width)).toBe(0);
+      }
+      expect(await page.evaluate(() => document.documentElement.scrollWidth)).toBeLessThanOrEqual(width);
+      await expect(detail).not.toContainText(/NaN|Infinity|requested/i);
+    }
+  });
+}
+
+for (const total of [1000, 0, null]) {
+  test(`statewide participation graphics use statewide metrics with total ${total}`, async ({ page }) => {
+    await page.route("**/api/elections/az-2026-early-voting/activity", async (route) => {
+      const response = await route.fetch();
+      const data: Activity = await response.json();
+      const values: Record<string, number | null> = {
+        ballots_received: total,
+        ballots_received__democratic: total === 0 ? 0 : 400,
+        ballots_received__republican: total === 0 ? 0 : 350,
+        ballots_received__other: total === null ? null : total === 0 ? 0 : 250,
+      };
+      for (const metric of data.statewide.metrics)
+        if (metric.key in values) metric.value = values[metric.key];
+      // Deliberately different county counts must not affect the statewide view.
+      for (const county of data.counties)
+        for (const metric of county.metrics)
+          if (metric.key.startsWith("ballots_received")) metric.value = 999999;
+      await route.fulfill({ response, json: data });
+    });
+    await page.goto("/");
+    const state = page.getByRole("region", { name: "Statewide participation availability" });
+    const rows = state.locator(".activity-metric");
+    await expect(rows).toHaveCount(4);
+    const labels = ["Total Early Votes", "Registered Democrats", "Registered Republican", "Registered Independents"];
+    const colors = ["rgb(119, 131, 141)", "rgb(70, 140, 221)", "rgb(221, 98, 107)", "rgb(84, 167, 123)"];
+    const counts = [total, total === 0 ? 0 : 400, total === 0 ? 0 : 350, total === null ? null : total === 0 ? 0 : 250];
+    for (const width of [1440, 1000, 768, 390, 320]) {
+      await page.setViewportSize({ width, height: 1000 });
+      for (let i = 0; i < 4; i++) {
+        const row = rows.nth(i);
+        const count = counts[i] == null ? "N/A" : counts[i]!.toLocaleString("en-US");
+        await expect(row.locator(".candidate-info > div > strong").first()).toHaveText(labels[i]);
+        await expect(row.locator(".activity-count")).toHaveText(`${count} ballots`);
+        const share = total && counts[i] != null ? counts[i]! / total * 100 : null;
+        await expect(row.locator(".vote-value strong")).toHaveText(i === 0 ? `${count} ballots` : share == null ? "N/A" : `${share.toFixed(2)}%`);
+        await expect(row.locator(".vote-track > div")).toHaveCSS("background-color", colors[i]);
+        const geometry = await row.evaluate((row) => {
+          const bar = row.querySelector(".vote-track")!.getBoundingClientRect();
+          const fill = row.querySelector(".vote-track > div")!.getBoundingClientRect();
+          const description = row.querySelector(".footnote")!.getBoundingClientRect();
+          return { width: bar.width, fill: fill.width, gap: description.top - bar.bottom, inset: description.left - bar.left };
+        });
+        expect(geometry.gap).toBe(12);
+        expect(geometry.inset).toBe(0);
+        expect(geometry.fill / geometry.width * 100).toBeCloseTo(share ?? 0, 1);
+      }
+      if (width > 680) {
+        for (const selector of [".party-chip", ".candidate-info > div > strong", ".vote-value strong", ".vote-track", ".footnote"]) {
+          const tops = await rows.evaluateAll((rows, selector) => rows.map((row) => row.querySelector(selector)!.getBoundingClientRect().top), selector);
+          expect(tops[0]).toBe(tops[1]);
+          expect(tops[2]).toBe(tops[3]);
+        }
+      }
+      expect(await page.evaluate(() => document.documentElement.scrollWidth)).toBeLessThanOrEqual(width);
+    }
+    await expect(rows.first()).not.toContainText("%");
+    await expect(rows.first().locator(".footnote")).toHaveText("Early ballots returned statewide.");
+    await expect(state.locator(".county-timestamps")).toHaveCount(1);
+    await expect(state.locator(".statewide-foot")).toContainText("county figures remain separate");
+    await expect(state).not.toContainText(/999,999|Requested|Counties with a sourced return figure|NaN|Infinity/);
+    if (total === 1000) {
+      await state.screenshot({ path: "test-results/statewide-participation-mobile.png" });
+      await page.setViewportSize({ width: 1440, height: 1000 });
+      await state.screenshot({ path: "test-results/statewide-participation-desktop.png" });
+    }
+  });
+}

@@ -9,6 +9,7 @@ export default function Methodology() {
         <span>the results.</span>
       </h1>
       <p className="lead">
+        This is a personal hobby project, not a professional company.{" "}
         Election data should be traceable, understandable, and honest about
         what’s missing.
       </p>
