@@ -1,5 +1,10 @@
 import { describe, expect, it } from "vitest";
-import { sortActivity, activityValue, reportTime, visibleActivityColumns, defaultActivitySort, returnedRegistrationParty } from "./activity";
+import {
+  sortActivity,
+  activityValue,
+  reportTime,
+  returnedRegistrationParty,
+} from "./activity";
 import type { Participation, ActivityMetric } from "./types";
 function row(name: string, value: number | null): Participation {
   return {
@@ -9,24 +14,28 @@ function row(name: string, value: number | null): Participation {
   };
 }
 describe("current-election activity", () => {
-  it("hides all-missing columns, keeps zero-valued columns, and selects a visible default sort", () => {
-    const missing = [row("Unknown", null)];
-    expect(visibleActivityColumns(missing).map(([key]) => key)).toEqual(["name"]);
-    expect(defaultActivitySort(visibleActivityColumns(missing))).toBe("name");
-    const partial = [...missing, row("Zero", 0)];
-    expect(visibleActivityColumns(partial).map(([key]) => key)).toEqual(["name", "ballots_received"]);
-    expect(defaultActivitySort(visibleActivityColumns(partial))).toBe("ballots_received");
-    const requested = [{ geoid: "A", name: "A", metrics: [{key: "ballots_requested", value: 7} as ActivityMetric] }];
-    expect(defaultActivitySort(visibleActivityColumns(requested))).toBe("ballots_requested");
-  });
   it("colors only a unique Democratic or Republican maximum in a complete returned registration breakdown", () => {
-    expect(returnedRegistrationParty({Democratic: 7, Republican: 3, Other: 2})).toBe("DEM");
-    expect(returnedRegistrationParty({Democratic: 0, Republican: 1, Other: 0})).toBe("REP");
-    expect(returnedRegistrationParty({Democratic: 7, Republican: 3, Other: 8})).toBeNull();
-    expect(returnedRegistrationParty({Democratic: 7, Republican: 7, Other: 2})).toBeNull();
-    expect(returnedRegistrationParty({Democratic: 0, Republican: 0, Other: 0})).toBeNull();
-    expect(returnedRegistrationParty({Democratic: 7, Republican: 3, Other: null})).toBeNull();
-    expect(returnedRegistrationParty({Democratic: 7, Republican: 3})).toBeNull();
+    expect(
+      returnedRegistrationParty({ Democratic: 7, Republican: 3, Other: 2 }),
+    ).toBe("DEM");
+    expect(
+      returnedRegistrationParty({ Democratic: 0, Republican: 1, Other: 0 }),
+    ).toBe("REP");
+    expect(
+      returnedRegistrationParty({ Democratic: 7, Republican: 3, Other: 8 }),
+    ).toBeNull();
+    expect(
+      returnedRegistrationParty({ Democratic: 7, Republican: 7, Other: 2 }),
+    ).toBeNull();
+    expect(
+      returnedRegistrationParty({ Democratic: 0, Republican: 0, Other: 0 }),
+    ).toBeNull();
+    expect(
+      returnedRegistrationParty({ Democratic: 7, Republican: 3, Other: null }),
+    ).toBeNull();
+    expect(
+      returnedRegistrationParty({ Democratic: 7, Republican: 3 }),
+    ).toBeNull();
     expect(returnedRegistrationParty(undefined)).toBeNull();
   });
   it("keeps missing values last in either sort direction and preserves genuine zero", () => {

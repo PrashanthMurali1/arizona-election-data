@@ -382,7 +382,7 @@ test("embedded live updates coalesce, preserve county selection, abort on exit a
   await page
     .getByRole("button", { name: "Pima County. View early-voting activity." })
     .click();
-  await table.getByRole("button", { name: "Returned", exact: false }).click();
+  await table.getByRole("button", { name: "Total Early Votes (Returned Ballots)", exact: false }).click();
 
   revision = "committed-1";
   delta = 10;
@@ -402,7 +402,7 @@ test("embedded live updates coalesce, preserve county selection, abort on exit a
     page.getByRole("heading", { name: "Pima County", exact: true }),
   ).toBeVisible();
   await expect(table.locator('th[aria-sort="ascending"]')).toContainText(
-    "Returned",
+    "Total Early Votes (Returned Ballots)",
   );
 
   revision = "committed-2";

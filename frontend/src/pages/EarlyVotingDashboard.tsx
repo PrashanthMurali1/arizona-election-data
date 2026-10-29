@@ -4,8 +4,126 @@ import type { Activity, ActivityMetric, Election, Geography } from "../types";
 import CountyMap from "../Map";
 import ActivityTable from "../ActivityTable";
 import { Availability } from "../components";
-import { activityValue, reportTime } from "../activity";
-import { number } from "../results";
+import { reportTime } from "../activity";
+import { number, percent } from "../results";
+
+const returnedMetrics = [
+  {
+    key: "ballots_received",
+    label: "Total Early Votes",
+    badge: "ALL",
+    color: "other",
+  },
+  {
+    key: "ballots_received__democratic",
+    label: "Registered Democrats",
+    badge: "DEM",
+    color: "dem",
+  },
+  {
+    key: "ballots_received__republican",
+    label: "Registered Republican",
+    badge: "REP",
+    color: "rep",
+  },
+  {
+    key: "ballots_received__other",
+    label: "Registered Independents",
+    badge: "IND",
+    color: "independent",
+  },
+];
+
+function ParticipationMetrics({
+  metrics,
+  statewide = false,
+}: {
+  metrics: ActivityMetric[];
+  statewide?: boolean;
+}) {
+  const displayed = returnedMetrics.flatMap((presentation) => {
+    const metric = metrics.find((metric) => metric.key === presentation.key);
+    return statewide || metric?.value != null ? [{ presentation, metric }] : [];
+  });
+  const timestamps = [
+    ...new Set(
+      displayed.flatMap(({ metric }) =>
+        metric?.source_id
+          ? [
+              `As of: ${reportTime(metric.reported_at, metric.report_precision)} · Retrieved: ${reportTime(metric.retrieved_at)}${metric.stale ? " · Stale" : ""}`,
+            ]
+          : [],
+      ),
+    ),
+  ];
+  const returnedTotal = metrics.find(
+    (metric) => metric.key === "ballots_received",
+  )?.value;
+  function detailDescription(key: string) {
+    const party = {
+      ballots_received__democratic: "Democratic",
+      ballots_received__republican: "Republican",
+      ballots_received__other: "Independent",
+    }[key];
+    if (!party)
+      return statewide
+        ? "Early ballots returned statewide."
+        : "Early ballots returned in this county.";
+    return `Early ballots returned by registered ${party} voters. They do not show which candidates voters selected or how they voted.${party === "Independent" ? " The source categorizes this group as ‘Other’." : ""}`;
+  }
+  return (
+    <>
+      <div className="activity-details">
+        {displayed.map(({ presentation, metric: m }) => {
+          const isTotal = presentation.key === "ballots_received";
+          const ballotCount = `${number(m?.value)}${m?.completeness === "partial" ? " *" : ""} ballots`;
+          const share =
+            returnedTotal != null && returnedTotal > 0 && m?.value != null
+              ? (m?.value / returnedTotal) * 100
+              : null;
+          return (
+            <div className="activity-metric" key={presentation.key}>
+              <div className="candidate-info">
+                <span className={`party-chip ${presentation.color}`}>
+                  {presentation.badge}
+                </span>
+                <div>
+                  <strong>{presentation.label}</strong>
+                </div>
+                <div className="vote-value">
+                  {isTotal ? (
+                    <strong className="activity-count">{ballotCount}</strong>
+                  ) : (
+                    <>
+                      <strong>{percent(share)}</strong>
+                      <small className="activity-count">{ballotCount}</small>
+                    </>
+                  )}
+                </div>
+              </div>
+              <div
+                className="vote-track"
+                role="img"
+                aria-label={`${presentation.label}: ${isTotal ? ballotCount : share == null ? "share unavailable" : `${percent(share)} of total early votes`}`}
+              >
+                <div
+                  className={presentation.color}
+                  style={{
+                    width: `${Math.min(100, Math.max(0, share ?? 0))}%`,
+                  }}
+                />
+              </div>
+              <p className="footnote">{detailDescription(presentation.key)}</p>
+            </div>
+          );
+        })}
+      </div>
+      {timestamps.length > 0 && (
+        <p className="footnote county-timestamps">{timestamps.join(" | ")}</p>
+      )}
+    </>
+  );
+}
 
 export default function EarlyVotingDashboard({
   election,
@@ -25,36 +143,13 @@ export default function EarlyVotingDashboard({
   refreshError?: string | null;
 }) {
   const county = activity.counties.find((c) => c.geoid === selected);
-  const countyMetrics =
-    county?.metrics.filter((metric) => metric.value != null) ?? [];
   const participation = activity.provider_participation;
   const provider = participation
     ? { provider: participation.provider, test_data: false }
     : activity.provider_report;
-  const firstMetric = participation ? "ballots_requested" : "registered_voters";
   const returnedBreakdowns =
     participation?.reports.find((report) => report.category === "returned")
       ?.breakdowns ?? {};
-  const detailLabel = (metric: ActivityMetric) =>
-    metric.label.replace(/\bcivicapi(?:['’]s)?\s*/gi, "").trim();
-  function detailDescription(metric: ActivityMetric) {
-    const key = metric.key.split("__")[0];
-    const action =
-      key === "ballots_requested"
-        ? "requested"
-        : key === "ballots_received"
-          ? "returned"
-          : null;
-    if (action) {
-      const party = metric.label.split("·").slice(1).join("·").trim();
-      return party
-        ? `Early ballots ${action}, grouped by ${party} voter registration.`
-        : `Early ballots ${action} in this county.`;
-    }
-    return `${metric.definition} ${metric.coverage_note}`
-      .replace(/\bcivicapi(?:['’]s)?\s*/gi, "")
-      .trim();
-  }
   return (
     <>
       <section className="election-heading">
@@ -87,38 +182,7 @@ export default function EarlyVotingDashboard({
             <h4>Early-voting activity</h4>
           </div>
         </div>
-        <div className="turnout-metrics statewide-activity">
-          <div>
-            <small>
-              {participation
-                ? "Requested"
-                : provider
-                  ? "Provider registered voters"
-                  : "Official active registered voters"}
-            </small>
-            <strong>
-              {number(activityValue(activity.statewide, firstMetric))}
-            </strong>
-          </div>
-          <div>
-            <small>
-              {participation
-                ? "Returned"
-                : provider
-                  ? "Provider statewide early returns"
-                  : "Official statewide early returns"}
-            </small>
-            <strong>
-              {number(activityValue(activity.statewide, "ballots_received"))}
-            </strong>
-          </div>
-          <div>
-            <small>Counties with a sourced return figure</small>
-            <strong>
-              {activity.coverage.ballots_received} / {activity.counties.length}
-            </strong>
-          </div>
-        </div>
+        <ParticipationMetrics metrics={activity.statewide.metrics} statewide />
         <div className="statewide-foot">
           <span>{activity.statewide_policy}</span>
         </div>
@@ -166,9 +230,11 @@ export default function EarlyVotingDashboard({
               {provider
                 ? "N/A means the selected provider has not supplied this metric."
                 : "N/A means no verified official figure imported."}{" "}
-              * Partial source coverage. Requested, sent, received and accepted
-              are different stages. Select a county for exact source labels,
-              definitions and dates; county rows are not a statewide total.
+              * Partial source coverage. Party columns count returned ballots by
+              voter registration; they do not indicate candidate choices or how
+              anyone voted. Independents corresponds to the source’s “Other”
+              category. Select a county for definitions and dates; county rows
+              are not a statewide total.
             </p>
           </section>
         </div>
@@ -197,27 +263,7 @@ export default function EarlyVotingDashboard({
                 ×
               </button>
             </div>
-            <div className="activity-details">
-              {countyMetrics.map((m) => (
-                <div className="activity-metric" key={m.key}>
-                  <div className="activity-value">
-                    <strong>{detailLabel(m)}</strong>
-                    <strong>
-                      {number(m.value)}
-                      {m.completeness === "partial" ? " *" : ""}
-                    </strong>
-                  </div>
-                  <p className="footnote">{detailDescription(m)}</p>
-                  {m.source_id && (
-                    <p className="footnote">
-                      As of: {reportTime(m.reported_at, m.report_precision)} ·
-                      Retrieved: {reportTime(m.retrieved_at)}
-                      {m.stale ? " · Stale" : ""}
-                    </p>
-                  )}
-                </div>
-              ))}
-            </div>
+            <ParticipationMetrics metrics={county.metrics} />
           </>
         ) : (
           <div className="select-prompt">

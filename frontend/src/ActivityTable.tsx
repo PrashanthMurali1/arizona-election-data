@@ -1,6 +1,6 @@
 import { useMemo, useState } from "react";
 import type { Participation } from "./types";
-import { activityValue, sortActivity, visibleActivityColumns, defaultActivitySort } from "./activity";
+import { activityValue, sortActivity, activityColumns } from "./activity";
 import { number } from "./results";
 export default function ActivityTable({
   counties,
@@ -13,24 +13,32 @@ export default function ActivityTable({
 }) {
   const [key, setKey] = useState("ballots_received");
   const [direction, setDirection] = useState<"asc" | "desc">("desc");
-  const columns = visibleActivityColumns(counties);
-  const activeKey = columns.some(([column]) => column === key) ? key : defaultActivitySort(columns);
-  const activeDirection = activeKey === key ? direction : activeKey === "name" ? "asc" : "desc";
+  const columns = activityColumns;
+  const activeKey = key;
+  const activeDirection = direction;
   const rows = useMemo(
     () => sortActivity(counties, activeKey, activeDirection),
     [counties, activeKey, activeDirection],
   );
   function sort(k: string) {
     setKey(k);
-    setDirection(k === activeKey ? activeDirection === "desc" ? "asc" : "desc" : k === "name" ? "asc" : "desc");
+    setDirection(
+      k === activeKey
+        ? activeDirection === "desc"
+          ? "asc"
+          : "desc"
+        : k === "name"
+          ? "asc"
+          : "desc",
+    );
   }
   return (
     <div className="table-scroll">
-      <table className={`activity-table${columns.length <= 3 ? " compact" : ""}`}>
+      <table className="activity-table">
         <caption className="sr-only">
-          General-election participation by county, not candidate
-          votes. Sort columns and select county names for source definitions and
-          reporting dates.
+          General-election participation by county, not candidate votes. Sort
+          columns and select county names for source definitions and reporting
+          dates.
         </caption>
         <thead>
           <tr>
@@ -38,6 +46,7 @@ export default function ActivityTable({
               <th
                 key={k}
                 scope="col"
+                data-metric={k}
                 aria-sort={
                   activeKey === k
                     ? activeDirection === "asc"
@@ -49,7 +58,11 @@ export default function ActivityTable({
                 <button onClick={() => sort(k)}>
                   {label}{" "}
                   <span aria-hidden="true">
-                    {activeKey === k ? (activeDirection === "asc" ? "↑" : "↓") : "↕"}
+                    {activeKey === k
+                      ? activeDirection === "asc"
+                        ? "↑"
+                        : "↓"
+                      : "↕"}
                   </span>
                 </button>
               </th>

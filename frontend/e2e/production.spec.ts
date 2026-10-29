@@ -12,14 +12,14 @@ test("production imports reach an open browser and reconnect recovers missed imp
   await page.getByRole("button", {name: "Pima County. View early-voting activity."}).click();
   const details = page.getByRole("region", {name: "Selected county details"});
   const table = page.getByRole("region", {name: "County participation table"});
-  await table.getByRole("button", {name: "Returned", exact: false}).click();
+  await table.getByRole("button", {name: "Total Early Votes (Returned Ballots)", exact: false}).click();
   const before = await (await page.request.get(activityPath)).json();
   const delivered = page.waitForResponse((response) => response.url().endsWith(activityPath));
   refresh();
   const updated = await (await delivered).json();
   expect(updated.revision).not.toBe(before.revision);
   await expect(details.getByRole("heading", {name: "Pima County"})).toBeVisible();
-  await expect(table.locator('th[aria-sort="ascending"]')).toContainText("Returned");
+  await expect(table.locator('th[aria-sort="ascending"]')).toContainText("Total Early Votes (Returned Ballots)");
   await expect(page.locator('.county-map path[aria-label^="Pima County."]')).toHaveClass(/selected/);
 
   await context.setOffline(true);
@@ -30,6 +30,6 @@ test("production imports reach an open browser and reconnect recovers missed imp
   await page.evaluate(() => document.dispatchEvent(new Event("visibilitychange")));
   expect((await (await recovered).json()).revision).not.toBe(updated.revision);
   await expect(details.getByRole("heading", {name: "Pima County"})).toBeVisible();
-  await expect(table.locator('th[aria-sort="ascending"]')).toContainText("Returned");
+  await expect(table.locator('th[aria-sort="ascending"]')).toContainText("Total Early Votes (Returned Ballots)");
   await expect(page.locator(".sources")).not.toContainText("Update connection interrupted");
 });

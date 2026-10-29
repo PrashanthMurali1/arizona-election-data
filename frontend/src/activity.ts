@@ -1,42 +1,37 @@
 import type { Participation } from "./types";
-const metricColumns: [string, string][] = [
+export const activityColumns: [string, string][] = [
   ["name", "County"],
-  ["registered_voters", "Active registered"],
-  ["ballots_requested", "Requested"],
-  ["ballots_issued", "Sent / issued"],
-  ["ballots_received", "Returned"],
-  ["ballots_accepted", "Accepted"],
-  ["in_person_early", "In-person early"],
+  ["ballots_received", "Total Early Votes (Returned Ballots)"],
+  ["ballots_received__democratic", "Registered Democrats"],
+  ["ballots_received__republican", "Registered Republicans"],
+  ["ballots_received__other", "Registered Independents"],
 ];
-
-export function visibleActivityColumns(counties: Participation[]): [string, string][] {
-  return metricColumns
-    .filter(([key]) => key === "name" || counties.some((county) => activityValue(county, key) !== null))
-    .map(([key, fallback]) => [
-      key,
-      counties.flatMap((county) => county.metrics)
-        .find((metric) => metric.key === key && metric.source_id)?.label ?? fallback,
-    ]);
-}
-
-export function defaultActivitySort(columns: [string, string][]): string {
-  return columns.some(([key]) => key === "ballots_received")
-    ? "ballots_received"
-    : columns.find(([key]) => key !== "name")?.[0] ?? "name";
-}
 
 export function returnedRegistrationParty(
   breakdown: Record<string, number | null> | undefined,
 ): "DEM" | "REP" | null {
-  if (!breakdown || ["Democratic", "Republican", "Other"].some((key) => typeof breakdown[key] !== "number"))
+  if (
+    !breakdown ||
+    ["Democratic", "Republican", "Other"].some(
+      (key) => typeof breakdown[key] !== "number",
+    )
+  )
     return null;
   const entries = Object.entries(breakdown);
-  if (entries.some(([, count]) => count == null || !Number.isFinite(count) || count < 0))
+  if (
+    entries.some(
+      ([, count]) => count == null || !Number.isFinite(count) || count < 0,
+    )
+  )
     return null;
   const highest = Math.max(...entries.map(([, count]) => count!));
   const largest = entries.filter(([, count]) => count === highest);
   if (largest.length !== 1) return null;
-  return largest[0][0] === "Democratic" ? "DEM" : largest[0][0] === "Republican" ? "REP" : null;
+  return largest[0][0] === "Democratic"
+    ? "DEM"
+    : largest[0][0] === "Republican"
+      ? "REP"
+      : null;
 }
 
 export const activityValue = (row: Participation, key: string) =>
