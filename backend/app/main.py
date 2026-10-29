@@ -31,6 +31,7 @@ from .schemas import (
     HouseDistrictDetailOut,
     HouseDistrictOut,
 )
+from .http_cache import BrowserCacheRoute
 from . import house
 from . import early_vote_updates
 from .lifecycle import activity, CONTEST, AG_CONTEST
@@ -59,6 +60,7 @@ app = FastAPI(
     version="1.0.0",
     description="Certified election results, reporting units, turnout and provenance. Null values mean unavailable; contest votes are distinct from ballots cast.",
 )
+app.router.route_class = BrowserCacheRoute
 app.add_middleware(RequestLogging)
 
 

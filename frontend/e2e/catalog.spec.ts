@@ -392,7 +392,7 @@ test("embedded live updates coalesce, preserve county selection, abort on exit a
     await page.getByRole("tab", { name: "Live Elections" }).click();
     await expect.poll(() => streamCount(page)).toBe(1);
   }
-  expect(requests).toBe(4);
+  await expect.poll(() => requests).toBe(6);
 });
 
 test("removed Early Voting and legacy office browser URLs show the normal not-found page", async ({
@@ -453,7 +453,7 @@ test("embedded loading and API errors stay inside Live Elections and other tabs 
   await expect.poll(() => streamCount(page)).toBe(0);
 });
 
-test("fresh activity and geography are reused across tab visits; API revalidates after five minutes", async ({
+test("tab visits use fetch again and the active dashboard revalidates after five minutes", async ({
   page,
 }) => {
   await page.clock.install();
@@ -488,14 +488,14 @@ test("fresh activity and geography are reused across tab visits; API revalidates
   ).toBeVisible();
   await expect.poll(() => streamCount(page)).toBe(1);
   await emitRevision(page, dashboard.activity.revision!);
-  expect(requests).toBe(1);
-  expect(geography).toBe(1);
+  expect(requests).toBe(2);
+  expect(geography).toBe(2);
   await page.clock.fastForward(5 * 60_000 + 1);
-  await expect.poll(() => requests).toBe(2);
-  expect(geography).toBe(1);
+  await expect.poll(() => requests).toBe(3);
+  expect(geography).toBe(2);
 });
 
-test("inactive activity expires after thirty minutes and geography expires after a day", async ({
+test("remounts fetch activity and geography without a JavaScript cache", async ({
   page,
 }) => {
   await page.clock.install();
@@ -526,7 +526,7 @@ test("inactive activity expires after thirty minutes and geography expires after
     page.getByRole("heading", { name: "2026 Early Voting", exact: true }),
   ).toBeVisible();
   expect(requests).toBe(2);
-  expect(geography).toBe(1);
+  expect(geography).toBe(2);
   await page.getByRole("tab", { name: "State Elections" }).click();
   await page.clock.fastForward(24 * 60 * 60_000);
   await page.getByRole("tab", { name: "Live Elections" }).click();
@@ -534,7 +534,7 @@ test("inactive activity expires after thirty minutes and geography expires after
     page.getByRole("heading", { name: "2026 Early Voting", exact: true }),
   ).toBeVisible();
   expect(requests).toBe(3);
-  expect(geography).toBe(2);
+  expect(geography).toBe(3);
 });
 
 test("stale source flags update with no revision change or additional API request", async ({
@@ -644,7 +644,7 @@ test("hidden and offline reconnects recover missed revisions without refetching 
   );
 });
 
-test("cached data revalidates if the initial SSE revision is unavailable", async ({
+test("remounted data loads immediately if the initial SSE revision is unavailable", async ({
   page,
 }) => {
   await page.clock.install();
@@ -663,7 +663,7 @@ test("cached data revalidates if the initial SSE revision is unavailable", async
   await page.getByRole("tab", { name: "Federal Elections" }).click();
   await page.getByRole("tab", { name: "Live Elections" }).click();
   await expect.poll(() => streamCount(page)).toBe(1);
-  expect(requests).toBe(1);
+  await expect.poll(() => requests).toBe(2);
   await page.clock.fastForward(5_000);
   await expect.poll(() => requests).toBe(2);
   await expect(

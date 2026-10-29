@@ -1,6 +1,10 @@
 import { useEffect, useState } from "react";
-export async function get<T>(url: string, signal?: AbortSignal): Promise<T> {
-  const response = await fetch(url, { signal });
+export async function get<T>(
+  url: string,
+  signal?: AbortSignal,
+  cache: RequestCache = "default",
+): Promise<T> {
+  const response = await fetch(url, { signal, cache });
   if (!response.ok)
     throw new Error(
       `Unable to load election data (${response.status}). Check that the backend is running and the database has been imported.`,

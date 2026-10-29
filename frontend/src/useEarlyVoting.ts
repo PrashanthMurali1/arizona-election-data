@@ -1,24 +1,15 @@
 import { useEffect, useState } from "react";
 import { get } from "./api";
 import type { Activity, Geography } from "./types";
-import {
-  ACTIVITY_FRESH_MS,
-  cachedActivity,
-  cachedGeography,
-  currentStaleness,
-  saveActivity,
-  saveGeography,
-} from "./earlyVotingCache";
+import { currentStaleness } from "./earlyVotingStatus";
+
+const ACTIVITY_FRESH_MS = 5 * 60_000;
 
 const API = "/api/elections/az-2026-early-voting";
 type Data = { activity: Activity; geo: Geography };
 
 export function useEarlyVoting(boundary: string) {
-  const [data, setData] = useState<Data | null>(() => {
-    const entry = cachedActivity();
-    const geo = cachedGeography(boundary);
-    return entry && geo ? { activity: entry.data, geo } : null;
-  });
+  const [data, setData] = useState<Data | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [refreshError, setRefreshError] = useState<string | null>(null);
   const [checking, setChecking] = useState(true);
@@ -26,18 +17,17 @@ export function useEarlyVoting(boundary: string) {
 
   useEffect(() => {
     const controller = new AbortController();
-    let current = cachedActivity();
-    let geo = cachedGeography(boundary);
+    let current: { data: Activity; checkedAt: number } | null = null;
+    let geo: Geography | null = null;
     let pending = false;
     let target: string | null = null;
-    let validated = false;
     let stream: EventSource | null = null;
     let timer: ReturnType<typeof setTimeout>;
     const fresh = () =>
       current &&
       Date.now() >= current.checkedAt &&
       Date.now() - current.checkedAt < ACTIVITY_FRESH_MS &&
-      cachedGeography(boundary);
+      geo;
     const schedule = (delay = ACTIVITY_FRESH_MS) => {
       clearTimeout(timer);
       timer = setTimeout(() => {
@@ -45,7 +35,7 @@ export function useEarlyVoting(boundary: string) {
         else schedule();
       }, delay);
     };
-    async function refresh() {
+    async function refresh(cache: RequestCache = "no-cache") {
       if (controller.signal.aborted || pending) return;
       const requested = target;
       pending = true;
@@ -54,9 +44,9 @@ export function useEarlyVoting(boundary: string) {
         // Activity is the single atomic changing response: statewide metrics,
         // counties, registration breakdowns, provenance, failures and revision.
         // The registration map does not use candidate/result data.
-        const retainedGeo = cachedGeography(boundary);
+        const retainedGeo = geo;
         const requests = [
-          get<Activity>(`${API}/activity`, controller.signal),
+          get<Activity>(`${API}/activity`, controller.signal, cache),
           retainedGeo
             ? Promise.resolve(retainedGeo)
             : get<Geography>(`/api/geography/${boundary}`, controller.signal),
@@ -70,15 +60,13 @@ export function useEarlyVoting(boundary: string) {
           geography.boundary_id !== boundary
         )
           throw new Error("Incomplete early-voting response");
-        current = saveActivity(activity);
-        if (!retainedGeo) saveGeography(geography);
+        current = { data: activity, checkedAt: Date.now() };
         geo = geography;
         setData({ activity, geo });
         setError(null);
         setRefreshError(null);
         setChecking(false);
         setNow(Date.now());
-        validated = true;
       } catch (failure) {
         if (!controller.signal.aborted) {
           const message =
@@ -108,7 +96,6 @@ export function useEarlyVoting(boundary: string) {
     function connect() {
       stream?.close();
       if (document.visibilityState !== "visible") return;
-      validated = false;
       setChecking(true);
       const source = new EventSource(`${API}/updates`);
       stream = source;
@@ -119,7 +106,6 @@ export function useEarlyVoting(boundary: string) {
           if (typeof value !== "string" || !value) return;
           target = value;
           if (fresh() && value === current?.data.revision) {
-            validated = true;
             setChecking(false);
             setRefreshError(null);
             setNow(Date.now());
@@ -136,16 +122,10 @@ export function useEarlyVoting(boundary: string) {
           );
         }
       });
-      // If a cached view cannot obtain an SSE revision, verify via the API.
-      clearTimeout(fallback);
-      fallback = setTimeout(() => {
-        if (!validated) void refresh();
-      }, 5_000);
-      // React's development StrictMode immediately tears down the first effect.
-      // Defer the cold load so its aborted setup never sends duplicate requests.
-      if (!fresh()) queueMicrotask(() => void refresh());
+      // Defer the initial HTTP-cache lookup past StrictMode's aborted setup.
+      if (!current) queueMicrotask(() => void refresh("default"));
+      else if (!fresh()) void refresh();
     }
-    let fallback: ReturnType<typeof setTimeout>;
     const resume = () => {
       if (document.visibilityState === "visible") connect();
       else stream?.close();
@@ -154,14 +134,9 @@ export function useEarlyVoting(boundary: string) {
     setError(null);
     setRefreshError(null);
     setChecking(true);
-    if (current && geo) setData({ activity: current.data, geo });
-    else setData(null);
+    setData(null);
     connect();
-    schedule(
-      current
-        ? Math.max(1, ACTIVITY_FRESH_MS - (Date.now() - current.checkedAt))
-        : ACTIVITY_FRESH_MS,
-    );
+    schedule();
     window.addEventListener("focus", resume);
     window.addEventListener("online", resume);
     document.addEventListener("visibilitychange", resume);
@@ -169,7 +144,6 @@ export function useEarlyVoting(boundary: string) {
       controller.abort();
       stream?.close();
       clearTimeout(timer);
-      clearTimeout(fallback);
       clearInterval(ageTimer);
       window.removeEventListener("focus", resume);
       window.removeEventListener("online", resume);

@@ -528,5 +528,5 @@ test("early-voting notifications refresh once, recover missed updates and clean 
   await page.getByRole("navigation", {name: "Main navigation"}).getByRole("link", {name: "Election catalog", exact: true}).click();
   await expect.poll(activeConnections).toBe(1);
   await emit("revision", revision);
-  expect(activityRequests).toBe(5);
+  await expect.poll(() => activityRequests).toBe(6);
 });
