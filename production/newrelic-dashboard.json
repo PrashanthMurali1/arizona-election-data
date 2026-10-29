@@ -1,0 +1,722 @@
+{
+  "accountId": 8675480,
+  "entityGuid": "ODY3NTQ4MHxBUE18QVBQTElDQVRJT058MTEzNDY5NDIwOA",
+  "dashboard": {
+    "name": "Arizona Election Explorer - Production Health",
+    "permissions": "PRIVATE",
+    "description": "API performance, error spikes and refresh health. Filtered local logs are capped; APM metrics drive volume alerts.",
+    "pages": [
+      {
+        "name": "API Performance",
+        "widgets": [
+          {
+            "title": "Scope and interpretation",
+            "layout": {
+              "row": 1,
+              "column": 1,
+              "width": 12,
+              "height": 3
+            },
+            "visualization": {
+              "id": "viz.markdown"
+            },
+            "rawConfiguration": {
+              "text": "## Arizona Election Explorer — API performance\nNormal API requests exclude Docker health checks and the long-lived SSE update stream. Throughput/error volume use APM metrics; latency percentiles and endpoint breakdowns use transaction events (which can be sampled). Process memory covers the Python backend, not the Windows host. No browser page-load or infrastructure agent is installed. Alert issues stay in New Relic; no email/SMS workflow."
+            }
+          },
+          {
+            "title": "API requests / minute",
+            "layout": {
+              "row": 4,
+              "column": 1,
+              "width": 4,
+              "height": 3
+            },
+            "visualization": {
+              "id": "viz.billboard"
+            },
+            "rawConfiguration": {
+              "nrqlQueries": [
+                {
+                  "accountId": 8675480,
+                  "query": "FROM Metric SELECT rate(count(apm.service.transaction.duration),1 minute) AS 'API RPM' WHERE entity.guid = 'ODY3NTQ4MHxBUE18QVBQTElDQVRJT058MTEzNDY5NDIwOA' AND transactionType = 'Web' AND transactionName NOT IN ('WebTransaction/Function/backend.app.main:health', 'WebTransaction/Function/backend.app.main:early_voting_updates') SINCE 60 minutes ago"
+                }
+              ]
+            }
+          },
+          {
+            "title": "API p95 response time (ms)",
+            "layout": {
+              "row": 4,
+              "column": 5,
+              "width": 4,
+              "height": 3
+            },
+            "visualization": {
+              "id": "viz.billboard"
+            },
+            "rawConfiguration": {
+              "nrqlQueries": [
+                {
+                  "accountId": 8675480,
+                  "query": "FROM Transaction SELECT percentile(duration*1000,95) AS 'p95 ms' WHERE appName = 'Arizona Election Explorer (Production)' AND transactionType = 'Web' AND name NOT IN ('WebTransaction/Function/backend.app.main:health', 'WebTransaction/Function/backend.app.main:early_voting_updates') SINCE 60 minutes ago"
+                }
+              ]
+            }
+          },
+          {
+            "title": "API error rate (%)",
+            "layout": {
+              "row": 4,
+              "column": 9,
+              "width": 4,
+              "height": 3
+            },
+            "visualization": {
+              "id": "viz.billboard"
+            },
+            "rawConfiguration": {
+              "nrqlQueries": [
+                {
+                  "accountId": 8675480,
+                  "query": "FROM Metric SELECT 100 * count(apm.service.transaction.error.count) / count(apm.service.transaction.duration) AS 'Error %' WHERE entity.guid = 'ODY3NTQ4MHxBUE18QVBQTElDQVRJT058MTEzNDY5NDIwOA' AND transactionType = 'Web' AND transactionName NOT IN ('WebTransaction/Function/backend.app.main:health', 'WebTransaction/Function/backend.app.main:early_voting_updates') SINCE 60 minutes ago"
+                }
+              ]
+            }
+          },
+          {
+            "title": "API latency p50 / p95 / p99 (ms)",
+            "layout": {
+              "row": 7,
+              "column": 1,
+              "width": 8,
+              "height": 3
+            },
+            "visualization": {
+              "id": "viz.line"
+            },
+            "rawConfiguration": {
+              "nrqlQueries": [
+                {
+                  "accountId": 8675480,
+                  "query": "FROM Transaction SELECT percentile(duration*1000,50,95,99) WHERE appName = 'Arizona Election Explorer (Production)' AND transactionType = 'Web' AND name NOT IN ('WebTransaction/Function/backend.app.main:health', 'WebTransaction/Function/backend.app.main:early_voting_updates') SINCE 60 minutes ago TIMESERIES 1 minute"
+                }
+              ]
+            }
+          },
+          {
+            "title": "API throughput (requests / minute)",
+            "layout": {
+              "row": 7,
+              "column": 9,
+              "width": 4,
+              "height": 3
+            },
+            "visualization": {
+              "id": "viz.line"
+            },
+            "rawConfiguration": {
+              "nrqlQueries": [
+                {
+                  "accountId": 8675480,
+                  "query": "FROM Metric SELECT rate(count(apm.service.transaction.duration),1 minute) AS 'API RPM' WHERE entity.guid = 'ODY3NTQ4MHxBUE18QVBQTElDQVRJT058MTEzNDY5NDIwOA' AND transactionType = 'Web' AND transactionName NOT IN ('WebTransaction/Function/backend.app.main:health', 'WebTransaction/Function/backend.app.main:early_voting_updates') SINCE 60 minutes ago TIMESERIES 1 minute"
+                }
+              ]
+            }
+          },
+          {
+            "title": "Web errors / minute — includes health and SSE failures",
+            "layout": {
+              "row": 10,
+              "column": 1,
+              "width": 6,
+              "height": 3
+            },
+            "visualization": {
+              "id": "viz.line"
+            },
+            "rawConfiguration": {
+              "nrqlQueries": [
+                {
+                  "accountId": 8675480,
+                  "query": "FROM Metric SELECT rate(count(apm.service.error.count),1 minute) AS 'Errors/min' WHERE entity.guid = 'ODY3NTQ4MHxBUE18QVBQTElDQVRJT058MTEzNDY5NDIwOA' AND transactionType = 'Web' SINCE 60 minutes ago TIMESERIES 1 minute"
+                }
+              ]
+            }
+          },
+          {
+            "title": "API error rate (%) over time",
+            "layout": {
+              "row": 10,
+              "column": 7,
+              "width": 6,
+              "height": 3
+            },
+            "visualization": {
+              "id": "viz.line"
+            },
+            "rawConfiguration": {
+              "nrqlQueries": [
+                {
+                  "accountId": 8675480,
+                  "query": "FROM Metric SELECT 100 * count(apm.service.transaction.error.count) / count(apm.service.transaction.duration) AS 'Error %' WHERE entity.guid = 'ODY3NTQ4MHxBUE18QVBQTElDQVRJT058MTEzNDY5NDIwOA' AND transactionType = 'Web' AND transactionName NOT IN ('WebTransaction/Function/backend.app.main:health', 'WebTransaction/Function/backend.app.main:early_voting_updates') SINCE 60 minutes ago TIMESERIES 1 minute"
+                }
+              ]
+            }
+          },
+          {
+            "title": "Endpoints — p95 latency, volume and 5xx (sampled events)",
+            "layout": {
+              "row": 13,
+              "column": 1,
+              "width": 12,
+              "height": 4
+            },
+            "visualization": {
+              "id": "viz.table"
+            },
+            "rawConfiguration": {
+              "nrqlQueries": [
+                {
+                  "accountId": 8675480,
+                  "query": "FROM Transaction SELECT count(*) AS 'Requests', percentile(duration*1000,95) AS 'p95 ms', filter(count(*),WHERE http.statusCode >= 500) AS '5xx' WHERE appName = 'Arizona Election Explorer (Production)' AND transactionType = 'Web' AND name NOT IN ('WebTransaction/Function/backend.app.main:health', 'WebTransaction/Function/backend.app.main:early_voting_updates') SINCE 60 minutes ago FACET name LIMIT 15"
+                }
+              ]
+            }
+          },
+          {
+            "title": "Database time per API request (ms)",
+            "layout": {
+              "row": 17,
+              "column": 1,
+              "width": 6,
+              "height": 3
+            },
+            "visualization": {
+              "id": "viz.line"
+            },
+            "rawConfiguration": {
+              "nrqlQueries": [
+                {
+                  "accountId": 8675480,
+                  "query": "FROM Transaction SELECT average(databaseDuration)*1000 AS 'Mean DB ms' WHERE appName = 'Arizona Election Explorer (Production)' AND transactionType = 'Web' AND name NOT IN ('WebTransaction/Function/backend.app.main:health', 'WebTransaction/Function/backend.app.main:early_voting_updates') SINCE 60 minutes ago TIMESERIES 1 minute"
+                }
+              ]
+            }
+          },
+          {
+            "title": "Backend process physical memory (MB)",
+            "layout": {
+              "row": 17,
+              "column": 7,
+              "width": 6,
+              "height": 3
+            },
+            "visualization": {
+              "id": "viz.line"
+            },
+            "rawConfiguration": {
+              "nrqlQueries": [
+                {
+                  "accountId": 8675480,
+                  "query": "FROM Metric SELECT average(apm.service.memory.physical) AS 'Memory MB' WHERE entity.guid = 'ODY3NTQ4MHxBUE18QVBQTElDQVRJT058MTEzNDY5NDIwOA' SINCE 60 minutes ago TIMESERIES 1 minute"
+                }
+              ]
+            }
+          },
+          {
+            "title": "All web transactions — telemetry continuity",
+            "layout": {
+              "row": 20,
+              "column": 1,
+              "width": 6,
+              "height": 3
+            },
+            "visualization": {
+              "id": "viz.line"
+            },
+            "rawConfiguration": {
+              "nrqlQueries": [
+                {
+                  "accountId": 8675480,
+                  "query": "FROM Metric SELECT rate(count(apm.service.transaction.duration),1 minute) AS 'All web RPM' WHERE entity.guid = 'ODY3NTQ4MHxBUE18QVBQTElDQVRJT058MTEzNDY5NDIwOA' AND transactionType = 'Web' SINCE 60 minutes ago TIMESERIES 1 minute"
+                }
+              ]
+            }
+          },
+          {
+            "title": "Health-check traffic (excluded from API charts)",
+            "layout": {
+              "row": 20,
+              "column": 7,
+              "width": 6,
+              "height": 3
+            },
+            "visualization": {
+              "id": "viz.line"
+            },
+            "rawConfiguration": {
+              "nrqlQueries": [
+                {
+                  "accountId": 8675480,
+                  "query": "FROM Metric SELECT rate(count(apm.service.transaction.duration),1 minute) AS 'Health RPM' WHERE entity.guid = 'ODY3NTQ4MHxBUE18QVBQTElDQVRJT058MTEzNDY5NDIwOA' AND transactionType = 'Web' AND transactionName = 'WebTransaction/Function/backend.app.main:health' SINCE 60 minutes ago TIMESERIES 1 minute"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Errors and Refresh",
+        "widgets": [
+          {
+            "title": "Scope and interpretation",
+            "layout": {
+              "row": 1,
+              "column": 1,
+              "width": 12,
+              "height": 3
+            },
+            "visualization": {
+              "id": "viz.markdown"
+            },
+            "rawConfiguration": {
+              "text": "## Errors and refresh operations\nForwarded logs are rate-capped and deduplicated: use APM metric panels for error volume, logs for diagnosis. An empty errors table is normal when no errors were recorded. Refresh runs every six hours in Asia/Kolkata. A missed-refresh alert arms after it sees a successful live completion; it cannot infer a heartbeat from quiet logs. Telemetry loss is a reporting-silence check, not an external public HTTPS availability test."
+            }
+          },
+          {
+            "title": "Web errors in last 5 minutes",
+            "layout": {
+              "row": 4,
+              "column": 1,
+              "width": 4,
+              "height": 3
+            },
+            "visualization": {
+              "id": "viz.billboard"
+            },
+            "rawConfiguration": {
+              "nrqlQueries": [
+                {
+                  "accountId": 8675480,
+                  "query": "FROM Metric SELECT count(apm.service.error.count) AS 'Errors' WHERE entity.guid = 'ODY3NTQ4MHxBUE18QVBQTElDQVRJT058MTEzNDY5NDIwOA' AND transactionType = 'Web' SINCE 5 minutes ago"
+                }
+              ]
+            }
+          },
+          {
+            "title": "Forwarded critical events (capped)",
+            "layout": {
+              "row": 4,
+              "column": 5,
+              "width": 4,
+              "height": 3
+            },
+            "visualization": {
+              "id": "viz.billboard"
+            },
+            "rawConfiguration": {
+              "nrqlQueries": [
+                {
+                  "accountId": 8675480,
+                  "query": "FROM Log SELECT filter(count(*), WHERE severity = 'CRITICAL') AS 'Critical' WHERE application = 'Arizona Election Explorer (Production)' SINCE 60 minutes ago"
+                }
+              ]
+            }
+          },
+          {
+            "title": "Successful refreshes in last 24 hours",
+            "layout": {
+              "row": 4,
+              "column": 9,
+              "width": 4,
+              "height": 3
+            },
+            "visualization": {
+              "id": "viz.billboard"
+            },
+            "rawConfiguration": {
+              "nrqlQueries": [
+                {
+                  "accountId": 8675480,
+                  "query": "FROM Log SELECT filter(count(*), WHERE event = 'refresh_completed' AND outcome = 'success') AS 'Successful refreshes' WHERE application = 'Arizona Election Explorer (Production)' SINCE 24 hours ago"
+                }
+              ],
+              "ignoreTimeRange": true
+            }
+          },
+          {
+            "title": "Error classes from APM",
+            "layout": {
+              "row": 7,
+              "column": 1,
+              "width": 6,
+              "height": 3
+            },
+            "visualization": {
+              "id": "viz.bar"
+            },
+            "rawConfiguration": {
+              "nrqlQueries": [
+                {
+                  "accountId": 8675480,
+                  "query": "FROM TransactionError SELECT count(*) AS 'Errors' WHERE appName = 'Arizona Election Explorer (Production)' SINCE 60 minutes ago FACET error.class LIMIT 15"
+                }
+              ]
+            }
+          },
+          {
+            "title": "Observed HTTP status codes (sampled events)",
+            "layout": {
+              "row": 7,
+              "column": 7,
+              "width": 6,
+              "height": 3
+            },
+            "visualization": {
+              "id": "viz.line"
+            },
+            "rawConfiguration": {
+              "nrqlQueries": [
+                {
+                  "accountId": 8675480,
+                  "query": "FROM Transaction SELECT count(*) AS 'Requests' WHERE appName = 'Arizona Election Explorer (Production)' AND transactionType = 'Web' AND name NOT IN ('WebTransaction/Function/backend.app.main:health', 'WebTransaction/Function/backend.app.main:early_voting_updates') SINCE 60 minutes ago FACET http.statusCode TIMESERIES 1 minute"
+                }
+              ]
+            }
+          },
+          {
+            "title": "Forwarded warnings/errors by service (capped)",
+            "layout": {
+              "row": 10,
+              "column": 1,
+              "width": 6,
+              "height": 3
+            },
+            "visualization": {
+              "id": "viz.line"
+            },
+            "rawConfiguration": {
+              "nrqlQueries": [
+                {
+                  "accountId": 8675480,
+                  "query": "FROM Log SELECT count(*) AS 'Forwarded events' WHERE application = 'Arizona Election Explorer (Production)' AND severity IN ('WARNING','ERROR','CRITICAL') SINCE 60 minutes ago FACET service TIMESERIES 5 minutes"
+                }
+              ]
+            }
+          },
+          {
+            "title": "Top forwarded failure events (capped)",
+            "layout": {
+              "row": 10,
+              "column": 7,
+              "width": 6,
+              "height": 3
+            },
+            "visualization": {
+              "id": "viz.table"
+            },
+            "rawConfiguration": {
+              "nrqlQueries": [
+                {
+                  "accountId": 8675480,
+                  "query": "FROM Log SELECT count(*) AS 'Forwarded events' WHERE application = 'Arizona Election Explorer (Production)' AND severity IN ('ERROR','CRITICAL') SINCE 60 minutes ago FACET service,event LIMIT 15"
+                }
+              ]
+            }
+          },
+          {
+            "title": "Latest failure diagnostics",
+            "layout": {
+              "row": 13,
+              "column": 1,
+              "width": 12,
+              "height": 4
+            },
+            "visualization": {
+              "id": "viz.table"
+            },
+            "rawConfiguration": {
+              "nrqlQueries": [
+                {
+                  "accountId": 8675480,
+                  "query": "FROM Log SELECT timestamp,severity,service,event,exception.type,route,correlation_id WHERE application = 'Arizona Election Explorer (Production)' AND severity IN ('ERROR','CRITICAL') SINCE 24 hours ago LIMIT 30"
+                }
+              ]
+            }
+          },
+          {
+            "title": "Latest refresh completions — outcome and job ID",
+            "layout": {
+              "row": 17,
+              "column": 1,
+              "width": 12,
+              "height": 4
+            },
+            "visualization": {
+              "id": "viz.table"
+            },
+            "rawConfiguration": {
+              "nrqlQueries": [
+                {
+                  "accountId": 8675480,
+                  "query": "FROM Log SELECT timestamp,outcome,duration_ms,exit_code,correlation_id WHERE application = 'Arizona Election Explorer (Production)' AND event = 'refresh_completed' SINCE 2 days ago LIMIT 20"
+                }
+              ],
+              "ignoreTimeRange": true
+            }
+          },
+          {
+            "title": "Refresh duration (ms)",
+            "layout": {
+              "row": 21,
+              "column": 1,
+              "width": 6,
+              "height": 3
+            },
+            "visualization": {
+              "id": "viz.line"
+            },
+            "rawConfiguration": {
+              "nrqlQueries": [
+                {
+                  "accountId": 8675480,
+                  "query": "FROM Log SELECT latest(duration_ms) AS 'Refresh duration ms' WHERE application = 'Arizona Election Explorer (Production)' AND event = 'refresh_completed' SINCE 2 days ago TIMESERIES 1 hour"
+                }
+              ],
+              "ignoreTimeRange": true
+            }
+          },
+          {
+            "title": "Latest operational warnings",
+            "layout": {
+              "row": 21,
+              "column": 7,
+              "width": 6,
+              "height": 3
+            },
+            "visualization": {
+              "id": "viz.table"
+            },
+            "rawConfiguration": {
+              "nrqlQueries": [
+                {
+                  "accountId": 8675480,
+                  "query": "FROM Log SELECT timestamp,service,event,feed,correlation_id WHERE application = 'Arizona Election Explorer (Production)' AND severity = 'WARNING' SINCE 24 hours ago LIMIT 15"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "conditions": [
+    {
+      "name": "Web error burst - 5 minute count",
+      "description": "Warning: at least one web error in a five-minute bucket. Critical: at least five. Includes health/SSE errors. APM metrics, not capped logs.",
+      "enabled": true,
+      "nrql": {
+        "query": "FROM Metric SELECT count(apm.service.error.count) WHERE entity.guid = 'ODY3NTQ4MHxBUE18QVBQTElDQVRJT058MTEzNDY5NDIwOA' AND transactionType = 'Web'"
+      },
+      "signal": {
+        "aggregationWindow": 300,
+        "fillOption": "NONE",
+        "aggregationMethod": "EVENT_FLOW",
+        "aggregationDelay": 120
+      },
+      "terms": [
+        {
+          "threshold": 0,
+          "thresholdDuration": 300,
+          "priority": "WARNING",
+          "thresholdOccurrences": "AT_LEAST_ONCE",
+          "operator": "ABOVE"
+        },
+        {
+          "threshold": 4,
+          "thresholdDuration": 300,
+          "priority": "CRITICAL",
+          "thresholdOccurrences": "AT_LEAST_ONCE",
+          "operator": "ABOVE"
+        }
+      ],
+      "valueFunction": "SINGLE_VALUE",
+      "violationTimeLimitSeconds": 86400
+    },
+    {
+      "name": "API error rate - sustained",
+      "description": "API error rate above 2% warning or 5% critical for five minutes. Health/SSE excluded. Quiet windows are not fabricated as zero.",
+      "enabled": true,
+      "nrql": {
+        "query": "FROM Metric SELECT 100 * count(apm.service.transaction.error.count) / count(apm.service.transaction.duration) WHERE entity.guid = 'ODY3NTQ4MHxBUE18QVBQTElDQVRJT058MTEzNDY5NDIwOA' AND transactionType = 'Web' AND transactionName NOT IN ('WebTransaction/Function/backend.app.main:health', 'WebTransaction/Function/backend.app.main:early_voting_updates')"
+      },
+      "signal": {
+        "aggregationWindow": 60,
+        "fillOption": "NONE",
+        "aggregationMethod": "EVENT_FLOW",
+        "aggregationDelay": 120
+      },
+      "terms": [
+        {
+          "threshold": 2,
+          "thresholdDuration": 300,
+          "priority": "WARNING",
+          "thresholdOccurrences": "ALL",
+          "operator": "ABOVE"
+        },
+        {
+          "threshold": 5,
+          "thresholdDuration": 300,
+          "priority": "CRITICAL",
+          "thresholdOccurrences": "ALL",
+          "operator": "ABOVE"
+        }
+      ],
+      "valueFunction": "SINGLE_VALUE",
+      "violationTimeLimitSeconds": 86400
+    },
+    {
+      "name": "API p95 latency - sustained",
+      "description": "p95 above 500 ms warning or 1000 ms critical for five minutes. Initial conservative limits; excludes health checks and long-lived SSE.",
+      "enabled": true,
+      "nrql": {
+        "query": "FROM Transaction SELECT percentile(duration*1000,95) WHERE appName = 'Arizona Election Explorer (Production)' AND transactionType = 'Web' AND name NOT IN ('WebTransaction/Function/backend.app.main:health', 'WebTransaction/Function/backend.app.main:early_voting_updates')"
+      },
+      "signal": {
+        "aggregationWindow": 60,
+        "fillOption": "NONE",
+        "aggregationMethod": "EVENT_FLOW",
+        "aggregationDelay": 120
+      },
+      "terms": [
+        {
+          "threshold": 500,
+          "thresholdDuration": 300,
+          "priority": "WARNING",
+          "thresholdOccurrences": "ALL",
+          "operator": "ABOVE"
+        },
+        {
+          "threshold": 1000,
+          "thresholdDuration": 300,
+          "priority": "CRITICAL",
+          "thresholdOccurrences": "ALL",
+          "operator": "ABOVE"
+        }
+      ],
+      "valueFunction": "SINGLE_VALUE",
+      "violationTimeLimitSeconds": 86400
+    },
+    {
+      "name": "APM reporting silent for 5 minutes",
+      "description": "Loss-of-signal critical after five minutes without web metrics. Existing health checks normally maintain this signal. Not an external HTTPS probe.",
+      "enabled": true,
+      "nrql": {
+        "query": "FROM Metric SELECT count(apm.service.transaction.duration) WHERE entity.guid = 'ODY3NTQ4MHxBUE18QVBQTElDQVRJT058MTEzNDY5NDIwOA' AND transactionType = 'Web'"
+      },
+      "signal": {
+        "aggregationWindow": 60,
+        "fillOption": "NONE",
+        "aggregationMethod": "EVENT_FLOW",
+        "aggregationDelay": 120
+      },
+      "terms": [
+        {
+          "threshold": 0,
+          "thresholdDuration": 300,
+          "priority": "CRITICAL",
+          "thresholdOccurrences": "ALL",
+          "operator": "BELOW"
+        }
+      ],
+      "valueFunction": "SINGLE_VALUE",
+      "violationTimeLimitSeconds": 86400,
+      "expiration": {
+        "expirationDuration": 300,
+        "openViolationOnExpiration": true,
+        "closeViolationsOnExpiration": true
+      }
+    },
+    {
+      "name": "Refresh job failed",
+      "description": "Critical when a forwarded refresh failure is observed. Best effort because forwarding is capped; missed-success alert adds separate coverage.",
+      "enabled": true,
+      "nrql": {
+        "query": "FROM Log SELECT filter(count(*), WHERE (event = 'refresh_completed' AND outcome = 'failed') OR event = 'refresh_runtime_failed') WHERE application = 'Arizona Election Explorer (Production)'"
+      },
+      "signal": {
+        "aggregationWindow": 60,
+        "fillOption": "NONE",
+        "aggregationMethod": "EVENT_TIMER",
+        "aggregationTimer": 60
+      },
+      "terms": [
+        {
+          "threshold": 0,
+          "thresholdDuration": 60,
+          "priority": "CRITICAL",
+          "thresholdOccurrences": "AT_LEAST_ONCE",
+          "operator": "ABOVE"
+        }
+      ],
+      "valueFunction": "SINGLE_VALUE",
+      "violationTimeLimitSeconds": 86400
+    },
+    {
+      "name": "Successful refresh missing for 7 hours",
+      "description": "Loss-of-signal after seven hours without a successful six-hour refresh. Arms only after the alert engine sees a matching live success. No artificial gap fill.",
+      "enabled": true,
+      "nrql": {
+        "query": "FROM Log SELECT count(*) WHERE application = 'Arizona Election Explorer (Production)' AND event = 'refresh_completed' AND outcome = 'success'"
+      },
+      "signal": {
+        "aggregationWindow": 60,
+        "fillOption": "NONE",
+        "aggregationMethod": "EVENT_TIMER",
+        "aggregationTimer": 60
+      },
+      "terms": [
+        {
+          "threshold": 0,
+          "thresholdDuration": 60,
+          "priority": "CRITICAL",
+          "thresholdOccurrences": "ALL",
+          "operator": "BELOW"
+        }
+      ],
+      "valueFunction": "SINGLE_VALUE",
+      "violationTimeLimitSeconds": 86400,
+      "expiration": {
+        "expirationDuration": 25200,
+        "openViolationOnExpiration": true,
+        "closeViolationsOnExpiration": true
+      }
+    },
+    {
+      "name": "Critical service event observed",
+      "description": "Critical for a forwarded CRITICAL event from any app service. Local logs retain full critical events; forwarding caps can drop events.",
+      "enabled": true,
+      "nrql": {
+        "query": "FROM Log SELECT filter(count(*), WHERE severity = 'CRITICAL') WHERE application = 'Arizona Election Explorer (Production)'"
+      },
+      "signal": {
+        "aggregationWindow": 60,
+        "fillOption": "NONE",
+        "aggregationMethod": "EVENT_TIMER",
+        "aggregationTimer": 60
+      },
+      "terms": [
+        {
+          "threshold": 0,
+          "thresholdDuration": 60,
+          "priority": "CRITICAL",
+          "thresholdOccurrences": "AT_LEAST_ONCE",
+          "operator": "ABOVE"
+        }
+      ],
+      "valueFunction": "SINGLE_VALUE",
+      "violationTimeLimitSeconds": 86400
+    }
+  ]
+}
