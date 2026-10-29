@@ -24,7 +24,7 @@ from uuid import uuid4
 SERVICES = ('backend', 'frontend', 'tunnel')
 PROJECT = 'az-election-explorer'
 REMOTE = 'https://github.com/PrashanthMurali1/arizona-election-data.git'
-ADMIN = {'scripts/deploy_worker.py', 'scripts/newrelic_admin.py', 'scripts/setup_newrelic_dashboard.py'}
+ADMIN = {'scripts/relay_diagnostics.py', 'scripts/deploy_worker.py', 'scripts/newrelic_admin.py', 'scripts/setup_newrelic_dashboard.py'}
 SHARED = {'backend/app/observability.py', 'backend/app/log_export.py', 'production/run_tunnel.py'}
 
 
@@ -262,6 +262,13 @@ class Worker:
                 r'\b(?:enotfound|etimedout|econnreset)\b', output, re.IGNORECASE)) or any(
                 x in output.lower() for x in ('could not resolve host',
                 'network is unreachable', 'tls handshake timeout', 'i/o timeout'))
+            # Local structural diagnostics are best effort and never include raw output.
+            try:
+                from scripts.relay_diagnostics import record_failure
+                record_failure(self.home, output, self.phase, code, self.sha,
+                               severity='WARNING' if temporary else 'ERROR')
+            except Exception:
+                pass
             raise (Deferred if temporary else Failure)('command_failed', self.phase, code)
         return output.strip()
 
