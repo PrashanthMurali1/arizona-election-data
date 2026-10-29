@@ -101,7 +101,7 @@ test.beforeEach(async ({ page }) => {
     route.fulfill({ json: dashboard.activity }),
   );
   await page.route(
-    `**/api/geography/${dashboard.detail.election.boundary_id}`,
+    `**/api/geography/${dashboard.detail.election.boundary_id}*`,
     (route) => route.fulfill({ json: dashboard.geography }),
   );
   await page.route("**/api/elections", (route) =>
@@ -517,7 +517,7 @@ test("tab visits use fetch again and the active dashboard revalidates after five
     },
   );
   await page.route(
-    `**/api/geography/${dashboard.detail.election.boundary_id}`,
+    `**/api/geography/${dashboard.detail.election.boundary_id}*`,
     (route) => {
       geography++;
       return route.fulfill({ json: dashboard.geography });
@@ -559,7 +559,7 @@ test("remounts fetch activity and geography without a JavaScript cache", async (
     },
   );
   await page.route(
-    `**/api/geography/${dashboard.detail.election.boundary_id}`,
+    `**/api/geography/${dashboard.detail.election.boundary_id}*`,
     (route) => {
       geography++;
       return route.fulfill({ json: dashboard.geography });

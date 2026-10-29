@@ -12,6 +12,14 @@ def test_cache_policy_and_conditional_responses():
     value = {"revision": "first", "stale": False}
 
     @app.get("/api/elections/az-2026-early-voting/activity")
+    @app.get("/api/elections/az-2024-us-senate/counties")
+    @app.get("/api/elections/az-2025-us-house-special-07")
+    @app.get("/api/elections/az-2026-us-house")
+    @app.get("/api/elections/az-2022-governor")
+    @app.get("/api/elections/az-2022-governor/counties")
+    @app.get("/api/elections/az-2014-attorney-general/activity")
+    @app.get("/api/elections/az-2026-governor/activity")
+    @app.get("/api/elections/az-2026-attorney-general/activity")
     @app.get("/api/elections")
     @app.get("/api/geography/county-2022")
     @app.get("/api/health")
@@ -31,6 +39,14 @@ def test_cache_policy_and_conditional_responses():
             ("/api/elections/az-2026-early-voting/activity", "max-age=300"),
             ("/api/geography/county-2022", "max-age=86400"),
             ("/api/elections", "no-cache"),
+            ("/api/elections/az-2024-us-senate/counties", "max-age=86400"),
+            ("/api/elections/az-2025-us-house-special-07", "max-age=86400"),
+            ("/api/elections/az-2026-us-house", "no-cache"),
+            ("/api/elections/az-2022-governor", "max-age=86400"),
+            ("/api/elections/az-2022-governor/counties", "max-age=86400"),
+            ("/api/elections/az-2014-attorney-general/activity", "max-age=86400"),
+            ("/api/elections/az-2026-governor/activity", "no-cache"),
+            ("/api/elections/az-2026-attorney-general/activity", "no-cache"),
         ]:
             first = client.get(path)
             assert directive in first.headers["cache-control"]

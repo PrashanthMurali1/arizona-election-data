@@ -1,9 +1,10 @@
-import { useRef, useState, type KeyboardEvent } from "react";
+import { useEffect, useRef, useState, type KeyboardEvent } from "react";
 import { Link } from "react-router-dom";
 import type { Election } from "../types";
 import { useResource } from "../api";
 import { Availability, ErrorState, Loading } from "../components";
 import LiveElection from "./LiveElection";
+import { prefetchElections } from "../electionPrefetch";
 
 const catalogTabs = [
   { id: "live", label: "Live Elections", offices: ["early-voting"] },
@@ -63,6 +64,34 @@ export default function Home() {
     error,
     loading,
   } = useResource<Election[]>("/api/elections");
+  const prefetchOffice =
+    selectedTab === "federal"
+      ? federalOffice
+      : selectedTab === "state"
+        ? stateOffice
+        : null;
+  useEffect(() => {
+    if (!prefetchOffice || !elections) return;
+    const controller = new AbortController();
+    let running = false;
+    const warm = async () => {
+      if (running || controller.signal.aborted) return;
+      running = true;
+      try {
+        await prefetchElections(elections, prefetchOffice, controller.signal);
+      } finally {
+        running = false;
+      }
+    };
+    // Skip StrictMode's immediately cancelled first effect.
+    queueMicrotask(() => void warm());
+    window.addEventListener("online", warm);
+    return () => {
+      controller.abort();
+      window.removeEventListener("online", warm);
+    };
+  }, [prefetchOffice, elections]);
+
   const categoryElections =
     elections?.filter((e) => selectedOffices.includes(e.office_id)) ?? [];
   return (
