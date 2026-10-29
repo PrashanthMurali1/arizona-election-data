@@ -32,15 +32,16 @@ export default function Methodology() {
       <section>
         <h2>2026 participation and reporting stages</h2>
         <p>
-          The shared 2026 Early Voting page displays civicAPI early-voting
-          participation reports. Requested and returned ballots appear statewide
-          and by county, with the provider's party categories preserved. These
-          categories describe participation, not candidate support. Missing
-          metrics are N/A, while an explicit zero remains zero. Candidate results
-          stay unavailable. Blue/red counties indicate the uniquely largest
-          Democratic/Republican party-registration group among returned ballots.
-          Other, tied or missing breakdowns remain gray. These colors do not show
-          which candidates voters selected or how they voted.
+          The homepage’s Live Elections tab displays 2026 Early Voting using
+          civicAPI early-voting participation reports. Requested and returned
+          ballots appear statewide and by county, with the provider's party
+          categories preserved. These categories describe participation, not
+          candidate support. Missing metrics are N/A, while an explicit zero
+          remains zero. Candidate results stay unavailable. Blue/red counties
+          indicate the uniquely largest Democratic/Republican party-registration
+          group among returned ballots. Other, tied or missing breakdowns remain
+          gray. These colors do not show which candidates voters selected or how
+          they voted.
         </p>
         <p>
           Source snapshots are refreshed manually and show their own reporting
@@ -50,7 +51,8 @@ export default function Methodology() {
           independently verified data. Statewide totals use the supplied
           statewide party buckets; county totals are not added into a statewide
           estimate. Requested and returned categories are kept separate. No
-          state/county corroboration or election-data reconciliation is performed.
+          state/county corroboration or election-data reconciliation is
+          performed.
         </p>
       </section>
       <section>

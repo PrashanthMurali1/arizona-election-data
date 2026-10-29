@@ -106,7 +106,7 @@ docker compose exec backend cat backend/local/early-voting-refresh-status.json
 
 The check script deliberately fails one refresh using an unavailable local proxy, checks failure preservation, then performs a successful recovery. It does not corroborate election figures. Stop the scheduler before re-running these mutating checks. Avoid enabling the LaunchAgent and container scheduler together; after cutover, the original host database is archival and production updates only the Docker volume.
 
-SSE observes the shared `/app/backend/local/early-voting-refresh-status.json` written after import transactions finish. The backend and worker share the same named volume. Open pages fetch only on changed revisions; page entry/reconnect recovers missed updates. There is no browser minute polling or browser-triggered import. Raw retention, timeouts, zeros/missing values, failure preservation and snapshot ordering remain in the existing importer.
+SSE observes the shared `/app/backend/local/early-voting-refresh-status.json` written after import transactions finish. The backend and worker share the same named volume. The homepage reuses its in-memory cache and revalidates on changed revisions or after five minutes; entry/reconnect recovers missed updates. There is no browser-triggered import. See [browser caching](browser-caching.md). Raw retention, timeouts, zeros/missing values, failure preservation and snapshot ordering remain in the existing importer.
 
 Change the interval/timezone with:
 

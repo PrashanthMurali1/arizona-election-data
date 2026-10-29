@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import type { Candidate, Results, Turnout } from "./types";
 import { number, percent, partyClass } from "./results";
 export function Availability({ status }: { status: string }) {
@@ -10,11 +11,11 @@ export function Availability({ status }: { status: string }) {
         ? "Verified results"
         : status === "civicapi"
           ? "civicAPI report"
-        : status === "pre_results"
-          ? "Voting in progress"
-          : status === "unofficial"
-            ? "Unofficial results"
-            : "Incomplete"}
+          : status === "pre_results"
+            ? "Voting in progress"
+            : status === "unofficial"
+              ? "Unofficial results"
+              : "Incomplete"}
     </span>
   );
 }
@@ -103,6 +104,15 @@ export function ErrorState({ message }: { message: string }) {
       <h2>Data couldn’t be loaded</h2>
       <p>{message}</p>
       <button onClick={() => window.location.reload()}>Try again</button>
+    </div>
+  );
+}
+
+export function NotFound() {
+  return (
+    <div className="empty">
+      <h1>Page not found</h1>
+      <Link to="/">Back to the catalog</Link>
     </div>
   );
 }

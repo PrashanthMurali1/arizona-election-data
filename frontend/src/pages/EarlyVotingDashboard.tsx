@@ -1,52 +1,32 @@
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import type { RefObject } from "react";
-import type {
-  Activity,
-  ActivityMetric,
-  Election,
-  Geography,
-  Results,
-} from "../types";
+import type { Activity, ActivityMetric, Election, Geography } from "../types";
 import CountyMap from "../Map";
 import ActivityTable from "../ActivityTable";
-import SnapshotNotice from "../SnapshotNotice";
 import { Availability } from "../components";
 import { activityValue, reportTime } from "../activity";
 import { number } from "../results";
 
-export default function EarlyVotingPage({
+export default function EarlyVotingDashboard({
   election,
-  years,
   activity,
   geo,
-  counties,
   selected,
   onSelect,
   detailRef,
   refreshError = null,
-  embedded = false,
 }: {
   election: Election;
-  years: Election[];
   activity: Activity;
   geo: Geography;
-  counties: Results[];
   selected: string | null;
   onSelect: (id: string) => void;
   detailRef: RefObject<HTMLElement | null>;
   refreshError?: string | null;
-  embedded?: boolean;
 }) {
-  const navigate = useNavigate();
-  const Title = embedded ? "h3" : "h1";
-  const SectionTitle = embedded ? "h4" : "h2";
-  const PanelTitle = embedded ? "h5" : "h3";
   const county = activity.counties.find((c) => c.geoid === selected);
-  const compactDetails = election.id === "az-2026-early-voting";
   const countyMetrics =
-    county?.metrics.filter(
-      (metric) => !compactDetails || metric.value != null,
-    ) ?? [];
+    county?.metrics.filter((metric) => metric.value != null) ?? [];
   const participation = activity.provider_participation;
   const provider = participation
     ? { provider: participation.provider, test_data: false }
@@ -56,11 +36,8 @@ export default function EarlyVotingPage({
     participation?.reports.find((report) => report.category === "returned")
       ?.breakdowns ?? {};
   const detailLabel = (metric: ActivityMetric) =>
-    compactDetails
-      ? metric.label.replace(/\bcivicapi(?:['’]s)?\s*/gi, "").trim()
-      : metric.label;
+    metric.label.replace(/\bcivicapi(?:['’]s)?\s*/gi, "").trim();
   function detailDescription(metric: ActivityMetric) {
-    if (!compactDetails) return `${metric.definition} ${metric.coverage_note}`;
     const key = metric.key.split("__")[0];
     const action =
       key === "ballots_requested"
@@ -80,79 +57,25 @@ export default function EarlyVotingPage({
   }
   return (
     <>
-      {!embedded && (
-        <div className="breadcrumbs">
-          <Link to="/">Election catalog</Link>
-          <span>/</span>
-          <span>{election.office}</span>
-          <span>/</span>
-          <span>{election.year}</span>
-        </div>
-      )}
       <section className="election-heading">
         <div>
           <p className="eyebrow">ARIZONA · GENERAL ELECTION</p>
-          <Title className={embedded ? "embedded-election-title" : undefined}>
-            {election.office_id === "early-voting" ? (
-              <>
-                <span>{election.year}</span> {election.office}
-              </>
-            ) : (
-              <>
-                {election.office} <span>{election.year}</span>
-              </>
-            )}
-          </Title>
+          <h3 className="embedded-election-title">
+            <span>{election.year}</span> {election.office}
+          </h3>
           <div className="election-meta">
             <Availability status="pre_results" />
             <span>November 3, 2026</span>
           </div>
         </div>
-        {!embedded && (
-          <label className="year-picker">
-            Election year
-            <select
-              value={election.id}
-              onChange={(e) => navigate(`/elections/${e.target.value}`)}
-            >
-              {years.map((e) => (
-                <option key={e.id} value={e.id}>
-                  {e.year}
-                  {e.status === "pre_results"
-                    ? " · voting in progress"
-                    : e.status === "unofficial"
-                      ? " · unofficial"
-                      : e.status !== "verified"
-                        ? " · incomplete"
-                        : ""}
-                </option>
-              ))}
-            </select>
-          </label>
-        )}
       </section>
       <div className="notice" role="status">
-        <strong>
-          {compactDetails
-            ? "Early-voting participation reports."
-            : participation
-              ? `Early-voting participation reports · ${participation.provider}.`
-              : provider?.test_data
-                ? `${provider.provider} marks this race record as test data — live results unavailable.`
-                : provider
-                  ? `${provider.provider} has not started reporting candidate results.`
-                  : activity.candidate_availability === "not_imported"
-                    ? "Candidate results have not been imported — refresh official sources."
-                    : "Voting in progress — candidate results not yet released."}
-        </strong>
+        <strong>Early-voting participation reports.</strong>
         <p>
           These figures describe participation in the November general election.
           Party categories indicate voter registration, not candidate choices or
           how anyone voted.
         </p>
-        {!compactDetails && provider && !participation && (
-          <p>{activity.notes}</p>
-        )}
       </div>
       <section
         className="panel statewide"
@@ -161,15 +84,8 @@ export default function EarlyVotingPage({
         <div className="panel-heading">
           <div>
             <p className="eyebrow">GENERAL-ELECTION PARTICIPATION</p>
-            <SectionTitle>Early-voting activity</SectionTitle>
+            <h4>Early-voting activity</h4>
           </div>
-          {!compactDetails && (
-            <span className="muted">
-              {provider
-                ? `${provider.provider} source records`
-                : "Official source records"}
-            </span>
-          )}
         </div>
         <div className="turnout-metrics statewide-activity">
           <div>
@@ -207,12 +123,11 @@ export default function EarlyVotingPage({
           <span>{activity.statewide_policy}</span>
         </div>
       </section>
-      {!compactDetails && <SnapshotNotice activity={activity} />}
       <section className="county-section">
         <div className="section-heading">
           <div>
             <p className="eyebrow">PARTICIPATION, COUNTY BY COUNTY</p>
-            <SectionTitle>County reports</SectionTitle>
+            <h4>County reports</h4>
           </div>
           <span className="muted">Select a county for source definitions</span>
         </div>
@@ -222,12 +137,12 @@ export default function EarlyVotingPage({
             aria-label="Returned-ballot party-registration map"
           >
             <div className="panel-heading">
-              <PanelTitle>Arizona</PanelTitle>
+              <h5>Arizona</h5>
               <span className="muted">Returned-ballot party registration</span>
             </div>
             <CountyMap
               geography={geo}
-              counties={counties}
+              counties={[]}
               selected={selected}
               onSelect={onSelect}
               mode="registration"
@@ -239,7 +154,7 @@ export default function EarlyVotingPage({
             aria-label="County participation table"
           >
             <div className="panel-heading">
-              <PanelTitle>Early-voting activity</PanelTitle>
+              <h5>Early-voting activity</h5>
               <span className="muted">No candidate results</span>
             </div>
             <ActivityTable
@@ -272,7 +187,7 @@ export default function EarlyVotingPage({
                 <p className="eyebrow">
                   COUNTY PARTICIPATION · FIPS {county.geoid}
                 </p>
-                <SectionTitle>{county.name} County</SectionTitle>
+                <h4>{county.name} County</h4>
               </div>
               <button
                 className="close-button"
@@ -295,19 +210,9 @@ export default function EarlyVotingPage({
                   <p className="footnote">{detailDescription(m)}</p>
                   {m.source_id && (
                     <p className="footnote">
-                      {compactDetails ? "As of:" : "Source report / last edit:"}{" "}
-                      {reportTime(m.reported_at, m.report_precision)} ·
+                      As of: {reportTime(m.reported_at, m.report_precision)} ·
                       Retrieved: {reportTime(m.retrieved_at)}
                       {m.stale ? " · Stale" : ""}
-                      {!compactDetails && (
-                        <>
-                          <br />
-                          {
-                            activity.sources.find((s) => s.id === m.source_id)
-                              ?.title
-                          }
-                        </>
-                      )}
                     </p>
                   )}
                 </div>
@@ -318,7 +223,7 @@ export default function EarlyVotingPage({
           <div className="select-prompt">
             <span aria-hidden="true">⌖</span>
             <div>
-              <PanelTitle>Explore a county’s participation</PanelTitle>
+              <h5>Explore a county’s participation</h5>
               <p>
                 Select any county on the map or in the table to see sourced
                 aggregate figures, source dates and unavailable metrics.
@@ -329,8 +234,8 @@ export default function EarlyVotingPage({
       </section>
       <section className="sources">
         <p className="eyebrow">TRANSPARENT BY DESIGN</p>
-        <SectionTitle>Sources & coverage</SectionTitle>
-        {compactDetails && (refreshError || activity.stale) && (
+        <h4>Sources & coverage</h4>
+        {(refreshError || activity.stale) && (
           <div className="notice" role="status">
             <strong>
               {refreshError
@@ -378,7 +283,7 @@ export default function EarlyVotingPage({
                 </small>
                 <strong>{s.title}</strong>
                 <span>{s.notes}</span>
-                {compactDetails && release && (
+                {release && (
                   <span>
                     Source report:{" "}
                     {reportTime(release.reported_at, release.report_precision)}

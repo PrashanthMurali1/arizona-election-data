@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import type { Election } from "../types";
 import { useResource } from "../api";
 import { Availability, ErrorState, Loading } from "../components";
-import { StatewideElectionPage } from "./ElectionPage";
+import LiveElection from "./LiveElection";
 
 const catalogTabs = [
   { id: "live", label: "Live Elections", offices: ["early-voting"] },
@@ -131,13 +131,7 @@ export default function Home() {
                         No elections available in this category yet.
                       </p>
                     ) : tab.id === "live" ? (
-                      <div className="embedded-early-voting">
-                        <StatewideElectionPage
-                          id="az-2026-early-voting"
-                          catalog={elections}
-                          embedded
-                        />
-                      </div>
+                      <LiveElection election={categoryElections[0]} />
                     ) : (
                       [
                         ...new Set(categoryElections.map((e) => e.office_id)),

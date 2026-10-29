@@ -342,12 +342,7 @@ test("embedded 2026 Early Voting shows registration colors and populated columns
   expect(errors).toEqual([]);
 });
 
-test("both old 2026 page URLs redirect and historical Attorney General entries remain", async ({ page }) => {
-  for (const office of ["governor", "attorney-general"]) {
-    await page.goto(`/elections/az-2026-${office}`);
-    await expect(page).toHaveURL(/\/elections\/az-2026-early-voting$/);
-    await expect(page.getByRole("heading", { name: "2026 Early Voting", exact: true })).toBeVisible();
-  }
+test("historical Attorney General entries remain in State Elections", async ({ page }) => {
   await page.goto("/");
   await page.getByRole("tab", { name: "State Elections" }).click();
   const office = page.locator(".office-section").filter({ hasText: "Arizona Attorney General" });
@@ -381,7 +376,7 @@ test("early-voting columns preserve zero and partial data; ties, Other and missi
     requested.breakdowns["04021"] = { Democratic: 100000, Republican: 0, Other: 0 };
     await route.fulfill({ response, json: data });
   });
-  await page.goto("/elections/az-2026-early-voting");
+  await page.goto("/");
   const table = page.getByRole("region", { name: "County participation table" });
   await expect(table.locator("thead th")).toHaveCount(3);
   await expect(table.locator("thead")).toContainText("Requested");
@@ -463,7 +458,7 @@ test("early-voting notifications refresh once, recover missed updates and clean 
     if (hold) await hold;
     await route.fulfill({ response, json: data });
   });
-  await page.goto("/elections/az-2026-early-voting");
+  await page.goto("/");
   await page.getByRole("button", { name: "Pima County. View early-voting activity." }).click();
   const detail = page.getByRole("region", { name: "Selected county details" });
   const state = page.getByRole("region", { name: "Statewide participation availability" });
@@ -477,8 +472,8 @@ test("early-voting notifications refresh once, recover missed updates and clean 
   await expect.poll(activeConnections).toBe(1);
   expect(activityRequests).toBe(1);
   await emit("revision", "initial");
-  await page.clock.fastForward(6 * 60 * 60 * 1000);
-  expect(activityRequests).toBe(1); // No recurring browser polling, even after six hours.
+  await page.clock.fastForward(60_000);
+  expect(activityRequests).toBe(1); // Recent cache needs no repeated data request.
   await table.getByRole("button", { name: "Returned", exact: false }).click();
   await expect(table.locator('th[aria-sort="ascending"]')).toContainText("Returned");
   updated = true;
@@ -531,8 +526,7 @@ test("early-voting notifications refresh once, recover missed updates and clean 
   await page.locator(".sources").getByRole("link", {name: "Read the data methodology ↗", exact: true}).click();
   await expect.poll(activeConnections).toBe(0);
   await page.getByRole("navigation", {name: "Main navigation"}).getByRole("link", {name: "Election catalog", exact: true}).click();
-  await expect.poll(() => activityRequests).toBe(6);
   await expect.poll(activeConnections).toBe(1);
   await emit("revision", revision);
-  expect(activityRequests).toBe(6);
+  await expect.poll(() => activityRequests).toBe(6);
 });
