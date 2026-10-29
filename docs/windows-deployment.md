@@ -1,3 +1,5 @@
+> Scheduling update (2026-10-29): Relay now owns deployment and refresh scheduling. The legacy deployment task and Docker cron service/container were removed. Scheduler/cron commands below describe historical cutover procedures; do not run them. Use [current deployment and recovery operations](automatic-deployment.md).
+
 # Windows deployment and migration
 
 The Windows deployment is live at **https://azelections.app**, with local viewing at **http://127.0.0.1:8080**. It keeps the existing Compose services, single-worker FastAPI backend, Caddy frontend, SQLite named volume, cron refresh worker and remotely managed Cloudflare Tunnel. Run commands from the repository root unless stated otherwise; stop on any command failure.

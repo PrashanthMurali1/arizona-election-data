@@ -21,7 +21,7 @@ import time
 from urllib.request import Request, urlopen
 from uuid import uuid4
 
-SERVICES = ('backend', 'frontend', 'scheduler', 'tunnel')
+SERVICES = ('backend', 'frontend', 'tunnel')
 PROJECT = 'az-election-explorer'
 REMOTE = 'https://github.com/PrashanthMurali1/arizona-election-data.git'
 ADMIN = {'scripts/deploy_worker.py', 'scripts/newrelic_admin.py', 'scripts/setup_newrelic_dashboard.py'}
@@ -111,12 +111,12 @@ def relevant(path, service):
         return False
     if path == '.dockerignore':
         return True
-    if service in ('backend', 'scheduler'):
+    if service == 'backend':
         return (path.startswith('backend/') and path != 'backend/requirements-dev.txt') or (
             path.startswith('scripts/') and path.endswith('.py')) or path in {
                 'production/backend.Dockerfile', 'production/requirements-monitoring.txt',
                 'production/newrelic.ini', 'production/run_backend.py', 'production/start_monitored_backend.py',
-                'production/manage_db.py', 'production/refresh_job.py', 'production/start_scheduler.py',
+                'production/manage_db.py', 'production/refresh_job.py',
                 'production/migration-compatibility.json'} or path in SHARED or (
                 path.startswith('production/') and path.endswith('.py') and path != 'production/run_caddy.py')
     if path in SHARED:
@@ -133,7 +133,7 @@ def source_fingerprints(entries, config=None):
     for service in SERVICES:
         recipe = None
         if config:
-            group = 'backend' if service == 'scheduler' else service
+            group = service
             recipe = config['services'][group].get('build', {}).get('dockerfile')
         result[service] = digest([(p, blob) for p, blob in sorted(entries.items()) if relevant(p, service) or p == recipe])
     return result
@@ -143,7 +143,7 @@ def runtime_signature(config, service):
     value = json.loads(json.dumps(config['services'][service]))
     for name in ('image', 'build', 'depends_on'):
         value.pop(name, None)
-    group = 'backend' if service == 'scheduler' else service
+    group = service
     build = dict(config['services'][group].get('build', {}))
     build.pop('context', None)
     return digest({'service': value, 'build':build,
@@ -272,7 +272,7 @@ class Worker:
     def compose(self, path, *args, **kwargs):
         return self.docker('compose', '-p', PROJECT, '--project-directory', self.root,
                            '--env-file', self.root / '.env', '-f', path,
-                           '--profile', 'public', '--profile', 'scheduled', *args, **kwargs)
+                           '--profile', 'public', *args, **kwargs)
 
     def inspect(self):
         values = json.loads(self.docker('inspect', *[f'{PROJECT}-{s}-1' for s in SERVICES], transient=True))
@@ -330,7 +330,7 @@ class Worker:
         self.phase = 'render'
         args = ['compose', '-p', PROJECT, '--project-directory', release,
                 '--env-file', self.root / '.env', '-f', release / 'compose.yaml',
-                '-f', release / 'compose.newrelic.yaml', '--profile', 'public', '--profile', 'scheduled',
+                '-f', release / 'compose.newrelic.yaml', '--profile', 'public',
                 'config', '--format', 'json']
         config = json.loads(self.docker(*args))
         private = (release / '.production').resolve()
@@ -346,7 +346,7 @@ class Worker:
                 secret['file'] = remap(secret['file'])
         if config['name'] != PROJECT or config['volumes']['state']['name'] != PROJECT + '_state':
             raise Failure('protected_storage_changed', self.phase)
-        for name in ('backend', 'scheduler', 'migrate'):
+        for name in ('backend', 'migrate'):
             mounts = config['services'][name].get('volumes', [])
             if not any(m.get('type') == 'volume' and m.get('source') == 'state' and
                        m.get('target') == '/app/backend/local' for m in mounts):
@@ -362,7 +362,9 @@ class Worker:
 
     def drift_check(self):
         live = self.inspect()
-        for name, record in self.state['manifest'].items():
+        # Historical manifests may retain the retired cron image as audit evidence.
+        for name in SERVICES:
+            record = self.state['manifest'][name]
             if live[name]['Image'] != record['image_id']:
                 raise Failure('runtime_drift', 'preflight')
             if record.get('runtime_identity') != runtime_identity(live[name]):
@@ -382,7 +384,7 @@ class Worker:
     def build(self, release, config, affected):
         self.phase = 'build'
         build_id = uuid4().hex[:10]
-        groups = set('backend' if s == 'scheduler' else s for s in affected)
+        groups = set(affected)
         for group in groups:
             tag = f'{PROJECT}-{group}:git-{self.sha}-{build_id}'
             spec = config['services'][group].get('build')
@@ -398,7 +400,7 @@ class Worker:
                 command += ['--build-arg', f'{key}={value}']
             self.docker(*command, release, timeout=1200)
             for service in affected:
-                if ('backend' if service == 'scheduler' else service) == group:
+                if service == group:
                     config['services'][service]['image'] = tag
         self.preserved_images(config, affected)
 
@@ -483,9 +485,9 @@ class Worker:
             if not live[service]['State']['Running'] or live[service]['State'].get('Health', {}).get('Status') != 'healthy':
                 raise Deferred('production_unhealthy', self.phase)
         # Backend image retains source files; compare normalized bytes, not checkout HEAD.
-        for service in ('backend', 'scheduler', 'tunnel', 'frontend'):
+        for service in SERVICES:
             paths = [p for p in entries if relevant(p, service) and (
-                (service in ('backend', 'scheduler') and p.startswith(('backend/', 'scripts/', 'production/')))
+                (service == 'backend' and p.startswith(('backend/', 'scripts/', 'production/')))
                 or (service in ('tunnel', 'frontend') and p in SHARED | {'production/run_caddy.py'})
                 or (service == 'frontend' and p == 'production/Caddyfile'))]
             if service == 'tunnel':
@@ -504,7 +506,7 @@ class Worker:
         fingerprints = source_fingerprints(entries, config)
         manifest = {}
         for service in SERVICES:
-            group = 'backend' if service == 'scheduler' else service
+            group = service
             image = live[service]['Config']['Image']
             if self.image_id(image) != live[service]['Image']:
                 raise Failure('image_reference_drift', self.phase)
@@ -536,8 +538,8 @@ class Worker:
 
     def candidate_checks(self, release, config, changed):
         self.phase = 'test'
-        backend_changed = bool({'backend', 'scheduler'} & set(changed))
-        test_image = config['services']['scheduler']['image'] if 'scheduler' in changed and 'backend' not in changed else config['services']['backend']['image']
+        backend_changed = 'backend' in changed
+        test_image = config['services']['backend']['image']
         check_root = within(self.home / 'checks' / (self.sha + '-' + uuid4().hex[:8]), self.home / 'checks')
         check_root.mkdir(parents=True)
         containers, network = [], None
@@ -660,6 +662,8 @@ class Worker:
             for attempt in range(20):
                 ready = True
                 for service in affected:
+                    if self.cfg.get('external_scheduler') and service == 'scheduler':
+                        continue
                     env = config['services'][service].get('environment', {})
                     logs = self.docker('logs', '--tail', '80', f'{PROJECT}-{service}-1')
                     if str(env.get('NEW_RELIC_LOGS_ENABLED', '')).lower() == 'true' and 'log_export_connected' not in logs:
@@ -673,6 +677,14 @@ class Worker:
                 time.sleep(1)
         return live
 
+    def bring_up(self, path, services, phase):
+        # Old rollback journals may mention cron; never recreate or restart it.
+        if set(services) - set(SERVICES) - {'scheduler'}:
+            raise Failure('unsupported_service', phase)
+        services = [service for service in services if service in SERVICES]
+        if services:
+            self.compose(path, 'up', '-d', '--no-deps', '--wait', '--wait-timeout', '180', *services, phase=phase)
+
     def rollback(self, journal):
         self.phase = 'rollback'
         if not journal['rollback_allowed']:
@@ -680,8 +692,7 @@ class Worker:
             self.state['blocked'] = True
             self.save()
             raise Failure('migration_recovery_required', self.phase)
-        self.compose(journal['previous']['config'], 'up', '-d', '--no-deps', '--wait', '--wait-timeout', '180',
-                     *journal['restore_services'])
+        self.bring_up(journal['previous']['config'], journal['restore_services'], 'rollback')
         previous = journal['previous']
         live = self.verify_live(read_json(previous['config']), [], previous['assets'])
         for service in SERVICES:
@@ -697,7 +708,7 @@ class Worker:
     def activate(self, config_path, config, changed, sources, schema_change):
         started = getattr(self, 'started', time.monotonic())
         previous = {k: self.state[k] for k in ('manifest', 'config', 'assets')}
-        restore = sorted(set(changed) | ({'scheduler'} if 'backend' in changed else set()))
+        restore = sorted(set(changed))
         journal = dict(commit=self.sha, previous=previous, target_config=str(config_path),
                        affected=changed, restore_services=restore, rollback_allowed=True, schema_change=schema_change)
         target_manifest = dict(previous['manifest'])
@@ -710,8 +721,6 @@ class Worker:
         self.save()  # Recovery intent is durable before any production mutation.
         self.event(logging.INFO, 'deployment_started', services=changed)
         try:
-            if {'backend', 'scheduler'} & set(changed):
-                self.compose(previous['config'], 'stop', 'scheduler', phase='backup')
             if 'backend' in changed:
                 # Candidate image is explicit; initialize/migrate services are never auto-started.
                 self.compose(previous['config'], 'stop', 'backend', phase='migrate')
@@ -725,7 +734,7 @@ class Worker:
                                             'production/migration-compatibility.json', {})
                     journal['rollback_allowed'] = declaration.get('backward_compatible_with') == previous['manifest']['backend']['source_sha']
                     self.save()
-            self.compose(config_path, 'up', '-d', '--no-deps', '--wait', '--wait-timeout', '180', *restore, phase='activate')
+            self.bring_up(config_path, restore, 'activate')
             assets = self.image_assets(config['services']['frontend']['image'])
             live = self.verify_live(config, restore, assets)
             manifest = dict(previous['manifest'])

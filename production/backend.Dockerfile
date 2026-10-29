@@ -3,7 +3,7 @@ ARG APP_UID=501
 ARG APP_GID=20
 ENV PYTHONUNBUFFERED=1 PYTHONDONTWRITEBYTECODE=1
 WORKDIR /app
-RUN apt-get update && apt-get install -y --no-install-recommends cron tzdata ca-certificates \
+RUN apt-get update && apt-get install -y --no-install-recommends tzdata ca-certificates \
     && rm -rf /var/lib/apt/lists/* \
     && (getent group "${APP_GID}" || groupadd --gid "${APP_GID}" app) \
     && useradd --uid "${APP_UID}" --gid "${APP_GID}" --create-home app

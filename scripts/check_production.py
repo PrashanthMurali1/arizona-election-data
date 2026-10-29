@@ -1,7 +1,7 @@
 """Exercise private Compose imports/SSE and persistence; no vote reconciliation.
 
 Runs live civicAPI participation imports and a deliberate failed refresh, followed
-by recovery. Requires the prepared production stack, with its scheduler stopped.
+by recovery. Requires the prepared production stack, with Relay production scheduling paused and drained.
 """
 
 import hashlib

@@ -1,3 +1,5 @@
+> Scheduling update (2026-10-29): Relay now owns deployment and refresh scheduling. The legacy deployment task and Docker cron service/container were removed. Scheduler/cron commands below describe historical cutover procedures; do not run them. Use [current deployment and recovery operations](automatic-deployment.md).
+
 # Local production hosting on the M1 Mac
 
 > Historical Mac execution report. For the Windows migration, current verification status, data export/import, PowerShell operations and approved cutover procedure, use [Windows deployment](windows-deployment.md). Statements below about active services and login startup describe the Mac deployment, not the Windows computer.

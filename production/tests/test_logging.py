@@ -171,18 +171,12 @@ def test_refresh_success_failure_skip_preserve_state_and_sanitize(tmp_path, caps
     assert all(len(r['correlation_id']) == 32 for r in events)
 
 
-def test_scheduler_cron_uses_stdout_without_new_file(monkeypatch, tmp_path):
-    from production import start_scheduler
-    (tmp_path / 'cron.d').mkdir()
-    original = Path
-    def remap(path):
-        path = str(path)
-        return tmp_path / path.removeprefix('/etc/') if path.startswith('/etc/') else original(path)
-    monkeypatch.setattr(start_scheduler, 'Path', remap)
-    start_scheduler.configure()
-    cron = (tmp_path / 'cron.d/early-voting').read_text()
-    assert '* * * root runuser -u app --' in cron
-    assert '> /proc/1/fd/1 2> /proc/1/fd/2' in cron
+def test_retired_cron_is_not_packaged_or_configured():
+    root = Path(__file__).resolve().parents[2]
+    assert not (root / 'production/start_scheduler.py').exists()
+    assert '\n  scheduler:' not in (root / 'compose.yaml').read_text()
+    assert '\n  scheduler:' not in (root / 'compose.newrelic.yaml').read_text()
+    assert ' cron ' not in (root / 'production/backend.Dockerfile').read_text()
 
 
 def test_newrelic_log_instrumentation_and_forwarding_disabled():

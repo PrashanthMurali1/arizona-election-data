@@ -1,3 +1,5 @@
+> Scheduling update (2026-10-29): Relay now owns deployment and refresh scheduling. The legacy deployment task and Docker cron service/container were removed. Scheduler/cron commands below describe historical cutover procedures; do not run them. Use [current deployment and recovery operations](automatic-deployment.md).
+
 # 2026 early-voting participation reports
 
 Production cutover: the shared page is now served by Docker Compose on loopback port 8080, using a separate persistent copy of the populated database. The container cron worker replaces the disabled LaunchAgent. Use `docker compose exec --user app scheduler python production/refresh_job.py` for a production refresh. Earlier host commands and activation history below describe the retained local development dataset. See [production hosting](production-hosting.md) for current scheduler status, data paths and backups.
