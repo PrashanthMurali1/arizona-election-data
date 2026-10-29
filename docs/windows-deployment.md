@@ -280,7 +280,7 @@ docker compose --profile public up -d --wait tunnel
 docker compose --profile public ps
 docker compose --profile public logs --tail 50 tunnel
 curl.exe --fail https://azelections.app/api/health
-curl.exe -I 'http://azelections.app/elections/az-2026-early-voting?cutover=check'
+curl.exe -I 'http://azelections.app/?cutover=check'
 curl.exe --fail -N --max-time 20 https://azelections.app/api/elections/az-2026-early-voting/updates
 docker compose --profile scheduled up -d --wait scheduler
 docker compose exec scheduler cat /etc/cron.d/early-voting

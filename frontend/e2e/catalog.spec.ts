@@ -1,5 +1,5 @@
 import { test, expect } from "@playwright/test";
-import type { Activity, Election } from "../src/types";
+import type { Activity, Detail, Election, Geography } from "../src/types";
 
 // Catalog fixtures plus retained dashboard responses; no imports or source refreshes.
 const offices: Record<string, string> = {
@@ -53,9 +53,8 @@ const categories = [
 ];
 
 let dashboard: {
-  detail: any;
-  counties: any;
-  geography: any;
+  detail: Detail;
+  geography: Geography;
   activity: Activity;
 };
 
@@ -66,9 +65,9 @@ test.beforeAll(async ({ request }) => {
     return response.json();
   };
   const detail = await load("/api/elections/az-2026-early-voting");
+  elections[0].boundary_id = detail.election.boundary_id;
   dashboard = {
     detail,
-    counties: await load("/api/elections/az-2026-early-voting/counties"),
     geography: await load(`/api/geography/${detail.election.boundary_id}`),
     activity: await load("/api/elections/az-2026-early-voting/activity"),
   };
@@ -100,12 +99,6 @@ test.beforeEach(async ({ page }) => {
       catalogStreams: streams,
     });
   });
-  await page.route("**/api/elections/az-2026-early-voting", (route) =>
-    route.fulfill({ json: dashboard.detail }),
-  );
-  await page.route("**/api/elections/az-2026-early-voting/counties", (route) =>
-    route.fulfill({ json: dashboard.counties }),
-  );
   await page.route("**/api/elections/az-2026-early-voting/activity", (route) =>
     route.fulfill({ json: dashboard.activity }),
   );
@@ -386,6 +379,8 @@ test("embedded live updates coalesce, preserve county selection, abort on exit a
   release();
 
   await page.getByRole("tab", { name: "Live Elections" }).click();
+  await expect.poll(() => streamCount(page)).toBe(1);
+  await emitRevision(page, revision);
   await expect(state).toContainText((original + 20).toLocaleString("en-US"));
   await expect.poll(() => streamCount(page)).toBe(1);
   expect(requests).toBe(4);
@@ -397,30 +392,34 @@ test("embedded live updates coalesce, preserve county selection, abort on exit a
     await page.getByRole("tab", { name: "Live Elections" }).click();
     await expect.poll(() => streamCount(page)).toBe(1);
   }
-  expect(requests).toBe(6);
+  expect(requests).toBe(4);
 });
 
-test("standalone Early Voting retains its heading, breadcrumbs, year picker and county interaction", async ({
+test("removed Early Voting and legacy office browser URLs show the normal not-found page", async ({
   page,
 }) => {
-  await page.goto("/elections/az-2026-early-voting");
-  await expect(
-    page.getByRole("heading", {
-      name: "2026 Early Voting",
-      exact: true,
-      level: 1,
-    }),
-  ).toBeVisible();
-  await expect(page.locator(".breadcrumbs")).toBeVisible();
-  await expect(page.getByLabel("Election year")).toBeVisible();
-  await expect(page.getByRole("tablist")).toHaveCount(0);
-  await expect.poll(() => streamCount(page)).toBe(1);
-  await page
-    .getByRole("button", { name: "Pima County. View early-voting activity." })
-    .click();
-  await expect(
-    page.getByRole("heading", { name: "Pima County", exact: true }),
-  ).toBeVisible();
+  for (const id of [
+    "az-2026-early-voting",
+    "az-2026-governor",
+    "az-2026-attorney-general",
+  ]) {
+    let requests = 0;
+    page.on("request", (request) => {
+      if (request.url().includes("/api/")) requests++;
+    });
+    await page.goto(`/elections/${id}`);
+    await expect(
+      page.getByRole("heading", { name: "Page not found", exact: true }),
+    ).toBeVisible();
+    await expect(page).toHaveURL(new RegExp(`/elections/${id}$`));
+    await expect(
+      page.getByRole("link", { name: "Back to the catalog" }),
+    ).toBeVisible();
+    await expect(
+      page.getByRole("region", { name: "County participation table" }),
+    ).toHaveCount(0);
+    expect(requests).toBe(0);
+  }
 });
 
 test("embedded loading and API errors stay inside Live Elections and other tabs remain usable", async ({
@@ -430,13 +429,16 @@ test("embedded loading and API errors stay inside Live Elections and other tabs 
   const hold = new Promise<void>((resolve) => {
     release = resolve;
   });
-  await page.route("**/api/elections/az-2026-early-voting", async (route) => {
-    await hold;
-    await route.fulfill({
-      status: 503,
-      json: { error: "Synthetic preview failure" },
-    });
-  });
+  await page.route(
+    "**/api/elections/az-2026-early-voting/activity",
+    async (route) => {
+      await hold;
+      await route.fulfill({
+        status: 503,
+        json: { error: "Synthetic preview failure" },
+      });
+    },
+  );
   await page.goto("/");
   const panel = page.getByRole("tabpanel", { name: "Live Elections" });
   await expect(panel).toContainText("Loading");
@@ -445,7 +447,226 @@ test("embedded loading and API errors stay inside Live Elections and other tabs 
   ).toBeVisible();
   release();
   await expect(panel.getByRole("alert")).toContainText("503");
-  await expect.poll(() => streamCount(page)).toBe(0);
+  await expect.poll(() => streamCount(page)).toBe(1);
   await page.getByRole("tab", { name: "Federal Elections" }).click();
   await expect(page.locator(".election-card")).toHaveCount(4);
+  await expect.poll(() => streamCount(page)).toBe(0);
+});
+
+test("fresh activity and geography are reused across tab visits; API revalidates after five minutes", async ({
+  page,
+}) => {
+  await page.clock.install();
+  let requests = 0;
+  let geography = 0;
+  await page.route(
+    "**/api/elections/az-2026-early-voting/activity",
+    (route) => {
+      requests++;
+      return route.fulfill({ json: dashboard.activity });
+    },
+  );
+  await page.route(
+    `**/api/geography/${dashboard.detail.election.boundary_id}`,
+    (route) => {
+      geography++;
+      return route.fulfill({ json: dashboard.geography });
+    },
+  );
+  await page.goto("/");
+  await expect(
+    page.getByRole("heading", { name: "2026 Early Voting", exact: true }),
+  ).toBeVisible();
+  await emitRevision(page, dashboard.activity.revision!);
+  expect(requests).toBe(1);
+  expect(geography).toBe(1);
+  await page.getByRole("tab", { name: "Federal Elections" }).click();
+  await expect.poll(() => streamCount(page)).toBe(0);
+  await page.getByRole("tab", { name: "Live Elections" }).click();
+  await expect(
+    page.getByRole("region", { name: "County participation table" }),
+  ).toBeVisible();
+  await expect.poll(() => streamCount(page)).toBe(1);
+  await emitRevision(page, dashboard.activity.revision!);
+  expect(requests).toBe(1);
+  expect(geography).toBe(1);
+  await page.clock.fastForward(5 * 60_000 + 1);
+  await expect.poll(() => requests).toBe(2);
+  expect(geography).toBe(1);
+});
+
+test("inactive activity expires after thirty minutes and geography expires after a day", async ({
+  page,
+}) => {
+  await page.clock.install();
+  let requests = 0;
+  let geography = 0;
+  await page.route(
+    "**/api/elections/az-2026-early-voting/activity",
+    (route) => {
+      requests++;
+      return route.fulfill({ json: dashboard.activity });
+    },
+  );
+  await page.route(
+    `**/api/geography/${dashboard.detail.election.boundary_id}`,
+    (route) => {
+      geography++;
+      return route.fulfill({ json: dashboard.geography });
+    },
+  );
+  await page.goto("/");
+  await expect(
+    page.getByRole("heading", { name: "2026 Early Voting", exact: true }),
+  ).toBeVisible();
+  await page.getByRole("tab", { name: "State Elections" }).click();
+  await page.clock.fastForward(31 * 60_000);
+  await page.getByRole("tab", { name: "Live Elections" }).click();
+  await expect(
+    page.getByRole("heading", { name: "2026 Early Voting", exact: true }),
+  ).toBeVisible();
+  expect(requests).toBe(2);
+  expect(geography).toBe(1);
+  await page.getByRole("tab", { name: "State Elections" }).click();
+  await page.clock.fastForward(24 * 60 * 60_000);
+  await page.getByRole("tab", { name: "Live Elections" }).click();
+  await expect(
+    page.getByRole("heading", { name: "2026 Early Voting", exact: true }),
+  ).toBeVisible();
+  expect(requests).toBe(3);
+  expect(geography).toBe(2);
+});
+
+test("stale source flags update with no revision change or additional API request", async ({
+  page,
+}) => {
+  const now = new Date("2026-10-29T08:00:00Z");
+  await page.clock.install({ time: now });
+  const activity = structuredClone(dashboard.activity);
+  const retrieved = new Date(
+    now.getTime() - 12 * 60 * 60_000 + 30_000,
+  ).toISOString();
+  activity.stale = false;
+  activity.failures = [];
+  for (const release of activity.releases)
+    Object.assign(release, {
+      stale: false,
+      error: null,
+      retrieved_at: retrieved,
+    });
+  for (const row of [activity.statewide, ...activity.counties]) {
+    for (const metric of row.metrics)
+      Object.assign(metric, { stale: false, retrieved_at: retrieved });
+  }
+  let requests = 0;
+  await page.route(
+    "**/api/elections/az-2026-early-voting/activity",
+    (route) => {
+      requests++;
+      return route.fulfill({ json: activity });
+    },
+  );
+  await page.goto("/");
+  await expect(
+    page.getByRole("heading", { name: "2026 Early Voting", exact: true }),
+  ).toBeVisible();
+  await emitRevision(page, activity.revision!);
+  await expect(page.locator(".sources")).not.toContainText(
+    "Early-voting data may be outdated",
+  );
+  await page
+    .getByRole("button", { name: "Pima County. View early-voting activity." })
+    .click();
+  await page.clock.fastForward(60_000);
+  await expect(page.locator(".sources")).toContainText(
+    "Early-voting data may be outdated",
+  );
+  await expect(
+    page.getByRole("region", { name: "Selected county details" }),
+  ).toContainText("Stale");
+  expect(requests).toBe(1);
+});
+
+test("hidden and offline reconnects recover missed revisions without refetching geography", async ({
+  page,
+  context,
+}) => {
+  let revision = "initial";
+  let requests = 0;
+  await page.route(
+    "**/api/elections/az-2026-early-voting/activity",
+    (route) => {
+      requests++;
+      return route.fulfill({ json: { ...dashboard.activity, revision } });
+    },
+  );
+  await page.goto("/");
+  await expect.poll(() => streamCount(page)).toBe(1);
+  await emitRevision(page, revision);
+  await page.evaluate(() => {
+    Object.defineProperty(document, "visibilityState", {
+      configurable: true,
+      get: () => "hidden",
+    });
+    document.dispatchEvent(new Event("visibilitychange"));
+  });
+  await expect.poll(() => streamCount(page)).toBe(0);
+  revision = "missed-while-hidden";
+  await page.evaluate(() => {
+    Object.defineProperty(document, "visibilityState", {
+      configurable: true,
+      get: () => "visible",
+    });
+    document.dispatchEvent(new Event("visibilitychange"));
+  });
+  await expect.poll(() => streamCount(page)).toBe(1);
+  await emitRevision(page, revision);
+  await expect.poll(() => requests).toBe(2);
+  await expect(
+    page.getByRole("status").filter({ hasText: "Checking for updates" }),
+  ).toHaveCount(0);
+  await context.setOffline(true);
+  await page.evaluate(() =>
+    (window as InstrumentedWindow).catalogStreams
+      .filter((s) => !s.closed)
+      .forEach((s) => s.emit("error")),
+  );
+  await expect(page.locator(".sources")).toContainText(
+    "Update connection interrupted",
+  );
+  revision = "missed-while-offline";
+  await context.setOffline(false);
+  await expect.poll(() => streamCount(page)).toBe(1);
+  await emitRevision(page, revision);
+  await expect.poll(() => requests).toBe(3);
+  await expect(page.locator(".sources")).not.toContainText(
+    "Update connection interrupted",
+  );
+});
+
+test("cached data revalidates if the initial SSE revision is unavailable", async ({
+  page,
+}) => {
+  await page.clock.install();
+  let requests = 0;
+  await page.route(
+    "**/api/elections/az-2026-early-voting/activity",
+    (route) => {
+      requests++;
+      return route.fulfill({ json: dashboard.activity });
+    },
+  );
+  await page.goto("/");
+  await expect(
+    page.getByRole("heading", { name: "2026 Early Voting", exact: true }),
+  ).toBeVisible();
+  await page.getByRole("tab", { name: "Federal Elections" }).click();
+  await page.getByRole("tab", { name: "Live Elections" }).click();
+  await expect.poll(() => streamCount(page)).toBe(1);
+  expect(requests).toBe(1);
+  await page.clock.fastForward(5_000);
+  await expect.poll(() => requests).toBe(2);
+  await expect(
+    page.getByRole("status").filter({ hasText: "Checking for updates" }),
+  ).toHaveCount(0);
 });

@@ -8,7 +8,7 @@ test("production imports reach an open browser and reconnect recovers missed imp
   const refresh = () => execFileSync("docker", ["compose", "run", "--rm", "--no-deps", "backend", "python", "production/refresh_job.py"],
     { cwd: resolve(".."), timeout: 90_000, stdio: "pipe" });
   const activityPath = "/api/elections/az-2026-early-voting/activity";
-  await page.goto("/elections/az-2026-early-voting");
+  await page.goto("/");
   await page.getByRole("button", {name: "Pima County. View early-voting activity."}).click();
   const details = page.getByRole("region", {name: "Selected county details"});
   const table = page.getByRole("region", {name: "County participation table"});

@@ -1,0 +1,18 @@
+# Early Voting browser cache
+
+2026 Early Voting appears only in the homepage’s default **Live Elections** tab. The retired `/elections/az-2026-early-voting`, `/elections/az-2026-governor` and `/elections/az-2026-attorney-general` browser URLs show the application's normal not-found page without redirects. The `/api/elections/az-2026-early-voting/*` endpoints and retained office API aliases remain intact.
+
+The browser keeps at most one activity response and one boundary in module memory. There is no localStorage, IndexedDB, service worker, disk persistence or new HTTP caching. Document reloads clear the cache; tab changes and client-side navigation can reuse it. No persistent cache migration or storage permission is required.
+
+- Activity is fresh for five minutes after a successful API response. It can display immediately on re-entry while the SSE connection verifies the current revision. A changed revision refreshes it immediately; the five-minute bound forces an API revalidation even when the revision is unchanged. Activity older than 30 minutes is discarded on re-entry. While an active dashboard is showing data, refresh failures retain that view with an error notice; failed checks never advance the saved timestamp.
+- Geography is keyed by boundary ID and expires after 24 hours. Activity revalidation does not extend its lifetime. A different boundary replaces the single geography entry.
+- The activity endpoint supplies all changing statewide and county metrics, party-registration breakdowns, source dates, failures and revision in one response. The registration map uses geography and those breakdowns, not candidate results. The dashboard no longer combines separate detail/counties/activity responses that might straddle a committed refresh.
+- Source report dates and last successful retrieval timestamps remain unchanged. A local 30-second timer recomputes the existing 12-hour stale threshold from original retrieval times, even without a new revision. It performs no network request and never changes figures.
+
+One SSE connection is active while Live Elections is visible. Initial/reconnect notifications compare the server's revision with the saved response. Hidden documents close their connection; visibility, focus and online events reconnect and recover missed revisions. If a saved view cannot receive an initial revision, a five-second fallback checks the API. API failures retain the previous view, show an error and permit retry on reconnect or subsequent notifications; the five-minute timer also retries. Duplicate revisions and notifications during a fetch are coalesced, with at most one fetch group in flight. County selection and sorting survive background updates.
+
+Leaving Live Elections unmounts its controller, closes SSE, aborts requests and removes timers/listeners. Selection and sorting are view state; they reset after leaving the dashboard, while recent data remains reusable.
+
+Production response headers are unchanged: Caddy serves API responses with `Cache-Control: no-store, no-transform`; SSE also has `no-cache, no-transform` and `X-Accel-Buffering: no`. The existing Cloudflare API cache bypass remains appropriate. Application memory reuse does not depend on browser HTTP or Cloudflare caching, and SSE is never cached or buffered.
+
+Checks use the isolated read-only Mac preview and synthetic browser responses. They cover cache reuse and independent expiry, same-revision API revalidation, revision changes, hidden/offline catch-up, source staleness, refresh failures, pending-request cancellation, single-connection cleanup, removed URLs, and desktop/mobile interaction. The mutating Compose production refresh test is separate and must not run against this preview.

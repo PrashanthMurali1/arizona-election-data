@@ -51,7 +51,7 @@ try {
                     $null = Invoke-RestMethod "$base/api/elections/$($election.id)" -TimeoutSec 30
                 }
             }
-            foreach ($path in @('/', '/elections/az-2026-early-voting')) {
+            foreach ($path in @('/', '/elections/az-2024-us-senate')) {
                 $response = Invoke-WebRequest ($base + $path) -UseBasicParsing -TimeoutSec 15
                 if ($response.StatusCode -ne 200 -or $response.Content -notmatch '<!doctype html>') {
                     throw "Frontend route check failed: $path"
