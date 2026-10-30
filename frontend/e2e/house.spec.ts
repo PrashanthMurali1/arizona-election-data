@@ -1,3 +1,4 @@
+import { selectOffice, expectCandidateCount } from "./helpers";
 import { test, expect } from "@playwright/test";
 
 test("House archive uses each district's candidates and historical geometry", async ({
@@ -7,7 +8,7 @@ test("House archive uses each district's candidates and historical geometry", as
   page.on("pageerror", (e) => errors.push(e.message));
   await page.goto("/");
   await page.getByRole("tab", { name: "Federal Elections" }).click();
-  await page.getByRole("combobox", { name: "Federal office" }).selectOption("us-house");
+  await selectOffice(page, "Federal office", "us-house");
   const office = page
     .locator(".office-section")
     .filter({ hasText: "Arizona U.S. House" });
@@ -38,10 +39,8 @@ test("House archive uses each district's candidates and historical geometry", as
     await expect(
       details.getByRole("heading", { name: "District 1", exact: true }),
     ).toBeVisible();
-    await expect(page.locator(".statewide .candidate-row")).toHaveCount(
-      candidates,
-    );
-    await expect(page.locator(".contest-total strong")).toHaveText(total);
+    await expectCandidateCount(page, candidates);
+    await expect(page.locator(".summary-stats dd").first()).toHaveText(total);
     await expect(page.locator(".statewide")).not.toContainText(
       "Statewide results",
     );
@@ -59,7 +58,7 @@ test("House archive uses each district's candidates and historical geometry", as
   await expect(
     details.getByRole("heading", { name: "District 3", exact: true }),
   ).toBeVisible();
-  await expect(page.locator(".statewide .candidate-row")).toHaveCount(4);
+  await expectCandidateCount(page, 4);
   await expect(page.locator(".statewide")).toContainText("Yassamin Ansari");
   await expect(page.locator(".statewide")).not.toContainText(
     "David Schweikert",
@@ -73,7 +72,7 @@ test("House archive uses each district's candidates and historical geometry", as
     details.getByRole("heading", { name: "District 9", exact: true }),
   ).toBeVisible();
   await expect(page.locator(".statewide")).toContainText("249,583 votes");
-  await expect(page.locator(".contest-total strong")).toHaveText("382,223");
+  await expect(page.locator(".summary-stats dd").first()).toHaveText("382,223");
   await table.getByRole("button", { name: "Contest votes" }).click();
   await expect(table.locator("tbody tr").first()).toContainText("District 3");
   await table.getByRole("button", { name: "Contest votes" }).click();
@@ -144,10 +143,14 @@ test("special elections display civicAPI reports and distinguish not contested d
         .getByRole("region", { name: "District results table" })
         .locator("tbody tr"),
     ).toHaveCount(1);
-    await expect(page.locator(".statewide .candidate-row")).toHaveCount(count);
-    await expect(page.locator(".contest-total strong")).not.toHaveText("N/A");
+    await expectCandidateCount(page, count);
+    await expect(page.locator(".summary-stats dd").first()).not.toHaveText(
+      "N/A",
+    );
     await expect(page.locator(".sources")).toContainText("civicAPI");
-    await expect(page.locator(".sources")).toContainText("not official canvass");
+    await expect(page.locator(".sources")).toContainText(
+      "not official canvass",
+    );
     const details = page.getByRole("region", {
       name: "Selected district details",
     });

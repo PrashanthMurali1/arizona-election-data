@@ -1,3 +1,4 @@
+import { selectOffice } from "./helpers";
 import { test, expect } from "@playwright/test";
 import type { Activity, Detail, Election, Geography } from "../src/types";
 
@@ -39,10 +40,7 @@ const categories = [
   { name: "Live Elections", ids: [] },
   {
     name: "Federal Elections",
-    ids: [
-      "az-2024-us-senate",
-      "az-2018-us-senate",
-    ],
+    ids: ["az-2024-us-senate", "az-2018-us-senate"],
   },
   {
     name: "State Elections",
@@ -167,52 +165,102 @@ for (const width of [1440, 390, 320]) {
         category.ids.length,
       );
       if (category.name === "Federal Elections") {
-        const picker = panel.getByRole("combobox", { name: "Federal office" });
+        const picker = panel.getByLabel("Federal office", { exact: true });
         await expect(picker).toHaveValue("us-senate");
-        await expect(picker.locator("option")).toHaveText(["U.S. Senate", "U.S. House"]);
-        const box = await picker.boundingBox();
+        await expect(picker.locator("option")).toHaveText([
+          "U.S. Senate",
+          "U.S. House",
+        ]);
+        const box = await (
+          (await picker.isVisible())
+            ? picker
+            : panel
+                .getByRole("navigation", { name: "Office directory" })
+                .getByRole("button")
+                .first()
+        ).boundingBox();
         expect(box!.height).toBeGreaterThanOrEqual(44);
         expect(box!.x + box!.width).toBeLessThanOrEqual(width);
-        await picker.selectOption("us-house");
+        await selectOffice(page, "Federal office", "us-house");
         await expect(panel.locator(".election-card")).toHaveCount(2);
-        expect(await panel.locator(".election-card").evaluateAll((cards) =>
-          cards.map((card) => card.getAttribute("href")),
-        )).toEqual(["/elections/az-2024-us-house", "/elections/az-2022-us-house"]);
+        expect(
+          await panel
+            .locator(".election-card")
+            .evaluateAll((cards) =>
+              cards.map((card) => card.getAttribute("href")),
+            ),
+        ).toEqual([
+          "/elections/az-2024-us-house",
+          "/elections/az-2022-us-house",
+        ]);
         await panel.scrollIntoViewIfNeeded();
-        await page.screenshot({ path: `test-results/catalog-${width}-house.png`, fullPage: true });
+        await page.screenshot({
+          path: `test-results/catalog-${width}-house.png`,
+          fullPage: true,
+        });
         await tabs.getByRole("tab", { name: "State Elections" }).click();
         await tab.click();
         await expect(picker).toHaveValue("us-house");
         await tabs.getByRole("tab", { name: "Live Elections" }).click();
         await tab.click();
         await expect(picker).toHaveValue("us-house");
-        await picker.focus();
-        await page.keyboard.type("U.S. Senate");
-        await page.keyboard.press("Enter");
+        if (await picker.isVisible()) {
+          await picker.focus();
+          await page.keyboard.type("U.S. Senate");
+          await page.keyboard.press("Enter");
+        } else {
+          await panel
+            .getByRole("button", { name: "U.S. Senate", exact: true })
+            .focus();
+          await page.keyboard.press("Enter");
+        }
         await expect(picker).toHaveValue("us-senate");
         await expect(panel.locator(".election-card")).toHaveCount(2);
       }
       if (category.name === "State Elections") {
-        const picker = panel.getByRole("combobox", { name: "State office" });
+        const picker = panel.getByLabel("State office", { exact: true });
         await expect(picker).toHaveValue("governor");
-        await expect(picker.locator("option")).toHaveText(["Governor", "Attorney General"]);
-        const box = await picker.boundingBox();
+        await expect(picker.locator("option")).toHaveText([
+          "Governor",
+          "Attorney General",
+        ]);
+        const box = await (
+          (await picker.isVisible())
+            ? picker
+            : panel
+                .getByRole("navigation", { name: "Office directory" })
+                .getByRole("button")
+                .first()
+        ).boundingBox();
         expect(box!.height).toBeGreaterThanOrEqual(44);
         expect(box!.x + box!.width).toBeLessThanOrEqual(width);
-        await picker.selectOption("attorney-general");
+        await selectOffice(page, "State office", "attorney-general");
         await expect(panel.locator(".election-card")).toHaveCount(1);
-        await expect(panel.locator(".election-card")).toHaveAttribute("href", "/elections/az-2022-attorney-general");
+        await expect(panel.locator(".election-card")).toHaveAttribute(
+          "href",
+          "/elections/az-2022-attorney-general",
+        );
         await panel.scrollIntoViewIfNeeded();
-        await page.screenshot({ path: `test-results/catalog-${width}-attorney-general.png`, fullPage: true });
+        await page.screenshot({
+          path: `test-results/catalog-${width}-attorney-general.png`,
+          fullPage: true,
+        });
         await tabs.getByRole("tab", { name: "Federal Elections" }).click();
         await tab.click();
         await expect(picker).toHaveValue("attorney-general");
         await tabs.getByRole("tab", { name: "Live Elections" }).click();
         await tab.click();
         await expect(picker).toHaveValue("attorney-general");
-        await picker.focus();
-        await page.keyboard.type("Governor");
-        await page.keyboard.press("Enter");
+        if (await picker.isVisible()) {
+          await picker.focus();
+          await page.keyboard.type("Governor");
+          await page.keyboard.press("Enter");
+        } else {
+          await panel
+            .getByRole("button", { name: "Governor", exact: true })
+            .focus();
+          await page.keyboard.press("Enter");
+        }
         await expect(picker).toHaveValue("governor");
         await expect(panel.locator(".election-card")).toHaveCount(2);
       }
@@ -231,8 +279,8 @@ for (const width of [1440, 390, 320]) {
         await expect(
           panel.getByRole("heading", { name: "Pima County", exact: true }),
         ).toBeVisible();
-        await expect(panel.locator(".source-attribution")).toHaveText(
-          "Early voting participation report from civicAPI. Counts come from civicAPI, which collects them from state election offices.",
+        await expect(panel.locator(".statewide-foot")).toContainText(
+          dashboard.activity.statewide_policy,
         );
         await expect(
           panel.locator('.sources a[href="/methodology"]'),
@@ -300,7 +348,17 @@ test("tabs support roving focus, arrow wraparound, Home/End and panel focus", as
     page.getByRole("tabpanel", { name: "State Elections" }),
   ).toBeFocused();
   await page.keyboard.press("Tab");
-  await expect(page.getByRole("combobox", { name: "State office" })).toBeFocused();
+  await expect(
+    page
+      .getByRole("navigation", { name: "Office directory" })
+      .getByRole("button", { name: "Governor", exact: true }),
+  ).toBeFocused();
+  await page.keyboard.press("Tab");
+  await expect(
+    page
+      .getByRole("navigation", { name: "Office directory" })
+      .getByRole("button", { name: "Attorney General", exact: true }),
+  ).toBeFocused();
   await page.keyboard.press("Tab");
   await expect(
     page.locator('a[href="/elections/az-2022-governor"]'),
@@ -385,7 +443,12 @@ test("embedded live updates coalesce, preserve county selection, abort on exit a
   await page
     .getByRole("button", { name: "Pima County. View early-voting activity." })
     .click();
-  await table.getByRole("button", { name: "Total Early Votes (Returned Ballots)", exact: false }).click();
+  await table
+    .getByRole("button", {
+      name: "Total Early Votes (Returned Ballots)",
+      exact: false,
+    })
+    .click();
 
   revision = "committed-1";
   delta = 10;
@@ -624,14 +687,14 @@ test("stale source flags update with no revision change or additional API reques
     page.getByRole("heading", { name: "2026 Early Voting", exact: true }),
   ).toBeVisible();
   await emitRevision(page, activity.revision!);
-  await expect(page.locator(".sources")).not.toContainText(
+  await expect(page.locator("#participation-freshness")).not.toContainText(
     "Early-voting data may be outdated",
   );
   await page
     .getByRole("button", { name: "Pima County. View early-voting activity." })
     .click();
   await page.clock.fastForward(60_000);
-  await expect(page.locator(".sources")).toContainText(
+  await expect(page.locator("#participation-freshness")).toContainText(
     "Early-voting data may be outdated",
   );
   await expect(
@@ -684,7 +747,7 @@ test("hidden and offline reconnects recover missed revisions without refetching 
       .filter((s) => !s.closed)
       .forEach((s) => s.emit("error")),
   );
-  await expect(page.locator(".sources")).toContainText(
+  await expect(page.locator("#participation-freshness")).toContainText(
     "Update connection interrupted",
   );
   revision = "missed-while-offline";
@@ -692,7 +755,7 @@ test("hidden and offline reconnects recover missed revisions without refetching 
   await expect.poll(() => streamCount(page)).toBe(1);
   await emitRevision(page, revision);
   await expect.poll(() => requests).toBe(3);
-  await expect(page.locator(".sources")).not.toContainText(
+  await expect(page.locator("#participation-freshness")).not.toContainText(
     "Update connection interrupted",
   );
 });

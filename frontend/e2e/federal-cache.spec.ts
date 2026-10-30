@@ -1,3 +1,4 @@
+import { selectOffice } from "./helpers";
 import { test, expect } from "@playwright/test";
 import type { Election } from "../src/types";
 
@@ -102,7 +103,7 @@ test("selected federal office prefetches all page data and navigation uses HTTP 
     .getByRole("link", { name: "Election catalog", exact: true })
     .click();
   await page.getByRole("tab", { name: "Federal Elections" }).click();
-  await page.getByLabel("Federal office").selectOption("us-house");
+  await selectOffice(page, "Federal office", "us-house");
   await expect.poll(() => done(houseUrls)).toBe(true);
   verify(houseUrls);
   const houseOrigin = origin.filter((url) => houseUrls.has(url)).length;

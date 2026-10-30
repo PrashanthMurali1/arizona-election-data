@@ -10,6 +10,8 @@ dist/
 .DS_Store
 playwright-report/
 test-results/
+# Reproducible Impeccable detector cache.
+/.impeccable/hook.cache.json
 /backend/local/logs/
 /backend/local/*.lock
 /backend/local/early-voting-refresh-status.json

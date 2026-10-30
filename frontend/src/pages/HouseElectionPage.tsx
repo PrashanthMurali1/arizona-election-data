@@ -5,11 +5,14 @@ import { get, useResource } from "../api";
 import {
   Availability,
   CandidateSummary,
+  CandidateOverview,
   ErrorState,
   Loading,
   TurnoutMetrics,
 } from "../components";
 import { number } from "../results";
+import Icon from "../Icon";
+import useGeographySelection from "../useGeographySelection";
 import CountyMap from "../Map";
 import CountyTable from "../CountyTable";
 
@@ -23,7 +26,9 @@ export default function HouseElectionPage({ id }: { id: string }) {
   const [error, setError] = useState<string | null>(null);
   const [selected, setSelected] = useState<string | null>(null);
   const [detailsOpen, setDetailsOpen] = useState(true);
-  const detailRef = useRef<HTMLElement>(null);
+  const tableRef = useRef<HTMLElement>(null);
+  const { detailRef, focusSelection, restoreFocus } =
+    useGeographySelection(selected);
   useEffect(() => {
     const controller = new AbortController();
     get<HouseOverview>(`/api/elections/${id}`, controller.signal)
@@ -60,9 +65,7 @@ export default function HouseElectionPage({ id }: { id: string }) {
     if (!districts.some((d) => d.geoid === unit && d.contested)) return;
     setSelected(unit);
     setDetailsOpen(true);
-    requestAnimationFrame(() =>
-      detailRef.current?.focus({ preventScroll: true }),
-    );
+    focusSelection();
   }
   return (
     <>
@@ -73,22 +76,26 @@ export default function HouseElectionPage({ id }: { id: string }) {
         <span>/</span>
         <span>{election.year}</span>
       </div>
-      <section className="election-heading">
+      <section className="election-heading page-heading">
         <div>
-          <p className="eyebrow">
-            ARIZONA · {election.kind.toUpperCase()} ELECTION
-          </p>
           <h1>
             {election.office} <span>{election.year}</span>
           </h1>
+          <p className="election-description">
+            {election.kind === "special" ? "Special" : "General"} election ·{" "}
+            {new Date(`${election.date}T12:00:00`).toLocaleDateString("en-US", {
+              month: "long",
+              day: "numeric",
+              year: "numeric",
+            })}
+          </p>
           <div className="election-meta">
             <Availability status={election.status} />
-            <span>
-              {new Date(`${election.date}T12:00:00`).toLocaleDateString(
-                "en-US",
-                { month: "long", day: "numeric", year: "numeric" },
-              )}
-            </span>
+            <a href="#sources">
+              {election.status === "civicapi"
+                ? "Provider report & limitations"
+                : "Sources & verification"}
+            </a>
           </div>
         </div>
         <label className="year-picker">
@@ -115,43 +122,19 @@ export default function HouseElectionPage({ id }: { id: string }) {
           <p>{election.notes}</p>
         </div>
       )}
-      <section className="panel statewide">
-        <div className="panel-heading">
-          <div>
-            <p className="eyebrow">
-              SELECTED DISTRICT · {active.name.toUpperCase()}
-            </p>
-            <h2>Candidate results</h2>
-          </div>
-          <div className="contest-total">
-            <strong>{number(active.total_votes)}</strong>
-            <span>votes in this district contest</span>
-          </div>
-        </div>
-        <CandidateSummary results={active} />
-        <div className="statewide-foot">
-          <span>
-            {active.name} · {number(contested.length)}{" "}
-            {contested.length === 1
-              ? "district contested"
-              : "districts contested"}
-          </span>
-          <span>
-            {election.kind === "special"
-              ? "Vote shares use the listed civicAPI candidates."
-              : "Vote shares include all verified candidates and write-ins in this district."}
-          </span>
-        </div>
-      </section>
-      <section className="county-section">
+      <CandidateOverview
+        results={active}
+        unitKind="district"
+        provider={election.status === "civicapi"}
+      />
+      <section className="county-section" id="geography-explorer">
         <div className="section-heading">
           <div>
-            <p className="eyebrow">A CLOSER LOOK</p>
             <h2>District by district</h2>
           </div>
           <span className="muted">Select a district to explore</span>
         </div>
-        <div className="county-grid">
+        <div className="county-grid explorer">
           <section className="panel map-panel" aria-label="District winner map">
             <div className="panel-heading">
               <h3>Arizona</h3>
@@ -166,8 +149,9 @@ export default function HouseElectionPage({ id }: { id: string }) {
             />
           </section>
           <section
-            className="panel table-panel"
+            className="panel table-panel table-region"
             aria-label="District results table"
+            ref={tableRef}
           >
             <div className="panel-heading">
               <h3>District results</h3>
@@ -190,26 +174,36 @@ export default function HouseElectionPage({ id }: { id: string }) {
           </section>
         </div>
       </section>
+      <span className="sr-only" role="status">
+        {detailsOpen
+          ? `${active.name} selected. Candidate results and turnout updated.`
+          : "District details closed."}
+      </span>
       <section
-        className="panel county-detail"
+        className="panel county-detail selection-panel"
         ref={detailRef}
         tabIndex={-1}
         aria-label="Selected district details"
-        aria-live="polite"
       >
         {detailsOpen ? (
           <>
             <div className="panel-heading">
               <div>
-                <p className="eyebrow">DISTRICT DETAILS · {selected}</p>
                 <h2>{active.name}</h2>
               </div>
               <button
                 className="close-button"
-                onClick={() => setDetailsOpen(false)}
+                onClick={() => {
+                  setDetailsOpen(false);
+                  restoreFocus(
+                    tableRef.current?.querySelector<HTMLButtonElement>(
+                      'tbody button[aria-pressed="true"]',
+                    ),
+                  );
+                }}
                 aria-label="Close district details"
               >
-                ×
+                <Icon name="close" />
               </button>
             </div>
             <div className="detail-grid">
@@ -218,19 +212,20 @@ export default function HouseElectionPage({ id }: { id: string }) {
                 <CandidateSummary results={active} />
               </div>
               <div className="turnout-panel">
-                <p className="eyebrow">ELECTION PARTICIPATION</p>
                 <h3>Beyond the contest</h3>
                 <TurnoutMetrics turnout={active.turnout} />
                 <p className="footnote">
-                  {number(active.total_votes)} {election.kind === "special" ? "reported" : "verified"} votes in this district’s
-                  U.S. House contest. This differs from total ballots cast.
+                  {number(active.total_votes)}{" "}
+                  {election.kind === "special" ? "reported" : "verified"} votes
+                  in this district’s U.S. House contest. This differs from total
+                  ballots cast.
                 </p>
               </div>
             </div>
           </>
         ) : (
           <div className="select-prompt">
-            <span aria-hidden="true">⌖</span>
+            <Icon name="location" />
             <div>
               <h3>Explore a district’s story</h3>
               <p>
@@ -241,8 +236,7 @@ export default function HouseElectionPage({ id }: { id: string }) {
           </div>
         )}
       </section>
-      <section className="sources">
-        <p className="eyebrow">TRANSPARENT BY DESIGN</p>
+      <section className="sources source-section" id="sources">
         <h2>Sources & verification</h2>
         <p>{election.notes}</p>
         <div className="sources-grid">
@@ -253,7 +247,9 @@ export default function HouseElectionPage({ id }: { id: string }) {
               target="_blank"
               rel="noreferrer"
             >
-              <small>DATA SOURCE ↗</small>
+              <span className="source-link-icon">
+                <Icon name="arrow" />
+              </span>
               <strong>{source.title}</strong>
               <span>{source.notes}</span>
             </a>
@@ -266,7 +262,12 @@ export default function HouseElectionPage({ id }: { id: string }) {
               : "View reconciliation report"}
           </summary>
           {report ? (
-            <div className="table-scroll">
+            <div
+              className="table-scroll scroll-region"
+              tabIndex={0}
+              role="region"
+              aria-label="Scrollable source report"
+            >
               <table>
                 <caption>
                   {report.kind === "provider_results"
@@ -297,7 +298,11 @@ export default function HouseElectionPage({ id }: { id: string }) {
                       {report.kind === "provider_results" ? (
                         <>
                           <td>{number(candidate.votes ?? null)}</td>
-                          <td>{candidate.percent == null ? "N/A" : `${candidate.percent}%`}</td>
+                          <td>
+                            {candidate.percent == null
+                              ? "N/A"
+                              : `${candidate.percent}%`}
+                          </td>
                         </>
                       ) : (
                         <>
@@ -317,11 +322,12 @@ export default function HouseElectionPage({ id }: { id: string }) {
               </table>
               {report.kind === "provider_results" && report.provider && (
                 <p>
-                  civicAPI reports {report.provider.percent_reporting ?? "N/A"}% reporting
+                  civicAPI reports {report.provider.percent_reporting ?? "N/A"}%
+                  reporting
                   {report.provider.last_updated
                     ? `; provider last updated ${new Date(report.provider.last_updated).toLocaleString("en-US", { dateStyle: "medium", timeStyle: "short", timeZone: "UTC" })} UTC.`
-                    : "."}
-                  {" "}No separate canvass reconciliation is represented here.
+                    : "."}{" "}
+                  No separate canvass reconciliation is represented here.
                 </p>
               )}
             </div>

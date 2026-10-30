@@ -1,3 +1,4 @@
+import Icon from "./Icon";
 import { useMemo, useState } from "react";
 import type { Participation } from "./types";
 import { activityValue, sortActivity, activityColumns } from "./activity";
@@ -33,70 +34,87 @@ export default function ActivityTable({
     );
   }
   return (
-    <div className="table-scroll">
-      <table className="activity-table">
-        <caption className="sr-only">
-          General-election participation by county, not candidate votes. Sort
-          columns and select county names for source definitions and reporting
-          dates.
-        </caption>
-        <thead>
-          <tr>
-            {columns.map(([k, label]) => (
-              <th
-                key={k}
-                scope="col"
-                data-metric={k}
-                aria-sort={
-                  activeKey === k
-                    ? activeDirection === "asc"
-                      ? "ascending"
-                      : "descending"
-                    : "none"
-                }
-              >
-                <button onClick={() => sort(k)}>
-                  {label}{" "}
-                  <span aria-hidden="true">
-                    {activeKey === k
+    <>
+      <p className="scroll-hint">
+        Scroll horizontally for all metrics. Geographic names stay visible.
+      </p>
+      <div
+        className="table-scroll scroll-region"
+        role="region"
+        aria-label="Scrollable participation reports"
+        tabIndex={0}
+      >
+        <table className="activity-table early-table">
+          <caption className="sr-only">
+            General-election participation by county, not candidate votes. Sort
+            columns and select county names for source definitions and reporting
+            dates.
+          </caption>
+          <thead>
+            <tr>
+              {columns.map(([k, label]) => (
+                <th
+                  key={k}
+                  scope="col"
+                  data-metric={k}
+                  aria-sort={
+                    activeKey === k
                       ? activeDirection === "asc"
-                        ? "↑"
-                        : "↓"
-                      : "↕"}
-                  </span>
-                </button>
-              </th>
-            ))}
-          </tr>
-        </thead>
-        <tbody>
-          {rows.map((r) => (
-            <tr key={r.geoid} className={r.geoid === selected ? "active" : ""}>
-              <th scope="row">
-                <button
-                  onClick={() => onSelect(r.geoid)}
-                  aria-pressed={r.geoid === selected}
+                        ? "ascending"
+                        : "descending"
+                      : "none"
+                  }
                 >
-                  {r.name}
-                  <span aria-hidden="true">↗</span>
-                </button>
-              </th>
-              {columns.slice(1).map(([k]) => (
-                <td key={k}>
-                  {number(activityValue(r, k))}
-                  {r.metrics.find((m) => m.key === k)?.completeness ===
-                  "partial" ? (
-                    <span title="Partial source coverage; select county for details">
-                      {" "}
-                      *
+                  <button onClick={() => sort(k)}>
+                    {label}{" "}
+                    <span aria-hidden="true">
+                      <Icon
+                        name={
+                          activeKey === k
+                            ? activeDirection === "asc"
+                              ? "up"
+                              : "down"
+                            : "sort"
+                        }
+                      />
                     </span>
-                  ) : null}
-                </td>
+                  </button>
+                </th>
               ))}
             </tr>
-          ))}
-        </tbody>
-      </table>
-    </div>
+          </thead>
+          <tbody>
+            {rows.map((r) => (
+              <tr
+                key={r.geoid}
+                className={r.geoid === selected ? "active" : ""}
+              >
+                <th scope="row">
+                  <button
+                    onClick={() => onSelect(r.geoid)}
+                    aria-pressed={r.geoid === selected}
+                  >
+                    {r.name}
+                    <Icon name="arrow" />
+                  </button>
+                </th>
+                {columns.slice(1).map(([k]) => (
+                  <td key={k}>
+                    {number(activityValue(r, k))}
+                    {r.metrics.find((m) => m.key === k)?.completeness ===
+                    "partial" ? (
+                      <span title="Partial source coverage; select county for details">
+                        {" "}
+                        *
+                      </span>
+                    ) : null}
+                  </td>
+                ))}
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </>
   );
 }

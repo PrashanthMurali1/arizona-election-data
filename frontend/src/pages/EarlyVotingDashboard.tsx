@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import type { RefObject } from "react";
 import type { Activity, ActivityMetric, Election, Geography } from "../types";
 import CountyMap from "../Map";
@@ -6,6 +5,8 @@ import ActivityTable from "../ActivityTable";
 import { Availability } from "../components";
 import { reportTime } from "../activity";
 import { number, percent } from "../results";
+import Icon from "../Icon";
+import EarlyVotingSources from "../EarlyVotingSources";
 
 const returnedMetrics = [
   {
@@ -22,7 +23,7 @@ const returnedMetrics = [
   },
   {
     key: "ballots_received__republican",
-    label: "Registered Republican",
+    label: "Registered Republicans",
     badge: "REP",
     color: "rep",
   },
@@ -45,35 +46,25 @@ function ParticipationMetrics({
     const metric = metrics.find((metric) => metric.key === presentation.key);
     return statewide || metric?.value != null ? [{ presentation, metric }] : [];
   });
-  const timestamps = [
-    ...new Set(
-      displayed.flatMap(({ metric }) =>
-        metric?.source_id
-          ? [
-              `As of: ${reportTime(metric.reported_at, metric.report_precision)} · Retrieved: ${reportTime(metric.retrieved_at)}${metric.stale ? " · Stale" : ""}`,
-            ]
-          : [],
-      ),
-    ),
-  ];
+  const timestamps = statewide
+    ? [
+        ...new Set(
+          displayed.flatMap(({ metric }) =>
+            metric?.source_id
+              ? [`Retrieved: ${reportTime(metric.retrieved_at)}`]
+              : [],
+          ),
+        ),
+      ]
+    : [];
   const returnedTotal = metrics.find(
     (metric) => metric.key === "ballots_received",
   )?.value;
-  function detailDescription(key: string) {
-    const party = {
-      ballots_received__democratic: "Democratic",
-      ballots_received__republican: "Republican",
-      ballots_received__other: "Independent",
-    }[key];
-    if (!party)
-      return statewide
-        ? "Early ballots returned statewide."
-        : "Early ballots returned in this county.";
-    return `Early ballots returned by registered ${party} voters. They do not show which candidates voters selected or how they voted.${party === "Independent" ? " The source categorizes this group as ‘Other’." : ""}`;
-  }
   return (
     <>
-      <div className="activity-details">
+      <div
+        className={`activity-details ${statewide ? "statewide-participation" : "county-participation"}`}
+      >
         {displayed.map(({ presentation, metric: m }) => {
           const isTotal = presentation.key === "ballots_received";
           const ballotCount = `${number(m?.value)}${m?.completeness === "partial" ? " *" : ""} ballots`;
@@ -82,7 +73,10 @@ function ParticipationMetrics({
               ? (m?.value / returnedTotal) * 100
               : null;
           return (
-            <div className="activity-metric" key={presentation.key}>
+            <div
+              className={`activity-metric ${isTotal ? "returned-total" : "registration-stat"} ${presentation.color}`}
+              key={presentation.key}
+            >
               <div className="candidate-info">
                 <span className={`party-chip ${presentation.color}`}>
                   {presentation.badge}
@@ -92,7 +86,11 @@ function ParticipationMetrics({
                 </div>
                 <div className="vote-value">
                   {isTotal ? (
-                    <strong className="activity-count">{ballotCount}</strong>
+                    <strong className="activity-count">
+                      {number(m?.value)}
+                      {m?.completeness === "partial" ? " *" : ""}
+                      <span className="count-unit"> ballots</span>
+                    </strong>
                   ) : (
                     <>
                       <strong>{percent(share)}</strong>
@@ -101,19 +99,20 @@ function ParticipationMetrics({
                   )}
                 </div>
               </div>
-              <div
-                className="vote-track"
-                role="img"
-                aria-label={`${presentation.label}: ${isTotal ? ballotCount : share == null ? "share unavailable" : `${percent(share)} of total early votes`}`}
-              >
+              {(!statewide || !isTotal) && (
                 <div
-                  className={presentation.color}
-                  style={{
-                    width: `${Math.min(100, Math.max(0, share ?? 0))}%`,
-                  }}
-                />
-              </div>
-              <p className="footnote">{detailDescription(presentation.key)}</p>
+                  className="vote-track"
+                  role="img"
+                  aria-label={`${presentation.label}: ${isTotal ? ballotCount : share == null ? "share unavailable" : `${percent(share)} of total early votes`}`}
+                >
+                  <div
+                    className={presentation.color}
+                    style={{
+                      width: `${Math.min(100, Math.max(0, share ?? 0))}%`,
+                    }}
+                  />
+                </div>
+              )}
             </div>
           );
         })}
@@ -144,9 +143,6 @@ export default function EarlyVotingDashboard({
 }) {
   const county = activity.counties.find((c) => c.geoid === selected);
   const participation = activity.provider_participation;
-  const provider = participation
-    ? { provider: participation.provider, test_data: false }
-    : activity.provider_report;
   const returnedReport = participation?.reports.find(
     (report) => report.category === "returned",
   );
@@ -156,19 +152,18 @@ export default function EarlyVotingDashboard({
   );
   return (
     <>
-      <section className="election-heading">
+      <section className="election-heading page-heading">
         <div>
-          <p className="eyebrow">ARIZONA · GENERAL ELECTION</p>
           <h3 className="embedded-election-title">
             <span>{election.year}</span> {election.office}
           </h3>
           <div className="election-meta">
-            <Availability status="pre_results" />
+            <Availability status="pre_results" label="Participation only" />
             <span>November 3, 2026</span>
           </div>
         </div>
       </section>
-      <div className="notice" role="status">
+      <div className="notice info participation-notice" role="status">
         <strong>Early-voting participation reports.</strong>
         <p>
           These figures describe participation in the November general election.
@@ -176,117 +171,12 @@ export default function EarlyVotingDashboard({
           how anyone voted.
         </p>
       </div>
-      <section
-        className="panel statewide"
-        aria-label="Statewide participation availability"
-      >
-        <div className="panel-heading">
-          <div>
-            <p className="eyebrow">GENERAL-ELECTION PARTICIPATION</p>
-            <h4>Early-voting activity</h4>
-          </div>
-        </div>
-        <ParticipationMetrics metrics={activity.statewide.metrics} statewide />
-        <div className="statewide-foot">
-          <span>{activity.statewide_policy}</span>
-        </div>
-      </section>
-      <section className="county-section">
-        <div className="section-heading">
-          <div>
-            <p className="eyebrow">PARTICIPATION, COUNTY BY COUNTY</p>
-            <h4>County reports</h4>
-          </div>
-          <span className="muted">Select a county for source definitions</span>
-        </div>
-        <div className="county-grid">
-          <section
-            className="panel map-panel"
-            aria-label="Returned-ballot party-registration map"
-          >
-            <div className="panel-heading">
-              <h5>Arizona</h5>
-              <span className="muted">Returned-ballot party registration</span>
-            </div>
-            <CountyMap
-              geography={geo}
-              counties={[]}
-              selected={selected}
-              onSelect={onSelect}
-              mode="registration"
-              registrationBreakdowns={returnedBreakdowns}
-            />
-          </section>
-          <section
-            className="panel table-panel"
-            aria-label="County participation table"
-          >
-            <div className="panel-heading">
-              <h5>Early-voting activity</h5>
-              <span className="muted">No candidate results</span>
-            </div>
-            <ActivityTable
-              counties={activity.counties}
-              selected={selected}
-              onSelect={onSelect}
-            />
-            <p className="footnote table-note">
-              {provider
-                ? "N/A means the selected provider has not supplied this metric."
-                : "N/A means no verified official figure imported."}{" "}
-              * Partial source coverage. Party columns count returned ballots by
-              voter registration; they do not indicate candidate choices or how
-              anyone voted. Independents corresponds to the source’s “Other”
-              category. Select a county for definitions and dates; county rows
-              are not a statewide total.
-            </p>
-          </section>
-        </div>
-      </section>
-      <section
-        className="panel county-detail"
-        aria-label="Selected county details"
-        ref={detailRef}
-        tabIndex={-1}
-        aria-live="polite"
-      >
-        {county ? (
-          <>
-            <div className="panel-heading">
-              <div>
-                <p className="eyebrow">
-                  COUNTY PARTICIPATION · FIPS {county.geoid}
-                </p>
-                <h4>{county.name} County</h4>
-              </div>
-              <button
-                className="close-button"
-                onClick={() => onSelect("")}
-                aria-label="Close county details"
-              >
-                ×
-              </button>
-            </div>
-            <ParticipationMetrics metrics={county.metrics} />
-          </>
-        ) : (
-          <div className="select-prompt">
-            <span aria-hidden="true">⌖</span>
-            <div>
-              <h5>Explore a county’s participation</h5>
-              <p>
-                Select any county on the map or in the table to see sourced
-                aggregate figures, source dates and unavailable metrics.
-              </p>
-            </div>
-          </div>
-        )}
-      </section>
-      <section className="sources">
-        <p className="eyebrow">TRANSPARENT BY DESIGN</p>
-        <h4>Sources & coverage</h4>
+      <div id="participation-freshness">
         {(refreshError || activity.stale) && (
-          <div className="notice" role="status">
+          <div
+            className="notice freshness-notice participation-notice"
+            role="status"
+          >
             <strong>
               {refreshError
                 ? "Update check failed"
@@ -300,23 +190,149 @@ export default function EarlyVotingDashboard({
             </p>
           </div>
         )}
-        <p className="source-attribution">
-          Early voting participation report from{" "}
+      </div>
+      <section
+        className="statewide participation-overview"
+        aria-label="Statewide participation availability"
+      >
+        <p className="footnote participation-source">
+          Source:{" "}
           {returnedSource ? (
             <a href={returnedSource.url} target="_blank" rel="noreferrer">
               civicAPI
             </a>
           ) : (
             "civicAPI"
-          )}
-          . Counts come from{" "}
-          <a href="https://civicapi.org/early-vote/" target="_blank" rel="noreferrer">
-            civicAPI
-          </a>
-          , which collects them from state election offices.
+          )}{" "}
+          · Returned-ballot participation
         </p>
-        <Link to="/methodology">Read the data methodology ↗</Link>
+        <div className="panel-heading sr-only">
+          <div>
+            <h4>Early-voting activity</h4>
+          </div>
+        </div>
+        <ParticipationMetrics metrics={activity.statewide.metrics} statewide />
+        <div className="statewide-foot">
+          <span>{activity.statewide_policy}</span>
+        </div>
       </section>
+      <section className="county-section">
+        <div className="section-heading">
+          <div>
+            <h4>County reports</h4>
+          </div>
+          <span className="muted">Select a county for source definitions</span>
+        </div>
+        <div className="county-grid explorer">
+          <section
+            className="panel map-panel"
+            aria-label="Returned-ballot party-registration map"
+          >
+            <div className="panel-heading">
+              <h5>Arizona</h5>
+              <span className="muted">Returned-ballot registration</span>
+            </div>
+            <CountyMap
+              geography={geo}
+              counties={[]}
+              selected={selected}
+              onSelect={onSelect}
+              mode="registration"
+              registrationBreakdowns={returnedBreakdowns}
+            />
+          </section>
+          <section
+            className="panel table-panel table-region"
+            aria-label="County participation table"
+          >
+            <div className="panel-heading">
+              <h5>Early-voting activity</h5>
+              <span className="muted">No candidate results</span>
+            </div>
+            <ActivityTable
+              counties={activity.counties}
+              selected={selected}
+              onSelect={onSelect}
+            />
+          </section>
+        </div>
+      </section>
+      <span className="sr-only" role="status">
+        {county
+          ? `${county.name} County selected. Participation and source details updated.`
+          : ""}
+      </span>
+      {county && (
+        <section
+          className="panel county-detail selection-panel"
+          data-selected={county.geoid}
+          aria-label="Selected county details"
+          ref={detailRef}
+          tabIndex={-1}
+        >
+          <div className="panel-heading">
+            <div>
+              <h4>{county.name} County</h4>
+            </div>
+            <button
+              className="close-button"
+              onClick={() => onSelect("")}
+              aria-label="Close county details"
+            >
+              <Icon name="close" />
+            </button>
+          </div>
+          <ParticipationMetrics metrics={county.metrics} />
+          <div className="county-context">
+            <p>
+              Party categories describe voter registration, not candidate
+              support. Independents corresponds to the source’s “Other”
+              category.
+            </p>
+          </div>
+          <details className="county-definitions">
+            <summary>Definitions, coverage & reporting dates</summary>
+            {returnedMetrics.flatMap(({ key }) => {
+              const metric = county.metrics.find(
+                (metric) => metric.key === key,
+              );
+              return metric
+                ? [
+                    <section className="metric-definition" key={key}>
+                      <h5>{metric.label}</h5>
+                      <p>{metric.definition}</p>
+                      <p>
+                        {metric.coverage_note}
+                        {metric.completeness === "partial"
+                          ? " Partial source coverage."
+                          : ""}
+                      </p>
+                      <dl>
+                        <div>
+                          <dt>Source report</dt>
+                          <dd>
+                            {reportTime(
+                              metric.reported_at,
+                              metric.report_precision,
+                            )}
+                          </dd>
+                        </div>
+                        <div>
+                          <dt>Retrieved</dt>
+                          <dd>
+                            {reportTime(metric.retrieved_at)}
+                            {metric.stale ? " · Stale" : ""}
+                          </dd>
+                        </div>
+                      </dl>
+                    </section>,
+                  ]
+                : [];
+            })}
+          </details>
+        </section>
+      )}
+      <EarlyVotingSources />
     </>
   );
 }

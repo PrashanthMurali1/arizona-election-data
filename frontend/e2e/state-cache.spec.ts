@@ -1,3 +1,4 @@
+import { selectOffice } from "./helpers";
 import { test, expect } from "@playwright/test";
 import type { Election } from "../src/types";
 
@@ -81,7 +82,7 @@ test("State Elections prefetches only the selected office and caches every elect
     ),
   ).toBe(false);
   const governorOrigin = origin.filter((url) => governorUrls.has(url)).length;
-  await page.getByLabel("State office").selectOption("attorney-general");
+  await selectOffice(page, "State office", "attorney-general");
   await verifyBatch(attorneyUrls);
   expect(origin.filter((url) => governorUrls.has(url)).length).toBe(
     governorOrigin,
