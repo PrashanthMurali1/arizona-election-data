@@ -282,6 +282,9 @@ for (const width of [1440, 390, 320]) {
         await expect(panel.locator(".statewide-foot")).toContainText(
           dashboard.activity.statewide_policy,
         );
+        await expect(
+          panel.locator('.sources a[href="/methodology"]'),
+        ).toBeVisible();
       }
       if (category.name !== "Live Elections") {
         await expect(

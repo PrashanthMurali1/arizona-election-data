@@ -1,3 +1,5 @@
+from pathlib import Path
+from .relay_metrics import Recorder, RequestMetrics
 from typing import Annotated
 from contextlib import asynccontextmanager
 import logging
@@ -39,6 +41,9 @@ from .services import metadata, results
 from .observability import RequestLogging, emit
 
 
+request_recorder = Recorder(Path(__file__).resolve().parents[1] / 'local/relay-metrics')
+
+
 @asynccontextmanager
 async def lifespan(app):
     started = time.monotonic()
@@ -49,9 +54,11 @@ async def lifespan(app):
         emit(logging.CRITICAL, 'backend_startup_failed', exc=exc, outcome='failed')
         raise
     emit(logging.INFO, 'backend_started', outcome='success', duration_ms=round((time.monotonic()-started)*1000))
+    request_recorder.start()
     try:
         yield
     finally:
+        request_recorder.close()
         emit(logging.INFO, 'backend_stopped', outcome='success', duration_ms=round((time.monotonic()-started)*1000))
 
 app = FastAPI(
@@ -62,6 +69,7 @@ app = FastAPI(
 )
 app.router.route_class = BrowserCacheRoute
 app.add_middleware(RequestLogging)
+app.add_middleware(RequestMetrics, recorder=request_recorder)
 
 
 def session():
