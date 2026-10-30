@@ -5,6 +5,7 @@ import { useResource } from "../api";
 import { Availability, ErrorState, Loading } from "../components";
 import LiveElection from "./LiveElection";
 import { prefetchElections } from "../electionPrefetch";
+import Icon from "../Icon";
 
 const catalogTabs = [
   { id: "live", label: "Live Elections", offices: ["early-voting"] },
@@ -96,20 +97,26 @@ export default function Home() {
     elections?.filter((e) => selectedOffices.includes(e.office_id)) ?? [];
   return (
     <>
-      <section className="home-intro">
-        <p className="eyebrow">
-          <span />
-          THE GRAND CANYON STATE · ELECTION ARCHIVE
-        </p>
-        <h1>
-          Every county.
-          <br />
-          <span>Every vote, in context.</span>
-        </h1>
-        <p className="lead">
-          Explore Arizona’s election history through certified results, county
-          maps, and the numbers behind the outcome.
-        </p>
+      <section className="home-intro catalog-intro">
+        <div>
+          <h1>
+            Every county.
+            <br />
+            Every vote, in context.
+          </h1>
+          <p className="lead">
+            Explore Arizona’s election history through certified results, county
+            maps, and the numbers behind the outcome.
+          </p>
+        </div>
+        <aside>
+          <strong>Independent. Unofficial. Source-linked.</strong>
+          <p>
+            Each results page identifies its data source and how its reported
+            figures are presented.
+          </p>
+          <Link to="/methodology">About the data</Link>
+        </aside>
       </section>
       {loading ? (
         <Loading />
@@ -119,15 +126,9 @@ export default function Home() {
         elections && (
           <>
             <section className="catalog">
-              <div className="section-heading">
-                <div>
-                  <p className="eyebrow">EXPLORE THE ARCHIVE</p>
-                  <h2>Election catalog</h2>
-                </div>
-                <span className="muted">Organized by office</span>
-              </div>
+              <h2 className="sr-only">Election catalog</h2>
               <div
-                className="catalog-tabs"
+                className="catalog-tabs categories"
                 role="tablist"
                 aria-label="Election categories"
               >
@@ -159,150 +160,183 @@ export default function Home() {
                   hidden={selectedTab !== tab.id}
                   tabIndex={0}
                 >
-                  {selectedTab === tab.id && tab.id === "federal" && (
-                    <div className="catalog-office-filter">
-                      <label htmlFor="federal-office">Federal office</label>
-                      <select
-                        id="federal-office"
-                        value={federalOffice}
-                        onChange={(event) =>
-                          setFederalOffice(event.target.value)
-                        }
-                      >
-                        <option value="us-senate">U.S. Senate</option>
-                        <option value="us-house">U.S. House</option>
-                      </select>
-                    </div>
-                  )}
-                  {selectedTab === tab.id && tab.id === "state" && (
-                    <div className="catalog-office-filter">
-                      <label htmlFor="state-office">State office</label>
-                      <select
-                        id="state-office"
-                        value={stateOffice}
-                        onChange={(event) => setStateOffice(event.target.value)}
-                      >
-                        <option value="governor">Governor</option>
-                        <option value="attorney-general">
-                          Attorney General
-                        </option>
-                      </select>
-                    </div>
-                  )}
                   {selectedTab === tab.id &&
-                    (categoryElections.length === 0 ? (
-                      <p className="empty">
-                        No elections available in this category yet.
-                      </p>
-                    ) : tab.id === "live" ? (
-                      <LiveElection election={categoryElections[0]} />
+                    (tab.id === "live" ? (
+                      categoryElections.length ? (
+                        <LiveElection election={categoryElections[0]} />
+                      ) : (
+                        <p className="empty">
+                          No elections available in this category yet.
+                        </p>
+                      )
                     ) : (
-                      [
-                        ...new Set(categoryElections.map((e) => e.office_id)),
-                      ].map((office) => (
-                        <div key={office} className="office-section">
-                          <div className="office-heading">
-                            <span className="office-symbol" aria-hidden="true">
-                              ▥
-                            </span>
-                            <h3>
-                              {
-                                elections.find((e) => e.office_id === office)
-                                  ?.office
+                      <div className="catalog-layout">
+                        <aside className="office-nav">
+                          <h2>Browse offices</h2>
+                          <nav
+                            className="office-buttons"
+                            aria-label="Office directory"
+                          >
+                            {(tab.id === "federal"
+                              ? [
+                                  ["us-senate", "U.S. Senate"],
+                                  ["us-house", "U.S. House"],
+                                ]
+                              : [
+                                  ["governor", "Governor"],
+                                  ["attorney-general", "Attorney General"],
+                                ]
+                            ).map(([value, label]) => (
+                              <button
+                                key={value}
+                                type="button"
+                                aria-pressed={
+                                  (tab.id === "federal"
+                                    ? federalOffice
+                                    : stateOffice) === value
+                                }
+                                onClick={() =>
+                                  tab.id === "federal"
+                                    ? setFederalOffice(value)
+                                    : setStateOffice(value)
+                                }
+                              >
+                                {label}
+                              </button>
+                            ))}
+                          </nav>
+                        </aside>
+                        <section
+                          className="office-section"
+                          aria-label={`${tab.id === "federal" ? "Federal" : "State"} election archive`}
+                        >
+                          <div className="catalog-office-filter mobile-office control">
+                            <label htmlFor={`${tab.id}-office`}>
+                              {tab.id === "federal" ? "Federal" : "State"}{" "}
+                              office
+                            </label>
+                            <select
+                              id={`${tab.id}-office`}
+                              value={
+                                tab.id === "federal"
+                                  ? federalOffice
+                                  : stateOffice
                               }
-                            </h3>
-                            <span className="muted">
-                              {office === "us-house"
-                                ? "Congressional districts"
-                                : office === "early-voting"
-                                  ? "Statewide participation"
-                                  : "Statewide office"}
-                            </span>
-                            <span className="office-rule" />
+                              onChange={(event) =>
+                                tab.id === "federal"
+                                  ? setFederalOffice(event.target.value)
+                                  : setStateOffice(event.target.value)
+                              }
+                            >
+                              {(tab.id === "federal"
+                                ? [
+                                    ["us-senate", "U.S. Senate"],
+                                    ["us-house", "U.S. House"],
+                                  ]
+                                : [
+                                    ["governor", "Governor"],
+                                    ["attorney-general", "Attorney General"],
+                                  ]
+                              ).map(([value, label]) => (
+                                <option key={value} value={value}>
+                                  {label}
+                                </option>
+                              ))}
+                            </select>
                           </div>
-                          <div className="election-grid">
-                            {elections
-                              .filter((e) => e.office_id === office)
-                              .sort((a, b) => b.date.localeCompare(a.date))
-                              .map((e) => (
-                                <Link
-                                  to={`/elections/${e.id}`}
-                                  className="election-card"
-                                  key={e.id}
-                                  aria-label={
-                                    e.office_id === "early-voting"
-                                      ? `${e.year} Early Voting`
-                                      : undefined
-                                  }
-                                >
-                                  <div className="card-top">
-                                    <span className="eyebrow">
-                                      {e.kind.toUpperCase()} ELECTION
-                                    </span>
-                                    <Availability status={e.status} />
-                                  </div>
-                                  <strong className="card-year">
-                                    {e.year}
-                                  </strong>
-                                  <h3>
-                                    {e.office_id === "early-voting"
-                                      ? e.office
-                                      : `Arizona ${e.office}`}
-                                    {e.district_label
-                                      ? ` · ${e.district_label}`
-                                      : ""}
-                                  </h3>
-                                  <p>
-                                    {e.office_id === "early-voting"
-                                      ? `${e.county_count} counties · Requested and returned ballots`
-                                      : e.status === "civicapi"
-                                        ? `${e.district_count ?? 1} special-election district · civicAPI candidate report · ${e.date}`
-                                        : e.status === "verified"
-                                          ? e.district_count !== undefined
-                                            ? `${e.district_count} ${e.district_count === 1 ? "district" : "districts"} · ${e.candidate_count} candidates${e.kind === "special" ? ` · ${e.date}` : ""}`
-                                            : `${e.county_count} counties · ${e.candidate_count} candidates`
-                                          : e.status === "pre_results"
-                                            ? "General-election participation · candidate results not released"
+                          <div className="archive-heading">
+                            <h2>
+                              {elections.find((e) =>
+                                selectedOffices.includes(e.office_id),
+                              )?.office ??
+                                (tab.id === "federal"
+                                  ? federalOffice === "us-house"
+                                    ? "U.S. House"
+                                    : "U.S. Senate"
+                                  : stateOffice === "governor"
+                                    ? "Governor"
+                                    : "Attorney General")}
+                            </h2>
+                            <span className="small muted">
+                              {categoryElections.length} elections ·{" "}
+                              {selectedOffices.includes("us-house")
+                                ? "Districts"
+                                : "Statewide office"}
+                            </span>
+                          </div>
+                          {categoryElections.length === 0 ? (
+                            <p className="empty">
+                              No elections available in this category yet.
+                            </p>
+                          ) : (
+                            <div className="election-grid archive-list">
+                              {[...categoryElections]
+                                .sort((a, b) => b.date.localeCompare(a.date))
+                                .map((e) => (
+                                  <Link
+                                    to={`/elections/${e.id}`}
+                                    className="election-card archive-row"
+                                    key={e.id}
+                                  >
+                                    <strong className="card-year year">
+                                      {e.year}
+                                    </strong>
+                                    <div>
+                                      <h3 className="title">
+                                        Arizona {e.office}
+                                        {e.district_label
+                                          ? ` · ${e.district_label}`
+                                          : ""}
+                                      </h3>
+                                      <p className="description">
+                                        {e.kind === "special"
+                                          ? `Special election · ${e.date} · `
+                                          : "General election · "}
+                                        {e.status === "civicapi"
+                                          ? `${e.district_count ?? 1} special-election district · civicAPI candidate report`
+                                          : e.status === "verified"
+                                            ? e.district_count !== undefined
+                                              ? `${e.district_count} ${e.district_count === 1 ? "district" : "districts"} · ${e.candidate_count} candidates`
+                                              : `${e.county_count} counties · ${e.candidate_count} candidates`
                                             : e.status === "unofficial"
                                               ? "Unofficial reported results · counting in progress"
                                               : "Source located · results awaiting verification"}
-                                  </p>
-                                  <div className="card-bottom">
-                                    <span>
-                                      {e.status === "civicapi"
-                                        ? "Explore civicAPI report"
-                                        : e.status === "verified"
-                                          ? "Explore results"
-                                          : e.status === "pre_results"
-                                            ? "Explore early voting"
-                                            : e.status === "unofficial"
-                                              ? "Explore reported results"
-                                              : "View availability"}
+                                      </p>
+                                      <span className="sr-only">
+                                        {e.status === "civicapi"
+                                          ? "Explore civicAPI report"
+                                          : e.status === "verified"
+                                            ? "Explore results"
+                                            : "View availability"}
+                                      </span>
+                                    </div>
+                                    <Availability status={e.status} />
+                                    <span className="arrow">
+                                      <Icon name="arrow" />
                                     </span>
-                                    <span aria-hidden="true">↗</span>
-                                  </div>
-                                </Link>
-                              ))}
-                          </div>
-                        </div>
-                      ))
+                                  </Link>
+                                ))}
+                            </div>
+                          )}
+                        </section>
+                      </div>
                     ))}
                 </div>
               ))}
             </section>
-            <aside className="provenance-banner">
-              <span className="provenance-icon" aria-hidden="true">
-                ✓
-              </span>
-              <div>
-                <h3>Sources are clear for every election.</h3>
+            {selectedTab !== "live" && (
+              <aside className="provenance-banner provenance">
                 <p>
+                  <strong>Sources are clear for every election.</strong>
+                  <br />
                   Each results page identifies its data source and how its
                   reported figures are presented.
                 </p>
-              </div>
-              <Link to="/methodology">Our methodology ↗</Link>
-            </aside>
+                <Link to="/methodology">
+                  Our methodology <Icon name="arrow" />
+                </Link>
+              </aside>
+            )}
           </>
         )
       )}

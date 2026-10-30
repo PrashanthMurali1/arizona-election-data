@@ -1,4 +1,4 @@
-import { useMemo } from "react";
+import { useId, useMemo } from "react";
 import { geoArea, geoMercator, geoPath } from "d3-geo";
 import type { Feature, Geometry } from "geojson";
 import type { Geography, Results } from "./types";
@@ -39,6 +39,7 @@ export default function CountyMap({
   unitKind?: "county" | "district";
   registrationBreakdowns?: Record<string, Record<string, number | null>>;
 }) {
+  const hatchId = `not-contested-${useId().replace(/:/g, "")}`;
   const features = useMemo(() => geography.features.map(rewind), [geography]);
   const projection = useMemo(
     () =>
@@ -53,7 +54,9 @@ export default function CountyMap({
   );
   const path = geoPath(projection);
   return (
-    <div className="map-wrap">
+    <div
+      className={`map-wrap${mode === "registration" ? " registration-map" : ""}`}
+    >
       <svg
         className="county-map"
         viewBox="0 0 480 490"
@@ -62,30 +65,52 @@ export default function CountyMap({
           mode === "registration"
             ? "Arizona counties colored by party registration among returned early ballots. Select a county for participation details."
             : unitKind === "district"
-            ? "Arizona congressional districts. Select a district to view results."
-            : "Arizona counties. Select a county to view results."
+              ? "Arizona congressional districts. Select a district to view results."
+              : "Arizona counties. Select a county to view results."
         }
       >
+        <defs>
+          <pattern
+            id={hatchId}
+            width="6"
+            height="6"
+            patternUnits="userSpaceOnUse"
+          >
+            <rect width="6" height="6" fill="var(--map-quiet)" />
+            <line
+              x1="0"
+              y1="6"
+              x2="6"
+              y2="0"
+              stroke="var(--map-hatch)"
+              strokeWidth="1"
+            />
+          </pattern>
+        </defs>
         {features.map((f) => {
           const id = String(f.properties?.geoid);
           const row =
             mode === "activity" || mode === "registration"
               ? undefined
               : counties.find((c) => c.geoid === id);
-          const registrationParty = returnedRegistrationParty(registrationBreakdowns[id]);
-          const registrationDescription = registrationParty === "DEM"
-            ? "Democratic registration is largest among returned ballots"
-            : registrationParty === "REP"
-              ? "Republican registration is largest among returned ballots"
-              : "Other, tied or missing party-registration breakdown among returned ballots";
+          const registrationParty = returnedRegistrationParty(
+            registrationBreakdowns[id],
+          );
+          const registrationDescription =
+            registrationParty === "DEM"
+              ? "Democratic registration is largest among returned ballots"
+              : registrationParty === "REP"
+                ? "Republican registration is largest among returned ballots"
+                : "Other, tied or missing party-registration breakdown among returned ballots";
           const center = path.centroid(f);
           const inactive =
             unitKind === "district" && row?.status === "not_contested";
           return (
             <g key={id}>
               <path
-                className={`county ${partyClass(mode === "registration" ? registrationParty ?? undefined : row?.winner?.party)} ${selected === id ? "selected" : ""}`}
+                className={`county ${partyClass(mode === "registration" ? (registrationParty ?? undefined) : row?.winner?.party)} ${selected === id ? "selected" : ""}`}
                 d={path(f) ?? ""}
+                style={inactive ? { fill: `url(#${hatchId})` } : undefined}
                 tabIndex={inactive ? -1 : 0}
                 role="button"
                 aria-label={
@@ -95,9 +120,9 @@ export default function CountyMap({
                       ? `${f.properties?.name}, ${row?.winner?.name ?? "winner unavailable"}. View district results.`
                       : mode === "registration"
                         ? `${f.properties?.name} County. View early-voting activity. ${registrationDescription}.`
-                      : mode === "activity"
-                        ? `${f.properties?.name} County. View early-voting activity.`
-                        : `${f.properties?.name} County, ${row?.winner?.name ?? "winner unavailable"}. View county results.`
+                        : mode === "activity"
+                          ? `${f.properties?.name} County. View early-voting activity.`
+                          : `${f.properties?.name} County, ${row?.winner?.name ?? "winner unavailable"}. View county results.`
                 }
                 aria-pressed={selected === id}
                 aria-disabled={inactive || undefined}
@@ -117,12 +142,12 @@ export default function CountyMap({
                     ? "Not contested"
                     : mode === "registration"
                       ? `${registrationDescription}. Registration does not show candidate choices.`
-                    : mode === "activity"
-                      ? "Participation reports"
-                      : (row?.winner?.name ??
-                        (mode === "unofficial"
-                          ? "No reported leader"
-                          : "No verified winner"))}
+                      : mode === "activity"
+                        ? "Participation reports"
+                        : (row?.winner?.name ??
+                          (mode === "unofficial"
+                            ? "No reported leader"
+                            : "No verified winner"))}
                 </title>
               </path>
               <text
@@ -147,38 +172,73 @@ export default function CountyMap({
           <>
             <span>
               <i className="dot dem" />
-              {mode === "registration" ? "Democratic registration" : "Democratic"}
+              {mode === "registration"
+                ? "Democratic registration"
+                : "Democratic"}
             </span>
             <span>
               <i className="dot rep" />
-              {mode === "registration" ? "Republican registration" : "Republican"}
+              {mode === "registration"
+                ? "Republican registration"
+                : "Republican"}
             </span>
+            {unitKind === "district" &&
+              counties.some((c) => c.status === "not_contested") && (
+                <span>
+                  <svg
+                    className="legend-hatch"
+                    viewBox="0 0 12 12"
+                    aria-hidden="true"
+                  >
+                    <rect width="12" height="12" fill={`url(#${hatchId})`} />
+                  </svg>
+                  Not contested
+                </span>
+              )}
             <span>
               <i className="dot other" />
-              {mode === "registration" ? "Other / tie / missing" : "Other / tie / unavailable"}
+              Other / tie / unavailable
             </span>
           </>
         )}
       </div>
       {mode === "registration" && (
-        <p className="footnote">
-          <strong>
-            Colors show the largest party-registration group among returned early ballots in each county. They do not show which candidates voters selected or how they voted.
-          </strong>
-        </p>
+        <>
+          <p className="map-explanation">
+            <strong>Registration is not candidate support.</strong> Colors do
+            not show how anyone voted.
+          </p>
+          <details className="map-definition">
+            <summary>How colors are assigned</summary>
+            <p>
+              Colors show the largest party-registration group among returned
+              early ballots in each county. Other, tied and unavailable
+              breakdowns use the neutral color. They do not show which
+              candidates voters selected.
+            </p>
+          </details>
+        </>
       )}
       <p className="map-note">
-        {mode === "registration"
-          ? "Party registration among returned early ballots"
-          : mode === "activity"
-          ? "All counties · neutral participation map"
-          : mode === "unofficial"
-            ? "Current reported leader · unofficial"
-            : unitKind === "district"
-              ? "District winner · solid party colors"
-              : "County winner · solid party colors"}
-        <br />
+        {mode !== "registration" && (
+          <>
+            {mode === "activity"
+              ? "All counties · neutral participation map"
+              : mode === "unofficial"
+                ? "Current reported leader · unofficial"
+                : unitKind === "district"
+                  ? "District winner · solid party colors"
+                  : "County winner · solid party colors"}
+            <br />
+          </>
+        )}
         U.S. Census Bureau · {geography.vintage} boundaries
+        {mode === "registration" && (
+          <>
+            <br />
+            Select a county on the map or in the table.
+          </>
+        )}
       </p>
     </div>
   );

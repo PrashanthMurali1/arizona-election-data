@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useState } from "react";
 import { Link, useNavigate, useParams } from "react-router-dom";
 import type { Activity, Detail, Election, Geography, Results } from "../types";
 import HouseElectionPage from "./HouseElectionPage";
@@ -7,12 +7,15 @@ import { get, useResource } from "../api";
 import {
   Availability,
   CandidateSummary,
+  CandidateOverview,
   ErrorState,
   Loading,
   TurnoutMetrics,
   NotFound,
 } from "../components";
 import { number } from "../results";
+import Icon from "../Icon";
+import useGeographySelection from "../useGeographySelection";
 import CountyMap from "../Map";
 import CountyTable from "../CountyTable";
 export default function ElectionPage() {
@@ -54,7 +57,7 @@ function StatewideElectionPage({
   } | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [selected, setSelected] = useState<string | null>(null);
-  const detailRef = useRef<HTMLElement>(null);
+  const { detailRef, focusSelection } = useGeographySelection(selected);
   useEffect(() => {
     const controller = new AbortController();
     setState(null);
@@ -84,9 +87,7 @@ function StatewideElectionPage({
   }, [id]);
   function selectCounty(geoid: string) {
     setSelected(geoid);
-    requestAnimationFrame(() =>
-      detailRef.current?.focus({ preventScroll: true }),
-    );
+    focusSelection();
   }
   if (error) return <ErrorState message={error} />;
   if (!state) return <Loading />;
@@ -110,22 +111,26 @@ function StatewideElectionPage({
         <span>/</span>
         <span>{election.year}</span>
       </div>
-      <section className="election-heading">
+      <section className="election-heading page-heading">
         <div>
-          <p className="eyebrow">
-            ARIZONA · {election.kind.toUpperCase()} ELECTION
-          </p>
           <h1>
             {election.office} <span>{election.year}</span>
           </h1>
+          <p className="election-description">
+            {election.kind === "special" ? "Special" : "General"} election ·{" "}
+            {new Date(`${election.date}T12:00:00`).toLocaleDateString("en-US", {
+              month: "long",
+              day: "numeric",
+              year: "numeric",
+            })}
+          </p>
           <div className="election-meta">
             <Availability status={election.status} />
-            <span>
-              {new Date(`${election.date}T12:00:00`).toLocaleDateString(
-                "en-US",
-                { month: "long", day: "numeric", year: "numeric" },
-              )}
-            </span>
+            <a href="#sources">
+              {election.status === "civicapi"
+                ? "Provider report & limitations"
+                : "Sources & verification"}
+            </a>
           </div>
         </div>
         <label className="year-picker">
@@ -166,34 +171,15 @@ function StatewideElectionPage({
         </div>
       )}
       {activity && <SnapshotNotice activity={activity} />}
-      <section className="panel statewide">
-        <div className="panel-heading">
-          <div>
-            <p className="eyebrow">THE STATEWIDE PICTURE</p>
-            <h2>Candidate results</h2>
-          </div>
-          <div className="contest-total">
-            <strong>{number(statewide.total_votes)}</strong>
-            <span>votes in this contest</span>
-          </div>
-        </div>
-        <CandidateSummary results={statewide} />
-        <div className="statewide-foot">
-          <span>{number(election.county_count)} counties represented</span>
-          <span>
-            Vote shares include all verified candidates and write-ins.
-          </span>
-        </div>
-      </section>
-      <section className="county-section">
+      <CandidateOverview results={statewide} />
+      <section className="county-section" id="geography-explorer">
         <div className="section-heading">
           <div>
-            <p className="eyebrow">A CLOSER LOOK</p>
             <h2>County by county</h2>
           </div>
           <span className="muted">Select a county to explore</span>
         </div>
-        <div className="county-grid">
+        <div className="county-grid explorer">
           <section className="panel map-panel" aria-label="County winner map">
             <div className="panel-heading">
               <h3>Arizona</h3>
@@ -210,7 +196,7 @@ function StatewideElectionPage({
             />
           </section>
           <section
-            className="panel table-panel"
+            className="panel table-panel table-region"
             aria-label="County results table"
           >
             <div className="panel-heading">
@@ -231,18 +217,21 @@ function StatewideElectionPage({
           </section>
         </div>
       </section>
+      <span className="sr-only" role="status">
+        {county
+          ? `${county.name} County selected. Candidate results and turnout updated.`
+          : ""}
+      </span>
       <section
-        className="panel county-detail"
+        className="panel county-detail selection-panel"
         ref={detailRef}
         tabIndex={-1}
         aria-label="Selected county details"
-        aria-live="polite"
       >
         {county ? (
           <>
             <div className="panel-heading">
               <div>
-                <p className="eyebrow">COUNTY DETAILS · FIPS {county.geoid}</p>
                 <h2>{county.name} County</h2>
               </div>
               <button
@@ -250,7 +239,7 @@ function StatewideElectionPage({
                 onClick={() => setSelected(null)}
                 aria-label="Close county details"
               >
-                ×
+                <Icon name="close" />
               </button>
             </div>
             <div className="detail-grid">
@@ -259,7 +248,6 @@ function StatewideElectionPage({
                 <CandidateSummary results={county} />
               </div>
               <div className="turnout-panel">
-                <p className="eyebrow">ELECTION PARTICIPATION</p>
                 <h3>Beyond the contest</h3>
                 <TurnoutMetrics turnout={county.turnout} />
                 <p className="footnote">
@@ -272,7 +260,7 @@ function StatewideElectionPage({
           </>
         ) : (
           <div className="select-prompt">
-            <span aria-hidden="true">⌖</span>
+            <Icon name="location" />
             <div>
               <h3>Explore a county’s story</h3>
               <p>
@@ -283,14 +271,15 @@ function StatewideElectionPage({
           </div>
         )}
       </section>
-      <section className="sources">
-        <p className="eyebrow">TRANSPARENT BY DESIGN</p>
+      <section className="sources source-section" id="sources">
         <h2>Sources & verification</h2>
         <p>{election.notes}</p>
         <div className="sources-grid">
           {detail.sources.map((s) => (
             <a key={s.id} href={s.url} target="_blank" rel="noreferrer">
-              <small>DATA SOURCE ↗</small>
+              <span className="source-link-icon">
+                <Icon name="arrow" />
+              </span>
               <strong>{s.title}</strong>
               <span>{s.notes}</span>
             </a>
@@ -299,7 +288,12 @@ function StatewideElectionPage({
         <details>
           <summary>View reconciliation report</summary>
           {detail.reconciliation ? (
-            <div className="table-scroll">
+            <div
+              className="table-scroll scroll-region"
+              tabIndex={0}
+              role="region"
+              aria-label="Scrollable source report"
+            >
               <table>
                 <caption>
                   County sums compared with published statewide totals
