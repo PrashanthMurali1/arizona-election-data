@@ -282,9 +282,20 @@ for (const width of [1440, 390, 320]) {
         await expect(panel.locator(".statewide-foot")).toContainText(
           dashboard.activity.statewide_policy,
         );
+        const sources = panel.getByRole("region", {
+          name: "Sources & coverage",
+          exact: true,
+        });
         await expect(
-          panel.locator('.sources a[href="/methodology"]'),
-        ).toBeVisible();
+          sources.getByRole("link", { name: "civicAPI", exact: true }),
+        ).toHaveAttribute("href", "https://civicapi.org/early-vote/");
+        // The redesign keeps methodology in the global footer, separate from
+        // provider attribution. Verify the link remains visible at every width.
+        const methodology = page
+          .getByRole("contentinfo")
+          .getByRole("link", { name: /^Sources & methodology/ });
+        await expect(methodology).toBeVisible();
+        await expect(methodology).toHaveAttribute("href", "/methodology");
       }
       if (category.name !== "Live Elections") {
         await expect(
