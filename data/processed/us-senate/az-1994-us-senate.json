@@ -9,7 +9,7 @@
   "source_id": "canvass-1994-us-senate",
   "source_title": "Arizona Secretary of State — 1994 official U.S. Senate canvass",
   "source_url": "https://apps.azsos.gov/election/files/hist/canvass1994ge.pdf",
-  "source_sha256": "ad7840e43667da61179a488587c0067e0fba15817886fa79354fef7e09685f3f",
+  "source_sha256": "6c8f7a690a0b0834008a69d3d3ed910e8f8634a22f3eacaed2ad047ba2fdf5e7",
   "source_notes": "1994 regular Arizona U.S. Senate election. County cells and statewide totals transcribed from page 1 of the official canvass issued by the Arizona Secretary of State; every candidate's 15 county cells sum to the printed statewide TOTAL. Cells were read from the printed page images. Named write-ins are included. The canvass PDF was supplied by the project maintainer from the Secretary of State and is retained under data/raw/us-senate/pdfs with its SHA-256 recorded in the snapshots. Event turnout is shared with the Governor and Attorney General contests of the same election.",
   "reference_path": "data/raw/us-senate/1994-transcription.csv",
   "provenance_path": "data/raw/us-senate/1994-provenance.json",

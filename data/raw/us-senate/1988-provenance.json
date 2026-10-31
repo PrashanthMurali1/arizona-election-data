@@ -28,7 +28,7 @@
   "snapshots": [
     {
       "path": "data/raw/us-senate/1988-transcription.csv",
-      "sha256": "f9c5ad575d28ca61c9958deb8d967ed3cdf27d61250cf48c6c27e2cad7b49fa8"
+      "sha256": "f167b0a2548005ecc3f8c9f9af56fb1ca2ee0fde4f747075761a3dfdd61ecc06"
     },
     {
       "path": "data/raw/us-senate/pdfs/canvass1988ge.pdf",
@@ -40,7 +40,7 @@
     },
     {
       "path": "data/raw/us-senate/1988-turnout-transcription.csv",
-      "sha256": "de63c1a73055f20d3c96147e90d8fc33b5eb5a34244c6034e09c011a1fae4460"
+      "sha256": "4f4da2b4800983235e0ec9267f7ffc68b8618fff07c343ba67f452ef02dc0543"
     }
   ]
 }

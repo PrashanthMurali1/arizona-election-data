@@ -9,7 +9,7 @@
   "source_id": "rightdatausa-1988-us-senate",
   "source_title": "RightDataUSA — 1988 Senatorial Election Results for Arizona (county results)",
   "source_url": "https://www.rightdatausa.com/election_results?y=1988&t=S1&r=N&s=AZ&d=all&WhichMap=vs",
-  "source_sha256": "f9c5ad575d28ca61c9958deb8d967ed3cdf27d61250cf48c6c27e2cad7b49fa8",
+  "source_sha256": "f167b0a2548005ecc3f8c9f9af56fb1ca2ee0fde4f747075761a3dfdd61ecc06",
   "source_notes": "1988 regular Arizona U.S. Senate election. The Secretary of State canvass scan is too degraded to read every county cell, so county results come from RightDataUSA's compilation (a secondary source, supplied as a saved copy of its page). Each candidate's 15 county cells sum exactly to the official statewide total printed on page 3 of the Secretary of State canvass, and every legible scan cell agrees, so the contest is shown as verified; the county source is secondary and is named as such. Election-wide registration and ballots cast are the official figures from page 1 of the canvass (they sum to the printed statewide totals); county turnout percentages are computed from them because the printed percentages are illegible. The write-in total is one aggregate row.",
   "reference_path": "data/raw/us-senate/1988-transcription.csv",
   "provenance_path": "data/raw/us-senate/1988-provenance.json",

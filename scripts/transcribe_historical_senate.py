@@ -211,7 +211,7 @@ def write(year):
     check(year, rows)
     csv_path = RAW / f"{year}-transcription.csv"
     with csv_path.open("w", encoding="utf-8", newline="") as f:
-        w = csv.writer(f, lineterminator="\n")
+        w = csv.writer(f, lineterminator="\r\n")
         w.writerow(["party", "name", "write_in", *GEOIDS, "official_statewide", "category"])
         for party, name, write_in, county, state, *rest in rows:
             w.writerow([party, name, str(write_in).lower(), *(county if county else [""] * 15), state, rest[0] if rest else "named_candidate"])
@@ -277,7 +277,7 @@ def write(year):
             reg, ballots, pct = TURNOUT[year]
             turnout_path = RAW / f"{year}-turnout-transcription.csv"
             with turnout_path.open("w", encoding="utf-8", newline="") as f:
-                w = csv.writer(f, lineterminator="\n")
+                w = csv.writer(f, lineterminator="\r\n")
                 w.writerow(["geoid", "ballots_cast", "registered_voters", "percent"])
                 for i, geoid in enumerate(GEOIDS + ["04"]):
                     w.writerow([geoid, ballots[i], reg[i], f"{pct[i]:.2f}"])

@@ -19,7 +19,7 @@
   "snapshots": [
     {
       "path": "data/raw/us-senate/1986-transcription.csv",
-      "sha256": "991e9fdb65ddfe0da547ee194e7220458818f9cebaf3fd8263af70e0730c370b"
+      "sha256": "be7e064425c05794ebaad992cd577a66777d93f3355a87fc046fcf72a2cfcc7f"
     },
     {
       "path": "data/raw/us-senate/pdfs/canvass1986ge.pdf",
@@ -27,7 +27,7 @@
     },
     {
       "path": "data/raw/us-senate/1986-turnout-transcription.csv",
-      "sha256": "c94ca2624fbd87555137f3d3a2dcb04714db221935614e22f96599224041bfbd"
+      "sha256": "51fc82331603e8d22d44cd461f2bfeacfa6f9216d98035c85f93009f12350273"
     }
   ]
 }

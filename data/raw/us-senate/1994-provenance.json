@@ -16,7 +16,7 @@
   "snapshots": [
     {
       "path": "data/raw/us-senate/1994-transcription.csv",
-      "sha256": "ad7840e43667da61179a488587c0067e0fba15817886fa79354fef7e09685f3f"
+      "sha256": "6c8f7a690a0b0834008a69d3d3ed910e8f8634a22f3eacaed2ad047ba2fdf5e7"
     },
     {
       "path": "data/raw/us-senate/pdfs/canvass1994ge.pdf",
