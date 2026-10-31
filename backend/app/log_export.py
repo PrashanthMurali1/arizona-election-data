@@ -17,7 +17,7 @@ ENDPOINTS = {'US': 'https://log-api.newrelic.com/log/v1',
 FIELDS = {'timestamp', 'severity', 'service', 'event', 'correlation_id', 'route', 'feed',
           'outcome', 'duration_ms', 'status_code', 'exit_code', 'suppressed_count', 'exception',
           'trace.id', 'span.id', 'entity.guid', 'entity.name', 'entity.type'}
-FIELDS.update({'commit_sha', 'services', 'phase', 'rollback', 'reason'})
+FIELDS.update({'commit_sha', 'services', 'phase', 'rollback', 'reason', 'next_action', 'changed_data_paths'})
 
 
 class LogExporter:

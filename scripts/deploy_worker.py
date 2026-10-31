@@ -29,8 +29,8 @@ SHARED = {'backend/app/observability.py', 'backend/app/log_export.py', 'producti
 
 
 class Failure(Exception):
-    def __init__(self, reason, phase='preflight', code=None):
-        self.reason, self.phase, self.code = reason, phase, code
+    def __init__(self, reason, phase='preflight', code=None, **extra):
+        self.reason, self.phase, self.code, self.extra = reason, phase, code, extra
         super().__init__(reason)
 
 
@@ -214,7 +214,8 @@ class Worker:
         atomic_json(self.state_path, self.state)
 
     def event(self, level, event, **fields):
-        self.emit(level, event, commit_sha=self.sha, phase=self.phase, **fields)
+        fields.setdefault('phase', self.phase)  # a failure reports where it was raised, not where the worker last was
+        self.emit(level, event, commit_sha=self.sha, **fields)
 
     def notice(self, reason):
         key = reason + ':' + str(self.sha)
@@ -791,8 +792,11 @@ class Worker:
             self.state['failed'].pop(self.sha, None)
             self.save()
         if self.sha in self.state.get('failed', {}):
+            failed = self.state['failed'][self.sha]
             self.state['last_result'] = {'status':'failed_commit_skipped','commit':self.sha,'at':now()}
             self.save()
+            self.event(logging.WARNING, 'deployment_skipped', outcome='skipped', reason=failed.get('reason'),
+                       phase=failed.get('phase', self.phase), next_action='retry_failed_commit')
             return
         release = self.release(self.sha)
         config = self.render(release)
@@ -800,8 +804,9 @@ class Worker:
         sources = source_fingerprints(entries, config)
         old_sha = self.state['manifest']['backend']['source_sha']
         paths = self.git('diff', '--name-only', old_sha, self.sha).splitlines()
-        if any(p.startswith('data/') for p in paths) and self.sha not in self.state.get('data_release_ack', {}):
-            raise Failure('data_release_required', 'preflight')
+        data_paths = [p for p in paths if p.startswith('data/')]
+        if data_paths and self.sha not in self.state.get('data_release_ack', {}):
+            raise Failure('data_release_required', 'preflight', changed_data_paths=len(data_paths), next_action='ack_data_release')
         changed = affected_services(self.state['manifest'], sources, config)
         self.current_affected = changed
         if not changed:
@@ -838,7 +843,7 @@ class Worker:
                     self.state['last_result'] = {'status':'failed','reason':exc.reason,'phase':exc.phase,'commit':self.sha,'at':now()}
                     self.save()
                     self.event(logging.ERROR, 'deployment_failed', reason=exc.reason, outcome='failed', exit_code=exc.code,
-                               services=self.current_affected, rollback=self.rollback_result,
+                               phase=exc.phase, services=self.current_affected, rollback=self.rollback_result, **exc.extra,
                                duration_ms=round((time.monotonic()-getattr(self,'started',time.monotonic()))*1000))
                     return 1
             return 0

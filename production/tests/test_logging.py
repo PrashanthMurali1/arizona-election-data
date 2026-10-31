@@ -196,3 +196,17 @@ def test_connector_errors_cannot_leak_visitor_url_or_credentials(output):
     connector_event(json.dumps({'level': 'debug', 'message': 'PRIVATE_SENTINEL'}))
     assert 'PRIVATE_SENTINEL' not in output.getvalue()
     assert [r['severity'] for r in rows(output)] == ['ERROR', 'WARNING']
+
+
+def test_deployment_failure_guidance_fields_are_allowlisted_and_bounded():
+    import json
+    from backend.app.observability import JsonFormatter
+    formatter = JsonFormatter('deploy_worker')
+    def render(**fields):
+        record = logging.LogRecord('deploy_worker', logging.ERROR, __file__, 1, '', (), None)
+        record.__dict__.update(event='deployment_failed', **fields)
+        return json.loads(formatter.format(record))
+    good = render(reason='data_release_required', phase='preflight', next_action='ack_data_release', changed_data_paths=56)
+    assert good['next_action'] == 'ack_data_release' and good['changed_data_paths'] == 56 and good['phase'] == 'preflight'
+    bad = render(next_action='run; rm -rf /', changed_data_paths='secret')
+    assert 'next_action' not in bad and 'changed_data_paths' not in bad
