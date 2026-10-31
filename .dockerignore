@@ -10,6 +10,7 @@
 .production-cache
 .env
 .env.*
+**/*.env
 !.env.example
 **/node_modules
 **/dist
@@ -21,3 +22,16 @@ backend/local
 data
 *.db
 *.db-*
+**/secrets
+**/backups
+**/*.pem
+**/*.key
+**/*.p12
+**/*.pfx
+**/*.keystore
+**/*.log
+**/*.jsonl
+**/*.sqlite
+**/*.sqlite3
+**/*.sqlite-*
+**/*.sqlite3-*

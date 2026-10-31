@@ -1,0 +1,13 @@
+#!/bin/sh
+# Opt in with: git config --local core.hooksPath .githooks
+set -eu
+cd "$(git rev-parse --show-toplevel)"
+if [ -x .venv/Scripts/python.exe ]; then
+  exec .venv/Scripts/python.exe tools/privacy_scan.py --staged --check-identity
+elif [ -x .venv/bin/python ]; then
+  exec .venv/bin/python tools/privacy_scan.py --staged --check-identity
+elif command -v python3 >/dev/null 2>&1; then
+  exec python3 tools/privacy_scan.py --staged --check-identity
+else
+  exec python tools/privacy_scan.py --staged --check-identity
+fi

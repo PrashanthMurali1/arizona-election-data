@@ -1,0 +1,244 @@
+{
+  "version": 1,
+  "content": [
+    {
+      "path": "data/raw/us-house/2014-recount-indexed.txt",
+      "sha256": "625cd11cb600fc01d561c25a120aac0925f87b19c2dc940f915784d36aa74232",
+      "categories": [
+        "email_address"
+      ],
+      "reason": "Public official-source contact information and published source markup; no overlap with repository identities."
+    },
+    {
+      "path": "data/raw/us-house/calendar/vacancies-113.html",
+      "sha256": "99832b2bb83491996b7b20f4303009780088decb05ff1aa71df49eac3143bd3f",
+      "categories": [
+        "email_address"
+      ],
+      "reason": "Public official-source contact information and published source markup; no overlap with repository identities."
+    },
+    {
+      "path": "data/raw/us-house/calendar/vacancies-114.html",
+      "sha256": "23ade96fc3e23b38abf8b253507c6d00b869b7cce23fe55278f2dc00dd3560d9",
+      "categories": [
+        "email_address"
+      ],
+      "reason": "Public official-source contact information and published source markup; no overlap with repository identities."
+    },
+    {
+      "path": "data/raw/us-house/calendar/vacancies-115.html",
+      "sha256": "9a38b84923f12ac717f40d57eb7b418470f42fec8250cfd2cfed93f395b270c7",
+      "categories": [
+        "email_address"
+      ],
+      "reason": "Public official-source contact information and published source markup; no overlap with repository identities."
+    },
+    {
+      "path": "data/raw/us-house/calendar/vacancies-116.html",
+      "sha256": "86c4d81f4086baa823cad9ba53ce060696e2cd5238ebeb249c8e1b97abfb0412",
+      "categories": [
+        "email_address"
+      ],
+      "reason": "Public official-source contact information and published source markup; no overlap with repository identities."
+    },
+    {
+      "path": "data/raw/us-house/calendar/vacancies-117.html",
+      "sha256": "f514775aff675bfbb472e3bfc1468e9bd120aec4d65967887705c3495a1d9f7c",
+      "categories": [
+        "email_address"
+      ],
+      "reason": "Public official-source contact information and published source markup; no overlap with repository identities."
+    },
+    {
+      "path": "data/raw/us-house/calendar/vacancies-118.html",
+      "sha256": "ae4e43688f45150502373a126e9f011558d6814e3e401b5076edfb2dd91c36cd",
+      "categories": [
+        "email_address"
+      ],
+      "reason": "Public official-source contact information and published source markup; no overlap with repository identities."
+    },
+    {
+      "path": "data/raw/us-house/calendar/vacancies-119.html",
+      "sha256": "6d5f4b5fbf80bce4dcad4561fb9de86f9cd4941fd7a632b3db188c03ef078652",
+      "categories": [
+        "email_address"
+      ],
+      "reason": "Public official-source contact information and published source markup; no overlap with repository identities."
+    },
+    {
+      "path": "backend/tests/test_cloudflare_inspection.py",
+      "sha256": "2f3259c430a8e27d0f967ba496b98056603e8de55b5d1ddaf4ea834e928f1b70",
+      "categories": [
+        "credential_url",
+        "secret_url_parameter"
+      ],
+      "reason": "Deliberate synthetic credential/URL sentinels in redaction tests; preserved to verify secrets are not logged."
+    },
+    {
+      "path": "production/tests/test_logging.py",
+      "sha256": "44cd9e66f1fc9a9f3590f0962f5c3932099800a0715e4011eb05fff7edb30612",
+      "categories": [
+        "credential_url",
+        "secret_url_parameter"
+      ],
+      "reason": "Deliberate synthetic credential/URL sentinels in redaction tests; preserved to verify secrets are not logged."
+    }
+  ],
+  "binary": [
+    {
+      "path": ".agents/skills/impeccable/scripts/bin/darwin-arm64/impeccable",
+      "sha256": "543ee2f72036ad185dc9991ac3ba86b74d91f988f3d497776a088b8b65c8a9e1",
+      "reason": "Vendored third-party tool distribution; preserve upstream bytes and attribution."
+    },
+    {
+      "path": ".claude/skills/impeccable/scripts/bin/darwin-arm64/impeccable",
+      "sha256": "543ee2f72036ad185dc9991ac3ba86b74d91f988f3d497776a088b8b65c8a9e1",
+      "reason": "Vendored third-party tool distribution; preserve upstream bytes and attribution."
+    },
+    {
+      "path": ".gemini/skills/impeccable/scripts/bin/darwin-arm64/impeccable",
+      "sha256": "543ee2f72036ad185dc9991ac3ba86b74d91f988f3d497776a088b8b65c8a9e1",
+      "reason": "Vendored third-party tool distribution; preserve upstream bytes and attribution."
+    },
+    {
+      "path": "data/raw/2018/az_2018.zip",
+      "sha256": "5f92efa410a2dbe57c1c7f710cfdf28a8a93a29c5692429d01dd66f1885e67d7",
+      "reason": "Retained public election-source document or geographic archive; preserve provenance."
+    },
+    {
+      "path": "data/raw/2018/yavapai-write-ins.pdf",
+      "sha256": "e7916a953487dda1d6cc51aa36963a954217b809b28340419d4fc90113f86067",
+      "reason": "Retained public election-source document or geographic archive; preserve provenance."
+    },
+    {
+      "path": "data/raw/2026/pima-ballot-status.pdf",
+      "sha256": "9cf1a525abb8246ab685e8c3cc64899a423c9c405d7d3f0f328faf56a58d2e96",
+      "reason": "Retained public election-source document or geographic archive; preserve provenance."
+    },
+    {
+      "path": "data/raw/2026/snapshots/9cf1a525abb8246ab685e8c3cc64899a423c9c405d7d3f0f328faf56a58d2e96.pdf",
+      "sha256": "9cf1a525abb8246ab685e8c3cc64899a423c9c405d7d3f0f328faf56a58d2e96",
+      "reason": "Retained public election-source document or geographic archive; preserve provenance."
+    },
+    {
+      "path": "data/raw/counties.zip",
+      "sha256": "4a2c23c5486916115137fed7e84a32a4dcfeae453d02840d3e3f1fd8efc3ba58",
+      "reason": "Retained public election-source document or geographic archive; preserve provenance."
+    },
+    {
+      "path": "data/raw/us-house/2024-openelections.zip",
+      "sha256": "b4defa4b3d818d12748f1f0f362f7be951265d8951fe8e0fc6c8be01e3f158ca",
+      "reason": "Retained public election-source document or geographic archive; preserve provenance."
+    },
+    {
+      "path": "data/raw/us-house/2025-pima-canvass.pdf",
+      "sha256": "4ac87aad895b4f8d1a860b0a7aabb719b41b02c76fd55bedda51b22fb01b2ba6",
+      "reason": "Retained public election-source document or geographic archive; preserve provenance."
+    },
+    {
+      "path": "data/raw/us-house/2025-pima-summary.pdf",
+      "sha256": "6f41671d23aeb8c46c24497e921ea5c5ab38506f8e4d2ee80be20b6f07440235",
+      "reason": "Retained public election-source document or geographic archive; preserve provenance."
+    },
+    {
+      "path": "data/raw/us-house/clerk-2014.pdf",
+      "sha256": "5e4e2208ef8bb6f9e3ba6bb988801dd9a53dbd3cb29596331a78ff79dbed5f1b",
+      "reason": "Retained public election-source document or geographic archive; preserve provenance."
+    },
+    {
+      "path": "data/raw/us-house/clerk-2016.pdf",
+      "sha256": "6d2eba0e60e3f32153a5ba9c369a42a04616ccc73b5b3bca927ea6a11cade3a3",
+      "reason": "Retained public election-source document or geographic archive; preserve provenance."
+    },
+    {
+      "path": "data/raw/us-house/clerk-2018.pdf",
+      "sha256": "35ef9bc223d89cbd3ce4c544a88e93523394060d400001d365612c97f9348c53",
+      "reason": "Retained public election-source document or geographic archive; preserve provenance."
+    },
+    {
+      "path": "data/raw/us-house/clerk-2020.pdf",
+      "sha256": "666b2a1f673f263087c141c4d44b0dce47cbddc8f4df27fbc8b415cf05842b76",
+      "reason": "Retained public election-source document or geographic archive; preserve provenance."
+    },
+    {
+      "path": "data/raw/us-house/clerk-2022.pdf",
+      "sha256": "ef9b8cefcc44bebbdc4928bf346b50e00a72dd3bb54a71ed93ec60d4ebf47690",
+      "reason": "Retained public election-source document or geographic archive; preserve provenance."
+    },
+    {
+      "path": "data/raw/us-house/clerk-2024.pdf",
+      "sha256": "d4ba800fc17135b616ae556c92861080ab962d95916ace34b546c5aac824aec4",
+      "reason": "Retained public election-source document or geographic archive; preserve provenance."
+    },
+    {
+      "path": "data/raw/us-house/districts-2012-plan.zip",
+      "sha256": "f6b92d1f722125801e59cbddaf22a0c50a4bf08e6945fc94d7e8d17321f0c47b",
+      "reason": "Retained public election-source document or geographic archive; preserve provenance."
+    },
+    {
+      "path": "data/raw/us-house/districts-2022-plan.zip",
+      "sha256": "7d16875ca4d56f63402b122e37a47690a0b3edb30129b475b7d3e79191dcf774",
+      "reason": "Retained public election-source document or geographic archive; preserve provenance."
+    },
+    {
+      "path": "data/raw/us-senate/az-2016-general-official-signed-state-canvass.pdf",
+      "sha256": "a765b3d03bcbdcaba4e3e869bd24cbb6dc2288841d7848eaa18b46e099ccaada",
+      "reason": "Retained public election-source document or geographic archive; preserve provenance."
+    },
+    {
+      "path": "data/raw/us-senate/az-2020-general-results-detail.xml.zip",
+      "sha256": "542f2e4d60463d6ad23b78e2de0f73759806945c6bcaedc6c0a7dd7aec422c06",
+      "reason": "Retained public election-source document or geographic archive; preserve provenance."
+    },
+    {
+      "path": "frontend/public/fonts/dm-sans-0.ttf",
+      "sha256": "b0ae3e89a7d3ef2b1838bb4b1ceb0b17cc3435af061eee809d76aa623ff116e9",
+      "reason": "Licensed font asset."
+    },
+    {
+      "path": "frontend/public/fonts/dm-sans-1.ttf",
+      "sha256": "376427b5322148d8de1e03f263bcca4935a2d60ba71d9f94f4947ab664c711ae",
+      "reason": "Licensed font asset."
+    },
+    {
+      "path": "frontend/public/fonts/dm-sans-2.ttf",
+      "sha256": "b79a2ea7a38f33fd96a282fadb9ce97626bb0724a44d21075859f0e50239993a",
+      "reason": "Licensed font asset."
+    },
+    {
+      "path": "frontend/public/fonts/dm-sans-3.ttf",
+      "sha256": "2a8e7f713ee79fbccdef3cef5c787aff47580299f7da60144961e7db2ec08211",
+      "reason": "Licensed font asset."
+    },
+    {
+      "path": "frontend/public/fonts/dm-sans-4.ttf",
+      "sha256": "b00c1f73ddaa9d435c49b0777223823e5f4fcf6a06350d532df3d7730375dd9e",
+      "reason": "Licensed font asset."
+    },
+    {
+      "path": "frontend/public/fonts/manrope-0.ttf",
+      "sha256": "ed335894f8d954263675f7e457bf657374d8b7be629be4dc43aef97c309ad3ae",
+      "reason": "Licensed font asset."
+    },
+    {
+      "path": "frontend/public/fonts/manrope-1.ttf",
+      "sha256": "437dc9f921739a6893128fa4dfc299424951148475815a9a213a46457878c42b",
+      "reason": "Licensed font asset."
+    },
+    {
+      "path": "frontend/public/fonts/manrope-2.ttf",
+      "sha256": "68ed4be49ec7d32f07b42f9232dc01ca1df7a77be1d9b0731aac74db58235f34",
+      "reason": "Licensed font asset."
+    },
+    {
+      "path": "frontend/public/fonts/manrope-3.ttf",
+      "sha256": "ea1f264039fed13fd36e6d6f49fcae4fe7007def02cf2972b5c7f6d6f1349d06",
+      "reason": "Licensed font asset."
+    },
+    {
+      "path": "frontend/public/fonts/manrope-4.ttf",
+      "sha256": "a8291b05b2732801abdbbb6d06866c57431c3b990638462423e692151b5e0895",
+      "reason": "Licensed font asset."
+    }
+  ]
+}

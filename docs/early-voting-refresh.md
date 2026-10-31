@@ -38,8 +38,7 @@ The installer embeds absolute runtime, script, working-directory and database pa
 The scheduled command is also available manually:
 
 ```sh
-"/Users/prashanth/Documents/LLM Projects/election-data/.venv/bin/python" \
-  "/Users/prashanth/Documents/LLM Projects/election-data/scripts/refresh_2026.py" --early-voting
+./.venv/bin/python scripts/refresh_2026.py --early-voting
 ```
 
 The importer resolves local files against the repository root. Set `DATABASE_URL` explicitly when using a non-default database, matching the scheduler environment.
