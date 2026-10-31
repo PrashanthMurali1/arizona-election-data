@@ -181,6 +181,30 @@ def test_data_change_requires_data_release_acknowledgement(worker,monkeypatch,tm
     assert worker.state['last_result']['status']=='noop'
 
 
+def test_data_release_failure_event_reports_its_phase_and_next_step(worker,monkeypatch,tmp_path):
+    stub_cycle(worker,monkeypatch,tmp_path)
+    events=[]
+    worker.emit=lambda level,event,**fields:events.append((event,fields))
+    worker.phase='render'  # the worker has moved on from preflight by the time the check runs
+    monkeypatch.setattr(worker,'cycle',lambda retry=False:(_ for _ in ()).throw(d.Failure('data_release_required','preflight',changed_data_paths=3,next_action='ack_data_release')))
+    monkeypatch.setattr(worker,'fetch',lambda:SHA)
+    assert worker.run()==1
+    event,fields=events[-1]
+    assert event=='deployment_failed' and fields['phase']=='preflight'
+    assert fields['changed_data_paths']==3 and fields['next_action']=='ack_data_release'
+
+
+def test_previously_failed_commit_skip_is_logged(worker,monkeypatch,tmp_path):
+    stub_cycle(worker,monkeypatch,tmp_path)
+    events=[]
+    worker.emit=lambda level,event,**fields:events.append((event,fields))
+    worker.state['failed'][SHA]={'reason':'data_release_required','phase':'preflight'}
+    worker.cycle()
+    event,fields=events[-1]
+    assert event=='deployment_skipped' and fields['reason']=='data_release_required'
+    assert fields['phase']=='preflight' and fields['next_action']=='retry_failed_commit'
+
+
 def test_data_release_acknowledgement_is_commit_specific(worker,monkeypatch,tmp_path):
     stub_cycle(worker,monkeypatch,tmp_path)
     worker.acknowledge_data_release('c'*40)

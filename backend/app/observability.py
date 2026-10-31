@@ -14,7 +14,7 @@ from uuid import uuid4
 
 correlation_id = ContextVar('correlation_id', default=None)
 log = logging.getLogger('elections')
-FIELDS = {'outcome', 'duration_ms', 'status_code', 'exit_code', 'suppressed_count'}
+FIELDS = {'outcome', 'duration_ms', 'status_code', 'exit_code', 'suppressed_count', 'changed_data_paths'}
 
 
 def exception_details(exc):
@@ -65,6 +65,7 @@ class JsonFormatter(logging.Formatter):
         allowed = {
             'phase': {'preflight','fetch','render','build','test','backup','migrate','activate','verify','rollback','adopt'},
             'rollback': {'not_needed','succeeded','blocked','failed'},
+            'next_action': {'ack_data_release','retry_failed_commit'},
             'reason': {'unsafe_path','tool_unavailable','command_timeout','command_failed','docker_unavailable',
                        'unexpected_remote','dirty_checkout','invalid_commit','dirty_release','protected_storage_changed',
                        'runtime_drift','production_unhealthy','unsupported_build_config','unsafe_build_context',
