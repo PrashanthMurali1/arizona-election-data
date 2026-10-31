@@ -1,0 +1,110 @@
+94GECanvass1.tif (https://apps.azsos.gov/election/files/hist/canvass1994ge.pdf)
+citeturn26view0 [wordlim: 200] Crawled: 11 months ago; Content type: application/pdf; Source: open({"ref_id":"turn20search16","lineno":0}); Redirected to URL: https://apps.azsos.gov/election/files/hist/canvass1994ge.pdf#page=1; Total lines: 1613
+L0: STATE OF ARIZONA OFFICIAL CANVASS - GENERAL ELECTION - November 8, 1994
+L1: Page 1
+L2: 
+L3: Compiled and Issued by
+L4: Secretary of State
+L5: November 28, 1994
+L6: <table id="e1">
+L7: <tr>
+L8: <th></th>
+L9: <th>APACHE</th>
+L10: <th>COCHISE</th>
+L11: <th>COCONINO</th>
+L12: <th>GILA</th>
+L13: <th>GRAHAM</th>
+L14: <th>GREENLEE</th>
+L15: <th>LA PAZ</th>
+L16: <th>MARICOPA</th>
+L17: <th>MOHAVE</th>
+L18: <th>NAVAJO</th>
+L19: <th>PIMA</th>
+L20: <th>PINAL</th>
+L21: <th>SANTA CRUZ</th>
+L22: <th>YAVAPAI</th>
+L23: <th>YUMA</th>
+L24: <th>TOTAL</th>
+L25: </tr>
+L26: <tr>
+L27: <td>TOTAL REGISTRATION</td>
+L28: <td>31,415</td>
+L29: <td>48,807</td>
+L30: <td>59,690</td>
+L31: <td>26,318</td>
+L32: <td>12,657</td>
+L33: <td>5,192</td>
+L34: <td>7,337</td>
+L35: <td>1,189,814</td>
+L36: <td>61,581</td>
+L37: <td>40,646</td>
+L38: <td>399,676</td>
+L39: <td>57,501</td>
+L40: <td>12,829</td>
+L41: <td>78,666</td>
+L42: <td>43,193</td>
+L43: <td>2,075,322</td>
+L44: </tr>
+L45: <tr>
+L46: <td>TOTAL BALLOTS CAST</td>
+L47: <td>17,557</td>
+L48: <td>27,064</td>
+L49: <td>32,914</td>
+L50: <td>15,599</td>
+L51: <td>7,969</td>
+L52: <td>3,000</td>
+L53: <td>3,812</td>
+L54: <td>655,732</td>
+L55: <td>33,811</td>
+L56: <td>22,669</td>
+L57: <td>223,547</td>
+L58: <td>31,558</td>
+L59: <td>7,188</td>
+L60: <td>49,783</td>
+L61: <td>21,521</td>
+L62: <td>1,153,724</td>
+L63: </tr>
+L64: <tr>
+L65: <td>PERCENT TOTAL VOTES CAST</td>
+L66: <td>55.89</td>
+L67: <td>55.45</td>
+L68: <td>55.14</td>
+L69: <td>59.27</td>
+L70: <td>62.96</td>
+L71: <td>57.78</td>
+L72: <td>51.96</td>
+L73: <td>55.11</td>
+L74: <td>54.90</td>
+L75: <td>55.77</td>
+L76: <td>55.93</td>
+L77: <td>54.88</td>
+L78: <td>56.03</td>
+L79: <td>63.28</td>
+L80: <td>49.83</td>
+L81: <td>55.59</td>
+L82: </tr>
+L83: <tr>
+L84: <td>PRECINCTS</td>
+L85: <td>44</td>
+L86: <td>60</td>
+L87: <td>72</td>
+L88: <td>40</td>
+L89: <td>18</td>
+L90: <td>10</td>
+L91: <td>10</td>
+L92: <td>939</td>
+L93: <td>62</td>
+L94: <td>69</td>
+L95: <td>402</td>
+L96: <td>54</td>
+L97: <td>21</td>
+L98: <td>116</td>
+L99: <td>38</td>
+L100: <td>1,955</td>
+L101: </tr>
+L102: </table>
+L103: UNITED STATES SENATOR
+L104: 
+L105: (D) SAM COPPERSMITH
+L106: (R) JON KYL
+L107: (L) SCOTT GRAINGER

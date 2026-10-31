@@ -110,8 +110,17 @@ def reconcile(data, reference_path=None):
             for d in discrepancies
         )
     )
+    # Explicitly reviewed arithmetic differences may be displayed as reported,
+    # while missing data, source mismatches and any additional discrepancy fail.
+    reviewed = data.get("reviewed_county_differences", {})
+    actual = {d["candidate"]: d["difference"] for d in discrepancies if d["difference"] != 0}
+    reported = bool(actual) and actual == reviewed and not missing_candidates and not unexpected_candidates and all(
+        not d["missing_counties"] and d["statewide_matches_reference"]
+        and not d["county_reference_mismatches"] and d["candidate_metadata_matches_reference"]
+        for d in discrepancies
+    )
     return dict(
-        status="verified" if verified else "incomplete",
+        status="verified" if verified else "reported" if reported else "incomplete",
         county_count=len(represented),
         complete_county_count=len(complete_counties) if ids else 0,
         expected_county_count=len(expected),
@@ -192,7 +201,9 @@ def import_all(year=None, office=None):
         for p, office_id in datasets:
             if office is not None and office_id != office:
                 continue
-            data = json.loads(p.read_text())
+            data = json.loads(p.read_text(encoding="utf-8"))
+            if not isinstance(data, dict) or "candidates" not in data:
+                continue
             if selected_year is not None and data.get("year") != selected_year:
                 continue
             if "candidates" not in data:
@@ -272,6 +283,7 @@ def import_all(year=None, office=None):
                 "UNK": "Unattributed",
                 "AEL": "Americans Elect",
                 "NONE": "No affiliation",
+                "RPA": "Reform Party",
                 "RTO": "RTO (as reported)",
                 "HUM": "HUM (as reported)",
                 "ATP": "ATP (as reported)",
@@ -370,7 +382,7 @@ def import_all(year=None, office=None):
     report_path.write_text(json.dumps(all_reports, indent=2) + "\n")
     print(json.dumps(reports, indent=2))
     if any(
-        r["status"] != "verified"
+        r["status"] not in {"verified", "reported"}
         and (
             r["candidates"]
             or r["contest"] in {"az-2022-governor", "az-2022-attorney-general"}
@@ -379,7 +391,9 @@ def import_all(year=None, office=None):
     ):
         raise SystemExit("Import contains incomplete reconciliation; see report")
     for r in reports:
-        if r["status"] != "verified":
+        if r["status"] == "reported":
+            print(r["contest"], "REPORTED: reviewed county/state discrepancy; see source notes and reconciliation")
+        elif r["status"] != "verified":
             print(r["contest"], "INCOMPLETE: source metadata only, no verified results")
 
 

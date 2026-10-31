@@ -1,0 +1,89 @@
+{
+  "year": 1998,
+  "date": "1998-11-03",
+  "office_id": "attorney-general",
+  "office": "Attorney General",
+  "source_url": "https://apps.azsos.gov/election/1998/General/Canvass1998GE.pdf",
+  "source_sha256": "e23757a50fd5b48881d476359bdea3339567b0ca5d95c5a814eef1191451158a",
+  "source_notes": "Official general-election canvass: statewide and county candidate results. Official election-wide registration, ballots cast and turnout are shared with the Governor contest for the same election.",
+  "reference_path": "data/raw/attorney-general/1998-transcription.csv",
+  "candidates": [
+    {
+      "id": "ag-1998-0",
+      "name": "Janet Napolitano",
+      "party": "DEM",
+      "write_in": false,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 10077,
+        "04003": 13195,
+        "04005": 15572,
+        "04007": 7751,
+        "04009": 3714,
+        "04011": 1696,
+        "04012": 1537,
+        "04013": 271157,
+        "04015": 13618,
+        "04017": 11058,
+        "04019": 109341,
+        "04021": 16151,
+        "04023": 3872,
+        "04025": 21412,
+        "04027": 9365
+      },
+      "statewide": 509516
+    },
+    {
+      "id": "ag-1998-1",
+      "name": "Thomas Eblen",
+      "party": "LBT",
+      "write_in": false,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 666,
+        "04003": 528,
+        "04005": 1064,
+        "04007": 336,
+        "04009": 156,
+        "04011": 54,
+        "04012": 86,
+        "04013": 10912,
+        "04015": 788,
+        "04017": 679,
+        "04019": 3833,
+        "04021": 506,
+        "04023": 138,
+        "04025": 1313,
+        "04027": 419
+      },
+      "statewide": 21478
+    },
+    {
+      "id": "ag-1998-2",
+      "name": "Tom McGovern",
+      "party": "REP",
+      "write_in": false,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 4710,
+        "04003": 11357,
+        "04005": 10977,
+        "04007": 5706,
+        "04009": 3527,
+        "04011": 997,
+        "04012": 1628,
+        "04013": 290664,
+        "04015": 14833,
+        "04017": 8502,
+        "04019": 78672,
+        "04021": 11707,
+        "04023": 1835,
+        "04025": 25145,
+        "04027": 9525
+      },
+      "statewide": 479785
+    }
+  ],
+  "turnout": {},
+  "source_title": "1998 Arizona General Election — Official Canvass"
+}

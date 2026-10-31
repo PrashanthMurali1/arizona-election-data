@@ -1,0 +1,25 @@
+{
+  "year": 2010,
+  "office_id": "attorney-general",
+  "date": "2010-11-02",
+  "source_url": "https://apps.azsos.gov/election/2010/General/Canvass2010GE.pdf",
+  "retrieved_date": "2026-10-31",
+  "source_pdf_sha256": null,
+  "reviewed_transcription": "data/raw/attorney-general/2010-transcription.csv",
+  "transcription_sha256": "7e32da1bed70cbf8f495359ca8df635f2f420cc9ad789db72994e2fe26266986",
+  "notes": "Transcribed from indexed official canvass tables. Direct PDF downloads returned HTTP 403; no original binary retained. Known merged single-digit rows expanded explicitly; all county sums checked against separately published TOTAL. Party labels D/R/L/I/N mapped to DEM/REP/LBT/IND/NONE; Write-In label means no reported party affiliation.",
+  "indexed_excerpts": [
+    {
+      "path": "data/raw/historical-statewide/1994-indexed-canvass.txt",
+      "sha256": "ebf175a2d504081284f8f20933af96288877243b878ec87bb944ce079eb281fc"
+    },
+    {
+      "path": "data/raw/historical-statewide/1998-2002-2010-indexed-canvass.txt",
+      "sha256": "c31dc76f3f16b45f72872ee9e0cabb8edda14aeb0963c86b05249db1e4977ca1"
+    },
+    {
+      "path": "data/raw/historical-statewide/contest-excerpts.txt",
+      "sha256": "a963d9afa2a44ade61a9198a4df784025e54068e5927692ecfebb0e358656473"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "year": 2010,
+  "date": "2010-11-02",
+  "office_id": "attorney-general",
+  "office": "Attorney General",
+  "source_url": "https://apps.azsos.gov/election/2010/General/Canvass2010GE.pdf",
+  "source_sha256": "7e32da1bed70cbf8f495359ca8df635f2f420cc9ad789db72994e2fe26266986",
+  "source_notes": "Official general-election canvass: statewide and county candidate results. Official election-wide registration, ballots cast and turnout are shared with the Governor contest for the same election.",
+  "reference_path": "data/raw/attorney-general/2010-transcription.csv",
+  "candidates": [
+    {
+      "id": "ag-2010-0",
+      "name": "Felecia Rotellini",
+      "party": "DEM",
+      "write_in": false,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 13471,
+        "04003": 16049,
+        "04005": 21853,
+        "04007": 7436,
+        "04009": 3433,
+        "04011": 1292,
+        "04012": 1540,
+        "04013": 461597,
+        "04015": 16152,
+        "04017": 14600,
+        "04019": 165195,
+        "04021": 33694,
+        "04023": 6420,
+        "04025": 30158,
+        "04027": 14295
+      },
+      "statewide": 807185
+    },
+    {
+      "id": "ag-2010-1",
+      "name": "Tom Horne",
+      "party": "REP",
+      "write_in": false,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 6705,
+        "04003": 22930,
+        "04005": 15496,
+        "04007": 9934,
+        "04009": 5518,
+        "04011": 1077,
+        "04012": 2760,
+        "04013": 501202,
+        "04015": 35387,
+        "04017": 14186,
+        "04019": 142417,
+        "04021": 42578,
+        "04023": 3216,
+        "04025": 48379,
+        "04027": 18698
+      },
+      "statewide": 870483
+    }
+  ],
+  "turnout": {},
+  "source_title": "2010 Arizona General Election — Official Canvass"
+}

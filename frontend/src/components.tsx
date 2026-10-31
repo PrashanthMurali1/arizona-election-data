@@ -31,7 +31,9 @@ export function Availability({
               ? "Voting in progress"
               : status === "unofficial"
                 ? "Unofficial results"
-                : "Incomplete")}
+                : status === "reported"
+                  ? "Official results"
+                  : "Incomplete")}
     </span>
   );
 }
@@ -266,7 +268,9 @@ export function CandidateOverview({
       <p className="summary-foot">
         {provider
           ? "Shares use the listed civicAPI candidates."
-          : "Vote shares include all verified candidates and write-ins."}
+          : results.status === "reported"
+            ? "Vote shares use all published statewide candidate totals, including write-ins."
+            : "Vote shares include all verified candidates and write-ins."}
       </p>
     </section>
   );

@@ -1,0 +1,242 @@
+{
+  "year": 2006,
+  "date": "2006-11-07",
+  "source_url": "https://apps.azsos.gov/election/2006/General/Canvass2006GE.pdf",
+  "source_sha256": "b302a94e26810b875d9f3456033cfd07b4d48481b7cd823c5a283fc402373de6",
+  "source_notes": "Official general-election canvass: statewide and county candidate results, plus election-wide registration, ballots cast and turnout. All reported candidates and named write-ins are included.",
+  "candidates": [
+    {
+      "id": "2006-0",
+      "name": "Janet Napolitano",
+      "party": "DEM",
+      "write_in": false,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 14475,
+        "04003": 21416,
+        "04005": 28551,
+        "04007": 10586,
+        "04009": 4348,
+        "04011": 1486,
+        "04012": 2353,
+        "04013": 538383,
+        "04015": 25400,
+        "04017": 17368,
+        "04019": 195305,
+        "04021": 35428,
+        "04023": 6482,
+        "04025": 40848,
+        "04027": 17401
+      },
+      "statewide": 959830
+    },
+    {
+      "id": "2006-1",
+      "name": "Barry J. Hess, II",
+      "party": "LBT",
+      "write_in": false,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 692,
+        "04003": 922,
+        "04005": 872,
+        "04007": 358,
+        "04009": 161,
+        "04011": 58,
+        "04012": 138,
+        "04013": 16888,
+        "04015": 1129,
+        "04017": 658,
+        "04019": 4794,
+        "04021": 1116,
+        "04023": 160,
+        "04025": 1587,
+        "04027": 735
+      },
+      "statewide": 30268
+    },
+    {
+      "id": "2006-2",
+      "name": "Len Munsil",
+      "party": "REP",
+      "write_in": false,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 3627,
+        "04003": 14038,
+        "04005": 8879,
+        "04007": 5803,
+        "04009": 3306,
+        "04011": 588,
+        "04012": 1342,
+        "04013": 332570,
+        "04015": 19588,
+        "04017": 8708,
+        "04019": 82052,
+        "04021": 20716,
+        "04023": 1634,
+        "04025": 30203,
+        "04027": 10474
+      },
+      "statewide": 543528
+    },
+    {
+      "id": "2006-3",
+      "name": "Arthur Ray Arvizu",
+      "party": "NONE",
+      "write_in": true,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 0,
+        "04003": 0,
+        "04005": 1,
+        "04007": 0,
+        "04009": 0,
+        "04011": 0,
+        "04012": 0,
+        "04013": 9,
+        "04015": 0,
+        "04017": 0,
+        "04019": 0,
+        "04021": 0,
+        "04023": 0,
+        "04025": 0,
+        "04027": 0
+      },
+      "statewide": 10
+    },
+    {
+      "id": "2006-4",
+      "name": "Robert B. Winn",
+      "party": "NONE",
+      "write_in": true,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 1,
+        "04003": 0,
+        "04005": 0,
+        "04007": 0,
+        "04009": 0,
+        "04011": 0,
+        "04012": 0,
+        "04013": 1,
+        "04015": 0,
+        "04017": 0,
+        "04019": 0,
+        "04021": 1,
+        "04023": 0,
+        "04025": 0,
+        "04027": 0
+      },
+      "statewide": 3
+    },
+    {
+      "id": "2006-5",
+      "name": "Brian Wright",
+      "party": "NONE",
+      "write_in": true,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 0,
+        "04003": 1,
+        "04005": 1,
+        "04007": 0,
+        "04009": 0,
+        "04011": 0,
+        "04012": 0,
+        "04013": 2,
+        "04015": 1,
+        "04017": 0,
+        "04019": 0,
+        "04021": 0,
+        "04023": 0,
+        "04025": 1,
+        "04027": 0
+      },
+      "statewide": 6
+    }
+  ],
+  "turnout": {
+    "04001": {
+      "registered_voters": 38581,
+      "ballots_cast": 19114,
+      "percent": 49.54
+    },
+    "04003": {
+      "registered_voters": 58138,
+      "ballots_cast": 36878,
+      "percent": 63.43
+    },
+    "04005": {
+      "registered_voters": 65977,
+      "ballots_cast": 38708,
+      "percent": 58.67
+    },
+    "04007": {
+      "registered_voters": 26194,
+      "ballots_cast": 16953,
+      "percent": 64.72
+    },
+    "04009": {
+      "registered_voters": 14840,
+      "ballots_cast": 7919,
+      "percent": 53.36
+    },
+    "04011": {
+      "registered_voters": 4208,
+      "ballots_cast": 2177,
+      "percent": 51.73
+    },
+    "04012": {
+      "registered_voters": 7211,
+      "ballots_cast": 3919,
+      "percent": 54.35
+    },
+    "04013": {
+      "registered_voters": 1484434,
+      "ballots_cast": 899484,
+      "percent": 60.59
+    },
+    "04015": {
+      "registered_voters": 89939,
+      "ballots_cast": 46870,
+      "percent": 52.11
+    },
+    "04017": {
+      "registered_voters": 57348,
+      "ballots_cast": 27090,
+      "percent": 47.24
+    },
+    "04019": {
+      "registered_voters": 435391,
+      "ballots_cast": 284935,
+      "percent": 65.44
+    },
+    "04021": {
+      "registered_voters": 102799,
+      "ballots_cast": 57870,
+      "percent": 56.29
+    },
+    "04023": {
+      "registered_voters": 21673,
+      "ballots_cast": 8409,
+      "percent": 38.8
+    },
+    "04025": {
+      "registered_voters": 103042,
+      "ballots_cast": 73472,
+      "percent": 71.3
+    },
+    "04027": {
+      "registered_voters": 58626,
+      "ballots_cast": 29234,
+      "percent": 49.87
+    },
+    "04": {
+      "registered_voters": 2568401,
+      "ballots_cast": 1553032,
+      "percent": 60.47
+    }
+  },
+  "source_title": "2006 Arizona General Election — Official Canvass"
+}

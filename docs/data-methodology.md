@@ -216,3 +216,6 @@ See the [House import report](us-house-import-report.md) for exact source URLs,
 retained file/checksum bindings, extraction and recount methods, candidate-level
 tables, civicAPI reports, commands, verification results and limitations.
 The machine-readable registry is `data/raw/us-house/manifest.json`.
+# Historical statewide expansion (October 31, 2026)
+
+Governor results now additionally cover 1994, 1998, 2002, 2006 and 2010; Attorney General results additionally cover 1994, 1998, 2002, 2006 and 2010. The 1994 Governor contest displays published statewide totals and county figures as reported, with an explicit one-vote Crawford reconciliation note. These additions use retained indexed official canvass excerpts rather than downloaded PDFs. See [historical import report](historical-statewide-import-report.md) for provenance, verification and limitations.

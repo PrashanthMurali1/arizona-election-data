@@ -3,8 +3,8 @@
 .claude
 .codex
 .gemini
-.vscode
 .impeccable
+.vscode
 .venv
 .production
 .production-cache

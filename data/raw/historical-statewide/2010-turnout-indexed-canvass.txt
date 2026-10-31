@@ -1,0 +1,8 @@
+STATE OF ARIZONA OFFICIAL CANVASS (https://apps.azsos.gov/election/2010/General/Canvass2010GE.pdf)
+citeturn27view3 [wordlim: 200] Crawled: 2 days ago; Content type: application/pdf; Number of pages: 17; Source: open({"ref_id":"turn8view2","lineno":0}); Total lines: 272
+L0@P0: STATE OF ARIZONA OFFICIAL CANVASS Page Number 1
+L1@P0: Compiled and Issued by the Arizona Secretary of State
+L2@P0: 2010 General Election - November 2, 2010
+L3@P0: Report Date/Time: 11/29/2010 11:00 AM
+L4@P0: Apache Cochise Coconino Gila Graham Greenlee La Paz Maricopa Mohave Navajo Pima Pinal Santa Cruz Yavapai Yuma TOTAL
+L5@P0: Total Eligible Registration 44,051 77,477 68,805 30,159 17,570 4,203 8,688 1,851,956 116,338 57,702 486,697 164,292 22,144 121,118 75,218 3,146,418Total Ballots Cast 21,097 40,563 39,479 18,156 9,272 2,509 4,604 1,004,125 54,920 30,021 318,995 79,643 10,295 82,327 34,834 1,750,840Total Voter Turnout Percent 47.89 52.35 57.38 60.20 52.77 59.70 52.99 54.22 47.21 52.03 65.54 48.48 46.49 67.97 46.31 55.65PRECINCTS 45 64 85 39 18 8 12 1,142 73 70 417 88 24 112 42 2,239

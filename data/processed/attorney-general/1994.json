@@ -1,0 +1,64 @@
+{
+  "year": 1994,
+  "date": "1994-11-08",
+  "office_id": "attorney-general",
+  "office": "Attorney General",
+  "source_url": "https://apps.azsos.gov/election/files/hist/canvass1994ge.pdf",
+  "source_sha256": "a1310aab352d57d5d05be4e50926dafe027c236ecc5ff8d3b86bde93b0690a13",
+  "source_notes": "Official general-election canvass: statewide and county candidate results. Official election-wide registration, ballots cast and turnout are shared with the Governor contest for the same election.",
+  "reference_path": "data/raw/attorney-general/1994-transcription.csv",
+  "candidates": [
+    {
+      "id": "ag-1994-0",
+      "name": "GRANT WOODS",
+      "party": "REP",
+      "write_in": false,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 9649,
+        "04003": 20240,
+        "04005": 21888,
+        "04007": 11064,
+        "04009": 5954,
+        "04011": 2009,
+        "04012": 2739,
+        "04013": 479701,
+        "04015": 24538,
+        "04017": 15235,
+        "04019": 166410,
+        "04021": 22453,
+        "04023": 4829,
+        "04025": 35661,
+        "04027": 15895
+      },
+      "statewide": 838265
+    },
+    {
+      "id": "ag-1994-1",
+      "name": "JOHN E. KAROW",
+      "party": "LBT",
+      "write_in": false,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 5183,
+        "04003": 4496,
+        "04005": 7367,
+        "04007": 2918,
+        "04009": 1203,
+        "04011": 486,
+        "04012": 675,
+        "04013": 117685,
+        "04015": 6040,
+        "04017": 5163,
+        "04019": 36998,
+        "04021": 5394,
+        "04023": 1150,
+        "04025": 9322,
+        "04027": 3630
+      },
+      "statewide": 207710
+    }
+  ],
+  "turnout": {},
+  "source_title": "1994 Arizona General Election — Official Canvass"
+}

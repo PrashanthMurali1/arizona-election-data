@@ -1,0 +1,25 @@
+{
+  "year": 1994,
+  "office_id": "governor",
+  "date": "1994-11-08",
+  "source_url": "https://apps.azsos.gov/election/files/hist/canvass1994ge.pdf",
+  "retrieved_date": "2026-10-31",
+  "source_pdf_sha256": null,
+  "reviewed_transcription": "data/raw/1994-governor-transcription.csv",
+  "transcription_sha256": "e3e8ae8c21448fe57c033b64e7b4a748e9140341ffa446014baa0c7c7927f015",
+  "notes": "Transcribed from indexed official canvass tables. Direct PDF downloads returned HTTP 403; no original binary retained. Known merged single-digit rows expanded explicitly; all county sums checked against separately published TOTAL. Party labels D/R/L/I/N mapped to DEM/REP/LBT/IND/NONE; Write-In label means no reported party affiliation.",
+  "indexed_excerpts": [
+    {
+      "path": "data/raw/historical-statewide/1994-indexed-canvass.txt",
+      "sha256": "ebf175a2d504081284f8f20933af96288877243b878ec87bb944ce079eb281fc"
+    },
+    {
+      "path": "data/raw/historical-statewide/1998-2002-2010-indexed-canvass.txt",
+      "sha256": "c31dc76f3f16b45f72872ee9e0cabb8edda14aeb0963c86b05249db1e4977ca1"
+    },
+    {
+      "path": "data/raw/historical-statewide/contest-excerpts.txt",
+      "sha256": "a963d9afa2a44ade61a9198a4df784025e54068e5927692ecfebb0e358656473"
+    }
+  ]
+}

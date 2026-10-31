@@ -1,0 +1,91 @@
+Report Date/Time: 11/25/2002 11:28 AM (https://apps.azsos.gov/election/2002/General/Canvass2002GE.pdf)
+citeturn27view1 [wordlim: 200] Crawled: 2.2 years ago; Content type: application/pdf; Source: open({"ref_id":"turn18search12","lineno":0}); Redirected to URL: https://apps.azsos.gov/election/2002/General/Canvass2002GE.pdf#page=1; Total lines: 4626
+L0: Report Date/Time: 11/25/2002 11:28 AM
+L1: STATE OF ARIZONA OFFICIAL CANVASS
+L2: Page Number 1
+L3: Compiled and Issued by the Arizona Secretary of State
+L4: 2002 General Election - November 5, 2002
+L5: TOTAL
+L6: Apache
+L7: Cochise
+L8: Coconino
+L9: Gila
+L10: Graham
+L11: Greenlee
+L12: La Paz
+L13: Maricopa
+L14: Mohave
+L15: Navajo
+L16: Pima
+L17: Pinal
+L18: Santa Cruz
+L19: Yavapai
+L20: Yuma
+L21: Total Eligible Registration
+L22: 2,229,180
+L23: 38,829
+L24: 49,927
+L25: 63,670
+L26: 30,663
+L27: 14,082
+L28: 4,863
+L29: 6,686
+L30: 1,314,626
+L31: 81,145
+L32: 50,745
+L33: 355,267
+L34: 71,045
+L35: 17,376
+L36: 81,541
+L37: 48,715
+L38: Total Ballots Cast
+L39: 1,255,615
+L40: 18,159
+L41: 29,208
+L42: 35,285
+L43: 15,890
+L44: 8,107
+L45: 2,211
+L46: 3,730
+L47: 723,867
+L48: 36,163
+L49: 24,223
+L50: 232,564
+L51: 38,833
+L52: 6,613
+L53: 58,239
+L54: 22,523
+L55: Total Voter Turnout Percent
+L56: 56.33
+L57: 46.77
+L58: 58.50
+L59: 55.42
+L60: 51.82
+L61: 57.57
+L62: 45.47
+L63: 55.79
+L64: 55.06
+L65: 44.57
+L66: 47.73
+L67: 65.46
+L68: 54.66
+L69: 38.06
+L70: 71.42
+L71: 46.23
+L72: PRECINCTS
+L73: 2,082
+L74: 45
+L75: 64
+L76: 82
+L77: 40
+L78: 18
+L79: 8
+L80: 13
+L81: 1,030
+L82: 73
+L83: 70
+L84: 406
+L85: 65
+L86: 24
+L87: 103
+L88: 41

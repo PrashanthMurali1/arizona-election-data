@@ -1,0 +1,89 @@
+{
+  "year": 2002,
+  "date": "2002-11-05",
+  "office_id": "attorney-general",
+  "office": "Attorney General",
+  "source_url": "https://apps.azsos.gov/election/2002/General/Canvass2002GE.pdf",
+  "source_sha256": "f2938908e10f463e56784b466269e498b8eca8e970c90433b5a107219dbccbf8",
+  "source_notes": "Official general-election canvass: statewide and county candidate results. Official election-wide registration, ballots cast and turnout are shared with the Governor contest for the same election.",
+  "reference_path": "data/raw/attorney-general/2002-transcription.csv",
+  "candidates": [
+    {
+      "id": "ag-2002-0",
+      "name": "Terry Goddard",
+      "party": "DEM",
+      "write_in": false,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 12301,
+        "04003": 12994,
+        "04005": 20069,
+        "04007": 8172,
+        "04009": 3836,
+        "04011": 1277,
+        "04012": 1698,
+        "04013": 348949,
+        "04015": 14335,
+        "04017": 13006,
+        "04019": 126777,
+        "04021": 20648,
+        "04023": 3867,
+        "04025": 24781,
+        "04027": 10425
+      },
+      "statewide": 623135
+    },
+    {
+      "id": "ag-2002-1",
+      "name": "Ed Kahn",
+      "party": "LBT",
+      "write_in": false,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 672,
+        "04003": 944,
+        "04005": 1578,
+        "04007": 574,
+        "04009": 187,
+        "04011": 79,
+        "04012": 118,
+        "04013": 17937,
+        "04015": 1389,
+        "04017": 781,
+        "04019": 9442,
+        "04021": 1198,
+        "04023": 202,
+        "04025": 1957,
+        "04027": 506
+      },
+      "statewide": 37564
+    },
+    {
+      "id": "ag-2002-2",
+      "name": "Andrew P. Thomas",
+      "party": "REP",
+      "write_in": false,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 4540,
+        "04003": 13289,
+        "04005": 11901,
+        "04007": 6362,
+        "04009": 3786,
+        "04011": 754,
+        "04012": 1712,
+        "04013": 325020,
+        "04015": 18234,
+        "04017": 9271,
+        "04019": 88687,
+        "04021": 15413,
+        "04023": 2001,
+        "04025": 29299,
+        "04027": 10375
+      },
+      "statewide": 540644
+    }
+  ],
+  "turnout": {},
+  "source_title": "2002 Arizona General Election — Official Canvass"
+}
