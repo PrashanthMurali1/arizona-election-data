@@ -1,4 +1,10 @@
 .git
+.agents
+.claude
+.codex
+.gemini
+.impeccable
+.vscode
 .venv
 .production
 .production-cache

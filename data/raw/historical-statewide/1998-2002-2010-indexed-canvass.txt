@@ -1,0 +1,323 @@
+STATE OF ARIZONA OFFICIAL CANVA (https://apps.azsos.gov/election/1998/General/Canvass1998GE.pdf)
+citeturn12view0 [wordlim: 200] Crawled: today; Content type: application/pdf; Number of pages: 18; Source: open({"ref_id":"turn9view1","lineno":175}); Total lines: 284
+L172@P9: (DEM) Tom Head --- --- --- --- --- --- --- 11,892 --- --- --- --- --- --- --- 11,892(DEM) Paul Valach --- --- --- --- --- --- --- 11,785 --- --- --- --- --- --- --- 11,785(REP) Mike Gardner * --- --- --- --- --- --- --- 16,702 --- --- --- --- --- --- --- 16,702(REP) Laura Knaperek * --- --- --- --- --- --- --- 18,354 --- --- --- --- --- --- --- 18,354
+L173@P9: STATE REPRESENTATIVE - DISTRICT NO. 28
+L174@P9: (REP) Carolyn S. Allen * --- --- --- --- --- --- --- 39,452 --- --- --- --- --- 425 --- 39,877(REP) Wes Marsh * --- --- --- --- --- --- --- 31,307 --- --- --- --- --- 339 --- 31,646
+L175@P9: STATE REPRESENTATIVE - DISTRICT NO. 29
+L176@P9: (REP) Mark Anderson * --- --- --- --- --- --- --- 14,131 --- --- --- --- --- --- --- 14,131(REP) Wayne Gardner * --- --- --- --- --- --- --- 11,073 --- --- --- --- --- --- --- 11,073
+L177@P9: STATE REPRESENTATIVE - DISTRICT NO. 30
+L178@P9: (DEM) William "Bill" Luck --- --- --- --- --- --- --- 14,510 --- --- --- --- --- --- --- 14,510(REP) Jeff Groscost * --- --- --- --- --- --- --- 28,051 --- --- --- --- --- --- --- 28,051(REP) Karen S. Johnson * --- --- --- --- --- --- --- 29,402 --- --- --- --- --- --- --- 29,402
+L179@P9: SECRETARY OF STATE
+L180@P9: (DEM) Art Hamilton 10,242 10,568 12,961 6,721 3,084 1,572 1,322 222,364 11,081 10,003 83,436 14,310 3,120 15,635 8,568 414,987(REP) Betsey Bayless * 5,220 13,897 14,289 6,886 4,081 1,096 1,907 341,115 17,517 10,003 103,885 13,510 2,392 31,403 10,523 577,724
+L181@P9: ATTORNEY GENERAL
+L182@P9: (DEM) Janet Napolitano * 10,077 13,195 15,572 7,751 3,714 1,696 1,537 271,157 13,618 11,058 109,341 16,151 3,872 21,412 9,365 509,516(LBT) Thomas Eblen 666 528 1,064 336 156 54 86 10,912 788 679 3,833 506 138 1,313 419 21,478(REP) Tom McGovern 4,710 11,357 10,977 5,706 3,527 997 1,628 290,664 14,833 8,502 78,672 11,707 1,835 25,145 9,525 479,785
+L183@P9: STATE TREASURER
+L184@P9-10: (LBT) Ray Price 4,575 4,538 6,204 2,813 1,424 500 639 87,981 5,492 4,728 33,441 5,729 1,280 8,634 3,791 171,769(REP) Carol Springer * 9,399 18,013 18,045 9,302 5,148 1,747 2,318 410,246 21,075 13,704 134,038 19,072 3,459 35,963 13,210 714,739* ElectedSTATE OF ARIZONA OFFICIAL CANVASS Page Number 11
+L185@P10: Compiled and Issued by the Arizona Secretary of State
+L186@P10: 1998 General Election - November 3, 1998
+L187@P10: Report Date/Time: 11/23/1998 09:59 AM
+--------------------------------------------------------------------------------
+ (https://apps.azsos.gov/election/2002/General/Canvass2002GE.pdf)
+citeturn12view1 [wordlim: 200] Crawled: last week; Content type: application/pdf; Number of pages: 17; Source: open({"ref_id":"turn9view3","lineno":182}); Total lines: 270
+L175@P9: Apache Cochise Coconino Gila Graham Greenlee La Paz Maricopa Mohave Navajo Pima Pinal Santa Cruz Yavapai Yuma TOTAL
+L176@P9: STATE REPRESENTATIVE - DISTRICT NO. 27
+L177@P9: (DEM) Olivia Cajero Bedford * --- --- --- --- --- --- --- --- --- --- 20,655 --- --- --- --- 20,655(DEM) Phil Lopes * --- --- --- --- --- --- --- --- --- --- 17,851 --- --- --- --- 17,851
+L178@P9: STATE REPRESENTATIVE - DISTRICT NO. 28
+L179@P9: (DEM) David Bradley * --- --- --- --- --- --- --- --- --- --- 22,322 --- --- --- --- 22,322(DEM) Ted Downing * --- --- --- --- --- --- --- --- --- --- 22,909 --- --- --- --- 22,909(REP) Edward Poelstra --- --- --- --- --- --- --- --- --- --- 19,198 --- --- --- --- 19,198
+L180@P9: STATE REPRESENTATIVE - DISTRICT NO. 29
+L181@P9: (DEM) Linda Lopez * --- --- --- --- --- --- --- --- --- --- 13,902 --- --- --- --- 13,902(DEM) Victor Soltero * --- --- --- --- --- --- --- --- --- --- 11,888 --- --- --- --- 11,888(REP) Mike (Michael T.) Jenkins --- --- --- --- --- --- --- --- --- --- 10,048 --- --- --- --- 10,048
+L182@P9: STATE REPRESENTATIVE - DISTRICT NO. 30
+L183@P9: (DEM) Mike Langmead --- 2,483 --- --- --- --- --- --- --- --- 17,411 --- 620 --- --- 20,514(DEM) Bob Schwartz --- 2,551 --- --- --- --- --- --- --- --- 18,893 --- 731 --- --- 22,175(REP) Randy Graf * --- 4,788 --- --- --- --- --- --- --- --- 26,821 --- 779 --- --- 32,388(REP) Marian McClure * --- 4,508 --- --- --- --- --- --- --- --- 26,059 --- 758 --- --- 31,325
+L184@P9: SECRETARY OF STATE
+L185@P9: (DEM) Chris Cummiskey 11,732 12,241 18,566 7,062 3,335 1,160 1,457 294,947 11,967 11,385 122,422 18,519 3,505 20,535 9,178 548,011(LBT) Sean Nottingham 847 1,336 1,786 770 342 92 152 27,893 1,751 955 9,858 1,692 249 2,644 733 51,100(REP) Jan Brewer * 4,684 13,421 12,904 6,987 4,020 792 1,848 357,797 19,933 10,458 90,733 16,563 2,157 32,104 11,050 585,451
+L186@P9: ATTORNEY GENERAL
+L187@P9: (DEM) Terry Goddard * 12,301 12,994 20,069 8,172 3,836 1,277 1,698 348,949 14,335 13,006 126,777 20,648 3,867 24,781 10,425 623,135(LBT) Ed Kahn 672 944 1,578 574 187 79 118 17,937 1,389 781 9,442 1,198 202 1,957 506 37,564(REP) Andrew P. Thomas 4,540 13,289 11,901 6,362 3,786 754 1,712 325,020 18,234 9,271 88,687 15,413 2,001 29,299 10,375 540,644
+L188@P9: STATE TREASURER
+L189@P9-10: (DEM) Ruth Solomon 12,259 12,691 19,362 7,750 3,724 1,235 1,644 301,280 13,578 12,389 126,199 19,332 3,861 23,075 10,315 568,694(REP) David Petersen * 5,037 14,114 13,000 6,929 3,911 827 1,813 365,363 19,625 10,119 95,470 16,908 2,186 31,353 10,780 597,435* ElectedSTATE OF ARIZONA OFFICIAL CANVASS Page Number 11
+L190@P10: Compiled and Issued by the Arizona Secretary of State
+L191@P10: 2002 General Election - November 5, 2002
+L192@P10: Report Date/Time: 11/25/2002 11:28 AM
+--------------------------------------------------------------------------------
+STATE OF ARIZONA OFFICIAL CANVASS (https://apps.azsos.gov/election/2010/General/Canvass2010GE.pdf)
+citeturn12view2 [wordlim: 200] Crawled: 2 days ago; Content type: application/pdf; Number of pages: 17; Source: open({"ref_id":"turn8view2","lineno":192}); Total lines: 272
+L187@P10: (DEM) Sally Ann Gonzales * --- --- --- --- --- --- --- --- --- --- 23,623 --- --- --- --- 23,623(DEM) Macario Saldate * --- --- --- --- --- --- --- --- --- --- 22,791 --- --- --- --- 22,791(GRN) Kent Solberg --- --- --- --- --- --- --- --- --- --- 5,778 --- --- --- --- 5,778(REP) Robert I. Compton --- --- --- --- --- --- --- --- --- --- 14,226 --- --- --- --- 14,226(VOTE INDEPENDENT VOTE) Gene Chewning --- --- --- --- --- --- --- --- --- --- 4,526 --- --- --- --- 4,526
+L188@P10: STATE REPRESENTATIVE - DISTRICT NO. 28
+L189@P10: (DEM) Steve Farley * --- --- --- --- --- --- --- --- --- --- 29,041 --- --- --- --- 29,041(DEM) Bruce Wheeler * --- --- --- --- --- --- --- --- --- --- 29,073 --- --- --- --- 29,073(REP) Ken Smalley --- --- --- --- --- --- --- --- --- --- 20,508 --- --- --- --- 20,508
+L190@P10: STATE REPRESENTATIVE - DISTRICT NO. 29
+L191@P10: (DEM) Matt Heinz * --- --- --- --- --- --- --- --- --- --- 17,227 --- --- --- --- 17,227(DEM) Daniel Patterson * --- --- --- --- --- --- --- --- --- --- 18,326 --- --- --- --- 18,326(REP) Pat Kilburn --- --- --- --- --- --- --- --- --- --- 14,338 --- --- --- --- 14,338
+L192@P10: STATE REPRESENTATIVE - DISTRICT NO. 30
+L193@P10: (DEM) Andrea Dalessandro --- 4,563 --- --- --- --- --- --- --- --- 32,373 --- 1,157 --- --- 38,093(REP) David Gowan * --- 8,052 --- --- --- --- --- --- --- --- 40,301 --- 1,034 --- --- 49,387(REP) Ted Vogt * --- 6,428 --- --- --- --- --- --- --- --- 37,805 --- 1,004 --- --- 45,237
+L194@P10: SECRETARY OF STATE
+L195@P10: (DEM) Chris Deschene 14,631 15,057 21,414 6,341 2,901 1,172 1,413 374,810 14,160 13,682 153,896 29,671 6,254 24,826 13,903 694,131(REP) Ken Bennett * 5,865 23,672 16,151 10,979 5,884 1,172 2,895 575,759 37,373 15,344 148,693 46,401 3,398 54,098 19,250 966,934
+L196@P10: ATTORNEY GENERAL
+L197@P10-11: (DEM) Felecia Rotellini 13,471 16,049 21,853 7,436 3,433 1,292 1,540 461,597 16,152 14,600 165,195 33,694 6,420 30,158 14,295 807,185(REP) Tom Horne * 6,705 22,930 15,496 9,934 5,518 1,077 2,760 501,202 35,387 14,186 142,417 42,578 3,216 48,379 18,698 870,483* ElectedSTATE OF ARIZONA OFFICIAL CANVASS Page Number 12
+L198@P11: Compiled and Issued by the Arizona Secretary of State
+L199@P11: 2010 General Election - November 2, 2010
+L200@P11: Report Date/Time: 11/29/2010 11:00 AM
+L201@P11: Apache Cochise Coconino Gila Graham Greenlee La Paz Maricopa Mohave Navajo Pima Pinal Santa Cruz Yavapai Yuma TOTAL
+L202@P11: STATE TREASURER
+L203@P11: (DEM) Andrei Cherny 13,212 15,022 19,456 6,072 2,846 1,183 1,341 374,064 14,108 12,674 151,537 29,604 6,169 24,885 13,692 685,865(GRN) Thomas Meadows 765 1,267 1,356 541 258 65 179 24,558 1,871 816 8,790 2,287 288 2,291 783 46,115(LBT) Thane Eichenauer 599 1,617 1,605 797 314 99 187 39,344 2,731 1,167 10,291 2,969 251 3,258 937 66,166(REP) Doug Ducey * 5,696 20,777 14,678 9,803 5,410 1,011 2,582 510,622 32,884 14,134 132,764 41,195 2,911 47,696 17,509 859,672
+--------------------------------------------------------------------------------
+STATE OF ARIZONA OFFICIAL CANVASS (https://apps.azsos.gov/election/2006/General/Canvass2006GE.pdf)
+citeturn12view3 [wordlim: 200] Crawled: 19.9 years ago; Content type: application/pdf; Source: open({"ref_id":"turn11search12","lineno":null}); Redirected to URL: https://apps.azsos.gov/election/2006/General/Canvass2006GE.pdf#page=1; Total lines: 1618
+L0: STATE OF ARIZONA OFFICIAL CANVASS
+L1: 2006 General Election - November 7, 2006
+L2: Compiled and Issued by the Arizona Secretary of State
+L3: 
+L4: Report Date/Time: 12/04/2006 01:16 PM
+L5: Page Number 1
+L460: * Elected
+L461: 
+L462: STATE OF ARIZONA OFFICIAL CANVASS
+L463: 2006 General Election - November 7, 2006
+L464: Compiled and Issued by the Arizona Secretary of State
+L465: 
+L466: Report Date/Time: 12/04/2006 01:16 PM
+L467: Page Number 2
+L468: 
+L469: County columns: Apache, Cochise, Coconino, Gila, Graham, Greenlee, La Paz, Maricopa, Mohave, Navajo, Pima, Pinal, Santa Cruz, Yavapai, Yuma, TOTAL
+L470: 
+L471: U.S. REPRESENTATIVE IN CONGRESS - DISTRICT NO. 5
+L518: * Elected
+L519: 
+L520: Report Date/Time: 12/04/2006 01:16 PM
+L521: 
+L522: STATE OF ARIZONA OFFICIAL CANVASS
+L523: 2006 General Election - November 7, 2006
+L524: Compiled and Issued by the Arizona Secretary of State
+L525: 
+L526: Page Number 3
+L649: 
+L650: </tr>
+L651: <tr>
+L652: <td>(REP) Robert "Bob" Burns *</td>
+L653: <td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>29,430</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>29,430</td>
+L654: </tr>
+L655: </table>
+L656: 
+L657: 
+L658: 
+L659: * Elected
+L660: 
+L661: STATE OF ARIZONA OFFICIAL CANVASS
+L662: 2006 General Election - November 7, 2006
+L663: Compiled and Issued by the Arizona Secretary of State
+L664: 
+L665: Report Date/Time: 12/04/2006 01:16 PM
+L666: Page Number 4
+L694: STATE OF ARIZONA OFFICIAL CANVASS
+L695: 2006 General Election - November 7, 2006
+L696: Compiled and Issued by the Arizona Secretary of State
+L697: 
+L698: Report Date/Time: 12/04/2006 01:16 PM
+L699: Page Number 5
+L700: 
+L701: County columns: Apache, Cochise, Coconino, Gila, Graham, Greenlee, La Paz, Maricopa, Mohave, Navajo, Pima, Pinal, Santa Cruz, Yavapai, Yuma, TOTAL
+L726: STATE SENATOR - DISTRICT NO. 27
+L727: - (DEM) Jorge Luis Garcia *: Apache ---; Cochise ---; Coconino ---; Gila ---; Graham ---; Greenlee ---; La Paz ---; Maricopa ---; Mohave ---; Navajo ---; Pima 31,484; Pinal ---; Santa Cruz ---; Yavapai ---; Yuma ---; TOTAL 31,484
+L728: 
+L729: * Elected
+L730: 
+L731: STATE OF ARIZONA OFFICIAL CANVASS
+L732: 2006 General Election - November 7, 2006
+L733: Compiled and Issued by the Arizona Secretary of State
+L734: 
+L735: Report Date/Time: 12/04/2006 01:16 PM
+L736: Page Number 6
+L856: Report Date/Time: 12/04/2006 01:16 PM
+L857: 
+L858: STATE OF ARIZONA OFFICIAL CANVASS
+L859: 2006 General Election - November 7, 2006
+L860: Compiled and Issued by the Arizona Secretary of State
+L861: 
+L862: Page Number 7
+L992: * Elected
+L993: 
+L994: Report Date/Time: 12/04/2006 01:16 PM
+L995: 
+L996: STATE OF ARIZONA OFFICIAL CANVASS
+L997: 2006 General Election - November 7, 2006
+L998: Compiled and Issued by the Arizona Secretary of State
+L999: 
+L1000: Page Number 8
+L1001: 
+L1002: County columns: Apache, Cochise, Coconino, Gila, Graham, Greenlee, La Paz, Maricopa, Mohave, Navajo, Pima, Pinal, Santa Cruz, Yavapai, Yuma, TOTAL
+L1003: 
+L1004: STATE REPRESENTATIVE - DISTRICT NO. 11
+L1047: * Elected
+L1048: 
+L1049: STATE OF ARIZONA OFFICIAL CANVASS
+L1050: 2006 General Election - November 7, 2006
+L1051: Compiled and Issued by the Arizona Secretary of State
+L1052: 
+L1053: Report Date/Time: 12/04/2006 01:16 PM
+L1054: Page Number 9
+L1055: 
+L1056: Columns: Apache, Cochise, Coconino, Gila, Graham, Greenlee, La Paz, Maricopa, Mohave, Navajo, Pima, Pinal, Santa Cruz, Yavapai, Yuma, TOTAL
+L1057: 
+L1058: STATE REPRESENTATIVE - DISTRICT NO. 17
+L1101: * Elected
+L1102: 
+L1103: STATE OF ARIZONA OFFICIAL CANVASS
+L1104: 2006 General Election - November 7, 2006
+L1105: Compiled and Issued by the Arizona Secretary of State
+L1106: 
+L1107: Report Date/Time: 12/04/2006 01:16 PM
+L1108: Page Number 10
+L1109: 
+L1110: Columns: Apache, Cochise, Coconino, Gila, Graham, Greenlee, La Paz, Maricopa, Mohave, Navajo, Pima, Pinal, Santa Cruz, Yavapai, Yuma, TOTAL
+L1111: 
+L1112: STATE REPRESENTATIVE - DISTRICT NO. 23
+L1153: * Elected
+L1154: 
+L1155: Report Date/Time: 12/04/2006 01:16 PM
+L1156: 
+L1157: STATE OF ARIZONA OFFICIAL CANVASS
+L1158: 2006 General Election - November 7, 2006
+L1159: Compiled and Issued by the Arizona Secretary of State
+L1160: 
+L1161: Page Number 11
+L1162: 
+L1163: |  | Apache | Cochise | Coconino | Gila | Graham | Greenlee | La Paz | Maricopa | Mohave | Navajo | Pima | Pinal | Santa Cruz | Yavapai | Yuma | TOTAL |
+L1164: |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+L1165: 
+L1166: STATE REPRESENTATIVE - DISTRICT NO. 29
+L1209: STATE OF ARIZONA OFFICIAL CANVASS
+L1210: 2006 General Election - November 7, 2006
+L1211: Compiled and Issued by the Arizona Secretary of State
+L1212: 
+L1213: Page Number 12
+L1305: <td>20,624</td>
+L1306: <td>9,371</td>
+L1307: <td>106,830</td>
+L1308: <td>23,320</td>
+L1309: <td>2,238</td>
+L1310: <td>38,013</td>
+L1311: <td>11,167</td>
+L1312: <td>653,344</td>
+L1313: </tr>
+L1314: <tr>
+L1315: <td>(REP) Gary Pierce *</td>
+L1316: <td>4,335</td>
+L1317: <td>15,510</td>
+L1318: <td>11,271</td>
+L1319: <td>6,713</td>
+L1320: <td>3,774</td>
+L1321: <td>632</td>
+L1322: <td>1,632</td>
+L1323: <td>390,445</td>
+L1324: <td>20,973</td>
+L1325: <td>10,104</td>
+L1326: <td>100,087</td>
+L1327: <td>23,776</td>
+L1328: <td>2,079</td>
+L1329: <td>34,157</td>
+L1330: <td>12,978</td>
+L1331: <td>638,466</td>
+L1332: </tr>
+L1333: </table>
+L1334: * Elected
+L1335: 
+L1336: STATE OF ARIZONA OFFICIAL CANVASS
+L1337: 2006 General Election - November 7, 2006
+L1338: Compiled and Issued by the Arizona Secretary of State
+L1339: 
+L1340: Report Date/Time: 12/04/2006 01:16 PM
+L1341: Page Number 13
+L1342: | Office / Candidate / Measure | Apache | Cochise | Coconino | Gila | Graham | Greenlee | La Paz | Maricopa | Mohave | Navajo | Pima | Pinal | Santa Cruz | Yavapai | Yuma | TOTAL |
+L1343: |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+L1344: | **Justice of the Arizona Supreme Court** |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+L1345: | **ANDREW HURWITZ** |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+L1375: * Retained
+L1376: 
+L1377: STATE OF ARIZONA OFFICIAL CANVASS
+L1378: 2006 General Election - November 7, 2006
+L1379: Compiled and Issued by the Arizona Secretary of State
+L1380: 
+L1381: Report Date/Time: 12/04/2006 01:16 PM
+L1382: Page Number 14
+L1383: 
+L1384: County columns: Apache, Cochise, Coconino, Gila, Graham, Greenlee, La Paz, Maricopa, Mohave, Navajo, Pima, Pinal, Santa Cruz, Yavapai, Yuma, TOTAL
+L1434: * Received a majority of the votes
+L1435: 
+L1436: STATE OF ARIZONA OFFICIAL CANVASS
+L1437: 2006 General Election - November 7, 2006
+L1438: Compiled and Issued by the Arizona Secretary of State
+L1439: 
+L1440: Report Date/Time: 12/04/2006 01:16 PM
+L1441: Page Number 15
+L1442: 
+L1443: Columns: Apache, Cochise, Coconino, Gila, Graham, Greenlee, La Paz, Maricopa, Mohave, Navajo, Pima, Pinal, Santa Cruz, Yavapai, Yuma, TOTAL
+L1500: * Received a majority of the votes
+L1501: 
+L1502: STATE OF ARIZONA OFFICIAL CANVASS
+L1503: 2006 General Election - November 7, 2006
+L1504: Compiled and Issued by the Arizona Secretary of State
+L1505: 
+L1506: Report Date/Time: 12/04/2006 01:16 PM
+L1507: Page Number 16
+L1508: 
+L1509: County columns: Apache, Cochise, Coconino, Gila, Graham, Greenlee, La Paz, Maricopa, Mohave, Navajo, Pima, Pinal, Santa Cruz, Yavapai, Yuma, TOTAL
+L1559: <table id="e6">
+L1560: <tr><th>Vote</th><th>Apache</th><th>Cochise</th><th>Coconino</th><th>Gila</th><th>Graham</th><th>Greenlee</th><th>La Paz</th><th>Maricopa</th><th>Mohave</th><th>Navajo</th><th>Pima</th><th>Pinal</th><th>Santa Cruz</th><th>Yavapai</th><th>Yuma</th><th>TOTAL</th></tr>
+L1561: <tr><td>YES</td><td>6,610</td><td>13,782</td><td>16,881</td><td>6,527</td><td>2,888</td><td>730</td><td>1,269</td><td>437,053</td><td>16,024</td><td>10,309</td><td>129,095</td><td>23,561</td><td>3,169</td><td>29,934</td><td>10,029</td><td>707,861</td></tr>
+L1562: <tr><td>NO *</td><td>10,822</td><td>21,713</td><td>20,107</td><td>9,355</td><td>4,737</td><td>1,284</td><td>2,413</td><td>422,584</td><td>28,393</td><td>14,858</td><td>143,724</td><td>32,085</td><td>4,429</td><td>40,877</td><td>17,547</td><td>774,928</td></tr>
+L1563: </table>
+L1564: * Received a majority of the votes
+L1565: 
+L1566: STATE OF ARIZONA OFFICIAL CANVASS
+L1567: 2006 General Election - November 7, 2006
+L1568: Compiled and Issued by the Arizona Secretary of State
+L1569: 
+L1570: Report Date/Time: 12/04/2006 01:16 PM
+L1571: Page Number 17
+L1572: 
+L1573: 2006 GENERAL ELECTION OFFICIAL CANVASS CERTIFICATION
+L1574: I, Janice K.
+L1575: Brewer, Secretary of State of Arizona, do hereby certify that the foregoing table is a true, correct and complete tabulation of the votes cast at the 2006 General Election held in the State of Arizona on the 7th day of November 2006, showing the name of each person voted for, for a Federal or State office in said election, and the number of votes received by each person in said election, as shown by the tabulations received from the Boards of Supervisors of each county in the State of Arizona.
+L1576: IN WITNESS WHEREOF, I have hereunto set my hand and affixed the Great Seal of the State of Arizona, this 4th day of December 2006, at the Capitol in Phoenix.
+L1577: 
+L1578: JANICE K. BREWER
+L1579: Secretary of State
+L1580: 
+L1581: A.R.S. § 16-648 requires that this canvass be conducted in the presence of the Governor and Attorney General whose affirming signatures follow.
+L1582: 
+L1583: JANET NAPOLITANO
+L1584: Governor
+L1585: 
+L1586: TERRY GODDARD
+L1587: Attorney General
+L1588: <visual_element id="e1">
+L1589: Great Seal of the State of Arizona, circular seal at left with “GREAT SEAL OF THE STATE OF ARIZONA” around the edge and “Ditat Deus” in the center.
+L1590: </visual_element>
+L1591: 
+L1592: STATE OF ARIZONA OFFICIAL CANVASS
+L1593: 2006 General Election - November 7, 2006
+L1594: Compiled and Issued by the Arizona Secretary of State
+L1595: 
+L1596: Report Date/Time: 12/04/2006 01:16 PM
+L1597: Page Number 18
+L1598: 
+L1599: 2006 GENERAL ELECTION OFFICIAL CANVASS CERTIFICATION
+L1600: I, Janice K. Brewer, Secretary of State of Arizona, do hereby certify that the foregoing enumeration of election returns is a true, correct and complete tabulation of the votes cast for and against the nineteen propositions which appeared on the ballot of the 2006 General Election held in the State of Arizona on the 7th day of November 2006.
+L1601: 
+L1602: IN WITNESS WHEREOF, I have hereunto set my hand and affixed the Great Seal of the State of Arizona, this 4th day of December 2006, at the Capitol in Phoenix.
+L1603: Janice K. Brewer
+L1604: Secretary of State
+L1605: 
+L1606: A.R.S. § 16-648 requires that this canvass be conducted in the presence of the Governor and Chief Justice of the Supreme Court whose affirming signatures follow.
+L1607: 
+L1608: Janet Napolitano
+L1609: Governor
+L1610: 
+L1611: Ruth V. McGregor
+L1612: Chief Justice
+L1613: Arizona Supreme Court
+L1614: 
+L1615: <visual_element id="e1">
+L1616: Great Seal of the State of Arizona, circular seal with “GREAT SEAL OF THE STATE OF ARIZONA” around the edge and “Ditat Deus” in the center.
+L1617: </visual_element>
+--------------------------------------------------------------------------------
+94GECanvass1.tif (https://apps.azsos.gov/election/files/hist/canvass1994ge.pdf)
+citeturn12view4 [wordlim: 200] Crawled: 4 days ago; Content type: application/pdf; Number of pages: 14; Source: open({"ref_id":"https://apps.azsos.gov/election/files/hist/canvass1994ge.pdf","lineno":null}); Total lines: 0
+This page has no readable lines.

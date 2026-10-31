@@ -1,5 +1,8 @@
 # Arizona Election Explorer
 
+For what belongs in Git and why imported JSONs are retained, see
+[repository contents and cleanup policy](docs/repository-layout.md).
+
 **An interactive platform for exploring Arizona election results, historical voting trends, and early-voting participation.**
 
 🌐 **Live website:** https://azelections.app/

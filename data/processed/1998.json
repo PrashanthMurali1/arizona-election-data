@@ -1,0 +1,267 @@
+{
+  "year": 1998,
+  "date": "1998-11-03",
+  "source_url": "https://apps.azsos.gov/election/1998/General/Canvass1998GE.pdf",
+  "source_sha256": "c476397ca27adef6c9c74f4627c465408b1cdbe48dea620dd6da1c34df117824",
+  "source_notes": "Official general-election canvass: statewide and county candidate results, plus election-wide registration, ballots cast and turnout. All reported candidates and named write-ins are included.",
+  "candidates": [
+    {
+      "id": "1998-0",
+      "name": "Paul Johnson",
+      "party": "DEM",
+      "write_in": false,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 7904,
+        "04003": 8656,
+        "04005": 10866,
+        "04007": 5982,
+        "04009": 2780,
+        "04011": 1328,
+        "04012": 1261,
+        "04013": 198175,
+        "04015": 12148,
+        "04017": 8374,
+        "04019": 67533,
+        "04021": 12072,
+        "04023": 2591,
+        "04025": 14806,
+        "04027": 7076
+      },
+      "statewide": 361552
+    },
+    {
+      "id": "1998-1",
+      "name": "D’Herrera Tapia",
+      "party": "IND",
+      "write_in": true,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 2,
+        "04003": 0,
+        "04005": 1,
+        "04007": 0,
+        "04009": 0,
+        "04011": 0,
+        "04012": 0,
+        "04013": 8,
+        "04015": 0,
+        "04017": 1,
+        "04019": 0,
+        "04021": 3,
+        "04023": 0,
+        "04025": 0,
+        "04027": 0
+      },
+      "statewide": 15
+    },
+    {
+      "id": "1998-2",
+      "name": "Alan White",
+      "party": "IND",
+      "write_in": true,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 2,
+        "04003": 4,
+        "04005": 2,
+        "04007": 2,
+        "04009": 0,
+        "04011": 0,
+        "04012": 0,
+        "04013": 288,
+        "04015": 1,
+        "04017": 2,
+        "04019": 14,
+        "04021": 4,
+        "04023": 0,
+        "04025": 8,
+        "04027": 1
+      },
+      "statewide": 328
+    },
+    {
+      "id": "1998-3",
+      "name": "Katherine \"Kat\" Gallant",
+      "party": "LBT",
+      "write_in": false,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 561,
+        "04003": 663,
+        "04005": 1334,
+        "04007": 412,
+        "04009": 163,
+        "04011": 85,
+        "04012": 99,
+        "04013": 15004,
+        "04015": 795,
+        "04017": 649,
+        "04019": 4370,
+        "04021": 771,
+        "04023": 175,
+        "04025": 1545,
+        "04027": 524
+      },
+      "statewide": 27150
+    },
+    {
+      "id": "1998-4",
+      "name": "Scott Alan Malcomson",
+      "party": "RPA",
+      "write_in": false,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 227,
+        "04003": 164,
+        "04005": 252,
+        "04007": 110,
+        "04009": 70,
+        "04011": 17,
+        "04012": 33,
+        "04013": 5031,
+        "04015": 272,
+        "04017": 226,
+        "04019": 1077,
+        "04021": 217,
+        "04023": 54,
+        "04025": 478,
+        "04027": 143
+      },
+      "statewide": 8371
+    },
+    {
+      "id": "1998-5",
+      "name": "Jane Dee Hull",
+      "party": "REP",
+      "write_in": false,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 6832,
+        "04003": 15805,
+        "04005": 15552,
+        "04007": 7367,
+        "04009": 4324,
+        "04011": 1367,
+        "04012": 1894,
+        "04013": 357308,
+        "04015": 16255,
+        "04017": 11084,
+        "04019": 120506,
+        "04021": 15380,
+        "04023": 3029,
+        "04025": 31631,
+        "04027": 11854
+      },
+      "statewide": 620188
+    },
+    {
+      "id": "1998-6",
+      "name": "Robert B. Winn",
+      "party": "NONE",
+      "write_in": true,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 1,
+        "04003": 0,
+        "04005": 0,
+        "04007": 0,
+        "04009": 1,
+        "04011": 0,
+        "04012": 0,
+        "04013": 9,
+        "04015": 0,
+        "04017": 1,
+        "04019": 0,
+        "04021": 0,
+        "04023": 0,
+        "04025": 0,
+        "04027": 0
+      },
+      "statewide": 12
+    }
+  ],
+  "turnout": {
+    "04001": {
+      "registered_voters": 36938,
+      "ballots_cast": 16420,
+      "percent": 44.45
+    },
+    "04003": {
+      "registered_voters": 49416,
+      "ballots_cast": 26021,
+      "percent": 52.66
+    },
+    "04005": {
+      "registered_voters": 60406,
+      "ballots_cast": 28940,
+      "percent": 47.91
+    },
+    "04007": {
+      "registered_voters": 26477,
+      "ballots_cast": 14514,
+      "percent": 54.82
+    },
+    "04009": {
+      "registered_voters": 15767,
+      "ballots_cast": 7754,
+      "percent": 49.18
+    },
+    "04011": {
+      "registered_voters": 5436,
+      "ballots_cast": 2919,
+      "percent": 53.7
+    },
+    "04012": {
+      "registered_voters": 7969,
+      "ballots_cast": 3454,
+      "percent": 43.34
+    },
+    "04013": {
+      "registered_voters": 1345370,
+      "ballots_cast": 586090,
+      "percent": 43.56
+    },
+    "04015": {
+      "registered_voters": 69011,
+      "ballots_cast": 29073,
+      "percent": 42.13
+    },
+    "04017": {
+      "registered_voters": 47513,
+      "ballots_cast": 21116,
+      "percent": 44.44
+    },
+    "04019": {
+      "registered_voters": 383096,
+      "ballots_cast": 195580,
+      "percent": 51.05
+    },
+    "04021": {
+      "registered_voters": 65083,
+      "ballots_cast": 29476,
+      "percent": 45.29
+    },
+    "04023": {
+      "registered_voters": 16003,
+      "ballots_cast": 6334,
+      "percent": 39.58
+    },
+    "04025": {
+      "registered_voters": 88981,
+      "ballots_cast": 49271,
+      "percent": 55.37
+    },
+    "04027": {
+      "registered_voters": 46835,
+      "ballots_cast": 20588,
+      "percent": 43.96
+    },
+    "04": {
+      "registered_voters": 2264301,
+      "ballots_cast": 1037550,
+      "percent": 45.82
+    }
+  },
+  "source_title": "1998 Arizona General Election — Official Canvass"
+}

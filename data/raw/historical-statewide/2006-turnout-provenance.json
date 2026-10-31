@@ -1,0 +1,9 @@
+{
+  "source_url": "https://apps.azsos.gov/election/2006/General/Canvass2006GE.pdf",
+  "page": 1,
+  "retrieved_date": "2026-10-31",
+  "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as published. Shared by Governor and Attorney General.",
+  "source_excerpt": "data/raw/historical-statewide/2006-turnout-indexed-canvass.txt",
+  "source_excerpt_sha256": "95e30ce5c40e60aa4286bfa1442694a2514a5d256a942fa707abecf5152cae37",
+  "transcription_sha256": "9575b7ae9685adac2eeab757b93b6f0d61517b7a4128c99d2d04627be5cda5f4"
+}

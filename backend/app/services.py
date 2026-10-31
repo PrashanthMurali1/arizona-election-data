@@ -67,7 +67,7 @@ def results(s: Session, c: Contest, unit: GeographicUnit):
     ).all()
     complete = (
         bool(rows)
-        and (c.status == "verified" or provisional)
+        and (c.status in {"verified", "reported"} or provisional)
         and all(
             v is not None
             and v.votes is not None
@@ -122,7 +122,7 @@ def results(s: Session, c: Contest, unit: GeographicUnit):
     return ResultsOut(
         geoid=unit.id,
         name=unit.name,
-        status=("unofficial" if provisional else "verified")
+        status=("unofficial" if provisional else c.status)
         if complete
         else "incomplete",
         total_votes=total,

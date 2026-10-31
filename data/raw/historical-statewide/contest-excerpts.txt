@@ -1,0 +1,140 @@
+STATE OF ARIZONA OFFICIAL CANVA (https://apps.azsos.gov/election/1998/General/Canvass1998GE.pdf)
+citeturn16view0 [wordlim: 200] Crawled: today; Content type: application/pdf; Number of pages: 18; Source: open({"ref_id":"turn9view1","lineno":24}); Total lines: 284
+L15@P0-1: (DEM) Eric Ehst --- --- --- --- --- --- --- 49,538 --- --- --- --- --- --- --- 49,538(IND) Doug Quelland --- --- --- --- --- --- --- 2,757 --- --- --- --- --- --- --- 2,757(LBT) Ernest Hancock --- --- --- --- --- --- --- 3,805 --- --- --- --- --- --- --- 3,805(REP) John Shadegg * --- --- --- --- --- --- --- 102,722 --- --- --- --- --- --- --- 102,722* ElectedSTATE OF ARIZONA OFFICIAL CANVASS Page Number 2
+L16@P1: Compiled and Issued by the Arizona Secretary of State
+L17@P1: 1998 General Election - November 3, 1998
+L18@P1: Report Date/Time: 11/23/1998 09:59 AM
+L19@P1: $SDFKH &RFKLVH &RFRQLQR *LOD *UDKDP *UHHQOHH /D3D] 0DULFRSD 0RKDYH 1DYDMR 3LPD 3LQDO 6DQWD&UX] <DYDSDL <XPD 727$/
+L20@P1: U.S. REPRESENTATIVE IN CONGRESS - DISTRICT NO. 5
+L21@P1: (DEM) Tom Volgy --- 11,531 --- --- 2,400 --- --- --- --- --- 74,228 2,871 --- --- --- 91,030(LBT) Phil Murphy --- 720 --- --- 216 --- --- --- --- --- 3,824 186 --- --- --- 4,946(RPA) Robert "Bob" Connery, Sr. --- 225 --- --- 102 --- --- --- --- --- 1,149 69 --- --- --- 1,545(REP) Jim Kolbe * --- 12,609 --- --- 3,790 --- --- --- --- --- 83,059 4,494 --- --- --- 103,952
+L22@P1: U.S. REPRESENTATIVE IN CONGRESS - DISTRICT NO. 6
+L23@P1: (DEM) Steve Owens 9,396 --- 10,715 6,516 447 1,249 --- 39,661 --- 9,264 --- 10,753 --- --- --- 88,001(LBT) Robert Anderson 559 --- 829 467 13 72 --- 3,432 --- 521 --- 752 --- --- --- 6,645(REP) J.D. Hayworth * 5,738 --- 6,895 6,935 161 1,482 --- 66,396 --- 10,219 --- 9,065 --- --- --- 106,891
+L24@P1: GOVERNOR
+L25@P1: (DEM) Paul Johnson 7,904 8,656 10,866 5,982 2,780 1,328 1,261 198,175 12,148 8,374 67,533 12,072 2,591 14,806 7,076 361,552(IND) D’Herrera Tapia (Write-In) 201000080103000 15(IND) Alan White (Write-In) 2 4 2 2 0 0 0 288 1 2 14 4 0 8 1 328(LBT) Katherine "Kat" Gallant 561 663 1,334 412 163 85 99 15,004 795 649 4,370 771 175 1,545 524 27,150(RPA) Scott Alan Malcomson 227 164 252 110 70 17 33 5,031 272 226 1,077 217 54 478 143 8,371(REP) Jane Dee Hull * 6,832 15,805 15,552 7,367 4,324 1,367 1,894 357,308 16,255 11,084 120,506 15,380 3,029 31,631 11,854 620,188(NONE) Robert B.
+L26@P1: Winn (Write-In) 100010090100000 12
+L27@P1: STATE SENATOR - DISTRICT NO. 1
+L28@P1: (DEM) M. Dawn Knight --- --- --- --- --- --- --- --- 5,963 --- --- --- --- 14,426 --- 20,389(REP) Ken Bennett * --- --- --- --- --- --- --- --- 9,301 --- --- --- --- 23,117 --- 32,418
+L29@P1: STATE SENATOR - DISTRICT NO. 2
+L30@P1: (REP) John Wettaw * --- --- 12,647 773 --- --- --- --- 5,974 178 --- --- --- 6,457 --- 26,029
+L31@P1: STATE SENATOR - DISTRICT NO. 3
+L32@P1: (DEM) Jack C. Jackson * 9,700 --- 5,160 --- --- --- --- --- 1,518 4,966 --- --- --- --- --- 21,344(REP) Lori Warring 1,744 --- 2,576 --- --- --- --- --- 2,133 1,068 --- --- --- --- --- 7,521
+L33@P1: STATE SENATOR - DISTRICT NO. 4
+L34@P1-2: (DEM) Jack A. Brown * 2,206 --- --- 6,934 1,329 364 --- 0 --- 7,281 --- 3,307 --- --- --- 21,421(REP) David C. Farnsworth 1,613 --- --- 4,998 955 187 --- 0 --- 6,432 --- 3,249 --- --- --- 17,434* ElectedSTATE OF ARIZONA OFFICIAL CANVASS Page Number 3
+L35@P2: Compiled and Issued by the Arizona Secretary of State
+L36@P2: 1998 General Election - November 3, 1998
+L37@P2: Report Date/Time: 11/23/1998 09:59 AM
+L38@P2: $SDFKH &RFKLVH &RFRQLQR *LOD *UDKDP *UHHQOHH /D3D] 0DULFRSD 0RKDYH 1DYDMR 3LPD 3LQDO 6DQWD&UX] <DYDSDL <XPD 727$/
+L39@P2: STATE SENATOR - DISTRICT NO. 5
+L40@P2: (DEM) Herb Guenther * --- --- --- --- --- --- 1,750 --- 18 --- --- --- --- 137 10,595 12,500(REP) Larry Nelson --- --- --- --- --- --- 1,483 --- 24 --- --- --- --- 277 8,719 10,503
+L41@P2: STATE SENATOR - DISTRICT NO. 6
+--------------------------------------------------------------------------------
+ (https://apps.azsos.gov/election/2002/General/Canvass2002GE.pdf)
+citeturn16view1 [wordlim: 200] Crawled: last week; Content type: application/pdf; Number of pages: 17; Source: open({"ref_id":"turn9view3","lineno":27}); Total lines: 270
+L17@P0-1: (DEM) Deborah Thomas --- --- --- --- --- --- --- 44,614 --- --- --- 4,741 --- --- --- 49,355(LBT) Andy Wagner --- --- --- --- --- --- --- 3,459 --- --- --- 429 --- --- --- 3,888* ElectedSTATE OF ARIZONA OFFICIAL CANVASS Page Number 2
+L18@P1: Compiled and Issued by the Arizona Secretary of State
+L19@P1: 2002 General Election - November 5, 2002
+L20@P1: Report Date/Time: 11/25/2002 11:28 AM
+L21@P1: Apache Cochise Coconino Gila Graham Greenlee La Paz Maricopa Mohave Navajo Pima Pinal Santa Cruz Yavapai Yuma TOTAL
+L22@P1: (REP) Jeff Flake * --- --- --- --- --- --- --- 96,399 --- --- --- 6,695 --- --- --- 103,094
+L23@P1: U.S. REPRESENTATIVE IN CONGRESS - DISTRICT NO. 7
+L24@P1: (DEM) Raúl M. Grijalva * --- --- --- --- --- --- 1,295 5,893 --- --- 41,025 1,548 3,309 --- 8,186 61,256(LBT) John L. Nemeth --- --- --- --- --- --- 181 540 --- --- 2,410 175 117 --- 665 4,088(REP) Ross Hieb --- --- --- --- --- --- 1,915 5,360 --- --- 16,572 796 1,095 --- 12,736 38,474
+L25@P1: U.S. REPRESENTATIVE IN CONGRESS - DISTRICT NO. 8
+L26@P1: (DEM) Mary Judge Ryan --- 9,286 --- --- --- --- --- --- --- --- 56,500 960 582 --- --- 67,328(LBT) Joe Duarte --- 1,231 --- --- --- --- --- --- --- --- 4,815 33 63 --- --- 6,142(NONE) Jim Dorrance (Write-In) --- 10 --- --- --- --- --- --- --- --- 18 0 0 --- --- 28(REP) Jim Kolbe * --- 16,921 --- --- --- --- --- --- --- --- 106,622 2,318 1,069 --- --- 126,930
+L27@P1: GOVERNOR
+L28@P1: (DEM) Janet Napolitano * 10,927 11,401 18,928 7,331 2,924 966 1,488 313,107 13,227 11,669 118,896 18,300 3,675 23,238 10,207 566,284(IND) Richard Mahoney 2,516 2,713 3,260 1,467 467 180 259 42,696 2,889 1,920 17,751 2,658 495 4,866 810 84,947(LBT) Barry Hess 365 426 709 317 99 50 113 10,966 639 444 4,140 682 105 1,024 277 20,356(NONE) Naida Axford (Write-In) 010000040000000 5(NONE) "Rayj" Raymond Caplette (Write-In) 000000020021000 5(NONE) Carlton Rahmani (Write-In) 1 2 2 0 0 0 0 14 0 0 7 0 0 3 0 29(NONE) Tracey Sturgess (Write-In) 001100070212001 15(NONE) L.D.
+L29@P1: "Denny" Talbow (Write-In) 000000000010000 1(NONE) D'Herrera Tapia (Write-In) 010000000030000 4(REP) Matt Salmon 4,041 13,210 11,585 6,336 4,491 955 1,766 337,954 18,431 9,423 89,002 16,380 2,069 28,245 10,577 554,465
+L30@P1: STATE SENATOR - DISTRICT NO. 1
+L31@P1: (DEM) Dawn Knight --- --- 4,620 --- --- --- --- --- --- --- --- --- --- 19,770 --- 24,390(REP) Ken Bennett * --- --- 4,619 --- --- --- --- --- --- --- --- --- --- 28,814 --- 33,433
+L32@P1: STATE SENATOR - DISTRICT NO. 2
+L33@P1: (DEM) Jack C. Jackson Sr. * 12,205 --- 15,363 --- --- --- --- --- 145 6,064 --- --- --- 0 --- 33,777
+L34@P1: STATE SENATOR - DISTRICT NO. 3
+L35@P1-2: (DEM) Jacqueline (Jacquie) Jessie --- --- 802 --- --- --- 543 --- 12,556 --- --- --- --- --- --- 13,901(REP) Linda Binder * --- --- 1,537 --- --- --- 1,016 --- 21,419 --- --- --- --- --- --- 23,972* ElectedSTATE OF ARIZONA OFFICIAL CANVASS Page Number 3
+L36@P2: Compiled and Issued by the Arizona Secretary of State
+L37@P2: 2002 General Election - November 5, 2002
+L38@P2: Report Date/Time: 11/25/2002 11:28 AM
+L39@P2: Apache Cochise Coconino Gila Graham Greenlee La Paz Maricopa Mohave Navajo Pima Pinal Santa Cruz Yavapai Yuma TOTAL
+--------------------------------------------------------------------------------
+STATE OF ARIZONA OFFICIAL CANVASS (https://apps.azsos.gov/election/2010/General/Canvass2010GE.pdf)
+citeturn16view2 [wordlim: 200] Crawled: 2 days ago; Content type: application/pdf; Number of pages: 17; Source: open({"ref_id":"turn8view2","lineno":33}); Total lines: 272
+L26@P1: (DEM) Raúl M. Grijalva * --- --- --- --- --- --- 1,158 11,812 --- --- 46,090 3,886 4,991 --- 11,998 79,935(LBT) George Keane --- --- --- --- --- --- 161 626 --- --- 2,283 305 127 --- 816 4,318(REP) Ruth McClung --- --- --- --- --- --- 2,919 10,167 --- --- 28,614 6,129 2,332 --- 20,224 70,385(INDEPENDENT "NONPARTISAN") Harley Meyer--- --- --- --- --- --- 174 766 --- --- 2,169 298 146 --- 953 4,506
+L27@P1: U.S. REPRESENTATIVE IN CONGRESS - DISTRICT NO. 8
+L28@P1-2: (DEM) Gabrielle Giffords * --- 17,049 --- --- --- --- --- --- --- --- 117,389 2,583 1,259 --- --- 138,280(LBT) Steven Stoltz --- 1,902 --- --- --- --- --- --- --- --- 9,056 118 98 --- --- 11,174(REP) Jesse Kelly --- 20,999 --- --- --- --- --- --- --- --- 108,327 3,698 1,100 --- --- 134,124* ElectedSTATE OF ARIZONA OFFICIAL CANVASS Page Number 3
+L29@P2: Compiled and Issued by the Arizona Secretary of State
+L30@P2: 2010 General Election - November 2, 2010
+L31@P2: Report Date/Time: 11/29/2010 11:00 AM
+L32@P2: Apache Cochise Coconino Gila Graham Greenlee La Paz Maricopa Mohave Navajo Pima Pinal Santa Cruz Yavapai Yuma TOTAL
+L33@P2: GOVERNOR
+L34@P2: (DEM) Terry Goddard 12,839 13,954 20,792 6,155 2,865 1,177 1,330 415,142 12,777 12,517 158,337 30,109 6,608 25,569 13,764 733,935(GRN) Larry Gist 294 398 505 158 74 24 70 8,600 601 317 2,967 735 105 900 380 16,128(LBT) Barry J.
+L35@P2: Hess 514 742 880 451 220 60 80 24,077 1,307 648 5,353 1,922 138 1,830 500 38,722(REP) Jan Brewer * 7,002 24,974 16,754 11,163 5,994 1,187 3,048 543,045 39,026 16,157 148,916 45,807 3,190 53,081 19,590 938,934(Write-In) Cary Dolego 0 0 0 0 0 0 0 3 1 1 4 3 0 0 0 12(Write-In) Anton Dowls 0 0 2 0 0 0 0 15 0 0 6 1 0 4 0 28(Write-In) Janelle Wood 10 2 11 2 0 0 0 262 3 6 6 14 0 4 2 322
+L36@P2: STATE SENATOR - DISTRICT NO. 1
+L37@P2: (DEM) Bob Donahue --- --- 5,184 --- --- --- --- --- --- --- --- --- --- 23,279 --- 28,463(REP) Steve Pierce * --- --- 6,948 --- --- --- --- --- --- --- --- --- --- 45,510 --- 52,458
+L38@P2: STATE SENATOR - DISTRICT NO. 2
+L39@P2: (DEM) Jack C. Jackson, Jr. * 13,544 --- 16,996 --- --- --- --- --- 100 7,082 --- --- --- 0 --- 37,722
+L40@P2: STATE SENATOR - DISTRICT NO. 3
+L41@P2: (DEM) Beth Weisser --- --- 794 --- --- --- 605 --- 14,674 --- --- --- --- --- --- 16,073(REP) Ron Gould * --- --- 1,574 --- --- --- 1,640 --- 37,563 --- --- --- --- --- --- 40,777
+L42@P2: STATE SENATOR - DISTRICT NO. 4
+L43@P2: (DEM) Sue Dolphin --- --- --- --- --- --- --- 28,624 --- --- --- --- --- 2,876 --- 31,500(REP) Scott Bundgaard * --- --- --- --- --- --- --- 60,963 --- --- --- --- --- 7,239 --- 68,202
+L44@P2: STATE SENATOR - DISTRICT NO. 5
+L45@P2: (DEM) Elaine Bohlmeyer 1,288 --- 0 6,123 3,022 1,139 --- --- --- 6,698 --- 0 --- --- --- 18,270(REP) Sylvia Tenney Allen * 4,616 --- 0 10,762 5,917 1,211 --- --- --- 14,824 --- 0 --- --- --- 37,330
+L46@P2: STATE SENATOR - DISTRICT NO. 6
+L47@P2: (DEM) Pat Flickner --- --- --- --- --- --- --- 19,190 --- --- --- --- --- --- --- 19,190(REP) Lori Klein * --- --- --- --- --- --- --- 38,999 --- --- --- --- --- --- --- 38,999
+L48@P2: STATE SENATOR - DISTRICT NO. 7
+--------------------------------------------------------------------------------
+STATE OF ARIZONA OFFICIAL CANVASS (https://apps.azsos.gov/election/2006/General/Canvass2006GE.pdf)
+citeturn16view3 [wordlim: 200] Crawled: 19.9 years ago; Content type: application/pdf; Source: open({"ref_id":"turn12view3","lineno":502}); Redirected to URL: https://apps.azsos.gov/election/2006/General/Canvass2006GE.pdf#page=1; Total lines: 1618
+L496: <tr><td>(LBT) David F. Nolan</td><td>---</td><td>722</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>4,037</td><td>62</td><td>28</td><td>---</td><td>---</td><td>4,849</td></tr>
+L497: <tr><td>(REP) Randy Graf</td><td>---</td><td>16,807</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>86,386</td><td>2,725</td><td>872</td><td>---</td><td>---</td><td>106,790</td></tr>
+L498: <tr><td>(Write-In) Russ Dove (Write-In)</td><td>---</td><td>0</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>7</td><td>0</td><td>0</td><td>---</td><td>---</td><td>7</td></tr>
+L499: <tr><td>(Write-In) Leo F. Kimminau, Sr. (Write-In)</td><td>---</td><td>0</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>4</td><td>0</td><td>0</td><td>---</td><td>---</td><td>4</td></tr>
+L500: <tr><td>(Write-In) Paul Price (Write-In)</td><td>---</td><td>5</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>---</td><td>2</td><td>0</td><td>0</td><td>---</td><td>---</td><td>7</td></tr>
+L501: </table>
+L502: GOVERNOR
+L503: <table id="e5">
+L504: <tr><th>Candidate</th><th>Apache</th><th>Cochise</th><th>Coconino</th><th>Gila</th><th>Graham</th><th>Greenlee</th><th>La Paz</th><th>Maricopa</th><th>Mohave</th><th>Navajo</th><th>Pima</th><th>Pinal</th><th>Santa Cruz</th><th>Yavapai</th><th>Yuma</th><th>TOTAL</th></tr>
+L505: <tr><td>(DEM) Janet Napolitano *</td><td>14,475</td><td>21,416</td><td>28,551</td><td>10,586</td><td>4,348</td><td>1,486</td><td>2,353</td><td>538,383</td><td>25,400</td><td>17,368</td><td>195,305</td><td>35,428</td><td>6,482</td><td>40,848</td><td>17,401</td><td>959,830</td></tr>
+L506: <tr><td>(LBT) Barry J. Hess, II</td><td>692</td><td>922</td><td>872</td><td>358</td><td>161</td><td>58</td><td>138</td><td>16,888</td><td>1,129</td><td>658</td><td>4,794</td><td>1,116</td><td>160</td><td>1,587</td><td>735</td><td>30,268</td></tr>
+L507: <tr><td>(REP) Len Munsil</td><td>3,627</td><td>14,038</td><td>8,879</td><td>5,803</td><td>3,306</td><td>588</td><td>1,342</td><td>332,570</td><td>19,588</td><td>8,708</td><td>82,052</td><td>20,716</td><td>1,634</td><td>30,203</td><td>10,474</td><td>543,528</td></tr>
+L508: <tr><td>(Write-In) Arthur Ray Arvizu (Write-In)</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>9</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>10</td></tr>
+L509: <tr><td>(Write-In) Robert B. Winn (Write-In)</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>3</td></tr>
+L510: <tr><td>(Write-In) Brian Wright (Write-In)</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>6</td></tr>
+L511: </table>
+L512: STATE SENATOR - DISTRICT NO. 1
+L513: <table id="e6">
+L514: <tr><th>Candidate</th><th>Apache</th><th>Cochise</th><th>Coconino</th><th>Gila</th><th>Graham</th><th>Greenlee</th><th>La Paz</th><th>Maricopa</th><th>Mohave</th><th>Navajo</th><th>Pima</th><th>Pinal</th><th>Santa Cruz</th><th>Yavapai</th><th>Yuma</th><th>TOTAL</th></tr>
+--------------------------------------------------------------------------------
+STATE OF ARIZONA OFFICIAL CANVASS (https://apps.azsos.gov/election/2006/General/Canvass2006GE.pdf)
+citeturn16view4 [wordlim: 200] Crawled: 19.9 years ago; Content type: application/pdf; Source: open({"ref_id":"turn12view3","lineno":1185}); Redirected to URL: https://apps.azsos.gov/election/2006/General/Canvass2006GE.pdf#page=1; Total lines: 1618
+L1176: | (REP) Marian Ann McClure * | --- | 6,473 | --- | --- | --- | --- | --- | --- | --- | --- | 34,127 | --- | 902 | --- | --- | 41,502 |
+L1177: | (REP) Jonathan Paton * | --- | 5,770 | --- | --- | --- | --- | --- | --- | --- | --- | 32,603 | --- | 828 | --- | --- | 39,201 |
+L1178: SECRETARY OF STATE
+L1179: | Candidate | Apache | Cochise | Coconino | Gila | Graham | Greenlee | La Paz | Maricopa | Mohave | Navajo | Pima | Pinal | Santa Cruz | Yavapai | Yuma | TOTAL |
+L1180: |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+L1181: | (DEM) Israel Torres | 11,406 | 13,908 | 18,897 | 6,007 | 2,405 | 1,065 | 1,307 | 306,504 | 14,145 | 11,469 | 134,290 | 22,347 | 5,031 | 22,801 | 12,064 | 583,646 |
+L1182: | (LBT) Ernest Hancock | 1,343 | 1,316 | 1,748 | 660 | 314 | 79 | 204 | 27,631 | 2,213 | 1,371 | 8,140 | 2,078 | 174 | 2,813 | 1,009 | 51,093 |
+L1183: | (REP) Jan Brewer * | 5,715 | 20,137 | 16,075 | 9,608 | 4,916 | 911 | 2,179 | 524,053 | 28,000 | 13,326 | 130,238 | 30,816 | 2,734 | 44,881 | 14,805 | 848,394 |
+L1184: | (Write-In) Selena A. Naumoff (Write-In) | 3 | 0 | 1 | 0 | 0 | 0 | 0 | 23 | 0 | 3 | 4 | 0 | 0 | 1 | 0 | 35 |
+L1185: ATTORNEY GENERAL
+L1186: | Candidate | Apache | Cochise | Coconino | Gila | Graham | Greenlee | La Paz | Maricopa | Mohave | Navajo | Pima | Pinal | Santa Cruz | Yavapai | Yuma | TOTAL |
+L1187: |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+L1188: | (DEM) Terry Goddard * | 13,586 | 19,547 | 26,301 | 10,070 | 4,154 | 1,429 | 2,036 | 513,462 | 21,563 | 16,294 | 179,590 | 32,991 | 5,851 | 36,350 | 15,783 | 899,007 |
+L1189: | (REP) Bill Montgomery | 4,931 | 16,157 | 10,773 | 6,316 | 3,531 | 660 | 1,695 | 351,771 | 22,872 | 9,998 | 95,094 | 22,886 | 2,135 | 34,435 | 12,063 | 595,317 |
+L1190: STATE TREASURER
+L1191: | Candidate | Apache | Cochise | Coconino | Gila | Graham | Greenlee | La Paz | Maricopa | Mohave | Navajo | Pima | Pinal | Santa Cruz | Yavapai | Yuma | TOTAL |
+L1192: |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+L1193: | (DEM) Rano Singh | 11,644 | 14,343 | 20,672 | 6,710 | 2,537 | 1,053 | 1,432 | 340,139 | 15,297 | 12,307 | 136,035 | 23,769 | 4,774 | 24,650 | 11,828 | 627,190 |
+L1194: | (REP) Dean Martin * | 6,496 | 20,432 | 15,196 | 9,021 | 4,822 | 941 | 2,178 | 495,568 | 28,271 | 13,308 | 131,965 | 30,523 | 2,951 | 44,042 | 15,424 | 821,138 |
+L1195: SUPERINTENDENT OF PUBLIC INSTRUCTION
+L1196: | Candidate | Apache | Cochise | Coconino | Gila | Graham | Greenlee | La Paz | Maricopa | Mohave | Navajo | Pima | Pinal | Santa Cruz | Yavapai | Yuma | TOTAL |
+L1197: |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+L1198: | (DEM) Jason Williams | 12,494 | 15,411 | 20,920 | 7,484 | 3,073 | 1,173 | 1,592 | 367,916 | 17,560 | 13,658 | 141,235 | 25,647 | 4,958 | 26,505 | 13,283 | 672,909 |
+L1199: | (REP) Tom Horne * | 5,770 | 19,555 | 15,106 | 8,435 | 4,370 | 851 | 1,999 | 472,609 | 25,834 | 12,181 | 126,801 | 28,828 | 2,842 | 42,392 | 14,105 | 781,678 |
+L1200: STATE MINE INSPECTOR
+L1201: 
+L1202: | Candidate | Apache | Cochise | Coconino | Gila | Graham | Greenlee | La Paz | Maricopa | Mohave | Navajo | Pima | Pinal | Santa Cruz | Yavapai | Yuma | TOTAL |
+L1203: |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+L1204: | (REP) Joe Hart * | 13,617 | 26,134 | 24,889 | 12,026 | 5,869 | 1,398 | 2,770 | 609,731 | 33,089 | 19,453 | 191,438 | 40,479 | 4,916 | 51,275 | 20,013 | 1,057,097 |
+L1205: 
+L1206: * Elected
+L1207: 
+L1208: Report Date/Time: 12/04/2006 01:16 PM
+

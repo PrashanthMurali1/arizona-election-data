@@ -1,0 +1,91 @@
+Report Date/Time: 11/23/1998 09:59 AM (https://apps.azsos.gov/election/1998/General/Canvass1998GE.pdf)
+citeturn27view0 [wordlim: 200] Crawled: last year; Content type: application/pdf; Source: open({"ref_id":"turn23search13","lineno":0}); Redirected to URL: https://apps.azsos.gov/election/1998/General/Canvass1998GE.pdf#page=1; Total lines: 4558
+L0: Report Date/Time: 11/23/1998 09:59 AM
+L1: STATE OF ARIZONA OFFICIAL CANVASS
+L2: Page Number 1
+L3: Compiled and Issued by the Arizona Secretary of State
+L4: 1998 General Election - November 3, 1998
+L5: 727$/
+L6: $SDFKH
+L7: &RFKLVH
+L8: &RFRQLQR
+L9: *LOD
+L10: *UDKDP
+L11: *UHHQOHH
+L12: /D3D]
+L13: 0DULFRSD
+L14: 0RKDYH
+L15: 1DYDMR
+L16: 3LPD
+L17: 3LQDO
+L18: 6DQWD&UX]
+L19: <DYDSDL
+L20: <XPD
+L21: Total Eligible Registration
+L22: 2,264,301
+L23: 36,938
+L24: 49,416
+L25: 60,406
+L26: 26,477
+L27: 15,767
+L28: 5,436
+L29: 7,969
+L30: 1,345,370
+L31: 69,011
+L32: 47,513
+L33: 383,096
+L34: 65,083
+L35: 16,003
+L36: 88,981
+L37: 46,835
+L38: Total Ballots Cast
+L39: 1,037,550
+L40: 16,420
+L41: 26,021
+L42: 28,940
+L43: 14,514
+L44: 7,754
+L45: 2,919
+L46: 3,454
+L47: 586,090
+L48: 29,073
+L49: 21,116
+L50: 195,580
+L51: 29,476
+L52: 6,334
+L53: 49,271
+L54: 20,588
+L55: Total Voter Turnout Percent
+L56: 45.82
+L57: 44.45
+L58: 52.66
+L59: 47.91
+L60: 54.82
+L61: 49.18
+L62: 53.70
+L63: 43.34
+L64: 43.56
+L65: 42.13
+L66: 44.44
+L67: 51.05
+L68: 45.29
+L69: 39.58
+L70: 55.37
+L71: 43.96
+L72: PRECINCTS
+L73: 2,027
+L74: 44
+L75: 62
+L76: 75
+L77: 40
+L78: 18
+L79: 10
+L80: 10
+L81: 1,004
+L82: 70
+L83: 69
+L84: 402
+L85: 62
+L86: 23
+L87: 100
+L88: 38

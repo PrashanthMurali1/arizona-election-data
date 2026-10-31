@@ -12,9 +12,14 @@ playwright-report/
 test-results/
 # Reproducible Impeccable detector cache.
 /.impeccable/hook.cache.json
-/backend/local/logs/
-/backend/local/*.lock
-/backend/local/early-voting-refresh-status.json
-/backend/local/launchd/
+# All host runtime state stays local: databases, metrics, logs and scheduling.
+/backend/local/
+/.claude/settings.local.json
+# Platform engines are downloaded into a verified cache by the launchers.
+/.agents/skills/impeccable/scripts/bin/
+/.claude/skills/impeccable/scripts/bin/
+/.gemini/skills/impeccable/scripts/bin/
+# Reproducible comparison output, not input datasets or validation baselines.
+/data/processed/2018/vest-comparison.json
 /.production/
 /.production-cache/

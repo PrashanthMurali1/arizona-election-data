@@ -1,0 +1,342 @@
+{
+  "year": 2002,
+  "date": "2002-11-05",
+  "source_url": "https://apps.azsos.gov/election/2002/General/Canvass2002GE.pdf",
+  "source_sha256": "175147a64283cd644349b039953a902afd907692654f641946edaa02654d1207",
+  "source_notes": "Official general-election canvass: statewide and county candidate results, plus election-wide registration, ballots cast and turnout. All reported candidates and named write-ins are included.",
+  "candidates": [
+    {
+      "id": "2002-0",
+      "name": "Janet Napolitano",
+      "party": "DEM",
+      "write_in": false,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 10927,
+        "04003": 11401,
+        "04005": 18928,
+        "04007": 7331,
+        "04009": 2924,
+        "04011": 966,
+        "04012": 1488,
+        "04013": 313107,
+        "04015": 13227,
+        "04017": 11669,
+        "04019": 118896,
+        "04021": 18300,
+        "04023": 3675,
+        "04025": 23238,
+        "04027": 10207
+      },
+      "statewide": 566284
+    },
+    {
+      "id": "2002-1",
+      "name": "Richard Mahoney",
+      "party": "IND",
+      "write_in": false,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 2516,
+        "04003": 2713,
+        "04005": 3260,
+        "04007": 1467,
+        "04009": 467,
+        "04011": 180,
+        "04012": 259,
+        "04013": 42696,
+        "04015": 2889,
+        "04017": 1920,
+        "04019": 17751,
+        "04021": 2658,
+        "04023": 495,
+        "04025": 4866,
+        "04027": 810
+      },
+      "statewide": 84947
+    },
+    {
+      "id": "2002-2",
+      "name": "Barry Hess",
+      "party": "LBT",
+      "write_in": false,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 365,
+        "04003": 426,
+        "04005": 709,
+        "04007": 317,
+        "04009": 99,
+        "04011": 50,
+        "04012": 113,
+        "04013": 10966,
+        "04015": 639,
+        "04017": 444,
+        "04019": 4140,
+        "04021": 682,
+        "04023": 105,
+        "04025": 1024,
+        "04027": 277
+      },
+      "statewide": 20356
+    },
+    {
+      "id": "2002-3",
+      "name": "Naida Axford",
+      "party": "NONE",
+      "write_in": true,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 0,
+        "04003": 1,
+        "04005": 0,
+        "04007": 0,
+        "04009": 0,
+        "04011": 0,
+        "04012": 0,
+        "04013": 4,
+        "04015": 0,
+        "04017": 0,
+        "04019": 0,
+        "04021": 0,
+        "04023": 0,
+        "04025": 0,
+        "04027": 0
+      },
+      "statewide": 5
+    },
+    {
+      "id": "2002-4",
+      "name": "\"Rayj\" Raymond Caplette",
+      "party": "NONE",
+      "write_in": true,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 0,
+        "04003": 0,
+        "04005": 0,
+        "04007": 0,
+        "04009": 0,
+        "04011": 0,
+        "04012": 0,
+        "04013": 2,
+        "04015": 0,
+        "04017": 0,
+        "04019": 2,
+        "04021": 1,
+        "04023": 0,
+        "04025": 0,
+        "04027": 0
+      },
+      "statewide": 5
+    },
+    {
+      "id": "2002-5",
+      "name": "Carlton Rahmani",
+      "party": "NONE",
+      "write_in": true,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 1,
+        "04003": 2,
+        "04005": 2,
+        "04007": 0,
+        "04009": 0,
+        "04011": 0,
+        "04012": 0,
+        "04013": 14,
+        "04015": 0,
+        "04017": 0,
+        "04019": 7,
+        "04021": 0,
+        "04023": 0,
+        "04025": 3,
+        "04027": 0
+      },
+      "statewide": 29
+    },
+    {
+      "id": "2002-6",
+      "name": "Tracey Sturgess",
+      "party": "NONE",
+      "write_in": true,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 0,
+        "04003": 0,
+        "04005": 1,
+        "04007": 1,
+        "04009": 0,
+        "04011": 0,
+        "04012": 0,
+        "04013": 7,
+        "04015": 0,
+        "04017": 2,
+        "04019": 1,
+        "04021": 2,
+        "04023": 0,
+        "04025": 0,
+        "04027": 1
+      },
+      "statewide": 15
+    },
+    {
+      "id": "2002-7",
+      "name": "L.D. \"Denny\" Talbow",
+      "party": "NONE",
+      "write_in": true,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 0,
+        "04003": 0,
+        "04005": 0,
+        "04007": 0,
+        "04009": 0,
+        "04011": 0,
+        "04012": 0,
+        "04013": 0,
+        "04015": 0,
+        "04017": 0,
+        "04019": 1,
+        "04021": 0,
+        "04023": 0,
+        "04025": 0,
+        "04027": 0
+      },
+      "statewide": 1
+    },
+    {
+      "id": "2002-8",
+      "name": "D'Herrera Tapia",
+      "party": "NONE",
+      "write_in": true,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 0,
+        "04003": 1,
+        "04005": 0,
+        "04007": 0,
+        "04009": 0,
+        "04011": 0,
+        "04012": 0,
+        "04013": 0,
+        "04015": 0,
+        "04017": 0,
+        "04019": 3,
+        "04021": 0,
+        "04023": 0,
+        "04025": 0,
+        "04027": 0
+      },
+      "statewide": 4
+    },
+    {
+      "id": "2002-9",
+      "name": "Matt Salmon",
+      "party": "REP",
+      "write_in": false,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 4041,
+        "04003": 13210,
+        "04005": 11585,
+        "04007": 6336,
+        "04009": 4491,
+        "04011": 955,
+        "04012": 1766,
+        "04013": 337954,
+        "04015": 18431,
+        "04017": 9423,
+        "04019": 89002,
+        "04021": 16380,
+        "04023": 2069,
+        "04025": 28245,
+        "04027": 10577
+      },
+      "statewide": 554465
+    }
+  ],
+  "turnout": {
+    "04001": {
+      "registered_voters": 38829,
+      "ballots_cast": 18159,
+      "percent": 46.77
+    },
+    "04003": {
+      "registered_voters": 49927,
+      "ballots_cast": 29208,
+      "percent": 58.5
+    },
+    "04005": {
+      "registered_voters": 63670,
+      "ballots_cast": 35285,
+      "percent": 55.42
+    },
+    "04007": {
+      "registered_voters": 30663,
+      "ballots_cast": 15890,
+      "percent": 51.82
+    },
+    "04009": {
+      "registered_voters": 14082,
+      "ballots_cast": 8107,
+      "percent": 57.57
+    },
+    "04011": {
+      "registered_voters": 4863,
+      "ballots_cast": 2211,
+      "percent": 45.47
+    },
+    "04012": {
+      "registered_voters": 6686,
+      "ballots_cast": 3730,
+      "percent": 55.79
+    },
+    "04013": {
+      "registered_voters": 1314626,
+      "ballots_cast": 723867,
+      "percent": 55.06
+    },
+    "04015": {
+      "registered_voters": 81145,
+      "ballots_cast": 36163,
+      "percent": 44.57
+    },
+    "04017": {
+      "registered_voters": 50745,
+      "ballots_cast": 24223,
+      "percent": 47.73
+    },
+    "04019": {
+      "registered_voters": 355267,
+      "ballots_cast": 232564,
+      "percent": 65.46
+    },
+    "04021": {
+      "registered_voters": 71045,
+      "ballots_cast": 38833,
+      "percent": 54.66
+    },
+    "04023": {
+      "registered_voters": 17376,
+      "ballots_cast": 6613,
+      "percent": 38.06
+    },
+    "04025": {
+      "registered_voters": 81541,
+      "ballots_cast": 58239,
+      "percent": 71.42
+    },
+    "04027": {
+      "registered_voters": 48715,
+      "ballots_cast": 22523,
+      "percent": 46.23
+    },
+    "04": {
+      "registered_voters": 2229180,
+      "ballots_cast": 1255615,
+      "percent": 56.33
+    }
+  },
+  "source_title": "2002 Arizona General Election — Official Canvass"
+}

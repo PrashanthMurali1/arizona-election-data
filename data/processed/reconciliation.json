@@ -1,5 +1,764 @@
 [
   {
+    "contest": "az-1994-attorney-general",
+    "status": "verified",
+    "county_count": 15,
+    "complete_county_count": 15,
+    "expected_county_count": 15,
+    "missing_candidates": [],
+    "unexpected_candidates": [],
+    "reference": "https://apps.azsos.gov/election/files/hist/canvass1994ge.pdf",
+    "reference_snapshot": "data\\raw\\attorney-general\\1994-transcription.csv",
+    "reference_sha256": "a1310aab352d57d5d05be4e50926dafe027c236ecc5ff8d3b86bde93b0690a13",
+    "candidates": [
+      {
+        "candidate": "GRANT WOODS",
+        "county_sum": 838265,
+        "official_statewide": 838265,
+        "normalized_statewide": 838265,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "JOHN E. KAROW",
+        "county_sum": 207710,
+        "official_statewide": 207710,
+        "normalized_statewide": 207710,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      }
+    ]
+  },
+  {
+    "contest": "az-1994-governor",
+    "status": "reported",
+    "county_count": 15,
+    "complete_county_count": 15,
+    "expected_county_count": 15,
+    "missing_candidates": [],
+    "unexpected_candidates": [],
+    "reference": "https://apps.azsos.gov/election/files/hist/canvass1994ge.pdf",
+    "reference_snapshot": "data\\raw\\1994-governor-transcription.csv",
+    "reference_sha256": "e3e8ae8c21448fe57c033b64e7b4a748e9140341ffa446014baa0c7c7927f015",
+    "candidates": [
+      {
+        "candidate": "EDDIE BASHA",
+        "county_sum": 500702,
+        "official_statewide": 500702,
+        "normalized_statewide": 500702,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "FIFE SYMINGTON",
+        "county_sum": 593492,
+        "official_statewide": 593492,
+        "normalized_statewide": 593492,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "JOHN BUTTRICK",
+        "county_sum": 35222,
+        "official_statewide": 35222,
+        "normalized_statewide": 35222,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "WALTER L. BASSETT",
+        "county_sum": 11,
+        "official_statewide": 11,
+        "normalized_statewide": 11,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "CHARLES M. \"CHUCK\" CRAWFORD",
+        "county_sum": 10,
+        "official_statewide": 11,
+        "normalized_statewide": 11,
+        "statewide_matches_reference": true,
+        "difference": -1,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "WILL \"TIGER\" DAVIS, II",
+        "county_sum": 5,
+        "official_statewide": 5,
+        "normalized_statewide": 5,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "CAROLINE P. KILLEEN",
+        "county_sum": 29,
+        "official_statewide": 29,
+        "normalized_statewide": 29,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "ILIAS KOSTOPOULOS",
+        "county_sum": 3,
+        "official_statewide": 3,
+        "normalized_statewide": 3,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "S. J. ROBERTS",
+        "county_sum": 11,
+        "official_statewide": 11,
+        "normalized_statewide": 11,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "JOHN WRIGHT",
+        "county_sum": 121,
+        "official_statewide": 121,
+        "normalized_statewide": 121,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      }
+    ]
+  },
+  {
+    "contest": "az-1998-attorney-general",
+    "status": "verified",
+    "county_count": 15,
+    "complete_county_count": 15,
+    "expected_county_count": 15,
+    "missing_candidates": [],
+    "unexpected_candidates": [],
+    "reference": "https://apps.azsos.gov/election/1998/General/Canvass1998GE.pdf",
+    "reference_snapshot": "data\\raw\\attorney-general\\1998-transcription.csv",
+    "reference_sha256": "e23757a50fd5b48881d476359bdea3339567b0ca5d95c5a814eef1191451158a",
+    "candidates": [
+      {
+        "candidate": "Janet Napolitano",
+        "county_sum": 509516,
+        "official_statewide": 509516,
+        "normalized_statewide": 509516,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "Thomas Eblen",
+        "county_sum": 21478,
+        "official_statewide": 21478,
+        "normalized_statewide": 21478,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "Tom McGovern",
+        "county_sum": 479785,
+        "official_statewide": 479785,
+        "normalized_statewide": 479785,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      }
+    ]
+  },
+  {
+    "contest": "az-1998-governor",
+    "status": "verified",
+    "county_count": 15,
+    "complete_county_count": 15,
+    "expected_county_count": 15,
+    "missing_candidates": [],
+    "unexpected_candidates": [],
+    "reference": "https://apps.azsos.gov/election/1998/General/Canvass1998GE.pdf",
+    "reference_snapshot": "data\\raw\\1998-governor-transcription.csv",
+    "reference_sha256": "c476397ca27adef6c9c74f4627c465408b1cdbe48dea620dd6da1c34df117824",
+    "candidates": [
+      {
+        "candidate": "Paul Johnson",
+        "county_sum": 361552,
+        "official_statewide": 361552,
+        "normalized_statewide": 361552,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "D\u2019Herrera Tapia",
+        "county_sum": 15,
+        "official_statewide": 15,
+        "normalized_statewide": 15,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "Alan White",
+        "county_sum": 328,
+        "official_statewide": 328,
+        "normalized_statewide": 328,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "Katherine \"Kat\" Gallant",
+        "county_sum": 27150,
+        "official_statewide": 27150,
+        "normalized_statewide": 27150,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "Scott Alan Malcomson",
+        "county_sum": 8371,
+        "official_statewide": 8371,
+        "normalized_statewide": 8371,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "Jane Dee Hull",
+        "county_sum": 620188,
+        "official_statewide": 620188,
+        "normalized_statewide": 620188,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "Robert B. Winn",
+        "county_sum": 12,
+        "official_statewide": 12,
+        "normalized_statewide": 12,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      }
+    ]
+  },
+  {
+    "contest": "az-2002-attorney-general",
+    "status": "verified",
+    "county_count": 15,
+    "complete_county_count": 15,
+    "expected_county_count": 15,
+    "missing_candidates": [],
+    "unexpected_candidates": [],
+    "reference": "https://apps.azsos.gov/election/2002/General/Canvass2002GE.pdf",
+    "reference_snapshot": "data\\raw\\attorney-general\\2002-transcription.csv",
+    "reference_sha256": "f2938908e10f463e56784b466269e498b8eca8e970c90433b5a107219dbccbf8",
+    "candidates": [
+      {
+        "candidate": "Terry Goddard",
+        "county_sum": 623135,
+        "official_statewide": 623135,
+        "normalized_statewide": 623135,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "Ed Kahn",
+        "county_sum": 37564,
+        "official_statewide": 37564,
+        "normalized_statewide": 37564,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "Andrew P. Thomas",
+        "county_sum": 540644,
+        "official_statewide": 540644,
+        "normalized_statewide": 540644,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      }
+    ]
+  },
+  {
+    "contest": "az-2002-governor",
+    "status": "verified",
+    "county_count": 15,
+    "complete_county_count": 15,
+    "expected_county_count": 15,
+    "missing_candidates": [],
+    "unexpected_candidates": [],
+    "reference": "https://apps.azsos.gov/election/2002/General/Canvass2002GE.pdf",
+    "reference_snapshot": "data\\raw\\2002-governor-transcription.csv",
+    "reference_sha256": "175147a64283cd644349b039953a902afd907692654f641946edaa02654d1207",
+    "candidates": [
+      {
+        "candidate": "Janet Napolitano",
+        "county_sum": 566284,
+        "official_statewide": 566284,
+        "normalized_statewide": 566284,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "Richard Mahoney",
+        "county_sum": 84947,
+        "official_statewide": 84947,
+        "normalized_statewide": 84947,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "Barry Hess",
+        "county_sum": 20356,
+        "official_statewide": 20356,
+        "normalized_statewide": 20356,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "Naida Axford",
+        "county_sum": 5,
+        "official_statewide": 5,
+        "normalized_statewide": 5,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "\"Rayj\" Raymond Caplette",
+        "county_sum": 5,
+        "official_statewide": 5,
+        "normalized_statewide": 5,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "Carlton Rahmani",
+        "county_sum": 29,
+        "official_statewide": 29,
+        "normalized_statewide": 29,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "Tracey Sturgess",
+        "county_sum": 15,
+        "official_statewide": 15,
+        "normalized_statewide": 15,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "L.D. \"Denny\" Talbow",
+        "county_sum": 1,
+        "official_statewide": 1,
+        "normalized_statewide": 1,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "D'Herrera Tapia",
+        "county_sum": 4,
+        "official_statewide": 4,
+        "normalized_statewide": 4,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "Matt Salmon",
+        "county_sum": 554465,
+        "official_statewide": 554465,
+        "normalized_statewide": 554465,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      }
+    ]
+  },
+  {
+    "contest": "az-2006-attorney-general",
+    "status": "verified",
+    "county_count": 15,
+    "complete_county_count": 15,
+    "expected_county_count": 15,
+    "missing_candidates": [],
+    "unexpected_candidates": [],
+    "reference": "https://apps.azsos.gov/election/2006/General/Canvass2006GE.pdf",
+    "reference_snapshot": "data\\raw\\attorney-general\\2006-transcription.csv",
+    "reference_sha256": "18809b6f1e8fc61cf805f0e479f9b134a93e74a72031b3f4ad0a9165662a000a",
+    "candidates": [
+      {
+        "candidate": "Terry Goddard",
+        "county_sum": 899007,
+        "official_statewide": 899007,
+        "normalized_statewide": 899007,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "Bill Montgomery",
+        "county_sum": 595317,
+        "official_statewide": 595317,
+        "normalized_statewide": 595317,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      }
+    ]
+  },
+  {
+    "contest": "az-2006-governor",
+    "status": "verified",
+    "county_count": 15,
+    "complete_county_count": 15,
+    "expected_county_count": 15,
+    "missing_candidates": [],
+    "unexpected_candidates": [],
+    "reference": "https://apps.azsos.gov/election/2006/General/Canvass2006GE.pdf",
+    "reference_snapshot": "data\\raw\\2006-governor-transcription.csv",
+    "reference_sha256": "b302a94e26810b875d9f3456033cfd07b4d48481b7cd823c5a283fc402373de6",
+    "candidates": [
+      {
+        "candidate": "Janet Napolitano",
+        "county_sum": 959830,
+        "official_statewide": 959830,
+        "normalized_statewide": 959830,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "Barry J. Hess, II",
+        "county_sum": 30268,
+        "official_statewide": 30268,
+        "normalized_statewide": 30268,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "Len Munsil",
+        "county_sum": 543528,
+        "official_statewide": 543528,
+        "normalized_statewide": 543528,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "Arthur Ray Arvizu",
+        "county_sum": 10,
+        "official_statewide": 10,
+        "normalized_statewide": 10,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "Robert B. Winn",
+        "county_sum": 3,
+        "official_statewide": 3,
+        "normalized_statewide": 3,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "Brian Wright",
+        "county_sum": 6,
+        "official_statewide": 6,
+        "normalized_statewide": 6,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      }
+    ]
+  },
+  {
+    "contest": "az-2010-attorney-general",
+    "status": "verified",
+    "county_count": 15,
+    "complete_county_count": 15,
+    "expected_county_count": 15,
+    "missing_candidates": [],
+    "unexpected_candidates": [],
+    "reference": "https://apps.azsos.gov/election/2010/General/Canvass2010GE.pdf",
+    "reference_snapshot": "data\\raw\\attorney-general\\2010-transcription.csv",
+    "reference_sha256": "7e32da1bed70cbf8f495359ca8df635f2f420cc9ad789db72994e2fe26266986",
+    "candidates": [
+      {
+        "candidate": "Felecia Rotellini",
+        "county_sum": 807185,
+        "official_statewide": 807185,
+        "normalized_statewide": 807185,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "Tom Horne",
+        "county_sum": 870483,
+        "official_statewide": 870483,
+        "normalized_statewide": 870483,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      }
+    ]
+  },
+  {
+    "contest": "az-2010-governor",
+    "status": "verified",
+    "county_count": 15,
+    "complete_county_count": 15,
+    "expected_county_count": 15,
+    "missing_candidates": [],
+    "unexpected_candidates": [],
+    "reference": "https://apps.azsos.gov/election/2010/General/Canvass2010GE.pdf",
+    "reference_snapshot": "data\\raw\\2010-governor-transcription.csv",
+    "reference_sha256": "849a6a35c0a019ae620cf73a1d1a71a6f64a38975d23b14c0e597b91761f5040",
+    "candidates": [
+      {
+        "candidate": "Terry Goddard",
+        "county_sum": 733935,
+        "official_statewide": 733935,
+        "normalized_statewide": 733935,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "Larry Gist",
+        "county_sum": 16128,
+        "official_statewide": 16128,
+        "normalized_statewide": 16128,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "Barry J. Hess",
+        "county_sum": 38722,
+        "official_statewide": 38722,
+        "normalized_statewide": 38722,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "Jan Brewer",
+        "county_sum": 938934,
+        "official_statewide": 938934,
+        "normalized_statewide": 938934,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "Cary Dolego",
+        "county_sum": 12,
+        "official_statewide": 12,
+        "normalized_statewide": 12,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "Anton Dowls",
+        "county_sum": 28,
+        "official_statewide": 28,
+        "normalized_statewide": 28,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "Janelle Wood",
+        "county_sum": 322,
+        "official_statewide": 322,
+        "normalized_statewide": 322,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      }
+    ]
+  },
+  {
+    "contest": "az-2014-attorney-general",
+    "status": "verified",
+    "county_count": 15,
+    "complete_county_count": 15,
+    "expected_county_count": 15,
+    "missing_candidates": [],
+    "unexpected_candidates": [],
+    "reference": "https://apps.azsos.gov/election/2014/general/Canvass2014GE.pdf",
+    "reference_snapshot": "data\\raw\\attorney-general\\2014-transcription.csv",
+    "reference_sha256": "64a3c83ce347f3da0bc04a0823164d574c1d47090ca4e32bf4d948f675ec3875",
+    "candidates": [
+      {
+        "candidate": "Mark Brnovich",
+        "county_sum": 782361,
+        "official_statewide": 782361,
+        "normalized_statewide": 782361,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "Felecia Rotellini",
+        "county_sum": 696054,
+        "official_statewide": 696054,
+        "normalized_statewide": 696054,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "Anthony Camboni (Write-In)",
+        "county_sum": 265,
+        "official_statewide": 265,
+        "normalized_statewide": 265,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      }
+    ]
+  },
+  {
     "contest": "az-2014-governor",
     "status": "verified",
     "county_count": 15,
@@ -8,7 +767,7 @@
     "missing_candidates": [],
     "unexpected_candidates": [],
     "reference": "https://apps.azsos.gov/election/2014/general/Canvass2014GE.pdf",
-    "reference_snapshot": "data/raw/2014-governor-transcription.csv",
+    "reference_snapshot": "data\\raw\\2014-governor-transcription.csv",
     "reference_sha256": "46cfe7c9072d66f4b0a4ae5c6107fc199f5781953db4fc495b8ed14c7b736875",
     "candidates": [
       {
@@ -124,6 +883,194 @@
     ]
   },
   {
+    "contest": "az-2016-us-senate",
+    "status": "verified",
+    "county_count": 15,
+    "complete_county_count": 15,
+    "expected_county_count": 15,
+    "missing_candidates": [],
+    "unexpected_candidates": [],
+    "reference": "https://apps.azsos.gov/election/2016/General/Official%20Signed%20State%20Canvass.pdf",
+    "reference_snapshot": "data/raw/us-senate/2016-transcription.csv",
+    "reference_sha256": "d7cf5ab9ca0cc034f1b221b7bb9f9cecc4c4d23dcc5e3097366bfac497ff49ee",
+    "candidates": [
+      {
+        "candidate": "Sheila Bilyeu",
+        "county_sum": 34,
+        "official_statewide": 34,
+        "normalized_statewide": 34,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "Ann Kirkpatrick",
+        "county_sum": 1031245,
+        "official_statewide": 1031245,
+        "normalized_statewide": 1031245,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "Gene Scott II",
+        "county_sum": 7,
+        "official_statewide": 7,
+        "normalized_statewide": 7,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "Gary Swing",
+        "county_sum": 138634,
+        "official_statewide": 138634,
+        "normalized_statewide": 138634,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "Sydney Dudikoff",
+        "county_sum": 494,
+        "official_statewide": 494,
+        "normalized_statewide": 494,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "John McCain",
+        "county_sum": 1359267,
+        "official_statewide": 1359267,
+        "normalized_statewide": 1359267,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "Anthony Camboni",
+        "county_sum": 45,
+        "official_statewide": 45,
+        "normalized_statewide": 45,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "Santos Chavez",
+        "county_sum": 4,
+        "official_statewide": 4,
+        "normalized_statewide": 4,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "Leonard Clark",
+        "county_sum": 83,
+        "official_statewide": 83,
+        "normalized_statewide": 83,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "Selena Lopez",
+        "county_sum": 223,
+        "official_statewide": 223,
+        "normalized_statewide": 223,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "Pat Quinn",
+        "county_sum": 694,
+        "official_statewide": 694,
+        "normalized_statewide": 694,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      }
+    ],
+    "input_validation": {
+      "source_checksums_validated": true,
+      "canvass_candidate_count": 11,
+      "county_count": 15,
+      "xml_matches_final_canvass": null
+    }
+  },
+  {
+    "contest": "az-2018-attorney-general",
+    "status": "verified",
+    "county_count": 15,
+    "complete_county_count": 15,
+    "expected_county_count": 15,
+    "missing_candidates": [],
+    "unexpected_candidates": [],
+    "reference": "https://apps.azsos.gov/election/2018/2018_1203_signed_official_statewide_canvass.pdf",
+    "reference_snapshot": "data\\raw\\attorney-general\\2018-transcription.csv",
+    "reference_sha256": "37071173880c924fb0b12db7ba1a7c8c269e5c3e6657ae87b396f6af50f1419f",
+    "candidates": [
+      {
+        "candidate": "Mark Brnovich",
+        "county_sum": 1201398,
+        "official_statewide": 1201398,
+        "normalized_statewide": 1201398,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "January Contreras",
+        "county_sum": 1120726,
+        "official_statewide": 1120726,
+        "normalized_statewide": 1120726,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "Anthony Camboni (Write-In)",
+        "county_sum": 346,
+        "official_statewide": 346,
+        "normalized_statewide": 346,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      }
+    ]
+  },
+  {
     "contest": "az-2018-governor",
     "status": "verified",
     "county_count": 15,
@@ -132,7 +1079,7 @@
     "missing_candidates": [],
     "unexpected_candidates": [],
     "reference": "https://apps.azsos.gov/election/2018/2018_1203_signed_official_statewide_canvass.pdf",
-    "reference_snapshot": "data/raw/2018-governor-transcription.csv",
+    "reference_snapshot": "data\\raw\\2018-governor-transcription.csv",
     "reference_sha256": "c7bf75a49f94691763cd0facec39b607b3c74c84175eccbd1d4e03bbbcff314b",
     "candidates": [
       {
@@ -731,401 +1678,6 @@
     }
   },
   {
-    "contest": "az-2022-governor",
-    "status": "verified",
-    "county_count": 15,
-    "complete_county_count": 15,
-    "expected_county_count": 15,
-    "missing_candidates": [],
-    "unexpected_candidates": [],
-    "reference": "https://apps.azsos.gov/election/2022/General/canvass/2022dec05_general_election_canvass_web.pdf",
-    "reference_snapshot": "data/raw/2022-governor-transcription.csv",
-    "reference_sha256": "7f168bfa13d4ef3cfec51d5d35661a580e8bd36c832acd12357a12c90a41ca02",
-    "candidates": [
-      {
-        "candidate": "Kari Lake",
-        "county_sum": 1270774,
-        "official_statewide": 1270774,
-        "normalized_statewide": 1270774,
-        "statewide_matches_reference": true,
-        "difference": 0,
-        "missing_counties": [],
-        "county_reference_mismatches": [],
-        "candidate_metadata_matches_reference": true
-      },
-      {
-        "candidate": "Katie Hobbs",
-        "county_sum": 1287891,
-        "official_statewide": 1287891,
-        "normalized_statewide": 1287891,
-        "statewide_matches_reference": true,
-        "difference": 0,
-        "missing_counties": [],
-        "county_reference_mismatches": [],
-        "candidate_metadata_matches_reference": true
-      },
-      {
-        "candidate": "Steph \"Steph\" Noelle Denny (Write-In)",
-        "county_sum": 74,
-        "official_statewide": 74,
-        "normalized_statewide": 74,
-        "statewide_matches_reference": true,
-        "difference": 0,
-        "missing_counties": [],
-        "county_reference_mismatches": [],
-        "candidate_metadata_matches_reference": true
-      },
-      {
-        "candidate": "Alice Novoa (Write-In)",
-        "county_sum": 55,
-        "official_statewide": 55,
-        "normalized_statewide": 55,
-        "statewide_matches_reference": true,
-        "difference": 0,
-        "missing_counties": [],
-        "county_reference_mismatches": [],
-        "candidate_metadata_matches_reference": true
-      },
-      {
-        "candidate": "Mikaela \"Mikki\" Shonnie Lutes-Burton (Write-In)",
-        "county_sum": 213,
-        "official_statewide": 213,
-        "normalized_statewide": 213,
-        "statewide_matches_reference": true,
-        "difference": 0,
-        "missing_counties": [],
-        "county_reference_mismatches": [],
-        "candidate_metadata_matches_reference": true
-      },
-      {
-        "candidate": "Anthony Camboni (Write-In)",
-        "county_sum": 41,
-        "official_statewide": 41,
-        "normalized_statewide": 41,
-        "statewide_matches_reference": true,
-        "difference": 0,
-        "missing_counties": [],
-        "county_reference_mismatches": [],
-        "candidate_metadata_matches_reference": true
-      },
-      {
-        "candidate": "RayShawn \"Shawn\" D'Anthony Merrill (Write-In)",
-        "county_sum": 44,
-        "official_statewide": 44,
-        "normalized_statewide": 44,
-        "statewide_matches_reference": true,
-        "difference": 0,
-        "missing_counties": [],
-        "county_reference_mismatches": [],
-        "candidate_metadata_matches_reference": true
-      },
-      {
-        "candidate": "William Josu\u00e9 Pounds IV (Write-In)",
-        "county_sum": 139,
-        "official_statewide": 139,
-        "normalized_statewide": 139,
-        "statewide_matches_reference": true,
-        "difference": 0,
-        "missing_counties": [],
-        "county_reference_mismatches": [],
-        "candidate_metadata_matches_reference": true
-      },
-      {
-        "candidate": "Liana West (Write-In)",
-        "county_sum": 254,
-        "official_statewide": 254,
-        "normalized_statewide": 254,
-        "statewide_matches_reference": true,
-        "difference": 0,
-        "missing_counties": [],
-        "county_reference_mismatches": [],
-        "candidate_metadata_matches_reference": true
-      }
-    ]
-  },
-  {
-    "contest": "az-2014-attorney-general",
-    "status": "verified",
-    "county_count": 15,
-    "complete_county_count": 15,
-    "expected_county_count": 15,
-    "missing_candidates": [],
-    "unexpected_candidates": [],
-    "reference": "https://apps.azsos.gov/election/2014/general/Canvass2014GE.pdf",
-    "reference_snapshot": "data/raw/attorney-general/2014-transcription.csv",
-    "reference_sha256": "64a3c83ce347f3da0bc04a0823164d574c1d47090ca4e32bf4d948f675ec3875",
-    "candidates": [
-      {
-        "candidate": "Mark Brnovich",
-        "county_sum": 782361,
-        "official_statewide": 782361,
-        "normalized_statewide": 782361,
-        "statewide_matches_reference": true,
-        "difference": 0,
-        "missing_counties": [],
-        "county_reference_mismatches": [],
-        "candidate_metadata_matches_reference": true
-      },
-      {
-        "candidate": "Felecia Rotellini",
-        "county_sum": 696054,
-        "official_statewide": 696054,
-        "normalized_statewide": 696054,
-        "statewide_matches_reference": true,
-        "difference": 0,
-        "missing_counties": [],
-        "county_reference_mismatches": [],
-        "candidate_metadata_matches_reference": true
-      },
-      {
-        "candidate": "Anthony Camboni (Write-In)",
-        "county_sum": 265,
-        "official_statewide": 265,
-        "normalized_statewide": 265,
-        "statewide_matches_reference": true,
-        "difference": 0,
-        "missing_counties": [],
-        "county_reference_mismatches": [],
-        "candidate_metadata_matches_reference": true
-      }
-    ]
-  },
-  {
-    "contest": "az-2018-attorney-general",
-    "status": "verified",
-    "county_count": 15,
-    "complete_county_count": 15,
-    "expected_county_count": 15,
-    "missing_candidates": [],
-    "unexpected_candidates": [],
-    "reference": "https://apps.azsos.gov/election/2018/2018_1203_signed_official_statewide_canvass.pdf",
-    "reference_snapshot": "data/raw/attorney-general/2018-transcription.csv",
-    "reference_sha256": "37071173880c924fb0b12db7ba1a7c8c269e5c3e6657ae87b396f6af50f1419f",
-    "candidates": [
-      {
-        "candidate": "Mark Brnovich",
-        "county_sum": 1201398,
-        "official_statewide": 1201398,
-        "normalized_statewide": 1201398,
-        "statewide_matches_reference": true,
-        "difference": 0,
-        "missing_counties": [],
-        "county_reference_mismatches": [],
-        "candidate_metadata_matches_reference": true
-      },
-      {
-        "candidate": "January Contreras",
-        "county_sum": 1120726,
-        "official_statewide": 1120726,
-        "normalized_statewide": 1120726,
-        "statewide_matches_reference": true,
-        "difference": 0,
-        "missing_counties": [],
-        "county_reference_mismatches": [],
-        "candidate_metadata_matches_reference": true
-      },
-      {
-        "candidate": "Anthony Camboni (Write-In)",
-        "county_sum": 346,
-        "official_statewide": 346,
-        "normalized_statewide": 346,
-        "statewide_matches_reference": true,
-        "difference": 0,
-        "missing_counties": [],
-        "county_reference_mismatches": [],
-        "candidate_metadata_matches_reference": true
-      }
-    ]
-  },
-  {
-    "contest": "az-2022-attorney-general",
-    "status": "verified",
-    "county_count": 15,
-    "complete_county_count": 15,
-    "expected_county_count": 15,
-    "missing_candidates": [],
-    "unexpected_candidates": [],
-    "reference": "https://apps.azsos.gov/election/2022/General/canvass/2022dec05_general_election_canvass_web.pdf",
-    "reference_snapshot": "data/raw/attorney-general/2022-transcription.csv",
-    "reference_sha256": "2ae47085455dced616ffc9fcb3fa910c7aeeb8d6789f98a411228fe9a48edb4f",
-    "candidates": [
-      {
-        "candidate": "Abraham \"Abe\" Hamadeh",
-        "county_sum": 1254102,
-        "official_statewide": 1254102,
-        "normalized_statewide": 1254102,
-        "statewide_matches_reference": true,
-        "difference": 0,
-        "missing_counties": [],
-        "county_reference_mismatches": [],
-        "candidate_metadata_matches_reference": true
-      },
-      {
-        "candidate": "Kris Mayes",
-        "county_sum": 1254613,
-        "official_statewide": 1254613,
-        "normalized_statewide": 1254613,
-        "statewide_matches_reference": true,
-        "difference": 0,
-        "missing_counties": [],
-        "county_reference_mismatches": [],
-        "candidate_metadata_matches_reference": true
-      },
-      {
-        "candidate": "Samantha Severson (Write-In)",
-        "county_sum": 418,
-        "official_statewide": 418,
-        "normalized_statewide": 418,
-        "statewide_matches_reference": true,
-        "difference": 0,
-        "missing_counties": [],
-        "county_reference_mismatches": [],
-        "candidate_metadata_matches_reference": true
-      }
-    ]
-  },
-  {
-    "contest": "az-2016-us-senate",
-    "status": "verified",
-    "county_count": 15,
-    "complete_county_count": 15,
-    "expected_county_count": 15,
-    "missing_candidates": [],
-    "unexpected_candidates": [],
-    "reference": "https://apps.azsos.gov/election/2016/General/Official%20Signed%20State%20Canvass.pdf",
-    "reference_snapshot": "data/raw/us-senate/2016-transcription.csv",
-    "reference_sha256": "d7cf5ab9ca0cc034f1b221b7bb9f9cecc4c4d23dcc5e3097366bfac497ff49ee",
-    "candidates": [
-      {
-        "candidate": "Sheila Bilyeu",
-        "county_sum": 34,
-        "official_statewide": 34,
-        "normalized_statewide": 34,
-        "statewide_matches_reference": true,
-        "difference": 0,
-        "missing_counties": [],
-        "county_reference_mismatches": [],
-        "candidate_metadata_matches_reference": true
-      },
-      {
-        "candidate": "Ann Kirkpatrick",
-        "county_sum": 1031245,
-        "official_statewide": 1031245,
-        "normalized_statewide": 1031245,
-        "statewide_matches_reference": true,
-        "difference": 0,
-        "missing_counties": [],
-        "county_reference_mismatches": [],
-        "candidate_metadata_matches_reference": true
-      },
-      {
-        "candidate": "Gene Scott II",
-        "county_sum": 7,
-        "official_statewide": 7,
-        "normalized_statewide": 7,
-        "statewide_matches_reference": true,
-        "difference": 0,
-        "missing_counties": [],
-        "county_reference_mismatches": [],
-        "candidate_metadata_matches_reference": true
-      },
-      {
-        "candidate": "Gary Swing",
-        "county_sum": 138634,
-        "official_statewide": 138634,
-        "normalized_statewide": 138634,
-        "statewide_matches_reference": true,
-        "difference": 0,
-        "missing_counties": [],
-        "county_reference_mismatches": [],
-        "candidate_metadata_matches_reference": true
-      },
-      {
-        "candidate": "Sydney Dudikoff",
-        "county_sum": 494,
-        "official_statewide": 494,
-        "normalized_statewide": 494,
-        "statewide_matches_reference": true,
-        "difference": 0,
-        "missing_counties": [],
-        "county_reference_mismatches": [],
-        "candidate_metadata_matches_reference": true
-      },
-      {
-        "candidate": "John McCain",
-        "county_sum": 1359267,
-        "official_statewide": 1359267,
-        "normalized_statewide": 1359267,
-        "statewide_matches_reference": true,
-        "difference": 0,
-        "missing_counties": [],
-        "county_reference_mismatches": [],
-        "candidate_metadata_matches_reference": true
-      },
-      {
-        "candidate": "Anthony Camboni",
-        "county_sum": 45,
-        "official_statewide": 45,
-        "normalized_statewide": 45,
-        "statewide_matches_reference": true,
-        "difference": 0,
-        "missing_counties": [],
-        "county_reference_mismatches": [],
-        "candidate_metadata_matches_reference": true
-      },
-      {
-        "candidate": "Santos Chavez",
-        "county_sum": 4,
-        "official_statewide": 4,
-        "normalized_statewide": 4,
-        "statewide_matches_reference": true,
-        "difference": 0,
-        "missing_counties": [],
-        "county_reference_mismatches": [],
-        "candidate_metadata_matches_reference": true
-      },
-      {
-        "candidate": "Leonard Clark",
-        "county_sum": 83,
-        "official_statewide": 83,
-        "normalized_statewide": 83,
-        "statewide_matches_reference": true,
-        "difference": 0,
-        "missing_counties": [],
-        "county_reference_mismatches": [],
-        "candidate_metadata_matches_reference": true
-      },
-      {
-        "candidate": "Selena Lopez",
-        "county_sum": 223,
-        "official_statewide": 223,
-        "normalized_statewide": 223,
-        "statewide_matches_reference": true,
-        "difference": 0,
-        "missing_counties": [],
-        "county_reference_mismatches": [],
-        "candidate_metadata_matches_reference": true
-      },
-      {
-        "candidate": "Pat Quinn",
-        "county_sum": 694,
-        "official_statewide": 694,
-        "normalized_statewide": 694,
-        "statewide_matches_reference": true,
-        "difference": 0,
-        "missing_counties": [],
-        "county_reference_mismatches": [],
-        "candidate_metadata_matches_reference": true
-      }
-    ],
-    "input_validation": {
-      "source_checksums_validated": true,
-      "canvass_candidate_count": 11,
-      "county_count": 15,
-      "xml_matches_final_canvass": null
-    }
-  },
-  {
     "contest": "az-2018-us-senate",
     "status": "verified",
     "county_count": 15,
@@ -1483,6 +2035,166 @@
       "county_count": 15,
       "xml_matches_final_canvass": true
     }
+  },
+  {
+    "contest": "az-2022-attorney-general",
+    "status": "verified",
+    "county_count": 15,
+    "complete_county_count": 15,
+    "expected_county_count": 15,
+    "missing_candidates": [],
+    "unexpected_candidates": [],
+    "reference": "https://apps.azsos.gov/election/2022/General/canvass/2022dec05_general_election_canvass_web.pdf",
+    "reference_snapshot": "data\\raw\\attorney-general\\2022-transcription.csv",
+    "reference_sha256": "2ae47085455dced616ffc9fcb3fa910c7aeeb8d6789f98a411228fe9a48edb4f",
+    "candidates": [
+      {
+        "candidate": "Abraham \"Abe\" Hamadeh",
+        "county_sum": 1254102,
+        "official_statewide": 1254102,
+        "normalized_statewide": 1254102,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "Kris Mayes",
+        "county_sum": 1254613,
+        "official_statewide": 1254613,
+        "normalized_statewide": 1254613,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "Samantha Severson (Write-In)",
+        "county_sum": 418,
+        "official_statewide": 418,
+        "normalized_statewide": 418,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      }
+    ]
+  },
+  {
+    "contest": "az-2022-governor",
+    "status": "verified",
+    "county_count": 15,
+    "complete_county_count": 15,
+    "expected_county_count": 15,
+    "missing_candidates": [],
+    "unexpected_candidates": [],
+    "reference": "https://apps.azsos.gov/election/2022/General/canvass/2022dec05_general_election_canvass_web.pdf",
+    "reference_snapshot": "data\\raw\\2022-governor-transcription.csv",
+    "reference_sha256": "7f168bfa13d4ef3cfec51d5d35661a580e8bd36c832acd12357a12c90a41ca02",
+    "candidates": [
+      {
+        "candidate": "Kari Lake",
+        "county_sum": 1270774,
+        "official_statewide": 1270774,
+        "normalized_statewide": 1270774,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "Katie Hobbs",
+        "county_sum": 1287891,
+        "official_statewide": 1287891,
+        "normalized_statewide": 1287891,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "Steph \"Steph\" Noelle Denny (Write-In)",
+        "county_sum": 74,
+        "official_statewide": 74,
+        "normalized_statewide": 74,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "Alice Novoa (Write-In)",
+        "county_sum": 55,
+        "official_statewide": 55,
+        "normalized_statewide": 55,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "Mikaela \"Mikki\" Shonnie Lutes-Burton (Write-In)",
+        "county_sum": 213,
+        "official_statewide": 213,
+        "normalized_statewide": 213,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "Anthony Camboni (Write-In)",
+        "county_sum": 41,
+        "official_statewide": 41,
+        "normalized_statewide": 41,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "RayShawn \"Shawn\" D'Anthony Merrill (Write-In)",
+        "county_sum": 44,
+        "official_statewide": 44,
+        "normalized_statewide": 44,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "William Josu\u00e9 Pounds IV (Write-In)",
+        "county_sum": 139,
+        "official_statewide": 139,
+        "normalized_statewide": 139,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "Liana West (Write-In)",
+        "county_sum": 254,
+        "official_statewide": 254,
+        "normalized_statewide": 254,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      }
+    ]
   },
   {
     "contest": "az-2022-us-senate",

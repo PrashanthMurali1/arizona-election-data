@@ -294,7 +294,7 @@ export default function Home() {
                                           : "General election · "}
                                         {e.status === "civicapi"
                                           ? `${e.district_count ?? 1} special-election district · civicAPI candidate report`
-                                          : e.status === "verified"
+                                          : ["verified", "reported"].includes(e.status)
                                             ? e.district_count !== undefined
                                               ? `${e.district_count} ${e.district_count === 1 ? "district" : "districts"} · ${e.candidate_count} candidates`
                                               : `${e.county_count} counties · ${e.candidate_count} candidates`
@@ -305,7 +305,7 @@ export default function Home() {
                                       <span className="sr-only">
                                         {e.status === "civicapi"
                                           ? "Explore civicAPI report"
-                                          : e.status === "verified"
+                                          : ["verified", "reported"].includes(e.status)
                                             ? "Explore results"
                                             : "View availability"}
                                       </span>
