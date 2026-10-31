@@ -13,7 +13,9 @@ import { NotFound } from "./components";
 import ElectionPage from "./pages/ElectionPage";
 import Methodology from "./pages/Methodology";
 import ThemeSwitch from "./ThemeSwitch";
+import { startGlassLight } from "./glassLight";
 import "./styles.css";
+startGlassLight();
 function Layout() {
   const { pathname } = useLocation();
   return (
