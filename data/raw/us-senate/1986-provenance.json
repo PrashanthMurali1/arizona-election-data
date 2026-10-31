@@ -1,0 +1,40 @@
+{
+  "year": 1986,
+  "election_date": "1986-11-04",
+  "contest_id": "az-1986-us-senate",
+  "contest_kind": "regular",
+  "candidate_count": 5,
+  "source_id": "canvass-1986-us-senate",
+  "source_title": "Arizona Secretary of State — 1986 official U.S. Senate canvass",
+  "source_url": "https://apps.azsos.gov/election/files/hist/canvass1986ge.pdf",
+  "reported_at": "1986-11-24",
+  "report_time_precision": "date",
+  "retrieved_on": "2026-11-01",
+  "retrieval_precision": "date",
+  "canvass_page": 1,
+  "source_notes": "1986 regular Arizona U.S. Senate election. County cells and statewide totals transcribed from page 1 of the official canvass issued by the Arizona Secretary of State; every candidate's 15 county cells sum to the printed statewide TOTAL. Cells were read from the printed page images. Named write-ins are included. The canvass PDF was supplied by the project maintainer from the Secretary of State and is retained under data/raw/us-senate/pdfs with its SHA-256 recorded in the snapshots.",
+  "additional_sources": [
+    {
+      "id": "clerk-1986-us-senate",
+      "title": "Clerk of the U.S. House — Statistics of the Congressional Election of 1986 (Arizona U.S. Senate; cross-check)",
+      "url": "https://clerk.house.gov/member_info/electionInfo/1986election.pdf",
+      "notes": "Statewide candidate totals (Corrected to May 29, 1987) agree with the Secretary of State canvass; the Clerk publication carries no county breakdown."
+    }
+  ],
+  "turnout_path": "data/raw/us-senate/1986-turnout-transcription.csv",
+  "turnout_definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+  "snapshots": [
+    {
+      "path": "data/raw/us-senate/1986-transcription.csv",
+      "sha256": "991e9fdb65ddfe0da547ee194e7220458818f9cebaf3fd8263af70e0730c370b"
+    },
+    {
+      "path": "data/raw/us-senate/pdfs/canvass1986ge.pdf",
+      "sha256": "ac66acc8e83f8ca31b937053e252db46efc574549aaa452b12056709e8272f13"
+    },
+    {
+      "path": "data/raw/us-senate/1986-turnout-transcription.csv",
+      "sha256": "c94ca2624fbd87555137f3d3a2dcb04714db221935614e22f96599224041bfbd"
+    }
+  ]
+}

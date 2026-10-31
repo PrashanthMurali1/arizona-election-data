@@ -1,0 +1,272 @@
+{
+  "year": 2012,
+  "date": "2012-11-06",
+  "event_id": "az-2012-general",
+  "contest_id": "az-2012-us-senate",
+  "contest_kind": "regular",
+  "office_id": "us-senate",
+  "office": "U.S. Senate",
+  "source_id": "canvass-2012-us-senate",
+  "source_title": "Arizona Secretary of State — 2012 official U.S. Senate canvass",
+  "source_url": "https://apps.azsos.gov/election/2012/General/Canvass2012GE.pdf",
+  "source_sha256": "2dc91bf0cb3f60d45bca876169ecd90b3932207d801a6a6091c7edd76bcb95c8",
+  "source_notes": "2012 regular Arizona U.S. Senate election. County cells and statewide totals transcribed from page 4 of the official canvass issued by the Arizona Secretary of State; every candidate's 15 county cells sum to the printed statewide TOTAL. Cells were read from the printed page images. Named write-ins are included. The canvass PDF was supplied by the project maintainer from the Secretary of State and is retained under data/raw/us-senate/pdfs with its SHA-256 recorded in the snapshots.",
+  "reference_path": "data/raw/us-senate/2012-transcription.csv",
+  "provenance_path": "data/raw/us-senate/2012-provenance.json",
+  "additional_sources": [
+    {
+      "id": "openelections-us-senate-2000-2012",
+      "title": "OpenElections Arizona — U.S. Senate county results, 2000–2012 (comparison)",
+      "url": "https://github.com/openelections/openelections-data-az/tree/bf14331521f62f74cb17848ab11ca3dfd27f4f82",
+      "sha256": "e352e20ffa636b7a3353a6c823929a89ccbbf1adaf6366be2e93a6747d33cdcc",
+      "notes": "Independent open-data county results compiled from the official canvass; used only to cross-check the transcribed cells. See data/processed/us-senate/validation/openelections-comparison.json."
+    }
+  ],
+  "input_validation": {
+    "source_checksums_validated": true,
+    "canvass_candidate_count": 5,
+    "county_count": 15,
+    "xml_matches_final_canvass": null
+  },
+  "candidates": [
+    {
+      "id": "senate-2012-0",
+      "name": "Richard Carmona",
+      "party": "DEM",
+      "write_in": false,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 16455,
+        "04003": 19736,
+        "04005": 28723,
+        "04007": 8099,
+        "04009": 3771,
+        "04011": 1342,
+        "04012": 1961,
+        "04013": 602809,
+        "04015": 20865,
+        "04017": 16881,
+        "04019": 207578,
+        "04021": 45558,
+        "04023": 9454,
+        "04025": 34902,
+        "04027": 18408
+      },
+      "statewide": 1036542
+    },
+    {
+      "id": "senate-2012-1",
+      "name": "Don Manspeaker",
+      "party": "IND",
+      "write_in": true,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 0,
+        "04003": 6,
+        "04005": 2,
+        "04007": 1,
+        "04009": 0,
+        "04011": 0,
+        "04012": 0,
+        "04013": 10,
+        "04015": 0,
+        "04017": 0,
+        "04019": 5,
+        "04021": 0,
+        "04023": 0,
+        "04025": 0,
+        "04027": 0
+      },
+      "statewide": 24
+    },
+    {
+      "id": "senate-2012-2",
+      "name": "Steven Watts",
+      "party": "IND",
+      "write_in": true,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 0,
+        "04003": 5,
+        "04005": 8,
+        "04007": 4,
+        "04009": 4,
+        "04011": 0,
+        "04012": 0,
+        "04013": 201,
+        "04015": 10,
+        "04017": 3,
+        "04019": 29,
+        "04021": 8,
+        "04023": 0,
+        "04025": 17,
+        "04027": 1
+      },
+      "statewide": 290
+    },
+    {
+      "id": "senate-2012-3",
+      "name": "Marc Victor",
+      "party": "LBT",
+      "write_in": false,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 1097,
+        "04003": 2266,
+        "04005": 2580,
+        "04007": 1135,
+        "04009": 570,
+        "04011": 205,
+        "04012": 426,
+        "04013": 62546,
+        "04015": 4822,
+        "04017": 1631,
+        "04019": 12304,
+        "04021": 5885,
+        "04023": 437,
+        "04025": 5114,
+        "04027": 1091
+      },
+      "statewide": 102109
+    },
+    {
+      "id": "senate-2012-4",
+      "name": "Jeff Flake",
+      "party": "REP",
+      "write_in": false,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 7680,
+        "04003": 26208,
+        "04005": 19334,
+        "04007": 11954,
+        "04009": 7352,
+        "04011": 1365,
+        "04012": 3120,
+        "04013": 675500,
+        "04015": 42410,
+        "04017": 18228,
+        "04019": 153846,
+        "04021": 55008,
+        "04023": 3617,
+        "04025": 57838,
+        "04027": 20997
+      },
+      "statewide": 1104457
+    }
+  ],
+  "turnout": {
+    "04001": {
+      "ballots_cast": 26226,
+      "registered_voters": 45868,
+      "percent": 57.18,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-2012-us-senate"
+    },
+    "04003": {
+      "ballots_cast": 49554,
+      "registered_voters": 80372,
+      "percent": 61.66,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-2012-us-senate"
+    },
+    "04005": {
+      "ballots_cast": 52243,
+      "registered_voters": 69598,
+      "percent": 75.06,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-2012-us-senate"
+    },
+    "04007": {
+      "ballots_cast": 21823,
+      "registered_voters": 32161,
+      "percent": 67.86,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-2012-us-senate"
+    },
+    "04009": {
+      "ballots_cast": 11991,
+      "registered_voters": 17252,
+      "percent": 69.5,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-2012-us-senate"
+    },
+    "04011": {
+      "ballots_cast": 3035,
+      "registered_voters": 4362,
+      "percent": 69.58,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-2012-us-senate"
+    },
+    "04012": {
+      "ballots_cast": 5808,
+      "registered_voters": 9757,
+      "percent": 59.53,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-2012-us-senate"
+    },
+    "04013": {
+      "ballots_cast": 1390836,
+      "registered_voters": 1817832,
+      "percent": 76.51,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-2012-us-senate"
+    },
+    "04015": {
+      "ballots_cast": 71203,
+      "registered_voters": 115510,
+      "percent": 61.64,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-2012-us-senate"
+    },
+    "04017": {
+      "ballots_cast": 37804,
+      "registered_voters": 59547,
+      "percent": 63.49,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-2012-us-senate"
+    },
+    "04019": {
+      "ballots_cast": 385725,
+      "registered_voters": 495647,
+      "percent": 77.82,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-2012-us-senate"
+    },
+    "04021": {
+      "ballots_cast": 109470,
+      "registered_voters": 153056,
+      "percent": 71.52,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-2012-us-senate"
+    },
+    "04023": {
+      "ballots_cast": 14072,
+      "registered_voters": 24062,
+      "percent": 58.48,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-2012-us-senate"
+    },
+    "04025": {
+      "ballots_cast": 101268,
+      "registered_voters": 124156,
+      "percent": 81.57,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-2012-us-senate"
+    },
+    "04027": {
+      "ballots_cast": 42521,
+      "registered_voters": 75532,
+      "percent": 56.3,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-2012-us-senate"
+    },
+    "04": {
+      "ballots_cast": 2323579,
+      "registered_voters": 3124712,
+      "percent": 74.36,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-2012-us-senate"
+    }
+  }
+}

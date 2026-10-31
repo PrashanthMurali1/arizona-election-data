@@ -12,7 +12,7 @@ test("Senate archive reuses results, county selection, year navigation and respo
   const office = page
     .locator(".office-section")
     .filter({ hasText: "Arizona U.S. Senate" });
-  await expect(office.locator(".election-card")).toHaveCount(5);
+  await expect(office.locator(".election-card")).toHaveCount(15);
   await expect(
     office.locator(".election-card").filter({ hasText: "2020" }),
   ).toContainText("Special election");
@@ -39,7 +39,7 @@ test("Senate archive reuses results, county selection, year navigation and respo
     ).toHaveCount(15);
   }
   const years = page.getByLabel("Election year");
-  await expect(years.locator("option")).toHaveCount(5);
+  await expect(years.locator("option")).toHaveCount(15);
   await expect(
     years.locator('option[value="az-2020-us-senate-special"]'),
   ).toContainText("special election");

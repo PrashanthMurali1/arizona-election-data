@@ -1,0 +1,22 @@
+{
+  "2000": {
+    "cells_compared": 60,
+    "mismatch_count": 0
+  },
+  "2004": {
+    "cells_compared": 45,
+    "mismatch_count": 0
+  },
+  "2006": {
+    "cells_compared": 75,
+    "mismatch_count": 0
+  },
+  "2010": {
+    "cells_compared": 135,
+    "mismatch_count": 0
+  },
+  "2012": {
+    "cells_compared": 75,
+    "mismatch_count": 0
+  }
+}

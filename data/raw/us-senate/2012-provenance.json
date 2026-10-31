@@ -1,0 +1,41 @@
+{
+  "year": 2012,
+  "election_date": "2012-11-06",
+  "contest_id": "az-2012-us-senate",
+  "contest_kind": "regular",
+  "candidate_count": 5,
+  "source_id": "canvass-2012-us-senate",
+  "source_title": "Arizona Secretary of State — 2012 official U.S. Senate canvass",
+  "source_url": "https://apps.azsos.gov/election/2012/General/Canvass2012GE.pdf",
+  "reported_at": "2012-12-03T10:00:00-07:00",
+  "report_time_precision": "datetime",
+  "retrieved_on": "2026-11-01",
+  "retrieval_precision": "date",
+  "canvass_page": 4,
+  "source_notes": "2012 regular Arizona U.S. Senate election. County cells and statewide totals transcribed from page 4 of the official canvass issued by the Arizona Secretary of State; every candidate's 15 county cells sum to the printed statewide TOTAL. Cells were read from the printed page images. Named write-ins are included. The canvass PDF was supplied by the project maintainer from the Secretary of State and is retained under data/raw/us-senate/pdfs with its SHA-256 recorded in the snapshots.",
+  "additional_sources": [
+    {
+      "id": "openelections-us-senate-2000-2012",
+      "title": "OpenElections Arizona — U.S. Senate county results, 2000–2012 (comparison)",
+      "url": "https://github.com/openelections/openelections-data-az/tree/bf14331521f62f74cb17848ab11ca3dfd27f4f82",
+      "sha256": "e352e20ffa636b7a3353a6c823929a89ccbbf1adaf6366be2e93a6747d33cdcc",
+      "notes": "Independent open-data county results compiled from the official canvass; used only to cross-check the transcribed cells. See data/processed/us-senate/validation/openelections-comparison.json."
+    }
+  ],
+  "turnout_path": "data/raw/us-senate/2012-turnout-transcription.csv",
+  "turnout_definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+  "snapshots": [
+    {
+      "path": "data/raw/us-senate/2012-transcription.csv",
+      "sha256": "2dc91bf0cb3f60d45bca876169ecd90b3932207d801a6a6091c7edd76bcb95c8"
+    },
+    {
+      "path": "data/raw/us-senate/pdfs/Canvass2012GE.pdf",
+      "sha256": "0a6e9458ec8b9de71cd6b9425a246f368146fac504197ed438fdaa54da6ed3c1"
+    },
+    {
+      "path": "data/raw/us-senate/2012-turnout-transcription.csv",
+      "sha256": "eb38ef7f5fdc173cea68131d673554f027a3379660f6a18d85efd45e25789443"
+    }
+  ]
+}

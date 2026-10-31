@@ -1,0 +1,278 @@
+{
+  "year": 1988,
+  "date": "1988-11-08",
+  "event_id": "az-1988-general",
+  "contest_id": "az-1988-us-senate",
+  "contest_kind": "regular",
+  "office_id": "us-senate",
+  "office": "U.S. Senate",
+  "source_id": "rightdatausa-1988-us-senate",
+  "source_title": "RightDataUSA — 1988 Senatorial Election Results for Arizona (county results)",
+  "source_url": "https://www.rightdatausa.com/election_results?y=1988&t=S1&r=N&s=AZ&d=all&WhichMap=vs",
+  "source_sha256": "f9c5ad575d28ca61c9958deb8d967ed3cdf27d61250cf48c6c27e2cad7b49fa8",
+  "source_notes": "1988 regular Arizona U.S. Senate election. The Secretary of State canvass scan is too degraded to read every county cell, so county results come from RightDataUSA's compilation (a secondary source, supplied as a saved copy of its page). Each candidate's 15 county cells sum exactly to the official statewide total printed on page 3 of the Secretary of State canvass, and every legible scan cell agrees, so the contest is shown as verified; the county source is secondary and is named as such. Election-wide registration and ballots cast are the official figures from page 1 of the canvass (they sum to the printed statewide totals); county turnout percentages are computed from them because the printed percentages are illegible. The write-in total is one aggregate row.",
+  "reference_path": "data/raw/us-senate/1988-transcription.csv",
+  "provenance_path": "data/raw/us-senate/1988-provenance.json",
+  "additional_sources": [
+    {
+      "id": "canvass-1988-us-senate",
+      "title": "Arizona Secretary of State — 1988 official canvass (statewide totals and turnout)",
+      "url": "https://apps.azsos.gov/election/files/hist/canvass1988ge.pdf",
+      "sha256": "182d5f0c824f9ffa2b31a248e1160bb703f0aba2719ea8c3276e072b297e2fc7",
+      "notes": "Official statewide candidate totals (page 3) and election-wide registration and ballots cast (page 1)."
+    },
+    {
+      "id": "clerk-1988-us-senate",
+      "title": "Clerk of the U.S. House — Statistics of the Congressional Election of 1988 (Arizona U.S. Senate; cross-check)",
+      "url": "https://clerk.house.gov/member_info/electionInfo/1988election.pdf",
+      "notes": "Statewide candidate totals (Corrected to April 20, 1989) agree with the Secretary of State canvass; the Clerk publication carries no county breakdown."
+    }
+  ],
+  "input_validation": {
+    "source_checksums_validated": true,
+    "canvass_candidate_count": 5,
+    "county_count": 15,
+    "xml_matches_final_canvass": null
+  },
+  "candidates": [
+    {
+      "id": "senate-1988-0",
+      "name": "Dennis DeConcini",
+      "party": "DEM",
+      "write_in": false,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 10871,
+        "04003": 19002,
+        "04005": 21203,
+        "04007": 9770,
+        "04009": 5603,
+        "04011": 2551,
+        "04012": 2292,
+        "04013": 340814,
+        "04015": 15142,
+        "04017": 12439,
+        "04019": 163100,
+        "04021": 19082,
+        "04023": 4817,
+        "04025": 21460,
+        "04027": 12257
+      },
+      "statewide": 660403
+    },
+    {
+      "id": "senate-1988-1",
+      "name": "Keith DeGreen",
+      "party": "REP",
+      "write_in": false,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 3318,
+        "04003": 8604,
+        "04005": 9644,
+        "04007": 5327,
+        "04009": 3084,
+        "04011": 796,
+        "04012": 2017,
+        "04013": 319561,
+        "04015": 12657,
+        "04017": 7043,
+        "04019": 64220,
+        "04021": 9906,
+        "04023": 1702,
+        "04025": 20382,
+        "04027": 9799
+      },
+      "statewide": 478060
+    },
+    {
+      "id": "senate-1988-2",
+      "name": "Rick Tompkins",
+      "party": "LBT",
+      "write_in": false,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 307,
+        "04003": 610,
+        "04005": 1066,
+        "04007": 315,
+        "04009": 113,
+        "04011": 32,
+        "04012": 90,
+        "04013": 11840,
+        "04015": 576,
+        "04017": 315,
+        "04019": 3583,
+        "04021": 507,
+        "04023": 105,
+        "04025": 1056,
+        "04027": 334
+      },
+      "statewide": 20849
+    },
+    {
+      "id": "senate-1988-3",
+      "name": "Ed Finkelstein",
+      "party": "NAP",
+      "write_in": false,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 106,
+        "04003": 121,
+        "04005": 184,
+        "04007": 74,
+        "04009": 31,
+        "04011": 8,
+        "04012": 14,
+        "04013": 2641,
+        "04015": 91,
+        "04017": 80,
+        "04019": 1481,
+        "04021": 133,
+        "04023": 42,
+        "04025": 139,
+        "04027": 50
+      },
+      "statewide": 5195
+    },
+    {
+      "id": "senate-1988-4",
+      "name": "Unattributed write-ins",
+      "party": "NONE",
+      "write_in": true,
+      "category": "aggregate_write_in",
+      "county_votes": {
+        "04001": 0,
+        "04003": 1,
+        "04005": 1,
+        "04007": 0,
+        "04009": 0,
+        "04011": 0,
+        "04012": 0,
+        "04013": 18,
+        "04015": 3,
+        "04017": 0,
+        "04019": 9,
+        "04021": 0,
+        "04023": 0,
+        "04025": 0,
+        "04027": 0
+      },
+      "statewide": 32
+    }
+  ],
+  "turnout": {
+    "04001": {
+      "ballots_cast": 15419,
+      "registered_voters": 24330,
+      "percent": 63.37,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1988-us-senate"
+    },
+    "04003": {
+      "ballots_cast": 29193,
+      "registered_voters": 45168,
+      "percent": 64.63,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1988-us-senate"
+    },
+    "04005": {
+      "ballots_cast": 33278,
+      "registered_voters": 51915,
+      "percent": 64.1,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1988-us-senate"
+    },
+    "04007": {
+      "ballots_cast": 16109,
+      "registered_voters": 22408,
+      "percent": 71.89,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1988-us-senate"
+    },
+    "04009": {
+      "ballots_cast": 9213,
+      "registered_voters": 12833,
+      "percent": 71.79,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1988-us-senate"
+    },
+    "04011": {
+      "ballots_cast": 3529,
+      "registered_voters": 5047,
+      "percent": 69.92,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1988-us-senate"
+    },
+    "04012": {
+      "ballots_cast": 4597,
+      "registered_voters": 7367,
+      "percent": 62.4,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1988-us-senate"
+    },
+    "04013": {
+      "ballots_cast": 696398,
+      "registered_voters": 1016585,
+      "percent": 68.5,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1988-us-senate"
+    },
+    "04015": {
+      "ballots_cast": 29497,
+      "registered_voters": 46760,
+      "percent": 63.08,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1988-us-senate"
+    },
+    "04017": {
+      "ballots_cast": 20681,
+      "registered_voters": 33059,
+      "percent": 62.56,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1988-us-senate"
+    },
+    "04019": {
+      "ballots_cast": 240653,
+      "registered_voters": 374622,
+      "percent": 64.24,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1988-us-senate"
+    },
+    "04021": {
+      "ballots_cast": 30525,
+      "registered_voters": 48453,
+      "percent": 63.0,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1988-us-senate"
+    },
+    "04023": {
+      "ballots_cast": 7056,
+      "registered_voters": 10389,
+      "percent": 67.92,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1988-us-senate"
+    },
+    "04025": {
+      "ballots_cast": 44761,
+      "registered_voters": 61382,
+      "percent": 72.92,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1988-us-senate"
+    },
+    "04027": {
+      "ballots_cast": 23266,
+      "registered_voters": 37396,
+      "percent": 62.22,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1988-us-senate"
+    },
+    "04": {
+      "ballots_cast": 1204175,
+      "registered_voters": 1797714,
+      "percent": 66.98,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1988-us-senate"
+    }
+  }
+}

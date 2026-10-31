@@ -1,0 +1,26 @@
+{
+  "year": 1998,
+  "election_date": "1998-11-03",
+  "contest_id": "az-1998-us-senate",
+  "contest_kind": "regular",
+  "candidate_count": 5,
+  "source_id": "canvass-1998-us-senate",
+  "source_title": "Arizona Secretary of State — 1998 official U.S. Senate canvass",
+  "source_url": "https://apps.azsos.gov/election/1998/General/Canvass1998GE.pdf",
+  "reported_at": "1998-11-23T09:59:00-07:00",
+  "report_time_precision": "datetime",
+  "retrieved_on": "2026-11-01",
+  "retrieval_precision": "date",
+  "canvass_page": 1,
+  "source_notes": "1998 regular Arizona U.S. Senate election. County cells and statewide totals transcribed from page 1 of the official canvass issued by the Arizona Secretary of State; every candidate's 15 county cells sum to the printed statewide TOTAL. Cells were read from the document's text layer and checked against the page images. Named write-ins are included. The canvass PDF was supplied by the project maintainer from the Secretary of State and is retained under data/raw/us-senate/pdfs with its SHA-256 recorded in the snapshots. Event turnout is shared with the Governor and Attorney General contests of the same election.",
+  "snapshots": [
+    {
+      "path": "data/raw/us-senate/1998-transcription.csv",
+      "sha256": "db788906fb5db632ddc1a265d2379d7e79bd529b723302d9e1589a2d9832a652"
+    },
+    {
+      "path": "data/raw/us-senate/pdfs/Canvass1998GE.pdf",
+      "sha256": "3010f261c3cda004cb68040acc65a7116fedcafe46216feb35ea59daea737897"
+    }
+  ]
+}

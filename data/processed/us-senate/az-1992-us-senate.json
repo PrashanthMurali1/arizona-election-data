@@ -1,0 +1,296 @@
+{
+  "year": 1992,
+  "date": "1992-11-03",
+  "event_id": "az-1992-general",
+  "contest_id": "az-1992-us-senate",
+  "contest_kind": "regular",
+  "office_id": "us-senate",
+  "office": "U.S. Senate",
+  "source_id": "canvass-1992-us-senate",
+  "source_title": "Arizona Secretary of State — 1992 official U.S. Senate canvass",
+  "source_url": "https://apps.azsos.gov/election/files/hist/canvass1992ge.pdf",
+  "source_sha256": "0b615680254a954739dde800287c7268eca113a239b92316f6f96c69906ea8b0",
+  "source_notes": "1992 regular Arizona U.S. Senate election. County cells and statewide totals transcribed from page 3 of the official canvass issued by the Arizona Secretary of State; every candidate's 15 county cells sum to the printed statewide TOTAL. Cells were read from the printed page images. Named write-ins are included. The canvass PDF was supplied by the project maintainer from the Secretary of State and is retained under data/raw/us-senate/pdfs with its SHA-256 recorded in the snapshots.",
+  "reference_path": "data/raw/us-senate/1992-transcription.csv",
+  "provenance_path": "data/raw/us-senate/1992-provenance.json",
+  "additional_sources": [
+    {
+      "id": "clerk-1992-us-senate",
+      "title": "Clerk of the U.S. House — Statistics of the Congressional Election of 1992 (Arizona U.S. Senate; cross-check)",
+      "url": "https://clerk.house.gov/member_info/electionInfo/1992election.pdf",
+      "notes": "Statewide candidate totals (Corrected to May 31, 1993) agree with the Secretary of State canvass; the Clerk publication carries no county breakdown."
+    }
+  ],
+  "input_validation": {
+    "source_checksums_validated": true,
+    "canvass_candidate_count": 6,
+    "county_count": 15,
+    "xml_matches_final_canvass": null
+  },
+  "candidates": [
+    {
+      "id": "senate-1992-0",
+      "name": "Claire Sargent",
+      "party": "DEM",
+      "write_in": false,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 8543,
+        "04003": 10304,
+        "04005": 14414,
+        "04007": 6011,
+        "04009": 2659,
+        "04011": 1375,
+        "04012": 1465,
+        "04013": 234584,
+        "04015": 12513,
+        "04017": 7949,
+        "04019": 95789,
+        "04021": 12011,
+        "04023": 2614,
+        "04025": 17073,
+        "04027": 9017
+      },
+      "statewide": 436321
+    },
+    {
+      "id": "senate-1992-1",
+      "name": "John McCain",
+      "party": "REP",
+      "write_in": false,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 7564,
+        "04003": 19166,
+        "04005": 23766,
+        "04007": 9007,
+        "04009": 4766,
+        "04011": 2086,
+        "04012": 2641,
+        "04013": 443607,
+        "04015": 21190,
+        "04017": 12601,
+        "04019": 153015,
+        "04021": 19095,
+        "04023": 4591,
+        "04025": 32053,
+        "04027": 16247
+      },
+      "statewide": 771395
+    },
+    {
+      "id": "senate-1992-2",
+      "name": "Kiana Delamare",
+      "party": "LBT",
+      "write_in": false,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 324,
+        "04003": 399,
+        "04005": 930,
+        "04007": 260,
+        "04009": 111,
+        "04011": 50,
+        "04012": 49,
+        "04013": 13651,
+        "04015": 600,
+        "04017": 338,
+        "04019": 3779,
+        "04021": 417,
+        "04023": 136,
+        "04025": 1225,
+        "04027": 344
+      },
+      "statewide": 22613
+    },
+    {
+      "id": "senate-1992-3",
+      "name": "Ed Finkelstein",
+      "party": "NAP",
+      "write_in": false,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 166,
+        "04003": 85,
+        "04005": 210,
+        "04007": 129,
+        "04009": 31,
+        "04011": 10,
+        "04012": 14,
+        "04013": 3998,
+        "04015": 200,
+        "04017": 104,
+        "04019": 807,
+        "04021": 186,
+        "04023": 26,
+        "04025": 241,
+        "04027": 128
+      },
+      "statewide": 6335
+    },
+    {
+      "id": "senate-1992-4",
+      "name": "Evan Mecham",
+      "party": "IND",
+      "write_in": false,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 1469,
+        "04003": 2903,
+        "04005": 2477,
+        "04007": 2939,
+        "04009": 2160,
+        "04011": 436,
+        "04012": 740,
+        "04013": 94808,
+        "04015": 5266,
+        "04017": 3505,
+        "04019": 13802,
+        "04021": 4795,
+        "04023": 402,
+        "04025": 7933,
+        "04027": 1726
+      },
+      "statewide": 145361
+    },
+    {
+      "id": "senate-1992-5",
+      "name": "Robert B. Winn",
+      "party": "IND",
+      "write_in": true,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 15,
+        "04003": 0,
+        "04005": 0,
+        "04007": 0,
+        "04009": 0,
+        "04011": 0,
+        "04012": 1,
+        "04013": 1,
+        "04015": 2,
+        "04017": 1,
+        "04019": 2,
+        "04021": 1,
+        "04023": 1,
+        "04025": 0,
+        "04027": 2
+      },
+      "statewide": 26
+    }
+  ],
+  "turnout": {
+    "04001": {
+      "ballots_cast": 18973,
+      "registered_voters": 28397,
+      "percent": 66.81,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1992-us-senate"
+    },
+    "04003": {
+      "ballots_cast": 34012,
+      "registered_voters": 44985,
+      "percent": 75.61,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1992-us-senate"
+    },
+    "04005": {
+      "ballots_cast": 43501,
+      "registered_voters": 54649,
+      "percent": 79.6,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1992-us-senate"
+    },
+    "04007": {
+      "ballots_cast": 19026,
+      "registered_voters": 24311,
+      "percent": 78.26,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1992-us-senate"
+    },
+    "04009": {
+      "ballots_cast": 10077,
+      "registered_voters": 12883,
+      "percent": 78.22,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1992-us-senate"
+    },
+    "04011": {
+      "ballots_cast": 4111,
+      "registered_voters": 5108,
+      "percent": 80.48,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1992-us-senate"
+    },
+    "04012": {
+      "ballots_cast": 5109,
+      "registered_voters": 6557,
+      "percent": 77.92,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1992-us-senate"
+    },
+    "04013": {
+      "ballots_cast": 890680,
+      "registered_voters": 1147672,
+      "percent": 77.61,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1992-us-senate"
+    },
+    "04015": {
+      "ballots_cast": 41732,
+      "registered_voters": 55009,
+      "percent": 75.86,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1992-us-senate"
+    },
+    "04017": {
+      "ballots_cast": 25432,
+      "registered_voters": 36431,
+      "percent": 69.81,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1992-us-senate"
+    },
+    "04019": {
+      "ballots_cast": 287718,
+      "registered_voters": 375942,
+      "percent": 76.53,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1992-us-senate"
+    },
+    "04021": {
+      "ballots_cast": 38230,
+      "registered_voters": 51143,
+      "percent": 74.75,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1992-us-senate"
+    },
+    "04023": {
+      "ballots_cast": 8355,
+      "registered_voters": 11268,
+      "percent": 74.15,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1992-us-senate"
+    },
+    "04025": {
+      "ballots_cast": 60356,
+      "registered_voters": 70202,
+      "percent": 85.97,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1992-us-senate"
+    },
+    "04027": {
+      "ballots_cast": 28964,
+      "registered_voters": 40392,
+      "percent": 71.71,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1992-us-senate"
+    },
+    "04": {
+      "ballots_cast": 1516276,
+      "registered_voters": 1964949,
+      "percent": 77.17,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1992-us-senate"
+    }
+  }
+}
