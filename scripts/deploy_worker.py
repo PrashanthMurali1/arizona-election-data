@@ -800,7 +800,7 @@ class Worker:
         sources = source_fingerprints(entries, config)
         old_sha = self.state['manifest']['backend']['source_sha']
         paths = self.git('diff', '--name-only', old_sha, self.sha).splitlines()
-        if any(p.startswith('data/') for p in paths):
+        if any(p.startswith('data/') for p in paths) and self.sha not in self.state.get('data_release_ack', {}):
             raise Failure('data_release_required', 'preflight')
         changed = affected_services(self.state['manifest'], sources, config)
         self.current_affected = changed
@@ -842,6 +842,11 @@ class Worker:
                                duration_ms=round((time.monotonic()-getattr(self,'started',time.monotonic()))*1000))
                     return 1
             return 0
+
+    def acknowledge_data_release(self, sha):
+        """Record that an operator imported the data changes in `sha` into production."""
+        self.state.setdefault('data_release_ack', {})[sha] = now()
+        self.save()
 
     def accept_recovery(self):
         journal = self.state.get('journal')
@@ -896,7 +901,8 @@ def main():
         sys.stderr = open(os.devnull, 'w')
     parser = argparse.ArgumentParser()
     parser.add_argument('--config', type=Path, required=True)
-    parser.add_argument('action', choices=['run','retry','adopt','status','rollback','recover','accept-recovery'])
+    parser.add_argument('action', choices=['run','retry','adopt','status','rollback','recover','accept-recovery','ack-data-release'])
+    parser.add_argument('--commit', help='full commit SHA for ack-data-release')
     args = parser.parse_args()
     worker = Worker(read_json(args.config))
     if args.action == 'status':
@@ -933,6 +939,10 @@ def main():
                 worker.save()
         elif args.action == 'accept-recovery':
             worker.accept_recovery()
+        elif args.action == 'ack-data-release':
+            if not re.fullmatch(r'[0-9a-f]{40}', args.commit or ''):
+                raise Failure('invalid_commit')
+            worker.acknowledge_data_release(args.commit)
     return 0
 
 
