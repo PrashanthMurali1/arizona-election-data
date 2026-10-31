@@ -1,0 +1,345 @@
+{
+  "year": 1994,
+  "date": "1994-11-08",
+  "source_url": "https://apps.azsos.gov/election/files/hist/canvass1994ge.pdf",
+  "source_sha256": "e3e8ae8c21448fe57c033b64e7b4a748e9140341ffa446014baa0c7c7927f015",
+  "source_notes": "Arizona Secretary of State official general-election canvass, November 28, 1994. Published statewide and county candidate results (page 2); election-wide registration, ballots cast and turnout (page 1). All reported candidates and named write-ins are included.",
+  "candidates": [
+    {
+      "id": "1994-0",
+      "name": "EDDIE BASHA",
+      "party": "DEM",
+      "write_in": false,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 12409,
+        "04003": 10647,
+        "04005": 17110,
+        "04007": 7770,
+        "04009": 3101,
+        "04011": 1358,
+        "04012": 1773,
+        "04013": 272298,
+        "04015": 12656,
+        "04017": 11949,
+        "04019": 104669,
+        "04021": 16338,
+        "04023": 3978,
+        "04025": 17584,
+        "04027": 7062
+      },
+      "statewide": 500702
+    },
+    {
+      "id": "1994-1",
+      "name": "FIFE SYMINGTON",
+      "party": "REP",
+      "write_in": false,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 4229,
+        "04003": 15203,
+        "04005": 13971,
+        "04007": 6978,
+        "04009": 4570,
+        "04011": 1522,
+        "04012": 1850,
+        "04013": 349473,
+        "04015": 19315,
+        "04017": 9780,
+        "04019": 107287,
+        "04021": 13755,
+        "04023": 2856,
+        "04025": 29213,
+        "04027": 13490
+      },
+      "statewide": 593492
+    },
+    {
+      "id": "1994-2",
+      "name": "JOHN BUTTRICK",
+      "party": "LBT",
+      "write_in": false,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 423,
+        "04003": 759,
+        "04005": 1213,
+        "04007": 520,
+        "04009": 143,
+        "04011": 59,
+        "04012": 117,
+        "04013": 21623,
+        "04015": 922,
+        "04017": 524,
+        "04019": 5637,
+        "04021": 794,
+        "04023": 112,
+        "04025": 1882,
+        "04027": 494
+      },
+      "statewide": 35222
+    },
+    {
+      "id": "1994-3",
+      "name": "WALTER L. BASSETT",
+      "party": "IND",
+      "write_in": true,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 0,
+        "04003": 0,
+        "04005": 0,
+        "04007": 0,
+        "04009": 0,
+        "04011": 0,
+        "04012": 0,
+        "04013": 3,
+        "04015": 0,
+        "04017": 2,
+        "04019": 1,
+        "04021": 0,
+        "04023": 0,
+        "04025": 5,
+        "04027": 0
+      },
+      "statewide": 11
+    },
+    {
+      "id": "1994-4",
+      "name": "CHARLES M. \"CHUCK\" CRAWFORD",
+      "party": "REP",
+      "write_in": true,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 0,
+        "04003": 0,
+        "04005": 0,
+        "04007": 1,
+        "04009": 0,
+        "04011": 0,
+        "04012": 0,
+        "04013": 4,
+        "04015": 1,
+        "04017": 0,
+        "04019": 0,
+        "04021": 4,
+        "04023": 0,
+        "04025": 0,
+        "04027": 0
+      },
+      "statewide": 11
+    },
+    {
+      "id": "1994-5",
+      "name": "WILL \"TIGER\" DAVIS, II",
+      "party": "REP",
+      "write_in": true,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 0,
+        "04003": 0,
+        "04005": 1,
+        "04007": 0,
+        "04009": 0,
+        "04011": 0,
+        "04012": 0,
+        "04013": 3,
+        "04015": 1,
+        "04017": 0,
+        "04019": 0,
+        "04021": 0,
+        "04023": 0,
+        "04025": 0,
+        "04027": 0
+      },
+      "statewide": 5
+    },
+    {
+      "id": "1994-6",
+      "name": "CAROLINE P. KILLEEN",
+      "party": "DEM",
+      "write_in": true,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 2,
+        "04003": 2,
+        "04005": 6,
+        "04007": 0,
+        "04009": 0,
+        "04011": 1,
+        "04012": 0,
+        "04013": 10,
+        "04015": 3,
+        "04017": 0,
+        "04019": 3,
+        "04021": 0,
+        "04023": 0,
+        "04025": 2,
+        "04027": 0
+      },
+      "statewide": 29
+    },
+    {
+      "id": "1994-7",
+      "name": "ILIAS KOSTOPOULOS",
+      "party": "IND",
+      "write_in": true,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 0,
+        "04003": 0,
+        "04005": 0,
+        "04007": 0,
+        "04009": 0,
+        "04011": 0,
+        "04012": 0,
+        "04013": 3,
+        "04015": 0,
+        "04017": 0,
+        "04019": 0,
+        "04021": 0,
+        "04023": 0,
+        "04025": 0,
+        "04027": 0
+      },
+      "statewide": 3
+    },
+    {
+      "id": "1994-8",
+      "name": "S. J. ROBERTS",
+      "party": "DEM",
+      "write_in": true,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 0,
+        "04003": 0,
+        "04005": 0,
+        "04007": 0,
+        "04009": 0,
+        "04011": 0,
+        "04012": 0,
+        "04013": 9,
+        "04015": 2,
+        "04017": 0,
+        "04019": 0,
+        "04021": 0,
+        "04023": 0,
+        "04025": 0,
+        "04027": 0
+      },
+      "statewide": 11
+    },
+    {
+      "id": "1994-9",
+      "name": "JOHN WRIGHT",
+      "party": "NONE",
+      "write_in": true,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 0,
+        "04003": 2,
+        "04005": 1,
+        "04007": 0,
+        "04009": 0,
+        "04011": 0,
+        "04012": 0,
+        "04013": 109,
+        "04015": 1,
+        "04017": 0,
+        "04019": 3,
+        "04021": 3,
+        "04023": 0,
+        "04025": 2,
+        "04027": 0
+      },
+      "statewide": 121
+    }
+  ],
+  "turnout": {
+    "04001": {
+      "registered_voters": 31415,
+      "ballots_cast": 17557,
+      "percent": 55.89
+    },
+    "04003": {
+      "registered_voters": 48807,
+      "ballots_cast": 27064,
+      "percent": 55.45
+    },
+    "04005": {
+      "registered_voters": 59690,
+      "ballots_cast": 32914,
+      "percent": 55.14
+    },
+    "04007": {
+      "registered_voters": 26318,
+      "ballots_cast": 15599,
+      "percent": 59.27
+    },
+    "04009": {
+      "registered_voters": 12657,
+      "ballots_cast": 7969,
+      "percent": 62.96
+    },
+    "04011": {
+      "registered_voters": 5192,
+      "ballots_cast": 3000,
+      "percent": 57.78
+    },
+    "04012": {
+      "registered_voters": 7337,
+      "ballots_cast": 3812,
+      "percent": 51.96
+    },
+    "04013": {
+      "registered_voters": 1189814,
+      "ballots_cast": 655732,
+      "percent": 55.11
+    },
+    "04015": {
+      "registered_voters": 61581,
+      "ballots_cast": 33811,
+      "percent": 54.9
+    },
+    "04017": {
+      "registered_voters": 40646,
+      "ballots_cast": 22669,
+      "percent": 55.77
+    },
+    "04019": {
+      "registered_voters": 399676,
+      "ballots_cast": 223547,
+      "percent": 55.93
+    },
+    "04021": {
+      "registered_voters": 57501,
+      "ballots_cast": 31558,
+      "percent": 54.88
+    },
+    "04023": {
+      "registered_voters": 12829,
+      "ballots_cast": 7188,
+      "percent": 56.03
+    },
+    "04025": {
+      "registered_voters": 78666,
+      "ballots_cast": 49783,
+      "percent": 63.28
+    },
+    "04027": {
+      "registered_voters": 43193,
+      "ballots_cast": 21521,
+      "percent": 49.83
+    },
+    "04": {
+      "registered_voters": 2075322,
+      "ballots_cast": 1153724,
+      "percent": 55.59
+    }
+  },
+  "source_title": "1994 Arizona General Election — Official Canvass",
+  "reviewed_county_differences": {
+    "CHARLES M. \"CHUCK\" CRAWFORD": -1
+  }
+}

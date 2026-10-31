@@ -24,6 +24,8 @@ COUNTIES = [
     ("04027", "Yuma"),
 ]
 URLS = {
+    1994: "https://apps.azsos.gov/election/files/hist/canvass1994ge.pdf",
+    **{y: f"https://apps.azsos.gov/election/{y}/General/Canvass{y}GE.pdf" for y in (1998, 2002, 2006, 2010)},
     2022: "https://apps.azsos.gov/election/2022/General/canvass/2022dec05_general_election_canvass_web.pdf",
     2018: "https://apps.azsos.gov/election/2018/2018_1203_signed_official_statewide_canvass.pdf",
     2014: "https://apps.azsos.gov/election/2014/general/Canvass2014GE.pdf",

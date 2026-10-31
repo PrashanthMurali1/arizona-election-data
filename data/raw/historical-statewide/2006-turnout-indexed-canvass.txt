@@ -1,0 +1,105 @@
+STATE OF ARIZONA OFFICIAL CANVASS (https://apps.azsos.gov/election/2006/General/Canvass2006GE.pdf)
+citeturn27view2 [wordlim: 200] Crawled: 19.9 years ago; Content type: application/pdf; Source: open({"ref_id":"turn11search12","lineno":0}); Redirected to URL: https://apps.azsos.gov/election/2006/General/Canvass2006GE.pdf#page=1; Total lines: 1618
+L0: STATE OF ARIZONA OFFICIAL CANVASS
+L1: 2006 General Election - November 7, 2006
+L2: Compiled and Issued by the Arizona Secretary of State
+L3: 
+L4: Report Date/Time: 12/04/2006 01:16 PM
+L5: Page Number 1
+L6: <table id="e1">
+L7: <tr>
+L8: <th></th>
+L9: <th>Apache</th>
+L10: <th>Cochise</th>
+L11: <th>Coconino</th>
+L12: <th>Gila</th>
+L13: <th>Graham</th>
+L14: <th>Greenlee</th>
+L15: <th>La Paz</th>
+L16: <th>Maricopa</th>
+L17: <th>Mohave</th>
+L18: <th>Navajo</th>
+L19: <th>Pima</th>
+L20: <th>Pinal</th>
+L21: <th>Santa Cruz</th>
+L22: <th>Yavapai</th>
+L23: <th>Yuma</th>
+L24: <th>TOTAL</th>
+L25: </tr>
+L26: <tr>
+L27: <td>Total Eligible Registration</td>
+L28: <td>38,581</td>
+L29: <td>58,138</td>
+L30: <td>65,977</td>
+L31: <td>26,194</td>
+L32: <td>14,840</td>
+L33: <td>4,208</td>
+L34: <td>7,211</td>
+L35: <td>1,484,434</td>
+L36: <td>89,939</td>
+L37: <td>57,348</td>
+L38: <td>435,391</td>
+L39: <td>102,799</td>
+L40: <td>21,673</td>
+L41: <td>103,042</td>
+L42: <td>58,626</td>
+L43: <td>2,568,401</td>
+L44: </tr>
+L45: <tr>
+L46: <td>Total Ballots Cast</td>
+L47: <td>19,114</td>
+L48: <td>36,878</td>
+L49: <td>38,708</td>
+L50: <td>16,953</td>
+L51: <td>7,919</td>
+L52: <td>2,177</td>
+L53: <td>3,919</td>
+L54: <td>899,484</td>
+L55: <td>46,870</td>
+L56: <td>27,090</td>
+L57: <td>284,935</td>
+L58: <td>57,870</td>
+L59: <td>8,409</td>
+L60: <td>73,472</td>
+L61: <td>29,234</td>
+L62: <td>1,553,032</td>
+L63: </tr>
+L64: <tr>
+L65: <td>Total Voter Turnout Percent</td>
+L66: <td>49.54</td>
+L67: <td>63.43</td>
+L68: <td>58.67</td>
+L69: <td>64.72</td>
+L70: <td>53.36</td>
+L71: <td>51.73</td>
+L72: <td>54.35</td>
+L73: <td>60.59</td>
+L74: <td>52.11</td>
+L75: <td>47.24</td>
+L76: <td>65.44</td>
+L77: <td>56.29</td>
+L78: <td>38.80</td>
+L79: <td>71.30</td>
+L80: <td>49.87</td>
+L81: <td>60.47</td>
+L82: </tr>
+L83: <tr>
+L84: <td><b>PRECINCTS</b></td>
+L85: <td>45</td>
+L86: <td>64</td>
+L87: <td>85</td>
+L88: <td>39</td>
+L89: <td>18</td>
+L90: <td>8</td>
+L91: <td>12</td>
+L92: <td>1,142</td>
+L93: <td>73</td>
+L94: <td>70</td>
+L95: <td>409</td>
+L96: <td>74</td>
+L97: <td>24</td>
+L98: <td>104</td>
+L99: <td>42</td>
+L100: <td>2,209</td>
+L101: </tr>
+L102: </table>

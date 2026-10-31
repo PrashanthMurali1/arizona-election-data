@@ -1,0 +1,252 @@
+[
+  {
+    "year": 1994,
+    "office_id": "governor",
+    "date": "1994-11-08",
+    "source_url": "https://apps.azsos.gov/election/files/hist/canvass1994ge.pdf",
+    "retrieved_date": "2026-10-31",
+    "source_pdf_sha256": null,
+    "reviewed_transcription": "data/raw/1994-governor-transcription.csv",
+    "transcription_sha256": "e3e8ae8c21448fe57c033b64e7b4a748e9140341ffa446014baa0c7c7927f015",
+    "notes": "Transcribed from indexed official canvass tables. Direct PDF downloads returned HTTP 403; no original binary retained. Known merged single-digit rows expanded explicitly; all county sums checked against separately published TOTAL. Party labels D/R/L/I/N mapped to DEM/REP/LBT/IND/NONE; Write-In label means no reported party affiliation.",
+    "indexed_excerpts": [
+      {
+        "path": "data/raw/historical-statewide/1994-indexed-canvass.txt",
+        "sha256": "ebf175a2d504081284f8f20933af96288877243b878ec87bb944ce079eb281fc"
+      },
+      {
+        "path": "data/raw/historical-statewide/1998-2002-2010-indexed-canvass.txt",
+        "sha256": "c31dc76f3f16b45f72872ee9e0cabb8edda14aeb0963c86b05249db1e4977ca1"
+      },
+      {
+        "path": "data/raw/historical-statewide/contest-excerpts.txt",
+        "sha256": "a963d9afa2a44ade61a9198a4df784025e54068e5927692ecfebb0e358656473"
+      }
+    ]
+  },
+  {
+    "year": 1994,
+    "office_id": "attorney-general",
+    "date": "1994-11-08",
+    "source_url": "https://apps.azsos.gov/election/files/hist/canvass1994ge.pdf",
+    "retrieved_date": "2026-10-31",
+    "source_pdf_sha256": null,
+    "reviewed_transcription": "data/raw/attorney-general/1994-transcription.csv",
+    "transcription_sha256": "a1310aab352d57d5d05be4e50926dafe027c236ecc5ff8d3b86bde93b0690a13",
+    "notes": "Transcribed from indexed official canvass tables. Direct PDF downloads returned HTTP 403; no original binary retained. Known merged single-digit rows expanded explicitly; all county sums checked against separately published TOTAL. Party labels D/R/L/I/N mapped to DEM/REP/LBT/IND/NONE; Write-In label means no reported party affiliation.",
+    "indexed_excerpts": [
+      {
+        "path": "data/raw/historical-statewide/1994-indexed-canvass.txt",
+        "sha256": "ebf175a2d504081284f8f20933af96288877243b878ec87bb944ce079eb281fc"
+      },
+      {
+        "path": "data/raw/historical-statewide/1998-2002-2010-indexed-canvass.txt",
+        "sha256": "c31dc76f3f16b45f72872ee9e0cabb8edda14aeb0963c86b05249db1e4977ca1"
+      },
+      {
+        "path": "data/raw/historical-statewide/contest-excerpts.txt",
+        "sha256": "a963d9afa2a44ade61a9198a4df784025e54068e5927692ecfebb0e358656473"
+      }
+    ]
+  },
+  {
+    "year": 1998,
+    "office_id": "governor",
+    "date": "1998-11-03",
+    "source_url": "https://apps.azsos.gov/election/1998/General/Canvass1998GE.pdf",
+    "retrieved_date": "2026-10-31",
+    "source_pdf_sha256": null,
+    "reviewed_transcription": "data/raw/1998-governor-transcription.csv",
+    "transcription_sha256": "c476397ca27adef6c9c74f4627c465408b1cdbe48dea620dd6da1c34df117824",
+    "notes": "Transcribed from indexed official canvass tables. Direct PDF downloads returned HTTP 403; no original binary retained. Known merged single-digit rows expanded explicitly; all county sums checked against separately published TOTAL. Party labels D/R/L/I/N mapped to DEM/REP/LBT/IND/NONE; Write-In label means no reported party affiliation.",
+    "indexed_excerpts": [
+      {
+        "path": "data/raw/historical-statewide/1994-indexed-canvass.txt",
+        "sha256": "ebf175a2d504081284f8f20933af96288877243b878ec87bb944ce079eb281fc"
+      },
+      {
+        "path": "data/raw/historical-statewide/1998-2002-2010-indexed-canvass.txt",
+        "sha256": "c31dc76f3f16b45f72872ee9e0cabb8edda14aeb0963c86b05249db1e4977ca1"
+      },
+      {
+        "path": "data/raw/historical-statewide/contest-excerpts.txt",
+        "sha256": "a963d9afa2a44ade61a9198a4df784025e54068e5927692ecfebb0e358656473"
+      }
+    ]
+  },
+  {
+    "year": 1998,
+    "office_id": "attorney-general",
+    "date": "1998-11-03",
+    "source_url": "https://apps.azsos.gov/election/1998/General/Canvass1998GE.pdf",
+    "retrieved_date": "2026-10-31",
+    "source_pdf_sha256": null,
+    "reviewed_transcription": "data/raw/attorney-general/1998-transcription.csv",
+    "transcription_sha256": "e23757a50fd5b48881d476359bdea3339567b0ca5d95c5a814eef1191451158a",
+    "notes": "Transcribed from indexed official canvass tables. Direct PDF downloads returned HTTP 403; no original binary retained. Known merged single-digit rows expanded explicitly; all county sums checked against separately published TOTAL. Party labels D/R/L/I/N mapped to DEM/REP/LBT/IND/NONE; Write-In label means no reported party affiliation.",
+    "indexed_excerpts": [
+      {
+        "path": "data/raw/historical-statewide/1994-indexed-canvass.txt",
+        "sha256": "ebf175a2d504081284f8f20933af96288877243b878ec87bb944ce079eb281fc"
+      },
+      {
+        "path": "data/raw/historical-statewide/1998-2002-2010-indexed-canvass.txt",
+        "sha256": "c31dc76f3f16b45f72872ee9e0cabb8edda14aeb0963c86b05249db1e4977ca1"
+      },
+      {
+        "path": "data/raw/historical-statewide/contest-excerpts.txt",
+        "sha256": "a963d9afa2a44ade61a9198a4df784025e54068e5927692ecfebb0e358656473"
+      }
+    ]
+  },
+  {
+    "year": 2002,
+    "office_id": "governor",
+    "date": "2002-11-05",
+    "source_url": "https://apps.azsos.gov/election/2002/General/Canvass2002GE.pdf",
+    "retrieved_date": "2026-10-31",
+    "source_pdf_sha256": null,
+    "reviewed_transcription": "data/raw/2002-governor-transcription.csv",
+    "transcription_sha256": "175147a64283cd644349b039953a902afd907692654f641946edaa02654d1207",
+    "notes": "Transcribed from indexed official canvass tables. Direct PDF downloads returned HTTP 403; no original binary retained. Known merged single-digit rows expanded explicitly; all county sums checked against separately published TOTAL. Party labels D/R/L/I/N mapped to DEM/REP/LBT/IND/NONE; Write-In label means no reported party affiliation.",
+    "indexed_excerpts": [
+      {
+        "path": "data/raw/historical-statewide/1994-indexed-canvass.txt",
+        "sha256": "ebf175a2d504081284f8f20933af96288877243b878ec87bb944ce079eb281fc"
+      },
+      {
+        "path": "data/raw/historical-statewide/1998-2002-2010-indexed-canvass.txt",
+        "sha256": "c31dc76f3f16b45f72872ee9e0cabb8edda14aeb0963c86b05249db1e4977ca1"
+      },
+      {
+        "path": "data/raw/historical-statewide/contest-excerpts.txt",
+        "sha256": "a963d9afa2a44ade61a9198a4df784025e54068e5927692ecfebb0e358656473"
+      }
+    ]
+  },
+  {
+    "year": 2002,
+    "office_id": "attorney-general",
+    "date": "2002-11-05",
+    "source_url": "https://apps.azsos.gov/election/2002/General/Canvass2002GE.pdf",
+    "retrieved_date": "2026-10-31",
+    "source_pdf_sha256": null,
+    "reviewed_transcription": "data/raw/attorney-general/2002-transcription.csv",
+    "transcription_sha256": "f2938908e10f463e56784b466269e498b8eca8e970c90433b5a107219dbccbf8",
+    "notes": "Transcribed from indexed official canvass tables. Direct PDF downloads returned HTTP 403; no original binary retained. Known merged single-digit rows expanded explicitly; all county sums checked against separately published TOTAL. Party labels D/R/L/I/N mapped to DEM/REP/LBT/IND/NONE; Write-In label means no reported party affiliation.",
+    "indexed_excerpts": [
+      {
+        "path": "data/raw/historical-statewide/1994-indexed-canvass.txt",
+        "sha256": "ebf175a2d504081284f8f20933af96288877243b878ec87bb944ce079eb281fc"
+      },
+      {
+        "path": "data/raw/historical-statewide/1998-2002-2010-indexed-canvass.txt",
+        "sha256": "c31dc76f3f16b45f72872ee9e0cabb8edda14aeb0963c86b05249db1e4977ca1"
+      },
+      {
+        "path": "data/raw/historical-statewide/contest-excerpts.txt",
+        "sha256": "a963d9afa2a44ade61a9198a4df784025e54068e5927692ecfebb0e358656473"
+      }
+    ]
+  },
+  {
+    "year": 2006,
+    "office_id": "governor",
+    "date": "2006-11-07",
+    "source_url": "https://apps.azsos.gov/election/2006/General/Canvass2006GE.pdf",
+    "retrieved_date": "2026-10-31",
+    "source_pdf_sha256": null,
+    "reviewed_transcription": "data/raw/2006-governor-transcription.csv",
+    "transcription_sha256": "b302a94e26810b875d9f3456033cfd07b4d48481b7cd823c5a283fc402373de6",
+    "notes": "Transcribed from indexed official canvass tables. Direct PDF downloads returned HTTP 403; no original binary retained. Known merged single-digit rows expanded explicitly; all county sums checked against separately published TOTAL. Party labels D/R/L/I/N mapped to DEM/REP/LBT/IND/NONE; Write-In label means no reported party affiliation.",
+    "indexed_excerpts": [
+      {
+        "path": "data/raw/historical-statewide/1994-indexed-canvass.txt",
+        "sha256": "ebf175a2d504081284f8f20933af96288877243b878ec87bb944ce079eb281fc"
+      },
+      {
+        "path": "data/raw/historical-statewide/1998-2002-2010-indexed-canvass.txt",
+        "sha256": "c31dc76f3f16b45f72872ee9e0cabb8edda14aeb0963c86b05249db1e4977ca1"
+      },
+      {
+        "path": "data/raw/historical-statewide/contest-excerpts.txt",
+        "sha256": "a963d9afa2a44ade61a9198a4df784025e54068e5927692ecfebb0e358656473"
+      }
+    ]
+  },
+  {
+    "year": 2006,
+    "office_id": "attorney-general",
+    "date": "2006-11-07",
+    "source_url": "https://apps.azsos.gov/election/2006/General/Canvass2006GE.pdf",
+    "retrieved_date": "2026-10-31",
+    "source_pdf_sha256": null,
+    "reviewed_transcription": "data/raw/attorney-general/2006-transcription.csv",
+    "transcription_sha256": "18809b6f1e8fc61cf805f0e479f9b134a93e74a72031b3f4ad0a9165662a000a",
+    "notes": "Transcribed from indexed official canvass tables. Direct PDF downloads returned HTTP 403; no original binary retained. Known merged single-digit rows expanded explicitly; all county sums checked against separately published TOTAL. Party labels D/R/L/I/N mapped to DEM/REP/LBT/IND/NONE; Write-In label means no reported party affiliation.",
+    "indexed_excerpts": [
+      {
+        "path": "data/raw/historical-statewide/1994-indexed-canvass.txt",
+        "sha256": "ebf175a2d504081284f8f20933af96288877243b878ec87bb944ce079eb281fc"
+      },
+      {
+        "path": "data/raw/historical-statewide/1998-2002-2010-indexed-canvass.txt",
+        "sha256": "c31dc76f3f16b45f72872ee9e0cabb8edda14aeb0963c86b05249db1e4977ca1"
+      },
+      {
+        "path": "data/raw/historical-statewide/contest-excerpts.txt",
+        "sha256": "a963d9afa2a44ade61a9198a4df784025e54068e5927692ecfebb0e358656473"
+      }
+    ]
+  },
+  {
+    "year": 2010,
+    "office_id": "governor",
+    "date": "2010-11-02",
+    "source_url": "https://apps.azsos.gov/election/2010/General/Canvass2010GE.pdf",
+    "retrieved_date": "2026-10-31",
+    "source_pdf_sha256": null,
+    "reviewed_transcription": "data/raw/2010-governor-transcription.csv",
+    "transcription_sha256": "849a6a35c0a019ae620cf73a1d1a71a6f64a38975d23b14c0e597b91761f5040",
+    "notes": "Transcribed from indexed official canvass tables. Direct PDF downloads returned HTTP 403; no original binary retained. Known merged single-digit rows expanded explicitly; all county sums checked against separately published TOTAL. Party labels D/R/L/I/N mapped to DEM/REP/LBT/IND/NONE; Write-In label means no reported party affiliation.",
+    "indexed_excerpts": [
+      {
+        "path": "data/raw/historical-statewide/1994-indexed-canvass.txt",
+        "sha256": "ebf175a2d504081284f8f20933af96288877243b878ec87bb944ce079eb281fc"
+      },
+      {
+        "path": "data/raw/historical-statewide/1998-2002-2010-indexed-canvass.txt",
+        "sha256": "c31dc76f3f16b45f72872ee9e0cabb8edda14aeb0963c86b05249db1e4977ca1"
+      },
+      {
+        "path": "data/raw/historical-statewide/contest-excerpts.txt",
+        "sha256": "a963d9afa2a44ade61a9198a4df784025e54068e5927692ecfebb0e358656473"
+      }
+    ]
+  },
+  {
+    "year": 2010,
+    "office_id": "attorney-general",
+    "date": "2010-11-02",
+    "source_url": "https://apps.azsos.gov/election/2010/General/Canvass2010GE.pdf",
+    "retrieved_date": "2026-10-31",
+    "source_pdf_sha256": null,
+    "reviewed_transcription": "data/raw/attorney-general/2010-transcription.csv",
+    "transcription_sha256": "7e32da1bed70cbf8f495359ca8df635f2f420cc9ad789db72994e2fe26266986",
+    "notes": "Transcribed from indexed official canvass tables. Direct PDF downloads returned HTTP 403; no original binary retained. Known merged single-digit rows expanded explicitly; all county sums checked against separately published TOTAL. Party labels D/R/L/I/N mapped to DEM/REP/LBT/IND/NONE; Write-In label means no reported party affiliation.",
+    "indexed_excerpts": [
+      {
+        "path": "data/raw/historical-statewide/1994-indexed-canvass.txt",
+        "sha256": "ebf175a2d504081284f8f20933af96288877243b878ec87bb944ce079eb281fc"
+      },
+      {
+        "path": "data/raw/historical-statewide/1998-2002-2010-indexed-canvass.txt",
+        "sha256": "c31dc76f3f16b45f72872ee9e0cabb8edda14aeb0963c86b05249db1e4977ca1"
+      },
+      {
+        "path": "data/raw/historical-statewide/contest-excerpts.txt",
+        "sha256": "a963d9afa2a44ade61a9198a4df784025e54068e5927692ecfebb0e358656473"
+      }
+    ]
+  }
+]

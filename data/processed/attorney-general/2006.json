@@ -1,0 +1,64 @@
+{
+  "year": 2006,
+  "date": "2006-11-07",
+  "office_id": "attorney-general",
+  "office": "Attorney General",
+  "source_url": "https://apps.azsos.gov/election/2006/General/Canvass2006GE.pdf",
+  "source_sha256": "18809b6f1e8fc61cf805f0e479f9b134a93e74a72031b3f4ad0a9165662a000a",
+  "source_notes": "Official general-election canvass: statewide and county candidate results. Official election-wide registration, ballots cast and turnout are shared with the Governor contest for the same election.",
+  "reference_path": "data/raw/attorney-general/2006-transcription.csv",
+  "candidates": [
+    {
+      "id": "ag-2006-0",
+      "name": "Terry Goddard",
+      "party": "DEM",
+      "write_in": false,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 13586,
+        "04003": 19547,
+        "04005": 26301,
+        "04007": 10070,
+        "04009": 4154,
+        "04011": 1429,
+        "04012": 2036,
+        "04013": 513462,
+        "04015": 21563,
+        "04017": 16294,
+        "04019": 179590,
+        "04021": 32991,
+        "04023": 5851,
+        "04025": 36350,
+        "04027": 15783
+      },
+      "statewide": 899007
+    },
+    {
+      "id": "ag-2006-1",
+      "name": "Bill Montgomery",
+      "party": "REP",
+      "write_in": false,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 4931,
+        "04003": 16157,
+        "04005": 10773,
+        "04007": 6316,
+        "04009": 3531,
+        "04011": 660,
+        "04012": 1695,
+        "04013": 351771,
+        "04015": 22872,
+        "04017": 9998,
+        "04019": 95094,
+        "04021": 22886,
+        "04023": 2135,
+        "04025": 34435,
+        "04027": 12063
+      },
+      "statewide": 595317
+    }
+  ],
+  "turnout": {},
+  "source_title": "2006 Arizona General Election — Official Canvass"
+}

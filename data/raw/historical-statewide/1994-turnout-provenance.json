@@ -1,0 +1,9 @@
+{
+  "source_url": "https://apps.azsos.gov/election/files/hist/canvass1994ge.pdf",
+  "page": 1,
+  "retrieved_date": "2026-10-31",
+  "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as published. Shared by Governor and Attorney General.",
+  "source_excerpt": "data/raw/historical-statewide/1994-turnout-indexed-canvass.txt",
+  "source_excerpt_sha256": "dcf000cbddbaad27b73dc39389cd9053de1f81bb9ab4226a858151237796174b",
+  "transcription_sha256": "6d4a4e2f11c446f88e1f22fee91cd75aefeb3fbd478829028f72ebae7d1bfdd4"
+}

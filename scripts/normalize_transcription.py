@@ -42,7 +42,7 @@ def normalize(year):
                 for k, v in r.items()
                 if k != "geoid"
             }
-    dates = {2022: "2022-11-08", 2018: "2018-11-06", 2014: "2014-11-04"}
+    dates = {1994:"1994-11-08",1998:"1998-11-03",2002:"2002-11-05",2006:"2006-11-07",2010:"2010-11-02",2022: "2022-11-08", 2018: "2018-11-06", 2014: "2014-11-04"}
     data = dict(
         year=year,
         date=dates[year],
@@ -52,8 +52,16 @@ def normalize(year):
         candidates=candidates,
         turnout=turnout,
     )
-    (ROOT / f"data/processed/{year}.json").write_text(
-        json.dumps(data, indent=2, ensure_ascii=False) + "\n"
+    if year < 2014:
+        provenance = ROOT / f"data/raw/historical-statewide/{year}-governor-provenance.json"
+        data["source_title"] = f"{year} Arizona General Election — Official Canvass"
+        data["source_notes"] = 'Official general-election canvass: statewide and county candidate results, plus election-wide registration, ballots cast and turnout. All reported candidates and named write-ins are included.'
+        if year == 1994:
+            data["source_notes"] = 'Arizona Secretary of State official general-election canvass, November 28, 1994. Published statewide and county candidate results (page 2); election-wide registration, ballots cast and turnout (page 1). All reported candidates and named write-ins are included.'
+            data["reviewed_county_differences"] = {'CHARLES M. "CHUCK" CRAWFORD': -1}
+    output = ROOT / f"data/processed/{year}.json"
+    output.write_text(
+        json.dumps(data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8"
     )
     print(year, "normalized", len(candidates), "candidates")
 
@@ -65,8 +73,8 @@ if __name__ == "__main__":
         (ROOT / "data/processed" / f"{p.name[:4]}.json").write_text(p.read_text())
     from scripts.normalize_attorney_general import normalize as normalize_ag
 
-    for year in (2014, 2018, 2022):
-        normalize_ag(year)
+    for raw in sorted((ROOT / "data/raw/attorney-general").glob("*-transcription.csv")):
+        normalize_ag(int(raw.name[:4]))
     from scripts.normalize_us_senate import normalize as normalize_senate
 
     for raw in sorted((ROOT / "data/raw/us-senate").glob("*-transcription.csv")):

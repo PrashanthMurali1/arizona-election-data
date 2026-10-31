@@ -147,6 +147,8 @@ function StatewideElectionPage({
                   ? " · voting in progress"
                   : e.status === "unofficial"
                     ? " · unofficial"
+                    : e.status === "reported"
+                      ? " · reported"
                     : e.status !== "verified"
                       ? " · incomplete"
                       : ""}
@@ -155,18 +157,22 @@ function StatewideElectionPage({
           </select>
         </label>
       </section>
-      {election.status !== "verified" && (
+      {!["verified", "reported"].includes(election.status) && (
         <div className="notice" role="status">
           <strong>
             {provisional
               ? "Unofficial — counting in progress."
-              : "This election is incomplete."}
+              : election.status === "reported"
+                ? "Published results — county/state reconciliation note."
+                : "This election is incomplete."}
           </strong>
           <p>
             {election.notes}{" "}
             {provisional
               ? "Map colors indicate current reported leaders, not certified winners. Missing reporting units remain unavailable."
-              : "Winners and percentages are withheld until the dataset can be verified."}
+              : election.status === "reported"
+                ? "Statewide totals and vote shares use the published statewide figures. County figures are shown as reported."
+                : "Winners and percentages are withheld until the dataset can be verified."}
           </p>
         </div>
       )}
@@ -210,7 +216,7 @@ function StatewideElectionPage({
               provisional={provisional}
             />
             <p className="footnote table-note">
-              Dem / Rep shares include all candidates of that party. Contest
+              Shares show the two leading parties and include all candidates of each party. Contest
               votes exclude undervotes and overvotes. Turnout is the official
               election-wide figure.
             </p>
@@ -251,7 +257,7 @@ function StatewideElectionPage({
                 <h3>Beyond the contest</h3>
                 <TurnoutMetrics turnout={county.turnout} />
                 <p className="footnote">
-                  {number(county.total_votes)} verified votes in the{" "}
+                  {number(county.total_votes)} {county.status === "reported" ? "reported" : "verified"} votes in the{" "}
                   {election.office.toLowerCase()} contest. This differs from
                   total ballots cast.
                 </p>
@@ -285,7 +291,7 @@ function StatewideElectionPage({
             </a>
           ))}
         </div>
-        <details>
+        {election.status !== "reported" && <details>
           <summary>View reconciliation report</summary>
           {detail.reconciliation ? (
             <div
@@ -327,7 +333,7 @@ function StatewideElectionPage({
           ) : (
             <p>No verified import yet.</p>
           )}
-        </details>
+        </details>}
         <Link to="/methodology">Read the data methodology ↗</Link>
       </section>
     </>

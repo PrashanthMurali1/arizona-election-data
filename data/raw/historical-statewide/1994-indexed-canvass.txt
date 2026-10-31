@@ -1,0 +1,262 @@
+94GECanvass1.tif (https://apps.azsos.gov/election/files/hist/canvass1994ge.pdf)
+citeturn15view0 [wordlim: 200] Crawled: 11 months ago; Content type: application/pdf; Source: open({"ref_id":"turn14search12","lineno":null}); Redirected to URL: https://apps.azsos.gov/election/files/hist/canvass1994ge.pdf#page=1; Total lines: 1613
+L454: <td>----</td>
+L455: <td>----</td>
+L456: <td>----</td>
+L457: <td>63,436</td>
+L458: </tr>
+L459: <tr>
+L460: <td>(R) JIM KOLBE</td>
+L461: <td>----</td>
+L462: <td>16,352</td>
+L463: <td>----</td>
+L464: <td>----</td>
+L465: <td>4,881</td>
+L466: <td>----</td>
+L467: <td>----</td>
+L468: <td>----</td>
+L469: <td>----</td>
+L470: <td>----</td>
+L471: <td>123,212</td>
+L472: <td>5,069</td>
+L473: <td>----</td>
+L474: <td>----</td>
+L475: <td>----</td>
+L476: <td>149,514</td>
+L477: </tr>
+L478: <tr>
+L479: <td>(L) PHILLIP W. MURPHY</td>
+L480: <td>----</td>
+L481: <td>1,091</td>
+L482: <td>----</td>
+L483: <td>----</td>
+L484: <td>239</td>
+L485: <td>----</td>
+L486: <td>----</td>
+L487: <td>----</td>
+L488: <td>----</td>
+L489: <td>----</td>
+L503: <table id="e8">
+L504: <tr>
+L505: <th></th>
+L506: <th>APACHE</th>
+L507: <th>COCHISE</th>
+L508: <th>COCONINO</th>
+L509: <th>GILA</th>
+L510: <th>GRAHAM</th>
+L511: <th>GREENLEE</th>
+L512: <th>LA PAZ</th>
+L513: <th>MARICOPA</th>
+L514: <th>MOHAVE</th>
+L515: <th>NAVAJO</th>
+L516: <th>PIMA</th>
+L517: <th>PINAL</th>
+L518: <th>SANTA CRUZ</th>
+L519: <th>YAVAPAI</th>
+L520: <th>YUMA</th>
+L521: <th>TOTAL</th>
+L522: </tr>
+L523: <tr>
+L524: <td>(D) KARAN ENGLISH</td>
+L525: <td>11,228</td>
+L526: <td>----</td>
+L527: <td>11,228</td>
+L528: <td>5,905</td>
+L529: <td>282</td>
+L530: <td>1,304</td>
+L531: <td>----</td>
+L532: <td>30,573</td>
+L533: <td>----</td>
+L534: <td>10,121</td>
+L535: <td>----</td>
+L536: <td>10,680</td>
+L537: <td>----</td>
+L538: <td>----</td>
+L539: <td>----</td>
+L540: <td>81,321</td>
+L541: </tr>
+L542: <tr>
+L543: <td>(R) J.D. HAYWORTH</td>
+L544: <td>5,031</td>
+L545: <td>----</td>
+L546: <td>8,928</td>
+L547: <td>8,347</td>
+L548: <td>37</td>
+L549: <td>1,433</td>
+L550: <td>----</td>
+L551: <td>62,417</td>
+L552: <td>----</td>
+L553: <td>10,513</td>
+L554: <td>----</td>
+L555: <td>10,354</td>
+L556: <td>----</td>
+L557: <td>----</td>
+L558: <td>----</td>
+L559: <td>107,060</td>
+L560: </tr>
+L561: <tr>
+L562: <td>(L) SEQUOIA R. FULLER</td>
+L563: <td>543</td>
+L564: <td>----</td>
+L565: <td>1,136</td>
+L566: <td>782</td>
+L567: <td>7</td>
+L568: <td>132</td>
+L569: <td>----</td>
+L570: <td>3,329</td>
+L571: <td>----</td>
+L572: <td>768</td>
+L585: <table id="e1">
+L586: <tr>
+L587: <th></th>
+L588: <th>APACHE</th>
+L589: <th>COCHISE</th>
+L590: <th>COCONINO</th>
+L591: <th>GILA</th>
+L592: <th>GRAHAM</th>
+L593: <th>GREENLEE</th>
+L594: <th>LA PAZ</th>
+L595: <th>MARICOPA</th>
+L596: <th>MOHAVE</th>
+L597: <th>NAVAJO</th>
+L598: <th>PIMA</th>
+L599: <th>PINAL</th>
+L600: <th>SANTA CRUZ</th>
+L601: <th>YAVAPAI</th>
+L602: <th>YUMA</th>
+L603: <th>TOTAL</th>
+L604: </tr>
+L605: <tr><td>GOVERNOR</td><td colspan="16"></td></tr>
+L606: <tr><td>(D) EDDIE BASHA</td><td>12,409</td><td>10,647</td><td>17,110</td><td>7,770</td><td>3,101</td><td>1,358</td><td>1,773</td><td>272,298</td><td>12,656</td><td>11,949</td><td>104,669</td><td>16,338</td><td>3,978</td><td>17,584</td><td>7,062</td><td>500,702</td></tr>
+L607: <tr><td>(R) FIFE SYMINGTON</td><td>4,229</td><td>15,203</td><td>13,971</td><td>6,978</td><td>4,570</td><td>1,522</td><td>1,850</td><td>349,473</td><td>19,315</td><td>9,780</td><td>107,287</td><td>13,755</td><td>2,856</td><td>29,213</td><td>13,490</td><td>593,492</td></tr>
+L608: <tr><td>(L) JOHN BUTTRICK</td><td>423</td><td>759</td><td>1,213</td><td>520</td><td>143</td><td>59</td><td>117</td><td>21,623</td><td>922</td><td>524</td><td>5,637</td><td>794</td><td>112</td><td>1,882</td><td>494</td><td>35,222</td></tr>
+L609: 
+L610: <tr><td>(I) *WALTER L. BASSETT (Write-in)</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>3</td><td>0</td><td>2</td><td>1</td><td>0</td><td>0</td><td>5</td><td>0</td><td>11</td></tr>
+L611: <tr><td>(R) *CHARLES M. "CHUCK" CRAWFORD (Write-in)</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>4</td><td>1</td><td>0</td><td>0</td><td>4</td><td>0</td><td>0</td><td>0</td><td>11</td></tr>
+L612: <tr><td>(R) *WILL "TIGER" DAVIS, II (Write-in)</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>3</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>5</td></tr>
+L613: <tr><td>(D) *CAROLINE P. KILLEEN (Write-in)</td><td>2</td><td>2</td><td>6</td><td>0</td><td>0</td><td>1</td><td>0</td><td>10</td><td>3</td><td>0</td><td>3</td><td>0</td><td>0</td><td>2</td><td>0</td><td>29</td></tr>
+L614: <tr><td>(I) *ILIAS KOSTOPOULOS (Write-in)</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>3</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>3</td></tr>
+L615: 
+L616: <tr><td>(D) *S. J. ROBERTS (Write-in)</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>9</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>11</td></tr>
+L617: <tr><td>(N) *JOHN WRIGHT (Write-in)</td><td>0</td><td>2</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>109</td><td>1</td><td>0</td><td>3</td><td>3</td><td>0</td><td>2</td><td>0</td><td>121</td></tr>
+L618: <tr><td colspan="16"></td></tr>
+L619: <tr><td>SECRETARY OF STATE</td><td colspan="16"></td></tr>
+L620: <tr><td>(D) PETE RIOS</td><td>9,814</td><td>10,456</td><td>13,096</td><td>6,958</td><td>3,008</td><td>1,506</td><td>1,361</td><td>203,229</td><td>10,394</td><td>10,109</td><td>93,360</td><td>15,849</td><td>4,059</td><td>13,485</td><td>7,532</td><td>404,216</td></tr>
+L621: <tr><td>(R) JANE DEE HULL</td><td>5,135</td><td>13,642</td><td>14,408</td><td>6,417</td><td>3,843</td><td>955</td><td>1,842</td><td>368,604</td><td>18,405</td><td>8,898</td><td>107,799</td><td>12,177</td><td>2,209</td><td>28,233</td><td>11,457</td><td>604,024</td></tr>
+L622: 
+L623: <tr><td>(L) ERNEST HANCOCK</td><td>1,595</td><td>1,627</td><td>2,719</td><td>1,175</td><td>584</td><td>180</td><td>278</td><td>39,606</td><td>2,360</td><td>2,163</td><td>10,111</td><td>1,964</td><td>271</td><td>4,233</td><td>1,252</td><td>70,118</td></tr>
+L624: <tr><td colspan="16"></td></tr>
+L625: <tr><td>ATTORNEY GENERAL</td><td colspan="16"></td></tr>
+L626: <tr><td>(R) GRANT WOODS</td><td>9,649</td><td>20,240</td><td>21,888</td><td>11,064</td><td>5,954</td><td>2,009</td><td>2,739</td><td>479,701</td><td>24,538</td><td>15,235</td><td>166,410</td><td>22,453</td><td>4,829</td><td>35,661</td><td>15,895</td><td>838,265</td></tr>
+L627: <tr><td>(L) JOHN E. KAROW</td><td>5,183</td><td>4,496</td><td>7,367</td><td>2,918</td><td>1,203</td><td>486</td><td>675</td><td>117,685</td><td>6,040</td><td>5,163</td><td>36,998</td><td>5,394</td><td>1,150</td><td>9,322</td><td>3,630</td><td>207,710</td></tr>
+L628: <tr><td colspan="16"></td></tr>
+L629: <tr><td>STATE TREASURER</td><td colspan="16"></td></tr>
+L630: <tr><td>(D) BRAD FORST</td><td>9,887</td><td>10,406</td><td>13,194</td><td>6,519</td><td>3,065</td><td>1,521</td><td>1,388</td><td>195,627</td><td>10,509</td><td>9,958</td><td>98,159</td><td>14,132</td><td>3,183</td><td>13,652</td><td>7,692</td><td>398,892</td></tr>
+L631: 
+L632: <tr><td>(R) TONY WEST</td><td>4,783</td><td>13,063</td><td>13,744</td><td>6,657</td><td>3,878</td><td>1,096</td><td>1,817</td><td>356,711</td><td>18,159</td><td>9,519</td><td>98,254</td><td>13,234</td><td>2,626</td><td>27,897</td><td>10,929</td><td>582,367</td></tr>
+L633: <tr><td>(L) JAMES ERIC ANDREASEN</td><td>1,535</td><td>1,621</td><td>2,648</td><td>1,053</td><td>370</td><td>134</td><td>239</td><td>41,911</td><td>1,998</td><td>1,491</td><td>9,979</td><td>1,755</td><td>353</td><td>3,676</td><td>1,100</td><td>69,863</td></tr>
+L634: <tr><td colspan="16"></td></tr>
+L635: <tr><td>SUPERINTENDENT OF PUBLIC INSTRUCTION</td><td colspan="16"></td></tr>
+L636: <tr><td>(D) LELA ALSTON</td><td>11,083</td><td>11,314</td><td>15,102</td><td>7,331</td><td>3,233</td><td>1,582</td><td>1,460</td><td>225,648</td><td>11,026</td><td>11,118</td><td>105,802</td><td>15,355</td><td>3,564</td><td>15,137</td><td>8,486</td><td>447,241</td></tr>
+L637: <tr><td>(R) LISA GRAHAM</td><td>5,227</td><td>14,116</td><td>15,373</td><td>6,930</td><td>4,156</td><td>1,143</td><td>1,989</td><td>379,241</td><td>19,648</td><td>10,120</td><td>104,795</td><td>13,948</td><td>2,720</td><td>30,620</td><td>11,544</td><td>621,570</td></tr>
+L638: 
+L639: <tr><td colspan="16"></td></tr>
+L640: <tr><td>STATE MINE INSPECTOR</td><td colspan="16"></td></tr>
+L641: <tr><td>(R) Douglas K. Martin</td><td>11,920</td><td>20,124</td><td>22,225</td><td>11,011</td><td>5,633</td><td>2,001</td><td>2,780</td><td>451,436</td><td>24,028</td><td>16,781</td><td>133,384</td><td>21,382</td><td>4,391</td><td>34,231</td><td>16,384</td><td>777,711</td></tr>
+L642: <tr><td colspan="16"></td></tr>
+L643: <tr><td>CORPORATION COMMISSIONER</td><td colspan="16"></td></tr>
+L644: <tr><td>(D) DEBBIE McCUNE-DAVIS</td><td>10,382</td><td>11,806</td><td>13,885</td><td>7,108</td><td>3,303</td><td>1,665</td><td>1,491</td><td>232,910</td><td>11,416</td><td>10,573</td><td>109,307</td><td>15,269</td><td>3,486</td><td>15,746</td><td>8,864</td><td>457,211</td></tr>
+L645: <tr><td>(R) CARL J. KUNASEK</td><td>4,809</td><td>12,036</td><td>13,616</td><td>6,154</td><td>3,563</td><td>923</td><td>1,680</td><td>330,422</td><td>16,858</td><td>9,108</td><td>89,156</td><td>11,669</td><td>2,091</td><td>25,627</td><td>10,185</td><td>537,897</td></tr>
+L646: <tr><td>(L) DOYLE VINES</td><td>949</td><td>1,425</td><td>2,133</td><td>889</td><td>383</td><td>142</td><td>228</td><td>35,326</td><td>1,908</td><td>1,174</td><td>8,979</td><td>1,769</td><td>523</td><td>3,449</td><td>950</td><td>60,227</td></tr>
+L647: 
+L648: </table>
+L649: 
+L650: 
+L651: 
+L652: * Party Designation    I - Independent    N - None
+L653: 
+L654: STATE OF ARIZONA OFFICIAL CANVASS - GENERAL ELECTION - November 8, 1994
+L655: Page 3
+L656: 
+L657: STATE LEGISLATURE
+L658: <table id="e1">
+L659: <tr><th colspan="4">DISTRICT 1</th></tr>
+L660: <tr><th></th><th>MOHAVE</th><th>YAVAPAI</th><th>TOTAL</th></tr>
+L661: <tr><td>STATE SENATOR</td><td></td><td></td><td></td></tr>
+L662: <tr><td>(R) CAROL SPRINGER</td><td>12,218</td><td>27,507</td><td>39,725</td></tr>
+L663: <tr><td>STATE REPRESENTATIVE</td><td></td><td></td><td></td></tr>
+L664: <tr><td>(D) DOLORES P. "LORI" CONNELLY</td><td>5,716</td><td>11,325</td><td>17,041</td></tr>
+L665: <tr><td>(R) DON ALDRIDGE</td><td>9,746</td><td>19,908</td><td>29,654</td></tr>
+L666: <tr><td>(R) SUE LYNCH</td><td>8,461</td><td>22,743</td><td>31,204</td></tr>
+L667: </table>
+L668: <table id="e2">
+L669: <tr><th colspan="6">DISTRICT 2</th></tr>
+L670: <tr><th></th><th>COCONINO</th><th>GILA</th><th>MOHAVE</th><th>NAVAJO</th><th>YAVAPAI</th><th>TOTAL</th></tr>
+L671: <tr><td>STATE SENATOR</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+L672: <tr><td>(R) JOHN WETTAH</td><td>17,496</td><td>960</td><td>8,602</td><td>237</td><td>5,844</td><td>33,139</td></tr>
+L673: <tr><td>(L) SUNNY REID</td><td>4,103</td><td>187</td><td>1,937</td><td>65</td><td>1,661</td><td>7,953</td></tr>
+L674: <tr><td>STATE REPRESENTATIVE</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+L675: <tr><td>(D) FLORENCE KARLSTROM</td><td>10,199</td><td>295</td><td>3,601</td><td>166</td><td>3,383</td><td>17,644</td></tr>
+L676: <tr><td>(R) JOE HART</td><td>8,061</td><td>633</td><td>6,825</td><td>82</td><td>4,388</td><td>19,989</td></tr>
+L677: <tr><td>(R) JOHN VERKAMP</td><td>13,584</td><td>752</td><td>5,086</td><td>124</td><td>5,225</td><td>24,771</td></tr>
+L678: </table>
+L679: <table id="e3">
+L680: <tr><th colspan="6">DISTRICT 3</th></tr>
+L681: <tr><th></th><th>APACHE</th><th>COCONINO</th><th>MOHAVE</th><th>NAVAJO</th><th>TOTAL</th></tr>
+L682: <tr><td>STATE SENATOR</td><td></td><td></td><td></td><td></td><td></td></tr>
+L683: <tr><td>(D) JAMES HENDERSON, JR.</td><td>9,923</td><td>5,768</td><td>2,237</td><td>5,559</td><td>23,487</td></tr>
+L684: <tr><td>(R) CHARLES H. YOUNG (Write-in)</td><td>106</td><td>18</td><td>13</td><td>24</td><td>161</td></tr>
+L685: <tr><td>STATE REPRESENTATIVE</td><td></td><td></td><td></td><td></td><td></td></tr>
+L686: <tr><td>(D) BENJAMIN HANLEY</td><td>5,535</td><td>4,252</td><td>1,341</td><td>3,223</td><td>14,351</td></tr>
+L687: <tr><td>(D) JACK C. JACKSON</td><td>7,149</td><td>4,368</td><td>1,440</td><td>4,297</td><td>17,254</td></tr>
+L688: <tr><td>(R) GILENE BEGAY</td><td>2,608</td><td>2,346</td><td>1,863</td><td>1,735</td><td>8,552</td></tr>
+L689: <tr><td>(R) BEN MANUELITO, JR.</td><td>2,946</td><td>2,339</td><td>1,764</td><td>863</td><td>7,912</td></tr>
+L690: </table>
+L691: <table id="e4">
+L692: <tr><th colspan="8">DISTRICT 4</th></tr>
+L693: <tr><th></th><th>APACHE</th><th>GILA</th><th>GRAHAM</th><th>GREENLEE</th><th>MARICOPA</th><th>NAVAJO</th><th>PINAL</th><th>TOTAL</th></tr>
+L694: <tr><td>STATE SENATOR</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+L695: <tr><td>(D) A. V. "BILL" Hardt</td><td>2,674</td><td>8,611</td><td>1,162</td><td>428</td><td>0</td><td>9,740</td><td>3,673</td><td>26,288</td></tr>
+L696: <tr><td>STATE REPRESENTATIVE</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+L697: <tr><td>(D) JACK A. BROWN</td><td>2,528</td><td>5,854</td><td>790</td><td>324</td><td>0</td><td>6,363</td><td>2,407</td><td>18,266</td></tr>
+L698: <tr><td>(D) E. C. "POLLY" ROSENBAUM</td><td>1,670</td><td>6,464</td><td>794</td><td>303</td><td>0</td><td>5,734</td><td>3,028</td><td>17,993</td></tr>
+L699: <tr><td>(R) DAVID C. FARNSWORTH</td><td>2,328</td><td>5,725</td><td>991</td><td>200</td><td>0</td><td>8,218</td><td>3,318</td><td>20,780</td></tr>
+L700: </table>
+L701: <table id="e5">
+L702: <tr><th colspan="6">DISTRICT 5</th></tr>
+L703: <tr><th></th><th>LA PAZ</th><th>MOHAVE</th><th>YAVAPAI</th><th>YUMA</th><th>TOTAL</th></tr>
+L704: <tr><td>STATE SENATOR</td><td></td><td></td><td></td><td></td><td></td></tr>
+L705: <tr><td>(D) JIM WOMBACHER</td><td>1,341</td><td>14</td><td>162</td><td>7,183</td><td>8,700</td></tr>
+L706: <tr><td>(R) JIM BUSTER</td><td>2,198</td><td>38</td><td>443</td><td>13,561</td><td>16,240</td></tr>
+L707: <tr><td>STATE REPRESENTATIVE</td><td></td><td></td><td></td><td></td><td></td></tr>
+L708: <tr><td>(D) ROBERT J. "BOB" McLENDON</td><td>1,849</td><td>13</td><td>247</td><td>11,736</td><td>13,845</td></tr>
+L709: <tr><td>(R) PAT CONNER</td><td>1,844</td><td>42</td><td>403</td><td>12,649</td><td>14,938</td></tr>
+L710: <tr><td>(R) LA ROY F. SMITH, SR.</td><td>1,066</td><td>24</td><td>227</td><td>5,536</td><td>6,853</td></tr>
+L711: </table>
+L712: <table id="e6">
+L713: <tr><th colspan="2">DISTRICT 6</th></tr>
+L714: <tr><th></th><th>MARICOPA</th></tr>
+L715: <tr><td>STATE SENATOR</td><td></td></tr>
+L716: <tr><td>(R) JOHN HUPPENTHAL</td><td>33,992</td></tr>
+L717: <tr><td>(L) GREGG TIVNAN</td><td>7,328</td></tr>
+L718: <tr><td>STATE REPRESENTATIVE</td><td></td></tr>
+L719: <tr><td>(R) FULTON BROCK</td><td>22,326</td></tr>
+L720: <tr><td>(R) LORI S. DANIELS</td><td>27,935</td></tr>
+L721: <tr><td>(L) JOHN MAREK</td><td>7,703</td></tr>
+L722: </table>
+L723: <table id="e7">
+L724: <tr><th colspan="5">DISTRICT 7</th></tr>
+L725: <tr><th></th><th>GILA</th><th>MARICOPA</th><th>PINAL</th><th>TOTAL</th></tr>
+L726: <tr><td>STATE SENATOR</td><td></td><td></td><td></td><td></td></tr>
+L727: <tr><td>(R) ROBERT "BOB" CHASTAIN</td><td>463</td><td>2,526</td><td>10,142</td><td>13,131</td></tr>
+L728: <tr><td>(R) ROGER HOOPER</td><td>46</td><td>1,764</td><td>9,619</td><td>11,429</td></tr>
+L729: <tr><td>STATE REPRESENTATIVE</td><td></td><td></td><td></td><td></td></tr>
+L730: <tr><td>(D) HARRY CLARK</td><td>355</td><td>1,878</td><td>11,155</td><td>13,388</td></tr>
+L731: <tr><td>(D) REBECCA RIOS</td><td>425</td><td>2,738</td><td>11,581</td><td>14,744</td></tr>
+L734: <table id="e8">
+L735: <tr><th colspan="5">DISTRICT 8</th></tr>
+L736: <tr><th></th><th>COCHISE</th><th>GRAHAM</th><th>GREENLEE</th><th>SANTA CRUZ</th><th>TOTAL</th></tr>
+L737: <tr><td>STATE SENATOR</td><td></td><td></td><td></td><td></td><td></td></tr>
+L738: <tr><td>(D) GUS ARZBERGER</td><td>9,898</td><td>4,103</td><td>1,865</td><td>2,113</td><td>17,979</td></tr>
+L739: <tr><td>STATE REPRESENTATIVE</td><td></td><td></td><td></td><td></td><td></td></tr>
+
