@@ -18,7 +18,7 @@
       "id": "openelections-us-senate-2000-2012",
       "title": "OpenElections Arizona — U.S. Senate county results, 2000–2012 (comparison)",
       "url": "https://github.com/openelections/openelections-data-az/tree/bf14331521f62f74cb17848ab11ca3dfd27f4f82",
-      "sha256": "e352e20ffa636b7a3353a6c823929a89ccbbf1adaf6366be2e93a6747d33cdcc",
+      "sha256": "b0ef863aaf499c8ee7781af425d282cbb33f271f65b007700a70a06b028e8421",
       "notes": "Independent open-data county results compiled from the official canvass; used only to cross-check the transcribed cells. See data/processed/us-senate/validation/openelections-comparison.json."
     }
   ],
@@ -27,7 +27,7 @@
   "snapshots": [
     {
       "path": "data/raw/us-senate/2000-transcription.csv",
-      "sha256": "b2e2b69b683ade01f86f40e308d2f059856ae748eb7d3188584aadef9801fc4a"
+      "sha256": "1042aed8d7c6ff574b1df25ef9f98481d114a0ed81da8803d2c34d9fe373ebff"
     },
     {
       "path": "data/raw/us-senate/pdfs/Canvass2000GE.pdf",
@@ -35,7 +35,7 @@
     },
     {
       "path": "data/raw/us-senate/2000-turnout-transcription.csv",
-      "sha256": "283a1f2a3c6b8a8db81aa8711a236ea56a96020e2cb287dcc08955239e7b8e5d"
+      "sha256": "ed7621f21656e32ce3546d6af1a255e7c53309de7bcb940a1cc0afe122cbd3c0"
     }
   ]
 }

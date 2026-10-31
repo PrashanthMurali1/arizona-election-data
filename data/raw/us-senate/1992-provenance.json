@@ -19,7 +19,7 @@
   "snapshots": [
     {
       "path": "data/raw/us-senate/1992-transcription.csv",
-      "sha256": "0b615680254a954739dde800287c7268eca113a239b92316f6f96c69906ea8b0"
+      "sha256": "9edcc53f547e8c5c7def9a9211d7fde203d1763b56ae4a55d96326f1a69c5fba"
     },
     {
       "path": "data/raw/us-senate/pdfs/canvass1992ge.pdf",
@@ -27,7 +27,7 @@
     },
     {
       "path": "data/raw/us-senate/1992-turnout-transcription.csv",
-      "sha256": "57c1690c025c211648042f431e11a3e85dff58172c28b1322f3561f0177baf65"
+      "sha256": "10b76e6c91968ea7563f136b16f0be26219fb7f384088a054f41285cf7da3bb5"
     }
   ]
 }

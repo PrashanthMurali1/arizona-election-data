@@ -9,7 +9,7 @@
   "source_id": "canvass-2012-us-senate",
   "source_title": "Arizona Secretary of State — 2012 official U.S. Senate canvass",
   "source_url": "https://apps.azsos.gov/election/2012/General/Canvass2012GE.pdf",
-  "source_sha256": "2dc91bf0cb3f60d45bca876169ecd90b3932207d801a6a6091c7edd76bcb95c8",
+  "source_sha256": "5748dd03cbe0595cdb2298e3cb4d0c596c57ef248e1b944e12a25b193d1c45ab",
   "source_notes": "2012 regular Arizona U.S. Senate election. County cells and statewide totals transcribed from page 4 of the official canvass issued by the Arizona Secretary of State; every candidate's 15 county cells sum to the printed statewide TOTAL. Cells were read from the printed page images. Named write-ins are included. The canvass PDF was supplied by the project maintainer from the Secretary of State and is retained under data/raw/us-senate/pdfs with its SHA-256 recorded in the snapshots.",
   "reference_path": "data/raw/us-senate/2012-transcription.csv",
   "provenance_path": "data/raw/us-senate/2012-provenance.json",
@@ -18,7 +18,7 @@
       "id": "openelections-us-senate-2000-2012",
       "title": "OpenElections Arizona — U.S. Senate county results, 2000–2012 (comparison)",
       "url": "https://github.com/openelections/openelections-data-az/tree/bf14331521f62f74cb17848ab11ca3dfd27f4f82",
-      "sha256": "e352e20ffa636b7a3353a6c823929a89ccbbf1adaf6366be2e93a6747d33cdcc",
+      "sha256": "b0ef863aaf499c8ee7781af425d282cbb33f271f65b007700a70a06b028e8421",
       "notes": "Independent open-data county results compiled from the official canvass; used only to cross-check the transcribed cells. See data/processed/us-senate/validation/openelections-comparison.json."
     }
   ],

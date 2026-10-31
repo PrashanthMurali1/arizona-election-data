@@ -16,7 +16,7 @@
   "snapshots": [
     {
       "path": "data/raw/us-senate/1998-transcription.csv",
-      "sha256": "db788906fb5db632ddc1a265d2379d7e79bd529b723302d9e1589a2d9832a652"
+      "sha256": "2d428b6b2ae311cd32b3b54fc897276b1a2236ab37f7de7cc9a06061c61a7cac"
     },
     {
       "path": "data/raw/us-senate/pdfs/Canvass1998GE.pdf",
