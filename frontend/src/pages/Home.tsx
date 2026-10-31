@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState, type KeyboardEvent } from "react";
-import { Link } from "react-router-dom";
+import { Link, useSearchParams } from "react-router-dom";
 import type { Election } from "../types";
 import { useResource } from "../api";
 import { Availability, ErrorState, Loading } from "../components";
@@ -21,11 +21,24 @@ const catalogTabs = [
   },
 ] as const;
 
+const tabOffices = (id: string): readonly string[] =>
+  catalogTabs.find((tab) => tab.id === id)!.offices;
+
 export default function Home() {
-  const [selectedTab, setSelectedTab] =
-    useState<(typeof catalogTabs)[number]["id"]>("live");
-  const [federalOffice, setFederalOffice] = useState("us-senate");
-  const [stateOffice, setStateOffice] = useState("governor");
+  // Election pages link back with ?office=<id> so the catalog opens on that office's list.
+  const requestedOffice = useSearchParams()[0].get("office") ?? "";
+  const requestedTab = (["federal", "state"] as const).find((id) =>
+    tabOffices(id).includes(requestedOffice),
+  );
+  const [selectedTab, setSelectedTab] = useState<
+    (typeof catalogTabs)[number]["id"]
+  >(requestedTab ?? "live");
+  const [federalOffice, setFederalOffice] = useState(
+    requestedTab === "federal" ? requestedOffice : "us-senate",
+  );
+  const [stateOffice, setStateOffice] = useState(
+    requestedTab === "state" ? requestedOffice : "governor",
+  );
   const tabRefs = useRef<(HTMLButtonElement | null)[]>([]);
   const selectedOffices: readonly string[] =
     selectedTab === "federal"

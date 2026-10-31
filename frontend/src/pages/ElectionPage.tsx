@@ -107,7 +107,7 @@ function StatewideElectionPage({
       <div className="breadcrumbs">
         <Link to="/">Election catalog</Link>
         <span>/</span>
-        <span>{election.office}</span>
+        <Link to={`/?office=${election.office_id}`}>{election.office}</Link>
         <span>/</span>
         <span>{election.year}</span>
       </div>

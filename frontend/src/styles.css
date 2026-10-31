@@ -3072,12 +3072,39 @@ thead th {
   -webkit-backdrop-filter: blur(12px) saturate(140%);
   backdrop-filter: blur(12px) saturate(140%);
 }
+/* Row states tint every cell identically so no seam shows between the name and the figures. */
+tr.selected td,
 tr.selected th,
+tr.active td,
 tr.active th {
   background: color-mix(in srgb, var(--selection) 88%, transparent);
 }
+tr:hover td,
 tr:hover th {
   background: var(--glass-tint);
+}
+/* Narrow screens pin the name column, which must be opaque, so the whole table goes opaque with it. */
+@media (max-width: 900px) {
+  .table-region {
+    background-color: var(--surface);
+    background-image: none;
+  }
+  .scroll-region thead th,
+  .table-scroll thead th {
+    background: var(--surface-raised);
+  }
+  .scroll-region tr:hover td,
+  .scroll-region tr:hover th:first-child,
+  .table-scroll tr:hover td,
+  .table-scroll tr:hover th:first-child {
+    background: var(--surface-raised);
+  }
+  .scroll-region tr.selected td,
+  .scroll-region tr.selected th:first-child,
+  .table-scroll tr.active td,
+  .table-scroll tr.active th:first-child {
+    background: var(--selection);
+  }
 }
 .archive-row:hover {
   background: var(--glass);
