@@ -2940,29 +2940,39 @@ tr.active th button {
 /* Glass layer: translucent panels over a cool ambient field. Tokens first, then
    top-level panels (the only elements that blur), then tints for inner parts. */
 :root {
-  --glass: rgba(255, 255, 255, 0.58);
+  --glass: rgba(255, 255, 255, 0.4);
+  --glass-dense: rgba(255, 255, 255, 0.58);
   --glass-strong: rgba(255, 255, 255, 0.84);
-  --glass-tint: rgba(234, 240, 247, 0.72);
-  --glass-map: rgba(233, 237, 245, 0.55);
-  --glass-edge: rgba(255, 255, 255, 0.85);
-  --glass-rim: rgba(16, 24, 39, 0.14);
-  --glass-shadow: 0 1px 2px rgba(13, 25, 47, 0.06), 0 12px 32px rgba(13, 25, 47, 0.1);
-  --glass-blur: blur(18px) saturate(150%);
-  --field-a: rgba(150, 190, 245, 0.55);
-  --field-b: rgba(190, 172, 245, 0.42);
-  --field-c: rgba(160, 214, 224, 0.5);
+  --glass-tint: rgba(236, 242, 250, 0.62);
+  --glass-map: rgba(240, 244, 252, 0.42);
+  --glass-edge: rgba(255, 255, 255, 0.95);
+  --glass-rim: rgba(90, 112, 160, 0.3);
+  --glass-sheen: rgba(255, 255, 255, 0.7);
+  --glass-shadow:
+    0 2px 4px rgba(13, 25, 47, 0.06), 0 18px 48px rgba(52, 84, 150, 0.2);
+  --glass-blur: blur(28px) saturate(180%);
+  --lit-fill: rgba(70, 116, 240, 0.2);
+  --lit-ring: rgba(64, 104, 225, 0.7);
+  --field-a: rgba(132, 178, 250, 0.7);
+  --field-b: rgba(176, 152, 248, 0.58);
+  --field-c: rgba(120, 208, 224, 0.6);
 }
 :root[data-theme="dark"] {
-  --glass: rgba(19, 27, 41, 0.56);
+  --glass: rgba(40, 58, 90, 0.34);
+  --glass-dense: rgba(20, 29, 46, 0.58);
   --glass-strong: rgba(15, 22, 34, 0.84);
-  --glass-tint: rgba(38, 54, 78, 0.6);
-  --glass-map: rgba(10, 17, 29, 0.5);
-  --glass-edge: rgba(255, 255, 255, 0.14);
-  --glass-rim: rgba(255, 255, 255, 0.09);
-  --glass-shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 16px 40px rgba(0, 0, 0, 0.38);
-  --field-a: rgba(44, 82, 148, 0.5);
-  --field-b: rgba(78, 58, 140, 0.4);
-  --field-c: rgba(26, 92, 112, 0.36);
+  --glass-tint: rgba(52, 72, 106, 0.5);
+  --glass-map: rgba(14, 24, 42, 0.4);
+  --glass-edge: rgba(255, 255, 255, 0.3);
+  --glass-rim: rgba(190, 210, 245, 0.22);
+  --glass-sheen: rgba(200, 220, 255, 0.14);
+  --glass-shadow:
+    0 2px 4px rgba(0, 0, 0, 0.35), 0 22px 56px rgba(0, 0, 0, 0.5);
+  --lit-fill: rgba(160, 200, 255, 0.2);
+  --lit-ring: rgba(190, 215, 255, 0.85);
+  --field-a: rgba(52, 104, 200, 0.62);
+  --field-b: rgba(96, 70, 176, 0.52);
+  --field-c: rgba(28, 118, 140, 0.46);
 }
 body {
   min-height: 100vh;
@@ -3199,7 +3209,193 @@ td {
     background: var(--surface);
   }
 }
+/* Depth: soft shapes in the field give the blur something to bend, and a sheen,
+   lit rim and cursor spotlight (see glassLight.ts) make each panel read as glass. */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background:
+    radial-gradient(
+      22rem 22rem at 18% 30%,
+      var(--field-a) 0,
+      var(--field-a) 45%,
+      transparent 72%
+    ),
+    radial-gradient(
+      26rem 26rem at 84% 46%,
+      var(--field-b) 0,
+      var(--field-b) 45%,
+      transparent 72%
+    ),
+    radial-gradient(
+      20rem 20rem at 46% 82%,
+      var(--field-c) 0,
+      var(--field-c) 45%,
+      transparent 72%
+    );
+}
+.result-summary,
+.table-region,
+.selection-panel,
+.snapshot-notice,
+.map-region,
+.map-panel,
+.statewide-participation,
+.archive-row,
+.notice {
+  position: relative;
+  isolation: isolate;
+  background-image: linear-gradient(
+    135deg,
+    var(--glass-sheen) 0%,
+    transparent 38%,
+    transparent 72%,
+    color-mix(in srgb, var(--glass-sheen) 35%, transparent) 100%
+  );
+}
+.table-region {
+  background-color: var(--glass-dense);
+}
+.result-summary::before,
+.table-region::before,
+.selection-panel::before,
+.snapshot-notice::before,
+.map-region::before,
+.map-panel::before,
+.statewide-participation::before,
+.archive-row::before,
+.notice::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  border-radius: inherit;
+  pointer-events: none;
+  opacity: var(--lit, 0);
+  background: radial-gradient(
+    460px circle at var(--mx, 50%) var(--my, 50%),
+    var(--lit-fill),
+    transparent 72%
+  );
+  transition: opacity 160ms ease-out;
+}
+.result-summary::after,
+.table-region::after,
+.selection-panel::after,
+.snapshot-notice::after,
+.map-region::after,
+.map-panel::after,
+.statewide-participation::after,
+.archive-row::after,
+.notice::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  border-radius: inherit;
+  padding: 2px;
+  pointer-events: none;
+  opacity: var(--lit, 0);
+  background: radial-gradient(
+    340px circle at var(--mx, 50%) var(--my, 50%),
+    var(--lit-ring),
+    transparent 70%
+  );
+  -webkit-mask:
+    linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask:
+    linear-gradient(#000 0 0) content-box exclude,
+    linear-gradient(#000 0 0);
+  transition: opacity 160ms ease-out;
+}
+.result-summary,
+.table-region,
+.selection-panel,
+.snapshot-notice,
+.map-region,
+.map-panel,
+.statewide-participation {
+  box-shadow:
+    inset 0 1px 0 var(--glass-edge),
+    inset 0 -1px 0 color-mix(in srgb, var(--glass-edge) 25%, transparent),
+    var(--glass-shadow);
+}
+/* Selects: one chevron, set in from the edge, so long labels never run under it. */
+:root select,
+:root .control select,
+:root .year-picker select {
+  appearance: none;
+  -webkit-appearance: none;
+  padding-right: 42px;
+  text-overflow: ellipsis;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8' fill='none' stroke='%23526079' stroke-width='1.75' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M1.5 1.75 6 6.25l4.5-4.5'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 16px center;
+  background-size: 12px 8px;
+}
+:root[data-theme="dark"] select,
+:root[data-theme="dark"] .control select,
+:root[data-theme="dark"] .year-picker select {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8' fill='none' stroke='%23a9b7cf' stroke-width='1.75' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M1.5 1.75 6 6.25l4.5-4.5'/%3E%3C/svg%3E");
+}
+@media (prefers-reduced-transparency: reduce) {
+  .table-region {
+    background-color: var(--surface);
+  }
+  body::before {
+    display: none;
+  }
+}
+@media (forced-colors: active) {
+  body::before,
+  .result-summary::before,
+  .result-summary::after,
+  .table-region::before,
+  .table-region::after,
+  .selection-panel::before,
+  .selection-panel::after,
+  .snapshot-notice::before,
+  .snapshot-notice::after,
+  .map-region::before,
+  .map-region::after,
+  .map-panel::before,
+  .map-panel::after,
+  .statewide-participation::before,
+  .statewide-participation::after,
+  .archive-row::before,
+  .archive-row::after,
+  .notice::before,
+  .notice::after {
+    display: none;
+  }
+}
 @media print {
+  body::before,
+  .result-summary::before,
+  .result-summary::after,
+  .table-region::before,
+  .table-region::after,
+  .selection-panel::before,
+  .selection-panel::after,
+  .snapshot-notice::before,
+  .snapshot-notice::after,
+  .map-region::before,
+  .map-region::after,
+  .map-panel::before,
+  .map-panel::after,
+  .statewide-participation::before,
+  .statewide-participation::after,
+  .archive-row::before,
+  .archive-row::after,
+  .notice::before,
+  .notice::after {
+    display: none;
+  }
   body {
     background: #fff;
   }

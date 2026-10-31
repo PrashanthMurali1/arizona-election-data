@@ -106,7 +106,7 @@ export default function HouseElectionPage({ id }: { id: string }) {
           >
             {years.map((e) => (
               <option key={e.id} value={e.id}>
-                {e.selection_label}
+                {e.year} {e.kind === "special" ? "Special" : "General"}
               </option>
             ))}
           </select>

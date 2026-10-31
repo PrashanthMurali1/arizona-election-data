@@ -44,7 +44,7 @@ def catalog_entry(s, event, contests):
         s.get(GeographicUnit, contests[0].jurisdiction_id).name if special else None
     )
     label = (
-        f"{event.year} Special — {district} — {event.date}"
+        f"{event.year} Special"
         if special
         else f"{event.year} General"
     )
