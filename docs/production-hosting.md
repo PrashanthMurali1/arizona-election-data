@@ -64,7 +64,7 @@ The original `backend/local/elections.db` and `data/raw` remain intact. The prod
 
 ## Initial private setup
 
-Run commands from `/Users/prashanth/Documents/LLM Projects/election-data`:
+Run commands from the repository root:
 
 ```sh
 # Start the installed runtime, then wait for `docker info` to succeed.

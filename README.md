@@ -1,5 +1,8 @@
 # Arizona Election Explorer
 
+For public-source privacy checks, local commit guards and safe handling of audit
+reports, see [repository privacy](docs/repository-privacy.md).
+
 **An interactive platform for exploring Arizona election results, historical voting trends, and early-voting participation.**
 
 🌐 **Live website:** https://azelections.app/

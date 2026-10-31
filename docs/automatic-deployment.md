@@ -1,4 +1,4 @@
-﻿# Relay-managed production operations
+# Relay-managed production operations
 
 Relay at **http://127.0.0.1:8765** is the sole scheduling authority:
 - Deployment checks `origin/main` every 120 seconds.
@@ -12,7 +12,7 @@ Relay at **http://127.0.0.1:8765** is the sole scheduling authority:
 Use Relay's overview and automation detail pages for schedule ownership, next run, logs, manual execution, pause/resume and deliberate retry. A deployment no-op is shown as skipped with exit code 0. Failed commits remain suppressed by the deployment engine until deliberate retry; newer commits are still considered. Docker/network deferrals retry at later slots. Do not reintroduce a task or cron alongside Relay.
 
 Relay source and operations guide:
-`C:\Users\prash\Documents\LLM Projects\automation-service\README.md`
+`../automation-service/README.md`
 
 The Windows startup task **Relay - Local automation platform** remains installed under the Docker-owning signed-in user. It starts/rechecks the hidden supervisor at sign-in and every two minutes with IgnoreNew. Windows must be awake and signed in; Docker Desktop must be available. No automatic login, update or power policy changes are part of this cleanup.
 
