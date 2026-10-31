@@ -2936,3 +2936,288 @@ tr.active th button {
     margin: 6px 0 0;
   }
 }
+
+/* Glass layer: translucent panels over a cool ambient field. Tokens first, then
+   top-level panels (the only elements that blur), then tints for inner parts. */
+:root {
+  --glass: rgba(255, 255, 255, 0.58);
+  --glass-strong: rgba(255, 255, 255, 0.84);
+  --glass-tint: rgba(234, 240, 247, 0.72);
+  --glass-map: rgba(233, 237, 245, 0.55);
+  --glass-edge: rgba(255, 255, 255, 0.85);
+  --glass-rim: rgba(16, 24, 39, 0.14);
+  --glass-shadow: 0 1px 2px rgba(13, 25, 47, 0.06), 0 12px 32px rgba(13, 25, 47, 0.1);
+  --glass-blur: blur(18px) saturate(150%);
+  --field-a: rgba(150, 190, 245, 0.55);
+  --field-b: rgba(190, 172, 245, 0.42);
+  --field-c: rgba(160, 214, 224, 0.5);
+}
+:root[data-theme="dark"] {
+  --glass: rgba(19, 27, 41, 0.56);
+  --glass-strong: rgba(15, 22, 34, 0.84);
+  --glass-tint: rgba(38, 54, 78, 0.6);
+  --glass-map: rgba(10, 17, 29, 0.5);
+  --glass-edge: rgba(255, 255, 255, 0.14);
+  --glass-rim: rgba(255, 255, 255, 0.09);
+  --glass-shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 16px 40px rgba(0, 0, 0, 0.38);
+  --field-a: rgba(44, 82, 148, 0.5);
+  --field-b: rgba(78, 58, 140, 0.4);
+  --field-c: rgba(26, 92, 112, 0.36);
+}
+body {
+  min-height: 100vh;
+  background:
+    radial-gradient(60rem 40rem at 12% -6%, var(--field-a), transparent 70%),
+    radial-gradient(52rem 38rem at 96% 14%, var(--field-b), transparent 70%),
+    radial-gradient(56rem 34rem at 52% 108%, var(--field-c), transparent 70%),
+    var(--canvas);
+  background-attachment: fixed;
+}
+.header {
+  background: rgba(12, 16, 25, 0.9);
+  -webkit-backdrop-filter: var(--glass-blur);
+  backdrop-filter: var(--glass-blur);
+  border-bottom-color: rgba(255, 255, 255, 0.12);
+  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.35);
+}
+.theme-choice {
+  background: rgba(255, 255, 255, 0.06);
+  border-color: rgba(255, 255, 255, 0.22);
+}
+.result-summary,
+.table-region,
+.selection-panel,
+.snapshot-notice,
+.map-region,
+.map-panel {
+  border-color: var(--glass-rim);
+  border-radius: 12px;
+  box-shadow:
+    inset 0 1px 0 var(--glass-edge),
+    var(--glass-shadow);
+  -webkit-backdrop-filter: var(--glass-blur);
+  backdrop-filter: var(--glass-blur);
+}
+.result-summary,
+.table-region,
+.selection-panel,
+.snapshot-notice {
+  background: var(--glass);
+}
+.map-region,
+.map-panel {
+  background: var(--glass-map);
+}
+.control select,
+.year-picker select,
+button {
+  background: var(--glass-strong);
+}
+.control select,
+.year-picker select {
+  -webkit-backdrop-filter: var(--glass-blur);
+  backdrop-filter: var(--glass-blur);
+}
+select option {
+  background: var(--surface);
+  color: var(--ink);
+}
+button:hover {
+  background: var(--glass-tint);
+}
+.secondary,
+.office-buttons button,
+.theme-choice button {
+  background: transparent;
+}
+.office-buttons button:hover {
+  background: var(--glass-tint);
+}
+.theme-choice button[aria-pressed="true"] {
+  background: var(--accent);
+}
+.office-buttons button[aria-pressed="true"] {
+  background: color-mix(in srgb, var(--selection) 88%, transparent);
+}
+.badge,
+.party,
+.party-chip,
+.party-chip.independent,
+thead th {
+  background: var(--glass-tint);
+}
+.badge.warn,
+.notice {
+  background: color-mix(in srgb, var(--warning-bg) 80%, transparent);
+}
+.badge.info,
+.notice.info {
+  background: color-mix(in srgb, var(--info-bg) 80%, transparent);
+}
+.notice.error,
+.error.notice {
+  background: color-mix(in srgb, var(--error-bg) 82%, transparent);
+}
+.notice {
+  -webkit-backdrop-filter: blur(12px) saturate(140%);
+  backdrop-filter: blur(12px) saturate(140%);
+}
+tr.selected th,
+tr.active th {
+  background: color-mix(in srgb, var(--selection) 88%, transparent);
+}
+tr:hover th {
+  background: var(--glass-tint);
+}
+.archive-row:hover {
+  background: var(--glass);
+}
+.source-disclosure table,
+.sources table {
+  background: var(--glass-strong);
+}
+th,
+td {
+  border-bottom-color: var(--glass-rim);
+}
+.skeleton {
+  background: var(--glass-tint);
+}
+@media (prefers-reduced-motion: no-preference) {
+  button,
+  .control select,
+  .year-picker select,
+  .office-buttons button {
+    transition:
+      background-color 150ms ease-out,
+      border-color 150ms ease-out;
+  }
+}
+/* Without blur support, or when the visitor asks for less transparency, panels go solid. */
+@supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
+  .result-summary,
+  .table-region,
+  .selection-panel,
+  .snapshot-notice {
+    background: var(--surface);
+  }
+  .map-region,
+  .map-panel {
+    background: var(--map-base);
+  }
+  .header {
+    background: var(--chrome);
+  }
+}
+@media (prefers-reduced-transparency: reduce) {
+  .result-summary,
+  .table-region,
+  .selection-panel,
+  .snapshot-notice,
+  .notice,
+  .control select,
+  .year-picker select,
+  .map-region,
+  .map-panel,
+  .header {
+    -webkit-backdrop-filter: none;
+    backdrop-filter: none;
+  }
+  .result-summary,
+  .table-region,
+  .selection-panel,
+  .snapshot-notice,
+  button,
+  .control select,
+  .year-picker select,
+  .source-disclosure table,
+  .sources table {
+    background: var(--surface);
+  }
+  .map-region,
+  .map-panel {
+    background: var(--map-base);
+  }
+  .header {
+    background: var(--chrome);
+  }
+}
+@media (forced-colors: active) {
+  .result-summary,
+  .table-region,
+  .selection-panel,
+  .snapshot-notice,
+  .map-region,
+  .map-panel,
+  .header {
+    -webkit-backdrop-filter: none;
+    backdrop-filter: none;
+  }
+}
+.statewide-participation {
+  padding: 28px 30px;
+  background: var(--glass);
+  border: 1px solid var(--glass-rim);
+  border-radius: 12px;
+  box-shadow:
+    inset 0 1px 0 var(--glass-edge),
+    var(--glass-shadow);
+  -webkit-backdrop-filter: var(--glass-blur);
+  backdrop-filter: var(--glass-blur);
+}
+.archive-list {
+  display: grid;
+  gap: 10px;
+  border-top: 0;
+}
+.archive-row {
+  padding: 22px 20px;
+  background: var(--glass);
+  border: 1px solid var(--glass-rim);
+  border-radius: 12px;
+  box-shadow: inset 0 1px 0 var(--glass-edge);
+}
+.archive-row:hover {
+  background: var(--glass-strong);
+  box-shadow:
+    inset 0 1px 0 var(--glass-edge),
+    var(--glass-shadow);
+}
+@media (max-width: 560px) {
+  .statewide-participation {
+    padding: 22px 18px;
+  }
+  .archive-row {
+    padding: 18px 14px;
+  }
+}
+@media (prefers-reduced-transparency: reduce) {
+  .statewide-participation,
+  .archive-row {
+    -webkit-backdrop-filter: none;
+    backdrop-filter: none;
+    background: var(--surface);
+  }
+}
+@media print {
+  body {
+    background: #fff;
+  }
+  .statewide-participation,
+  .archive-row,
+  .result-summary,
+  .table-region,
+  .selection-panel,
+  .snapshot-notice,
+  .map-region,
+  .map-panel,
+  .notice,
+  .header,
+  .control select,
+  .year-picker select {
+    -webkit-backdrop-filter: none;
+    backdrop-filter: none;
+    box-shadow: none;
+    background: #fff;
+  }
+}

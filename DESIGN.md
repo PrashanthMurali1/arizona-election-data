@@ -279,9 +279,13 @@ Methodology uses a 232px sticky contents column, a 60px gap and an article colum
 
 ## Elevation & Depth
 
-There are no shipping card shadows. Grouping comes from tonal fields, thin borders, separator rules and typography. The stylesheet's unused `--shadow` declaration is not an elevation system and is intentionally excluded from tokens. Selected office controls use an explicit edge, not a glow. The shared masthead is dark in both themes.
+Signal is glass over a cool ambient field. The page ground is `canvas` with three soft, blurred light pools (steel blue, violet, teal-slate; never red, party blue or lime) fixed to the viewport. Top-level regions (result summary, statewide participation, map, table, selection and snapshot panels, notices, selects and the masthead) are translucent panels using the `--glass*` tokens in `frontend/src/styles.css`: `backdrop-filter: blur(18px) saturate(150%)`, a 1px rim, a top inner highlight and one soft offset shadow. Dark theme is smoked glass; light theme is frosted white.
 
-**The Flat Surface Rule.** Use tonal grounds and restrained borders to group data. Do not add decorative card shadows or lifted hover effects.
+**The Single Blur Rule.** Only top-level panels, notices, selects and the masthead blur. Anything inside a panel (table headers, chips, badges, selected rows) uses a translucent tint with no blur. Sticky first-column table cells stay opaque so scrolling content never shows through them.
+
+**The Legibility Rule.** Figures and table text must keep at least 4.5:1 contrast on the glass in both themes. Without `backdrop-filter` support, under `prefers-reduced-transparency`, in forced-colors mode and in print, panels fall back to solid `surface` / `map-base`.
+
+Selected office controls use an explicit edge, not a glow. The shared masthead stays dark in both themes (about 90% opaque).
 
 ## Shapes
 
@@ -343,4 +347,5 @@ Shared focus is a 3px violet outline with 4px offset; the masthead has its own b
 - **Don't** infer candidate support from party registration or turn missing data into zero.
 - **Don't** replace actual geography with decorative imagery or add shipping raster assets to express this system.
 - **Don't** make theme changes reset exploration, refetch election data or remount the live dashboard.
-- **Don't** add decorative entry motion, animated counts, flip effects, glass or physical-material ornament.
+- **Don't** add decorative entry motion, animated counts, flip effects or physical-material ornament.
+- **Don't** nest blurred panels, put party colors in the ambient field, or let glass reduce contrast of figures and table text.
