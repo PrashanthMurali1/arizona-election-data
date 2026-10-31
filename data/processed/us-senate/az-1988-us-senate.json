@@ -20,12 +20,6 @@
       "url": "https://apps.azsos.gov/election/files/hist/canvass1988ge.pdf",
       "sha256": "182d5f0c824f9ffa2b31a248e1160bb703f0aba2719ea8c3276e072b297e2fc7",
       "notes": "Official statewide candidate totals (page 3) and election-wide registration and ballots cast (page 1)."
-    },
-    {
-      "id": "clerk-1988-us-senate",
-      "title": "Clerk of the U.S. House — Statistics of the Congressional Election of 1988 (Arizona U.S. Senate; cross-check)",
-      "url": "https://clerk.house.gov/member_info/electionInfo/1988election.pdf",
-      "notes": "Statewide candidate totals (Corrected to April 20, 1989) agree with the Secretary of State canvass; the Clerk publication carries no county breakdown."
     }
   ],
   "input_validation": {

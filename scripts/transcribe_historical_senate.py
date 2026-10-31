@@ -236,11 +236,11 @@ def write(year):
         )
         snapshots.append({"path": f"data/raw/us-senate/pdfs/{c['pdf']}", "sha256": sha(RAW / "pdfs" / c["pdf"])})
         if year in CLERK:
-            prov["additional_sources"] = [{
-                "id": f"clerk-{year}-us-senate", "title": f"Clerk of the U.S. House — Statistics of the Congressional Election of {year} (Arizona U.S. Senate; cross-check)",
-                "url": f"https://clerk.house.gov/member_info/electionInfo/{year}election.pdf",
-                "notes": f"Statewide candidate totals ({CLERK[year]}) agree with the Secretary of State canvass; the Clerk publication carries no county breakdown.",
-            }]
+            prov["additional_sources"] = []
+            prov["source_notes"] += (
+                f" The Clerk of the U.S. House's Statistics of the Congressional Election of {year} ({CLERK[year]}) carries the same statewide candidate totals "
+                f"(https://clerk.house.gov/member_info/electionInfo/{year}election.pdf); it has no county breakdown."
+            )
         if year == 1988:
             rdu_pdf = RAW / "pdfs" / RDU_1988_PDF
             prov.update(
@@ -259,7 +259,6 @@ def write(year):
             prov["additional_sources"] = [
                 {"id": "canvass-1988-us-senate", "title": "Arizona Secretary of State — 1988 official canvass (statewide totals and turnout)", "url": c["url"],
                  "sha256": sha(RAW / "pdfs" / c["pdf"]), "notes": "Official statewide candidate totals (page 3) and election-wide registration and ballots cast (page 1)."},
-                *prov["additional_sources"],
             ]
             snapshots.append({"path": rdu_pdf.relative_to(ROOT).as_posix(), "sha256": sha(rdu_pdf)})
         if year in (2000, 2004, 2006, 2010, 2012):

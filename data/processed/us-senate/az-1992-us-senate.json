@@ -10,17 +10,10 @@
   "source_title": "Arizona Secretary of State — 1992 official U.S. Senate canvass",
   "source_url": "https://apps.azsos.gov/election/files/hist/canvass1992ge.pdf",
   "source_sha256": "0b615680254a954739dde800287c7268eca113a239b92316f6f96c69906ea8b0",
-  "source_notes": "1992 regular Arizona U.S. Senate election. County cells and statewide totals transcribed from page 3 of the official canvass issued by the Arizona Secretary of State; every candidate's 15 county cells sum to the printed statewide TOTAL. Cells were read from the printed page images. Named write-ins are included. The canvass PDF was supplied by the project maintainer from the Secretary of State and is retained under data/raw/us-senate/pdfs with its SHA-256 recorded in the snapshots.",
+  "source_notes": "1992 regular Arizona U.S. Senate election. County cells and statewide totals transcribed from page 3 of the official canvass issued by the Arizona Secretary of State; every candidate's 15 county cells sum to the printed statewide TOTAL. Cells were read from the printed page images. Named write-ins are included. The canvass PDF was supplied by the project maintainer from the Secretary of State and is retained under data/raw/us-senate/pdfs with its SHA-256 recorded in the snapshots. The Clerk of the U.S. House's Statistics of the Congressional Election of 1992 (Corrected to May 31, 1993) carries the same statewide candidate totals (https://clerk.house.gov/member_info/electionInfo/1992election.pdf); it has no county breakdown.",
   "reference_path": "data/raw/us-senate/1992-transcription.csv",
   "provenance_path": "data/raw/us-senate/1992-provenance.json",
-  "additional_sources": [
-    {
-      "id": "clerk-1992-us-senate",
-      "title": "Clerk of the U.S. House — Statistics of the Congressional Election of 1992 (Arizona U.S. Senate; cross-check)",
-      "url": "https://clerk.house.gov/member_info/electionInfo/1992election.pdf",
-      "notes": "Statewide candidate totals (Corrected to May 31, 1993) agree with the Secretary of State canvass; the Clerk publication carries no county breakdown."
-    }
-  ],
+  "additional_sources": [],
   "input_validation": {
     "source_checksums_validated": true,
     "canvass_candidate_count": 6,
