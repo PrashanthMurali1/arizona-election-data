@@ -93,7 +93,7 @@ test("catalog, candidate results, county map, details, sorting, year navigation 
     page.getByRole("heading", { name: "Election catalog" }),
   ).toBeVisible();
   await page.getByRole("tab", { name: "State Elections" }).click();
-  await expect(page.locator(".election-card")).toHaveCount(3);
+  await expect(page.locator(".election-card")).toHaveCount(8);
   await page
     .locator(".office-section")
     .filter({ hasText: "Arizona Governor" })
@@ -673,7 +673,7 @@ test("historical Attorney General entries remain in State Elections", async ({
   const office = page
     .locator(".office-section")
     .filter({ hasText: "Arizona Attorney General" });
-  await expect(office.locator(".election-card")).toHaveCount(3);
+  await expect(office.locator(".election-card")).toHaveCount(8);
   await office.locator(".election-card").filter({ hasText: "2022" }).click();
   await expect(
     page.getByRole("heading", { name: "Attorney General 2022", exact: true }),
