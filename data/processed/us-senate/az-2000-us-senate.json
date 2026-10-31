@@ -1,0 +1,247 @@
+{
+  "year": 2000,
+  "date": "2000-11-07",
+  "event_id": "az-2000-general",
+  "contest_id": "az-2000-us-senate",
+  "contest_kind": "regular",
+  "office_id": "us-senate",
+  "office": "U.S. Senate",
+  "source_id": "canvass-2000-us-senate",
+  "source_title": "Arizona Secretary of State — 2000 official U.S. Senate canvass",
+  "source_url": "https://apps.azsos.gov/election/2000/General/Canvass2000GE.pdf",
+  "source_sha256": "b2e2b69b683ade01f86f40e308d2f059856ae748eb7d3188584aadef9801fc4a",
+  "source_notes": "2000 regular Arizona U.S. Senate election. County cells and statewide totals transcribed from page 3 of the official canvass issued by the Arizona Secretary of State; every candidate's 15 county cells sum to the printed statewide TOTAL. Cells were read from the document's text layer and checked against the page images. Named write-ins are included. The canvass PDF was supplied by the project maintainer from the Secretary of State and is retained under data/raw/us-senate/pdfs with its SHA-256 recorded in the snapshots.",
+  "reference_path": "data/raw/us-senate/2000-transcription.csv",
+  "provenance_path": "data/raw/us-senate/2000-provenance.json",
+  "additional_sources": [
+    {
+      "id": "openelections-us-senate-2000-2012",
+      "title": "OpenElections Arizona — U.S. Senate county results, 2000–2012 (comparison)",
+      "url": "https://github.com/openelections/openelections-data-az/tree/bf14331521f62f74cb17848ab11ca3dfd27f4f82",
+      "sha256": "e352e20ffa636b7a3353a6c823929a89ccbbf1adaf6366be2e93a6747d33cdcc",
+      "notes": "Independent open-data county results compiled from the official canvass; used only to cross-check the transcribed cells. See data/processed/us-senate/validation/openelections-comparison.json."
+    }
+  ],
+  "input_validation": {
+    "source_checksums_validated": true,
+    "canvass_candidate_count": 4,
+    "county_count": 15,
+    "xml_matches_final_canvass": null
+  },
+  "candidates": [
+    {
+      "id": "senate-2000-0",
+      "name": "Vance Hansen",
+      "party": "GRN",
+      "write_in": false,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 1890,
+        "04003": 2255,
+        "04005": 6189,
+        "04007": 819,
+        "04009": 328,
+        "04011": 93,
+        "04012": 190,
+        "04013": 49107,
+        "04015": 1980,
+        "04017": 1627,
+        "04019": 35081,
+        "04021": 2145,
+        "04023": 707,
+        "04025": 5334,
+        "04027": 1181
+      },
+      "statewide": 108926
+    },
+    {
+      "id": "senate-2000-1",
+      "name": "William Toel",
+      "party": "IND",
+      "write_in": false,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 2376,
+        "04003": 2128,
+        "04005": 3297,
+        "04007": 1384,
+        "04009": 585,
+        "04011": 256,
+        "04012": 342,
+        "04013": 68387,
+        "04015": 4309,
+        "04017": 2070,
+        "04019": 12687,
+        "04021": 3716,
+        "04023": 853,
+        "04025": 4647,
+        "04027": 2193
+      },
+      "statewide": 109230
+    },
+    {
+      "id": "senate-2000-2",
+      "name": "Barry J. Hess, II",
+      "party": "LBT",
+      "write_in": false,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 2011,
+        "04003": 1752,
+        "04005": 2887,
+        "04007": 941,
+        "04009": 375,
+        "04011": 143,
+        "04012": 228,
+        "04013": 36847,
+        "04015": 1972,
+        "04017": 1835,
+        "04019": 15280,
+        "04021": 2183,
+        "04023": 563,
+        "04025": 2541,
+        "04027": 1166
+      },
+      "statewide": 70724
+    },
+    {
+      "id": "senate-2000-3",
+      "name": "Jon Kyl",
+      "party": "REP",
+      "write_in": false,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 9857,
+        "04003": 24766,
+        "04005": 25512,
+        "04007": 13549,
+        "04009": 7520,
+        "04011": 2135,
+        "04012": 3484,
+        "04013": 663756,
+        "04015": 32686,
+        "04017": 18671,
+        "04019": 198266,
+        "04021": 30134,
+        "04023": 5753,
+        "04025": 50815,
+        "04027": 21292
+      },
+      "statewide": 1108196
+    }
+  ],
+  "turnout": {
+    "04001": {
+      "ballots_cast": 19634,
+      "registered_voters": 39103,
+      "percent": 50.21,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-2000-us-senate"
+    },
+    "04003": {
+      "ballots_cast": 34548,
+      "registered_voters": 54500,
+      "percent": 63.39,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-2000-us-senate"
+    },
+    "04005": {
+      "ballots_cast": 42320,
+      "registered_voters": 66731,
+      "percent": 63.42,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-2000-us-senate"
+    },
+    "04007": {
+      "ballots_cast": 18612,
+      "registered_voters": 29368,
+      "percent": 63.38,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-2000-us-senate"
+    },
+    "04009": {
+      "ballots_cast": 9767,
+      "registered_voters": 14902,
+      "percent": 65.54,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-2000-us-senate"
+    },
+    "04011": {
+      "ballots_cast": 3083,
+      "registered_voters": 5143,
+      "percent": 59.95,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-2000-us-senate"
+    },
+    "04012": {
+      "ballots_cast": 4688,
+      "registered_voters": 7136,
+      "percent": 65.7,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-2000-us-senate"
+    },
+    "04013": {
+      "ballots_cast": 914952,
+      "registered_voters": 1226317,
+      "percent": 74.61,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-2000-us-senate"
+    },
+    "04015": {
+      "ballots_cast": 45558,
+      "registered_voters": 75257,
+      "percent": 60.54,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-2000-us-senate"
+    },
+    "04017": {
+      "ballots_cast": 26625,
+      "registered_voters": 50150,
+      "percent": 53.09,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-2000-us-senate"
+    },
+    "04019": {
+      "ballots_cast": 289193,
+      "registered_voters": 371696,
+      "percent": 77.8,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-2000-us-senate"
+    },
+    "04021": {
+      "ballots_cast": 42665,
+      "registered_voters": 73968,
+      "percent": 57.68,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-2000-us-senate"
+    },
+    "04023": {
+      "ballots_cast": 9445,
+      "registered_voters": 16514,
+      "percent": 57.19,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-2000-us-senate"
+    },
+    "04025": {
+      "ballots_cast": 68682,
+      "registered_voters": 93291,
+      "percent": 73.62,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-2000-us-senate"
+    },
+    "04027": {
+      "ballots_cast": 29748,
+      "registered_voters": 49046,
+      "percent": 60.65,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-2000-us-senate"
+    },
+    "04": {
+      "ballots_cast": 1559520,
+      "registered_voters": 2173122,
+      "percent": 71.76,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-2000-us-senate"
+    }
+  }
+}

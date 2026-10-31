@@ -1,0 +1,159 @@
+{
+  "year": 2006,
+  "date": "2006-11-07",
+  "event_id": "az-2006-general",
+  "contest_id": "az-2006-us-senate",
+  "contest_kind": "regular",
+  "office_id": "us-senate",
+  "office": "U.S. Senate",
+  "source_id": "canvass-2006-us-senate",
+  "source_title": "Arizona Secretary of State — 2006 official U.S. Senate canvass",
+  "source_url": "https://apps.azsos.gov/election/2006/General/Canvass2006GE.pdf",
+  "source_sha256": "ed72c5885f952d5d966c6031dc8b18632961703f44cc5e097e0e4b3f92c2b772",
+  "source_notes": "2006 regular Arizona U.S. Senate election. County cells and statewide totals transcribed from page 1 of the official canvass issued by the Arizona Secretary of State; every candidate's 15 county cells sum to the printed statewide TOTAL. Cells were read from the document's text layer and checked against the page images. Named write-ins are included. The canvass PDF was supplied by the project maintainer from the Secretary of State and is retained under data/raw/us-senate/pdfs with its SHA-256 recorded in the snapshots. Event turnout is shared with the Governor and Attorney General contests of the same election.",
+  "reference_path": "data/raw/us-senate/2006-transcription.csv",
+  "provenance_path": "data/raw/us-senate/2006-provenance.json",
+  "additional_sources": [
+    {
+      "id": "openelections-us-senate-2000-2012",
+      "title": "OpenElections Arizona — U.S. Senate county results, 2000–2012 (comparison)",
+      "url": "https://github.com/openelections/openelections-data-az/tree/bf14331521f62f74cb17848ab11ca3dfd27f4f82",
+      "sha256": "e352e20ffa636b7a3353a6c823929a89ccbbf1adaf6366be2e93a6747d33cdcc",
+      "notes": "Independent open-data county results compiled from the official canvass; used only to cross-check the transcribed cells. See data/processed/us-senate/validation/openelections-comparison.json."
+    }
+  ],
+  "input_validation": {
+    "source_checksums_validated": true,
+    "canvass_candidate_count": 5,
+    "county_count": 15,
+    "xml_matches_final_canvass": null
+  },
+  "candidates": [
+    {
+      "id": "senate-2006-0",
+      "name": "Jim Pederson",
+      "party": "DEM",
+      "write_in": false,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 11402,
+        "04003": 14849,
+        "04005": 20610,
+        "04007": 6643,
+        "04009": 2194,
+        "04011": 942,
+        "04012": 1457,
+        "04013": 364661,
+        "04015": 16998,
+        "04017": 11785,
+        "04019": 144275,
+        "04021": 24790,
+        "04023": 4892,
+        "04025": 26340,
+        "04027": 12303
+      },
+      "statewide": 664141
+    },
+    {
+      "id": "senate-2006-1",
+      "name": "Richard Mack",
+      "party": "LBT",
+      "write_in": false,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 831,
+        "04003": 1302,
+        "04005": 1448,
+        "04007": 533,
+        "04009": 516,
+        "04011": 119,
+        "04012": 173,
+        "04013": 26733,
+        "04015": 1981,
+        "04017": 951,
+        "04019": 7936,
+        "04021": 1836,
+        "04023": 197,
+        "04025": 2849,
+        "04027": 826
+      },
+      "statewide": 48231
+    },
+    {
+      "id": "senate-2006-2",
+      "name": "Jon Kyl",
+      "party": "REP",
+      "write_in": false,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 6530,
+        "04003": 20194,
+        "04005": 16003,
+        "04007": 9512,
+        "04009": 5127,
+        "04011": 1068,
+        "04012": 2203,
+        "04013": 491721,
+        "04015": 26964,
+        "04017": 13927,
+        "04019": 128987,
+        "04021": 30379,
+        "04023": 3067,
+        "04025": 43219,
+        "04027": 15497
+      },
+      "statewide": 814398
+    },
+    {
+      "id": "senate-2006-3",
+      "name": "Stephen Baker",
+      "party": "NONE",
+      "write_in": true,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 0,
+        "04003": 0,
+        "04005": 1,
+        "04007": 0,
+        "04009": 0,
+        "04011": 0,
+        "04012": 0,
+        "04013": 2,
+        "04015": 1,
+        "04017": 0,
+        "04019": 3,
+        "04021": 0,
+        "04023": 0,
+        "04025": 0,
+        "04027": 0
+      },
+      "statewide": 7
+    },
+    {
+      "id": "senate-2006-4",
+      "name": "Ray Caplette",
+      "party": "NONE",
+      "write_in": true,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 0,
+        "04003": 0,
+        "04005": 0,
+        "04007": 0,
+        "04009": 0,
+        "04011": 0,
+        "04012": 0,
+        "04013": 2,
+        "04015": 0,
+        "04017": 0,
+        "04019": 1,
+        "04021": 0,
+        "04023": 0,
+        "04025": 0,
+        "04027": 2
+      },
+      "statewide": 5
+    }
+  ],
+  "turnout": {}
+}

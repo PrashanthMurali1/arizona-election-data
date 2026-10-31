@@ -1,0 +1,391 @@
+year,county,office,party,candidate,votes,write_in
+2000,Apache,U.S. Senate,GRN,Vance Hansen,1890,false
+2000,Cochise,U.S. Senate,GRN,Vance Hansen,2255,false
+2000,Coconino,U.S. Senate,GRN,Vance Hansen,6189,false
+2000,Gila,U.S. Senate,GRN,Vance Hansen,819,false
+2000,Graham,U.S. Senate,GRN,Vance Hansen,328,false
+2000,Greenlee,U.S. Senate,GRN,Vance Hansen,93,false
+2000,La Paz,U.S. Senate,GRN,Vance Hansen,190,false
+2000,Maricopa,U.S. Senate,GRN,Vance Hansen,49107,false
+2000,Mohave,U.S. Senate,GRN,Vance Hansen,1980,false
+2000,Navajo,U.S. Senate,GRN,Vance Hansen,1627,false
+2000,Pima,U.S. Senate,GRN,Vance Hansen,35081,false
+2000,Pinal,U.S. Senate,GRN,Vance Hansen,2145,false
+2000,Santa Cruz,U.S. Senate,GRN,Vance Hansen,707,false
+2000,Yavapai,U.S. Senate,GRN,Vance Hansen,5334,false
+2000,Yuma,U.S. Senate,GRN,Vance Hansen,1181,false
+2000,Apache,U.S. Senate,IND,William Toel,2376,false
+2000,Cochise,U.S. Senate,IND,William Toel,2128,false
+2000,Coconino,U.S. Senate,IND,William Toel,3297,false
+2000,Gila,U.S. Senate,IND,William Toel,1384,false
+2000,Graham,U.S. Senate,IND,William Toel,585,false
+2000,Greenlee,U.S. Senate,IND,William Toel,256,false
+2000,La Paz,U.S. Senate,IND,William Toel,342,false
+2000,Maricopa,U.S. Senate,IND,William Toel,68387,false
+2000,Mohave,U.S. Senate,IND,William Toel,4309,false
+2000,Navajo,U.S. Senate,IND,William Toel,2070,false
+2000,Pima,U.S. Senate,IND,William Toel,12687,false
+2000,Pinal,U.S. Senate,IND,William Toel,3716,false
+2000,Santa Cruz,U.S. Senate,IND,William Toel,853,false
+2000,Yavapai,U.S. Senate,IND,William Toel,4647,false
+2000,Yuma,U.S. Senate,IND,William Toel,2193,false
+2000,Apache,U.S. Senate,LBT,"Barry J. Hess, II",2011,false
+2000,Cochise,U.S. Senate,LBT,"Barry J. Hess, II",1752,false
+2000,Coconino,U.S. Senate,LBT,"Barry J. Hess, II",2887,false
+2000,Gila,U.S. Senate,LBT,"Barry J. Hess, II",941,false
+2000,Graham,U.S. Senate,LBT,"Barry J. Hess, II",375,false
+2000,Greenlee,U.S. Senate,LBT,"Barry J. Hess, II",143,false
+2000,La Paz,U.S. Senate,LBT,"Barry J. Hess, II",228,false
+2000,Maricopa,U.S. Senate,LBT,"Barry J. Hess, II",36847,false
+2000,Mohave,U.S. Senate,LBT,"Barry J. Hess, II",1972,false
+2000,Navajo,U.S. Senate,LBT,"Barry J. Hess, II",1835,false
+2000,Pima,U.S. Senate,LBT,"Barry J. Hess, II",15280,false
+2000,Pinal,U.S. Senate,LBT,"Barry J. Hess, II",2183,false
+2000,Santa Cruz,U.S. Senate,LBT,"Barry J. Hess, II",563,false
+2000,Yavapai,U.S. Senate,LBT,"Barry J. Hess, II",2541,false
+2000,Yuma,U.S. Senate,LBT,"Barry J. Hess, II",1166,false
+2000,Apache,U.S. Senate,REP,Jon Kyl,9857,false
+2000,Cochise,U.S. Senate,REP,Jon Kyl,24766,false
+2000,Coconino,U.S. Senate,REP,Jon Kyl,25512,false
+2000,Gila,U.S. Senate,REP,Jon Kyl,13549,false
+2000,Graham,U.S. Senate,REP,Jon Kyl,7520,false
+2000,Greenlee,U.S. Senate,REP,Jon Kyl,2135,false
+2000,La Paz,U.S. Senate,REP,Jon Kyl,3484,false
+2000,Maricopa,U.S. Senate,REP,Jon Kyl,663756,false
+2000,Mohave,U.S. Senate,REP,Jon Kyl,32686,false
+2000,Navajo,U.S. Senate,REP,Jon Kyl,18671,false
+2000,Pima,U.S. Senate,REP,Jon Kyl,198266,false
+2000,Pinal,U.S. Senate,REP,Jon Kyl,30134,false
+2000,Santa Cruz,U.S. Senate,REP,Jon Kyl,5753,false
+2000,Yavapai,U.S. Senate,REP,Jon Kyl,50815,false
+2000,Yuma,U.S. Senate,REP,Jon Kyl,21292,false
+2004,Apache,U.S. Senate,DEM,Stuart Starky,9588,false
+2004,Cochise,U.S. Senate,DEM,Stuart Starky,9555,false
+2004,Coconino,U.S. Senate,DEM,Stuart Starky,13520,false
+2004,Gila,U.S. Senate,DEM,Stuart Starky,4291,false
+2004,Graham,U.S. Senate,DEM,Stuart Starky,2000,false
+2004,Greenlee,U.S. Senate,DEM,Stuart Starky,746,false
+2004,La Paz,U.S. Senate,DEM,Stuart Starky,965,false
+2004,Maricopa,U.S. Senate,DEM,Stuart Starky,216124,false
+2004,Mohave,U.S. Senate,DEM,Stuart Starky,10423,false
+2004,Navajo,U.S. Senate,DEM,Stuart Starky,7434,false
+2004,Pima,U.S. Senate,DEM,Stuart Starky,89483,false
+2004,Pinal,U.S. Senate,DEM,Stuart Starky,13595,false
+2004,Santa Cruz,U.S. Senate,DEM,Stuart Starky,3583,false
+2004,Yavapai,U.S. Senate,DEM,Stuart Starky,14852,false
+2004,Yuma,U.S. Senate,DEM,Stuart Starky,8348,false
+2004,Apache,U.S. Senate,LBT,Ernest Hancock,905,false
+2004,Cochise,U.S. Senate,LBT,Ernest Hancock,1394,false
+2004,Coconino,U.S. Senate,LBT,Ernest Hancock,1504,false
+2004,Gila,U.S. Senate,LBT,Ernest Hancock,632,false
+2004,Graham,U.S. Senate,LBT,Ernest Hancock,322,false
+2004,Greenlee,U.S. Senate,LBT,Ernest Hancock,68,false
+2004,La Paz,U.S. Senate,LBT,Ernest Hancock,156,false
+2004,Maricopa,U.S. Senate,LBT,Ernest Hancock,29769,false
+2004,Mohave,U.S. Senate,LBT,Ernest Hancock,1686,false
+2004,Navajo,U.S. Senate,LBT,Ernest Hancock,1222,false
+2004,Pima,U.S. Senate,LBT,Ernest Hancock,7980,false
+2004,Pinal,U.S. Senate,LBT,Ernest Hancock,1692,false
+2004,Santa Cruz,U.S. Senate,LBT,Ernest Hancock,252,false
+2004,Yavapai,U.S. Senate,LBT,Ernest Hancock,3160,false
+2004,Yuma,U.S. Senate,LBT,Ernest Hancock,1056,false
+2004,Apache,U.S. Senate,REP,John McCain,12923,false
+2004,Cochise,U.S. Senate,REP,John McCain,32879,false
+2004,Coconino,U.S. Senate,REP,John McCain,35849,false
+2004,Gila,U.S. Senate,REP,John McCain,15551,false
+2004,Graham,U.S. Senate,REP,John McCain,8171,false
+2004,Greenlee,U.S. Senate,REP,John McCain,2166,false
+2004,La Paz,U.S. Senate,REP,John McCain,3826,false
+2004,Maricopa,U.S. Senate,REP,John McCain,917527,false
+2004,Mohave,U.S. Senate,REP,John McCain,44402,false
+2004,Navajo,U.S. Senate,REP,John McCain,23091,false
+2004,Pima,U.S. Senate,REP,John McCain,258010,false
+2004,Pinal,U.S. Senate,REP,John McCain,48094,false
+2004,Santa Cruz,U.S. Senate,REP,John McCain,7502,false
+2004,Yavapai,U.S. Senate,REP,John McCain,67312,false
+2004,Yuma,U.S. Senate,REP,John McCain,28069,false
+2006,Apache,U.S. Senate,DEM,Jim Pederson,11402,false
+2006,Cochise,U.S. Senate,DEM,Jim Pederson,14849,false
+2006,Coconino,U.S. Senate,DEM,Jim Pederson,20610,false
+2006,Gila,U.S. Senate,DEM,Jim Pederson,6643,false
+2006,Graham,U.S. Senate,DEM,Jim Pederson,2194,false
+2006,Greenlee,U.S. Senate,DEM,Jim Pederson,942,false
+2006,La Paz,U.S. Senate,DEM,Jim Pederson,1457,false
+2006,Maricopa,U.S. Senate,DEM,Jim Pederson,364661,false
+2006,Mohave,U.S. Senate,DEM,Jim Pederson,16998,false
+2006,Navajo,U.S. Senate,DEM,Jim Pederson,11785,false
+2006,Pima,U.S. Senate,DEM,Jim Pederson,144275,false
+2006,Pinal,U.S. Senate,DEM,Jim Pederson,24790,false
+2006,Santa Cruz,U.S. Senate,DEM,Jim Pederson,4892,false
+2006,Yavapai,U.S. Senate,DEM,Jim Pederson,26340,false
+2006,Yuma,U.S. Senate,DEM,Jim Pederson,12303,false
+2006,Apache,U.S. Senate,LBT,Richard Mack,831,false
+2006,Cochise,U.S. Senate,LBT,Richard Mack,1302,false
+2006,Coconino,U.S. Senate,LBT,Richard Mack,1448,false
+2006,Gila,U.S. Senate,LBT,Richard Mack,533,false
+2006,Graham,U.S. Senate,LBT,Richard Mack,516,false
+2006,Greenlee,U.S. Senate,LBT,Richard Mack,119,false
+2006,La Paz,U.S. Senate,LBT,Richard Mack,173,false
+2006,Maricopa,U.S. Senate,LBT,Richard Mack,26733,false
+2006,Mohave,U.S. Senate,LBT,Richard Mack,1981,false
+2006,Navajo,U.S. Senate,LBT,Richard Mack,951,false
+2006,Pima,U.S. Senate,LBT,Richard Mack,7936,false
+2006,Pinal,U.S. Senate,LBT,Richard Mack,1836,false
+2006,Santa Cruz,U.S. Senate,LBT,Richard Mack,197,false
+2006,Yavapai,U.S. Senate,LBT,Richard Mack,2849,false
+2006,Yuma,U.S. Senate,LBT,Richard Mack,826,false
+2006,Apache,U.S. Senate,REP,Jon Kyl,6530,false
+2006,Cochise,U.S. Senate,REP,Jon Kyl,20194,false
+2006,Coconino,U.S. Senate,REP,Jon Kyl,16003,false
+2006,Gila,U.S. Senate,REP,Jon Kyl,9512,false
+2006,Graham,U.S. Senate,REP,Jon Kyl,5127,false
+2006,Greenlee,U.S. Senate,REP,Jon Kyl,1068,false
+2006,La Paz,U.S. Senate,REP,Jon Kyl,2203,false
+2006,Maricopa,U.S. Senate,REP,Jon Kyl,491721,false
+2006,Mohave,U.S. Senate,REP,Jon Kyl,26964,false
+2006,Navajo,U.S. Senate,REP,Jon Kyl,13927,false
+2006,Pima,U.S. Senate,REP,Jon Kyl,128987,false
+2006,Pinal,U.S. Senate,REP,Jon Kyl,30379,false
+2006,Santa Cruz,U.S. Senate,REP,Jon Kyl,3067,false
+2006,Yavapai,U.S. Senate,REP,Jon Kyl,43219,false
+2006,Yuma,U.S. Senate,REP,Jon Kyl,15497,false
+2006,Apache,U.S. Senate,Write-In,Stephen Baker,0,true
+2006,Cochise,U.S. Senate,Write-In,Stephen Baker,0,true
+2006,Coconino,U.S. Senate,Write-In,Stephen Baker,1,true
+2006,Gila,U.S. Senate,Write-In,Stephen Baker,0,true
+2006,Graham,U.S. Senate,Write-In,Stephen Baker,0,true
+2006,Greenlee,U.S. Senate,Write-In,Stephen Baker,0,true
+2006,La Paz,U.S. Senate,Write-In,Stephen Baker,0,true
+2006,Maricopa,U.S. Senate,Write-In,Stephen Baker,2,true
+2006,Mohave,U.S. Senate,Write-In,Stephen Baker,1,true
+2006,Navajo,U.S. Senate,Write-In,Stephen Baker,0,true
+2006,Pima,U.S. Senate,Write-In,Stephen Baker,3,true
+2006,Pinal,U.S. Senate,Write-In,Stephen Baker,0,true
+2006,Santa Cruz,U.S. Senate,Write-In,Stephen Baker,0,true
+2006,Yavapai,U.S. Senate,Write-In,Stephen Baker,0,true
+2006,Yuma,U.S. Senate,Write-In,Stephen Baker,0,true
+2006,Apache,U.S. Senate,Write-In,Ray Caplette,0,true
+2006,Cochise,U.S. Senate,Write-In,Ray Caplette,0,true
+2006,Coconino,U.S. Senate,Write-In,Ray Caplette,0,true
+2006,Gila,U.S. Senate,Write-In,Ray Caplette,0,true
+2006,Graham,U.S. Senate,Write-In,Ray Caplette,0,true
+2006,Greenlee,U.S. Senate,Write-In,Ray Caplette,0,true
+2006,La Paz,U.S. Senate,Write-In,Ray Caplette,0,true
+2006,Maricopa,U.S. Senate,Write-In,Ray Caplette,2,true
+2006,Mohave,U.S. Senate,Write-In,Ray Caplette,0,true
+2006,Navajo,U.S. Senate,Write-In,Ray Caplette,0,true
+2006,Pima,U.S. Senate,Write-In,Ray Caplette,1,true
+2006,Pinal,U.S. Senate,Write-In,Ray Caplette,0,true
+2006,Santa Cruz,U.S. Senate,Write-In,Ray Caplette,0,true
+2006,Yavapai,U.S. Senate,Write-In,Ray Caplette,0,true
+2006,Yuma,U.S. Senate,Write-In,Ray Caplette,2,true
+2010,Apache,U.S. Senate,DEM,Rodney Glassman,11785,false
+2010,Cochise,U.S. Senate,DEM,Rodney Glassman,13119,false
+2010,Coconino,U.S. Senate,DEM,Rodney Glassman,17164,false
+2010,Gila,U.S. Senate,DEM,Rodney Glassman,4858,false
+2010,Graham,U.S. Senate,DEM,Rodney Glassman,2194,false
+2010,Greenlee,U.S. Senate,DEM,Rodney Glassman,947,false
+2010,La Paz,U.S. Senate,DEM,Rodney Glassman,1085,false
+2010,Maricopa,U.S. Senate,DEM,Rodney Glassman,319012,false
+2010,Mohave,U.S. Senate,DEM,Rodney Glassman,12302,false
+2010,Navajo,U.S. Senate,DEM,Rodney Glassman,10737,false
+2010,Pima,U.S. Senate,DEM,Rodney Glassman,134296,false
+2010,Pinal,U.S. Senate,DEM,Rodney Glassman,24856,false
+2010,Santa Cruz,U.S. Senate,DEM,Rodney Glassman,5710,false
+2010,Yavapai,U.S. Senate,DEM,Rodney Glassman,21636,false
+2010,Yuma,U.S. Senate,DEM,Rodney Glassman,12310,false
+2010,Apache,U.S. Senate,GRN,Jerry Joslyn,358,false
+2010,Cochise,U.S. Senate,GRN,Jerry Joslyn,645,false
+2010,Coconino,U.S. Senate,GRN,Jerry Joslyn,781,false
+2010,Gila,U.S. Senate,GRN,Jerry Joslyn,246,false
+2010,Graham,U.S. Senate,GRN,Jerry Joslyn,118,false
+2010,Greenlee,U.S. Senate,GRN,Jerry Joslyn,22,false
+2010,La Paz,U.S. Senate,GRN,Jerry Joslyn,77,false
+2010,Maricopa,U.S. Senate,GRN,Jerry Joslyn,12095,false
+2010,Mohave,U.S. Senate,GRN,Jerry Joslyn,960,false
+2010,Navajo,U.S. Senate,GRN,Jerry Joslyn,430,false
+2010,Pima,U.S. Senate,GRN,Jerry Joslyn,5929,false
+2010,Pinal,U.S. Senate,GRN,Jerry Joslyn,1062,false
+2010,Santa Cruz,U.S. Senate,GRN,Jerry Joslyn,154,false
+2010,Yavapai,U.S. Senate,GRN,Jerry Joslyn,1324,false
+2010,Yuma,U.S. Senate,GRN,Jerry Joslyn,402,false
+2010,Apache,U.S. Senate,LBT,David F. Nolan,925,false
+2010,Cochise,U.S. Senate,LBT,David F. Nolan,2352,false
+2010,Coconino,U.S. Senate,LBT,David F. Nolan,1631,false
+2010,Gila,U.S. Senate,LBT,David F. Nolan,1039,false
+2010,Graham,U.S. Senate,LBT,David F. Nolan,493,false
+2010,Greenlee,U.S. Senate,LBT,David F. Nolan,115,false
+2010,La Paz,U.S. Senate,LBT,David F. Nolan,295,false
+2010,Maricopa,U.S. Senate,LBT,David F. Nolan,45596,false
+2010,Mohave,U.S. Senate,LBT,David F. Nolan,3638,false
+2010,Navajo,U.S. Senate,LBT,David F. Nolan,1672,false
+2010,Pima,U.S. Senate,LBT,David F. Nolan,12538,false
+2010,Pinal,U.S. Senate,LBT,David F. Nolan,3714,false
+2010,Santa Cruz,U.S. Senate,LBT,David F. Nolan,324,false
+2010,Yavapai,U.S. Senate,LBT,David F. Nolan,4306,false
+2010,Yuma,U.S. Senate,LBT,David F. Nolan,1459,false
+2010,Apache,U.S. Senate,REP,John McCain,7371,false
+2010,Cochise,U.S. Senate,REP,John McCain,23445,false
+2010,Coconino,U.S. Senate,REP,John McCain,18995,false
+2010,Gila,U.S. Senate,REP,John McCain,11500,false
+2010,Graham,U.S. Senate,REP,John McCain,6223,false
+2010,Greenlee,U.S. Senate,REP,John McCain,1321,false
+2010,La Paz,U.S. Senate,REP,John McCain,3003,false
+2010,Maricopa,U.S. Senate,REP,John McCain,599068,false
+2010,Mohave,U.S. Senate,REP,John McCain,36367,false
+2010,Navajo,U.S. Senate,REP,John McCain,16157,false
+2010,Pima,U.S. Senate,REP,John McCain,158879,false
+2010,Pinal,U.S. Senate,REP,John McCain,47850,false
+2010,Santa Cruz,U.S. Senate,REP,John McCain,3693,false
+2010,Yavapai,U.S. Senate,REP,John McCain,52093,false
+2010,Yuma,U.S. Senate,REP,John McCain,19650,false
+2010,Apache,U.S. Senate,Write-In,Ray J. Caplette,0,true
+2010,Cochise,U.S. Senate,Write-In,Ray J. Caplette,0,true
+2010,Coconino,U.S. Senate,Write-In,Ray J. Caplette,0,true
+2010,Gila,U.S. Senate,Write-In,Ray J. Caplette,0,true
+2010,Graham,U.S. Senate,Write-In,Ray J. Caplette,0,true
+2010,Greenlee,U.S. Senate,Write-In,Ray J. Caplette,0,true
+2010,La Paz,U.S. Senate,Write-In,Ray J. Caplette,0,true
+2010,Maricopa,U.S. Senate,Write-In,Ray J. Caplette,5,true
+2010,Mohave,U.S. Senate,Write-In,Ray J. Caplette,0,true
+2010,Navajo,U.S. Senate,Write-In,Ray J. Caplette,0,true
+2010,Pima,U.S. Senate,Write-In,Ray J. Caplette,1,true
+2010,Pinal,U.S. Senate,Write-In,Ray J. Caplette,1,true
+2010,Santa Cruz,U.S. Senate,Write-In,Ray J. Caplette,0,true
+2010,Yavapai,U.S. Senate,Write-In,Ray J. Caplette,0,true
+2010,Yuma,U.S. Senate,Write-In,Ray J. Caplette,0,true
+2010,Apache,U.S. Senate,Write-In,Santos Chavez,4,true
+2010,Cochise,U.S. Senate,Write-In,Santos Chavez,1,true
+2010,Coconino,U.S. Senate,Write-In,Santos Chavez,2,true
+2010,Gila,U.S. Senate,Write-In,Santos Chavez,0,true
+2010,Graham,U.S. Senate,Write-In,Santos Chavez,0,true
+2010,Greenlee,U.S. Senate,Write-In,Santos Chavez,0,true
+2010,La Paz,U.S. Senate,Write-In,Santos Chavez,0,true
+2010,Maricopa,U.S. Senate,Write-In,Santos Chavez,16,true
+2010,Mohave,U.S. Senate,Write-In,Santos Chavez,0,true
+2010,Navajo,U.S. Senate,Write-In,Santos Chavez,1,true
+2010,Pima,U.S. Senate,Write-In,Santos Chavez,6,true
+2010,Pinal,U.S. Senate,Write-In,Santos Chavez,1,true
+2010,Santa Cruz,U.S. Senate,Write-In,Santos Chavez,0,true
+2010,Yavapai,U.S. Senate,Write-In,Santos Chavez,8,true
+2010,Yuma,U.S. Senate,Write-In,Santos Chavez,0,true
+2010,Apache,U.S. Senate,Write-In,Sydney Dudikoff,1,true
+2010,Cochise,U.S. Senate,Write-In,Sydney Dudikoff,0,true
+2010,Coconino,U.S. Senate,Write-In,Sydney Dudikoff,1,true
+2010,Gila,U.S. Senate,Write-In,Sydney Dudikoff,0,true
+2010,Graham,U.S. Senate,Write-In,Sydney Dudikoff,0,true
+2010,Greenlee,U.S. Senate,Write-In,Sydney Dudikoff,0,true
+2010,La Paz,U.S. Senate,Write-In,Sydney Dudikoff,0,true
+2010,Maricopa,U.S. Senate,Write-In,Sydney Dudikoff,9,true
+2010,Mohave,U.S. Senate,Write-In,Sydney Dudikoff,0,true
+2010,Navajo,U.S. Senate,Write-In,Sydney Dudikoff,0,true
+2010,Pima,U.S. Senate,Write-In,Sydney Dudikoff,2,true
+2010,Pinal,U.S. Senate,Write-In,Sydney Dudikoff,0,true
+2010,Santa Cruz,U.S. Senate,Write-In,Sydney Dudikoff,0,true
+2010,Yavapai,U.S. Senate,Write-In,Sydney Dudikoff,1,true
+2010,Yuma,U.S. Senate,Write-In,Sydney Dudikoff,0,true
+2010,Apache,U.S. Senate,Write-In,Loyd Ellis,3,true
+2010,Cochise,U.S. Senate,Write-In,Loyd Ellis,9,true
+2010,Coconino,U.S. Senate,Write-In,Loyd Ellis,2,true
+2010,Gila,U.S. Senate,Write-In,Loyd Ellis,2,true
+2010,Graham,U.S. Senate,Write-In,Loyd Ellis,0,true
+2010,Greenlee,U.S. Senate,Write-In,Loyd Ellis,0,true
+2010,La Paz,U.S. Senate,Write-In,Loyd Ellis,0,true
+2010,Maricopa,U.S. Senate,Write-In,Loyd Ellis,95,true
+2010,Mohave,U.S. Senate,Write-In,Loyd Ellis,9,true
+2010,Navajo,U.S. Senate,Write-In,Loyd Ellis,1,true
+2010,Pima,U.S. Senate,Write-In,Loyd Ellis,22,true
+2010,Pinal,U.S. Senate,Write-In,Loyd Ellis,7,true
+2010,Santa Cruz,U.S. Senate,Write-In,Loyd Ellis,0,true
+2010,Yavapai,U.S. Senate,Write-In,Loyd Ellis,7,true
+2010,Yuma,U.S. Senate,Write-In,Loyd Ellis,3,true
+2010,Apache,U.S. Senate,Write-In,Ian Gilyeat,109,true
+2010,Cochise,U.S. Senate,Write-In,Ian Gilyeat,44,true
+2010,Coconino,U.S. Senate,Write-In,Ian Gilyeat,48,true
+2010,Gila,U.S. Senate,Write-In,Ian Gilyeat,55,true
+2010,Graham,U.S. Senate,Write-In,Ian Gilyeat,25,true
+2010,Greenlee,U.S. Senate,Write-In,Ian Gilyeat,13,true
+2010,La Paz,U.S. Senate,Write-In,Ian Gilyeat,3,true
+2010,Maricopa,U.S. Senate,Write-In,Ian Gilyeat,4070,true
+2010,Mohave,U.S. Senate,Write-In,Ian Gilyeat,53,true
+2010,Navajo,U.S. Senate,Write-In,Ian Gilyeat,225,true
+2010,Pima,U.S. Senate,Write-In,Ian Gilyeat,72,true
+2010,Pinal,U.S. Senate,Write-In,Ian Gilyeat,307,true
+2010,Santa Cruz,U.S. Senate,Write-In,Ian Gilyeat,13,true
+2010,Yavapai,U.S. Senate,Write-In,Ian Gilyeat,888,true
+2010,Yuma,U.S. Senate,Write-In,Ian Gilyeat,13,true
+2012,Apache,U.S. Senate,DEM,Richard Carmona,16455,false
+2012,Cochise,U.S. Senate,DEM,Richard Carmona,19736,false
+2012,Coconino,U.S. Senate,DEM,Richard Carmona,28723,false
+2012,Gila,U.S. Senate,DEM,Richard Carmona,8099,false
+2012,Graham,U.S. Senate,DEM,Richard Carmona,3771,false
+2012,Greenlee,U.S. Senate,DEM,Richard Carmona,1342,false
+2012,La Paz,U.S. Senate,DEM,Richard Carmona,1961,false
+2012,Maricopa,U.S. Senate,DEM,Richard Carmona,602809,false
+2012,Mohave,U.S. Senate,DEM,Richard Carmona,20865,false
+2012,Navajo,U.S. Senate,DEM,Richard Carmona,16881,false
+2012,Pima,U.S. Senate,DEM,Richard Carmona,207578,false
+2012,Pinal,U.S. Senate,DEM,Richard Carmona,45558,false
+2012,Santa Cruz,U.S. Senate,DEM,Richard Carmona,9454,false
+2012,Yavapai,U.S. Senate,DEM,Richard Carmona,34902,false
+2012,Yuma,U.S. Senate,DEM,Richard Carmona,18408,false
+2012,Apache,U.S. Senate,IND,Don Manspeaker,0,true
+2012,Cochise,U.S. Senate,IND,Don Manspeaker,6,true
+2012,Coconino,U.S. Senate,IND,Don Manspeaker,2,true
+2012,Gila,U.S. Senate,IND,Don Manspeaker,1,true
+2012,Graham,U.S. Senate,IND,Don Manspeaker,0,true
+2012,Greenlee,U.S. Senate,IND,Don Manspeaker,0,true
+2012,La Paz,U.S. Senate,IND,Don Manspeaker,0,true
+2012,Maricopa,U.S. Senate,IND,Don Manspeaker,10,true
+2012,Mohave,U.S. Senate,IND,Don Manspeaker,0,true
+2012,Navajo,U.S. Senate,IND,Don Manspeaker,0,true
+2012,Pima,U.S. Senate,IND,Don Manspeaker,5,true
+2012,Pinal,U.S. Senate,IND,Don Manspeaker,0,true
+2012,Santa Cruz,U.S. Senate,IND,Don Manspeaker,0,true
+2012,Yavapai,U.S. Senate,IND,Don Manspeaker,0,true
+2012,Yuma,U.S. Senate,IND,Don Manspeaker,0,true
+2012,Apache,U.S. Senate,IND,Steven Watts,0,true
+2012,Cochise,U.S. Senate,IND,Steven Watts,5,true
+2012,Coconino,U.S. Senate,IND,Steven Watts,8,true
+2012,Gila,U.S. Senate,IND,Steven Watts,4,true
+2012,Graham,U.S. Senate,IND,Steven Watts,4,true
+2012,Greenlee,U.S. Senate,IND,Steven Watts,0,true
+2012,La Paz,U.S. Senate,IND,Steven Watts,0,true
+2012,Maricopa,U.S. Senate,IND,Steven Watts,201,true
+2012,Mohave,U.S. Senate,IND,Steven Watts,10,true
+2012,Navajo,U.S. Senate,IND,Steven Watts,3,true
+2012,Pima,U.S. Senate,IND,Steven Watts,29,true
+2012,Pinal,U.S. Senate,IND,Steven Watts,8,true
+2012,Santa Cruz,U.S. Senate,IND,Steven Watts,0,true
+2012,Yavapai,U.S. Senate,IND,Steven Watts,17,true
+2012,Yuma,U.S. Senate,IND,Steven Watts,1,true
+2012,Apache,U.S. Senate,LBT,Marc Victor,1097,false
+2012,Cochise,U.S. Senate,LBT,Marc Victor,2266,false
+2012,Coconino,U.S. Senate,LBT,Marc Victor,2580,false
+2012,Gila,U.S. Senate,LBT,Marc Victor,1135,false
+2012,Graham,U.S. Senate,LBT,Marc Victor,570,false
+2012,Greenlee,U.S. Senate,LBT,Marc Victor,205,false
+2012,La Paz,U.S. Senate,LBT,Marc Victor,426,false
+2012,Maricopa,U.S. Senate,LBT,Marc Victor,62546,false
+2012,Mohave,U.S. Senate,LBT,Marc Victor,4822,false
+2012,Navajo,U.S. Senate,LBT,Marc Victor,1631,false
+2012,Pima,U.S. Senate,LBT,Marc Victor,12304,false
+2012,Pinal,U.S. Senate,LBT,Marc Victor,5885,false
+2012,Santa Cruz,U.S. Senate,LBT,Marc Victor,437,false
+2012,Yavapai,U.S. Senate,LBT,Marc Victor,5114,false
+2012,Yuma,U.S. Senate,LBT,Marc Victor,1091,false
+2012,Apache,U.S. Senate,REP,Jeff Flake,7680,false
+2012,Cochise,U.S. Senate,REP,Jeff Flake,26208,false
+2012,Coconino,U.S. Senate,REP,Jeff Flake,19334,false
+2012,Gila,U.S. Senate,REP,Jeff Flake,11954,false
+2012,Graham,U.S. Senate,REP,Jeff Flake,7352,false
+2012,Greenlee,U.S. Senate,REP,Jeff Flake,1365,false
+2012,La Paz,U.S. Senate,REP,Jeff Flake,3120,false
+2012,Maricopa,U.S. Senate,REP,Jeff Flake,675500,false
+2012,Mohave,U.S. Senate,REP,Jeff Flake,42410,false
+2012,Navajo,U.S. Senate,REP,Jeff Flake,18228,false
+2012,Pima,U.S. Senate,REP,Jeff Flake,153846,false
+2012,Pinal,U.S. Senate,REP,Jeff Flake,55008,false
+2012,Santa Cruz,U.S. Senate,REP,Jeff Flake,3617,false
+2012,Yavapai,U.S. Senate,REP,Jeff Flake,57838,false
+2012,Yuma,U.S. Senate,REP,Jeff Flake,20997,false

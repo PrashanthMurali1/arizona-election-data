@@ -1,7 +1,247 @@
 [
   {
+    "contest": "az-1986-us-senate",
+    "status": "verified",
+    "coverage": "county",
+    "county_count": 15,
+    "complete_county_count": 15,
+    "expected_county_count": 15,
+    "missing_candidates": [],
+    "unexpected_candidates": [],
+    "reference": "https://apps.azsos.gov/election/files/hist/canvass1986ge.pdf",
+    "reference_snapshot": "data\\raw\\us-senate\\1986-transcription.csv",
+    "reference_sha256": "991e9fdb65ddfe0da547ee194e7220458818f9cebaf3fd8263af70e0730c370b",
+    "candidates": [
+      {
+        "candidate": "Richard Kimball",
+        "county_sum": 340965,
+        "official_statewide": 340965,
+        "normalized_statewide": 340965,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "John McCain",
+        "county_sum": 521850,
+        "official_statewide": 521850,
+        "normalized_statewide": 521850,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "Paul Rodriguez",
+        "county_sum": 60,
+        "official_statewide": 60,
+        "normalized_statewide": 60,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "Robert B. Winn",
+        "county_sum": 28,
+        "official_statewide": 28,
+        "normalized_statewide": 28,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "David Zilly",
+        "county_sum": 18,
+        "official_statewide": 18,
+        "normalized_statewide": 18,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      }
+    ],
+    "input_validation": {
+      "source_checksums_validated": true,
+      "canvass_candidate_count": 5,
+      "county_count": 15,
+      "xml_matches_final_canvass": null
+    }
+  },
+  {
+    "contest": "az-1988-us-senate",
+    "status": "verified",
+    "coverage": "county",
+    "county_count": 15,
+    "complete_county_count": 15,
+    "expected_county_count": 15,
+    "missing_candidates": [],
+    "unexpected_candidates": [],
+    "reference": "https://www.rightdatausa.com/election_results?y=1988&t=S1&r=N&s=AZ&d=all&WhichMap=vs",
+    "reference_snapshot": "data\\raw\\us-senate\\1988-transcription.csv",
+    "reference_sha256": "f9c5ad575d28ca61c9958deb8d967ed3cdf27d61250cf48c6c27e2cad7b49fa8",
+    "candidates": [
+      {
+        "candidate": "Dennis DeConcini",
+        "county_sum": 660403,
+        "official_statewide": 660403,
+        "normalized_statewide": 660403,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "Keith DeGreen",
+        "county_sum": 478060,
+        "official_statewide": 478060,
+        "normalized_statewide": 478060,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "Rick Tompkins",
+        "county_sum": 20849,
+        "official_statewide": 20849,
+        "normalized_statewide": 20849,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "Ed Finkelstein",
+        "county_sum": 5195,
+        "official_statewide": 5195,
+        "normalized_statewide": 5195,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "Unattributed write-ins",
+        "county_sum": 32,
+        "official_statewide": 32,
+        "normalized_statewide": 32,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      }
+    ],
+    "input_validation": {
+      "source_checksums_validated": true,
+      "canvass_candidate_count": 5,
+      "county_count": 15,
+      "xml_matches_final_canvass": null
+    }
+  },
+  {
+    "contest": "az-1992-us-senate",
+    "status": "verified",
+    "coverage": "county",
+    "county_count": 15,
+    "complete_county_count": 15,
+    "expected_county_count": 15,
+    "missing_candidates": [],
+    "unexpected_candidates": [],
+    "reference": "https://apps.azsos.gov/election/files/hist/canvass1992ge.pdf",
+    "reference_snapshot": "data\\raw\\us-senate\\1992-transcription.csv",
+    "reference_sha256": "0b615680254a954739dde800287c7268eca113a239b92316f6f96c69906ea8b0",
+    "candidates": [
+      {
+        "candidate": "Claire Sargent",
+        "county_sum": 436321,
+        "official_statewide": 436321,
+        "normalized_statewide": 436321,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "John McCain",
+        "county_sum": 771395,
+        "official_statewide": 771395,
+        "normalized_statewide": 771395,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "Kiana Delamare",
+        "county_sum": 22613,
+        "official_statewide": 22613,
+        "normalized_statewide": 22613,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "Ed Finkelstein",
+        "county_sum": 6335,
+        "official_statewide": 6335,
+        "normalized_statewide": 6335,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "Evan Mecham",
+        "county_sum": 145361,
+        "official_statewide": 145361,
+        "normalized_statewide": 145361,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "Robert B. Winn",
+        "county_sum": 26,
+        "official_statewide": 26,
+        "normalized_statewide": 26,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      }
+    ],
+    "input_validation": {
+      "source_checksums_validated": true,
+      "canvass_candidate_count": 6,
+      "county_count": 15,
+      "xml_matches_final_canvass": null
+    }
+  },
+  {
     "contest": "az-1994-attorney-general",
     "status": "verified",
+    "coverage": "county",
     "county_count": 15,
     "complete_county_count": 15,
     "expected_county_count": 15,
@@ -38,6 +278,7 @@
   {
     "contest": "az-1994-governor",
     "status": "reported",
+    "coverage": "county",
     "county_count": 15,
     "complete_county_count": 15,
     "expected_county_count": 15,
@@ -160,8 +401,74 @@
     ]
   },
   {
+    "contest": "az-1994-us-senate",
+    "status": "verified",
+    "coverage": "county",
+    "county_count": 15,
+    "complete_county_count": 15,
+    "expected_county_count": 15,
+    "missing_candidates": [],
+    "unexpected_candidates": [],
+    "reference": "https://apps.azsos.gov/election/files/hist/canvass1994ge.pdf",
+    "reference_snapshot": "data\\raw\\us-senate\\1994-transcription.csv",
+    "reference_sha256": "ad7840e43667da61179a488587c0067e0fba15817886fa79354fef7e09685f3f",
+    "candidates": [
+      {
+        "candidate": "Sam Coppersmith",
+        "county_sum": 442510,
+        "official_statewide": 442510,
+        "normalized_statewide": 442510,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "Jon Kyl",
+        "county_sum": 600999,
+        "official_statewide": 600999,
+        "normalized_statewide": 600999,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "Scott Grainger",
+        "county_sum": 75493,
+        "official_statewide": 75493,
+        "normalized_statewide": 75493,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "Mark Pope",
+        "county_sum": 58,
+        "official_statewide": 58,
+        "normalized_statewide": 58,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      }
+    ],
+    "input_validation": {
+      "source_checksums_validated": true,
+      "canvass_candidate_count": 4,
+      "county_count": 15,
+      "xml_matches_final_canvass": null
+    }
+  },
+  {
     "contest": "az-1998-attorney-general",
     "status": "verified",
+    "coverage": "county",
     "county_count": 15,
     "complete_county_count": 15,
     "expected_county_count": 15,
@@ -209,6 +516,7 @@
   {
     "contest": "az-1998-governor",
     "status": "verified",
+    "coverage": "county",
     "county_count": 15,
     "complete_county_count": 15,
     "expected_county_count": 15,
@@ -298,8 +606,150 @@
     ]
   },
   {
+    "contest": "az-1998-us-senate",
+    "status": "verified",
+    "coverage": "county",
+    "county_count": 15,
+    "complete_county_count": 15,
+    "expected_county_count": 15,
+    "missing_candidates": [],
+    "unexpected_candidates": [],
+    "reference": "https://apps.azsos.gov/election/1998/General/Canvass1998GE.pdf",
+    "reference_snapshot": "data\\raw\\us-senate\\1998-transcription.csv",
+    "reference_sha256": "db788906fb5db632ddc1a265d2379d7e79bd529b723302d9e1589a2d9832a652",
+    "candidates": [
+      {
+        "candidate": "Ed Ranger",
+        "county_sum": 275224,
+        "official_statewide": 275224,
+        "normalized_statewide": 275224,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "Bill Reilly",
+        "county_sum": 187,
+        "official_statewide": 187,
+        "normalized_statewide": 187,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "John C. Zajac",
+        "county_sum": 23004,
+        "official_statewide": 23004,
+        "normalized_statewide": 23004,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "Bob Park",
+        "county_sum": 18288,
+        "official_statewide": 18288,
+        "normalized_statewide": 18288,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "John McCain",
+        "county_sum": 696577,
+        "official_statewide": 696577,
+        "normalized_statewide": 696577,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      }
+    ],
+    "input_validation": {
+      "source_checksums_validated": true,
+      "canvass_candidate_count": 5,
+      "county_count": 15,
+      "xml_matches_final_canvass": null
+    }
+  },
+  {
+    "contest": "az-2000-us-senate",
+    "status": "verified",
+    "coverage": "county",
+    "county_count": 15,
+    "complete_county_count": 15,
+    "expected_county_count": 15,
+    "missing_candidates": [],
+    "unexpected_candidates": [],
+    "reference": "https://apps.azsos.gov/election/2000/General/Canvass2000GE.pdf",
+    "reference_snapshot": "data\\raw\\us-senate\\2000-transcription.csv",
+    "reference_sha256": "b2e2b69b683ade01f86f40e308d2f059856ae748eb7d3188584aadef9801fc4a",
+    "candidates": [
+      {
+        "candidate": "Vance Hansen",
+        "county_sum": 108926,
+        "official_statewide": 108926,
+        "normalized_statewide": 108926,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "William Toel",
+        "county_sum": 109230,
+        "official_statewide": 109230,
+        "normalized_statewide": 109230,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "Barry J. Hess, II",
+        "county_sum": 70724,
+        "official_statewide": 70724,
+        "normalized_statewide": 70724,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "Jon Kyl",
+        "county_sum": 1108196,
+        "official_statewide": 1108196,
+        "normalized_statewide": 1108196,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      }
+    ],
+    "input_validation": {
+      "source_checksums_validated": true,
+      "canvass_candidate_count": 4,
+      "county_count": 15,
+      "xml_matches_final_canvass": null
+    }
+  },
+  {
     "contest": "az-2002-attorney-general",
     "status": "verified",
+    "coverage": "county",
     "county_count": 15,
     "complete_county_count": 15,
     "expected_county_count": 15,
@@ -347,6 +797,7 @@
   {
     "contest": "az-2002-governor",
     "status": "verified",
+    "coverage": "county",
     "county_count": 15,
     "complete_county_count": 15,
     "expected_county_count": 15,
@@ -469,8 +920,63 @@
     ]
   },
   {
+    "contest": "az-2004-us-senate",
+    "status": "verified",
+    "coverage": "county",
+    "county_count": 15,
+    "complete_county_count": 15,
+    "expected_county_count": 15,
+    "missing_candidates": [],
+    "unexpected_candidates": [],
+    "reference": "https://apps.azsos.gov/election/2004/General/Canvass2004General.pdf",
+    "reference_snapshot": "data\\raw\\us-senate\\2004-transcription.csv",
+    "reference_sha256": "bf72e42b1cec86e47cf215cecfd6846c48e62aa24373fd647656c19e3fb297a1",
+    "candidates": [
+      {
+        "candidate": "Stuart Starky",
+        "county_sum": 404507,
+        "official_statewide": 404507,
+        "normalized_statewide": 404507,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "Ernest Hancock",
+        "county_sum": 51798,
+        "official_statewide": 51798,
+        "normalized_statewide": 51798,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "John McCain",
+        "county_sum": 1505372,
+        "official_statewide": 1505372,
+        "normalized_statewide": 1505372,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      }
+    ],
+    "input_validation": {
+      "source_checksums_validated": true,
+      "canvass_candidate_count": 3,
+      "county_count": 15,
+      "xml_matches_final_canvass": null
+    }
+  },
+  {
     "contest": "az-2006-attorney-general",
     "status": "verified",
+    "coverage": "county",
     "county_count": 15,
     "complete_county_count": 15,
     "expected_county_count": 15,
@@ -507,6 +1013,7 @@
   {
     "contest": "az-2006-governor",
     "status": "verified",
+    "coverage": "county",
     "county_count": 15,
     "complete_county_count": 15,
     "expected_county_count": 15,
@@ -585,8 +1092,85 @@
     ]
   },
   {
+    "contest": "az-2006-us-senate",
+    "status": "verified",
+    "coverage": "county",
+    "county_count": 15,
+    "complete_county_count": 15,
+    "expected_county_count": 15,
+    "missing_candidates": [],
+    "unexpected_candidates": [],
+    "reference": "https://apps.azsos.gov/election/2006/General/Canvass2006GE.pdf",
+    "reference_snapshot": "data\\raw\\us-senate\\2006-transcription.csv",
+    "reference_sha256": "ed72c5885f952d5d966c6031dc8b18632961703f44cc5e097e0e4b3f92c2b772",
+    "candidates": [
+      {
+        "candidate": "Jim Pederson",
+        "county_sum": 664141,
+        "official_statewide": 664141,
+        "normalized_statewide": 664141,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "Richard Mack",
+        "county_sum": 48231,
+        "official_statewide": 48231,
+        "normalized_statewide": 48231,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "Jon Kyl",
+        "county_sum": 814398,
+        "official_statewide": 814398,
+        "normalized_statewide": 814398,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "Stephen Baker",
+        "county_sum": 7,
+        "official_statewide": 7,
+        "normalized_statewide": 7,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "Ray Caplette",
+        "county_sum": 5,
+        "official_statewide": 5,
+        "normalized_statewide": 5,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      }
+    ],
+    "input_validation": {
+      "source_checksums_validated": true,
+      "canvass_candidate_count": 5,
+      "county_count": 15,
+      "xml_matches_final_canvass": null
+    }
+  },
+  {
     "contest": "az-2010-attorney-general",
     "status": "verified",
+    "coverage": "county",
     "county_count": 15,
     "complete_county_count": 15,
     "expected_county_count": 15,
@@ -623,6 +1207,7 @@
   {
     "contest": "az-2010-governor",
     "status": "verified",
+    "coverage": "county",
     "county_count": 15,
     "complete_county_count": 15,
     "expected_county_count": 15,
@@ -712,8 +1297,205 @@
     ]
   },
   {
+    "contest": "az-2010-us-senate",
+    "status": "verified",
+    "coverage": "county",
+    "county_count": 15,
+    "complete_county_count": 15,
+    "expected_county_count": 15,
+    "missing_candidates": [],
+    "unexpected_candidates": [],
+    "reference": "https://apps.azsos.gov/election/2010/General/Canvass2010GE.pdf",
+    "reference_snapshot": "data\\raw\\us-senate\\2010-transcription.csv",
+    "reference_sha256": "32fd140b3967af5595971c17675d560a857ab13d5f0461ada37f8617ac5fce88",
+    "candidates": [
+      {
+        "candidate": "Rodney Glassman",
+        "county_sum": 592011,
+        "official_statewide": 592011,
+        "normalized_statewide": 592011,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "Jerry Joslyn",
+        "county_sum": 24603,
+        "official_statewide": 24603,
+        "normalized_statewide": 24603,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "David F. Nolan",
+        "county_sum": 80097,
+        "official_statewide": 80097,
+        "normalized_statewide": 80097,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "John McCain",
+        "county_sum": 1005615,
+        "official_statewide": 1005615,
+        "normalized_statewide": 1005615,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "Ray J. Caplette",
+        "county_sum": 7,
+        "official_statewide": 7,
+        "normalized_statewide": 7,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "Santos Chavez",
+        "county_sum": 39,
+        "official_statewide": 39,
+        "normalized_statewide": 39,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "Sydney Dudikoff",
+        "county_sum": 14,
+        "official_statewide": 14,
+        "normalized_statewide": 14,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "Loyd Ellis",
+        "county_sum": 160,
+        "official_statewide": 160,
+        "normalized_statewide": 160,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "Ian Gilyeat",
+        "county_sum": 5938,
+        "official_statewide": 5938,
+        "normalized_statewide": 5938,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      }
+    ],
+    "input_validation": {
+      "source_checksums_validated": true,
+      "canvass_candidate_count": 9,
+      "county_count": 15,
+      "xml_matches_final_canvass": null
+    }
+  },
+  {
+    "contest": "az-2012-us-senate",
+    "status": "verified",
+    "coverage": "county",
+    "county_count": 15,
+    "complete_county_count": 15,
+    "expected_county_count": 15,
+    "missing_candidates": [],
+    "unexpected_candidates": [],
+    "reference": "https://apps.azsos.gov/election/2012/General/Canvass2012GE.pdf",
+    "reference_snapshot": "data\\raw\\us-senate\\2012-transcription.csv",
+    "reference_sha256": "2dc91bf0cb3f60d45bca876169ecd90b3932207d801a6a6091c7edd76bcb95c8",
+    "candidates": [
+      {
+        "candidate": "Richard Carmona",
+        "county_sum": 1036542,
+        "official_statewide": 1036542,
+        "normalized_statewide": 1036542,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "Don Manspeaker",
+        "county_sum": 24,
+        "official_statewide": 24,
+        "normalized_statewide": 24,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "Steven Watts",
+        "county_sum": 290,
+        "official_statewide": 290,
+        "normalized_statewide": 290,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "Marc Victor",
+        "county_sum": 102109,
+        "official_statewide": 102109,
+        "normalized_statewide": 102109,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "Jeff Flake",
+        "county_sum": 1104457,
+        "official_statewide": 1104457,
+        "normalized_statewide": 1104457,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      }
+    ],
+    "input_validation": {
+      "source_checksums_validated": true,
+      "canvass_candidate_count": 5,
+      "county_count": 15,
+      "xml_matches_final_canvass": null
+    }
+  },
+  {
     "contest": "az-2014-attorney-general",
     "status": "verified",
+    "coverage": "county",
     "county_count": 15,
     "complete_county_count": 15,
     "expected_county_count": 15,
@@ -761,6 +1543,7 @@
   {
     "contest": "az-2014-governor",
     "status": "verified",
+    "coverage": "county",
     "county_count": 15,
     "complete_county_count": 15,
     "expected_county_count": 15,
@@ -885,13 +1668,14 @@
   {
     "contest": "az-2016-us-senate",
     "status": "verified",
+    "coverage": "county",
     "county_count": 15,
     "complete_county_count": 15,
     "expected_county_count": 15,
     "missing_candidates": [],
     "unexpected_candidates": [],
     "reference": "https://apps.azsos.gov/election/2016/General/Official%20Signed%20State%20Canvass.pdf",
-    "reference_snapshot": "data/raw/us-senate/2016-transcription.csv",
+    "reference_snapshot": "data\\raw\\us-senate\\2016-transcription.csv",
     "reference_sha256": "d7cf5ab9ca0cc034f1b221b7bb9f9cecc4c4d23dcc5e3097366bfac497ff49ee",
     "candidates": [
       {
@@ -1026,6 +1810,7 @@
   {
     "contest": "az-2018-attorney-general",
     "status": "verified",
+    "coverage": "county",
     "county_count": 15,
     "complete_county_count": 15,
     "expected_county_count": 15,
@@ -1073,6 +1858,7 @@
   {
     "contest": "az-2018-governor",
     "status": "verified",
+    "coverage": "county",
     "county_count": 15,
     "complete_county_count": 15,
     "expected_county_count": 15,
@@ -1680,13 +2466,14 @@
   {
     "contest": "az-2018-us-senate",
     "status": "verified",
+    "coverage": "county",
     "county_count": 15,
     "complete_county_count": 15,
     "expected_county_count": 15,
     "missing_candidates": [],
     "unexpected_candidates": [],
     "reference": "https://apps.azsos.gov/election/2018/2018_1203_signed_official_statewide_canvass.pdf",
-    "reference_snapshot": "data/raw/us-senate/2018-transcription.csv",
+    "reference_snapshot": "data\\raw\\us-senate\\2018-transcription.csv",
     "reference_sha256": "6d3efd473bfbbf62205733c6d77ffcb35c35c6a4b16b78d33010f7370631dde2",
     "candidates": [
       {
@@ -1810,13 +2597,14 @@
   {
     "contest": "az-2020-us-senate-special",
     "status": "verified",
+    "coverage": "county",
     "county_count": 15,
     "complete_county_count": 15,
     "expected_county_count": 15,
     "missing_candidates": [],
     "unexpected_candidates": [],
     "reference": "https://apps.azsos.gov/election/2020/2020_general_state_canvass.pdf",
-    "reference_snapshot": "data/raw/us-senate/2020-transcription.csv",
+    "reference_snapshot": "data\\raw\\us-senate\\2020-transcription.csv",
     "reference_sha256": "68494eb43ffac33b3f8d2ffaa100fab085d64d143eab01dea04eb7dfe05015a7",
     "candidates": [
       {
@@ -2039,6 +2827,7 @@
   {
     "contest": "az-2022-attorney-general",
     "status": "verified",
+    "coverage": "county",
     "county_count": 15,
     "complete_county_count": 15,
     "expected_county_count": 15,
@@ -2086,6 +2875,7 @@
   {
     "contest": "az-2022-governor",
     "status": "verified",
+    "coverage": "county",
     "county_count": 15,
     "complete_county_count": 15,
     "expected_county_count": 15,
@@ -2199,13 +2989,14 @@
   {
     "contest": "az-2022-us-senate",
     "status": "verified",
+    "coverage": "county",
     "county_count": 15,
     "complete_county_count": 15,
     "expected_county_count": 15,
     "missing_candidates": [],
     "unexpected_candidates": [],
     "reference": "https://apps.azsos.gov/election/2022/General/canvass/2022dec05_general_election_canvass_web.pdf",
-    "reference_snapshot": "data/raw/us-senate/2022-transcription.csv",
+    "reference_snapshot": "data\\raw\\us-senate\\2022-transcription.csv",
     "reference_sha256": "9b79e3804007bd9c4c572bd591b90c4c20dfb34fe4c0f2cdf0602c6217f25fd2",
     "candidates": [
       {
@@ -2340,13 +3131,14 @@
   {
     "contest": "az-2024-us-senate",
     "status": "verified",
+    "coverage": "county",
     "county_count": 15,
     "complete_county_count": 15,
     "expected_county_count": 15,
     "missing_candidates": [],
     "unexpected_candidates": [],
     "reference": "https://apps.azsos.gov/election/2024/ge/canvass/20241105_GeneralCanvass_Signed.pdf",
-    "reference_snapshot": "data/raw/us-senate/2024-transcription.csv",
+    "reference_snapshot": "data\\raw\\us-senate\\2024-transcription.csv",
     "reference_sha256": "8ea7683bff3b69909212c79765a3d525b09fa4620dc28eaa519373939cfa82e5",
     "candidates": [
       {

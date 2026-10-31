@@ -15,7 +15,7 @@ from scripts.senate_sources import candidate_rows, verify_provenance
 
 RAW = ROOT / "data/raw/us-senate"
 OUT = ROOT / "data/processed/us-senate"
-DATES = {2016: "2016-11-08", 2018: "2018-11-06", 2020: "2020-11-03", 2022: "2022-11-08", 2024: "2024-11-05"}
+DATES = {1986: "1986-11-04", 1988: "1988-11-08", 1992: "1992-11-03", 1994: "1994-11-08", 1998: "1998-11-03", 2000: "2000-11-07", 2004: "2004-11-02", 2006: "2006-11-07", 2010: "2010-11-02", 2012: "2012-11-06", 2016: "2016-11-08", 2018: "2018-11-06", 2020: "2020-11-03", 2022: "2022-11-08", 2024: "2024-11-05"}
 
 
 def xml_candidates(path, reference):
@@ -115,13 +115,17 @@ def normalize(raw: Path) -> Path:
         "source_url": provenance["source_url"],
         "source_sha256": hashlib.sha256(raw.read_bytes()).hexdigest(),
         "source_notes": provenance["source_notes"],
-        "reference_path": str(raw.relative_to(ROOT)),
-        "provenance_path": str(provenance_path.relative_to(ROOT)),
+        "reference_path": raw.relative_to(ROOT).as_posix(),
+        "provenance_path": provenance_path.relative_to(ROOT).as_posix(),
         "additional_sources": provenance.get("additional_sources", []),
         "input_validation": {"source_checksums_validated": True, "canvass_candidate_count": len(candidates), "county_count": 15, "xml_matches_final_canvass": True if year == 2020 else None},
         "candidates": candidates,
         "turnout": turnout,
     }
+    if all(v is None for c in candidates for v in c["county_votes"].values()):
+        data["coverage"] = "statewide_only"
+    if provenance.get("status_ceiling"):
+        data["status_ceiling"] = provenance["status_ceiling"]
     OUT.mkdir(parents=True, exist_ok=True)
     out = OUT / f"{expected_id}.json"
     out.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n")

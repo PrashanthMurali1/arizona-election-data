@@ -119,8 +119,27 @@ def reconcile(data, reference_path=None):
         and not d["county_reference_mismatches"] and d["candidate_metadata_matches_reference"]
         for d in discrepancies
     )
+    status = "verified" if verified else "reported" if reported else "incomplete"
+    # A contest sourced from open data rather than the official canvass never claims "verified".
+    if status == "verified" and data.get("status_ceiling") == "reported":
+        status = "reported"
+    # A source that publishes only statewide totals (no county table) is admitted, still
+    # incomplete, when every candidate's printed statewide total and metadata match.
+    statewide_only = (
+        data.get("coverage") == "statewide_only"
+        and bool(ids)
+        and not missing_candidates
+        and not unexpected_candidates
+        and all(
+            len(d["missing_counties"]) == len(expected)
+            and d["statewide_matches_reference"]
+            and d["candidate_metadata_matches_reference"]
+            for d in discrepancies
+        )
+    )
     return dict(
-        status="verified" if verified else "reported" if reported else "incomplete",
+        status=status,
+        coverage="statewide_only" if statewide_only else "county",
         county_count=len(represented),
         complete_county_count=len(complete_counties) if ids else 0,
         expected_county_count=len(expected),
@@ -284,6 +303,7 @@ def import_all(year=None, office=None):
                 "AEL": "Americans Elect",
                 "NONE": "No affiliation",
                 "RPA": "Reform Party",
+                "NAP": "New Alliance Party",
                 "RTO": "RTO (as reported)",
                 "HUM": "HUM (as reported)",
                 "ATP": "ATP (as reported)",
@@ -383,6 +403,7 @@ def import_all(year=None, office=None):
     print(json.dumps(reports, indent=2))
     if any(
         r["status"] not in {"verified", "reported"}
+        and r.get("coverage") != "statewide_only"
         and (
             r["candidates"]
             or r["contest"] in {"az-2022-governor", "az-2022-attorney-general"}

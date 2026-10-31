@@ -1,0 +1,229 @@
+{
+  "year": 2004,
+  "date": "2004-11-02",
+  "event_id": "az-2004-general",
+  "contest_id": "az-2004-us-senate",
+  "contest_kind": "regular",
+  "office_id": "us-senate",
+  "office": "U.S. Senate",
+  "source_id": "canvass-2004-us-senate",
+  "source_title": "Arizona Secretary of State — 2004 official U.S. Senate canvass",
+  "source_url": "https://apps.azsos.gov/election/2004/General/Canvass2004General.pdf",
+  "source_sha256": "bf72e42b1cec86e47cf215cecfd6846c48e62aa24373fd647656c19e3fb297a1",
+  "source_notes": "2004 regular Arizona U.S. Senate election. County cells and statewide totals transcribed from page 3 of the official canvass issued by the Arizona Secretary of State; every candidate's 15 county cells sum to the printed statewide TOTAL. Cells were read from the document's text layer and checked against the page images. Named write-ins are included. The canvass PDF was supplied by the project maintainer from the Secretary of State and is retained under data/raw/us-senate/pdfs with its SHA-256 recorded in the snapshots.",
+  "reference_path": "data/raw/us-senate/2004-transcription.csv",
+  "provenance_path": "data/raw/us-senate/2004-provenance.json",
+  "additional_sources": [
+    {
+      "id": "openelections-us-senate-2000-2012",
+      "title": "OpenElections Arizona — U.S. Senate county results, 2000–2012 (comparison)",
+      "url": "https://github.com/openelections/openelections-data-az/tree/bf14331521f62f74cb17848ab11ca3dfd27f4f82",
+      "sha256": "e352e20ffa636b7a3353a6c823929a89ccbbf1adaf6366be2e93a6747d33cdcc",
+      "notes": "Independent open-data county results compiled from the official canvass; used only to cross-check the transcribed cells. See data/processed/us-senate/validation/openelections-comparison.json."
+    },
+    {
+      "id": "fec-federal-elections-2004",
+      "title": "Federal Election Commission — Federal Elections 2004: Election Results for the U.S. President, the U.S. Senate and the U.S. House of Representatives",
+      "url": "https://www.fec.gov/resources/cms-content/documents/federalelections2004.pdf",
+      "sha256": "e0d1ca80bc88d1b3fb3167d0ac653d9428675f39ce51f08f1538e9428ef34530",
+      "notes": "Statewide U.S. Senate totals for Arizona (McCain 1,505,372; Starky 404,507; Hancock 51,798) agree with the Secretary of State canvass."
+    }
+  ],
+  "input_validation": {
+    "source_checksums_validated": true,
+    "canvass_candidate_count": 3,
+    "county_count": 15,
+    "xml_matches_final_canvass": null
+  },
+  "candidates": [
+    {
+      "id": "senate-2004-0",
+      "name": "Stuart Starky",
+      "party": "DEM",
+      "write_in": false,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 9588,
+        "04003": 9555,
+        "04005": 13520,
+        "04007": 4291,
+        "04009": 2000,
+        "04011": 746,
+        "04012": 965,
+        "04013": 216124,
+        "04015": 10423,
+        "04017": 7434,
+        "04019": 89483,
+        "04021": 13595,
+        "04023": 3583,
+        "04025": 14852,
+        "04027": 8348
+      },
+      "statewide": 404507
+    },
+    {
+      "id": "senate-2004-1",
+      "name": "Ernest Hancock",
+      "party": "LBT",
+      "write_in": false,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 905,
+        "04003": 1394,
+        "04005": 1504,
+        "04007": 632,
+        "04009": 322,
+        "04011": 68,
+        "04012": 156,
+        "04013": 29769,
+        "04015": 1686,
+        "04017": 1222,
+        "04019": 7980,
+        "04021": 1692,
+        "04023": 252,
+        "04025": 3160,
+        "04027": 1056
+      },
+      "statewide": 51798
+    },
+    {
+      "id": "senate-2004-2",
+      "name": "John McCain",
+      "party": "REP",
+      "write_in": false,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 12923,
+        "04003": 32879,
+        "04005": 35849,
+        "04007": 15551,
+        "04009": 8171,
+        "04011": 2166,
+        "04012": 3826,
+        "04013": 917527,
+        "04015": 44402,
+        "04017": 23091,
+        "04019": 258010,
+        "04021": 48094,
+        "04023": 7502,
+        "04025": 67312,
+        "04027": 28069
+      },
+      "statewide": 1505372
+    }
+  ],
+  "turnout": {
+    "04001": {
+      "ballots_cast": 24335,
+      "registered_voters": 39789,
+      "percent": 61.16,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-2004-us-senate"
+    },
+    "04003": {
+      "ballots_cast": 44852,
+      "registered_voters": 59531,
+      "percent": 75.34,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-2004-us-senate"
+    },
+    "04005": {
+      "ballots_cast": 52541,
+      "registered_voters": 71935,
+      "percent": 73.04,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-2004-us-senate"
+    },
+    "04007": {
+      "ballots_cast": 21158,
+      "registered_voters": 26768,
+      "percent": 79.04,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-2004-us-senate"
+    },
+    "04009": {
+      "ballots_cast": 10779,
+      "registered_voters": 14782,
+      "percent": 72.92,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-2004-us-senate"
+    },
+    "04011": {
+      "ballots_cast": 3114,
+      "registered_voters": 4519,
+      "percent": 68.91,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-2004-us-senate"
+    },
+    "04012": {
+      "ballots_cast": 5105,
+      "registered_voters": 7235,
+      "percent": 70.56,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-2004-us-senate"
+    },
+    "04013": {
+      "ballots_cast": 1211963,
+      "registered_voters": 1552421,
+      "percent": 78.07,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-2004-us-senate"
+    },
+    "04015": {
+      "ballots_cast": 58353,
+      "registered_voters": 95034,
+      "percent": 61.4,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-2004-us-senate"
+    },
+    "04017": {
+      "ballots_cast": 32609,
+      "registered_voters": 57738,
+      "percent": 56.48,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-2004-us-senate"
+    },
+    "04019": {
+      "ballots_cast": 369321,
+      "registered_voters": 448050,
+      "percent": 82.43,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-2004-us-senate"
+    },
+    "04021": {
+      "ballots_cast": 65154,
+      "registered_voters": 91093,
+      "percent": 71.52,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-2004-us-senate"
+    },
+    "04023": {
+      "ballots_cast": 11810,
+      "registered_voters": 20791,
+      "percent": 56.8,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-2004-us-senate"
+    },
+    "04025": {
+      "ballots_cast": 88076,
+      "registered_voters": 99842,
+      "percent": 88.22,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-2004-us-senate"
+    },
+    "04027": {
+      "ballots_cast": 38899,
+      "registered_voters": 53803,
+      "percent": 72.3,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-2004-us-senate"
+    },
+    "04": {
+      "ballots_cast": 2038069,
+      "registered_voters": 2643331,
+      "percent": 77.1,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-2004-us-senate"
+    }
+  }
+}

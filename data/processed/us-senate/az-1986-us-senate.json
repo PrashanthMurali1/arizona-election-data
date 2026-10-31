@@ -1,0 +1,264 @@
+{
+  "year": 1986,
+  "date": "1986-11-04",
+  "event_id": "az-1986-general",
+  "contest_id": "az-1986-us-senate",
+  "contest_kind": "regular",
+  "office_id": "us-senate",
+  "office": "U.S. Senate",
+  "source_id": "canvass-1986-us-senate",
+  "source_title": "Arizona Secretary of State — 1986 official U.S. Senate canvass",
+  "source_url": "https://apps.azsos.gov/election/files/hist/canvass1986ge.pdf",
+  "source_sha256": "991e9fdb65ddfe0da547ee194e7220458818f9cebaf3fd8263af70e0730c370b",
+  "source_notes": "1986 regular Arizona U.S. Senate election. County cells and statewide totals transcribed from page 1 of the official canvass issued by the Arizona Secretary of State; every candidate's 15 county cells sum to the printed statewide TOTAL. Cells were read from the printed page images. Named write-ins are included. The canvass PDF was supplied by the project maintainer from the Secretary of State and is retained under data/raw/us-senate/pdfs with its SHA-256 recorded in the snapshots. The Clerk of the U.S. House's Statistics of the Congressional Election of 1986 (Corrected to May 29, 1987) carries the same statewide candidate totals (https://clerk.house.gov/member_info/electionInfo/1986election.pdf); it has no county breakdown.",
+  "reference_path": "data/raw/us-senate/1986-transcription.csv",
+  "provenance_path": "data/raw/us-senate/1986-provenance.json",
+  "additional_sources": [],
+  "input_validation": {
+    "source_checksums_validated": true,
+    "canvass_candidate_count": 5,
+    "county_count": 15,
+    "xml_matches_final_canvass": null
+  },
+  "candidates": [
+    {
+      "id": "senate-1986-0",
+      "name": "Richard Kimball",
+      "party": "DEM",
+      "write_in": false,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 6486,
+        "04003": 9711,
+        "04005": 10702,
+        "04007": 6799,
+        "04009": 2903,
+        "04011": 1619,
+        "04012": 1398,
+        "04013": 168182,
+        "04015": 7809,
+        "04017": 6956,
+        "04019": 85057,
+        "04021": 11975,
+        "04023": 2755,
+        "04025": 11745,
+        "04027": 6868
+      },
+      "statewide": 340965
+    },
+    {
+      "id": "senate-1986-1",
+      "name": "John McCain",
+      "party": "REP",
+      "write_in": false,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 4682,
+        "04003": 12199,
+        "04005": 12774,
+        "04007": 6960,
+        "04009": 4002,
+        "04011": 1348,
+        "04012": 2049,
+        "04013": 324826,
+        "04015": 13431,
+        "04017": 9520,
+        "04019": 85652,
+        "04021": 12396,
+        "04023": 2389,
+        "04025": 20042,
+        "04027": 9580
+      },
+      "statewide": 521850
+    },
+    {
+      "id": "senate-1986-2",
+      "name": "Paul Rodriguez",
+      "party": "NONE",
+      "write_in": true,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 21,
+        "04003": 0,
+        "04005": 2,
+        "04007": 4,
+        "04009": 4,
+        "04011": 0,
+        "04012": 0,
+        "04013": 21,
+        "04015": 2,
+        "04017": 0,
+        "04019": 1,
+        "04021": 0,
+        "04023": 5,
+        "04025": 0,
+        "04027": 0
+      },
+      "statewide": 60
+    },
+    {
+      "id": "senate-1986-3",
+      "name": "Robert B. Winn",
+      "party": "NONE",
+      "write_in": true,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 12,
+        "04003": 0,
+        "04005": 1,
+        "04007": 1,
+        "04009": 0,
+        "04011": 0,
+        "04012": 0,
+        "04013": 7,
+        "04015": 2,
+        "04017": 0,
+        "04019": 0,
+        "04021": 0,
+        "04023": 5,
+        "04025": 0,
+        "04027": 0
+      },
+      "statewide": 28
+    },
+    {
+      "id": "senate-1986-4",
+      "name": "David Zilly",
+      "party": "NONE",
+      "write_in": true,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 7,
+        "04003": 0,
+        "04005": 2,
+        "04007": 0,
+        "04009": 0,
+        "04011": 0,
+        "04012": 0,
+        "04013": 6,
+        "04015": 0,
+        "04017": 0,
+        "04019": 0,
+        "04021": 0,
+        "04023": 3,
+        "04025": 0,
+        "04027": 0
+      },
+      "statewide": 18
+    }
+  ],
+  "turnout": {
+    "04001": {
+      "ballots_cast": 12142,
+      "registered_voters": 23653,
+      "percent": 51.33,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1986-us-senate"
+    },
+    "04003": {
+      "ballots_cast": 22808,
+      "registered_voters": 41830,
+      "percent": 54.53,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1986-us-senate"
+    },
+    "04005": {
+      "ballots_cast": 24504,
+      "registered_voters": 45624,
+      "percent": 53.71,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1986-us-senate"
+    },
+    "04007": {
+      "ballots_cast": 14423,
+      "registered_voters": 22521,
+      "percent": 64.04,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1986-us-senate"
+    },
+    "04009": {
+      "ballots_cast": 7185,
+      "registered_voters": 11683,
+      "percent": 61.5,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1986-us-senate"
+    },
+    "04011": {
+      "ballots_cast": 3072,
+      "registered_voters": 5523,
+      "percent": 55.62,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1986-us-senate"
+    },
+    "04012": {
+      "ballots_cast": 3618,
+      "registered_voters": 6765,
+      "percent": 53.48,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1986-us-senate"
+    },
+    "04013": {
+      "ballots_cast": 506106,
+      "registered_voters": 899405,
+      "percent": 56.27,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1986-us-senate"
+    },
+    "04015": {
+      "ballots_cast": 22296,
+      "registered_voters": 42206,
+      "percent": 52.83,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1986-us-senate"
+    },
+    "04017": {
+      "ballots_cast": 17135,
+      "registered_voters": 31334,
+      "percent": 54.69,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1986-us-senate"
+    },
+    "04019": {
+      "ballots_cast": 175363,
+      "registered_voters": 329257,
+      "percent": 53.26,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1986-us-senate"
+    },
+    "04021": {
+      "ballots_cast": 25520,
+      "registered_voters": 45102,
+      "percent": 56.58,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1986-us-senate"
+    },
+    "04023": {
+      "ballots_cast": 5570,
+      "registered_voters": 9672,
+      "percent": 57.59,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1986-us-senate"
+    },
+    "04025": {
+      "ballots_cast": 32855,
+      "registered_voters": 50236,
+      "percent": 65.4,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1986-us-senate"
+    },
+    "04027": {
+      "ballots_cast": 17071,
+      "registered_voters": 33123,
+      "percent": 51.54,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1986-us-senate"
+    },
+    "04": {
+      "ballots_cast": 889668,
+      "registered_voters": 1597934,
+      "percent": 55.68,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1986-us-senate"
+    }
+  }
+}

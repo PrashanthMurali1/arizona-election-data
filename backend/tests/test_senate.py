@@ -18,12 +18,26 @@ from scripts.normalize_us_senate import normalize
 from scripts.senate_sources import verify_provenance
 
 EXPECTED = {
+    1986: (5, 3, 862921, "John McCain", 521850),
+    1992: (6, 1, 1382051, "John McCain", 771395),
+    1994: (4, 1, 1119060, "Jon Kyl", 600999),
+    1998: (5, 1, 1013280, "John McCain", 696577),
+    2000: (4, 0, 1397076, "Jon Kyl", 1108196),
+    1988: (5, 1, 1164539, "Dennis DeConcini", 660403),
+    2004: (3, 0, 1961677, "John McCain", 1505372),
+    2006: (5, 2, 1526782, "Jon Kyl", 814398),
+    2010: (9, 5, 1708484, "John McCain", 1005615),
+    2012: (5, 2, 2243422, "Jeff Flake", 1104457),
     2016: (11, 8, 2530730, "John McCain", 1359267),
     2018: (10, 7, 2384308, "Kyrsten Sinema", 1191100),
     2020: (19, 17, 3355317, "Mark Kelly", 1716467),
     2022: (11, 8, 2572294, "Mark Kelly", 1322027),
     2024: (10, 7, 3348814, "Ruben Gallego", 1676335),
 }
+
+
+
+ALL_YEARS = list(EXPECTED)
 
 
 def contest_id(year):
@@ -63,9 +77,16 @@ def test_senate_complete_official_results(client, year):
     assert sum(c["turnout"]["registered_voters"] for c in rows) == state["turnout"]["registered_voters"]
 
 
+def test_senate_1988_county_cells_from_secondary_source(client):
+    graham = {c["name"]: c["votes"] for c in client.get("/api/elections/az-1988-us-senate/counties/04009").json()["candidates"]}
+    assert (graham["Dennis DeConcini"], graham["Keith DeGreen"]) == (5603, 3084)
+    provenance = json.loads((ROOT / "data/raw/us-senate/1988-provenance.json").read_text())
+    assert provenance["source_id"] == "rightdatausa-1988-us-senate"  # secondary county source is named
+
+
 def test_senate_calendar_shared_events_and_absent_2026(client):
     catalog = client.get("/api/elections").json()
-    assert {e["id"] for e in catalog if e["office_id"] == "us-senate"} == {contest_id(y) for y in EXPECTED}
+    assert {e["id"] for e in catalog if e["office_id"] == "us-senate"} == {contest_id(y) for y in ALL_YEARS}
     for id in ["az-2014-us-senate", "az-2026-us-senate"]:
         assert client.get(f"/api/elections/{id}").status_code == 404
     with SessionLocal() as s:
@@ -81,13 +102,15 @@ def test_senate_calendar_shared_events_and_absent_2026(client):
 
 
 def test_senate_sources_normalization_and_missing_zero(client):
-    for year in EXPECTED:
+    for year in ALL_YEARS:
         provenance = verify_provenance(ROOT / f"data/raw/us-senate/{year}-provenance.json")
         path = ROOT / f"data/processed/us-senate/{contest_id(year)}.json"
         before = path.read_bytes()
         assert normalize(ROOT / f"data/raw/us-senate/{year}-transcription.csv").read_bytes() == before
         data = json.loads(before)
-        assert reconcile(data, ROOT / data["reference_path"])["status"] == "verified"
+        expected = "verified"
+        status = reconcile(data, ROOT / data["reference_path"])["status"]
+        assert status == expected
         assert len(data["candidates"]) == provenance["candidate_count"]
     data = json.loads((ROOT / "data/processed/us-senate/az-2024-us-senate.json").read_text())
     missing = copy.deepcopy(data)

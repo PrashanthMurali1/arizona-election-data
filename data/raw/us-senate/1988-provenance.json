@@ -1,0 +1,46 @@
+{
+  "year": 1988,
+  "election_date": "1988-11-08",
+  "contest_id": "az-1988-us-senate",
+  "contest_kind": "regular",
+  "candidate_count": 5,
+  "source_id": "rightdatausa-1988-us-senate",
+  "source_title": "RightDataUSA — 1988 Senatorial Election Results for Arizona (county results)",
+  "source_url": "https://www.rightdatausa.com/election_results?y=1988&t=S1&r=N&s=AZ&d=all&WhichMap=vs",
+  "reported_at": "1989-01-13",
+  "report_time_precision": "date",
+  "retrieved_on": "2026-11-01",
+  "retrieval_precision": "date",
+  "canvass_page": 3,
+  "source_notes": "1988 regular Arizona U.S. Senate election. The Secretary of State canvass scan is too degraded to read every county cell, so county results come from RightDataUSA's compilation (a secondary source, supplied as a saved copy of its page). Each candidate's 15 county cells sum exactly to the official statewide total printed on page 3 of the Secretary of State canvass, and every legible scan cell agrees, so the contest is shown as verified; the county source is secondary and is named as such. Election-wide registration and ballots cast are the official figures from page 1 of the canvass (they sum to the printed statewide totals); county turnout percentages are computed from them because the printed percentages are illegible. The write-in total is one aggregate row.",
+  "additional_sources": [
+    {
+      "id": "canvass-1988-us-senate",
+      "title": "Arizona Secretary of State — 1988 official canvass (statewide totals and turnout)",
+      "url": "https://apps.azsos.gov/election/files/hist/canvass1988ge.pdf",
+      "sha256": "182d5f0c824f9ffa2b31a248e1160bb703f0aba2719ea8c3276e072b297e2fc7",
+      "notes": "Official statewide candidate totals (page 3) and election-wide registration and ballots cast (page 1)."
+    }
+  ],
+  "turnout_source_id": "canvass-1988-us-senate",
+  "turnout_path": "data/raw/us-senate/1988-turnout-transcription.csv",
+  "turnout_definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+  "snapshots": [
+    {
+      "path": "data/raw/us-senate/1988-transcription.csv",
+      "sha256": "f9c5ad575d28ca61c9958deb8d967ed3cdf27d61250cf48c6c27e2cad7b49fa8"
+    },
+    {
+      "path": "data/raw/us-senate/pdfs/canvass1988ge.pdf",
+      "sha256": "182d5f0c824f9ffa2b31a248e1160bb703f0aba2719ea8c3276e072b297e2fc7"
+    },
+    {
+      "path": "data/raw/us-senate/pdfs/rightdatausa-1988-arizona-senate.pdf",
+      "sha256": "94561f887a19cf38ce4c2cb707bd50028086b726684181cb6bfb809c997f9da7"
+    },
+    {
+      "path": "data/raw/us-senate/1988-turnout-transcription.csv",
+      "sha256": "de63c1a73055f20d3c96147e90d8fc33b5eb5a34244c6034e09c011a1fae4460"
+    }
+  ]
+}

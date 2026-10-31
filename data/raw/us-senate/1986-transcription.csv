@@ -1,0 +1,6 @@
+party,name,write_in,04001,04003,04005,04007,04009,04011,04012,04013,04015,04017,04019,04021,04023,04025,04027,official_statewide,category
+DEM,Richard Kimball,false,6486,9711,10702,6799,2903,1619,1398,168182,7809,6956,85057,11975,2755,11745,6868,340965,named_candidate
+REP,John McCain,false,4682,12199,12774,6960,4002,1348,2049,324826,13431,9520,85652,12396,2389,20042,9580,521850,named_candidate
+NONE,Paul Rodriguez,true,21,0,2,4,4,0,0,21,2,0,1,0,5,0,0,60,named_candidate
+NONE,Robert B. Winn,true,12,0,1,1,0,0,0,7,2,0,0,0,5,0,0,28,named_candidate
+NONE,David Zilly,true,7,0,2,0,0,0,0,6,0,0,0,0,3,0,0,18,named_candidate
