@@ -797,3 +797,27 @@ test("remounted data loads immediately if the initial SSE revision is unavailabl
     page.getByRole("status").filter({ hasText: "Checking for updates" }),
   ).toHaveCount(0);
 });
+
+for (const [id, office, tab] of [
+  ["az-2022-governor", "Governor", "State Elections"],
+  ["az-2022-attorney-general", "Attorney General", "State Elections"],
+  ["az-2024-us-senate", "U.S. Senate", "Federal Elections"],
+  ["az-2024-us-house", "U.S. House", "Federal Elections"],
+] as const) {
+  test(`${office} breadcrumb returns to that office's election list`, async ({
+    page,
+  }) => {
+    await page.goto(`/elections/${id}`);
+    await page
+      .locator(".breadcrumbs")
+      .getByRole("link", { name: office, exact: true })
+      .click();
+    await expect(page.getByRole("tab", { name: tab })).toHaveAttribute(
+      "aria-selected",
+      "true",
+    );
+    await expect(
+      page.locator(".archive-heading").getByRole("heading", { name: office }),
+    ).toBeVisible();
+  });
+}
