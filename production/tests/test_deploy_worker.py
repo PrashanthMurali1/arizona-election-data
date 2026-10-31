@@ -161,6 +161,34 @@ def test_failed_commit_skip_and_explicit_retry(worker,monkeypatch,tmp_path):
     assert SHA not in worker.state['failed'] and worker.state['last_result']['status']=='noop'
 
 
+def stub_cycle(worker,monkeypatch,tmp_path):
+    for name in ('check_engine','drift_check'):
+        monkeypatch.setattr(worker,name,lambda:None)
+    monkeypatch.setattr(worker,'fetch',lambda:SHA)
+    monkeypatch.setattr(worker,'release',lambda sha:tmp_path)
+    monkeypatch.setattr(worker,'render',lambda path:config())
+    monkeypatch.setattr(worker,'entries',lambda sha:{})
+    monkeypatch.setattr(worker,'git',lambda *args:'data/processed/1994.json')
+
+
+def test_data_change_requires_data_release_acknowledgement(worker,monkeypatch,tmp_path):
+    stub_cycle(worker,monkeypatch,tmp_path)
+    with pytest.raises(d.Failure) as raised:
+        worker.cycle()
+    assert raised.value.reason=='data_release_required'
+    worker.acknowledge_data_release(SHA)
+    worker.cycle()
+    assert worker.state['last_result']['status']=='noop'
+
+
+def test_data_release_acknowledgement_is_commit_specific(worker,monkeypatch,tmp_path):
+    stub_cycle(worker,monkeypatch,tmp_path)
+    worker.acknowledge_data_release('c'*40)
+    with pytest.raises(d.Failure) as raised:
+        worker.cycle()
+    assert raised.value.reason=='data_release_required'
+
+
 def test_dirty_checkout_is_never_reset(worker,monkeypatch):
     worker.repo.mkdir()
     calls=[]
