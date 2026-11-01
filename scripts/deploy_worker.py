@@ -184,6 +184,56 @@ def migration_changed(paths):
     return any(p.startswith('backend/alembic/') or p in {'backend/alembic.ini','production/manage_db.py'} for p in paths)
 
 
+DATA_DESCRIPTOR = 'data/data-release.json'
+DATA_DERIVED = {'data/processed/reconciliation.json', 'data/processed/us-house/reconciliation.json',
+                'data/processed/us-house/elections.json', 'data/processed/2018/vest-comparison.json'}
+
+
+def substantive_data(path):
+    return path.startswith('data/') and path != DATA_DESCRIPTOR and path not in DATA_DERIVED
+
+
+def data_fingerprint(entries):
+    return digest([(p, blob) for p, blob in sorted(entries.items()) if substantive_data(p)])
+
+
+def data_offices(paths):
+    offices = set()
+    for path in paths:
+        if not substantive_data(path):
+            continue
+        if path.startswith(('data/raw/us-senate/', 'data/processed/us-senate/')):
+            offices.add('us-senate')
+            if path.startswith('data/raw/us-senate/'):
+                offices.add('us-house')  # House also consumes shared statewide canvasses.
+        elif path.startswith(('data/raw/us-house/', 'data/processed/us-house/')):
+            offices.add('us-house')
+        elif path.startswith(('data/raw/attorney-general/', 'data/processed/attorney-general/')):
+            offices.add('attorney-general')
+        elif path.startswith('data/raw/historical-statewide/'):
+            offices.update(('governor', 'attorney-general'))
+        elif (re.fullmatch(r'data/processed/[0-9]{4}\.json', path) or
+              re.fullmatch(r'data/raw/[0-9]{4}-(governor|turnout)-transcription\.csv', path) or
+              path.startswith(('data/raw/2018/', 'data/raw/governor-historical/', 'data/processed/governor-historical/'))):
+            offices.add('governor')
+        else:
+            raise Failure('data_path_unmapped', 'preflight')
+    return sorted(offices)
+
+
+def data_descriptor(release):
+    try:
+        value = read_json(release / DATA_DESCRIPTOR)
+        version, summary = value['version'], value['summary']
+        if (type(version) is not int or not 1 <= version <= 2147483647 or
+                not isinstance(summary, str) or not summary.strip() or len(summary) > 200 or
+                any(c in summary for c in '\n\r\v\f\x1c\x1d\x1e\x85\u2028\u2029')):
+            raise ValueError()
+        return value
+    except (OSError, ValueError, KeyError, TypeError):
+        raise Failure('data_version_invalid', 'preflight') from None
+
+
 def runtime_identity(container):
     return digest({'config': {k:container['Config'].get(k) for k in ('Cmd','Entrypoint','Env','User')},
                    'mounts': sorted(container.get('Mounts', []), key=lambda m:m['Destination']),
@@ -333,9 +383,16 @@ class Worker:
         return path
 
     def entries(self, sha):
-        rows = self.git('ls-tree', '-r', sha).splitlines()
-        return {line.split('\t', 1)[1]: line.split('\t', 1)[0].split()[2]
-                for line in rows if line.startswith('100')}
+        rows = self.git('ls-tree', '-r', '-z', sha).split('\0')
+        entries = {}
+        for line in filter(None, rows):
+            metadata, path = line.split('\t', 1)
+            mode, kind, blob = metadata.split()
+            if path.startswith('data/') and mode not in {'100644', '100755'}:
+                raise Failure('data_path_unmapped', 'preflight')
+            if kind == 'blob':
+                entries[path] = blob
+        return entries
 
     def render(self, release):
         self.phase = 'render'
@@ -546,6 +603,83 @@ class Worker:
         if not path.is_file():
             raise Failure('backup_failed', 'backup')
         return path
+
+    def data_database_state(self):
+        # Read-only, no candidate imports, and no table creation during inspection.
+        code = ("import sqlite3,json;from contextlib import closing;"
+                "c=sqlite3.connect('file:/app/backend/local/elections.db?mode=ro',uri=True);"
+                "c.row_factory=sqlite3.Row;"
+                "v=c.execute('PRAGMA user_version').fetchone()[0];"
+                "tables={r[0] for r in c.execute(\"select name from sqlite_master where type='table'\")};"
+                "r=c.execute('select * from data_release_history where version=?',(v,)).fetchone() if 'data_release_history' in tables else None;"
+                "p=c.execute('select * from data_release_pending limit 1').fetchone() if 'data_release_pending' in tables else None;"
+                "print(json.dumps(dict(version=v,release=dict(r) if r else None,pending=dict(p) if p else None)))")
+        return json.loads(self.compose(self.state['config'], 'exec', '-T', 'backend', 'python', '-c', code, phase='preflight'))
+
+    def apply_data_release(self, release, entries, paths):
+        descriptor = data_descriptor(release)
+        version, fingerprint = descriptor['version'], data_fingerprint(entries)
+        current = self.data_database_state()
+        applied, ledger, pending = current['version'], current.get('release'), current.get('pending')
+        if pending and (pending['version'] != version or pending['fingerprint'] != fingerprint):
+            raise Failure('data_import_incomplete', 'preflight')
+        if applied and not ledger:
+            raise Failure('data_import_incomplete', 'preflight')
+        if pending and version == applied:
+            raise Failure('data_import_incomplete', 'preflight')
+        if version < applied:
+            raise Failure('data_version_downgrade', 'preflight')
+        if version == applied:
+            if not ledger or ledger['fingerprint'] != fingerprint:
+                raise Failure('data_version_not_bumped', 'preflight')
+            return
+        anchor = ledger['commit_sha'] if ledger else self.state['manifest']['backend']['source_sha']
+        delta = self.git('diff', '--name-only', '--no-renames', '-z', anchor, self.sha).split('\0')
+        data_paths = [p for p in delta if substantive_data(p)]
+        # The old image supplies the schema and Python runtime for pre-build imports.
+        if migration_changed(paths) or any(p in {'backend/app/models.py','backend/app/database.py',
+                'backend/requirements.txt','production/backend.Dockerfile'} for p in paths):
+            raise Failure('data_schema_incompatible', 'preflight')
+        offices = data_offices(data_paths)  # Fail closed before touching production.
+        if not offices:
+            raise Failure('data_release_empty', 'preflight')
+        self.backup()
+        self.import_data_release(release, descriptor, fingerprint, offices)
+        self.event(logging.INFO, 'deployment_data_applied', phase='migrate', outcome='success', data_version=version)
+
+    def import_data_release(self, release, descriptor, fingerprint, offices):
+        name = PROJECT + '-data-import'
+        # A timed-out Docker CLI may leave its daemon-side process running.
+        existing = json.loads(self.docker('ps', '-a', '--filter', 'name=^/' + name + '$', '--format', 'json') or 'null')
+        if existing:
+            if existing.get('State') == 'running':
+                raise Deferred('deployment_in_progress', 'migrate')
+            self.docker('rm', name, phase='migrate')
+        copied = within(self.home / 'data-imports' / self.sha, self.home / 'data-imports')
+        if copied.exists():
+            shutil.rmtree(copied)  # Only this verified, private staging copy.
+        copied.mkdir(parents=True)
+        shutil.copytree(release / 'data', copied / 'data')
+        try:
+            self.compose(self.state['config'], 'run', '--rm', '--no-deps', '--name', name,
+                '--entrypoint', 'python',
+                '--volume', str(copied / 'data') + ':/app/data',
+                '--volume', str(copied / 'data/raw') + ':/app/data/raw',
+                '--env', 'PYTHONDONTWRITEBYTECODE=1',
+                '--volume', str(release / 'scripts') + ':/app/scripts:ro',
+                '--volume', str(release / 'production/apply_data_release.py') + ':/app/production/apply_data_release.py:ro',
+                'backend', 'production/apply_data_release.py', '--version', str(descriptor['version']),
+                '--commit', self.sha, '--fingerprint', fingerprint, '--summary=' + descriptor['summary'],
+                '--offices', *offices, phase='migrate', timeout=1800)
+        except Failure as exc:
+            if isinstance(exc, Deferred):
+                raise
+            raise Failure('data_import_failed', 'migrate') from None
+        current = self.data_database_state()
+        if (current['version'] != descriptor['version'] or not current.get('release') or
+                current['release']['fingerprint'] != fingerprint or current.get('pending')):
+            raise Failure('data_import_incomplete', 'migrate')
+        shutil.rmtree(copied)
 
     def candidate_checks(self, release, config, changed):
         self.phase = 'test'
@@ -803,10 +937,11 @@ class Worker:
         entries = self.entries(self.sha)
         sources = source_fingerprints(entries, config)
         old_sha = self.state['manifest']['backend']['source_sha']
-        paths = self.git('diff', '--name-only', old_sha, self.sha).splitlines()
-        data_paths = [p for p in paths if p.startswith('data/')]
-        if data_paths and self.sha not in self.state.get('data_release_ack', {}):
-            raise Failure('data_release_required', 'preflight', changed_data_paths=len(data_paths), next_action='ack_data_release')
+        paths = self.git('diff', '--name-only', '--no-renames', '-z', old_sha, self.sha).split('\0')
+        if self.sha not in self.state.get('data_release_ack', {}):
+            self.apply_data_release(release, entries, paths)
+        else:
+            self.event(logging.WARNING, 'deployment_data_override', phase='preflight', outcome='skipped')
         changed = affected_services(self.state['manifest'], sources, config)
         self.current_affected = changed
         if not changed:

@@ -1025,6 +1025,8 @@ test("early-voting notifications refresh once, recover missed updates and clean 
   await expect.poll(activeConnections).toBe(1);
   await emit("revision", revision);
   await expect.poll(() => activityRequests).toBe(6);
+  // Drain intercepted requests before Playwright tears down this page.
+  await page.unrouteAll({ behavior: "wait" });
 });
 
 for (const total of [0, null]) {

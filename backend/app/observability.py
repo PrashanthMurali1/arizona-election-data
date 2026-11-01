@@ -14,7 +14,7 @@ from uuid import uuid4
 
 correlation_id = ContextVar('correlation_id', default=None)
 log = logging.getLogger('elections')
-FIELDS = {'outcome', 'duration_ms', 'status_code', 'exit_code', 'suppressed_count', 'changed_data_paths'}
+FIELDS = {'outcome', 'duration_ms', 'status_code', 'exit_code', 'suppressed_count', 'changed_data_paths', 'data_version'}
 
 
 def exception_details(exc):
@@ -72,7 +72,10 @@ class JsonFormatter(logging.Formatter):
                        'health_failed','asset_mismatch','image_reference_drift','already_initialized',
                        'frontend_evidence_mismatch','source_evidence_mismatch','backup_failed','monitoring_failed',
                        'migration_recovery_required','activation_failed','recovery_required','data_release_required',
-                       'not_initialized','deployment_in_progress','no_previous_release'},
+                       'not_initialized','deployment_in_progress','no_previous_release',
+                       'data_version_invalid','data_version_downgrade','data_version_not_bumped',
+                       'data_import_incomplete','data_path_unmapped','data_schema_incompatible',
+                       'data_release_empty','data_import_failed'},
         }
         allowed['reason'].add('protected_configuration_changed')
         for key, choices in allowed.items():
