@@ -30,3 +30,12 @@ export async function expectCandidateCount(page: Page, count: number) {
   await expect(rows).toHaveCount(count);
   for (const row of await rows.all()) await expect(row).toBeVisible();
 }
+
+// Catalog sizes grow with every data release, so specs read them from the API under test
+// instead of hard-coding a number that breaks the deploy's test phase on the next import.
+export async function catalogCount(page: Page, officeId: string) {
+  const elections: { office_id: string }[] = await (
+    await page.request.get("/api/elections")
+  ).json();
+  return elections.filter((e) => e.office_id === officeId).length;
+}
