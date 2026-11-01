@@ -20,16 +20,16 @@ from scripts.senate_sources import verify_provenance
 EXPECTED = {
     1966: (2, 0, 378342, "Jack Williams", 203438, 14),
     1970: (2, 0, 411409, "Jack Williams", 209356, 14),
-    1974: (3, 1, 552202, "Raul Castro", 278375, 14),
+    1974: (4, 2, 552202, "Raul Castro", 278375, 14),
     1978: (4, 0, 538556, "Bruce Babbitt", 282605, 14),
     1982: (6, 3, 726364, "Bruce Babbitt", 453795, 14),
     1986: (3, 0, 866984, "Evan Mecham", 343913, 15),
     1990: (9, 7, 1055406, "Fife Symington", 523984, 15),
 }
-OFFICIAL_YEARS = (1978, 1982, 1986, 1990)
-SECONDARY_YEARS = (1966, 1970, 1974)
+OFFICIAL_YEARS = tuple(EXPECTED)
+SECONDARY_YEARS = ()
 # Ballots cast statewide (official canvass page 1) for the years whose turnout this import supplies.
-OFFICIAL_BALLOTS = {1978: 551169, 1982: 742923, 1986: 889668, 1990: 1094735}
+OFFICIAL_BALLOTS = {1966: 388783, 1970: 420629, 1974: 563991, 1978: 551169, 1982: 742923, 1986: 889668, 1990: 1094735}
 RAW = ROOT / "data/raw/governor-historical"
 
 

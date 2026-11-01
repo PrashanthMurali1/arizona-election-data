@@ -40,7 +40,8 @@ ROWS = {
     1974: [
         ("DEM", "Raul Castro", False, [4482, 8779, 9601, 5056, 2379, 2262, 139222, 4623, 6440, 70919, 9405, 2238, 7148, 5821], 278375),
         ("REP", "Russell Williams", False, [2003, 7695, 6483, 4015, 2772, 1397, 171111, 4449, 4899, 43962, 7235, 1134, 9432, 7087], 273674),
-        ("NONE", OTHER, True, [0, 2, 1, 1, 0, 0, 139, 7, 0, 0, 0, 0, 3, 0], 153, "aggregate_write_in"),
+        ("NONE", "Wonderful Russ Shaw", True, [0, 2, 1, 1, 0, 0, 135, 7, 0, 0, 0, 0, 3, 0], 149),
+        ("NONE", "Harold Bates", True, [0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 0], 4),
     ],
     1978: [
         ("DEM", "Bruce Babbitt", False, [4498, 8963, 10446, 5715, 2565, 2229, 141177, 6042, 6269, 67904, 9064, 2814, 8386, 6533], 282605),
@@ -89,6 +90,18 @@ KNOWN_COUNTY_DIFFERENCES = {}
 # page = printed page of the Governor contest. turnout = (registration, ballots cast, percent) per county in
 # printed order, then statewide, from page 1; 1986's turnout is already imported with that year's Senate contest.
 OFFICIAL = {
+    1966: dict(page=2, reported="1966-11-28", url="https://apps.azsos.gov/election/files/hist/canvass1966ge.pdf", turnout=(
+        [6043, 19081, 13248, 12350, 6232, 4802, 320301, 5831, 11236, 120135, 20358, 4121, 16602, 17331, 577671],
+        [3407, 13302, 8034, 8961, 4257, 3592, 216718, 3697, 7381, 79702, 13833, 2950, 11905, 11044, 388783],
+        [56.38, 69.71, 60.64, 72.56, 68.31, 74.80, 67.66, 63.40, 65.69, 66.34, 67.95, 71.58, 71.71, 63.72, 67.30])),
+    1970: dict(page=2, reported="1970-11-27", url="https://apps.azsos.gov/election/files/hist/canvass1970ge.pdf", turnout=(
+        [6382, 19963, 13768, 11687, 6308, 4270, 349236, 8720, 11656, 126313, 20752, 4357, 16846, 18193, 618451],
+        [3620, 14204, 9037, 8127, 4531, 3179, 234246, 5598, 7925, 90132, 14088, 3022, 11436, 11484, 420629],
+        [56.72, 71.16, 65.64, 69.53, 71.82, 74.44, 67.08, 57.59, 68.00, 71.36, 67.89, 69.36, 67.88, 63.12, 68.01])),
+    1974: dict(page=2, reported="1974-11-29", url="https://apps.azsos.gov/election/files/hist/canvass1974ge.pdf", turnout=(
+        [13013, 24981, 27053, 14457, 8497, 5328, 493384, 14762, 18818, 190488, 28009, 5788, 24470, 21785, 890833],
+        [7153, 16849, 16441, 9464, 5246, 3746, 316407, 8975, 11678, 117236, 17095, 3469, 17004, 13228, 563991],
+        [54.96, 67.45, 62.28, 65.46, 61.74, 70.31, 64.13, 60.80, 62.06, 61.54, 61.03, 59.93, 69.49, 60.72, 63.31])),
     1978: dict(page=1, reported="1978-11-27", url="https://apps.azsos.gov/election/files/hist/canvass1978ge.pdf", turnout=(
         [14365, 26001, 28457, 15849, 9253, 5096, 543282, 20981, 19673, 197335, 29444, 6728, 28948, 24018, 969430],
         [7142, 15931, 15789, 9889, 5962, 3334, 307537, 12879, 11420, 108305, 17433, 4324, 18263, 12961, 551169],
@@ -105,7 +118,8 @@ OFFICIAL = {
 }
 # The 1978 canvass prints Navajo turnout as 57.79%, but its own 11,420 ballots / 19,673 registered is 58.05%
 # (both columns sum to the printed totals); the printed percentage is kept as published.
-PRINTED_PERCENT_EXCEPTIONS = {(1978, 8)}
+PRINTED_PERCENT_EXCEPTIONS = {(1978, 8), (1970, 7), (1974, 2)}
+# 1970 Mohave: printed 57.59%, but 5,598 / 8,720 is 64.20% (both columns sum to the printed totals); kept as published.
 TURNOUT_DEFINITION = "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass."
 PRINTED_STATE_TOTAL = {1966: 378342, 1970: 411409, 1974: 552202, 1978: 538556, 1982: 726364, 1986: 866984, 1990: 1055406}
 
@@ -113,7 +127,7 @@ PRINTED_STATE_TOTAL = {1966: 378342, 1970: 411409, 1974: 552202, 1978: 538556, 1
 WIKIPEDIA = {
     1966: dict(canvass="https://azmemory.azlibrary.gov/nodes/view/102661", candidates={"Jack Williams": 203438, "Sam Goddard": 174904}, write_ins={}, total=378342),
     1970: dict(canvass="https://azmemory.azlibrary.gov/nodes/view/102665", candidates={"Jack Williams": 209356, "Raul Castro": 202053}, write_ins={}, total=411409),
-    1974: dict(canvass="https://azmemory.azlibrary.gov/nodes/view/102669", candidates={"Raul Castro": 278375, "Russell Williams": 273674}, write_ins={"Russell Shaw": 149, "Harold Bates": 4}, total=552202),
+    1974: dict(canvass="https://azmemory.azlibrary.gov/nodes/view/102669", candidates={"Raul Castro": 278375, "Russell Williams": 273674}, write_ins={"Wonderful Russ Shaw": 149, "Harold Bates": 4}, total=552202),
     1978: dict(canvass="https://azmemory.azlibrary.gov/nodes/view/102673", candidates={"Bruce Babbitt": 282605, "Evan Mecham": 241093, "V. Gene Lewter": 10421, "Jessica Sampson": 4437}, write_ins={}, total=538556, name_note="RightDataUSA printed the Libertarian as Gene Lewster; the official canvass and Wikipedia print V. Gene Lewter."),
     1982: dict(canvass="https://azmemory.azlibrary.gov/nodes/view/102678", candidates={"Bruce Babbitt": 453795, "Leo Corbet": 235877, "Sam Steiger": 36649}, write_ins={"Dave Duncan": 28, "Sandy Greeneltch": 13, "Frank Henry Beversdorf, Sr.": 2}, total=726364),
     1986: dict(canvass="https://azmemory.azlibrary.gov/nodes/view/102682", candidates={"Evan Mecham": 343913, "Carolyn Warner": 298986, "Bill Schulz": 224085}, write_ins={}, total=866984),
@@ -257,12 +271,14 @@ def write(year):
             f"{year} regular Arizona gubernatorial election. County and statewide cells transcribed from page {official['page']} of the official canvass issued by the Arizona Secretary of State "
             f"({official['reported']}); every candidate's county cells sum to the printed statewide TOTAL, and the statewide totals also match Wikipedia's results table ({WIKI_URL.format(year=year)}). "
             "Every cell was first transcribed from RightDataUSA's county page and then checked against the canvass"
-            + (", which corrected one cell (Terry Goddard, Gila: 7,693 to 7,893) and closed the 200-vote gap on that page. " if year == 1990 else " with no differences. ")
+            + (", which corrected one cell (Terry Goddard, Gila: 7,693 to 7,893) and closed the 200-vote gap on that page. " if year == 1990 else ("; the canvass itemizes the write-ins that RightDataUSA reports as one total, and the county cells agree. " if year == 1974 else " with no differences. "))
             + ("La Paz County did not exist until 1983, so results are for the 14 counties then in existence and Yuma is the larger pre-1983 Yuma County. " if year < FIRST_15_COUNTY_YEAR else "")
             + ("Named write-ins are itemized as the canvass prints them. " if any(r[2] for r in rows) else "")
             + (wiki.get("name_note", "") + " " if "name_note" in wiki else "")
             + ("The canvass notes a runoff election was to be held under Arizona Constitution Art. V, Sec. 1 because no candidate won a majority; the runoff is not part of this general-election contest. " if year == 1990 else "")
             + ("The canvass prints Navajo County turnout as 57.79%, though its own ballots and registration give 58.05%; the printed percentage is kept as published. " if year == 1978 else "")
+            + ("The canvass prints Coconino County turnout as 62.28%, though its own ballots and registration give 60.77%; the printed percentage is kept as published. " if year == 1974 else "")
+            + ("The canvass prints Mohave County turnout as 57.59%, though its own ballots and registration give 64.20%; the printed percentage is kept as published. " if year == 1970 else "")
             + ("Election-wide registration and turnout are the official figures already imported with the same election's Senate canvass. " if not official["turnout"] else "Election-wide registration, ballots cast and turnout are the official figures from page 1 of the canvass. ")
             + "The canvass PDF was supplied by the project maintainer and is retained with its SHA-256."
         )

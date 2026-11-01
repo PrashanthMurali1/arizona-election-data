@@ -56,12 +56,18 @@
     "totals_match": true,
     "all_named_match": true,
     "write_ins": {
-      "rightdatausa_other": 153,
-      "wikipedia_itemized": {
-        "Russell Shaw": 149,
-        "Harold Bates": 4
+      "itemized": {
+        "Wonderful Russ Shaw": {
+          "ours": 149,
+          "wikipedia": 149,
+          "match": true
+        },
+        "Harold Bates": {
+          "ours": 4,
+          "wikipedia": 4,
+          "match": true
+        }
       },
-      "wikipedia_itemized_sum": 153,
       "match": true
     }
   },

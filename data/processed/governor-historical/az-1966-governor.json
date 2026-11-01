@@ -23,11 +23,11 @@
     "04025",
     "04027"
   ],
-  "source_id": "rightdatausa-1966-governor",
-  "source_title": "RightDataUSA — 1966 Gubernatorial Election Results for Arizona (county results)",
-  "source_url": "https://www.rightdatausa.com/election_results?y=1966&t=G&r=N&s=AZ&d=all&WhichMap=vs",
+  "source_id": "canvass-1966-governor",
+  "source_title": "Arizona Secretary of State — 1966 official canvass",
+  "source_url": "https://apps.azsos.gov/election/files/hist/canvass1966ge.pdf",
   "source_sha256": "2dae07d13fdf850aab8c3dce009069c90b7ec88f78342c28462ec416f81df1e6",
-  "source_notes": "1966 regular Arizona gubernatorial election. NOT verified against an official canvass: the Secretary of State canvass was not available. County and statewide cells are transcribed from RightDataUSA's county results page (a secondary source, supplied as a saved copy). Every candidate's county cells sum to the statewide total printed on the page, the page's county TOTAL column agrees where it is visible, and the statewide totals match Wikipedia's results table (https://en.wikipedia.org/wiki/1966_Arizona_gubernatorial_election), which cites the official canvass. La Paz County did not exist until 1983, so results are for the 14 counties then in existence and Yuma is the larger pre-1983 Yuma County. Wikipedia cites the official canvass at https://azmemory.azlibrary.gov/nodes/view/102661. Turnout is not shown: RightDataUSA's turnout percentages are its own derived figures, not an official count.",
+  "source_notes": "1966 regular Arizona gubernatorial election. County and statewide cells transcribed from page 2 of the official canvass issued by the Arizona Secretary of State (1966-11-28); every candidate's county cells sum to the printed statewide TOTAL, and the statewide totals also match Wikipedia's results table (https://en.wikipedia.org/wiki/1966_Arizona_gubernatorial_election). Every cell was first transcribed from RightDataUSA's county page and then checked against the canvass with no differences. La Paz County did not exist until 1983, so results are for the 14 counties then in existence and Yuma is the larger pre-1983 Yuma County. Election-wide registration, ballots cast and turnout are the official figures from page 1 of the canvass. The canvass PDF was supplied by the project maintainer and is retained with its SHA-256.",
   "reference_path": "data/raw/governor-historical/1966-transcription.csv",
   "provenance_path": "data/raw/governor-historical/1966-provenance.json",
   "additional_sources": [
@@ -37,6 +37,13 @@
       "url": "https://en.wikipedia.org/wiki/1966_Arizona_gubernatorial_election",
       "sha256": "72e4297a51f2c0fba5bd9e88b89487e3f15f6ec6ce34a3dd9c30eb939be2149c",
       "notes": "Secondary source used only to cross-check statewide totals and itemize write-ins. It cites the official canvass at https://azmemory.azlibrary.gov/nodes/view/102661. Retrieved 2026-11-01."
+    },
+    {
+      "id": "rightdatausa-1966-governor",
+      "title": "RightDataUSA — 1966 Gubernatorial Election Results for Arizona (county results, comparison)",
+      "url": "https://www.rightdatausa.com/election_results?y=1966&t=G&r=N&s=AZ&d=all&WhichMap=vs",
+      "sha256": "ddeb1c2fd1a2414a78423372d8905e0a6cce81e909ffe9d0a40f7089aec90386",
+      "notes": "Secondary compilation used for the first transcription and then checked cell by cell against the official canvass."
     }
   ],
   "reviewed_county_differences": {},
@@ -95,6 +102,111 @@
       "statewide": 174904
     }
   ],
-  "turnout": {},
-  "status_ceiling": "secondary"
+  "turnout": {
+    "04001": {
+      "ballots_cast": 3407,
+      "registered_voters": 6043,
+      "percent": 56.38,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1966-governor"
+    },
+    "04003": {
+      "ballots_cast": 13302,
+      "registered_voters": 19081,
+      "percent": 69.71,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1966-governor"
+    },
+    "04005": {
+      "ballots_cast": 8034,
+      "registered_voters": 13248,
+      "percent": 60.64,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1966-governor"
+    },
+    "04007": {
+      "ballots_cast": 8961,
+      "registered_voters": 12350,
+      "percent": 72.56,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1966-governor"
+    },
+    "04009": {
+      "ballots_cast": 4257,
+      "registered_voters": 6232,
+      "percent": 68.31,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1966-governor"
+    },
+    "04011": {
+      "ballots_cast": 3592,
+      "registered_voters": 4802,
+      "percent": 74.8,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1966-governor"
+    },
+    "04013": {
+      "ballots_cast": 216718,
+      "registered_voters": 320301,
+      "percent": 67.66,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1966-governor"
+    },
+    "04015": {
+      "ballots_cast": 3697,
+      "registered_voters": 5831,
+      "percent": 63.4,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1966-governor"
+    },
+    "04017": {
+      "ballots_cast": 7381,
+      "registered_voters": 11236,
+      "percent": 65.69,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1966-governor"
+    },
+    "04019": {
+      "ballots_cast": 79702,
+      "registered_voters": 120135,
+      "percent": 66.34,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1966-governor"
+    },
+    "04021": {
+      "ballots_cast": 13833,
+      "registered_voters": 20358,
+      "percent": 67.95,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1966-governor"
+    },
+    "04023": {
+      "ballots_cast": 2950,
+      "registered_voters": 4121,
+      "percent": 71.58,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1966-governor"
+    },
+    "04025": {
+      "ballots_cast": 11905,
+      "registered_voters": 16602,
+      "percent": 71.71,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1966-governor"
+    },
+    "04027": {
+      "ballots_cast": 11044,
+      "registered_voters": 17331,
+      "percent": 63.72,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1966-governor"
+    },
+    "04": {
+      "ballots_cast": 388783,
+      "registered_voters": 577671,
+      "percent": 67.3,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1966-governor"
+    }
+  }
 }
