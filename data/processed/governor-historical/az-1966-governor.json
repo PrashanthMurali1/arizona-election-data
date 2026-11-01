@@ -1,0 +1,100 @@
+{
+  "year": 1966,
+  "date": "1966-11-08",
+  "event_id": "az-1966-general",
+  "contest_id": "az-1966-governor",
+  "contest_kind": "regular",
+  "office_id": "governor",
+  "office": "Governor",
+  "boundary_id": "county-1966-1982",
+  "expected_units": [
+    "04001",
+    "04003",
+    "04005",
+    "04007",
+    "04009",
+    "04011",
+    "04013",
+    "04015",
+    "04017",
+    "04019",
+    "04021",
+    "04023",
+    "04025",
+    "04027"
+  ],
+  "source_id": "rightdatausa-1966-governor",
+  "source_title": "RightDataUSA — 1966 Gubernatorial Election Results for Arizona (county results)",
+  "source_url": "https://www.rightdatausa.com/election_results?y=1966&t=G&r=N&s=AZ&d=all&WhichMap=vs",
+  "source_sha256": "2dae07d13fdf850aab8c3dce009069c90b7ec88f78342c28462ec416f81df1e6",
+  "source_notes": "1966 regular Arizona gubernatorial election. NOT verified against an official canvass: the Secretary of State canvass was not available. County and statewide cells are transcribed from RightDataUSA's county results page (a secondary source, supplied as a saved copy). Every candidate's county cells sum to the statewide total printed on the page, the page's county TOTAL column agrees where it is visible, and the statewide totals match Wikipedia's results table, which cites the official canvass. La Paz County did not exist until 1983, so results are for the 14 counties then in existence and Yuma is the larger pre-1983 Yuma County. Wikipedia cites the official canvass at https://azmemory.azlibrary.gov/nodes/view/102661. Turnout is not shown: RightDataUSA's turnout percentages are its own derived figures, not an official count.",
+  "reference_path": "data/raw/governor-historical/1966-transcription.csv",
+  "provenance_path": "data/raw/governor-historical/1966-provenance.json",
+  "additional_sources": [
+    {
+      "id": "wikipedia-1966-arizona-governor",
+      "title": "Wikipedia — 1966 Arizona gubernatorial election (statewide cross-check)",
+      "url": "https://en.wikipedia.org/wiki/1966_Arizona_gubernatorial_election",
+      "sha256": "72e4297a51f2c0fba5bd9e88b89487e3f15f6ec6ce34a3dd9c30eb939be2149c",
+      "notes": "Secondary source used only to cross-check statewide totals and itemize write-ins. It cites the official canvass at https://azmemory.azlibrary.gov/nodes/view/102661. Retrieved 2026-11-01."
+    }
+  ],
+  "status_ceiling": "secondary",
+  "reviewed_county_differences": {},
+  "input_validation": {
+    "source_checksums_validated": true,
+    "candidate_count": 2,
+    "county_count": 14
+  },
+  "candidates": [
+    {
+      "id": "governor-1966-0",
+      "name": "Jack Williams",
+      "party": "REP",
+      "write_in": false,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 1458,
+        "04003": 5820,
+        "04005": 4465,
+        "04007": 3532,
+        "04009": 1955,
+        "04011": 1020,
+        "04013": 124183,
+        "04015": 1881,
+        "04017": 3841,
+        "04019": 35901,
+        "04021": 6087,
+        "04023": 1088,
+        "04025": 7116,
+        "04027": 5091
+      },
+      "statewide": 203438
+    },
+    {
+      "id": "governor-1966-1",
+      "name": "Sam Goddard",
+      "party": "DEM",
+      "write_in": false,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 1743,
+        "04003": 7094,
+        "04005": 3403,
+        "04007": 5028,
+        "04009": 2188,
+        "04011": 2423,
+        "04013": 87449,
+        "04015": 1704,
+        "04017": 3198,
+        "04019": 41657,
+        "04021": 7292,
+        "04023": 1720,
+        "04025": 4384,
+        "04027": 5621
+      },
+      "statewide": 174904
+    }
+  ],
+  "turnout": {}
+}

@@ -67,7 +67,7 @@ def results(s: Session, c: Contest, unit: GeographicUnit):
     ).all()
     complete = (
         bool(rows)
-        and (c.status in {"verified", "reported"} or provisional)
+        and (c.status in {"verified", "reported", "secondary"} or provisional)
         and all(
             v is not None
             and v.votes is not None

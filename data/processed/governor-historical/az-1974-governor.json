@@ -1,0 +1,124 @@
+{
+  "year": 1974,
+  "date": "1974-11-05",
+  "event_id": "az-1974-general",
+  "contest_id": "az-1974-governor",
+  "contest_kind": "regular",
+  "office_id": "governor",
+  "office": "Governor",
+  "boundary_id": "county-1966-1982",
+  "expected_units": [
+    "04001",
+    "04003",
+    "04005",
+    "04007",
+    "04009",
+    "04011",
+    "04013",
+    "04015",
+    "04017",
+    "04019",
+    "04021",
+    "04023",
+    "04025",
+    "04027"
+  ],
+  "source_id": "rightdatausa-1974-governor",
+  "source_title": "RightDataUSA — 1974 Gubernatorial Election Results for Arizona (county results)",
+  "source_url": "https://www.rightdatausa.com/election_results?y=1974&t=G&r=N&s=AZ&d=all&WhichMap=vs",
+  "source_sha256": "d96268c15fe785b1e2ca4ff5e8ded2f8dd8b8296d9f835dd3ed4c75f7fbd4a2b",
+  "source_notes": "1974 regular Arizona gubernatorial election. NOT verified against an official canvass: the Secretary of State canvass was not available. County and statewide cells are transcribed from RightDataUSA's county results page (a secondary source, supplied as a saved copy). Every candidate's county cells sum to the statewide total printed on the page, the page's county TOTAL column agrees where it is visible, and the statewide totals match Wikipedia's results table, which cites the official canvass. La Paz County did not exist until 1983, so results are for the 14 counties then in existence and Yuma is the larger pre-1983 Yuma County. RightDataUSA reports write-ins only as one 'Other' total; it is shown as a single aggregate row. Wikipedia itemizes those write-ins (Russell Shaw 149, Harold Bates 4); they add up to the same total. Wikipedia cites the official canvass at https://azmemory.azlibrary.gov/nodes/view/102669. Turnout is not shown: RightDataUSA's turnout percentages are its own derived figures, not an official count.",
+  "reference_path": "data/raw/governor-historical/1974-transcription.csv",
+  "provenance_path": "data/raw/governor-historical/1974-provenance.json",
+  "additional_sources": [
+    {
+      "id": "wikipedia-1974-arizona-governor",
+      "title": "Wikipedia — 1974 Arizona gubernatorial election (statewide cross-check)",
+      "url": "https://en.wikipedia.org/wiki/1974_Arizona_gubernatorial_election",
+      "sha256": "b5227759772b22bef5c796c7b448a99c15f7ceae5ed74e1cfc55c0b84df83dd9",
+      "notes": "Secondary source used only to cross-check statewide totals and itemize write-ins. It cites the official canvass at https://azmemory.azlibrary.gov/nodes/view/102669. Retrieved 2026-11-01."
+    }
+  ],
+  "status_ceiling": "secondary",
+  "reviewed_county_differences": {},
+  "input_validation": {
+    "source_checksums_validated": true,
+    "candidate_count": 3,
+    "county_count": 14
+  },
+  "candidates": [
+    {
+      "id": "governor-1974-0",
+      "name": "Raul Castro",
+      "party": "DEM",
+      "write_in": false,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 4482,
+        "04003": 8779,
+        "04005": 9601,
+        "04007": 5056,
+        "04009": 2379,
+        "04011": 2262,
+        "04013": 139222,
+        "04015": 4623,
+        "04017": 6440,
+        "04019": 70919,
+        "04021": 9405,
+        "04023": 2238,
+        "04025": 7148,
+        "04027": 5821
+      },
+      "statewide": 278375
+    },
+    {
+      "id": "governor-1974-1",
+      "name": "Russell Williams",
+      "party": "REP",
+      "write_in": false,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 2003,
+        "04003": 7695,
+        "04005": 6483,
+        "04007": 4015,
+        "04009": 2772,
+        "04011": 1397,
+        "04013": 171111,
+        "04015": 4449,
+        "04017": 4899,
+        "04019": 43962,
+        "04021": 7235,
+        "04023": 1134,
+        "04025": 9432,
+        "04027": 7087
+      },
+      "statewide": 273674
+    },
+    {
+      "id": "governor-1974-2",
+      "name": "Unattributed write-ins",
+      "party": "NONE",
+      "write_in": true,
+      "category": "aggregate_write_in",
+      "county_votes": {
+        "04001": 0,
+        "04003": 2,
+        "04005": 1,
+        "04007": 1,
+        "04009": 0,
+        "04011": 0,
+        "04013": 139,
+        "04015": 7,
+        "04017": 0,
+        "04019": 0,
+        "04021": 0,
+        "04023": 0,
+        "04025": 3,
+        "04027": 0
+      },
+      "statewide": 153
+    }
+  ],
+  "turnout": {}
+}

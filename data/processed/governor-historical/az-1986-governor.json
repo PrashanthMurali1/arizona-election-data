@@ -1,0 +1,128 @@
+{
+  "year": 1986,
+  "date": "1986-11-04",
+  "event_id": "az-1986-general",
+  "contest_id": "az-1986-governor",
+  "contest_kind": "regular",
+  "office_id": "governor",
+  "office": "Governor",
+  "boundary_id": "county-2022",
+  "expected_units": [
+    "04001",
+    "04003",
+    "04005",
+    "04007",
+    "04009",
+    "04011",
+    "04012",
+    "04013",
+    "04015",
+    "04017",
+    "04019",
+    "04021",
+    "04023",
+    "04025",
+    "04027"
+  ],
+  "source_id": "rightdatausa-1986-governor",
+  "source_title": "RightDataUSA — 1986 Gubernatorial Election Results for Arizona (county results)",
+  "source_url": "https://www.rightdatausa.com/election_results?y=1986&t=G&r=N&s=AZ&d=all&WhichMap=vs",
+  "source_sha256": "00707c1e24708e1c66f8591e46ca1edc611a7e044100c00cfe5abf8e4a93a0d9",
+  "source_notes": "1986 regular Arizona gubernatorial election. NOT verified against an official canvass: the Secretary of State canvass was not available. County and statewide cells are transcribed from RightDataUSA's county results page (a secondary source, supplied as a saved copy). Every candidate's county cells sum to the statewide total printed on the page, the page's county TOTAL column agrees where it is visible, and the statewide totals match Wikipedia's results table, which cites the official canvass. Wikipedia cites the official canvass at https://azmemory.azlibrary.gov/nodes/view/102682. Turnout is not shown: RightDataUSA's turnout percentages are its own derived figures, not an official count.",
+  "reference_path": "data/raw/governor-historical/1986-transcription.csv",
+  "provenance_path": "data/raw/governor-historical/1986-provenance.json",
+  "additional_sources": [
+    {
+      "id": "wikipedia-1986-arizona-governor",
+      "title": "Wikipedia — 1986 Arizona gubernatorial election (statewide cross-check)",
+      "url": "https://en.wikipedia.org/wiki/1986_Arizona_gubernatorial_election",
+      "sha256": "2f9fc5c8a8ebb0d888254c809c53b2cf8b69825b66922f43747d331ec897f318",
+      "notes": "Secondary source used only to cross-check statewide totals and itemize write-ins. It cites the official canvass at https://azmemory.azlibrary.gov/nodes/view/102682. Retrieved 2026-11-01."
+    }
+  ],
+  "status_ceiling": "secondary",
+  "reviewed_county_differences": {},
+  "input_validation": {
+    "source_checksums_validated": true,
+    "candidate_count": 3,
+    "county_count": 15
+  },
+  "candidates": [
+    {
+      "id": "governor-1986-0",
+      "name": "Evan Mecham",
+      "party": "REP",
+      "write_in": false,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 2965,
+        "04003": 8484,
+        "04005": 6647,
+        "04007": 4779,
+        "04009": 3257,
+        "04011": 991,
+        "04012": 1352,
+        "04013": 213049,
+        "04015": 9333,
+        "04017": 6250,
+        "04019": 56598,
+        "04021": 8244,
+        "04023": 1490,
+        "04025": 15000,
+        "04027": 5474
+      },
+      "statewide": 343913
+    },
+    {
+      "id": "governor-1986-1",
+      "name": "Carolyn Warner",
+      "party": "DEM",
+      "write_in": false,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 6936,
+        "04003": 8368,
+        "04005": 11492,
+        "04007": 5775,
+        "04009": 2381,
+        "04011": 1218,
+        "04012": 1201,
+        "04013": 142540,
+        "04015": 7969,
+        "04017": 7527,
+        "04019": 72366,
+        "04021": 11127,
+        "04023": 2349,
+        "04025": 10288,
+        "04027": 7449
+      },
+      "statewide": 298986
+    },
+    {
+      "id": "governor-1986-2",
+      "name": "Bill Schulz",
+      "party": "IND",
+      "write_in": false,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 1279,
+        "04003": 5174,
+        "04005": 5565,
+        "04007": 3319,
+        "04009": 1272,
+        "04011": 772,
+        "04012": 915,
+        "04013": 139231,
+        "04015": 4300,
+        "04017": 2769,
+        "04019": 42700,
+        "04021": 5347,
+        "04023": 1464,
+        "04025": 6688,
+        "04027": 3290
+      },
+      "statewide": 224085
+    }
+  ],
+  "turnout": {}
+}

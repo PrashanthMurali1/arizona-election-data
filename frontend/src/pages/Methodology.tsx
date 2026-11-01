@@ -195,6 +195,15 @@ export default function Methodology() {
             records. It does not represent an independent audit of the election
             itself.
           </p>
+          <p>
+            Some older elections could not be checked against an official
+            canvass. They are shown with a “Secondary-source results” label,
+            using a named secondary source whose county figures add up to its
+            statewide totals and agree with independently published statewide
+            totals, but they are not marked verified. Before 1983 Arizona had 14
+            counties; La Paz County was created from Yuma County, so those
+            elections show 14 counties and the larger original Yuma County.
+          </p>
         </section>
         <section>
           <h2 id="methodology-3">2. Early-Voting Participation</h2>

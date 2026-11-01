@@ -1,0 +1,155 @@
+{
+  "year": 1990,
+  "date": "1990-11-06",
+  "event_id": "az-1990-general",
+  "contest_id": "az-1990-governor",
+  "contest_kind": "regular",
+  "office_id": "governor",
+  "office": "Governor",
+  "boundary_id": "county-2022",
+  "expected_units": [
+    "04001",
+    "04003",
+    "04005",
+    "04007",
+    "04009",
+    "04011",
+    "04012",
+    "04013",
+    "04015",
+    "04017",
+    "04019",
+    "04021",
+    "04023",
+    "04025",
+    "04027"
+  ],
+  "source_id": "rightdatausa-1990-governor",
+  "source_title": "RightDataUSA — 1990 Gubernatorial Election Results for Arizona (county results)",
+  "source_url": "https://www.rightdatausa.com/election_results?y=1990&t=G&r=N&s=AZ&d=all&WhichMap=vs",
+  "source_sha256": "278844527fc814cf26e7781f2f8e9ed396e46ffab54c6a8d982592ba7cf9722c",
+  "source_notes": "1990 regular Arizona gubernatorial election. NOT verified against an official canvass: the Secretary of State canvass was not available. County and statewide cells are transcribed from RightDataUSA's county results page (a secondary source, supplied as a saved copy). Every candidate's county cells sum to the statewide total printed on the page, the page's county TOTAL column agrees where it is visible, and the statewide totals match Wikipedia's results table, which cites the official canvass. RightDataUSA reports write-ins only as one 'Other' total; it is shown as a single aggregate row. Wikipedia itemizes those write-ins (Ed Yetman 316, Rick Lee Campbell 163, Allen Weinstein 76, Patrick P. Castronovo 75, Robert P. Winn 64, Peter J. Cojanis 54); they add up to the same total. Wikipedia lists Max Hawkins (Stop Abortion) as a write-in. The page's county cells for Terry Goddard sum to 519,491, 200 fewer than his statewide total of 519,691 (which matches Wikipedia); every county column agrees with the page's own county TOTALs, so the shortfall is in the source page and the county cells are shown as printed. Wikipedia cites the official canvass at https://azmemory.azlibrary.gov/nodes/view/102686. Turnout is not shown: RightDataUSA's turnout percentages are its own derived figures, not an official count.",
+  "reference_path": "data/raw/governor-historical/1990-transcription.csv",
+  "provenance_path": "data/raw/governor-historical/1990-provenance.json",
+  "additional_sources": [
+    {
+      "id": "wikipedia-1990-arizona-governor",
+      "title": "Wikipedia — 1990 Arizona gubernatorial election (statewide cross-check)",
+      "url": "https://en.wikipedia.org/wiki/1990_Arizona_gubernatorial_election",
+      "sha256": "b1df4ba4c5583959c51d871000aa171b77b4eb2c0a9cda929d4ead1e3f4ccb69",
+      "notes": "Secondary source used only to cross-check statewide totals and itemize write-ins. It cites the official canvass at https://azmemory.azlibrary.gov/nodes/view/102686. Retrieved 2026-11-01."
+    }
+  ],
+  "status_ceiling": "secondary",
+  "reviewed_county_differences": {
+    "Terry Goddard": -200
+  },
+  "input_validation": {
+    "source_checksums_validated": true,
+    "candidate_count": 4,
+    "county_count": 15
+  },
+  "candidates": [
+    {
+      "id": "governor-1990-0",
+      "name": "Fife Symington",
+      "party": "REP",
+      "write_in": false,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 3638,
+        "04003": 11472,
+        "04005": 11330,
+        "04007": 6283,
+        "04009": 3614,
+        "04011": 1071,
+        "04012": 1829,
+        "04013": 330261,
+        "04015": 14068,
+        "04017": 7708,
+        "04019": 87701,
+        "04021": 11762,
+        "04023": 2140,
+        "04025": 22682,
+        "04027": 8425
+      },
+      "statewide": 523984
+    },
+    {
+      "id": "governor-1990-1",
+      "name": "Terry Goddard",
+      "party": "DEM",
+      "write_in": false,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 9485,
+        "04003": 12685,
+        "04005": 17050,
+        "04007": 7693,
+        "04009": 3699,
+        "04011": 1836,
+        "04012": 1622,
+        "04013": 282409,
+        "04015": 13131,
+        "04017": 9867,
+        "04019": 112572,
+        "04021": 16562,
+        "04023": 3801,
+        "04025": 17567,
+        "04027": 9512
+      },
+      "statewide": 519691
+    },
+    {
+      "id": "governor-1990-2",
+      "name": "Max Hawkins",
+      "party": "SAB",
+      "write_in": true,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 91,
+        "04003": 136,
+        "04005": 123,
+        "04007": 128,
+        "04009": 141,
+        "04011": 11,
+        "04012": 33,
+        "04013": 8156,
+        "04015": 154,
+        "04017": 204,
+        "04019": 1028,
+        "04021": 257,
+        "04023": 10,
+        "04025": 467,
+        "04027": 44
+      },
+      "statewide": 10983
+    },
+    {
+      "id": "governor-1990-3",
+      "name": "Unattributed write-ins",
+      "party": "NONE",
+      "write_in": true,
+      "category": "aggregate_write_in",
+      "county_votes": {
+        "04001": 20,
+        "04003": 27,
+        "04005": 19,
+        "04007": 13,
+        "04009": 2,
+        "04011": 0,
+        "04012": 3,
+        "04013": 373,
+        "04015": 52,
+        "04017": 20,
+        "04019": 177,
+        "04021": 16,
+        "04023": 5,
+        "04025": 15,
+        "04027": 6
+      },
+      "statewide": 748
+    }
+  ],
+  "turnout": {}
+}

@@ -1,0 +1,54 @@
+{
+  "year": 1966,
+  "election_date": "1966-11-08",
+  "contest_id": "az-1966-governor",
+  "contest_kind": "regular",
+  "candidate_count": 2,
+  "expected_units": [
+    "04001",
+    "04003",
+    "04005",
+    "04007",
+    "04009",
+    "04011",
+    "04013",
+    "04015",
+    "04017",
+    "04019",
+    "04021",
+    "04023",
+    "04025",
+    "04027"
+  ],
+  "status_ceiling": "secondary",
+  "reviewed_county_differences": {},
+  "source_id": "rightdatausa-1966-governor",
+  "source_title": "RightDataUSA — 1966 Gubernatorial Election Results for Arizona (county results)",
+  "source_url": "https://www.rightdatausa.com/election_results?y=1966&t=G&r=N&s=AZ&d=all&WhichMap=vs",
+  "retrieved_on": "2026-11-01",
+  "retrieval_precision": "date",
+  "source_notes": "1966 regular Arizona gubernatorial election. NOT verified against an official canvass: the Secretary of State canvass was not available. County and statewide cells are transcribed from RightDataUSA's county results page (a secondary source, supplied as a saved copy). Every candidate's county cells sum to the statewide total printed on the page, the page's county TOTAL column agrees where it is visible, and the statewide totals match Wikipedia's results table, which cites the official canvass. La Paz County did not exist until 1983, so results are for the 14 counties then in existence and Yuma is the larger pre-1983 Yuma County. Wikipedia cites the official canvass at https://azmemory.azlibrary.gov/nodes/view/102661. Turnout is not shown: RightDataUSA's turnout percentages are its own derived figures, not an official count.",
+  "additional_sources": [
+    {
+      "id": "wikipedia-1966-arizona-governor",
+      "title": "Wikipedia — 1966 Arizona gubernatorial election (statewide cross-check)",
+      "url": "https://en.wikipedia.org/wiki/1966_Arizona_gubernatorial_election",
+      "sha256": "72e4297a51f2c0fba5bd9e88b89487e3f15f6ec6ce34a3dd9c30eb939be2149c",
+      "notes": "Secondary source used only to cross-check statewide totals and itemize write-ins. It cites the official canvass at https://azmemory.azlibrary.gov/nodes/view/102661. Retrieved 2026-11-01."
+    }
+  ],
+  "snapshots": [
+    {
+      "path": "data/raw/governor-historical/1966-transcription.csv",
+      "sha256": "2dae07d13fdf850aab8c3dce009069c90b7ec88f78342c28462ec416f81df1e6"
+    },
+    {
+      "path": "data/raw/governor-historical/pdfs/rightdatausa-1966-arizona-governor.pdf",
+      "sha256": "ddeb1c2fd1a2414a78423372d8905e0a6cce81e909ffe9d0a40f7089aec90386"
+    },
+    {
+      "path": "data/raw/governor-historical/wikipedia/1966-arizona-gubernatorial-election.wikitext",
+      "sha256": "72e4297a51f2c0fba5bd9e88b89487e3f15f6ec6ce34a3dd9c30eb939be2149c"
+    }
+  ]
+}

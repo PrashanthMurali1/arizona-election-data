@@ -1,0 +1,54 @@
+{
+  "year": 1978,
+  "election_date": "1978-11-07",
+  "contest_id": "az-1978-governor",
+  "contest_kind": "regular",
+  "candidate_count": 4,
+  "expected_units": [
+    "04001",
+    "04003",
+    "04005",
+    "04007",
+    "04009",
+    "04011",
+    "04013",
+    "04015",
+    "04017",
+    "04019",
+    "04021",
+    "04023",
+    "04025",
+    "04027"
+  ],
+  "status_ceiling": "secondary",
+  "reviewed_county_differences": {},
+  "source_id": "rightdatausa-1978-governor",
+  "source_title": "RightDataUSA — 1978 Gubernatorial Election Results for Arizona (county results)",
+  "source_url": "https://www.rightdatausa.com/election_results?y=1978&t=G&r=N&s=AZ&d=all&WhichMap=vs",
+  "retrieved_on": "2026-11-01",
+  "retrieval_precision": "date",
+  "source_notes": "1978 regular Arizona gubernatorial election. NOT verified against an official canvass: the Secretary of State canvass was not available. County and statewide cells are transcribed from RightDataUSA's county results page (a secondary source, supplied as a saved copy). Every candidate's county cells sum to the statewide total printed on the page, the page's county TOTAL column agrees where it is visible, and the statewide totals match Wikipedia's results table, which cites the official canvass. La Paz County did not exist until 1983, so results are for the 14 counties then in existence and Yuma is the larger pre-1983 Yuma County. Wikipedia prints the Libertarian as V. Gene Lewter; RightDataUSA prints Gene Lewster. Wikipedia cites the official canvass at https://azmemory.azlibrary.gov/nodes/view/102673. Turnout is not shown: RightDataUSA's turnout percentages are its own derived figures, not an official count.",
+  "additional_sources": [
+    {
+      "id": "wikipedia-1978-arizona-governor",
+      "title": "Wikipedia — 1978 Arizona gubernatorial election (statewide cross-check)",
+      "url": "https://en.wikipedia.org/wiki/1978_Arizona_gubernatorial_election",
+      "sha256": "8893d7a2bb394b61c8d7a8c1e643e66eb267238b46597929632dc42d1178222f",
+      "notes": "Secondary source used only to cross-check statewide totals and itemize write-ins. It cites the official canvass at https://azmemory.azlibrary.gov/nodes/view/102673. Retrieved 2026-11-01."
+    }
+  ],
+  "snapshots": [
+    {
+      "path": "data/raw/governor-historical/1978-transcription.csv",
+      "sha256": "ca62a33c567292f8cca9fdd3eb9f1d699b5e4a3124bb4fb41d58c04d2cfdeb4d"
+    },
+    {
+      "path": "data/raw/governor-historical/pdfs/rightdatausa-1978-arizona-governor.pdf",
+      "sha256": "e155062bd4635eb31b8f37030d7d7e37540647628dfb8c4dbfaaecad22b35ede"
+    },
+    {
+      "path": "data/raw/governor-historical/wikipedia/1978-arizona-gubernatorial-election.wikitext",
+      "sha256": "8893d7a2bb394b61c8d7a8c1e643e66eb267238b46597929632dc42d1178222f"
+    }
+  ]
+}

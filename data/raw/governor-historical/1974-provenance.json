@@ -1,0 +1,54 @@
+{
+  "year": 1974,
+  "election_date": "1974-11-05",
+  "contest_id": "az-1974-governor",
+  "contest_kind": "regular",
+  "candidate_count": 3,
+  "expected_units": [
+    "04001",
+    "04003",
+    "04005",
+    "04007",
+    "04009",
+    "04011",
+    "04013",
+    "04015",
+    "04017",
+    "04019",
+    "04021",
+    "04023",
+    "04025",
+    "04027"
+  ],
+  "status_ceiling": "secondary",
+  "reviewed_county_differences": {},
+  "source_id": "rightdatausa-1974-governor",
+  "source_title": "RightDataUSA — 1974 Gubernatorial Election Results for Arizona (county results)",
+  "source_url": "https://www.rightdatausa.com/election_results?y=1974&t=G&r=N&s=AZ&d=all&WhichMap=vs",
+  "retrieved_on": "2026-11-01",
+  "retrieval_precision": "date",
+  "source_notes": "1974 regular Arizona gubernatorial election. NOT verified against an official canvass: the Secretary of State canvass was not available. County and statewide cells are transcribed from RightDataUSA's county results page (a secondary source, supplied as a saved copy). Every candidate's county cells sum to the statewide total printed on the page, the page's county TOTAL column agrees where it is visible, and the statewide totals match Wikipedia's results table, which cites the official canvass. La Paz County did not exist until 1983, so results are for the 14 counties then in existence and Yuma is the larger pre-1983 Yuma County. RightDataUSA reports write-ins only as one 'Other' total; it is shown as a single aggregate row. Wikipedia itemizes those write-ins (Russell Shaw 149, Harold Bates 4); they add up to the same total. Wikipedia cites the official canvass at https://azmemory.azlibrary.gov/nodes/view/102669. Turnout is not shown: RightDataUSA's turnout percentages are its own derived figures, not an official count.",
+  "additional_sources": [
+    {
+      "id": "wikipedia-1974-arizona-governor",
+      "title": "Wikipedia — 1974 Arizona gubernatorial election (statewide cross-check)",
+      "url": "https://en.wikipedia.org/wiki/1974_Arizona_gubernatorial_election",
+      "sha256": "b5227759772b22bef5c796c7b448a99c15f7ceae5ed74e1cfc55c0b84df83dd9",
+      "notes": "Secondary source used only to cross-check statewide totals and itemize write-ins. It cites the official canvass at https://azmemory.azlibrary.gov/nodes/view/102669. Retrieved 2026-11-01."
+    }
+  ],
+  "snapshots": [
+    {
+      "path": "data/raw/governor-historical/1974-transcription.csv",
+      "sha256": "d96268c15fe785b1e2ca4ff5e8ded2f8dd8b8296d9f835dd3ed4c75f7fbd4a2b"
+    },
+    {
+      "path": "data/raw/governor-historical/pdfs/rightdatausa-1974-arizona-governor.pdf",
+      "sha256": "9f5e3bf50236f9f22fe158c5f78cd177d16f94622b0228f02519399adc879436"
+    },
+    {
+      "path": "data/raw/governor-historical/wikipedia/1974-arizona-gubernatorial-election.wikitext",
+      "sha256": "b5227759772b22bef5c796c7b448a99c15f7ceae5ed74e1cfc55c0b84df83dd9"
+    }
+  ]
+}

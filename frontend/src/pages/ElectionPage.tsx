@@ -149,6 +149,8 @@ function StatewideElectionPage({
                     ? " · unofficial"
                     : e.status === "reported"
                       ? " · reported"
+                    : e.status === "secondary"
+                      ? " · secondary source"
                     : e.status !== "verified"
                       ? " · incomplete"
                       : ""}
@@ -164,7 +166,9 @@ function StatewideElectionPage({
               ? "Unofficial — counting in progress."
               : election.status === "reported"
                 ? "Published results — county/state reconciliation note."
-                : "This election is incomplete."}
+                : election.status === "secondary"
+                  ? "Not verified against an official canvass."
+                  : "This election is incomplete."}
           </strong>
           <p>
             {election.notes}{" "}
@@ -172,7 +176,9 @@ function StatewideElectionPage({
               ? "Map colors indicate current reported leaders, not certified winners. Missing reporting units remain unavailable."
               : election.status === "reported"
                 ? "Statewide totals and vote shares use the published statewide figures. County figures are shown as reported."
-                : "Winners and percentages are withheld until the dataset can be verified."}
+                : election.status === "secondary"
+                  ? "These results come from a secondary source and have not been checked against an official canvass. Figures are shown as that source published them."
+                  : "Winners and percentages are withheld until the dataset can be verified."}
           </p>
         </div>
       )}
@@ -257,7 +263,7 @@ function StatewideElectionPage({
                 <h3>Beyond the contest</h3>
                 <TurnoutMetrics turnout={county.turnout} />
                 <p className="footnote">
-                  {number(county.total_votes)} {county.status === "reported" ? "reported" : "verified"} votes in the{" "}
+                  {number(county.total_votes)} {county.status === "reported" ? "reported" : county.status === "secondary" ? "secondary-source" : "verified"} votes in the{" "}
                   {election.office.toLowerCase()} contest. This differs from
                   total ballots cast.
                 </p>

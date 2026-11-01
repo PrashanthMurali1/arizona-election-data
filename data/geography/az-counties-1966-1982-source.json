@@ -1,0 +1,6 @@
+{
+  "url": "https://www2.census.gov/geo/tiger/GENZ2022/shp/cb_2022_us_county_500k.zip",
+  "sha256": "b5e364a850b8876a9455181ff38f92abd45cce72414c2aa29f1cb234bd5f08c0",
+  "vintage": 1966,
+  "notes": "Derived from the official Census 2022 cartographic county boundaries retained in az-counties-2022.geojson. La Paz County was created in 1983 from northern Yuma County, so for 1966-1982 the Yuma feature is the dissolved union of today's Yuma and La Paz polygons. Other counties are unchanged. This is an approximation: later minor boundary adjustments are not modelled, and no geometry is hand-drawn."
+}

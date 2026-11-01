@@ -1,0 +1,100 @@
+{
+  "year": 1970,
+  "date": "1970-11-03",
+  "event_id": "az-1970-general",
+  "contest_id": "az-1970-governor",
+  "contest_kind": "regular",
+  "office_id": "governor",
+  "office": "Governor",
+  "boundary_id": "county-1966-1982",
+  "expected_units": [
+    "04001",
+    "04003",
+    "04005",
+    "04007",
+    "04009",
+    "04011",
+    "04013",
+    "04015",
+    "04017",
+    "04019",
+    "04021",
+    "04023",
+    "04025",
+    "04027"
+  ],
+  "source_id": "rightdatausa-1970-governor",
+  "source_title": "RightDataUSA — 1970 Gubernatorial Election Results for Arizona (county results)",
+  "source_url": "https://www.rightdatausa.com/election_results?y=1970&t=G&r=N&s=AZ&d=all&WhichMap=vs",
+  "source_sha256": "8e4a248228eec03f4e783ebbf1acc8336771478352974dbc295ad9c4eb044e9f",
+  "source_notes": "1970 regular Arizona gubernatorial election. NOT verified against an official canvass: the Secretary of State canvass was not available. County and statewide cells are transcribed from RightDataUSA's county results page (a secondary source, supplied as a saved copy). Every candidate's county cells sum to the statewide total printed on the page, the page's county TOTAL column agrees where it is visible, and the statewide totals match Wikipedia's results table, which cites the official canvass. La Paz County did not exist until 1983, so results are for the 14 counties then in existence and Yuma is the larger pre-1983 Yuma County. Wikipedia cites the official canvass at https://azmemory.azlibrary.gov/nodes/view/102665. Turnout is not shown: RightDataUSA's turnout percentages are its own derived figures, not an official count.",
+  "reference_path": "data/raw/governor-historical/1970-transcription.csv",
+  "provenance_path": "data/raw/governor-historical/1970-provenance.json",
+  "additional_sources": [
+    {
+      "id": "wikipedia-1970-arizona-governor",
+      "title": "Wikipedia — 1970 Arizona gubernatorial election (statewide cross-check)",
+      "url": "https://en.wikipedia.org/wiki/1970_Arizona_gubernatorial_election",
+      "sha256": "9e5db12cea53b758ca56319674bf8863c02cd955634d9290ab3555f6ffc13c59",
+      "notes": "Secondary source used only to cross-check statewide totals and itemize write-ins. It cites the official canvass at https://azmemory.azlibrary.gov/nodes/view/102665. Retrieved 2026-11-01."
+    }
+  ],
+  "status_ceiling": "secondary",
+  "reviewed_county_differences": {},
+  "input_validation": {
+    "source_checksums_validated": true,
+    "candidate_count": 2,
+    "county_count": 14
+  },
+  "candidates": [
+    {
+      "id": "governor-1970-0",
+      "name": "Jack Williams",
+      "party": "REP",
+      "write_in": false,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 1745,
+        "04003": 5712,
+        "04005": 4305,
+        "04007": 2951,
+        "04009": 2078,
+        "04011": 822,
+        "04013": 133336,
+        "04015": 2846,
+        "04017": 4335,
+        "04019": 32750,
+        "04021": 5786,
+        "04023": 824,
+        "04025": 7052,
+        "04027": 4814
+      },
+      "statewide": 209356
+    },
+    {
+      "id": "governor-1970-1",
+      "name": "Raul Castro",
+      "party": "DEM",
+      "write_in": false,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 1684,
+        "04003": 8138,
+        "04005": 4471,
+        "04007": 4907,
+        "04009": 2343,
+        "04011": 2239,
+        "04013": 96525,
+        "04015": 2797,
+        "04017": 3330,
+        "04019": 55245,
+        "04021": 7861,
+        "04023": 2123,
+        "04025": 4093,
+        "04027": 6297
+      },
+      "statewide": 202053
+    }
+  ],
+  "turnout": {}
+}

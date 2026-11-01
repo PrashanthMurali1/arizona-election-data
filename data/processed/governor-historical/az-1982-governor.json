@@ -1,0 +1,148 @@
+{
+  "year": 1982,
+  "date": "1982-11-02",
+  "event_id": "az-1982-general",
+  "contest_id": "az-1982-governor",
+  "contest_kind": "regular",
+  "office_id": "governor",
+  "office": "Governor",
+  "boundary_id": "county-1966-1982",
+  "expected_units": [
+    "04001",
+    "04003",
+    "04005",
+    "04007",
+    "04009",
+    "04011",
+    "04013",
+    "04015",
+    "04017",
+    "04019",
+    "04021",
+    "04023",
+    "04025",
+    "04027"
+  ],
+  "source_id": "rightdatausa-1982-governor",
+  "source_title": "RightDataUSA — 1982 Gubernatorial Election Results for Arizona (county results)",
+  "source_url": "https://www.rightdatausa.com/election_results?y=1982&t=G&r=N&s=AZ&d=all&WhichMap=vs",
+  "source_sha256": "e9849834a486a1999a57c7d2b7af7142403703c12168a3b55a914a9a3c80c98c",
+  "source_notes": "1982 regular Arizona gubernatorial election. NOT verified against an official canvass: the Secretary of State canvass was not available. County and statewide cells are transcribed from RightDataUSA's county results page (a secondary source, supplied as a saved copy). Every candidate's county cells sum to the statewide total printed on the page, the page's county TOTAL column agrees where it is visible, and the statewide totals match Wikipedia's results table, which cites the official canvass. La Paz County did not exist until 1983, so results are for the 14 counties then in existence and Yuma is the larger pre-1983 Yuma County. RightDataUSA reports write-ins only as one 'Other' total; it is shown as a single aggregate row. Wikipedia itemizes those write-ins (Dave Duncan 28, Sandy Greeneltch 13, Frank Henry Beversdorf, Sr. 2); they add up to the same total. Wikipedia cites the official canvass at https://azmemory.azlibrary.gov/nodes/view/102678. Turnout is not shown: RightDataUSA's turnout percentages are its own derived figures, not an official count.",
+  "reference_path": "data/raw/governor-historical/1982-transcription.csv",
+  "provenance_path": "data/raw/governor-historical/1982-provenance.json",
+  "additional_sources": [
+    {
+      "id": "wikipedia-1982-arizona-governor",
+      "title": "Wikipedia — 1982 Arizona gubernatorial election (statewide cross-check)",
+      "url": "https://en.wikipedia.org/wiki/1982_Arizona_gubernatorial_election",
+      "sha256": "9b7d35eb6a92f5beab5f2536318c5b6eb4d5083a131ca6a8a88e5edb362a2e98",
+      "notes": "Secondary source used only to cross-check statewide totals and itemize write-ins. It cites the official canvass at https://azmemory.azlibrary.gov/nodes/view/102678. Retrieved 2026-11-01."
+    }
+  ],
+  "status_ceiling": "secondary",
+  "reviewed_county_differences": {},
+  "input_validation": {
+    "source_checksums_validated": true,
+    "candidate_count": 4,
+    "county_count": 14
+  },
+  "candidates": [
+    {
+      "id": "governor-1982-0",
+      "name": "Bruce Babbitt",
+      "party": "DEM",
+      "write_in": false,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 6584,
+        "04003": 13196,
+        "04005": 14773,
+        "04007": 7343,
+        "04009": 4127,
+        "04011": 2578,
+        "04013": 228217,
+        "04015": 10533,
+        "04017": 8566,
+        "04019": 113982,
+        "04021": 14527,
+        "04023": 3519,
+        "04025": 14339,
+        "04027": 11511
+      },
+      "statewide": 453795
+    },
+    {
+      "id": "governor-1982-1",
+      "name": "Leo Corbet",
+      "party": "REP",
+      "write_in": false,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 2723,
+        "04003": 6082,
+        "04005": 4997,
+        "04007": 3645,
+        "04009": 2123,
+        "04011": 580,
+        "04013": 142938,
+        "04015": 6617,
+        "04017": 4611,
+        "04019": 38235,
+        "04021": 5882,
+        "04023": 1098,
+        "04025": 9930,
+        "04027": 6416
+      },
+      "statewide": 235877
+    },
+    {
+      "id": "governor-1982-2",
+      "name": "Sam Steiger",
+      "party": "LBT",
+      "write_in": false,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 546,
+        "04003": 815,
+        "04005": 1643,
+        "04007": 769,
+        "04009": 399,
+        "04011": 125,
+        "04013": 20457,
+        "04015": 1033,
+        "04017": 759,
+        "04019": 5873,
+        "04021": 1076,
+        "04023": 161,
+        "04025": 2127,
+        "04027": 866
+      },
+      "statewide": 36649
+    },
+    {
+      "id": "governor-1982-3",
+      "name": "Unattributed write-ins",
+      "party": "NONE",
+      "write_in": true,
+      "category": "aggregate_write_in",
+      "county_votes": {
+        "04001": 0,
+        "04003": 0,
+        "04005": 6,
+        "04007": 0,
+        "04009": 0,
+        "04011": 0,
+        "04013": 23,
+        "04015": 0,
+        "04017": 7,
+        "04019": 2,
+        "04021": 1,
+        "04023": 0,
+        "04025": 2,
+        "04027": 2
+      },
+      "statewide": 43
+    }
+  ],
+  "turnout": {}
+}

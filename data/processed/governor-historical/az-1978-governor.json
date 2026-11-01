@@ -1,0 +1,148 @@
+{
+  "year": 1978,
+  "date": "1978-11-07",
+  "event_id": "az-1978-general",
+  "contest_id": "az-1978-governor",
+  "contest_kind": "regular",
+  "office_id": "governor",
+  "office": "Governor",
+  "boundary_id": "county-1966-1982",
+  "expected_units": [
+    "04001",
+    "04003",
+    "04005",
+    "04007",
+    "04009",
+    "04011",
+    "04013",
+    "04015",
+    "04017",
+    "04019",
+    "04021",
+    "04023",
+    "04025",
+    "04027"
+  ],
+  "source_id": "rightdatausa-1978-governor",
+  "source_title": "RightDataUSA — 1978 Gubernatorial Election Results for Arizona (county results)",
+  "source_url": "https://www.rightdatausa.com/election_results?y=1978&t=G&r=N&s=AZ&d=all&WhichMap=vs",
+  "source_sha256": "ca62a33c567292f8cca9fdd3eb9f1d699b5e4a3124bb4fb41d58c04d2cfdeb4d",
+  "source_notes": "1978 regular Arizona gubernatorial election. NOT verified against an official canvass: the Secretary of State canvass was not available. County and statewide cells are transcribed from RightDataUSA's county results page (a secondary source, supplied as a saved copy). Every candidate's county cells sum to the statewide total printed on the page, the page's county TOTAL column agrees where it is visible, and the statewide totals match Wikipedia's results table, which cites the official canvass. La Paz County did not exist until 1983, so results are for the 14 counties then in existence and Yuma is the larger pre-1983 Yuma County. Wikipedia prints the Libertarian as V. Gene Lewter; RightDataUSA prints Gene Lewster. Wikipedia cites the official canvass at https://azmemory.azlibrary.gov/nodes/view/102673. Turnout is not shown: RightDataUSA's turnout percentages are its own derived figures, not an official count.",
+  "reference_path": "data/raw/governor-historical/1978-transcription.csv",
+  "provenance_path": "data/raw/governor-historical/1978-provenance.json",
+  "additional_sources": [
+    {
+      "id": "wikipedia-1978-arizona-governor",
+      "title": "Wikipedia — 1978 Arizona gubernatorial election (statewide cross-check)",
+      "url": "https://en.wikipedia.org/wiki/1978_Arizona_gubernatorial_election",
+      "sha256": "8893d7a2bb394b61c8d7a8c1e643e66eb267238b46597929632dc42d1178222f",
+      "notes": "Secondary source used only to cross-check statewide totals and itemize write-ins. It cites the official canvass at https://azmemory.azlibrary.gov/nodes/view/102673. Retrieved 2026-11-01."
+    }
+  ],
+  "status_ceiling": "secondary",
+  "reviewed_county_differences": {},
+  "input_validation": {
+    "source_checksums_validated": true,
+    "candidate_count": 4,
+    "county_count": 14
+  },
+  "candidates": [
+    {
+      "id": "governor-1978-0",
+      "name": "Bruce Babbitt",
+      "party": "DEM",
+      "write_in": false,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 4498,
+        "04003": 8963,
+        "04005": 10446,
+        "04007": 5715,
+        "04009": 2565,
+        "04011": 2229,
+        "04013": 141177,
+        "04015": 6042,
+        "04017": 6269,
+        "04019": 67904,
+        "04021": 9064,
+        "04023": 2814,
+        "04025": 8386,
+        "04027": 6533
+      },
+      "statewide": 282605
+    },
+    {
+      "id": "governor-1978-1",
+      "name": "Evan Mecham",
+      "party": "REP",
+      "write_in": false,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 1761,
+        "04003": 6251,
+        "04005": 4411,
+        "04007": 3668,
+        "04009": 3085,
+        "04011": 917,
+        "04013": 151079,
+        "04015": 6133,
+        "04017": 4518,
+        "04019": 36197,
+        "04021": 7151,
+        "04023": 1229,
+        "04025": 8978,
+        "04027": 5715
+      },
+      "statewide": 241093
+    },
+    {
+      "id": "governor-1978-2",
+      "name": "Gene Lewster",
+      "party": "LBT",
+      "write_in": false,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 196,
+        "04003": 94,
+        "04005": 388,
+        "04007": 160,
+        "04009": 63,
+        "04011": 31,
+        "04013": 6982,
+        "04015": 277,
+        "04017": 179,
+        "04019": 1165,
+        "04021": 284,
+        "04023": 33,
+        "04025": 408,
+        "04027": 161
+      },
+      "statewide": 10421
+    },
+    {
+      "id": "governor-1978-3",
+      "name": "Jessica Sampson",
+      "party": "SWP",
+      "write_in": false,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 169,
+        "04003": 157,
+        "04005": 176,
+        "04007": 80,
+        "04009": 63,
+        "04011": 42,
+        "04013": 2291,
+        "04015": 74,
+        "04017": 136,
+        "04019": 785,
+        "04021": 158,
+        "04023": 45,
+        "04025": 126,
+        "04027": 135
+      },
+      "statewide": 4437
+    }
+  ],
+  "turnout": {}
+}

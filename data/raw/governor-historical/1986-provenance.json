@@ -1,0 +1,55 @@
+{
+  "year": 1986,
+  "election_date": "1986-11-04",
+  "contest_id": "az-1986-governor",
+  "contest_kind": "regular",
+  "candidate_count": 3,
+  "expected_units": [
+    "04001",
+    "04003",
+    "04005",
+    "04007",
+    "04009",
+    "04011",
+    "04012",
+    "04013",
+    "04015",
+    "04017",
+    "04019",
+    "04021",
+    "04023",
+    "04025",
+    "04027"
+  ],
+  "status_ceiling": "secondary",
+  "reviewed_county_differences": {},
+  "source_id": "rightdatausa-1986-governor",
+  "source_title": "RightDataUSA — 1986 Gubernatorial Election Results for Arizona (county results)",
+  "source_url": "https://www.rightdatausa.com/election_results?y=1986&t=G&r=N&s=AZ&d=all&WhichMap=vs",
+  "retrieved_on": "2026-11-01",
+  "retrieval_precision": "date",
+  "source_notes": "1986 regular Arizona gubernatorial election. NOT verified against an official canvass: the Secretary of State canvass was not available. County and statewide cells are transcribed from RightDataUSA's county results page (a secondary source, supplied as a saved copy). Every candidate's county cells sum to the statewide total printed on the page, the page's county TOTAL column agrees where it is visible, and the statewide totals match Wikipedia's results table, which cites the official canvass. Wikipedia cites the official canvass at https://azmemory.azlibrary.gov/nodes/view/102682. Turnout is not shown: RightDataUSA's turnout percentages are its own derived figures, not an official count.",
+  "additional_sources": [
+    {
+      "id": "wikipedia-1986-arizona-governor",
+      "title": "Wikipedia — 1986 Arizona gubernatorial election (statewide cross-check)",
+      "url": "https://en.wikipedia.org/wiki/1986_Arizona_gubernatorial_election",
+      "sha256": "2f9fc5c8a8ebb0d888254c809c53b2cf8b69825b66922f43747d331ec897f318",
+      "notes": "Secondary source used only to cross-check statewide totals and itemize write-ins. It cites the official canvass at https://azmemory.azlibrary.gov/nodes/view/102682. Retrieved 2026-11-01."
+    }
+  ],
+  "snapshots": [
+    {
+      "path": "data/raw/governor-historical/1986-transcription.csv",
+      "sha256": "00707c1e24708e1c66f8591e46ca1edc611a7e044100c00cfe5abf8e4a93a0d9"
+    },
+    {
+      "path": "data/raw/governor-historical/pdfs/rightdatausa-1986-arizona-governor.pdf",
+      "sha256": "d69e85fbce5f6d53b6fbf1724b67cdd562f6df2ef498a01439c07132110a72d9"
+    },
+    {
+      "path": "data/raw/governor-historical/wikipedia/1986-arizona-gubernatorial-election.wikitext",
+      "sha256": "2f9fc5c8a8ebb0d888254c809c53b2cf8b69825b66922f43747d331ec897f318"
+    }
+  ]
+}
