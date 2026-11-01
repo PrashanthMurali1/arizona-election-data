@@ -50,7 +50,7 @@ def test_results_and_status(client, year):
     assert sum(c["write_in"] for c in state["candidates"]) == write_ins
     assert detail["reconciliation"]["status"] == status
     assert ("NOT verified against an official canvass" in election["notes"]) == (year in SECONDARY_YEARS)
-    assert any(s["id"] == f"rightdatausa-{year}-governor" for s in detail["sources"])
+    assert any(s["id"] == f"rightdatausa-{year}-governor" for s in detail["sources"]) == (year in SECONDARY_YEARS)
     assert any(s["id"] == f"canvass-{year}-governor" for s in detail["sources"]) == (year in OFFICIAL_YEARS)
     assert f"en.wikipedia.org/wiki/{year}_Arizona_gubernatorial_election" in election["notes"]
     rows = client.get(f"/api/elections/{contest_id(year)}/counties").json()
