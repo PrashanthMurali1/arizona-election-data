@@ -83,7 +83,8 @@ if __name__ == "__main__":
     from scripts.normalize_governor_historical import normalize as normalize_governor_historical
 
     for raw in sorted((ROOT / "data/raw/governor-historical").glob("*-transcription.csv")):
-        normalize_governor_historical(raw)
+        if "-turnout-" not in raw.name:
+            normalize_governor_historical(raw)
     from scripts.normalize_house import normalize as normalize_house
 
     normalize_house()

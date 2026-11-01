@@ -39,7 +39,6 @@
       "notes": "Secondary source used only to cross-check statewide totals and itemize write-ins. It cites the official canvass at https://azmemory.azlibrary.gov/nodes/view/102661. Retrieved 2026-11-01."
     }
   ],
-  "status_ceiling": "secondary",
   "reviewed_county_differences": {},
   "input_validation": {
     "source_checksums_validated": true,
@@ -96,5 +95,6 @@
       "statewide": 174904
     }
   ],
-  "turnout": {}
+  "turnout": {},
+  "status_ceiling": "secondary"
 }

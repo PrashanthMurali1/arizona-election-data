@@ -24,11 +24,11 @@
     "04025",
     "04027"
   ],
-  "source_id": "rightdatausa-1990-governor",
-  "source_title": "RightDataUSA — 1990 Gubernatorial Election Results for Arizona (county results)",
-  "source_url": "https://www.rightdatausa.com/election_results?y=1990&t=G&r=N&s=AZ&d=all&WhichMap=vs",
-  "source_sha256": "278844527fc814cf26e7781f2f8e9ed396e46ffab54c6a8d982592ba7cf9722c",
-  "source_notes": "1990 regular Arizona gubernatorial election. NOT verified against an official canvass: the Secretary of State canvass was not available. County and statewide cells are transcribed from RightDataUSA's county results page (a secondary source, supplied as a saved copy). Every candidate's county cells sum to the statewide total printed on the page, the page's county TOTAL column agrees where it is visible, and the statewide totals match Wikipedia's results table (https://en.wikipedia.org/wiki/1990_Arizona_gubernatorial_election), which cites the official canvass. RightDataUSA reports write-ins only as one 'Other' total; it is shown as a single aggregate row. Wikipedia itemizes those write-ins (Ed Yetman 316, Rick Lee Campbell 163, Allen Weinstein 76, Patrick P. Castronovo 75, Robert P. Winn 64, Peter J. Cojanis 54); they add up to the same total. Wikipedia lists Max Hawkins (Stop Abortion) as a write-in. The page's county cells for Terry Goddard sum to 519,491, 200 fewer than his statewide total of 519,691 (which matches Wikipedia); every county column agrees with the page's own county TOTALs, so the shortfall is in the source page and the county cells are shown as printed. Wikipedia cites the official canvass at https://azmemory.azlibrary.gov/nodes/view/102686. Turnout is not shown: RightDataUSA's turnout percentages are its own derived figures, not an official count.",
+  "source_id": "canvass-1990-governor",
+  "source_title": "Arizona Secretary of State — 1990 official canvass",
+  "source_url": "https://apps.azsos.gov/election/files/hist/canvass1990ge.pdf",
+  "source_sha256": "c90c78b6167676a765c9034e449ab6fc1788c1372d65e0598f16b4ff579dfc59",
+  "source_notes": "1990 regular Arizona gubernatorial election. County and statewide cells transcribed from page 2 of the official canvass issued by the Arizona Secretary of State (1990-11-26); every candidate's county cells sum to the printed statewide TOTAL, and the statewide totals also match Wikipedia's results table (https://en.wikipedia.org/wiki/1990_Arizona_gubernatorial_election). Every cell was first transcribed from RightDataUSA's county page and then checked against the canvass, which corrected one cell (Terry Goddard, Gila: 7,693 to 7,893) and closed the 200-vote gap on that page. Named write-ins are itemized as the canvass prints them. The canvass notes a runoff election was to be held under Arizona Constitution Art. V, Sec. 1 because no candidate won a majority; the runoff is not part of this general-election contest. Election-wide registration, ballots cast and turnout are the official figures from page 1 of the canvass. The canvass PDF was supplied by the project maintainer and is retained with its SHA-256.",
   "reference_path": "data/raw/governor-historical/1990-transcription.csv",
   "provenance_path": "data/raw/governor-historical/1990-provenance.json",
   "additional_sources": [
@@ -38,15 +38,19 @@
       "url": "https://en.wikipedia.org/wiki/1990_Arizona_gubernatorial_election",
       "sha256": "b1df4ba4c5583959c51d871000aa171b77b4eb2c0a9cda929d4ead1e3f4ccb69",
       "notes": "Secondary source used only to cross-check statewide totals and itemize write-ins. It cites the official canvass at https://azmemory.azlibrary.gov/nodes/view/102686. Retrieved 2026-11-01."
+    },
+    {
+      "id": "rightdatausa-1990-governor",
+      "title": "RightDataUSA — 1990 Gubernatorial Election Results for Arizona (county results, comparison)",
+      "url": "https://www.rightdatausa.com/election_results?y=1990&t=G&r=N&s=AZ&d=all&WhichMap=vs",
+      "sha256": "10d5ad76e01b9f9179b06545422b54cf900938c856eaee491b1d02d56a0a58ca",
+      "notes": "Secondary compilation used for the first transcription and then checked cell by cell against the official canvass."
     }
   ],
-  "status_ceiling": "secondary",
-  "reviewed_county_differences": {
-    "Terry Goddard": -200
-  },
+  "reviewed_county_differences": {},
   "input_validation": {
     "source_checksums_validated": true,
-    "candidate_count": 4,
+    "candidate_count": 9,
     "county_count": 15
   },
   "candidates": [
@@ -85,7 +89,7 @@
         "04001": 9485,
         "04003": 12685,
         "04005": 17050,
-        "04007": 7693,
+        "04007": 7893,
         "04009": 3699,
         "04011": 1836,
         "04012": 1622,
@@ -127,29 +131,267 @@
     },
     {
       "id": "governor-1990-3",
-      "name": "Unattributed write-ins",
+      "name": "Rick Lee Campbell",
+      "party": "IND",
+      "write_in": true,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 8,
+        "04003": 8,
+        "04005": 5,
+        "04007": 4,
+        "04009": 0,
+        "04011": 0,
+        "04012": 1,
+        "04013": 97,
+        "04015": 18,
+        "04017": 4,
+        "04019": 10,
+        "04021": 4,
+        "04023": 2,
+        "04025": 1,
+        "04027": 1
+      },
+      "statewide": 163
+    },
+    {
+      "id": "governor-1990-4",
+      "name": "Patrick P. Castronovo",
+      "party": "REP",
+      "write_in": true,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 0,
+        "04003": 3,
+        "04005": 0,
+        "04007": 0,
+        "04009": 0,
+        "04011": 0,
+        "04012": 0,
+        "04013": 53,
+        "04015": 8,
+        "04017": 2,
+        "04019": 6,
+        "04021": 0,
+        "04023": 0,
+        "04025": 1,
+        "04027": 2
+      },
+      "statewide": 75
+    },
+    {
+      "id": "governor-1990-5",
+      "name": "Peter J. Cojanis",
       "party": "NONE",
       "write_in": true,
-      "category": "aggregate_write_in",
+      "category": "named_candidate",
       "county_votes": {
-        "04001": 20,
-        "04003": 27,
-        "04005": 19,
-        "04007": 13,
+        "04001": 0,
+        "04003": 0,
+        "04005": 0,
+        "04007": 0,
+        "04009": 0,
+        "04011": 0,
+        "04012": 0,
+        "04013": 19,
+        "04015": 10,
+        "04017": 0,
+        "04019": 24,
+        "04021": 0,
+        "04023": 0,
+        "04025": 1,
+        "04027": 0
+      },
+      "statewide": 54
+    },
+    {
+      "id": "governor-1990-6",
+      "name": "Allen Weinstein",
+      "party": "IND",
+      "write_in": true,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 1,
+        "04003": 1,
+        "04005": 2,
+        "04007": 4,
+        "04009": 0,
+        "04011": 0,
+        "04012": 0,
+        "04013": 22,
+        "04015": 4,
+        "04017": 0,
+        "04019": 40,
+        "04021": 1,
+        "04023": 1,
+        "04025": 0,
+        "04027": 0
+      },
+      "statewide": 76
+    },
+    {
+      "id": "governor-1990-7",
+      "name": "Robert B. Winn",
+      "party": "NON",
+      "write_in": true,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 5,
+        "04003": 2,
+        "04005": 1,
+        "04007": 0,
+        "04009": 0,
+        "04011": 0,
+        "04012": 1,
+        "04013": 43,
+        "04015": 1,
+        "04017": 5,
+        "04019": 3,
+        "04021": 2,
+        "04023": 0,
+        "04025": 1,
+        "04027": 0
+      },
+      "statewide": 64
+    },
+    {
+      "id": "governor-1990-8",
+      "name": "Ed Yetman",
+      "party": "LBT",
+      "write_in": true,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 6,
+        "04003": 13,
+        "04005": 11,
+        "04007": 5,
         "04009": 2,
         "04011": 0,
-        "04012": 3,
-        "04013": 373,
-        "04015": 52,
-        "04017": 20,
-        "04019": 177,
-        "04021": 16,
-        "04023": 5,
-        "04025": 15,
-        "04027": 6
+        "04012": 1,
+        "04013": 139,
+        "04015": 11,
+        "04017": 9,
+        "04019": 94,
+        "04021": 9,
+        "04023": 2,
+        "04025": 11,
+        "04027": 3
       },
-      "statewide": 748
+      "statewide": 316
     }
   ],
-  "turnout": {}
+  "turnout": {
+    "04001": {
+      "ballots_cast": 14284,
+      "registered_voters": 26353,
+      "percent": 54.2,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1990-governor"
+    },
+    "04003": {
+      "ballots_cast": 25409,
+      "registered_voters": 45076,
+      "percent": 56.37,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1990-governor"
+    },
+    "04005": {
+      "ballots_cast": 29668,
+      "registered_voters": 55325,
+      "percent": 53.62,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1990-governor"
+    },
+    "04007": {
+      "ballots_cast": 15230,
+      "registered_voters": 23012,
+      "percent": 66.18,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1990-governor"
+    },
+    "04009": {
+      "ballots_cast": 7975,
+      "registered_voters": 12968,
+      "percent": 61.5,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1990-governor"
+    },
+    "04011": {
+      "ballots_cast": 3071,
+      "registered_voters": 4819,
+      "percent": 63.73,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1990-governor"
+    },
+    "04012": {
+      "ballots_cast": 3641,
+      "registered_voters": 7004,
+      "percent": 51.98,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1990-governor"
+    },
+    "04013": {
+      "ballots_cast": 640847,
+      "registered_voters": 1062231,
+      "percent": 60.33,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1990-governor"
+    },
+    "04015": {
+      "ballots_cast": 28894,
+      "registered_voters": 51747,
+      "percent": 55.84,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1990-governor"
+    },
+    "04017": {
+      "ballots_cast": 18864,
+      "registered_voters": 33794,
+      "percent": 55.82,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1990-governor"
+    },
+    "04019": {
+      "ballots_cast": 208368,
+      "registered_voters": 371146,
+      "percent": 56.14,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1990-governor"
+    },
+    "04021": {
+      "ballots_cast": 29880,
+      "registered_voters": 50816,
+      "percent": 58.8,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1990-governor"
+    },
+    "04023": {
+      "ballots_cast": 6460,
+      "registered_voters": 10805,
+      "percent": 59.79,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1990-governor"
+    },
+    "04025": {
+      "ballots_cast": 43180,
+      "registered_voters": 66671,
+      "percent": 64.77,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1990-governor"
+    },
+    "04027": {
+      "ballots_cast": 18964,
+      "registered_voters": 38189,
+      "percent": 49.66,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1990-governor"
+    },
+    "04": {
+      "ballots_cast": 1094735,
+      "registered_voters": 1859956,
+      "percent": 58.86,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1990-governor"
+    }
+  }
 }

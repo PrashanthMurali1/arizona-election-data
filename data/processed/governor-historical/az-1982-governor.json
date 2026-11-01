@@ -23,11 +23,11 @@
     "04025",
     "04027"
   ],
-  "source_id": "rightdatausa-1982-governor",
-  "source_title": "RightDataUSA — 1982 Gubernatorial Election Results for Arizona (county results)",
-  "source_url": "https://www.rightdatausa.com/election_results?y=1982&t=G&r=N&s=AZ&d=all&WhichMap=vs",
-  "source_sha256": "e9849834a486a1999a57c7d2b7af7142403703c12168a3b55a914a9a3c80c98c",
-  "source_notes": "1982 regular Arizona gubernatorial election. NOT verified against an official canvass: the Secretary of State canvass was not available. County and statewide cells are transcribed from RightDataUSA's county results page (a secondary source, supplied as a saved copy). Every candidate's county cells sum to the statewide total printed on the page, the page's county TOTAL column agrees where it is visible, and the statewide totals match Wikipedia's results table (https://en.wikipedia.org/wiki/1982_Arizona_gubernatorial_election), which cites the official canvass. La Paz County did not exist until 1983, so results are for the 14 counties then in existence and Yuma is the larger pre-1983 Yuma County. RightDataUSA reports write-ins only as one 'Other' total; it is shown as a single aggregate row. Wikipedia itemizes those write-ins (Dave Duncan 28, Sandy Greeneltch 13, Frank Henry Beversdorf, Sr. 2); they add up to the same total. Wikipedia cites the official canvass at https://azmemory.azlibrary.gov/nodes/view/102678. Turnout is not shown: RightDataUSA's turnout percentages are its own derived figures, not an official count.",
+  "source_id": "canvass-1982-governor",
+  "source_title": "Arizona Secretary of State — 1982 official canvass",
+  "source_url": "https://apps.azsos.gov/election/files/hist/canvass1982ge.pdf",
+  "source_sha256": "d866a263f8865b642e999bf8612c875d134e93770165a4bb6db8cd9b6cb8b915",
+  "source_notes": "1982 regular Arizona gubernatorial election. County and statewide cells transcribed from page 2 of the official canvass issued by the Arizona Secretary of State (1982-11-22); every candidate's county cells sum to the printed statewide TOTAL, and the statewide totals also match Wikipedia's results table (https://en.wikipedia.org/wiki/1982_Arizona_gubernatorial_election). Every cell was first transcribed from RightDataUSA's county page and then checked against the canvass with no differences. La Paz County did not exist until 1983, so results are for the 14 counties then in existence and Yuma is the larger pre-1983 Yuma County. Named write-ins are itemized as the canvass prints them. Election-wide registration, ballots cast and turnout are the official figures from page 1 of the canvass. The canvass PDF was supplied by the project maintainer and is retained with its SHA-256.",
   "reference_path": "data/raw/governor-historical/1982-transcription.csv",
   "provenance_path": "data/raw/governor-historical/1982-provenance.json",
   "additional_sources": [
@@ -37,13 +37,19 @@
       "url": "https://en.wikipedia.org/wiki/1982_Arizona_gubernatorial_election",
       "sha256": "9b7d35eb6a92f5beab5f2536318c5b6eb4d5083a131ca6a8a88e5edb362a2e98",
       "notes": "Secondary source used only to cross-check statewide totals and itemize write-ins. It cites the official canvass at https://azmemory.azlibrary.gov/nodes/view/102678. Retrieved 2026-11-01."
+    },
+    {
+      "id": "rightdatausa-1982-governor",
+      "title": "RightDataUSA — 1982 Gubernatorial Election Results for Arizona (county results, comparison)",
+      "url": "https://www.rightdatausa.com/election_results?y=1982&t=G&r=N&s=AZ&d=all&WhichMap=vs",
+      "sha256": "5da771c2fe787b8d8dc2d79f3065875e5c99c026ae30336687e9d57d4b2f3347",
+      "notes": "Secondary compilation used for the first transcription and then checked cell by cell against the official canvass."
     }
   ],
-  "status_ceiling": "secondary",
   "reviewed_county_differences": {},
   "input_validation": {
     "source_checksums_validated": true,
-    "candidate_count": 4,
+    "candidate_count": 6,
     "county_count": 14
   },
   "candidates": [
@@ -121,28 +127,182 @@
     },
     {
       "id": "governor-1982-3",
-      "name": "Unattributed write-ins",
-      "party": "NONE",
+      "name": "Frank Henry Beversdorf, Sr.",
+      "party": "IND",
       "write_in": true,
-      "category": "aggregate_write_in",
+      "category": "named_candidate",
       "county_votes": {
         "04001": 0,
         "04003": 0,
-        "04005": 6,
+        "04005": 0,
         "04007": 0,
         "04009": 0,
         "04011": 0,
-        "04013": 23,
+        "04013": 1,
         "04015": 0,
-        "04017": 7,
+        "04017": 1,
+        "04019": 0,
+        "04021": 0,
+        "04023": 0,
+        "04025": 0,
+        "04027": 0
+      },
+      "statewide": 2
+    },
+    {
+      "id": "governor-1982-4",
+      "name": "Dave Duncan",
+      "party": "REP",
+      "write_in": true,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 0,
+        "04003": 0,
+        "04005": 4,
+        "04007": 0,
+        "04009": 0,
+        "04011": 0,
+        "04013": 18,
+        "04015": 0,
+        "04017": 5,
+        "04019": 0,
+        "04021": 0,
+        "04023": 0,
+        "04025": 1,
+        "04027": 0
+      },
+      "statewide": 28
+    },
+    {
+      "id": "governor-1982-5",
+      "name": "Sandy Greeneltch",
+      "party": "NONE",
+      "write_in": true,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 0,
+        "04003": 0,
+        "04005": 2,
+        "04007": 0,
+        "04009": 0,
+        "04011": 0,
+        "04013": 4,
+        "04015": 0,
+        "04017": 1,
         "04019": 2,
         "04021": 1,
         "04023": 0,
-        "04025": 2,
+        "04025": 1,
         "04027": 2
       },
-      "statewide": 43
+      "statewide": 13
     }
   ],
-  "turnout": {}
+  "turnout": {
+    "04001": {
+      "ballots_cast": 10450,
+      "registered_voters": 16905,
+      "percent": 61.82,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1982-governor"
+    },
+    "04003": {
+      "ballots_cast": 20610,
+      "registered_voters": 29192,
+      "percent": 70.6,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1982-governor"
+    },
+    "04005": {
+      "ballots_cast": 21949,
+      "registered_voters": 35466,
+      "percent": 61.89,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1982-governor"
+    },
+    "04007": {
+      "ballots_cast": 12030,
+      "registered_voters": 17746,
+      "percent": 67.79,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1982-governor"
+    },
+    "04009": {
+      "ballots_cast": 6825,
+      "registered_voters": 9794,
+      "percent": 69.69,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1982-governor"
+    },
+    "04011": {
+      "ballots_cast": 3382,
+      "registered_voters": 4753,
+      "percent": 71.16,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1982-governor"
+    },
+    "04013": {
+      "ballots_cast": 399987,
+      "registered_voters": 623521,
+      "percent": 64.15,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1982-governor"
+    },
+    "04015": {
+      "ballots_cast": 18946,
+      "registered_voters": 28063,
+      "percent": 67.51,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1982-governor"
+    },
+    "04017": {
+      "ballots_cast": 14352,
+      "registered_voters": 21764,
+      "percent": 65.94,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1982-governor"
+    },
+    "04019": {
+      "ballots_cast": 161060,
+      "registered_voters": 245930,
+      "percent": 65.49,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1982-governor"
+    },
+    "04021": {
+      "ballots_cast": 22114,
+      "registered_voters": 33181,
+      "percent": 66.65,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1982-governor"
+    },
+    "04023": {
+      "ballots_cast": 4994,
+      "registered_voters": 7270,
+      "percent": 68.69,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1982-governor"
+    },
+    "04025": {
+      "ballots_cast": 26994,
+      "registered_voters": 38501,
+      "percent": 70.11,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1982-governor"
+    },
+    "04027": {
+      "ballots_cast": 19230,
+      "registered_voters": 28763,
+      "percent": 66.86,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1982-governor"
+    },
+    "04": {
+      "ballots_cast": 742923,
+      "registered_voters": 1140849,
+      "percent": 65.12,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1982-governor"
+    }
+  }
 }

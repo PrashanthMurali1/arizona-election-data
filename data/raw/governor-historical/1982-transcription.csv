@@ -2,4 +2,6 @@ party,name,write_in,04001,04003,04005,04007,04009,04011,04013,04015,04017,04019,
 DEM,Bruce Babbitt,false,6584,13196,14773,7343,4127,2578,228217,10533,8566,113982,14527,3519,14339,11511,453795,named_candidate
 REP,Leo Corbet,false,2723,6082,4997,3645,2123,580,142938,6617,4611,38235,5882,1098,9930,6416,235877,named_candidate
 LBT,Sam Steiger,false,546,815,1643,769,399,125,20457,1033,759,5873,1076,161,2127,866,36649,named_candidate
-NONE,Unattributed write-ins,true,0,0,6,0,0,0,23,0,7,2,1,0,2,2,43,aggregate_write_in
+IND,"Frank Henry Beversdorf, Sr.",true,0,0,0,0,0,0,1,0,1,0,0,0,0,0,2,named_candidate
+REP,Dave Duncan,true,0,0,4,0,0,0,18,0,5,0,0,0,1,0,28,named_candidate
+NONE,Sandy Greeneltch,true,0,0,2,0,0,0,4,0,1,2,1,0,1,2,13,named_candidate

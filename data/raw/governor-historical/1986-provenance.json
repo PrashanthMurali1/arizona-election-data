@@ -21,14 +21,13 @@
     "04025",
     "04027"
   ],
-  "status_ceiling": "secondary",
   "reviewed_county_differences": {},
-  "source_id": "rightdatausa-1986-governor",
-  "source_title": "RightDataUSA — 1986 Gubernatorial Election Results for Arizona (county results)",
-  "source_url": "https://www.rightdatausa.com/election_results?y=1986&t=G&r=N&s=AZ&d=all&WhichMap=vs",
+  "source_id": "canvass-1986-governor",
+  "source_title": "Arizona Secretary of State — 1986 official canvass",
+  "source_url": "https://apps.azsos.gov/election/files/hist/canvass1986ge.pdf",
   "retrieved_on": "2026-11-01",
   "retrieval_precision": "date",
-  "source_notes": "1986 regular Arizona gubernatorial election. NOT verified against an official canvass: the Secretary of State canvass was not available. County and statewide cells are transcribed from RightDataUSA's county results page (a secondary source, supplied as a saved copy). Every candidate's county cells sum to the statewide total printed on the page, the page's county TOTAL column agrees where it is visible, and the statewide totals match Wikipedia's results table (https://en.wikipedia.org/wiki/1986_Arizona_gubernatorial_election), which cites the official canvass. Wikipedia cites the official canvass at https://azmemory.azlibrary.gov/nodes/view/102682. Turnout is not shown: RightDataUSA's turnout percentages are its own derived figures, not an official count.",
+  "source_notes": "1986 regular Arizona gubernatorial election. County and statewide cells transcribed from page 2 of the official canvass issued by the Arizona Secretary of State (1986-11-24); every candidate's county cells sum to the printed statewide TOTAL, and the statewide totals also match Wikipedia's results table (https://en.wikipedia.org/wiki/1986_Arizona_gubernatorial_election). Every cell was first transcribed from RightDataUSA's county page and then checked against the canvass with no differences. Election-wide registration and turnout are the official figures already imported with the same election's Senate canvass. The canvass PDF was supplied by the project maintainer and is retained with its SHA-256.",
   "additional_sources": [
     {
       "id": "wikipedia-1986-arizona-governor",
@@ -36,12 +35,23 @@
       "url": "https://en.wikipedia.org/wiki/1986_Arizona_gubernatorial_election",
       "sha256": "2f9fc5c8a8ebb0d888254c809c53b2cf8b69825b66922f43747d331ec897f318",
       "notes": "Secondary source used only to cross-check statewide totals and itemize write-ins. It cites the official canvass at https://azmemory.azlibrary.gov/nodes/view/102682. Retrieved 2026-11-01."
+    },
+    {
+      "id": "rightdatausa-1986-governor",
+      "title": "RightDataUSA — 1986 Gubernatorial Election Results for Arizona (county results, comparison)",
+      "url": "https://www.rightdatausa.com/election_results?y=1986&t=G&r=N&s=AZ&d=all&WhichMap=vs",
+      "sha256": "d69e85fbce5f6d53b6fbf1724b67cdd562f6df2ef498a01439c07132110a72d9",
+      "notes": "Secondary compilation used for the first transcription and then checked cell by cell against the official canvass."
     }
   ],
   "snapshots": [
     {
       "path": "data/raw/governor-historical/1986-transcription.csv",
       "sha256": "00707c1e24708e1c66f8591e46ca1edc611a7e044100c00cfe5abf8e4a93a0d9"
+    },
+    {
+      "path": "data/raw/governor-historical/pdfs/canvass1986ge.pdf",
+      "sha256": "9099172a3e53cc23f7dffcb93e9a728bad33f932b09312e972f929cdfe1c2705"
     },
     {
       "path": "data/raw/governor-historical/pdfs/rightdatausa-1986-arizona-governor.pdf",
@@ -51,5 +61,8 @@
       "path": "data/raw/governor-historical/wikipedia/1986-arizona-gubernatorial-election.wikitext",
       "sha256": "2f9fc5c8a8ebb0d888254c809c53b2cf8b69825b66922f43747d331ec897f318"
     }
-  ]
+  ],
+  "reported_at": "1986-11-24",
+  "report_time_precision": "date",
+  "canvass_page": 2
 }

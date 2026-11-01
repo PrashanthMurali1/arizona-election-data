@@ -42,6 +42,17 @@ def normalize(raw: Path) -> Path:
             })
     if len(candidates) != provenance["candidate_count"] or len({c["name"] for c in candidates}) != len(candidates):
         raise ValueError("Incomplete or duplicate Governor candidate roster")
+    turnout = {}
+    if provenance.get("turnout_path"):
+        for row in csv.DictReader((ROOT / provenance["turnout_path"]).open(encoding="utf-8", newline="")):
+            turnout[row["geoid"]] = {k: float(row[k]) if k == "percent" else int(row[k]) for k in ["ballots_cast", "registered_voters", "percent"]}
+            turnout[row["geoid"]]["definition"] = provenance["turnout_definition"]
+            turnout[row["geoid"]]["source_id"] = provenance["source_id"]
+        if set(turnout) != {"04", *units}:
+            raise ValueError("Turnout must cover every county and the state")
+        for key in ["ballots_cast", "registered_voters"]:
+            if sum(v[key] for g, v in turnout.items() if g != "04") != turnout["04"][key]:
+                raise ValueError(f"Official turnout county sum does not reconcile: {key}")
     data = {
         "year": year,
         "date": provenance["election_date"],
@@ -60,12 +71,13 @@ def normalize(raw: Path) -> Path:
         "reference_path": raw.relative_to(ROOT).as_posix(),
         "provenance_path": provenance_path.relative_to(ROOT).as_posix(),
         "additional_sources": provenance["additional_sources"],
-        "status_ceiling": provenance["status_ceiling"],
         "reviewed_county_differences": provenance["reviewed_county_differences"],
         "input_validation": {"source_checksums_validated": True, "candidate_count": len(candidates), "county_count": len(units)},
         "candidates": candidates,
-        "turnout": {},
+        "turnout": turnout,
     }
+    if provenance.get("status_ceiling"):
+        data["status_ceiling"] = provenance["status_ceiling"]
     OUT.mkdir(parents=True, exist_ok=True)
     out = OUT / f"az-{year}-governor.json"
     out.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8", newline="\n")
@@ -75,4 +87,5 @@ def normalize(raw: Path) -> Path:
 
 if __name__ == "__main__":
     for transcription in sorted(RAW.glob("*-transcription.csv")):
-        normalize(transcription)
+        if "-turnout-" not in transcription.name:
+            normalize(transcription)

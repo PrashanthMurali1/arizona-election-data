@@ -22,10 +22,14 @@ EXPECTED = {
     1970: (2, 0, 411409, "Jack Williams", 209356, 14),
     1974: (3, 1, 552202, "Raul Castro", 278375, 14),
     1978: (4, 0, 538556, "Bruce Babbitt", 282605, 14),
-    1982: (4, 1, 726364, "Bruce Babbitt", 453795, 14),
+    1982: (6, 3, 726364, "Bruce Babbitt", 453795, 14),
     1986: (3, 0, 866984, "Evan Mecham", 343913, 15),
-    1990: (4, 2, 1055406, "Fife Symington", 523984, 15),
+    1990: (9, 7, 1055406, "Fife Symington", 523984, 15),
 }
+OFFICIAL_YEARS = (1978, 1982, 1986, 1990)
+SECONDARY_YEARS = (1966, 1970, 1974)
+# Ballots cast statewide (official canvass page 1) for the years whose turnout this import supplies.
+OFFICIAL_BALLOTS = {1978: 551169, 1982: 742923, 1986: 889668, 1990: 1094735}
 RAW = ROOT / "data/raw/governor-historical"
 
 
@@ -34,34 +38,38 @@ def contest_id(year):
 
 
 @pytest.mark.parametrize("year", EXPECTED)
-def test_results_are_shown_but_never_marked_verified(client, year):
+def test_results_and_status(client, year):
     count, write_ins, total, winner, winner_votes, counties = EXPECTED[year]
     detail = client.get(f"/api/elections/{contest_id(year)}").json()
     election, state = detail["election"], detail["statewide"]
-    assert election["status"] == "secondary" and state["status"] == "secondary"
+    status = "verified" if year in OFFICIAL_YEARS else "secondary"
+    assert election["status"] == state["status"] == status
     assert election["candidate_count"] == count and election["county_count"] == counties
     assert state["total_votes"] == total
     assert (state["winner"]["name"], state["winner"]["votes"]) == (winner, winner_votes)
     assert sum(c["write_in"] for c in state["candidates"]) == write_ins
-    assert detail["reconciliation"]["status"] == "secondary"
-    assert "NOT verified against an official canvass" in election["notes"]
+    assert detail["reconciliation"]["status"] == status
+    assert ("NOT verified against an official canvass" in election["notes"]) == (year in SECONDARY_YEARS)
     assert any(s["id"] == f"rightdatausa-{year}-governor" for s in detail["sources"])
+    assert any(s["id"] == f"canvass-{year}-governor" for s in detail["sources"]) == (year in OFFICIAL_YEARS)
     assert f"en.wikipedia.org/wiki/{year}_Arizona_gubernatorial_election" in election["notes"]
     rows = client.get(f"/api/elections/{contest_id(year)}/counties").json()
     assert len(rows) == counties
     for row in rows:
-        assert row["winner"] is not None and row["status"] == "secondary"
+        assert row["winner"] is not None and row["status"] == status
         assert sum(c["percent"] for c in row["candidates"]) == pytest.approx(100)
     for candidate in state["candidates"]:
         county_sum = sum(next(c["votes"] for c in row["candidates"] if c["id"] == candidate["id"]) for row in rows)
-        # 1990's reviewed Goddard shortfall is the only county/state difference.
-        assert county_sum == candidate["votes"] - (200 if (year, candidate["name"]) == (1990, "Terry Goddard") else 0)
+        assert county_sum == candidate["votes"]
+    report = detail["reconciliation"]
+    assert all(c["difference"] == 0 and not c["county_reference_mismatches"] for c in report["candidates"])
 
 
-def test_1990_goddard_difference_is_reviewed_and_visible(client):
-    report = client.get("/api/elections/az-1990-governor").json()["reconciliation"]
-    differences = {c["candidate"]: c["difference"] for c in report["candidates"] if c["difference"]}
-    assert differences == {"Terry Goddard": -200}
+def test_1990_goddard_gila_cell_corrected_by_the_canvass(client):
+    gila = {c["name"]: c["votes"] for c in client.get("/api/elections/az-1990-governor/counties/04007").json()["candidates"]}
+    assert gila["Terry Goddard"] == 7893 and gila["Fife Symington"] == 6283
+    names = {c["name"] for c in client.get("/api/elections/az-1990-governor").json()["statewide"]["candidates"]}
+    assert {"Max Hawkins", "Ed Yetman", "Robert B. Winn"} <= names and "Unattributed write-ins" not in names
 
 
 def test_pre_1983_elections_use_the_fourteen_county_boundary(client):
@@ -89,8 +97,13 @@ def test_turnout_belongs_to_the_election_not_to_a_governor_import(client):
     state = client.get("/api/elections/az-1986-governor").json()["statewide"]
     assert state["turnout"]["ballots_cast"] == 889668
     assert state["turnout"]["source_id"] == "canvass-1986-us-senate"
+    for year in OFFICIAL_YEARS:
+        state = client.get(f"/api/elections/{contest_id(year)}").json()["statewide"]
+        assert state["turnout"]["ballots_cast"] == OFFICIAL_BALLOTS[year]
+        counties = client.get(f"/api/elections/{contest_id(year)}/counties").json()
+        assert sum(c["turnout"]["ballots_cast"] for c in counties) == OFFICIAL_BALLOTS[year]
     # Elections without an official turnout source show none instead of an invented value.
-    for year in (1966, 1970, 1974, 1978, 1982, 1990):
+    for year in SECONDARY_YEARS:
         assert client.get(f"/api/elections/{contest_id(year)}").json()["statewide"]["turnout"]["ballots_cast"] is None
     with SessionLocal() as s:
         before = s.scalar(select(func.count()).select_from(Turnout))
@@ -99,20 +112,19 @@ def test_turnout_belongs_to_the_election_not_to_a_governor_import(client):
         assert s.scalar(select(func.count()).select_from(Turnout)) == before
 
 
-def test_status_ceiling_is_what_keeps_these_years_unverified():
+def test_status_ceiling_keeps_only_unchecked_years_below_verified():
     for year in EXPECTED:
         path = ROOT / f"data/processed/governor-historical/{contest_id(year)}.json"
         data = json.loads(path.read_text(encoding="utf-8"))
-        assert data["status_ceiling"] == "secondary" and data["turnout"] == {}
-        assert reconcile(data, ROOT / data["reference_path"])["status"] == "secondary"
-        uncapped = copy.deepcopy(data)
-        del uncapped["status_ceiling"]
-        # Without the ceiling the same data would reconcile; the cap is a source-quality decision.
-        expected = {1990: "reported"}.get(year, "verified")
-        assert reconcile(uncapped, ROOT / data["reference_path"])["status"] == expected
-        if year == 1990:
-            uncapped["reviewed_county_differences"] = {}
-            assert reconcile(uncapped, ROOT / data["reference_path"])["status"] == "incomplete"
+        status = reconcile(data, ROOT / data["reference_path"])["status"]
+        if year in OFFICIAL_YEARS:
+            assert "status_ceiling" not in data and status == "verified"
+        else:
+            assert data["status_ceiling"] == "secondary" and status == "secondary"
+            uncapped = copy.deepcopy(data)
+            del uncapped["status_ceiling"]
+            # Without the ceiling the same data would reconcile; the cap is a source-quality decision.
+            assert reconcile(uncapped, ROOT / data["reference_path"])["status"] == "verified"
 
 
 def test_sources_normalization_and_wikipedia_cross_check():
@@ -129,5 +141,4 @@ def test_sources_normalization_and_wikipedia_cross_check():
         assert check["totals_match"] and check["all_named_match"]
         assert check.get("write_ins", {"match": True})["match"]
         for c in data["candidates"]:
-            shortfall = -200 if (year, c["name"]) == (1990, "Terry Goddard") else 0
-            assert sum(c["county_votes"].values()) - c["statewide"] == shortfall
+            assert sum(c["county_votes"].values()) == c["statewide"]

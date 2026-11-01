@@ -78,7 +78,7 @@
         "wikipedia": 241093,
         "match": true
       },
-      "Gene Lewster": {
+      "V. Gene Lewter": {
         "rightdatausa": 10421,
         "wikipedia": 10421,
         "match": true
@@ -93,7 +93,7 @@
     "wikipedia_total": 538556,
     "totals_match": true,
     "all_named_match": true,
-    "name_note": "Wikipedia prints the Libertarian as V. Gene Lewter; RightDataUSA prints Gene Lewster."
+    "name_note": "RightDataUSA printed the Libertarian as Gene Lewster; the official canvass and Wikipedia print V. Gene Lewter."
   },
   "1982": {
     "canvass_cited_by_wikipedia": "https://azmemory.azlibrary.gov/nodes/view/102678",
@@ -119,13 +119,23 @@
     "totals_match": true,
     "all_named_match": true,
     "write_ins": {
-      "rightdatausa_other": 43,
-      "wikipedia_itemized": {
-        "Dave Duncan": 28,
-        "Sandy Greeneltch": 13,
-        "Frank Henry Beversdorf, Sr.": 2
+      "itemized": {
+        "Dave Duncan": {
+          "ours": 28,
+          "wikipedia": 28,
+          "match": true
+        },
+        "Sandy Greeneltch": {
+          "ours": 13,
+          "wikipedia": 13,
+          "match": true
+        },
+        "Frank Henry Beversdorf, Sr.": {
+          "ours": 2,
+          "wikipedia": 2,
+          "match": true
+        }
       },
-      "wikipedia_itemized_sum": 43,
       "match": true
     }
   },
@@ -177,16 +187,38 @@
     "totals_match": true,
     "all_named_match": true,
     "write_ins": {
-      "rightdatausa_other": 748,
-      "wikipedia_itemized": {
-        "Ed Yetman": 316,
-        "Rick Lee Campbell": 163,
-        "Allen Weinstein": 76,
-        "Patrick P. Castronovo": 75,
-        "Robert P. Winn": 64,
-        "Peter J. Cojanis": 54
+      "itemized": {
+        "Ed Yetman": {
+          "ours": 316,
+          "wikipedia": 316,
+          "match": true
+        },
+        "Rick Lee Campbell": {
+          "ours": 163,
+          "wikipedia": 163,
+          "match": true
+        },
+        "Allen Weinstein": {
+          "ours": 76,
+          "wikipedia": 76,
+          "match": true
+        },
+        "Patrick P. Castronovo": {
+          "ours": 75,
+          "wikipedia": 75,
+          "match": true
+        },
+        "Robert B. Winn": {
+          "ours": 64,
+          "wikipedia": 64,
+          "match": true
+        },
+        "Peter J. Cojanis": {
+          "ours": 54,
+          "wikipedia": 54,
+          "match": true
+        }
       },
-      "wikipedia_itemized_sum": 748,
       "match": true
     },
     "hawkins_note": "Wikipedia lists Max Hawkins (Stop Abortion) as a write-in."
