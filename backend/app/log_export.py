@@ -11,13 +11,13 @@ from urllib.request import Request, urlopen
 
 LIFECYCLE = {'backend_started', 'backend_stopped', 'scheduler_started', 'scheduler_stopped',
              'refresh_completed', 'tunnel_started', 'tunnel_stopped', 'caddy_started', 'caddy_stopped',
-             'deployment_adopted', 'deployment_started', 'deployment_succeeded', 'deployment_noop'}
+             'deployment_adopted', 'deployment_started', 'deployment_succeeded', 'deployment_noop', 'deployment_data_applied'}
 ENDPOINTS = {'US': 'https://log-api.newrelic.com/log/v1',
              'EU': 'https://log-api.eu.newrelic.com/log/v1'}
 FIELDS = {'timestamp', 'severity', 'service', 'event', 'correlation_id', 'route', 'feed',
           'outcome', 'duration_ms', 'status_code', 'exit_code', 'suppressed_count', 'exception',
           'trace.id', 'span.id', 'entity.guid', 'entity.name', 'entity.type'}
-FIELDS.update({'commit_sha', 'services', 'phase', 'rollback', 'reason', 'next_action', 'changed_data_paths'})
+FIELDS.update({'commit_sha', 'services', 'phase', 'rollback', 'reason', 'next_action', 'changed_data_paths', 'data_version'})
 
 
 class LogExporter:

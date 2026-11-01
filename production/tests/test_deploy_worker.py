@@ -40,6 +40,9 @@ def worker(tmp_path,monkeypatch):
         config=str(worker.config_path('previous',cfg)),assets=['/assets/old.js'])
     worker.save()
     monkeypatch.setattr(worker,'cleanup_candidates',lambda:True)
+    (tmp_path/'data').mkdir(exist_ok=True)
+    (tmp_path/'data/data-release.json').write_text(json.dumps({'version':1,'summary':'Test release'}))
+    monkeypatch.setattr(worker,'data_database_state',lambda:dict(version=1,release={'commit_sha':'b'*40,'fingerprint':d.data_fingerprint({})},pending=None))
     return worker
 
 
@@ -167,15 +170,15 @@ def stub_cycle(worker,monkeypatch,tmp_path):
     monkeypatch.setattr(worker,'fetch',lambda:SHA)
     monkeypatch.setattr(worker,'release',lambda sha:tmp_path)
     monkeypatch.setattr(worker,'render',lambda path:config())
-    monkeypatch.setattr(worker,'entries',lambda sha:{})
+    monkeypatch.setattr(worker,'entries',lambda sha:{'data/processed/1994.json':'changed'})
     monkeypatch.setattr(worker,'git',lambda *args:'data/processed/1994.json')
 
 
-def test_data_change_requires_data_release_acknowledgement(worker,monkeypatch,tmp_path):
+def test_unversioned_data_change_requires_bump_or_emergency_acknowledgement(worker,monkeypatch,tmp_path):
     stub_cycle(worker,monkeypatch,tmp_path)
     with pytest.raises(d.Failure) as raised:
         worker.cycle()
-    assert raised.value.reason=='data_release_required'
+    assert raised.value.reason=='data_version_not_bumped'
     worker.acknowledge_data_release(SHA)
     worker.cycle()
     assert worker.state['last_result']['status']=='noop'
@@ -210,7 +213,7 @@ def test_data_release_acknowledgement_is_commit_specific(worker,monkeypatch,tmp_
     worker.acknowledge_data_release('c'*40)
     with pytest.raises(d.Failure) as raised:
         worker.cycle()
-    assert raised.value.reason=='data_release_required'
+    assert raised.value.reason=='data_version_not_bumped'
 
 
 def test_dirty_checkout_is_never_reset(worker,monkeypatch):

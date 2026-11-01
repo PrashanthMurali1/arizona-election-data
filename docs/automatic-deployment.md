@@ -80,3 +80,68 @@ Changes to the installed deployment engine must be reviewed/tested and installed
 ## Validation
 
 The cleanup was tested with mocked deployments and disposable resources. Deployment, logging, exporter and Linux refresh-lock tests pass in a disposable container without production data volumes or credentials. Relay tests cover confirmed absence versus discovery errors, data-preserving artifact removal, safe failure journaling and rejection of obsolete authority rollback. The live app retains its original images and data; no deployment/refresh failure was induced.
+
+
+## Automatic versioned data releases
+
+`data/data-release.json` is the release contract: a positive, increasing integer
+`version` and a one-line `summary` (maximum 200 characters). Regenerate and review
+processed inputs when changing raw sources; the statewide importer consumes
+processed JSON rather than normalizing all raw files. House normalizes its inputs.
+Before merging, run:
+
+```powershell
+python scripts/check_data_version.py origin/main
+```
+
+The Data version GitHub Actions workflow checks PRs and main commits. Configure
+its `check-data-version` job as a required branch protection check on GitHub.
+The checker includes staged, unstaged and untracked data by default; pass `HEAD`
+as the second argument to check committed content only. Exact generated reports
+are excluded; geography, raw inputs and provenance are never blanket-excluded.
+
+Inside the existing serialized deployment cycle, before image builds or tests,
+the worker compares the descriptor with production SQLite `PRAGMA user_version`
+and the immutable `data_release_history` ledger. Identical version/content is a
+read-only no-op. New content at the same version or a decreasing version fails
+with a specific sanitized reason. Successful import remains recorded even if
+later image build/tests fail; a retry does not import it again.
+
+A newer supported release takes an online backup, then runs the deployed backend
+image with candidate import scripts and a writable private copy of candidate
+data (including an explicit replacement for the inherited raw-data mount).
+The one-off container acquires the Linux refresh lock, backs up again inside
+that lock, and records `data_release_pending` before importing affected offices.
+Quick-check, foreign-key checks and nondecreasing contest count must pass before
+history insertion, version advancement and pending removal commit atomically.
+The original deployment lock and Relay resource lock serialize scheduled jobs.
+No initialize/migrate dependency is implicitly launched.
+
+Mappings cover Governor, Attorney General, Senate and House, including shared
+statewide canvasses. Unknown data paths, geography/2026 inputs, and data combined
+with schema/model/database/runtime dependency changes fail before import. These
+require a separately reviewed release procedure; they are never silently skipped.
+
+Imports can commit before a later office/report fails. Such failures retain the
+pending fingerprint and backup, leave the version unadvanced, and stop before
+build/tests. Inspect the database and importer using disposable copies, then use
+Relay Retry for the same content. Conflicting pending content requires deliberate
+operator recovery; do not clear the record or restore an older DB automatically.
+A stable import container name detects a daemon-side process left running after
+a CLI timeout and defers instead of launching a second importer. Never remove an
+active import container to force a retry.
+
+`ack-data-release --commit <full-sha>` is an emergency, commit-specific override
+that bypasses automatic data validation/import and emits a warning. It does not
+advance the version or fabricate a ledger. Normal releases need no import/ack.
+The initial v1 ledger is anchored specifically to the already-imported Governor
+release `c237d04`, after backup and verification; it does not import that data twice.
+
+Deployment logs retain the existing rotation and New Relic caps. The sanitized
+`deployment_data_applied` summary is forwarded through the existing exporter;
+failures use existing preflight/backup/migrate phases and bounded reason codes.
+Check `.production/deploy/logs/deploy.jsonl`, Relay run logs, worker `status`, and
+SQLite release history/pending for incident diagnosis. Import stdout/stderr is
+discarded to avoid secret-bearing diagnostic output. Private staging copies are
+removed after success; failed copies are retained for deliberate investigation.
+Application image rollback never rolls back imported production data.
