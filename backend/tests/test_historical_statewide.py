@@ -12,12 +12,14 @@ def test_reviewed_difference_does_not_hide_other_source_errors():
     import copy
     from scripts.import_data import reconcile
     data = json.loads((ROOT / 'data/processed/1994.json').read_text(encoding='utf-8'))
-    assert reconcile(data)['status'] == 'reported'
+    assert reconcile(data)['status'] == 'verified' and 'reviewed_county_differences' not in data
     bad = copy.deepcopy(data)
     bad['candidates'][0]['county_votes']['04001'] += 1
     assert reconcile(bad)['status'] == 'incomplete'
+    # The one-vote Crawford difference was a transcription omission (Yavapai 1); losing that cell must fail again.
     bad = copy.deepcopy(data)
-    bad.pop('reviewed_county_differences')
+    crawford = next(c for c in bad['candidates'] if 'CRAWFORD' in c['name'])
+    crawford['county_votes']['04025'] -= 1
     assert reconcile(bad)['status'] == 'incomplete'
 
 @pytest.mark.parametrize('year', [1994, 1998, 2002, 2006, 2010])
@@ -30,14 +32,8 @@ def test_historical_coverage(year, office):
         assert '\\' not in data['reference_path']
     reference = ROOT / data.get('reference_path', f'data/raw/{year}-governor-transcription.csv')
     report = reconcile(data, reference)
-    if year == 1994 and office == 'governor':
-        assert report['status'] == 'reported'
-        differences = [c for c in report['candidates'] if c['difference'] != 0]
-        assert len(differences) == 1
-        assert differences[0]['difference'] == -1
-        assert 'CRAWFORD' in differences[0]['candidate']
-    else:
-        assert report['status'] == 'verified'
+    assert report['status'] == 'verified'
+    assert all(c['difference'] == 0 for c in report['candidates'])
     assert report['complete_county_count'] == 15
     expected = {'governor': {1994:10,1998:7,2002:10,2006:6,2010:7}, 'attorney-general':{1994:2,1998:3,2002:3,2006:2,2010:2}}
     assert len(data['candidates']) == expected[office][year]
@@ -75,12 +71,12 @@ with TestClient(app) as client:
                 base=f'/api/elections/az-{year}-{office}'
                 response=client.get(base)
                 assert response.status_code==200, response.text
-                discrepancy = year==1994 and office=='governor'
-                assert response.json()['election']['status']==('reported' if discrepancy else 'verified')
+                discrepancy = False
+                assert response.json()['election']['status']=='verified'
                 rows=client.get(base+'/counties').json()
                 assert len(rows)==15
                 assert sum(r['total_votes'] for r in rows)==response.json()['statewide']['total_votes']-(1 if discrepancy else 0)
-                if discrepancy:
+                if year==1994 and office=='governor':
                     state=response.json()['statewide']
                     crawford=next(c for c in state['candidates'] if 'CRAWFORD' in c['name'])
                     assert crawford['votes']==11 and crawford['percent'] is not None

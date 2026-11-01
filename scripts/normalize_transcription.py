@@ -57,8 +57,7 @@ def normalize(year):
         data["source_title"] = f"{year} Arizona General Election — Official Canvass"
         data["source_notes"] = 'Official general-election canvass: statewide and county candidate results, plus election-wide registration, ballots cast and turnout. All reported candidates and named write-ins are included.'
         if year == 1994:
-            data["source_notes"] = 'Arizona Secretary of State official general-election canvass, November 28, 1994. Published statewide and county candidate results (page 2); election-wide registration, ballots cast and turnout (page 1). All reported candidates and named write-ins are included.'
-            data["reviewed_county_differences"] = {'CHARLES M. "CHUCK" CRAWFORD': -1}
+            data["source_notes"] = 'Arizona Secretary of State official general-election canvass, November 28, 1994 (page 2: Governor; page 1: election-wide registration, ballots cast and turnout). The canvass PDF supplied by the project maintainer is retained with its SHA-256 and every cell, including all named write-ins, was checked against it. All reported candidates and named write-ins are included.'
     output = ROOT / f"data/processed/{year}.json"
     output.write_text(
         json.dumps(data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8"
