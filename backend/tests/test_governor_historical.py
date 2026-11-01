@@ -46,7 +46,7 @@ def test_results_are_shown_but_never_marked_verified(client, year):
     assert detail["reconciliation"]["status"] == "secondary"
     assert "NOT verified against an official canvass" in election["notes"]
     assert any(s["id"] == f"rightdatausa-{year}-governor" for s in detail["sources"])
-    assert any(s["id"] == f"wikipedia-{year}-arizona-governor" for s in detail["sources"])
+    assert f"en.wikipedia.org/wiki/{year}_Arizona_gubernatorial_election" in election["notes"]
     rows = client.get(f"/api/elections/{contest_id(year)}/counties").json()
     assert len(rows) == counties
     for row in rows:

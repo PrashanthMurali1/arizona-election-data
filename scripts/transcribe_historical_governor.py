@@ -166,7 +166,7 @@ def write(year):
         f"{year} regular Arizona gubernatorial election. NOT verified against an official canvass: the Secretary of State canvass was not available. "
         "County and statewide cells are transcribed from RightDataUSA's county results page (a secondary source, supplied as a saved copy). "
         "Every candidate's county cells sum to the statewide total printed on the page, the page's county TOTAL column agrees where it is visible, "
-        "and the statewide totals match Wikipedia's results table, which cites the official canvass. "
+        "and the statewide totals match Wikipedia's results table (" + WIKI_URL.format(year=year) + "), which cites the official canvass. "
         + ("La Paz County did not exist until 1983, so results are for the 14 counties then in existence and Yuma is the larger pre-1983 Yuma County. " if year < FIRST_15_COUNTY_YEAR else "")
         + ("RightDataUSA reports write-ins only as one 'Other' total; it is shown as a single aggregate row. " if any(len(r) > 5 for r in rows) else "")
         + (f"Wikipedia itemizes those write-ins ({', '.join(f'{n} {v:,}' for n, v in wiki['write_ins'].items())}); they add up to the same total. " if wiki["write_ins"] else "")
