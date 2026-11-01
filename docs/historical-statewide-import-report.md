@@ -2,6 +2,8 @@
 
 Added Governor 1994, 1998, 2002, 2006 and 2010; Attorney General 1994, 1998, 2002, 2006 and 2010. Each has every candidate reported in its canvass table, all fifteen county cells and separately reported statewide totals. All nine contests reconcile exactly.
 
+**Update (official canvass checked):** the official 1994 canvass PDF was later supplied and retained; it showed the one-vote Crawford difference described below was an omitted cell (Yavapai, 1), now fixed, and 1994 Governor is `verified` with no differences. The text below is the original note.
+
 1994 Governor is active with status `reported`. Per user direction, the published statewide total is authoritative for display: Charles M. "Chuck" Crawford has 11 statewide votes; the indexed county cells sum to 10. Both are retained without adjustment. All ten candidates and fifteen counties display, with statewide vote shares calculated from the published statewide candidate totals (1,129,607 votes). The reviewed one-vote difference is explicitly declared in normalized metadata and remains visible in reconciliation in the retained audit data. It is not marked fully reconciled. No cause, including overseas voting, is inferred. Other discrepancies or source mismatches still fail validation.
 
 A civicAPI lookup was attempted on October 31, 2026; the attempted race-list route returned HTTP 404 (retained in `data/raw/historical-statewide/1994-civicapi-check.json`). This does not establish whether civicAPI holds the election, and no civicAPI verification is claimed. Display uses the published official statewide total as requested.

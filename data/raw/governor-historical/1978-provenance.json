@@ -1,0 +1,73 @@
+{
+  "year": 1978,
+  "election_date": "1978-11-07",
+  "contest_id": "az-1978-governor",
+  "contest_kind": "regular",
+  "candidate_count": 4,
+  "expected_units": [
+    "04001",
+    "04003",
+    "04005",
+    "04007",
+    "04009",
+    "04011",
+    "04013",
+    "04015",
+    "04017",
+    "04019",
+    "04021",
+    "04023",
+    "04025",
+    "04027"
+  ],
+  "reviewed_county_differences": {},
+  "source_id": "canvass-1978-governor",
+  "source_title": "Arizona Secretary of State — 1978 official canvass",
+  "source_url": "https://apps.azsos.gov/election/files/hist/canvass1978ge.pdf",
+  "retrieved_on": "2026-11-01",
+  "retrieval_precision": "date",
+  "source_notes": "1978 regular Arizona gubernatorial election. County and statewide cells transcribed from page 1 of the official canvass issued by the Arizona Secretary of State (1978-11-27); every candidate's county cells sum to the printed statewide TOTAL, and the statewide totals also match Wikipedia's results table (https://en.wikipedia.org/wiki/1978_Arizona_gubernatorial_election). Every cell was first transcribed from RightDataUSA's county page and then checked against the canvass with no differences. La Paz County did not exist until 1983, so results are for the 14 counties then in existence and Yuma is the larger pre-1983 Yuma County. RightDataUSA printed the Libertarian as Gene Lewster; the official canvass and Wikipedia print V. Gene Lewter. The canvass prints Navajo County turnout as 57.79%, though its own ballots and registration give 58.05%; the printed percentage is kept as published. Election-wide registration, ballots cast and turnout are the official figures from page 1 of the canvass. The canvass PDF was supplied by the project maintainer and is retained with its SHA-256.",
+  "additional_sources": [
+    {
+      "id": "wikipedia-1978-arizona-governor",
+      "title": "Wikipedia — 1978 Arizona gubernatorial election (statewide cross-check)",
+      "url": "https://en.wikipedia.org/wiki/1978_Arizona_gubernatorial_election",
+      "sha256": "8893d7a2bb394b61c8d7a8c1e643e66eb267238b46597929632dc42d1178222f",
+      "notes": "Secondary source used only to cross-check statewide totals and itemize write-ins. It cites the official canvass at https://azmemory.azlibrary.gov/nodes/view/102673. Retrieved 2026-11-01."
+    },
+    {
+      "id": "rightdatausa-1978-governor",
+      "title": "RightDataUSA — 1978 Gubernatorial Election Results for Arizona (county results, comparison)",
+      "url": "https://www.rightdatausa.com/election_results?y=1978&t=G&r=N&s=AZ&d=all&WhichMap=vs",
+      "sha256": "e155062bd4635eb31b8f37030d7d7e37540647628dfb8c4dbfaaecad22b35ede",
+      "notes": "Secondary compilation used for the first transcription and then checked cell by cell against the official canvass."
+    }
+  ],
+  "snapshots": [
+    {
+      "path": "data/raw/governor-historical/1978-transcription.csv",
+      "sha256": "cdac0871a1562e0f96bf493e1464cc216055cfc754fdfae72ba39224f1a7ea6c"
+    },
+    {
+      "path": "data/raw/governor-historical/pdfs/canvass1978ge.pdf",
+      "sha256": "4aede91ebe58883839ef8ecaddb7bde5e7bd7392ad0bb415a28f1fd9fb47d172"
+    },
+    {
+      "path": "data/raw/governor-historical/pdfs/rightdatausa-1978-arizona-governor.pdf",
+      "sha256": "e155062bd4635eb31b8f37030d7d7e37540647628dfb8c4dbfaaecad22b35ede"
+    },
+    {
+      "path": "data/raw/governor-historical/wikipedia/1978-arizona-gubernatorial-election.wikitext",
+      "sha256": "8893d7a2bb394b61c8d7a8c1e643e66eb267238b46597929632dc42d1178222f"
+    },
+    {
+      "path": "data/raw/governor-historical/1978-turnout-transcription.csv",
+      "sha256": "a241675be49befd39c2995932d8f3cd88466d6ebdfeff4f5be62eeb4434ad427"
+    }
+  ],
+  "reported_at": "1978-11-27",
+  "report_time_precision": "date",
+  "canvass_page": 1,
+  "turnout_path": "data/raw/governor-historical/1978-turnout-transcription.csv",
+  "turnout_definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass."
+}

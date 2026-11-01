@@ -1,0 +1,232 @@
+{
+  "1966": {
+    "canvass_cited_by_wikipedia": "https://azmemory.azlibrary.gov/nodes/view/102661",
+    "named_candidates": {
+      "Jack Williams": {
+        "rightdatausa": 203438,
+        "wikipedia": 203438,
+        "match": true
+      },
+      "Sam Goddard": {
+        "rightdatausa": 174904,
+        "wikipedia": 174904,
+        "match": true
+      }
+    },
+    "rightdatausa_total": 378342,
+    "wikipedia_total": 378342,
+    "totals_match": true,
+    "all_named_match": true
+  },
+  "1970": {
+    "canvass_cited_by_wikipedia": "https://azmemory.azlibrary.gov/nodes/view/102665",
+    "named_candidates": {
+      "Jack Williams": {
+        "rightdatausa": 209356,
+        "wikipedia": 209356,
+        "match": true
+      },
+      "Raul Castro": {
+        "rightdatausa": 202053,
+        "wikipedia": 202053,
+        "match": true
+      }
+    },
+    "rightdatausa_total": 411409,
+    "wikipedia_total": 411409,
+    "totals_match": true,
+    "all_named_match": true
+  },
+  "1974": {
+    "canvass_cited_by_wikipedia": "https://azmemory.azlibrary.gov/nodes/view/102669",
+    "named_candidates": {
+      "Raul Castro": {
+        "rightdatausa": 278375,
+        "wikipedia": 278375,
+        "match": true
+      },
+      "Russell Williams": {
+        "rightdatausa": 273674,
+        "wikipedia": 273674,
+        "match": true
+      }
+    },
+    "rightdatausa_total": 552202,
+    "wikipedia_total": 552202,
+    "totals_match": true,
+    "all_named_match": true,
+    "write_ins": {
+      "itemized": {
+        "Wonderful Russ Shaw": {
+          "ours": 149,
+          "wikipedia": 149,
+          "match": true
+        },
+        "Harold Bates": {
+          "ours": 4,
+          "wikipedia": 4,
+          "match": true
+        }
+      },
+      "match": true
+    }
+  },
+  "1978": {
+    "canvass_cited_by_wikipedia": "https://azmemory.azlibrary.gov/nodes/view/102673",
+    "named_candidates": {
+      "Bruce Babbitt": {
+        "rightdatausa": 282605,
+        "wikipedia": 282605,
+        "match": true
+      },
+      "Evan Mecham": {
+        "rightdatausa": 241093,
+        "wikipedia": 241093,
+        "match": true
+      },
+      "V. Gene Lewter": {
+        "rightdatausa": 10421,
+        "wikipedia": 10421,
+        "match": true
+      },
+      "Jessica Sampson": {
+        "rightdatausa": 4437,
+        "wikipedia": 4437,
+        "match": true
+      }
+    },
+    "rightdatausa_total": 538556,
+    "wikipedia_total": 538556,
+    "totals_match": true,
+    "all_named_match": true,
+    "name_note": "RightDataUSA printed the Libertarian as Gene Lewster; the official canvass and Wikipedia print V. Gene Lewter."
+  },
+  "1982": {
+    "canvass_cited_by_wikipedia": "https://azmemory.azlibrary.gov/nodes/view/102678",
+    "named_candidates": {
+      "Bruce Babbitt": {
+        "rightdatausa": 453795,
+        "wikipedia": 453795,
+        "match": true
+      },
+      "Leo Corbet": {
+        "rightdatausa": 235877,
+        "wikipedia": 235877,
+        "match": true
+      },
+      "Sam Steiger": {
+        "rightdatausa": 36649,
+        "wikipedia": 36649,
+        "match": true
+      }
+    },
+    "rightdatausa_total": 726364,
+    "wikipedia_total": 726364,
+    "totals_match": true,
+    "all_named_match": true,
+    "write_ins": {
+      "itemized": {
+        "Dave Duncan": {
+          "ours": 28,
+          "wikipedia": 28,
+          "match": true
+        },
+        "Sandy Greeneltch": {
+          "ours": 13,
+          "wikipedia": 13,
+          "match": true
+        },
+        "Frank Henry Beversdorf, Sr.": {
+          "ours": 2,
+          "wikipedia": 2,
+          "match": true
+        }
+      },
+      "match": true
+    }
+  },
+  "1986": {
+    "canvass_cited_by_wikipedia": "https://azmemory.azlibrary.gov/nodes/view/102682",
+    "named_candidates": {
+      "Evan Mecham": {
+        "rightdatausa": 343913,
+        "wikipedia": 343913,
+        "match": true
+      },
+      "Carolyn Warner": {
+        "rightdatausa": 298986,
+        "wikipedia": 298986,
+        "match": true
+      },
+      "Bill Schulz": {
+        "rightdatausa": 224085,
+        "wikipedia": 224085,
+        "match": true
+      }
+    },
+    "rightdatausa_total": 866984,
+    "wikipedia_total": 866984,
+    "totals_match": true,
+    "all_named_match": true
+  },
+  "1990": {
+    "canvass_cited_by_wikipedia": "https://azmemory.azlibrary.gov/nodes/view/102686",
+    "named_candidates": {
+      "Fife Symington": {
+        "rightdatausa": 523984,
+        "wikipedia": 523984,
+        "match": true
+      },
+      "Terry Goddard": {
+        "rightdatausa": 519691,
+        "wikipedia": 519691,
+        "match": true
+      },
+      "Max Hawkins": {
+        "rightdatausa": 10983,
+        "wikipedia": 10983,
+        "match": true
+      }
+    },
+    "rightdatausa_total": 1055406,
+    "wikipedia_total": 1055406,
+    "totals_match": true,
+    "all_named_match": true,
+    "write_ins": {
+      "itemized": {
+        "Ed Yetman": {
+          "ours": 316,
+          "wikipedia": 316,
+          "match": true
+        },
+        "Rick Lee Campbell": {
+          "ours": 163,
+          "wikipedia": 163,
+          "match": true
+        },
+        "Allen Weinstein": {
+          "ours": 76,
+          "wikipedia": 76,
+          "match": true
+        },
+        "Patrick P. Castronovo": {
+          "ours": 75,
+          "wikipedia": 75,
+          "match": true
+        },
+        "Robert B. Winn": {
+          "ours": 64,
+          "wikipedia": 64,
+          "match": true
+        },
+        "Peter J. Cojanis": {
+          "ours": 54,
+          "wikipedia": 54,
+          "match": true
+        }
+      },
+      "match": true
+    },
+    "hawkins_note": "Wikipedia lists Max Hawkins (Stop Abortion) as a write-in."
+  }
+}

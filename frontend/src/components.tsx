@@ -33,7 +33,9 @@ export function Availability({
                 ? "Unofficial results"
                 : status === "reported"
                   ? "Official results"
-                  : "Incomplete")}
+                  : status === "secondary"
+                    ? "Secondary-source results"
+                    : "Incomplete")}
     </span>
   );
 }
@@ -270,7 +272,9 @@ export function CandidateOverview({
           ? "Shares use the listed civicAPI candidates."
           : results.status === "reported"
             ? "Vote shares use all published statewide candidate totals, including write-ins."
-            : "Vote shares include all verified candidates and write-ins."}
+            : results.status === "secondary"
+              ? "Vote shares use all candidate totals in the secondary source, including write-ins."
+              : "Vote shares include all verified candidates and write-ins."}
       </p>
     </section>
   );

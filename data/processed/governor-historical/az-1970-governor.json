@@ -1,0 +1,212 @@
+{
+  "year": 1970,
+  "date": "1970-11-03",
+  "event_id": "az-1970-general",
+  "contest_id": "az-1970-governor",
+  "contest_kind": "regular",
+  "office_id": "governor",
+  "office": "Governor",
+  "boundary_id": "county-1966-1982",
+  "expected_units": [
+    "04001",
+    "04003",
+    "04005",
+    "04007",
+    "04009",
+    "04011",
+    "04013",
+    "04015",
+    "04017",
+    "04019",
+    "04021",
+    "04023",
+    "04025",
+    "04027"
+  ],
+  "source_id": "canvass-1970-governor",
+  "source_title": "Arizona Secretary of State — 1970 official canvass",
+  "source_url": "https://apps.azsos.gov/election/files/hist/canvass1970ge.pdf",
+  "source_sha256": "8e4a248228eec03f4e783ebbf1acc8336771478352974dbc295ad9c4eb044e9f",
+  "source_notes": "1970 regular Arizona gubernatorial election. County and statewide cells transcribed from page 2 of the official canvass issued by the Arizona Secretary of State (1970-11-27); every candidate's county cells sum to the printed statewide TOTAL, and the statewide totals also match Wikipedia's results table (https://en.wikipedia.org/wiki/1970_Arizona_gubernatorial_election). Every cell was first transcribed from RightDataUSA's county page and then checked against the canvass with no differences. La Paz County did not exist until 1983, so results are for the 14 counties then in existence and Yuma is the larger pre-1983 Yuma County. The canvass prints Mohave County turnout as 57.59%, though its own ballots and registration give 64.20%; the printed percentage is kept as published. Election-wide registration, ballots cast and turnout are the official figures from page 1 of the canvass. The canvass PDF was supplied by the project maintainer and is retained with its SHA-256.",
+  "reference_path": "data/raw/governor-historical/1970-transcription.csv",
+  "provenance_path": "data/raw/governor-historical/1970-provenance.json",
+  "additional_sources": [
+    {
+      "id": "wikipedia-1970-arizona-governor",
+      "title": "Wikipedia — 1970 Arizona gubernatorial election (statewide cross-check)",
+      "url": "https://en.wikipedia.org/wiki/1970_Arizona_gubernatorial_election",
+      "sha256": "9e5db12cea53b758ca56319674bf8863c02cd955634d9290ab3555f6ffc13c59",
+      "notes": "Secondary source used only to cross-check statewide totals and itemize write-ins. It cites the official canvass at https://azmemory.azlibrary.gov/nodes/view/102665. Retrieved 2026-11-01."
+    },
+    {
+      "id": "rightdatausa-1970-governor",
+      "title": "RightDataUSA — 1970 Gubernatorial Election Results for Arizona (county results, comparison)",
+      "url": "https://www.rightdatausa.com/election_results?y=1970&t=G&r=N&s=AZ&d=all&WhichMap=vs",
+      "sha256": "25280ca3a9610ccef809d7d5c7683e32997bbe7e4e7c673bdbd38f18f7e5ff1b",
+      "notes": "Secondary compilation used for the first transcription and then checked cell by cell against the official canvass."
+    }
+  ],
+  "reviewed_county_differences": {},
+  "input_validation": {
+    "source_checksums_validated": true,
+    "candidate_count": 2,
+    "county_count": 14
+  },
+  "candidates": [
+    {
+      "id": "governor-1970-0",
+      "name": "Jack Williams",
+      "party": "REP",
+      "write_in": false,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 1745,
+        "04003": 5712,
+        "04005": 4305,
+        "04007": 2951,
+        "04009": 2078,
+        "04011": 822,
+        "04013": 133336,
+        "04015": 2846,
+        "04017": 4335,
+        "04019": 32750,
+        "04021": 5786,
+        "04023": 824,
+        "04025": 7052,
+        "04027": 4814
+      },
+      "statewide": 209356
+    },
+    {
+      "id": "governor-1970-1",
+      "name": "Raul Castro",
+      "party": "DEM",
+      "write_in": false,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 1684,
+        "04003": 8138,
+        "04005": 4471,
+        "04007": 4907,
+        "04009": 2343,
+        "04011": 2239,
+        "04013": 96525,
+        "04015": 2797,
+        "04017": 3330,
+        "04019": 55245,
+        "04021": 7861,
+        "04023": 2123,
+        "04025": 4093,
+        "04027": 6297
+      },
+      "statewide": 202053
+    }
+  ],
+  "turnout": {
+    "04001": {
+      "ballots_cast": 3620,
+      "registered_voters": 6382,
+      "percent": 56.72,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1970-governor"
+    },
+    "04003": {
+      "ballots_cast": 14204,
+      "registered_voters": 19963,
+      "percent": 71.16,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1970-governor"
+    },
+    "04005": {
+      "ballots_cast": 9037,
+      "registered_voters": 13768,
+      "percent": 65.64,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1970-governor"
+    },
+    "04007": {
+      "ballots_cast": 8127,
+      "registered_voters": 11687,
+      "percent": 69.53,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1970-governor"
+    },
+    "04009": {
+      "ballots_cast": 4531,
+      "registered_voters": 6308,
+      "percent": 71.82,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1970-governor"
+    },
+    "04011": {
+      "ballots_cast": 3179,
+      "registered_voters": 4270,
+      "percent": 74.44,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1970-governor"
+    },
+    "04013": {
+      "ballots_cast": 234246,
+      "registered_voters": 349236,
+      "percent": 67.08,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1970-governor"
+    },
+    "04015": {
+      "ballots_cast": 5598,
+      "registered_voters": 8720,
+      "percent": 57.59,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1970-governor"
+    },
+    "04017": {
+      "ballots_cast": 7925,
+      "registered_voters": 11656,
+      "percent": 68.0,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1970-governor"
+    },
+    "04019": {
+      "ballots_cast": 90132,
+      "registered_voters": 126313,
+      "percent": 71.36,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1970-governor"
+    },
+    "04021": {
+      "ballots_cast": 14088,
+      "registered_voters": 20752,
+      "percent": 67.89,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1970-governor"
+    },
+    "04023": {
+      "ballots_cast": 3022,
+      "registered_voters": 4357,
+      "percent": 69.36,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1970-governor"
+    },
+    "04025": {
+      "ballots_cast": 11436,
+      "registered_voters": 16846,
+      "percent": 67.88,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1970-governor"
+    },
+    "04027": {
+      "ballots_cast": 11484,
+      "registered_voters": 18193,
+      "percent": 63.12,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1970-governor"
+    },
+    "04": {
+      "ballots_cast": 420629,
+      "registered_voters": 618451,
+      "percent": 68.01,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1970-governor"
+    }
+  }
+}

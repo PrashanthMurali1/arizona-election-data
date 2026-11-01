@@ -1,0 +1,74 @@
+{
+  "year": 1990,
+  "election_date": "1990-11-06",
+  "contest_id": "az-1990-governor",
+  "contest_kind": "regular",
+  "candidate_count": 9,
+  "expected_units": [
+    "04001",
+    "04003",
+    "04005",
+    "04007",
+    "04009",
+    "04011",
+    "04012",
+    "04013",
+    "04015",
+    "04017",
+    "04019",
+    "04021",
+    "04023",
+    "04025",
+    "04027"
+  ],
+  "reviewed_county_differences": {},
+  "source_id": "canvass-1990-governor",
+  "source_title": "Arizona Secretary of State — 1990 official canvass",
+  "source_url": "https://apps.azsos.gov/election/files/hist/canvass1990ge.pdf",
+  "retrieved_on": "2026-11-01",
+  "retrieval_precision": "date",
+  "source_notes": "1990 regular Arizona gubernatorial election. County and statewide cells transcribed from page 2 of the official canvass issued by the Arizona Secretary of State (1990-11-26); every candidate's county cells sum to the printed statewide TOTAL, and the statewide totals also match Wikipedia's results table (https://en.wikipedia.org/wiki/1990_Arizona_gubernatorial_election). Every cell was first transcribed from RightDataUSA's county page and then checked against the canvass, which corrected one cell (Terry Goddard, Gila: 7,693 to 7,893) and closed the 200-vote gap on that page. Named write-ins are itemized as the canvass prints them. The canvass notes a runoff election was to be held under Arizona Constitution Art. V, Sec. 1 because no candidate won a majority; the runoff is not part of this general-election contest. Election-wide registration, ballots cast and turnout are the official figures from page 1 of the canvass. The canvass PDF was supplied by the project maintainer and is retained with its SHA-256.",
+  "additional_sources": [
+    {
+      "id": "wikipedia-1990-arizona-governor",
+      "title": "Wikipedia — 1990 Arizona gubernatorial election (statewide cross-check)",
+      "url": "https://en.wikipedia.org/wiki/1990_Arizona_gubernatorial_election",
+      "sha256": "b1df4ba4c5583959c51d871000aa171b77b4eb2c0a9cda929d4ead1e3f4ccb69",
+      "notes": "Secondary source used only to cross-check statewide totals and itemize write-ins. It cites the official canvass at https://azmemory.azlibrary.gov/nodes/view/102686. Retrieved 2026-11-01."
+    },
+    {
+      "id": "rightdatausa-1990-governor",
+      "title": "RightDataUSA — 1990 Gubernatorial Election Results for Arizona (county results, comparison)",
+      "url": "https://www.rightdatausa.com/election_results?y=1990&t=G&r=N&s=AZ&d=all&WhichMap=vs",
+      "sha256": "10d5ad76e01b9f9179b06545422b54cf900938c856eaee491b1d02d56a0a58ca",
+      "notes": "Secondary compilation used for the first transcription and then checked cell by cell against the official canvass."
+    }
+  ],
+  "snapshots": [
+    {
+      "path": "data/raw/governor-historical/1990-transcription.csv",
+      "sha256": "c90c78b6167676a765c9034e449ab6fc1788c1372d65e0598f16b4ff579dfc59"
+    },
+    {
+      "path": "data/raw/governor-historical/pdfs/canvass1990ge.pdf",
+      "sha256": "a292fe914c38d14c685d1c06a340dc3dcae586f99d8482faad4aa19878a7ee68"
+    },
+    {
+      "path": "data/raw/governor-historical/pdfs/rightdatausa-1990-arizona-governor.pdf",
+      "sha256": "10d5ad76e01b9f9179b06545422b54cf900938c856eaee491b1d02d56a0a58ca"
+    },
+    {
+      "path": "data/raw/governor-historical/wikipedia/1990-arizona-gubernatorial-election.wikitext",
+      "sha256": "b1df4ba4c5583959c51d871000aa171b77b4eb2c0a9cda929d4ead1e3f4ccb69"
+    },
+    {
+      "path": "data/raw/governor-historical/1990-turnout-transcription.csv",
+      "sha256": "b5fca82b77c637722224e59478a9403a955715a0cc463b6dbf05c936a35e3912"
+    }
+  ],
+  "reported_at": "1990-11-26",
+  "report_time_precision": "date",
+  "canvass_page": 2,
+  "turnout_path": "data/raw/governor-historical/1990-turnout-transcription.csv",
+  "turnout_definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass."
+}

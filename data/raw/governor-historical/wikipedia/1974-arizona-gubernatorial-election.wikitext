@@ -1,0 +1,409 @@
+{{Short description|none}}
+{{for|related races|1974 United States gubernatorial elections}}
+{{Use American English|date=January 2025}}
+<!-- "none" is preferred when the title is sufficiently descriptive; see [[WP:SDNONE]] -->
+{{Use mdy dates|date=September 2023}}
+{{Infobox election
+| election_name = 1974 Arizona gubernatorial election
+| country = Arizona
+| type = Presidential
+| ongoing = no
+| previous_election = 1970 Arizona gubernatorial election
+| previous_year = 1970
+| next_election = 1978 Arizona gubernatorial election
+| next_year = 1978
+| election_date = November 5, 1974
+| image1 = Raul Hector Castro swearing in as Ambassador to Argentina (cropped).jpg
+| image_upright = 0.6
+| nominee1 = '''[[Raúl Héctor Castro]]'''
+| party1 = Democratic Party (United States)
+| popular_vote1 = '''278,375'''
+| percentage1 = '''50.41%'''
+| image2 = No image.svg
+| nominee2 = Russell Williams
+| party2 = Republican Party (United States)
+| popular_vote2 = 273,674
+| percentage2 = 49.56%
+| map_image = 1974 Arizona gubernatorial election results map by county.svg
+| map_size = 220px
+| map_caption = County results<br>'''Castro''':  {{legend0|#7996e2|50–60%}} {{legend0|#6674de|60–70%}} <br/>'''Williams''': {{legend0|#e27f7f|50–60%}}
+| title = Governor
+| before_election = [[Jack Williams (American politician)|Jack Williams]]
+| before_party = Republican Party (United States)
+| after_election = [[Raúl Héctor Castro]]
+| after_party = Democratic Party (United States)
+}}
+{{ElectionsAZ}}
+The '''1974 Arizona gubernatorial election''' took place on November 5, 1974. Incumbent Governor [[Jack Williams (American politician)|Jack Williams]] decided not to run for a fourth term as governor. Former [[United States Ambassador to Bolivia]] [[Raúl Héctor Castro]], who was the Democratic nominee in 1970, won the Democratic nomination again in 1974, and narrowly won the general election, defeating Republican nominee Russell Williams by 0.85%. Castro was sworn into his first and only term as governor on January 6, 1975.
+
+Prior to the election, there was a recall effort led by [[Cesar Chavez]] against incumbent Governor Jack Williams, with 180,000 signatures submitted. Many of the signatures were invalidated by Attorney General Gary Nelson, but this was eventually overturned. By the time this occurred, however, it was meaningless due to the close proximity of the 1974 gubernatorial election, and thus a recall election did not occur.<ref>{{Cite web|url=http://archive.azcentral.com/news/opinions/columns/articles/0515deUriarte15.html|title = Help Center - the Arizona Republic}}</ref>
+
+Approximately two years into his term as governor, Castro would resign to become [[United States Ambassador to Argentina|United States ambassador to Argentina]].
+
+==Republican primary==
+
+===Candidates===
+* [[John D. Driggs]], mayor of Phoenix
+* [[Milton H. Graham]], former mayor of Phoenix
+* William C. Jacquin, president of the State Senate
+* [[Evan Mecham]], former state senator, former nominee for U.S. Senate
+* Russell Williams, member of the [[Arizona Corporation Commission]]
+
+===Results===
+{{Election box begin no change | title=Republican primary results<ref name="primary">{{cite web|url=https://azmemory.azlibrary.gov/nodes/view/102670|title=State of Arizona Official Canvass Primary Election - September 10, 1974|publisher=Arizona Secretary of State|access-date=2024-07-14}}</ref>
+}}
+{{Election box winning candidate with party link no change
+  |party      = Republican Party (United States)
+  |candidate  = Russell Williams
+  |votes      = 53,132
+  |percentage = 35.57%
+}}
+{{Election box candidate with party link no change
+  |party      = Republican Party (United States)
+  |candidate  = [[Evan Mecham]]
+  |votes      = 30,266
+  |percentage = 20.26%
+}}
+{{Election box candidate with party link no change
+  |party      = Republican Party (United States)
+  |candidate  = William C. Jacquin
+  |votes      = 27,138
+  |percentage = 18.17%
+}}
+{{Election box candidate with party link no change
+  |party      = Republican Party (United States)
+  |candidate  = [[John D. Driggs]]
+  |votes      = 23,519
+  |percentage = 15.75%
+}}
+{{Election box candidate with party link no change
+  |party      = Republican Party (United States)
+  |candidate  = [[Milton H. Graham]]
+  |votes      = 15,315
+  |percentage = 10.25%
+}}
+{{Election box total no change
+  |votes      = 149,370
+  |percentage = 100.00%
+}}
+
+{{Election box end}}
+
+==Democratic primary==
+
+===Candidates===
+* [[Raúl Héctor Castro]], former United States ambassador to Bolivia, Democratic nominee for governor in 1970
+* Walter "Denver" Caudill, Tubac Country Club golf professional
+* Dave Moss, real estate broker
+* [[Jack Ross (Arizona politician)|Jack Ross]], car dealer
+
+===Results===
+{{Election box begin no change | title=Democratic primary results<ref name="primary"/>
+}}
+{{Election box winning candidate with party link no change
+  |party      = Democratic Party (United States)
+  |candidate  = [[Raúl Héctor Castro]]
+  |votes      = 115,268
+  |percentage = 67.21%
+}}
+{{Election box candidate with party link no change
+  |party      = Democratic Party (United States)
+  |candidate  = [[Jack Ross (Arizona politician)|Jack Ross]]
+  |votes      = 31,250
+  |percentage = 18.22%
+}}
+{{Election box candidate with party link no change
+  |party      = Democratic Party (United States)
+  |candidate  = Dave Moss
+  |votes      = 19,143
+  |percentage = 11.16%
+}}
+{{Election box candidate with party link no change
+  |party      = Democratic Party (United States)
+  |candidate  = Walter "Denver" Caudill
+  |votes      = 5,843
+  |percentage = 3.41%
+}}
+{{Election box total no change
+  |votes      = 171,504
+  |percentage = 100.00%
+}}
+
+{{Election box end}}
+
+==General election==
+
+===Results===
+{{Election box begin | title=Arizona gubernatorial election, 1974<ref name="results">{{cite web|url=https://azmemory.azlibrary.gov/nodes/view/102669|title=State of Arizona Official Canvass General Election - November 5, 1974|publisher=Arizona Secretary of State|access-date=2024-07-13}}</ref>
+}}
+{{Election box winning candidate with party link|
+  |party = Democratic Party (United States)
+  |candidate = [[Raúl Héctor Castro]]
+  |votes = 278,375
+  |percentage = 50.41%
+  |change = +1.30%
+}}
+{{Election box candidate with party link|
+  |party = Republican Party (United States)
+  |candidate = Russell Williams
+  |votes = 273,674
+  |percentage = 49.56%
+  |change = -1.33%
+}}
+{{Election box candidate with party link|
+  |party = Independent (politician)
+  |candidate = Russell Shaw (write-in)
+  |votes = 149
+  |percentage = 0.03%
+  |change = 
+}}
+{{Election box candidate with party link|
+  |party = Independent (politician)
+  |candidate = Harold Bates (write-in)
+  |votes = 4
+  |percentage = 0.00%
+  |change = 
+}}
+{{Election box majority
+ |votes = 4,701
+ |percentage = 0.85%
+ |change = 
+}}
+{{Election box total
+ |votes = 552,202
+ |percentage = 100.00%
+ |change = 
+}}
+{{Election box gain with party link
+ |winner = Democratic Party (United States)
+ |loser = Republican Party (United States)
+ |swing = +2.63%
+}}
+{{Election box end}}
+
+=== Results by county ===
+{| class="wikitable sortable"
+|-
+! rowspan="2" |County
+! style="text-align:center;" colspan="2"| Raúl Héctor Castro<br />Democratic
+! style="text-align:center;" colspan="2"| Russell Williams<br />Republican
+! style="text-align:center;" colspan="2"| Russell Shaw<br />Write-in
+! style="text-align:center;" colspan="2"| Harold Bates<br />Write-in
+! style="text-align:center;" colspan="2"| Margin
+! style="text-align:center;" rowspan="2"| Total votes<br />cast<ref name="results"/>
+|-
+! style="text-align:center;" data-sort-type="number"| #
+! style="text-align:center;" data-sort-type="number"| %
+! style="text-align:center;" data-sort-type="number"| #
+! style="text-align:center;" data-sort-type="number"| %
+! style="text-align:center;" data-sort-type="number"| #
+! style="text-align:center;" data-sort-type="number"| %
+! style="text-align:center;" data-sort-type="number"| #
+! style="text-align:center;" data-sort-type="number"| %
+! style="text-align:center;" data-sort-type="number"| #
+! style="text-align:center;" data-sort-type="number"| %
+|- style="text-align:center;"
+| {{party shading/Democratic}}|[[Apache County, Arizona|Apache]]
+| {{party shading/Democratic}}|4,482
+| {{party shading/Democratic}}|69.11%
+| {{party shading/Republican}}|2,003
+| {{party shading/Republican}}|30.89%
+| {{party shading/Independent}}|0
+| {{party shading/Independent}}|0.00%
+| {{party shading/Independent}}|0
+| {{party shading/Independent}}|0.00%
+| {{party shading/Democratic}}|2,479
+| {{party shading/Democratic}}|38.23%
+| {{party shading/Democratic}}|6,485
+|- style="text-align:center;"
+| {{party shading/Democratic}}|[[Cochise County, Arizona|Cochise]]
+| {{party shading/Democratic}}|8,779
+| {{party shading/Democratic}}|53.28%
+| {{party shading/Republican}}|7,695
+| {{party shading/Republican}}|46.70%
+| {{party shading/Independent}}|2
+| {{party shading/Independent}}|0.01%
+| {{party shading/Independent}}|0
+| {{party shading/Independent}}|0.00%
+| {{party shading/Democratic}}|1,084
+| {{party shading/Democratic}}|6.58%
+| {{party shading/Democratic}}|16,476
+|- style="text-align:center;"
+| {{party shading/Democratic}}|[[Coconino County, Arizona|Coconino]]
+| {{party shading/Democratic}}|9,601
+| {{party shading/Democratic}}|59.69%
+| {{party shading/Republican}}|6,483
+| {{party shading/Republican}}|40.30%
+| {{party shading/Independent}}|1
+| {{party shading/Independent}}|0.01%
+| {{party shading/Independent}}|0
+| {{party shading/Independent}}|0.00%
+| {{party shading/Democratic}}|3,118
+| {{party shading/Democratic}}|19.38%
+| {{party shading/Democratic}}|16,085
+|- style="text-align:center;"
+| {{party shading/Democratic}}|[[Gila County, Arizona|Gila]]
+| {{party shading/Democratic}}|5,056
+| {{party shading/Democratic}}|55.73%
+| {{party shading/Republican}}|4,015
+| {{party shading/Republican}}|44.26%
+| {{party shading/Independent}}|1
+| {{party shading/Independent}}|0.01%
+| {{party shading/Independent}}|0
+| {{party shading/Independent}}|0.00%
+| {{party shading/Democratic}}|1,041
+| {{party shading/Democratic}}|11,47%
+| {{party shading/Democratic}}|9,072
+|- style="text-align:center;"
+| {{party shading/Republican}}|[[Graham County, Arizona|Graham]]
+| {{party shading/Democratic}}|2,379
+| {{party shading/Democratic}}|46.19%
+| {{party shading/Republican}}|2,772
+| {{party shading/Republican}}|53.81%
+| {{party shading/Independent}}|0
+| {{party shading/Independent}}|0.00%
+| {{party shading/Independent}}|0
+| {{party shading/Independent}}|0.00%
+| {{party shading/Republican}}|-393
+| {{party shading/Republican}}|-7.63%
+| {{party shading/Republican}}|5,151
+|- style="text-align:center;"
+| {{party shading/Democratic}}|[[Greenlee County, Arizona|Greenlee]]
+| {{party shading/Democratic}}|2,262
+| {{party shading/Democratic}}|61.82%
+| {{party shading/Republican}}|1,397
+| {{party shading/Republican}}|38.18%
+| {{party shading/Independent}}|0
+| {{party shading/Independent}}|0.00%
+| {{party shading/Independent}}|0
+| {{party shading/Independent}}|0.00%
+| {{party shading/Democratic}}|865
+| {{party shading/Democratic}}|23.64%
+| {{party shading/Democratic}}|3,659
+|- style="text-align:center;"
+| {{party shading/Republican}}|[[Maricopa County, Arizona|Maricopa]]
+| {{party shading/Democratic}}|139,222
+| {{party shading/Democratic}}|44.84%
+| {{party shading/Republican}}|171,111
+| {{party shading/Republican}}|55.11%
+| {{party shading/Independent}}|135
+| {{party shading/Independent}}|0.04%
+| {{party shading/Independent}}|4
+| {{party shading/Independent}}|0.00%
+| {{party shading/Republican}}|-31,889
+| {{party shading/Republican}}|-10.27%
+| {{party shading/Republican}}|310,472
+|- style="text-align:center;"
+| {{party shading/Democratic}}|[[Mohave County, Arizona|Mohave]]
+| {{party shading/Democratic}}|4,623
+| {{party shading/Democratic}}|50.92%
+| {{party shading/Republican}}|4,449
+| {{party shading/Republican}}|49.00%
+| {{party shading/Independent}}|7
+| {{party shading/Independent}}|0.08%
+| {{party shading/Independent}}|0
+| {{party shading/Independent}}|0.00%
+| {{party shading/Democratic}}|174
+| {{party shading/Democratic}}|1.92%
+| {{party shading/Democratic}}|9,079
+|- style="text-align:center;"
+| {{party shading/Democratic}}|[[Navajo County, Arizona|Navajo]]
+| {{party shading/Democratic}}|6,440
+| {{party shading/Democratic}}|56.80%
+| {{party shading/Republican}}|4,899
+| {{party shading/Republican}}|43.20%
+| {{party shading/Independent}}|0
+| {{party shading/Independent}}|0.00%
+| {{party shading/Independent}}|0
+| {{party shading/Independent}}|0.00%
+| {{party shading/Democratic}}|1,541
+| {{party shading/Democratic}}|13.59%
+| {{party shading/Democratic}}|11,339
+|- style="text-align:center;"
+| {{party shading/Democratic}}|[[Pima County, Arizona|Pima]]
+| {{party shading/Democratic}}|70,919
+| {{party shading/Democratic}}|61.73%
+| {{party shading/Republican}}|43,962
+| {{party shading/Republican}}|38.27%
+| {{party shading/Independent}}|0
+| {{party shading/Independent}}|0.00%
+| {{party shading/Independent}}|0
+| {{party shading/Independent}}|0.00%
+| {{party shading/Democratic}}|26,957
+| {{party shading/Democratic}}|23.47%
+| {{party shading/Democratic}}|114,881
+|- style="text-align:center;"
+| {{party shading/Democratic}}|[[Pinal County, Arizona|Pinal]]
+| {{party shading/Democratic}}|9,405
+| {{party shading/Democratic}}|56.52%
+| {{party shading/Republican}}|7,235
+| {{party shading/Republican}}|43.48%
+| {{party shading/Independent}}|0
+| {{party shading/Independent}}|0.00%
+| {{party shading/Independent}}|0
+| {{party shading/Independent}}|0.00%
+| {{party shading/Democratic}}|2,170
+| {{party shading/Democratic}}|13.04%
+| {{party shading/Democratic}}|16,640
+|- style="text-align:center;"
+| {{party shading/Democratic}}|[[Santa Cruz County, Arizona|Santa Cruz]]
+| {{party shading/Democratic}}|2,238
+| {{party shading/Democratic}}|66.37%
+| {{party shading/Republican}}|1,134
+| {{party shading/Republican}}|33.63%
+| {{party shading/Independent}}|0
+| {{party shading/Independent}}|0.00%
+| {{party shading/Independent}}|0
+| {{party shading/Independent}}|0.00%
+| {{party shading/Democratic}}|1,104
+| {{party shading/Democratic}}|32.74%
+| {{party shading/Democratic}}|3,372
+|- style="text-align:center;"
+| {{party shading/Republican}}|[[Yavapai County, Arizona|Yavapai]]
+| {{party shading/Democratic}}|7,148
+| {{party shading/Democratic}}|43.10%
+| {{party shading/Republican}}|9,432
+| {{party shading/Republican}}|56.88%
+| {{party shading/Independent}}|3
+| {{party shading/Independent}}|0.02%
+| {{party shading/Independent}}|0
+| {{party shading/Independent}}|0.00%
+| {{party shading/Republican}}|-2,284
+| {{party shading/Republican}}|-13.77%
+| {{party shading/Republican}}|16,583
+|- style="text-align:center;"
+| {{party shading/Republican}}|[[Yuma County, Arizona|Yuma]]
+| {{party shading/Democratic}}|5,821
+| {{party shading/Democratic}}|45.10%
+| {{party shading/Republican}}|7,087
+| {{party shading/Republican}}|54.90%
+| {{party shading/Independent}}|0
+| {{party shading/Independent}}|0.00%
+| {{party shading/Independent}}|0
+| {{party shading/Independent}}|0.00%
+| {{party shading/Republican}}|-1,266
+| {{party shading/Republican}}|-9.81%
+| {{party shading/Republican}}|12,908
+|- style="text-align:center;"
+!Totals!!278,375!!50.41%!!273,674!!49.56%!!149!!0.03%!!4!!0.00%!!4,701!!0.85%!!552,202
+|}
+
+====Counties that flipped from Republican to Democratic====
+*[[Apache County, Arizona|Apache]]
+*[[Mohave County, Arizona|Mohave]]
+*[[Navajo County, Arizona|Navajo]]
+
+====Counties that flipped from Democratic to Republican====
+*[[Graham County, Arizona|Graham]]
+*[[Yuma County, Arizona|Yuma]]
+
+==References==
+{{reflist|1}}
+{{United States elections, 1974}}
+{{Arizona gubernatorial elections}}
+
+{{DEFAULTSORT:Arizona Gubernatorial Election, 1974}}
+[[Category:Arizona gubernatorial elections|1974]]
+[[Category:1974 United States gubernatorial elections]]
+[[Category:1974 elections in Arizona|Gubernatorial]]
+[[Category:November 1974 elections in the United States]]

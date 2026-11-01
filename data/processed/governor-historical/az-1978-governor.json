@@ -1,0 +1,260 @@
+{
+  "year": 1978,
+  "date": "1978-11-07",
+  "event_id": "az-1978-general",
+  "contest_id": "az-1978-governor",
+  "contest_kind": "regular",
+  "office_id": "governor",
+  "office": "Governor",
+  "boundary_id": "county-1966-1982",
+  "expected_units": [
+    "04001",
+    "04003",
+    "04005",
+    "04007",
+    "04009",
+    "04011",
+    "04013",
+    "04015",
+    "04017",
+    "04019",
+    "04021",
+    "04023",
+    "04025",
+    "04027"
+  ],
+  "source_id": "canvass-1978-governor",
+  "source_title": "Arizona Secretary of State — 1978 official canvass",
+  "source_url": "https://apps.azsos.gov/election/files/hist/canvass1978ge.pdf",
+  "source_sha256": "cdac0871a1562e0f96bf493e1464cc216055cfc754fdfae72ba39224f1a7ea6c",
+  "source_notes": "1978 regular Arizona gubernatorial election. County and statewide cells transcribed from page 1 of the official canvass issued by the Arizona Secretary of State (1978-11-27); every candidate's county cells sum to the printed statewide TOTAL, and the statewide totals also match Wikipedia's results table (https://en.wikipedia.org/wiki/1978_Arizona_gubernatorial_election). Every cell was first transcribed from RightDataUSA's county page and then checked against the canvass with no differences. La Paz County did not exist until 1983, so results are for the 14 counties then in existence and Yuma is the larger pre-1983 Yuma County. RightDataUSA printed the Libertarian as Gene Lewster; the official canvass and Wikipedia print V. Gene Lewter. The canvass prints Navajo County turnout as 57.79%, though its own ballots and registration give 58.05%; the printed percentage is kept as published. Election-wide registration, ballots cast and turnout are the official figures from page 1 of the canvass. The canvass PDF was supplied by the project maintainer and is retained with its SHA-256.",
+  "reference_path": "data/raw/governor-historical/1978-transcription.csv",
+  "provenance_path": "data/raw/governor-historical/1978-provenance.json",
+  "additional_sources": [
+    {
+      "id": "wikipedia-1978-arizona-governor",
+      "title": "Wikipedia — 1978 Arizona gubernatorial election (statewide cross-check)",
+      "url": "https://en.wikipedia.org/wiki/1978_Arizona_gubernatorial_election",
+      "sha256": "8893d7a2bb394b61c8d7a8c1e643e66eb267238b46597929632dc42d1178222f",
+      "notes": "Secondary source used only to cross-check statewide totals and itemize write-ins. It cites the official canvass at https://azmemory.azlibrary.gov/nodes/view/102673. Retrieved 2026-11-01."
+    },
+    {
+      "id": "rightdatausa-1978-governor",
+      "title": "RightDataUSA — 1978 Gubernatorial Election Results for Arizona (county results, comparison)",
+      "url": "https://www.rightdatausa.com/election_results?y=1978&t=G&r=N&s=AZ&d=all&WhichMap=vs",
+      "sha256": "e155062bd4635eb31b8f37030d7d7e37540647628dfb8c4dbfaaecad22b35ede",
+      "notes": "Secondary compilation used for the first transcription and then checked cell by cell against the official canvass."
+    }
+  ],
+  "reviewed_county_differences": {},
+  "input_validation": {
+    "source_checksums_validated": true,
+    "candidate_count": 4,
+    "county_count": 14
+  },
+  "candidates": [
+    {
+      "id": "governor-1978-0",
+      "name": "Bruce Babbitt",
+      "party": "DEM",
+      "write_in": false,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 4498,
+        "04003": 8963,
+        "04005": 10446,
+        "04007": 5715,
+        "04009": 2565,
+        "04011": 2229,
+        "04013": 141177,
+        "04015": 6042,
+        "04017": 6269,
+        "04019": 67904,
+        "04021": 9064,
+        "04023": 2814,
+        "04025": 8386,
+        "04027": 6533
+      },
+      "statewide": 282605
+    },
+    {
+      "id": "governor-1978-1",
+      "name": "Evan Mecham",
+      "party": "REP",
+      "write_in": false,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 1761,
+        "04003": 6251,
+        "04005": 4411,
+        "04007": 3668,
+        "04009": 3085,
+        "04011": 917,
+        "04013": 151079,
+        "04015": 6133,
+        "04017": 4518,
+        "04019": 36197,
+        "04021": 7151,
+        "04023": 1229,
+        "04025": 8978,
+        "04027": 5715
+      },
+      "statewide": 241093
+    },
+    {
+      "id": "governor-1978-2",
+      "name": "V. Gene Lewter",
+      "party": "LBT",
+      "write_in": false,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 196,
+        "04003": 94,
+        "04005": 388,
+        "04007": 160,
+        "04009": 63,
+        "04011": 31,
+        "04013": 6982,
+        "04015": 277,
+        "04017": 179,
+        "04019": 1165,
+        "04021": 284,
+        "04023": 33,
+        "04025": 408,
+        "04027": 161
+      },
+      "statewide": 10421
+    },
+    {
+      "id": "governor-1978-3",
+      "name": "Jessica Sampson",
+      "party": "SWP",
+      "write_in": false,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 169,
+        "04003": 157,
+        "04005": 176,
+        "04007": 80,
+        "04009": 63,
+        "04011": 42,
+        "04013": 2291,
+        "04015": 74,
+        "04017": 136,
+        "04019": 785,
+        "04021": 158,
+        "04023": 45,
+        "04025": 126,
+        "04027": 135
+      },
+      "statewide": 4437
+    }
+  ],
+  "turnout": {
+    "04001": {
+      "ballots_cast": 7142,
+      "registered_voters": 14365,
+      "percent": 49.72,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1978-governor"
+    },
+    "04003": {
+      "ballots_cast": 15931,
+      "registered_voters": 26001,
+      "percent": 61.27,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1978-governor"
+    },
+    "04005": {
+      "ballots_cast": 15789,
+      "registered_voters": 28457,
+      "percent": 55.48,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1978-governor"
+    },
+    "04007": {
+      "ballots_cast": 9889,
+      "registered_voters": 15849,
+      "percent": 62.4,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1978-governor"
+    },
+    "04009": {
+      "ballots_cast": 5962,
+      "registered_voters": 9253,
+      "percent": 64.43,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1978-governor"
+    },
+    "04011": {
+      "ballots_cast": 3334,
+      "registered_voters": 5096,
+      "percent": 65.42,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1978-governor"
+    },
+    "04013": {
+      "ballots_cast": 307537,
+      "registered_voters": 543282,
+      "percent": 56.61,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1978-governor"
+    },
+    "04015": {
+      "ballots_cast": 12879,
+      "registered_voters": 20981,
+      "percent": 61.38,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1978-governor"
+    },
+    "04017": {
+      "ballots_cast": 11420,
+      "registered_voters": 19673,
+      "percent": 57.79,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1978-governor"
+    },
+    "04019": {
+      "ballots_cast": 108305,
+      "registered_voters": 197335,
+      "percent": 54.88,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1978-governor"
+    },
+    "04021": {
+      "ballots_cast": 17433,
+      "registered_voters": 29444,
+      "percent": 59.21,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1978-governor"
+    },
+    "04023": {
+      "ballots_cast": 4324,
+      "registered_voters": 6728,
+      "percent": 64.27,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1978-governor"
+    },
+    "04025": {
+      "ballots_cast": 18263,
+      "registered_voters": 28948,
+      "percent": 63.09,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1978-governor"
+    },
+    "04027": {
+      "ballots_cast": 12961,
+      "registered_voters": 24018,
+      "percent": 53.96,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1978-governor"
+    },
+    "04": {
+      "ballots_cast": 551169,
+      "registered_voters": 969430,
+      "percent": 56.85,
+      "definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass.",
+      "source_id": "canvass-1978-governor"
+    }
+  }
+}

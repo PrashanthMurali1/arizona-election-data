@@ -1,0 +1,658 @@
+{{Short description|none}}
+{{for|related races|1990 United States gubernatorial elections}}
+{{Use American English|date=January 2025}}
+<!-- "none" is preferred when the title is sufficiently descriptive; see [[WP:SDNONE]] -->
+{{Use mdy dates|date=September 2023}}
+{{Infobox election
+| election_name = 1990–91 Arizona gubernatorial election
+| country = Arizona
+| type = presidential
+| ongoing = no
+| previous_election = 1986 Arizona gubernatorial election
+| previous_year = 1986
+| next_election = 1994 Arizona gubernatorial election
+| next_year = 1994
+| election_date = November 6, 1990 (first round)<br>February 26, 1991 (runoff)
+| 1blank = First round
+| 2blank = [[Two-round system|Runoff]]
+| image1 = File:Bush Contact Sheet P19347 (1).jpg
+| image_size = 150x150px
+| candidate1 = '''[[Fife Symington]]'''
+| party1 = Republican Party (United States)
+| 1data1 = '''523,984<br />49.65%'''
+| 2data1 = '''492,569<br />52.36%'''
+| image2 = File:Terry Goddard by Gage Skidmore 2.jpg
+| candidate2 = [[Terry Goddard]]
+| party2 = Democratic Party (United States)
+| 1data2 = '''519,691<br />49.24%'''
+| 2data2 = 448,168<br />47.64%
+| map_image = {{switcher|[[File:1990 Arizona gubernatorial election results map by county.svg|220px]]|First round county results|[[File:1991 Arizona gubernatorial runoff election results map by county.svg|220px]]|Runoff county results|default=2}}
+| map_size = 250px
+| map_caption = '''Symington:''' {{legend0|#e27f7f|50–60%}}<br />'''Goddard:''' {{legend0|#a5b0ff|40–50%}} {{legend0|#7996e2|50–60%}} {{legend0|#6674de|60–70%}} {{legend0|#584cde|70–80%}}
+| title = Governor
+| before_election = [[Rose Mofford]]
+| before_party = Democratic Party (United States)
+| after_election = [[Fife Symington]]
+| after_party = Republican Party (United States)
+}}
+{{ElectionsAZ}}
+The '''1990–91 Arizona gubernatorial election''' took place on November 6, 1990, for the post of [[List of governors of Arizona|Governor of Arizona]]. Incumbent Democratic Governor [[Rose Mofford]] declined to run for a full term. [[Republican Party (United States)|Republican]] [[Fife Symington]] defeated the [[Democratic Party (United States)|Democratic]] nominee and [[Mayor of Phoenix]] [[Terry Goddard]].  Because no candidate received a [[majority]] of votes, a [[runoff election]] was held later on February 26, 1991, which Symington also won. This is the only election where Arizona used a runoff election.
+
+[[Evan Mecham]], a former governor who was removed from office in 1988 upon being convicted in his impeachment trial, unsuccessfully ran for another term in the Republican primary.
+
+==Democratic primary==
+
+===Candidates===
+====Declared====
+* [[Terry Goddard]], mayor of Phoenix
+* Dave Moss, [[perennial candidate]]
+
+====Declined====
+* [[Rose Mofford]], incumbent governor
+
+===Results===
+{{Election box begin no change | title=Democratic primary results <ref name="primary">{{cite web|url=https://azmemory.azlibrary.gov/nodes/view/102687|title=State of Arizona Official Canvass Primary Election - September 11, 1990|publisher=Arizona Secretary of State|access-date=2024-07-14}}</ref>
+}}
+{{Election box winning candidate with party link no change
+  |party      = Democratic Party (United States)
+  |candidate  = [[Terry Goddard]]
+  |votes      = 212,579
+  |percentage = 84.00%
+}}
+{{Election box candidate with party link no change
+  |party      = Democratic Party (United States)
+  |candidate  = Dave Moss
+  |votes      = 40,478
+  |percentage = 16.00%
+}}
+{{Election box total no change
+  |votes      = 253,057
+  |percentage = 100.00%
+}}
+
+{{Election box end}}
+
+==Republican primary==
+
+===Candidates===
+====Declared====
+* Bob Barnes, former governor's aide
+* Fred Koory, Jr, former State Senator
+* [[Evan Mecham]], former governor
+* [[Sam Steiger]], former U.S. Representative for Arizona
+* [[Fife Symington]], real estate developer
+
+===Results===
+{{Election box begin no change | title=Republican primary results <ref name="primary"/>
+}}
+{{Election box winning candidate with party link no change
+  |party      = Republican Party (United States)
+  |candidate  = [[Fife Symington]]
+  |votes      = 163,010
+  |percentage = 43.78%
+}}
+{{Election box candidate with party link no change
+  |party      = Republican Party (United States)
+  |candidate  = [[Evan Mecham]]
+  |votes      = 91,136
+  |percentage = 24.48%
+}}
+{{Election box candidate with party link no change
+  |party      = Republican Party (United States)
+  |candidate  = Fred Koory, Jr
+  |votes      = 61,487
+  |percentage = 16.51%
+}}
+{{Election box candidate with party link no change
+  |party      = Republican Party (United States)
+  |candidate  = [[Sam Steiger]]
+  |votes      = 49,019
+  |percentage = 13.17%
+}}
+{{Election box candidate with party link no change
+  |party      = Republican Party (United States)
+  |candidate  = Bob Barnes
+  |votes      = 7,672
+  |percentage = 2.06%
+}}
+{{Election box total no change
+  |votes      = 372,324
+  |percentage = 100.00%
+}}
+
+{{Election box end}}
+
+==General election==
+
+===Results===
+{{Election box begin | title=Arizona gubernatorial election, 1990<ref name="results">{{cite web|url=https://azmemory.azlibrary.gov/nodes/view/102686|title=State of Arizona Official Canvass - General Election - November 6, 1990|publisher=Arizona Secretary of State|access-date=2024-07-14}}</ref>
+}}
+{{Election box winning candidate with party link|
+  |party = Republican Party (United States)
+  |candidate = [[Fife Symington]]
+  |votes = 523,984
+  |percentage = 49.65%
+  |change = +9.98%
+}}
+{{Election box winning candidate with party link|
+  |party = Democratic Party (United States)
+  |candidate = [[Terry Goddard]]
+  |votes = 519,691
+  |percentage = 49.24%
+  |change = +14.76%
+}}
+{{Election box candidate|
+  |party = Stop Abortion
+  |candidate = Max Hawkins (write-in)
+  |votes = 10,983
+  |percentage = 1.04%
+  |change = +1.04%
+}}
+{{Election box candidate with party link|
+  |party = Arizona Libertarian Party
+  |candidate = Ed Yetman (write-in)
+  |votes = 316
+  |percentage = 0.03%
+  |change = +0.03%
+}}
+{{Election box candidate with party link|
+  |party = Independent
+  |candidate = Rick Lee Campbell (write-in)
+  |votes = 163
+  |percentage = 0.02%
+  |change = 
+}}
+{{Election box candidate with party link|
+  |party = Independent
+  |candidate = Allen Weinstein (write-in)
+  |votes = 76
+  |percentage = 0.01%
+  |change = 
+}}
+{{Election box candidate with party link|
+  |party = Republican Party (United States)
+  |candidate = Patrick P. Castronovo (write-in)
+  |votes = 75
+  |percentage = 0.01%
+  |change = 
+}}
+{{Election box candidate with party link|
+  |party = Independent
+  |candidate = Robert P. Winn (write-in)
+  |votes = 64
+  |percentage = 0.01%
+  |change = 
+}}
+{{Election box candidate with party link|
+  |party = Independent
+  |candidate = Peter J. Cojanis (write-in)
+  |votes = 54
+  |percentage = 0.01%
+  |change = 
+}}
+{{Election box majority
+ |votes = 4,293
+ |percentage = 0.41%
+ |change =
+}}
+{{Election box total
+ |votes = 1,055,406
+ |percentage = 100.00%
+ |change =
+}}
+
+{{Election box end}}
+
+=== Results by county ===
+{| class="wikitable sortable"
+|-
+! rowspan="2" |County
+! style="text-align:center;" colspan="2"| Fife Symington<br />Republican
+! style="text-align:center;" colspan="2"| Terry Goddard<br />Democratic
+! style="text-align:center;" colspan="2"| Max Hawkins<br />Stop Abortion
+! style="text-align:center;" colspan="2"| Ed Yetman<br />Libertarian
+! style="text-align:center;" colspan="2"| All others <br />Write-in
+! style="text-align:center;" colspan="2"| Margin
+! style="text-align:center;" rowspan="2"| Total votes<br />cast<ref name="results"/>
+|-
+! style="text-align:center;" data-sort-type="number"| #
+! style="text-align:center;" data-sort-type="number"| %
+! style="text-align:center;" data-sort-type="number"| #
+! style="text-align:center;" data-sort-type="number"| %
+! style="text-align:center;" data-sort-type="number"| #
+! style="text-align:center;" data-sort-type="number"| %
+! style="text-align:center;" data-sort-type="number"| #
+! style="text-align:center;" data-sort-type="number"| %
+! style="text-align:center;" data-sort-type="number"| #
+! style="text-align:center;" data-sort-type="number"| %
+! style="text-align:center;" data-sort-type="number"| #
+! style="text-align:center;" data-sort-type="number"| %
+|- style="text-align:center;"
+| {{party shading/Democratic}}|[[Apache County, Arizona|Apache]]
+| {{party shading/Republican}}|3,638
+| {{party shading/Republican}}|27.49%
+| {{party shading/Democratic}}|9,485
+| {{party shading/Democratic}}|71.67%
+| {{party shading/Right to Life}}|91
+| {{party shading/Right to Life}}|0.69%
+| {{party shading/Libertarian}}|6
+| {{party shading/Libertarian}}|0.05%
+| {{party shading/Independent}}|14
+| {{party shading/Independent}}|0.11%
+| {{party shading/Democratic}}|−5,847
+| {{party shading/Democratic}}|−44.18%
+| {{party shading/Democratic}}|13,234
+|- style="text-align:center;"
+| {{party shading/Democratic}}|[[Cochise County, Arizona|Cochise]]
+| {{party shading/Republican}}|11,472
+| {{party shading/Republican}}|47.17%
+| {{party shading/Democratic}}|12,685
+| {{party shading/Democratic}}|52.16%
+| {{party shading/Right to Life}}|136
+| {{party shading/Right to Life}}|0.56%
+| {{party shading/Libertarian}}|13
+| {{party shading/Libertarian}}|0.05%
+| {{party shading/Independent}}|14
+| {{party shading/Independent}}|0.06%
+| {{party shading/Democratic}}|−1,213
+| {{party shading/Democratic}}|−4.99%
+| {{party shading/Democratic}}|24,320
+|- style="text-align:center;"
+| {{party shading/Democratic}}|[[Coconino County, Arizona|Coconino]]
+| {{party shading/Republican}}|11,330
+| {{party shading/Republican}}|39.72%
+| {{party shading/Democratic}}|17,050
+| {{party shading/Democratic}}|59.78%
+| {{party shading/Right to Life}}|123
+| {{party shading/Right to Life}}|0.43%
+| {{party shading/Libertarian}}|11
+| {{party shading/Libertarian}}|0.04%
+| {{party shading/Independent}}|8
+| {{party shading/Independent}}|0.03%
+| {{party shading/Democratic}}|−5,720
+| {{party shading/Democratic}}|−20.05%
+| {{party shading/Democratic}}|28,522
+|- style="text-align:center;"
+| {{party shading/Democratic}}|[[Gila County, Arizona|Gila]]
+| {{party shading/Republican}}|6,283
+| {{party shading/Republican}}|43.88%
+| {{party shading/Democratic}}|7,893
+| {{party shading/Democratic}}|55.13%
+| {{party shading/Right to Life}}|128
+| {{party shading/Right to Life}}|0.89%
+| {{party shading/Libertarian}}|5
+| {{party shading/Libertarian}}|0.03%
+| {{party shading/Independent}}|8
+| {{party shading/Independent}}|0.06%
+| {{party shading/Democratic}}|−1,610
+| {{party shading/Democratic}}|−11.25%
+| {{party shading/Democratic}}|14,317
+|- style="text-align:center;"
+| {{party shading/Democratic}}|[[Graham County, Arizona|Graham]]
+| {{party shading/Republican}}|3,614
+| {{party shading/Republican}}|48.47%
+| {{party shading/Democratic}}|3,699
+| {{party shading/Democratic}}|49.61%
+| {{party shading/Right to Life}}|141
+| {{party shading/Right to Life}}|1.89%
+| {{party shading/Libertarian}}|2
+| {{party shading/Libertarian}}|0.03%
+| {{party shading/Independent}}|0
+| {{party shading/Independent}}|0.00%
+| {{party shading/Democratic}}|−85
+| {{party shading/Democratic}}|−1.14%
+| {{party shading/Democratic}}|7,456
+|- style="text-align:center;"
+| {{party shading/Democratic}}|[[Greenlee County, Arizona|Greenlee]]
+| {{party shading/Republican}}|1,071
+| {{party shading/Republican}}|36.70%
+| {{party shading/Democratic}}|1,836
+| {{party shading/Democratic}}|62.92%
+| {{party shading/Right to Life}}|11
+| {{party shading/Right to Life}}|0.38%
+| {{party shading/Libertarian}}|0
+| {{party shading/Libertarian}}|0.00%
+| {{party shading/Independent}}|0
+| {{party shading/Independent}}|0.00%
+| {{party shading/Democratic}}|−765
+| {{party shading/Democratic}}|−26.22%
+| {{party shading/Democratic}}|2,918
+|- style="text-align:center;"
+| {{party shading/Republican}}|[[La Paz County, Arizona|La Paz]]
+| {{party shading/Republican}}|1,829
+| {{party shading/Republican}}|52.45%
+| {{party shading/Democratic}}|1,622
+| {{party shading/Democratic}}|46.52%
+| {{party shading/Right to Life}}|33
+| {{party shading/Right to Life}}|0.95%
+| {{party shading/Libertarian}}|1
+| {{party shading/Libertarian}}|0.03%
+| {{party shading/Independent}}|2
+| {{party shading/Independent}}|0.06%
+| {{party shading/Republican}}|207
+| {{party shading/Republican}}|5.94%
+| {{party shading/Republican}}|3,487
+|- style="text-align:center;"
+| {{party shading/Republican}}|[[Maricopa County, Arizona|Maricopa]]
+| {{party shading/Republican}}|330,261
+| {{party shading/Republican}}|53.17%
+| {{party shading/Democratic}}|282,409
+| {{party shading/Democratic}}|45.46%
+| {{party shading/Right to Life}}|8,156
+| {{party shading/Right to Life}}|1.31%
+| {{party shading/Libertarian}}|139
+| {{party shading/Libertarian}}|0.02%
+| {{party shading/Independent}}|234
+| {{party shading/Independent}}|0.04%
+| {{party shading/Republican}}|47,852
+| {{party shading/Republican}}|7.70%
+| {{party shading/Republican}}|621,199
+|- style="text-align:center;"
+| {{party shading/Republican}}|[[Mohave County, Arizona|Mohave]]
+| {{party shading/Republican}}|14,068
+| {{party shading/Republican}}|51.33%
+| {{party shading/Democratic}}|13,131
+| {{party shading/Democratic}}|47.91%
+| {{party shading/Right to Life}}|154
+| {{party shading/Right to Life}}|0.56%
+| {{party shading/Libertarian}}|11
+| {{party shading/Libertarian}}|0.04%
+| {{party shading/Independent}}|41
+| {{party shading/Independent}}|0.15%
+| {{party shading/Republican}}|937
+| {{party shading/Republican}}|3.42%
+| {{party shading/Republican}}|27,405
+|- style="text-align:center;"
+| {{party shading/Democratic}}|[[Navajo County, Arizona|Navajo]]
+| {{party shading/Republican}}|7,708
+| {{party shading/Republican}}|43.31%
+| {{party shading/Democratic}}|9,867
+| {{party shading/Democratic}}|55.44%
+| {{party shading/Right to Life}}|204
+| {{party shading/Right to Life}}|1.15%
+| {{party shading/Libertarian}}|9
+| {{party shading/Libertarian}}|0.05%
+| {{party shading/Independent}}|11
+| {{party shading/Independent}}|0.06%
+| {{party shading/Democratic}}|−2,159
+| {{party shading/Democratic}}|−12.13%
+| {{party shading/Democratic}}|17,799
+|- style="text-align:center;"
+| {{party shading/Democratic}}|[[Pima County, Arizona|Pima]]
+| {{party shading/Republican}}|87,701
+| {{party shading/Republican}}|43.53%
+| {{party shading/Democratic}}|112,572
+| {{party shading/Democratic}}|55.87%
+| {{party shading/Right to Life}}|1,028
+| {{party shading/Right to Life}}|0.51%
+| {{party shading/Libertarian}}|94
+| {{party shading/Libertarian}}|0.05%
+| {{party shading/Independent}}|83
+| {{party shading/Independent}}|0.04%
+| {{party shading/Democratic}}|−24,871
+| {{party shading/Democratic}}|−12.34%
+| {{party shading/Democratic}}|201,478
+|- style="text-align:center;"
+| {{party shading/Democratic}}|[[Pinal County, Arizona|Pinal]]
+| {{party shading/Republican}}|11,762
+| {{party shading/Republican}}|41.13%
+| {{party shading/Democratic}}|16,562
+| {{party shading/Democratic}}|57.92%
+| {{party shading/Right to Life}}|257
+| {{party shading/Right to Life}}|0.90%
+| {{party shading/Libertarian}}|9
+| {{party shading/Libertarian}}|0.03%
+| {{party shading/Independent}}|7
+| {{party shading/Independent}}|0.02%
+| {{party shading/Democratic}}|−4,800
+| {{party shading/Democratic}}|−16.78%
+| {{party shading/Democratic}}|28,597
+|- style="text-align:center;"
+| {{party shading/Democratic}}|[[Santa Cruz County, Arizona|Santa Cruz]]
+| {{party shading/Republican}}|2,140
+| {{party shading/Republican}}|35.93%
+| {{party shading/Democratic}}|3,801
+| {{party shading/Democratic}}|63.82%
+| {{party shading/Right to Life}}|10
+| {{party shading/Right to Life}}|0.17%
+| {{party shading/Libertarian}}|2
+| {{party shading/Libertarian}}|0.03%
+| {{party shading/Independent}}|3
+| {{party shading/Independent}}|0.05%
+| {{party shading/Democratic}}|−1,661
+| {{party shading/Democratic}}|−27.89%
+| {{party shading/Democratic}}|5,956
+|- style="text-align:center;"
+| {{party shading/Republican}}|[[Yavapai County, Arizona|Yavapai]]
+| {{party shading/Republican}}|22,682
+| {{party shading/Republican}}|55.69%
+| {{party shading/Democratic}}|17,567
+| {{party shading/Democratic}}|43.13%
+| {{party shading/Right to Life}}|467
+| {{party shading/Right to Life}}|1.15%
+| {{party shading/Libertarian}}|11
+| {{party shading/Libertarian}}|0.03%
+| {{party shading/Independent}}|4
+| {{party shading/Independent}}|0.01%
+| {{party shading/Republican}}|5,115
+| {{party shading/Republican}}|12.56%
+| {{party shading/Republican}}|40,731
+|- style="text-align:center;"
+| {{party shading/Democratic}}|[[Yuma County, Arizona|Yuma]]
+| {{party shading/Republican}}|8,425
+| {{party shading/Republican}}|46.84%
+| {{party shading/Democratic}}|9,512
+| {{party shading/Democratic}}|52.88%
+| {{party shading/Right to Life}}|44
+| {{party shading/Right to Life}}|0.24%
+| {{party shading/Libertarian}}|3
+| {{party shading/Libertarian}}|0.02%
+| {{party shading/Independent}}|3
+| {{party shading/Independent}}|0.02%
+| {{party shading/Democratic}}|−1,087
+| {{party shading/Democratic}}|−6.04%
+| {{party shading/Democratic}}|17,987
+|- style="text-align:center;"
+!Totals!!523,984!!49.65%!!519,691!!49.24%!!10,983!!1.04%!!316!!0.03%!!432!!0.04%!!4,293!!0.41%!!1,055,406
+|}
+
+==Runoff election==
+Prior to 1992, the Arizona State Constitution required a runoff election for the office of governor if no candidate received a majority of the votes. As a result, a runoff election was held on February 26, 1991.
+
+===Results===
+{{Election box begin no change| title=Arizona gubernatorial runoff election, 1991 <ref name="runoff">{{cite web|url=https://azmemory.azlibrary.gov/nodes/view/102688|title=State of Arizona Official Canvass - Second Election - February 26, 1991|publisher=Arizona Secretary of State|access-date=2024-07-14}}</ref>
+}}
+{{Election box winning candidate with party link no change|
+  |party = Republican Party (United States)
+  |candidate = [[Fife Symington]]
+  |votes = 492,569
+  |percentage = 52.36%
+}}
+{{Election box candidate with party link no change|
+  |party = Democratic Party (United States)
+  |candidate = [[Terry Goddard]]
+  |votes = 448,168
+  |percentage = 47.64%
+}}
+{{Election box majority no change
+ |votes = 44,401
+ |percentage = 4.72%
+}}
+{{Election box total no change
+ |votes = 940,737
+ |percentage = 100.00%
+}}
+{{Election box hold with party link no change
+ |winner = Republican Party (United States)
+ |loser = Democratic Party (United States)
+}}
+{{Election box end}}
+
+=== Results by county ===
+[[Graham County, Arizona|Graham County]] voted Republican after voting Democratic in the first round. 
+
+{| class="wikitable sortable"
+|-
+! rowspan="2" |County
+! style="text-align:center;" colspan="2"| Fife Symington<br />Republican
+! style="text-align:center;" colspan="2"| Terry Goddard<br />Democratic
+! style="text-align:center;" colspan="2"| Margin
+! style="text-align:center;" rowspan="2"| Total votes<br />cast<ref name="runoff"/>
+|-
+! style="text-align:center;" data-sort-type="number"| #
+! style="text-align:center;" data-sort-type="number"| %
+! style="text-align:center;" data-sort-type="number"| #
+! style="text-align:center;" data-sort-type="number"| %
+! style="text-align:center;" data-sort-type="number"| #
+! style="text-align:center;" data-sort-type="number"| %
+|- style="text-align:center;"
+| {{party shading/Democratic}}|[[Apache County, Arizona|Apache]]
+| {{party shading/Republican}}|2,982
+| {{party shading/Republican}}|26.45%
+| {{party shading/Democratic}}|8,294
+| {{party shading/Democratic}}|73.55%
+| {{party shading/Democratic}}|−5,312
+| {{party shading/Democratic}}|−47.11%
+| {{party shading/Democratic}}|11,276
+|- style="text-align:center;"
+| {{party shading/Democratic}}|[[Cochise County, Arizona|Cochise]]
+| {{party shading/Republican}}|9,862
+| {{party shading/Republican}}|48.08%
+| {{party shading/Democratic}}|10,651
+| {{party shading/Democratic}}|51.92%
+| {{party shading/Democratic}}|−789
+| {{party shading/Democratic}}|−3.85%
+| {{party shading/Democratic}}|20,513
+|- style="text-align:center;"
+| {{party shading/Democratic}}|[[Coconino County, Arizona|Coconino]]
+| {{party shading/Republican}}|9,444
+| {{party shading/Republican}}|41.88%
+| {{party shading/Democratic}}|13,107
+| {{party shading/Democratic}}|58.12%
+| {{party shading/Democratic}}|−3,663
+| {{party shading/Democratic}}|−16.24%
+| {{party shading/Democratic}}|22,551
+|- style="text-align:center;"
+| {{party shading/Democratic}}|[[Gila County, Arizona|Gila]]
+| {{party shading/Republican}}|5,670
+| {{party shading/Republican}}|46.09%
+| {{party shading/Democratic}}|6,632
+| {{party shading/Democratic}}|53.91%
+| {{party shading/Democratic}}|−962
+| {{party shading/Democratic}}|−7.82%
+| {{party shading/Democratic}}|12,302
+|- style="text-align:center;"
+| {{party shading/Republican}}|[[Graham County, Arizona|Graham]]
+| {{party shading/Republican}}|3,512
+| {{party shading/Republican}}|56.07%
+| {{party shading/Democratic}}|2,752
+| {{party shading/Democratic}}|43.93%
+| {{party shading/Republican}}|760
+| {{party shading/Republican}}|12.13%
+| {{party shading/Republican}}|6,264
+|- style="text-align:center;"
+| {{party shading/Democratic}}|[[Greenlee County, Arizona|Greenlee]]
+| {{party shading/Republican}}|1,003
+| {{party shading/Republican}}|41.19%
+| {{party shading/Democratic}}|1,432
+| {{party shading/Democratic}}|58.81%
+| {{party shading/Democratic}}|−429
+| {{party shading/Democratic}}|−17.62%
+| {{party shading/Democratic}}|2,435
+|- style="text-align:center;"
+| {{party shading/Republican}}|[[La Paz County, Arizona|La Paz]]
+| {{party shading/Republican}}|1,558
+| {{party shading/Republican}}|56.45%
+| {{party shading/Democratic}}|1,202
+| {{party shading/Democratic}}|43.55%
+| {{party shading/Republican}}|356
+| {{party shading/Republican}}|12.90%
+| {{party shading/Republican}}|2,760
+|- style="text-align:center;"
+| {{party shading/Republican}}|[[Maricopa County, Arizona|Maricopa]]
+| {{party shading/Republican}}|315,811
+| {{party shading/Republican}}|55.95%
+| {{party shading/Democratic}}|248,691
+| {{party shading/Democratic}}|44.05%
+| {{party shading/Republican}}|67,120
+| {{party shading/Republican}}|11.89%
+| {{party shading/Republican}}|564,502
+|- style="text-align:center;"
+| {{party shading/Republican}}|[[Mohave County, Arizona|Mohave]]
+| {{party shading/Republican}}|13,106
+| {{party shading/Republican}}|55.00%
+| {{party shading/Democratic}}|10,722
+| {{party shading/Democratic}}|45.00%
+| {{party shading/Republican}}|2,384
+| {{party shading/Republican}}|10,01%
+| {{party shading/Republican}}|23,828
+|- style="text-align:center;"
+| {{party shading/Democratic}}|[[Navajo County, Arizona|Navajo]]
+| {{party shading/Republican}}|7,081
+| {{party shading/Republican}}|44.81%
+| {{party shading/Democratic}}|8,721
+| {{party shading/Democratic}}|55.19%
+| {{party shading/Democratic}}|−1,640
+| {{party shading/Democratic}}|−10.38%
+| {{party shading/Democratic}}|15,802
+|- style="text-align:center;"
+| {{party shading/Democratic}}|[[Pima County, Arizona|Pima]]
+| {{party shading/Republican}}|82,594
+| {{party shading/Republican}}|45.79%
+| {{party shading/Democratic}}|97,773
+| {{party shading/Democratic}}|54.21%
+| {{party shading/Democratic}}|−15,179
+| {{party shading/Democratic}}|−8.42%
+| {{party shading/Democratic}}|180,367
+|- style="text-align:center;"
+| {{party shading/Democratic}}|[[Pinal County, Arizona|Pinal]]
+| {{party shading/Republican}}|10,562
+| {{party shading/Republican}}|44.01%
+| {{party shading/Democratic}}|13,435
+| {{party shading/Democratic}}|55.99%
+| {{party shading/Democratic}}|−2,873
+| {{party shading/Democratic}}|−11.97%
+| {{party shading/Democratic}}|23,997
+|- style="text-align:center;"
+| {{party shading/Democratic}}|[[Santa Cruz County, Arizona|Santa Cruz]]
+| {{party shading/Republican}}|1,741
+| {{party shading/Republican}}|44.79%
+| {{party shading/Democratic}}|2,146
+| {{party shading/Democratic}}|55.21%
+| {{party shading/Democratic}}|−405
+| {{party shading/Democratic}}|−10.42%
+| {{party shading/Democratic}}|3,887
+|- style="text-align:center;"
+| {{party shading/Republican}}|[[Yavapai County, Arizona|Yavapai]]
+| {{party shading/Republican}}|21,515
+| {{party shading/Republican}}|58.68%
+| {{party shading/Democratic}}|15,148
+| {{party shading/Democratic}}|41.32%
+| {{party shading/Republican}}|6,367
+| {{party shading/Republican}}|17.37%
+| {{party shading/Republican}}|36,663
+|- style="text-align:center;"
+| {{party shading/Democratic}}|[[Yuma County, Arizona|Yuma]]
+| {{party shading/Republican}}|6,128
+| {{party shading/Republican}}|45.09%
+| {{party shading/Democratic}}|7,462
+| {{party shading/Democratic}}|54.91%
+| {{party shading/Democratic}}|−1,334
+| {{party shading/Democratic}}|−9.82%
+| {{party shading/Democratic}}|13,590
+|- style="text-align:center;"
+!Totals!!492,569!!52.36%!!448,168!!47.64%!!44,4013!!4.72%!!940,737
+|}
+
+====Counties that flipped from Republican to Democratic====
+*[[Cochise County, Arizona|Cochise]]
+
+==References==
+{{reflist}}
+{{United States elections, 1990}}
+{{Arizona gubernatorial elections}}
+
+{{DEFAULTSORT:Arizona Gubernatorial Election, 1990}}
+[[Category:Arizona gubernatorial elections|1990]]
+[[Category:1990 United States gubernatorial elections]]
+[[Category:1990 elections in Arizona|Gubernatorial]]

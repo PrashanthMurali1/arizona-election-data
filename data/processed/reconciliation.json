@@ -1,5 +1,356 @@
 [
   {
+    "contest": "az-1966-governor",
+    "status": "verified",
+    "coverage": "county",
+    "county_count": 14,
+    "complete_county_count": 14,
+    "expected_county_count": 14,
+    "missing_candidates": [],
+    "unexpected_candidates": [],
+    "reference": "https://apps.azsos.gov/election/files/hist/canvass1966ge.pdf",
+    "reference_snapshot": "data\\raw\\governor-historical\\1966-transcription.csv",
+    "reference_sha256": "2dae07d13fdf850aab8c3dce009069c90b7ec88f78342c28462ec416f81df1e6",
+    "candidates": [
+      {
+        "candidate": "Jack Williams",
+        "county_sum": 203438,
+        "official_statewide": 203438,
+        "normalized_statewide": 203438,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "Sam Goddard",
+        "county_sum": 174904,
+        "official_statewide": 174904,
+        "normalized_statewide": 174904,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      }
+    ],
+    "input_validation": {
+      "source_checksums_validated": true,
+      "candidate_count": 2,
+      "county_count": 14
+    }
+  },
+  {
+    "contest": "az-1970-governor",
+    "status": "verified",
+    "coverage": "county",
+    "county_count": 14,
+    "complete_county_count": 14,
+    "expected_county_count": 14,
+    "missing_candidates": [],
+    "unexpected_candidates": [],
+    "reference": "https://apps.azsos.gov/election/files/hist/canvass1970ge.pdf",
+    "reference_snapshot": "data\\raw\\governor-historical\\1970-transcription.csv",
+    "reference_sha256": "8e4a248228eec03f4e783ebbf1acc8336771478352974dbc295ad9c4eb044e9f",
+    "candidates": [
+      {
+        "candidate": "Jack Williams",
+        "county_sum": 209356,
+        "official_statewide": 209356,
+        "normalized_statewide": 209356,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "Raul Castro",
+        "county_sum": 202053,
+        "official_statewide": 202053,
+        "normalized_statewide": 202053,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      }
+    ],
+    "input_validation": {
+      "source_checksums_validated": true,
+      "candidate_count": 2,
+      "county_count": 14
+    }
+  },
+  {
+    "contest": "az-1974-governor",
+    "status": "verified",
+    "coverage": "county",
+    "county_count": 14,
+    "complete_county_count": 14,
+    "expected_county_count": 14,
+    "missing_candidates": [],
+    "unexpected_candidates": [],
+    "reference": "https://apps.azsos.gov/election/files/hist/canvass1974ge.pdf",
+    "reference_snapshot": "data\\raw\\governor-historical\\1974-transcription.csv",
+    "reference_sha256": "dda5b2710708036c093549fc6e68c75bc911a45f1f68dc71fd8a8e2571d3e664",
+    "candidates": [
+      {
+        "candidate": "Raul Castro",
+        "county_sum": 278375,
+        "official_statewide": 278375,
+        "normalized_statewide": 278375,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "Russell Williams",
+        "county_sum": 273674,
+        "official_statewide": 273674,
+        "normalized_statewide": 273674,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "Wonderful Russ Shaw",
+        "county_sum": 149,
+        "official_statewide": 149,
+        "normalized_statewide": 149,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "Harold Bates",
+        "county_sum": 4,
+        "official_statewide": 4,
+        "normalized_statewide": 4,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      }
+    ],
+    "input_validation": {
+      "source_checksums_validated": true,
+      "candidate_count": 4,
+      "county_count": 14
+    }
+  },
+  {
+    "contest": "az-1978-governor",
+    "status": "verified",
+    "coverage": "county",
+    "county_count": 14,
+    "complete_county_count": 14,
+    "expected_county_count": 14,
+    "missing_candidates": [],
+    "unexpected_candidates": [],
+    "reference": "https://apps.azsos.gov/election/files/hist/canvass1978ge.pdf",
+    "reference_snapshot": "data\\raw\\governor-historical\\1978-transcription.csv",
+    "reference_sha256": "cdac0871a1562e0f96bf493e1464cc216055cfc754fdfae72ba39224f1a7ea6c",
+    "candidates": [
+      {
+        "candidate": "Bruce Babbitt",
+        "county_sum": 282605,
+        "official_statewide": 282605,
+        "normalized_statewide": 282605,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "Evan Mecham",
+        "county_sum": 241093,
+        "official_statewide": 241093,
+        "normalized_statewide": 241093,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "V. Gene Lewter",
+        "county_sum": 10421,
+        "official_statewide": 10421,
+        "normalized_statewide": 10421,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "Jessica Sampson",
+        "county_sum": 4437,
+        "official_statewide": 4437,
+        "normalized_statewide": 4437,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      }
+    ],
+    "input_validation": {
+      "source_checksums_validated": true,
+      "candidate_count": 4,
+      "county_count": 14
+    }
+  },
+  {
+    "contest": "az-1982-governor",
+    "status": "verified",
+    "coverage": "county",
+    "county_count": 14,
+    "complete_county_count": 14,
+    "expected_county_count": 14,
+    "missing_candidates": [],
+    "unexpected_candidates": [],
+    "reference": "https://apps.azsos.gov/election/files/hist/canvass1982ge.pdf",
+    "reference_snapshot": "data\\raw\\governor-historical\\1982-transcription.csv",
+    "reference_sha256": "d866a263f8865b642e999bf8612c875d134e93770165a4bb6db8cd9b6cb8b915",
+    "candidates": [
+      {
+        "candidate": "Bruce Babbitt",
+        "county_sum": 453795,
+        "official_statewide": 453795,
+        "normalized_statewide": 453795,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "Leo Corbet",
+        "county_sum": 235877,
+        "official_statewide": 235877,
+        "normalized_statewide": 235877,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "Sam Steiger",
+        "county_sum": 36649,
+        "official_statewide": 36649,
+        "normalized_statewide": 36649,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "Frank Henry Beversdorf, Sr.",
+        "county_sum": 2,
+        "official_statewide": 2,
+        "normalized_statewide": 2,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "Dave Duncan",
+        "county_sum": 28,
+        "official_statewide": 28,
+        "normalized_statewide": 28,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "Sandy Greeneltch",
+        "county_sum": 13,
+        "official_statewide": 13,
+        "normalized_statewide": 13,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      }
+    ],
+    "input_validation": {
+      "source_checksums_validated": true,
+      "candidate_count": 6,
+      "county_count": 14
+    }
+  },
+  {
+    "contest": "az-1986-governor",
+    "status": "verified",
+    "coverage": "county",
+    "county_count": 15,
+    "complete_county_count": 15,
+    "expected_county_count": 15,
+    "missing_candidates": [],
+    "unexpected_candidates": [],
+    "reference": "https://apps.azsos.gov/election/files/hist/canvass1986ge.pdf",
+    "reference_snapshot": "data\\raw\\governor-historical\\1986-transcription.csv",
+    "reference_sha256": "00707c1e24708e1c66f8591e46ca1edc611a7e044100c00cfe5abf8e4a93a0d9",
+    "candidates": [
+      {
+        "candidate": "Evan Mecham",
+        "county_sum": 343913,
+        "official_statewide": 343913,
+        "normalized_statewide": 343913,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "Carolyn Warner",
+        "county_sum": 298986,
+        "official_statewide": 298986,
+        "normalized_statewide": 298986,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "Bill Schulz",
+        "county_sum": 224085,
+        "official_statewide": 224085,
+        "normalized_statewide": 224085,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      }
+    ],
+    "input_validation": {
+      "source_checksums_validated": true,
+      "candidate_count": 3,
+      "county_count": 15
+    }
+  },
+  {
     "contest": "az-1986-us-senate",
     "status": "verified",
     "coverage": "county",
@@ -10,7 +361,7 @@
     "unexpected_candidates": [],
     "reference": "https://apps.azsos.gov/election/files/hist/canvass1986ge.pdf",
     "reference_snapshot": "data\\raw\\us-senate\\1986-transcription.csv",
-    "reference_sha256": "991e9fdb65ddfe0da547ee194e7220458818f9cebaf3fd8263af70e0730c370b",
+    "reference_sha256": "be7e064425c05794ebaad992cd577a66777d93f3355a87fc046fcf72a2cfcc7f",
     "candidates": [
       {
         "candidate": "Richard Kimball",
@@ -86,7 +437,7 @@
     "unexpected_candidates": [],
     "reference": "https://www.rightdatausa.com/election_results?y=1988&t=S1&r=N&s=AZ&d=all&WhichMap=vs",
     "reference_snapshot": "data\\raw\\us-senate\\1988-transcription.csv",
-    "reference_sha256": "f9c5ad575d28ca61c9958deb8d967ed3cdf27d61250cf48c6c27e2cad7b49fa8",
+    "reference_sha256": "f167b0a2548005ecc3f8c9f9af56fb1ca2ee0fde4f747075761a3dfdd61ecc06",
     "candidates": [
       {
         "candidate": "Dennis DeConcini",
@@ -152,6 +503,125 @@
     }
   },
   {
+    "contest": "az-1990-governor",
+    "status": "verified",
+    "coverage": "county",
+    "county_count": 15,
+    "complete_county_count": 15,
+    "expected_county_count": 15,
+    "missing_candidates": [],
+    "unexpected_candidates": [],
+    "reference": "https://apps.azsos.gov/election/files/hist/canvass1990ge.pdf",
+    "reference_snapshot": "data\\raw\\governor-historical\\1990-transcription.csv",
+    "reference_sha256": "c90c78b6167676a765c9034e449ab6fc1788c1372d65e0598f16b4ff579dfc59",
+    "candidates": [
+      {
+        "candidate": "Fife Symington",
+        "county_sum": 523984,
+        "official_statewide": 523984,
+        "normalized_statewide": 523984,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "Terry Goddard",
+        "county_sum": 519691,
+        "official_statewide": 519691,
+        "normalized_statewide": 519691,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "Max Hawkins",
+        "county_sum": 10983,
+        "official_statewide": 10983,
+        "normalized_statewide": 10983,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "Rick Lee Campbell",
+        "county_sum": 163,
+        "official_statewide": 163,
+        "normalized_statewide": 163,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "Patrick P. Castronovo",
+        "county_sum": 75,
+        "official_statewide": 75,
+        "normalized_statewide": 75,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "Peter J. Cojanis",
+        "county_sum": 54,
+        "official_statewide": 54,
+        "normalized_statewide": 54,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "Allen Weinstein",
+        "county_sum": 76,
+        "official_statewide": 76,
+        "normalized_statewide": 76,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "Robert B. Winn",
+        "county_sum": 64,
+        "official_statewide": 64,
+        "normalized_statewide": 64,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      },
+      {
+        "candidate": "Ed Yetman",
+        "county_sum": 316,
+        "official_statewide": 316,
+        "normalized_statewide": 316,
+        "statewide_matches_reference": true,
+        "difference": 0,
+        "missing_counties": [],
+        "county_reference_mismatches": [],
+        "candidate_metadata_matches_reference": true
+      }
+    ],
+    "input_validation": {
+      "source_checksums_validated": true,
+      "candidate_count": 9,
+      "county_count": 15
+    }
+  },
+  {
     "contest": "az-1992-us-senate",
     "status": "verified",
     "coverage": "county",
@@ -162,7 +632,7 @@
     "unexpected_candidates": [],
     "reference": "https://apps.azsos.gov/election/files/hist/canvass1992ge.pdf",
     "reference_snapshot": "data\\raw\\us-senate\\1992-transcription.csv",
-    "reference_sha256": "0b615680254a954739dde800287c7268eca113a239b92316f6f96c69906ea8b0",
+    "reference_sha256": "9edcc53f547e8c5c7def9a9211d7fde203d1763b56ae4a55d96326f1a69c5fba",
     "candidates": [
       {
         "candidate": "Claire Sargent",
@@ -277,7 +747,7 @@
   },
   {
     "contest": "az-1994-governor",
-    "status": "reported",
+    "status": "verified",
     "coverage": "county",
     "county_count": 15,
     "complete_county_count": 15,
@@ -286,7 +756,7 @@
     "unexpected_candidates": [],
     "reference": "https://apps.azsos.gov/election/files/hist/canvass1994ge.pdf",
     "reference_snapshot": "data\\raw\\1994-governor-transcription.csv",
-    "reference_sha256": "e3e8ae8c21448fe57c033b64e7b4a748e9140341ffa446014baa0c7c7927f015",
+    "reference_sha256": "4e34287ad604b9aad4e03f9386fb261fbc76828d52f5fff4c896d329144c1290",
     "candidates": [
       {
         "candidate": "EDDIE BASHA",
@@ -334,11 +804,11 @@
       },
       {
         "candidate": "CHARLES M. \"CHUCK\" CRAWFORD",
-        "county_sum": 10,
+        "county_sum": 11,
         "official_statewide": 11,
         "normalized_statewide": 11,
         "statewide_matches_reference": true,
-        "difference": -1,
+        "difference": 0,
         "missing_counties": [],
         "county_reference_mismatches": [],
         "candidate_metadata_matches_reference": true
@@ -411,7 +881,7 @@
     "unexpected_candidates": [],
     "reference": "https://apps.azsos.gov/election/files/hist/canvass1994ge.pdf",
     "reference_snapshot": "data\\raw\\us-senate\\1994-transcription.csv",
-    "reference_sha256": "ad7840e43667da61179a488587c0067e0fba15817886fa79354fef7e09685f3f",
+    "reference_sha256": "6c8f7a690a0b0834008a69d3d3ed910e8f8634a22f3eacaed2ad047ba2fdf5e7",
     "candidates": [
       {
         "candidate": "Sam Coppersmith",
@@ -616,7 +1086,7 @@
     "unexpected_candidates": [],
     "reference": "https://apps.azsos.gov/election/1998/General/Canvass1998GE.pdf",
     "reference_snapshot": "data\\raw\\us-senate\\1998-transcription.csv",
-    "reference_sha256": "db788906fb5db632ddc1a265d2379d7e79bd529b723302d9e1589a2d9832a652",
+    "reference_sha256": "2d428b6b2ae311cd32b3b54fc897276b1a2236ab37f7de7cc9a06061c61a7cac",
     "candidates": [
       {
         "candidate": "Ed Ranger",
@@ -692,7 +1162,7 @@
     "unexpected_candidates": [],
     "reference": "https://apps.azsos.gov/election/2000/General/Canvass2000GE.pdf",
     "reference_snapshot": "data\\raw\\us-senate\\2000-transcription.csv",
-    "reference_sha256": "b2e2b69b683ade01f86f40e308d2f059856ae748eb7d3188584aadef9801fc4a",
+    "reference_sha256": "1042aed8d7c6ff574b1df25ef9f98481d114a0ed81da8803d2c34d9fe373ebff",
     "candidates": [
       {
         "candidate": "Vance Hansen",
@@ -930,7 +1400,7 @@
     "unexpected_candidates": [],
     "reference": "https://apps.azsos.gov/election/2004/General/Canvass2004General.pdf",
     "reference_snapshot": "data\\raw\\us-senate\\2004-transcription.csv",
-    "reference_sha256": "bf72e42b1cec86e47cf215cecfd6846c48e62aa24373fd647656c19e3fb297a1",
+    "reference_sha256": "bd68cd57eaaba56b888bc2faa8699c1eebf2ab664f8457cbb32a8bee493eb0e3",
     "candidates": [
       {
         "candidate": "Stuart Starky",
@@ -1102,7 +1572,7 @@
     "unexpected_candidates": [],
     "reference": "https://apps.azsos.gov/election/2006/General/Canvass2006GE.pdf",
     "reference_snapshot": "data\\raw\\us-senate\\2006-transcription.csv",
-    "reference_sha256": "ed72c5885f952d5d966c6031dc8b18632961703f44cc5e097e0e4b3f92c2b772",
+    "reference_sha256": "12158ac1f35602746105ca3f28be06f5513abf21cc70837109f41cd920b3668d",
     "candidates": [
       {
         "candidate": "Jim Pederson",
@@ -1307,7 +1777,7 @@
     "unexpected_candidates": [],
     "reference": "https://apps.azsos.gov/election/2010/General/Canvass2010GE.pdf",
     "reference_snapshot": "data\\raw\\us-senate\\2010-transcription.csv",
-    "reference_sha256": "32fd140b3967af5595971c17675d560a857ab13d5f0461ada37f8617ac5fce88",
+    "reference_sha256": "cf1aba5055747912c7ba2ab79530ba21fa9c49761adb53dfb4815514b5dd9692",
     "candidates": [
       {
         "candidate": "Rodney Glassman",
@@ -1427,7 +1897,7 @@
     "unexpected_candidates": [],
     "reference": "https://apps.azsos.gov/election/2012/General/Canvass2012GE.pdf",
     "reference_snapshot": "data\\raw\\us-senate\\2012-transcription.csv",
-    "reference_sha256": "2dc91bf0cb3f60d45bca876169ecd90b3932207d801a6a6091c7edd76bcb95c8",
+    "reference_sha256": "5748dd03cbe0595cdb2298e3cb4d0c596c57ef248e1b944e12a25b193d1c45ab",
     "candidates": [
       {
         "candidate": "Richard Carmona",

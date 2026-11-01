@@ -12,12 +12,17 @@ from backend.app.models import *
 from scripts.normalize import COUNTIES
 
 
+STATUS_RANK = {"incomplete": 0, "secondary": 1, "reported": 2, "verified": 3}
+HISTORICAL_BOUNDARY = "county-1966-1982"
+
+
 def reconcile(data, reference_path=None):
-    if data.get("office_id") == "us-senate":
+    if data.get("provenance_path"):
         from scripts.senate_sources import verify_provenance
 
         verify_provenance(ROOT / data["provenance_path"])
-    expected = {c[0] for c in COUNTIES}
+    # Counties that existed for this election (14 before La Paz County was created in 1983).
+    expected = set(data.get("expected_units") or [c[0] for c in COUNTIES])
     for unit, turnout in data.get("turnout", {}).items():
         if unit not in expected | {"04"}:
             raise ValueError("Unknown turnout geographic identifier")
@@ -120,9 +125,11 @@ def reconcile(data, reference_path=None):
         for d in discrepancies
     )
     status = "verified" if verified else "reported" if reported else "incomplete"
-    # A contest sourced from open data rather than the official canvass never claims "verified".
-    if status == "verified" and data.get("status_ceiling") == "reported":
-        status = "reported"
+    # A contest sourced from open or secondary data rather than the official canvass never claims more
+    # than its ceiling: "reported" caps verified; "secondary" caps verified and reported.
+    ceiling = data.get("status_ceiling")
+    if ceiling and STATUS_RANK[status] > STATUS_RANK[ceiling]:
+        status = ceiling
     # A source that publishes only statewide totals (no county table) is admitted, still
     # incomplete, when every candidate's printed statewide total and metadata match.
     statewide_only = (
@@ -189,23 +196,44 @@ def import_all(year=None, office=None):
         s.merge(Office(id="attorney-general", name="Attorney General"))
         s.merge(Office(id="us-senate", name="U.S. Senate"))
         s.flush()
-        for f in geo["features"]:
-            old = s.scalar(
-                select(Geometry).where(
-                    Geometry.unit_id == f["properties"]["geoid"],
-                    Geometry.boundary_id == "county-2022",
-                )
-            )
-            if old:
-                old.feature = f
-            else:
-                s.add(
-                    Geometry(
-                        unit_id=f["properties"]["geoid"],
-                        boundary_id="county-2022",
-                        feature=f,
+
+        def upsert_geometry(boundary_id, features):
+            for f in features:
+                old = s.scalar(
+                    select(Geometry).where(
+                        Geometry.unit_id == f["properties"]["geoid"],
+                        Geometry.boundary_id == boundary_id,
                     )
                 )
+                if old:
+                    old.feature = f
+                else:
+                    s.add(
+                        Geometry(
+                            unit_id=f["properties"]["geoid"],
+                            boundary_id=boundary_id,
+                            feature=f,
+                        )
+                    )
+
+        upsert_geometry("county-2022", geo["features"])
+        # Elections before La Paz County existed (1983) use the 14-county boundary, with the old
+        # Yuma County derived by dissolving today's Yuma and La Paz.
+        old_geo = json.loads((ROOT / "data/geography/az-counties-1966-1982.geojson").read_text())
+        old_source = json.loads((ROOT / "data/geography/az-counties-1966-1982-source.json").read_text())
+        if {f["properties"]["geoid"] for f in old_geo["features"]} != {c[0] for c in COUNTIES} - {"04012"}:
+            raise ValueError("Pre-1983 geography must contain the 14 counties that then existed")
+        s.merge(
+            Source(
+                id="census-2022-pre-1983",
+                title="U.S. Census Bureau — 2022 county boundaries, Yuma and La Paz dissolved for 1966–1982",
+                **{k: old_source[k] for k in ["url", "sha256", "notes"]},
+            )
+        )
+        s.flush()
+        s.merge(BoundaryVersion(id=HISTORICAL_BOUNDARY, vintage=old_source["vintage"], source_id="census-2022-pre-1983"))
+        s.flush()
+        upsert_geometry(HISTORICAL_BOUNDARY, old_geo["features"])
         datasets = [
             (p, "governor") for p in sorted((ROOT / "data/processed").glob("*.json"))
         ]
@@ -216,6 +244,10 @@ def import_all(year=None, office=None):
         datasets.extend(
             (p, "us-senate")
             for p in sorted((ROOT / "data/processed/us-senate").glob("*.json"))
+        )
+        datasets.extend(
+            (p, "governor")
+            for p in sorted((ROOT / "data/processed/governor-historical").glob("*.json"))
         )
         for p, office_id in datasets:
             if office is not None and office_id != office:
@@ -273,7 +305,7 @@ def import_all(year=None, office=None):
                     event_id=event,
                     office_id=office_id,
                     jurisdiction_id="04",
-                    boundary_id="county-2022",
+                    boundary_id=data.get("boundary_id", "county-2022"),
                     source_id=source,
                     status=report["status"],
                     notes=data["source_notes"],
@@ -289,7 +321,9 @@ def import_all(year=None, office=None):
                 delete(VoteResult).where(VoteResult.participation_id.in_(old_ids))
             )
             s.execute(delete(Participation).where(Participation.contest_id == cid))
-            if office_id == "governor":
+            # Turnout is shared by every contest of the election: only a contest that supplies its own
+            # replaces it, so a Governor import without turnout keeps the Senate's for that election.
+            if office_id == "governor" and data.get("turnout"):
                 s.execute(delete(Turnout).where(Turnout.event_id == event))
             s.flush()
             names = {
@@ -311,6 +345,8 @@ def import_all(year=None, office=None):
                 "IRP": "IRP (as reported)",
                 "UPA": "UPA (as reported)",
                 "UAT": "UAT (as reported)",
+                "SWP": "Socialist Workers",
+                "SAB": "Stop Abortion",
             }
             for c in data["candidates"]:
                 candidate_report = next(
@@ -330,7 +366,7 @@ def import_all(year=None, office=None):
                     )
                 )
                 s.flush()
-                for unit in ["04", *[x[0] for x in COUNTIES]]:
+                for unit in ["04", *(data.get("expected_units") or [x[0] for x in COUNTIES])]:
                     value = (
                         c["statewide"] if unit == "04" else c["county_votes"].get(unit)
                     )
@@ -402,7 +438,7 @@ def import_all(year=None, office=None):
     report_path.write_text(json.dumps(all_reports, indent=2) + "\n")
     print(json.dumps(reports, indent=2))
     if any(
-        r["status"] not in {"verified", "reported"}
+        r["status"] not in {"verified", "reported", "secondary"}
         and r.get("coverage") != "statewide_only"
         and (
             r["candidates"]
@@ -414,6 +450,8 @@ def import_all(year=None, office=None):
     for r in reports:
         if r["status"] == "reported":
             print(r["contest"], "REPORTED: reviewed county/state discrepancy; see source notes and reconciliation")
+        elif r["status"] == "secondary":
+            print(r["contest"], "SECONDARY SOURCE: reconciled to a secondary source only, not verified against an official canvass")
         elif r["status"] != "verified":
             print(r["contest"], "INCOMPLETE: source metadata only, no verified results")
 

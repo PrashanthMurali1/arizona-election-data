@@ -1,0 +1,292 @@
+{{Short description|none}}
+{{for|related races|1970 United States gubernatorial elections}}
+{{Use American English|date=January 2025}}
+<!-- "none" is preferred when the title is sufficiently descriptive; see [[WP:SDNONE]] -->
+{{Use mdy dates|date=September 2023}}
+{{Infobox election
+| election_name = 1970 Arizona gubernatorial election
+| country = Arizona
+| type = Presidential
+| ongoing = no
+| previous_election = 1968 Arizona gubernatorial election
+| previous_year = 1968
+| next_election = 1974 Arizona gubernatorial election
+| next_year = 1974
+| election_date = November 3, 1970
+| image1 = Jack Williams (Arizona politician) (cropped).jpg
+| image_upright = 0.6
+| nominee1 = '''[[Jack Williams (American politician)|Jack Williams]]'''
+| party1 = Republican Party (United States)
+| popular_vote1 = '''209,355'''
+| percentage1 = '''50.89%'''
+| image2 = Raul Hector Castro swearing in as Ambassador to Argentina (cropped).jpg
+| nominee2 = [[Raúl Héctor Castro]]
+| party2 = Democratic Party (United States)
+| popular_vote2 = 202,053
+| percentage2 = 49.11%
+| map_image = 1970 Arizona gubernatorial election results map by county.svg
+| map_size = 220px
+| map_caption = County results<br />'''Williams:''' {{legend0|#e27f7f|50–60%}} {{legend0|#d75d5d|60–70%}}<br />'''Castro:''' {{legend0|#7996e2|50–60%}} {{legend0|#6674de|60–70%}} {{legend0|#584cde|70–80%}}
+| title = Governor
+| before_election = [[Jack Williams (American politician)|Jack Williams]]
+| before_party = Republican Party (United States)
+| after_election = [[Jack Williams (American politician)|Jack Williams]]
+| after_party = Republican Party (United States)
+}}
+{{ElectionsAZ}}
+The '''1970 Arizona gubernatorial election''' took place on November 3, 1970. Incumbent Governor [[Jack Williams (American politician)|Jack Williams]] ran for reelection to a third term as governor. [[United States Ambassador to Bolivia]] [[Raúl Héctor Castro]] won the Democratic nomination, and narrowly lost the general election to Williams by 1.78%. Williams was sworn into his third and final term as Governor on January 5, 1971.
+
+Due to a constitutional amendment approved by the voters in 1968, the length of the term of Governor of Arizona was changed from two years to four years, effective with the 1970 gubernatorial election. Thus, Williams became the first [[Governor of Arizona]] to serve a 4-year term.<ref>{{Cite book | last = Goff| first = John S. | title = Arizona Biographical Dictionary | publisher=Black Mountain Press | year =  1983 | location = Cave Creek, AZ | oclc = 10740532 |page=104}}</ref>
+
+==Republican primary==
+
+===Candidates===
+* [[Jack Williams (American politician)|Jack Williams]], incumbent Governor
+
+===Results===
+{{Election box begin no change | title=Republican primary results<ref name="primary">{{cite web|url=https://azmemory.azlibrary.gov/nodes/view/102666|title=State of Arizona Official Canvass Primary Election - September 8, 1970|publisher=Arizona Secretary of State|access-date=2024-07-14}}</ref>
+}}
+{{Election box winning candidate with party link no change
+  |party      = Republican Party (United States)
+  |candidate  = [[Jack Williams (American politician)|Jack Williams]]
+  |votes      = 77,259
+  |percentage = 100.00%
+}}
+{{Election box total no change
+  |votes      = 77,259
+  |percentage = 100.00%
+}}
+
+{{Election box end}}
+
+==Democratic primary==
+
+===Candidates===
+* [[Raúl Héctor Castro]], United States Ambassador to Bolivia, former United States Ambassador to El Salvador
+* [[Jack Ross (Arizona politician)|Jack Ross]], car dealer
+* George Nader, former Mayor
+
+===Results===
+{{Election box begin no change | title=Democratic primary results<ref name="primary"/>
+}}
+{{Election box winning candidate with party link no change
+  |party      = Democratic Party (United States)
+  |candidate  = [[Raúl Héctor Castro]]
+  |votes      = 63,294
+  |percentage = 51.99%
+}}
+{{Election box candidate with party link no change
+  |party      = Democratic Party (United States)
+  |candidate  = [[Jack Ross (Arizona politician)|Jack Ross]]
+  |votes      = 30,921
+  |percentage = 25.40%
+}}
+{{Election box candidate with party link no change
+  |party      = Democratic Party (United States)
+  |candidate  = George Nader
+  |votes      = 27,534
+  |percentage = 22.62%
+}}
+{{Election box total no change
+  |votes      = 121,749
+  |percentage = 100.00%
+}}
+
+{{Election box end}}
+
+==General election==
+
+===Results===
+{{Election box begin | title=Arizona gubernatorial election, 1970<ref name="results">{{cite web|url=https://azmemory.azlibrary.gov/nodes/view/102665|title=State of Arizona Official Canvass General Election - November 3, 1970|publisher=Arizona Secretary of State|access-date=2024-07-13}}</ref>
+}}
+{{Election box winning candidate with party link|
+  |party = Republican Party (United States) 
+  |candidate = [[Jack Williams (American politician)|Jack Williams]] (incumbent)
+  |votes = 209,356
+  |percentage = 50.89%
+  |change = -6.95%
+}}
+{{Election box candidate with party link|
+  |party = Democratic Party (United States)
+  |candidate = [[Raúl Héctor Castro]]
+  |votes = 202,053
+  |percentage = 49.11%
+  |change = +6.95%
+}}
+{{Election box majority
+ |votes = 7,303
+ |percentage = 1.78%
+ |change = 
+}}
+{{Election box total
+ |votes = 411,409
+ |percentage = 100.00%
+ |change = 
+}}
+{{Election box hold with party link
+ |winner = Republican Party (United States)
+ |loser = Democratic Party (United States)
+ |swing = -13.90%
+}}
+{{Election box end}}
+
+=== Results by county ===
+{| class="wikitable sortable"
+|-
+! rowspan="2" |County
+! style="text-align:center;" colspan="2"| Jack Williams<br />Republican
+! style="text-align:center;" colspan="2"| Raúl Héctor Castro<br />Democratic
+! style="text-align:center;" colspan="2"| Margin
+! style="text-align:center;" rowspan="2"| Total votes<br />cast<ref name="results"/>
+|-
+! style="text-align:center;" data-sort-type="number"| #
+! style="text-align:center;" data-sort-type="number"| %
+! style="text-align:center;" data-sort-type="number"| #
+! style="text-align:center;" data-sort-type="number"| %
+! style="text-align:center;" data-sort-type="number"| #
+! style="text-align:center;" data-sort-type="number"| %
+|- style="text-align:center;"
+| {{party shading/Republican}}|[[Apache County, Arizona|Apache]]
+| {{party shading/Republican}}|1,745
+| {{party shading/Republican}}|50.89%
+| {{party shading/Democratic}}|1,684
+| {{party shading/Democratic}}|49.11%
+| {{party shading/Republican}}|61
+| {{party shading/Republican}}|1.78%
+| {{party shading/Republican}}|3,429
+|- style="text-align:center;"
+| {{party shading/Democratic}}|[[Cochise County, Arizona|Cochise]]
+| {{party shading/Republican}}|5,712
+| {{party shading/Republican}}|41.24%
+| {{party shading/Democratic}}|8,138
+| {{party shading/Democratic}}|58.76%
+| {{party shading/Democratic}}|-2,426
+| {{party shading/Democratic}}|-17.52%
+| {{party shading/Democratic}}|13,850
+|- style="text-align:center;"
+| {{party shading/Democratic}}|[[Coconino County, Arizona|Coconino]]
+| {{party shading/Republican}}|4,305
+| {{party shading/Republican}}|49.05%
+| {{party shading/Democratic}}|4,471
+| {{party shading/Democratic}}|50.95%
+| {{party shading/Democratic}}|-166
+| {{party shading/Democratic}}|-1.89%
+| {{party shading/Democratic}}|8,776
+|- style="text-align:center;"
+| {{party shading/Democratic}}|[[Gila County, Arizona|Gila]]
+| {{party shading/Republican}}|2,951
+| {{party shading/Republican}}|37.55%
+| {{party shading/Democratic}}|4,907
+| {{party shading/Democratic}}|62.45%
+| {{party shading/Democratic}}|-1,956
+| {{party shading/Democratic}}|-24.89%
+| {{party shading/Democratic}}|7,858
+|- style="text-align:center;"
+| {{party shading/Democratic}}|[[Graham County, Arizona|Graham]]
+| {{party shading/Republican}}|2,078
+| {{party shading/Republican}}|47.00%
+| {{party shading/Democratic}}|2,343
+| {{party shading/Democratic}}|53.00%
+| {{party shading/Democratic}}|-265
+| {{party shading/Democratic}}|-5.99%
+| {{party shading/Democratic}}|4,421
+|- style="text-align:center;"
+| {{party shading/Democratic}}|[[Greenlee County, Arizona|Greenlee]]
+| {{party shading/Republican}}|822
+| {{party shading/Republican}}|26.85%
+| {{party shading/Democratic}}|2,239
+| {{party shading/Democratic}}|73.15%
+| {{party shading/Democratic}}|-1,417
+| {{party shading/Democratic}}|-46.29%
+| {{party shading/Democratic}}|3,061
+|- style="text-align:center;"
+| {{party shading/Republican}}|[[Maricopa County, Arizona|Maricopa]]
+| {{party shading/Republican}}|133,336
+| {{party shading/Republican}}|58.01%
+| {{party shading/Democratic}}|96,525
+| {{party shading/Democratic}}|41.99%
+| {{party shading/Republican}}|36,811
+| {{party shading/Republican}}|16.01%
+| {{party shading/Republican}}|229,861
+|- style="text-align:center;"
+| {{party shading/Republican}}|[[Mohave County, Arizona|Mohave]]
+| {{party shading/Republican}}|2,846
+| {{party shading/Republican}}|50.43%
+| {{party shading/Democratic}}|2,797
+| {{party shading/Democratic}}|49.57%
+| {{party shading/Republican}}|49
+| {{party shading/Republican}}|0.87%
+| {{party shading/Republican}}|5,643
+|- style="text-align:center;"
+| {{party shading/Republican}}|[[Navajo County, Arizona|Navajo]]
+| {{party shading/Republican}}|4,335
+| {{party shading/Republican}}|56.56%
+| {{party shading/Democratic}}|3,330
+| {{party shading/Democratic}}|43.44%
+| {{party shading/Republican}}|1,005
+| {{party shading/Republican}}|13.11%
+| {{party shading/Republican}}|7,665
+|- style="text-align:center;"
+| {{party shading/Democratic}}|[[Pima County, Arizona|Pima]]
+| {{party shading/Republican}}|32,750
+| {{party shading/Republican}}|37.22%
+| {{party shading/Democratic}}|55,245
+| {{party shading/Democratic}}|62.78%
+| {{party shading/Democratic}}|-22,495
+| {{party shading/Democratic}}|-25.56%
+| {{party shading/Democratic}}|87,995
+|- style="text-align:center;"
+| {{party shading/Democratic}}|[[Pinal County, Arizona|Pinal]]
+| {{party shading/Republican}}|5,786
+| {{party shading/Republican}}|42.40%
+| {{party shading/Democratic}}|7,861
+| {{party shading/Democratic}}|57.60%
+| {{party shading/Democratic}}|-2,075
+| {{party shading/Democratic}}|-15.20%
+| {{party shading/Democratic}}|13,647
+|- style="text-align:center;"
+| {{party shading/Democratic}}|[[Santa Cruz County, Arizona|Santa Cruz]]
+| {{party shading/Republican}}|824
+| {{party shading/Republican}}|27.96%
+| {{party shading/Democratic}}|2,123
+| {{party shading/Democratic}}|72.04%
+| {{party shading/Democratic}}|-1,299
+| {{party shading/Democratic}}|-44.08%
+| {{party shading/Democratic}}|2,947
+|- style="text-align:center;"
+| {{party shading/Republican}}|[[Yavapai County, Arizona|Yavapai]]
+| {{party shading/Republican}}|7,052
+| {{party shading/Republican}}|63.28%
+| {{party shading/Democratic}}|4,093
+| {{party shading/Democratic}}|36.72%
+| {{party shading/Republican}}|2,959
+| {{party shading/Republican}}|26.55%
+| {{party shading/Republican}}|11,145
+|- style="text-align:center;"
+| {{party shading/Democratic}}|[[Yuma County, Arizona|Yuma]]
+| {{party shading/Republican}}|4,814
+| {{party shading/Republican}}|43.33%
+| {{party shading/Democratic}}|6,297
+| {{party shading/Democratic}}|56.67%
+| {{party shading/Democratic}}|-1,483
+| {{party shading/Democratic}}|-13.35%
+| {{party shading/Democratic}}|11,111
+|- style="text-align:center;"
+!Totals!!209,356!!50.89%!!202,053!!49.11%!!7,303!!1.78%!!411,409
+|}
+
+====Counties that flipped from Democratic to Republican====
+*[[Apache County, Arizona|Apache]]
+
+====Counties that flipped from Republican to Democratic====
+*[[Coconino County, Arizona|Coconino]]
+
+==References==
+{{reflist|1}}
+{{United States elections, 1970}}
+{{Arizona gubernatorial elections}}
+
+{{DEFAULTSORT:Arizona Gubernatorial Election, 1970}}
+[[Category:Arizona gubernatorial elections|1970]]
+[[Category:1970 United States gubernatorial elections]]
+[[Category:1970 elections in Arizona|Gubernatorial]]

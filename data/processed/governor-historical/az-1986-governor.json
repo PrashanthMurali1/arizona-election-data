@@ -1,0 +1,134 @@
+{
+  "year": 1986,
+  "date": "1986-11-04",
+  "event_id": "az-1986-general",
+  "contest_id": "az-1986-governor",
+  "contest_kind": "regular",
+  "office_id": "governor",
+  "office": "Governor",
+  "boundary_id": "county-2022",
+  "expected_units": [
+    "04001",
+    "04003",
+    "04005",
+    "04007",
+    "04009",
+    "04011",
+    "04012",
+    "04013",
+    "04015",
+    "04017",
+    "04019",
+    "04021",
+    "04023",
+    "04025",
+    "04027"
+  ],
+  "source_id": "canvass-1986-governor",
+  "source_title": "Arizona Secretary of State — 1986 official canvass",
+  "source_url": "https://apps.azsos.gov/election/files/hist/canvass1986ge.pdf",
+  "source_sha256": "00707c1e24708e1c66f8591e46ca1edc611a7e044100c00cfe5abf8e4a93a0d9",
+  "source_notes": "1986 regular Arizona gubernatorial election. County and statewide cells transcribed from page 2 of the official canvass issued by the Arizona Secretary of State (1986-11-24); every candidate's county cells sum to the printed statewide TOTAL, and the statewide totals also match Wikipedia's results table (https://en.wikipedia.org/wiki/1986_Arizona_gubernatorial_election). Every cell was first transcribed from RightDataUSA's county page and then checked against the canvass with no differences. Election-wide registration and turnout are the official figures already imported with the same election's Senate canvass. The canvass PDF was supplied by the project maintainer and is retained with its SHA-256.",
+  "reference_path": "data/raw/governor-historical/1986-transcription.csv",
+  "provenance_path": "data/raw/governor-historical/1986-provenance.json",
+  "additional_sources": [
+    {
+      "id": "wikipedia-1986-arizona-governor",
+      "title": "Wikipedia — 1986 Arizona gubernatorial election (statewide cross-check)",
+      "url": "https://en.wikipedia.org/wiki/1986_Arizona_gubernatorial_election",
+      "sha256": "2f9fc5c8a8ebb0d888254c809c53b2cf8b69825b66922f43747d331ec897f318",
+      "notes": "Secondary source used only to cross-check statewide totals and itemize write-ins. It cites the official canvass at https://azmemory.azlibrary.gov/nodes/view/102682. Retrieved 2026-11-01."
+    },
+    {
+      "id": "rightdatausa-1986-governor",
+      "title": "RightDataUSA — 1986 Gubernatorial Election Results for Arizona (county results, comparison)",
+      "url": "https://www.rightdatausa.com/election_results?y=1986&t=G&r=N&s=AZ&d=all&WhichMap=vs",
+      "sha256": "d69e85fbce5f6d53b6fbf1724b67cdd562f6df2ef498a01439c07132110a72d9",
+      "notes": "Secondary compilation used for the first transcription and then checked cell by cell against the official canvass."
+    }
+  ],
+  "reviewed_county_differences": {},
+  "input_validation": {
+    "source_checksums_validated": true,
+    "candidate_count": 3,
+    "county_count": 15
+  },
+  "candidates": [
+    {
+      "id": "governor-1986-0",
+      "name": "Evan Mecham",
+      "party": "REP",
+      "write_in": false,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 2965,
+        "04003": 8484,
+        "04005": 6647,
+        "04007": 4779,
+        "04009": 3257,
+        "04011": 991,
+        "04012": 1352,
+        "04013": 213049,
+        "04015": 9333,
+        "04017": 6250,
+        "04019": 56598,
+        "04021": 8244,
+        "04023": 1490,
+        "04025": 15000,
+        "04027": 5474
+      },
+      "statewide": 343913
+    },
+    {
+      "id": "governor-1986-1",
+      "name": "Carolyn Warner",
+      "party": "DEM",
+      "write_in": false,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 6936,
+        "04003": 8368,
+        "04005": 11492,
+        "04007": 5775,
+        "04009": 2381,
+        "04011": 1218,
+        "04012": 1201,
+        "04013": 142540,
+        "04015": 7969,
+        "04017": 7527,
+        "04019": 72366,
+        "04021": 11127,
+        "04023": 2349,
+        "04025": 10288,
+        "04027": 7449
+      },
+      "statewide": 298986
+    },
+    {
+      "id": "governor-1986-2",
+      "name": "Bill Schulz",
+      "party": "IND",
+      "write_in": false,
+      "category": "named_candidate",
+      "county_votes": {
+        "04001": 1279,
+        "04003": 5174,
+        "04005": 5565,
+        "04007": 3319,
+        "04009": 1272,
+        "04011": 772,
+        "04012": 915,
+        "04013": 139231,
+        "04015": 4300,
+        "04017": 2769,
+        "04019": 42700,
+        "04021": 5347,
+        "04023": 1464,
+        "04025": 6688,
+        "04027": 3290
+      },
+      "statewide": 224085
+    }
+  ],
+  "turnout": {}
+}

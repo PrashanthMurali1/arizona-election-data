@@ -1,0 +1,399 @@
+{{Short description|none}}
+{{for|related races|1986 United States gubernatorial elections}}
+{{Use American English|date=January 2025}}
+<!-- "none" is preferred when the title is sufficiently descriptive; see [[WP:SDNONE]] -->
+{{Use mdy dates|date=September 2023}}
+{{Infobox election
+| election_name = 1986 Arizona gubernatorial election
+| country = Arizona
+| type = presidential
+| ongoing = no
+| previous_election = 1982 Arizona gubernatorial election
+| previous_year = 1982
+| next_election = 1990–91 Arizona gubernatorial election
+| next_year = 1990–91
+| election_date = November 4, 1986
+| image1 = File:Evan Mecham %28Arizona governor%29.jpg
+| image_size = 150x150px
+| nominee1 = '''[[Evan Mecham]]'''
+| party1 = Republican Party (United States)
+| popular_vote1 = '''343,913'''
+| percentage1 = '''39.67%'''
+| image2 = File:Carolyn Warner by Gage Skidmore.jpg
+| nominee2 = [[Carolyn Warner]]
+| party2 = Democratic Party (United States)
+| popular_vote2 = 298,986
+| percentage2 = 34.49%
+| image3 = 3x4.svg 
+| nominee3 = [[William R. Schulz|Bill Schulz]]
+| party3 = Independent
+| popular_vote3 = 224,085
+| percentage3 = 25.85%
+| map_image = 1986 Arizona gubernatorial election results map by county.svg
+| map_size = 220px
+| map_caption = County results<br />'''Mecham:''' {{legend0|#ffc8cd|30–40%}} {{legend0|#ffb2b2|40–50%}}<br />'''Warner:''' {{legend0|#a5b0ff|40–50%}} {{legend0|#6674de|60–70%}}
+| title = Governor
+| before_election = [[Bruce Babbitt]]
+| before_party = Democratic Party (United States)
+| after_election = [[Evan Mecham]]
+| after_party = Republican Party (United States)
+}}
+{{ElectionsAZ}}
+The '''1986 Arizona gubernatorial election''' took place on November 4, 1986, for the post of [[List of governors of Arizona|Governor of Arizona]]. [[Republican Party (United States)|Republican]] [[Evan Mecham]], who defeated [[Burton Barr]] for the Republican nomination, defeated the [[Democratic Party (United States)|Democratic]] nominee and State Superintendent Carolyn Warner and independent candidate [[William R. Schulz|Bill Schulz]].
+
+Mecham's victory in the primary and general elections are considered among the greatest political surprises in Arizona history. Ultimately, Mecham did not complete his full four-year term in office; he was impeached and removed from office in 1988.
+
+This was the first gubernatorial election in which [[La Paz County]] participated after separating from [[Yuma County, Arizona|Yuma County]] in between this election and the one just before it.
+
+==Background==
+[[Bruce Babbitt]], who succeed to the office of Governor upon the 1978 death of [[Wesley Bolin]], chose not to run for a third term in office. Babbitt was first elected over [[Evan Mecham]] in 1978 and re-elected in a landslide in 1982; some speculated that he would seek to succeed [[Barry Goldwater]] in the [[United States Senate]], but Babbitt ultimately focused on a run for [[President of the United States]] in 1988.
+
+Although no Republican had been elected Governor of Arizona since 1970, President [[Ronald Reagan]] had carried the state with record margins in 1980 and 1984.
+
+==Democratic primary==
+===Candidates===
+*Tony Mason, candidate for U.S. House in 1976
+*Dave Moss, candidate for governor in 1978 and 1982
+*[[Carolyn Warner]], Superintendent of Public Instruction
+
+====Withdrew====
+*[[Bill Schulz (politician)|Bill Schulz]], businessman and Democratic nominee for U.S. Senate in 1980<ref name=twinthreat/>
+
+===Results===
+[[File:1986 Arizona gubernatorial election Democratic primary results map by county.svg|thumb|center|Primary results by county
+{{collapsible list
+|title=Map legend
+|{{legend|#7996E2|Warner—50–60%}}
+|{{legend|#A5B0FF|Warner—40–50%}}
+|{{legend|#5fd35f|Mason—50–60%}}
+|{{legend|#87de87|Mason—40–50%}}
+}}
+]]
+{{Election box begin no change | title=Democratic primary results<ref name="primary">{{cite web|url=https://azmemory.azlibrary.gov/nodes/view/102683|title=State of Arizona - Official Canvass Primary Election - September 9, 1986|publisher=Arizona Secretary of State|access-date=2024-07-14}}</ref>
+}}
+{{Election box winning candidate with party link no change
+  |party      = Democratic Party (United States)
+  |candidate  = [[Carolyn Warner]]
+  |votes      = 106,687
+  |percentage = 50.64%
+}}
+{{Election box candidate with party link no change
+  |party      = Democratic Party (United States)
+  |candidate  = Tony Mason
+  |votes      = 92,413
+  |percentage = 43.86%
+}}
+{{Election box candidate with party link no change
+  |party      = Democratic Party (United States)
+  |candidate  = Dave Moss
+  |votes      = 11,588
+  |percentage = 5.50%
+}}
+{{Election box total no change
+  |votes      = 210,688
+  |percentage = 100.00%
+}}
+{{Election box end}}
+
+==Republican primary==
+===Candidates===
+*[[Burton Barr]], House Majority Leader and State Representative from Phoenix
+*[[Evan Mecham]], auto dealer and perennial candidate
+
+===Campaign===
+Barr, who was personally recruited by President Reagan to run for governor and had the universal support of the state Republican establishment, was the heavy favorite. His campaign largely ignored Mecham, who launched negative attacks on Barr and the state party generally.<ref name=twinthreat>{{cite news|url=https://www.washingtonpost.com/archive/politics/1986/10/05/twin-threat-pleases-republican/20a799a8-254f-4dd8-85e4-a3f058c0eef0/|title=Twin Threat Pleases Republican: Two Democrats on Arizona Ballot May Make Mecham Governor|newspaper=[[The Washington Post]]|access-date=February 19, 2024|date=October 4, 1986|last=Reid|first=T.R.}}</ref> When Republicans responded to Mecham's criticism, such as when the Senate Republican leader called him an "ethical pygmy," his popularity with voters rose.<ref name=twinthreat/>
+
+===Results===
+[[File:1986 Arizona gubernatorial election Republican primary results map by county.svg|thumb|center|Primary results by county
+{{collapsible list
+|title=Map legend
+|{{legend|#D75D5D|Mecham—60–70%}}
+|{{legend|#E27F7F|Mecham—50–60%}}
+|{{legend|#FF9A50|Barr—50–60%}}
+}}
+]]
+{{Election box begin no change | title=1986 Republican gubernatorial primary<ref name="primary"/>
+}}
+{{Election box winning candidate with party link no change
+  |party      = Republican Party (United States)
+  |candidate  = [[Evan Mecham]]
+  |votes      = 121,614
+  |percentage = 53.74%
+}}
+{{Election box candidate with party link no change
+  |party      = Republican Party (United States)
+  |candidate  = [[Burton Barr]]
+  |votes      = 104,682
+  |percentage = 46.26%
+}}
+{{Election box total no change
+  |votes      = 226,296
+  |percentage = 100.00%
+}}
+
+{{Election box end}}
+
+Mecham's primary victory over Barr was received as "the biggest upset in Arizona" since [[Barry Goldwater]]'s 1952 victory over United States Senator [[Ernest McFarland]].<ref name=twinthreat/>
+
+==General election==
+===Candidates===
+*[[Evan Mecham]], auto dealer and perennial candidate (Republican)
+*[[William R. Schulz|Bill Schulz]], businessman and Democratic nominee for U.S. Senate in 1980 (Independent)
+*[[Carolyn Warner]], Superintendent of Public Instruction (Democratic)
+
+===Predictions===
+{| class="wikitable" style="text-align:center"
+!Source
+!Rating
+!As of
+|-
+| align="left" |[[The Cook Political Report]]<ref>{{Cite web|url= https://www.cookpolitical.com/ratings/governor-race-ratings/462246 |title= 1986 CPR Governor Race Ratings |website=The Cook Political Report|language=en|access-date=March 28, 2024}}</ref>
+|{{USRaceRating|Toss|Up}}
+|October 28, 1986
+|}
+
+===Results===
+{{Election box begin | title=Arizona gubernatorial election, 1986<ref name="results">{{cite web|url=https://azmemory.azlibrary.gov/nodes/view/102682|title=State of Arizona - Official Canvass - General Election - November 4, 1986|publisher=Arizona Secretary of State|access-date=2024-07-14}}</ref>
+}}
+{{Election box winning candidate with party link|
+  |party = Republican Party (United States)
+  |candidate = [[Evan Mecham]]
+  |votes = 343,913
+  |percentage = 39.67%
+  |change = +7.20%
+}}
+{{Election box candidate with party link|
+  |party = Democratic Party (United States)
+  |candidate = [[Carolyn Warner]]
+  |votes = 298,986
+  |percentage = 34.49%
+  |change = -27.98%
+}}
+{{Election box candidate with party link|
+  |party = Independent
+  |candidate = [[William R. Schulz|Bill Schulz]]
+  |votes = 224,085
+  |percentage = 25.85%
+  |change = +25.85%
+}}
+{{Election box majority
+ |votes = 44,927
+ |percentage = 5.18%
+ |change = 
+}}
+{{Election box total
+ |votes = 866,984
+ |percentage = 100.00%
+ |change = 
+}}
+{{Election box gain with party link
+ |winner = Republican Party (United States)
+ |loser = Democratic Party (United States)
+ |swing = +35.18%
+}}
+{{Election box end}}
+
+=== Results by county ===
+{| class="wikitable sortable"
+|-
+! rowspan="2" |County
+! style="text-align:center;" colspan="2"| Evan Mecham<br />Republican
+! style="text-align:center;" colspan="2"| Carolyn Warner<br />Democratic
+! style="text-align:center;" colspan="2"| Bill Schulz<br />Independent
+! style="text-align:center;" colspan="2"| Margin
+! style="text-align:center;" rowspan="2"| Total votes<br />cast<ref name="results"/>
+|-
+! style="text-align:center;" data-sort-type="number"| #
+! style="text-align:center;" data-sort-type="number"| %
+! style="text-align:center;" data-sort-type="number"| #
+! style="text-align:center;" data-sort-type="number"| %
+! style="text-align:center;" data-sort-type="number"| #
+! style="text-align:center;" data-sort-type="number"| %
+! style="text-align:center;" data-sort-type="number"| #
+! style="text-align:center;" data-sort-type="number"| %
+|- style="text-align:center;"
+| {{party shading/Democratic}}|[[Apache County, Arizona|Apache]]
+| {{party shading/Republican}}|2,965
+| {{party shading/Republican}}|26.52%
+| {{party shading/Democratic}}|6,936
+| {{party shading/Democratic}}|62.04%
+| {{party shading/Independent}}|1,279
+| {{party shading/Independent}}|11.44%
+| {{party shading/Democratic}}|-3,971
+| {{party shading/Democratic}}|-35.52%
+| {{party shading/Democratic}}|11,180
+|- style="text-align:center;"
+| {{party shading/Republican}}|[[Cochise County, Arizona|Cochise]]
+| {{party shading/Republican}}|8,484
+| {{party shading/Republican}}|38.52%
+| {{party shading/Democratic}}|8,368
+| {{party shading/Democratic}}|37.99%
+| {{party shading/Independent}}|5,174
+| {{party shading/Independent}}|23.49%
+| {{party shading/Republican}}|116
+| {{party shading/Republican}}|0.53%
+| {{party shading/Republican}}|22,026
+|- style="text-align:center;"
+| {{party shading/Democratic}}|[[Coconino County, Arizona|Coconino]]
+| {{party shading/Republican}}|6,647
+| {{party shading/Republican}}|28.04%
+| {{party shading/Democratic}}|11,492
+| {{party shading/Democratic}}|48.48%
+| {{party shading/Independent}}|5,565
+| {{party shading/Independent}}|23.48%
+| {{party shading/Democratic}}|-4,845
+| {{party shading/Democratic}}|-20.44%
+| {{party shading/Democratic}}|23,704
+|- style="text-align:center;"
+| {{party shading/Democratic}}|[[Gila County, Arizona|Gila]]
+| {{party shading/Republican}}|4,779
+| {{party shading/Republican}}|34.45%
+| {{party shading/Democratic}}|5,775
+| {{party shading/Democratic}}|41.63%
+| {{party shading/Independent}}|3,319
+| {{party shading/Independent}}|23.92%
+| {{party shading/Democratic}}|-996
+| {{party shading/Democratic}}|-7.18%
+| {{party shading/Democratic}}|13,873
+|- style="text-align:center;"
+| {{party shading/Republican}}|[[Graham County, Arizona|Graham]]
+| {{party shading/Republican}}|3,257
+| {{party shading/Republican}}|47.13%
+| {{party shading/Democratic}}|2,381
+| {{party shading/Democratic}}|34.46%
+| {{party shading/Independent}}|1,272
+| {{party shading/Independent}}|18.41%
+| {{party shading/Republican}}|876
+| {{party shading/Republican}}|12.68%
+| {{party shading/Republican}}|6,910
+|- style="text-align:center;"
+| {{party shading/Democratic}}|[[Greenlee County, Arizona|Greenlee]]
+| {{party shading/Republican}}|991
+| {{party shading/Republican}}|33.24%
+| {{party shading/Democratic}}|1,218
+| {{party shading/Democratic}}|40.86%
+| {{party shading/Independent}}|772
+| {{party shading/Independent}}|25.90%
+| {{party shading/Democratic}}|-227
+| {{party shading/Democratic}}|-7.61%
+| {{party shading/Democratic}}|2,981
+|- style="text-align:center;"
+| {{party shading/Republican}}|[[La Paz County, Arizona|La Paz]]
+| {{party shading/Republican}}|1,352
+| {{party shading/Republican}}|38.99%
+| {{party shading/Democratic}}|1,201
+| {{party shading/Democratic}}|34.63%
+| {{party shading/Independent}}|915
+| {{party shading/Independent}}|26.38%
+| {{party shading/Republican}}|151
+| {{party shading/Republican}}|4.35%
+| {{party shading/Republican}}|3,468
+|- style="text-align:center;"
+| {{party shading/Republican}}|[[Maricopa County, Arizona|Maricopa]]
+| {{party shading/Republican}}|213,049
+| {{party shading/Republican}}|43.06%
+| {{party shading/Democratic}}|142,540
+| {{party shading/Democratic}}|28.81%
+| {{party shading/Independent}}|139,231
+| {{party shading/Independent}}|28.14%
+| {{party shading/Republican}}|70,509
+| {{party shading/Republican}}|14.25%
+| {{party shading/Republican}}|494,820
+|- style="text-align:center;"
+| {{party shading/Republican}}|[[Mohave County, Arizona|Mohave]]
+| {{party shading/Republican}}|9,333
+| {{party shading/Republican}}|43.20%
+| {{party shading/Democratic}}|7,969
+| {{party shading/Democratic}}|36.89%
+| {{party shading/Independent}}|4,300
+| {{party shading/Independent}}|19.91%
+| {{party shading/Republican}}|1,364
+| {{party shading/Republican}}|6.31%
+| {{party shading/Republican}}|21,602
+|- style="text-align:center;"
+| {{party shading/Democratic}}|[[Navajo County, Arizona|Navajo]]
+| {{party shading/Republican}}|6,250
+| {{party shading/Republican}}|37.77%
+| {{party shading/Democratic}}|7,527
+| {{party shading/Democratic}}|45.49%
+| {{party shading/Independent}}|2,769
+| {{party shading/Independent}}|16.74%
+| {{party shading/Democratic}}|-1,277
+| {{party shading/Democratic}}|-7.72%
+| {{party shading/Democratic}}|16,546
+|- style="text-align:center;"
+| {{party shading/Democratic}}|[[Pima County, Arizona|Pima]]
+| {{party shading/Republican}}|56,598
+| {{party shading/Republican}}|32.97%
+| {{party shading/Democratic}}|72,366
+| {{party shading/Democratic}}|42.16%
+| {{party shading/Independent}}|42,700
+| {{party shading/Independent}}|24.87%
+| {{party shading/Democratic}}|-15,768
+| {{party shading/Democratic}}|-9.19%
+| {{party shading/Democratic}}|171,664
+|- style="text-align:center;"
+| {{party shading/Democratic}}|[[Pinal County, Arizona|Pinal]]
+| {{party shading/Republican}}|8,244
+| {{party shading/Republican}}|33.35%
+| {{party shading/Democratic}}|11,127
+| {{party shading/Democratic}}|45.02%
+| {{party shading/Independent}}|5,347
+| {{party shading/Independent}}|21.63%
+| {{party shading/Democratic}}|-2,883
+| {{party shading/Democratic}}|-11.66%
+| {{party shading/Democratic}}|24,718
+|- style="text-align:center;"
+| {{party shading/Democratic}}|[[Santa Cruz County, Arizona|Santa Cruz]]
+| {{party shading/Republican}}|1,490
+| {{party shading/Republican}}|28.10%
+| {{party shading/Democratic}}|2,349
+| {{party shading/Democratic}}|44.30%
+| {{party shading/Independent}}|1,464
+| {{party shading/Independent}}|27.61%
+| {{party shading/Democratic}}|-859
+| {{party shading/Democratic}}|-16.20%
+| {{party shading/Democratic}}|5,303
+|- style="text-align:center;"
+| {{party shading/Republican}}|[[Yavapai County, Arizona|Yavapai]]
+| {{party shading/Republican}}|15,000
+| {{party shading/Republican}}|46.91%
+| {{party shading/Democratic}}|10,288
+| {{party shading/Democratic}}|32.17%
+| {{party shading/Independent}}|6,688
+| {{party shading/Independent}}|20.92%
+| {{party shading/Republican}}|4,712
+| {{party shading/Republican}}|14.74%
+| {{party shading/Republican}}|31,976
+|- style="text-align:center;"
+| {{party shading/Democratic}}|[[Yuma County, Arizona|Yuma]]
+| {{party shading/Republican}}|5,474
+| {{party shading/Republican}}|33.76%
+| {{party shading/Democratic}}|7,449
+| {{party shading/Democratic}}|45.94%
+| {{party shading/Independent}}|3,290
+| {{party shading/Independent}}|20.29%
+| {{party shading/Democratic}}|-1,975
+| {{party shading/Democratic}}|-12.18%
+| {{party shading/Democratic}}|16,213
+|- style="text-align:center;"
+!Totals!!343,913!!39.67%!!298,986!!34.49%!!224,085!!25.85%!!44,927!!5.18%!!866,984
+|}
+
+====Counties that flipped from Democratic to Republican====
+*[[Cochise County, Arizona|Cochise]]
+*[[Graham County, Arizona|Graham]]
+*[[Maricopa County, Arizona|Maricopa]]
+*[[Mohave County, Arizona|Mohave]]
+*[[Yavapai County, Arizona|Yavapai]]
+
+==References==
+{{reflist}}
+{{United States elections, 1986}}
+{{Arizona gubernatorial elections}}
+{{US Third Party Election}}
+
+{{DEFAULTSORT:Arizona Gubernatorial Election, 1986}}
+[[Category:Arizona gubernatorial elections|1986]]
+[[Category:1986 United States gubernatorial elections]]
+[[Category:1986 elections in Arizona|Gubernatorial]]

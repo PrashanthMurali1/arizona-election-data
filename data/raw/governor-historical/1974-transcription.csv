@@ -1,0 +1,5 @@
+party,name,write_in,04001,04003,04005,04007,04009,04011,04013,04015,04017,04019,04021,04023,04025,04027,official_statewide,category
+DEM,Raul Castro,false,4482,8779,9601,5056,2379,2262,139222,4623,6440,70919,9405,2238,7148,5821,278375,named_candidate
+REP,Russell Williams,false,2003,7695,6483,4015,2772,1397,171111,4449,4899,43962,7235,1134,9432,7087,273674,named_candidate
+NONE,Wonderful Russ Shaw,true,0,2,1,1,0,0,135,7,0,0,0,0,3,0,149,named_candidate
+NONE,Harold Bates,true,0,0,0,0,0,0,4,0,0,0,0,0,0,0,4,named_candidate

@@ -1,0 +1,73 @@
+{
+  "year": 1970,
+  "election_date": "1970-11-03",
+  "contest_id": "az-1970-governor",
+  "contest_kind": "regular",
+  "candidate_count": 2,
+  "expected_units": [
+    "04001",
+    "04003",
+    "04005",
+    "04007",
+    "04009",
+    "04011",
+    "04013",
+    "04015",
+    "04017",
+    "04019",
+    "04021",
+    "04023",
+    "04025",
+    "04027"
+  ],
+  "reviewed_county_differences": {},
+  "source_id": "canvass-1970-governor",
+  "source_title": "Arizona Secretary of State — 1970 official canvass",
+  "source_url": "https://apps.azsos.gov/election/files/hist/canvass1970ge.pdf",
+  "retrieved_on": "2026-11-01",
+  "retrieval_precision": "date",
+  "source_notes": "1970 regular Arizona gubernatorial election. County and statewide cells transcribed from page 2 of the official canvass issued by the Arizona Secretary of State (1970-11-27); every candidate's county cells sum to the printed statewide TOTAL, and the statewide totals also match Wikipedia's results table (https://en.wikipedia.org/wiki/1970_Arizona_gubernatorial_election). Every cell was first transcribed from RightDataUSA's county page and then checked against the canvass with no differences. La Paz County did not exist until 1983, so results are for the 14 counties then in existence and Yuma is the larger pre-1983 Yuma County. The canvass prints Mohave County turnout as 57.59%, though its own ballots and registration give 64.20%; the printed percentage is kept as published. Election-wide registration, ballots cast and turnout are the official figures from page 1 of the canvass. The canvass PDF was supplied by the project maintainer and is retained with its SHA-256.",
+  "additional_sources": [
+    {
+      "id": "wikipedia-1970-arizona-governor",
+      "title": "Wikipedia — 1970 Arizona gubernatorial election (statewide cross-check)",
+      "url": "https://en.wikipedia.org/wiki/1970_Arizona_gubernatorial_election",
+      "sha256": "9e5db12cea53b758ca56319674bf8863c02cd955634d9290ab3555f6ffc13c59",
+      "notes": "Secondary source used only to cross-check statewide totals and itemize write-ins. It cites the official canvass at https://azmemory.azlibrary.gov/nodes/view/102665. Retrieved 2026-11-01."
+    },
+    {
+      "id": "rightdatausa-1970-governor",
+      "title": "RightDataUSA — 1970 Gubernatorial Election Results for Arizona (county results, comparison)",
+      "url": "https://www.rightdatausa.com/election_results?y=1970&t=G&r=N&s=AZ&d=all&WhichMap=vs",
+      "sha256": "25280ca3a9610ccef809d7d5c7683e32997bbe7e4e7c673bdbd38f18f7e5ff1b",
+      "notes": "Secondary compilation used for the first transcription and then checked cell by cell against the official canvass."
+    }
+  ],
+  "snapshots": [
+    {
+      "path": "data/raw/governor-historical/1970-transcription.csv",
+      "sha256": "8e4a248228eec03f4e783ebbf1acc8336771478352974dbc295ad9c4eb044e9f"
+    },
+    {
+      "path": "data/raw/governor-historical/pdfs/canvass1970ge.pdf",
+      "sha256": "f3f0ca16ffd030672d7868c6b8da9034a33d616b03f65d6a2fd232d9a3c9cb63"
+    },
+    {
+      "path": "data/raw/governor-historical/pdfs/rightdatausa-1970-arizona-governor.pdf",
+      "sha256": "25280ca3a9610ccef809d7d5c7683e32997bbe7e4e7c673bdbd38f18f7e5ff1b"
+    },
+    {
+      "path": "data/raw/governor-historical/wikipedia/1970-arizona-gubernatorial-election.wikitext",
+      "sha256": "9e5db12cea53b758ca56319674bf8863c02cd955634d9290ab3555f6ffc13c59"
+    },
+    {
+      "path": "data/raw/governor-historical/1970-turnout-transcription.csv",
+      "sha256": "f18e8d686de54304ae739947da021e861a8fe08ec34bded9c629dfe5d44fe964"
+    }
+  ],
+  "reported_at": "1970-11-27",
+  "report_time_precision": "date",
+  "canvass_page": 2,
+  "turnout_path": "data/raw/governor-historical/1970-turnout-transcription.csv",
+  "turnout_definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass."
+}

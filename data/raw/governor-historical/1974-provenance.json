@@ -1,0 +1,73 @@
+{
+  "year": 1974,
+  "election_date": "1974-11-05",
+  "contest_id": "az-1974-governor",
+  "contest_kind": "regular",
+  "candidate_count": 4,
+  "expected_units": [
+    "04001",
+    "04003",
+    "04005",
+    "04007",
+    "04009",
+    "04011",
+    "04013",
+    "04015",
+    "04017",
+    "04019",
+    "04021",
+    "04023",
+    "04025",
+    "04027"
+  ],
+  "reviewed_county_differences": {},
+  "source_id": "canvass-1974-governor",
+  "source_title": "Arizona Secretary of State — 1974 official canvass",
+  "source_url": "https://apps.azsos.gov/election/files/hist/canvass1974ge.pdf",
+  "retrieved_on": "2026-11-01",
+  "retrieval_precision": "date",
+  "source_notes": "1974 regular Arizona gubernatorial election. County and statewide cells transcribed from page 2 of the official canvass issued by the Arizona Secretary of State (1974-11-29); every candidate's county cells sum to the printed statewide TOTAL, and the statewide totals also match Wikipedia's results table (https://en.wikipedia.org/wiki/1974_Arizona_gubernatorial_election). Every cell was first transcribed from RightDataUSA's county page and then checked against the canvass; the canvass itemizes the write-ins that RightDataUSA reports as one total, and the county cells agree. La Paz County did not exist until 1983, so results are for the 14 counties then in existence and Yuma is the larger pre-1983 Yuma County. Named write-ins are itemized as the canvass prints them. The canvass prints Coconino County turnout as 62.28%, though its own ballots and registration give 60.77%; the printed percentage is kept as published. Election-wide registration, ballots cast and turnout are the official figures from page 1 of the canvass. The canvass PDF was supplied by the project maintainer and is retained with its SHA-256.",
+  "additional_sources": [
+    {
+      "id": "wikipedia-1974-arizona-governor",
+      "title": "Wikipedia — 1974 Arizona gubernatorial election (statewide cross-check)",
+      "url": "https://en.wikipedia.org/wiki/1974_Arizona_gubernatorial_election",
+      "sha256": "b5227759772b22bef5c796c7b448a99c15f7ceae5ed74e1cfc55c0b84df83dd9",
+      "notes": "Secondary source used only to cross-check statewide totals and itemize write-ins. It cites the official canvass at https://azmemory.azlibrary.gov/nodes/view/102669. Retrieved 2026-11-01."
+    },
+    {
+      "id": "rightdatausa-1974-governor",
+      "title": "RightDataUSA — 1974 Gubernatorial Election Results for Arizona (county results, comparison)",
+      "url": "https://www.rightdatausa.com/election_results?y=1974&t=G&r=N&s=AZ&d=all&WhichMap=vs",
+      "sha256": "9f5e3bf50236f9f22fe158c5f78cd177d16f94622b0228f02519399adc879436",
+      "notes": "Secondary compilation used for the first transcription and then checked cell by cell against the official canvass."
+    }
+  ],
+  "snapshots": [
+    {
+      "path": "data/raw/governor-historical/1974-transcription.csv",
+      "sha256": "dda5b2710708036c093549fc6e68c75bc911a45f1f68dc71fd8a8e2571d3e664"
+    },
+    {
+      "path": "data/raw/governor-historical/pdfs/canvass1974ge.pdf",
+      "sha256": "a9f1af7e6eb669f5c9088a676c3799b39cfa9d7e173696243f8f99f67f04c5f5"
+    },
+    {
+      "path": "data/raw/governor-historical/pdfs/rightdatausa-1974-arizona-governor.pdf",
+      "sha256": "9f5e3bf50236f9f22fe158c5f78cd177d16f94622b0228f02519399adc879436"
+    },
+    {
+      "path": "data/raw/governor-historical/wikipedia/1974-arizona-gubernatorial-election.wikitext",
+      "sha256": "b5227759772b22bef5c796c7b448a99c15f7ceae5ed74e1cfc55c0b84df83dd9"
+    },
+    {
+      "path": "data/raw/governor-historical/1974-turnout-transcription.csv",
+      "sha256": "780796a18061f5d24e8ec7c4a0ca76b633ce39c64d6cef98c475f2d2ff28b329"
+    }
+  ],
+  "reported_at": "1974-11-29",
+  "report_time_precision": "date",
+  "canvass_page": 2,
+  "turnout_path": "data/raw/governor-historical/1974-turnout-transcription.csv",
+  "turnout_definition": "Official election-wide ballots cast, eligible registration and turnout percentage as printed on page 1 of the Secretary of State canvass."
+}

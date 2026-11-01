@@ -1,0 +1,377 @@
+{{Short description|none}}
+{{for|related races|1978 United States gubernatorial elections}}
+{{Use American English|date=January 2025}}
+<!-- "none" is preferred when the title is sufficiently descriptive; see [[WP:SDNONE]] -->
+{{Use mdy dates|date=September 2023}}
+{{Infobox election
+| election_name = 1978 Arizona gubernatorial election
+| country = Arizona
+| type = presidential
+| ongoing = no
+| previous_election = 1974 Arizona gubernatorial election
+| previous_year = 1974
+| next_election = 1982 Arizona gubernatorial election
+| next_year = 1982
+| election_date = November 7, 1978
+| image1 = File:Bruce babbitt.jpg
+| image_size = 150x150px
+| nominee1 = '''[[Bruce Babbitt]]'''
+| party1 = Democratic Party (United States)
+| popular_vote1 = '''282,605'''
+| percentage1 = '''52.47%'''
+| image2 = File:Evan Mecham (Arizona governor).jpg
+| nominee2 = [[Evan Mecham]]
+| party2 = Republican Party (United States)
+| popular_vote2 = 241,093
+| percentage2 = 44.77%
+| map_image = 1978 Arizona gubernatorial election results map by county.svg
+| map_size = 220px
+| map_caption = County results<br/>'''Babbitt''': {{legend0|#7996e2|50–60%}} {{legend0|#6674de|60–70%}} <br/>'''Mecham''': {{legend0|#ffb2b2|40–50%}} {{legend0|#e27f7f|50–60%}} 
+| title = Governor
+| before_election = [[Bruce Babbitt]]
+| before_party = Democratic Party (United States)
+| after_election = [[Bruce Babbitt]]
+| after_party = Democratic Party (United States)
+}}
+{{ElectionsAZ}}
+The '''1978 Arizona gubernatorial election''' took place on November 7, 1978, for the post of [[List of governors of Arizona|Governor of Arizona]]. [[Democratic Party (United States)|Democrat]] [[Bruce Babbitt]] defeated [[Republican Party (United States)|Republican]] nominee [[Evan Mecham]]. Babbitt was the former Attorney General of Arizona, but after the death of Governor [[Wesley Bolin]], Babbit became governor. Bolin himself ascended to office from the position of Secretary of State, meaning his replacement, [[Rose Mofford]] was not eligible to the office as she was not elected. This drama of exchanging office would continue after Babbitt's term came to an end, as Mofford would become governor and succeeded Evan Mecham, Babbitt's challenger, in 1988.
+
+==Democratic primary==
+
+===Candidates===
+*[[Bruce Babbitt]], incumbent Governor
+*Dave Moss, [[perennial candidate]]
+
+====Withdrew====
+*[[Bill Schulz (politician)|Bill Schulz]], businessman (endorsed Babbitt)
+
+===Results===
+{{Election box begin no change | title=Democratic primary results <ref name="primary">{{cite web|url=https://azmemory.azlibrary.gov/nodes/view/102674|title=Official Canvass State of Arizona Primary Election - September 12, 1978|publisher=Arizona Secretary of State|access-date=2024-07-14}}</ref>
+}}
+{{Election box winning candidate with party link no change
+  |party      = Democratic Party (United States)
+  |candidate  = [[Bruce Babbitt]] (incumbent)
+  |votes      = 108,548 
+  |percentage = 76.80%
+}}
+{{Election box candidate with party link no change
+  |party      = Democratic Party (United States)
+  |candidate  = Dave Moss
+  |votes      = 32,785 	
+  |percentage = 23.20%
+}}
+{{Election box total no change
+  |votes      = 141,333
+  |percentage = 100.00%
+}}
+
+{{Election box end}}
+
+==Republican primary==
+
+===Candidates===
+*Charles King
+*Jack Londen, businessman
+*[[Evan Mecham]], perennial candidate
+
+===Results===
+{{Election box begin no change | title=Republican primary results <ref name="primary"/>
+}}
+{{Election box winning candidate with party link no change
+  |party      = Republican Party (United States)
+  |candidate  = [[Evan Mecham]]
+  |votes      = 50,713 
+  |percentage = 44.07%
+}}
+{{Election box candidate with party link no change
+  |party      = Republican Party (United States)
+  |candidate  = Jack Londen
+  |votes      =  40,116 
+  |percentage =  34.86%
+}}
+{{Election box candidate with party link no change
+  |party      = Republican Party (United States)
+  |candidate  = Charles King
+  |votes      =  24,253 
+  |percentage =  21.08%
+}}
+{{Election box total no change
+  |votes      = 115,082
+  |percentage = 100.00%
+}}
+
+{{Election box end}}
+
+==General election==
+
+===Results===
+{{Election box begin | title=Arizona gubernatorial election, 1978<ref name="results">{{cite web|url=https://azmemory.azlibrary.gov/nodes/view/102673|title=Official Canvass State of Arizona General Election - November 7, 1978|publisher=Arizona Secretary of State|access-date=2024-07-14}}</ref>
+}}
+{{Election box winning candidate with party link|
+  |party = Democratic Party (United States)
+  |candidate = [[Bruce Babbitt]] (incumbent)
+  |votes = 282,605
+  |percentage = 52.47%
+  |change = +2.06%
+}}
+{{Election box candidate with party link|
+  |party = Republican Party (United States)
+  |candidate = [[Evan Mecham]]
+  |votes = 241,093
+  |percentage = 44.77%
+  |change = -4.79%
+}}
+{{Election box candidate with party link|
+  |party = Arizona Libertarian Party
+  |candidate = V. Gene Lewter
+  |votes = 10,421
+  |percentage = 1.93%
+  |change = +1.93%
+}}
+{{Election box candidate with party link|
+  |party = Socialist Workers Party (US)
+  |candidate = Jessica Sampson
+  |votes = 4,437
+  |percentage = 0.82%
+  |change = +0.82%
+}}
+{{Election box majority
+ |votes = 41,512
+ |percentage = 7.71%
+ |change = 
+}}
+{{Election box total
+ |votes = 538,556
+ |percentage =100.00%
+ |change =
+}}
+{{Election box hold with party link
+ |winner = Democratic Party (United States)
+ |loser = Republican Party (United States)
+ |swing = +6.86%
+}}
+{{Election box end}}
+
+=== Results by county ===
+{| class="wikitable sortable"
+|-
+! rowspan="2" |County
+! style="text-align:center;" colspan="2"| Bruce Babbitt<br />Democratic
+! style="text-align:center;" colspan="2"| Evan Mecham<br />Republican
+! style="text-align:center;" colspan="2"| V. Gene Lewter<br />Libertarian
+! style="text-align:center;" colspan="2"| Jessica Sampson<br />Socialist Workers
+! style="text-align:center;" colspan="2"| Margin
+! style="text-align:center;" rowspan="2"| Total votes<br />cast<ref name="results"/>
+|-
+! style="text-align:center;" data-sort-type="number"| #
+! style="text-align:center;" data-sort-type="number"| %
+! style="text-align:center;" data-sort-type="number"| #
+! style="text-align:center;" data-sort-type="number"| %
+! style="text-align:center;" data-sort-type="number"| #
+! style="text-align:center;" data-sort-type="number"| %
+! style="text-align:center;" data-sort-type="number"| #
+! style="text-align:center;" data-sort-type="number"| %
+! style="text-align:center;" data-sort-type="number"| #
+! style="text-align:center;" data-sort-type="number"| %
+|- style="text-align:center;"
+| {{party shading/Democratic}}|[[Apache County, Arizona|Apache]]
+| {{party shading/Democratic}}|4,498
+| {{party shading/Democratic}}|67.90%
+| {{party shading/Republican}}|1,761
+| {{party shading/Republican}}|26.59%
+| {{party shading/Libertarian}}|196
+| {{party shading/Libertarian}}|2.96%
+| {{party shading/Socialist Workers}}|169
+| {{party shading/Socialist Workers}}|2.55%
+| {{party shading/Democratic}}|2,737
+| {{party shading/Democratic}}|41.32%
+| {{party shading/Democratic}}|6,624
+|- style="text-align:center;"
+| {{party shading/Democratic}}|[[Cochise County, Arizona|Cochise]]
+| {{party shading/Democratic}}|8,963
+| {{party shading/Democratic}}|57.96%
+| {{party shading/Republican}}|6,251
+| {{party shading/Republican}}|40.42%
+| {{party shading/Libertarian}}|94
+| {{party shading/Libertarian}}|0.61%
+| {{party shading/Socialist Workers}}|157
+| {{party shading/Socialist Workers}}|1.02%
+| {{party shading/Democratic}}|2,712
+| {{party shading/Democratic}}|17.54%
+| {{party shading/Democratic}}|15,465
+|- style="text-align:center;"
+| {{party shading/Democratic}}|[[Coconino County, Arizona|Coconino]]
+| {{party shading/Democratic}}|10,446
+| {{party shading/Democratic}}|67.74%
+| {{party shading/Republican}}|4,411
+| {{party shading/Republican}}|28.60%
+| {{party shading/Libertarian}}|388
+| {{party shading/Libertarian}}|2.52%
+| {{party shading/Socialist Workers}}|176
+| {{party shading/Socialist Workers}}|1.14%
+| {{party shading/Democratic}}|6,035
+| {{party shading/Democratic}}|39.13%
+| {{party shading/Democratic}}|15,421
+|- style="text-align:center;"
+| {{party shading/Democratic}}|[[Gila County, Arizona|Gila]]
+| {{party shading/Democratic}}|5,715
+| {{party shading/Democratic}}|59.39%
+| {{party shading/Republican}}|3,668
+| {{party shading/Republican}}|38.12%
+| {{party shading/Libertarian}}|160
+| {{party shading/Libertarian}}|1.66%
+| {{party shading/Socialist Workers}}|80
+| {{party shading/Socialist Workers}}|0.83%
+| {{party shading/Democratic}}|2,047
+| {{party shading/Democratic}}|21.27%
+| {{party shading/Democratic}}|9,623
+|- style="text-align:center;"
+| {{party shading/Republican}}|[[Graham County, Arizona|Graham]]
+| {{party shading/Democratic}}|2,565
+| {{party shading/Democratic}}|44.41%
+| {{party shading/Republican}}|3,085
+| {{party shading/Republican}}|53.41%
+| {{party shading/Libertarian}}|63
+| {{party shading/Libertarian}}|1.09%
+| {{party shading/Socialist Workers}}|63
+| {{party shading/Socialist Workers}}|1.09%
+| {{party shading/Republican}}|-520
+| {{party shading/Republican}}|-9.00%
+| {{party shading/Republican}}|5,776
+|- style="text-align:center;"
+| {{party shading/Democratic}}|[[Greenlee County, Arizona|Greenlee]]
+| {{party shading/Democratic}}|2,229
+| {{party shading/Democratic}}|69.25%
+| {{party shading/Republican}}|917
+| {{party shading/Republican}}|28.49%
+| {{party shading/Libertarian}}|31
+| {{party shading/Libertarian}}|0.96%
+| {{party shading/Socialist Workers}}|42
+| {{party shading/Socialist Workers}}|1.30%
+| {{party shading/Democratic}}|1,312
+| {{party shading/Democratic}}|40.76%
+| {{party shading/Democratic}}|3,219
+|- style="text-align:center;"
+| {{party shading/Republican}}|[[Maricopa County, Arizona|Maricopa]]
+| {{party shading/Democratic}}|141,177
+| {{party shading/Democratic}}|46.82%
+| {{party shading/Republican}}|151,079
+| {{party shading/Republican}}|50.10%
+| {{party shading/Libertarian}}|6,982
+| {{party shading/Libertarian}}|2.32%
+| {{party shading/Socialist Workers}}|2,291
+| {{party shading/Socialist Workers}}|0.76%
+| {{party shading/Republican}}|-9,902
+| {{party shading/Republican}}|-3.28%
+| {{party shading/Republican}}|301,529
+|- style="text-align:center;"
+| {{party shading/Republican}}|[[Mohave County, Arizona|Mohave]]
+| {{party shading/Democratic}}|6,042
+| {{party shading/Democratic}}|48.24%
+| {{party shading/Republican}}|6,133
+| {{party shading/Republican}}|48.96%
+| {{party shading/Libertarian}}|277
+| {{party shading/Libertarian}}|2.21%
+| {{party shading/Socialist Workers}}|74
+| {{party shading/Socialist Workers}}|0.59%
+| {{party shading/Republican}}|-91
+| {{party shading/Republican}}|-0.73%
+| {{party shading/Republican}}|12,526
+|- style="text-align:center;"
+| {{party shading/Democratic}}|[[Navajo County, Arizona|Navajo]]
+| {{party shading/Democratic}}|6,269
+| {{party shading/Democratic}}|56.47%
+| {{party shading/Republican}}|4,518
+| {{party shading/Republican}}|40.70%
+| {{party shading/Libertarian}}|179
+| {{party shading/Libertarian}}|1.61%
+| {{party shading/Socialist Workers}}|136
+| {{party shading/Socialist Workers}}|1.23%
+| {{party shading/Democratic}}|1,751
+| {{party shading/Democratic}}|15.77%
+| {{party shading/Democratic}}|11,102
+|- style="text-align:center;"
+| {{party shading/Democratic}}|[[Pima County, Arizona|Pima]]
+| {{party shading/Democratic}}|67,904
+| {{party shading/Democratic}}|64.03%
+| {{party shading/Republican}}|36,197
+| {{party shading/Republican}}|34.13%
+| {{party shading/Libertarian}}|1,165
+| {{party shading/Libertarian}}|1.10%
+| {{party shading/Socialist Workers}}|785
+| {{party shading/Socialist Workers}}|0.74%
+| {{party shading/Democratic}}|31,707
+| {{party shading/Democratic}}|29.90%
+| {{party shading/Democratic}}|106,051
+|- style="text-align:center;"
+| {{party shading/Democratic}}|[[Pinal County, Arizona|Pinal]]
+| {{party shading/Democratic}}|9,064
+| {{party shading/Democratic}}|54.42%
+| {{party shading/Republican}}|7,151
+| {{party shading/Republican}}|42.93%
+| {{party shading/Libertarian}}|284
+| {{party shading/Libertarian}}|1.70%
+| {{party shading/Socialist Workers}}|158
+| {{party shading/Socialist Workers}}|0.95%
+| {{party shading/Democratic}}|1,913
+| {{party shading/Democratic}}|11.48%
+| {{party shading/Democratic}}|16,657
+|- style="text-align:center;"
+| {{party shading/Democratic}}|[[Santa Cruz County, Arizona|Santa Cruz]]
+| {{party shading/Democratic}}|2,814
+| {{party shading/Democratic}}|68.28%
+| {{party shading/Republican}}|1,229
+| {{party shading/Republican}}|29.82%
+| {{party shading/Libertarian}}|33
+| {{party shading/Libertarian}}|0.80%
+| {{party shading/Socialist Workers}}|45
+| {{party shading/Socialist Workers}}|1.09%
+| {{party shading/Democratic}}|1,585
+| {{party shading/Democratic}}|38.46%
+| {{party shading/Democratic}}|4,121
+|- style="text-align:center;"
+| {{party shading/Republican}}|[[Yavapai County, Arizona|Yavapai]]
+| {{party shading/Democratic}}|8,386
+| {{party shading/Democratic}}|46.85%
+| {{party shading/Republican}}|8,978
+| {{party shading/Republican}}|50.16%
+| {{party shading/Libertarian}}|408
+| {{party shading/Libertarian}}|2.28%
+| {{party shading/Socialist Workers}}|126
+| {{party shading/Socialist Workers}}|0.70%
+| {{party shading/Republican}}|-592
+| {{party shading/Republican}}|-3.31%
+| {{party shading/Republican}}|17,898
+|- style="text-align:center;"
+| {{party shading/Democratic}}|[[Yuma County, Arizona|Yuma]]
+| {{party shading/Democratic}}|6,533
+| {{party shading/Democratic}}|52.08%
+| {{party shading/Republican}}|5,715
+| {{party shading/Republican}}|45.56%
+| {{party shading/Libertarian}}|161
+| {{party shading/Libertarian}}|1.28%
+| {{party shading/Socialist Workers}}|135
+| {{party shading/Socialist Workers}}|1.08%
+| {{party shading/Democratic}}|818
+| {{party shading/Democratic}}|6.52%
+| {{party shading/Democratic}}|12,544
+|- style="text-align:center;"
+!Totals!!282,605!!52.47%!!241,093!!44.77%!!10,421!!1.93%!!4,437!!0.82%!!41,512!!7.71%!!538,556
+|}
+
+====Counties that flipped from Republican to Democratic====
+*[[Yuma County, Arizona|Yuma]]
+
+====Counties that flipped from Democratic to Republican====
+*[[Mohave County, Arizona|Mohave]]
+
+==References==
+{{reflist}}
+{{United States elections, 1978}}
+{{Arizona gubernatorial elections}}
+
+{{DEFAULTSORT:Arizona Gubernatorial Election, 1978}}
+[[Category:Arizona gubernatorial elections|1978]]
+[[Category:1978 United States gubernatorial elections]]
+[[Category:1978 elections in Arizona|Gubernatorial]]
+[[Category:November 1978 in the United States]]

@@ -1,0 +1,307 @@
+{{Short description|none}}
+{{for|related races|1966 United States gubernatorial elections}}
+{{Use American English|date=January 2025}}
+<!-- "none" is preferred when the title is sufficiently descriptive; see [[WP:SDNONE]] -->
+{{Use mdy dates|date=September 2023}}
+{{Infobox election
+| election_name = 1966 Arizona gubernatorial election
+| country = Arizona
+| type = Presidential
+| ongoing = no
+| previous_election = 1964 Arizona gubernatorial election
+| previous_year = 1964
+| next_election = 1968 Arizona gubernatorial election
+| next_year = 1968
+| election_date = November 8, 1966
+| image1 = Jack Williams (Arizona politician) (cropped).jpg
+| image_upright = 0.5
+| nominee1 = '''[[Jack Williams (American politician)|Jack Williams]]'''
+| party1 = Republican Party (United States)
+| popular_vote1 = '''203,438'''
+| percentage1 = '''53.77%'''
+| image2 = File:Samuel Pearson Goddard, Jr (tight crop).jpg
+| nominee2 = [[Samuel Pearson Goddard Jr.|Samuel Goddard]]
+| party2 = Democratic Party (United States)
+| popular_vote2 = 174,904
+| percentage2 = 46.23%
+| map_image = 1966 Arizona gubernatorial election results map by county.svg
+| map_size = 220px
+| map_caption = County results<br />'''Williams:''' {{legend0|#e27f7f|50–60%}} {{legend0|#d75d5d|60–70%}}<br />'''Goddard:''' {{legend0|#7996e2|50–60%}} {{legend0|#6674de|60–70%}} {{legend0|#584cde|70–80%}} 
+| title = Governor
+| before_election = [[Samuel Pearson Goddard Jr.|Samuel Goddard]]
+| before_party = Democratic Party (United States)
+| after_election = [[Jack Williams (American politician)|Jack Williams]]
+| after_party = Republican Party (United States)
+}}
+{{ElectionsAZ}}
+The '''1966 Arizona gubernatorial election''' took place on November 8, 1966. Incumbent governor [[Samuel Pearson Goddard Jr.|Samuel Pearson Goddard]] ran for reelection to a second term as governor, narrowly winning the Democratic Party nomination as he was challenged by Justice of the Peace Norman Green.
+
+Goddard went on to lose the general election to former [[mayor of Phoenix]] [[Jack Williams (American politician)|Jack Williams]]. This is the last time that an incumbent governor of Arizona lost reelection.
+
+==Democratic primary==
+===Candidates===
+* [[Samuel Pearson Goddard Jr.|Samuel P. Goddard]], incumbent governor
+* Norman Green, Justice of the Peace
+* Andrew J. Gilbert
+
+===Results===
+{{Election box begin no change | title=Democratic primary results<ref name="primary">{{cite web|url=https://azmemory.azlibrary.gov/nodes/view/102662|title=State of Arizona Official Canvass Primary Election - September 13, 1966|publisher=Arizona Secretary of State|access-date=2024-07-13}}</ref>
+}}
+{{Election box winning candidate with party link no change
+  |party      = Democratic Party (United States)
+  |candidate  = [[Samuel Pearson Goddard Jr.|Sam Goddard]] (incumbent)
+  |votes      = 63,180
+  |percentage = 44.89%
+}}
+{{Election box candidate with party link no change
+  |party      = Democratic Party (United States)
+  |candidate  = Norman Green
+  |votes      = 53,921
+  |percentage = 38.31%
+}}
+{{Election box candidate with party link no change
+  |party      = Democratic Party (United States)
+  |candidate  = Andrew J. Gilbert
+  |votes      = 23,637
+  |percentage = 16.80%
+}}
+{{Election box total no change
+  |votes      = 140,738
+  |percentage = 100.00%
+}}
+
+{{Election box end}}
+
+==Republican primary==
+
+===Candidates===
+* [[Jack Williams (American politician)|Jack Williams]], former mayor of Phoenix
+* John Haugh, Speaker of the Arizona House of Representatives
+* [[Robert Pickrell|Robert W. Pickrell]] Attorney General of Arizona
+
+[[File:1966 Arizona gubernatorial Republican primary election results map by county.svg|thumb|'''Williams''': {{legend0|#FFC8CD|30–40%}} {{legend0|#FFB2B2|40–50%}} {{legend0|#E27F7F|50–60%}} {{legend0|#D75D5D|60–70%}} <br/>'''Haugh''': {{legend0|#87DE87|40–50%}} {{legend0|#5FD35F|50–60%}} <br/>'''Pickrell''': {{legend0|#FEE5D5|30–40%}} {{legend0|#FFB380|50–60%}}]]
+
+===Results===
+{{Election box begin no change | title=Republican primary results<ref name="primary"/>
+}}
+{{Election box winning candidate with party link no change
+  |party      = Republican Party (United States)
+  |candidate  = [[Jack Williams (American politician)|Jack Williams]]
+  |votes      = 37,409
+  |percentage = 44.27%
+}}
+{{Election box candidate with party link no change
+  |party      = Republican Party (United States)
+  |candidate  = John Haugh
+  |votes      = 25,905
+  |percentage = 30.66%
+}}
+{{Election box candidate with party link no change
+  |party      = Republican Party (United States)
+  |candidate  = [[Robert Pickrell|Robert W. Pickrell]]
+  |votes      = 21,192
+  |percentage = 25.08%
+}}
+{{Election box total no change
+  |votes      = 84,506
+  |percentage = 100.00%
+}}
+
+{{Election box end}}
+
+==General election==
+===Results===
+{{Election box begin | title=Arizona gubernatorial election, 1966<ref name="results">{{cite web|url=https://azmemory.azlibrary.gov/nodes/view/102661|title=State of Arizona Official Canvass General Election - November 8, 1966|publisher=Arizona Secretary of State|access-date=2024-07-13}}</ref>
+}}
+{{Election box winning candidate with party link|
+  |party = Republican Party (United States)
+  |candidate = [[Jack Williams (American politician)|Jack Williams]]
+  |votes = 203,438
+  |percentage = 53.77%
+  |change = +7.01%
+}}
+{{Election box candidate with party link|
+  |party = Democratic Party (United States)
+  |candidate = [[Samuel Pearson Goddard Jr.|Sam Goddard]] (incumbent)
+  |votes = 174,904
+  |percentage = 46.23%
+  |change = -7.01%
+}}
+{{Election box majority
+ |votes = 28,534
+ |percentage = 7.54%
+ |change = 
+}}
+{{Election box total
+ |votes = 378,342
+ |percentage = 100.00%
+ |change = 
+}}
+{{Election box gain with party link
+ |winner = Republican Party (United States)
+ |loser = Democratic Party (United States)
+ |swing = +14.02%
+}}
+{{Election box end}}
+
+===Results by county===
+{|class="wikitable sortable" style="text-align:center"
+|-
+! rowspan="2" |County
+! style="text-align:center;" colspan="2"| Jack Williams<br />Republican
+! style="text-align:center;" colspan="2"| Sam Goddard<br />Democratic
+! style="text-align:center;" colspan="2"| Margin
+! style="text-align:center;" rowspan="2"| Total votes<br />cast<ref name="results"/>
+|-
+! style="text-align:center;" data-sort-type="number"| #
+! style="text-align:center;" data-sort-type="number"| %
+! style="text-align:center;" data-sort-type="number"| #
+! style="text-align:center;" data-sort-type="number"| %
+! style="text-align:center;" data-sort-type="number"| #
+! style="text-align:center;" data-sort-type="number"| %
+|- style="text-align:center;"
+| {{party shading/Democratic}}|[[Apache County, Arizona|Apache]]
+| {{party shading/Republican}}|1,458
+| {{party shading/Republican}}|45.55%
+| {{party shading/Democratic}}|1,743
+| {{party shading/Democratic}}|54.45%
+| {{party shading/Democratic}}|-285
+| {{party shading/Democratic}}|-8.90%
+| {{party shading/Democratic}}|3,201
+|- style="text-align:center;"
+| {{party shading/Democratic}}|[[Cochise County, Arizona|Cochise]]
+| {{party shading/Republican}}|5,820
+| {{party shading/Republican}}|45.07%
+| {{party shading/Democratic}}|7,094
+| {{party shading/Democratic}}|54.93%
+| {{party shading/Democratic}}|-1,274
+| {{party shading/Democratic}}|-9.87%
+| {{party shading/Democratic}}|12,914
+|- style="text-align:center;"
+| {{party shading/Republican}}|[[Coconino County, Arizona|Coconino]]
+| {{party shading/Republican}}|4,465
+| {{party shading/Republican}}|56.75%
+| {{party shading/Democratic}}|3,403
+| {{party shading/Democratic}}|43.25%
+| {{party shading/Republican}}|1,062
+| {{party shading/Republican}}|13.50%
+| {{party shading/Republican}}|7,868
+|- style="text-align:center;"
+| {{party shading/Democratic}}|[[Gila County, Arizona|Gila]]
+| {{party shading/Republican}}|3,532
+| {{party shading/Republican}}|41.26%
+| {{party shading/Democratic}}|5,028
+| {{party shading/Democratic}}|58.74%
+| {{party shading/Democratic}}|-1,496
+| {{party shading/Democratic}}|-17.48%
+| {{party shading/Democratic}}|8,560
+|- style="text-align:center;"
+| {{party shading/Democratic}}|[[Graham County, Arizona|Graham]]
+| {{party shading/Republican}}|1,955
+| {{party shading/Republican}}|47.19%
+| {{party shading/Democratic}}|2,188
+| {{party shading/Democratic}}|52.81%
+| {{party shading/Democratic}}|-233
+| {{party shading/Democratic}}|-5.62%
+| {{party shading/Democratic}}|4,143
+|- style="text-align:center;"
+| {{party shading/Democratic}}|[[Greenlee County, Arizona|Greenlee]]
+| {{party shading/Republican}}|1,020
+| {{party shading/Republican}}|29.63%
+| {{party shading/Democratic}}|2,423
+| {{party shading/Democratic}}|70.37%
+| {{party shading/Democratic}}|-1,403
+| {{party shading/Democratic}}|-40.75%
+| {{party shading/Democratic}}|3,443
+|- style="text-align:center;"
+| {{party shading/Republican}}|[[Maricopa County, Arizona|Maricopa]]
+| {{party shading/Republican}}|124,183
+| {{party shading/Republican}}|58.68%
+| {{party shading/Democratic}}|87,449
+| {{party shading/Democratic}}|41.32%
+| {{party shading/Republican}}|36,734
+| {{party shading/Republican}}|17.36%
+| {{party shading/Republican}}|211,632
+|- style="text-align:center;"
+| {{party shading/Republican}}|[[Mohave County, Arizona|Mohave]]
+| {{party shading/Republican}}|1,881
+| {{party shading/Republican}}|52.47%
+| {{party shading/Democratic}}|1,704
+| {{party shading/Democratic}}|47.53%
+| {{party shading/Republican}}|177
+| {{party shading/Republican}}|4.94%
+| {{party shading/Republican}}|3,585
+|- style="text-align:center;"
+| {{party shading/Republican}}|[[Navajo County, Arizona|Navajo]]
+| {{party shading/Republican}}|3,841
+| {{party shading/Republican}}|54.57%
+| {{party shading/Democratic}}|3,198
+| {{party shading/Democratic}}|45.43%
+| {{party shading/Republican}}|643
+| {{party shading/Republican}}|9.13%
+| {{party shading/Republican}}|7,039
+|- style="text-align:center;"
+| {{party shading/Democratic}}|[[Pima County, Arizona|Pima]]
+| {{party shading/Republican}}|35,901
+| {{party shading/Republican}}|46.29%
+| {{party shading/Democratic}}|41,657
+| {{party shading/Democratic}}|53.71%
+| {{party shading/Democratic}}|-5,756
+| {{party shading/Democratic}}|-7.42%
+| {{party shading/Democratic}}|77,558
+|- style="text-align:center;"
+| {{party shading/Democratic}}|[[Pinal County, Arizona|Pinal]]
+| {{party shading/Republican}}|6,087
+| {{party shading/Republican}}|45.50%
+| {{party shading/Democratic}}|7,292
+| {{party shading/Democratic}}|54.50%
+| {{party shading/Democratic}}|-1,205
+| {{party shading/Democratic}}|-9.01%
+| {{party shading/Democratic}}|13,379
+|- style="text-align:center;"
+| {{party shading/Democratic}}|[[Santa Cruz County, Arizona|Santa Cruz]]
+| {{party shading/Republican}}|1,088
+| {{party shading/Republican}}|38.75%
+| {{party shading/Democratic}}|1,720
+| {{party shading/Democratic}}|61.25%
+| {{party shading/Democratic}}|-632
+| {{party shading/Democratic}}|-22.51%
+| {{party shading/Democratic}}|2,808
+|- style="text-align:center;"
+| {{party shading/Republican}}|[[Yavapai County, Arizona|Yavapai]]
+| {{party shading/Republican}}|7,116
+| {{party shading/Republican}}|61.88%
+| {{party shading/Democratic}}|4,384
+| {{party shading/Democratic}}|38.12%
+| {{party shading/Republican}}|2,732
+| {{party shading/Republican}}|23.76%
+| {{party shading/Republican}}|11,500
+|- style="text-align:center;"
+| {{party shading/Democratic}}|[[Yuma County, Arizona|Yuma]]
+| {{party shading/Republican}}|5,091
+| {{party shading/Republican}}|47.53%
+| {{party shading/Democratic}}|5,621
+| {{party shading/Democratic}}|52.47%
+| {{party shading/Democratic}}|-530
+| {{party shading/Democratic}}|-4.95%
+| {{party shading/Democratic}}|10,712
+|- style="text-align:center;"
+!Totals!!203,438!!53.77%!!174,904!!46.23%!!28,534!!7.54%!!378,342
+|}
+
+====Counties that flipped from Democratic to Republican====
+*[[Coconino County, Arizona|Coconino]]
+*[[Mohave County, Arizona|Mohave]]
+*[[Navajo County, Arizona|Navajo]]
+
+==References==
+{{reflist|1}}
+
+{{United States elections, 1966}}
+{{Arizona gubernatorial elections}}
+
+{{DEFAULTSORT:Arizona Gubernatorial Election, 1966}}
+[[Category:Arizona gubernatorial elections|1966]]
+[[Category:1966 United States gubernatorial elections]]
+[[Category:1966 elections in Arizona|Gubernatorial]]
+[[Category:November 1966 in the United States]]

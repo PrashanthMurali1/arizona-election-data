@@ -1,0 +1,397 @@
+{{Short description|none}}
+{{for|related races|1982 United States gubernatorial elections}}
+{{Use American English|date=January 2025}}
+<!-- "none" is preferred when the title is sufficiently descriptive; see [[WP:SDNONE]] -->
+{{Use mdy dates|date=September 2023}}
+{{Infobox election
+| election_name = 1982 Arizona gubernatorial election
+| country = Arizona
+| type = presidential
+| ongoing = no
+| previous_election = 1978 Arizona gubernatorial election
+| previous_year = 1978
+| next_election = 1986 Arizona gubernatorial election
+| next_year = 1986
+| election_date = November 2, 1982
+| image1 = File:Bruce babbitt.jpg
+| image_size = 150x150px
+| nominee1 = '''[[Bruce Babbitt]]'''
+| party1 = Democratic Party (United States)
+| popular_vote1 = '''453,795'''
+| percentage1 = '''62.47%'''
+| image2 = 3x4.svg 
+| nominee2 = [[Leo Corbet]]
+| party2 = Republican Party (United States)
+| popular_vote2 = 235,877
+| percentage2 = 32.47%
+| image3 = File:Sam Steiger Congressional photo.jpg
+| nominee3 = [[Sam Steiger]]
+| party3 = Arizona Libertarian Party
+| popular_vote3 = 36,649
+| percentage3 = 5.05%
+| map_image = 1982 Arizona gubernatorial election results map by county.svg
+| map_size = 220px
+| map_caption = County results<br />'''Babbitt''': {{legend0|#7996e2|50–60%}} {{legend0|#6674de|60–70%}} {{legend0|#584cde|70–80%}}
+| title = Governor
+| before_election = [[Bruce Babbitt]]
+| before_party = Democratic Party (United States)
+| after_election = [[Bruce Babbitt]]
+| after_party = Democratic Party (United States)
+}}
+{{ElectionsAZ}}
+The '''1982 Arizona gubernatorial election''' took place on November 2, 1982, for the post of [[List of governors of Arizona|Governor of Arizona]]. [[Democratic Party (United States)|Democratic]] incumbent [[Bruce Babbitt]] defeated [[Republican Party (United States)|Republican]] nominee [[Leo Corbet]] and [[Libertarian Party (United States)|Libertarian]] candidate and former [[United States House of Representatives|U.S. Representative]] [[Sam Steiger]]. [[Evan Mecham]] unsuccessfully ran for the Republican nomination.
+
+This was the last time until [[2002 Arizona gubernatorial election|2002]] that a Democrat would be elected Governor of Arizona.{{Efn|[[Rose Mofford]], a [[Democratic Party (United States)|Democrat]], would serve as governor from 1988 to 1991 following the impeachment of [[List of governors of Arizona|Governor]] [[Evan Mecham]], but was never officially elected as Governor.}}
+
+==Democratic primary==
+
+===Candidates===
+*[[Bruce Babbitt]], incumbent Governor
+*Steve Jancek
+
+===Results===
+{{Election box begin no change | title=Democratic primary results <ref name="primary">{{cite web|url=https://azmemory.azlibrary.gov/nodes/view/102679|title=Official Canvass Primary Election - September 7, 1982|publisher=Arizona Secretary of State|access-date=2024-07-14}}</ref>
+}}
+{{Election box winning candidate with party link no change
+  |party      = Democratic Party (United States)
+  |candidate  = [[Bruce Babbitt]] (incumbent)
+  |votes      = 142,559
+  |percentage = 85.85%
+}}
+{{Election box candidate with party link no change
+  |party      = Democratic Party (United States)
+  |candidate  = Steve Jancek{{efn|Died before election day}}
+  |votes      = 23,492
+  |percentage = 14.15%
+}}
+{{Election box total no change
+  |votes      = 166,051
+  |percentage = 100.00%
+}}
+
+{{Election box end}}
+
+==Republican primary==
+
+===Candidates===
+*[[Leo Corbet]], member of Arizona Senate
+*[[Evan Mecham]], perennial candidate
+*Gene Thon
+
+===Results===
+{{Election box begin no change | title=Republican primary results <ref name="primary"/>
+}}
+{{Election box winning candidate with party link no change
+  |party      = Republican Party (United States)
+  |candidate  = [[Leo Corbet]]
+  |votes      = 108,766
+  |percentage = 61.71%
+}}
+{{Election box candidate with party link no change
+  |party      = Republican Party (United States)
+  |candidate  = [[Evan Mecham]]
+  |votes      =  67,456
+  |percentage =  38.27%
+}}
+{{Election box candidate with party link no change
+  |party      = Republican Party (United States)
+  |candidate  = Gene Thon (write-in)
+  |votes      =  23 
+  |percentage =  0.01%
+}}
+{{Election box total no change
+  |votes      = 176,245
+  |percentage = 100.00%
+}}
+
+{{Election box end}}
+
+==General election==
+
+===Results===
+{{Election box begin | title=Arizona gubernatorial election, 1982<ref name="results">{{cite web|url=https://azmemory.azlibrary.gov/nodes/view/102678|title=Official Canvass State of Arizona General Election - November 2, 1982|publisher=Arizona Secretary of State|access-date=2024-07-14}}</ref>
+}}
+{{Election box winning candidate with party link|
+  |party = Democratic Party (United States)
+  |candidate = [[Bruce Babbitt]] (incumbent)
+  |votes = 453,795
+  |percentage = 62.47%
+  |change = +10.00%
+}}
+{{Election box candidate with party link|
+  |party = Republican Party (United States)
+  |candidate = [[Leo Corbet]]
+  |votes = 235,877
+  |percentage = 32.47%
+  |change = -12.29%
+}}
+{{Election box candidate with party link|
+  |party = Arizona Libertarian Party
+  |candidate = [[Sam Steiger]]
+  |votes = 36,649
+  |percentage = 5.05%
+  |change = +3.11%
+}}
+{{Election box candidate with party link|
+  |party = Republican Party (United States)
+  |candidate = Dave Duncan (write-in)
+  |votes = 28
+  |percentage = 0.00%
+  |change =
+}}
+{{Election box candidate with party link|
+  |party = Independent
+  |candidate = Sandy Greeneltch (write-in)
+  |votes = 13
+  |percentage = 0.00%
+  |change =
+}}
+{{Election box candidate with party link|
+  |party = Independent
+  |candidate = Frank Henry Beversdorf, Sr. (write-in)
+  |votes = 2
+  |percentage = 0.00%
+  |change =
+}}
+{{Election box majority
+ |votes = 217,918
+ |percentage = 30.00%
+ |change = 
+}}
+{{Election box total
+ |votes = 726,364
+ |percentage = 100.00%
+ |change =
+}}
+{{Election box hold with party link
+ |winner = Democratic Party (United States)
+ |loser = Republican Party (United States)
+ |swing = +22.29%
+}}
+{{Election box end}}
+
+=== Results by county ===
+{| class="wikitable sortable"
+|-
+! rowspan="2" |County
+! style="text-align:center;" colspan="2"| Bruce Babbitt<br />Democratic
+! style="text-align:center;" colspan="2"| Leo Corbet<br />Republican
+! style="text-align:center;" colspan="2"| Sam Steiger<br />Libertarian
+! style="text-align:center;" colspan="2"| Write-in
+! style="text-align:center;" colspan="2"| Margin
+! style="text-align:center;" rowspan="2"| Total votes<br />cast<ref name="results"/>
+|-
+! style="text-align:center;" data-sort-type="number"| #
+! style="text-align:center;" data-sort-type="number"| %
+! style="text-align:center;" data-sort-type="number"| #
+! style="text-align:center;" data-sort-type="number"| %
+! style="text-align:center;" data-sort-type="number"| #
+! style="text-align:center;" data-sort-type="number"| %
+! style="text-align:center;" data-sort-type="number"| #
+! style="text-align:center;" data-sort-type="number"| %
+! style="text-align:center;" data-sort-type="number"| #
+! style="text-align:center;" data-sort-type="number"| %
+|- style="text-align:center;"
+| {{party shading/Democratic}}|[[Apache County, Arizona|Apache]]
+| {{party shading/Democratic}}|6,584
+| {{party shading/Democratic}}|66.82%
+| {{party shading/Republican}}|2,723
+| {{party shading/Republican}}|27.64%
+| {{party shading/Libertarian}}|548
+| {{party shading/Libertarian}}|5.54%
+| {{party shading/Independent}}|0
+| {{party shading/Independent}}|0.00%
+| {{party shading/Democratic}}|3,861
+| {{party shading/Democratic}}|39.19%
+| {{party shading/Democratic}}|9,853
+|- style="text-align:center;"
+| {{party shading/Democratic}}|[[Cochise County, Arizona|Cochise]]
+| {{party shading/Democratic}}|13,196
+| {{party shading/Democratic}}|65.67%
+| {{party shading/Republican}}|6,082
+| {{party shading/Republican}}|30.27%
+| {{party shading/Libertarian}}|815
+| {{party shading/Libertarian}}|4.06%
+| {{party shading/Independent}}|0
+| {{party shading/Independent}}|0.00%
+| {{party shading/Democratic}}|7,114
+| {{party shading/Democratic}}|35.41%
+| {{party shading/Democratic}}|20,093
+|- style="text-align:center;"
+| {{party shading/Democratic}}|[[Coconino County, Arizona|Coconino]]
+| {{party shading/Democratic}}|14,773
+| {{party shading/Democratic}}|68.97%
+| {{party shading/Republican}}|4,997
+| {{party shading/Republican}}|23.33%
+| {{party shading/Libertarian}}|1,643
+| {{party shading/Libertarian}}|7.67%
+| {{party shading/Independent}}|6
+| {{party shading/Independent}}|0.03%
+| {{party shading/Democratic}}|9,776
+| {{party shading/Democratic}}|45.64%
+| {{party shading/Democratic}}|21,419
+|- style="text-align:center;"
+| {{party shading/Democratic}}|[[Gila County, Arizona|Gila]]
+| {{party shading/Democratic}}|7,343
+| {{party shading/Democratic}}|62.46%
+| {{party shading/Republican}}|3,645
+| {{party shading/Republican}}|31.00%
+| {{party shading/Libertarian}}|769
+| {{party shading/Libertarian}}|6.54%
+| {{party shading/Independent}}|0
+| {{party shading/Independent}}|0.00%
+| {{party shading/Democratic}}|3,698
+| {{party shading/Democratic}}|31.45%
+| {{party shading/Democratic}}|11,757
+|- style="text-align:center;"
+| {{party shading/Democratic}}|[[Graham County, Arizona|Graham]]
+| {{party shading/Democratic}}|4,127
+| {{party shading/Democratic}}|62.07%
+| {{party shading/Republican}}|2,123
+| {{party shading/Republican}}|31.93%
+| {{party shading/Libertarian}}|399
+| {{party shading/Libertarian}}|6.00%
+| {{party shading/Independent}}|0
+| {{party shading/Independent}}|0.00%
+| {{party shading/Democratic}}|2,004
+| {{party shading/Democratic}}|30.14%
+| {{party shading/Democratic}}|6,649
+|- style="text-align:center;"
+| {{party shading/Democratic}}|[[Greenlee County, Arizona|Greenlee]]
+| {{party shading/Democratic}}|2,578
+| {{party shading/Democratic}}|78.53%
+| {{party shading/Republican}}|580
+| {{party shading/Republican}}|17.67%
+| {{party shading/Libertarian}}|125
+| {{party shading/Libertarian}}|3.81%
+| {{party shading/Independent}}|0
+| {{party shading/Independent}}|0.00%
+| {{party shading/Democratic}}|1,998
+| {{party shading/Democratic}}|60.86%
+| {{party shading/Democratic}}|3,283
+|- style="text-align:center;"
+| {{party shading/Democratic}}|[[Maricopa County, Arizona|Maricopa]]
+| {{party shading/Democratic}}|228,217
+| {{party shading/Democratic}}|58.27%
+| {{party shading/Republican}}|142,938
+| {{party shading/Republican}}|36.50%
+| {{party shading/Libertarian}}|20,457
+| {{party shading/Libertarian}}|5.22%
+| {{party shading/Independent}}|23
+| {{party shading/Independent}}|0.01%
+| {{party shading/Democratic}}|85,279
+| {{party shading/Democratic}}|21.78%
+| {{party shading/Democratic}}|391,635
+|- style="text-align:center;"
+| {{party shading/Democratic}}|[[Mohave County, Arizona|Mohave]]
+| {{party shading/Democratic}}|10,533
+| {{party shading/Democratic}}|57.93%
+| {{party shading/Republican}}|6,617
+| {{party shading/Republican}}|36.39%
+| {{party shading/Libertarian}}|1,033
+| {{party shading/Libertarian}}|5.68%
+| {{party shading/Independent}}|0
+| {{party shading/Independent}}|0.00%
+| {{party shading/Democratic}}|3,916
+| {{party shading/Democratic}}|21.54%
+| {{party shading/Democratic}}|18,183
+|- style="text-align:center;"
+| {{party shading/Democratic}}|[[Navajo County, Arizona|Navajo]]
+| {{party shading/Democratic}}|8,566
+| {{party shading/Democratic}}|61.44%
+| {{party shading/Republican}}|4,611
+| {{party shading/Republican}}|33.07%
+| {{party shading/Libertarian}}|759
+| {{party shading/Libertarian}}|5.44%
+| {{party shading/Independent}}|7
+| {{party shading/Independent}}|0.05%
+| {{party shading/Democratic}}|3,955
+| {{party shading/Democratic}}|28.37%
+| {{party shading/Democratic}}|13,943
+|- style="text-align:center;"
+| {{party shading/Democratic}}|[[Pima County, Arizona|Pima]]
+| {{party shading/Democratic}}|113,982
+| {{party shading/Democratic}}|72.10%
+| {{party shading/Republican}}|38,235
+| {{party shading/Republican}}|24.19%
+| {{party shading/Libertarian}}|5,873
+| {{party shading/Libertarian}}|3.71%
+| {{party shading/Independent}}|2
+| {{party shading/Independent}}|0.00%
+| {{party shading/Democratic}}|75,747
+| {{party shading/Democratic}}|47.91%
+| {{party shading/Democratic}}|158,092
+|- style="text-align:center;"
+| {{party shading/Democratic}}|[[Pinal County, Arizona|Pinal]]
+| {{party shading/Democratic}}|14,527
+| {{party shading/Democratic}}|67.61%
+| {{party shading/Republican}}|5,882
+| {{party shading/Republican}}|27.38%
+| {{party shading/Libertarian}}|1,076
+| {{party shading/Libertarian}}|5.01%
+| {{party shading/Independent}}|1
+| {{party shading/Independent}}|0.00%
+| {{party shading/Democratic}}|8,645
+| {{party shading/Democratic}}|40.24%
+| {{party shading/Democratic}}|21,486
+|- style="text-align:center;"
+| {{party shading/Democratic}}|[[Santa Cruz County, Arizona|Santa Cruz]]
+| {{party shading/Democratic}}|3,519
+| {{party shading/Democratic}}|73.65%
+| {{party shading/Republican}}|1,098
+| {{party shading/Republican}}|22.98%
+| {{party shading/Libertarian}}|161
+| {{party shading/Libertarian}}|3.37%
+| {{party shading/Independent}}|0
+| {{party shading/Independent}}|0.00%
+| {{party shading/Democratic}}|2,421
+| {{party shading/Democratic}}|50.67%
+| {{party shading/Democratic}}|4,778
+|- style="text-align:center;"
+| {{party shading/Democratic}}|[[Yavapai County, Arizona|Yavapai]]
+| {{party shading/Democratic}}|14,339
+| {{party shading/Democratic}}|54.32%
+| {{party shading/Republican}}|9,930
+| {{party shading/Republican}}|37.62%
+| {{party shading/Libertarian}}|2,127
+| {{party shading/Libertarian}}|8.06%
+| {{party shading/Independent}}|2
+| {{party shading/Independent}}|0.01%
+| {{party shading/Democratic}}|4,409
+| {{party shading/Democratic}}|16.70%
+| {{party shading/Democratic}}|26,398
+|- style="text-align:center;"
+| {{party shading/Democratic}}|[[Yuma County, Arizona|Yuma]]
+| {{party shading/Democratic}}|11,511
+| {{party shading/Democratic}}|61.25%
+| {{party shading/Republican}}|6,416
+| {{party shading/Republican}}|34.14%
+| {{party shading/Libertarian}}|866
+| {{party shading/Libertarian}}|4.61%
+| {{party shading/Independent}}|2
+| {{party shading/Independent}}|0.01%
+| {{party shading/Democratic}}|5,095
+| {{party shading/Democratic}}|27.11%
+| {{party shading/Democratic}}|18,795
+|- style="text-align:center;"
+!Totals!!453,795!!62.47%!!235,877!!32.47%!!36,649!!5.05%!!43!!0.01%!!217,918!!30.00%!!726,364
+|}
+
+====Counties that flipped from Republican to Democratic====
+*[[Graham County, Arizona|Graham]]
+*[[Maricopa County, Arizona|Maricopa]]
+*[[Mohave County, Arizona|Mohave]]
+*[[Yavapai County, Arizona|Yavapai]]
+
+==Notes==
+{{notelist}}
+
+==References==
+{{reflist}}
+{{United States elections, 1982}}
+{{US Third Party Election}}
+
+{{DEFAULTSORT:Arizona Gubernatorial Election, 1982}}
+[[Category:Arizona gubernatorial elections|1982]]
+[[Category:1982 United States gubernatorial elections]]
+[[Category:1982 elections in Arizona|Gubernatorial]]
