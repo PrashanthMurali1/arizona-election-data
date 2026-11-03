@@ -170,6 +170,7 @@ for (const width of [1440, 390, 320]) {
         await expect(picker.locator("option")).toHaveText([
           "U.S. Senate",
           "U.S. House",
+          "Presidential",
         ]);
         const box = await (
           (await picker.isVisible())
@@ -223,6 +224,9 @@ for (const width of [1440, 390, 320]) {
         await expect(picker.locator("option")).toHaveText([
           "Governor",
           "Attorney General",
+          "Secretary of State",
+          "State House",
+          "State Senate",
         ]);
         const box = await (
           (await picker.isVisible())
@@ -370,6 +374,13 @@ test("tabs support roving focus, arrow wraparound, Home/End and panel focus", as
       .getByRole("navigation", { name: "Office directory" })
       .getByRole("button", { name: "Attorney General", exact: true }),
   ).toBeFocused();
+  for (const name of ["Secretary of State", "State House", "State Senate"]) {
+    await page.keyboard.press("Tab");
+    await expect(
+      page.getByRole("navigation", { name: "Office directory" })
+        .getByRole("button", { name, exact: true }),
+    ).toBeFocused();
+  }
   await page.keyboard.press("Tab");
   await expect(
     page.locator('a[href="/elections/az-2022-governor"]'),
