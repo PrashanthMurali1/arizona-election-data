@@ -1,4 +1,4 @@
-import { selectOffice } from "./helpers";
+import { midtermResults, mockMidterm, selectOffice } from "./helpers";
 import { test, expect } from "@playwright/test";
 import type { Activity, Detail, Election, Geography } from "../src/types";
 
@@ -37,7 +37,8 @@ const elections = [
   election("us-house", 2022),
 ];
 const categories = [
-  { name: "Live Elections", ids: [] },
+  { name: "2026 Midterm Results", ids: [] },
+  { name: "Early Voting", ids: [] },
   {
     name: "Federal Elections",
     ids: ["az-2024-us-senate", "az-2018-us-senate"],
@@ -105,6 +106,7 @@ test.beforeEach(async ({ page }) => {
   await page.route("**/api/elections", (route) =>
     route.fulfill({ json: elections }),
   );
+  await mockMidterm(page, midtermResults());
 });
 
 for (const width of [1440, 390, 320]) {
@@ -123,15 +125,14 @@ for (const width of [1440, 390, 320]) {
       categories.map((c) => c.name),
     );
     await expect(tabs.getByRole("tab", { selected: true })).toHaveText(
-      "Live Elections",
+      "2026 Midterm Results",
     );
     await expect(
-      page.getByRole("heading", {
-        name: "2026 Early Voting",
-        exact: true,
-        level: 3,
-      }),
+      page.getByRole("heading", { name: "Governor", exact: true, level: 2 }),
     ).toBeVisible();
+    await expect(
+      page.getByRole("heading", { name: "2026 Early Voting", level: 3 }),
+    ).toHaveCount(0);
     await expect(page.locator(".breadcrumbs")).toHaveCount(0);
     await expect(page.getByLabel("Election year")).toHaveCount(0);
     await expect(page.getByRole("heading", { level: 1 })).toHaveCount(1);
@@ -202,7 +203,7 @@ for (const width of [1440, 390, 320]) {
         await tabs.getByRole("tab", { name: "State Elections" }).click();
         await tab.click();
         await expect(picker).toHaveValue("us-house");
-        await tabs.getByRole("tab", { name: "Live Elections" }).click();
+        await tabs.getByRole("tab", { name: "Early Voting" }).click();
         await tab.click();
         await expect(picker).toHaveValue("us-house");
         if (await picker.isVisible()) {
@@ -252,7 +253,7 @@ for (const width of [1440, 390, 320]) {
         await tabs.getByRole("tab", { name: "Federal Elections" }).click();
         await tab.click();
         await expect(picker).toHaveValue("attorney-general");
-        await tabs.getByRole("tab", { name: "Live Elections" }).click();
+        await tabs.getByRole("tab", { name: "Early Voting" }).click();
         await tab.click();
         await expect(picker).toHaveValue("attorney-general");
         if (await picker.isVisible()) {
@@ -268,7 +269,28 @@ for (const width of [1440, 390, 320]) {
         await expect(picker).toHaveValue("governor");
         await expect(panel.locator(".election-card")).toHaveCount(2);
       }
-      if (category.name === "Live Elections") {
+      if (category.name === "2026 Midterm Results") {
+        const offices = [
+          "Governor",
+          "Attorney General",
+          "Secretary of State",
+          "U.S. House",
+          "State Senate",
+          "State House",
+        ];
+        const picker = panel.getByLabel("Midterm office", { exact: true });
+        await expect(
+          (await picker.isVisible())
+            ? picker.locator("option")
+            : panel
+                .getByRole("navigation", { name: "Midterm office directory" })
+                .getByRole("button"),
+        ).toHaveText(offices);
+      }
+      if (category.name === "Early Voting") {
+        await page
+          .getByRole("heading", { name: "2026 Early Voting", level: 3 })
+          .waitFor();
         await expect(panel.locator(".county-map path")).toHaveCount(15);
         await expect(
           panel
@@ -301,7 +323,7 @@ for (const width of [1440, 390, 320]) {
         await expect(methodology).toBeVisible();
         await expect(methodology).toHaveAttribute("href", "/methodology");
       }
-      if (category.name !== "Live Elections") {
+      if (category.name !== "Early Voting") {
         await expect(
           page.getByRole("link", { name: "2026 Early Voting", exact: true }),
         ).toHaveCount(0);
@@ -334,18 +356,19 @@ test("tabs support roving focus, arrow wraparound, Home/End and panel focus", as
   const tabs = page.getByRole("tab");
   await tabs.first().focus();
   for (const [key, name] of [
+    ["ArrowRight", "Early Voting"],
     ["ArrowRight", "Federal Elections"],
     ["ArrowRight", "State Elections"],
-    ["ArrowRight", "Live Elections"],
+    ["ArrowRight", "2026 Midterm Results"],
     ["ArrowLeft", "State Elections"],
-    ["Home", "Live Elections"],
+    ["Home", "2026 Midterm Results"],
     ["End", "State Elections"],
   ]) {
     await page.keyboard.press(key);
     const active = page.getByRole("tab", { name });
     await expect(active).toBeFocused();
     await expect(active).toHaveAttribute("aria-selected", "true");
-    await expect(page.getByRole("tab", { selected: false })).toHaveCount(2);
+    await expect(page.getByRole("tab", { selected: false })).toHaveCount(3);
     for (const inactive of await page
       .getByRole("tab", { selected: false })
       .all()) {
@@ -377,7 +400,8 @@ test("tabs support roving focus, arrow wraparound, Home/End and panel focus", as
   for (const name of ["Secretary of State", "State House", "State Senate"]) {
     await page.keyboard.press("Tab");
     await expect(
-      page.getByRole("navigation", { name: "Office directory" })
+      page
+        .getByRole("navigation", { name: "Office directory" })
         .getByRole("button", { name, exact: true }),
     ).toBeFocused();
   }
@@ -394,8 +418,9 @@ test("empty category retains tabs and gives a useful empty state", async ({
     route.fulfill({ json: [election("governor", 2022)] }),
   );
   await page.goto("/");
+  await page.getByRole("tab", { name: "Early Voting" }).click();
   await expect(
-    page.getByRole("tabpanel", { name: "Live Elections" }),
+    page.getByRole("tabpanel", { name: "Early Voting" }),
   ).toContainText("No elections available in this category yet.");
   await page.getByRole("tab", { name: "Federal Elections" }).click();
   await expect(
@@ -452,6 +477,7 @@ test("embedded live updates coalesce, preserve county selection, abort on exit a
     },
   );
   await page.goto("/");
+  await page.getByRole("tab", { name: "Early Voting" }).click();
   const state = page.getByRole("region", {
     name: "Statewide participation availability",
   });
@@ -516,7 +542,7 @@ test("embedded live updates coalesce, preserve county selection, abort on exit a
   hold = null;
   release();
 
-  await page.getByRole("tab", { name: "Live Elections" }).click();
+  await page.getByRole("tab", { name: "Early Voting" }).click();
   await expect.poll(() => streamCount(page)).toBe(1);
   await emitRevision(page, revision);
   await expect(state).toContainText((original + 20).toLocaleString("en-US"));
@@ -527,7 +553,7 @@ test("embedded live updates coalesce, preserve county selection, abort on exit a
   for (let index = 0; index < 2; index++) {
     await page.getByRole("tab", { name: "State Elections" }).click();
     await expect.poll(() => streamCount(page)).toBe(0);
-    await page.getByRole("tab", { name: "Live Elections" }).click();
+    await page.getByRole("tab", { name: "Early Voting" }).click();
     await expect.poll(() => streamCount(page)).toBe(1);
   }
   await expect.poll(() => requests).toBe(6);
@@ -560,7 +586,7 @@ test("removed Early Voting and legacy office browser URLs show the normal not-fo
   }
 });
 
-test("embedded loading and API errors stay inside Live Elections and other tabs remain usable", async ({
+test("embedded loading and API errors stay inside Early Voting and other tabs remain usable", async ({
   page,
 }) => {
   let release = () => {};
@@ -578,7 +604,8 @@ test("embedded loading and API errors stay inside Live Elections and other tabs 
     },
   );
   await page.goto("/");
-  const panel = page.getByRole("tabpanel", { name: "Live Elections" });
+  await page.getByRole("tab", { name: "Early Voting" }).click();
+  const panel = page.getByRole("tabpanel", { name: "Early Voting" });
   await expect(panel).toContainText("Loading");
   await expect(
     page.getByRole("heading", { name: "Election catalog", exact: true }),
@@ -612,6 +639,10 @@ test("tab visits use fetch again and the active dashboard revalidates after five
     },
   );
   await page.goto("/");
+  // The landing midterm tab loads the same county boundaries; count from the Early Voting visit.
+  await expect(page.locator(".county-map path").first()).toBeVisible();
+  geography = 0;
+  await page.getByRole("tab", { name: "Early Voting" }).click();
   await expect(
     page.getByRole("heading", { name: "2026 Early Voting", exact: true }),
   ).toBeVisible();
@@ -620,7 +651,7 @@ test("tab visits use fetch again and the active dashboard revalidates after five
   expect(geography).toBe(1);
   await page.getByRole("tab", { name: "Federal Elections" }).click();
   await expect.poll(() => streamCount(page)).toBe(0);
-  await page.getByRole("tab", { name: "Live Elections" }).click();
+  await page.getByRole("tab", { name: "Early Voting" }).click();
   await expect(
     page.getByRole("region", { name: "County participation table" }),
   ).toBeVisible();
@@ -654,12 +685,16 @@ test("remounts fetch activity and geography without a JavaScript cache", async (
     },
   );
   await page.goto("/");
+  // The landing midterm tab loads the same county boundaries; count from the Early Voting visit.
+  await expect(page.locator(".county-map path").first()).toBeVisible();
+  geography = 0;
+  await page.getByRole("tab", { name: "Early Voting" }).click();
   await expect(
     page.getByRole("heading", { name: "2026 Early Voting", exact: true }),
   ).toBeVisible();
   await page.getByRole("tab", { name: "State Elections" }).click();
   await page.clock.fastForward(31 * 60_000);
-  await page.getByRole("tab", { name: "Live Elections" }).click();
+  await page.getByRole("tab", { name: "Early Voting" }).click();
   await expect(
     page.getByRole("heading", { name: "2026 Early Voting", exact: true }),
   ).toBeVisible();
@@ -667,7 +702,7 @@ test("remounts fetch activity and geography without a JavaScript cache", async (
   expect(geography).toBe(2);
   await page.getByRole("tab", { name: "State Elections" }).click();
   await page.clock.fastForward(24 * 60 * 60_000);
-  await page.getByRole("tab", { name: "Live Elections" }).click();
+  await page.getByRole("tab", { name: "Early Voting" }).click();
   await expect(
     page.getByRole("heading", { name: "2026 Early Voting", exact: true }),
   ).toBeVisible();
@@ -705,6 +740,7 @@ test("stale source flags update with no revision change or additional API reques
     },
   );
   await page.goto("/");
+  await page.getByRole("tab", { name: "Early Voting" }).click();
   await expect(
     page.getByRole("heading", { name: "2026 Early Voting", exact: true }),
   ).toBeVisible();
@@ -739,6 +775,7 @@ test("hidden and offline reconnects recover missed revisions without refetching 
     },
   );
   await page.goto("/");
+  await page.getByRole("tab", { name: "Early Voting" }).click();
   await expect.poll(() => streamCount(page)).toBe(1);
   await emitRevision(page, revision);
   await page.evaluate(() => {
@@ -795,11 +832,12 @@ test("remounted data loads immediately if the initial SSE revision is unavailabl
     },
   );
   await page.goto("/");
+  await page.getByRole("tab", { name: "Early Voting" }).click();
   await expect(
     page.getByRole("heading", { name: "2026 Early Voting", exact: true }),
   ).toBeVisible();
   await page.getByRole("tab", { name: "Federal Elections" }).click();
-  await page.getByRole("tab", { name: "Live Elections" }).click();
+  await page.getByRole("tab", { name: "Early Voting" }).click();
   await expect.poll(() => streamCount(page)).toBe(1);
   await expect.poll(() => requests).toBe(2);
   await page.clock.fastForward(5_000);

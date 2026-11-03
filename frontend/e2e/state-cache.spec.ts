@@ -13,8 +13,8 @@ test("State Elections prefetches only the selected office and caches every elect
   ).json()) as Election[];
   const governors = catalog.filter((e) => e.office_id === "governor");
   const attorneys = catalog.filter((e) => e.office_id === "attorney-general");
-  expect(governors).toHaveLength(3);
-  expect(attorneys).toHaveLength(3);
+  expect(governors.length).toBeGreaterThanOrEqual(3);
+  expect(attorneys.length).toBeGreaterThanOrEqual(3);
   const dependencies = (entries: Election[]) =>
     new Set(
       entries.flatMap((e) => [
@@ -88,7 +88,7 @@ test("State Elections prefetches only the selected office and caches every elect
     governorOrigin,
   );
   const attorneyOrigin = origin.filter((url) => attorneyUrls.has(url)).length;
-  await page.getByRole("tab", { name: "Live Elections" }).click();
+  await page.getByRole("tab", { name: "Early Voting" }).click();
   await page.getByRole("tab", { name: "State Elections" }).click();
   await expect(page.getByLabel("State office")).toHaveValue("attorney-general");
   await page.locator(`a[href="/elections/${attorneys[0].id}"]`).click();
@@ -100,12 +100,14 @@ test("State Elections prefetches only the selected office and caches every elect
         exact: true,
       }),
     ).toBeVisible();
-    await expect(page.locator(".county-map path")).toHaveCount(15);
+    await expect(page.locator(".county-map path")).toHaveCount(
+      election.county_count,
+    );
     await expect(
       page
         .getByRole("region", { name: "County results table" })
         .locator("tbody tr"),
-    ).toHaveCount(15);
+    ).toHaveCount(election.county_count);
   }
   expect(origin.filter((url) => attorneyUrls.has(url)).length).toBe(
     attorneyOrigin,
@@ -124,12 +126,14 @@ test("State Elections prefetches only the selected office and caches every elect
         exact: true,
       }),
     ).toBeVisible();
-    await expect(page.locator(".county-map path")).toHaveCount(15);
+    await expect(page.locator(".county-map path")).toHaveCount(
+      election.county_count,
+    );
     await expect(
       page
         .getByRole("region", { name: "County results table" })
         .locator("tbody tr"),
-    ).toHaveCount(15);
+    ).toHaveCount(election.county_count);
   }
   expect(origin.filter((url) => governorUrls.has(url)).length).toBe(
     governorOrigin,

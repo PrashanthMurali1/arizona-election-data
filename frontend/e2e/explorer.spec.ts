@@ -1,5 +1,5 @@
-import { selectOffice, expectCandidateCount, catalogCount } from "./helpers";
-import { test, expect } from "@playwright/test";
+import { selectOffice, expectCandidateCount, catalogCount, test } from "./helpers";
+import { expect } from "@playwright/test";
 import type { Activity, Participation } from "../src/types";
 
 test("Senate archive reuses results, county selection, year navigation and responsive layout", async ({
@@ -181,6 +181,7 @@ test("mobile layout contains overflow and supports county selection", async ({
 test("desktop layout and catalog screenshots", async ({ page }) => {
   await page.setViewportSize({ width: 1440, height: 1000 });
   await page.goto("/");
+  await page.getByRole("tab", { name: "Early Voting" }).click();
   await expect(page.locator(".election-card")).toHaveCount(0);
   await expect(
     page.getByRole("heading", { name: "2026 Early Voting", exact: true }),
@@ -281,6 +282,7 @@ test("embedded 2026 Early Voting shows registration colors and populated columns
     response.url().endsWith("/az-2026-early-voting/activity"),
   );
   await page.goto("/");
+  await page.getByRole("tab", { name: "Early Voting" }).click();
   await expect(page.locator(".election-card")).toHaveCount(0);
   await expect(
     page.locator('.catalog a[href="/elections/az-2026-governor"]'),
@@ -742,6 +744,7 @@ test("early-voting columns preserve zero and partial data; ties, Other and missi
     },
   );
   await page.goto("/");
+  await page.getByRole("tab", { name: "Early Voting" }).click();
   const table = page.getByRole("region", {
     name: "County participation table",
   });
@@ -885,6 +888,7 @@ test("early-voting notifications refresh once, recover missed updates and clean 
     },
   );
   await page.goto("/");
+  await page.getByRole("tab", { name: "Early Voting" }).click();
   await page
     .getByRole("button", { name: "Pima County. View early-voting activity." })
     .click();
@@ -1023,6 +1027,7 @@ test("early-voting notifications refresh once, recover missed updates and clean 
     .getByRole("navigation", { name: "Main navigation" })
     .getByRole("link", { name: "Election catalog", exact: true })
     .click();
+  await page.getByRole("tab", { name: "Early Voting" }).click();
   await expect.poll(activeConnections).toBe(1);
   await emit("revision", revision);
   await expect.poll(() => activityRequests).toBe(6);
@@ -1054,6 +1059,7 @@ for (const total of [0, null]) {
       },
     );
     await page.goto("/");
+    await page.getByRole("tab", { name: "Early Voting" }).click();
     await page
       .getByRole("button", { name: "Pima County. View early-voting activity." })
       .click();
@@ -1115,6 +1121,7 @@ for (const total of [1000, 0, null]) {
       },
     );
     await page.goto("/");
+    await page.getByRole("tab", { name: "Early Voting" }).click();
     const state = page.getByRole("region", {
       name: "Statewide participation availability",
     });

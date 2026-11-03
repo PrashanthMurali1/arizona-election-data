@@ -162,3 +162,12 @@ SQLite release history/pending for incident diagnosis. Import stdout/stderr is
 discarded to avoid secret-bearing diagnostic output. Private staging copies are
 removed after success; failed copies are retained for deliberate investigation.
 Application image rollback never rolls back imported production data.
+
+## Midterm results refresh (Relay)
+
+`election-midterm.refresh` runs `production/midterm_refresh_job.py` in the backend container every 30 minutes (Asia/Kolkata interval, coalescing missed slots). It shares the `election-production` resource and deployment lock with deployment and the early-voting refresh, so it never overlaps a deployment.
+
+- **Hard limit:** the command is wrapped in `timeout 240` inside the container, below Relay's 300-second limit. A run that Relay itself had to time out would be `recovery_required` and would hold the shared resource, and killing `docker exec` on Windows does not stop the process in the container, so the job must end on its own.
+- **Preflight:** `test -f production/midterm_refresh_job.py` in the container. Relay records a failed preflight as a skipped run (reason `ownership_conflict`), so slots before the image containing the script is deployed, or while the backend container is down, are skipped silently. Check the run history if midterm results stop updating.
+- **Recovery guard:** passes unless `backend/local/midterm-refresh-status.json` says `running` with a start time within the last ten minutes, so acknowledging recovery after a killed run works but a live run blocks it.
+- It writes only files under the shared raw volume and never the database; a failed run keeps the previous snapshot. Manifest: `automation-service/.local/applications/election-midterm.json`. Pause or run it from Relay's automation page like the others.

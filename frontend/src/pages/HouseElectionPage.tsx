@@ -4,11 +4,10 @@ import type { Election, Geography, HouseOverview } from "../types";
 import { get, useResource } from "../api";
 import {
   Availability,
-  CandidateSummary,
+  GeographyResults,
   CandidateOverview,
   ErrorState,
   Loading,
-  TurnoutMetrics,
 } from "../components";
 import { number } from "../results";
 import Icon from "../Icon";
@@ -186,43 +185,27 @@ export default function HouseElectionPage({ id }: { id: string }) {
         aria-label="Selected district details"
       >
         {detailsOpen ? (
-          <>
-            <div className="panel-heading">
-              <div>
-                <h2>{active.name}</h2>
-              </div>
-              <button
-                className="close-button"
-                onClick={() => {
-                  setDetailsOpen(false);
-                  restoreFocus(
-                    tableRef.current?.querySelector<HTMLButtonElement>(
-                      'tbody button[aria-pressed="true"]',
-                    ),
-                  );
-                }}
-                aria-label="Close district details"
-              >
-                <Icon name="close" />
-              </button>
-            </div>
-            <div className="detail-grid">
-              <div>
-                <h3>All candidate results</h3>
-                <CandidateSummary results={active} />
-              </div>
-              <div className="turnout-panel">
-                <h3>Beyond the contest</h3>
-                <TurnoutMetrics turnout={active.turnout} />
-                <p className="footnote">
-                  {number(active.total_votes)}{" "}
-                  {election.kind === "special" ? "reported" : "verified"} votes
-                  in this district’s U.S. House contest. This differs from total
-                  ballots cast.
-                </p>
-              </div>
-            </div>
-          </>
+          <GeographyResults
+            results={active}
+            title={active.name}
+            unitKind="district"
+            onClose={() => {
+              setDetailsOpen(false);
+              restoreFocus(
+                tableRef.current?.querySelector<HTMLButtonElement>(
+                  'tbody button[aria-pressed="true"]',
+                ),
+              );
+            }}
+            contestNote={
+              <>
+                {number(active.total_votes)}{" "}
+                {election.kind === "special" ? "reported" : "verified"} votes in
+                this district's U.S. House contest. This differs from total
+                ballots cast.
+              </>
+            }
+          />
         ) : (
           <div className="select-prompt">
             <Icon name="location" />

@@ -1,5 +1,5 @@
-import { selectOffice, expectCandidateCount, catalogCount } from "./helpers";
-import { test, expect } from "@playwright/test";
+import { selectOffice, expectCandidateCount, catalogCount, test } from "./helpers";
+import { expect } from "@playwright/test";
 
 test("House archive uses each district's candidates and historical geometry", async ({
   page,
