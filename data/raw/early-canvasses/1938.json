@@ -298,5 +298,135 @@
       "office_id": "state-senate",
       "reason": "No state legislative candidate returns appear in retained source."
     }
-  ]
+  ],
+  "additional_sources": [
+    {
+      "path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf",
+      "sha256": "cbbcafb08f346f9fbe5b7a032e6d8192514f2b858085473db8e1196ada0380bf",
+      "title": "Arizona General Election Results 1911-1960, Bruce B. Mason, Arizona State University, Bureau of Government Research (1961), Research Study No. 3",
+      "notes": "Academic compilation of official returns. PDF page references are one-based; printed pagination is seven pages lower. County Other columns combine minor parties; Total Vote is contest votes, not ballots cast."
+    }
+  ],
+  "turnout": {
+    "04001": {
+      "registered_voters": 3846,
+      "ballots_cast": null,
+      "percent": null,
+      "definition": "Registration from Mason compilation, PDF page 52 (printed page 45). Total Vote in these office tables means contest votes, not ballots cast. Turnout is calculated against registration for each single-seat contest.",
+      "page": 52,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf"
+    },
+    "04003": {
+      "registered_voters": 13846,
+      "ballots_cast": null,
+      "percent": null,
+      "definition": "Registration from Mason compilation, PDF page 52 (printed page 45). Total Vote in these office tables means contest votes, not ballots cast. Turnout is calculated against registration for each single-seat contest.",
+      "page": 52,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf"
+    },
+    "04005": {
+      "registered_voters": 5834,
+      "ballots_cast": null,
+      "percent": null,
+      "definition": "Registration from Mason compilation, PDF page 52 (printed page 45). Total Vote in these office tables means contest votes, not ballots cast. Turnout is calculated against registration for each single-seat contest.",
+      "page": 52,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf"
+    },
+    "04007": {
+      "registered_voters": 10266,
+      "ballots_cast": null,
+      "percent": null,
+      "definition": "Registration from Mason compilation, PDF page 52 (printed page 45). Total Vote in these office tables means contest votes, not ballots cast. Turnout is calculated against registration for each single-seat contest.",
+      "page": 52,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf"
+    },
+    "04009": {
+      "registered_voters": 5825,
+      "ballots_cast": null,
+      "percent": null,
+      "definition": "Registration from Mason compilation, PDF page 52 (printed page 45). Total Vote in these office tables means contest votes, not ballots cast. Turnout is calculated against registration for each single-seat contest.",
+      "page": 52,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf"
+    },
+    "04011": {
+      "registered_voters": 3317,
+      "ballots_cast": null,
+      "percent": null,
+      "definition": "Registration from Mason compilation, PDF page 52 (printed page 45). Total Vote in these office tables means contest votes, not ballots cast. Turnout is calculated against registration for each single-seat contest.",
+      "page": 52,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf"
+    },
+    "04013": {
+      "registered_voters": 70303,
+      "ballots_cast": null,
+      "percent": null,
+      "definition": "Registration from Mason compilation, PDF page 52 (printed page 45). Total Vote in these office tables means contest votes, not ballots cast. Turnout is calculated against registration for each single-seat contest.",
+      "page": 52,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf"
+    },
+    "04015": {
+      "registered_voters": 4117,
+      "ballots_cast": null,
+      "percent": null,
+      "definition": "Registration from Mason compilation, PDF page 52 (printed page 45). Total Vote in these office tables means contest votes, not ballots cast. Turnout is calculated against registration for each single-seat contest.",
+      "page": 52,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf"
+    },
+    "04017": {
+      "registered_voters": 5677,
+      "ballots_cast": null,
+      "percent": null,
+      "definition": "Registration from Mason compilation, PDF page 52 (printed page 45). Total Vote in these office tables means contest votes, not ballots cast. Turnout is calculated against registration for each single-seat contest.",
+      "page": 52,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf"
+    },
+    "04019": {
+      "registered_voters": 25303,
+      "ballots_cast": null,
+      "percent": null,
+      "definition": "Registration from Mason compilation, PDF page 52 (printed page 45). Total Vote in these office tables means contest votes, not ballots cast. Turnout is calculated against registration for each single-seat contest.",
+      "page": 52,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf"
+    },
+    "04021": {
+      "registered_voters": 7944,
+      "ballots_cast": null,
+      "percent": null,
+      "definition": "Registration from Mason compilation, PDF page 52 (printed page 45). Total Vote in these office tables means contest votes, not ballots cast. Turnout is calculated against registration for each single-seat contest.",
+      "page": 52,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf"
+    },
+    "04023": {
+      "registered_voters": 3352,
+      "ballots_cast": null,
+      "percent": null,
+      "definition": "Registration from Mason compilation, PDF page 52 (printed page 45). Total Vote in these office tables means contest votes, not ballots cast. Turnout is calculated against registration for each single-seat contest.",
+      "page": 52,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf"
+    },
+    "04025": {
+      "registered_voters": 12886,
+      "ballots_cast": null,
+      "percent": null,
+      "definition": "Registration from Mason compilation, PDF page 52 (printed page 45). Total Vote in these office tables means contest votes, not ballots cast. Turnout is calculated against registration for each single-seat contest.",
+      "page": 52,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf"
+    },
+    "04027": {
+      "registered_voters": 7324,
+      "ballots_cast": null,
+      "percent": null,
+      "definition": "Registration from Mason compilation, PDF page 52 (printed page 45). Total Vote in these office tables means contest votes, not ballots cast. Turnout is calculated against registration for each single-seat contest.",
+      "page": 52,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf"
+    },
+    "04": {
+      "registered_voters": 179840,
+      "ballots_cast": null,
+      "percent": null,
+      "definition": "Registration from Mason compilation, PDF page 52 (printed page 45). Total Vote in these office tables means contest votes, not ballots cast. Turnout is calculated against registration for each single-seat contest.",
+      "page": 52,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf"
+    }
+  }
 }

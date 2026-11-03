@@ -7,7 +7,6 @@
   "absent_offices": [
     "us-senate",
     "president",
-    "attorney-general",
     "state-house",
     "state-senate"
   ],
@@ -233,6 +232,82 @@
         }
       ],
       "notes": "County cells and printed totals are retained as shown on source page 1. Harry Kay county sum 16,652 differs from printed total 16,660; Alice S. Eddy county sum 1,220 differs from printed total 1,205. No adjustment is inferred to reconcile the source."
+    },
+    {
+      "office_id": "attorney-general",
+      "district": null,
+      "page": 62,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf",
+      "candidates": [
+        {
+          "name": "W. E. Jones",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 27671,
+          "county_votes": {
+            "04001": 475,
+            "04003": 4891,
+            "04005": 957,
+            "04007": 3081,
+            "04009": 1294,
+            "04011": 1250,
+            "04013": 5982,
+            "04015": 940,
+            "04017": 869,
+            "04019": 2037,
+            "04021": 1273,
+            "04023": 702,
+            "04025": 2690,
+            "04027": 1230
+          }
+        },
+        {
+          "name": "David Benshimol",
+          "party": "REP",
+          "write_in": false,
+          "votes": 17657,
+          "county_votes": {
+            "04001": 310,
+            "04003": 2968,
+            "04005": 627,
+            "04007": 1165,
+            "04009": 602,
+            "04011": 494,
+            "04013": 5696,
+            "04015": 309,
+            "04017": 467,
+            "04019": 1664,
+            "04021": 662,
+            "04023": 467,
+            "04025": 1764,
+            "04027": 462
+          }
+        },
+        {
+          "name": "J. L. Fitts",
+          "party": "Soc",
+          "write_in": false,
+          "votes": 914,
+          "county_votes": {
+            "04001": 3,
+            "04003": 140,
+            "04005": 30,
+            "04007": 101,
+            "04009": 17,
+            "04011": 22,
+            "04013": 197,
+            "04015": 59,
+            "04017": 16,
+            "04019": 69,
+            "04021": 27,
+            "04023": 13,
+            "04025": 150,
+            "04027": 70
+          }
+        }
+      ],
+      "notes": "Mason compilation, PDF page 62 (printed page 55). Minor-party county votes remain combined when the source does not separate candidates.",
+      "summary_page": 59
     }
   ],
   "unresolved": [
@@ -357,5 +432,13 @@
       "definition": "Official registration of voters for 1918, as printed. The source does not provide ballots cast or a turnout percentage. Apache registration is printed as 807 even though candidate votes exceed that figure; no correction is inferred.",
       "page": 5
     }
-  }
+  },
+  "additional_sources": [
+    {
+      "path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf",
+      "sha256": "cbbcafb08f346f9fbe5b7a032e6d8192514f2b858085473db8e1196ada0380bf",
+      "title": "Arizona General Election Results 1911-1960, Bruce B. Mason, Arizona State University, Bureau of Government Research (1961), Research Study No. 3",
+      "notes": "Academic compilation of official returns. PDF page references are one-based; printed pagination is seven pages lower. County Other columns combine minor parties; Total Vote is contest votes, not ballots cast."
+    }
+  ]
 }

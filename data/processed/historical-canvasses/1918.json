@@ -113,7 +113,6 @@
   "absent_offices": [
     "us-senate",
     "president",
-    "attorney-general",
     "state-house",
     "state-senate"
   ],
@@ -474,6 +473,122 @@
         "multi_seat": false,
         "result_basis": "candidate-votes",
         "notes": "County cells and printed totals are retained as shown on source page 1. Harry Kay county sum 16,652 differs from printed total 16,660; Alice S. Eddy county sum 1,220 differs from printed total 1,205. No adjustment is inferred to reconcile the source."
+      }
+    },
+    {
+      "office_id": "attorney-general",
+      "district": null,
+      "page": 62,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf",
+      "candidates": [
+        {
+          "name": "W. E. Jones",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 27671,
+          "county_votes": {
+            "04001": 475,
+            "04003": 4891,
+            "04005": 957,
+            "04007": 3081,
+            "04009": 1294,
+            "04011": 1250,
+            "04013": 5982,
+            "04015": 940,
+            "04017": 869,
+            "04019": 2037,
+            "04021": 1273,
+            "04023": 702,
+            "04025": 2690,
+            "04027": 1230
+          }
+        },
+        {
+          "name": "David Benshimol",
+          "party": "REP",
+          "write_in": false,
+          "votes": 17657,
+          "county_votes": {
+            "04001": 310,
+            "04003": 2968,
+            "04005": 627,
+            "04007": 1165,
+            "04009": 602,
+            "04011": 494,
+            "04013": 5696,
+            "04015": 309,
+            "04017": 467,
+            "04019": 1664,
+            "04021": 662,
+            "04023": 467,
+            "04025": 1764,
+            "04027": 462
+          }
+        },
+        {
+          "name": "J. L. Fitts",
+          "party": "Soc",
+          "write_in": false,
+          "votes": 914,
+          "county_votes": {
+            "04001": 3,
+            "04003": 140,
+            "04005": 30,
+            "04007": 101,
+            "04009": 17,
+            "04011": 22,
+            "04013": 197,
+            "04015": 59,
+            "04017": 16,
+            "04019": 69,
+            "04021": 27,
+            "04023": 13,
+            "04025": 150,
+            "04027": 70
+          }
+        }
+      ],
+      "notes": "Mason compilation, PDF page 62 (printed page 55). Minor-party county votes remain combined when the source does not separate candidates.",
+      "summary_page": 59,
+      "contest_id": "az-1918-attorney-general",
+      "reconciliation": {
+        "status": "verified",
+        "page": 62,
+        "district": null,
+        "candidates": [
+          {
+            "candidate": "W. E. Jones",
+            "official_total": 27671,
+            "official_statewide": 27671,
+            "county_sum": 27671,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "David Benshimol",
+            "official_total": 17657,
+            "official_statewide": 17657,
+            "county_sum": 17657,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "J. L. Fitts",
+            "official_total": 914,
+            "official_statewide": 914,
+            "county_sum": 914,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          }
+        ],
+        "county_count": 14,
+        "coverage": "county",
+        "multi_seat": false,
+        "result_basis": "candidate-votes",
+        "notes": "Mason compilation, PDF page 62 (printed page 55). Minor-party county votes remain combined when the source does not separate candidates."
       }
     }
   ]

@@ -65,7 +65,7 @@
         },
         {
           "name": "R. H. Cameron",
-          "party": "UNK",
+          "party": "REP",
           "write_in": false,
           "votes": 9640,
           "county_votes": {
@@ -374,16 +374,16 @@
     {
       "office_id": "secretary-of-state",
       "district": null,
-      "page": 1,
+      "page": 76,
       "candidates": [
         {
           "name": "Sidney P. Osborn",
           "party": "DEM",
           "write_in": false,
-          "votes": null,
+          "votes": 10476,
           "county_votes": {
             "04001": 259,
-            "04003": null,
+            "04003": 1938,
             "04005": 281,
             "04007": 962,
             "04009": 643,
@@ -396,16 +396,28 @@
             "04023": 296,
             "04025": 1127,
             "04027": 606
-          }
+          },
+          "statewide_source": {
+            "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf",
+            "page": 74
+          },
+          "county_corrections": [
+            {
+              "geoid": "04003",
+              "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf",
+              "page": 76,
+              "basis": "Legible county return in Mason."
+            }
+          ]
         },
         {
           "name": "J. F. Cleveland",
           "party": "REP",
           "write_in": false,
-          "votes": null,
+          "votes": 9282,
           "county_votes": {
             "04001": 356,
-            "04003": null,
+            "04003": 1433,
             "04005": 388,
             "04007": 558,
             "04009": 389,
@@ -418,16 +430,28 @@
             "04023": 240,
             "04025": 1026,
             "04027": 369
-          }
+          },
+          "statewide_source": {
+            "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf",
+            "page": 74
+          },
+          "county_corrections": [
+            {
+              "geoid": "04003",
+              "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf",
+              "page": 76,
+              "basis": "Legible county return in Mason."
+            }
+          ]
         },
         {
           "name": "G. H. Newsholme",
           "party": "Soc",
           "write_in": false,
-          "votes": null,
+          "votes": 1294,
           "county_votes": {
             "04001": 8,
-            "04003": null,
+            "04003": 249,
             "04005": 16,
             "04007": 226,
             "04009": 109,
@@ -440,7 +464,19 @@
             "04023": 23,
             "04025": 171,
             "04027": 73
-          }
+          },
+          "statewide_source": {
+            "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf",
+            "page": 74
+          },
+          "county_corrections": [
+            {
+              "geoid": "04003",
+              "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf",
+              "page": 76,
+              "basis": "Other 263 less the official Prohibition vote 14 = Socialist 249."
+            }
+          ]
         },
         {
           "name": "Roy Sibley",
@@ -463,11 +499,23 @@
             "04025": 8,
             "04027": 3
           },
-          "printed_total": null,
-          "votes_basis": "sum_of_official_counties"
+          "statewide_source": {
+            "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf",
+            "page": 74
+          },
+          "county_corrections": [
+            {
+              "geoid": "04003",
+              "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf",
+              "page": 76,
+              "basis": "Legible county return in Mason."
+            }
+          ]
         }
       ],
-      "notes": "Official December 12, 1911 returns. Missing final digits in the clipped statewide column are replaced with the sum of all 14 official county returns, explicitly marked as derived. Printed county dashes mean zero. All legible county cells are transcribed. Three Cochise cells have damaged final digits and remain unavailable; corresponding statewide totals cannot yet be reconstructed exactly."
+      "notes": "Mason PDF p74 supplies published statewide totals. PDF p76 resolves Cochise: Osborn 1938, Cleveland 1433, and Other 263. Original canvass supplies Sibley 14, leaving Socialist Newsholme 249. Other legible official county cells are preserved when Mason differs; residual discrepancies are documented.",
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf",
+      "summary_page": 74
     },
     {
       "office_id": "attorney-general",
@@ -568,40 +616,149 @@
   ],
   "unresolved": [
     {
-      "office_id": "secretary-of-state",
-      "candidate": "Sidney P. Osborn",
-      "field": "county_votes.04003",
-      "page": 1,
-      "reason": "Final digit of Cochise figure is damaged in the retained scan; all other 13 county figures are transcribed. The clipped statewide column cannot resolve the missing digit."
-    },
-    {
-      "office_id": "secretary-of-state",
-      "candidate": "J. F. Cleveland",
-      "field": "county_votes.04003",
-      "page": 1,
-      "reason": "Final digit of Cochise figure is damaged in the retained scan; all other 13 county figures are transcribed. The clipped statewide column cannot resolve the missing digit."
-    },
-    {
-      "office_id": "secretary-of-state",
-      "candidate": "G. H. Newsholme",
-      "field": "county_votes.04003",
-      "page": 1,
-      "reason": "Final digit of Cochise figure is damaged in the retained scan; all other 13 county figures are transcribed. The clipped statewide column cannot resolve the missing digit."
-    },
-    {
-      "office_id": "us-senate",
-      "candidate": "R. H. Cameron",
-      "field": "party",
-      "page": 1,
-      "reason": "Party marker omitted in the printed table; retained as UNK pending authoritative party metadata."
-    },
-    {
       "office_id": "attorney-general",
       "candidate": "J. N. Morrison",
       "field": "county_reconciliation",
       "page": 2,
       "reason": "Printed county cells sum 1372; printed statewide total 1373. Both preserved as printed."
+    },
+    {
+      "office_id": "secretary-of-state",
+      "candidate": "J. F. Cleveland",
+      "field": "county_reconciliation",
+      "page": 76,
+      "reason": "Original legible county returns plus Mason Cochise sum to 9283; Mason published statewide total 9282. Both preserved; legible primary-source cells are not replaced solely to force agreement."
     }
   ],
-  "notes": "The statewide totals missing because of clipping are calculated from complete county returns wherever possible. No registration or ballots-cast table appears in this three-page source."
+  "notes": "The statewide totals missing because of clipping are calculated from complete county returns wherever possible. No registration or ballots-cast table appears in this three-page source. Mason PDF pp17,27,43,59 corroborates the reconstructed 1911 statewide totals and supplies Cameron Republican affiliation; pp74,76 resolve Secretary of State. Its county tables explicitly state Registration Not Available for 1911. Per-office Total Vote is not ballots cast.",
+  "additional_sources": [
+    {
+      "path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf",
+      "sha256": "cbbcafb08f346f9fbe5b7a032e6d8192514f2b858085473db8e1196ada0380bf",
+      "title": "Arizona General Election Results 1911-1960, Bruce B. Mason, Arizona State University, Bureau of Government Research (1961), Research Study No. 3",
+      "notes": "Academic compilation of official returns. PDF page references are one-based; printed pagination is seven pages lower. County Other columns combine minor parties; Total Vote is contest votes, not ballots cast."
+    }
+  ],
+  "turnout": {
+    "04": {
+      "registered_voters": null,
+      "ballots_cast": null,
+      "percent": null,
+      "page": 76,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf",
+      "definition": "Mason explicitly prints Registration Not Available for 1911. Its Total Vote column counts votes in each office, not ballots cast; it supplies no registration denominator."
+    },
+    "04001": {
+      "registered_voters": null,
+      "ballots_cast": null,
+      "percent": null,
+      "page": 76,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf",
+      "definition": "Mason explicitly prints Registration Not Available for 1911. Its Total Vote column counts votes in each office, not ballots cast; it supplies no registration denominator."
+    },
+    "04003": {
+      "registered_voters": null,
+      "ballots_cast": null,
+      "percent": null,
+      "page": 76,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf",
+      "definition": "Mason explicitly prints Registration Not Available for 1911. Its Total Vote column counts votes in each office, not ballots cast; it supplies no registration denominator."
+    },
+    "04005": {
+      "registered_voters": null,
+      "ballots_cast": null,
+      "percent": null,
+      "page": 76,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf",
+      "definition": "Mason explicitly prints Registration Not Available for 1911. Its Total Vote column counts votes in each office, not ballots cast; it supplies no registration denominator."
+    },
+    "04007": {
+      "registered_voters": null,
+      "ballots_cast": null,
+      "percent": null,
+      "page": 76,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf",
+      "definition": "Mason explicitly prints Registration Not Available for 1911. Its Total Vote column counts votes in each office, not ballots cast; it supplies no registration denominator."
+    },
+    "04009": {
+      "registered_voters": null,
+      "ballots_cast": null,
+      "percent": null,
+      "page": 76,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf",
+      "definition": "Mason explicitly prints Registration Not Available for 1911. Its Total Vote column counts votes in each office, not ballots cast; it supplies no registration denominator."
+    },
+    "04011": {
+      "registered_voters": null,
+      "ballots_cast": null,
+      "percent": null,
+      "page": 76,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf",
+      "definition": "Mason explicitly prints Registration Not Available for 1911. Its Total Vote column counts votes in each office, not ballots cast; it supplies no registration denominator."
+    },
+    "04013": {
+      "registered_voters": null,
+      "ballots_cast": null,
+      "percent": null,
+      "page": 76,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf",
+      "definition": "Mason explicitly prints Registration Not Available for 1911. Its Total Vote column counts votes in each office, not ballots cast; it supplies no registration denominator."
+    },
+    "04015": {
+      "registered_voters": null,
+      "ballots_cast": null,
+      "percent": null,
+      "page": 76,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf",
+      "definition": "Mason explicitly prints Registration Not Available for 1911. Its Total Vote column counts votes in each office, not ballots cast; it supplies no registration denominator."
+    },
+    "04017": {
+      "registered_voters": null,
+      "ballots_cast": null,
+      "percent": null,
+      "page": 76,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf",
+      "definition": "Mason explicitly prints Registration Not Available for 1911. Its Total Vote column counts votes in each office, not ballots cast; it supplies no registration denominator."
+    },
+    "04019": {
+      "registered_voters": null,
+      "ballots_cast": null,
+      "percent": null,
+      "page": 76,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf",
+      "definition": "Mason explicitly prints Registration Not Available for 1911. Its Total Vote column counts votes in each office, not ballots cast; it supplies no registration denominator."
+    },
+    "04021": {
+      "registered_voters": null,
+      "ballots_cast": null,
+      "percent": null,
+      "page": 76,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf",
+      "definition": "Mason explicitly prints Registration Not Available for 1911. Its Total Vote column counts votes in each office, not ballots cast; it supplies no registration denominator."
+    },
+    "04023": {
+      "registered_voters": null,
+      "ballots_cast": null,
+      "percent": null,
+      "page": 76,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf",
+      "definition": "Mason explicitly prints Registration Not Available for 1911. Its Total Vote column counts votes in each office, not ballots cast; it supplies no registration denominator."
+    },
+    "04025": {
+      "registered_voters": null,
+      "ballots_cast": null,
+      "percent": null,
+      "page": 76,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf",
+      "definition": "Mason explicitly prints Registration Not Available for 1911. Its Total Vote column counts votes in each office, not ballots cast; it supplies no registration denominator."
+    },
+    "04027": {
+      "registered_voters": null,
+      "ballots_cast": null,
+      "percent": null,
+      "page": 76,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf",
+      "definition": "Mason explicitly prints Registration Not Available for 1911. Its Total Vote column counts votes in each office, not ballots cast; it supplies no registration denominator."
+    }
+  }
 }

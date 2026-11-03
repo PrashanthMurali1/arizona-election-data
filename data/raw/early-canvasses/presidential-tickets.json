@@ -148,11 +148,11 @@
       "apply_to_write_ins": false
     },
     "Arizona Prog. Dem.": {
-      "name": null,
+      "name": "Franklin D. Roosevelt",
       "tally_basis": "reported_slate",
       "source_url": null,
       "apply_to_write_ins": false,
-      "notes": "Nominee unresolved in retained official source. Preserve the Arizona Progressive Democratic elector slate identity; do not assign these votes to a presidential nominee without primary-source evidence."
+      "notes": "Mason compilation PDF page 8 explicitly identifies the Arizona Progressive Democratic ballot line (9 votes) as Franklin D. Roosevelt. Retained as a separate ballot line, never assigned to a different nominee."
     },
     "SOC": {
       "name": "Norman Thomas",
@@ -322,6 +322,26 @@
       "tally_basis": "reported_slate",
       "source_url": "https://history.nebraska.gov/collection_section/eric-hass-1905-1980-rg3703-am/",
       "apply_to_write_ins": false
+    }
+  },
+  "1956": {
+    "DEM": {
+      "name": "Adlai E. Stevenson",
+      "tally_basis": "published_presidential_candidate",
+      "apply_to_write_ins": false,
+      "notes": "Mason PDF pages 9 and 15 publish presidential nominee names and party totals directly."
+    },
+    "REP": {
+      "name": "Dwight D. Eisenhower",
+      "tally_basis": "published_presidential_candidate",
+      "apply_to_write_ins": false,
+      "notes": "Mason PDF pages 9 and 15 publish presidential nominee names and party totals directly."
+    },
+    "SR": {
+      "name": "T. Coleman Andrews",
+      "tally_basis": "published_presidential_candidate",
+      "apply_to_write_ins": false,
+      "notes": "Mason PDF pages 9 and 15 publish presidential nominee names and party totals directly."
     }
   }
 }

@@ -233,8 +233,67 @@ def test_1911_complete_counties_produce_statewide_results():
         assert len(senate.candidates)==6 and all(c.votes is not None for c in senate.candidates)
         assert senate.winner is None
         secretary=results(session,session.get(Contest,'az-1911-secretary-of-state'),session.get(GeographicUnit,'04'))
-        assert secretary.total_votes is None
-        assert all(c.percent is None for c in secretary.candidates)
+        assert secretary.total_votes == 21130
+        assert {c.name:c.votes for c in secretary.candidates} == {
+            'Sidney P. Osborn':10476, 'J. F. Cleveland':9282,
+            'G. H. Newsholme':1294, 'Roy Sibley':78}
+        assert all(c.percent is not None for c in secretary.candidates)
+        assert secretary.turnout.registered_voters is None
+        assert 'Registration Not Available' in secretary.turnout.definition
+        cochise=results(session,session.get(Contest,'az-1911-secretary-of-state'),session.get(GeographicUnit,'04003'))
+        assert {c.name:c.votes for c in cochise.candidates} == {
+            'Sidney P. Osborn':1938, 'J. F. Cleveland':1433,
+            'G. H. Newsholme':249, 'Roy Sibley':14}
+    engine.dispose()
+
+
+def test_mason_county_groups_do_not_invent_allocations_or_double_count():
+    import json
+    from backend.app.models import GeographicUnit
+    from backend.app.services import results
+    docs=[json.loads((ROOT/f'data/raw/early-canvasses/{y}.json').read_text(encoding='utf-8')) for y in [1914,1942,1956]]
+    engine=create_engine('sqlite://');Base.metadata.create_all(engine);factory=sessionmaker(engine)
+    import_documents(docs,factory)
+    with factory() as session:
+        c=session.get(Contest,'az-1914-us-senate')
+        state=results(session,c,session.get(GeographicUnit,'04'))
+        county=results(session,c,session.get(GeographicUnit,'04013'))
+        assert len(state.candidates)==5 and state.total_votes==48466
+        assert county.total_votes==13566 and len(county.candidates)==3
+        assert sum(x.percent for x in county.candidates)==pytest.approx(100)
+        other=next(x for x in county.candidates if x.category=='county_group')
+        assert other.votes==5414 and other.name=='Other candidates (combined)'
+        assert county.winner.name=='Mark A. Smith'
+        assert county.turnout.percent==pytest.approx(100*13566/18747)
+        house=session.get(Contest,'az-1942-historical-us-house-district-at-large')
+        county=results(session,house,session.get(GeographicUnit,'04001'))
+        assert county.total_votes==2375
+        assert county.winner is None and county.turnout.percent is None
+        assert len(county.candidates)==3
+        from backend.app import presidential
+        president=presidential.detail(session,'az-1956-historical-president')
+        assert president.statewide.total_votes==290173
+        assert president.statewide.candidates[0].name=='Dwight D. Eisenhower'
+        assert president.statewide.turnout.percent==pytest.approx(100*290173/367661)
+        assert president.statewide.turnout.ballots_cast is None
+    engine.dispose()
+
+
+def test_retained_supplement_can_replace_its_own_prior_source(tmp_path):
+    doc=source_document(tmp_path)
+    (tmp_path/'supplement.pdf').write_bytes(b'clearer supplemental source')
+    corrected=copy.deepcopy(doc)
+    corrected['additional_sources']=[dict(path='supplement.pdf',sha256=hashlib.sha256((tmp_path/'supplement.pdf').read_bytes()).hexdigest())]
+    corrected['contests'][0].update(source_path='supplement.pdf')
+    corrected['contests'][0]['candidates'][0]['votes']=31
+    engine=create_engine('sqlite://');Base.metadata.create_all(engine);factory=sessionmaker(engine)
+    import_documents([doc],factory,source_root=tmp_path)
+    import_documents([corrected],factory,source_root=tmp_path)
+    from backend.app.models import VoteResult
+    with factory() as session:
+        c=session.get(Contest,'az-1933-historical-state-senate-district-Cochise-1')
+        assert 'supplement' in c.source_id
+        assert session.scalar(select(VoteResult.votes).where(VoteResult.participation_id==f'{c.id}-candidate-0'))==31
     engine.dispose()
 
 

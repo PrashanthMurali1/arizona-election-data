@@ -50,3 +50,29 @@ test("source/style/HTML changes invalidate versions; unchanged builds and test e
     rmSync(root, { recursive: true, force: true });
   }
 });
+
+test("historical data corrections invalidate the API cache version", () => {
+  const project = mkdtempSync(join(tmpdir(), "election-data-version-"));
+  const root = join(project, "frontend");
+  try {
+    mkdirSync(join(root, "src"), { recursive: true });
+    writeFileSync(join(root, "index.html"), "html");
+    const dir = join(project, "data/raw/early-canvasses");
+    mkdirSync(dir, { recursive: true });
+    const source = join(dir, "1911.json");
+    writeFileSync(source, '{"votes":null}');
+    const before = frontendVersion(root);
+    writeFileSync(source, '{"votes":10476}');
+    assert.notEqual(frontendVersion(root), before);
+    const plugin = cacheVersionPlugin();
+    plugin.configResolved({ root });
+    let reload = false;
+    plugin.handleHotUpdate({ file: source, server: {
+      moduleGraph: { getModuleById: () => null },
+      ws: { send: () => { reload = true; } },
+    } });
+    assert.ok(reload);
+  } finally {
+    rmSync(project, { recursive: true, force: true });
+  }
+});

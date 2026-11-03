@@ -1,0 +1,3249 @@
+[
+  {
+    "year": 1911,
+    "office_id": "us-senate",
+    "summary_pdf_pages": [
+      17
+    ],
+    "mason_statewide_totals": [
+      10872,
+      10598,
+      9640,
+      9228,
+      1234,
+      1221
+    ],
+    "retained_statewide_totals": [
+      10872,
+      10598,
+      9640,
+      9228,
+      1234,
+      1221
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1911.pdf",
+        "page": 1
+      }
+    ]
+  },
+  {
+    "year": 1914,
+    "office_id": "us-senate",
+    "summary_pdf_pages": [
+      17
+    ],
+    "mason_statewide_totals": [
+      25800,
+      9183,
+      2608,
+      3582,
+      7293
+    ],
+    "retained_statewide_totals": [
+      25800,
+      9183,
+      2608,
+      3582,
+      7293
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf",
+        "page": 19
+      }
+    ]
+  },
+  {
+    "year": 1916,
+    "office_id": "us-senate",
+    "summary_pdf_pages": [
+      17
+    ],
+    "mason_statewide_totals": [
+      29873,
+      21261,
+      2827
+    ],
+    "retained_statewide_totals": [
+      29873,
+      21261,
+      2827
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1917Report.pdf",
+        "page": 24
+      }
+    ]
+  },
+  {
+    "year": 1920,
+    "office_id": "us-senate",
+    "summary_pdf_pages": [
+      17
+    ],
+    "mason_statewide_totals": [
+      29169,
+      35893
+    ],
+    "retained_statewide_totals": [
+      29169,
+      35893
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1920.pdf",
+        "page": 1
+      }
+    ]
+  },
+  {
+    "year": 1922,
+    "office_id": "us-senate",
+    "summary_pdf_pages": [
+      17
+    ],
+    "mason_statewide_totals": [
+      39722,
+      21358
+    ],
+    "retained_statewide_totals": [
+      39722,
+      21358
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1922.1.pdf",
+        "page": 8
+      }
+    ]
+  },
+  {
+    "year": 1926,
+    "office_id": "us-senate",
+    "summary_pdf_pages": [
+      17
+    ],
+    "mason_statewide_totals": [
+      44591,
+      31845
+    ],
+    "retained_statewide_totals": [
+      44591,
+      31845
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1926.pdf",
+        "page": 1
+      }
+    ]
+  },
+  {
+    "year": 1928,
+    "office_id": "us-senate",
+    "summary_pdf_pages": [
+      17
+    ],
+    "mason_statewide_totals": [
+      47013,
+      39651
+    ],
+    "retained_statewide_totals": [
+      47013,
+      39651
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1928.pdf",
+        "page": 1
+      }
+    ]
+  },
+  {
+    "year": 1932,
+    "office_id": "us-senate",
+    "summary_pdf_pages": [
+      17
+    ],
+    "mason_statewide_totals": [
+      74310,
+      35737,
+      306,
+      1110
+    ],
+    "retained_statewide_totals": [
+      74310,
+      35737,
+      306,
+      1110
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1932.pdf",
+        "page": 1
+      }
+    ]
+  },
+  {
+    "year": 1934,
+    "office_id": "us-senate",
+    "summary_pdf_pages": [
+      17
+    ],
+    "mason_statewide_totals": [
+      67648,
+      24075,
+      606,
+      1591
+    ],
+    "retained_statewide_totals": [
+      67648,
+      24075,
+      1591,
+      606
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1934.pdf",
+        "page": 1
+      }
+    ]
+  },
+  {
+    "year": 1938,
+    "office_id": "us-senate",
+    "summary_pdf_pages": [
+      17
+    ],
+    "mason_statewide_totals": [
+      82714,
+      25358
+    ],
+    "retained_statewide_totals": [
+      82714,
+      25378
+    ],
+    "comparison": "primary_source_difference",
+    "ruling": "Retained complete primary canvass figures; Mason is supplementary and contains omissions and internal discrepancies. Original scan visually rechecked for this conflict; these are source disagreements, not missing fields.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1938.pdf",
+        "page": 1
+      }
+    ]
+  },
+  {
+    "year": 1940,
+    "office_id": "us-senate",
+    "summary_pdf_pages": [
+      18
+    ],
+    "mason_statewide_totals": [
+      101495,
+      39657,
+      579
+    ],
+    "retained_statewide_totals": [
+      101495,
+      39657,
+      579
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1940.pdf",
+        "page": 1
+      }
+    ]
+  },
+  {
+    "year": 1944,
+    "office_id": "us-senate",
+    "summary_pdf_pages": [
+      18
+    ],
+    "mason_statewide_totals": [
+      90335,
+      39891
+    ],
+    "retained_statewide_totals": [
+      90335,
+      39891
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1944.pdf",
+        "page": 1
+      }
+    ]
+  },
+  {
+    "year": 1946,
+    "office_id": "us-senate",
+    "summary_pdf_pages": [
+      18
+    ],
+    "mason_statewide_totals": [
+      80415,
+      35022,
+      802
+    ],
+    "retained_statewide_totals": [
+      80415,
+      35022,
+      802
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1946.pdf",
+        "page": 1
+      }
+    ]
+  },
+  {
+    "year": 1950,
+    "office_id": "us-senate",
+    "summary_pdf_pages": [
+      18
+    ],
+    "mason_statewide_totals": [
+      116246,
+      68846
+    ],
+    "retained_statewide_totals": [
+      116246,
+      68846
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1950.1.pdf",
+        "page": 1
+      }
+    ]
+  },
+  {
+    "year": 1952,
+    "office_id": "us-senate",
+    "summary_pdf_pages": [
+      18
+    ],
+    "mason_statewide_totals": [
+      125338,
+      132063
+    ],
+    "retained_statewide_totals": [
+      125338,
+      132063
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1952.1.pdf",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "year": 1956,
+    "office_id": "us-senate",
+    "summary_pdf_pages": [
+      18
+    ],
+    "mason_statewide_totals": [
+      170816,
+      107447
+    ],
+    "retained_statewide_totals": [
+      170816,
+      107447
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf",
+        "page": 26
+      }
+    ]
+  },
+  {
+    "year": 1958,
+    "office_id": "us-senate",
+    "summary_pdf_pages": [
+      18
+    ],
+    "mason_statewide_totals": [
+      129030,
+      164593
+    ],
+    "retained_statewide_totals": [
+      129030,
+      164593
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1958.pdf",
+        "page": 4
+      }
+    ]
+  },
+  {
+    "year": 1911,
+    "office_id": "us-house",
+    "summary_pdf_pages": [
+      27
+    ],
+    "mason_statewide_totals": [
+      11556,
+      8485,
+      1252,
+      88
+    ],
+    "retained_statewide_totals": [
+      11556,
+      8485,
+      1252,
+      88
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1911.pdf",
+        "page": 1
+      }
+    ]
+  },
+  {
+    "year": 1914,
+    "office_id": "us-house",
+    "summary_pdf_pages": [
+      27
+    ],
+    "mason_statewide_totals": [
+      33306,
+      7586,
+      3773
+    ],
+    "retained_statewide_totals": [
+      33306,
+      7586,
+      3773
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf",
+        "page": 30
+      }
+    ]
+  },
+  {
+    "year": 1916,
+    "office_id": "us-house",
+    "summary_pdf_pages": [
+      27
+    ],
+    "mason_statewide_totals": [
+      34377,
+      14907,
+      3060
+    ],
+    "retained_statewide_totals": [
+      34377,
+      14907,
+      3060
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1917Report.pdf",
+        "page": 24
+      }
+    ]
+  },
+  {
+    "year": 1918,
+    "office_id": "us-house",
+    "summary_pdf_pages": [
+      27
+    ],
+    "mason_statewide_totals": [
+      26805,
+      16822,
+      754
+    ],
+    "retained_statewide_totals": [
+      26805,
+      16822,
+      754
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1918.pdf",
+        "page": 1
+      }
+    ]
+  },
+  {
+    "year": 1920,
+    "office_id": "us-house",
+    "summary_pdf_pages": [
+      27
+    ],
+    "mason_statewide_totals": [
+      35397,
+      25841
+    ],
+    "retained_statewide_totals": [
+      35397,
+      25841
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1920.pdf",
+        "page": 1
+      }
+    ]
+  },
+  {
+    "year": 1922,
+    "office_id": "us-house",
+    "summary_pdf_pages": [
+      27
+    ],
+    "mason_statewide_totals": [
+      37262,
+      14601
+    ],
+    "retained_statewide_totals": [
+      45121,
+      14601
+    ],
+    "comparison": "primary_source_difference",
+    "ruling": "Retained complete primary canvass figures; Mason is supplementary and contains omissions and internal discrepancies. Original scan visually rechecked for this conflict; these are source disagreements, not missing fields.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1922.1.pdf",
+        "page": 8
+      }
+    ]
+  },
+  {
+    "year": 1924,
+    "office_id": "us-house",
+    "summary_pdf_pages": [
+      27
+    ],
+    "mason_statewide_totals": [
+      40329,
+      8628
+    ],
+    "retained_statewide_totals": [
+      40329,
+      8628
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1924.pdf",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "year": 1926,
+    "office_id": "us-house",
+    "summary_pdf_pages": [
+      27
+    ],
+    "mason_statewide_totals": [
+      43725,
+      24502
+    ],
+    "retained_statewide_totals": [
+      43725,
+      24502
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1926.pdf",
+        "page": 1
+      }
+    ]
+  },
+  {
+    "year": 1928,
+    "office_id": "us-house",
+    "summary_pdf_pages": [
+      27
+    ],
+    "mason_statewide_totals": [
+      50231,
+      31382
+    ],
+    "retained_statewide_totals": [
+      50231,
+      31382
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1928.pdf",
+        "page": 1
+      }
+    ]
+  },
+  {
+    "year": 1930,
+    "office_id": "us-house",
+    "summary_pdf_pages": [
+      27
+    ],
+    "mason_statewide_totals": [
+      52342
+    ],
+    "retained_statewide_totals": [
+      52342
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1930.pdf",
+        "page": 1
+      }
+    ]
+  },
+  {
+    "year": 1932,
+    "office_id": "us-house",
+    "summary_pdf_pages": [
+      27
+    ],
+    "mason_statewide_totals": [
+      75469,
+      29710,
+      293,
+      1112
+    ],
+    "retained_statewide_totals": [
+      75469,
+      29710,
+      293,
+      1112
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1932.pdf",
+        "page": 1
+      }
+    ]
+  },
+  {
+    "year": 1933,
+    "office_id": "us-house",
+    "summary_pdf_pages": [
+      27
+    ],
+    "mason_statewide_totals": [
+      24163,
+      3123,
+      5556
+    ],
+    "retained_statewide_totals": [
+      24163,
+      3123,
+      5556
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1933.pdf",
+        "page": 1
+      }
+    ]
+  },
+  {
+    "year": 1934,
+    "office_id": "us-house",
+    "summary_pdf_pages": [
+      28
+    ],
+    "mason_statewide_totals": [
+      65914,
+      28283,
+      369,
+      1478
+    ],
+    "retained_statewide_totals": [
+      28283,
+      65914,
+      1478,
+      369
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1934.pdf",
+        "page": 1
+      }
+    ]
+  },
+  {
+    "year": 1936,
+    "office_id": "us-house",
+    "summary_pdf_pages": [
+      28
+    ],
+    "mason_statewide_totals": [
+      84343,
+      20383,
+      295,
+      3729
+    ],
+    "retained_statewide_totals": [
+      84343,
+      20383,
+      295,
+      3729
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1936.pdf",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "year": 1938,
+    "office_id": "us-house",
+    "summary_pdf_pages": [
+      28
+    ],
+    "mason_statewide_totals": [
+      83556,
+      20502
+    ],
+    "retained_statewide_totals": [
+      83556,
+      20502
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1938.pdf",
+        "page": 1
+      }
+    ]
+  },
+  {
+    "year": 1940,
+    "office_id": "us-house",
+    "summary_pdf_pages": [
+      28
+    ],
+    "mason_statewide_totals": [
+      99424,
+      40360
+    ],
+    "retained_statewide_totals": [
+      99424,
+      40360
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1940.pdf",
+        "page": 1
+      }
+    ]
+  },
+  {
+    "year": 1942,
+    "office_id": "us-house",
+    "summary_pdf_pages": [
+      28
+    ],
+    "mason_statewide_totals": [
+      56357,
+      55825,
+      23015,
+      18205,
+      375
+    ],
+    "retained_statewide_totals": [
+      56357,
+      55825,
+      23015,
+      18205,
+      375
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf",
+        "page": 38
+      }
+    ]
+  },
+  {
+    "year": 1944,
+    "office_id": "us-house",
+    "summary_pdf_pages": [
+      28
+    ],
+    "mason_statewide_totals": [
+      86691,
+      88532,
+      39035,
+      36352,
+      469
+    ],
+    "retained_statewide_totals": [
+      86691,
+      88532,
+      39035,
+      36352,
+      469
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1944.pdf",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "year": 1946,
+    "office_id": "us-house",
+    "summary_pdf_pages": [
+      28
+    ],
+    "mason_statewide_totals": [
+      71836,
+      74948,
+      37033,
+      36185,
+      831
+    ],
+    "retained_statewide_totals": [
+      71836,
+      74948,
+      37033,
+      36185,
+      831
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1946.pdf",
+        "page": 1
+      }
+    ]
+  },
+  {
+    "year": 1948,
+    "office_id": "us-house",
+    "summary_pdf_pages": [
+      29
+    ],
+    "mason_statewide_totals": [
+      42565,
+      29864,
+      481,
+      54066,
+      30140,
+      381,
+      1478
+    ],
+    "retained_statewide_totals": [
+      42565,
+      29864,
+      481,
+      54066,
+      30140,
+      381,
+      1478
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1948.pdf",
+        "page": 2
+      },
+      {
+        "path": "data/raw/early-canvasses/pdfs/1948.pdf",
+        "page": 3
+      }
+    ]
+  },
+  {
+    "year": 1950,
+    "office_id": "us-house",
+    "summary_pdf_pages": [
+      29
+    ],
+    "mason_statewide_totals": [
+      51526,
+      33528,
+      63991,
+      28622
+    ],
+    "retained_statewide_totals": [
+      51526,
+      33528,
+      63991,
+      28622
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1950.1.pdf",
+        "page": 1
+      },
+      {
+        "path": "data/raw/early-canvasses/pdfs/1950.1.pdf",
+        "page": 1
+      }
+    ]
+  },
+  {
+    "year": 1952,
+    "office_id": "us-house",
+    "summary_pdf_pages": [
+      29
+    ],
+    "mason_statewide_totals": [
+      56622,
+      66512,
+      71245,
+      54021
+    ],
+    "retained_statewide_totals": [
+      56622,
+      66512,
+      71245,
+      54021
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1952.1.pdf",
+        "page": 2
+      },
+      {
+        "path": "data/raw/early-canvasses/pdfs/1952.1.pdf",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "year": 1954,
+    "office_id": "us-house",
+    "summary_pdf_pages": [
+      29
+    ],
+    "mason_statewide_totals": [
+      53307,
+      60423,
+      68085,
+      41587
+    ],
+    "retained_statewide_totals": [
+      53307,
+      60423,
+      68085,
+      41587
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1952.2.pdf",
+        "page": 1
+      },
+      {
+        "path": "data/raw/early-canvasses/pdfs/1952.2.pdf",
+        "page": 1
+      }
+    ]
+  },
+  {
+    "year": 1956,
+    "office_id": "us-house",
+    "summary_pdf_pages": [
+      29
+    ],
+    "mason_statewide_totals": [
+      64805,
+      78998,
+      82110,
+      54596
+    ],
+    "retained_statewide_totals": [
+      64805,
+      78998,
+      82110,
+      54596
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf",
+        "page": 41
+      },
+      {
+        "path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf",
+        "page": 41
+      }
+    ]
+  },
+  {
+    "year": 1958,
+    "office_id": "us-house",
+    "summary_pdf_pages": [
+      29
+    ],
+    "mason_statewide_totals": [
+      59816,
+      86959,
+      79651,
+      51140
+    ],
+    "retained_statewide_totals": [
+      59816,
+      86959,
+      79651,
+      51140
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1958.pdf",
+        "page": 4
+      },
+      {
+        "path": "data/raw/early-canvasses/pdfs/1958.pdf",
+        "page": 4
+      }
+    ]
+  },
+  {
+    "year": 1960,
+    "office_id": "us-house",
+    "summary_pdf_pages": [
+      29
+    ],
+    "mason_statewide_totals": [
+      83676,
+      121563,
+      95512,
+      75811
+    ],
+    "retained_statewide_totals": [
+      83676,
+      121563,
+      95512,
+      75811
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1960.pdf",
+        "page": 1
+      },
+      {
+        "path": "data/raw/early-canvasses/pdfs/1960.pdf",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "year": 1911,
+    "office_id": "governor",
+    "summary_pdf_pages": [
+      43
+    ],
+    "mason_statewide_totals": [
+      11123,
+      9166,
+      1247,
+      79
+    ],
+    "retained_statewide_totals": [
+      11123,
+      9166,
+      1247,
+      79
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1911.pdf",
+        "page": 1
+      }
+    ]
+  },
+  {
+    "year": 1914,
+    "office_id": "governor",
+    "summary_pdf_pages": [
+      43
+    ],
+    "mason_statewide_totals": [
+      25226,
+      17602,
+      2973,
+      5206
+    ],
+    "retained_statewide_totals": [
+      25226,
+      17602,
+      2973,
+      5206
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf",
+        "page": 46
+      }
+    ]
+  },
+  {
+    "year": 1916,
+    "office_id": "governor",
+    "summary_pdf_pages": [
+      43
+    ],
+    "mason_statewide_totals": [
+      28094,
+      28051,
+      396,
+      1975
+    ],
+    "retained_statewide_totals": [
+      27946,
+      27976,
+      1975,
+      396
+    ],
+    "comparison": "primary_source_difference",
+    "ruling": "Retained complete primary canvass figures; Mason is supplementary and contains omissions and internal discrepancies. Original scan visually rechecked for this conflict; these are source disagreements, not missing fields.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1917Report.pdf",
+        "page": 26
+      }
+    ]
+  },
+  {
+    "year": 1918,
+    "office_id": "governor",
+    "summary_pdf_pages": [
+      43
+    ],
+    "mason_statewide_totals": [
+      25588,
+      25927,
+      444
+    ],
+    "retained_statewide_totals": [
+      25588,
+      25927,
+      444
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1918.pdf",
+        "page": 1
+      }
+    ]
+  },
+  {
+    "year": 1920,
+    "office_id": "governor",
+    "summary_pdf_pages": [
+      43
+    ],
+    "mason_statewide_totals": [
+      31385,
+      37060
+    ],
+    "retained_statewide_totals": [
+      31385,
+      37060
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1920.pdf",
+        "page": 1
+      }
+    ]
+  },
+  {
+    "year": 1922,
+    "office_id": "governor",
+    "summary_pdf_pages": [
+      43
+    ],
+    "mason_statewide_totals": [
+      37310,
+      30599
+    ],
+    "retained_statewide_totals": [
+      37310,
+      30599
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1922.1.pdf",
+        "page": 8
+      }
+    ]
+  },
+  {
+    "year": 1924,
+    "office_id": "governor",
+    "summary_pdf_pages": [
+      43
+    ],
+    "mason_statewide_totals": [
+      38372,
+      37571
+    ],
+    "retained_statewide_totals": [
+      38372,
+      37571
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1924.pdf",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "year": 1926,
+    "office_id": "governor",
+    "summary_pdf_pages": [
+      43
+    ],
+    "mason_statewide_totals": [
+      39979,
+      39580
+    ],
+    "retained_statewide_totals": [
+      39979,
+      39580
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1926.pdf",
+        "page": 1
+      }
+    ]
+  },
+  {
+    "year": 1928,
+    "office_id": "governor",
+    "summary_pdf_pages": [
+      43
+    ],
+    "mason_statewide_totals": [
+      44553,
+      47829,
+      122
+    ],
+    "retained_statewide_totals": [
+      44553,
+      47829,
+      122
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1928.pdf",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "year": 1930,
+    "office_id": "governor",
+    "summary_pdf_pages": [
+      43
+    ],
+    "mason_statewide_totals": [
+      48875,
+      46231
+    ],
+    "retained_statewide_totals": [
+      48875,
+      46231
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1930.pdf",
+        "page": 1
+      }
+    ]
+  },
+  {
+    "year": 1932,
+    "office_id": "governor",
+    "summary_pdf_pages": [
+      43
+    ],
+    "mason_statewide_totals": [
+      75314,
+      42202,
+      198,
+      584,
+      826
+    ],
+    "retained_statewide_totals": [
+      75314,
+      42202,
+      198,
+      584,
+      826
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1932.pdf",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "year": 1934,
+    "office_id": "governor",
+    "summary_pdf_pages": [
+      44
+    ],
+    "mason_statewide_totals": [
+      61355,
+      39242,
+      374,
+      1884
+    ],
+    "retained_statewide_totals": [
+      61355,
+      39242,
+      1884,
+      374
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1934.pdf",
+        "page": 1
+      }
+    ]
+  },
+  {
+    "year": 1936,
+    "office_id": "governor",
+    "summary_pdf_pages": [
+      44
+    ],
+    "mason_statewide_totals": [
+      87778,
+      36114,
+      260
+    ],
+    "retained_statewide_totals": [
+      87678,
+      36114,
+      260
+    ],
+    "comparison": "primary_source_difference",
+    "ruling": "Retained complete primary canvass figures; Mason is supplementary and contains omissions and internal discrepancies. Original scan visually rechecked for this conflict; these are source disagreements, not missing fields.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1936.pdf",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "year": 1938,
+    "office_id": "governor",
+    "summary_pdf_pages": [
+      44
+    ],
+    "mason_statewide_totals": [
+      80350,
+      32022,
+      4814
+    ],
+    "retained_statewide_totals": [
+      4814,
+      80350,
+      32022
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1938.pdf",
+        "page": 1
+      }
+    ]
+  },
+  {
+    "year": 1940,
+    "office_id": "governor",
+    "summary_pdf_pages": [
+      44
+    ],
+    "mason_statewide_totals": [
+      97616,
+      50358,
+      993
+    ],
+    "retained_statewide_totals": [
+      97606,
+      50358,
+      1003
+    ],
+    "comparison": "primary_source_difference",
+    "ruling": "Retained complete primary canvass figures; Mason is supplementary and contains omissions and internal discrepancies. Original scan visually rechecked for this conflict; these are source disagreements, not missing fields.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1940.pdf",
+        "page": 1
+      }
+    ]
+  },
+  {
+    "year": 1942,
+    "office_id": "governor",
+    "summary_pdf_pages": [
+      44
+    ],
+    "mason_statewide_totals": [
+      63484,
+      23562,
+      537
+    ],
+    "retained_statewide_totals": [
+      63484,
+      23562,
+      537
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf",
+        "page": 53
+      }
+    ]
+  },
+  {
+    "year": 1944,
+    "office_id": "governor",
+    "summary_pdf_pages": [
+      44
+    ],
+    "mason_statewide_totals": [
+      101231,
+      27261,
+      1161
+    ],
+    "retained_statewide_totals": [
+      100220,
+      27261,
+      1161
+    ],
+    "comparison": "primary_source_difference",
+    "ruling": "Retained complete primary canvass figures; Mason is supplementary and contains omissions and internal discrepancies. Original scan visually rechecked for this conflict; these are source disagreements, not missing fields.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1944.pdf",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "year": 1946,
+    "office_id": "governor",
+    "summary_pdf_pages": [
+      44
+    ],
+    "mason_statewide_totals": [
+      73595,
+      48867
+    ],
+    "retained_statewide_totals": [
+      73595,
+      48867
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1946.pdf",
+        "page": 1
+      }
+    ]
+  },
+  {
+    "year": 1948,
+    "office_id": "governor",
+    "summary_pdf_pages": [
+      44
+    ],
+    "mason_statewide_totals": [
+      104008,
+      70419,
+      1340
+    ],
+    "retained_statewide_totals": [
+      104008,
+      70419,
+      1340
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1948.pdf",
+        "page": 3
+      }
+    ]
+  },
+  {
+    "year": 1950,
+    "office_id": "governor",
+    "summary_pdf_pages": [
+      44
+    ],
+    "mason_statewide_totals": [
+      96118,
+      99109
+    ],
+    "retained_statewide_totals": [
+      96118,
+      99109
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1950.1.pdf",
+        "page": 1
+      }
+    ]
+  },
+  {
+    "year": 1952,
+    "office_id": "governor",
+    "summary_pdf_pages": [
+      44
+    ],
+    "mason_statewide_totals": [
+      103693,
+      156592
+    ],
+    "retained_statewide_totals": [
+      103693,
+      156592
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1952.1.pdf",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "year": 1954,
+    "office_id": "governor",
+    "summary_pdf_pages": [
+      44
+    ],
+    "mason_statewide_totals": [
+      128104,
+      115866
+    ],
+    "retained_statewide_totals": [
+      128104,
+      115866
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1952.2.pdf",
+        "page": 1
+      }
+    ]
+  },
+  {
+    "year": 1956,
+    "office_id": "governor",
+    "summary_pdf_pages": [
+      44
+    ],
+    "mason_statewide_totals": [
+      171848,
+      116744
+    ],
+    "retained_statewide_totals": [
+      171848,
+      116744
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf",
+        "page": 57
+      }
+    ]
+  },
+  {
+    "year": 1958,
+    "office_id": "governor",
+    "summary_pdf_pages": [
+      45
+    ],
+    "mason_statewide_totals": [
+      130329,
+      160136
+    ],
+    "retained_statewide_totals": [
+      130329,
+      160136
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1958.pdf",
+        "page": 5
+      }
+    ]
+  },
+  {
+    "year": 1960,
+    "office_id": "governor",
+    "summary_pdf_pages": [
+      45
+    ],
+    "mason_statewide_totals": [
+      161605,
+      235502
+    ],
+    "retained_statewide_totals": [
+      161605,
+      235502
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1960.pdf",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "year": 1911,
+    "office_id": "attorney-general",
+    "summary_pdf_pages": [
+      59
+    ],
+    "mason_statewide_totals": [
+      10650,
+      9000,
+      1373,
+      90
+    ],
+    "retained_statewide_totals": [
+      10650,
+      9000,
+      1373,
+      90
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1911.pdf",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "year": 1914,
+    "office_id": "attorney-general",
+    "summary_pdf_pages": [
+      59
+    ],
+    "mason_statewide_totals": [
+      23477,
+      12632,
+      6713
+    ],
+    "retained_statewide_totals": [
+      23477,
+      12632,
+      6713
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf",
+        "page": 61
+      }
+    ]
+  },
+  {
+    "year": 1916,
+    "office_id": "attorney-general",
+    "summary_pdf_pages": [
+      59
+    ],
+    "mason_statewide_totals": [
+      28218,
+      21297,
+      3224
+    ],
+    "retained_statewide_totals": [
+      28218,
+      21297,
+      3224
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1917Report.pdf",
+        "page": 26
+      }
+    ]
+  },
+  {
+    "year": 1918,
+    "office_id": "attorney-general",
+    "summary_pdf_pages": [
+      59
+    ],
+    "mason_statewide_totals": [
+      27671,
+      17657,
+      914
+    ],
+    "retained_statewide_totals": [
+      27671,
+      17657,
+      914
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf",
+        "page": 62
+      }
+    ]
+  },
+  {
+    "year": 1920,
+    "office_id": "attorney-general",
+    "summary_pdf_pages": [
+      59
+    ],
+    "mason_statewide_totals": [
+      28814,
+      34279
+    ],
+    "retained_statewide_totals": [
+      28814,
+      34333
+    ],
+    "comparison": "primary_source_difference",
+    "ruling": "Retained complete primary canvass figures; Mason is supplementary and contains omissions and internal discrepancies. Original scan visually rechecked for this conflict; these are source disagreements, not missing fields.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1920.pdf",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "year": 1922,
+    "office_id": "attorney-general",
+    "summary_pdf_pages": [
+      59
+    ],
+    "mason_statewide_totals": [
+      35335,
+      25512
+    ],
+    "retained_statewide_totals": [
+      35335,
+      25512
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1922.1.pdf",
+        "page": 9
+      }
+    ]
+  },
+  {
+    "year": 1924,
+    "office_id": "attorney-general",
+    "summary_pdf_pages": [
+      59
+    ],
+    "mason_statewide_totals": [
+      38327,
+      26147
+    ],
+    "retained_statewide_totals": [
+      38327,
+      26047
+    ],
+    "comparison": "primary_source_difference",
+    "ruling": "Retained complete primary canvass figures; Mason is supplementary and contains omissions and internal discrepancies. Original scan visually rechecked for this conflict; these are source disagreements, not missing fields.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1924.pdf",
+        "page": 3
+      }
+    ]
+  },
+  {
+    "year": 1926,
+    "office_id": "attorney-general",
+    "summary_pdf_pages": [
+      59
+    ],
+    "mason_statewide_totals": [
+      43567,
+      24911
+    ],
+    "retained_statewide_totals": [
+      43567,
+      24911
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1926.pdf",
+        "page": 1
+      }
+    ]
+  },
+  {
+    "year": 1928,
+    "office_id": "attorney-general",
+    "summary_pdf_pages": [
+      59
+    ],
+    "mason_statewide_totals": [
+      50133,
+      30554
+    ],
+    "retained_statewide_totals": [
+      50133,
+      30554
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1928.pdf",
+        "page": 3
+      }
+    ]
+  },
+  {
+    "year": 1930,
+    "office_id": "attorney-general",
+    "summary_pdf_pages": [
+      59
+    ],
+    "mason_statewide_totals": [
+      61813
+    ],
+    "retained_statewide_totals": [
+      61813
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1930.pdf",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "year": 1932,
+    "office_id": "attorney-general",
+    "summary_pdf_pages": [
+      59
+    ],
+    "mason_statewide_totals": [
+      74176,
+      33311,
+      546
+    ],
+    "retained_statewide_totals": [
+      74176,
+      33311,
+      546
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1932.pdf",
+        "page": 3
+      }
+    ]
+  },
+  {
+    "year": 1934,
+    "office_id": "attorney-general",
+    "summary_pdf_pages": [
+      59
+    ],
+    "mason_statewide_totals": [
+      69836,
+      22383,
+      597
+    ],
+    "retained_statewide_totals": [
+      69836,
+      22383,
+      597
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1934.pdf",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "year": 1936,
+    "office_id": "attorney-general",
+    "summary_pdf_pages": [
+      59
+    ],
+    "mason_statewide_totals": [
+      84861,
+      31352
+    ],
+    "retained_statewide_totals": [
+      84865,
+      31352
+    ],
+    "comparison": "primary_source_difference",
+    "ruling": "Retained complete primary canvass figures; Mason is supplementary and contains omissions and internal discrepancies. Original scan visually rechecked for this conflict; these are source disagreements, not missing fields.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1936.pdf",
+        "page": 3
+      }
+    ]
+  },
+  {
+    "year": 1938,
+    "office_id": "attorney-general",
+    "summary_pdf_pages": [
+      60
+    ],
+    "mason_statewide_totals": [
+      86588,
+      21951
+    ],
+    "retained_statewide_totals": [
+      86588,
+      21951
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1938.pdf",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "year": 1940,
+    "office_id": "attorney-general",
+    "summary_pdf_pages": [
+      60
+    ],
+    "mason_statewide_totals": [
+      107072,
+      33692,
+      851
+    ],
+    "retained_statewide_totals": [
+      107072,
+      33692,
+      851
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1940.pdf",
+        "page": 1
+      }
+    ]
+  },
+  {
+    "year": 1942,
+    "office_id": "attorney-general",
+    "summary_pdf_pages": [
+      60
+    ],
+    "mason_statewide_totals": [
+      67766
+    ],
+    "retained_statewide_totals": [
+      67766
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf",
+        "page": 68
+      }
+    ]
+  },
+  {
+    "year": 1944,
+    "office_id": "attorney-general",
+    "summary_pdf_pages": [
+      60
+    ],
+    "mason_statewide_totals": [
+      89429,
+      37982
+    ],
+    "retained_statewide_totals": [
+      89429,
+      37982
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1944.pdf",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "year": 1946,
+    "office_id": "attorney-general",
+    "summary_pdf_pages": [
+      60
+    ],
+    "mason_statewide_totals": [
+      73595,
+      41732
+    ],
+    "retained_statewide_totals": [
+      73595,
+      41732
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1946.pdf",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "year": 1948,
+    "office_id": "attorney-general",
+    "summary_pdf_pages": [
+      60
+    ],
+    "mason_statewide_totals": [
+      108707,
+      55671
+    ],
+    "retained_statewide_totals": [
+      108707,
+      55751
+    ],
+    "comparison": "primary_source_difference",
+    "ruling": "Retained complete primary canvass figures; Mason is supplementary and contains omissions and internal discrepancies. Original scan visually rechecked for this conflict; these are source disagreements, not missing fields.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1948.pdf",
+        "page": 3
+      }
+    ]
+  },
+  {
+    "year": 1950,
+    "office_id": "attorney-general",
+    "summary_pdf_pages": [
+      60
+    ],
+    "mason_statewide_totals": [
+      119566,
+      62617
+    ],
+    "retained_statewide_totals": [
+      119566,
+      62617
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1950.1.pdf",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "year": 1952,
+    "office_id": "attorney-general",
+    "summary_pdf_pages": [
+      60
+    ],
+    "mason_statewide_totals": [
+      116047,
+      133963
+    ],
+    "retained_statewide_totals": [
+      116047,
+      133963
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1952.1.pdf",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "year": 1954,
+    "office_id": "attorney-general",
+    "summary_pdf_pages": [
+      60
+    ],
+    "mason_statewide_totals": [
+      119376,
+      112601
+    ],
+    "retained_statewide_totals": [
+      119376,
+      112601
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1952.2.pdf",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "year": 1956,
+    "office_id": "attorney-general",
+    "summary_pdf_pages": [
+      60
+    ],
+    "mason_statewide_totals": [
+      151324,
+      126718
+    ],
+    "retained_statewide_totals": [
+      151324,
+      126718
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf",
+        "page": 72
+      }
+    ]
+  },
+  {
+    "year": 1958,
+    "office_id": "attorney-general",
+    "summary_pdf_pages": [
+      60
+    ],
+    "mason_statewide_totals": [
+      153815,
+      122913
+    ],
+    "retained_statewide_totals": [
+      153815,
+      122913
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1958.pdf",
+        "page": 5
+      }
+    ]
+  },
+  {
+    "year": 1960,
+    "office_id": "attorney-general",
+    "summary_pdf_pages": [
+      60
+    ],
+    "mason_statewide_totals": [
+      171289,
+      218198
+    ],
+    "retained_statewide_totals": [
+      171289,
+      218198
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1960.pdf",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "year": 1911,
+    "office_id": "secretary-of-state",
+    "summary_pdf_pages": [
+      74
+    ],
+    "mason_statewide_totals": [
+      10476,
+      9282,
+      1294,
+      78
+    ],
+    "retained_statewide_totals": [
+      10476,
+      9282,
+      1294,
+      78
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf",
+        "page": 76
+      }
+    ]
+  },
+  {
+    "year": 1914,
+    "office_id": "secretary-of-state",
+    "summary_pdf_pages": [
+      74
+    ],
+    "mason_statewide_totals": [
+      30920,
+      9817,
+      4299
+    ],
+    "retained_statewide_totals": [
+      30920,
+      9817,
+      4299
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf",
+        "page": 76
+      }
+    ]
+  },
+  {
+    "year": 1916,
+    "office_id": "secretary-of-state",
+    "summary_pdf_pages": [
+      74
+    ],
+    "mason_statewide_totals": [
+      33075,
+      18182,
+      3073
+    ],
+    "retained_statewide_totals": [
+      33075,
+      18182,
+      3073
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1917Report.pdf",
+        "page": 26
+      }
+    ]
+  },
+  {
+    "year": 1918,
+    "office_id": "secretary-of-state",
+    "summary_pdf_pages": [
+      74
+    ],
+    "mason_statewide_totals": [
+      28028,
+      16660,
+      1205
+    ],
+    "retained_statewide_totals": [
+      28028,
+      16660,
+      1205
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1918.pdf",
+        "page": 1
+      }
+    ]
+  },
+  {
+    "year": 1920,
+    "office_id": "secretary-of-state",
+    "summary_pdf_pages": [
+      74
+    ],
+    "mason_statewide_totals": [
+      30705,
+      31643
+    ],
+    "retained_statewide_totals": [
+      30705,
+      31643
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1920.pdf",
+        "page": 1
+      }
+    ]
+  },
+  {
+    "year": 1922,
+    "office_id": "secretary-of-state",
+    "summary_pdf_pages": [
+      74
+    ],
+    "mason_statewide_totals": [
+      35326,
+      26055
+    ],
+    "retained_statewide_totals": [
+      35326,
+      26055
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1922.1.pdf",
+        "page": 8
+      }
+    ]
+  },
+  {
+    "year": 1924,
+    "office_id": "secretary-of-state",
+    "summary_pdf_pages": [
+      74
+    ],
+    "mason_statewide_totals": [
+      42635,
+      12269
+    ],
+    "retained_statewide_totals": [
+      42635,
+      12269
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1924.pdf",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "year": 1926,
+    "office_id": "secretary-of-state",
+    "summary_pdf_pages": [
+      74
+    ],
+    "mason_statewide_totals": [
+      46215,
+      25215
+    ],
+    "retained_statewide_totals": [
+      46215,
+      25215
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1926.pdf",
+        "page": 1
+      }
+    ]
+  },
+  {
+    "year": 1928,
+    "office_id": "secretary-of-state",
+    "summary_pdf_pages": [
+      74
+    ],
+    "mason_statewide_totals": [
+      44740,
+      37502
+    ],
+    "retained_statewide_totals": [
+      44740,
+      37502
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1928.pdf",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "year": 1930,
+    "office_id": "secretary-of-state",
+    "summary_pdf_pages": [
+      74
+    ],
+    "mason_statewide_totals": [
+      47052,
+      38000
+    ],
+    "retained_statewide_totals": [
+      47052,
+      38000
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1930.pdf",
+        "page": 1
+      }
+    ]
+  },
+  {
+    "year": 1932,
+    "office_id": "secretary-of-state",
+    "summary_pdf_pages": [
+      74
+    ],
+    "mason_statewide_totals": [
+      71547,
+      34445,
+      641,
+      1133
+    ],
+    "retained_statewide_totals": [
+      71547,
+      34445,
+      641,
+      1133
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1932.pdf",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "year": 1934,
+    "office_id": "secretary-of-state",
+    "summary_pdf_pages": [
+      74
+    ],
+    "mason_statewide_totals": [
+      59113,
+      33179,
+      717,
+      556
+    ],
+    "retained_statewide_totals": [
+      59113,
+      33179,
+      717,
+      556
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1934.pdf",
+        "page": 1
+      }
+    ]
+  },
+  {
+    "year": 1936,
+    "office_id": "secretary-of-state",
+    "summary_pdf_pages": [
+      75
+    ],
+    "mason_statewide_totals": [
+      80439,
+      34864
+    ],
+    "retained_statewide_totals": [
+      80439,
+      34864
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1936.pdf",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "year": 1938,
+    "office_id": "secretary-of-state",
+    "summary_pdf_pages": [
+      75
+    ],
+    "mason_statewide_totals": [
+      86679,
+      19149
+    ],
+    "retained_statewide_totals": [
+      86679,
+      19149
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1938.pdf",
+        "page": 1
+      }
+    ]
+  },
+  {
+    "year": 1940,
+    "office_id": "secretary-of-state",
+    "summary_pdf_pages": [
+      75
+    ],
+    "mason_statewide_totals": [
+      108535,
+      30678
+    ],
+    "retained_statewide_totals": [
+      108535,
+      30678
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1940.pdf",
+        "page": 1
+      }
+    ]
+  },
+  {
+    "year": 1942,
+    "office_id": "secretary-of-state",
+    "summary_pdf_pages": [
+      75
+    ],
+    "mason_statewide_totals": [
+      64005,
+      15395
+    ],
+    "retained_statewide_totals": [
+      64005,
+      15395
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf",
+        "page": 83
+      }
+    ]
+  },
+  {
+    "year": 1944,
+    "office_id": "secretary-of-state",
+    "summary_pdf_pages": [
+      75
+    ],
+    "mason_statewide_totals": [
+      91749,
+      33504,
+      635
+    ],
+    "retained_statewide_totals": [
+      91749,
+      33504,
+      635
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1944.pdf",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "year": 1946,
+    "office_id": "secretary-of-state",
+    "summary_pdf_pages": [
+      75
+    ],
+    "mason_statewide_totals": [
+      74543,
+      38991
+    ],
+    "retained_statewide_totals": [
+      74543,
+      38991
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1946.pdf",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "year": 1948,
+    "office_id": "secretary-of-state",
+    "summary_pdf_pages": [
+      75
+    ],
+    "mason_statewide_totals": [
+      106337,
+      55644,
+      2993
+    ],
+    "retained_statewide_totals": [
+      106337,
+      55644,
+      2993
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1948.pdf",
+        "page": 3
+      }
+    ]
+  },
+  {
+    "year": 1950,
+    "office_id": "secretary-of-state",
+    "summary_pdf_pages": [
+      75
+    ],
+    "mason_statewide_totals": [
+      120940,
+      60658
+    ],
+    "retained_statewide_totals": [
+      120940,
+      60658
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1950.1.pdf",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "year": 1952,
+    "office_id": "secretary-of-state",
+    "summary_pdf_pages": [
+      75
+    ],
+    "mason_statewide_totals": [
+      143724,
+      103061
+    ],
+    "retained_statewide_totals": [
+      143724,
+      103061
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1952.1.pdf",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "year": 1954,
+    "office_id": "secretary-of-state",
+    "summary_pdf_pages": [
+      75
+    ],
+    "mason_statewide_totals": [
+      161905
+    ],
+    "retained_statewide_totals": [
+      161905
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1952.2.pdf",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "year": 1956,
+    "office_id": "secretary-of-state",
+    "summary_pdf_pages": [
+      75
+    ],
+    "mason_statewide_totals": [
+      172661,
+      100224
+    ],
+    "retained_statewide_totals": [
+      172661,
+      100224
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf",
+        "page": 87
+      }
+    ]
+  },
+  {
+    "year": 1958,
+    "office_id": "secretary-of-state",
+    "summary_pdf_pages": [
+      75
+    ],
+    "mason_statewide_totals": [
+      184855
+    ],
+    "retained_statewide_totals": [
+      184855
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1958.pdf",
+        "page": 5
+      }
+    ]
+  },
+  {
+    "year": 1960,
+    "office_id": "secretary-of-state",
+    "summary_pdf_pages": [
+      75
+    ],
+    "mason_statewide_totals": [
+      243028
+    ],
+    "retained_statewide_totals": [
+      243028
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1960.pdf",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "year": 1912,
+    "office_id": "president",
+    "summary_pdf_pages": [
+      8
+    ],
+    "mason_statewide_totals": [
+      10130,
+      3021,
+      6949,
+      3328
+    ],
+    "retained_statewide_totals": [
+      10324,
+      3021,
+      6949,
+      3163,
+      265
+    ],
+    "comparison": "primary_source_difference",
+    "ruling": "Retain the original elector rows and the consistent highest-statewide-elector rule. Mason uses Wilson 10130 rather than highest elector 10324, omits the Prohibition line, and differs on the Socialist total.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1912.pdf",
+        "page": 1
+      }
+    ]
+  },
+  {
+    "year": 1916,
+    "office_id": "president",
+    "summary_pdf_pages": [
+      8
+    ],
+    "mason_statewide_totals": [
+      33150,
+      20524,
+      4327
+    ],
+    "retained_statewide_totals": [
+      33170,
+      20524,
+      3174,
+      1153
+    ],
+    "comparison": "primary_source_difference",
+    "ruling": "Keep the clearer 1917 Secretary of State report: Mason p8 calls the Socialist nominee Eugene V. Debs and combines minor-party votes into 4327, while the primary report separately prints Socialist and Prohibition elector rows (3174 and 1153). Wilson 33170 uses the highest statewide elector consistently; Mason prints 33150.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1917Report.pdf",
+        "page": 24
+      }
+    ]
+  },
+  {
+    "year": 1920,
+    "office_id": "president",
+    "summary_pdf_pages": [
+      8
+    ],
+    "mason_statewide_totals": [
+      29546,
+      37016
+    ],
+    "retained_statewide_totals": [
+      29546,
+      37016
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1920.pdf",
+        "page": 1
+      }
+    ]
+  },
+  {
+    "year": 1924,
+    "office_id": "president",
+    "summary_pdf_pages": [
+      8
+    ],
+    "mason_statewide_totals": [
+      26235,
+      30516,
+      17210
+    ],
+    "retained_statewide_totals": [
+      26235,
+      30516,
+      17210
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1924.pdf",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "year": 1928,
+    "office_id": "president",
+    "summary_pdf_pages": [
+      8
+    ],
+    "mason_statewide_totals": [
+      38537,
+      52533,
+      184
+    ],
+    "retained_statewide_totals": [
+      38537,
+      52533,
+      184
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1928.pdf",
+        "page": 1
+      }
+    ]
+  },
+  {
+    "year": 1932,
+    "office_id": "president",
+    "summary_pdf_pages": [
+      8
+    ],
+    "mason_statewide_totals": [
+      79264,
+      36104,
+      256,
+      2618,
+      9
+    ],
+    "retained_statewide_totals": [
+      79264,
+      36104,
+      256,
+      9,
+      2618
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1932.pdf",
+        "page": 1
+      }
+    ]
+  },
+  {
+    "year": 1936,
+    "office_id": "president",
+    "summary_pdf_pages": [
+      8
+    ],
+    "mason_statewide_totals": [
+      87722,
+      33433,
+      384,
+      317,
+      3307
+    ],
+    "retained_statewide_totals": [
+      86722,
+      33433,
+      384,
+      317,
+      3307
+    ],
+    "comparison": "primary_source_difference",
+    "ruling": "Retained complete primary canvass figures; Mason is supplementary and contains omissions and internal discrepancies. Original scan visually rechecked for this conflict; these are source disagreements, not missing fields.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1936.pdf",
+        "page": 1
+      }
+    ]
+  },
+  {
+    "year": 1940,
+    "office_id": "president",
+    "summary_pdf_pages": [
+      8
+    ],
+    "mason_statewide_totals": [
+      95267,
+      54030,
+      742
+    ],
+    "retained_statewide_totals": [
+      95267,
+      54030,
+      742
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1940.pdf",
+        "page": 5
+      }
+    ]
+  },
+  {
+    "year": 1944,
+    "office_id": "president",
+    "summary_pdf_pages": [
+      8
+    ],
+    "mason_statewide_totals": [
+      80927,
+      56287,
+      421
+    ],
+    "retained_statewide_totals": [
+      80926,
+      56287,
+      421
+    ],
+    "comparison": "primary_source_difference",
+    "ruling": "Retained complete primary canvass figures; Mason is supplementary and contains omissions and internal discrepancies. Original scan visually rechecked for this conflict; these are source disagreements, not missing fields.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1944.pdf",
+        "page": 1
+      }
+    ]
+  },
+  {
+    "year": 1948,
+    "office_id": "president",
+    "summary_pdf_pages": [
+      8
+    ],
+    "mason_statewide_totals": [
+      95251,
+      77597,
+      3310,
+      786,
+      121
+    ],
+    "retained_statewide_totals": [
+      95251,
+      77597,
+      3310,
+      786,
+      121
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1948.pdf",
+        "page": 1
+      }
+    ]
+  },
+  {
+    "year": 1952,
+    "office_id": "president",
+    "summary_pdf_pages": [
+      9
+    ],
+    "mason_statewide_totals": [
+      108528,
+      152042
+    ],
+    "retained_statewide_totals": [
+      108528,
+      152042
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1952.1.pdf",
+        "page": 1
+      }
+    ]
+  },
+  {
+    "year": 1956,
+    "office_id": "president",
+    "summary_pdf_pages": [
+      9
+    ],
+    "mason_statewide_totals": [
+      112880,
+      176990,
+      303
+    ],
+    "retained_statewide_totals": [
+      112880,
+      176990,
+      303
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf",
+        "page": 15
+      }
+    ]
+  },
+  {
+    "year": 1960,
+    "office_id": "president",
+    "summary_pdf_pages": [
+      9
+    ],
+    "mason_statewide_totals": [
+      176781,
+      221241,
+      469
+    ],
+    "retained_statewide_totals": [
+      176781,
+      221241,
+      469
+    ],
+    "comparison": "match",
+    "ruling": "Corroborated, or missing contest supplied by Mason.",
+    "retained_sources": [
+      {
+        "path": "data/raw/early-canvasses/pdfs/1960.pdf",
+        "page": 1
+      }
+    ]
+  }
+]

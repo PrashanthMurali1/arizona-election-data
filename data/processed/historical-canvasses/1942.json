@@ -1,0 +1,675 @@
+{
+  "year": 1942,
+  "date": "1942-11-03",
+  "kind": "general",
+  "source_sha256": "cbbcafb08f346f9fbe5b7a032e6d8192514f2b858085473db8e1196ada0380bf",
+  "turnout": {
+    "04001": {
+      "registered_voters": 3486,
+      "ballots_cast": null,
+      "percent": null,
+      "definition": "Registration from Mason compilation, PDF page 53 (printed page 46). Total Vote in these office tables means contest votes, not ballots cast. Turnout is calculated against registration for each single-seat contest.",
+      "page": 53,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf"
+    },
+    "04003": {
+      "registered_voters": 13342,
+      "ballots_cast": null,
+      "percent": null,
+      "definition": "Registration from Mason compilation, PDF page 53 (printed page 46). Total Vote in these office tables means contest votes, not ballots cast. Turnout is calculated against registration for each single-seat contest.",
+      "page": 53,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf"
+    },
+    "04005": {
+      "registered_voters": 5968,
+      "ballots_cast": null,
+      "percent": null,
+      "definition": "Registration from Mason compilation, PDF page 53 (printed page 46). Total Vote in these office tables means contest votes, not ballots cast. Turnout is calculated against registration for each single-seat contest.",
+      "page": 53,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf"
+    },
+    "04007": {
+      "registered_voters": 10020,
+      "ballots_cast": null,
+      "percent": null,
+      "definition": "Registration from Mason compilation, PDF page 53 (printed page 46). Total Vote in these office tables means contest votes, not ballots cast. Turnout is calculated against registration for each single-seat contest.",
+      "page": 53,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf"
+    },
+    "04009": {
+      "registered_voters": 5131,
+      "ballots_cast": null,
+      "percent": null,
+      "definition": "Registration from Mason compilation, PDF page 53 (printed page 46). Total Vote in these office tables means contest votes, not ballots cast. Turnout is calculated against registration for each single-seat contest.",
+      "page": 53,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf"
+    },
+    "04011": {
+      "registered_voters": 4281,
+      "ballots_cast": null,
+      "percent": null,
+      "definition": "Registration from Mason compilation, PDF page 53 (printed page 46). Total Vote in these office tables means contest votes, not ballots cast. Turnout is calculated against registration for each single-seat contest.",
+      "page": 53,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf"
+    },
+    "04013": {
+      "registered_voters": 70890,
+      "ballots_cast": null,
+      "percent": null,
+      "definition": "Registration from Mason compilation, PDF page 53 (printed page 46). Total Vote in these office tables means contest votes, not ballots cast. Turnout is calculated against registration for each single-seat contest.",
+      "page": 53,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf"
+    },
+    "04015": {
+      "registered_voters": 3580,
+      "ballots_cast": null,
+      "percent": null,
+      "definition": "Registration from Mason compilation, PDF page 53 (printed page 46). Total Vote in these office tables means contest votes, not ballots cast. Turnout is calculated against registration for each single-seat contest.",
+      "page": 53,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf"
+    },
+    "04017": {
+      "registered_voters": 5321,
+      "ballots_cast": null,
+      "percent": null,
+      "definition": "Registration from Mason compilation, PDF page 53 (printed page 46). Total Vote in these office tables means contest votes, not ballots cast. Turnout is calculated against registration for each single-seat contest.",
+      "page": 53,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf"
+    },
+    "04019": {
+      "registered_voters": 27902,
+      "ballots_cast": null,
+      "percent": null,
+      "definition": "Registration from Mason compilation, PDF page 53 (printed page 46). Total Vote in these office tables means contest votes, not ballots cast. Turnout is calculated against registration for each single-seat contest.",
+      "page": 53,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf"
+    },
+    "04021": {
+      "registered_voters": 8390,
+      "ballots_cast": null,
+      "percent": null,
+      "definition": "Registration from Mason compilation, PDF page 53 (printed page 46). Total Vote in these office tables means contest votes, not ballots cast. Turnout is calculated against registration for each single-seat contest.",
+      "page": 53,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf"
+    },
+    "04023": {
+      "registered_voters": 3049,
+      "ballots_cast": null,
+      "percent": null,
+      "definition": "Registration from Mason compilation, PDF page 53 (printed page 46). Total Vote in these office tables means contest votes, not ballots cast. Turnout is calculated against registration for each single-seat contest.",
+      "page": 53,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf"
+    },
+    "04025": {
+      "registered_voters": 12067,
+      "ballots_cast": null,
+      "percent": null,
+      "definition": "Registration from Mason compilation, PDF page 53 (printed page 46). Total Vote in these office tables means contest votes, not ballots cast. Turnout is calculated against registration for each single-seat contest.",
+      "page": 53,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf"
+    },
+    "04027": {
+      "registered_voters": 7322,
+      "ballots_cast": null,
+      "percent": null,
+      "definition": "Registration from Mason compilation, PDF page 53 (printed page 46). Total Vote in these office tables means contest votes, not ballots cast. Turnout is calculated against registration for each single-seat contest.",
+      "page": 53,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf"
+    },
+    "04": {
+      "registered_voters": 180749,
+      "ballots_cast": null,
+      "percent": null,
+      "definition": "Registration from Mason compilation, PDF page 53 (printed page 46). Total Vote in these office tables means contest votes, not ballots cast. Turnout is calculated against registration for each single-seat contest.",
+      "page": 53,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf"
+    }
+  },
+  "absent_offices": [
+    "president",
+    "us-senate",
+    "state-house",
+    "state-senate"
+  ],
+  "unresolved": [
+    {
+      "office_id": "us-house",
+      "district": "at-large",
+      "field": "county_group_reconciliation",
+      "page": 38,
+      "reason": "Democratic candidates (combined): printed county cells sum to 112152; published individual statewide totals sum to 112182. No allocation or balancing adjustment made."
+    }
+  ],
+  "contests": [
+    {
+      "office_id": "us-house",
+      "district": "at-large",
+      "page": 38,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf",
+      "candidates": [
+        {
+          "name": "Richard F. Harless",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 56357
+        },
+        {
+          "name": "John R. Murdock",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 55825
+        },
+        {
+          "name": "George R. Darnell",
+          "party": "REP",
+          "write_in": false,
+          "votes": 23015
+        },
+        {
+          "name": "Joseph S. Jenckes, Jr.",
+          "party": "REP",
+          "write_in": false,
+          "votes": 18205
+        },
+        {
+          "name": "Morris Graham",
+          "party": "COM",
+          "write_in": false,
+          "votes": 375,
+          "county_votes": {
+            "04001": 2,
+            "04003": 26,
+            "04005": 1,
+            "04007": 18,
+            "04009": 41,
+            "04011": 21,
+            "04013": 100,
+            "04015": 15,
+            "04017": 3,
+            "04019": 43,
+            "04021": 45,
+            "04023": 3,
+            "04025": 14,
+            "04027": 43
+          }
+        }
+      ],
+      "notes": "Mason compilation, PDF page 38 (printed page 31). Minor-party county votes remain combined when the source does not separate candidates.",
+      "multi_seat": true,
+      "county_groups": [
+        {
+          "name": "Democratic candidates (combined)",
+          "party": "DEM",
+          "members": [
+            0,
+            1
+          ],
+          "county_votes": {
+            "04001": 1954,
+            "04003": 10308,
+            "04005": 2456,
+            "04007": 7697,
+            "04009": 3358,
+            "04011": 2724,
+            "04013": 42663,
+            "04015": 1891,
+            "04017": 3799,
+            "04019": 15447,
+            "04021": 4691,
+            "04023": 1951,
+            "04025": 8457,
+            "04027": 4756
+          }
+        },
+        {
+          "name": "Republican candidates (combined)",
+          "party": "REP",
+          "members": [
+            2,
+            3
+          ],
+          "county_votes": {
+            "04001": 419,
+            "04003": 2197,
+            "04005": 884,
+            "04007": 1632,
+            "04009": 905,
+            "04011": 336,
+            "04013": 17188,
+            "04015": 399,
+            "04017": 903,
+            "04019": 9393,
+            "04021": 1762,
+            "04023": 644,
+            "04025": 3014,
+            "04027": 1544
+          }
+        }
+      ],
+      "summary_page": 28,
+      "contest_id": "az-1942-historical-us-house-district-at-large",
+      "reconciliation": {
+        "status": "reported",
+        "page": 38,
+        "district": "at-large",
+        "candidates": [
+          {
+            "candidate": "Richard F. Harless",
+            "official_total": 56357,
+            "official_statewide": 56357,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "John R. Murdock",
+            "official_total": 55825,
+            "official_statewide": 55825,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "George R. Darnell",
+            "official_total": 23015,
+            "official_statewide": 23015,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Joseph S. Jenckes, Jr.",
+            "official_total": 18205,
+            "official_statewide": 18205,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Morris Graham",
+            "official_total": 375,
+            "official_statewide": 375,
+            "county_sum": 375,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": "Mason compilation, PDF page 38 (printed page 31). Minor-party county votes remain combined when the source does not separate candidates.",
+        "county_groups": [
+          {
+            "name": "Democratic candidates (combined)",
+            "party": "DEM",
+            "members": [
+              0,
+              1
+            ],
+            "county_votes": {
+              "04001": 1954,
+              "04003": 10308,
+              "04005": 2456,
+              "04007": 7697,
+              "04009": 3358,
+              "04011": 2724,
+              "04013": 42663,
+              "04015": 1891,
+              "04017": 3799,
+              "04019": 15447,
+              "04021": 4691,
+              "04023": 1951,
+              "04025": 8457,
+              "04027": 4756
+            }
+          },
+          {
+            "name": "Republican candidates (combined)",
+            "party": "REP",
+            "members": [
+              2,
+              3
+            ],
+            "county_votes": {
+              "04001": 419,
+              "04003": 2197,
+              "04005": 884,
+              "04007": 1632,
+              "04009": 905,
+              "04011": 336,
+              "04013": 17188,
+              "04015": 399,
+              "04017": 903,
+              "04019": 9393,
+              "04021": 1762,
+              "04023": 644,
+              "04025": 3014,
+              "04027": 1544
+            }
+          }
+        ]
+      }
+    },
+    {
+      "office_id": "governor",
+      "district": null,
+      "page": 53,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf",
+      "candidates": [
+        {
+          "name": "Sidney P. Osborn",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 63484,
+          "county_votes": {
+            "04001": 1308,
+            "04003": 5703,
+            "04005": 1468,
+            "04007": 4329,
+            "04009": 2064,
+            "04011": 1543,
+            "04013": 22295,
+            "04015": 1151,
+            "04017": 2316,
+            "04019": 9532,
+            "04021": 2649,
+            "04023": 1223,
+            "04025": 4820,
+            "04027": 3083
+          }
+        },
+        {
+          "name": "J. W. Lee",
+          "party": "REP",
+          "write_in": false,
+          "votes": 23562,
+          "county_votes": {
+            "04001": 320,
+            "04003": 1191,
+            "04005": 692,
+            "04007": 1161,
+            "04009": 642,
+            "04011": 187,
+            "04013": 10466,
+            "04015": 292,
+            "04017": 696,
+            "04019": 3724,
+            "04021": 1157,
+            "04023": 277,
+            "04025": 1857,
+            "04027": 900
+          }
+        },
+        {
+          "name": "C. R. Osburn",
+          "party": "Pro",
+          "write_in": false,
+          "votes": 537,
+          "county_votes": {
+            "04001": 4,
+            "04003": 26,
+            "04005": 5,
+            "04007": 17,
+            "04009": 14,
+            "04011": 14,
+            "04013": 272,
+            "04015": 16,
+            "04017": 17,
+            "04019": 38,
+            "04021": 36,
+            "04023": 5,
+            "04025": 45,
+            "04027": 28
+          }
+        }
+      ],
+      "notes": "Mason compilation, PDF page 53 (printed page 46). Minor-party county votes remain combined when the source does not separate candidates.",
+      "summary_page": 44,
+      "contest_id": "az-1942-governor",
+      "reconciliation": {
+        "status": "verified",
+        "page": 53,
+        "district": null,
+        "candidates": [
+          {
+            "candidate": "Sidney P. Osborn",
+            "official_total": 63484,
+            "official_statewide": 63484,
+            "county_sum": 63484,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "J. W. Lee",
+            "official_total": 23562,
+            "official_statewide": 23562,
+            "county_sum": 23562,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "C. R. Osburn",
+            "official_total": 537,
+            "official_statewide": 537,
+            "county_sum": 537,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          }
+        ],
+        "county_count": 14,
+        "coverage": "county",
+        "multi_seat": false,
+        "result_basis": "candidate-votes",
+        "notes": "Mason compilation, PDF page 53 (printed page 46). Minor-party county votes remain combined when the source does not separate candidates."
+      }
+    },
+    {
+      "office_id": "attorney-general",
+      "district": null,
+      "page": 68,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf",
+      "candidates": [
+        {
+          "name": "Joe Conway",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 67766,
+          "county_votes": {
+            "04001": 1267,
+            "04003": 5831,
+            "04005": 1649,
+            "04007": 4537,
+            "04009": 1973,
+            "04011": 1540,
+            "04013": 24756,
+            "04015": 1148,
+            "04017": 2389,
+            "04019": 10108,
+            "04021": 2997,
+            "04023": 1187,
+            "04025": 5128,
+            "04027": 3256
+          }
+        }
+      ],
+      "notes": "Mason compilation, PDF page 68 (printed page 61). Minor-party county votes remain combined when the source does not separate candidates.",
+      "summary_page": 60,
+      "contest_id": "az-1942-attorney-general",
+      "reconciliation": {
+        "status": "verified",
+        "page": 68,
+        "district": null,
+        "candidates": [
+          {
+            "candidate": "Joe Conway",
+            "official_total": 67766,
+            "official_statewide": 67766,
+            "county_sum": 67766,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          }
+        ],
+        "county_count": 14,
+        "coverage": "county",
+        "multi_seat": false,
+        "result_basis": "candidate-votes",
+        "notes": "Mason compilation, PDF page 68 (printed page 61). Minor-party county votes remain combined when the source does not separate candidates."
+      }
+    },
+    {
+      "office_id": "secretary-of-state",
+      "district": null,
+      "page": 83,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf",
+      "candidates": [
+        {
+          "name": "H. M. Moore",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 64005,
+          "county_votes": {
+            "04001": 1199,
+            "04003": 5569,
+            "04005": 1470,
+            "04007": 4265,
+            "04009": 1790,
+            "04011": 1461,
+            "04013": 23962,
+            "04015": 1057,
+            "04017": 2163,
+            "04019": 9495,
+            "04021": 2783,
+            "04023": 1128,
+            "04025": 4739,
+            "04027": 2924
+          }
+        },
+        {
+          "name": "V. C. Armstrong",
+          "party": "REP",
+          "write_in": false,
+          "votes": 15395,
+          "county_votes": {
+            "04001": 233,
+            "04003": 817,
+            "04005": 397,
+            "04007": 720,
+            "04009": 328,
+            "04011": 148,
+            "04013": 6560,
+            "04015": 199,
+            "04017": 477,
+            "04019": 2777,
+            "04021": 654,
+            "04023": 208,
+            "04025": 1264,
+            "04027": 613
+          }
+        }
+      ],
+      "notes": "Mason compilation, PDF page 83 (printed page 76). Minor-party county votes remain combined when the source does not separate candidates.",
+      "summary_page": 75,
+      "contest_id": "az-1942-secretary-of-state",
+      "reconciliation": {
+        "status": "verified",
+        "page": 83,
+        "district": null,
+        "candidates": [
+          {
+            "candidate": "H. M. Moore",
+            "official_total": 64005,
+            "official_statewide": 64005,
+            "county_sum": 64005,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "V. C. Armstrong",
+            "official_total": 15395,
+            "official_statewide": 15395,
+            "county_sum": 15395,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          }
+        ],
+        "county_count": 14,
+        "coverage": "county",
+        "multi_seat": false,
+        "result_basis": "candidate-votes",
+        "notes": "Mason compilation, PDF page 83 (printed page 76). Minor-party county votes remain combined when the source does not separate candidates."
+      }
+    }
+  ]
+}

@@ -159,6 +159,18 @@ def validate_document(document, source_root=ROOT):
                     raise ValueError('Votes must be nonnegative integers or null')
         if not names:
             raise ValueError(f'Empty candidate roster: {cid}')
+        grouped = set()
+        for group in contest.get('county_groups', []):
+            members = group['members']
+            if (not group['name'] or not group['party'] or not members
+                    or any(type(i) is not int or not 0 <= i < len(contest['candidates']) for i in members)
+                    or len(set(members)) != len(members) or grouped.intersection(members)):
+                raise ValueError('Invalid or overlapping county group')
+            grouped.update(members)
+            if set(group['county_votes']) - units or any(type(n) is not int or n < 0 for n in group['county_votes'].values()):
+                raise ValueError('Invalid county group votes')
+            if any(contest['candidates'][i].get('county_votes') for i in members):
+                raise ValueError('County group cannot duplicate individual county votes')
     if set(document.get('absent_offices', [])) & {c['office_id'] for c in document['contests']}:
         raise ValueError('An office cannot be absent and present')
     return document
@@ -190,6 +202,7 @@ def reconcile_contest(contest, year):
         'multi_seat': contest.get('multi_seat', contest['office_id'] in {'state-house', 'state-senate', 'president'}),
         'result_basis': 'presidential-electors' if contest['office_id'] == 'president' else 'candidate-votes',
         'notes': contest.get('notes', ''),
+        **({'county_groups': contest['county_groups']} if contest.get('county_groups') else {}),
     }
 
 
@@ -236,7 +249,7 @@ def import_documents(documents, session_factory=SessionLocal, source_root=ROOT):
                 session.merge(Source(id=sid,
                     title=info.get('title') or (doc.get('source_title') if path == doc['source_path'] else None) or f'Arizona Secretary of State — {year} official canvass' + (' (supplement)' if path != doc['source_path'] else ''),
                     url=url, sha256=info['sha256'],
-                    notes=info.get('notes') or 'Official returns supplied by the project maintainer. Candidate totals visually transcribed from the cited pages. County coverage varies by contest; missing figures remain unavailable.'))
+                    notes=info.get('notes') or (doc.get('source_notes') if path == doc['source_path'] else None) or 'Official returns supplied by the project maintainer. Candidate totals visually transcribed from the cited pages. County coverage varies by contest; missing figures remain unavailable.'))
             source_id = document_source_id(doc)
             registration_source_id = f"historical-registration-{year}"
             if doc.get('registration_reference'):
@@ -274,7 +287,10 @@ def import_documents(documents, session_factory=SessionLocal, source_root=ROOT):
                 report.update(contest=cid, source_id=source_id, source_sha256=document_sources(doc)[source_path]['sha256'],
                     supplemental_source_ids=[document_source_id(doc, p) for p in document_sources(doc) if p != source_path] + ([registration_source_id] if doc.get('registration_reference') else []))
                 existing = session.get(Contest, cid)
-                if existing and existing.source_id != source_id:
+                # A retained supplement can correct this document's own rows.
+                # Independently reviewed datasets still keep their evidence.
+                owned_sources = {document_source_id(doc, p) for p in document_sources(doc)}
+                if existing and existing.source_id not in owned_sources:
                     old_rows = session.execute(select(Candidate.name, Participation.party_id, Participation.write_in, VoteResult.votes)
                         .join(Participation, Participation.id == VoteResult.participation_id)
                         .join(Candidate, Candidate.id == Participation.candidate_id)
@@ -311,7 +327,7 @@ def import_documents(documents, session_factory=SessionLocal, source_root=ROOT):
                 if district:
                     session.merge(GeographicUnit(id=unit, name=f'District {district}', kind='historical_district'))
                 session.flush()
-                notes = f"Official {year} canvass, page {contest['page']}. "
+                notes = f"Retained {year} results source, PDF page {contest['page']}. "
                 if report['multi_seat']:
                     notes += 'Multiple-member or elector contest; no single-winner inference is made. Vote shares are shares of candidate votes, not voters. '
                 if office == 'president':

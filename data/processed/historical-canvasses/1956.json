@@ -3,15 +3,129 @@
   "date": "1956-11-06",
   "kind": "general",
   "source_sha256": "a687e93d9cb0352d468a6420749d1564c73c5635bd37b1ea691505bdd3163b2a",
-  "turnout": {},
-  "absent_offices": [
-    "president",
-    "us-senate",
-    "us-house",
-    "governor",
-    "attorney-general",
-    "secretary-of-state"
-  ],
+  "turnout": {
+    "04001": {
+      "registered_voters": 3700,
+      "ballots_cast": null,
+      "percent": null,
+      "definition": "Registration from Mason compilation, PDF page 15 (printed page 8). Total Vote in these office tables means contest votes, not ballots cast. Turnout is calculated against registration for each single-seat contest.",
+      "page": 15,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf"
+    },
+    "04003": {
+      "registered_voters": 15376,
+      "ballots_cast": null,
+      "percent": null,
+      "definition": "Registration from Mason compilation, PDF page 15 (printed page 8). Total Vote in these office tables means contest votes, not ballots cast. Turnout is calculated against registration for each single-seat contest.",
+      "page": 15,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf"
+    },
+    "04005": {
+      "registered_voters": 8174,
+      "ballots_cast": null,
+      "percent": null,
+      "definition": "Registration from Mason compilation, PDF page 15 (printed page 8). Total Vote in these office tables means contest votes, not ballots cast. Turnout is calculated against registration for each single-seat contest.",
+      "page": 15,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf"
+    },
+    "04007": {
+      "registered_voters": 11034,
+      "ballots_cast": null,
+      "percent": null,
+      "definition": "Registration from Mason compilation, PDF page 15 (printed page 8). Total Vote in these office tables means contest votes, not ballots cast. Turnout is calculated against registration for each single-seat contest.",
+      "page": 15,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf"
+    },
+    "04009": {
+      "registered_voters": 5473,
+      "ballots_cast": null,
+      "percent": null,
+      "definition": "Registration from Mason compilation, PDF page 15 (printed page 8). Total Vote in these office tables means contest votes, not ballots cast. Turnout is calculated against registration for each single-seat contest.",
+      "page": 15,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf"
+    },
+    "04011": {
+      "registered_voters": 5784,
+      "ballots_cast": null,
+      "percent": null,
+      "definition": "Registration from Mason compilation, PDF page 15 (printed page 8). Total Vote in these office tables means contest votes, not ballots cast. Turnout is calculated against registration for each single-seat contest.",
+      "page": 15,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf"
+    },
+    "04013": {
+      "registered_voters": 184384,
+      "ballots_cast": null,
+      "percent": null,
+      "definition": "Registration from Mason compilation, PDF page 15 (printed page 8). Total Vote in these office tables means contest votes, not ballots cast. Turnout is calculated against registration for each single-seat contest.",
+      "page": 15,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf"
+    },
+    "04015": {
+      "registered_voters": 3218,
+      "ballots_cast": null,
+      "percent": null,
+      "definition": "Registration from Mason compilation, PDF page 15 (printed page 8). Total Vote in these office tables means contest votes, not ballots cast. Turnout is calculated against registration for each single-seat contest.",
+      "page": 15,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf"
+    },
+    "04017": {
+      "registered_voters": 7625,
+      "ballots_cast": null,
+      "percent": null,
+      "definition": "Registration from Mason compilation, PDF page 15 (printed page 8). Total Vote in these office tables means contest votes, not ballots cast. Turnout is calculated against registration for each single-seat contest.",
+      "page": 15,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf"
+    },
+    "04019": {
+      "registered_voters": 76324,
+      "ballots_cast": null,
+      "percent": null,
+      "definition": "Registration from Mason compilation, PDF page 15 (printed page 8). Total Vote in these office tables means contest votes, not ballots cast. Turnout is calculated against registration for each single-seat contest.",
+      "page": 15,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf"
+    },
+    "04021": {
+      "registered_voters": 15457,
+      "ballots_cast": null,
+      "percent": null,
+      "definition": "Registration from Mason compilation, PDF page 15 (printed page 8). Total Vote in these office tables means contest votes, not ballots cast. Turnout is calculated against registration for each single-seat contest.",
+      "page": 15,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf"
+    },
+    "04023": {
+      "registered_voters": 3841,
+      "ballots_cast": null,
+      "percent": null,
+      "definition": "Registration from Mason compilation, PDF page 15 (printed page 8). Total Vote in these office tables means contest votes, not ballots cast. Turnout is calculated against registration for each single-seat contest.",
+      "page": 15,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf"
+    },
+    "04025": {
+      "registered_voters": 12687,
+      "ballots_cast": null,
+      "percent": null,
+      "definition": "Registration from Mason compilation, PDF page 15 (printed page 8). Total Vote in these office tables means contest votes, not ballots cast. Turnout is calculated against registration for each single-seat contest.",
+      "page": 15,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf"
+    },
+    "04027": {
+      "registered_voters": 14584,
+      "ballots_cast": null,
+      "percent": null,
+      "definition": "Registration from Mason compilation, PDF page 15 (printed page 8). Total Vote in these office tables means contest votes, not ballots cast. Turnout is calculated against registration for each single-seat contest.",
+      "page": 15,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf"
+    },
+    "04": {
+      "registered_voters": 367661,
+      "ballots_cast": null,
+      "percent": null,
+      "definition": "Registration from Mason compilation, PDF page 15 (printed page 8). Total Vote in these office tables means contest votes, not ballots cast. Turnout is calculated against registration for each single-seat contest.",
+      "page": 15,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf"
+    }
+  },
+  "absent_offices": [],
   "unresolved": [
     {
       "office_id": "state-house",
@@ -26,6 +140,14 @@
       "page": 3,
       "field": "party",
       "reason": "Byron H. Alexander party letter resembles F in supplied scan, retained as F without inferring D."
+    },
+    {
+      "office_id": "us-senate",
+      "district": null,
+      "candidate": "Carl Hayden",
+      "field": "county_reconciliation",
+      "page": 26,
+      "reason": "Mason county cells sum to 170780; candidate summary PDF page 18 prints 170816. Both preserved."
     }
   ],
   "contests": [
@@ -6872,6 +6994,636 @@
         "multi_seat": true,
         "result_basis": "candidate-votes",
         "notes": ""
+      }
+    },
+    {
+      "office_id": "president",
+      "district": "at-large",
+      "page": 15,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf",
+      "candidates": [
+        {
+          "name": "Adlai E. Stevenson",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 112880,
+          "county_votes": {
+            "04001": 981,
+            "04003": 5328,
+            "04005": 2314,
+            "04007": 4026,
+            "04009": 1688,
+            "04011": 2711,
+            "04013": 54010,
+            "04015": 968,
+            "04017": 2033,
+            "04019": 23536,
+            "04021": 5063,
+            "04023": 1131,
+            "04025": 3315,
+            "04027": 5776
+          }
+        },
+        {
+          "name": "Dwight D. Eisenhower",
+          "party": "REP",
+          "write_in": false,
+          "votes": 176990,
+          "county_votes": {
+            "04001": 1685,
+            "04003": 6893,
+            "04005": 4044,
+            "04007": 4234,
+            "04009": 2384,
+            "04011": 1784,
+            "04013": 92140,
+            "04015": 1523,
+            "04017": 3928,
+            "04019": 39298,
+            "04021": 5762,
+            "04023": 1646,
+            "04025": 6339,
+            "04027": 5330
+          }
+        },
+        {
+          "name": "T. Coleman Andrews",
+          "party": "SR",
+          "write_in": false,
+          "votes": 303,
+          "county_votes": {
+            "04001": 1,
+            "04003": 9,
+            "04005": 11,
+            "04007": 0,
+            "04009": 0,
+            "04011": 0,
+            "04013": 191,
+            "04015": 6,
+            "04017": 9,
+            "04019": 51,
+            "04021": 17,
+            "04023": 1,
+            "04025": 0,
+            "04027": 7
+          }
+        }
+      ],
+      "notes": "Mason compilation, PDF page 15 (printed page 8). Minor-party county votes remain combined when the source does not separate candidates.",
+      "summary_page": 9,
+      "contest_id": "az-1956-historical-president-district-at-large",
+      "reconciliation": {
+        "status": "verified",
+        "page": 15,
+        "district": "at-large",
+        "candidates": [
+          {
+            "candidate": "Adlai E. Stevenson",
+            "official_total": 112880,
+            "official_statewide": 112880,
+            "county_sum": 112880,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "Dwight D. Eisenhower",
+            "official_total": 176990,
+            "official_statewide": 176990,
+            "county_sum": 176990,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "T. Coleman Andrews",
+            "official_total": 303,
+            "official_statewide": 303,
+            "county_sum": 303,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          }
+        ],
+        "county_count": 14,
+        "coverage": "county",
+        "multi_seat": true,
+        "result_basis": "presidential-electors",
+        "notes": "Mason compilation, PDF page 15 (printed page 8). Minor-party county votes remain combined when the source does not separate candidates."
+      }
+    },
+    {
+      "office_id": "us-senate",
+      "district": null,
+      "page": 26,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf",
+      "candidates": [
+        {
+          "name": "Carl Hayden",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 170816,
+          "county_votes": {
+            "04001": 1694,
+            "04003": 8357,
+            "04005": 4031,
+            "04007": 5824,
+            "04009": 2894,
+            "04011": 3501,
+            "04013": 81092,
+            "04015": 1696,
+            "04017": 3845,
+            "04019": 34804,
+            "04021": 7413,
+            "04023": 1915,
+            "04025": 5590,
+            "04027": 8124
+          }
+        },
+        {
+          "name": "Ross F. Jones",
+          "party": "REP",
+          "write_in": false,
+          "votes": 107447,
+          "county_votes": {
+            "04001": 802,
+            "04003": 3237,
+            "04005": 2061,
+            "04007": 1947,
+            "04009": 1253,
+            "04011": 691,
+            "04013": 59268,
+            "04015": 708,
+            "04017": 1883,
+            "04019": 25212,
+            "04021": 3073,
+            "04023": 691,
+            "04025": 3929,
+            "04027": 2692
+          }
+        }
+      ],
+      "notes": "Mason compilation, PDF page 26 (printed page 19). Minor-party county votes remain combined when the source does not separate candidates.",
+      "summary_page": 18,
+      "contest_id": "az-1956-us-senate",
+      "reconciliation": {
+        "status": "reported",
+        "page": 26,
+        "district": null,
+        "candidates": [
+          {
+            "candidate": "Carl Hayden",
+            "official_total": 170816,
+            "official_statewide": 170816,
+            "county_sum": 170780,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": -36
+          },
+          {
+            "candidate": "Ross F. Jones",
+            "official_total": 107447,
+            "official_statewide": 107447,
+            "county_sum": 107447,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": false,
+        "result_basis": "candidate-votes",
+        "notes": "Mason compilation, PDF page 26 (printed page 19). Minor-party county votes remain combined when the source does not separate candidates."
+      }
+    },
+    {
+      "office_id": "us-house",
+      "district": "1",
+      "page": 41,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf",
+      "candidates": [
+        {
+          "name": "William P. Mahoney, Jr.",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 64805,
+          "county_votes": {
+            "04013": 64805
+          }
+        },
+        {
+          "name": "John J. Rhodes",
+          "party": "REP",
+          "write_in": false,
+          "votes": 78998,
+          "county_votes": {
+            "04013": 78998
+          }
+        }
+      ],
+      "notes": "Mason compilation, PDF page 41 (printed page 34). Minor-party county votes remain combined when the source does not separate candidates.",
+      "summary_page": 29,
+      "contest_id": "az-1956-historical-us-house-district-1",
+      "reconciliation": {
+        "status": "reported",
+        "page": 41,
+        "district": "1",
+        "candidates": [
+          {
+            "candidate": "William P. Mahoney, Jr.",
+            "official_total": 64805,
+            "official_statewide": 64805,
+            "county_sum": 64805,
+            "county_coverage": 1,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "John J. Rhodes",
+            "official_total": 78998,
+            "official_statewide": 78998,
+            "county_sum": 78998,
+            "county_coverage": 1,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": false,
+        "result_basis": "candidate-votes",
+        "notes": "Mason compilation, PDF page 41 (printed page 34). Minor-party county votes remain combined when the source does not separate candidates."
+      }
+    },
+    {
+      "office_id": "us-house",
+      "district": "2",
+      "page": 41,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf",
+      "candidates": [
+        {
+          "name": "Stewart L. Udall",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 82110,
+          "county_votes": {
+            "04001": 1673,
+            "04003": 7487,
+            "04005": 3864,
+            "04007": 5490,
+            "04009": 2538,
+            "04011": 3390,
+            "04015": 1523,
+            "04017": 3522,
+            "04019": 31418,
+            "04021": 6989,
+            "04023": 1632,
+            "04025": 5152,
+            "04027": 7432
+          }
+        },
+        {
+          "name": "John G. Speiden",
+          "party": "REP",
+          "write_in": false,
+          "votes": 54596,
+          "county_votes": {
+            "04001": 819,
+            "04003": 3966,
+            "04005": 2171,
+            "04007": 2038,
+            "04009": 1219,
+            "04011": 748,
+            "04015": 821,
+            "04017": 2142,
+            "04019": 29201,
+            "04021": 3259,
+            "04023": 873,
+            "04025": 4153,
+            "04027": 3186
+          }
+        }
+      ],
+      "notes": "Mason compilation, PDF page 41 (printed page 34). Minor-party county votes remain combined when the source does not separate candidates.",
+      "summary_page": 29,
+      "contest_id": "az-1956-historical-us-house-district-2",
+      "reconciliation": {
+        "status": "reported",
+        "page": 41,
+        "district": "2",
+        "candidates": [
+          {
+            "candidate": "Stewart L. Udall",
+            "official_total": 82110,
+            "official_statewide": 82110,
+            "county_sum": 82110,
+            "county_coverage": 13,
+            "missing_counties": [
+              "04013"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "John G. Speiden",
+            "official_total": 54596,
+            "official_statewide": 54596,
+            "county_sum": 54596,
+            "county_coverage": 13,
+            "missing_counties": [
+              "04013"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": false,
+        "result_basis": "candidate-votes",
+        "notes": "Mason compilation, PDF page 41 (printed page 34). Minor-party county votes remain combined when the source does not separate candidates."
+      }
+    },
+    {
+      "office_id": "governor",
+      "district": null,
+      "page": 57,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf",
+      "candidates": [
+        {
+          "name": "E. W. McFarland",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 171848,
+          "county_votes": {
+            "04001": 1693,
+            "04003": 8601,
+            "04005": 3840,
+            "04007": 6036,
+            "04009": 2655,
+            "04011": 3408,
+            "04013": 79404,
+            "04015": 1706,
+            "04017": 3472,
+            "04019": 38615,
+            "04021": 7639,
+            "04023": 2018,
+            "04025": 5543,
+            "04027": 7218
+          }
+        },
+        {
+          "name": "H. B. Griffen",
+          "party": "REP",
+          "write_in": false,
+          "votes": 116744,
+          "county_votes": {
+            "04001": 961,
+            "04003": 3482,
+            "04005": 2516,
+            "04007": 2226,
+            "04009": 1314,
+            "04011": 957,
+            "04013": 66622,
+            "04015": 790,
+            "04017": 2477,
+            "04019": 23310,
+            "04021": 3285,
+            "04023": 727,
+            "04025": 4238,
+            "04027": 3839
+          }
+        }
+      ],
+      "notes": "Mason compilation, PDF page 57 (printed page 50). Minor-party county votes remain combined when the source does not separate candidates.",
+      "summary_page": 44,
+      "contest_id": "az-1956-governor",
+      "reconciliation": {
+        "status": "verified",
+        "page": 57,
+        "district": null,
+        "candidates": [
+          {
+            "candidate": "E. W. McFarland",
+            "official_total": 171848,
+            "official_statewide": 171848,
+            "county_sum": 171848,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "H. B. Griffen",
+            "official_total": 116744,
+            "official_statewide": 116744,
+            "county_sum": 116744,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          }
+        ],
+        "county_count": 14,
+        "coverage": "county",
+        "multi_seat": false,
+        "result_basis": "candidate-votes",
+        "notes": "Mason compilation, PDF page 57 (printed page 50). Minor-party county votes remain combined when the source does not separate candidates."
+      }
+    },
+    {
+      "office_id": "attorney-general",
+      "district": null,
+      "page": 72,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf",
+      "candidates": [
+        {
+          "name": "Robert Morrison",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 151324,
+          "county_votes": {
+            "04001": 1400,
+            "04003": 6852,
+            "04005": 3275,
+            "04007": 5401,
+            "04009": 2338,
+            "04011": 3314,
+            "04013": 72369,
+            "04015": 1532,
+            "04017": 3138,
+            "04019": 31259,
+            "04021": 6790,
+            "04023": 1733,
+            "04025": 5178,
+            "04027": 6745
+          }
+        },
+        {
+          "name": "William E. Kimble",
+          "party": "REP",
+          "write_in": false,
+          "votes": 126718,
+          "county_votes": {
+            "04001": 1102,
+            "04003": 4744,
+            "04005": 2693,
+            "04007": 2442,
+            "04009": 1383,
+            "04011": 792,
+            "04013": 68424,
+            "04015": 772,
+            "04017": 2437,
+            "04019": 29557,
+            "04021": 3593,
+            "04023": 801,
+            "04025": 4159,
+            "04027": 3819
+          }
+        }
+      ],
+      "notes": "Mason compilation, PDF page 72 (printed page 65). Minor-party county votes remain combined when the source does not separate candidates.",
+      "summary_page": 60,
+      "contest_id": "az-1956-attorney-general",
+      "reconciliation": {
+        "status": "verified",
+        "page": 72,
+        "district": null,
+        "candidates": [
+          {
+            "candidate": "Robert Morrison",
+            "official_total": 151324,
+            "official_statewide": 151324,
+            "county_sum": 151324,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "William E. Kimble",
+            "official_total": 126718,
+            "official_statewide": 126718,
+            "county_sum": 126718,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          }
+        ],
+        "county_count": 14,
+        "coverage": "county",
+        "multi_seat": false,
+        "result_basis": "candidate-votes",
+        "notes": "Mason compilation, PDF page 72 (printed page 65). Minor-party county votes remain combined when the source does not separate candidates."
+      }
+    },
+    {
+      "office_id": "secretary-of-state",
+      "district": null,
+      "page": 87,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf",
+      "candidates": [
+        {
+          "name": "Wesley Bolin",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 172661,
+          "county_votes": {
+            "04001": 1681,
+            "04003": 8603,
+            "04005": 3987,
+            "04007": 6169,
+            "04009": 2771,
+            "04011": 3530,
+            "04013": 84163,
+            "04015": 1686,
+            "04017": 3762,
+            "04019": 33037,
+            "04021": 7743,
+            "04023": 1843,
+            "04025": 5990,
+            "04027": 7696
+          }
+        },
+        {
+          "name": "Buell E. Tade",
+          "party": "REP",
+          "write_in": false,
+          "votes": 100224,
+          "county_votes": {
+            "04001": 782,
+            "04003": 2624,
+            "04005": 1819,
+            "04007": 1507,
+            "04009": 837,
+            "04011": 534,
+            "04013": 56235,
+            "04015": 575,
+            "04017": 1676,
+            "04019": 24436,
+            "04021": 2555,
+            "04023": 584,
+            "04025": 3260,
+            "04027": 2800
+          }
+        }
+      ],
+      "notes": "Mason compilation, PDF page 87 (printed page 80). Minor-party county votes remain combined when the source does not separate candidates.",
+      "summary_page": 75,
+      "contest_id": "az-1956-secretary-of-state",
+      "reconciliation": {
+        "status": "verified",
+        "page": 87,
+        "district": null,
+        "candidates": [
+          {
+            "candidate": "Wesley Bolin",
+            "official_total": 172661,
+            "official_statewide": 172661,
+            "county_sum": 172661,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "Buell E. Tade",
+            "official_total": 100224,
+            "official_statewide": 100224,
+            "county_sum": 100224,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          }
+        ],
+        "county_count": 14,
+        "coverage": "county",
+        "multi_seat": false,
+        "result_basis": "candidate-votes",
+        "notes": "Mason compilation, PDF page 87 (printed page 80). Minor-party county votes remain combined when the source does not separate candidates."
       }
     }
   ]

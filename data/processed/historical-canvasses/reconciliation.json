@@ -664,7 +664,9 @@
     "contest": "az-1918-historical-us-house-district-at-large",
     "source_id": "historical-canvass-1918",
     "source_sha256": "fac79356a906db1348c165b86c18533f1061905319185bb86be6146f0e99076a",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1918-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "reported",
@@ -707,7 +709,9 @@
     "contest": "az-1918-governor",
     "source_id": "historical-canvass-1918",
     "source_sha256": "fac79356a906db1348c165b86c18533f1061905319185bb86be6146f0e99076a",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1918-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "reported",
@@ -750,7 +754,9 @@
     "contest": "az-1918-secretary-of-state",
     "source_id": "historical-canvass-1918",
     "source_sha256": "fac79356a906db1348c165b86c18533f1061905319185bb86be6146f0e99076a",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1918-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "reported",
@@ -1787,7 +1793,9 @@
     "contest": "az-1932-historical-president-district-at-large",
     "source_id": "historical-canvass-1932",
     "source_sha256": "ef1069930b3ec97b6ea3bf1533eac043b09a69e47f650d4de123f41daf5c59b0",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1932-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "reported",
@@ -1911,7 +1919,9 @@
     "contest": "az-1932-us-senate",
     "source_id": "historical-canvass-1932",
     "source_sha256": "ef1069930b3ec97b6ea3bf1533eac043b09a69e47f650d4de123f41daf5c59b0",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1932-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "reported",
@@ -2011,7 +2021,9 @@
     "contest": "az-1932-historical-us-house-district-at-large",
     "source_id": "historical-canvass-1932",
     "source_sha256": "ef1069930b3ec97b6ea3bf1533eac043b09a69e47f650d4de123f41daf5c59b0",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1932-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "reported",
@@ -2168,7 +2180,9 @@
     "contest": "az-1932-governor",
     "source_id": "historical-canvass-1932",
     "source_sha256": "ef1069930b3ec97b6ea3bf1533eac043b09a69e47f650d4de123f41daf5c59b0",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1932-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "reported",
@@ -2316,7 +2330,9 @@
     "contest": "az-1932-secretary-of-state",
     "source_id": "historical-canvass-1932",
     "source_sha256": "ef1069930b3ec97b6ea3bf1533eac043b09a69e47f650d4de123f41daf5c59b0",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1932-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "reported",
@@ -2407,7 +2423,9 @@
     "contest": "az-1932-attorney-general",
     "source_id": "historical-canvass-1932",
     "source_sha256": "ef1069930b3ec97b6ea3bf1533eac043b09a69e47f650d4de123f41daf5c59b0",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1932-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "reported",
@@ -2502,7 +2520,9 @@
     "contest": "az-1934-us-senate",
     "source_id": "historical-canvass-1934",
     "source_sha256": "3487b8380a97d542ad468bf9245dd13687d861fe6ee12c0200001a1d791dd26d",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1934-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "verified",
@@ -2554,7 +2574,9 @@
     "contest": "az-1934-historical-us-house-district-at-large",
     "source_id": "historical-canvass-1934",
     "source_sha256": "3487b8380a97d542ad468bf9245dd13687d861fe6ee12c0200001a1d791dd26d",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1934-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "verified",
@@ -2606,7 +2628,9 @@
     "contest": "az-1934-governor",
     "source_id": "historical-canvass-1934",
     "source_sha256": "3487b8380a97d542ad468bf9245dd13687d861fe6ee12c0200001a1d791dd26d",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1934-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "verified",
@@ -2658,7 +2682,9 @@
     "contest": "az-1934-secretary-of-state",
     "source_id": "historical-canvass-1934",
     "source_sha256": "3487b8380a97d542ad468bf9245dd13687d861fe6ee12c0200001a1d791dd26d",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1934-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "verified",
@@ -2701,7 +2727,9 @@
     "contest": "az-1934-attorney-general",
     "source_id": "historical-canvass-1934",
     "source_sha256": "3487b8380a97d542ad468bf9245dd13687d861fe6ee12c0200001a1d791dd26d",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1934-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "verified",
@@ -2852,7 +2880,9 @@
     "contest": "az-1936-historical-president-district-at-large",
     "source_id": "historical-canvass-1936",
     "source_sha256": "f68d5ab063e553f53963b8c3d0e2938f55a322d176e69e5f0b1fb798526e0a5a",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1936-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "verified",
@@ -2904,7 +2934,9 @@
     "contest": "az-1936-historical-us-house-district-at-large",
     "source_id": "historical-canvass-1936",
     "source_sha256": "f68d5ab063e553f53963b8c3d0e2938f55a322d176e69e5f0b1fb798526e0a5a",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1936-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "verified",
@@ -2947,7 +2979,9 @@
     "contest": "az-1936-governor",
     "source_id": "historical-canvass-1936",
     "source_sha256": "f68d5ab063e553f53963b8c3d0e2938f55a322d176e69e5f0b1fb798526e0a5a",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1936-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "verified",
@@ -2981,7 +3015,9 @@
     "contest": "az-1936-secretary-of-state",
     "source_id": "historical-canvass-1936",
     "source_sha256": "f68d5ab063e553f53963b8c3d0e2938f55a322d176e69e5f0b1fb798526e0a5a",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1936-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "reported",
@@ -3015,7 +3051,9 @@
     "contest": "az-1936-attorney-general",
     "source_id": "historical-canvass-1936",
     "source_sha256": "f68d5ab063e553f53963b8c3d0e2938f55a322d176e69e5f0b1fb798526e0a5a",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1936-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "verified",
@@ -3049,7 +3087,9 @@
     "contest": "az-1938-us-senate",
     "source_id": "historical-canvass-1938",
     "source_sha256": "aa7e92abee77dabdfdc43e4b3b9bc74abddbfec7934a339006c9c168d6ac80c8",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1938-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "verified",
@@ -3083,7 +3123,9 @@
     "contest": "az-1938-historical-us-house-district-at-large",
     "source_id": "historical-canvass-1938",
     "source_sha256": "aa7e92abee77dabdfdc43e4b3b9bc74abddbfec7934a339006c9c168d6ac80c8",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1938-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "verified",
@@ -3126,7 +3168,9 @@
     "contest": "az-1938-governor",
     "source_id": "historical-canvass-1938",
     "source_sha256": "aa7e92abee77dabdfdc43e4b3b9bc74abddbfec7934a339006c9c168d6ac80c8",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1938-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "verified",
@@ -3160,7 +3204,9 @@
     "contest": "az-1938-secretary-of-state",
     "source_id": "historical-canvass-1938",
     "source_sha256": "aa7e92abee77dabdfdc43e4b3b9bc74abddbfec7934a339006c9c168d6ac80c8",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1938-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "verified",
@@ -3194,7 +3240,9 @@
     "contest": "az-1938-attorney-general",
     "source_id": "historical-canvass-1938",
     "source_sha256": "aa7e92abee77dabdfdc43e4b3b9bc74abddbfec7934a339006c9c168d6ac80c8",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1938-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "verified",
@@ -5717,7 +5765,9 @@
     "contest": "az-1956-historical-state-senate-district-Apache",
     "source_id": "historical-canvass-1956",
     "source_sha256": "a687e93d9cb0352d468a6420749d1564c73c5635bd37b1ea691505bdd3163b2a",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1956-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "reported",
@@ -5781,7 +5831,9 @@
     "contest": "az-1956-historical-state-house-district-Apache",
     "source_id": "historical-canvass-1956",
     "source_sha256": "a687e93d9cb0352d468a6420749d1564c73c5635bd37b1ea691505bdd3163b2a",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1956-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "reported",
@@ -5845,7 +5897,9 @@
     "contest": "az-1956-historical-state-senate-district-Cochise",
     "source_id": "historical-canvass-1956",
     "source_sha256": "a687e93d9cb0352d468a6420749d1564c73c5635bd37b1ea691505bdd3163b2a",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1956-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "reported",
@@ -5885,7 +5939,9 @@
     "contest": "az-1956-historical-state-house-district-Cochise-1",
     "source_id": "historical-canvass-1956",
     "source_sha256": "a687e93d9cb0352d468a6420749d1564c73c5635bd37b1ea691505bdd3163b2a",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1956-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "reported",
@@ -5925,7 +5981,9 @@
     "contest": "az-1956-historical-state-house-district-Cochise-2",
     "source_id": "historical-canvass-1956",
     "source_sha256": "a687e93d9cb0352d468a6420749d1564c73c5635bd37b1ea691505bdd3163b2a",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1956-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "reported",
@@ -5965,7 +6023,9 @@
     "contest": "az-1956-historical-state-house-district-Cochise-3",
     "source_id": "historical-canvass-1956",
     "source_sha256": "a687e93d9cb0352d468a6420749d1564c73c5635bd37b1ea691505bdd3163b2a",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1956-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "reported",
@@ -6005,7 +6065,9 @@
     "contest": "az-1956-historical-state-house-district-Cochise-4",
     "source_id": "historical-canvass-1956",
     "source_sha256": "a687e93d9cb0352d468a6420749d1564c73c5635bd37b1ea691505bdd3163b2a",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1956-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "reported",
@@ -6069,7 +6131,9 @@
     "contest": "az-1956-historical-state-senate-district-Coconino",
     "source_id": "historical-canvass-1956",
     "source_sha256": "a687e93d9cb0352d468a6420749d1564c73c5635bd37b1ea691505bdd3163b2a",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1956-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "reported",
@@ -6109,7 +6173,9 @@
     "contest": "az-1956-historical-state-house-district-Coconino-1",
     "source_id": "historical-canvass-1956",
     "source_sha256": "a687e93d9cb0352d468a6420749d1564c73c5635bd37b1ea691505bdd3163b2a",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1956-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "reported",
@@ -6173,7 +6239,9 @@
     "contest": "az-1956-historical-state-house-district-Coconino-2",
     "source_id": "historical-canvass-1956",
     "source_sha256": "a687e93d9cb0352d468a6420749d1564c73c5635bd37b1ea691505bdd3163b2a",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1956-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "reported",
@@ -6261,7 +6329,9 @@
     "contest": "az-1956-historical-state-senate-district-Gila",
     "source_id": "historical-canvass-1956",
     "source_sha256": "a687e93d9cb0352d468a6420749d1564c73c5635bd37b1ea691505bdd3163b2a",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1956-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "reported",
@@ -6325,7 +6395,9 @@
     "contest": "az-1956-historical-state-house-district-Gila-1",
     "source_id": "historical-canvass-1956",
     "source_sha256": "a687e93d9cb0352d468a6420749d1564c73c5635bd37b1ea691505bdd3163b2a",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1956-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "reported",
@@ -6365,7 +6437,9 @@
     "contest": "az-1956-historical-state-house-district-Gila-2",
     "source_id": "historical-canvass-1956",
     "source_sha256": "a687e93d9cb0352d468a6420749d1564c73c5635bd37b1ea691505bdd3163b2a",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1956-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "reported",
@@ -6405,7 +6479,9 @@
     "contest": "az-1956-historical-state-house-district-Gila-3",
     "source_id": "historical-canvass-1956",
     "source_sha256": "a687e93d9cb0352d468a6420749d1564c73c5635bd37b1ea691505bdd3163b2a",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1956-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "reported",
@@ -6469,7 +6545,9 @@
     "contest": "az-1956-historical-state-senate-district-Graham",
     "source_id": "historical-canvass-1956",
     "source_sha256": "a687e93d9cb0352d468a6420749d1564c73c5635bd37b1ea691505bdd3163b2a",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1956-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "reported",
@@ -6509,7 +6587,9 @@
     "contest": "az-1956-historical-state-house-district-Graham-1",
     "source_id": "historical-canvass-1956",
     "source_sha256": "a687e93d9cb0352d468a6420749d1564c73c5635bd37b1ea691505bdd3163b2a",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1956-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "reported",
@@ -6549,7 +6629,9 @@
     "contest": "az-1956-historical-state-house-district-Graham-2",
     "source_id": "historical-canvass-1956",
     "source_sha256": "a687e93d9cb0352d468a6420749d1564c73c5635bd37b1ea691505bdd3163b2a",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1956-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "reported",
@@ -6661,7 +6743,9 @@
     "contest": "az-1956-historical-state-senate-district-Greenlee",
     "source_id": "historical-canvass-1956",
     "source_sha256": "a687e93d9cb0352d468a6420749d1564c73c5635bd37b1ea691505bdd3163b2a",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1956-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "reported",
@@ -6701,7 +6785,9 @@
     "contest": "az-1956-historical-state-house-district-Greenlee-1",
     "source_id": "historical-canvass-1956",
     "source_sha256": "a687e93d9cb0352d468a6420749d1564c73c5635bd37b1ea691505bdd3163b2a",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1956-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "reported",
@@ -6741,7 +6827,9 @@
     "contest": "az-1956-historical-state-house-district-Greenlee-2",
     "source_id": "historical-canvass-1956",
     "source_sha256": "a687e93d9cb0352d468a6420749d1564c73c5635bd37b1ea691505bdd3163b2a",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1956-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "reported",
@@ -6829,7 +6917,9 @@
     "contest": "az-1956-historical-state-senate-district-Maricopa",
     "source_id": "historical-canvass-1956",
     "source_sha256": "a687e93d9cb0352d468a6420749d1564c73c5635bd37b1ea691505bdd3163b2a",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1956-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "reported",
@@ -6893,7 +6983,9 @@
     "contest": "az-1956-historical-state-house-district-Maricopa-1",
     "source_id": "historical-canvass-1956",
     "source_sha256": "a687e93d9cb0352d468a6420749d1564c73c5635bd37b1ea691505bdd3163b2a",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1956-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "reported",
@@ -6957,7 +7049,9 @@
     "contest": "az-1956-historical-state-house-district-Maricopa-2",
     "source_id": "historical-canvass-1956",
     "source_sha256": "a687e93d9cb0352d468a6420749d1564c73c5635bd37b1ea691505bdd3163b2a",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1956-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "reported",
@@ -7021,7 +7115,9 @@
     "contest": "az-1956-historical-state-house-district-Maricopa-3",
     "source_id": "historical-canvass-1956",
     "source_sha256": "a687e93d9cb0352d468a6420749d1564c73c5635bd37b1ea691505bdd3163b2a",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1956-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "reported",
@@ -7085,7 +7181,9 @@
     "contest": "az-1956-historical-state-house-district-Maricopa-4",
     "source_id": "historical-canvass-1956",
     "source_sha256": "a687e93d9cb0352d468a6420749d1564c73c5635bd37b1ea691505bdd3163b2a",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1956-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "reported",
@@ -7149,7 +7247,9 @@
     "contest": "az-1956-historical-state-house-district-Maricopa-5",
     "source_id": "historical-canvass-1956",
     "source_sha256": "a687e93d9cb0352d468a6420749d1564c73c5635bd37b1ea691505bdd3163b2a",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1956-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "reported",
@@ -7189,7 +7289,9 @@
     "contest": "az-1956-historical-state-house-district-Maricopa-6",
     "source_id": "historical-canvass-1956",
     "source_sha256": "a687e93d9cb0352d468a6420749d1564c73c5635bd37b1ea691505bdd3163b2a",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1956-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "reported",
@@ -7253,7 +7355,9 @@
     "contest": "az-1956-historical-state-house-district-Maricopa-7",
     "source_id": "historical-canvass-1956",
     "source_sha256": "a687e93d9cb0352d468a6420749d1564c73c5635bd37b1ea691505bdd3163b2a",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1956-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "reported",
@@ -7293,7 +7397,9 @@
     "contest": "az-1956-historical-state-house-district-Maricopa-8",
     "source_id": "historical-canvass-1956",
     "source_sha256": "a687e93d9cb0352d468a6420749d1564c73c5635bd37b1ea691505bdd3163b2a",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1956-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "reported",
@@ -7333,7 +7439,9 @@
     "contest": "az-1956-historical-state-house-district-Maricopa-9",
     "source_id": "historical-canvass-1956",
     "source_sha256": "a687e93d9cb0352d468a6420749d1564c73c5635bd37b1ea691505bdd3163b2a",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1956-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "reported",
@@ -7397,7 +7505,9 @@
     "contest": "az-1956-historical-state-house-district-Maricopa-10",
     "source_id": "historical-canvass-1956",
     "source_sha256": "a687e93d9cb0352d468a6420749d1564c73c5635bd37b1ea691505bdd3163b2a",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1956-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "reported",
@@ -7461,7 +7571,9 @@
     "contest": "az-1956-historical-state-house-district-Maricopa-11",
     "source_id": "historical-canvass-1956",
     "source_sha256": "a687e93d9cb0352d468a6420749d1564c73c5635bd37b1ea691505bdd3163b2a",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1956-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "reported",
@@ -7525,7 +7637,9 @@
     "contest": "az-1956-historical-state-house-district-Maricopa-12",
     "source_id": "historical-canvass-1956",
     "source_sha256": "a687e93d9cb0352d468a6420749d1564c73c5635bd37b1ea691505bdd3163b2a",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1956-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "reported",
@@ -7589,7 +7703,9 @@
     "contest": "az-1956-historical-state-house-district-Maricopa-13",
     "source_id": "historical-canvass-1956",
     "source_sha256": "a687e93d9cb0352d468a6420749d1564c73c5635bd37b1ea691505bdd3163b2a",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1956-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "reported",
@@ -7629,7 +7745,9 @@
     "contest": "az-1956-historical-state-house-district-Maricopa-14",
     "source_id": "historical-canvass-1956",
     "source_sha256": "a687e93d9cb0352d468a6420749d1564c73c5635bd37b1ea691505bdd3163b2a",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1956-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "reported",
@@ -7669,7 +7787,9 @@
     "contest": "az-1956-historical-state-house-district-Maricopa-15",
     "source_id": "historical-canvass-1956",
     "source_sha256": "a687e93d9cb0352d468a6420749d1564c73c5635bd37b1ea691505bdd3163b2a",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1956-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "reported",
@@ -7733,7 +7853,9 @@
     "contest": "az-1956-historical-state-house-district-Maricopa-16",
     "source_id": "historical-canvass-1956",
     "source_sha256": "a687e93d9cb0352d468a6420749d1564c73c5635bd37b1ea691505bdd3163b2a",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1956-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "reported",
@@ -7773,7 +7895,9 @@
     "contest": "az-1956-historical-state-house-district-Maricopa-17",
     "source_id": "historical-canvass-1956",
     "source_sha256": "a687e93d9cb0352d468a6420749d1564c73c5635bd37b1ea691505bdd3163b2a",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1956-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "reported",
@@ -7837,7 +7961,9 @@
     "contest": "az-1956-historical-state-house-district-Maricopa-18",
     "source_id": "historical-canvass-1956",
     "source_sha256": "a687e93d9cb0352d468a6420749d1564c73c5635bd37b1ea691505bdd3163b2a",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1956-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "reported",
@@ -7901,7 +8027,9 @@
     "contest": "az-1956-historical-state-house-district-Maricopa-19",
     "source_id": "historical-canvass-1956",
     "source_sha256": "a687e93d9cb0352d468a6420749d1564c73c5635bd37b1ea691505bdd3163b2a",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1956-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "reported",
@@ -7965,7 +8093,9 @@
     "contest": "az-1956-historical-state-house-district-Maricopa-20",
     "source_id": "historical-canvass-1956",
     "source_sha256": "a687e93d9cb0352d468a6420749d1564c73c5635bd37b1ea691505bdd3163b2a",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1956-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "reported",
@@ -8029,7 +8159,9 @@
     "contest": "az-1956-historical-state-house-district-Maricopa-21",
     "source_id": "historical-canvass-1956",
     "source_sha256": "a687e93d9cb0352d468a6420749d1564c73c5635bd37b1ea691505bdd3163b2a",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1956-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "reported",
@@ -8093,7 +8225,9 @@
     "contest": "az-1956-historical-state-house-district-Maricopa-22",
     "source_id": "historical-canvass-1956",
     "source_sha256": "a687e93d9cb0352d468a6420749d1564c73c5635bd37b1ea691505bdd3163b2a",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1956-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "reported",
@@ -8157,7 +8291,9 @@
     "contest": "az-1956-historical-state-house-district-Maricopa-23",
     "source_id": "historical-canvass-1956",
     "source_sha256": "a687e93d9cb0352d468a6420749d1564c73c5635bd37b1ea691505bdd3163b2a",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1956-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "reported",
@@ -8221,7 +8357,9 @@
     "contest": "az-1956-historical-state-house-district-Maricopa-24",
     "source_id": "historical-canvass-1956",
     "source_sha256": "a687e93d9cb0352d468a6420749d1564c73c5635bd37b1ea691505bdd3163b2a",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1956-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "reported",
@@ -8285,7 +8423,9 @@
     "contest": "az-1956-historical-state-house-district-Maricopa-25",
     "source_id": "historical-canvass-1956",
     "source_sha256": "a687e93d9cb0352d468a6420749d1564c73c5635bd37b1ea691505bdd3163b2a",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1956-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "reported",
@@ -8349,7 +8489,9 @@
     "contest": "az-1956-historical-state-house-district-Maricopa-26",
     "source_id": "historical-canvass-1956",
     "source_sha256": "a687e93d9cb0352d468a6420749d1564c73c5635bd37b1ea691505bdd3163b2a",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1956-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "reported",
@@ -8413,7 +8555,9 @@
     "contest": "az-1956-historical-state-house-district-Maricopa-27",
     "source_id": "historical-canvass-1956",
     "source_sha256": "a687e93d9cb0352d468a6420749d1564c73c5635bd37b1ea691505bdd3163b2a",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1956-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "reported",
@@ -8477,7 +8621,9 @@
     "contest": "az-1956-historical-state-house-district-Maricopa-28",
     "source_id": "historical-canvass-1956",
     "source_sha256": "a687e93d9cb0352d468a6420749d1564c73c5635bd37b1ea691505bdd3163b2a",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1956-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "reported",
@@ -8541,7 +8687,9 @@
     "contest": "az-1956-historical-state-house-district-Maricopa-29",
     "source_id": "historical-canvass-1956",
     "source_sha256": "a687e93d9cb0352d468a6420749d1564c73c5635bd37b1ea691505bdd3163b2a",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1956-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "reported",
@@ -8605,7 +8753,9 @@
     "contest": "az-1956-historical-state-house-district-Maricopa-30",
     "source_id": "historical-canvass-1956",
     "source_sha256": "a687e93d9cb0352d468a6420749d1564c73c5635bd37b1ea691505bdd3163b2a",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1956-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "reported",
@@ -8669,7 +8819,9 @@
     "contest": "az-1956-historical-state-house-district-Maricopa-31",
     "source_id": "historical-canvass-1956",
     "source_sha256": "a687e93d9cb0352d468a6420749d1564c73c5635bd37b1ea691505bdd3163b2a",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1956-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "reported",
@@ -8733,7 +8885,9 @@
     "contest": "az-1956-historical-state-house-district-Maricopa-32",
     "source_id": "historical-canvass-1956",
     "source_sha256": "a687e93d9cb0352d468a6420749d1564c73c5635bd37b1ea691505bdd3163b2a",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1956-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "reported",
@@ -8797,7 +8951,9 @@
     "contest": "az-1956-historical-state-house-district-Maricopa-33",
     "source_id": "historical-canvass-1956",
     "source_sha256": "a687e93d9cb0352d468a6420749d1564c73c5635bd37b1ea691505bdd3163b2a",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1956-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "reported",
@@ -8861,7 +9017,9 @@
     "contest": "az-1956-historical-state-house-district-Maricopa-34",
     "source_id": "historical-canvass-1956",
     "source_sha256": "a687e93d9cb0352d468a6420749d1564c73c5635bd37b1ea691505bdd3163b2a",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1956-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "reported",
@@ -8901,7 +9059,9 @@
     "contest": "az-1956-historical-state-house-district-Maricopa-35",
     "source_id": "historical-canvass-1956",
     "source_sha256": "a687e93d9cb0352d468a6420749d1564c73c5635bd37b1ea691505bdd3163b2a",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1956-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "reported",
@@ -8941,7 +9101,9 @@
     "contest": "az-1956-historical-state-house-district-Maricopa-36",
     "source_id": "historical-canvass-1956",
     "source_sha256": "a687e93d9cb0352d468a6420749d1564c73c5635bd37b1ea691505bdd3163b2a",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1956-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "reported",
@@ -8981,7 +9143,9 @@
     "contest": "az-1956-historical-state-house-district-Maricopa-37",
     "source_id": "historical-canvass-1956",
     "source_sha256": "a687e93d9cb0352d468a6420749d1564c73c5635bd37b1ea691505bdd3163b2a",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1956-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "reported",
@@ -9069,7 +9233,9 @@
     "contest": "az-1956-historical-state-senate-district-Mohave",
     "source_id": "historical-canvass-1956",
     "source_sha256": "a687e93d9cb0352d468a6420749d1564c73c5635bd37b1ea691505bdd3163b2a",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1956-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "reported",
@@ -9109,7 +9275,9 @@
     "contest": "az-1956-historical-state-house-district-Mohave",
     "source_id": "historical-canvass-1956",
     "source_sha256": "a687e93d9cb0352d468a6420749d1564c73c5635bd37b1ea691505bdd3163b2a",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1956-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "reported",
@@ -9197,7 +9365,9 @@
     "contest": "az-1956-historical-state-senate-district-Navajo",
     "source_id": "historical-canvass-1956",
     "source_sha256": "a687e93d9cb0352d468a6420749d1564c73c5635bd37b1ea691505bdd3163b2a",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1956-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "reported",
@@ -9261,7 +9431,9 @@
     "contest": "az-1956-historical-state-house-district-Navajo-1",
     "source_id": "historical-canvass-1956",
     "source_sha256": "a687e93d9cb0352d468a6420749d1564c73c5635bd37b1ea691505bdd3163b2a",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1956-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "reported",
@@ -9301,7 +9473,9 @@
     "contest": "az-1956-historical-state-house-district-Navajo-2",
     "source_id": "historical-canvass-1956",
     "source_sha256": "a687e93d9cb0352d468a6420749d1564c73c5635bd37b1ea691505bdd3163b2a",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1956-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "reported",
@@ -9389,7 +9563,9 @@
     "contest": "az-1956-historical-state-senate-district-Pima",
     "source_id": "historical-canvass-1956",
     "source_sha256": "a687e93d9cb0352d468a6420749d1564c73c5635bd37b1ea691505bdd3163b2a",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1956-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "reported",
@@ -9429,7 +9605,9 @@
     "contest": "az-1956-historical-state-house-district-Pima-1",
     "source_id": "historical-canvass-1956",
     "source_sha256": "a687e93d9cb0352d468a6420749d1564c73c5635bd37b1ea691505bdd3163b2a",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1956-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "reported",
@@ -9493,7 +9671,9 @@
     "contest": "az-1956-historical-state-house-district-Pima-2",
     "source_id": "historical-canvass-1956",
     "source_sha256": "a687e93d9cb0352d468a6420749d1564c73c5635bd37b1ea691505bdd3163b2a",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1956-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "reported",
@@ -9533,7 +9713,9 @@
     "contest": "az-1956-historical-state-house-district-Pima-3",
     "source_id": "historical-canvass-1956",
     "source_sha256": "a687e93d9cb0352d468a6420749d1564c73c5635bd37b1ea691505bdd3163b2a",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1956-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "reported",
@@ -9573,7 +9755,9 @@
     "contest": "az-1956-historical-state-house-district-Pima-4",
     "source_id": "historical-canvass-1956",
     "source_sha256": "a687e93d9cb0352d468a6420749d1564c73c5635bd37b1ea691505bdd3163b2a",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1956-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "reported",
@@ -9613,7 +9797,9 @@
     "contest": "az-1956-historical-state-house-district-Pima-5",
     "source_id": "historical-canvass-1956",
     "source_sha256": "a687e93d9cb0352d468a6420749d1564c73c5635bd37b1ea691505bdd3163b2a",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1956-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "reported",
@@ -9677,7 +9863,9 @@
     "contest": "az-1956-historical-state-house-district-Pima-6",
     "source_id": "historical-canvass-1956",
     "source_sha256": "a687e93d9cb0352d468a6420749d1564c73c5635bd37b1ea691505bdd3163b2a",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1956-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "reported",
@@ -9741,7 +9929,9 @@
     "contest": "az-1956-historical-state-house-district-Pima-7",
     "source_id": "historical-canvass-1956",
     "source_sha256": "a687e93d9cb0352d468a6420749d1564c73c5635bd37b1ea691505bdd3163b2a",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1956-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "reported",
@@ -9805,7 +9995,9 @@
     "contest": "az-1956-historical-state-house-district-Pima-8",
     "source_id": "historical-canvass-1956",
     "source_sha256": "a687e93d9cb0352d468a6420749d1564c73c5635bd37b1ea691505bdd3163b2a",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1956-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "reported",
@@ -9869,7 +10061,9 @@
     "contest": "az-1956-historical-state-house-district-Pima-9",
     "source_id": "historical-canvass-1956",
     "source_sha256": "a687e93d9cb0352d468a6420749d1564c73c5635bd37b1ea691505bdd3163b2a",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1956-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "reported",
@@ -9933,7 +10127,9 @@
     "contest": "az-1956-historical-state-house-district-Pima-10",
     "source_id": "historical-canvass-1956",
     "source_sha256": "a687e93d9cb0352d468a6420749d1564c73c5635bd37b1ea691505bdd3163b2a",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1956-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "reported",
@@ -9997,7 +10193,9 @@
     "contest": "az-1956-historical-state-house-district-Pima-11",
     "source_id": "historical-canvass-1956",
     "source_sha256": "a687e93d9cb0352d468a6420749d1564c73c5635bd37b1ea691505bdd3163b2a",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1956-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "reported",
@@ -10061,7 +10259,9 @@
     "contest": "az-1956-historical-state-house-district-Pima-12",
     "source_id": "historical-canvass-1956",
     "source_sha256": "a687e93d9cb0352d468a6420749d1564c73c5635bd37b1ea691505bdd3163b2a",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1956-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "reported",
@@ -10125,7 +10325,9 @@
     "contest": "az-1956-historical-state-house-district-Pima-13",
     "source_id": "historical-canvass-1956",
     "source_sha256": "a687e93d9cb0352d468a6420749d1564c73c5635bd37b1ea691505bdd3163b2a",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1956-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "reported",
@@ -10165,7 +10367,9 @@
     "contest": "az-1956-historical-state-house-district-Pima-14",
     "source_id": "historical-canvass-1956",
     "source_sha256": "a687e93d9cb0352d468a6420749d1564c73c5635bd37b1ea691505bdd3163b2a",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1956-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "reported",
@@ -10229,7 +10433,9 @@
     "contest": "az-1956-historical-state-house-district-Pima-15",
     "source_id": "historical-canvass-1956",
     "source_sha256": "a687e93d9cb0352d468a6420749d1564c73c5635bd37b1ea691505bdd3163b2a",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1956-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "reported",
@@ -10293,7 +10499,9 @@
     "contest": "az-1956-historical-state-house-district-Pima-16",
     "source_id": "historical-canvass-1956",
     "source_sha256": "a687e93d9cb0352d468a6420749d1564c73c5635bd37b1ea691505bdd3163b2a",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1956-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "reported",
@@ -10357,7 +10565,9 @@
     "contest": "az-1956-historical-state-senate-district-Pinal",
     "source_id": "historical-canvass-1956",
     "source_sha256": "a687e93d9cb0352d468a6420749d1564c73c5635bd37b1ea691505bdd3163b2a",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1956-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "reported",
@@ -10397,7 +10607,9 @@
     "contest": "az-1956-historical-state-house-district-Pinal-1",
     "source_id": "historical-canvass-1956",
     "source_sha256": "a687e93d9cb0352d468a6420749d1564c73c5635bd37b1ea691505bdd3163b2a",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1956-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "reported",
@@ -10437,7 +10649,9 @@
     "contest": "az-1956-historical-state-house-district-Pinal-2",
     "source_id": "historical-canvass-1956",
     "source_sha256": "a687e93d9cb0352d468a6420749d1564c73c5635bd37b1ea691505bdd3163b2a",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1956-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "reported",
@@ -10477,7 +10691,9 @@
     "contest": "az-1956-historical-state-house-district-Pinal-3",
     "source_id": "historical-canvass-1956",
     "source_sha256": "a687e93d9cb0352d468a6420749d1564c73c5635bd37b1ea691505bdd3163b2a",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1956-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "reported",
@@ -10565,7 +10781,9 @@
     "contest": "az-1956-historical-state-senate-district-Santa-Cruz",
     "source_id": "historical-canvass-1956",
     "source_sha256": "a687e93d9cb0352d468a6420749d1564c73c5635bd37b1ea691505bdd3163b2a",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1956-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "reported",
@@ -10605,7 +10823,9 @@
     "contest": "az-1956-historical-state-house-district-Santa-Cruz",
     "source_id": "historical-canvass-1956",
     "source_sha256": "a687e93d9cb0352d468a6420749d1564c73c5635bd37b1ea691505bdd3163b2a",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1956-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "reported",
@@ -10669,7 +10889,9 @@
     "contest": "az-1956-historical-state-senate-district-Yavapai",
     "source_id": "historical-canvass-1956",
     "source_sha256": "a687e93d9cb0352d468a6420749d1564c73c5635bd37b1ea691505bdd3163b2a",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1956-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "reported",
@@ -10733,7 +10955,9 @@
     "contest": "az-1956-historical-state-house-district-Yavapai-1",
     "source_id": "historical-canvass-1956",
     "source_sha256": "a687e93d9cb0352d468a6420749d1564c73c5635bd37b1ea691505bdd3163b2a",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1956-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "reported",
@@ -10797,7 +11021,9 @@
     "contest": "az-1956-historical-state-house-district-Yavapai-2",
     "source_id": "historical-canvass-1956",
     "source_sha256": "a687e93d9cb0352d468a6420749d1564c73c5635bd37b1ea691505bdd3163b2a",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1956-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "reported",
@@ -10861,7 +11087,9 @@
     "contest": "az-1956-historical-state-house-district-Yavapai-3",
     "source_id": "historical-canvass-1956",
     "source_sha256": "a687e93d9cb0352d468a6420749d1564c73c5635bd37b1ea691505bdd3163b2a",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1956-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "reported",
@@ -10925,7 +11153,9 @@
     "contest": "az-1956-historical-state-senate-district-Yuma",
     "source_id": "historical-canvass-1956",
     "source_sha256": "a687e93d9cb0352d468a6420749d1564c73c5635bd37b1ea691505bdd3163b2a",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1956-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "reported",
@@ -10989,7 +11219,9 @@
     "contest": "az-1956-historical-state-house-district-Yuma-1",
     "source_id": "historical-canvass-1956",
     "source_sha256": "a687e93d9cb0352d468a6420749d1564c73c5635bd37b1ea691505bdd3163b2a",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1956-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "reported",
@@ -11029,7 +11261,9 @@
     "contest": "az-1956-historical-state-house-district-Yuma-2",
     "source_id": "historical-canvass-1956",
     "source_sha256": "a687e93d9cb0352d468a6420749d1564c73c5635bd37b1ea691505bdd3163b2a",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1956-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "reported",
@@ -11093,7 +11327,9 @@
     "contest": "az-1956-historical-state-house-district-Yuma-3",
     "source_id": "historical-canvass-1956",
     "source_sha256": "a687e93d9cb0352d468a6420749d1564c73c5635bd37b1ea691505bdd3163b2a",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1956-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "verified",
@@ -78799,7 +79035,9 @@
     "contest": "az-1911-us-senate",
     "source_id": "historical-canvass-1911",
     "source_sha256": "a6c81f4f67e503815eec0cb23e99f42bf541e7b91b6b4c1e5218b29881c240d7",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1911-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "verified",
@@ -78851,7 +79089,9 @@
     "contest": "az-1911-historical-us-house-district-at-large",
     "source_id": "historical-canvass-1911",
     "source_sha256": "a6c81f4f67e503815eec0cb23e99f42bf541e7b91b6b4c1e5218b29881c240d7",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1911-supplement-cbbcafb08f34"
+    ]
   },
   {
     "status": "verified",
@@ -78903,45 +79143,41 @@
     "contest": "az-1911-governor",
     "source_id": "historical-canvass-1911",
     "source_sha256": "a6c81f4f67e503815eec0cb23e99f42bf541e7b91b6b4c1e5218b29881c240d7",
-    "supplemental_source_ids": []
+    "supplemental_source_ids": [
+      "historical-canvass-1911-supplement-cbbcafb08f34"
+    ]
   },
   {
-    "status": "incomplete",
-    "page": 1,
+    "status": "reported",
+    "page": 76,
     "district": null,
     "candidates": [
       {
         "candidate": "Sidney P. Osborn",
-        "official_total": null,
-        "official_statewide": null,
-        "county_sum": 8538,
+        "official_total": 10476,
+        "official_statewide": 10476,
+        "county_sum": 10476,
         "county_coverage": 14,
-        "missing_counties": [
-          "04003"
-        ],
-        "difference": null
+        "missing_counties": [],
+        "difference": 0
       },
       {
         "candidate": "J. F. Cleveland",
-        "official_total": null,
-        "official_statewide": null,
-        "county_sum": 7850,
+        "official_total": 9282,
+        "official_statewide": 9282,
+        "county_sum": 9283,
         "county_coverage": 14,
-        "missing_counties": [
-          "04003"
-        ],
-        "difference": null
+        "missing_counties": [],
+        "difference": 1
       },
       {
         "candidate": "G. H. Newsholme",
-        "official_total": null,
-        "official_statewide": null,
-        "county_sum": 1045,
+        "official_total": 1294,
+        "official_statewide": 1294,
+        "county_sum": 1294,
         "county_coverage": 14,
-        "missing_counties": [
-          "04003"
-        ],
-        "difference": null
+        "missing_counties": [],
+        "difference": 0
       },
       {
         "candidate": "Roy Sibley",
@@ -78957,11 +79193,13 @@
     "coverage": "contest_totals",
     "multi_seat": false,
     "result_basis": "candidate-votes",
-    "notes": "Official December 12, 1911 returns. Missing final digits in the clipped statewide column are replaced with the sum of all 14 official county returns, explicitly marked as derived. Printed county dashes mean zero. All legible county cells are transcribed. Three Cochise cells have damaged final digits and remain unavailable; corresponding statewide totals cannot yet be reconstructed exactly.",
+    "notes": "Mason PDF p74 supplies published statewide totals. PDF p76 resolves Cochise: Osborn 1938, Cleveland 1433, and Other 263. Original canvass supplies Sibley 14, leaving Socialist Newsholme 249. Other legible official county cells are preserved when Mason differs; residual discrepancies are documented.",
     "contest": "az-1911-secretary-of-state",
-    "source_id": "historical-canvass-1911",
-    "source_sha256": "a6c81f4f67e503815eec0cb23e99f42bf541e7b91b6b4c1e5218b29881c240d7",
-    "supplemental_source_ids": []
+    "source_id": "historical-canvass-1911-supplement-cbbcafb08f34",
+    "source_sha256": "cbbcafb08f346f9fbe5b7a032e6d8192514f2b858085473db8e1196ada0380bf",
+    "supplemental_source_ids": [
+      "historical-canvass-1911"
+    ]
   },
   {
     "status": "reported",
@@ -79013,6 +79251,999 @@
     "contest": "az-1911-attorney-general",
     "source_id": "historical-canvass-1911",
     "source_sha256": "a6c81f4f67e503815eec0cb23e99f42bf541e7b91b6b4c1e5218b29881c240d7",
+    "supplemental_source_ids": [
+      "historical-canvass-1911-supplement-cbbcafb08f34"
+    ]
+  },
+  {
+    "status": "reported",
+    "page": 19,
+    "district": null,
+    "candidates": [
+      {
+        "candidate": "Mark A. Smith",
+        "official_total": 25800,
+        "official_statewide": 25800,
+        "county_sum": 25800,
+        "county_coverage": 14,
+        "missing_counties": [],
+        "difference": 0
+      },
+      {
+        "candidate": "J. L. Hubbell",
+        "official_total": 9183,
+        "official_statewide": 9183,
+        "county_sum": 9183,
+        "county_coverage": 14,
+        "missing_counties": [],
+        "difference": 0
+      },
+      {
+        "candidate": "J. Bernard Nelson",
+        "official_total": 2608,
+        "official_statewide": 2608,
+        "county_sum": null,
+        "county_coverage": 0,
+        "missing_counties": [
+          "04001",
+          "04003",
+          "04005",
+          "04007",
+          "04009",
+          "04011",
+          "04013",
+          "04015",
+          "04017",
+          "04019",
+          "04021",
+          "04023",
+          "04025",
+          "04027"
+        ],
+        "difference": null
+      },
+      {
+        "candidate": "Bert Davis",
+        "official_total": 3582,
+        "official_statewide": 3582,
+        "county_sum": null,
+        "county_coverage": 0,
+        "missing_counties": [
+          "04001",
+          "04003",
+          "04005",
+          "04007",
+          "04009",
+          "04011",
+          "04013",
+          "04015",
+          "04017",
+          "04019",
+          "04021",
+          "04023",
+          "04025",
+          "04027"
+        ],
+        "difference": null
+      },
+      {
+        "candidate": "Eugene W. Chafin",
+        "official_total": 7293,
+        "official_statewide": 7293,
+        "county_sum": null,
+        "county_coverage": 0,
+        "missing_counties": [
+          "04001",
+          "04003",
+          "04005",
+          "04007",
+          "04009",
+          "04011",
+          "04013",
+          "04015",
+          "04017",
+          "04019",
+          "04021",
+          "04023",
+          "04025",
+          "04027"
+        ],
+        "difference": null
+      }
+    ],
+    "county_count": 14,
+    "coverage": "contest_totals",
+    "multi_seat": false,
+    "result_basis": "candidate-votes",
+    "notes": "Mason compilation, PDF page 19 (printed page 12). Minor-party county votes remain combined when the source does not separate candidates.",
+    "county_groups": [
+      {
+        "name": "Other candidates (combined)",
+        "party": "OTHER",
+        "members": [
+          2,
+          3,
+          4
+        ],
+        "county_votes": {
+          "04001": 70,
+          "04003": 2434,
+          "04005": 304,
+          "04007": 964,
+          "04009": 530,
+          "04011": 412,
+          "04013": 5414,
+          "04015": 225,
+          "04017": 231,
+          "04019": 1090,
+          "04021": 372,
+          "04023": 120,
+          "04025": 917,
+          "04027": 399
+        }
+      }
+    ],
+    "contest": "az-1914-us-senate",
+    "source_id": "historical-canvass-1914-supplement-cbbcafb08f34",
+    "source_sha256": "cbbcafb08f346f9fbe5b7a032e6d8192514f2b858085473db8e1196ada0380bf",
+    "supplemental_source_ids": [
+      "historical-canvass-1914"
+    ]
+  },
+  {
+    "status": "verified",
+    "page": 30,
+    "district": "at-large",
+    "candidates": [
+      {
+        "candidate": "Carl Hayden",
+        "official_total": 33306,
+        "official_statewide": 33306,
+        "county_sum": 33306,
+        "county_coverage": 14,
+        "missing_counties": [],
+        "difference": 0
+      },
+      {
+        "candidate": "Henry L. Eads",
+        "official_total": 7586,
+        "official_statewide": 7586,
+        "county_sum": 7586,
+        "county_coverage": 14,
+        "missing_counties": [],
+        "difference": 0
+      },
+      {
+        "candidate": "Ulrich Grill",
+        "official_total": 3773,
+        "official_statewide": 3773,
+        "county_sum": 3773,
+        "county_coverage": 14,
+        "missing_counties": [],
+        "difference": 0
+      }
+    ],
+    "county_count": 14,
+    "coverage": "county",
+    "multi_seat": false,
+    "result_basis": "candidate-votes",
+    "notes": "Mason compilation, PDF page 30 (printed page 23). Minor-party county votes remain combined when the source does not separate candidates.",
+    "contest": "az-1914-historical-us-house-district-at-large",
+    "source_id": "historical-canvass-1914-supplement-cbbcafb08f34",
+    "source_sha256": "cbbcafb08f346f9fbe5b7a032e6d8192514f2b858085473db8e1196ada0380bf",
+    "supplemental_source_ids": [
+      "historical-canvass-1914"
+    ]
+  },
+  {
+    "status": "verified",
+    "page": 76,
+    "district": null,
+    "candidates": [
+      {
+        "candidate": "S. P. Osborn",
+        "official_total": 30920,
+        "official_statewide": 30920,
+        "county_sum": 30920,
+        "county_coverage": 14,
+        "missing_counties": [],
+        "difference": 0
+      },
+      {
+        "candidate": "C. G. Cole",
+        "official_total": 9817,
+        "official_statewide": 9817,
+        "county_sum": 9817,
+        "county_coverage": 14,
+        "missing_counties": [],
+        "difference": 0
+      },
+      {
+        "candidate": "Mrs. Leroy Kenberry",
+        "official_total": 4299,
+        "official_statewide": 4299,
+        "county_sum": 4299,
+        "county_coverage": 14,
+        "missing_counties": [],
+        "difference": 0
+      }
+    ],
+    "county_count": 14,
+    "coverage": "county",
+    "multi_seat": false,
+    "result_basis": "candidate-votes",
+    "notes": "Mason compilation, PDF page 76 (printed page 69). Minor-party county votes remain combined when the source does not separate candidates.",
+    "contest": "az-1914-secretary-of-state",
+    "source_id": "historical-canvass-1914-supplement-cbbcafb08f34",
+    "source_sha256": "cbbcafb08f346f9fbe5b7a032e6d8192514f2b858085473db8e1196ada0380bf",
+    "supplemental_source_ids": [
+      "historical-canvass-1914"
+    ]
+  },
+  {
+    "status": "reported",
+    "page": 38,
+    "district": "at-large",
+    "candidates": [
+      {
+        "candidate": "Richard F. Harless",
+        "official_total": 56357,
+        "official_statewide": 56357,
+        "county_sum": null,
+        "county_coverage": 0,
+        "missing_counties": [
+          "04001",
+          "04003",
+          "04005",
+          "04007",
+          "04009",
+          "04011",
+          "04013",
+          "04015",
+          "04017",
+          "04019",
+          "04021",
+          "04023",
+          "04025",
+          "04027"
+        ],
+        "difference": null
+      },
+      {
+        "candidate": "John R. Murdock",
+        "official_total": 55825,
+        "official_statewide": 55825,
+        "county_sum": null,
+        "county_coverage": 0,
+        "missing_counties": [
+          "04001",
+          "04003",
+          "04005",
+          "04007",
+          "04009",
+          "04011",
+          "04013",
+          "04015",
+          "04017",
+          "04019",
+          "04021",
+          "04023",
+          "04025",
+          "04027"
+        ],
+        "difference": null
+      },
+      {
+        "candidate": "George R. Darnell",
+        "official_total": 23015,
+        "official_statewide": 23015,
+        "county_sum": null,
+        "county_coverage": 0,
+        "missing_counties": [
+          "04001",
+          "04003",
+          "04005",
+          "04007",
+          "04009",
+          "04011",
+          "04013",
+          "04015",
+          "04017",
+          "04019",
+          "04021",
+          "04023",
+          "04025",
+          "04027"
+        ],
+        "difference": null
+      },
+      {
+        "candidate": "Joseph S. Jenckes, Jr.",
+        "official_total": 18205,
+        "official_statewide": 18205,
+        "county_sum": null,
+        "county_coverage": 0,
+        "missing_counties": [
+          "04001",
+          "04003",
+          "04005",
+          "04007",
+          "04009",
+          "04011",
+          "04013",
+          "04015",
+          "04017",
+          "04019",
+          "04021",
+          "04023",
+          "04025",
+          "04027"
+        ],
+        "difference": null
+      },
+      {
+        "candidate": "Morris Graham",
+        "official_total": 375,
+        "official_statewide": 375,
+        "county_sum": 375,
+        "county_coverage": 14,
+        "missing_counties": [],
+        "difference": 0
+      }
+    ],
+    "county_count": 14,
+    "coverage": "contest_totals",
+    "multi_seat": true,
+    "result_basis": "candidate-votes",
+    "notes": "Mason compilation, PDF page 38 (printed page 31). Minor-party county votes remain combined when the source does not separate candidates.",
+    "county_groups": [
+      {
+        "name": "Democratic candidates (combined)",
+        "party": "DEM",
+        "members": [
+          0,
+          1
+        ],
+        "county_votes": {
+          "04001": 1954,
+          "04003": 10308,
+          "04005": 2456,
+          "04007": 7697,
+          "04009": 3358,
+          "04011": 2724,
+          "04013": 42663,
+          "04015": 1891,
+          "04017": 3799,
+          "04019": 15447,
+          "04021": 4691,
+          "04023": 1951,
+          "04025": 8457,
+          "04027": 4756
+        }
+      },
+      {
+        "name": "Republican candidates (combined)",
+        "party": "REP",
+        "members": [
+          2,
+          3
+        ],
+        "county_votes": {
+          "04001": 419,
+          "04003": 2197,
+          "04005": 884,
+          "04007": 1632,
+          "04009": 905,
+          "04011": 336,
+          "04013": 17188,
+          "04015": 399,
+          "04017": 903,
+          "04019": 9393,
+          "04021": 1762,
+          "04023": 644,
+          "04025": 3014,
+          "04027": 1544
+        }
+      }
+    ],
+    "contest": "az-1942-historical-us-house-district-at-large",
+    "source_id": "historical-canvass-1942",
+    "source_sha256": "cbbcafb08f346f9fbe5b7a032e6d8192514f2b858085473db8e1196ada0380bf",
     "supplemental_source_ids": []
+  },
+  {
+    "status": "verified",
+    "page": 83,
+    "district": null,
+    "candidates": [
+      {
+        "candidate": "H. M. Moore",
+        "official_total": 64005,
+        "official_statewide": 64005,
+        "county_sum": 64005,
+        "county_coverage": 14,
+        "missing_counties": [],
+        "difference": 0
+      },
+      {
+        "candidate": "V. C. Armstrong",
+        "official_total": 15395,
+        "official_statewide": 15395,
+        "county_sum": 15395,
+        "county_coverage": 14,
+        "missing_counties": [],
+        "difference": 0
+      }
+    ],
+    "county_count": 14,
+    "coverage": "county",
+    "multi_seat": false,
+    "result_basis": "candidate-votes",
+    "notes": "Mason compilation, PDF page 83 (printed page 76). Minor-party county votes remain combined when the source does not separate candidates.",
+    "contest": "az-1942-secretary-of-state",
+    "source_id": "historical-canvass-1942",
+    "source_sha256": "cbbcafb08f346f9fbe5b7a032e6d8192514f2b858085473db8e1196ada0380bf",
+    "supplemental_source_ids": []
+  },
+  {
+    "status": "verified",
+    "page": 15,
+    "district": "at-large",
+    "candidates": [
+      {
+        "candidate": "Adlai E. Stevenson",
+        "official_total": 112880,
+        "official_statewide": 112880,
+        "county_sum": 112880,
+        "county_coverage": 14,
+        "missing_counties": [],
+        "difference": 0
+      },
+      {
+        "candidate": "Dwight D. Eisenhower",
+        "official_total": 176990,
+        "official_statewide": 176990,
+        "county_sum": 176990,
+        "county_coverage": 14,
+        "missing_counties": [],
+        "difference": 0
+      },
+      {
+        "candidate": "T. Coleman Andrews",
+        "official_total": 303,
+        "official_statewide": 303,
+        "county_sum": 303,
+        "county_coverage": 14,
+        "missing_counties": [],
+        "difference": 0
+      }
+    ],
+    "county_count": 14,
+    "coverage": "county",
+    "multi_seat": true,
+    "result_basis": "presidential-electors",
+    "notes": "Mason compilation, PDF page 15 (printed page 8). Minor-party county votes remain combined when the source does not separate candidates.",
+    "contest": "az-1956-historical-president-district-at-large",
+    "source_id": "historical-canvass-1956-supplement-cbbcafb08f34",
+    "source_sha256": "cbbcafb08f346f9fbe5b7a032e6d8192514f2b858085473db8e1196ada0380bf",
+    "supplemental_source_ids": [
+      "historical-canvass-1956"
+    ]
+  },
+  {
+    "status": "reported",
+    "page": 26,
+    "district": null,
+    "candidates": [
+      {
+        "candidate": "Carl Hayden",
+        "official_total": 170816,
+        "official_statewide": 170816,
+        "county_sum": 170780,
+        "county_coverage": 14,
+        "missing_counties": [],
+        "difference": -36
+      },
+      {
+        "candidate": "Ross F. Jones",
+        "official_total": 107447,
+        "official_statewide": 107447,
+        "county_sum": 107447,
+        "county_coverage": 14,
+        "missing_counties": [],
+        "difference": 0
+      }
+    ],
+    "county_count": 14,
+    "coverage": "contest_totals",
+    "multi_seat": false,
+    "result_basis": "candidate-votes",
+    "notes": "Mason compilation, PDF page 26 (printed page 19). Minor-party county votes remain combined when the source does not separate candidates.",
+    "contest": "az-1956-us-senate",
+    "source_id": "historical-canvass-1956-supplement-cbbcafb08f34",
+    "source_sha256": "cbbcafb08f346f9fbe5b7a032e6d8192514f2b858085473db8e1196ada0380bf",
+    "supplemental_source_ids": [
+      "historical-canvass-1956"
+    ]
+  },
+  {
+    "status": "reported",
+    "page": 41,
+    "district": "1",
+    "candidates": [
+      {
+        "candidate": "William P. Mahoney, Jr.",
+        "official_total": 64805,
+        "official_statewide": 64805,
+        "county_sum": 64805,
+        "county_coverage": 1,
+        "missing_counties": [
+          "04001",
+          "04003",
+          "04005",
+          "04007",
+          "04009",
+          "04011",
+          "04015",
+          "04017",
+          "04019",
+          "04021",
+          "04023",
+          "04025",
+          "04027"
+        ],
+        "difference": null
+      },
+      {
+        "candidate": "John J. Rhodes",
+        "official_total": 78998,
+        "official_statewide": 78998,
+        "county_sum": 78998,
+        "county_coverage": 1,
+        "missing_counties": [
+          "04001",
+          "04003",
+          "04005",
+          "04007",
+          "04009",
+          "04011",
+          "04015",
+          "04017",
+          "04019",
+          "04021",
+          "04023",
+          "04025",
+          "04027"
+        ],
+        "difference": null
+      }
+    ],
+    "county_count": 14,
+    "coverage": "contest_totals",
+    "multi_seat": false,
+    "result_basis": "candidate-votes",
+    "notes": "Mason compilation, PDF page 41 (printed page 34). Minor-party county votes remain combined when the source does not separate candidates.",
+    "contest": "az-1956-historical-us-house-district-1",
+    "source_id": "historical-canvass-1956-supplement-cbbcafb08f34",
+    "source_sha256": "cbbcafb08f346f9fbe5b7a032e6d8192514f2b858085473db8e1196ada0380bf",
+    "supplemental_source_ids": [
+      "historical-canvass-1956"
+    ]
+  },
+  {
+    "status": "reported",
+    "page": 41,
+    "district": "2",
+    "candidates": [
+      {
+        "candidate": "Stewart L. Udall",
+        "official_total": 82110,
+        "official_statewide": 82110,
+        "county_sum": 82110,
+        "county_coverage": 13,
+        "missing_counties": [
+          "04013"
+        ],
+        "difference": null
+      },
+      {
+        "candidate": "John G. Speiden",
+        "official_total": 54596,
+        "official_statewide": 54596,
+        "county_sum": 54596,
+        "county_coverage": 13,
+        "missing_counties": [
+          "04013"
+        ],
+        "difference": null
+      }
+    ],
+    "county_count": 14,
+    "coverage": "contest_totals",
+    "multi_seat": false,
+    "result_basis": "candidate-votes",
+    "notes": "Mason compilation, PDF page 41 (printed page 34). Minor-party county votes remain combined when the source does not separate candidates.",
+    "contest": "az-1956-historical-us-house-district-2",
+    "source_id": "historical-canvass-1956-supplement-cbbcafb08f34",
+    "source_sha256": "cbbcafb08f346f9fbe5b7a032e6d8192514f2b858085473db8e1196ada0380bf",
+    "supplemental_source_ids": [
+      "historical-canvass-1956"
+    ]
+  },
+  {
+    "status": "verified",
+    "page": 87,
+    "district": null,
+    "candidates": [
+      {
+        "candidate": "Wesley Bolin",
+        "official_total": 172661,
+        "official_statewide": 172661,
+        "county_sum": 172661,
+        "county_coverage": 14,
+        "missing_counties": [],
+        "difference": 0
+      },
+      {
+        "candidate": "Buell E. Tade",
+        "official_total": 100224,
+        "official_statewide": 100224,
+        "county_sum": 100224,
+        "county_coverage": 14,
+        "missing_counties": [],
+        "difference": 0
+      }
+    ],
+    "county_count": 14,
+    "coverage": "county",
+    "multi_seat": false,
+    "result_basis": "candidate-votes",
+    "notes": "Mason compilation, PDF page 87 (printed page 80). Minor-party county votes remain combined when the source does not separate candidates.",
+    "contest": "az-1956-secretary-of-state",
+    "source_id": "historical-canvass-1956-supplement-cbbcafb08f34",
+    "source_sha256": "cbbcafb08f346f9fbe5b7a032e6d8192514f2b858085473db8e1196ada0380bf",
+    "supplemental_source_ids": [
+      "historical-canvass-1956"
+    ]
+  },
+  {
+    "status": "reported",
+    "page": 46,
+    "district": null,
+    "candidates": [
+      {
+        "candidate": "G. W. P. Hunt",
+        "official_total": 25226,
+        "official_statewide": 25226,
+        "county_sum": 25226,
+        "county_coverage": 14,
+        "missing_counties": [],
+        "difference": 0
+      },
+      {
+        "candidate": "R. H. Cameron",
+        "official_total": 17602,
+        "official_statewide": 17602,
+        "county_sum": 17602,
+        "county_coverage": 14,
+        "missing_counties": [],
+        "difference": 0
+      },
+      {
+        "candidate": "J. R. Barnette",
+        "official_total": 2973,
+        "official_statewide": 2973,
+        "county_sum": null,
+        "county_coverage": 0,
+        "missing_counties": [
+          "04001",
+          "04003",
+          "04005",
+          "04007",
+          "04009",
+          "04011",
+          "04013",
+          "04015",
+          "04017",
+          "04019",
+          "04021",
+          "04023",
+          "04025",
+          "04027"
+        ],
+        "difference": null
+      },
+      {
+        "candidate": "G. U. Young",
+        "official_total": 5206,
+        "official_statewide": 5206,
+        "county_sum": null,
+        "county_coverage": 0,
+        "missing_counties": [
+          "04001",
+          "04003",
+          "04005",
+          "04007",
+          "04009",
+          "04011",
+          "04013",
+          "04015",
+          "04017",
+          "04019",
+          "04021",
+          "04023",
+          "04025",
+          "04027"
+        ],
+        "difference": null
+      }
+    ],
+    "county_count": 14,
+    "coverage": "contest_totals",
+    "multi_seat": false,
+    "result_basis": "candidate-votes",
+    "notes": "Mason compilation, PDF page 46 (printed page 39). Minor-party county votes remain combined when the source does not separate candidates.",
+    "county_groups": [
+      {
+        "name": "Other candidates (combined)",
+        "party": "OTHER",
+        "members": [
+          2,
+          3
+        ],
+        "county_votes": {
+          "04001": 72,
+          "04003": 1305,
+          "04005": 170,
+          "04007": 774,
+          "04009": 288,
+          "04011": 230,
+          "04013": 3274,
+          "04015": 180,
+          "04017": 100,
+          "04019": 549,
+          "04021": 300,
+          "04023": 55,
+          "04025": 578,
+          "04027": 304
+        }
+      }
+    ],
+    "contest": "az-1914-governor",
+    "source_id": "historical-canvass-1914-supplement-cbbcafb08f34",
+    "source_sha256": "cbbcafb08f346f9fbe5b7a032e6d8192514f2b858085473db8e1196ada0380bf",
+    "supplemental_source_ids": [
+      "historical-canvass-1914"
+    ]
+  },
+  {
+    "status": "verified",
+    "page": 53,
+    "district": null,
+    "candidates": [
+      {
+        "candidate": "Sidney P. Osborn",
+        "official_total": 63484,
+        "official_statewide": 63484,
+        "county_sum": 63484,
+        "county_coverage": 14,
+        "missing_counties": [],
+        "difference": 0
+      },
+      {
+        "candidate": "J. W. Lee",
+        "official_total": 23562,
+        "official_statewide": 23562,
+        "county_sum": 23562,
+        "county_coverage": 14,
+        "missing_counties": [],
+        "difference": 0
+      },
+      {
+        "candidate": "C. R. Osburn",
+        "official_total": 537,
+        "official_statewide": 537,
+        "county_sum": 537,
+        "county_coverage": 14,
+        "missing_counties": [],
+        "difference": 0
+      }
+    ],
+    "county_count": 14,
+    "coverage": "county",
+    "multi_seat": false,
+    "result_basis": "candidate-votes",
+    "notes": "Mason compilation, PDF page 53 (printed page 46). Minor-party county votes remain combined when the source does not separate candidates.",
+    "contest": "az-1942-governor",
+    "source_id": "historical-canvass-1942",
+    "source_sha256": "cbbcafb08f346f9fbe5b7a032e6d8192514f2b858085473db8e1196ada0380bf",
+    "supplemental_source_ids": []
+  },
+  {
+    "status": "verified",
+    "page": 57,
+    "district": null,
+    "candidates": [
+      {
+        "candidate": "E. W. McFarland",
+        "official_total": 171848,
+        "official_statewide": 171848,
+        "county_sum": 171848,
+        "county_coverage": 14,
+        "missing_counties": [],
+        "difference": 0
+      },
+      {
+        "candidate": "H. B. Griffen",
+        "official_total": 116744,
+        "official_statewide": 116744,
+        "county_sum": 116744,
+        "county_coverage": 14,
+        "missing_counties": [],
+        "difference": 0
+      }
+    ],
+    "county_count": 14,
+    "coverage": "county",
+    "multi_seat": false,
+    "result_basis": "candidate-votes",
+    "notes": "Mason compilation, PDF page 57 (printed page 50). Minor-party county votes remain combined when the source does not separate candidates.",
+    "contest": "az-1956-governor",
+    "source_id": "historical-canvass-1956-supplement-cbbcafb08f34",
+    "source_sha256": "cbbcafb08f346f9fbe5b7a032e6d8192514f2b858085473db8e1196ada0380bf",
+    "supplemental_source_ids": [
+      "historical-canvass-1956"
+    ]
+  },
+  {
+    "status": "verified",
+    "page": 61,
+    "district": null,
+    "candidates": [
+      {
+        "candidate": "W. E. Jones",
+        "official_total": 23477,
+        "official_statewide": 23477,
+        "county_sum": 23477,
+        "county_coverage": 14,
+        "missing_counties": [],
+        "difference": 0
+      },
+      {
+        "candidate": "J. E. Morrison",
+        "official_total": 12632,
+        "official_statewide": 12632,
+        "county_sum": 12632,
+        "county_coverage": 14,
+        "missing_counties": [],
+        "difference": 0
+      },
+      {
+        "candidate": "J. L. Alexander",
+        "official_total": 6713,
+        "official_statewide": 6713,
+        "county_sum": 6713,
+        "county_coverage": 14,
+        "missing_counties": [],
+        "difference": 0
+      }
+    ],
+    "county_count": 14,
+    "coverage": "county",
+    "multi_seat": false,
+    "result_basis": "candidate-votes",
+    "notes": "Mason compilation, PDF page 61 (printed page 54). Minor-party county votes remain combined when the source does not separate candidates.",
+    "contest": "az-1914-attorney-general",
+    "source_id": "historical-canvass-1914-supplement-cbbcafb08f34",
+    "source_sha256": "cbbcafb08f346f9fbe5b7a032e6d8192514f2b858085473db8e1196ada0380bf",
+    "supplemental_source_ids": [
+      "historical-canvass-1914"
+    ]
+  },
+  {
+    "status": "verified",
+    "page": 62,
+    "district": null,
+    "candidates": [
+      {
+        "candidate": "W. E. Jones",
+        "official_total": 27671,
+        "official_statewide": 27671,
+        "county_sum": 27671,
+        "county_coverage": 14,
+        "missing_counties": [],
+        "difference": 0
+      },
+      {
+        "candidate": "David Benshimol",
+        "official_total": 17657,
+        "official_statewide": 17657,
+        "county_sum": 17657,
+        "county_coverage": 14,
+        "missing_counties": [],
+        "difference": 0
+      },
+      {
+        "candidate": "J. L. Fitts",
+        "official_total": 914,
+        "official_statewide": 914,
+        "county_sum": 914,
+        "county_coverage": 14,
+        "missing_counties": [],
+        "difference": 0
+      }
+    ],
+    "county_count": 14,
+    "coverage": "county",
+    "multi_seat": false,
+    "result_basis": "candidate-votes",
+    "notes": "Mason compilation, PDF page 62 (printed page 55). Minor-party county votes remain combined when the source does not separate candidates.",
+    "contest": "az-1918-attorney-general",
+    "source_id": "historical-canvass-1918-supplement-cbbcafb08f34",
+    "source_sha256": "cbbcafb08f346f9fbe5b7a032e6d8192514f2b858085473db8e1196ada0380bf",
+    "supplemental_source_ids": [
+      "historical-canvass-1918"
+    ]
+  },
+  {
+    "status": "verified",
+    "page": 68,
+    "district": null,
+    "candidates": [
+      {
+        "candidate": "Joe Conway",
+        "official_total": 67766,
+        "official_statewide": 67766,
+        "county_sum": 67766,
+        "county_coverage": 14,
+        "missing_counties": [],
+        "difference": 0
+      }
+    ],
+    "county_count": 14,
+    "coverage": "county",
+    "multi_seat": false,
+    "result_basis": "candidate-votes",
+    "notes": "Mason compilation, PDF page 68 (printed page 61). Minor-party county votes remain combined when the source does not separate candidates.",
+    "contest": "az-1942-attorney-general",
+    "source_id": "historical-canvass-1942",
+    "source_sha256": "cbbcafb08f346f9fbe5b7a032e6d8192514f2b858085473db8e1196ada0380bf",
+    "supplemental_source_ids": []
+  },
+  {
+    "status": "verified",
+    "page": 72,
+    "district": null,
+    "candidates": [
+      {
+        "candidate": "Robert Morrison",
+        "official_total": 151324,
+        "official_statewide": 151324,
+        "county_sum": 151324,
+        "county_coverage": 14,
+        "missing_counties": [],
+        "difference": 0
+      },
+      {
+        "candidate": "William E. Kimble",
+        "official_total": 126718,
+        "official_statewide": 126718,
+        "county_sum": 126718,
+        "county_coverage": 14,
+        "missing_counties": [],
+        "difference": 0
+      }
+    ],
+    "county_count": 14,
+    "coverage": "county",
+    "multi_seat": false,
+    "result_basis": "candidate-votes",
+    "notes": "Mason compilation, PDF page 72 (printed page 65). Minor-party county votes remain combined when the source does not separate candidates.",
+    "contest": "az-1956-attorney-general",
+    "source_id": "historical-canvass-1956-supplement-cbbcafb08f34",
+    "source_sha256": "cbbcafb08f346f9fbe5b7a032e6d8192514f2b858085473db8e1196ada0380bf",
+    "supplemental_source_ids": [
+      "historical-canvass-1956"
+    ]
   }
 ]
