@@ -242,7 +242,10 @@ function StatewideElectionPage({
             <p className="footnote table-note">
               Shares show the two leading parties and include all candidates of
               each party. Contest votes exclude undervotes and overvotes.
-              Turnout is the official election-wide figure.
+              {" "}
+              {counties.some((c) => c.turnout.basis === "contest_votes")
+                ? "Race participation is calculated as reported votes in this race divided by registered voters."
+                : "Turnout is the official election-wide figure."}
               {counties.some((c) => c.partial) &&
                 " Where the source leaves write-ins unallocated by county, shares and contest votes use the available county tallies. A winner is shown only when those missing votes cannot change the lead."}
             </p>

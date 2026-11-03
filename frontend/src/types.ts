@@ -63,6 +63,8 @@ export interface Candidate {
   status: string;
 }
 export interface Turnout {
+  basis?: "published" | "contest_votes" | "calculated_ballots";
+  votes_cast?: number | null;
   ballots_cast: number | null;
   registered_voters: number | null;
   percent: number | null;

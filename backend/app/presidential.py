@@ -6,7 +6,7 @@ from fastapi import HTTPException
 from sqlalchemy import select
 from .models import Contest, GeographicUnit, Turnout
 from .schemas import DetailOut, ResultsOut, SourceOut, TurnoutOut
-from .services import results
+from .services import results, turnout_with_participation
 
 ROOT = Path(__file__).resolve().parents[2]
 
@@ -45,7 +45,7 @@ def context(s, id):
 def unit_result(s, contest, selected, unit):
     raw = results(s,contest,s.get(GeographicUnit,contest.jurisdiction_id) if unit.id=='04' else unit)
     turnout = s.scalar(select(Turnout).where(Turnout.event_id==contest.event_id,Turnout.unit_id==unit.id))
-    turnout_value = TurnoutOut(**{k:getattr(turnout,k) for k in TurnoutOut.model_fields}) if turnout else TurnoutOut()
+    turnout_value = TurnoutOut(**{k:getattr(turnout,k) for k in TurnoutOut.model_fields if hasattr(turnout,k)}) if turnout else TurnoutOut()
     by_id = {c.id:c for c in raw.candidates}
     candidates = [by_id[pid].model_copy(update={
         'name': ticket['name'] or f'Unidentified candidate ({party})',
@@ -57,6 +57,7 @@ def unit_result(s, contest, selected, unit):
     for c in candidates:
         c.percent = 100*c.votes/total if total and c.votes is not None else None
     complete = len(known)==len(candidates)
+    turnout_value = turnout_with_participation(turnout_value,total)
     return ResultsOut(geoid=unit.id,name=unit.name,status='reported' if known else 'incomplete',
         total_votes=total,candidates=candidates,turnout=turnout_value,partial=bool(known) and not complete,
         winner=candidates[0] if complete and total and (len(candidates)==1 or candidates[0].votes>candidates[1].votes) else None)

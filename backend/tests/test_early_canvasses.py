@@ -203,6 +203,20 @@ def test_official_turnout_is_imported_without_inventing_missing_ballots(tmp_path
     engine.dispose()
 
 
+def test_registration_and_race_votes_produce_calculated_participation():
+    from backend.app.services import turnout_with_participation
+    from backend.app.schemas import TurnoutOut
+    value = turnout_with_participation(TurnoutOut(registered_voters=90272),68445)
+    assert round(value.percent,2)==75.82
+    assert value.votes_cast==68445
+    assert value.basis=='contest_votes'
+    assert value.ballots_cast is None
+    published = TurnoutOut(registered_voters=181088,ballots_cast=141264,percent=78.1)
+    assert turnout_with_participation(published,128686).percent==78.1
+    assert turnout_with_participation(TurnoutOut(registered_voters=0),10).percent is None
+    assert turnout_with_participation(TurnoutOut(registered_voters=100),None).percent is None
+
+
 def test_presidential_presentation_uses_nominees_and_one_elector_tally():
     import json
     from backend.app import presidential
@@ -217,6 +231,8 @@ def test_presidential_presentation_uses_nominees_and_one_elector_tally():
         assert totals['Woodrow Wilson']==33170
         assert totals['Charles E. Hughes']==20524
         assert len(totals)==4
+        assert value.statewide.turnout.votes_cast==58021
+        assert value.statewide.turnout.basis=='contest_votes'
         assert value.election.office=='President'
         assert len(presidential.counties(session,'az-1916-historical-president'))==14
         from backend.app import main

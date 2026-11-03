@@ -37,6 +37,8 @@ class CandidateOut(BaseModel):
 
 
 class TurnoutOut(BaseModel):
+    basis: str = 'published'
+    votes_cast: int | None = None
     ballots_cast: int | None = None
     registered_voters: int | None = None
     percent: float | None = None

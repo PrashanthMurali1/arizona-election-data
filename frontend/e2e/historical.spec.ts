@@ -209,3 +209,83 @@ test("presidential candidates and early county maps are shown", async ({
     ).toBe(true);
   }
 });
+
+test("registration-only canvasses show calculated race participation", async ({
+  page,
+}) => {
+  const governor = {
+    ...election,
+    id: "az-1920-governor",
+    year: 1920,
+    date: "1920-11-02",
+    office_id: "governor",
+    office: "Governor",
+    boundary_id: "county-1966-1982",
+  };
+  const turnout = {
+    basis: "contest_votes",
+    votes_cast: 68445,
+    ballots_cast: null,
+    registered_voters: 90272,
+    percent: 75.82085,
+    definition:
+      "Calculated race participation: votes in this race divided by registered voters.",
+  };
+  const statewide = {
+    geoid: "04",
+    name: "Arizona",
+    status: "verified",
+    total_votes: 68445,
+    turnout,
+    winner: null,
+    candidates: [
+      {
+        id: "campbell",
+        name: "Thos. E. Campbell",
+        party: "REP",
+        party_name: "Republican",
+        votes: 37060,
+        percent: 54.15,
+        status: "verified",
+        write_in: false,
+        category: "named_candidate",
+      },
+    ],
+  };
+  await page.route("**/api/**", async (route) => {
+    const path = new URL(route.request().url()).pathname;
+    if (path === "/api/elections") return route.fulfill({ json: [governor] });
+    if (path.endsWith("/counties")) return route.fulfill({ json: [] });
+    if (path.endsWith("/activity")) return route.fulfill({ json: null });
+    if (path.includes("/geography/"))
+      return route.fulfill({
+        json: {
+          boundary_id: governor.boundary_id,
+          vintage: 1966,
+          features: [],
+        },
+      });
+    return route.fulfill({
+      json: {
+        election: governor,
+        statewide,
+        sources: [],
+        reconciliation: { candidates: [] },
+      },
+    });
+  });
+  for (const width of [1440, 390]) {
+    await page.setViewportSize({ width, height: 1000 });
+    await page.goto(`/elections/${governor.id}`);
+    const panel = page.getByRole("region", { name: "Election turnout" });
+    await expect(panel.getByText("75.82%", { exact: true })).toBeVisible();
+    await expect(panel.getByText("68,445", { exact: true })).toBeVisible();
+    await expect(
+      panel.getByText("Votes cast in this race", { exact: true }),
+    ).toBeVisible();
+    await expect(panel.getByText("N/A", { exact: true })).toHaveCount(0);
+    await expect(
+      panel.getByText("Official turnout", { exact: true }),
+    ).toHaveCount(0);
+  }
+});

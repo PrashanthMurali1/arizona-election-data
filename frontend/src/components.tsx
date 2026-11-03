@@ -104,12 +104,28 @@ export function TurnoutMetrics({ turnout }: { turnout: Turnout }) {
     <>
       <div className="turnout-metrics">
         <div>
-          <small>Official turnout</small>
+          <small>
+            {turnout.basis === "contest_votes"
+              ? "Calculated race participation"
+              : turnout.basis === "calculated_ballots"
+                ? "Calculated turnout"
+                : "Official turnout"}
+          </small>
           <strong>{percent(turnout.percent)}</strong>
         </div>
         <div>
-          <small>Ballots cast</small>
-          <strong>{number(turnout.ballots_cast)}</strong>
+          <small>
+            {turnout.basis === "contest_votes"
+              ? "Votes cast in this race"
+              : "Ballots cast"}
+          </small>
+          <strong>
+            {number(
+              turnout.basis === "contest_votes"
+                ? turnout.votes_cast
+                : turnout.ballots_cast,
+            )}
+          </strong>
         </div>
         <div>
           <small>Eligible registration</small>
@@ -242,9 +258,11 @@ export function CandidateOverview({
             </div>
             <div>
               <dt>
-                {unitKind === "district"
-                  ? "Official district turnout"
-                  : "Official statewide turnout"}
+                {results.turnout.basis === "contest_votes"
+                  ? "Calculated race participation"
+                  : unitKind === "district"
+                    ? "Official district turnout"
+                    : "Official statewide turnout"}
               </dt>
               <dd>{percent(results.turnout.percent)}</dd>
             </div>

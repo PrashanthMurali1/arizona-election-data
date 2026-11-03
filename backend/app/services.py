@@ -4,6 +4,21 @@ from .models import *
 from .schemas import *
 
 
+def turnout_with_participation(turnout: TurnoutOut, votes: int | None):
+    """Use the published turnout first, otherwise show calculated race participation."""
+    if turnout.percent is not None or not turnout.registered_voters:
+        return turnout
+    if turnout.ballots_cast is not None:
+        return turnout.model_copy(update=dict(percent=100*turnout.ballots_cast/turnout.registered_voters,
+            basis='calculated_ballots',definition='Calculated turnout: official ballots cast / registered voters x 100. ' + turnout.definition))
+    if votes is None or votes > turnout.registered_voters:
+        return turnout
+    return turnout.model_copy(update=dict(percent=100*votes/turnout.registered_voters,
+        votes_cast=votes,basis='contest_votes',
+        definition=f'Calculated race participation: {votes:,} reported votes / {turnout.registered_voters:,} registered voters x 100. '
+        'Counts votes in this race; blank and invalid ballots are not included.'))
+
+
 def metadata(s: Session, c: Contest):
     e = s.get(ElectionEvent, c.event_id)
     count = s.scalar(
@@ -132,10 +147,12 @@ def results(s: Session, c: Contest, unit: GeographicUnit):
         )
     )
     turnout = (
-        TurnoutOut(**{k: getattr(t, k) for k in TurnoutOut.model_fields})
+        TurnoutOut(**{k: getattr(t, k) for k in TurnoutOut.model_fields if hasattr(t,k)})
         if t
         else TurnoutOut()
     )
+    if historical and not multi_seat:
+        turnout = turnout_with_participation(turnout,total)
     return ResultsOut(
         geoid=unit.id,
         name=unit.name,

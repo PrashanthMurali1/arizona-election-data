@@ -26,11 +26,20 @@ export default function CountyTable({
   const [key, setKey] = useState<SortKey>("total_votes");
   const [direction, setDirection] = useState<"asc" | "desc">("desc");
   const parties = tableParties(counties);
-  const columns: {key: SortKey; label: string}[] = [
-    {key:"name",label:"County"},
-    ...parties.map(p=>({key:`party:${p}` as SortKey,label:`${p[0]}${p.slice(1).toLowerCase()} %`})),
-    {key:"winner",label:"Winner"}, {key:"total_votes",label:"Contest votes"},
-    {key:"turnout",label:"Turnout"},
+  const columns: { key: SortKey; label: string }[] = [
+    { key: "name", label: "County" },
+    ...parties.map((p) => ({
+      key: `party:${p}` as SortKey,
+      label: `${p[0]}${p.slice(1).toLowerCase()} %`,
+    })),
+    { key: "winner", label: "Winner" },
+    { key: "total_votes", label: "Contest votes" },
+    {
+      key: "turnout",
+      label: counties.some((r) => r.turnout.basis === "contest_votes")
+        ? "Race participation"
+        : "Turnout",
+    },
   ];
   const rows = useMemo(
     () => sortCounties(counties, key, direction),
@@ -111,7 +120,11 @@ export default function CountyTable({
                     <Icon name="arrow" />
                   </button>
                 </th>
-                {parties.map(p=><td key={p} className={`${partyClass(p)}-text`}>{percent(partyShare(r,p))}</td>)}
+                {parties.map((p) => (
+                  <td key={p} className={`${partyClass(p)}-text`}>
+                    {percent(partyShare(r, p))}
+                  </td>
+                ))}
                 <td>
                   <span
                     className={`winner-label ${partyClass(r.winner?.party)}`}
@@ -120,7 +133,9 @@ export default function CountyTable({
                   </span>
                 </td>
                 <td>{number(r.total_votes)}</td>
-                <td>{percent(r.turnout.percent)}</td>
+                <td title={r.turnout.definition}>
+                  {percent(r.turnout.percent)}
+                </td>
               </tr>
             ))}
           </tbody>
