@@ -48,11 +48,19 @@
 	# Preserve backend browser-cache policies; default errors to no-store.
 	handle /api/* {
 		header {
+			# Crawlers may fetch the API to render pages, but must not list raw JSON.
+			X-Robots-Tag noindex
 			?Cache-Control "no-store, no-transform"
 			defer
 		}
 		# Caddy flushes text/event-stream immediately without response buffering.
 		# Keep its default cancellation behavior when a browser disconnects.
+		reverse_proxy backend:8000
+	}
+
+	# Generated from the election catalog so it follows each data release.
+	handle /sitemap.xml {
+		header Cache-Control "no-cache"
 		reverse_proxy backend:8000
 	}
 

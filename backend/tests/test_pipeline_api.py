@@ -703,3 +703,13 @@ def test_2026_result_stages_and_certification_guard(client, tmp_path, monkeypatc
         assert activity(s, "az-2026-attorney-general", now=after)["reported_leaders"]
         assert activity(s, CONTEST, now=after)["reported_leaders"] == {}
         s.rollback()
+
+
+def test_sitemap_lists_site_pages_and_every_catalog_election(client):
+    response = client.get("/sitemap.xml")
+    assert response.status_code == 200
+    assert response.headers["content-type"].startswith("application/xml")
+    for election in client.get("/api/elections").json():
+        assert f"<loc>https://azelections.app/elections/{election['id']}</loc>" in response.text
+    assert "<loc>https://azelections.app/</loc>" in response.text
+    assert "<loc>https://azelections.app/methodology</loc>" in response.text
