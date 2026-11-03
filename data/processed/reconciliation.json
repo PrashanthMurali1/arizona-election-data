@@ -361,7 +361,7 @@
     "unexpected_candidates": [],
     "reference": "https://apps.azsos.gov/election/files/hist/canvass1986ge.pdf",
     "reference_snapshot": "data\\raw\\us-senate\\1986-transcription.csv",
-    "reference_sha256": "be7e064425c05794ebaad992cd577a66777d93f3355a87fc046fcf72a2cfcc7f",
+    "reference_sha256": "83b246d3aa1326b04c8fce6bb0f6bf0f726d27457b8b813920ac245d07789867",
     "candidates": [
       {
         "candidate": "Richard Kimball",

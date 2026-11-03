@@ -1,0 +1,573 @@
+{
+  "year": 1914,
+  "date": "1914-11-03",
+  "kind": "general",
+  "source_path": "data/raw/early-canvasses/pdfs/1914.pdf",
+  "source_sha256": "4912c894125d116723cd53181c8b70173b945dbce6af4d11c2fe48d075676489",
+  "absent_offices": [
+    "president",
+    "state-house",
+    "state-senate"
+  ],
+  "contests": [
+    {
+      "office_id": "us-senate",
+      "district": null,
+      "page": 19,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf",
+      "candidates": [
+        {
+          "name": "Mark A. Smith",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 25800,
+          "county_votes": {
+            "04001": 454,
+            "04003": 4624,
+            "04005": 909,
+            "04007": 2476,
+            "04009": 1124,
+            "04011": 1252,
+            "04013": 6304,
+            "04015": 850,
+            "04017": 787,
+            "04019": 1861,
+            "04021": 1048,
+            "04023": 638,
+            "04025": 2098,
+            "04027": 1375
+          }
+        },
+        {
+          "name": "J. L. Hubbell",
+          "party": "REP",
+          "write_in": false,
+          "votes": 9183,
+          "county_votes": {
+            "04001": 400,
+            "04003": 1015,
+            "04005": 548,
+            "04007": 685,
+            "04009": 364,
+            "04011": 433,
+            "04013": 1848,
+            "04015": 279,
+            "04017": 663,
+            "04019": 1060,
+            "04021": 235,
+            "04023": 282,
+            "04025": 1103,
+            "04027": 268
+          }
+        },
+        {
+          "name": "J. Bernard Nelson",
+          "party": "Prog",
+          "write_in": false,
+          "votes": 2608
+        },
+        {
+          "name": "Bert Davis",
+          "party": "Soc",
+          "write_in": false,
+          "votes": 3582
+        },
+        {
+          "name": "Eugene W. Chafin",
+          "party": "Pro",
+          "write_in": false,
+          "votes": 7293
+        }
+      ],
+      "notes": "Mason compilation, PDF page 19 (printed page 12). Minor-party county votes remain combined when the source does not separate candidates.",
+      "county_groups": [
+        {
+          "name": "Other candidates (combined)",
+          "party": "OTHER",
+          "members": [
+            2,
+            3,
+            4
+          ],
+          "county_votes": {
+            "04001": 70,
+            "04003": 2434,
+            "04005": 304,
+            "04007": 964,
+            "04009": 530,
+            "04011": 412,
+            "04013": 5414,
+            "04015": 225,
+            "04017": 231,
+            "04019": 1090,
+            "04021": 372,
+            "04023": 120,
+            "04025": 917,
+            "04027": 399
+          }
+        }
+      ],
+      "summary_page": 17
+    },
+    {
+      "office_id": "us-house",
+      "district": "at-large",
+      "page": 30,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf",
+      "candidates": [
+        {
+          "name": "Carl Hayden",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 33306,
+          "county_votes": {
+            "04001": 590,
+            "04003": 5577,
+            "04005": 1146,
+            "04007": 2699,
+            "04009": 1391,
+            "04011": 1415,
+            "04013": 9863,
+            "04015": 939,
+            "04017": 1135,
+            "04019": 2203,
+            "04021": 1335,
+            "04023": 696,
+            "04025": 2741,
+            "04027": 1576
+          }
+        },
+        {
+          "name": "Henry L. Eads",
+          "party": "REP",
+          "write_in": false,
+          "votes": 7586,
+          "county_votes": {
+            "04001": 158,
+            "04003": 1065,
+            "04005": 358,
+            "04007": 502,
+            "04009": 263,
+            "04011": 379,
+            "04013": 1822,
+            "04015": 199,
+            "04017": 379,
+            "04019": 1111,
+            "04021": 138,
+            "04023": 239,
+            "04025": 782,
+            "04027": 191
+          }
+        },
+        {
+          "name": "Ulrich Grill",
+          "party": "Soc",
+          "write_in": false,
+          "votes": 3773,
+          "county_votes": {
+            "04001": 16,
+            "04003": 686,
+            "04005": 67,
+            "04007": 804,
+            "04009": 197,
+            "04011": 179,
+            "04013": 771,
+            "04015": 189,
+            "04017": 71,
+            "04019": 153,
+            "04021": 68,
+            "04023": 39,
+            "04025": 356,
+            "04027": 177
+          }
+        }
+      ],
+      "notes": "Mason compilation, PDF page 30 (printed page 23). Minor-party county votes remain combined when the source does not separate candidates.",
+      "summary_page": 27
+    },
+    {
+      "office_id": "governor",
+      "district": null,
+      "page": 46,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf",
+      "candidates": [
+        {
+          "name": "G. W. P. Hunt",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 25226,
+          "county_votes": {
+            "04001": 549,
+            "04003": 4700,
+            "04005": 976,
+            "04007": 2189,
+            "04009": 1096,
+            "04011": 1144,
+            "04013": 6223,
+            "04015": 947,
+            "04017": 897,
+            "04019": 1590,
+            "04021": 850,
+            "04023": 608,
+            "04025": 2137,
+            "04027": 1320
+          }
+        },
+        {
+          "name": "R. H. Cameron",
+          "party": "REP",
+          "write_in": false,
+          "votes": 17602,
+          "county_votes": {
+            "04001": 254,
+            "04003": 2371,
+            "04005": 886,
+            "04007": 1552,
+            "04009": 747,
+            "04011": 830,
+            "04013": 4455,
+            "04015": 358,
+            "04017": 749,
+            "04019": 1892,
+            "04021": 695,
+            "04023": 439,
+            "04025": 1889,
+            "04027": 485
+          }
+        },
+        {
+          "name": "J. R. Barnette",
+          "party": "Soc",
+          "write_in": false,
+          "votes": 2973
+        },
+        {
+          "name": "G. U. Young",
+          "party": "Prog",
+          "write_in": false,
+          "votes": 5206
+        }
+      ],
+      "notes": "Mason compilation, PDF page 46 (printed page 39). Minor-party county votes remain combined when the source does not separate candidates.",
+      "county_groups": [
+        {
+          "name": "Other candidates (combined)",
+          "party": "OTHER",
+          "members": [
+            2,
+            3
+          ],
+          "county_votes": {
+            "04001": 72,
+            "04003": 1305,
+            "04005": 170,
+            "04007": 774,
+            "04009": 288,
+            "04011": 230,
+            "04013": 3274,
+            "04015": 180,
+            "04017": 100,
+            "04019": 549,
+            "04021": 300,
+            "04023": 55,
+            "04025": 578,
+            "04027": 304
+          }
+        }
+      ],
+      "summary_page": 43
+    },
+    {
+      "office_id": "attorney-general",
+      "district": null,
+      "page": 61,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf",
+      "candidates": [
+        {
+          "name": "W. E. Jones",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 23477,
+          "county_votes": {
+            "04001": 482,
+            "04003": 4285,
+            "04005": 892,
+            "04007": 2032,
+            "04009": 1072,
+            "04011": 1205,
+            "04013": 5973,
+            "04015": 857,
+            "04017": 794,
+            "04019": 1404,
+            "04021": 812,
+            "04023": 574,
+            "04025": 1931,
+            "04027": 1164
+          }
+        },
+        {
+          "name": "J. E. Morrison",
+          "party": "REP",
+          "write_in": false,
+          "votes": 12632,
+          "county_votes": {
+            "04001": 208,
+            "04003": 1673,
+            "04005": 636,
+            "04007": 1162,
+            "04009": 566,
+            "04011": 607,
+            "04013": 2841,
+            "04015": 358,
+            "04017": 614,
+            "04019": 1492,
+            "04021": 336,
+            "04023": 359,
+            "04025": 1485,
+            "04027": 295
+          }
+        },
+        {
+          "name": "J. L. Alexander",
+          "party": "Prog",
+          "write_in": false,
+          "votes": 6713,
+          "county_votes": {
+            "04001": 91,
+            "04003": 1014,
+            "04005": 87,
+            "04007": 147,
+            "04009": 208,
+            "04011": 100,
+            "04013": 3144,
+            "04015": 46,
+            "04017": 66,
+            "04019": 610,
+            "04021": 479,
+            "04023": 33,
+            "04025": 370,
+            "04027": 318
+          }
+        }
+      ],
+      "notes": "Mason compilation, PDF page 61 (printed page 54). Minor-party county votes remain combined when the source does not separate candidates.",
+      "summary_page": 59
+    },
+    {
+      "office_id": "secretary-of-state",
+      "district": null,
+      "page": 76,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf",
+      "candidates": [
+        {
+          "name": "S. P. Osborn",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 30920,
+          "county_votes": {
+            "04001": 563,
+            "04003": 5366,
+            "04005": 1001,
+            "04007": 2585,
+            "04009": 1407,
+            "04011": 1202,
+            "04013": 8704,
+            "04015": 971,
+            "04017": 1041,
+            "04019": 2033,
+            "04021": 1179,
+            "04023": 641,
+            "04025": 2750,
+            "04027": 1477
+          }
+        },
+        {
+          "name": "C. G. Cole",
+          "party": "REP",
+          "write_in": false,
+          "votes": 9817,
+          "county_votes": {
+            "04001": 154,
+            "04003": 1229,
+            "04005": 548,
+            "04007": 610,
+            "04009": 348,
+            "04011": 660,
+            "04013": 2606,
+            "04015": 244,
+            "04017": 454,
+            "04019": 1272,
+            "04021": 264,
+            "04023": 317,
+            "04025": 863,
+            "04027": 248
+          }
+        },
+        {
+          "name": "Mrs. Leroy Kenberry",
+          "party": "Soc",
+          "write_in": false,
+          "votes": 4299,
+          "county_votes": {
+            "04001": 29,
+            "04003": 770,
+            "04005": 98,
+            "04007": 849,
+            "04009": 216,
+            "04011": 177,
+            "04013": 954,
+            "04015": 176,
+            "04017": 89,
+            "04019": 189,
+            "04021": 99,
+            "04023": 52,
+            "04025": 411,
+            "04027": 190
+          }
+        }
+      ],
+      "notes": "Mason compilation, PDF page 76 (printed page 69). Minor-party county votes remain combined when the source does not separate candidates.",
+      "summary_page": 74
+    }
+  ],
+  "unresolved": [
+    {
+      "office_id": "us-senate",
+      "district": null,
+      "field": "county_group_reconciliation",
+      "page": 19,
+      "reason": "Other candidates (combined): printed county cells sum to 13482; published individual statewide totals sum to 13483. No allocation or balancing adjustment made."
+    }
+  ],
+  "notes": "Original 1914 excerpt contains referenda and registration only; candidate results are supplied by Mason. Both sources retained.",
+  "additional_sources": [
+    {
+      "path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf",
+      "sha256": "cbbcafb08f346f9fbe5b7a032e6d8192514f2b858085473db8e1196ada0380bf",
+      "title": "Arizona General Election Results 1911-1960, Bruce B. Mason, Arizona State University, Bureau of Government Research (1961), Research Study No. 3",
+      "notes": "Academic compilation of official returns. PDF page references are one-based; printed pagination is seven pages lower. County Other columns combine minor parties; Total Vote is contest votes, not ballots cast."
+    }
+  ],
+  "turnout": {
+    "04001": {
+      "registered_voters": 1202,
+      "ballots_cast": null,
+      "percent": null,
+      "definition": "Registration from Mason compilation, PDF page 19 (printed page 12). Total Vote in these office tables means contest votes, not ballots cast. Turnout is calculated against registration for each single-seat contest.",
+      "page": 19,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf"
+    },
+    "04003": {
+      "registered_voters": 12811,
+      "ballots_cast": null,
+      "percent": null,
+      "definition": "Registration from Mason compilation, PDF page 19 (printed page 12). Total Vote in these office tables means contest votes, not ballots cast. Turnout is calculated against registration for each single-seat contest.",
+      "page": 19,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf"
+    },
+    "04005": {
+      "registered_voters": 2807,
+      "ballots_cast": null,
+      "percent": null,
+      "definition": "Registration from Mason compilation, PDF page 19 (printed page 12). Total Vote in these office tables means contest votes, not ballots cast. Turnout is calculated against registration for each single-seat contest.",
+      "page": 19,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf"
+    },
+    "04007": {
+      "registered_voters": 6154,
+      "ballots_cast": null,
+      "percent": null,
+      "definition": "Registration from Mason compilation, PDF page 19 (printed page 12). Total Vote in these office tables means contest votes, not ballots cast. Turnout is calculated against registration for each single-seat contest.",
+      "page": 19,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf"
+    },
+    "04009": {
+      "registered_voters": 2526,
+      "ballots_cast": null,
+      "percent": null,
+      "definition": "Registration from Mason compilation, PDF page 19 (printed page 12). Total Vote in these office tables means contest votes, not ballots cast. Turnout is calculated against registration for each single-seat contest.",
+      "page": 19,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf"
+    },
+    "04011": {
+      "registered_voters": 3037,
+      "ballots_cast": null,
+      "percent": null,
+      "definition": "Registration from Mason compilation, PDF page 19 (printed page 12). Total Vote in these office tables means contest votes, not ballots cast. Turnout is calculated against registration for each single-seat contest.",
+      "page": 19,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf"
+    },
+    "04013": {
+      "registered_voters": 18747,
+      "ballots_cast": null,
+      "percent": null,
+      "definition": "Registration from Mason compilation, PDF page 19 (printed page 12). Total Vote in these office tables means contest votes, not ballots cast. Turnout is calculated against registration for each single-seat contest.",
+      "page": 19,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf"
+    },
+    "04015": {
+      "registered_voters": 1854,
+      "ballots_cast": null,
+      "percent": null,
+      "definition": "Registration from Mason compilation, PDF page 19 (printed page 12). Total Vote in these office tables means contest votes, not ballots cast. Turnout is calculated against registration for each single-seat contest.",
+      "page": 19,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf"
+    },
+    "04017": {
+      "registered_voters": 2404,
+      "ballots_cast": null,
+      "percent": null,
+      "definition": "Registration from Mason compilation, PDF page 19 (printed page 12). Total Vote in these office tables means contest votes, not ballots cast. Turnout is calculated against registration for each single-seat contest.",
+      "page": 19,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf"
+    },
+    "04019": {
+      "registered_voters": 5207,
+      "ballots_cast": null,
+      "percent": null,
+      "definition": "Registration from Mason compilation, PDF page 19 (printed page 12). Total Vote in these office tables means contest votes, not ballots cast. Turnout is calculated against registration for each single-seat contest.",
+      "page": 19,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf"
+    },
+    "04021": {
+      "registered_voters": 2639,
+      "ballots_cast": null,
+      "percent": null,
+      "definition": "Registration from Mason compilation, PDF page 19 (printed page 12). Total Vote in these office tables means contest votes, not ballots cast. Turnout is calculated against registration for each single-seat contest.",
+      "page": 19,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf"
+    },
+    "04023": {
+      "registered_voters": 1379,
+      "ballots_cast": null,
+      "percent": null,
+      "definition": "Registration from Mason compilation, PDF page 19 (printed page 12). Total Vote in these office tables means contest votes, not ballots cast. Turnout is calculated against registration for each single-seat contest.",
+      "page": 19,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf"
+    },
+    "04025": {
+      "registered_voters": 6343,
+      "ballots_cast": null,
+      "percent": null,
+      "definition": "Registration from Mason compilation, PDF page 19 (printed page 12). Total Vote in these office tables means contest votes, not ballots cast. Turnout is calculated against registration for each single-seat contest.",
+      "page": 19,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf"
+    },
+    "04027": {
+      "registered_voters": 2817,
+      "ballots_cast": null,
+      "percent": null,
+      "definition": "Registration from Mason compilation, PDF page 19 (printed page 12). Total Vote in these office tables means contest votes, not ballots cast. Turnout is calculated against registration for each single-seat contest.",
+      "page": 19,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf"
+    },
+    "04": {
+      "registered_voters": 69927,
+      "ballots_cast": null,
+      "percent": null,
+      "definition": "Registration from Mason compilation, PDF page 19 (printed page 12). Total Vote in these office tables means contest votes, not ballots cast. Turnout is calculated against registration for each single-seat contest.",
+      "page": 19,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf"
+    }
+  }
+}

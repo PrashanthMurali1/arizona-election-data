@@ -1,0 +1,111 @@
+{
+  "year": 1906,
+  "date": "1906-11-06",
+  "kind": "general",
+  "source_path": "data/raw/early-canvasses/pdfs/1906.pdf",
+  "source_sha256": "922a844846b46912941e13aff771a6400f7cf0101eaebdc1030dd036b6c68e56",
+  "absent_offices": [
+    "us-senate",
+    "president",
+    "governor",
+    "attorney-general",
+    "secretary-of-state",
+    "state-house",
+    "state-senate"
+  ],
+  "contests": [
+    {
+      "office_id": "us-house",
+      "district": "at-large",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Smith",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 11101,
+          "county_votes": {
+            "04001": 203,
+            "04003": 2356,
+            "04005": 562,
+            "04007": 906,
+            "04009": 1159,
+            "04013": 1868,
+            "04015": 364,
+            "04017": 367,
+            "04019": 755,
+            "04021": 270,
+            "04023": 353,
+            "04025": 1560,
+            "04027": 378
+          }
+        },
+        {
+          "name": "Cooper",
+          "party": "REP",
+          "write_in": false,
+          "votes": 8909,
+          "county_votes": {
+            "04001": 251,
+            "04003": 1475,
+            "04005": 417,
+            "04007": 559,
+            "04009": 853,
+            "04013": 1545,
+            "04015": 107,
+            "04017": 223,
+            "04019": 1368,
+            "04021": 243,
+            "04023": 215,
+            "04025": 1179,
+            "04027": 474
+          }
+        },
+        {
+          "name": "Cannon",
+          "party": "Socialist",
+          "write_in": false,
+          "votes": 2078,
+          "county_votes": {
+            "04001": 9,
+            "04003": 545,
+            "04005": 16,
+            "04007": 391,
+            "04009": 256,
+            "04013": 150,
+            "04015": 82,
+            "04017": 19,
+            "04019": 85,
+            "04021": 15,
+            "04023": 12,
+            "04025": 374,
+            "04027": 124
+          }
+        },
+        {
+          "name": "Ainsworth",
+          "party": "Statehood Party",
+          "write_in": false,
+          "votes": 508,
+          "county_votes": {
+            "04001": 16,
+            "04003": 64,
+            "04005": 22,
+            "04007": 8,
+            "04009": 26,
+            "04013": 81,
+            "04015": 34,
+            "04017": 44,
+            "04019": 55,
+            "04021": 2,
+            "04023": 37,
+            "04025": 73,
+            "04027": 46
+          }
+        }
+      ],
+      "notes": "Territorial delegate to Congress. Only surnames are printed. The 1900, 1902 and 1904 retrospective summary tables on the same page are not this election. No statehood offices or territorial legislative candidate returns are included in this source."
+    }
+  ],
+  "unresolved": []
+}

@@ -1,0 +1,1585 @@
+{
+  "year": 1932,
+  "date": "1932-11-08",
+  "kind": "general",
+  "source_sha256": "ef1069930b3ec97b6ea3bf1533eac043b09a69e47f650d4de123f41daf5c59b0",
+  "turnout": {
+    "04001": {
+      "registered_voters": 2616,
+      "ballots_cast": null,
+      "percent": null,
+      "definition": "Registration from Mason compilation, PDF page 51 (printed page 44). Total Vote in these office tables means contest votes, not ballots cast. Turnout is calculated against registration for each single-seat contest.",
+      "page": 51,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf"
+    },
+    "04003": {
+      "registered_voters": 13371,
+      "ballots_cast": null,
+      "percent": null,
+      "definition": "Registration from Mason compilation, PDF page 51 (printed page 44). Total Vote in these office tables means contest votes, not ballots cast. Turnout is calculated against registration for each single-seat contest.",
+      "page": 51,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf"
+    },
+    "04005": {
+      "registered_voters": 4868,
+      "ballots_cast": null,
+      "percent": null,
+      "definition": "Registration from Mason compilation, PDF page 51 (printed page 44). Total Vote in these office tables means contest votes, not ballots cast. Turnout is calculated against registration for each single-seat contest.",
+      "page": 51,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf"
+    },
+    "04007": {
+      "registered_voters": 8283,
+      "ballots_cast": null,
+      "percent": null,
+      "definition": "Registration from Mason compilation, PDF page 51 (printed page 44). Total Vote in these office tables means contest votes, not ballots cast. Turnout is calculated against registration for each single-seat contest.",
+      "page": 51,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf"
+    },
+    "04009": {
+      "registered_voters": 4561,
+      "ballots_cast": null,
+      "percent": null,
+      "definition": "Registration from Mason compilation, PDF page 51 (printed page 44). Total Vote in these office tables means contest votes, not ballots cast. Turnout is calculated against registration for each single-seat contest.",
+      "page": 51,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf"
+    },
+    "04011": {
+      "registered_voters": 2708,
+      "ballots_cast": null,
+      "percent": null,
+      "definition": "Registration from Mason compilation, PDF page 51 (printed page 44). Total Vote in these office tables means contest votes, not ballots cast. Turnout is calculated against registration for each single-seat contest.",
+      "page": 51,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf"
+    },
+    "04013": {
+      "registered_voters": 59663,
+      "ballots_cast": null,
+      "percent": null,
+      "definition": "Registration from Mason compilation, PDF page 51 (printed page 44). Total Vote in these office tables means contest votes, not ballots cast. Turnout is calculated against registration for each single-seat contest.",
+      "page": 51,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf"
+    },
+    "04015": {
+      "registered_voters": 2904,
+      "ballots_cast": null,
+      "percent": null,
+      "definition": "Registration from Mason compilation, PDF page 51 (printed page 44). Total Vote in these office tables means contest votes, not ballots cast. Turnout is calculated against registration for each single-seat contest.",
+      "page": 51,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf"
+    },
+    "04017": {
+      "registered_voters": 5214,
+      "ballots_cast": null,
+      "percent": null,
+      "definition": "Registration from Mason compilation, PDF page 51 (printed page 44). Total Vote in these office tables means contest votes, not ballots cast. Turnout is calculated against registration for each single-seat contest.",
+      "page": 51,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf"
+    },
+    "04019": {
+      "registered_voters": 22003,
+      "ballots_cast": null,
+      "percent": null,
+      "definition": "Registration from Mason compilation, PDF page 51 (printed page 44). Total Vote in these office tables means contest votes, not ballots cast. Turnout is calculated against registration for each single-seat contest.",
+      "page": 51,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf"
+    },
+    "04021": {
+      "registered_voters": 5861,
+      "ballots_cast": null,
+      "percent": null,
+      "definition": "Registration from Mason compilation, PDF page 51 (printed page 44). Total Vote in these office tables means contest votes, not ballots cast. Turnout is calculated against registration for each single-seat contest.",
+      "page": 51,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf"
+    },
+    "04023": {
+      "registered_voters": 2579,
+      "ballots_cast": null,
+      "percent": null,
+      "definition": "Registration from Mason compilation, PDF page 51 (printed page 44). Total Vote in these office tables means contest votes, not ballots cast. Turnout is calculated against registration for each single-seat contest.",
+      "page": 51,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf"
+    },
+    "04025": {
+      "registered_voters": 11789,
+      "ballots_cast": null,
+      "percent": null,
+      "definition": "Registration from Mason compilation, PDF page 51 (printed page 44). Total Vote in these office tables means contest votes, not ballots cast. Turnout is calculated against registration for each single-seat contest.",
+      "page": 51,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf"
+    },
+    "04027": {
+      "registered_voters": 5973,
+      "ballots_cast": null,
+      "percent": null,
+      "definition": "Registration from Mason compilation, PDF page 51 (printed page 44). Total Vote in these office tables means contest votes, not ballots cast. Turnout is calculated against registration for each single-seat contest.",
+      "page": 51,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf"
+    },
+    "04": {
+      "registered_voters": 152393,
+      "ballots_cast": null,
+      "percent": null,
+      "definition": "Registration from Mason compilation, PDF page 51 (printed page 44). Total Vote in these office tables means contest votes, not ballots cast. Turnout is calculated against registration for each single-seat contest.",
+      "page": 51,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf"
+    }
+  },
+  "absent_offices": [
+    "state-house",
+    "state-senate"
+  ],
+  "unresolved": [
+    {
+      "office_id": "state-house",
+      "reason": "No state legislative candidate returns appear in retained source."
+    },
+    {
+      "office_id": "state-senate",
+      "reason": "No state legislative candidate returns appear in retained source."
+    }
+  ],
+  "contests": [
+    {
+      "office_id": "president",
+      "district": "at-large",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Democratic elector slate",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 79264,
+          "county_votes": {
+            "04001": 1271,
+            "04003": 7798,
+            "04005": 2689,
+            "04007": 4625,
+            "04009": 2867,
+            "04011": 1558,
+            "04013": 28601,
+            "04015": 1660,
+            "04017": 2602,
+            "04019": 11061,
+            "04021": 3137,
+            "04023": 1606,
+            "04025": 6326,
+            "04027": 3463
+          }
+        },
+        {
+          "name": "Republican elector slate",
+          "party": "REP",
+          "write_in": false,
+          "votes": 36104,
+          "county_votes": {
+            "04001": 760,
+            "04003": 2838,
+            "04005": 1110,
+            "04007": 1865,
+            "04009": 718,
+            "04011": 377,
+            "04013": 15086,
+            "04015": 537,
+            "04017": 1248,
+            "04019": 6152,
+            "04021": 1000,
+            "04023": 625,
+            "04025": 2626,
+            "04027": 1162
+          }
+        },
+        {
+          "name": "Communist elector slate",
+          "party": "COM",
+          "write_in": false,
+          "votes": 256,
+          "county_votes": {
+            "04001": 1,
+            "04003": 9,
+            "04005": 4,
+            "04007": 19,
+            "04009": 10,
+            "04011": 13,
+            "04013": 95,
+            "04015": 5,
+            "04017": 2,
+            "04019": 50,
+            "04021": 7,
+            "04023": 3,
+            "04025": 19,
+            "04027": 19
+          }
+        },
+        {
+          "name": "Arizona Progressive Democratic elector slate",
+          "party": "Arizona Prog. Dem.",
+          "write_in": false,
+          "votes": 9,
+          "county_votes": {
+            "04001": 0,
+            "04003": 0,
+            "04005": 0,
+            "04007": 0,
+            "04009": 0,
+            "04011": 0,
+            "04013": 9,
+            "04015": 0,
+            "04017": 0,
+            "04019": 0,
+            "04021": 0,
+            "04023": 0,
+            "04025": 0,
+            "04027": 0
+          }
+        },
+        {
+          "name": "Socialist elector slate",
+          "party": "SOC",
+          "write_in": false,
+          "votes": 2618,
+          "county_votes": {
+            "04001": 2,
+            "04003": 571,
+            "04005": 50,
+            "04007": 209,
+            "04009": 30,
+            "04011": 6,
+            "04013": 489,
+            "04015": 81,
+            "04017": 294,
+            "04019": 464,
+            "04021": 40,
+            "04023": 26,
+            "04025": 170,
+            "04027": 186
+          }
+        },
+        {
+          "name": "Unnamed write-ins (REP)",
+          "party": "REP",
+          "write_in": true,
+          "votes": 1
+        },
+        {
+          "name": "Unnamed write-ins (SOC)",
+          "party": "SOC",
+          "write_in": true,
+          "votes": 1
+        },
+        {
+          "name": "Unnamed write-ins (NP)",
+          "party": "NP",
+          "write_in": true,
+          "votes": 6
+        }
+      ],
+      "notes": "Each named party elector slate is bracketed with one printed total, retained once. Democratic: John C. Flynn, William R. Matthews, Roy Wayland. Republican: L. M. McKinley, John C. Phillips, Joseph Udall. Communist: E. J. Bryan, J. R. Macaulay, John Parker. Socialist: Geo. W. Barnes, Mary L. Sherwood, Willard L. McBride. Arizona Prog. Dem. has 9 Maricopa votes but no elector names printed. Page 4 separately reports miscellaneous unnamed write-ins by party; these aggregate rows are preserved and are not identified individuals. County figures visually checked against retained canvass. Page 4 reports write-in totals by party only, without county allocation; those county figures remain missing rather than zero.",
+      "contest_id": "az-1932-historical-president-district-at-large",
+      "reconciliation": {
+        "status": "reported",
+        "page": 1,
+        "district": "at-large",
+        "candidates": [
+          {
+            "candidate": "Democratic elector slate",
+            "official_total": 79264,
+            "official_statewide": 79264,
+            "county_sum": 79264,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "Republican elector slate",
+            "official_total": 36104,
+            "official_statewide": 36104,
+            "county_sum": 36104,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "Communist elector slate",
+            "official_total": 256,
+            "official_statewide": 256,
+            "county_sum": 256,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "Arizona Progressive Democratic elector slate",
+            "official_total": 9,
+            "official_statewide": 9,
+            "county_sum": 9,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "Socialist elector slate",
+            "official_total": 2618,
+            "official_statewide": 2618,
+            "county_sum": 2618,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "Unnamed write-ins (REP)",
+            "official_total": 1,
+            "official_statewide": 1,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Unnamed write-ins (SOC)",
+            "official_total": 1,
+            "official_statewide": 1,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Unnamed write-ins (NP)",
+            "official_total": 6,
+            "official_statewide": 6,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "presidential-electors",
+        "notes": "Each named party elector slate is bracketed with one printed total, retained once. Democratic: John C. Flynn, William R. Matthews, Roy Wayland. Republican: L. M. McKinley, John C. Phillips, Joseph Udall. Communist: E. J. Bryan, J. R. Macaulay, John Parker. Socialist: Geo. W. Barnes, Mary L. Sherwood, Willard L. McBride. Arizona Prog. Dem. has 9 Maricopa votes but no elector names printed. Page 4 separately reports miscellaneous unnamed write-ins by party; these aggregate rows are preserved and are not identified individuals. County figures visually checked against retained canvass. Page 4 reports write-in totals by party only, without county allocation; those county figures remain missing rather than zero."
+      }
+    },
+    {
+      "office_id": "us-senate",
+      "district": null,
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Carl Hayden",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 74310,
+          "county_votes": {
+            "04001": 1323,
+            "04003": 7540,
+            "04005": 2457,
+            "04007": 3892,
+            "04009": 2527,
+            "04011": 1602,
+            "04013": 25859,
+            "04015": 1339,
+            "04017": 2800,
+            "04019": 11576,
+            "04021": 2951,
+            "04023": 1543,
+            "04025": 6129,
+            "04027": 2772
+          }
+        },
+        {
+          "name": "Ralph Cameron",
+          "party": "REP",
+          "write_in": false,
+          "votes": 35737,
+          "county_votes": {
+            "04001": 537,
+            "04003": 2613,
+            "04005": 1073,
+            "04007": 2453,
+            "04009": 740,
+            "04011": 274,
+            "04013": 16258,
+            "04015": 694,
+            "04017": 894,
+            "04019": 4787,
+            "04021": 1079,
+            "04023": 519,
+            "04025": 2308,
+            "04027": 1508
+          }
+        },
+        {
+          "name": "Ed. Haustgen",
+          "party": "COM",
+          "write_in": false,
+          "votes": 306,
+          "county_votes": {
+            "04001": 2,
+            "04003": 8,
+            "04005": 4,
+            "04007": 17,
+            "04009": 32,
+            "04011": 16,
+            "04013": 85,
+            "04015": 13,
+            "04017": 1,
+            "04019": 64,
+            "04021": 6,
+            "04023": 6,
+            "04025": 26,
+            "04027": 26
+          }
+        },
+        {
+          "name": "Lester B. Woolever",
+          "party": "SOC",
+          "write_in": false,
+          "votes": 1110,
+          "county_votes": {
+            "04001": 1,
+            "04003": 269,
+            "04005": 17,
+            "04007": 91,
+            "04009": 31,
+            "04011": 2,
+            "04013": 144,
+            "04015": 35,
+            "04017": 170,
+            "04019": 117,
+            "04021": 12,
+            "04023": 8,
+            "04025": 91,
+            "04027": 122
+          }
+        },
+        {
+          "name": "Unnamed write-ins (DEM)",
+          "party": "DEM",
+          "write_in": true,
+          "votes": 2
+        },
+        {
+          "name": "Unnamed write-ins (SOC)",
+          "party": "SOC",
+          "write_in": true,
+          "votes": 2
+        },
+        {
+          "name": "Unnamed write-ins (NP)",
+          "party": "NP",
+          "write_in": true,
+          "votes": 1
+        }
+      ],
+      "notes": "Page 4 separately reports miscellaneous unnamed write-ins by party; these aggregate rows are preserved and are not identified individuals. County figures visually checked against retained canvass. Page 4 reports write-in totals by party only, without county allocation; those county figures remain missing rather than zero.",
+      "contest_id": "az-1932-us-senate",
+      "reconciliation": {
+        "status": "reported",
+        "page": 1,
+        "district": null,
+        "candidates": [
+          {
+            "candidate": "Carl Hayden",
+            "official_total": 74310,
+            "official_statewide": 74310,
+            "county_sum": 74310,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "Ralph Cameron",
+            "official_total": 35737,
+            "official_statewide": 35737,
+            "county_sum": 35737,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "Ed. Haustgen",
+            "official_total": 306,
+            "official_statewide": 306,
+            "county_sum": 306,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "Lester B. Woolever",
+            "official_total": 1110,
+            "official_statewide": 1110,
+            "county_sum": 1110,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "Unnamed write-ins (DEM)",
+            "official_total": 2,
+            "official_statewide": 2,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Unnamed write-ins (SOC)",
+            "official_total": 2,
+            "official_statewide": 2,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Unnamed write-ins (NP)",
+            "official_total": 1,
+            "official_statewide": 1,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": false,
+        "result_basis": "candidate-votes",
+        "notes": "Page 4 separately reports miscellaneous unnamed write-ins by party; these aggregate rows are preserved and are not identified individuals. County figures visually checked against retained canvass. Page 4 reports write-in totals by party only, without county allocation; those county figures remain missing rather than zero."
+      }
+    },
+    {
+      "office_id": "us-house",
+      "district": "at-large",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Lewis W. Douglas",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 75469,
+          "county_votes": {
+            "04001": 1243,
+            "04003": 7760,
+            "04005": 2332,
+            "04007": 4749,
+            "04009": 2677,
+            "04011": 1621,
+            "04013": 26583,
+            "04015": 1298,
+            "04017": 2544,
+            "04019": 10985,
+            "04021": 3042,
+            "04023": 1587,
+            "04025": 6359,
+            "04027": 2689
+          }
+        },
+        {
+          "name": "H. B. Wilkinson",
+          "party": "REP",
+          "write_in": false,
+          "votes": 29710,
+          "county_votes": {
+            "04001": 493,
+            "04003": 2245,
+            "04005": 885,
+            "04007": 1338,
+            "04009": 490,
+            "04011": 203,
+            "04013": 13614,
+            "04015": 507,
+            "04017": 939,
+            "04019": 4829,
+            "04021": 849,
+            "04023": 419,
+            "04025": 1886,
+            "04027": 1013
+          }
+        },
+        {
+          "name": "Charles Lattal",
+          "party": "COM",
+          "write_in": false,
+          "votes": 293,
+          "county_votes": {
+            "04001": 2,
+            "04003": 8,
+            "04005": 4,
+            "04007": 18,
+            "04009": 23,
+            "04011": 16,
+            "04013": 78,
+            "04015": 17,
+            "04017": 2,
+            "04019": 54,
+            "04021": 8,
+            "04023": 5,
+            "04025": 35,
+            "04027": 23
+          }
+        },
+        {
+          "name": "Ladd Vomicil",
+          "party": "SOC",
+          "write_in": false,
+          "votes": 1112,
+          "county_votes": {
+            "04001": 0,
+            "04003": 254,
+            "04005": 18,
+            "04007": 101,
+            "04009": 23,
+            "04011": 2,
+            "04013": 152,
+            "04015": 37,
+            "04017": 176,
+            "04019": 114,
+            "04021": 16,
+            "04023": 8,
+            "04025": 79,
+            "04027": 132
+          }
+        },
+        {
+          "name": "Unnamed write-ins (REP)",
+          "party": "REP",
+          "write_in": true,
+          "votes": 1
+        },
+        {
+          "name": "Unnamed write-ins (NP)",
+          "party": "NP",
+          "write_in": true,
+          "votes": 4
+        }
+      ],
+      "notes": "Page 4 separately reports miscellaneous unnamed write-ins by party; these aggregate rows are preserved and are not identified individuals. County figures visually checked against retained canvass. Page 4 reports write-in totals by party only, without county allocation; those county figures remain missing rather than zero.",
+      "contest_id": "az-1932-historical-us-house-district-at-large",
+      "reconciliation": {
+        "status": "reported",
+        "page": 1,
+        "district": "at-large",
+        "candidates": [
+          {
+            "candidate": "Lewis W. Douglas",
+            "official_total": 75469,
+            "official_statewide": 75469,
+            "county_sum": 75469,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "H. B. Wilkinson",
+            "official_total": 29710,
+            "official_statewide": 29710,
+            "county_sum": 29710,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "Charles Lattal",
+            "official_total": 293,
+            "official_statewide": 293,
+            "county_sum": 293,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "Ladd Vomicil",
+            "official_total": 1112,
+            "official_statewide": 1112,
+            "county_sum": 1112,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "Unnamed write-ins (REP)",
+            "official_total": 1,
+            "official_statewide": 1,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Unnamed write-ins (NP)",
+            "official_total": 4,
+            "official_statewide": 4,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": false,
+        "result_basis": "candidate-votes",
+        "notes": "Page 4 separately reports miscellaneous unnamed write-ins by party; these aggregate rows are preserved and are not identified individuals. County figures visually checked against retained canvass. Page 4 reports write-in totals by party only, without county allocation; those county figures remain missing rather than zero."
+      }
+    },
+    {
+      "office_id": "governor",
+      "district": null,
+      "page": 2,
+      "candidates": [
+        {
+          "name": "B. B. Moeur",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 75314,
+          "county_votes": {
+            "04001": 1101,
+            "04003": 7724,
+            "04005": 2402,
+            "04007": 4441,
+            "04009": 3006,
+            "04011": 1588,
+            "04013": 29118,
+            "04015": 1603,
+            "04017": 2479,
+            "04019": 8403,
+            "04021": 3049,
+            "04023": 1356,
+            "04025": 5791,
+            "04027": 3253
+          }
+        },
+        {
+          "name": "Jack C. Kinney",
+          "party": "REP",
+          "write_in": false,
+          "votes": 42202,
+          "county_votes": {
+            "04001": 946,
+            "04003": 3290,
+            "04005": 1385,
+            "04007": 2189,
+            "04009": 795,
+            "04011": 387,
+            "04013": 15148,
+            "04015": 633,
+            "04017": 1528,
+            "04019": 9282,
+            "04021": 1210,
+            "04023": 821,
+            "04025": 3148,
+            "04027": 1440
+          }
+        },
+        {
+          "name": "M. E. Gehon",
+          "party": "COM",
+          "write_in": false,
+          "votes": 198,
+          "county_votes": {
+            "04001": 1,
+            "04003": 2,
+            "04005": 4,
+            "04007": 17,
+            "04009": 7,
+            "04011": 10,
+            "04013": 86,
+            "04015": 8,
+            "04017": 1,
+            "04019": 39,
+            "04021": 4,
+            "04023": 1,
+            "04025": 11,
+            "04027": 7
+          }
+        },
+        {
+          "name": "A. Bettwy",
+          "party": "Arizona Prog. Dem.",
+          "write_in": false,
+          "votes": 584,
+          "county_votes": {
+            "04001": 2,
+            "04003": 29,
+            "04005": 2,
+            "04007": 29,
+            "04009": 21,
+            "04011": 10,
+            "04013": 283,
+            "04015": 8,
+            "04017": 0,
+            "04019": 47,
+            "04021": 8,
+            "04023": 106,
+            "04025": 20,
+            "04027": 19
+          }
+        },
+        {
+          "name": "Lawrence McGivern",
+          "party": "SOC",
+          "write_in": false,
+          "votes": 826,
+          "county_votes": {
+            "04001": 1,
+            "04003": 208,
+            "04005": 14,
+            "04007": 79,
+            "04009": 16,
+            "04011": 1,
+            "04013": 110,
+            "04015": 20,
+            "04017": 144,
+            "04019": 48,
+            "04021": 8,
+            "04023": 5,
+            "04025": 81,
+            "04027": 91
+          }
+        },
+        {
+          "name": "Unnamed write-ins (DEM)",
+          "party": "DEM",
+          "write_in": true,
+          "votes": 1
+        },
+        {
+          "name": "Unnamed write-ins (REP)",
+          "party": "REP",
+          "write_in": true,
+          "votes": 1
+        },
+        {
+          "name": "Unnamed write-ins (SOC)",
+          "party": "SOC",
+          "write_in": true,
+          "votes": 1
+        },
+        {
+          "name": "Unnamed write-ins (NP)",
+          "party": "NP",
+          "write_in": true,
+          "votes": 2
+        }
+      ],
+      "notes": "Page 4 separately reports miscellaneous unnamed write-ins by party; these aggregate rows are preserved and are not identified individuals. County figures visually checked against retained canvass. Page 4 reports write-in totals by party only, without county allocation; those county figures remain missing rather than zero.",
+      "contest_id": "az-1932-governor",
+      "reconciliation": {
+        "status": "reported",
+        "page": 2,
+        "district": null,
+        "candidates": [
+          {
+            "candidate": "B. B. Moeur",
+            "official_total": 75314,
+            "official_statewide": 75314,
+            "county_sum": 75314,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "Jack C. Kinney",
+            "official_total": 42202,
+            "official_statewide": 42202,
+            "county_sum": 42202,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "M. E. Gehon",
+            "official_total": 198,
+            "official_statewide": 198,
+            "county_sum": 198,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "A. Bettwy",
+            "official_total": 584,
+            "official_statewide": 584,
+            "county_sum": 584,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "Lawrence McGivern",
+            "official_total": 826,
+            "official_statewide": 826,
+            "county_sum": 826,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "Unnamed write-ins (DEM)",
+            "official_total": 1,
+            "official_statewide": 1,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Unnamed write-ins (REP)",
+            "official_total": 1,
+            "official_statewide": 1,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Unnamed write-ins (SOC)",
+            "official_total": 1,
+            "official_statewide": 1,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Unnamed write-ins (NP)",
+            "official_total": 2,
+            "official_statewide": 2,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": false,
+        "result_basis": "candidate-votes",
+        "notes": "Page 4 separately reports miscellaneous unnamed write-ins by party; these aggregate rows are preserved and are not identified individuals. County figures visually checked against retained canvass. Page 4 reports write-in totals by party only, without county allocation; those county figures remain missing rather than zero."
+      }
+    },
+    {
+      "office_id": "secretary-of-state",
+      "district": null,
+      "page": 2,
+      "candidates": [
+        {
+          "name": "James H. Kerby",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 71547,
+          "county_votes": {
+            "04001": 1120,
+            "04003": 7498,
+            "04005": 2163,
+            "04007": 4470,
+            "04009": 2449,
+            "04011": 1552,
+            "04013": 25715,
+            "04015": 1491,
+            "04017": 2453,
+            "04019": 9996,
+            "04021": 2899,
+            "04023": 1382,
+            "04025": 5327,
+            "04027": 3032
+          }
+        },
+        {
+          "name": "Hugh R. Daggs",
+          "party": "REP",
+          "write_in": false,
+          "votes": 34445,
+          "county_votes": {
+            "04001": 691,
+            "04003": 2527,
+            "04005": 1171,
+            "04007": 1640,
+            "04009": 748,
+            "04011": 303,
+            "04013": 14249,
+            "04015": 440,
+            "04017": 1201,
+            "04019": 6142,
+            "04021": 974,
+            "04023": 630,
+            "04025": 2727,
+            "04027": 1002
+          }
+        },
+        {
+          "name": "James B. Carr",
+          "party": "COM",
+          "write_in": false,
+          "votes": 641,
+          "county_votes": {
+            "04001": 3,
+            "04003": 42,
+            "04005": 8,
+            "04007": 33,
+            "04009": 38,
+            "04011": 17,
+            "04013": 122,
+            "04015": 26,
+            "04017": 16,
+            "04019": 119,
+            "04021": 10,
+            "04023": 12,
+            "04025": 71,
+            "04027": 124
+          }
+        },
+        {
+          "name": "J. M. Brennan",
+          "party": "Arizona Prog. Dem.",
+          "write_in": false,
+          "votes": 1133,
+          "county_votes": {
+            "04001": 3,
+            "04003": 62,
+            "04005": 4,
+            "04007": 56,
+            "04009": 24,
+            "04011": 10,
+            "04013": 647,
+            "04015": 23,
+            "04017": 17,
+            "04019": 112,
+            "04021": 11,
+            "04023": 46,
+            "04025": 56,
+            "04027": 62
+          }
+        },
+        {
+          "name": "Unnamed write-ins (DEM)",
+          "party": "DEM",
+          "write_in": true,
+          "votes": 3
+        },
+        {
+          "name": "Unnamed write-ins (REP)",
+          "party": "REP",
+          "write_in": true,
+          "votes": 8
+        },
+        {
+          "name": "Unnamed write-ins (SOC)",
+          "party": "SOC",
+          "write_in": true,
+          "votes": 3
+        },
+        {
+          "name": "Unnamed write-ins (NP)",
+          "party": "NP",
+          "write_in": true,
+          "votes": 2
+        }
+      ],
+      "notes": "Page 4 separately reports miscellaneous unnamed write-ins by party; these aggregate rows are preserved and are not identified individuals. County figures visually checked against retained canvass. Page 4 reports write-in totals by party only, without county allocation; those county figures remain missing rather than zero.",
+      "contest_id": "az-1932-secretary-of-state",
+      "reconciliation": {
+        "status": "reported",
+        "page": 2,
+        "district": null,
+        "candidates": [
+          {
+            "candidate": "James H. Kerby",
+            "official_total": 71547,
+            "official_statewide": 71547,
+            "county_sum": 71547,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "Hugh R. Daggs",
+            "official_total": 34445,
+            "official_statewide": 34445,
+            "county_sum": 34445,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "James B. Carr",
+            "official_total": 641,
+            "official_statewide": 641,
+            "county_sum": 641,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "J. M. Brennan",
+            "official_total": 1133,
+            "official_statewide": 1133,
+            "county_sum": 1133,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "Unnamed write-ins (DEM)",
+            "official_total": 3,
+            "official_statewide": 3,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Unnamed write-ins (REP)",
+            "official_total": 8,
+            "official_statewide": 8,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Unnamed write-ins (SOC)",
+            "official_total": 3,
+            "official_statewide": 3,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Unnamed write-ins (NP)",
+            "official_total": 2,
+            "official_statewide": 2,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": false,
+        "result_basis": "candidate-votes",
+        "notes": "Page 4 separately reports miscellaneous unnamed write-ins by party; these aggregate rows are preserved and are not identified individuals. County figures visually checked against retained canvass. Page 4 reports write-in totals by party only, without county allocation; those county figures remain missing rather than zero."
+      }
+    },
+    {
+      "office_id": "attorney-general",
+      "district": null,
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Arthur T. LaPrade",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 74176,
+          "county_votes": {
+            "04001": 1230,
+            "04003": 7701,
+            "04005": 2246,
+            "04007": 4769,
+            "04009": 2565,
+            "04011": 1646,
+            "04013": 26285,
+            "04015": 1439,
+            "04017": 2687,
+            "04019": 10861,
+            "04021": 2958,
+            "04023": 1494,
+            "04025": 5490,
+            "04027": 2805
+          }
+        },
+        {
+          "name": "Geo. T. Wilson",
+          "party": "REP",
+          "write_in": false,
+          "votes": 33311,
+          "county_votes": {
+            "04001": 620,
+            "04003": 2380,
+            "04005": 1091,
+            "04007": 1380,
+            "04009": 595,
+            "04011": 212,
+            "04013": 14713,
+            "04015": 516,
+            "04017": 1126,
+            "04019": 5365,
+            "04021": 938,
+            "04023": 566,
+            "04025": 2631,
+            "04027": 1178
+          }
+        },
+        {
+          "name": "Clarence Laughrey",
+          "party": "COM",
+          "write_in": false,
+          "votes": 546,
+          "county_votes": {
+            "04001": 5,
+            "04003": 37,
+            "04005": 6,
+            "04007": 32,
+            "04009": 22,
+            "04011": 13,
+            "04013": 121,
+            "04015": 33,
+            "04017": 18,
+            "04019": 114,
+            "04021": 11,
+            "04023": 11,
+            "04025": 54,
+            "04027": 69
+          }
+        },
+        {
+          "name": "Unnamed write-ins (DEM)",
+          "party": "DEM",
+          "write_in": true,
+          "votes": 2
+        },
+        {
+          "name": "Unnamed write-ins (NP)",
+          "party": "NP",
+          "write_in": true,
+          "votes": 2
+        }
+      ],
+      "notes": "Page 4 separately reports miscellaneous unnamed write-ins by party; these aggregate rows are preserved and are not identified individuals. County figures visually checked against retained canvass. Page 4 reports write-in totals by party only, without county allocation; those county figures remain missing rather than zero.",
+      "contest_id": "az-1932-attorney-general",
+      "reconciliation": {
+        "status": "reported",
+        "page": 3,
+        "district": null,
+        "candidates": [
+          {
+            "candidate": "Arthur T. LaPrade",
+            "official_total": 74176,
+            "official_statewide": 74176,
+            "county_sum": 74176,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "Geo. T. Wilson",
+            "official_total": 33311,
+            "official_statewide": 33311,
+            "county_sum": 33311,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "Clarence Laughrey",
+            "official_total": 546,
+            "official_statewide": 546,
+            "county_sum": 546,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "Unnamed write-ins (DEM)",
+            "official_total": 2,
+            "official_statewide": 2,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Unnamed write-ins (NP)",
+            "official_total": 2,
+            "official_statewide": 2,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": false,
+        "result_basis": "candidate-votes",
+        "notes": "Page 4 separately reports miscellaneous unnamed write-ins by party; these aggregate rows are preserved and are not identified individuals. County figures visually checked against retained canvass. Page 4 reports write-in totals by party only, without county allocation; those county figures remain missing rather than zero."
+      }
+    }
+  ]
+}

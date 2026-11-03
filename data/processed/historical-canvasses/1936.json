@@ -1,0 +1,1061 @@
+{
+  "year": 1936,
+  "date": "1936-11-03",
+  "kind": "general",
+  "source_sha256": "f68d5ab063e553f53963b8c3d0e2938f55a322d176e69e5f0b1fb798526e0a5a",
+  "turnout": {
+    "04001": {
+      "registered_voters": 3348,
+      "ballots_cast": null,
+      "percent": null,
+      "definition": "Registration from Mason compilation, PDF page 52 (printed page 45). Total Vote in these office tables means contest votes, not ballots cast. Turnout is calculated against registration for each single-seat contest.",
+      "page": 52,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf"
+    },
+    "04003": {
+      "registered_voters": 13252,
+      "ballots_cast": null,
+      "percent": null,
+      "definition": "Registration from Mason compilation, PDF page 52 (printed page 45). Total Vote in these office tables means contest votes, not ballots cast. Turnout is calculated against registration for each single-seat contest.",
+      "page": 52,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf"
+    },
+    "04005": {
+      "registered_voters": 5879,
+      "ballots_cast": null,
+      "percent": null,
+      "definition": "Registration from Mason compilation, PDF page 52 (printed page 45). Total Vote in these office tables means contest votes, not ballots cast. Turnout is calculated against registration for each single-seat contest.",
+      "page": 52,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf"
+    },
+    "04007": {
+      "registered_voters": 8936,
+      "ballots_cast": null,
+      "percent": null,
+      "definition": "Registration from Mason compilation, PDF page 52 (printed page 45). Total Vote in these office tables means contest votes, not ballots cast. Turnout is calculated against registration for each single-seat contest.",
+      "page": 52,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf"
+    },
+    "04009": {
+      "registered_voters": 5697,
+      "ballots_cast": null,
+      "percent": null,
+      "definition": "Registration from Mason compilation, PDF page 52 (printed page 45). Total Vote in these office tables means contest votes, not ballots cast. Turnout is calculated against registration for each single-seat contest.",
+      "page": 52,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf"
+    },
+    "04011": {
+      "registered_voters": 2360,
+      "ballots_cast": null,
+      "percent": null,
+      "definition": "Registration from Mason compilation, PDF page 52 (printed page 45). Total Vote in these office tables means contest votes, not ballots cast. Turnout is calculated against registration for each single-seat contest.",
+      "page": 52,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf"
+    },
+    "04013": {
+      "registered_voters": 63000,
+      "ballots_cast": null,
+      "percent": null,
+      "definition": "Registration from Mason compilation, PDF page 52 (printed page 45). Total Vote in these office tables means contest votes, not ballots cast. Turnout is calculated against registration for each single-seat contest.",
+      "page": 52,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf"
+    },
+    "04015": {
+      "registered_voters": 3740,
+      "ballots_cast": null,
+      "percent": null,
+      "definition": "Registration from Mason compilation, PDF page 52 (printed page 45). Total Vote in these office tables means contest votes, not ballots cast. Turnout is calculated against registration for each single-seat contest.",
+      "page": 52,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf"
+    },
+    "04017": {
+      "registered_voters": 5364,
+      "ballots_cast": null,
+      "percent": null,
+      "definition": "Registration from Mason compilation, PDF page 52 (printed page 45). Total Vote in these office tables means contest votes, not ballots cast. Turnout is calculated against registration for each single-seat contest.",
+      "page": 52,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf"
+    },
+    "04019": {
+      "registered_voters": 24000,
+      "ballots_cast": null,
+      "percent": null,
+      "definition": "Registration from Mason compilation, PDF page 52 (printed page 45). Total Vote in these office tables means contest votes, not ballots cast. Turnout is calculated against registration for each single-seat contest.",
+      "page": 52,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf"
+    },
+    "04021": {
+      "registered_voters": 6758,
+      "ballots_cast": null,
+      "percent": null,
+      "definition": "Registration from Mason compilation, PDF page 52 (printed page 45). Total Vote in these office tables means contest votes, not ballots cast. Turnout is calculated against registration for each single-seat contest.",
+      "page": 52,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf"
+    },
+    "04023": {
+      "registered_voters": 3160,
+      "ballots_cast": null,
+      "percent": null,
+      "definition": "Registration from Mason compilation, PDF page 52 (printed page 45). Total Vote in these office tables means contest votes, not ballots cast. Turnout is calculated against registration for each single-seat contest.",
+      "page": 52,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf"
+    },
+    "04025": {
+      "registered_voters": 13386,
+      "ballots_cast": null,
+      "percent": null,
+      "definition": "Registration from Mason compilation, PDF page 52 (printed page 45). Total Vote in these office tables means contest votes, not ballots cast. Turnout is calculated against registration for each single-seat contest.",
+      "page": 52,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf"
+    },
+    "04027": {
+      "registered_voters": 6774,
+      "ballots_cast": null,
+      "percent": null,
+      "definition": "Registration from Mason compilation, PDF page 52 (printed page 45). Total Vote in these office tables means contest votes, not ballots cast. Turnout is calculated against registration for each single-seat contest.",
+      "page": 52,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf"
+    },
+    "04": {
+      "registered_voters": 165654,
+      "ballots_cast": null,
+      "percent": null,
+      "definition": "Registration from Mason compilation, PDF page 52 (printed page 45). Total Vote in these office tables means contest votes, not ballots cast. Turnout is calculated against registration for each single-seat contest.",
+      "page": 52,
+      "source_path": "data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf"
+    }
+  },
+  "absent_offices": [
+    "us-senate",
+    "state-house",
+    "state-senate"
+  ],
+  "unresolved": [
+    {
+      "office_id": "state-house",
+      "reason": "No state legislative candidate returns appear in retained source."
+    },
+    {
+      "office_id": "state-senate",
+      "reason": "No state legislative candidate returns appear in retained source."
+    },
+    {
+      "office_id": "attorney-general",
+      "page": 3,
+      "candidate": "Joe Conway",
+      "field": "votes",
+      "reason": "Printed county figures sum to 84,861; printed statewide total is 84,865. Both retained as printed."
+    }
+  ],
+  "contests": [
+    {
+      "office_id": "president",
+      "district": "at-large",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "J. J. (Jack) O'Dowd",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 86722,
+          "county_votes": {
+            "04001": 1674,
+            "04003": 8130,
+            "04005": 2578,
+            "04007": 4859,
+            "04009": 3541,
+            "04011": 1526,
+            "04013": 32031,
+            "04015": 1814,
+            "04017": 3037,
+            "04019": 12249,
+            "04021": 3498,
+            "04023": 1729,
+            "04025": 6628,
+            "04027": 3428
+          }
+        },
+        {
+          "name": "J. G. Peterson",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 86722,
+          "county_votes": {
+            "04001": 1674,
+            "04003": 8130,
+            "04005": 2578,
+            "04007": 4859,
+            "04009": 3541,
+            "04011": 1526,
+            "04013": 32031,
+            "04015": 1814,
+            "04017": 3037,
+            "04019": 12249,
+            "04021": 3498,
+            "04023": 1729,
+            "04025": 6628,
+            "04027": 3428
+          }
+        },
+        {
+          "name": "Mrs. W. H. Reeves",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 86722,
+          "county_votes": {
+            "04001": 1674,
+            "04003": 8130,
+            "04005": 2578,
+            "04007": 4859,
+            "04009": 3541,
+            "04011": 1526,
+            "04013": 32031,
+            "04015": 1814,
+            "04017": 3037,
+            "04019": 12249,
+            "04021": 3498,
+            "04023": 1729,
+            "04025": 6628,
+            "04027": 3428
+          }
+        },
+        {
+          "name": "Jack C. Kinney",
+          "party": "REP",
+          "write_in": false,
+          "votes": 33433,
+          "county_votes": {
+            "04001": 638,
+            "04003": 2092,
+            "04005": 1140,
+            "04007": 1526,
+            "04009": 680,
+            "04011": 218,
+            "04013": 13671,
+            "04015": 609,
+            "04017": 1052,
+            "04019": 6079,
+            "04021": 1216,
+            "04023": 742,
+            "04025": 2794,
+            "04027": 976
+          }
+        },
+        {
+          "name": "E. J. Nordyke",
+          "party": "REP",
+          "write_in": false,
+          "votes": 33433,
+          "county_votes": {
+            "04001": 638,
+            "04003": 2092,
+            "04005": 1140,
+            "04007": 1526,
+            "04009": 680,
+            "04011": 218,
+            "04013": 13671,
+            "04015": 609,
+            "04017": 1052,
+            "04019": 6079,
+            "04021": 1216,
+            "04023": 742,
+            "04025": 2794,
+            "04027": 976
+          }
+        },
+        {
+          "name": "J. C. Reed",
+          "party": "REP",
+          "write_in": false,
+          "votes": 33433,
+          "county_votes": {
+            "04001": 638,
+            "04003": 2092,
+            "04005": 1140,
+            "04007": 1526,
+            "04009": 680,
+            "04011": 218,
+            "04013": 13671,
+            "04015": 609,
+            "04017": 1052,
+            "04019": 6079,
+            "04021": 1216,
+            "04023": 742,
+            "04025": 2794,
+            "04027": 976
+          }
+        },
+        {
+          "name": "Alzina P. Boone",
+          "party": "Prohibition",
+          "write_in": false,
+          "votes": 384,
+          "county_votes": {
+            "04001": 4,
+            "04003": 3,
+            "04005": 12,
+            "04007": 9,
+            "04009": 67,
+            "04011": 0,
+            "04013": 188,
+            "04015": 1,
+            "04017": 3,
+            "04019": 41,
+            "04021": 11,
+            "04023": 3,
+            "04025": 32,
+            "04027": 10
+          }
+        },
+        {
+          "name": "John W. Forney",
+          "party": "Prohibition",
+          "write_in": false,
+          "votes": 384,
+          "county_votes": {
+            "04001": 4,
+            "04003": 3,
+            "04005": 12,
+            "04007": 9,
+            "04009": 67,
+            "04011": 0,
+            "04013": 188,
+            "04015": 1,
+            "04017": 3,
+            "04019": 41,
+            "04021": 11,
+            "04023": 3,
+            "04025": 32,
+            "04027": 10
+          }
+        },
+        {
+          "name": "O. R. Weed",
+          "party": "Prohibition",
+          "write_in": false,
+          "votes": 384,
+          "county_votes": {
+            "04001": 4,
+            "04003": 3,
+            "04005": 12,
+            "04007": 9,
+            "04009": 67,
+            "04011": 0,
+            "04013": 188,
+            "04015": 1,
+            "04017": 3,
+            "04019": 41,
+            "04021": 11,
+            "04023": 3,
+            "04025": 32,
+            "04027": 10
+          }
+        },
+        {
+          "name": "Anna Chase",
+          "party": "Socialist",
+          "write_in": false,
+          "votes": 317,
+          "county_votes": {
+            "04001": 4,
+            "04003": 42,
+            "04005": 10,
+            "04007": 10,
+            "04009": 9,
+            "04011": 1,
+            "04013": 123,
+            "04015": 11,
+            "04017": 15,
+            "04019": 43,
+            "04021": 7,
+            "04023": 3,
+            "04025": 22,
+            "04027": 17
+          }
+        },
+        {
+          "name": "Eli Link",
+          "party": "Socialist",
+          "write_in": false,
+          "votes": 317,
+          "county_votes": {
+            "04001": 4,
+            "04003": 42,
+            "04005": 10,
+            "04007": 10,
+            "04009": 9,
+            "04011": 1,
+            "04013": 123,
+            "04015": 11,
+            "04017": 15,
+            "04019": 43,
+            "04021": 7,
+            "04023": 3,
+            "04025": 22,
+            "04027": 17
+          }
+        },
+        {
+          "name": "Alva Shewey",
+          "party": "Socialist",
+          "write_in": false,
+          "votes": 317,
+          "county_votes": {
+            "04001": 4,
+            "04003": 42,
+            "04005": 10,
+            "04007": 10,
+            "04009": 9,
+            "04011": 1,
+            "04013": 123,
+            "04015": 11,
+            "04017": 15,
+            "04019": 43,
+            "04021": 7,
+            "04023": 3,
+            "04025": 22,
+            "04027": 17
+          }
+        },
+        {
+          "name": "Leona W. Moore",
+          "party": "Union",
+          "write_in": false,
+          "votes": 3307,
+          "county_votes": {
+            "04001": 7,
+            "04003": 232,
+            "04005": 89,
+            "04007": 164,
+            "04009": 78,
+            "04011": 26,
+            "04013": 1597,
+            "04015": 94,
+            "04017": 35,
+            "04019": 178,
+            "04021": 136,
+            "04023": 53,
+            "04025": 450,
+            "04027": 168
+          }
+        },
+        {
+          "name": "C. B. Spooner",
+          "party": "Union",
+          "write_in": false,
+          "votes": 3307,
+          "county_votes": {
+            "04001": 7,
+            "04003": 232,
+            "04005": 89,
+            "04007": 164,
+            "04009": 78,
+            "04011": 26,
+            "04013": 1597,
+            "04015": 94,
+            "04017": 35,
+            "04019": 178,
+            "04021": 136,
+            "04023": 53,
+            "04025": 450,
+            "04027": 168
+          }
+        },
+        {
+          "name": "W. J. Wherry",
+          "party": "Union",
+          "write_in": false,
+          "votes": 3307,
+          "county_votes": {
+            "04001": 7,
+            "04003": 232,
+            "04005": 89,
+            "04007": 164,
+            "04009": 78,
+            "04011": 26,
+            "04013": 1597,
+            "04015": 94,
+            "04017": 35,
+            "04019": 178,
+            "04021": 136,
+            "04023": 53,
+            "04025": 450,
+            "04027": 168
+          }
+        }
+      ],
+      "notes": "Each elector has a separately printed total, preserved as individual rows. Totals are not summed into presidential ticket votes. Source ticket labels: Democratic?Roosevelt; Republican?Landon; Prohibition?Colvin; Socialist?Thomas; Union?Lemke. County returns for each elector transcribed individually from page 1; repeated elector figures are not additional presidential ballots.",
+      "contest_id": "az-1936-historical-president-district-at-large",
+      "reconciliation": {
+        "status": "verified",
+        "page": 1,
+        "district": "at-large",
+        "candidates": [
+          {
+            "candidate": "J. J. (Jack) O'Dowd",
+            "official_total": 86722,
+            "official_statewide": 86722,
+            "county_sum": 86722,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "J. G. Peterson",
+            "official_total": 86722,
+            "official_statewide": 86722,
+            "county_sum": 86722,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "Mrs. W. H. Reeves",
+            "official_total": 86722,
+            "official_statewide": 86722,
+            "county_sum": 86722,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "Jack C. Kinney",
+            "official_total": 33433,
+            "official_statewide": 33433,
+            "county_sum": 33433,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "E. J. Nordyke",
+            "official_total": 33433,
+            "official_statewide": 33433,
+            "county_sum": 33433,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "J. C. Reed",
+            "official_total": 33433,
+            "official_statewide": 33433,
+            "county_sum": 33433,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "Alzina P. Boone",
+            "official_total": 384,
+            "official_statewide": 384,
+            "county_sum": 384,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "John W. Forney",
+            "official_total": 384,
+            "official_statewide": 384,
+            "county_sum": 384,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "O. R. Weed",
+            "official_total": 384,
+            "official_statewide": 384,
+            "county_sum": 384,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "Anna Chase",
+            "official_total": 317,
+            "official_statewide": 317,
+            "county_sum": 317,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "Eli Link",
+            "official_total": 317,
+            "official_statewide": 317,
+            "county_sum": 317,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "Alva Shewey",
+            "official_total": 317,
+            "official_statewide": 317,
+            "county_sum": 317,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "Leona W. Moore",
+            "official_total": 3307,
+            "official_statewide": 3307,
+            "county_sum": 3307,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "C. B. Spooner",
+            "official_total": 3307,
+            "official_statewide": 3307,
+            "county_sum": 3307,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "W. J. Wherry",
+            "official_total": 3307,
+            "official_statewide": 3307,
+            "county_sum": 3307,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          }
+        ],
+        "county_count": 14,
+        "coverage": "county",
+        "multi_seat": true,
+        "result_basis": "presidential-electors",
+        "notes": "Each elector has a separately printed total, preserved as individual rows. Totals are not summed into presidential ticket votes. Source ticket labels: Democratic?Roosevelt; Republican?Landon; Prohibition?Colvin; Socialist?Thomas; Union?Lemke. County returns for each elector transcribed individually from page 1; repeated elector figures are not additional presidential ballots."
+      }
+    },
+    {
+      "office_id": "us-house",
+      "district": "at-large",
+      "page": 2,
+      "candidates": [
+        {
+          "name": "John R. Murdock",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 84343,
+          "county_votes": {
+            "04001": 1394,
+            "04003": 7731,
+            "04005": 2217,
+            "04007": 4949,
+            "04009": 3336,
+            "04011": 1530,
+            "04013": 32825,
+            "04015": 1680,
+            "04017": 2778,
+            "04019": 11729,
+            "04021": 3474,
+            "04023": 1621,
+            "04025": 5873,
+            "04027": 3206
+          }
+        },
+        {
+          "name": "George L. Burgess",
+          "party": "REP",
+          "write_in": false,
+          "votes": 20383,
+          "county_votes": {
+            "04001": 385,
+            "04003": 1197,
+            "04005": 591,
+            "04007": 865,
+            "04009": 406,
+            "04011": 106,
+            "04013": 8491,
+            "04015": 321,
+            "04017": 587,
+            "04019": 4052,
+            "04021": 771,
+            "04023": 408,
+            "04025": 1590,
+            "04027": 613
+          }
+        },
+        {
+          "name": "A. B. Potter",
+          "party": "Socialist",
+          "write_in": false,
+          "votes": 295,
+          "county_votes": {
+            "04001": 3,
+            "04003": 62,
+            "04005": 9,
+            "04007": 13,
+            "04009": 2,
+            "04011": 0,
+            "04013": 93,
+            "04015": 11,
+            "04017": 22,
+            "04019": 32,
+            "04021": 3,
+            "04023": 4,
+            "04025": 25,
+            "04027": 16
+          }
+        },
+        {
+          "name": "E. C. Whitesitt",
+          "party": "Union",
+          "write_in": false,
+          "votes": 3729,
+          "county_votes": {
+            "04001": 5,
+            "04003": 245,
+            "04005": 95,
+            "04007": 151,
+            "04009": 94,
+            "04011": 7,
+            "04013": 1717,
+            "04015": 96,
+            "04017": 45,
+            "04019": 215,
+            "04021": 123,
+            "04023": 60,
+            "04025": 656,
+            "04027": 220
+          }
+        }
+      ],
+      "notes": " County figures visually transcribed from retained canvass page 2; printed county column headings determine GEOIDs.",
+      "contest_id": "az-1936-historical-us-house-district-at-large",
+      "reconciliation": {
+        "status": "verified",
+        "page": 2,
+        "district": "at-large",
+        "candidates": [
+          {
+            "candidate": "John R. Murdock",
+            "official_total": 84343,
+            "official_statewide": 84343,
+            "county_sum": 84343,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "George L. Burgess",
+            "official_total": 20383,
+            "official_statewide": 20383,
+            "county_sum": 20383,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "A. B. Potter",
+            "official_total": 295,
+            "official_statewide": 295,
+            "county_sum": 295,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "E. C. Whitesitt",
+            "official_total": 3729,
+            "official_statewide": 3729,
+            "county_sum": 3729,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          }
+        ],
+        "county_count": 14,
+        "coverage": "county",
+        "multi_seat": false,
+        "result_basis": "candidate-votes",
+        "notes": " County figures visually transcribed from retained canvass page 2; printed county column headings determine GEOIDs."
+      }
+    },
+    {
+      "office_id": "governor",
+      "district": null,
+      "page": 2,
+      "candidates": [
+        {
+          "name": "R. C. Stanford",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 87678,
+          "county_votes": {
+            "04001": 1661,
+            "04003": 7783,
+            "04005": 2446,
+            "04007": 5254,
+            "04009": 3440,
+            "04011": 1560,
+            "04013": 34098,
+            "04015": 1955,
+            "04017": 2852,
+            "04019": 11502,
+            "04021": 3552,
+            "04023": 1698,
+            "04025": 6648,
+            "04027": 3229
+          }
+        },
+        {
+          "name": "Thomas E. Campbell",
+          "party": "REP",
+          "write_in": false,
+          "votes": 36114,
+          "county_votes": {
+            "04001": 691,
+            "04003": 2566,
+            "04005": 1346,
+            "04007": 1390,
+            "04009": 988,
+            "04011": 208,
+            "04013": 13303,
+            "04015": 506,
+            "04017": 1297,
+            "04019": 7075,
+            "04021": 1305,
+            "04023": 851,
+            "04025": 3290,
+            "04027": 1298
+          }
+        },
+        {
+          "name": "Paul J. Lindaman",
+          "party": "Socialist",
+          "write_in": false,
+          "votes": 260,
+          "county_votes": {
+            "04001": 3,
+            "04003": 58,
+            "04005": 7,
+            "04007": 9,
+            "04009": 2,
+            "04011": 0,
+            "04013": 69,
+            "04015": 13,
+            "04017": 15,
+            "04019": 36,
+            "04021": 3,
+            "04023": 3,
+            "04025": 28,
+            "04027": 14
+          }
+        }
+      ],
+      "contest_id": "az-1936-governor",
+      "reconciliation": {
+        "status": "verified",
+        "page": 2,
+        "district": null,
+        "candidates": [
+          {
+            "candidate": "R. C. Stanford",
+            "official_total": 87678,
+            "official_statewide": 87678,
+            "county_sum": 87678,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "Thomas E. Campbell",
+            "official_total": 36114,
+            "official_statewide": 36114,
+            "county_sum": 36114,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "Paul J. Lindaman",
+            "official_total": 260,
+            "official_statewide": 260,
+            "county_sum": 260,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          }
+        ],
+        "county_count": 14,
+        "coverage": "county",
+        "multi_seat": false,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "secretary-of-state",
+      "district": null,
+      "page": 2,
+      "candidates": [
+        {
+          "name": "James H. Kerby",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 80439,
+          "county_votes": {
+            "04001": 1449,
+            "04003": 7726,
+            "04005": 2098,
+            "04007": 4972,
+            "04009": 2883,
+            "04011": 1543,
+            "04013": 31233,
+            "04015": 1866,
+            "04017": 2068,
+            "04019": 10290,
+            "04021": 3396,
+            "04023": 1609,
+            "04025": 5998,
+            "04027": 3308
+          }
+        },
+        {
+          "name": "Charles J. McQuillan",
+          "party": "REP",
+          "write_in": false,
+          "votes": 34864,
+          "county_votes": {
+            "04001": 706,
+            "04003": 2088,
+            "04005": 1262,
+            "04007": 1261,
+            "04009": 1147,
+            "04011": 183,
+            "04013": 12954,
+            "04015": 434,
+            "04017": 1805,
+            "04019": 7284,
+            "04021": 1124,
+            "04023": 749,
+            "04025": 2999,
+            "04027": 868
+          }
+        }
+      ],
+      "contest_id": "az-1936-secretary-of-state",
+      "reconciliation": {
+        "status": "verified",
+        "page": 2,
+        "district": null,
+        "candidates": [
+          {
+            "candidate": "James H. Kerby",
+            "official_total": 80439,
+            "official_statewide": 80439,
+            "county_sum": 80439,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "Charles J. McQuillan",
+            "official_total": 34864,
+            "official_statewide": 34864,
+            "county_sum": 34864,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          }
+        ],
+        "county_count": 14,
+        "coverage": "county",
+        "multi_seat": false,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "attorney-general",
+      "district": null,
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Joe Conway",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 84865,
+          "county_votes": {
+            "04001": 1632,
+            "04003": 8180,
+            "04005": 2407,
+            "04007": 5272,
+            "04009": 2999,
+            "04011": 1551,
+            "04013": 31474,
+            "04015": 1840,
+            "04017": 2811,
+            "04019": 11372,
+            "04021": 3694,
+            "04023": 1775,
+            "04025": 6463,
+            "04027": 3391
+          }
+        },
+        {
+          "name": "Henry H. Miller",
+          "party": "REP",
+          "write_in": false,
+          "votes": 31352,
+          "county_votes": {
+            "04001": 522,
+            "04003": 1650,
+            "04005": 968,
+            "04007": 1009,
+            "04009": 1031,
+            "04011": 151,
+            "04013": 13477,
+            "04015": 422,
+            "04017": 970,
+            "04019": 6238,
+            "04021": 938,
+            "04023": 579,
+            "04025": 2596,
+            "04027": 801
+          }
+        }
+      ],
+      "notes": " Joe Conway: printed candidate total 84,865 differs from printed county entries summing to 84,861; both are retained as printed. Conway county cells sum to 84,861, while page 3 prints statewide total 84,865; source figures retained without balancing.",
+      "contest_id": "az-1936-attorney-general",
+      "reconciliation": {
+        "status": "reported",
+        "page": 3,
+        "district": null,
+        "candidates": [
+          {
+            "candidate": "Joe Conway",
+            "official_total": 84865,
+            "official_statewide": 84865,
+            "county_sum": 84861,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": -4
+          },
+          {
+            "candidate": "Henry H. Miller",
+            "official_total": 31352,
+            "official_statewide": 31352,
+            "county_sum": 31352,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": false,
+        "result_basis": "candidate-votes",
+        "notes": " Joe Conway: printed candidate total 84,865 differs from printed county entries summing to 84,861; both are retained as printed. Conway county cells sum to 84,861, while page 3 prints statewide total 84,865; source figures retained without balancing."
+      }
+    }
+  ]
+}

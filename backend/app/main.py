@@ -5,7 +5,7 @@ from contextlib import asynccontextmanager
 import logging
 import time
 from fastapi import FastAPI, Depends, HTTPException, Request
-from fastapi.responses import Response, StreamingResponse
+from fastapi.responses import Response, StreamingResponse, FileResponse
 from xml.sax.saxutils import escape
 from sqlalchemy import select, func
 from sqlalchemy.orm import Session
@@ -33,9 +33,10 @@ from .schemas import (
     HouseOverviewOut,
     HouseDistrictDetailOut,
     HouseDistrictOut,
+    HistoricalOverviewOut,
 )
 from .http_cache import BrowserCacheRoute
-from . import house
+from . import house, historical, presidential
 from . import early_vote_updates
 from .lifecycle import activity, CONTEST, AG_CONTEST
 from .services import metadata, results
@@ -115,10 +116,37 @@ def elections(s: DB):
         metadata(s, c)
         for c in s.scalars(
             select(Contest)
-            .where(Contest.office_id != "us-house", Contest.id.not_in([CONTEST, AG_CONTEST]))
+            .where(Contest.office_id != "us-house", Contest.jurisdiction_id == "04", Contest.id.not_in([CONTEST, AG_CONTEST]))
             .order_by(Contest.id.desc())
         )
-    ] + house.catalog(s)
+    ] + house.catalog(s) + historical.catalog(s)
+
+
+@app.get('/api/historical-elections/{id}', response_model=HistoricalOverviewOut)
+def historical_election(id: str, s: DB):
+    return historical.overview(s, id)
+
+
+@app.get('/api/historical-sources/{id}', include_in_schema=False)
+def historical_source(id: str):
+    import json
+    import hashlib
+    from scripts.historical_canvasses import document_paths, document_sources, document_source_id, ROOT
+
+    for path in document_paths():
+        document = json.loads(path.read_text(encoding='utf-8'))
+        if 'contests' not in document:
+            continue
+        for source_path, info in document_sources(document).items():
+            if document_source_id(document, source_path) != id:
+                continue
+            pdf = (ROOT / source_path).resolve()
+            if not pdf.is_relative_to(ROOT / 'data/raw') or not pdf.is_file():
+                raise HTTPException(404, 'Retained historical source not found')
+            if hashlib.sha256(pdf.read_bytes()).hexdigest() != info['sha256']:
+                raise HTTPException(409, 'Retained source checksum mismatch')
+            return FileResponse(pdf, media_type='application/pdf', headers={'Content-Disposition': 'inline'})
+    raise HTTPException(404, 'Historical source not found')
 
 
 SITE_URL = "https://azelections.app"
@@ -137,9 +165,13 @@ def sitemap(s: DB):
 
 @app.get(
     "/api/elections/{id}",
-    response_model=HouseOverviewOut | HouseDistrictDetailOut | DetailOut,
+    response_model=HistoricalOverviewOut | HouseOverviewOut | HouseDistrictDetailOut | DetailOut,
 )
 def election(id: str, s: DB):
+    if presidential.is_archive(id):
+        return presidential.detail(s,id)
+    if '-historical-' in id and '-district-' not in id:
+        return historical.overview(s, id)
     if house.is_overview(id):
         return house.overview(s, id)
     requested_id = id
@@ -168,6 +200,8 @@ def election(id: str, s: DB):
     source_ids.update(
         s.scalars(select(Turnout.source_id).where(Turnout.event_id == c.event_id))
     )
+    if run:
+        source_ids.update(run.report.get('supplemental_source_ids', []))
     source_ids.difference_update(source.id for source in sources)
     sources.extend(s.get(Source, source_id) for source_id in sorted(source_ids))
     current_activity = activity(s, id)
@@ -188,6 +222,8 @@ def election(id: str, s: DB):
 
 @app.get("/api/elections/{id}/statewide", response_model=ResultsOut)
 def statewide(id: str, s: DB):
+    if presidential.is_archive(id):
+        return presidential.detail(s,id).statewide
     c = contest(s, id)
     if c.office_id == "us-house":
         raise HTTPException(
@@ -199,6 +235,8 @@ def statewide(id: str, s: DB):
 
 @app.get("/api/elections/{id}/counties", response_model=list[ResultsOut])
 def counties(id: str, s: DB):
+    if presidential.is_archive(id):
+        return presidential.counties(s,id)
     c = contest(s, id)
     units = s.scalars(
         select(GeographicUnit)
@@ -213,6 +251,12 @@ def counties(id: str, s: DB):
 
 @app.get("/api/elections/{id}/counties/{geoid}", response_model=ResultsOut)
 def county(id: str, geoid: str, s: DB):
+    if presidential.is_archive(id):
+        values = presidential.counties(s,id)
+        value = next((v for v in values if v.geoid == geoid),None)
+        if value is None:
+            raise HTTPException(404,'County not found')
+        return value
     c = contest(s, id)
     u = s.scalar(
         select(GeographicUnit)
@@ -230,6 +274,10 @@ def county(id: str, geoid: str, s: DB):
 
 @app.get("/api/elections/{id}/sources", response_model=list[SourceOut])
 def sources(id: str, s: DB):
+    if presidential.is_archive(id):
+        return presidential.detail(s,id).sources
+    if '-historical-' in id and '-district-' not in id:
+        return historical.overview(s, id)['sources']
     if house.is_overview(id):
         return house.overview(s, id)["sources"]
     c = contest(s, id)
@@ -240,6 +288,9 @@ def sources(id: str, s: DB):
 
 @app.get("/api/elections/{id}/activity", response_model=EarlyVotingActivityOut | ActivityOut | None)
 def election_activity(id: str, s: DB):
+    if presidential.is_archive(id):
+        presidential.context(s,id)
+        return None
     if house.is_overview(id):
         house.resolve(s, id)
         return None

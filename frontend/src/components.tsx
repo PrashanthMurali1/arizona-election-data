@@ -83,6 +83,12 @@ export function CandidateRow({
 export function CandidateSummary({ results }: { results: Results }) {
   return (
     <div className="candidate-summary">
+      {results.partial && (
+        <p className="footnote">
+          Shares use the reported candidate votes. Some source entries are not
+          allocated to this county.
+        </p>
+      )}
       {results.candidates.length ? (
         results.candidates.map((c) => <CandidateRow key={c.id} candidate={c} />)
       ) : (
@@ -98,12 +104,28 @@ export function TurnoutMetrics({ turnout }: { turnout: Turnout }) {
     <>
       <div className="turnout-metrics">
         <div>
-          <small>Official turnout</small>
+          <small>
+            {turnout.basis === "contest_votes"
+              ? "Turnout (% registered)"
+              : turnout.basis === "calculated_ballots"
+                ? "Calculated turnout"
+                : "Official turnout"}
+          </small>
           <strong>{percent(turnout.percent)}</strong>
         </div>
         <div>
-          <small>Ballots cast</small>
-          <strong>{number(turnout.ballots_cast)}</strong>
+          <small>
+            {turnout.basis === "contest_votes"
+              ? "Votes cast in this race"
+              : "Ballots cast"}
+          </small>
+          <strong>
+            {number(
+              turnout.basis === "contest_votes"
+                ? turnout.votes_cast
+                : turnout.ballots_cast,
+            )}
+          </strong>
         </div>
         <div>
           <small>Eligible registration</small>
@@ -236,9 +258,11 @@ export function CandidateOverview({
             </div>
             <div>
               <dt>
-                {unitKind === "district"
-                  ? "Official district turnout"
-                  : "Official statewide turnout"}
+                {results.turnout.basis === "contest_votes"
+                  ? "Turnout (% registered)"
+                  : unitKind === "district"
+                    ? "Official district turnout"
+                    : "Official statewide turnout"}
               </dt>
               <dd>{percent(results.turnout.percent)}</dd>
             </div>

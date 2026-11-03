@@ -1,0 +1,383 @@
+{
+  "year": 1926,
+  "date": "1926-11-02",
+  "kind": "general",
+  "source_path": "data/raw/early-canvasses/pdfs/1926.pdf",
+  "source_sha256": "19950ed2f1cf9dac504f61ef87e2e735f303affb383b3b73934a061a1a4619b0",
+  "absent_offices": [
+    "state-house",
+    "state-senate",
+    "president"
+  ],
+  "contests": [
+    {
+      "office_id": "us-senate",
+      "district": null,
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Carl Hayden",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 44591,
+          "county_votes": {
+            "04001": 694,
+            "04003": 4955,
+            "04005": 1400,
+            "04007": 3177,
+            "04009": 1597,
+            "04011": 1030,
+            "04013": 14974,
+            "04015": 1257,
+            "04017": 1404,
+            "04019": 5804,
+            "04021": 1578,
+            "04023": 843,
+            "04025": 4160,
+            "04027": 1718
+          }
+        },
+        {
+          "name": "Ralph H. Cameron",
+          "party": "REP",
+          "write_in": false,
+          "votes": 31845,
+          "county_votes": {
+            "04001": 757,
+            "04003": 4220,
+            "04005": 1088,
+            "04007": 2955,
+            "04009": 1022,
+            "04011": 421,
+            "04013": 10503,
+            "04015": 424,
+            "04017": 977,
+            "04019": 3379,
+            "04021": 1038,
+            "04023": 673,
+            "04025": 2659,
+            "04027": 1729
+          }
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "office_id": "us-house",
+      "district": "at-large",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Lewis W. Douglas",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 43725,
+          "county_votes": {
+            "04001": 772,
+            "04003": 6259,
+            "04005": 1187,
+            "04007": 3384,
+            "04009": 1799,
+            "04011": 1057,
+            "04013": 12783,
+            "04015": 1041,
+            "04017": 1350,
+            "04019": 5574,
+            "04021": 1568,
+            "04023": 948,
+            "04025": 4333,
+            "04027": 1670
+          }
+        },
+        {
+          "name": "O. J. Baughn",
+          "party": "REP",
+          "write_in": false,
+          "votes": 24502,
+          "county_votes": {
+            "04001": 433,
+            "04003": 2413,
+            "04005": 768,
+            "04007": 1703,
+            "04009": 468,
+            "04011": 236,
+            "04013": 10416,
+            "04015": 341,
+            "04017": 767,
+            "04019": 2871,
+            "04021": 787,
+            "04023": 461,
+            "04025": 1763,
+            "04027": 1075
+          }
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "office_id": "governor",
+      "district": null,
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Geo. W. P. Hunt",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 39979,
+          "county_votes": {
+            "04001": 753,
+            "04003": 4564,
+            "04005": 1464,
+            "04007": 3612,
+            "04009": 1561,
+            "04011": 936,
+            "04013": 12036,
+            "04015": 744,
+            "04017": 1346,
+            "04019": 4624,
+            "04021": 1514,
+            "04023": 771,
+            "04025": 3979,
+            "04027": 2075
+          }
+        },
+        {
+          "name": "E. S. Clark",
+          "party": "REP",
+          "write_in": false,
+          "votes": 39580,
+          "county_votes": {
+            "04001": 713,
+            "04003": 4826,
+            "04005": 1190,
+            "04007": 2826,
+            "04009": 1219,
+            "04011": 577,
+            "04013": 14178,
+            "04015": 1061,
+            "04017": 1120,
+            "04019": 5005,
+            "04021": 1219,
+            "04023": 784,
+            "04025": 3263,
+            "04027": 1599
+          }
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "office_id": "secretary-of-state",
+      "district": null,
+      "page": 1,
+      "candidates": [
+        {
+          "name": "James H. Kerby",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 46215,
+          "county_votes": {
+            "04001": 820,
+            "04003": 6003,
+            "04005": 1449,
+            "04007": 4004,
+            "04009": 1105,
+            "04011": 1011,
+            "04013": 14625,
+            "04015": 1144,
+            "04017": 1558,
+            "04019": 5209,
+            "04021": 1736,
+            "04023": 906,
+            "04025": 4320,
+            "04027": 2325
+          }
+        },
+        {
+          "name": "W. E. Barnum",
+          "party": "REP",
+          "write_in": false,
+          "votes": 25215,
+          "county_votes": {
+            "04001": 477,
+            "04003": 2469,
+            "04005": 847,
+            "04007": 1548,
+            "04009": 1397,
+            "04011": 385,
+            "04013": 9358,
+            "04015": 405,
+            "04017": 697,
+            "04019": 3495,
+            "04021": 692,
+            "04023": 507,
+            "04025": 2112,
+            "04027": 826
+          }
+        }
+      ],
+      "notes": " Printed county/total difference retained: James H. Kerby: county sum 46,255; printed total 46,215."
+    },
+    {
+      "office_id": "attorney-general",
+      "district": null,
+      "page": 1,
+      "candidates": [
+        {
+          "name": "John W. Murphy",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 43567,
+          "county_votes": {
+            "04001": 735,
+            "04003": 5563,
+            "04005": 1356,
+            "04007": 3845,
+            "04009": 1633,
+            "04011": 1084,
+            "04013": 13921,
+            "04015": 960,
+            "04017": 1370,
+            "04019": 5264,
+            "04021": 1626,
+            "04023": 889,
+            "04025": 3366,
+            "04027": 1955
+          }
+        },
+        {
+          "name": "Alfred Gale",
+          "party": "REP",
+          "write_in": false,
+          "votes": 24911,
+          "county_votes": {
+            "04001": 473,
+            "04003": 2501,
+            "04005": 860,
+            "04007": 1566,
+            "04009": 583,
+            "04011": 251,
+            "04013": 9143,
+            "04015": 534,
+            "04017": 734,
+            "04019": 3144,
+            "04021": 661,
+            "04023": 505,
+            "04025": 2976,
+            "04027": 980
+          }
+        }
+      ],
+      "notes": ""
+    }
+  ],
+  "unresolved": [],
+  "notes": "The supplied canvass contains statewide/federal returns, not legislative district returns. Source absence is not a claim that no legislative election occurred.",
+  "turnout": {
+    "04001": {
+      "ballots_cast": null,
+      "registered_voters": 2436,
+      "percent": null,
+      "definition": "Official total registration for 1926, including registrations before and after the primary election, as printed on page 3. The source does not provide ballots cast or a turnout percentage.",
+      "page": 3
+    },
+    "04003": {
+      "ballots_cast": null,
+      "registered_voters": 12721,
+      "percent": null,
+      "definition": "Official total registration for 1926, including registrations before and after the primary election, as printed on page 3. The source does not provide ballots cast or a turnout percentage.",
+      "page": 3
+    },
+    "04005": {
+      "ballots_cast": null,
+      "registered_voters": 3670,
+      "percent": null,
+      "definition": "Official total registration for 1926, including registrations before and after the primary election, as printed on page 3. The source does not provide ballots cast or a turnout percentage.",
+      "page": 3
+    },
+    "04007": {
+      "ballots_cast": null,
+      "registered_voters": 8914,
+      "percent": null,
+      "definition": "Official total registration for 1926, including registrations before and after the primary election, as printed on page 3. The source does not provide ballots cast or a turnout percentage.",
+      "page": 3
+    },
+    "04009": {
+      "ballots_cast": null,
+      "registered_voters": 3500,
+      "percent": null,
+      "definition": "Official total registration for 1926, including registrations before and after the primary election, as printed on page 3. The source does not provide ballots cast or a turnout percentage.",
+      "page": 3
+    },
+    "04011": {
+      "ballots_cast": null,
+      "registered_voters": 2066,
+      "percent": null,
+      "definition": "Official total registration for 1926, including registrations before and after the primary election, as printed on page 3. The source does not provide ballots cast or a turnout percentage.",
+      "page": 3
+    },
+    "04013": {
+      "ballots_cast": null,
+      "registered_voters": 36445,
+      "percent": null,
+      "definition": "Official total registration for 1926, including registrations before and after the primary election, as printed on page 3. The source does not provide ballots cast or a turnout percentage.",
+      "page": 3
+    },
+    "04015": {
+      "ballots_cast": null,
+      "registered_voters": 2361,
+      "percent": null,
+      "definition": "Official total registration for 1926, including registrations before and after the primary election, as printed on page 3. The source does not provide ballots cast or a turnout percentage.",
+      "page": 3
+    },
+    "04017": {
+      "ballots_cast": null,
+      "registered_voters": 3242,
+      "percent": null,
+      "definition": "Official total registration for 1926, including registrations before and after the primary election, as printed on page 3. The source does not provide ballots cast or a turnout percentage.",
+      "page": 3
+    },
+    "04019": {
+      "ballots_cast": null,
+      "registered_voters": 12757,
+      "percent": null,
+      "definition": "Official total registration for 1926, including registrations before and after the primary election, as printed on page 3. The source does not provide ballots cast or a turnout percentage.",
+      "page": 3
+    },
+    "04021": {
+      "ballots_cast": null,
+      "registered_voters": 3320,
+      "percent": null,
+      "definition": "Official total registration for 1926, including registrations before and after the primary election, as printed on page 3. The source does not provide ballots cast or a turnout percentage.",
+      "page": 3
+    },
+    "04023": {
+      "ballots_cast": null,
+      "registered_voters": 2264,
+      "percent": null,
+      "definition": "Official total registration for 1926, including registrations before and after the primary election, as printed on page 3. The source does not provide ballots cast or a turnout percentage.",
+      "page": 3
+    },
+    "04025": {
+      "ballots_cast": null,
+      "registered_voters": 9865,
+      "percent": null,
+      "definition": "Official total registration for 1926, including registrations before and after the primary election, as printed on page 3. The source does not provide ballots cast or a turnout percentage.",
+      "page": 3
+    },
+    "04027": {
+      "ballots_cast": null,
+      "registered_voters": 4928,
+      "percent": null,
+      "definition": "Official total registration for 1926, including registrations before and after the primary election, as printed on page 3. The source does not provide ballots cast or a turnout percentage.",
+      "page": 3
+    },
+    "04": {
+      "ballots_cast": null,
+      "registered_voters": 108489,
+      "percent": null,
+      "definition": "Official total registration for 1926, including registrations before and after the primary election, as printed on page 3. The source does not provide ballots cast or a turnout percentage.",
+      "page": 3
+    }
+  }
+}

@@ -18,10 +18,38 @@ const elections = [
     office_id: "attorney-general",
     boundary_id: "county",
   },
-] as Election[];
+].map((e) => ({ ...e, year: 2022 })) as Election[];
 afterEach(() => vi.unstubAllGlobals());
 
 describe("historical election HTTP prefetch", () => {
+  it("prefetches early statewide county maps and results", () => {
+    const early = [
+      {
+        id: "az-1911-governor",
+        office_id: "governor",
+        year: 1911,
+        boundary_id: "county-1966-1982",
+      },
+    ] as Election[];
+    expect(electionPrefetchUrls(early, "governor")).toEqual([
+      "/api/elections/az-1911-governor",
+      "/api/elections/az-1911-governor/counties",
+      "/api/elections/az-1911-governor/activity",
+      "/api/geography/county-1966-1982",
+    ]);
+  });
+  it("prefetches historical district results without requiring geography", () => {
+    const historical = [
+      {
+        id: "az-1966-historical-state-senate",
+        office_id: "state-senate",
+        boundary_id: "historical-results-1966",
+      },
+    ] as Election[];
+    expect(electionPrefetchUrls(historical, "state-senate")).toEqual([
+      "/api/historical-elections/az-1966-historical-state-senate",
+    ]);
+  });
   it("covers each office's page dependencies and deduplicates shared boundaries", () => {
     expect(electionPrefetchUrls(elections, "us-senate")).toEqual([
       "/api/elections/senate-old",

@@ -1,0 +1,467 @@
+{
+  "year": 1952,
+  "date": "1952-11-04",
+  "kind": "general",
+  "source_path": "data/raw/early-canvasses/pdfs/1952.1.pdf",
+  "source_sha256": "7f1ae47c7421f3fe10a1e784130ad7d88318c0cf3e08e75ac7c8aa8bf6f011b3",
+  "absent_offices": [
+    "state-house",
+    "state-senate"
+  ],
+  "contests": [
+    {
+      "office_id": "president",
+      "district": "at-large",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Democratic elector slate",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 108528,
+          "county_votes": {
+            "04001": 1193,
+            "04003": 5640,
+            "04005": 2408,
+            "04007": 4928,
+            "04009": 2200,
+            "04011": 3019,
+            "04013": 50285,
+            "04015": 1066,
+            "04017": 2593,
+            "04019": 21237,
+            "04021": 4522,
+            "04023": 1365,
+            "04025": 3628,
+            "04027": 4444
+          }
+        },
+        {
+          "name": "Republican elector slate",
+          "party": "REP",
+          "write_in": false,
+          "votes": 152042,
+          "county_votes": {
+            "04001": 1767,
+            "04003": 6495,
+            "04005": 3827,
+            "04007": 3770,
+            "04009": 2191,
+            "04011": 1377,
+            "04013": 77249,
+            "04015": 1746,
+            "04017": 3478,
+            "04019": 32113,
+            "04021": 4985,
+            "04023": 1716,
+            "04025": 6567,
+            "04027": 4761
+          }
+        }
+      ],
+      "notes": "Grouped elector slate totals, not individual-elector vote sums. Stevenson DEM electors: Ana Frohmiller, Howard D. Grant, Joe Hunt, L. Alton \"Pat\" Riggs. Eisenhower REP electors: Sam Dick, Guy Anderson, Laurens L. Henderson, F. B. Patterson.",
+      "multi_seat": true
+    },
+    {
+      "office_id": "us-senate",
+      "district": null,
+      "page": 2,
+      "candidates": [
+        {
+          "name": "Ernest W. McFarland",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 125338,
+          "county_votes": {
+            "04001": 1375,
+            "04003": 7188,
+            "04005": 2790,
+            "04007": 5540,
+            "04009": 2475,
+            "04011": 3128,
+            "04013": 56884,
+            "04015": 1469,
+            "04017": 3022,
+            "04019": 24096,
+            "04021": 5495,
+            "04023": 1651,
+            "04025": 4706,
+            "04027": 5519
+          }
+        },
+        {
+          "name": "Barry M. Goldwater",
+          "party": "REP",
+          "write_in": false,
+          "votes": 132063,
+          "county_votes": {
+            "04001": 1474,
+            "04003": 4791,
+            "04005": 3295,
+            "04007": 3033,
+            "04009": 1722,
+            "04011": 1152,
+            "04013": 69485,
+            "04015": 1255,
+            "04017": 2934,
+            "04019": 28551,
+            "04021": 3899,
+            "04023": 1370,
+            "04025": 5535,
+            "04027": 3567
+          }
+        }
+      ]
+    },
+    {
+      "office_id": "us-house",
+      "district": "1",
+      "page": 2,
+      "candidates": [
+        {
+          "name": "John R. Murdock",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 56622,
+          "county_votes": {
+            "04013": 56622
+          }
+        },
+        {
+          "name": "John J. Rhodes",
+          "party": "REP",
+          "write_in": false,
+          "votes": 66512,
+          "county_votes": {
+            "04013": 66512
+          }
+        }
+      ]
+    },
+    {
+      "office_id": "us-house",
+      "district": "2",
+      "page": 2,
+      "candidates": [
+        {
+          "name": "Harold A. Patten",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 71245,
+          "county_votes": {
+            "04001": 1448,
+            "04003": 7343,
+            "04005": 3065,
+            "04007": 5537,
+            "04009": 2529,
+            "04011": 3200,
+            "04015": 1471,
+            "04017": 3064,
+            "04019": 25951,
+            "04021": 5550,
+            "04023": 1776,
+            "04025": 4840,
+            "04027": 5471
+          }
+        },
+        {
+          "name": "William C. Frey",
+          "party": "REP",
+          "write_in": false,
+          "votes": 54021,
+          "county_votes": {
+            "04001": 1214,
+            "04003": 3832,
+            "04005": 2621,
+            "04007": 2543,
+            "04009": 1364,
+            "04011": 876,
+            "04015": 1064,
+            "04017": 2461,
+            "04019": 25631,
+            "04021": 3314,
+            "04023": 1076,
+            "04025": 4850,
+            "04027": 3175
+          }
+        }
+      ]
+    },
+    {
+      "office_id": "governor",
+      "district": null,
+      "page": 2,
+      "candidates": [
+        {
+          "name": "Joe C. Haldiman",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 103693,
+          "county_votes": {
+            "04001": 1231,
+            "04003": 5739,
+            "04005": 2208,
+            "04007": 5048,
+            "04009": 2114,
+            "04011": 2976,
+            "04013": 48362,
+            "04015": 1289,
+            "04017": 2506,
+            "04019": 18603,
+            "04021": 4278,
+            "04023": 1308,
+            "04025": 4065,
+            "04027": 3966
+          }
+        },
+        {
+          "name": "Howard Pyle",
+          "party": "REP",
+          "write_in": false,
+          "votes": 156592,
+          "county_votes": {
+            "04001": 1737,
+            "04003": 6380,
+            "04005": 4015,
+            "04007": 3715,
+            "04009": 2307,
+            "04011": 1376,
+            "04013": 79216,
+            "04015": 1509,
+            "04017": 3585,
+            "04019": 34232,
+            "04021": 5255,
+            "04023": 1791,
+            "04025": 6253,
+            "04027": 5221
+          }
+        }
+      ]
+    },
+    {
+      "office_id": "secretary-of-state",
+      "district": null,
+      "page": 2,
+      "candidates": [
+        {
+          "name": "Wesley Bolin",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 143724,
+          "county_votes": {
+            "04001": 1503,
+            "04003": 8048,
+            "04005": 3413,
+            "04007": 6155,
+            "04009": 2844,
+            "04011": 3385,
+            "04013": 67815,
+            "04015": 1622,
+            "04017": 3680,
+            "04019": 25602,
+            "04021": 6160,
+            "04023": 1832,
+            "04025": 5732,
+            "04027": 5933
+          }
+        },
+        {
+          "name": "John H. Eversole",
+          "party": "REP",
+          "write_in": false,
+          "votes": 103061,
+          "county_votes": {
+            "04001": 1158,
+            "04003": 3142,
+            "04005": 2243,
+            "04007": 2084,
+            "04009": 1091,
+            "04011": 762,
+            "04013": 55212,
+            "04015": 903,
+            "04017": 1953,
+            "04019": 24201,
+            "04021": 2905,
+            "04023": 947,
+            "04025": 3882,
+            "04027": 2578
+          }
+        }
+      ]
+    },
+    {
+      "office_id": "attorney-general",
+      "district": null,
+      "page": 2,
+      "candidates": [
+        {
+          "name": "Fred O. Wilson",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 116047,
+          "county_votes": {
+            "04001": 1458,
+            "04003": 6444,
+            "04005": 3012,
+            "04007": 5390,
+            "04009": 2474,
+            "04011": 3196,
+            "04013": 55282,
+            "04015": 1501,
+            "04017": 3233,
+            "04019": 18506,
+            "04021": 5009,
+            "04023": 1399,
+            "04025": 4588,
+            "04027": 4555
+          }
+        },
+        {
+          "name": "Ross F. Jones",
+          "party": "REP",
+          "write_in": false,
+          "votes": 133963,
+          "county_votes": {
+            "04001": 1343,
+            "04003": 4937,
+            "04005": 2794,
+            "04007": 2978,
+            "04009": 1574,
+            "04011": 975,
+            "04013": 67984,
+            "04015": 1033,
+            "04017": 2518,
+            "04019": 33052,
+            "04021": 4151,
+            "04023": 1484,
+            "04025": 5066,
+            "04027": 4074
+          }
+        }
+      ]
+    }
+  ],
+  "unresolved": [],
+  "turnout": {
+    "04001": {
+      "ballots_cast": 3135,
+      "registered_voters": 4289,
+      "percent": 73.1,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1952.1.pdf"
+    },
+    "04003": {
+      "ballots_cast": 12205,
+      "registered_voters": 14881,
+      "percent": 82.0,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1952.1.pdf"
+    },
+    "04005": {
+      "ballots_cast": 6471,
+      "registered_voters": 8108,
+      "percent": 79.8,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1952.1.pdf"
+    },
+    "04007": {
+      "ballots_cast": 9017,
+      "registered_voters": 11088,
+      "percent": 81.3,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1952.1.pdf"
+    },
+    "04009": {
+      "ballots_cast": 4348,
+      "registered_voters": 5563,
+      "percent": 78.2,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1952.1.pdf"
+    },
+    "04011": {
+      "ballots_cast": 4513,
+      "registered_voters": 5532,
+      "percent": 81.6,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1952.1.pdf"
+    },
+    "04013": {
+      "ballots_cast": 130340,
+      "registered_voters": 162589,
+      "percent": 80.2,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1952.1.pdf"
+    },
+    "04015": {
+      "ballots_cast": 2886,
+      "registered_voters": 3717,
+      "percent": 77.6,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1952.1.pdf"
+    },
+    "04017": {
+      "ballots_cast": 6331,
+      "registered_voters": 7613,
+      "percent": 83.2,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1952.1.pdf"
+    },
+    "04019": {
+      "ballots_cast": 55076,
+      "registered_voters": 64594,
+      "percent": 85.3,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1952.1.pdf"
+    },
+    "04021": {
+      "ballots_cast": 9754,
+      "registered_voters": 13015,
+      "percent": 74.9,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1952.1.pdf"
+    },
+    "04023": {
+      "ballots_cast": 3211,
+      "registered_voters": 3918,
+      "percent": 82.0,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1952.1.pdf"
+    },
+    "04025": {
+      "ballots_cast": 10591,
+      "registered_voters": 13171,
+      "percent": 80.4,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1952.1.pdf"
+    },
+    "04027": {
+      "ballots_cast": 9447,
+      "registered_voters": 12005,
+      "percent": 78.7,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1952.1.pdf"
+    },
+    "04": {
+      "ballots_cast": 267325,
+      "registered_voters": 330083,
+      "percent": 81.0,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1952.1.pdf"
+    }
+  }
+}

@@ -37,11 +37,13 @@ class CandidateOut(BaseModel):
 
 
 class TurnoutOut(BaseModel):
+    basis: str = 'published'
+    votes_cast: int | None = None
     ballots_cast: int | None = None
     registered_voters: int | None = None
     percent: float | None = None
     definition: str = (
-        "N/A — official turnout has not been imported for this reporting unit."
+        "The retained canvass does not provide an election-wide ballots-cast figure for this reporting unit."
     )
     source_id: str | None = None
 
@@ -54,6 +56,7 @@ class ResultsOut(BaseModel):
     candidates: list[CandidateOut]
     winner: CandidateOut | None
     turnout: TurnoutOut
+    partial: bool = False
 
 
 class DetailOut(BaseModel):
@@ -87,6 +90,24 @@ class HouseDistrictDetailOut(BaseModel):
     district: ResultsOut
     sources: list[SourceOut]
     reconciliation: dict[str, Any] | None
+
+
+class HistoricalContestOut(BaseModel):
+    district: str
+    contest_id: str
+    results: ResultsOut
+    page: int | None
+    notes: str
+    source_id: str | None = None
+
+
+class HistoricalOverviewOut(BaseModel):
+    election: HouseElectionOut
+    contests: list[HistoricalContestOut]
+    map_available: bool
+    multi_seat: bool
+    sources: list[SourceOut]
+    result_basis: str = 'district-votes'
 
 
 class GeometryOut(BaseModel):

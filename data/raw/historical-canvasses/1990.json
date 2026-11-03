@@ -1,0 +1,1899 @@
+{
+  "year": 1990,
+  "date": "1990-11-06",
+  "source_path": "data/raw/governor-historical/pdfs/canvass1990ge.pdf",
+  "source_sha256": "a292fe914c38d14c685d1c06a340dc3dcae586f99d8482faad4aa19878a7ee68",
+  "absent_offices": [
+    "president",
+    "us-senate"
+  ],
+  "contests": [
+    {
+      "office_id": "us-house",
+      "district": "1",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "John J. Rhodes III",
+          "party": "REP",
+          "write_in": false,
+          "votes": 166223
+        },
+        {
+          "name": "Betsy McDonald",
+          "party": "SW",
+          "write_in": true,
+          "votes": 172
+        },
+        {
+          "name": "Tim Rose",
+          "party": "REP",
+          "write_in": true,
+          "votes": 621
+        }
+      ]
+    },
+    {
+      "office_id": "us-house",
+      "district": "2",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Morris K. Udall",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 76549
+        },
+        {
+          "name": "Joseph Sweeney",
+          "party": "REP",
+          "write_in": false,
+          "votes": 39586
+        },
+        {
+          "name": "Kathleen Henry",
+          "party": "DEM",
+          "write_in": true,
+          "votes": 44
+        }
+      ]
+    },
+    {
+      "office_id": "us-house",
+      "district": "3",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Roger Hartstone",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 103018
+        },
+        {
+          "name": "Bob Stump",
+          "party": "REP",
+          "write_in": false,
+          "votes": 134279
+        }
+      ]
+    },
+    {
+      "office_id": "us-house",
+      "district": "4",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Mark Ivey, Jr.",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 89395
+        },
+        {
+          "name": "Jon Kyl",
+          "party": "REP",
+          "write_in": false,
+          "votes": 141843
+        }
+      ]
+    },
+    {
+      "office_id": "us-house",
+      "district": "5",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Chuck Phillips",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 75642
+        },
+        {
+          "name": "Jim Kolbe",
+          "party": "REP",
+          "write_in": false,
+          "votes": 138975
+        }
+      ]
+    },
+    {
+      "office_id": "governor",
+      "district": null,
+      "page": 2,
+      "candidates": [
+        {
+          "name": "Terry Goddard",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 519691
+        },
+        {
+          "name": "Fife Symington",
+          "party": "REP",
+          "write_in": false,
+          "votes": 523984
+        },
+        {
+          "name": "Rick Lee Campbell",
+          "party": "I",
+          "write_in": true,
+          "votes": 163
+        },
+        {
+          "name": "Patrick P. Castronovo",
+          "party": "REP",
+          "write_in": true,
+          "votes": 75
+        },
+        {
+          "name": "Peter J. Cojanis",
+          "party": "NPD",
+          "write_in": true,
+          "votes": 54
+        },
+        {
+          "name": "Max Hawkins",
+          "party": "SA",
+          "write_in": true,
+          "votes": 10983
+        },
+        {
+          "name": "Allen Weinstein",
+          "party": "I",
+          "write_in": true,
+          "votes": 76
+        },
+        {
+          "name": "Robert B. Winn",
+          "party": "NP",
+          "write_in": true,
+          "votes": 64
+        },
+        {
+          "name": "Ed Yetman",
+          "party": "LBT",
+          "write_in": true,
+          "votes": 316
+        }
+      ],
+      "notes": "Source notes that a runoff election is to be held pursuant to the cited constitutional and statutory provisions."
+    },
+    {
+      "office_id": "secretary-of-state",
+      "district": null,
+      "page": 2,
+      "candidates": [
+        {
+          "name": "Richard Mahoney",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 591664,
+          "county_votes": {
+            "04001": 10241,
+            "04003": 15532,
+            "04005": 16615,
+            "04007": 10087,
+            "04009": 5077,
+            "04011": 2186,
+            "04012": 2048,
+            "04013": 322802,
+            "04015": 14701,
+            "04017": 11863,
+            "04019": 124341,
+            "04021": 19555,
+            "04023": 4040,
+            "04025": 21819,
+            "04027": 10757
+          }
+        },
+        {
+          "name": "Ray Rottas",
+          "party": "REP",
+          "write_in": false,
+          "votes": 418361,
+          "county_votes": {
+            "04001": 2836,
+            "04003": 8068,
+            "04005": 9513,
+            "04007": 4176,
+            "04009": 2231,
+            "04011": 634,
+            "04012": 1277,
+            "04013": 268969,
+            "04015": 11780,
+            "04017": 5875,
+            "04019": 68792,
+            "04021": 8324,
+            "04023": 1677,
+            "04025": 17493,
+            "04027": 6716
+          }
+        }
+      ]
+    },
+    {
+      "office_id": "attorney-general",
+      "district": null,
+      "page": 2,
+      "candidates": [
+        {
+          "name": "Georgia Staton",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 426726,
+          "county_votes": {
+            "04001": 8742,
+            "04003": 11669,
+            "04005": 12919,
+            "04007": 7688,
+            "04009": 3574,
+            "04011": 1878,
+            "04012": 1612,
+            "04013": 226984,
+            "04015": 12046,
+            "04017": 9540,
+            "04019": 87346,
+            "04021": 14560,
+            "04023": 3206,
+            "04025": 15891,
+            "04027": 9071
+          }
+        },
+        {
+          "name": "Grant Woods",
+          "party": "REP",
+          "write_in": false,
+          "votes": 603534,
+          "county_votes": {
+            "04001": 4525,
+            "04003": 12381,
+            "04005": 14679,
+            "04007": 6612,
+            "04009": 3949,
+            "04011": 986,
+            "04012": 1808,
+            "04013": 376790,
+            "04015": 14942,
+            "04017": 8320,
+            "04019": 109316,
+            "04021": 13425,
+            "04023": 2489,
+            "04025": 24777,
+            "04027": 8535
+          }
+        },
+        {
+          "name": "Bernie Lumbert",
+          "party": "I",
+          "write_in": true,
+          "votes": 337,
+          "county_votes": {
+            "04001": 6,
+            "04003": 12,
+            "04005": 8,
+            "04007": 5,
+            "04009": 0,
+            "04011": 0,
+            "04012": 0,
+            "04013": 248,
+            "04015": 15,
+            "04017": 5,
+            "04019": 17,
+            "04021": 7,
+            "04023": 2,
+            "04025": 11,
+            "04027": 1
+          }
+        }
+      ]
+    },
+    {
+      "office_id": "state-house",
+      "district": "1",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Keith R. Seaman",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 22354
+        },
+        {
+          "name": "Don Aldridge",
+          "party": "REP",
+          "write_in": false,
+          "votes": 27903
+        },
+        {
+          "name": "Dave Carson",
+          "party": "REP",
+          "write_in": false,
+          "votes": 27608
+        }
+      ]
+    },
+    {
+      "office_id": "state-senate",
+      "district": "1",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Carol Springer",
+          "party": "REP",
+          "write_in": false,
+          "votes": 35295
+        }
+      ]
+    },
+    {
+      "office_id": "state-house",
+      "district": "2",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "John R. Parsons",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 14654
+        },
+        {
+          "name": "Wally Quayle",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 15634
+        },
+        {
+          "name": "Ben Benton",
+          "party": "REP",
+          "write_in": false,
+          "votes": 17650
+        },
+        {
+          "name": "John Wettaw",
+          "party": "REP",
+          "write_in": false,
+          "votes": 25053
+        },
+        {
+          "name": "Steven Saunders",
+          "party": "I",
+          "write_in": false,
+          "votes": 4285
+        }
+      ]
+    },
+    {
+      "office_id": "state-senate",
+      "district": "2",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Karan English",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 23100
+        },
+        {
+          "name": "Joe Hart",
+          "party": "REP",
+          "write_in": false,
+          "votes": 19860
+        }
+      ]
+    },
+    {
+      "office_id": "state-house",
+      "district": "3",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Benjamin Hanley",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 12233
+        },
+        {
+          "name": "Jack C. Jackson",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 13417
+        },
+        {
+          "name": "Daniel Peaches",
+          "party": "REP",
+          "write_in": false,
+          "votes": 5929
+        }
+      ]
+    },
+    {
+      "office_id": "state-senate",
+      "district": "3",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "James Henderson, Jr.",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 15532
+        },
+        {
+          "name": "Wilson Y. Deschine",
+          "party": "REP",
+          "write_in": false,
+          "votes": 5755
+        }
+      ]
+    },
+    {
+      "office_id": "state-house",
+      "district": "4",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Jack A. Brown",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 16843
+        },
+        {
+          "name": "E. C. \"Polly\" Rosenbaum",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 15180
+        },
+        {
+          "name": "Chuck Rosa III",
+          "party": "REP",
+          "write_in": false,
+          "votes": 11385
+        }
+      ]
+    },
+    {
+      "office_id": "state-senate",
+      "district": "4",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "A. V. \"Bill\" Hardt",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 16903
+        },
+        {
+          "name": "Joy T. Pearce",
+          "party": "REP",
+          "write_in": false,
+          "votes": 11488
+        }
+      ]
+    },
+    {
+      "office_id": "state-house",
+      "district": "5",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Herb Guenther",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 11885
+        },
+        {
+          "name": "Robert J. \"Bob\" McLendon",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 12395
+        },
+        {
+          "name": "La Roy F. Smith, Sr.",
+          "party": "REP",
+          "write_in": false,
+          "votes": 6305
+        },
+        {
+          "name": "Phil Wright",
+          "party": "REP",
+          "write_in": false,
+          "votes": 8996
+        }
+      ]
+    },
+    {
+      "office_id": "state-senate",
+      "district": "5",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Jones Osborn",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 10659
+        },
+        {
+          "name": "Jim Buster",
+          "party": "REP",
+          "write_in": false,
+          "votes": 10836
+        }
+      ]
+    },
+    {
+      "office_id": "state-house",
+      "district": "6",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Henry Evans",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 15531
+        },
+        {
+          "name": "Jim McCarthy",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 15475
+        },
+        {
+          "name": "Jim Hartdegen",
+          "party": "REP",
+          "write_in": false,
+          "votes": 16121
+        }
+      ]
+    },
+    {
+      "office_id": "state-senate",
+      "district": "6",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Alan Stephens",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 18301
+        },
+        {
+          "name": "Craig Runbeck",
+          "party": "REP",
+          "write_in": false,
+          "votes": 13314
+        }
+      ]
+    },
+    {
+      "office_id": "state-house",
+      "district": "7",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "Frank \"Art\" Celaya",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 15696
+        },
+        {
+          "name": "Richard \"Dick\" Pacheco",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 14687
+        },
+        {
+          "name": "Fritz Frey",
+          "party": "REP",
+          "write_in": false,
+          "votes": 11519
+        },
+        {
+          "name": "Edward J. B. Keeylocko",
+          "party": "NPD",
+          "write_in": true,
+          "votes": 5
+        }
+      ]
+    },
+    {
+      "office_id": "state-senate",
+      "district": "7",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "Peter Rios",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 16778
+        },
+        {
+          "name": "Dolores \"Dodie\" Rhodes",
+          "party": "REP",
+          "write_in": false,
+          "votes": 11420
+        },
+        {
+          "name": "Ken F. Kerber",
+          "party": "REP",
+          "write_in": true,
+          "votes": 4
+        }
+      ]
+    },
+    {
+      "office_id": "state-house",
+      "district": "8",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "Ruben F. Ortega",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 12797
+        },
+        {
+          "name": "Mike Palmer",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 13400
+        },
+        {
+          "name": "Bernard E. Christensen",
+          "party": "REP",
+          "write_in": false,
+          "votes": 10020
+        }
+      ]
+    },
+    {
+      "office_id": "state-senate",
+      "district": "8",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "Gus Arzberger",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 12096
+        },
+        {
+          "name": "Ramiro \"Tito\" Ross",
+          "party": "REP",
+          "write_in": false,
+          "votes": 6703
+        },
+        {
+          "name": "Steve Vukcevich",
+          "party": "I",
+          "write_in": false,
+          "votes": 5299
+        }
+      ]
+    },
+    {
+      "office_id": "state-house",
+      "district": "9",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "Marion L. Pickens",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 19848
+        },
+        {
+          "name": "Keith A. Bee",
+          "party": "REP",
+          "write_in": false,
+          "votes": 21922
+        },
+        {
+          "name": "Bill English",
+          "party": "REP",
+          "write_in": false,
+          "votes": 19001
+        },
+        {
+          "name": "Warren E. Faidley",
+          "party": "REP",
+          "write_in": true,
+          "votes": 5
+        }
+      ]
+    },
+    {
+      "office_id": "state-senate",
+      "district": "9",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "John E. Dougherty",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 20949
+        },
+        {
+          "name": "Jeffrey J. Hill",
+          "party": "REP",
+          "write_in": false,
+          "votes": 17233
+        }
+      ]
+    },
+    {
+      "office_id": "state-house",
+      "district": "10",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "Carmen Cajero",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 10638
+        },
+        {
+          "name": "Phillip Hubbard",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 9252
+        },
+        {
+          "name": "Jeannette Rose Allen",
+          "party": "FML",
+          "write_in": false,
+          "votes": 1568
+        },
+        {
+          "name": "Richard Brown",
+          "party": "LR",
+          "write_in": false,
+          "votes": 2178
+        },
+        {
+          "name": "Lorenzo Torrez",
+          "party": "MLK",
+          "write_in": false,
+          "votes": 2476
+        },
+        {
+          "name": "Tony Scopellite",
+          "party": "NPD",
+          "write_in": true,
+          "votes": 9
+        }
+      ]
+    },
+    {
+      "office_id": "state-senate",
+      "district": "10",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "Jesus \"Chuy\" Higuera",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 10413
+        },
+        {
+          "name": "Vicente \"Vince\" Becerra",
+          "party": "REP",
+          "write_in": false,
+          "votes": 4774
+        },
+        {
+          "name": "Nick J. Cutrules",
+          "party": "DEM",
+          "write_in": true,
+          "votes": 3
+        },
+        {
+          "name": "Richard R. Hayden",
+          "party": "NPD",
+          "write_in": true,
+          "votes": 6
+        },
+        {
+          "name": "David M. Lindley",
+          "party": "LBT",
+          "write_in": true,
+          "votes": 7
+        }
+      ]
+    },
+    {
+      "office_id": "state-house",
+      "district": "11",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "Peter Goudinoff",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 16295
+        },
+        {
+          "name": "John Kromko",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 15883
+        },
+        {
+          "name": "Mike Price",
+          "party": "REP",
+          "write_in": false,
+          "votes": 9655
+        },
+        {
+          "name": "Jennie Musci",
+          "party": "NPD",
+          "write_in": true,
+          "votes": 8
+        },
+        {
+          "name": "Dennis H. Williams",
+          "party": "DEM",
+          "write_in": true,
+          "votes": 9
+        }
+      ]
+    },
+    {
+      "office_id": "state-senate",
+      "district": "11",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "Jaime P. Gutierrez",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 20507
+        }
+      ]
+    },
+    {
+      "office_id": "state-house",
+      "district": "12",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "Evan J. Adelstein",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 18709
+        },
+        {
+          "name": "Phil Pierce",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 15428
+        },
+        {
+          "name": "Ruth E. Eskesen",
+          "party": "REP",
+          "write_in": false,
+          "votes": 23410
+        },
+        {
+          "name": "Jack B. Jewett",
+          "party": "REP",
+          "write_in": false,
+          "votes": 23353
+        },
+        {
+          "name": "Robert W. Byrd",
+          "party": "NPD",
+          "write_in": true,
+          "votes": 4
+        }
+      ]
+    },
+    {
+      "office_id": "state-senate",
+      "district": "12",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "Katherine Jacobson",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 20310
+        },
+        {
+          "name": "Ann Day",
+          "party": "REP",
+          "write_in": false,
+          "votes": 23680
+        },
+        {
+          "name": "Earl Harley",
+          "party": "NPD",
+          "write_in": true,
+          "votes": 15
+        }
+      ]
+    },
+    {
+      "office_id": "state-house",
+      "district": "13",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "Mark O'Hare",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 12948
+        },
+        {
+          "name": "Eleanor D. Schorr",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 21553
+        },
+        {
+          "name": "Patricia A. \"Patti\" Noland",
+          "party": "REP",
+          "write_in": false,
+          "votes": 24703
+        },
+        {
+          "name": "Tony Terry",
+          "party": "REP",
+          "write_in": false,
+          "votes": 16970
+        }
+      ]
+    },
+    {
+      "office_id": "state-senate",
+      "district": "13",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "David C. Bartlett",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 22608
+        },
+        {
+          "name": "Howard Parker",
+          "party": "REP",
+          "write_in": false,
+          "votes": 18095
+        }
+      ]
+    },
+    {
+      "office_id": "state-house",
+      "district": "14",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "Herschella Horton",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 15876
+        },
+        {
+          "name": "Ruth Solomon",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 20015
+        },
+        {
+          "name": "Michael B. \"Mike\" Gilbert",
+          "party": "REP",
+          "write_in": false,
+          "votes": 13499
+        },
+        {
+          "name": "Edmund D. \"Ed\" Kahn",
+          "party": "REP",
+          "write_in": false,
+          "votes": 14308
+        }
+      ]
+    },
+    {
+      "office_id": "state-senate",
+      "district": "14",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "Cindy L. Resnick",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 18662
+        },
+        {
+          "name": "Di Ann D. Ewing",
+          "party": "REP",
+          "write_in": false,
+          "votes": 16563
+        }
+      ]
+    },
+    {
+      "office_id": "state-house",
+      "district": "15",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "R. Wes Stephens",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 17146
+        },
+        {
+          "name": "Kyle W. Hindman",
+          "party": "REP",
+          "write_in": false,
+          "votes": 22098
+        },
+        {
+          "name": "Bob Williams",
+          "party": "REP",
+          "write_in": false,
+          "votes": 22061
+        },
+        {
+          "name": "Jack C. Bramlette",
+          "party": "I",
+          "write_in": true,
+          "votes": 92
+        }
+      ]
+    },
+    {
+      "office_id": "state-senate",
+      "district": "15",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "Bob Denny",
+          "party": "REP",
+          "write_in": false,
+          "votes": 29210
+        }
+      ]
+    },
+    {
+      "office_id": "state-house",
+      "district": "16",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Jerry Benson",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 15003
+        },
+        {
+          "name": "Dave McCarroll",
+          "party": "REP",
+          "write_in": false,
+          "votes": 16031
+        },
+        {
+          "name": "Karen Mills",
+          "party": "REP",
+          "write_in": false,
+          "votes": 19818
+        }
+      ]
+    },
+    {
+      "office_id": "state-senate",
+      "district": "16",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Stan Furman",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 20379
+        },
+        {
+          "name": "Wayne Stump",
+          "party": "REP",
+          "write_in": false,
+          "votes": 13450
+        }
+      ]
+    },
+    {
+      "office_id": "state-house",
+      "district": "17",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Brenda Burns",
+          "party": "REP",
+          "write_in": false,
+          "votes": 23665
+        },
+        {
+          "name": "Robert \"Bob\" Burns",
+          "party": "REP",
+          "write_in": false,
+          "votes": 20334
+        }
+      ]
+    },
+    {
+      "office_id": "state-senate",
+      "district": "17",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Ray Reese",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 13976
+        },
+        {
+          "name": "Patricia \"Pat\" Wright",
+          "party": "REP",
+          "write_in": false,
+          "votes": 21290
+        }
+      ]
+    },
+    {
+      "office_id": "state-house",
+      "district": "18",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Susan Gerard",
+          "party": "REP",
+          "write_in": false,
+          "votes": 19598
+        },
+        {
+          "name": "Jane Dee Hull",
+          "party": "REP",
+          "write_in": false,
+          "votes": 19265
+        },
+        {
+          "name": "Ernest Hancock",
+          "party": "I",
+          "write_in": true,
+          "votes": 101
+        },
+        {
+          "name": "Robert L. Stanford",
+          "party": "REP",
+          "write_in": true,
+          "votes": 33
+        }
+      ]
+    },
+    {
+      "office_id": "state-senate",
+      "district": "18",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Nancy Hill",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 16965
+        },
+        {
+          "name": "Leo Corbet",
+          "party": "REP",
+          "write_in": false,
+          "votes": 15507
+        }
+      ]
+    },
+    {
+      "office_id": "state-house",
+      "district": "19",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "June M. Merrill",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 20481
+        },
+        {
+          "name": "Don Kenney",
+          "party": "REP",
+          "write_in": false,
+          "votes": 26645
+        },
+        {
+          "name": "Nancy Wessel",
+          "party": "REP",
+          "write_in": false,
+          "votes": 29802
+        }
+      ]
+    },
+    {
+      "office_id": "state-senate",
+      "district": "19",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Marlene Abbott",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 20167
+        },
+        {
+          "name": "Jan Brewer",
+          "party": "REP",
+          "write_in": false,
+          "votes": 30052
+        }
+      ]
+    },
+    {
+      "office_id": "state-house",
+      "district": "20",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Debbie McCune-Davis",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 13048
+        },
+        {
+          "name": "Bobby Raymond",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 12338
+        },
+        {
+          "name": "Robert Blendu",
+          "party": "REP",
+          "write_in": false,
+          "votes": 8892
+        },
+        {
+          "name": "Judith Connell",
+          "party": "REP",
+          "write_in": false,
+          "votes": 10728
+        },
+        {
+          "name": "Harold B. Hayden",
+          "party": "NPD",
+          "write_in": true,
+          "votes": 5
+        }
+      ]
+    },
+    {
+      "office_id": "state-senate",
+      "district": "20",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Lela Alston",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 13395
+        },
+        {
+          "name": "Harry Fennemore",
+          "party": "REP",
+          "write_in": false,
+          "votes": 11239
+        }
+      ]
+    },
+    {
+      "office_id": "state-house",
+      "district": "21",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Daniel D. Cardenas",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 14084
+        },
+        {
+          "name": "Sandra J. Dudden",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 17018
+        },
+        {
+          "name": "Stan Barnes",
+          "party": "REP",
+          "write_in": false,
+          "votes": 22227
+        },
+        {
+          "name": "Leslie Whiting Johnson",
+          "party": "REP",
+          "write_in": false,
+          "votes": 21186
+        }
+      ]
+    },
+    {
+      "office_id": "state-senate",
+      "district": "21",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Bill Hegarty",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 16227
+        },
+        {
+          "name": "Matt Salmon",
+          "party": "REP",
+          "write_in": false,
+          "votes": 24191
+        },
+        {
+          "name": "Tom Wilkinson",
+          "party": "REP",
+          "write_in": true,
+          "votes": 24
+        }
+      ]
+    },
+    {
+      "office_id": "state-house",
+      "district": "22",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Art Hamilton",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 8530
+        },
+        {
+          "name": "Earl V. Wilcox",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 8249
+        }
+      ]
+    },
+    {
+      "office_id": "state-senate",
+      "district": "22",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Manuel \"Lito\" Pena, Jr.",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 8760
+        },
+        {
+          "name": "Bob Mayes",
+          "party": "REP",
+          "write_in": false,
+          "votes": 5156
+        }
+      ]
+    },
+    {
+      "office_id": "state-house",
+      "district": "23",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Sandra Kennedy",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 8053
+        },
+        {
+          "name": "Armando Ruiz",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 6513
+        }
+      ]
+    },
+    {
+      "office_id": "state-senate",
+      "district": "23",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Carolyn Walker",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 10129
+        },
+        {
+          "name": "Danny K. Booher",
+          "party": "SW",
+          "write_in": true,
+          "votes": 12
+        }
+      ]
+    },
+    {
+      "office_id": "state-house",
+      "district": "24",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Sue Grace",
+          "party": "REP",
+          "write_in": false,
+          "votes": 27854
+        },
+        {
+          "name": "Candice Nagel",
+          "party": "REP",
+          "write_in": false,
+          "votes": 29661
+        },
+        {
+          "name": "Dan Rose",
+          "party": "REP",
+          "write_in": true,
+          "votes": 117
+        }
+      ]
+    },
+    {
+      "office_id": "state-senate",
+      "district": "24",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "John Greene",
+          "party": "REP",
+          "write_in": false,
+          "votes": 36793
+        },
+        {
+          "name": "Carol Rose Keppler",
+          "party": "REP",
+          "write_in": true,
+          "votes": 53
+        }
+      ]
+    },
+    {
+      "office_id": "state-house",
+      "district": "25",
+      "page": 6,
+      "candidates": [
+        {
+          "name": "Chris Cummiskey",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 13070
+        },
+        {
+          "name": "Sue Laybe",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 13323
+        },
+        {
+          "name": "John King",
+          "party": "REP",
+          "write_in": false,
+          "votes": 12300
+        },
+        {
+          "name": "Margaret Updike",
+          "party": "REP",
+          "write_in": false,
+          "votes": 12496
+        },
+        {
+          "name": "Richard Bistany",
+          "party": "LBT",
+          "write_in": true,
+          "votes": 128
+        }
+      ]
+    },
+    {
+      "office_id": "state-senate",
+      "district": "25",
+      "page": 6,
+      "candidates": [
+        {
+          "name": "Chuck Blanchard",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 14689
+        },
+        {
+          "name": "Jacque Steiner",
+          "party": "REP",
+          "write_in": false,
+          "votes": 13484
+        }
+      ]
+    },
+    {
+      "office_id": "state-house",
+      "district": "26",
+      "page": 6,
+      "candidates": [
+        {
+          "name": "Jim Meredith",
+          "party": "REP",
+          "write_in": false,
+          "votes": 17992
+        },
+        {
+          "name": "Greg Patterson",
+          "party": "REP",
+          "write_in": false,
+          "votes": 16476
+        }
+      ]
+    },
+    {
+      "office_id": "state-senate",
+      "district": "26",
+      "page": 6,
+      "candidates": [
+        {
+          "name": "Paul C. Rodriguez",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 11075
+        },
+        {
+          "name": "Tom Patterson",
+          "party": "REP",
+          "write_in": false,
+          "votes": 19497
+        }
+      ]
+    },
+    {
+      "office_id": "state-house",
+      "district": "27",
+      "page": 6,
+      "candidates": [
+        {
+          "name": "Pat Walsh",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 18316
+        },
+        {
+          "name": "Bev Hermon",
+          "party": "REP",
+          "write_in": false,
+          "votes": 22142
+        },
+        {
+          "name": "Gary Richardson",
+          "party": "REP",
+          "write_in": false,
+          "votes": 19012
+        }
+      ]
+    },
+    {
+      "office_id": "state-senate",
+      "district": "27",
+      "page": 6,
+      "candidates": [
+        {
+          "name": "Doug Todd",
+          "party": "REP",
+          "write_in": false,
+          "votes": 26100
+        },
+        {
+          "name": "Ross W. Bruner",
+          "party": "NPD",
+          "write_in": true,
+          "votes": 31
+        },
+        {
+          "name": "Ilias Kostopoulos",
+          "party": "NP",
+          "write_in": true,
+          "votes": 17
+        },
+        {
+          "name": "Cindy Moeckel",
+          "party": "NOTA",
+          "write_in": true,
+          "votes": 28
+        }
+      ]
+    },
+    {
+      "office_id": "state-house",
+      "district": "28",
+      "page": 6,
+      "candidates": [
+        {
+          "name": "Bill Searle",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 20051
+        },
+        {
+          "name": "Lisa Graham",
+          "party": "REP",
+          "write_in": false,
+          "votes": 40925
+        },
+        {
+          "name": "David Schweikert",
+          "party": "REP",
+          "write_in": false,
+          "votes": 31175
+        },
+        {
+          "name": "Bonnie Francis",
+          "party": "REP",
+          "write_in": true,
+          "votes": 30
+        }
+      ]
+    },
+    {
+      "office_id": "state-senate",
+      "district": "28",
+      "page": 6,
+      "candidates": [
+        {
+          "name": "Barbara Ann \"Bobbie\" Morgenstern",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 14946
+        },
+        {
+          "name": "Ed Phillips",
+          "party": "REP",
+          "write_in": false,
+          "votes": 44242
+        },
+        {
+          "name": "Pete Morgan",
+          "party": "REP",
+          "write_in": true,
+          "votes": 16
+        }
+      ]
+    },
+    {
+      "office_id": "state-house",
+      "district": "29",
+      "page": 6,
+      "candidates": [
+        {
+          "name": "John M. Vidourek",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 10287
+        },
+        {
+          "name": "Pat Blake",
+          "party": "REP",
+          "write_in": false,
+          "votes": 17632
+        },
+        {
+          "name": "Lela Steffey",
+          "party": "REP",
+          "write_in": false,
+          "votes": 15834
+        }
+      ]
+    },
+    {
+      "office_id": "state-senate",
+      "district": "29",
+      "page": 6,
+      "candidates": [
+        {
+          "name": "Lester N. Pearce",
+          "party": "REP",
+          "write_in": false,
+          "votes": 19815
+        }
+      ]
+    },
+    {
+      "office_id": "state-house",
+      "district": "30",
+      "page": 6,
+      "candidates": [
+        {
+          "name": "Eileen Fellner",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 26156
+        },
+        {
+          "name": "Mark W. Killian",
+          "party": "REP",
+          "write_in": false,
+          "votes": 34967
+        },
+        {
+          "name": "William \"Bill\" A. Mundell",
+          "party": "REP",
+          "write_in": false,
+          "votes": 33595
+        }
+      ]
+    },
+    {
+      "office_id": "state-senate",
+      "district": "30",
+      "page": 6,
+      "candidates": [
+        {
+          "name": "James J. Sossaman",
+          "party": "REP",
+          "write_in": false,
+          "votes": 44320
+        }
+      ]
+    }
+  ],
+  "unresolved": [],
+  "turnout": {
+    "04001": {
+      "ballots_cast": 14284,
+      "registered_voters": 26353,
+      "percent": 54.2,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1990ge.pdf"
+    },
+    "04003": {
+      "ballots_cast": 25409,
+      "registered_voters": 45076,
+      "percent": 56.37,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1990ge.pdf"
+    },
+    "04005": {
+      "ballots_cast": 29668,
+      "registered_voters": 55325,
+      "percent": 53.62,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1990ge.pdf"
+    },
+    "04007": {
+      "ballots_cast": 15230,
+      "registered_voters": 23012,
+      "percent": 66.18,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1990ge.pdf"
+    },
+    "04009": {
+      "ballots_cast": 7975,
+      "registered_voters": 12968,
+      "percent": 61.5,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1990ge.pdf"
+    },
+    "04011": {
+      "ballots_cast": 3071,
+      "registered_voters": 4819,
+      "percent": 63.73,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1990ge.pdf"
+    },
+    "04012": {
+      "ballots_cast": 3641,
+      "registered_voters": 7004,
+      "percent": 51.98,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1990ge.pdf"
+    },
+    "04013": {
+      "ballots_cast": 640847,
+      "registered_voters": 1062231,
+      "percent": 60.33,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1990ge.pdf"
+    },
+    "04015": {
+      "ballots_cast": 28894,
+      "registered_voters": 51747,
+      "percent": 55.84,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1990ge.pdf"
+    },
+    "04017": {
+      "ballots_cast": 18864,
+      "registered_voters": 33794,
+      "percent": 55.82,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1990ge.pdf"
+    },
+    "04019": {
+      "ballots_cast": 208368,
+      "registered_voters": 371146,
+      "percent": 56.14,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1990ge.pdf"
+    },
+    "04021": {
+      "ballots_cast": 29880,
+      "registered_voters": 50816,
+      "percent": 58.8,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1990ge.pdf"
+    },
+    "04023": {
+      "ballots_cast": 6460,
+      "registered_voters": 10805,
+      "percent": 59.79,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1990ge.pdf"
+    },
+    "04025": {
+      "ballots_cast": 43180,
+      "registered_voters": 66671,
+      "percent": 64.77,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1990ge.pdf"
+    },
+    "04027": {
+      "ballots_cast": 18964,
+      "registered_voters": 38189,
+      "percent": 49.66,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1990ge.pdf"
+    },
+    "04": {
+      "ballots_cast": 1094735,
+      "registered_voters": 1859956,
+      "percent": 58.86,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1990ge.pdf"
+    }
+  }
+}

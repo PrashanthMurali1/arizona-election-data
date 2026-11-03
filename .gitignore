@@ -49,3 +49,4 @@ test-results/
 /data/processed/2018/vest-comparison.json
 /.production/
 /.production-cache/
+/tmp/

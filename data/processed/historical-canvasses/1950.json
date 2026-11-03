@@ -1,0 +1,632 @@
+{
+  "year": 1950,
+  "date": "1950-11-07",
+  "kind": "general",
+  "source_sha256": "6ada873adb6917d845e34fcfada45f8786f6c5e6c2d5c311879efdc51dc5a6d4",
+  "turnout": {
+    "04001": {
+      "ballots_cast": 2469,
+      "registered_voters": 3816,
+      "percent": 64.7,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1950.1.pdf"
+    },
+    "04003": {
+      "ballots_cast": 10569,
+      "registered_voters": 14014,
+      "percent": 75.4,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1950.1.pdf"
+    },
+    "04005": {
+      "ballots_cast": 4908,
+      "registered_voters": 6855,
+      "percent": 71.6,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1950.1.pdf"
+    },
+    "04007": {
+      "ballots_cast": 8025,
+      "registered_voters": 10738,
+      "percent": 74.7,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1950.1.pdf"
+    },
+    "04009": {
+      "ballots_cast": 3988,
+      "registered_voters": 5431,
+      "percent": 73.4,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1950.1.pdf"
+    },
+    "04011": {
+      "ballots_cast": 3513,
+      "registered_voters": 5052,
+      "percent": 69.5,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1950.1.pdf"
+    },
+    "04013": {
+      "ballots_cast": 93919,
+      "registered_voters": 131510,
+      "percent": 71.4,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1950.1.pdf"
+    },
+    "04015": {
+      "ballots_cast": 2694,
+      "registered_voters": 3876,
+      "percent": 69.5,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1950.1.pdf"
+    },
+    "04017": {
+      "ballots_cast": 4880,
+      "registered_voters": 6550,
+      "percent": 74.5,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1950.1.pdf"
+    },
+    "04019": {
+      "ballots_cast": 37966,
+      "registered_voters": 52775,
+      "percent": 71.9,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1950.1.pdf"
+    },
+    "04021": {
+      "ballots_cast": 7833,
+      "registered_voters": 11153,
+      "percent": 70.2,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1950.1.pdf"
+    },
+    "04023": {
+      "ballots_cast": 2772,
+      "registered_voters": 3454,
+      "percent": 80.3,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1950.1.pdf"
+    },
+    "04025": {
+      "ballots_cast": 9115,
+      "registered_voters": 12618,
+      "percent": 72.2,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1950.1.pdf"
+    },
+    "04027": {
+      "ballots_cast": 8116,
+      "registered_voters": 11322,
+      "percent": 71.7,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1950.1.pdf"
+    },
+    "04": {
+      "ballots_cast": 200767,
+      "registered_voters": 279164,
+      "percent": 71.9,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1950.1.pdf"
+    }
+  },
+  "absent_offices": [
+    "president",
+    "state-house",
+    "state-senate"
+  ],
+  "unresolved": [],
+  "contests": [
+    {
+      "office_id": "us-senate",
+      "district": null,
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Carl Hayden",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 116246,
+          "county_votes": {
+            "04001": 1636,
+            "04003": 7326,
+            "04005": 2859,
+            "04007": 5231,
+            "04009": 1864,
+            "04011": 2847,
+            "04013": 52032,
+            "04015": 1503,
+            "04017": 3094,
+            "04019": 21561,
+            "04021": 4945,
+            "04023": 1811,
+            "04025": 4661,
+            "04027": 4876
+          }
+        },
+        {
+          "name": "Bruce Brockett",
+          "party": "REP",
+          "write_in": false,
+          "votes": 68846,
+          "county_votes": {
+            "04001": 555,
+            "04003": 2623,
+            "04005": 1513,
+            "04007": 2142,
+            "04009": 1238,
+            "04011": 447,
+            "04013": 35160,
+            "04015": 845,
+            "04017": 1401,
+            "04019": 13673,
+            "04021": 2193,
+            "04023": 607,
+            "04025": 3855,
+            "04027": 2594
+          }
+        }
+      ],
+      "contest_id": "az-1950-us-senate",
+      "reconciliation": {
+        "status": "verified",
+        "page": 1,
+        "district": null,
+        "candidates": [
+          {
+            "candidate": "Carl Hayden",
+            "official_total": 116246,
+            "official_statewide": 116246,
+            "county_sum": 116246,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "Bruce Brockett",
+            "official_total": 68846,
+            "official_statewide": 68846,
+            "county_sum": 68846,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          }
+        ],
+        "county_count": 14,
+        "coverage": "county",
+        "multi_seat": false,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "us-house",
+      "district": "1",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "John R. Murdock",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 51526,
+          "county_votes": {
+            "04013": 51526
+          }
+        },
+        {
+          "name": "Carl W. Divelbiss",
+          "party": "REP",
+          "write_in": false,
+          "votes": 33528,
+          "county_votes": {
+            "04013": 33528
+          }
+        }
+      ],
+      "contest_id": "az-1950-historical-us-house-district-1",
+      "reconciliation": {
+        "status": "reported",
+        "page": 1,
+        "district": "1",
+        "candidates": [
+          {
+            "candidate": "John R. Murdock",
+            "official_total": 51526,
+            "official_statewide": 51526,
+            "county_sum": 51526,
+            "county_coverage": 1,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Carl W. Divelbiss",
+            "official_total": 33528,
+            "official_statewide": 33528,
+            "county_sum": 33528,
+            "county_coverage": 1,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": false,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "us-house",
+      "district": "2",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Harold A. \"Porque\" Patten",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 63991,
+          "county_votes": {
+            "04001": 1529,
+            "04003": 7148,
+            "04005": 2566,
+            "04007": 4946,
+            "04009": 1959,
+            "04011": 2756,
+            "04015": 1481,
+            "04017": 2554,
+            "04019": 22500,
+            "04021": 4856,
+            "04023": 1754,
+            "04025": 4899,
+            "04027": 5043
+          }
+        },
+        {
+          "name": "John H. Curnutte",
+          "party": "REP",
+          "write_in": false,
+          "votes": 28622,
+          "county_votes": {
+            "04001": 483,
+            "04003": 2177,
+            "04005": 1313,
+            "04007": 1753,
+            "04009": 711,
+            "04011": 392,
+            "04015": 687,
+            "04017": 1750,
+            "04019": 12170,
+            "04021": 1822,
+            "04023": 514,
+            "04025": 3017,
+            "04027": 1833
+          }
+        }
+      ],
+      "contest_id": "az-1950-historical-us-house-district-2",
+      "reconciliation": {
+        "status": "reported",
+        "page": 1,
+        "district": "2",
+        "candidates": [
+          {
+            "candidate": "Harold A. \"Porque\" Patten",
+            "official_total": 63991,
+            "official_statewide": 63991,
+            "county_sum": 63991,
+            "county_coverage": 13,
+            "missing_counties": [
+              "04013"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "John H. Curnutte",
+            "official_total": 28622,
+            "official_statewide": 28622,
+            "county_sum": 28622,
+            "county_coverage": 13,
+            "missing_counties": [
+              "04013"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": false,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "governor",
+      "district": null,
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Ana Frohmiller",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 96118,
+          "county_votes": {
+            "04001": 1329,
+            "04003": 6728,
+            "04005": 2146,
+            "04007": 4765,
+            "04009": 2015,
+            "04011": 2564,
+            "04013": 42493,
+            "04015": 1331,
+            "04017": 2288,
+            "04019": 16990,
+            "04021": 4024,
+            "04023": 1515,
+            "04025": 4106,
+            "04027": 3824
+          }
+        },
+        {
+          "name": "Howard Pyle",
+          "party": "REP",
+          "write_in": false,
+          "votes": 99109,
+          "county_votes": {
+            "04001": 1058,
+            "04003": 3676,
+            "04005": 2524,
+            "04007": 3128,
+            "04009": 1852,
+            "04011": 895,
+            "04013": 48798,
+            "04015": 1192,
+            "04017": 2488,
+            "04019": 19960,
+            "04021": 3625,
+            "04023": 1114,
+            "04025": 4798,
+            "04027": 4001
+          }
+        }
+      ],
+      "contest_id": "az-1950-governor",
+      "reconciliation": {
+        "status": "verified",
+        "page": 1,
+        "district": null,
+        "candidates": [
+          {
+            "candidate": "Ana Frohmiller",
+            "official_total": 96118,
+            "official_statewide": 96118,
+            "county_sum": 96118,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "Howard Pyle",
+            "official_total": 99109,
+            "official_statewide": 99109,
+            "county_sum": 99109,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          }
+        ],
+        "county_count": 14,
+        "coverage": "county",
+        "multi_seat": false,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "secretary-of-state",
+      "district": null,
+      "page": 2,
+      "candidates": [
+        {
+          "name": "Wesley Bolin",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 120940,
+          "county_votes": {
+            "04001": 1535,
+            "04003": 7550,
+            "04005": 2766,
+            "04007": 5471,
+            "04009": 2577,
+            "04011": 2844,
+            "04013": 55464,
+            "04015": 1624,
+            "04017": 3024,
+            "04019": 20790,
+            "04021": 5078,
+            "04023": 1702,
+            "04025": 5236,
+            "04027": 5279
+          }
+        },
+        {
+          "name": "R. J. Hight",
+          "party": "REP",
+          "write_in": false,
+          "votes": 60658,
+          "county_votes": {
+            "04001": 567,
+            "04003": 2081,
+            "04005": 1400,
+            "04007": 1700,
+            "04009": 808,
+            "04011": 398,
+            "04013": 31084,
+            "04015": 614,
+            "04017": 1307,
+            "04019": 13343,
+            "04021": 1961,
+            "04023": 593,
+            "04025": 2980,
+            "04027": 1822
+          }
+        }
+      ],
+      "contest_id": "az-1950-secretary-of-state",
+      "reconciliation": {
+        "status": "verified",
+        "page": 2,
+        "district": null,
+        "candidates": [
+          {
+            "candidate": "Wesley Bolin",
+            "official_total": 120940,
+            "official_statewide": 120940,
+            "county_sum": 120940,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "R. J. Hight",
+            "official_total": 60658,
+            "official_statewide": 60658,
+            "county_sum": 60658,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          }
+        ],
+        "county_count": 14,
+        "coverage": "county",
+        "multi_seat": false,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "attorney-general",
+      "district": null,
+      "page": 2,
+      "candidates": [
+        {
+          "name": "Fred O. Wilson",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 119566,
+          "county_votes": {
+            "04001": 1597,
+            "04003": 7505,
+            "04005": 2842,
+            "04007": 5532,
+            "04009": 2524,
+            "04011": 2852,
+            "04013": 53409,
+            "04015": 1590,
+            "04017": 3096,
+            "04019": 21138,
+            "04021": 5034,
+            "04023": 1817,
+            "04025": 5301,
+            "04027": 5329
+          }
+        },
+        {
+          "name": "John J. Rhodes",
+          "party": "REP",
+          "write_in": false,
+          "votes": 62617,
+          "county_votes": {
+            "04001": 558,
+            "04003": 2098,
+            "04005": 1371,
+            "04007": 1806,
+            "04009": 852,
+            "04011": 404,
+            "04013": 32580,
+            "04015": 670,
+            "04017": 1310,
+            "04019": 13530,
+            "04021": 2021,
+            "04023": 583,
+            "04025": 2988,
+            "04027": 1846
+          }
+        }
+      ],
+      "contest_id": "az-1950-attorney-general",
+      "reconciliation": {
+        "status": "verified",
+        "page": 2,
+        "district": null,
+        "candidates": [
+          {
+            "candidate": "Fred O. Wilson",
+            "official_total": 119566,
+            "official_statewide": 119566,
+            "county_sum": 119566,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "John J. Rhodes",
+            "official_total": 62617,
+            "official_statewide": 62617,
+            "county_sum": 62617,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          }
+        ],
+        "county_count": 14,
+        "coverage": "county",
+        "multi_seat": false,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    }
+  ]
+}

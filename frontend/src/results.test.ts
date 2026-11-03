@@ -1,6 +1,6 @@
 import { describe, it, expect } from "vitest";
 import { sortCounties, partyShare, percent, number } from "./results";
-import type { Results } from "./types";
+import type { Results, Candidate } from "./types";
 function row(name: string, total: number | null): Results {
   return {
     geoid: name,
@@ -19,6 +19,20 @@ function row(name: string, total: number | null): Results {
   };
 }
 describe("County table behavior", () => {
+  it("shows reported party shares when a write-in is unallocated", () => {
+    const partial = {
+      ...row("Apache", 100),
+      partial: true,
+      candidates: [
+        { party: "DEM", votes: 60 },
+        { party: "DEM", votes: null },
+        { party: "REP", votes: 40 },
+      ] as Candidate[],
+    };
+    expect(partyShare(partial, "DEM")).toBe(60);
+    expect(partyShare(partial, "REP")).toBe(40);
+    expect(partyShare({ ...partial, partial: false }, "DEM")).toBeNull();
+  });
   it("sorts contest totals descending, keeps unavailable values last and leaves input intact", () => {
     const rows = [row("Small", 2), row("Unavailable", null), row("Large", 100)];
     expect(

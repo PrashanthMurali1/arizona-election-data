@@ -1,0 +1,885 @@
+{
+  "year": 1948,
+  "date": "1948-11-02",
+  "kind": "general",
+  "source_sha256": "35e3143e370892c71efc5d876e3fce2b86772a13add0e0a1becdba956c75e42d",
+  "turnout": {
+    "04001": {
+      "ballots_cast": 2624,
+      "registered_voters": 3509,
+      "percent": 74.8,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1948.pdf"
+    },
+    "04003": {
+      "ballots_cast": 10821,
+      "registered_voters": 13805,
+      "percent": 78.4,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1948.pdf"
+    },
+    "04005": {
+      "ballots_cast": 4735,
+      "registered_voters": 6402,
+      "percent": 74.0,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1948.pdf"
+    },
+    "04007": {
+      "ballots_cast": 7717,
+      "registered_voters": 10096,
+      "percent": 76.4,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1948.pdf"
+    },
+    "04009": {
+      "ballots_cast": 3706,
+      "registered_voters": 4906,
+      "percent": 75.5,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1948.pdf"
+    },
+    "04011": {
+      "ballots_cast": 3102,
+      "registered_voters": 4610,
+      "percent": 67.3,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1948.pdf"
+    },
+    "04013": {
+      "ballots_cast": 81837,
+      "registered_voters": 107353,
+      "percent": 76.2,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1948.pdf"
+    },
+    "04015": {
+      "ballots_cast": 2865,
+      "registered_voters": 4165,
+      "percent": 68.8,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1948.pdf"
+    },
+    "04017": {
+      "ballots_cast": 4739,
+      "registered_voters": 6066,
+      "percent": 78.1,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1948.pdf"
+    },
+    "04019": {
+      "ballots_cast": 36823,
+      "registered_voters": 45674,
+      "percent": 80.6,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1948.pdf"
+    },
+    "04021": {
+      "ballots_cast": 6118,
+      "registered_voters": 9079,
+      "percent": 67.4,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1948.pdf"
+    },
+    "04023": {
+      "ballots_cast": 2680,
+      "registered_voters": 3488,
+      "percent": 76.8,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1948.pdf"
+    },
+    "04025": {
+      "ballots_cast": 9303,
+      "registered_voters": 12492,
+      "percent": 74.5,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1948.pdf"
+    },
+    "04027": {
+      "ballots_cast": 7253,
+      "registered_voters": 9353,
+      "percent": 77.5,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1948.pdf"
+    },
+    "04": {
+      "ballots_cast": 184323,
+      "registered_voters": 240998,
+      "percent": 76.5,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1948.pdf"
+    }
+  },
+  "absent_offices": [
+    "us-senate",
+    "state-house",
+    "state-senate"
+  ],
+  "unresolved": [],
+  "contests": [
+    {
+      "office_id": "president",
+      "district": "at-large",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Democratic elector slate",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 95251,
+          "county_votes": {
+            "04001": 1480,
+            "04003": 6198,
+            "04005": 2309,
+            "04007": 4780,
+            "04009": 2139,
+            "04011": 2069,
+            "04013": 40498,
+            "04015": 1499,
+            "04017": 2669,
+            "04019": 17692,
+            "04021": 3572,
+            "04023": 1424,
+            "04025": 4439,
+            "04027": 4483
+          }
+        },
+        {
+          "name": "Republican elector slate",
+          "party": "REP",
+          "write_in": false,
+          "votes": 77597,
+          "county_votes": {
+            "04001": 970,
+            "04003": 3854,
+            "04005": 2093,
+            "04007": 2329,
+            "04009": 1209,
+            "04011": 680,
+            "04013": 36585,
+            "04015": 1167,
+            "04017": 1841,
+            "04019": 16968,
+            "04021": 2232,
+            "04023": 1058,
+            "04025": 4287,
+            "04027": 2324
+          }
+        },
+        {
+          "name": "Progressive elector slate",
+          "party": "Prog",
+          "write_in": false,
+          "votes": 3310,
+          "county_votes": {
+            "04001": 0,
+            "04003": 284,
+            "04005": 26,
+            "04007": 120,
+            "04009": 31,
+            "04011": 202,
+            "04013": 1403,
+            "04015": 32,
+            "04017": 45,
+            "04019": 807,
+            "04021": 61,
+            "04023": 26,
+            "04025": 132,
+            "04027": 141
+          }
+        },
+        {
+          "name": "Prohibition elector slate",
+          "party": "Proh",
+          "write_in": false,
+          "votes": 786,
+          "county_votes": {
+            "04001": 5,
+            "04003": 29,
+            "04005": 11,
+            "04007": 31,
+            "04009": 6,
+            "04011": 8,
+            "04013": 459,
+            "04015": 8,
+            "04017": 8,
+            "04019": 120,
+            "04021": 20,
+            "04023": 10,
+            "04025": 60,
+            "04027": 11
+          }
+        },
+        {
+          "name": "Socialist Labor elector slate",
+          "party": "Soc.-Labor",
+          "write_in": false,
+          "votes": 121,
+          "county_votes": {
+            "04001": 0,
+            "04003": 5,
+            "04005": 2,
+            "04007": 5,
+            "04009": 1,
+            "04011": 2,
+            "04013": 47,
+            "04015": 6,
+            "04017": 3,
+            "04019": 38,
+            "04021": 2,
+            "04023": 1,
+            "04025": 4,
+            "04027": 5
+          }
+        }
+      ],
+      "notes": "Four to be elected. DEM Truman electors: A. J. Beaty, Ed Cahill, Austin Jay, Lorna Lockwood (p1); REP Dewey: Richard H. Chambers, J. C. Dolan, James G. McNary, Ed P. Spear; Prog Wallace: Sarah E. Brown, Rev. J. A. Russ, Al Schlackman, Tomas Ybarra; Proh Watson: Richard S. Beal, Esther LeMay, Samuel L. Smith, J. F. Yardell; Soc.-Labor Teichert: Arthur W. Burden, Leo F. Gillespie, Jules Golden, Nancy Golden (p2). Printed grouped slate figures, not a sum of individual elector votes.",
+      "multi_seat": true,
+      "contest_id": "az-1948-historical-president-district-at-large",
+      "reconciliation": {
+        "status": "verified",
+        "page": 1,
+        "district": "at-large",
+        "candidates": [
+          {
+            "candidate": "Democratic elector slate",
+            "official_total": 95251,
+            "official_statewide": 95251,
+            "county_sum": 95251,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "Republican elector slate",
+            "official_total": 77597,
+            "official_statewide": 77597,
+            "county_sum": 77597,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "Progressive elector slate",
+            "official_total": 3310,
+            "official_statewide": 3310,
+            "county_sum": 3310,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "Prohibition elector slate",
+            "official_total": 786,
+            "official_statewide": 786,
+            "county_sum": 786,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "Socialist Labor elector slate",
+            "official_total": 121,
+            "official_statewide": 121,
+            "county_sum": 121,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          }
+        ],
+        "county_count": 14,
+        "coverage": "county",
+        "multi_seat": true,
+        "result_basis": "presidential-electors",
+        "notes": "Four to be elected. DEM Truman electors: A. J. Beaty, Ed Cahill, Austin Jay, Lorna Lockwood (p1); REP Dewey: Richard H. Chambers, J. C. Dolan, James G. McNary, Ed P. Spear; Prog Wallace: Sarah E. Brown, Rev. J. A. Russ, Al Schlackman, Tomas Ybarra; Proh Watson: Richard S. Beal, Esther LeMay, Samuel L. Smith, J. F. Yardell; Soc.-Labor Teichert: Arthur W. Burden, Leo F. Gillespie, Jules Golden, Nancy Golden (p2). Printed grouped slate figures, not a sum of individual elector votes."
+      }
+    },
+    {
+      "office_id": "us-house",
+      "district": "1",
+      "page": 2,
+      "candidates": [
+        {
+          "name": "John R. Murdock",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 42565,
+          "county_votes": {
+            "04013": 42565
+          }
+        },
+        {
+          "name": "John H. Udall",
+          "party": "REP",
+          "write_in": false,
+          "votes": 29864,
+          "county_votes": {
+            "04013": 29864
+          }
+        },
+        {
+          "name": "A. E. Templin",
+          "party": "Proh",
+          "write_in": false,
+          "votes": 481,
+          "county_votes": {
+            "04013": 481
+          }
+        }
+      ],
+      "contest_id": "az-1948-historical-us-house-district-1",
+      "reconciliation": {
+        "status": "reported",
+        "page": 2,
+        "district": "1",
+        "candidates": [
+          {
+            "candidate": "John R. Murdock",
+            "official_total": 42565,
+            "official_statewide": 42565,
+            "county_sum": 42565,
+            "county_coverage": 1,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "John H. Udall",
+            "official_total": 29864,
+            "official_statewide": 29864,
+            "county_sum": 29864,
+            "county_coverage": 1,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "A. E. Templin",
+            "official_total": 481,
+            "official_statewide": 481,
+            "county_sum": 481,
+            "county_coverage": 1,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": false,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "us-house",
+      "district": "2",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Harold A. \"Porque\" Patten",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 54066,
+          "county_votes": {
+            "04001": 1351,
+            "04003": 6199,
+            "04005": 2052,
+            "04007": 4432,
+            "04009": 1808,
+            "04011": 1997,
+            "04015": 1491,
+            "04017": 2613,
+            "04019": 18886,
+            "04021": 3414,
+            "04023": 1503,
+            "04025": 4138,
+            "04027": 4182
+          }
+        },
+        {
+          "name": "Albert R. Buehman",
+          "party": "REP",
+          "write_in": false,
+          "votes": 30140,
+          "county_votes": {
+            "04001": 693,
+            "04003": 2515,
+            "04005": 1317,
+            "04007": 1578,
+            "04009": 727,
+            "04011": 428,
+            "04015": 628,
+            "04017": 1348,
+            "04019": 13823,
+            "04021": 1674,
+            "04023": 605,
+            "04025": 3131,
+            "04027": 1673
+          }
+        },
+        {
+          "name": "T. E. Abbott",
+          "party": "Proh",
+          "write_in": false,
+          "votes": 381,
+          "county_votes": {
+            "04001": 3,
+            "04003": 28,
+            "04005": 11,
+            "04007": 30,
+            "04009": 14,
+            "04011": 8,
+            "04015": 15,
+            "04017": 10,
+            "04019": 132,
+            "04021": 25,
+            "04023": 21,
+            "04025": 53,
+            "04027": 31
+          }
+        },
+        {
+          "name": "John P. Foley",
+          "party": "Prog",
+          "write_in": false,
+          "votes": 1478,
+          "county_votes": {
+            "04001": 3,
+            "04003": 277,
+            "04005": 5,
+            "04007": 84,
+            "04009": 23,
+            "04011": 124,
+            "04015": 20,
+            "04017": 16,
+            "04019": 650,
+            "04021": 33,
+            "04023": 14,
+            "04025": 88,
+            "04027": 141
+          }
+        }
+      ],
+      "contest_id": "az-1948-historical-us-house-district-2",
+      "reconciliation": {
+        "status": "reported",
+        "page": 3,
+        "district": "2",
+        "candidates": [
+          {
+            "candidate": "Harold A. \"Porque\" Patten",
+            "official_total": 54066,
+            "official_statewide": 54066,
+            "county_sum": 54066,
+            "county_coverage": 13,
+            "missing_counties": [
+              "04013"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Albert R. Buehman",
+            "official_total": 30140,
+            "official_statewide": 30140,
+            "county_sum": 30140,
+            "county_coverage": 13,
+            "missing_counties": [
+              "04013"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "T. E. Abbott",
+            "official_total": 381,
+            "official_statewide": 381,
+            "county_sum": 381,
+            "county_coverage": 13,
+            "missing_counties": [
+              "04013"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "John P. Foley",
+            "official_total": 1478,
+            "official_statewide": 1478,
+            "county_sum": 1478,
+            "county_coverage": 13,
+            "missing_counties": [
+              "04013"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": false,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "governor",
+      "district": null,
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Dan E. Garvey",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 104008,
+          "county_votes": {
+            "04001": 1544,
+            "04003": 7121,
+            "04005": 2716,
+            "04007": 5036,
+            "04009": 2115,
+            "04011": 2308,
+            "04013": 41257,
+            "04015": 1858,
+            "04017": 3003,
+            "04019": 22003,
+            "04021": 3755,
+            "04023": 1736,
+            "04025": 4909,
+            "04027": 4647
+          }
+        },
+        {
+          "name": "Bruce Brockett",
+          "party": "REP",
+          "write_in": false,
+          "votes": 70419,
+          "county_votes": {
+            "04001": 862,
+            "04003": 3184,
+            "04005": 1779,
+            "04007": 2235,
+            "04009": 1310,
+            "04011": 539,
+            "04013": 35672,
+            "04015": 860,
+            "04017": 1556,
+            "04019": 13297,
+            "04021": 2132,
+            "04023": 790,
+            "04025": 3940,
+            "04027": 2263
+          }
+        },
+        {
+          "name": "Ernest Pohle",
+          "party": "Proh",
+          "write_in": false,
+          "votes": 1340,
+          "county_votes": {
+            "04001": 10,
+            "04003": 39,
+            "04005": 17,
+            "04007": 42,
+            "04009": 17,
+            "04011": 12,
+            "04013": 849,
+            "04015": 19,
+            "04017": 11,
+            "04019": 163,
+            "04021": 22,
+            "04023": 23,
+            "04025": 90,
+            "04027": 26
+          }
+        }
+      ],
+      "contest_id": "az-1948-governor",
+      "reconciliation": {
+        "status": "verified",
+        "page": 3,
+        "district": null,
+        "candidates": [
+          {
+            "candidate": "Dan E. Garvey",
+            "official_total": 104008,
+            "official_statewide": 104008,
+            "county_sum": 104008,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "Bruce Brockett",
+            "official_total": 70419,
+            "official_statewide": 70419,
+            "county_sum": 70419,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "Ernest Pohle",
+            "official_total": 1340,
+            "official_statewide": 1340,
+            "county_sum": 1340,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          }
+        ],
+        "county_count": 14,
+        "coverage": "county",
+        "multi_seat": false,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "secretary-of-state",
+      "district": null,
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Wesley Bolin",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 106337,
+          "county_votes": {
+            "04001": 1452,
+            "04003": 7049,
+            "04005": 2475,
+            "04007": 5073,
+            "04009": 2220,
+            "04011": 2225,
+            "04013": 46083,
+            "04015": 1738,
+            "04017": 2798,
+            "04019": 20136,
+            "04021": 3795,
+            "04023": 1597,
+            "04025": 5038,
+            "04027": 4658
+          }
+        },
+        {
+          "name": "W. L. Bayless",
+          "party": "REP",
+          "write_in": false,
+          "votes": 55644,
+          "county_votes": {
+            "04001": 668,
+            "04003": 2411,
+            "04005": 1422,
+            "04007": 1548,
+            "04009": 753,
+            "04011": 414,
+            "04013": 26656,
+            "04015": 673,
+            "04017": 1347,
+            "04019": 12983,
+            "04021": 1656,
+            "04023": 650,
+            "04025": 2893,
+            "04027": 1570
+          }
+        },
+        {
+          "name": "F. O. LaPrade",
+          "party": "Proh",
+          "write_in": false,
+          "votes": 2993,
+          "county_votes": {
+            "04001": 11,
+            "04003": 117,
+            "04005": 38,
+            "04007": 112,
+            "04009": 67,
+            "04011": 37,
+            "04013": 1500,
+            "04015": 40,
+            "04017": 63,
+            "04019": 536,
+            "04021": 67,
+            "04023": 34,
+            "04025": 221,
+            "04027": 150
+          }
+        }
+      ],
+      "contest_id": "az-1948-secretary-of-state",
+      "reconciliation": {
+        "status": "verified",
+        "page": 3,
+        "district": null,
+        "candidates": [
+          {
+            "candidate": "Wesley Bolin",
+            "official_total": 106337,
+            "official_statewide": 106337,
+            "county_sum": 106337,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "W. L. Bayless",
+            "official_total": 55644,
+            "official_statewide": 55644,
+            "county_sum": 55644,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "F. O. LaPrade",
+            "official_total": 2993,
+            "official_statewide": 2993,
+            "county_sum": 2993,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          }
+        ],
+        "county_count": 14,
+        "coverage": "county",
+        "multi_seat": false,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "attorney-general",
+      "district": null,
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Fred O. Wilson",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 108707,
+          "county_votes": {
+            "04001": 1588,
+            "04003": 7325,
+            "04005": 2662,
+            "04007": 5212,
+            "04009": 2359,
+            "04011": 2297,
+            "04013": 45096,
+            "04015": 1806,
+            "04017": 3039,
+            "04019": 21604,
+            "04021": 4001,
+            "04023": 1710,
+            "04025": 5254,
+            "04027": 4754
+          }
+        },
+        {
+          "name": "Laurens L. Henderson",
+          "party": "REP",
+          "write_in": false,
+          "votes": 55751,
+          "county_votes": {
+            "04001": 621,
+            "04003": 2283,
+            "04005": 1312,
+            "04007": 1544,
+            "04009": 767,
+            "04011": 398,
+            "04013": 28269,
+            "04015": 662,
+            "04017": 1244,
+            "04019": 12050,
+            "04021": 1550,
+            "04023": 606,
+            "04025": 2909,
+            "04027": 1536
+          }
+        }
+      ],
+      "contest_id": "az-1948-attorney-general",
+      "reconciliation": {
+        "status": "verified",
+        "page": 3,
+        "district": null,
+        "candidates": [
+          {
+            "candidate": "Fred O. Wilson",
+            "official_total": 108707,
+            "official_statewide": 108707,
+            "county_sum": 108707,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "Laurens L. Henderson",
+            "official_total": 55751,
+            "official_statewide": 55751,
+            "county_sum": 55751,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          }
+        ],
+        "county_count": 14,
+        "coverage": "county",
+        "multi_seat": false,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "year": 1933,
+  "date": "1933-10-03",
+  "kind": "special",
+  "source_sha256": "374c7dc4349bfec2ba3b758eeaa9152947734a41ce3f83fa29e1d91fe7cd1fdc",
+  "turnout": {},
+  "absent_offices": [
+    "president",
+    "us-senate",
+    "governor",
+    "secretary-of-state",
+    "attorney-general",
+    "state-house",
+    "state-senate"
+  ],
+  "unresolved": [],
+  "contests": [
+    {
+      "office_id": "us-house",
+      "district": "at-large",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Isabella Greenway",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 24163,
+          "county_votes": {
+            "04001": 408,
+            "04003": 2862,
+            "04005": 707,
+            "04007": 1788,
+            "04009": 712,
+            "04011": 657,
+            "04013": 7014,
+            "04015": 644,
+            "04017": 799,
+            "04019": 4199,
+            "04021": 1214,
+            "04023": 652,
+            "04025": 1737,
+            "04027": 770
+          }
+        },
+        {
+          "name": "H. B. Wilkinson",
+          "party": "REP",
+          "write_in": false,
+          "votes": 3123,
+          "county_votes": {
+            "04001": 46,
+            "04003": 299,
+            "04005": 77,
+            "04007": 161,
+            "04009": 85,
+            "04011": 56,
+            "04013": 1069,
+            "04015": 101,
+            "04017": 172,
+            "04019": 405,
+            "04021": 118,
+            "04023": 66,
+            "04025": 307,
+            "04027": 161
+          }
+        },
+        {
+          "name": "Dillworth E. Sumpter",
+          "party": "SOC",
+          "write_in": false,
+          "votes": 5556,
+          "county_votes": {
+            "04001": 3,
+            "04003": 484,
+            "04005": 17,
+            "04007": 498,
+            "04009": 52,
+            "04011": 22,
+            "04013": 3201,
+            "04015": 71,
+            "04017": 284,
+            "04019": 400,
+            "04021": 150,
+            "04023": 18,
+            "04025": 209,
+            "04027": 157
+          }
+        }
+      ],
+      "notes": "Source heading says General Election Returns, October 3, 1933; retained here as the special congressional election. Page 2 concerns the August 8 convention-delegate election for repeal of the Eighteenth Amendment; page 3 contains ballot measures, excluded from requested offices. Dillworth E. Sumpter: printed candidate total 5,556 differs from printed county entries summing to 5,566; both are retained as printed.",
+      "contest_id": "az-1933-historical-us-house-district-at-large-special",
+      "reconciliation": {
+        "status": "reported",
+        "page": 1,
+        "district": "at-large",
+        "candidates": [
+          {
+            "candidate": "Isabella Greenway",
+            "official_total": 24163,
+            "official_statewide": 24163,
+            "county_sum": 24163,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "H. B. Wilkinson",
+            "official_total": 3123,
+            "official_statewide": 3123,
+            "county_sum": 3123,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "Dillworth E. Sumpter",
+            "official_total": 5556,
+            "official_statewide": 5556,
+            "county_sum": 5566,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 10
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": false,
+        "result_basis": "candidate-votes",
+        "notes": "Source heading says General Election Returns, October 3, 1933; retained here as the special congressional election. Page 2 concerns the August 8 convention-delegate election for repeal of the Eighteenth Amendment; page 3 contains ballot measures, excluded from requested offices. Dillworth E. Sumpter: printed candidate total 5,556 differs from printed county entries summing to 5,566; both are retained as printed."
+      }
+    }
+  ]
+}

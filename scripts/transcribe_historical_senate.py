@@ -79,7 +79,7 @@ ROWS = {
         ("REP", "John McCain", False, [4682, 12199, 12774, 6960, 4002, 1348, 2049, 324826, 13431, 9520, 85652, 12396, 2389, 20042, 9580], 521850),
         ("NONE", "Paul Rodriguez", True, [21, 0, 2, 4, 4, 0, 0, 21, 2, 0, 1, 0, 5, 0, 0], 60),
         ("NONE", "Robert B. Winn", True, [12, 0, 1, 1, 0, 0, 0, 7, 2, 0, 0, 0, 5, 0, 0], 28),
-        ("NONE", "David Zilly", True, [7, 0, 2, 0, 0, 0, 0, 6, 0, 0, 0, 0, 3, 0, 0], 18),
+        ("SWP", "David Zilly", True, [7, 0, 2, 0, 0, 0, 0, 6, 0, 0, 0, 0, 3, 0, 0], 18),
     ],
     # 1988: the Secretary of State scan is too degraded to read every county cell, so the county cells come from
     # RightDataUSA (see write()); each candidate's 15 cells sum exactly to the printed statewide total.

@@ -1,0 +1,10 @@
+{
+  "record_type": "inventory",
+  "year": 1921,
+  "date": null,
+  "kind": null,
+  "source_path": "data/raw/early-canvasses/pdfs/1921.pdf",
+  "source_sha256": "c28a64b84caf10b3823a75e06d61bfd49a70b760e2463f3910c935a532195dd2",
+  "contests": [],
+  "notes": "Administrative report for January?December 1921; departmental receipts, accounts and motor-vehicle registration rather than candidate election returns."
+}

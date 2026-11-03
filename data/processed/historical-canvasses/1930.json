@@ -1,0 +1,370 @@
+{
+  "year": 1930,
+  "date": "1930-11-04",
+  "kind": "general",
+  "source_sha256": "347c09992f90522aff49b60011ab0bd34b5e0baa0b11481c375f0d39129f84d9",
+  "turnout": {
+    "04001": {
+      "registered_voters": 2301,
+      "page": 4,
+      "definition": "Registration of voters, 1930: printed total registration including Democratic, Republican, and NP. No ballots-cast total is supplied."
+    },
+    "04003": {
+      "registered_voters": 13108,
+      "page": 4,
+      "definition": "Registration of voters, 1930: printed total registration including Democratic, Republican, and NP. No ballots-cast total is supplied."
+    },
+    "04005": {
+      "registered_voters": 4023,
+      "page": 4,
+      "definition": "Registration of voters, 1930: printed total registration including Democratic, Republican, and NP. No ballots-cast total is supplied."
+    },
+    "04007": {
+      "registered_voters": 9642,
+      "page": 4,
+      "definition": "Registration of voters, 1930: printed total registration including Democratic, Republican, and NP. No ballots-cast total is supplied."
+    },
+    "04009": {
+      "registered_voters": 3680,
+      "page": 4,
+      "definition": "Registration of voters, 1930: printed total registration including Democratic, Republican, and NP. No ballots-cast total is supplied."
+    },
+    "04011": {
+      "registered_voters": 2470,
+      "page": 4,
+      "definition": "Registration of voters, 1930: printed total registration including Democratic, Republican, and NP. No ballots-cast total is supplied."
+    },
+    "04013": {
+      "registered_voters": 51429,
+      "page": 4,
+      "definition": "Registration of voters, 1930: printed total registration including Democratic, Republican, and NP. No ballots-cast total is supplied."
+    },
+    "04015": {
+      "registered_voters": 2569,
+      "page": 4,
+      "definition": "Registration of voters, 1930: printed total registration including Democratic, Republican, and NP. No ballots-cast total is supplied."
+    },
+    "04017": {
+      "registered_voters": 4252,
+      "page": 4,
+      "definition": "Registration of voters, 1930: printed total registration including Democratic, Republican, and NP. No ballots-cast total is supplied."
+    },
+    "04019": {
+      "registered_voters": 16742,
+      "page": 4,
+      "definition": "Registration of voters, 1930: printed total registration including Democratic, Republican, and NP. No ballots-cast total is supplied."
+    },
+    "04021": {
+      "registered_voters": 4813,
+      "page": 4,
+      "definition": "Registration of voters, 1930: printed total registration including Democratic, Republican, and NP. No ballots-cast total is supplied."
+    },
+    "04023": {
+      "registered_voters": 2240,
+      "page": 4,
+      "definition": "Registration of voters, 1930: printed total registration including Democratic, Republican, and NP. No ballots-cast total is supplied."
+    },
+    "04025": {
+      "registered_voters": 10324,
+      "page": 4,
+      "definition": "Registration of voters, 1930: printed total registration including Democratic, Republican, and NP. No ballots-cast total is supplied."
+    },
+    "04027": {
+      "registered_voters": 5552,
+      "page": 4,
+      "definition": "Registration of voters, 1930: printed total registration including Democratic, Republican, and NP. No ballots-cast total is supplied."
+    },
+    "04": {
+      "registered_voters": 133145,
+      "page": 4,
+      "definition": "Registration of voters, 1930: printed total registration including Democratic, Republican, and NP. No ballots-cast total is supplied."
+    }
+  },
+  "absent_offices": [
+    "president",
+    "us-senate",
+    "state-house",
+    "state-senate"
+  ],
+  "unresolved": [
+    {
+      "office_id": "state-house",
+      "reason": "No state legislative candidate returns appear in this retained statewide canvass."
+    },
+    {
+      "office_id": "state-senate",
+      "reason": "No state legislative candidate returns appear in this retained statewide canvass."
+    }
+  ],
+  "contests": [
+    {
+      "office_id": "us-house",
+      "district": "at-large",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Lewis W. Douglas",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 52342,
+          "county_votes": {
+            "04001": 670,
+            "04003": 6148,
+            "04005": 1317,
+            "04007": 4450,
+            "04009": 1741,
+            "04011": 1185,
+            "04013": 18175,
+            "04015": 1173,
+            "04017": 1623,
+            "04019": 6846,
+            "04021": 1843,
+            "04023": 998,
+            "04025": 4128,
+            "04027": 2045
+          }
+        }
+      ],
+      "notes": " County figures visually transcribed from retained canvass page 1; printed county column headings determine GEOIDs.",
+      "contest_id": "az-1930-historical-us-house-district-at-large",
+      "reconciliation": {
+        "status": "verified",
+        "page": 1,
+        "district": "at-large",
+        "candidates": [
+          {
+            "candidate": "Lewis W. Douglas",
+            "official_total": 52342,
+            "official_statewide": 52342,
+            "county_sum": 52342,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          }
+        ],
+        "county_count": 14,
+        "coverage": "county",
+        "multi_seat": false,
+        "result_basis": "candidate-votes",
+        "notes": " County figures visually transcribed from retained canvass page 1; printed county column headings determine GEOIDs."
+      }
+    },
+    {
+      "office_id": "governor",
+      "district": null,
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Geo. W. P. Hunt",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 48875,
+          "county_votes": {
+            "04001": 1139,
+            "04003": 5044,
+            "04005": 1712,
+            "04007": 4518,
+            "04009": 1758,
+            "04011": 1052,
+            "04013": 16455,
+            "04015": 1288,
+            "04017": 1941,
+            "04019": 5812,
+            "04021": 1792,
+            "04023": 907,
+            "04025": 3510,
+            "04027": 1947
+          }
+        },
+        {
+          "name": "John C. Phillips",
+          "party": "REP",
+          "write_in": false,
+          "votes": 46231,
+          "county_votes": {
+            "04001": 639,
+            "04003": 5007,
+            "04005": 1424,
+            "04007": 2430,
+            "04009": 1351,
+            "04011": 863,
+            "04013": 17603,
+            "04015": 697,
+            "04017": 1271,
+            "04019": 6435,
+            "04021": 1559,
+            "04023": 914,
+            "04025": 3827,
+            "04027": 2211
+          }
+        }
+      ],
+      "notes": "County column order in this source places Pima before Navajo. county_votes below use that printed order mapped to each county. Geo. W. P. Hunt: printed candidate total 48,875 differs from printed county entries summing to 48,895; both are retained as printed.",
+      "contest_id": "az-1930-governor",
+      "reconciliation": {
+        "status": "verified",
+        "page": 1,
+        "district": null,
+        "candidates": [
+          {
+            "candidate": "Geo. W. P. Hunt",
+            "official_total": 48875,
+            "official_statewide": 48875,
+            "county_sum": 48875,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "John C. Phillips",
+            "official_total": 46231,
+            "official_statewide": 46231,
+            "county_sum": 46231,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          }
+        ],
+        "county_count": 14,
+        "coverage": "county",
+        "multi_seat": false,
+        "result_basis": "candidate-votes",
+        "notes": "County column order in this source places Pima before Navajo. county_votes below use that printed order mapped to each county. Geo. W. P. Hunt: printed candidate total 48,875 differs from printed county entries summing to 48,895; both are retained as printed."
+      }
+    },
+    {
+      "office_id": "secretary-of-state",
+      "district": null,
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Scott White",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 47052,
+          "county_votes": {
+            "04001": 815,
+            "04003": 5475,
+            "04005": 1160,
+            "04007": 4248,
+            "04009": 1755,
+            "04011": 1138,
+            "04013": 16215,
+            "04015": 1131,
+            "04017": 1416,
+            "04019": 5917,
+            "04021": 1943,
+            "04023": 768,
+            "04025": 3216,
+            "04027": 1855
+          }
+        },
+        {
+          "name": "I. P. Fraizer",
+          "party": "REP",
+          "write_in": false,
+          "votes": 38000,
+          "county_votes": {
+            "04001": 675,
+            "04003": 3445,
+            "04005": 1435,
+            "04007": 1850,
+            "04009": 842,
+            "04011": 651,
+            "04013": 15114,
+            "04015": 604,
+            "04017": 1303,
+            "04019": 5411,
+            "04021": 1097,
+            "04023": 988,
+            "04025": 3083,
+            "04027": 1502
+          }
+        }
+      ],
+      "contest_id": "az-1930-secretary-of-state",
+      "reconciliation": {
+        "status": "verified",
+        "page": 1,
+        "district": null,
+        "candidates": [
+          {
+            "candidate": "Scott White",
+            "official_total": 47052,
+            "official_statewide": 47052,
+            "county_sum": 47052,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "I. P. Fraizer",
+            "official_total": 38000,
+            "official_statewide": 38000,
+            "county_sum": 38000,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          }
+        ],
+        "county_count": 14,
+        "coverage": "county",
+        "multi_seat": false,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "attorney-general",
+      "district": null,
+      "page": 2,
+      "candidates": [
+        {
+          "name": "K. Berry Peterson",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 61813,
+          "county_votes": {
+            "04001": 1018,
+            "04003": 6698,
+            "04005": 1803,
+            "04007": 4976,
+            "04009": 2031,
+            "04011": 1325,
+            "04013": 21473,
+            "04015": 1286,
+            "04017": 2034,
+            "04019": 8915,
+            "04021": 2124,
+            "04023": 1246,
+            "04025": 4475,
+            "04027": 2409
+          }
+        }
+      ],
+      "notes": " K. Berry Peterson: printed candidate total 61,913 differs from printed county entries summing to 61,813; both are retained as printed.",
+      "contest_id": "az-1930-attorney-general",
+      "reconciliation": {
+        "status": "verified",
+        "page": 2,
+        "district": null,
+        "candidates": [
+          {
+            "candidate": "K. Berry Peterson",
+            "official_total": 61813,
+            "official_statewide": 61813,
+            "county_sum": 61813,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          }
+        ],
+        "county_count": 14,
+        "coverage": "county",
+        "multi_seat": false,
+        "result_basis": "candidate-votes",
+        "notes": " K. Berry Peterson: printed candidate total 61,913 differs from printed county entries summing to 61,813; both are retained as printed."
+      }
+    }
+  ]
+}

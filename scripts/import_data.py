@@ -465,13 +465,22 @@ if __name__ == "__main__":
     )
     parser.add_argument(
         "--office",
-        choices=["governor", "attorney-general", "us-senate", "us-house"],
+        choices=["governor", "attorney-general", "us-senate", "us-house", "secretary-of-state", "state-house", "state-senate", "president"],
         help="Import only this office; preserve other contests",
     )
     args = parser.parse_args()
-    if args.office != "us-house":
+    if args.office in {None, "governor", "attorney-general", "us-senate"} and (args.year is None or args.year >= 1966):
         import_all(args.year, args.office)
-    if args.office in {None, "us-house"}:
+    from scripts.historical_canvasses import import_all as import_historical, document_paths
+
+    # Import the supplied historical canvasses independently of modern House
+    # snapshot validation, which has its own source-integrity gate.
+    historical_year = args.year is not None and any(p.name.startswith(str(args.year)) for p in document_paths())
+    if args.year is None or historical_year:
+        import_historical(args.year, args.office)
+    if args.office in {None, "us-house"} and not (
+        historical_year
+    ):
         from scripts.import_house import import_all as import_house
 
         import_house(args.year)

@@ -1,0 +1,521 @@
+{
+  "year": 1954,
+  "date": "1954-11-02",
+  "kind": "general",
+  "source_sha256": "8500682fc800b36fe17676a7a5109edc7124e60f9f11b6d0dbf0d2f467c8b5ee",
+  "turnout": {
+    "04001": {
+      "ballots_cast": 2594,
+      "registered_voters": 3270,
+      "percent": 79.33,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1954.pdf"
+    },
+    "04003": {
+      "ballots_cast": 11089,
+      "registered_voters": 13541,
+      "percent": 81.89,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1954.pdf"
+    },
+    "04005": {
+      "ballots_cast": 5407,
+      "registered_voters": 6872,
+      "percent": 78.68,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1954.pdf"
+    },
+    "04007": {
+      "ballots_cast": 8648,
+      "registered_voters": 10454,
+      "percent": 82.72,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1954.pdf"
+    },
+    "04009": {
+      "ballots_cast": 4076,
+      "registered_voters": 4570,
+      "percent": 89.19,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1954.pdf"
+    },
+    "04011": {
+      "ballots_cast": 4510,
+      "registered_voters": 5484,
+      "percent": 82.24,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1954.pdf"
+    },
+    "04013": {
+      "ballots_cast": 124164,
+      "registered_voters": 154546,
+      "percent": 80.34,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1954.pdf"
+    },
+    "04015": {
+      "ballots_cast": 2287,
+      "registered_voters": 2851,
+      "percent": 80.22,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1954.pdf"
+    },
+    "04017": {
+      "ballots_cast": 5561,
+      "registered_voters": 6729,
+      "percent": 82.64,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1954.pdf"
+    },
+    "04019": {
+      "ballots_cast": 49181,
+      "registered_voters": 59092,
+      "percent": 83.23,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1954.pdf"
+    },
+    "04021": {
+      "ballots_cast": 10027,
+      "registered_voters": 13339,
+      "percent": 75.17,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1954.pdf"
+    },
+    "04023": {
+      "ballots_cast": 3040,
+      "registered_voters": 3524,
+      "percent": 86.27,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1954.pdf"
+    },
+    "04025": {
+      "ballots_cast": 9360,
+      "registered_voters": 11244,
+      "percent": 83.24,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1954.pdf"
+    },
+    "04027": {
+      "ballots_cast": 9538,
+      "registered_voters": 12029,
+      "percent": 79.29,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1954.pdf"
+    },
+    "04": {
+      "ballots_cast": 249482,
+      "registered_voters": 307545,
+      "percent": 81.12,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1954.pdf"
+    }
+  },
+  "absent_offices": [
+    "president",
+    "us-senate",
+    "state-house",
+    "state-senate"
+  ],
+  "unresolved": [],
+  "contests": [
+    {
+      "office_id": "us-house",
+      "district": "1",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "L. S. \"Dick\" Adams",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 53307,
+          "county_votes": {
+            "04013": 53307
+          }
+        },
+        {
+          "name": "John J. Rhodes",
+          "party": "REP",
+          "write_in": false,
+          "votes": 60423,
+          "county_votes": {
+            "04013": 60423
+          }
+        }
+      ],
+      "contest_id": "az-1954-historical-us-house-district-1",
+      "reconciliation": {
+        "status": "reported",
+        "page": 1,
+        "district": "1",
+        "candidates": [
+          {
+            "candidate": "L. S. \"Dick\" Adams",
+            "official_total": 53307,
+            "official_statewide": 53307,
+            "county_sum": 53307,
+            "county_coverage": 1,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "John J. Rhodes",
+            "official_total": 60423,
+            "official_statewide": 60423,
+            "county_sum": 60423,
+            "county_coverage": 1,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": false,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "us-house",
+      "district": "2",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Stewart L. Udall",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 68085,
+          "county_votes": {
+            "04001": 1380,
+            "04003": 6278,
+            "04005": 2812,
+            "04007": 5540,
+            "04009": 2163,
+            "04011": 3036,
+            "04015": 1167,
+            "04017": 3129,
+            "04019": 25653,
+            "04021": 5299,
+            "04023": 1447,
+            "04025": 4406,
+            "04027": 5775
+          }
+        },
+        {
+          "name": "Henry Zipf",
+          "party": "REP",
+          "write_in": false,
+          "votes": 41587,
+          "county_votes": {
+            "04001": 726,
+            "04003": 3100,
+            "04005": 1903,
+            "04007": 1669,
+            "04009": 1145,
+            "04011": 547,
+            "04015": 688,
+            "04017": 1650,
+            "04019": 20817,
+            "04021": 2417,
+            "04023": 813,
+            "04025": 3572,
+            "04027": 2540
+          }
+        }
+      ],
+      "contest_id": "az-1954-historical-us-house-district-2",
+      "reconciliation": {
+        "status": "reported",
+        "page": 1,
+        "district": "2",
+        "candidates": [
+          {
+            "candidate": "Stewart L. Udall",
+            "official_total": 68085,
+            "official_statewide": 68085,
+            "county_sum": 68085,
+            "county_coverage": 13,
+            "missing_counties": [
+              "04013"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Henry Zipf",
+            "official_total": 41587,
+            "official_statewide": 41587,
+            "county_sum": 41587,
+            "county_coverage": 13,
+            "missing_counties": [
+              "04013"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": false,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "governor",
+      "district": null,
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Ernest W. McFarland",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 128104,
+          "county_votes": {
+            "04001": 1457,
+            "04003": 6331,
+            "04005": 2631,
+            "04007": 5672,
+            "04009": 2321,
+            "04011": 3260,
+            "04013": 60728,
+            "04015": 1367,
+            "04017": 2930,
+            "04019": 23881,
+            "04021": 5862,
+            "04023": 1507,
+            "04025": 4558,
+            "04027": 5599
+          }
+        },
+        {
+          "name": "Howard Pyle",
+          "party": "REP",
+          "write_in": false,
+          "votes": 115866,
+          "county_votes": {
+            "04001": 1056,
+            "04003": 4486,
+            "04005": 2557,
+            "04007": 2734,
+            "04009": 1663,
+            "04011": 1032,
+            "04013": 61139,
+            "04015": 889,
+            "04017": 2407,
+            "04019": 24296,
+            "04021": 3843,
+            "04023": 1438,
+            "04025": 4621,
+            "04027": 3705
+          }
+        }
+      ],
+      "contest_id": "az-1954-governor",
+      "reconciliation": {
+        "status": "verified",
+        "page": 1,
+        "district": null,
+        "candidates": [
+          {
+            "candidate": "Ernest W. McFarland",
+            "official_total": 128104,
+            "official_statewide": 128104,
+            "county_sum": 128104,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "Howard Pyle",
+            "official_total": 115866,
+            "official_statewide": 115866,
+            "county_sum": 115866,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          }
+        ],
+        "county_count": 14,
+        "coverage": "county",
+        "multi_seat": false,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "secretary-of-state",
+      "district": null,
+      "page": 2,
+      "candidates": [
+        {
+          "name": "Wesley Bolin",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 161905,
+          "county_votes": {
+            "04001": 1622,
+            "04003": 8089,
+            "04005": 3434,
+            "04007": 6565,
+            "04009": 2633,
+            "04011": 3512,
+            "04013": 78307,
+            "04015": 1610,
+            "04017": 3644,
+            "04019": 29442,
+            "04021": 7496,
+            "04023": 1969,
+            "04025": 6421,
+            "04027": 7161
+          }
+        }
+      ],
+      "contest_id": "az-1954-secretary-of-state",
+      "reconciliation": {
+        "status": "verified",
+        "page": 2,
+        "district": null,
+        "candidates": [
+          {
+            "candidate": "Wesley Bolin",
+            "official_total": 161905,
+            "official_statewide": 161905,
+            "county_sum": 161905,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          }
+        ],
+        "county_count": 14,
+        "coverage": "county",
+        "multi_seat": false,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "attorney-general",
+      "district": null,
+      "page": 2,
+      "candidates": [
+        {
+          "name": "Robert Morrison",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 119376,
+          "county_votes": {
+            "04001": 1207,
+            "04003": 5714,
+            "04005": 2387,
+            "04007": 4990,
+            "04009": 1909,
+            "04011": 3007,
+            "04013": 54922,
+            "04015": 1219,
+            "04017": 2460,
+            "04019": 25796,
+            "04021": 5211,
+            "04023": 1500,
+            "04025": 4127,
+            "04027": 4927
+          }
+        },
+        {
+          "name": "Ross F. Jones",
+          "party": "REP",
+          "write_in": false,
+          "votes": 112601,
+          "county_votes": {
+            "04001": 1035,
+            "04003": 4484,
+            "04005": 2515,
+            "04007": 2891,
+            "04009": 1628,
+            "04011": 866,
+            "04013": 61261,
+            "04015": 790,
+            "04017": 2478,
+            "04019": 21206,
+            "04021": 3896,
+            "04023": 1174,
+            "04025": 4466,
+            "04027": 3911
+          }
+        }
+      ],
+      "notes": "AG county cells checked against duplicate1954.pdf p2, which reads more clearly in faded right-side columns.",
+      "contest_id": "az-1954-attorney-general",
+      "reconciliation": {
+        "status": "verified",
+        "page": 2,
+        "district": null,
+        "candidates": [
+          {
+            "candidate": "Robert Morrison",
+            "official_total": 119376,
+            "official_statewide": 119376,
+            "county_sum": 119376,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "Ross F. Jones",
+            "official_total": 112601,
+            "official_statewide": 112601,
+            "county_sum": 112601,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          }
+        ],
+        "county_count": 14,
+        "coverage": "county",
+        "multi_seat": false,
+        "result_basis": "candidate-votes",
+        "notes": "AG county cells checked against duplicate1954.pdf p2, which reads more clearly in faded right-side columns."
+      }
+    }
+  ]
+}

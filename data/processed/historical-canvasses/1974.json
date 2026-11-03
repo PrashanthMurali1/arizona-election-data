@@ -1,0 +1,6758 @@
+{
+  "year": 1974,
+  "date": "1974-11-05",
+  "kind": "general",
+  "source_sha256": "a9f1af7e6eb669f5c9088a676c3799b39cfa9d7e173696243f8f99f67f04c5f5",
+  "turnout": {
+    "04001": {
+      "ballots_cast": 7153,
+      "registered_voters": 13013,
+      "percent": 54.96,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1974ge.pdf"
+    },
+    "04003": {
+      "ballots_cast": 16849,
+      "registered_voters": 24981,
+      "percent": 67.45,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1974ge.pdf"
+    },
+    "04005": {
+      "ballots_cast": 16441,
+      "registered_voters": 27053,
+      "percent": 62.28,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1974ge.pdf"
+    },
+    "04007": {
+      "ballots_cast": 9464,
+      "registered_voters": 14457,
+      "percent": 65.46,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1974ge.pdf"
+    },
+    "04009": {
+      "ballots_cast": 5246,
+      "registered_voters": 8497,
+      "percent": 61.74,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1974ge.pdf"
+    },
+    "04011": {
+      "ballots_cast": 3746,
+      "registered_voters": 5328,
+      "percent": 70.31,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1974ge.pdf"
+    },
+    "04013": {
+      "ballots_cast": 316407,
+      "registered_voters": 493384,
+      "percent": 64.13,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1974ge.pdf"
+    },
+    "04015": {
+      "ballots_cast": 8975,
+      "registered_voters": 14762,
+      "percent": 60.8,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1974ge.pdf"
+    },
+    "04017": {
+      "ballots_cast": 11678,
+      "registered_voters": 18818,
+      "percent": 62.06,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1974ge.pdf"
+    },
+    "04019": {
+      "ballots_cast": 117236,
+      "registered_voters": 190488,
+      "percent": 61.54,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1974ge.pdf"
+    },
+    "04021": {
+      "ballots_cast": 17095,
+      "registered_voters": 28009,
+      "percent": 61.03,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1974ge.pdf"
+    },
+    "04023": {
+      "ballots_cast": 3469,
+      "registered_voters": 5788,
+      "percent": 59.93,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1974ge.pdf"
+    },
+    "04025": {
+      "ballots_cast": 17004,
+      "registered_voters": 24470,
+      "percent": 69.49,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1974ge.pdf"
+    },
+    "04027": {
+      "ballots_cast": 13228,
+      "registered_voters": 21785,
+      "percent": 60.72,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1974ge.pdf"
+    },
+    "04": {
+      "ballots_cast": 563991,
+      "registered_voters": 890833,
+      "percent": 63.31,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1974ge.pdf"
+    }
+  },
+  "absent_offices": [
+    "president"
+  ],
+  "unresolved": [
+    {
+      "office_id": "state-house",
+      "district": "16",
+      "page": 4,
+      "reason": "The embedded 1707 x 2792 JPEG on PDF page 4 was inspected directly; page CropBox equals MediaBox, so no extra row is hidden by PDF cropping. The lower-right source scan itself loses most of a fourth candidate row (only tiny top strokes remain), and three visible candidate totals are damaged. Three totals remain null and the fourth candidate identity and vote total cannot be recovered from this retained scan."
+    }
+  ],
+  "contests": [
+    {
+      "office_id": "us-senate",
+      "district": null,
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Jonathan Marshall",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 229523,
+          "county_votes": {
+            "04001": 4336,
+            "04003": 6859,
+            "04005": 7672,
+            "04007": 4464,
+            "04009": 2042,
+            "04011": 2122,
+            "04013": 117431,
+            "04015": 3701,
+            "04017": 5991,
+            "04019": 54366,
+            "04021": 8059,
+            "04023": 1443,
+            "04025": 5798,
+            "04027": 5239
+          }
+        },
+        {
+          "name": "Barry M. Goldwater",
+          "party": "REP",
+          "write_in": false,
+          "votes": 320396,
+          "county_votes": {
+            "04001": 2165,
+            "04003": 9388,
+            "04005": 8340,
+            "04007": 4616,
+            "04009": 3070,
+            "04011": 1503,
+            "04013": 192137,
+            "04015": 5318,
+            "04017": 5320,
+            "04019": 59871,
+            "04021": 8476,
+            "04023": 1798,
+            "04025": 10779,
+            "04027": 7615
+          }
+        }
+      ],
+      "contest_id": "az-1974-us-senate",
+      "reconciliation": {
+        "status": "verified",
+        "page": 1,
+        "district": null,
+        "candidates": [
+          {
+            "candidate": "Jonathan Marshall",
+            "official_total": 229523,
+            "official_statewide": 229523,
+            "county_sum": 229523,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "Barry M. Goldwater",
+            "official_total": 320396,
+            "official_statewide": 320396,
+            "county_sum": 320396,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          }
+        ],
+        "county_count": 14,
+        "coverage": "county",
+        "multi_seat": false,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "us-house",
+      "district": "1",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Patricia M. \"Pat\" Fullinwider",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 52897
+        },
+        {
+          "name": "John J. Rhodes",
+          "party": "REP",
+          "write_in": false,
+          "votes": 63847
+        },
+        {
+          "name": "J. M. \"Pro-Life\" Sanders",
+          "party": "Life-Liberty-Justice",
+          "write_in": false,
+          "votes": 8199
+        },
+        {
+          "name": "Thane Read",
+          "party": "WI",
+          "write_in": true,
+          "votes": 18
+        }
+      ],
+      "contest_id": "az-1974-historical-us-house-district-1",
+      "reconciliation": {
+        "status": "reported",
+        "page": 1,
+        "district": "1",
+        "candidates": [
+          {
+            "candidate": "Patricia M. \"Pat\" Fullinwider",
+            "official_total": 52897,
+            "official_statewide": 52897,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "John J. Rhodes",
+            "official_total": 63847,
+            "official_statewide": 63847,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "J. M. \"Pro-Life\" Sanders",
+            "official_total": 8199,
+            "official_statewide": 8199,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Thane Read",
+            "official_total": 18,
+            "official_statewide": 18,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": false,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "us-house",
+      "district": "2",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Morris K. Udall",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 84491
+        },
+        {
+          "name": "Keith Dolgaard",
+          "party": "REP",
+          "write_in": false,
+          "votes": 51886
+        }
+      ],
+      "contest_id": "az-1974-historical-us-house-district-2",
+      "reconciliation": {
+        "status": "reported",
+        "page": 1,
+        "district": "2",
+        "candidates": [
+          {
+            "candidate": "Morris K. Udall",
+            "official_total": 84491,
+            "official_statewide": 84491,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Keith Dolgaard",
+            "official_total": 51886,
+            "official_statewide": 51886,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": false,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "us-house",
+      "district": "3",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Pat Bosch",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 68424
+        },
+        {
+          "name": "Sam Steiger",
+          "party": "REP",
+          "write_in": false,
+          "votes": 71497
+        }
+      ],
+      "contest_id": "az-1974-historical-us-house-district-3",
+      "reconciliation": {
+        "status": "reported",
+        "page": 1,
+        "district": "3",
+        "candidates": [
+          {
+            "candidate": "Pat Bosch",
+            "official_total": 68424,
+            "official_statewide": 68424,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Sam Steiger",
+            "official_total": 71497,
+            "official_statewide": 71497,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": false,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "us-house",
+      "district": "4",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Byron T. \"Bud\" Brown",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 63677
+        },
+        {
+          "name": "John B. Conlan",
+          "party": "REP",
+          "write_in": false,
+          "votes": 78887
+        }
+      ],
+      "contest_id": "az-1974-historical-us-house-district-4",
+      "reconciliation": {
+        "status": "reported",
+        "page": 1,
+        "district": "4",
+        "candidates": [
+          {
+            "candidate": "Byron T. \"Bud\" Brown",
+            "official_total": 63677,
+            "official_statewide": 63677,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "John B. Conlan",
+            "official_total": 78887,
+            "official_statewide": 78887,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": false,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "governor",
+      "district": null,
+      "page": 2,
+      "candidates": [
+        {
+          "name": "Raul H. Castro",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 278375
+        },
+        {
+          "name": "Russ Williams",
+          "party": "REP",
+          "write_in": false,
+          "votes": 273674
+        },
+        {
+          "name": "Wonderful Russ Shaw",
+          "party": "WI",
+          "write_in": true,
+          "votes": 149
+        },
+        {
+          "name": "Harold Bates",
+          "party": "WI",
+          "write_in": true,
+          "votes": 4
+        }
+      ],
+      "contest_id": "az-1974-governor",
+      "reconciliation": {
+        "status": "reported",
+        "page": 2,
+        "district": null,
+        "candidates": [
+          {
+            "candidate": "Raul H. Castro",
+            "official_total": 278375,
+            "official_statewide": 278375,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Russ Williams",
+            "official_total": 273674,
+            "official_statewide": 273674,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Wonderful Russ Shaw",
+            "official_total": 149,
+            "official_statewide": 149,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Harold Bates",
+            "official_total": 4,
+            "official_statewide": 4,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": false,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "secretary-of-state",
+      "district": null,
+      "page": 2,
+      "candidates": [
+        {
+          "name": "Wesley Bolin",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 271474,
+          "county_votes": {
+            "04001": 4394,
+            "04003": 9286,
+            "04005": 8828,
+            "04007": 5803,
+            "04009": 2933,
+            "04011": 2741,
+            "04013": 141788,
+            "04015": 4935,
+            "04017": 6951,
+            "04019": 56644,
+            "04021": 9886,
+            "04023": 1820,
+            "04025": 7750,
+            "04027": 7715
+          }
+        },
+        {
+          "name": "Mike Goodwin",
+          "party": "REP",
+          "write_in": false,
+          "votes": 263274,
+          "county_votes": {
+            "04001": 1609,
+            "04003": 6561,
+            "04005": 6377,
+            "04007": 2621,
+            "04009": 2045,
+            "04011": 819,
+            "04013": 162325,
+            "04015": 3584,
+            "04017": 3586,
+            "04019": 53108,
+            "04021": 6274,
+            "04023": 1229,
+            "04025": 8347,
+            "04027": 4789
+          }
+        }
+      ],
+      "contest_id": "az-1974-secretary-of-state",
+      "reconciliation": {
+        "status": "verified",
+        "page": 2,
+        "district": null,
+        "candidates": [
+          {
+            "candidate": "Wesley Bolin",
+            "official_total": 271474,
+            "official_statewide": 271474,
+            "county_sum": 271474,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "Mike Goodwin",
+            "official_total": 263274,
+            "official_statewide": 263274,
+            "county_sum": 263274,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          }
+        ],
+        "county_count": 14,
+        "coverage": "county",
+        "multi_seat": false,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "attorney-general",
+      "district": null,
+      "page": 2,
+      "candidates": [
+        {
+          "name": "Bruce Babbitt",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 302230,
+          "county_votes": {
+            "04001": 4363,
+            "04003": 10458,
+            "04005": 11147,
+            "04007": 6359,
+            "04009": 3261,
+            "04011": 2822,
+            "04013": 151864,
+            "04015": 5278,
+            "04017": 7317,
+            "04019": 70628,
+            "04021": 10830,
+            "04023": 2137,
+            "04025": 8038,
+            "04027": 7228
+          }
+        },
+        {
+          "name": "N. Warner Lee",
+          "party": "REP",
+          "write_in": false,
+          "votes": 238546,
+          "county_votes": {
+            "04001": 1828,
+            "04003": 5497,
+            "04005": 4664,
+            "04007": 2580,
+            "04009": 1719,
+            "04011": 730,
+            "04013": 152931,
+            "04015": 3453,
+            "04017": 3717,
+            "04019": 42101,
+            "04021": 5338,
+            "04023": 959,
+            "04025": 8228,
+            "04027": 4801
+          }
+        }
+      ],
+      "notes": "Bruce Babbitt printed statewide total is 302,230; printed county entries sum to 301,730. Both are retained as printed.",
+      "contest_id": "az-1974-attorney-general",
+      "reconciliation": {
+        "status": "reported",
+        "page": 2,
+        "district": null,
+        "candidates": [
+          {
+            "candidate": "Bruce Babbitt",
+            "official_total": 302230,
+            "official_statewide": 302230,
+            "county_sum": 301730,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": -500
+          },
+          {
+            "candidate": "N. Warner Lee",
+            "official_total": 238546,
+            "official_statewide": 238546,
+            "county_sum": 238546,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": false,
+        "result_basis": "candidate-votes",
+        "notes": "Bruce Babbitt printed statewide total is 302,230; printed county entries sum to 301,730. Both are retained as printed."
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "1",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "A. H. (Hank) Bisjak",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 10242
+        },
+        {
+          "name": "Boyd Tenney",
+          "party": "REP",
+          "write_in": false,
+          "votes": 13469
+        }
+      ],
+      "contest_id": "az-1974-historical-state-senate-district-1",
+      "reconciliation": {
+        "status": "reported",
+        "page": 3,
+        "district": "1",
+        "candidates": [
+          {
+            "candidate": "A. H. (Hank) Bisjak",
+            "official_total": 10242,
+            "official_statewide": 10242,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Boyd Tenney",
+            "official_total": 13469,
+            "official_statewide": 13469,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "2",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Tony Gabaldon",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 15327
+        }
+      ],
+      "contest_id": "az-1974-historical-state-senate-district-2",
+      "reconciliation": {
+        "status": "reported",
+        "page": 3,
+        "district": "2",
+        "candidates": [
+          {
+            "candidate": "Tony Gabaldon",
+            "official_total": 15327,
+            "official_statewide": 15327,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "3",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Arthur J. Hubbard, Sr.",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 12598
+        }
+      ],
+      "contest_id": "az-1974-historical-state-senate-district-3",
+      "reconciliation": {
+        "status": "reported",
+        "page": 3,
+        "district": "3",
+        "candidates": [
+          {
+            "candidate": "Arthur J. Hubbard, Sr.",
+            "official_total": 12598,
+            "official_statewide": 12598,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "4",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "A. V. \"Bill\" Hardt",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 13447
+        }
+      ],
+      "contest_id": "az-1974-historical-state-senate-district-4",
+      "reconciliation": {
+        "status": "reported",
+        "page": 3,
+        "district": "4",
+        "candidates": [
+          {
+            "candidate": "A. V. \"Bill\" Hardt",
+            "official_total": 13447,
+            "official_statewide": 13447,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "5",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "Jones Osborn",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 10046
+        }
+      ],
+      "contest_id": "az-1974-historical-state-senate-district-5",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "5",
+        "candidates": [
+          {
+            "candidate": "Jones Osborn",
+            "official_total": 10046,
+            "official_statewide": 10046,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "6",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "Rob Stump",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 8685
+        }
+      ],
+      "contest_id": "az-1974-historical-state-senate-district-6",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "6",
+        "candidates": [
+          {
+            "candidate": "Rob Stump",
+            "official_total": 8685,
+            "official_statewide": 8685,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "7",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "William L. Swink",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 10932
+        }
+      ],
+      "contest_id": "az-1974-historical-state-senate-district-7",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "7",
+        "candidates": [
+          {
+            "candidate": "William L. Swink",
+            "official_total": 10932,
+            "official_statewide": 10932,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "8",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "Ed Sawyer",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 15219
+        }
+      ],
+      "contest_id": "az-1974-historical-state-senate-district-8",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "8",
+        "candidates": [
+          {
+            "candidate": "Ed Sawyer",
+            "official_total": 15219,
+            "official_statewide": 15219,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "9",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "John (C) Scott Ulm",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 7639
+        },
+        {
+          "name": "Stephen A. \"Steve\" Davis",
+          "party": "REP",
+          "write_in": false,
+          "votes": 7799
+        }
+      ],
+      "contest_id": "az-1974-historical-state-senate-district-9",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "9",
+        "candidates": [
+          {
+            "candidate": "John (C) Scott Ulm",
+            "official_total": 7639,
+            "official_statewide": 7639,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Stephen A. \"Steve\" Davis",
+            "official_total": 7799,
+            "official_statewide": 7799,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "10",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "Sam Lena",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 9170
+        }
+      ],
+      "contest_id": "az-1974-historical-state-senate-district-10",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "10",
+        "candidates": [
+          {
+            "candidate": "Sam Lena",
+            "official_total": 9170,
+            "official_statewide": 9170,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "11",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "Frank J. Felix",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 11732
+        }
+      ],
+      "contest_id": "az-1974-historical-state-senate-district-11",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "11",
+        "candidates": [
+          {
+            "candidate": "Frank J. Felix",
+            "official_total": 11732,
+            "official_statewide": 11732,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "12",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "Sue Dye",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 11173
+        },
+        {
+          "name": "Douglas S. Holsclaw",
+          "party": "REP",
+          "write_in": false,
+          "votes": 10760
+        }
+      ],
+      "contest_id": "az-1974-historical-state-senate-district-12",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "12",
+        "candidates": [
+          {
+            "candidate": "Sue Dye",
+            "official_total": 11173,
+            "official_statewide": 11173,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Douglas S. Holsclaw",
+            "official_total": 10760,
+            "official_statewide": 10760,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "13",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "Morris Farr",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 11772
+        },
+        {
+          "name": "H. Thomas (Tom) Kincaid",
+          "party": "REP",
+          "write_in": false,
+          "votes": 9944
+        }
+      ],
+      "contest_id": "az-1974-historical-state-senate-district-13",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "13",
+        "candidates": [
+          {
+            "candidate": "Morris Farr",
+            "official_total": 11772,
+            "official_statewide": 11772,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "H. Thomas (Tom) Kincaid",
+            "official_total": 9944,
+            "official_statewide": 9944,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "14",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "Lucy Davidson",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 13523
+        },
+        {
+          "name": "Charles King",
+          "party": "REP",
+          "write_in": false,
+          "votes": 11842
+        }
+      ],
+      "contest_id": "az-1974-historical-state-senate-district-14",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "14",
+        "candidates": [
+          {
+            "candidate": "Lucy Davidson",
+            "official_total": 13523,
+            "official_statewide": 13523,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Charles King",
+            "official_total": 11842,
+            "official_statewide": 11842,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "15",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "Tom Wheeler",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 7075
+        },
+        {
+          "name": "S. H. \"Hal\" Runyan",
+          "party": "REP",
+          "write_in": false,
+          "votes": 10311
+        }
+      ],
+      "contest_id": "az-1974-historical-state-senate-district-15",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "15",
+        "candidates": [
+          {
+            "candidate": "Tom Wheeler",
+            "official_total": 7075,
+            "official_statewide": 7075,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "S. H. \"Hal\" Runyan",
+            "official_total": 10311,
+            "official_statewide": 10311,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "16",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "Marcia Weeks",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 12023
+        },
+        {
+          "name": "Bob Strother",
+          "party": "REP",
+          "write_in": false,
+          "votes": 10535
+        }
+      ],
+      "contest_id": "az-1974-historical-state-senate-district-16",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "16",
+        "candidates": [
+          {
+            "candidate": "Marcia Weeks",
+            "official_total": 12023,
+            "official_statewide": 12023,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Bob Strother",
+            "official_total": 10535,
+            "official_statewide": 10535,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "17",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Tom Flaherty",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 9318
+        },
+        {
+          "name": "Fred Koory, Jr.",
+          "party": "REP",
+          "write_in": false,
+          "votes": 15174
+        }
+      ],
+      "contest_id": "az-1974-historical-state-senate-district-17",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "17",
+        "candidates": [
+          {
+            "candidate": "Tom Flaherty",
+            "official_total": 9318,
+            "official_statewide": 9318,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Fred Koory, Jr.",
+            "official_total": 15174,
+            "official_statewide": 15174,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "18",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "H. E. \"Pat\" Patterson",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 8594
+        },
+        {
+          "name": "Leo Corbet",
+          "party": "REP",
+          "write_in": false,
+          "votes": 10783
+        }
+      ],
+      "contest_id": "az-1974-historical-state-senate-district-18",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "18",
+        "candidates": [
+          {
+            "candidate": "H. E. \"Pat\" Patterson",
+            "official_total": 8594,
+            "official_statewide": 8594,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Leo Corbet",
+            "official_total": 10783,
+            "official_statewide": 10783,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "19",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Madelene Van Arsdell",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 9588
+        },
+        {
+          "name": "Ray Rottas",
+          "party": "REP",
+          "write_in": false,
+          "votes": 9473
+        }
+      ],
+      "contest_id": "az-1974-historical-state-senate-district-19",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "19",
+        "candidates": [
+          {
+            "candidate": "Madelene Van Arsdell",
+            "official_total": 9588,
+            "official_statewide": 9588,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Ray Rottas",
+            "official_total": 9473,
+            "official_statewide": 9473,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "20",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Wayne O. Farley",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 7074
+        },
+        {
+          "name": "Bill McCune",
+          "party": "REP",
+          "write_in": false,
+          "votes": 8129
+        }
+      ],
+      "contest_id": "az-1974-historical-state-senate-district-20",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "20",
+        "candidates": [
+          {
+            "candidate": "Wayne O. Farley",
+            "official_total": 7074,
+            "official_statewide": 7074,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Bill McCune",
+            "official_total": 8129,
+            "official_statewide": 8129,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "21",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "James P. Walsh",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 8407
+        },
+        {
+          "name": "Howard S. Baldwin",
+          "party": "REP",
+          "write_in": false,
+          "votes": 7747
+        }
+      ],
+      "contest_id": "az-1974-historical-state-senate-district-21",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "21",
+        "candidates": [
+          {
+            "candidate": "James P. Walsh",
+            "official_total": 8407,
+            "official_statewide": 8407,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Howard S. Baldwin",
+            "official_total": 7747,
+            "official_statewide": 7747,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "22",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Manuel \"Lito\" Pena",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 7836
+        }
+      ],
+      "contest_id": "az-1974-historical-state-senate-district-22",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "22",
+        "candidates": [
+          {
+            "candidate": "Manuel \"Lito\" Pena",
+            "official_total": 7836,
+            "official_statewide": 7836,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "23",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Alfredo Gutierrez",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 6695
+        }
+      ],
+      "contest_id": "az-1974-historical-state-senate-district-23",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "23",
+        "candidates": [
+          {
+            "candidate": "Alfredo Gutierrez",
+            "official_total": 6695,
+            "official_statewide": 6695,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "24",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Carl G. Pettijohn",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 11969
+        },
+        {
+          "name": "John C. Pritzlaff, Jr.",
+          "party": "REP",
+          "write_in": false,
+          "votes": 16450
+        },
+        {
+          "name": "James H. Waterhouse",
+          "party": "WI",
+          "write_in": true,
+          "votes": 6
+        }
+      ],
+      "contest_id": "az-1974-historical-state-senate-district-24",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "24",
+        "candidates": [
+          {
+            "candidate": "Carl G. Pettijohn",
+            "official_total": 11969,
+            "official_statewide": 11969,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "John C. Pritzlaff, Jr.",
+            "official_total": 16450,
+            "official_statewide": 16450,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "James H. Waterhouse",
+            "official_total": 6,
+            "official_statewide": 6,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "25",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Betty Morrison",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 8159
+        },
+        {
+          "name": "Trudy Camping",
+          "party": "REP",
+          "write_in": false,
+          "votes": 7265
+        }
+      ],
+      "contest_id": "az-1974-historical-state-senate-district-25",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "25",
+        "candidates": [
+          {
+            "candidate": "Betty Morrison",
+            "official_total": 8159,
+            "official_statewide": 8159,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Trudy Camping",
+            "official_total": 7265,
+            "official_statewide": 7265,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "26",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Dr. John E. McNamara",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 8376
+        },
+        {
+          "name": "John Roeder",
+          "party": "REP",
+          "write_in": false,
+          "votes": 10689
+        }
+      ],
+      "contest_id": "az-1974-historical-state-senate-district-26",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "26",
+        "candidates": [
+          {
+            "candidate": "Dr. John E. McNamara",
+            "official_total": 8376,
+            "official_statewide": 8376,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "John Roeder",
+            "official_total": 10689,
+            "official_statewide": 10689,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "27",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "C. L. \"Clif\" Harries",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 10009
+        },
+        {
+          "name": "James A. (Jim) Mack",
+          "party": "REP",
+          "write_in": false,
+          "votes": 12382
+        }
+      ],
+      "contest_id": "az-1974-historical-state-senate-district-27",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "27",
+        "candidates": [
+          {
+            "candidate": "C. L. \"Clif\" Harries",
+            "official_total": 10009,
+            "official_statewide": 10009,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "James A. (Jim) Mack",
+            "official_total": 12382,
+            "official_statewide": 12382,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "28",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Bob Hungerford",
+          "party": "REP",
+          "write_in": false,
+          "votes": 14930
+        }
+      ],
+      "contest_id": "az-1974-historical-state-senate-district-28",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "28",
+        "candidates": [
+          {
+            "candidate": "Bob Hungerford",
+            "official_total": 14930,
+            "official_statewide": 14930,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "29",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Ruben R. Martinez",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 5698
+        },
+        {
+          "name": "Jack J. Taylor",
+          "party": "REP",
+          "write_in": false,
+          "votes": 11099
+        }
+      ],
+      "contest_id": "az-1974-historical-state-senate-district-29",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "29",
+        "candidates": [
+          {
+            "candidate": "Ruben R. Martinez",
+            "official_total": 5698,
+            "official_statewide": 5698,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Jack J. Taylor",
+            "official_total": 11099,
+            "official_statewide": 11099,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "30",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Clifford L. Searcy",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 7271
+        },
+        {
+          "name": "Stan Turley",
+          "party": "REP",
+          "write_in": false,
+          "votes": 11752
+        }
+      ],
+      "contest_id": "az-1974-historical-state-senate-district-30",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "30",
+        "candidates": [
+          {
+            "candidate": "Clifford L. Searcy",
+            "official_total": 7271,
+            "official_statewide": 7271,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Stan Turley",
+            "official_total": 11752,
+            "official_statewide": 11752,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "1",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "William \"Bill\" Pynchon",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 8961
+        },
+        {
+          "name": "Jim Thomas",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 11302
+        },
+        {
+          "name": "Ray Everett",
+          "party": "REP",
+          "write_in": false,
+          "votes": 11017
+        },
+        {
+          "name": "John Hays",
+          "party": "REP",
+          "write_in": false,
+          "votes": 13069
+        }
+      ],
+      "contest_id": "az-1974-historical-state-house-district-1",
+      "reconciliation": {
+        "status": "reported",
+        "page": 3,
+        "district": "1",
+        "candidates": [
+          {
+            "candidate": "William \"Bill\" Pynchon",
+            "official_total": 8961,
+            "official_statewide": 8961,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Jim Thomas",
+            "official_total": 11302,
+            "official_statewide": 11302,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Ray Everett",
+            "official_total": 11017,
+            "official_statewide": 11017,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "John Hays",
+            "official_total": 13069,
+            "official_statewide": 13069,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "2",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Leon Berger",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 7996
+        },
+        {
+          "name": "Boyd A. Shumway",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 8448
+        },
+        {
+          "name": "Sam A. McConnell, Jr.",
+          "party": "REP",
+          "write_in": false,
+          "votes": 10007
+        },
+        {
+          "name": "John Wettaw",
+          "party": "REP",
+          "write_in": false,
+          "votes": 10066
+        }
+      ],
+      "contest_id": "az-1974-historical-state-house-district-2",
+      "reconciliation": {
+        "status": "reported",
+        "page": 3,
+        "district": "2",
+        "candidates": [
+          {
+            "candidate": "Leon Berger",
+            "official_total": 7996,
+            "official_statewide": 7996,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Boyd A. Shumway",
+            "official_total": 8448,
+            "official_statewide": 8448,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Sam A. McConnell, Jr.",
+            "official_total": 10007,
+            "official_statewide": 10007,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "John Wettaw",
+            "official_total": 10066,
+            "official_statewide": 10066,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "3",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Jack A. Brown",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 5042
+        },
+        {
+          "name": "Benjamin Hanley",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 10290
+        },
+        {
+          "name": "Daniel Peaches",
+          "party": "REP",
+          "write_in": false,
+          "votes": 8726
+        }
+      ],
+      "contest_id": "az-1974-historical-state-house-district-3",
+      "reconciliation": {
+        "status": "reported",
+        "page": 3,
+        "district": "3",
+        "candidates": [
+          {
+            "candidate": "Jack A. Brown",
+            "official_total": 5042,
+            "official_statewide": 5042,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Benjamin Hanley",
+            "official_total": 10290,
+            "official_statewide": 10290,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Daniel Peaches",
+            "official_total": 8726,
+            "official_statewide": 8726,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "4",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Edward G. (Bunch) Guerrero",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 11099
+        },
+        {
+          "name": "E. C. (Polly) Rosenbaum",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 11755
+        }
+      ],
+      "contest_id": "az-1974-historical-state-house-district-4",
+      "reconciliation": {
+        "status": "reported",
+        "page": 3,
+        "district": "4",
+        "candidates": [
+          {
+            "candidate": "Edward G. (Bunch) Guerrero",
+            "official_total": 11099,
+            "official_statewide": 11099,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "E. C. (Polly) Rosenbaum",
+            "official_total": 11755,
+            "official_statewide": 11755,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "5",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "Elwood W. Bradford",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 7194
+        },
+        {
+          "name": "D. J. \"Jim\" Phillips",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 8157
+        },
+        {
+          "name": "Cushing \"Cush\" Lord",
+          "party": "REP",
+          "write_in": false,
+          "votes": 5039
+        }
+      ],
+      "contest_id": "az-1974-historical-state-house-district-5",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "5",
+        "candidates": [
+          {
+            "candidate": "Elwood W. Bradford",
+            "official_total": 7194,
+            "official_statewide": 7194,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "D. J. \"Jim\" Phillips",
+            "official_total": 8157,
+            "official_statewide": 8157,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Cushing \"Cush\" Lord",
+            "official_total": 5039,
+            "official_statewide": 5039,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "6",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "G. T. \"Tom\" Alley",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 5456
+        },
+        {
+          "name": "Polly Getzwiller",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 7474
+        },
+        {
+          "name": "Jim Hartdegen",
+          "party": "REP",
+          "write_in": false,
+          "votes": 4560
+        }
+      ],
+      "contest_id": "az-1974-historical-state-house-district-6",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "6",
+        "candidates": [
+          {
+            "candidate": "G. T. \"Tom\" Alley",
+            "official_total": 5456,
+            "official_statewide": 5456,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Polly Getzwiller",
+            "official_total": 7474,
+            "official_statewide": 7474,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Jim Hartdegen",
+            "official_total": 4560,
+            "official_statewide": 4560,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "7",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "Craig E. Davids",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 9560
+        },
+        {
+          "name": "Richard \"Dick\" Pacheco",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 8647
+        }
+      ],
+      "contest_id": "az-1974-historical-state-house-district-7",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "7",
+        "candidates": [
+          {
+            "candidate": "Craig E. Davids",
+            "official_total": 9560,
+            "official_statewide": 9560,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Richard \"Dick\" Pacheco",
+            "official_total": 8647,
+            "official_statewide": 8647,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "8",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "James A. (Jim) Elliott",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 12199
+        },
+        {
+          "name": "Steve Vukcevich",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 10481
+        },
+        {
+          "name": "Walter L. (Walt) Foster",
+          "party": "REP",
+          "write_in": false,
+          "votes": 7004
+        }
+      ],
+      "contest_id": "az-1974-historical-state-house-district-8",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "8",
+        "candidates": [
+          {
+            "candidate": "James A. (Jim) Elliott",
+            "official_total": 12199,
+            "official_statewide": 12199,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Steve Vukcevich",
+            "official_total": 10481,
+            "official_statewide": 10481,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Walter L. (Walt) Foster",
+            "official_total": 7004,
+            "official_statewide": 7004,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "9",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "Jim Dewberry",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 9573
+        },
+        {
+          "name": "Lloyd Vacovsky",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 7343
+        },
+        {
+          "name": "Tom Richey",
+          "party": "REP",
+          "write_in": false,
+          "votes": 8008
+        }
+      ],
+      "contest_id": "az-1974-historical-state-house-district-9",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "9",
+        "candidates": [
+          {
+            "candidate": "Jim Dewberry",
+            "official_total": 9573,
+            "official_statewide": 9573,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Lloyd Vacovsky",
+            "official_total": 7343,
+            "official_statewide": 7343,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Tom Richey",
+            "official_total": 8008,
+            "official_statewide": 8008,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "10",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "Larry Bahill",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 7559
+        },
+        {
+          "name": "Carmen Cajero",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 7662
+        },
+        {
+          "name": "George H. Curtis",
+          "party": "REP",
+          "write_in": false,
+          "votes": 2573
+        }
+      ],
+      "contest_id": "az-1974-historical-state-house-district-10",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "10",
+        "candidates": [
+          {
+            "candidate": "Larry Bahill",
+            "official_total": 7559,
+            "official_statewide": 7559,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Carmen Cajero",
+            "official_total": 7662,
+            "official_statewide": 7662,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "George H. Curtis",
+            "official_total": 2573,
+            "official_statewide": 2573,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "11",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "Emilio Carrillo",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 9474
+        },
+        {
+          "name": "R. P. \"Bob\" Fricks",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 9083
+        },
+        {
+          "name": "Charles (Chuck) Hill Knight, Jr.",
+          "party": "REP",
+          "write_in": false,
+          "votes": 4466
+        }
+      ],
+      "contest_id": "az-1974-historical-state-house-district-11",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "11",
+        "candidates": [
+          {
+            "candidate": "Emilio Carrillo",
+            "official_total": 9474,
+            "official_statewide": 9474,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "R. P. \"Bob\" Fricks",
+            "official_total": 9083,
+            "official_statewide": 9083,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Charles (Chuck) Hill Knight, Jr.",
+            "official_total": 4466,
+            "official_statewide": 4466,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "12",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "Jo Cauthorn",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 11246
+        },
+        {
+          "name": "John Kromko",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 9651
+        },
+        {
+          "name": "Thomas N. \"Tom\" Goodwin",
+          "party": "REP",
+          "write_in": false,
+          "votes": 10262
+        },
+        {
+          "name": "Pete Hershberger",
+          "party": "REP",
+          "write_in": false,
+          "votes": 9933
+        }
+      ],
+      "contest_id": "az-1974-historical-state-house-district-12",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "12",
+        "candidates": [
+          {
+            "candidate": "Jo Cauthorn",
+            "official_total": 11246,
+            "official_statewide": 11246,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "John Kromko",
+            "official_total": 9651,
+            "official_statewide": 9651,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Thomas N. \"Tom\" Goodwin",
+            "official_total": 10262,
+            "official_statewide": 10262,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Pete Hershberger",
+            "official_total": 9933,
+            "official_statewide": 9933,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "13",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "Sister Clare Dunn",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 12390
+        },
+        {
+          "name": "Bruce Wheeler",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 11180
+        },
+        {
+          "name": "Stephen Thomas Beal",
+          "party": "REP",
+          "write_in": false,
+          "votes": 9431
+        },
+        {
+          "name": "Seth H. Linthicum",
+          "party": "REP",
+          "write_in": false,
+          "votes": 8395
+        }
+      ],
+      "contest_id": "az-1974-historical-state-house-district-13",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "13",
+        "candidates": [
+          {
+            "candidate": "Sister Clare Dunn",
+            "official_total": 12390,
+            "official_statewide": 12390,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Bruce Wheeler",
+            "official_total": 11180,
+            "official_statewide": 11180,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Stephen Thomas Beal",
+            "official_total": 9431,
+            "official_statewide": 9431,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Seth H. Linthicum",
+            "official_total": 8395,
+            "official_statewide": 8395,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "14",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "Anna J. Cullinan",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 12485
+        },
+        {
+          "name": "Sylvain Schnaittacher",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 9164
+        },
+        {
+          "name": "A. S. \"Skip\" Donau",
+          "party": "REP",
+          "write_in": false,
+          "votes": 12412
+        },
+        {
+          "name": "W. A. \"Tony\" Buehl",
+          "party": "REP",
+          "write_in": false,
+          "votes": 12393
+        }
+      ],
+      "contest_id": "az-1974-historical-state-house-district-14",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "14",
+        "candidates": [
+          {
+            "candidate": "Anna J. Cullinan",
+            "official_total": 12485,
+            "official_statewide": 12485,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Sylvain Schnaittacher",
+            "official_total": 9164,
+            "official_statewide": 9164,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "A. S. \"Skip\" Donau",
+            "official_total": 12412,
+            "official_statewide": 12412,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "W. A. \"Tony\" Buehl",
+            "official_total": 12393,
+            "official_statewide": 12393,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "15",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "Earl G. Rhodes",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 7515
+        },
+        {
+          "name": "J. H. (Rod) Rodriguez",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 5841
+        },
+        {
+          "name": "J. Herbert Everett",
+          "party": "REP",
+          "write_in": false,
+          "votes": 9602
+        },
+        {
+          "name": "James B. Ratliff",
+          "party": "REP",
+          "write_in": false,
+          "votes": 9720
+        }
+      ],
+      "contest_id": "az-1974-historical-state-house-district-15",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "15",
+        "candidates": [
+          {
+            "candidate": "Earl G. Rhodes",
+            "official_total": 7515,
+            "official_statewide": 7515,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "J. H. (Rod) Rodriguez",
+            "official_total": 5841,
+            "official_statewide": 5841,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "J. Herbert Everett",
+            "official_total": 9602,
+            "official_statewide": 9602,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "James B. Ratliff",
+            "official_total": 9720,
+            "official_statewide": 9720,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "16",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "S. J. Carlisle",
+          "party": "DEM",
+          "write_in": false,
+          "votes": null
+        },
+        {
+          "name": "Jack DeVault",
+          "party": "DEM",
+          "write_in": false,
+          "votes": null
+        },
+        {
+          "name": "Diane E. McCarthy",
+          "party": "REP",
+          "write_in": false,
+          "votes": null
+        }
+      ],
+      "contest_id": "az-1974-historical-state-house-district-16",
+      "reconciliation": {
+        "status": "incomplete",
+        "page": 4,
+        "district": "16",
+        "candidates": [
+          {
+            "candidate": "S. J. Carlisle",
+            "official_total": null,
+            "official_statewide": null,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Jack DeVault",
+            "official_total": null,
+            "official_statewide": null,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Diane E. McCarthy",
+            "official_total": null,
+            "official_statewide": null,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "17",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Robert L. (Bob) Huffman",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 8901
+        },
+        {
+          "name": "Dennis Serbick",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 7520
+        },
+        {
+          "name": "C. W. \"Bill\" Lewis",
+          "party": "REP",
+          "write_in": false,
+          "votes": 13842
+        },
+        {
+          "name": "Anne Lindeman",
+          "party": "REP",
+          "write_in": false,
+          "votes": 15348
+        }
+      ],
+      "contest_id": "az-1974-historical-state-house-district-17",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "17",
+        "candidates": [
+          {
+            "candidate": "Robert L. (Bob) Huffman",
+            "official_total": 8901,
+            "official_statewide": 8901,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Dennis Serbick",
+            "official_total": 7520,
+            "official_statewide": 7520,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "C. W. \"Bill\" Lewis",
+            "official_total": 13842,
+            "official_statewide": 13842,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Anne Lindeman",
+            "official_total": 15348,
+            "official_statewide": 15348,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "18",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Russell J. Fons",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 6769
+        },
+        {
+          "name": "Phyllis G. Rowe",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 8701
+        },
+        {
+          "name": "Burton S. Barr",
+          "party": "REP",
+          "write_in": false,
+          "votes": 11259
+        },
+        {
+          "name": "Ruth Peck",
+          "party": "REP",
+          "write_in": false,
+          "votes": 10470
+        }
+      ],
+      "contest_id": "az-1974-historical-state-house-district-18",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "18",
+        "candidates": [
+          {
+            "candidate": "Russell J. Fons",
+            "official_total": 6769,
+            "official_statewide": 6769,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Phyllis G. Rowe",
+            "official_total": 8701,
+            "official_statewide": 8701,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Burton S. Barr",
+            "official_total": 11259,
+            "official_statewide": 11259,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Ruth Peck",
+            "official_total": 10470,
+            "official_statewide": 10470,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "19",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Jay O. Foley",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 8103
+        },
+        {
+          "name": "Ron G. Sartor",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 7373
+        },
+        {
+          "name": "Stan Akers",
+          "party": "REP",
+          "write_in": false,
+          "votes": 10653
+        },
+        {
+          "name": "Tony West",
+          "party": "REP",
+          "write_in": false,
+          "votes": 9828
+        }
+      ],
+      "contest_id": "az-1974-historical-state-house-district-19",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "19",
+        "candidates": [
+          {
+            "candidate": "Jay O. Foley",
+            "official_total": 8103,
+            "official_statewide": 8103,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Ron G. Sartor",
+            "official_total": 7373,
+            "official_statewide": 7373,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Stan Akers",
+            "official_total": 10653,
+            "official_statewide": 10653,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Tony West",
+            "official_total": 9828,
+            "official_statewide": 9828,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "20",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Susan L. James",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 7612
+        },
+        {
+          "name": "Gerald F. (Jerry) Moore",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 7536
+        },
+        {
+          "name": "Howard Adams",
+          "party": "REP",
+          "write_in": false,
+          "votes": 6868
+        },
+        {
+          "name": "G. R. \"Jerry\" LeRoy",
+          "party": "REP",
+          "write_in": false,
+          "votes": 6149
+        }
+      ],
+      "contest_id": "az-1974-historical-state-house-district-20",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "20",
+        "candidates": [
+          {
+            "candidate": "Susan L. James",
+            "official_total": 7612,
+            "official_statewide": 7612,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Gerald F. (Jerry) Moore",
+            "official_total": 7536,
+            "official_statewide": 7536,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Howard Adams",
+            "official_total": 6868,
+            "official_statewide": 6868,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "G. R. \"Jerry\" LeRoy",
+            "official_total": 6149,
+            "official_statewide": 6149,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "21",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Dr. Timona Pittman",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 7317
+        },
+        {
+          "name": "Frank L. Ross",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 7073
+        },
+        {
+          "name": "Keith W. Hubbard",
+          "party": "REP",
+          "write_in": false,
+          "votes": 7732
+        },
+        {
+          "name": "Elizabeth Adams Rockwell",
+          "party": "REP",
+          "write_in": false,
+          "votes": 8170
+        }
+      ],
+      "contest_id": "az-1974-historical-state-house-district-21",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "21",
+        "candidates": [
+          {
+            "candidate": "Dr. Timona Pittman",
+            "official_total": 7317,
+            "official_statewide": 7317,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Frank L. Ross",
+            "official_total": 7073,
+            "official_statewide": 7073,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Keith W. Hubbard",
+            "official_total": 7732,
+            "official_statewide": 7732,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Elizabeth Adams Rockwell",
+            "official_total": 8170,
+            "official_statewide": 8170,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "22",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Art Hamilton",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 6140
+        },
+        {
+          "name": "R. G. \"Danny\" Pena",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 6204
+        },
+        {
+          "name": "Marcelyn Mann",
+          "party": "REP",
+          "write_in": false,
+          "votes": 3041
+        }
+      ],
+      "contest_id": "az-1974-historical-state-house-district-22",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "22",
+        "candidates": [
+          {
+            "candidate": "Art Hamilton",
+            "official_total": 6140,
+            "official_statewide": 6140,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "R. G. \"Danny\" Pena",
+            "official_total": 6204,
+            "official_statewide": 6204,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Marcelyn Mann",
+            "official_total": 3041,
+            "official_statewide": 3041,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "23",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Tony R. Abril",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 5442
+        },
+        {
+          "name": "Leon Thompson",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 4960
+        }
+      ],
+      "contest_id": "az-1974-historical-state-house-district-23",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "23",
+        "candidates": [
+          {
+            "candidate": "Tony R. Abril",
+            "official_total": 5442,
+            "official_statewide": 5442,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Leon Thompson",
+            "official_total": 4960,
+            "official_statewide": 4960,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "24",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Dave Bellmont",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 10453
+        },
+        {
+          "name": "James S. Bennett, III",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 10364
+        },
+        {
+          "name": "Pete Corpstein",
+          "party": "REP",
+          "write_in": false,
+          "votes": 16780
+        },
+        {
+          "name": "Cal Holman",
+          "party": "REP",
+          "write_in": false,
+          "votes": 15989
+        }
+      ],
+      "contest_id": "az-1974-historical-state-house-district-24",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "24",
+        "candidates": [
+          {
+            "candidate": "Dave Bellmont",
+            "official_total": 10453,
+            "official_statewide": 10453,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "James S. Bennett, III",
+            "official_total": 10364,
+            "official_statewide": 10364,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Pete Corpstein",
+            "official_total": 16780,
+            "official_statewide": 16780,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Cal Holman",
+            "official_total": 15989,
+            "official_statewide": 15989,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "25",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Louis L. Rhodes",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 6707
+        },
+        {
+          "name": "Gladys T. Verdugo",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 6729
+        },
+        {
+          "name": "D. Lee Jones",
+          "party": "REP",
+          "write_in": false,
+          "votes": 6975
+        },
+        {
+          "name": "Jim Skelly",
+          "party": "REP",
+          "write_in": false,
+          "votes": 7975
+        }
+      ],
+      "contest_id": "az-1974-historical-state-house-district-25",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "25",
+        "candidates": [
+          {
+            "candidate": "Louis L. Rhodes",
+            "official_total": 6707,
+            "official_statewide": 6707,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Gladys T. Verdugo",
+            "official_total": 6729,
+            "official_statewide": 6729,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "D. Lee Jones",
+            "official_total": 6975,
+            "official_statewide": 6975,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Jim Skelly",
+            "official_total": 7975,
+            "official_statewide": 7975,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "26",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Jay Gaskins",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 6282
+        },
+        {
+          "name": "William E. Hegarty",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 7636
+        },
+        {
+          "name": "Peter Kay",
+          "party": "REP",
+          "write_in": false,
+          "votes": 9939
+        },
+        {
+          "name": "Frank Kelley",
+          "party": "REP",
+          "write_in": false,
+          "votes": 10065
+        },
+        {
+          "name": "Eric Shane",
+          "party": "Independence-Liberty-Objectivity",
+          "write_in": false,
+          "votes": 1273
+        }
+      ],
+      "contest_id": "az-1974-historical-state-house-district-26",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "26",
+        "candidates": [
+          {
+            "candidate": "Jay Gaskins",
+            "official_total": 6282,
+            "official_statewide": 6282,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "William E. Hegarty",
+            "official_total": 7636,
+            "official_statewide": 7636,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Peter Kay",
+            "official_total": 9939,
+            "official_statewide": 9939,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Frank Kelley",
+            "official_total": 10065,
+            "official_statewide": 10065,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Eric Shane",
+            "official_total": 1273,
+            "official_statewide": 1273,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "27",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Eliza M. Carney",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 9990
+        },
+        {
+          "name": "Mario H. Esquer",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 9322
+        },
+        {
+          "name": "Richard O. (Dick) Flynn",
+          "party": "REP",
+          "write_in": false,
+          "votes": 10666
+        },
+        {
+          "name": "Juanita Harelson",
+          "party": "REP",
+          "write_in": false,
+          "votes": 12756
+        }
+      ],
+      "contest_id": "az-1974-historical-state-house-district-27",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "27",
+        "candidates": [
+          {
+            "candidate": "Eliza M. Carney",
+            "official_total": 9990,
+            "official_statewide": 9990,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Mario H. Esquer",
+            "official_total": 9322,
+            "official_statewide": 9322,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Richard O. (Dick) Flynn",
+            "official_total": 10666,
+            "official_statewide": 10666,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Juanita Harelson",
+            "official_total": 12756,
+            "official_statewide": 12756,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "28",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Lillian Field",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 7134
+        },
+        {
+          "name": "Betty Strauss",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 7474
+        },
+        {
+          "name": "Americo \"Mac\" Carvalho",
+          "party": "REP",
+          "write_in": false,
+          "votes": 10704
+        },
+        {
+          "name": "William E. \"Bill\" Riegel",
+          "party": "REP",
+          "write_in": false,
+          "votes": 11066
+        }
+      ],
+      "contest_id": "az-1974-historical-state-house-district-28",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "28",
+        "candidates": [
+          {
+            "candidate": "Lillian Field",
+            "official_total": 7134,
+            "official_statewide": 7134,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Betty Strauss",
+            "official_total": 7474,
+            "official_statewide": 7474,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Americo \"Mac\" Carvalho",
+            "official_total": 10704,
+            "official_statewide": 10704,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "William E. \"Bill\" Riegel",
+            "official_total": 11066,
+            "official_statewide": 11066,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "29",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Joseph S. Jarvis",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 6389
+        },
+        {
+          "name": "Joe Jellicoe",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 3996
+        },
+        {
+          "name": "Donna J. Carlson",
+          "party": "REP",
+          "write_in": false,
+          "votes": 10267
+        },
+        {
+          "name": "Jim Cooper",
+          "party": "REP",
+          "write_in": false,
+          "votes": 9928
+        }
+      ],
+      "contest_id": "az-1974-historical-state-house-district-29",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "29",
+        "candidates": [
+          {
+            "candidate": "Joseph S. Jarvis",
+            "official_total": 6389,
+            "official_statewide": 6389,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Joe Jellicoe",
+            "official_total": 3996,
+            "official_statewide": 3996,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Donna J. Carlson",
+            "official_total": 10267,
+            "official_statewide": 10267,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Jim Cooper",
+            "official_total": 9928,
+            "official_statewide": 9928,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "30",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Irene A. Leitch",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 7610
+        },
+        {
+          "name": "Albert L. Vega",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 6200
+        },
+        {
+          "name": "Carl J. Kunasek",
+          "party": "REP",
+          "write_in": false,
+          "votes": 9779
+        },
+        {
+          "name": "James J. Sossaman",
+          "party": "REP",
+          "write_in": false,
+          "votes": 11551
+        }
+      ],
+      "contest_id": "az-1974-historical-state-house-district-30",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "30",
+        "candidates": [
+          {
+            "candidate": "Irene A. Leitch",
+            "official_total": 7610,
+            "official_statewide": 7610,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Albert L. Vega",
+            "official_total": 6200,
+            "official_statewide": 6200,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Carl J. Kunasek",
+            "official_total": 9779,
+            "official_statewide": 9779,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "James J. Sossaman",
+            "official_total": 11551,
+            "official_statewide": 11551,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    }
+  ]
+}

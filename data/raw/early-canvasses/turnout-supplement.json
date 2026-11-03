@@ -1,0 +1,2975 @@
+{
+  "1914": {
+    "04001": {
+      "ballots_cast": null,
+      "registered_voters": 1202,
+      "percent": null,
+      "definition": "Official voter registration only; total ballots cast and turnout percentage are not supplied by this table.",
+      "page": 5,
+      "source_path": "data/raw/early-canvasses/pdfs/1914.pdf"
+    },
+    "04003": {
+      "ballots_cast": null,
+      "registered_voters": 12811,
+      "percent": null,
+      "definition": "Official voter registration only; total ballots cast and turnout percentage are not supplied by this table.",
+      "page": 5,
+      "source_path": "data/raw/early-canvasses/pdfs/1914.pdf"
+    },
+    "04005": {
+      "ballots_cast": null,
+      "registered_voters": 2807,
+      "percent": null,
+      "definition": "Official voter registration only; total ballots cast and turnout percentage are not supplied by this table.",
+      "page": 5,
+      "source_path": "data/raw/early-canvasses/pdfs/1914.pdf"
+    },
+    "04007": {
+      "ballots_cast": null,
+      "registered_voters": 6154,
+      "percent": null,
+      "definition": "Official voter registration only; total ballots cast and turnout percentage are not supplied by this table.",
+      "page": 5,
+      "source_path": "data/raw/early-canvasses/pdfs/1914.pdf"
+    },
+    "04009": {
+      "ballots_cast": null,
+      "registered_voters": 2526,
+      "percent": null,
+      "definition": "Official voter registration only; total ballots cast and turnout percentage are not supplied by this table.",
+      "page": 5,
+      "source_path": "data/raw/early-canvasses/pdfs/1914.pdf"
+    },
+    "04011": {
+      "ballots_cast": null,
+      "registered_voters": 3037,
+      "percent": null,
+      "definition": "Official voter registration only; total ballots cast and turnout percentage are not supplied by this table.",
+      "page": 5,
+      "source_path": "data/raw/early-canvasses/pdfs/1914.pdf"
+    },
+    "04013": {
+      "ballots_cast": null,
+      "registered_voters": 18747,
+      "percent": null,
+      "definition": "Official voter registration only; total ballots cast and turnout percentage are not supplied by this table.",
+      "page": 5,
+      "source_path": "data/raw/early-canvasses/pdfs/1914.pdf"
+    },
+    "04015": {
+      "ballots_cast": null,
+      "registered_voters": 1854,
+      "percent": null,
+      "definition": "Official voter registration only; total ballots cast and turnout percentage are not supplied by this table.",
+      "page": 5,
+      "source_path": "data/raw/early-canvasses/pdfs/1914.pdf"
+    },
+    "04017": {
+      "ballots_cast": null,
+      "registered_voters": 2404,
+      "percent": null,
+      "definition": "Official voter registration only; total ballots cast and turnout percentage are not supplied by this table.",
+      "page": 5,
+      "source_path": "data/raw/early-canvasses/pdfs/1914.pdf"
+    },
+    "04019": {
+      "ballots_cast": null,
+      "registered_voters": 5207,
+      "percent": null,
+      "definition": "Official voter registration only; total ballots cast and turnout percentage are not supplied by this table.",
+      "page": 5,
+      "source_path": "data/raw/early-canvasses/pdfs/1914.pdf"
+    },
+    "04021": {
+      "ballots_cast": null,
+      "registered_voters": 2639,
+      "percent": null,
+      "definition": "Official voter registration only; total ballots cast and turnout percentage are not supplied by this table.",
+      "page": 5,
+      "source_path": "data/raw/early-canvasses/pdfs/1914.pdf"
+    },
+    "04023": {
+      "ballots_cast": null,
+      "registered_voters": 1379,
+      "percent": null,
+      "definition": "Official voter registration only; total ballots cast and turnout percentage are not supplied by this table.",
+      "page": 5,
+      "source_path": "data/raw/early-canvasses/pdfs/1914.pdf"
+    },
+    "04025": {
+      "ballots_cast": null,
+      "registered_voters": 6343,
+      "percent": null,
+      "definition": "Official voter registration only; total ballots cast and turnout percentage are not supplied by this table.",
+      "page": 5,
+      "source_path": "data/raw/early-canvasses/pdfs/1914.pdf"
+    },
+    "04027": {
+      "ballots_cast": null,
+      "registered_voters": 2817,
+      "percent": null,
+      "definition": "Official voter registration only; total ballots cast and turnout percentage are not supplied by this table.",
+      "page": 5,
+      "source_path": "data/raw/early-canvasses/pdfs/1914.pdf"
+    },
+    "04": {
+      "ballots_cast": null,
+      "registered_voters": 69927,
+      "percent": null,
+      "definition": "Official voter registration only; total ballots cast and turnout percentage are not supplied by this table.",
+      "page": 5,
+      "source_path": "data/raw/early-canvasses/pdfs/1914.pdf"
+    }
+  },
+  "1916": {
+    "04001": {
+      "ballots_cast": null,
+      "registered_voters": 1331,
+      "percent": null,
+      "definition": "Official voter registration only; total ballots cast and turnout percentage are not supplied by this table.",
+      "page": 7,
+      "source_path": "data/raw/early-canvasses/pdfs/1916.pdf"
+    },
+    "04003": {
+      "ballots_cast": null,
+      "registered_voters": 14750,
+      "percent": null,
+      "definition": "Official voter registration only; total ballots cast and turnout percentage are not supplied by this table.",
+      "page": 7,
+      "source_path": "data/raw/early-canvasses/pdfs/1916.pdf"
+    },
+    "04005": {
+      "ballots_cast": null,
+      "registered_voters": 2989,
+      "percent": null,
+      "definition": "Official voter registration only; total ballots cast and turnout percentage are not supplied by this table.",
+      "page": 7,
+      "source_path": "data/raw/early-canvasses/pdfs/1916.pdf"
+    },
+    "04007": {
+      "ballots_cast": null,
+      "registered_voters": 7984,
+      "percent": null,
+      "definition": "Official voter registration only; total ballots cast and turnout percentage are not supplied by this table.",
+      "page": 7,
+      "source_path": "data/raw/early-canvasses/pdfs/1916.pdf"
+    },
+    "04009": {
+      "ballots_cast": null,
+      "registered_voters": 3098,
+      "percent": null,
+      "definition": "Official voter registration only; total ballots cast and turnout percentage are not supplied by this table.",
+      "page": 7,
+      "source_path": "data/raw/early-canvasses/pdfs/1916.pdf"
+    },
+    "04011": {
+      "ballots_cast": null,
+      "registered_voters": 3211,
+      "percent": null,
+      "definition": "Official voter registration only; total ballots cast and turnout percentage are not supplied by this table.",
+      "page": 7,
+      "source_path": "data/raw/early-canvasses/pdfs/1916.pdf"
+    },
+    "04013": {
+      "ballots_cast": null,
+      "registered_voters": 19933,
+      "percent": null,
+      "definition": "Official voter registration only; total ballots cast and turnout percentage are not supplied by this table.",
+      "page": 7,
+      "source_path": "data/raw/early-canvasses/pdfs/1916.pdf"
+    },
+    "04015": {
+      "ballots_cast": null,
+      "registered_voters": 3610,
+      "percent": null,
+      "definition": "Official voter registration only; total ballots cast and turnout percentage are not supplied by this table.",
+      "page": 7,
+      "source_path": "data/raw/early-canvasses/pdfs/1916.pdf"
+    },
+    "04017": {
+      "ballots_cast": null,
+      "registered_voters": 2421,
+      "percent": null,
+      "definition": "Official voter registration only; total ballots cast and turnout percentage are not supplied by this table.",
+      "page": 7,
+      "source_path": "data/raw/early-canvasses/pdfs/1916.pdf"
+    },
+    "04019": {
+      "ballots_cast": null,
+      "registered_voters": 6482,
+      "percent": null,
+      "definition": "Official voter registration only; total ballots cast and turnout percentage are not supplied by this table.",
+      "page": 7,
+      "source_path": "data/raw/early-canvasses/pdfs/1916.pdf"
+    },
+    "04021": {
+      "ballots_cast": null,
+      "registered_voters": 2984,
+      "percent": null,
+      "definition": "Official voter registration only; total ballots cast and turnout percentage are not supplied by this table.",
+      "page": 7,
+      "source_path": "data/raw/early-canvasses/pdfs/1916.pdf"
+    },
+    "04023": {
+      "ballots_cast": null,
+      "registered_voters": 1819,
+      "percent": null,
+      "definition": "Official voter registration only; total ballots cast and turnout percentage are not supplied by this table.",
+      "page": 7,
+      "source_path": "data/raw/early-canvasses/pdfs/1916.pdf"
+    },
+    "04025": {
+      "ballots_cast": null,
+      "registered_voters": 7181,
+      "percent": null,
+      "definition": "Official voter registration only; total ballots cast and turnout percentage are not supplied by this table.",
+      "page": 7,
+      "source_path": "data/raw/early-canvasses/pdfs/1916.pdf"
+    },
+    "04027": {
+      "ballots_cast": null,
+      "registered_voters": 3189,
+      "percent": null,
+      "definition": "Official voter registration only; total ballots cast and turnout percentage are not supplied by this table.",
+      "page": 7,
+      "source_path": "data/raw/early-canvasses/pdfs/1916.pdf"
+    },
+    "04": {
+      "ballots_cast": null,
+      "registered_voters": 80982,
+      "percent": null,
+      "definition": "Official voter registration only; total ballots cast and turnout percentage are not supplied by this table.",
+      "page": 7,
+      "source_path": "data/raw/early-canvasses/pdfs/1916.pdf"
+    }
+  },
+  "1918": {
+    "04001": {
+      "ballots_cast": null,
+      "registered_voters": 807,
+      "percent": null,
+      "definition": "Official voter registration only; total ballots cast and turnout percentage are not supplied by this table.",
+      "page": 5,
+      "source_path": "data/raw/early-canvasses/pdfs/1918.pdf"
+    },
+    "04003": {
+      "ballots_cast": null,
+      "registered_voters": 13766,
+      "percent": null,
+      "definition": "Official voter registration only; total ballots cast and turnout percentage are not supplied by this table.",
+      "page": 5,
+      "source_path": "data/raw/early-canvasses/pdfs/1918.pdf"
+    },
+    "04005": {
+      "ballots_cast": null,
+      "registered_voters": 2785,
+      "percent": null,
+      "definition": "Official voter registration only; total ballots cast and turnout percentage are not supplied by this table.",
+      "page": 5,
+      "source_path": "data/raw/early-canvasses/pdfs/1918.pdf"
+    },
+    "04007": {
+      "ballots_cast": null,
+      "registered_voters": 8021,
+      "percent": null,
+      "definition": "Official voter registration only; total ballots cast and turnout percentage are not supplied by this table.",
+      "page": 5,
+      "source_path": "data/raw/early-canvasses/pdfs/1918.pdf"
+    },
+    "04009": {
+      "ballots_cast": null,
+      "registered_voters": 2877,
+      "percent": null,
+      "definition": "Official voter registration only; total ballots cast and turnout percentage are not supplied by this table.",
+      "page": 5,
+      "source_path": "data/raw/early-canvasses/pdfs/1918.pdf"
+    },
+    "04011": {
+      "ballots_cast": null,
+      "registered_voters": 2835,
+      "percent": null,
+      "definition": "Official voter registration only; total ballots cast and turnout percentage are not supplied by this table.",
+      "page": 5,
+      "source_path": "data/raw/early-canvasses/pdfs/1918.pdf"
+    },
+    "04013": {
+      "ballots_cast": null,
+      "registered_voters": 19940,
+      "percent": null,
+      "definition": "Official voter registration only; total ballots cast and turnout percentage are not supplied by this table.",
+      "page": 5,
+      "source_path": "data/raw/early-canvasses/pdfs/1918.pdf"
+    },
+    "04015": {
+      "ballots_cast": null,
+      "registered_voters": 2333,
+      "percent": null,
+      "definition": "Official voter registration only; total ballots cast and turnout percentage are not supplied by this table.",
+      "page": 5,
+      "source_path": "data/raw/early-canvasses/pdfs/1918.pdf"
+    },
+    "04017": {
+      "ballots_cast": null,
+      "registered_voters": 2381,
+      "percent": null,
+      "definition": "Official voter registration only; total ballots cast and turnout percentage are not supplied by this table.",
+      "page": 5,
+      "source_path": "data/raw/early-canvasses/pdfs/1918.pdf"
+    },
+    "04019": {
+      "ballots_cast": null,
+      "registered_voters": 7091,
+      "percent": null,
+      "definition": "Official voter registration only; total ballots cast and turnout percentage are not supplied by this table.",
+      "page": 5,
+      "source_path": "data/raw/early-canvasses/pdfs/1918.pdf"
+    },
+    "04021": {
+      "ballots_cast": null,
+      "registered_voters": 3091,
+      "percent": null,
+      "definition": "Official voter registration only; total ballots cast and turnout percentage are not supplied by this table.",
+      "page": 5,
+      "source_path": "data/raw/early-canvasses/pdfs/1918.pdf"
+    },
+    "04023": {
+      "ballots_cast": null,
+      "registered_voters": 1556,
+      "percent": null,
+      "definition": "Official voter registration only; total ballots cast and turnout percentage are not supplied by this table.",
+      "page": 5,
+      "source_path": "data/raw/early-canvasses/pdfs/1918.pdf"
+    },
+    "04025": {
+      "ballots_cast": null,
+      "registered_voters": 8737,
+      "percent": null,
+      "definition": "Official voter registration only; total ballots cast and turnout percentage are not supplied by this table.",
+      "page": 5,
+      "source_path": "data/raw/early-canvasses/pdfs/1918.pdf"
+    },
+    "04027": {
+      "ballots_cast": null,
+      "registered_voters": 3137,
+      "percent": null,
+      "definition": "Official voter registration only; total ballots cast and turnout percentage are not supplied by this table.",
+      "page": 5,
+      "source_path": "data/raw/early-canvasses/pdfs/1918.pdf"
+    },
+    "04": {
+      "ballots_cast": null,
+      "registered_voters": 79357,
+      "percent": null,
+      "definition": "Official voter registration only; total ballots cast and turnout percentage are not supplied by this table.",
+      "page": 5,
+      "source_path": "data/raw/early-canvasses/pdfs/1918.pdf"
+    }
+  },
+  "1926": {
+    "04001": {
+      "ballots_cast": null,
+      "registered_voters": 2436,
+      "percent": null,
+      "definition": "Official voter registration only; total ballots cast and turnout percentage are not supplied by this table.",
+      "page": 3,
+      "source_path": "data/raw/early-canvasses/pdfs/1926.pdf"
+    },
+    "04003": {
+      "ballots_cast": null,
+      "registered_voters": 12721,
+      "percent": null,
+      "definition": "Official voter registration only; total ballots cast and turnout percentage are not supplied by this table.",
+      "page": 3,
+      "source_path": "data/raw/early-canvasses/pdfs/1926.pdf"
+    },
+    "04005": {
+      "ballots_cast": null,
+      "registered_voters": 3670,
+      "percent": null,
+      "definition": "Official voter registration only; total ballots cast and turnout percentage are not supplied by this table.",
+      "page": 3,
+      "source_path": "data/raw/early-canvasses/pdfs/1926.pdf"
+    },
+    "04007": {
+      "ballots_cast": null,
+      "registered_voters": 8914,
+      "percent": null,
+      "definition": "Official voter registration only; total ballots cast and turnout percentage are not supplied by this table.",
+      "page": 3,
+      "source_path": "data/raw/early-canvasses/pdfs/1926.pdf"
+    },
+    "04009": {
+      "ballots_cast": null,
+      "registered_voters": 3500,
+      "percent": null,
+      "definition": "Official voter registration only; total ballots cast and turnout percentage are not supplied by this table.",
+      "page": 3,
+      "source_path": "data/raw/early-canvasses/pdfs/1926.pdf"
+    },
+    "04011": {
+      "ballots_cast": null,
+      "registered_voters": 2066,
+      "percent": null,
+      "definition": "Official voter registration only; total ballots cast and turnout percentage are not supplied by this table.",
+      "page": 3,
+      "source_path": "data/raw/early-canvasses/pdfs/1926.pdf"
+    },
+    "04013": {
+      "ballots_cast": null,
+      "registered_voters": 36445,
+      "percent": null,
+      "definition": "Official voter registration only; total ballots cast and turnout percentage are not supplied by this table.",
+      "page": 3,
+      "source_path": "data/raw/early-canvasses/pdfs/1926.pdf"
+    },
+    "04015": {
+      "ballots_cast": null,
+      "registered_voters": 2361,
+      "percent": null,
+      "definition": "Official voter registration only; total ballots cast and turnout percentage are not supplied by this table.",
+      "page": 3,
+      "source_path": "data/raw/early-canvasses/pdfs/1926.pdf"
+    },
+    "04017": {
+      "ballots_cast": null,
+      "registered_voters": 3242,
+      "percent": null,
+      "definition": "Official voter registration only; total ballots cast and turnout percentage are not supplied by this table.",
+      "page": 3,
+      "source_path": "data/raw/early-canvasses/pdfs/1926.pdf"
+    },
+    "04019": {
+      "ballots_cast": null,
+      "registered_voters": 12757,
+      "percent": null,
+      "definition": "Official voter registration only; total ballots cast and turnout percentage are not supplied by this table.",
+      "page": 3,
+      "source_path": "data/raw/early-canvasses/pdfs/1926.pdf"
+    },
+    "04021": {
+      "ballots_cast": null,
+      "registered_voters": 3320,
+      "percent": null,
+      "definition": "Official voter registration only; total ballots cast and turnout percentage are not supplied by this table.",
+      "page": 3,
+      "source_path": "data/raw/early-canvasses/pdfs/1926.pdf"
+    },
+    "04023": {
+      "ballots_cast": null,
+      "registered_voters": 2264,
+      "percent": null,
+      "definition": "Official voter registration only; total ballots cast and turnout percentage are not supplied by this table.",
+      "page": 3,
+      "source_path": "data/raw/early-canvasses/pdfs/1926.pdf"
+    },
+    "04025": {
+      "ballots_cast": null,
+      "registered_voters": 9865,
+      "percent": null,
+      "definition": "Official voter registration only; total ballots cast and turnout percentage are not supplied by this table.",
+      "page": 3,
+      "source_path": "data/raw/early-canvasses/pdfs/1926.pdf"
+    },
+    "04027": {
+      "ballots_cast": null,
+      "registered_voters": 4928,
+      "percent": null,
+      "definition": "Official voter registration only; total ballots cast and turnout percentage are not supplied by this table.",
+      "page": 3,
+      "source_path": "data/raw/early-canvasses/pdfs/1926.pdf"
+    },
+    "04": {
+      "ballots_cast": null,
+      "registered_voters": 108489,
+      "percent": null,
+      "definition": "Official voter registration only; total ballots cast and turnout percentage are not supplied by this table.",
+      "page": 3,
+      "source_path": "data/raw/early-canvasses/pdfs/1926.pdf"
+    }
+  },
+  "1930": {
+    "04001": {
+      "ballots_cast": null,
+      "registered_voters": 2301,
+      "percent": null,
+      "definition": "Official voter registration only; total ballots cast and turnout percentage are not supplied by this table.",
+      "page": 4,
+      "source_path": "data/raw/early-canvasses/pdfs/1930.pdf"
+    },
+    "04003": {
+      "ballots_cast": null,
+      "registered_voters": 13108,
+      "percent": null,
+      "definition": "Official voter registration only; total ballots cast and turnout percentage are not supplied by this table.",
+      "page": 4,
+      "source_path": "data/raw/early-canvasses/pdfs/1930.pdf"
+    },
+    "04005": {
+      "ballots_cast": null,
+      "registered_voters": 4023,
+      "percent": null,
+      "definition": "Official voter registration only; total ballots cast and turnout percentage are not supplied by this table.",
+      "page": 4,
+      "source_path": "data/raw/early-canvasses/pdfs/1930.pdf"
+    },
+    "04007": {
+      "ballots_cast": null,
+      "registered_voters": 9642,
+      "percent": null,
+      "definition": "Official voter registration only; total ballots cast and turnout percentage are not supplied by this table.",
+      "page": 4,
+      "source_path": "data/raw/early-canvasses/pdfs/1930.pdf"
+    },
+    "04009": {
+      "ballots_cast": null,
+      "registered_voters": 3680,
+      "percent": null,
+      "definition": "Official voter registration only; total ballots cast and turnout percentage are not supplied by this table.",
+      "page": 4,
+      "source_path": "data/raw/early-canvasses/pdfs/1930.pdf"
+    },
+    "04011": {
+      "ballots_cast": null,
+      "registered_voters": 2470,
+      "percent": null,
+      "definition": "Official voter registration only; total ballots cast and turnout percentage are not supplied by this table.",
+      "page": 4,
+      "source_path": "data/raw/early-canvasses/pdfs/1930.pdf"
+    },
+    "04013": {
+      "ballots_cast": null,
+      "registered_voters": 51429,
+      "percent": null,
+      "definition": "Official voter registration only; total ballots cast and turnout percentage are not supplied by this table.",
+      "page": 4,
+      "source_path": "data/raw/early-canvasses/pdfs/1930.pdf"
+    },
+    "04015": {
+      "ballots_cast": null,
+      "registered_voters": 2569,
+      "percent": null,
+      "definition": "Official voter registration only; total ballots cast and turnout percentage are not supplied by this table.",
+      "page": 4,
+      "source_path": "data/raw/early-canvasses/pdfs/1930.pdf"
+    },
+    "04017": {
+      "ballots_cast": null,
+      "registered_voters": 4252,
+      "percent": null,
+      "definition": "Official voter registration only; total ballots cast and turnout percentage are not supplied by this table.",
+      "page": 4,
+      "source_path": "data/raw/early-canvasses/pdfs/1930.pdf"
+    },
+    "04019": {
+      "ballots_cast": null,
+      "registered_voters": 16742,
+      "percent": null,
+      "definition": "Official voter registration only; total ballots cast and turnout percentage are not supplied by this table.",
+      "page": 4,
+      "source_path": "data/raw/early-canvasses/pdfs/1930.pdf"
+    },
+    "04021": {
+      "ballots_cast": null,
+      "registered_voters": 4813,
+      "percent": null,
+      "definition": "Official voter registration only; total ballots cast and turnout percentage are not supplied by this table.",
+      "page": 4,
+      "source_path": "data/raw/early-canvasses/pdfs/1930.pdf"
+    },
+    "04023": {
+      "ballots_cast": null,
+      "registered_voters": 2240,
+      "percent": null,
+      "definition": "Official voter registration only; total ballots cast and turnout percentage are not supplied by this table.",
+      "page": 4,
+      "source_path": "data/raw/early-canvasses/pdfs/1930.pdf"
+    },
+    "04025": {
+      "ballots_cast": null,
+      "registered_voters": 10324,
+      "percent": null,
+      "definition": "Official voter registration only; total ballots cast and turnout percentage are not supplied by this table.",
+      "page": 4,
+      "source_path": "data/raw/early-canvasses/pdfs/1930.pdf"
+    },
+    "04027": {
+      "ballots_cast": null,
+      "registered_voters": 5552,
+      "percent": null,
+      "definition": "Official voter registration only; total ballots cast and turnout percentage are not supplied by this table.",
+      "page": 4,
+      "source_path": "data/raw/early-canvasses/pdfs/1930.pdf"
+    },
+    "04": {
+      "ballots_cast": null,
+      "registered_voters": 133145,
+      "percent": null,
+      "definition": "Official voter registration only; total ballots cast and turnout percentage are not supplied by this table.",
+      "page": 4,
+      "source_path": "data/raw/early-canvasses/pdfs/1930.pdf"
+    }
+  },
+  "1940": {
+    "04001": {
+      "ballots_cast": null,
+      "registered_voters": 3908,
+      "percent": null,
+      "definition": "Official voter registration only; total ballots cast and turnout percentage are not supplied by this table.",
+      "page": 9,
+      "source_path": "data/raw/early-canvasses/pdfs/1940.pdf"
+    },
+    "04003": {
+      "ballots_cast": null,
+      "registered_voters": 14352,
+      "percent": null,
+      "definition": "Official voter registration only; total ballots cast and turnout percentage are not supplied by this table.",
+      "page": 9,
+      "source_path": "data/raw/early-canvasses/pdfs/1940.pdf"
+    },
+    "04005": {
+      "ballots_cast": null,
+      "registered_voters": 6532,
+      "percent": null,
+      "definition": "Official voter registration only; total ballots cast and turnout percentage are not supplied by this table.",
+      "page": 9,
+      "source_path": "data/raw/early-canvasses/pdfs/1940.pdf"
+    },
+    "04007": {
+      "ballots_cast": null,
+      "registered_voters": 10471,
+      "percent": null,
+      "definition": "Official voter registration only; total ballots cast and turnout percentage are not supplied by this table.",
+      "page": 9,
+      "source_path": "data/raw/early-canvasses/pdfs/1940.pdf"
+    },
+    "04009": {
+      "ballots_cast": null,
+      "registered_voters": 5682,
+      "percent": null,
+      "definition": "Official voter registration only; total ballots cast and turnout percentage are not supplied by this table.",
+      "page": 9,
+      "source_path": "data/raw/early-canvasses/pdfs/1940.pdf"
+    },
+    "04011": {
+      "ballots_cast": null,
+      "registered_voters": 3735,
+      "percent": null,
+      "definition": "Official voter registration only; total ballots cast and turnout percentage are not supplied by this table.",
+      "page": 9,
+      "source_path": "data/raw/early-canvasses/pdfs/1940.pdf"
+    },
+    "04013": {
+      "ballots_cast": null,
+      "registered_voters": 75519,
+      "percent": null,
+      "definition": "Official voter registration only; total ballots cast and turnout percentage are not supplied by this table.",
+      "page": 9,
+      "source_path": "data/raw/early-canvasses/pdfs/1940.pdf"
+    },
+    "04015": {
+      "ballots_cast": null,
+      "registered_voters": 4309,
+      "percent": null,
+      "definition": "Official voter registration only; total ballots cast and turnout percentage are not supplied by this table.",
+      "page": 9,
+      "source_path": "data/raw/early-canvasses/pdfs/1940.pdf"
+    },
+    "04017": {
+      "ballots_cast": null,
+      "registered_voters": 5646,
+      "percent": null,
+      "definition": "Official voter registration only; total ballots cast and turnout percentage are not supplied by this table.",
+      "page": 9,
+      "source_path": "data/raw/early-canvasses/pdfs/1940.pdf"
+    },
+    "04019": {
+      "ballots_cast": null,
+      "registered_voters": 28429,
+      "percent": null,
+      "definition": "Official voter registration only; total ballots cast and turnout percentage are not supplied by this table.",
+      "page": 9,
+      "source_path": "data/raw/early-canvasses/pdfs/1940.pdf"
+    },
+    "04021": {
+      "ballots_cast": null,
+      "registered_voters": 8789,
+      "percent": null,
+      "definition": "Official voter registration only; total ballots cast and turnout percentage are not supplied by this table.",
+      "page": 9,
+      "source_path": "data/raw/early-canvasses/pdfs/1940.pdf"
+    },
+    "04023": {
+      "ballots_cast": null,
+      "registered_voters": 3565,
+      "percent": null,
+      "definition": "Official voter registration only; total ballots cast and turnout percentage are not supplied by this table.",
+      "page": 9,
+      "source_path": "data/raw/early-canvasses/pdfs/1940.pdf"
+    },
+    "04025": {
+      "ballots_cast": null,
+      "registered_voters": 13132,
+      "percent": null,
+      "definition": "Official voter registration only; total ballots cast and turnout percentage are not supplied by this table.",
+      "page": 9,
+      "source_path": "data/raw/early-canvasses/pdfs/1940.pdf"
+    },
+    "04027": {
+      "ballots_cast": null,
+      "registered_voters": 7694,
+      "percent": null,
+      "definition": "Official voter registration only; total ballots cast and turnout percentage are not supplied by this table.",
+      "page": 9,
+      "source_path": "data/raw/early-canvasses/pdfs/1940.pdf"
+    },
+    "04": {
+      "ballots_cast": null,
+      "registered_voters": 191763,
+      "percent": null,
+      "definition": "Official voter registration only; total ballots cast and turnout percentage are not supplied by this table.",
+      "page": 9,
+      "source_path": "data/raw/early-canvasses/pdfs/1940.pdf"
+    }
+  },
+  "1946": {
+    "04001": {
+      "ballots_cast": 2033,
+      "registered_voters": 3061,
+      "percent": 66.4,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1946.pdf"
+    },
+    "04003": {
+      "ballots_cast": 8724,
+      "registered_voters": 13605,
+      "percent": 65.5,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1946.pdf"
+    },
+    "04005": {
+      "ballots_cast": 3053,
+      "registered_voters": 5447,
+      "percent": 56.0,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1946.pdf"
+    },
+    "04007": {
+      "ballots_cast": 5950,
+      "registered_voters": 9755,
+      "percent": 60.9,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1946.pdf"
+    },
+    "04009": {
+      "ballots_cast": 3374,
+      "registered_voters": 4841,
+      "percent": 69.7,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1946.pdf"
+    },
+    "04011": {
+      "ballots_cast": 2197,
+      "registered_voters": 4455,
+      "percent": 47.3,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1946.pdf"
+    },
+    "04013": {
+      "ballots_cast": 54392,
+      "registered_voters": 84564,
+      "percent": 64.3,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1946.pdf"
+    },
+    "04015": {
+      "ballots_cast": 2306,
+      "registered_voters": 3827,
+      "percent": 60.2,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1946.pdf"
+    },
+    "04017": {
+      "ballots_cast": 3442,
+      "registered_voters": 5449,
+      "percent": 63.1,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1946.pdf"
+    },
+    "04019": {
+      "ballots_cast": 21646,
+      "registered_voters": 32429,
+      "percent": 63.6,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1946.pdf"
+    },
+    "04021": {
+      "ballots_cast": 4786,
+      "registered_voters": 7860,
+      "percent": 60.9,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1946.pdf"
+    },
+    "04023": {
+      "ballots_cast": 1855,
+      "registered_voters": 3253,
+      "percent": 57.0,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1946.pdf"
+    },
+    "04025": {
+      "ballots_cast": 7476,
+      "registered_voters": 11442,
+      "percent": 65.3,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1946.pdf"
+    },
+    "04027": {
+      "ballots_cast": 4823,
+      "registered_voters": 7820,
+      "percent": 61.6,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1946.pdf"
+    },
+    "04": {
+      "ballots_cast": 125987,
+      "registered_voters": 197808,
+      "percent": 63.7,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1946.pdf",
+      "notes": "Printed county ballots_cast sum differs from printed statewide total by +70; preserve the official printed figures."
+    }
+  },
+  "1948": {
+    "04001": {
+      "ballots_cast": 2624,
+      "registered_voters": 3509,
+      "percent": 74.8,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1948.pdf"
+    },
+    "04003": {
+      "ballots_cast": 10821,
+      "registered_voters": 13805,
+      "percent": 78.4,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1948.pdf"
+    },
+    "04005": {
+      "ballots_cast": 4735,
+      "registered_voters": 6402,
+      "percent": 74.0,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1948.pdf"
+    },
+    "04007": {
+      "ballots_cast": 7717,
+      "registered_voters": 10096,
+      "percent": 76.4,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1948.pdf"
+    },
+    "04009": {
+      "ballots_cast": 3706,
+      "registered_voters": 4906,
+      "percent": 75.5,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1948.pdf"
+    },
+    "04011": {
+      "ballots_cast": 3102,
+      "registered_voters": 4610,
+      "percent": 67.3,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1948.pdf"
+    },
+    "04013": {
+      "ballots_cast": 81837,
+      "registered_voters": 107353,
+      "percent": 76.2,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1948.pdf"
+    },
+    "04015": {
+      "ballots_cast": 2865,
+      "registered_voters": 4165,
+      "percent": 68.8,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1948.pdf"
+    },
+    "04017": {
+      "ballots_cast": 4739,
+      "registered_voters": 6066,
+      "percent": 78.1,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1948.pdf"
+    },
+    "04019": {
+      "ballots_cast": 36823,
+      "registered_voters": 45674,
+      "percent": 80.6,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1948.pdf"
+    },
+    "04021": {
+      "ballots_cast": 6118,
+      "registered_voters": 9079,
+      "percent": 67.4,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1948.pdf"
+    },
+    "04023": {
+      "ballots_cast": 2680,
+      "registered_voters": 3488,
+      "percent": 76.8,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1948.pdf"
+    },
+    "04025": {
+      "ballots_cast": 9303,
+      "registered_voters": 12492,
+      "percent": 74.5,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1948.pdf"
+    },
+    "04027": {
+      "ballots_cast": 7253,
+      "registered_voters": 9353,
+      "percent": 77.5,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1948.pdf"
+    },
+    "04": {
+      "ballots_cast": 184323,
+      "registered_voters": 240998,
+      "percent": 76.5,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1948.pdf"
+    }
+  },
+  "1950": {
+    "04001": {
+      "ballots_cast": 2469,
+      "registered_voters": 3816,
+      "percent": 64.7,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1950.1.pdf"
+    },
+    "04003": {
+      "ballots_cast": 10569,
+      "registered_voters": 14014,
+      "percent": 75.4,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1950.1.pdf"
+    },
+    "04005": {
+      "ballots_cast": 4908,
+      "registered_voters": 6855,
+      "percent": 71.6,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1950.1.pdf"
+    },
+    "04007": {
+      "ballots_cast": 8025,
+      "registered_voters": 10738,
+      "percent": 74.7,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1950.1.pdf"
+    },
+    "04009": {
+      "ballots_cast": 3988,
+      "registered_voters": 5431,
+      "percent": 73.4,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1950.1.pdf"
+    },
+    "04011": {
+      "ballots_cast": 3513,
+      "registered_voters": 5052,
+      "percent": 69.5,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1950.1.pdf"
+    },
+    "04013": {
+      "ballots_cast": 93919,
+      "registered_voters": 131510,
+      "percent": 71.4,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1950.1.pdf"
+    },
+    "04015": {
+      "ballots_cast": 2694,
+      "registered_voters": 3876,
+      "percent": 69.5,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1950.1.pdf"
+    },
+    "04017": {
+      "ballots_cast": 4880,
+      "registered_voters": 6550,
+      "percent": 74.5,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1950.1.pdf"
+    },
+    "04019": {
+      "ballots_cast": 37966,
+      "registered_voters": 52775,
+      "percent": 71.9,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1950.1.pdf"
+    },
+    "04021": {
+      "ballots_cast": 7833,
+      "registered_voters": 11153,
+      "percent": 70.2,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1950.1.pdf"
+    },
+    "04023": {
+      "ballots_cast": 2772,
+      "registered_voters": 3454,
+      "percent": 80.3,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1950.1.pdf"
+    },
+    "04025": {
+      "ballots_cast": 9115,
+      "registered_voters": 12618,
+      "percent": 72.2,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1950.1.pdf"
+    },
+    "04027": {
+      "ballots_cast": 8116,
+      "registered_voters": 11322,
+      "percent": 71.7,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1950.1.pdf"
+    },
+    "04": {
+      "ballots_cast": 200767,
+      "registered_voters": 279164,
+      "percent": 71.9,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1950.1.pdf"
+    }
+  },
+  "1952": {
+    "04001": {
+      "ballots_cast": 3135,
+      "registered_voters": 4289,
+      "percent": 73.1,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1952.1.pdf"
+    },
+    "04003": {
+      "ballots_cast": 12205,
+      "registered_voters": 14881,
+      "percent": 82.0,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1952.1.pdf"
+    },
+    "04005": {
+      "ballots_cast": 6471,
+      "registered_voters": 8108,
+      "percent": 79.8,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1952.1.pdf"
+    },
+    "04007": {
+      "ballots_cast": 9017,
+      "registered_voters": 11088,
+      "percent": 81.3,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1952.1.pdf"
+    },
+    "04009": {
+      "ballots_cast": 4348,
+      "registered_voters": 5563,
+      "percent": 78.2,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1952.1.pdf"
+    },
+    "04011": {
+      "ballots_cast": 4513,
+      "registered_voters": 5532,
+      "percent": 81.6,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1952.1.pdf"
+    },
+    "04013": {
+      "ballots_cast": 130340,
+      "registered_voters": 162589,
+      "percent": 80.2,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1952.1.pdf"
+    },
+    "04015": {
+      "ballots_cast": 2886,
+      "registered_voters": 3717,
+      "percent": 77.6,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1952.1.pdf"
+    },
+    "04017": {
+      "ballots_cast": 6331,
+      "registered_voters": 7613,
+      "percent": 83.2,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1952.1.pdf"
+    },
+    "04019": {
+      "ballots_cast": 55076,
+      "registered_voters": 64594,
+      "percent": 85.3,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1952.1.pdf"
+    },
+    "04021": {
+      "ballots_cast": 9754,
+      "registered_voters": 13015,
+      "percent": 74.9,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1952.1.pdf"
+    },
+    "04023": {
+      "ballots_cast": 3211,
+      "registered_voters": 3918,
+      "percent": 82.0,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1952.1.pdf"
+    },
+    "04025": {
+      "ballots_cast": 10591,
+      "registered_voters": 13171,
+      "percent": 80.4,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1952.1.pdf"
+    },
+    "04027": {
+      "ballots_cast": 9447,
+      "registered_voters": 12005,
+      "percent": 78.7,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1952.1.pdf"
+    },
+    "04": {
+      "ballots_cast": 267325,
+      "registered_voters": 330083,
+      "percent": 81.0,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1952.1.pdf"
+    }
+  },
+  "1954": {
+    "04001": {
+      "ballots_cast": 2594,
+      "registered_voters": 3270,
+      "percent": 79.33,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1954.pdf"
+    },
+    "04003": {
+      "ballots_cast": 11089,
+      "registered_voters": 13541,
+      "percent": 81.89,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1954.pdf"
+    },
+    "04005": {
+      "ballots_cast": 5407,
+      "registered_voters": 6872,
+      "percent": 78.68,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1954.pdf"
+    },
+    "04007": {
+      "ballots_cast": 8648,
+      "registered_voters": 10454,
+      "percent": 82.72,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1954.pdf"
+    },
+    "04009": {
+      "ballots_cast": 4076,
+      "registered_voters": 4570,
+      "percent": 89.19,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1954.pdf"
+    },
+    "04011": {
+      "ballots_cast": 4510,
+      "registered_voters": 5484,
+      "percent": 82.24,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1954.pdf"
+    },
+    "04013": {
+      "ballots_cast": 124164,
+      "registered_voters": 154546,
+      "percent": 80.34,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1954.pdf"
+    },
+    "04015": {
+      "ballots_cast": 2287,
+      "registered_voters": 2851,
+      "percent": 80.22,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1954.pdf"
+    },
+    "04017": {
+      "ballots_cast": 5561,
+      "registered_voters": 6729,
+      "percent": 82.64,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1954.pdf"
+    },
+    "04019": {
+      "ballots_cast": 49181,
+      "registered_voters": 59092,
+      "percent": 83.23,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1954.pdf"
+    },
+    "04021": {
+      "ballots_cast": 10027,
+      "registered_voters": 13339,
+      "percent": 75.17,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1954.pdf"
+    },
+    "04023": {
+      "ballots_cast": 3040,
+      "registered_voters": 3524,
+      "percent": 86.27,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1954.pdf"
+    },
+    "04025": {
+      "ballots_cast": 9360,
+      "registered_voters": 11244,
+      "percent": 83.24,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1954.pdf"
+    },
+    "04027": {
+      "ballots_cast": 9538,
+      "registered_voters": 12029,
+      "percent": 79.29,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1954.pdf"
+    },
+    "04": {
+      "ballots_cast": 249482,
+      "registered_voters": 307545,
+      "percent": 81.12,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1954.pdf"
+    }
+  },
+  "1958": {
+    "04001": {
+      "ballots_cast": 2614,
+      "registered_voters": 3580,
+      "percent": 73.02,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 4,
+      "source_path": "data/raw/early-canvasses/pdfs/1958.pdf"
+    },
+    "04003": {
+      "ballots_cast": 12316,
+      "registered_voters": 15931,
+      "percent": 77.31,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 4,
+      "source_path": "data/raw/early-canvasses/pdfs/1958.pdf"
+    },
+    "04005": {
+      "ballots_cast": 6603,
+      "registered_voters": 8770,
+      "percent": 75.29,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 4,
+      "source_path": "data/raw/early-canvasses/pdfs/1958.pdf"
+    },
+    "04007": {
+      "ballots_cast": 8647,
+      "registered_voters": 11101,
+      "percent": 77.89,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 4,
+      "source_path": "data/raw/early-canvasses/pdfs/1958.pdf"
+    },
+    "04009": {
+      "ballots_cast": 4441,
+      "registered_voters": 5777,
+      "percent": 76.87,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 4,
+      "source_path": "data/raw/early-canvasses/pdfs/1958.pdf"
+    },
+    "04011": {
+      "ballots_cast": 4300,
+      "registered_voters": 5517,
+      "percent": 77.94,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 4,
+      "source_path": "data/raw/early-canvasses/pdfs/1958.pdf"
+    },
+    "04013": {
+      "ballots_cast": 154791,
+      "registered_voters": 197943,
+      "percent": 78.2,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 4,
+      "source_path": "data/raw/early-canvasses/pdfs/1958.pdf"
+    },
+    "04015": {
+      "ballots_cast": 2618,
+      "registered_voters": 3313,
+      "percent": 79.02,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 4,
+      "source_path": "data/raw/early-canvasses/pdfs/1958.pdf"
+    },
+    "04017": {
+      "ballots_cast": 6262,
+      "registered_voters": 8276,
+      "percent": 75.66,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 4,
+      "source_path": "data/raw/early-canvasses/pdfs/1958.pdf"
+    },
+    "04019": {
+      "ballots_cast": 63285,
+      "registered_voters": 84248,
+      "percent": 75.12,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 4,
+      "source_path": "data/raw/early-canvasses/pdfs/1958.pdf"
+    },
+    "04021": {
+      "ballots_cast": 11384,
+      "registered_voters": 15412,
+      "percent": 73.86,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 4,
+      "source_path": "data/raw/early-canvasses/pdfs/1958.pdf"
+    },
+    "04023": {
+      "ballots_cast": 2970,
+      "registered_voters": 3849,
+      "percent": 77.16,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 4,
+      "source_path": "data/raw/early-canvasses/pdfs/1958.pdf"
+    },
+    "04025": {
+      "ballots_cast": 9572,
+      "registered_voters": 12789,
+      "percent": 74.85,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 4,
+      "source_path": "data/raw/early-canvasses/pdfs/1958.pdf"
+    },
+    "04027": {
+      "ballots_cast": 10201,
+      "registered_voters": 15005,
+      "percent": 67.98,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 4,
+      "source_path": "data/raw/early-canvasses/pdfs/1958.pdf"
+    },
+    "04": {
+      "ballots_cast": 300004,
+      "registered_voters": 391511,
+      "percent": 76.63,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 4,
+      "source_path": "data/raw/early-canvasses/pdfs/1958.pdf"
+    }
+  },
+  "1960": {
+    "04001": {
+      "ballots_cast": 3109,
+      "registered_voters": 3773,
+      "percent": 82.4,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1960.pdf"
+    },
+    "04003": {
+      "ballots_cast": 15625,
+      "registered_voters": 18054,
+      "percent": 86.55,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1960.pdf"
+    },
+    "04005": {
+      "ballots_cast": 9317,
+      "registered_voters": 11232,
+      "percent": 82.95,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1960.pdf"
+    },
+    "04007": {
+      "ballots_cast": 9456,
+      "registered_voters": 11621,
+      "percent": 81.37,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1960.pdf"
+    },
+    "04009": {
+      "ballots_cast": 4700,
+      "registered_voters": 5466,
+      "percent": 85.97,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1960.pdf"
+    },
+    "04011": {
+      "ballots_cast": 4553,
+      "registered_voters": 5312,
+      "percent": 85.71,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1960.pdf"
+    },
+    "04013": {
+      "ballots_cast": 217822,
+      "registered_voters": 250301,
+      "percent": 87.02,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1960.pdf"
+    },
+    "04015": {
+      "ballots_cast": 3062,
+      "registered_voters": 3648,
+      "percent": 83.94,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1960.pdf"
+    },
+    "04017": {
+      "ballots_cast": 7506,
+      "registered_voters": 9128,
+      "percent": 82.23,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1960.pdf"
+    },
+    "04019": {
+      "ballots_cast": 90743,
+      "registered_voters": 104166,
+      "percent": 87.11,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1960.pdf"
+    },
+    "04021": {
+      "ballots_cast": 14305,
+      "registered_voters": 17498,
+      "percent": 81.75,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1960.pdf"
+    },
+    "04023": {
+      "ballots_cast": 3310,
+      "registered_voters": 4076,
+      "percent": 81.21,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1960.pdf"
+    },
+    "04025": {
+      "ballots_cast": 11719,
+      "registered_voters": 13960,
+      "percent": 83.94,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1960.pdf"
+    },
+    "04027": {
+      "ballots_cast": 12910,
+      "registered_voters": 15889,
+      "percent": 81.25,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1960.pdf"
+    },
+    "04": {
+      "ballots_cast": 408137,
+      "registered_voters": 474124,
+      "percent": 86.08,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1960.pdf"
+    }
+  },
+  "1962": {
+    "04001": {
+      "ballots_cast": 2958,
+      "registered_voters": 4193,
+      "percent": 70.55,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1962.pdf"
+    },
+    "04003": {
+      "ballots_cast": 13819,
+      "registered_voters": 18684,
+      "percent": 73.96,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1962.pdf"
+    },
+    "04005": {
+      "ballots_cast": 8689,
+      "registered_voters": 12726,
+      "percent": 68.28,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1962.pdf"
+    },
+    "04007": {
+      "ballots_cast": 9002,
+      "registered_voters": 11401,
+      "percent": 78.96,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1962.pdf"
+    },
+    "04009": {
+      "ballots_cast": 4506,
+      "registered_voters": 5945,
+      "percent": 75.79,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1962.pdf"
+    },
+    "04011": {
+      "ballots_cast": 4312,
+      "registered_voters": 5209,
+      "percent": 82.78,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1962.pdf"
+    },
+    "04013": {
+      "ballots_cast": 206388,
+      "registered_voters": 276523,
+      "percent": 74.64,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1962.pdf"
+    },
+    "04015": {
+      "ballots_cast": 3112,
+      "registered_voters": 4051,
+      "percent": 76.82,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1962.pdf"
+    },
+    "04017": {
+      "ballots_cast": 7440,
+      "registered_voters": 9736,
+      "percent": 76.42,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1962.pdf"
+    },
+    "04019": {
+      "ballots_cast": 74509,
+      "registered_voters": 106285,
+      "percent": 70.1,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1962.pdf"
+    },
+    "04021": {
+      "ballots_cast": 14230,
+      "registered_voters": 19056,
+      "percent": 74.67,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1962.pdf"
+    },
+    "04023": {
+      "ballots_cast": 3474,
+      "registered_voters": 4348,
+      "percent": 79.9,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1962.pdf"
+    },
+    "04025": {
+      "ballots_cast": 11195,
+      "registered_voters": 14732,
+      "percent": 75.99,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1962.pdf"
+    },
+    "04027": {
+      "ballots_cast": 11801,
+      "registered_voters": 16577,
+      "percent": 71.19,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1962.pdf"
+    },
+    "04": {
+      "ballots_cast": 375435,
+      "registered_voters": 509466,
+      "percent": 73.69,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1962.pdf"
+    }
+  },
+  "1964": {
+    "04001": {
+      "ballots_cast": 4042,
+      "registered_voters": 4899,
+      "percent": 82.51,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1964.pdf"
+    },
+    "04003": {
+      "ballots_cast": 17152,
+      "registered_voters": 19712,
+      "percent": 87.01,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1964.pdf"
+    },
+    "04005": {
+      "ballots_cast": 11165,
+      "registered_voters": 13857,
+      "percent": 80.57,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1964.pdf"
+    },
+    "04007": {
+      "ballots_cast": 10876,
+      "registered_voters": 12593,
+      "percent": 86.33,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1964.pdf"
+    },
+    "04009": {
+      "ballots_cast": 5643,
+      "registered_voters": 6613,
+      "percent": 85.27,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1964.pdf"
+    },
+    "04011": {
+      "ballots_cast": 4442,
+      "registered_voters": 5137,
+      "percent": 86.47,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1964.pdf"
+    },
+    "04013": {
+      "ballots_cast": 267380,
+      "registered_voters": 322513,
+      "percent": 82.91,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1964.pdf"
+    },
+    "04015": {
+      "ballots_cast": 4444,
+      "registered_voters": 5428,
+      "percent": 81.87,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1964.pdf"
+    },
+    "04017": {
+      "ballots_cast": 9839,
+      "registered_voters": 11942,
+      "percent": 82.39,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1964.pdf"
+    },
+    "04019": {
+      "ballots_cast": 103547,
+      "registered_voters": 122352,
+      "percent": 84.63,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1964.pdf"
+    },
+    "04021": {
+      "ballots_cast": 17342,
+      "registered_voters": 20354,
+      "percent": 85.16,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1964.pdf"
+    },
+    "04023": {
+      "ballots_cast": 3590,
+      "registered_voters": 4367,
+      "percent": 82.21,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1964.pdf"
+    },
+    "04025": {
+      "ballots_cast": 13917,
+      "registered_voters": 16207,
+      "percent": 85.87,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1964.pdf"
+    },
+    "04027": {
+      "ballots_cast": 14702,
+      "registered_voters": 17853,
+      "percent": 82.35,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1964.pdf"
+    },
+    "04": {
+      "ballots_cast": 488081,
+      "registered_voters": 584337,
+      "percent": 83.53,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1964.pdf",
+      "notes": "Printed county registered_voters sum differs from printed statewide total by -510; preserve the official printed figures."
+    }
+  },
+  "1966": {
+    "04001": {
+      "ballots_cast": 3407,
+      "registered_voters": 6043,
+      "percent": 56.38,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1966ge.pdf"
+    },
+    "04003": {
+      "ballots_cast": 13302,
+      "registered_voters": 19081,
+      "percent": 69.71,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1966ge.pdf"
+    },
+    "04005": {
+      "ballots_cast": 8034,
+      "registered_voters": 13248,
+      "percent": 60.64,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1966ge.pdf"
+    },
+    "04007": {
+      "ballots_cast": 8961,
+      "registered_voters": 12350,
+      "percent": 72.56,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1966ge.pdf"
+    },
+    "04009": {
+      "ballots_cast": 4257,
+      "registered_voters": 6232,
+      "percent": 68.31,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1966ge.pdf"
+    },
+    "04011": {
+      "ballots_cast": 3592,
+      "registered_voters": 4802,
+      "percent": 74.8,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1966ge.pdf"
+    },
+    "04013": {
+      "ballots_cast": 216718,
+      "registered_voters": 320301,
+      "percent": 67.66,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1966ge.pdf"
+    },
+    "04015": {
+      "ballots_cast": 3697,
+      "registered_voters": 5831,
+      "percent": 63.4,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1966ge.pdf"
+    },
+    "04017": {
+      "ballots_cast": 7381,
+      "registered_voters": 11236,
+      "percent": 65.69,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1966ge.pdf"
+    },
+    "04019": {
+      "ballots_cast": 79702,
+      "registered_voters": 120135,
+      "percent": 66.34,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1966ge.pdf"
+    },
+    "04021": {
+      "ballots_cast": 13833,
+      "registered_voters": 20358,
+      "percent": 67.95,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1966ge.pdf"
+    },
+    "04023": {
+      "ballots_cast": 2950,
+      "registered_voters": 4121,
+      "percent": 71.58,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1966ge.pdf"
+    },
+    "04025": {
+      "ballots_cast": 11905,
+      "registered_voters": 16602,
+      "percent": 71.71,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1966ge.pdf"
+    },
+    "04027": {
+      "ballots_cast": 11044,
+      "registered_voters": 17331,
+      "percent": 63.72,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1966ge.pdf"
+    },
+    "04": {
+      "ballots_cast": 388783,
+      "registered_voters": 577671,
+      "percent": 67.3,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1966ge.pdf"
+    }
+  },
+  "1970": {
+    "04001": {
+      "ballots_cast": 3620,
+      "registered_voters": 6382,
+      "percent": 56.72,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1970ge.pdf"
+    },
+    "04003": {
+      "ballots_cast": 14204,
+      "registered_voters": 19963,
+      "percent": 71.16,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1970ge.pdf"
+    },
+    "04005": {
+      "ballots_cast": 9037,
+      "registered_voters": 13768,
+      "percent": 65.64,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1970ge.pdf"
+    },
+    "04007": {
+      "ballots_cast": 8127,
+      "registered_voters": 11687,
+      "percent": 69.53,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1970ge.pdf"
+    },
+    "04009": {
+      "ballots_cast": 4531,
+      "registered_voters": 6308,
+      "percent": 71.82,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1970ge.pdf"
+    },
+    "04011": {
+      "ballots_cast": 3179,
+      "registered_voters": 4270,
+      "percent": 74.44,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1970ge.pdf"
+    },
+    "04013": {
+      "ballots_cast": 234246,
+      "registered_voters": 349236,
+      "percent": 67.08,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1970ge.pdf"
+    },
+    "04015": {
+      "ballots_cast": 5598,
+      "registered_voters": 8720,
+      "percent": 57.59,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1970ge.pdf"
+    },
+    "04017": {
+      "ballots_cast": 7925,
+      "registered_voters": 11656,
+      "percent": 68.0,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1970ge.pdf"
+    },
+    "04019": {
+      "ballots_cast": 90132,
+      "registered_voters": 126313,
+      "percent": 71.36,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1970ge.pdf"
+    },
+    "04021": {
+      "ballots_cast": 14088,
+      "registered_voters": 20752,
+      "percent": 67.89,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1970ge.pdf"
+    },
+    "04023": {
+      "ballots_cast": 3022,
+      "registered_voters": 4357,
+      "percent": 69.36,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1970ge.pdf"
+    },
+    "04025": {
+      "ballots_cast": 11436,
+      "registered_voters": 16846,
+      "percent": 67.88,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1970ge.pdf"
+    },
+    "04027": {
+      "ballots_cast": 11484,
+      "registered_voters": 18193,
+      "percent": 63.12,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1970ge.pdf"
+    },
+    "04": {
+      "ballots_cast": 420629,
+      "registered_voters": 618451,
+      "percent": 68.01,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1970ge.pdf"
+    }
+  },
+  "1974": {
+    "04001": {
+      "ballots_cast": 7153,
+      "registered_voters": 13013,
+      "percent": 54.96,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1974ge.pdf"
+    },
+    "04003": {
+      "ballots_cast": 16849,
+      "registered_voters": 24981,
+      "percent": 67.45,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1974ge.pdf"
+    },
+    "04005": {
+      "ballots_cast": 16441,
+      "registered_voters": 27053,
+      "percent": 62.28,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1974ge.pdf"
+    },
+    "04007": {
+      "ballots_cast": 9464,
+      "registered_voters": 14457,
+      "percent": 65.46,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1974ge.pdf"
+    },
+    "04009": {
+      "ballots_cast": 5246,
+      "registered_voters": 8497,
+      "percent": 61.74,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1974ge.pdf"
+    },
+    "04011": {
+      "ballots_cast": 3746,
+      "registered_voters": 5328,
+      "percent": 70.31,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1974ge.pdf"
+    },
+    "04013": {
+      "ballots_cast": 316407,
+      "registered_voters": 493384,
+      "percent": 64.13,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1974ge.pdf"
+    },
+    "04015": {
+      "ballots_cast": 8975,
+      "registered_voters": 14762,
+      "percent": 60.8,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1974ge.pdf"
+    },
+    "04017": {
+      "ballots_cast": 11678,
+      "registered_voters": 18818,
+      "percent": 62.06,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1974ge.pdf"
+    },
+    "04019": {
+      "ballots_cast": 117236,
+      "registered_voters": 190488,
+      "percent": 61.54,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1974ge.pdf"
+    },
+    "04021": {
+      "ballots_cast": 17095,
+      "registered_voters": 28009,
+      "percent": 61.03,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1974ge.pdf"
+    },
+    "04023": {
+      "ballots_cast": 3469,
+      "registered_voters": 5788,
+      "percent": 59.93,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1974ge.pdf"
+    },
+    "04025": {
+      "ballots_cast": 17004,
+      "registered_voters": 24470,
+      "percent": 69.49,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1974ge.pdf"
+    },
+    "04027": {
+      "ballots_cast": 13228,
+      "registered_voters": 21785,
+      "percent": 60.72,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1974ge.pdf"
+    },
+    "04": {
+      "ballots_cast": 563991,
+      "registered_voters": 890833,
+      "percent": 63.31,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1974ge.pdf"
+    }
+  },
+  "1978": {
+    "04001": {
+      "ballots_cast": 7142,
+      "registered_voters": 14365,
+      "percent": 49.72,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1978ge.pdf"
+    },
+    "04003": {
+      "ballots_cast": 15931,
+      "registered_voters": 26001,
+      "percent": 61.27,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1978ge.pdf"
+    },
+    "04005": {
+      "ballots_cast": 15789,
+      "registered_voters": 28457,
+      "percent": 55.48,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1978ge.pdf"
+    },
+    "04007": {
+      "ballots_cast": 9889,
+      "registered_voters": 15849,
+      "percent": 62.4,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1978ge.pdf"
+    },
+    "04009": {
+      "ballots_cast": 5962,
+      "registered_voters": 9253,
+      "percent": 64.43,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1978ge.pdf"
+    },
+    "04011": {
+      "ballots_cast": 3334,
+      "registered_voters": 5096,
+      "percent": 65.42,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1978ge.pdf"
+    },
+    "04013": {
+      "ballots_cast": 307537,
+      "registered_voters": 543282,
+      "percent": 56.61,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1978ge.pdf"
+    },
+    "04015": {
+      "ballots_cast": 12879,
+      "registered_voters": 20981,
+      "percent": 61.38,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1978ge.pdf"
+    },
+    "04017": {
+      "ballots_cast": 11420,
+      "registered_voters": 19673,
+      "percent": 57.79,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1978ge.pdf"
+    },
+    "04019": {
+      "ballots_cast": 108305,
+      "registered_voters": 197335,
+      "percent": 54.88,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1978ge.pdf"
+    },
+    "04021": {
+      "ballots_cast": 17433,
+      "registered_voters": 29444,
+      "percent": 59.21,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1978ge.pdf"
+    },
+    "04023": {
+      "ballots_cast": 4324,
+      "registered_voters": 6728,
+      "percent": 64.27,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1978ge.pdf"
+    },
+    "04025": {
+      "ballots_cast": 18263,
+      "registered_voters": 28948,
+      "percent": 63.09,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1978ge.pdf"
+    },
+    "04027": {
+      "ballots_cast": 12961,
+      "registered_voters": 24018,
+      "percent": 53.96,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1978ge.pdf"
+    },
+    "04": {
+      "ballots_cast": 551169,
+      "registered_voters": 969430,
+      "percent": 56.85,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1978ge.pdf"
+    }
+  },
+  "1982": {
+    "04001": {
+      "ballots_cast": 10450,
+      "registered_voters": 16905,
+      "percent": 61.82,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1982ge.pdf"
+    },
+    "04003": {
+      "ballots_cast": 20610,
+      "registered_voters": 29192,
+      "percent": 70.6,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1982ge.pdf"
+    },
+    "04005": {
+      "ballots_cast": 21949,
+      "registered_voters": 35466,
+      "percent": 61.89,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1982ge.pdf"
+    },
+    "04007": {
+      "ballots_cast": 12030,
+      "registered_voters": 17746,
+      "percent": 67.79,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1982ge.pdf"
+    },
+    "04009": {
+      "ballots_cast": 6825,
+      "registered_voters": 9794,
+      "percent": 69.69,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1982ge.pdf"
+    },
+    "04011": {
+      "ballots_cast": 3382,
+      "registered_voters": 4753,
+      "percent": 71.16,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1982ge.pdf"
+    },
+    "04013": {
+      "ballots_cast": 399987,
+      "registered_voters": 623521,
+      "percent": 64.15,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1982ge.pdf"
+    },
+    "04015": {
+      "ballots_cast": 18946,
+      "registered_voters": 28063,
+      "percent": 67.51,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1982ge.pdf"
+    },
+    "04017": {
+      "ballots_cast": 14352,
+      "registered_voters": 21764,
+      "percent": 65.94,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1982ge.pdf"
+    },
+    "04019": {
+      "ballots_cast": 161060,
+      "registered_voters": 245930,
+      "percent": 65.49,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1982ge.pdf"
+    },
+    "04021": {
+      "ballots_cast": 22114,
+      "registered_voters": 33181,
+      "percent": 66.65,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1982ge.pdf"
+    },
+    "04023": {
+      "ballots_cast": 4994,
+      "registered_voters": 7270,
+      "percent": 68.69,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1982ge.pdf"
+    },
+    "04025": {
+      "ballots_cast": 26994,
+      "registered_voters": 38501,
+      "percent": 70.11,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1982ge.pdf"
+    },
+    "04027": {
+      "ballots_cast": 19230,
+      "registered_voters": 28763,
+      "percent": 66.86,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1982ge.pdf"
+    },
+    "04": {
+      "ballots_cast": 742923,
+      "registered_voters": 1140849,
+      "percent": 65.12,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1982ge.pdf"
+    }
+  },
+  "1986": {
+    "04001": {
+      "ballots_cast": 12142,
+      "registered_voters": 23653,
+      "percent": 51.33,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1986ge.pdf"
+    },
+    "04003": {
+      "ballots_cast": 22808,
+      "registered_voters": 41830,
+      "percent": 54.53,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1986ge.pdf"
+    },
+    "04005": {
+      "ballots_cast": 24504,
+      "registered_voters": 45624,
+      "percent": 53.71,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1986ge.pdf"
+    },
+    "04007": {
+      "ballots_cast": 14423,
+      "registered_voters": 22521,
+      "percent": 64.04,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1986ge.pdf"
+    },
+    "04009": {
+      "ballots_cast": 7185,
+      "registered_voters": 11683,
+      "percent": 61.5,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1986ge.pdf"
+    },
+    "04011": {
+      "ballots_cast": 3072,
+      "registered_voters": 5523,
+      "percent": 55.62,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1986ge.pdf"
+    },
+    "04012": {
+      "ballots_cast": 3618,
+      "registered_voters": 6765,
+      "percent": 53.48,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1986ge.pdf"
+    },
+    "04013": {
+      "ballots_cast": 506106,
+      "registered_voters": 899405,
+      "percent": 56.27,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1986ge.pdf"
+    },
+    "04015": {
+      "ballots_cast": 22296,
+      "registered_voters": 42206,
+      "percent": 52.83,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1986ge.pdf"
+    },
+    "04017": {
+      "ballots_cast": 17135,
+      "registered_voters": 31334,
+      "percent": 54.69,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1986ge.pdf"
+    },
+    "04019": {
+      "ballots_cast": 175363,
+      "registered_voters": 329257,
+      "percent": 53.26,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1986ge.pdf"
+    },
+    "04021": {
+      "ballots_cast": 25520,
+      "registered_voters": 45102,
+      "percent": 56.58,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1986ge.pdf"
+    },
+    "04023": {
+      "ballots_cast": 5570,
+      "registered_voters": 9672,
+      "percent": 57.59,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1986ge.pdf"
+    },
+    "04025": {
+      "ballots_cast": 32855,
+      "registered_voters": 50236,
+      "percent": 65.4,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1986ge.pdf"
+    },
+    "04027": {
+      "ballots_cast": 17071,
+      "registered_voters": 33123,
+      "percent": 51.54,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1986ge.pdf"
+    },
+    "04": {
+      "ballots_cast": 889668,
+      "registered_voters": 1597934,
+      "percent": 55.68,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1986ge.pdf"
+    }
+  },
+  "1988": {
+    "04": {
+      "ballots_cast": 1204175,
+      "registered_voters": 1797714,
+      "percent": 66.98,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/us-senate/pdfs/canvass1988ge.pdf",
+      "notes": "Revised January 13, 1989. Statewide figures legible; county transcription deferred because the retained scan is blurred."
+    }
+  },
+  "1990": {
+    "04001": {
+      "ballots_cast": 14284,
+      "registered_voters": 26353,
+      "percent": 54.2,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1990ge.pdf"
+    },
+    "04003": {
+      "ballots_cast": 25409,
+      "registered_voters": 45076,
+      "percent": 56.37,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1990ge.pdf"
+    },
+    "04005": {
+      "ballots_cast": 29668,
+      "registered_voters": 55325,
+      "percent": 53.62,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1990ge.pdf"
+    },
+    "04007": {
+      "ballots_cast": 15230,
+      "registered_voters": 23012,
+      "percent": 66.18,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1990ge.pdf"
+    },
+    "04009": {
+      "ballots_cast": 7975,
+      "registered_voters": 12968,
+      "percent": 61.5,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1990ge.pdf"
+    },
+    "04011": {
+      "ballots_cast": 3071,
+      "registered_voters": 4819,
+      "percent": 63.73,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1990ge.pdf"
+    },
+    "04012": {
+      "ballots_cast": 3641,
+      "registered_voters": 7004,
+      "percent": 51.98,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1990ge.pdf"
+    },
+    "04013": {
+      "ballots_cast": 640847,
+      "registered_voters": 1062231,
+      "percent": 60.33,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1990ge.pdf"
+    },
+    "04015": {
+      "ballots_cast": 28894,
+      "registered_voters": 51747,
+      "percent": 55.84,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1990ge.pdf"
+    },
+    "04017": {
+      "ballots_cast": 18864,
+      "registered_voters": 33794,
+      "percent": 55.82,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1990ge.pdf"
+    },
+    "04019": {
+      "ballots_cast": 208368,
+      "registered_voters": 371146,
+      "percent": 56.14,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1990ge.pdf"
+    },
+    "04021": {
+      "ballots_cast": 29880,
+      "registered_voters": 50816,
+      "percent": 58.8,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1990ge.pdf"
+    },
+    "04023": {
+      "ballots_cast": 6460,
+      "registered_voters": 10805,
+      "percent": 59.79,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1990ge.pdf"
+    },
+    "04025": {
+      "ballots_cast": 43180,
+      "registered_voters": 66671,
+      "percent": 64.77,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1990ge.pdf"
+    },
+    "04027": {
+      "ballots_cast": 18964,
+      "registered_voters": 38189,
+      "percent": 49.66,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1990ge.pdf"
+    },
+    "04": {
+      "ballots_cast": 1094735,
+      "registered_voters": 1859956,
+      "percent": 58.86,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1990ge.pdf"
+    }
+  },
+  "1992": {
+    "04001": {
+      "ballots_cast": 18973,
+      "registered_voters": 28397,
+      "percent": 66.81,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/us-senate/pdfs/canvass1992ge.pdf"
+    },
+    "04003": {
+      "ballots_cast": 34012,
+      "registered_voters": 44985,
+      "percent": 75.61,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/us-senate/pdfs/canvass1992ge.pdf"
+    },
+    "04005": {
+      "ballots_cast": 43501,
+      "registered_voters": 54649,
+      "percent": 79.6,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/us-senate/pdfs/canvass1992ge.pdf"
+    },
+    "04007": {
+      "ballots_cast": 19026,
+      "registered_voters": 24311,
+      "percent": 78.26,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/us-senate/pdfs/canvass1992ge.pdf"
+    },
+    "04009": {
+      "ballots_cast": 10077,
+      "registered_voters": 12883,
+      "percent": 78.22,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/us-senate/pdfs/canvass1992ge.pdf"
+    },
+    "04011": {
+      "ballots_cast": 4111,
+      "registered_voters": 5108,
+      "percent": 80.48,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/us-senate/pdfs/canvass1992ge.pdf"
+    },
+    "04012": {
+      "ballots_cast": 5109,
+      "registered_voters": 6557,
+      "percent": 77.92,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/us-senate/pdfs/canvass1992ge.pdf"
+    },
+    "04013": {
+      "ballots_cast": 890680,
+      "registered_voters": 1147672,
+      "percent": 77.61,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/us-senate/pdfs/canvass1992ge.pdf"
+    },
+    "04015": {
+      "ballots_cast": 41732,
+      "registered_voters": 55009,
+      "percent": 75.86,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/us-senate/pdfs/canvass1992ge.pdf"
+    },
+    "04017": {
+      "ballots_cast": 25432,
+      "registered_voters": 36431,
+      "percent": 69.81,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/us-senate/pdfs/canvass1992ge.pdf"
+    },
+    "04019": {
+      "ballots_cast": 287718,
+      "registered_voters": 375942,
+      "percent": 76.53,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/us-senate/pdfs/canvass1992ge.pdf"
+    },
+    "04021": {
+      "ballots_cast": 38230,
+      "registered_voters": 51143,
+      "percent": 74.75,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/us-senate/pdfs/canvass1992ge.pdf"
+    },
+    "04023": {
+      "ballots_cast": 8355,
+      "registered_voters": 11268,
+      "percent": 74.15,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/us-senate/pdfs/canvass1992ge.pdf"
+    },
+    "04025": {
+      "ballots_cast": 60356,
+      "registered_voters": 70202,
+      "percent": 85.97,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/us-senate/pdfs/canvass1992ge.pdf"
+    },
+    "04027": {
+      "ballots_cast": 28964,
+      "registered_voters": 40392,
+      "percent": 71.71,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/us-senate/pdfs/canvass1992ge.pdf"
+    },
+    "04": {
+      "ballots_cast": 1516276,
+      "registered_voters": 1964949,
+      "percent": 77.17,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/us-senate/pdfs/canvass1992ge.pdf"
+    }
+  },
+  "1994": {
+    "04001": {
+      "ballots_cast": 17557,
+      "registered_voters": 31415,
+      "percent": 55.89,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/us-senate/pdfs/canvass1994ge.pdf"
+    },
+    "04003": {
+      "ballots_cast": 27064,
+      "registered_voters": 48807,
+      "percent": 55.45,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/us-senate/pdfs/canvass1994ge.pdf"
+    },
+    "04005": {
+      "ballots_cast": 32914,
+      "registered_voters": 59690,
+      "percent": 55.14,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/us-senate/pdfs/canvass1994ge.pdf"
+    },
+    "04007": {
+      "ballots_cast": 15599,
+      "registered_voters": 26318,
+      "percent": 59.27,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/us-senate/pdfs/canvass1994ge.pdf"
+    },
+    "04009": {
+      "ballots_cast": 7969,
+      "registered_voters": 12657,
+      "percent": 62.96,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/us-senate/pdfs/canvass1994ge.pdf"
+    },
+    "04011": {
+      "ballots_cast": 3000,
+      "registered_voters": 5192,
+      "percent": 57.78,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/us-senate/pdfs/canvass1994ge.pdf"
+    },
+    "04012": {
+      "ballots_cast": 3812,
+      "registered_voters": 7337,
+      "percent": 51.96,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/us-senate/pdfs/canvass1994ge.pdf"
+    },
+    "04013": {
+      "ballots_cast": 655732,
+      "registered_voters": 1189814,
+      "percent": 55.11,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/us-senate/pdfs/canvass1994ge.pdf"
+    },
+    "04015": {
+      "ballots_cast": 33811,
+      "registered_voters": 61581,
+      "percent": 54.9,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/us-senate/pdfs/canvass1994ge.pdf"
+    },
+    "04017": {
+      "ballots_cast": 22669,
+      "registered_voters": 40646,
+      "percent": 55.77,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/us-senate/pdfs/canvass1994ge.pdf"
+    },
+    "04019": {
+      "ballots_cast": 223547,
+      "registered_voters": 399676,
+      "percent": 55.93,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/us-senate/pdfs/canvass1994ge.pdf"
+    },
+    "04021": {
+      "ballots_cast": 31558,
+      "registered_voters": 57501,
+      "percent": 54.88,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/us-senate/pdfs/canvass1994ge.pdf"
+    },
+    "04023": {
+      "ballots_cast": 7188,
+      "registered_voters": 12829,
+      "percent": 56.03,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/us-senate/pdfs/canvass1994ge.pdf"
+    },
+    "04025": {
+      "ballots_cast": 49783,
+      "registered_voters": 78666,
+      "percent": 63.28,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/us-senate/pdfs/canvass1994ge.pdf"
+    },
+    "04027": {
+      "ballots_cast": 21521,
+      "registered_voters": 43193,
+      "percent": 49.83,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/us-senate/pdfs/canvass1994ge.pdf"
+    },
+    "04": {
+      "ballots_cast": 1153724,
+      "registered_voters": 2075322,
+      "percent": 55.59,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/us-senate/pdfs/canvass1994ge.pdf"
+    }
+  }
+}

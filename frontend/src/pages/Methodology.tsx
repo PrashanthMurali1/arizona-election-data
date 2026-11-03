@@ -354,9 +354,12 @@ export default function Methodology() {
             not necessarily equal.
           </p>
           <p>
-            <strong>Voter turnout</strong> expresses participation relative to
-            the eligible registered electorate, according to the definition and
-            calculation published by the election authority.
+            <strong>Voter turnout</strong> depends on the denominator.
+            Registered-voter turnout divides participation by registered voters.
+            Voting-age population turnout includes all people of voting age,
+            including those otherwise ineligible. Voting-eligible population
+            turnout estimates the population legally eligible to vote, whether
+            registered or not.
           </p>
           <p>
             Where official turnout figures are available, Arizona Election
@@ -364,8 +367,19 @@ export default function Methodology() {
             rounding rather than substituting an independently calculated rate.
           </p>
           <p>
-            If the underlying source does not provide a particular turnout or
-            registration statistic, that value is shown as unavailable.
+            When registration and race vote totals are available without a
+            published election-wide turnout rate, this site shows calculated
+            turnout: votes in that race divided by registered voters. It
+            excludes blank and invalid ballots. The label explicitly identifies
+            the registered-voter denominator, so it can be distinguished from
+            population-based turnout.
+          </p>
+          <p>
+            A missing statewide registration total can be calculated from a
+            complete set of county registration totals. Derived totals and
+            disagreements with printed statewide totals are documented in the
+            source notes. Incomplete county coverage is not treated as a
+            complete statewide denominator.
           </p>
         </section>
         <section>

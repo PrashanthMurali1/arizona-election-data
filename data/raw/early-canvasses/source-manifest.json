@@ -1,0 +1,335 @@
+[
+  {
+    "path": "data/raw/early-canvasses/pdfs/1906.pdf",
+    "sha256": "922a844846b46912941e13aff771a6400f7cf0101eaebdc1030dd036b6c68e56",
+    "pages": 1,
+    "records": [
+      "data/raw/early-canvasses/1906.json"
+    ],
+    "notes": "Original filename retained; election identity follows the document heading."
+  },
+  {
+    "path": "data/raw/early-canvasses/pdfs/1911.pdf",
+    "sha256": "a6c81f4f67e503815eec0cb23e99f42bf541e7b91b6b4c1e5218b29881c240d7",
+    "pages": 3,
+    "records": [
+      "data/raw/early-canvasses/1911.json"
+    ],
+    "notes": "Original filename retained; election identity follows the document heading."
+  },
+  {
+    "path": "data/raw/early-canvasses/pdfs/1912-28.pdf",
+    "sha256": "ad5148c32ad8dd8d5419826b4f133c05d1cd4b1530114175d87ff2abeaa791ee",
+    "pages": 34,
+    "records": [
+      "data/raw/early-canvasses/1912-28-inventory.json"
+    ],
+    "notes": "Original filename retained; election identity follows the document heading."
+  },
+  {
+    "path": "data/raw/early-canvasses/pdfs/1912.pdf",
+    "sha256": "4d3afffbe7f82d9b04028dbac089ae0135a706f14c6c337e05aa337cf79d04d8",
+    "pages": 5,
+    "records": [
+      "data/raw/early-canvasses/1912.json"
+    ],
+    "notes": "Original filename retained; election identity follows the document heading."
+  },
+  {
+    "path": "data/raw/early-canvasses/pdfs/1914.pdf",
+    "sha256": "4912c894125d116723cd53181c8b70173b945dbce6af4d11c2fe48d075676489",
+    "pages": 5,
+    "records": [
+      "data/raw/early-canvasses/1914.json"
+    ],
+    "notes": "Original filename retained; election identity follows the document heading."
+  },
+  {
+    "path": "data/raw/early-canvasses/pdfs/1916.pdf",
+    "sha256": "6709ba4bd0ce16cd940fb01e6729525eb0692b42a83fffebab02a8235ef9fb7f",
+    "pages": 7,
+    "records": [
+      "data/raw/early-canvasses/1916.json"
+    ],
+    "notes": "Original filename retained; election identity follows the document heading."
+  },
+  {
+    "path": "data/raw/early-canvasses/pdfs/1917Report.pdf",
+    "sha256": "219827afa73c179e7847a8f35eb709c5ae5c48b8eb4ab7f21c7704b40bb2952c",
+    "pages": 29,
+    "records": [
+      "data/raw/early-canvasses/1916.json"
+    ],
+    "notes": "Report dated January 2, 1917; 1916 candidate returns on PDF pages 24-29 (printed pages 26-31). Clearer primary evidence supersedes degraded 1916.pdf."
+  },
+  {
+    "path": "data/raw/early-canvasses/pdfs/1918.pdf",
+    "sha256": "fac79356a906db1348c165b86c18533f1061905319185bb86be6146f0e99076a",
+    "pages": 5,
+    "records": [
+      "data/raw/early-canvasses/1918.json"
+    ],
+    "notes": "Original filename retained; election identity follows the document heading."
+  },
+  {
+    "path": "data/raw/early-canvasses/pdfs/1920.pdf",
+    "sha256": "03c5e60a640089e68a2a5a1d2e0657b2c56c0d1d7ebb005987a4501119eb3a7f",
+    "pages": 5,
+    "records": [
+      "data/raw/early-canvasses/1920.json"
+    ],
+    "notes": "Original filename retained; election identity follows the document heading."
+  },
+  {
+    "path": "data/raw/early-canvasses/pdfs/1921.pdf",
+    "sha256": "c28a64b84caf10b3823a75e06d61bfd49a70b760e2463f3910c935a532195dd2",
+    "pages": 38,
+    "records": [
+      "data/raw/early-canvasses/1921-inventory.json"
+    ],
+    "notes": "Original filename retained; election identity follows the document heading."
+  },
+  {
+    "path": "data/raw/early-canvasses/pdfs/1922.1.pdf",
+    "sha256": "ba82f9c04566a945bb98967770e73689156a57b2373e8cbaa978c1f94b019b58",
+    "pages": 11,
+    "records": [
+      "data/raw/early-canvasses/1922.json"
+    ],
+    "notes": "Original filename retained; election identity follows the document heading."
+  },
+  {
+    "path": "data/raw/early-canvasses/pdfs/1922.2.pdf",
+    "sha256": "6fd059b9bd2e4bb198a3b5e2ab55cd17902fa26dbfc2615c350c0015cef79e7b",
+    "pages": 23,
+    "records": [
+      "data/raw/early-canvasses/1922.json"
+    ],
+    "notes": "Original filename retained; election identity follows the document heading."
+  },
+  {
+    "path": "data/raw/early-canvasses/pdfs/1922.3.pdf",
+    "sha256": "ca3733158a312e5cab0aff5ce7dcf05f9a2c977c881d5fd609f0a3cf0ca16902",
+    "pages": 3,
+    "records": [
+      "data/raw/early-canvasses/1922.json"
+    ],
+    "notes": "Original filename retained; election identity follows the document heading."
+  },
+  {
+    "path": "data/raw/early-canvasses/pdfs/1924.pdf",
+    "sha256": "6504af588148754140b13923ae45877816f22f08e8771d60d09d85abc88ade35",
+    "pages": 5,
+    "records": [
+      "data/raw/early-canvasses/1924.json"
+    ],
+    "notes": "Original filename retained; election identity follows the document heading."
+  },
+  {
+    "path": "data/raw/early-canvasses/pdfs/1926.pdf",
+    "sha256": "19950ed2f1cf9dac504f61ef87e2e735f303affb383b3b73934a061a1a4619b0",
+    "pages": 3,
+    "records": [
+      "data/raw/early-canvasses/1926.json"
+    ],
+    "notes": "Original filename retained; election identity follows the document heading."
+  },
+  {
+    "path": "data/raw/early-canvasses/pdfs/1927 Special.pdf",
+    "sha256": "60977f83ba84d3b9102c437eed268bd6372b36c85fff4af4d69dda233cad73c7",
+    "pages": 2,
+    "records": [
+      "data/raw/early-canvasses/1927-inventory.json"
+    ],
+    "notes": "Original filename retained; election identity follows the document heading."
+  },
+  {
+    "path": "data/raw/early-canvasses/pdfs/1928.pdf",
+    "sha256": "21ac989c3a21345e12ce401c0ad7b9c36fd542f52a9fa7fb036dbc79bd260597",
+    "pages": 6,
+    "records": [
+      "data/raw/early-canvasses/1928.json"
+    ],
+    "notes": "Original filename retained; election identity follows the document heading."
+  },
+  {
+    "path": "data/raw/early-canvasses/pdfs/1930.pdf",
+    "sha256": "347c09992f90522aff49b60011ab0bd34b5e0baa0b11481c375f0d39129f84d9",
+    "pages": 4,
+    "records": [
+      "data/raw/early-canvasses/1930.json"
+    ],
+    "notes": "Original filename retained; election identity follows the document heading."
+  },
+  {
+    "path": "data/raw/early-canvasses/pdfs/1932.pdf",
+    "sha256": "ef1069930b3ec97b6ea3bf1533eac043b09a69e47f650d4de123f41daf5c59b0",
+    "pages": 5,
+    "records": [
+      "data/raw/early-canvasses/1932.json"
+    ],
+    "notes": "Original filename retained; election identity follows the document heading."
+  },
+  {
+    "path": "data/raw/early-canvasses/pdfs/1933.pdf",
+    "sha256": "374c7dc4349bfec2ba3b758eeaa9152947734a41ce3f83fa29e1d91fe7cd1fdc",
+    "pages": 3,
+    "records": [
+      "data/raw/early-canvasses/1933.json"
+    ],
+    "notes": "Original filename retained; election identity follows the document heading."
+  },
+  {
+    "path": "data/raw/early-canvasses/pdfs/1934.pdf",
+    "sha256": "3487b8380a97d542ad468bf9245dd13687d861fe6ee12c0200001a1d791dd26d",
+    "pages": 3,
+    "records": [
+      "data/raw/early-canvasses/1934.json"
+    ],
+    "notes": "Original filename retained; election identity follows the document heading."
+  },
+  {
+    "path": "data/raw/early-canvasses/pdfs/1936.pdf",
+    "sha256": "f68d5ab063e553f53963b8c3d0e2938f55a322d176e69e5f0b1fb798526e0a5a",
+    "pages": 5,
+    "records": [
+      "data/raw/early-canvasses/1936.json"
+    ],
+    "notes": "Original filename retained; election identity follows the document heading."
+  },
+  {
+    "path": "data/raw/early-canvasses/pdfs/1938.pdf",
+    "sha256": "aa7e92abee77dabdfdc43e4b3b9bc74abddbfec7934a339006c9c168d6ac80c8",
+    "pages": 3,
+    "records": [
+      "data/raw/early-canvasses/1938.json"
+    ],
+    "notes": "Original filename retained; election identity follows the document heading."
+  },
+  {
+    "path": "data/raw/early-canvasses/pdfs/1940.pdf",
+    "sha256": "248ef6377c43aa56dd2b8dd2e431f912e6e6e0c03870b97b6f31916f1462fe84",
+    "pages": 9,
+    "records": [
+      "data/raw/early-canvasses/1940.json"
+    ],
+    "notes": "Original filename retained; election identity follows the document heading."
+  },
+  {
+    "path": "data/raw/early-canvasses/pdfs/1944.pdf",
+    "sha256": "ab8b005a3139ffa2944f6fdbcb96df28c74f7f7c00bae40f0fb8bbccfe5f4013",
+    "pages": 7,
+    "records": [
+      "data/raw/early-canvasses/1944.json"
+    ],
+    "notes": "Original filename retained; election identity follows the document heading."
+  },
+  {
+    "path": "data/raw/early-canvasses/pdfs/1946.pdf",
+    "sha256": "c003fcb0ed39c954f104fd9c4482c7cb3db6dfcfeae04bea00d80a72ff0d2a50",
+    "pages": 5,
+    "records": [
+      "data/raw/early-canvasses/1946.json"
+    ],
+    "notes": "Original filename retained; election identity follows the document heading."
+  },
+  {
+    "path": "data/raw/early-canvasses/pdfs/1948.pdf",
+    "sha256": "35e3143e370892c71efc5d876e3fce2b86772a13add0e0a1becdba956c75e42d",
+    "pages": 7,
+    "records": [
+      "data/raw/early-canvasses/1948.json"
+    ],
+    "notes": "Original filename retained; election identity follows the document heading."
+  },
+  {
+    "path": "data/raw/early-canvasses/pdfs/1950.1.pdf",
+    "sha256": "6ada873adb6917d845e34fcfada45f8786f6c5e6c2d5c311879efdc51dc5a6d4",
+    "pages": 2,
+    "records": [
+      "data/raw/early-canvasses/1950.json"
+    ],
+    "notes": "Original filename retained; election identity follows the document heading."
+  },
+  {
+    "path": "data/raw/early-canvasses/pdfs/1950.pdf",
+    "sha256": "42112874ab74c38a611af205e51a500524a72c15d44190a4deca8110ea4fadd7",
+    "pages": 2,
+    "records": [
+      "data/raw/early-canvasses/1950.json"
+    ],
+    "notes": "Original filename retained; election identity follows the document heading."
+  },
+  {
+    "path": "data/raw/early-canvasses/pdfs/1952.1.pdf",
+    "sha256": "7f1ae47c7421f3fe10a1e784130ad7d88318c0cf3e08e75ac7c8aa8bf6f011b3",
+    "pages": 4,
+    "records": [
+      "data/raw/early-canvasses/1952.json"
+    ],
+    "notes": "Original filename retained; election identity follows the document heading."
+  },
+  {
+    "path": "data/raw/early-canvasses/pdfs/1952.2.pdf",
+    "sha256": "8500682fc800b36fe17676a7a5109edc7124e60f9f11b6d0dbf0d2f467c8b5ee",
+    "pages": 4,
+    "records": [
+      "data/raw/early-canvasses/1954.json"
+    ],
+    "notes": "Original filename retained; election identity follows the document heading."
+  },
+  {
+    "path": "data/raw/early-canvasses/pdfs/1954.pdf",
+    "sha256": "7aed9fc83f90382c3a9bdc8e628da5c6109b6478b8fad0f2dcda7096d625b082",
+    "pages": 4,
+    "records": [
+      "data/raw/early-canvasses/1954.json"
+    ],
+    "notes": "Original filename retained; election identity follows the document heading."
+  },
+  {
+    "path": "data/raw/early-canvasses/pdfs/1956.pdf",
+    "sha256": "a687e93d9cb0352d468a6420749d1564c73c5635bd37b1ea691505bdd3163b2a",
+    "pages": 4,
+    "records": [
+      "data/raw/early-canvasses/1956.json"
+    ],
+    "notes": "Original filename retained; election identity follows the document heading."
+  },
+  {
+    "path": "data/raw/early-canvasses/pdfs/1958.pdf",
+    "sha256": "39c9bf1757b511b86e65f925c7cdd4a7e7cdfb7365c98d0c31c37c17c30ceed5",
+    "pages": 6,
+    "records": [
+      "data/raw/early-canvasses/1958.json"
+    ],
+    "notes": "Original filename retained; election identity follows the document heading."
+  },
+  {
+    "path": "data/raw/early-canvasses/pdfs/1960.pdf",
+    "sha256": "7e5ca422d260d6fab3cacf457094a274b6a48e3a6f9f325128483729c481d5f1",
+    "pages": 8,
+    "records": [
+      "data/raw/early-canvasses/1960.json"
+    ],
+    "notes": "Original filename retained; election identity follows the document heading."
+  },
+  {
+    "path": "data/raw/early-canvasses/pdfs/1962.pdf",
+    "sha256": "a7afa51bf4bd0fd84be2a8b6d2b494e7024905eb4833027dcf0121292ceab4a5",
+    "pages": 7,
+    "records": [
+      "data/raw/early-canvasses/1962.json"
+    ],
+    "notes": "Original filename retained; election identity follows the document heading."
+  },
+  {
+    "path": "data/raw/early-canvasses/pdfs/1964.pdf",
+    "sha256": "2eb35c10972c4d90790f669c21d14cd83e2e4fb6eaeb764e7ac84f2f863a7f41",
+    "pages": 8,
+    "records": [
+      "data/raw/early-canvasses/1964.json"
+    ],
+    "notes": "Original filename retained; election identity follows the document heading."
+  }
+]

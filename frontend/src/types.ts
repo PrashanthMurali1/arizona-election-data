@@ -63,6 +63,8 @@ export interface Candidate {
   status: string;
 }
 export interface Turnout {
+  basis?: "published" | "contest_votes" | "calculated_ballots";
+  votes_cast?: number | null;
   ballots_cast: number | null;
   registered_voters: number | null;
   percent: number | null;
@@ -70,6 +72,7 @@ export interface Turnout {
   source_id: string | null;
 }
 export interface Results {
+  partial?: boolean;
   geoid: string;
   name: string;
   status: string;
@@ -128,7 +131,12 @@ export interface Participation {
 export interface Activity {
   revision?: string;
   stage: "pre_results" | "unofficial" | "certified";
-  candidate_availability: "not_released" | "not_imported" | "published" | "test_data" | "not_reporting";
+  candidate_availability:
+    | "not_released"
+    | "not_imported"
+    | "published"
+    | "test_data"
+    | "not_reporting";
   provider_participation?: {
     provider: string;
     reports: {

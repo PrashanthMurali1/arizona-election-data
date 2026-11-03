@@ -1,0 +1,504 @@
+{
+  "year": 1940,
+  "date": "1940-11-05",
+  "kind": "general",
+  "source_path": "data/raw/early-canvasses/pdfs/1940.pdf",
+  "source_sha256": "248ef6377c43aa56dd2b8dd2e431f912e6e6e0c03870b97b6f31916f1462fe84",
+  "absent_offices": [
+    "state-house",
+    "state-senate"
+  ],
+  "contests": [
+    {
+      "office_id": "us-senate",
+      "district": null,
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Ernest W. McFarland",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 101495,
+          "county_votes": {
+            "04001": 1944,
+            "04003": 9198,
+            "04005": 3185,
+            "04007": 6033,
+            "04009": 2892,
+            "04011": 2203,
+            "04013": 37682,
+            "04015": 2173,
+            "04017": 2828,
+            "04019": 15763,
+            "04021": 5104,
+            "04023": 1878,
+            "04025": 6390,
+            "04027": 4222
+          }
+        },
+        {
+          "name": "I. A. Jennings",
+          "party": "REP",
+          "write_in": false,
+          "votes": 39657,
+          "county_votes": {
+            "04001": 647,
+            "04003": 2171,
+            "04005": 1257,
+            "04007": 1656,
+            "04009": 829,
+            "04011": 363,
+            "04013": 17521,
+            "04015": 700,
+            "04017": 1462,
+            "04019": 6957,
+            "04021": 1203,
+            "04023": 544,
+            "04025": 2995,
+            "04027": 1352
+          }
+        },
+        {
+          "name": "A. Walter Gehres",
+          "party": "Proh",
+          "write_in": false,
+          "votes": 579,
+          "county_votes": {
+            "04001": 5,
+            "04003": 24,
+            "04005": 7,
+            "04007": 27,
+            "04009": 17,
+            "04011": 7,
+            "04013": 305,
+            "04015": 5,
+            "04017": 7,
+            "04019": 80,
+            "04021": 10,
+            "04023": 2,
+            "04025": 60,
+            "04027": 23
+          }
+        }
+      ],
+      "notes": "Page 1 has a handwritten correction identifying the Republican row as Jennings, I. A.; the same name and totals are clearly printed in the duplicate vertical table on page 6. Source heading says pledged to recall."
+    },
+    {
+      "office_id": "us-house",
+      "district": "at-large",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "John R. Murdock",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 99424,
+          "county_votes": {
+            "04001": 1981,
+            "04003": 9360,
+            "04005": 3012,
+            "04007": 5910,
+            "04009": 2977,
+            "04011": 2186,
+            "04013": 36560,
+            "04015": 2168,
+            "04017": 3084,
+            "04019": 15339,
+            "04021": 4539,
+            "04023": 1814,
+            "04025": 6449,
+            "04027": 4045
+          }
+        },
+        {
+          "name": "K. T. Palmer",
+          "party": "REP",
+          "write_in": false,
+          "votes": 40360,
+          "county_votes": {
+            "04001": 557,
+            "04003": 2071,
+            "04005": 1357,
+            "04007": 1743,
+            "04009": 853,
+            "04011": 387,
+            "04013": 18189,
+            "04015": 684,
+            "04017": 1070,
+            "04019": 7003,
+            "04021": 1573,
+            "04023": 533,
+            "04025": 2825,
+            "04027": 1515
+          }
+        }
+      ],
+      "notes": " County figures visually transcribed from retained canvass page 1; printed county column headings determine GEOIDs."
+    },
+    {
+      "office_id": "governor",
+      "district": null,
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Sidney P. Osborn",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 97606,
+          "county_votes": {
+            "04001": 2180,
+            "04003": 9007,
+            "04005": 3264,
+            "04007": 5885,
+            "04009": 3076,
+            "04011": 2324,
+            "04013": 33883,
+            "04015": 2292,
+            "04017": 3252,
+            "04019": 15288,
+            "04021": 4525,
+            "04023": 1928,
+            "04025": 6288,
+            "04027": 4414
+          }
+        },
+        {
+          "name": "Jerrie W. Lee",
+          "party": "REP",
+          "write_in": false,
+          "votes": 50358,
+          "county_votes": {
+            "04001": 691,
+            "04003": 2806,
+            "04005": 1591,
+            "04007": 2453,
+            "04009": 1200,
+            "04011": 419,
+            "04013": 23408,
+            "04015": 816,
+            "04017": 1271,
+            "04019": 7916,
+            "04021": 1861,
+            "04023": 613,
+            "04025": 3731,
+            "04027": 1582
+          }
+        },
+        {
+          "name": "Charles R. Osburn",
+          "party": "Proh",
+          "write_in": false,
+          "votes": 1003,
+          "county_votes": {
+            "04001": 3,
+            "04003": 43,
+            "04005": 18,
+            "04007": 34,
+            "04009": 32,
+            "04011": 11,
+            "04013": 488,
+            "04015": 14,
+            "04017": 18,
+            "04019": 163,
+            "04021": 20,
+            "04023": 5,
+            "04025": 120,
+            "04027": 34
+          }
+        }
+      ]
+    },
+    {
+      "office_id": "secretary-of-state",
+      "district": null,
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Harry M. Moore",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 108535,
+          "county_votes": {
+            "04001": 2132,
+            "04003": 9633,
+            "04005": 3422,
+            "04007": 6446,
+            "04009": 3144,
+            "04011": 2285,
+            "04013": 40950,
+            "04015": 2261,
+            "04017": 3307,
+            "04019": 16621,
+            "04021": 4946,
+            "04023": 1900,
+            "04025": 6991,
+            "04027": 4497
+          }
+        },
+        {
+          "name": "Victor C. Armstrong, Jr.",
+          "party": "REP",
+          "write_in": false,
+          "votes": 30678,
+          "county_votes": {
+            "04001": 452,
+            "04003": 1628,
+            "04005": 951,
+            "04007": 1400,
+            "04009": 652,
+            "04011": 289,
+            "04013": 13515,
+            "04015": 558,
+            "04017": 800,
+            "04019": 5737,
+            "04021": 1107,
+            "04023": 447,
+            "04025": 2153,
+            "04027": 989
+          }
+        }
+      ]
+    },
+    {
+      "office_id": "attorney-general",
+      "district": null,
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Joe Conway",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 107072,
+          "county_votes": {
+            "04001": 2161,
+            "04003": 9579,
+            "04005": 3461,
+            "04007": 6520,
+            "04009": 3208,
+            "04011": 2343,
+            "04013": 39278,
+            "04015": 2333,
+            "04017": 3310,
+            "04019": 16427,
+            "04021": 4966,
+            "04023": 1935,
+            "04025": 6933,
+            "04027": 4618
+          }
+        },
+        {
+          "name": "Ralph Barry",
+          "party": "REP",
+          "write_in": false,
+          "votes": 33692,
+          "county_votes": {
+            "04001": 474,
+            "04003": 1828,
+            "04005": 1059,
+            "04007": 1416,
+            "04009": 628,
+            "04011": 293,
+            "04013": 15371,
+            "04015": 547,
+            "04017": 896,
+            "04019": 6119,
+            "04021": 1179,
+            "04023": 464,
+            "04025": 2420,
+            "04027": 998
+          }
+        },
+        {
+          "name": "O. E. Essley",
+          "party": "Proh",
+          "write_in": false,
+          "votes": 851,
+          "county_votes": {
+            "04001": 2,
+            "04003": 23,
+            "04005": 6,
+            "04007": 44,
+            "04009": 21,
+            "04011": 7,
+            "04013": 483,
+            "04015": 6,
+            "04017": 11,
+            "04019": 117,
+            "04021": 16,
+            "04023": 1,
+            "04025": 96,
+            "04027": 18
+          }
+        }
+      ]
+    },
+    {
+      "office_id": "president",
+      "district": "at-large",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Democratic elector slate",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 95267,
+          "county_votes": {
+            "04001": 1969,
+            "04003": 8748,
+            "04005": 3025,
+            "04007": 5752,
+            "04009": 3130,
+            "04011": 2175,
+            "04013": 35055,
+            "04015": 2024,
+            "04017": 3052,
+            "04019": 14035,
+            "04021": 4411,
+            "04023": 1536,
+            "04025": 6217,
+            "04027": 4138
+          }
+        },
+        {
+          "name": "Republican elector slate",
+          "party": "REP",
+          "write_in": false,
+          "votes": 54030,
+          "county_votes": {
+            "04001": 926,
+            "04003": 3170,
+            "04005": 1913,
+            "04007": 2624,
+            "04009": 1161,
+            "04011": 619,
+            "04013": 22610,
+            "04015": 1198,
+            "04017": 1533,
+            "04019": 9445,
+            "04021": 1996,
+            "04023": 978,
+            "04025": 3987,
+            "04027": 1870
+          }
+        },
+        {
+          "name": "Prohibition elector slate",
+          "party": "Proh",
+          "write_in": false,
+          "votes": 742,
+          "county_votes": {
+            "04001": 3,
+            "04003": 32,
+            "04005": 15,
+            "04007": 31,
+            "04009": 19,
+            "04011": 9,
+            "04013": 414,
+            "04015": 2,
+            "04017": 12,
+            "04019": 82,
+            "04021": 22,
+            "04023": 2,
+            "04025": 78,
+            "04027": 23
+          }
+        }
+      ],
+      "notes": "Page 5 prints one county column and one total for each grouped slate, retained once. Roosevelt slate: W. P. Bowman, A. P. Martin, Mrs. W. P. Stuart. Willkie slate: H. M. Elias, C. J. McQuillan, J. E. Thompson. Page 6 prints Babson slate: Mrs. A. P. Boone, E. R. Weed, W. J. Gordon, total 742. No elector totals are summed. County slate returns transcribed from pages 5 (Democratic and Republican) and 6 (Prohibition). Prohibition county cells sum to 744 while the printed statewide slate total is 742; both are retained as printed without balancing."
+    }
+  ],
+  "unresolved": [
+    {
+      "office_id": "state-house",
+      "reason": "No state legislative candidate returns appear in retained source."
+    },
+    {
+      "office_id": "state-senate",
+      "reason": "No state legislative candidate returns appear in retained source."
+    },
+    {
+      "office_id": "president",
+      "page": 6,
+      "candidate": "Prohibition elector slate",
+      "field": "votes",
+      "reason": "Printed county figures sum to 744; printed statewide slate total is 742. Both source figures retained."
+    }
+  ],
+  "turnout": {
+    "04001": {
+      "registered_voters": 3908,
+      "page": 9,
+      "definition": "Official total registration for general election November 5, 1940, from dated November 26, 1940 tabulation. Page 9 explicitly labels total figures official and party figures non-official. Page 7 summary differs by including precinct counts in its totals; page 9 official totals are retained. No ballots-cast or turnout percentage inferred."
+    },
+    "04003": {
+      "registered_voters": 14352,
+      "page": 9,
+      "definition": "Official total registration for general election November 5, 1940, from dated November 26, 1940 tabulation. Page 9 explicitly labels total figures official and party figures non-official. Page 7 summary differs by including precinct counts in its totals; page 9 official totals are retained. No ballots-cast or turnout percentage inferred."
+    },
+    "04005": {
+      "registered_voters": 6532,
+      "page": 9,
+      "definition": "Official total registration for general election November 5, 1940, from dated November 26, 1940 tabulation. Page 9 explicitly labels total figures official and party figures non-official. Page 7 summary differs by including precinct counts in its totals; page 9 official totals are retained. No ballots-cast or turnout percentage inferred."
+    },
+    "04007": {
+      "registered_voters": 10471,
+      "page": 9,
+      "definition": "Official total registration for general election November 5, 1940, from dated November 26, 1940 tabulation. Page 9 explicitly labels total figures official and party figures non-official. Page 7 summary differs by including precinct counts in its totals; page 9 official totals are retained. No ballots-cast or turnout percentage inferred."
+    },
+    "04009": {
+      "registered_voters": 5682,
+      "page": 9,
+      "definition": "Official total registration for general election November 5, 1940, from dated November 26, 1940 tabulation. Page 9 explicitly labels total figures official and party figures non-official. Page 7 summary differs by including precinct counts in its totals; page 9 official totals are retained. No ballots-cast or turnout percentage inferred."
+    },
+    "04011": {
+      "registered_voters": 3735,
+      "page": 9,
+      "definition": "Official total registration for general election November 5, 1940, from dated November 26, 1940 tabulation. Page 9 explicitly labels total figures official and party figures non-official. Page 7 summary differs by including precinct counts in its totals; page 9 official totals are retained. No ballots-cast or turnout percentage inferred."
+    },
+    "04013": {
+      "registered_voters": 75519,
+      "page": 9,
+      "definition": "Official total registration for general election November 5, 1940, from dated November 26, 1940 tabulation. Page 9 explicitly labels total figures official and party figures non-official. Page 7 summary differs by including precinct counts in its totals; page 9 official totals are retained. No ballots-cast or turnout percentage inferred."
+    },
+    "04015": {
+      "registered_voters": 4309,
+      "page": 9,
+      "definition": "Official total registration for general election November 5, 1940, from dated November 26, 1940 tabulation. Page 9 explicitly labels total figures official and party figures non-official. Page 7 summary differs by including precinct counts in its totals; page 9 official totals are retained. No ballots-cast or turnout percentage inferred."
+    },
+    "04017": {
+      "registered_voters": 5646,
+      "page": 9,
+      "definition": "Official total registration for general election November 5, 1940, from dated November 26, 1940 tabulation. Page 9 explicitly labels total figures official and party figures non-official. Page 7 summary differs by including precinct counts in its totals; page 9 official totals are retained. No ballots-cast or turnout percentage inferred."
+    },
+    "04019": {
+      "registered_voters": 28429,
+      "page": 9,
+      "definition": "Official total registration for general election November 5, 1940, from dated November 26, 1940 tabulation. Page 9 explicitly labels total figures official and party figures non-official. Page 7 summary differs by including precinct counts in its totals; page 9 official totals are retained. No ballots-cast or turnout percentage inferred."
+    },
+    "04021": {
+      "registered_voters": 8789,
+      "page": 9,
+      "definition": "Official total registration for general election November 5, 1940, from dated November 26, 1940 tabulation. Page 9 explicitly labels total figures official and party figures non-official. Page 7 summary differs by including precinct counts in its totals; page 9 official totals are retained. No ballots-cast or turnout percentage inferred."
+    },
+    "04023": {
+      "registered_voters": 3565,
+      "page": 9,
+      "definition": "Official total registration for general election November 5, 1940, from dated November 26, 1940 tabulation. Page 9 explicitly labels total figures official and party figures non-official. Page 7 summary differs by including precinct counts in its totals; page 9 official totals are retained. No ballots-cast or turnout percentage inferred."
+    },
+    "04025": {
+      "registered_voters": 13132,
+      "page": 9,
+      "definition": "Official total registration for general election November 5, 1940, from dated November 26, 1940 tabulation. Page 9 explicitly labels total figures official and party figures non-official. Page 7 summary differs by including precinct counts in its totals; page 9 official totals are retained. No ballots-cast or turnout percentage inferred."
+    },
+    "04027": {
+      "registered_voters": 7694,
+      "page": 9,
+      "definition": "Official total registration for general election November 5, 1940, from dated November 26, 1940 tabulation. Page 9 explicitly labels total figures official and party figures non-official. Page 7 summary differs by including precinct counts in its totals; page 9 official totals are retained. No ballots-cast or turnout percentage inferred."
+    },
+    "04": {
+      "registered_voters": 191763,
+      "page": 9,
+      "definition": "Official total registration for general election November 5, 1940, from dated November 26, 1940 tabulation. Page 9 explicitly labels total figures official and party figures non-official. Page 7 summary differs by including precinct counts in its totals; page 9 official totals are retained. No ballots-cast or turnout percentage inferred."
+    }
+  }
+}

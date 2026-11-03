@@ -1,0 +1,721 @@
+{
+  "year": 1928,
+  "date": "1928-11-06",
+  "kind": "general",
+  "source_sha256": "21ac989c3a21345e12ce401c0ad7b9c36fd542f52a9fa7fb036dbc79bd260597",
+  "turnout": {
+    "04001": {
+      "ballots_cast": null,
+      "registered_voters": 2239,
+      "percent": null,
+      "definition": "Official 1928 general-election county registration from the Secretary of State registration-history table; checked against the retained historical scan. Ballots cast are not reported in this table.",
+      "page": 6,
+      "reference": "registration_history",
+      "reference_url": "https://apps.azsos.gov/election/VoterReg/History/General/#1928"
+    },
+    "04003": {
+      "ballots_cast": null,
+      "registered_voters": 12809,
+      "percent": null,
+      "definition": "Official 1928 general-election county registration from the Secretary of State registration-history table; checked against the retained historical scan. Ballots cast are not reported in this table.",
+      "page": 6,
+      "reference": "registration_history",
+      "reference_url": "https://apps.azsos.gov/election/VoterReg/History/General/#1928"
+    },
+    "04005": {
+      "ballots_cast": null,
+      "registered_voters": 3703,
+      "percent": null,
+      "definition": "Official 1928 general-election county registration from the Secretary of State registration-history table; checked against the retained historical scan. Ballots cast are not reported in this table.",
+      "page": 6,
+      "reference": "registration_history",
+      "reference_url": "https://apps.azsos.gov/election/VoterReg/History/General/#1928"
+    },
+    "04007": {
+      "ballots_cast": null,
+      "registered_voters": 8862,
+      "percent": null,
+      "definition": "Official 1928 general-election county registration from the Secretary of State registration-history table; checked against the retained historical scan. Ballots cast are not reported in this table.",
+      "page": 6,
+      "reference": "registration_history",
+      "reference_url": "https://apps.azsos.gov/election/VoterReg/History/General/#1928"
+    },
+    "04009": {
+      "ballots_cast": null,
+      "registered_voters": 3616,
+      "percent": null,
+      "definition": "Official 1928 general-election county registration from the Secretary of State registration-history table; checked against the retained historical scan. Ballots cast are not reported in this table.",
+      "page": 6,
+      "reference": "registration_history",
+      "reference_url": "https://apps.azsos.gov/election/VoterReg/History/General/#1928"
+    },
+    "04011": {
+      "ballots_cast": null,
+      "registered_voters": 2100,
+      "percent": null,
+      "definition": "Official 1928 general-election county registration from the Secretary of State registration-history table; checked against the retained historical scan. Ballots cast are not reported in this table.",
+      "page": 6,
+      "reference": "registration_history",
+      "reference_url": "https://apps.azsos.gov/election/VoterReg/History/General/#1928"
+    },
+    "04013": {
+      "ballots_cast": null,
+      "registered_voters": 43487,
+      "percent": null,
+      "definition": "Official 1928 general-election county registration from the Secretary of State registration-history table; checked against the retained historical scan. Ballots cast are not reported in this table.",
+      "page": 6,
+      "reference": "registration_history",
+      "reference_url": "https://apps.azsos.gov/election/VoterReg/History/General/#1928"
+    },
+    "04015": {
+      "ballots_cast": null,
+      "registered_voters": 2388,
+      "percent": null,
+      "definition": "Official 1928 general-election county registration from the Secretary of State registration-history table; checked against the retained historical scan. Ballots cast are not reported in this table.",
+      "page": 6,
+      "reference": "registration_history",
+      "reference_url": "https://apps.azsos.gov/election/VoterReg/History/General/#1928"
+    },
+    "04017": {
+      "ballots_cast": null,
+      "registered_voters": 3834,
+      "percent": null,
+      "definition": "Official 1928 general-election county registration from the Secretary of State registration-history table; checked against the retained historical scan. Ballots cast are not reported in this table.",
+      "page": 6,
+      "reference": "registration_history",
+      "reference_url": "https://apps.azsos.gov/election/VoterReg/History/General/#1928"
+    },
+    "04019": {
+      "ballots_cast": null,
+      "registered_voters": 14833,
+      "percent": null,
+      "definition": "Official 1928 general-election county registration from the Secretary of State registration-history table; checked against the retained historical scan. Ballots cast are not reported in this table.",
+      "page": 6,
+      "reference": "registration_history",
+      "reference_url": "https://apps.azsos.gov/election/VoterReg/History/General/#1928"
+    },
+    "04021": {
+      "ballots_cast": null,
+      "registered_voters": 3925,
+      "percent": null,
+      "definition": "Official 1928 general-election county registration from the Secretary of State registration-history table; checked against the retained historical scan. Ballots cast are not reported in this table.",
+      "page": 6,
+      "reference": "registration_history",
+      "reference_url": "https://apps.azsos.gov/election/VoterReg/History/General/#1928"
+    },
+    "04023": {
+      "ballots_cast": null,
+      "registered_voters": 2517,
+      "percent": null,
+      "definition": "Official 1928 general-election county registration from the Secretary of State registration-history table; checked against the retained historical scan. Ballots cast are not reported in this table.",
+      "page": 6,
+      "reference": "registration_history",
+      "reference_url": "https://apps.azsos.gov/election/VoterReg/History/General/#1928"
+    },
+    "04025": {
+      "ballots_cast": null,
+      "registered_voters": 10121,
+      "percent": null,
+      "definition": "Official 1928 general-election county registration from the Secretary of State registration-history table; checked against the retained historical scan. Ballots cast are not reported in this table.",
+      "page": 6,
+      "reference": "registration_history",
+      "reference_url": "https://apps.azsos.gov/election/VoterReg/History/General/#1928"
+    },
+    "04027": {
+      "ballots_cast": null,
+      "registered_voters": 5294,
+      "percent": null,
+      "definition": "Official 1928 general-election county registration from the Secretary of State registration-history table; checked against the retained historical scan. Ballots cast are not reported in this table.",
+      "page": 6,
+      "reference": "registration_history",
+      "reference_url": "https://apps.azsos.gov/election/VoterReg/History/General/#1928"
+    },
+    "04": {
+      "ballots_cast": null,
+      "registered_voters": 119728,
+      "percent": null,
+      "definition": "Statewide registration calculated by summing all 14 published county totals: 119728. The Secretary of State table prints 119528 and flags inconsistent historical totals; the 200-person difference is retained in this note.",
+      "page": 6,
+      "printed_registered_voters": 119528,
+      "registered_voters_basis": "sum_of_counties",
+      "reference": "registration_history",
+      "reference_url": "https://apps.azsos.gov/election/VoterReg/History/General/#1928"
+    }
+  },
+  "absent_offices": [
+    "state-house",
+    "state-senate"
+  ],
+  "unresolved": [
+    {
+      "office_id": "state-house",
+      "reason": "No state legislative candidate returns appear in this retained statewide canvass."
+    },
+    {
+      "office_id": "state-senate",
+      "reason": "No state legislative candidate returns appear in this retained statewide canvass."
+    },
+    {
+      "field": "turnout.04.registered_voters",
+      "reason": "Secretary of State registration-history county sum is 119728; its printed statewide figure is 119528 and is marked inconsistent. Derived county sum used as the registration denominator.",
+      "source_url": "https://apps.azsos.gov/election/VoterReg/History/General/#1928"
+    }
+  ],
+  "contests": [
+    {
+      "office_id": "president",
+      "district": "at-large",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Democratic elector slate",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 38537,
+          "county_votes": {
+            "04001": 791,
+            "04003": 4262,
+            "04005": 1172,
+            "04007": 3341,
+            "04009": 1615,
+            "04011": 935,
+            "04013": 12146,
+            "04015": 728,
+            "04017": 1316,
+            "04019": 4976,
+            "04021": 1419,
+            "04023": 962,
+            "04025": 3285,
+            "04027": 1589
+          }
+        },
+        {
+          "name": "Republican elector slate",
+          "party": "REP",
+          "write_in": false,
+          "votes": 52533,
+          "county_votes": {
+            "04001": 837,
+            "04003": 5776,
+            "04005": 1717,
+            "04007": 3436,
+            "04009": 1238,
+            "04011": 685,
+            "04013": 20089,
+            "04015": 1127,
+            "04017": 1608,
+            "04019": 6635,
+            "04021": 1631,
+            "04023": 919,
+            "04025": 4507,
+            "04027": 2328
+          }
+        },
+        {
+          "name": "Workers (Communist) elector slate",
+          "party": "Workers (Com.)",
+          "write_in": false,
+          "votes": 184,
+          "county_votes": {
+            "04001": 0,
+            "04003": 45,
+            "04005": 12,
+            "04007": 13,
+            "04009": 8,
+            "04011": 8,
+            "04013": 34,
+            "04015": 13,
+            "04017": 0,
+            "04019": 42,
+            "04021": 4,
+            "04023": 3,
+            "04025": 2,
+            "04027": 0
+          }
+        }
+      ],
+      "notes": "Each party slate is bracketed with one printed total, retained once without summing elector votes. Democratic (Smith): Cassie J. Pomeroy, Mrs. J. Andrew West, Bradford Duncan. Republican (Hoover): Mrs. R. L. Hoyal, J. Homer Smith, Fred S. Breen. Workers (Com.) (Foster): Frank I. Lowe, E. J. Bryan, F. N. Logan. Source page 1 has blank Workers slate cells for Apache and Yuma, recorded as zero; Navajo is explicitly printed as zero.",
+      "contest_id": "az-1928-historical-president-district-at-large",
+      "reconciliation": {
+        "status": "verified",
+        "page": 1,
+        "district": "at-large",
+        "candidates": [
+          {
+            "candidate": "Democratic elector slate",
+            "official_total": 38537,
+            "official_statewide": 38537,
+            "county_sum": 38537,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "Republican elector slate",
+            "official_total": 52533,
+            "official_statewide": 52533,
+            "county_sum": 52533,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "Workers (Communist) elector slate",
+            "official_total": 184,
+            "official_statewide": 184,
+            "county_sum": 184,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          }
+        ],
+        "county_count": 14,
+        "coverage": "county",
+        "multi_seat": true,
+        "result_basis": "presidential-electors",
+        "notes": "Each party slate is bracketed with one printed total, retained once without summing elector votes. Democratic (Smith): Cassie J. Pomeroy, Mrs. J. Andrew West, Bradford Duncan. Republican (Hoover): Mrs. R. L. Hoyal, J. Homer Smith, Fred S. Breen. Workers (Com.) (Foster): Frank I. Lowe, E. J. Bryan, F. N. Logan. Source page 1 has blank Workers slate cells for Apache and Yuma, recorded as zero; Navajo is explicitly printed as zero."
+      }
+    },
+    {
+      "office_id": "us-senate",
+      "district": null,
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Henry F. Ashurst",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 47013,
+          "county_votes": {
+            "04001": 988,
+            "04003": 5468,
+            "04005": 1607,
+            "04007": 3556,
+            "04009": 1695,
+            "04011": 1122,
+            "04013": 14822,
+            "04015": 748,
+            "04017": 1826,
+            "04019": 6362,
+            "04021": 1564,
+            "04023": 1098,
+            "04025": 4372,
+            "04027": 1785
+          }
+        },
+        {
+          "name": "Ralph H. Cameron",
+          "party": "REP",
+          "write_in": false,
+          "votes": 39651,
+          "county_votes": {
+            "04001": 564,
+            "04003": 4055,
+            "04005": 1165,
+            "04007": 2873,
+            "04009": 897,
+            "04011": 435,
+            "04013": 15920,
+            "04015": 963,
+            "04017": 1011,
+            "04019": 4798,
+            "04021": 1278,
+            "04023": 725,
+            "04025": 3021,
+            "04027": 1946
+          }
+        }
+      ],
+      "contest_id": "az-1928-us-senate",
+      "reconciliation": {
+        "status": "verified",
+        "page": 1,
+        "district": null,
+        "candidates": [
+          {
+            "candidate": "Henry F. Ashurst",
+            "official_total": 47013,
+            "official_statewide": 47013,
+            "county_sum": 47013,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "Ralph H. Cameron",
+            "official_total": 39651,
+            "official_statewide": 39651,
+            "county_sum": 39651,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          }
+        ],
+        "county_count": 14,
+        "coverage": "county",
+        "multi_seat": false,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "us-house",
+      "district": "at-large",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "L. W. Douglas",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 50231,
+          "county_votes": {
+            "04001": 898,
+            "04003": 6437,
+            "04005": 1493,
+            "04007": 4084,
+            "04009": 1990,
+            "04011": 1220,
+            "04013": 15708,
+            "04015": 835,
+            "04017": 1721,
+            "04019": 6481,
+            "04021": 1737,
+            "04023": 1208,
+            "04025": 4416,
+            "04027": 2003
+          }
+        },
+        {
+          "name": "Guy Axline",
+          "party": "REP",
+          "write_in": false,
+          "votes": 31382,
+          "county_votes": {
+            "04001": 538,
+            "04003": 2650,
+            "04005": 1020,
+            "04007": 1860,
+            "04009": 446,
+            "04011": 300,
+            "04013": 13507,
+            "04015": 723,
+            "04017": 887,
+            "04019": 4227,
+            "04021": 953,
+            "04023": 485,
+            "04025": 2593,
+            "04027": 1193
+          }
+        }
+      ],
+      "contest_id": "az-1928-historical-us-house-district-at-large",
+      "reconciliation": {
+        "status": "verified",
+        "page": 1,
+        "district": "at-large",
+        "candidates": [
+          {
+            "candidate": "L. W. Douglas",
+            "official_total": 50231,
+            "official_statewide": 50231,
+            "county_sum": 50231,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "Guy Axline",
+            "official_total": 31382,
+            "official_statewide": 31382,
+            "county_sum": 31382,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          }
+        ],
+        "county_count": 14,
+        "coverage": "county",
+        "multi_seat": false,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "governor",
+      "district": null,
+      "page": 2,
+      "candidates": [
+        {
+          "name": "Geo. W. P. Hunt",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 44553,
+          "county_votes": {
+            "04001": 1029,
+            "04003": 4937,
+            "04005": 1513,
+            "04007": 4062,
+            "04009": 1499,
+            "04011": 1081,
+            "04013": 13899,
+            "04015": 694,
+            "04017": 1835,
+            "04019": 5461,
+            "04021": 1605,
+            "04023": 1025,
+            "04025": 3846,
+            "04027": 2067
+          }
+        },
+        {
+          "name": "John C. Phillips",
+          "party": "REP",
+          "write_in": false,
+          "votes": 47829,
+          "county_votes": {
+            "04001": 662,
+            "04003": 5245,
+            "04005": 1461,
+            "04007": 2819,
+            "04009": 1481,
+            "04011": 545,
+            "04013": 18754,
+            "04015": 1182,
+            "04017": 1223,
+            "04019": 6255,
+            "04021": 1440,
+            "04023": 873,
+            "04025": 3985,
+            "04027": 1904
+          }
+        },
+        {
+          "name": "William O'Brien",
+          "party": "Workers (Com.)",
+          "write_in": false,
+          "votes": 122,
+          "county_votes": {
+            "04001": 1,
+            "04003": 17,
+            "04005": 5,
+            "04007": 6,
+            "04009": 2,
+            "04011": 5,
+            "04013": 26,
+            "04015": 5,
+            "04017": 2,
+            "04019": 29,
+            "04021": 2,
+            "04023": 2,
+            "04025": 14,
+            "04027": 6
+          }
+        }
+      ],
+      "contest_id": "az-1928-governor",
+      "reconciliation": {
+        "status": "verified",
+        "page": 2,
+        "district": null,
+        "candidates": [
+          {
+            "candidate": "Geo. W. P. Hunt",
+            "official_total": 44553,
+            "official_statewide": 44553,
+            "county_sum": 44553,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "John C. Phillips",
+            "official_total": 47829,
+            "official_statewide": 47829,
+            "county_sum": 47829,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "William O'Brien",
+            "official_total": 122,
+            "official_statewide": 122,
+            "county_sum": 122,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          }
+        ],
+        "county_count": 14,
+        "coverage": "county",
+        "multi_seat": false,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "secretary-of-state",
+      "district": null,
+      "page": 2,
+      "candidates": [
+        {
+          "name": "J. C. Callaghan",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 44740,
+          "county_votes": {
+            "04001": 906,
+            "04003": 4887,
+            "04005": 1314,
+            "04007": 3750,
+            "04009": 1739,
+            "04011": 1090,
+            "04013": 14920,
+            "04015": 942,
+            "04017": 1554,
+            "04019": 5447,
+            "04021": 1596,
+            "04023": 878,
+            "04025": 3830,
+            "04027": 1887
+          }
+        },
+        {
+          "name": "I. P. Frazier",
+          "party": "REP",
+          "write_in": false,
+          "votes": 37502,
+          "county_votes": {
+            "04001": 576,
+            "04003": 4027,
+            "04005": 1239,
+            "04007": 2145,
+            "04009": 701,
+            "04011": 417,
+            "04013": 14860,
+            "04015": 785,
+            "04017": 1066,
+            "04019": 5240,
+            "04021": 1066,
+            "04023": 931,
+            "04025": 2998,
+            "04027": 1451
+          }
+        }
+      ],
+      "contest_id": "az-1928-secretary-of-state",
+      "reconciliation": {
+        "status": "verified",
+        "page": 2,
+        "district": null,
+        "candidates": [
+          {
+            "candidate": "J. C. Callaghan",
+            "official_total": 44740,
+            "official_statewide": 44740,
+            "county_sum": 44740,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "I. P. Frazier",
+            "official_total": 37502,
+            "official_statewide": 37502,
+            "county_sum": 37502,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          }
+        ],
+        "county_count": 14,
+        "coverage": "county",
+        "multi_seat": false,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "attorney-general",
+      "district": null,
+      "page": 3,
+      "candidates": [
+        {
+          "name": "K. Berry Peterson",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 50133,
+          "county_votes": {
+            "04001": 902,
+            "04003": 5716,
+            "04005": 1276,
+            "04007": 3903,
+            "04009": 1707,
+            "04011": 1115,
+            "04013": 16438,
+            "04015": 952,
+            "04017": 1690,
+            "04019": 7345,
+            "04021": 1681,
+            "04023": 1146,
+            "04025": 4196,
+            "04027": 2066
+          }
+        },
+        {
+          "name": "Carl Tisor",
+          "party": "REP",
+          "write_in": false,
+          "votes": 30554,
+          "county_votes": {
+            "04001": 563,
+            "04003": 2867,
+            "04005": 1095,
+            "04007": 1902,
+            "04009": 659,
+            "04011": 361,
+            "04013": 12464,
+            "04015": 635,
+            "04017": 871,
+            "04019": 3849,
+            "04021": 988,
+            "04023": 596,
+            "04025": 2517,
+            "04027": 1187
+          }
+        }
+      ],
+      "contest_id": "az-1928-attorney-general",
+      "reconciliation": {
+        "status": "verified",
+        "page": 3,
+        "district": null,
+        "candidates": [
+          {
+            "candidate": "K. Berry Peterson",
+            "official_total": 50133,
+            "official_statewide": 50133,
+            "county_sum": 50133,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "Carl Tisor",
+            "official_total": 30554,
+            "official_statewide": 30554,
+            "county_sum": 30554,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          }
+        ],
+        "county_count": 14,
+        "coverage": "county",
+        "multi_seat": false,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    }
+  ]
+}

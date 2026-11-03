@@ -1,0 +1,10 @@
+{
+  "record_type": "inventory",
+  "year": 1912,
+  "date": null,
+  "kind": null,
+  "source_path": "data/raw/early-canvasses/pdfs/1912-28.pdf",
+  "source_sha256": "ad5148c32ad8dd8d5419826b4f133c05d1cd4b1530114175d87ff2abeaa791ee",
+  "contests": [],
+  "notes": "Compilation of initiatives, referendums and constitutional amendments for 1912?1928. No requested candidate-office contests; not a separate candidate election."
+}
