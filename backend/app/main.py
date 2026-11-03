@@ -5,7 +5,8 @@ from contextlib import asynccontextmanager
 import logging
 import time
 from fastapi import FastAPI, Depends, HTTPException, Request
-from fastapi.responses import StreamingResponse
+from fastapi.responses import Response, StreamingResponse
+from xml.sax.saxutils import escape
 from sqlalchemy import select, func
 from sqlalchemy.orm import Session
 from .database import SessionLocal
@@ -118,6 +119,20 @@ def elections(s: DB):
             .order_by(Contest.id.desc())
         )
     ] + house.catalog(s)
+
+
+SITE_URL = "https://azelections.app"
+
+
+@app.get("/sitemap.xml", include_in_schema=False)
+def sitemap(s: DB):
+    paths = ["/", "/methodology"] + [f"/elections/{e.id}" for e in elections(s)]
+    urls = "".join(f"<url><loc>{escape(SITE_URL + p)}</loc></url>" for p in paths)
+    return Response(
+        '<?xml version="1.0" encoding="UTF-8"?>'
+        f'<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{urls}</urlset>',
+        media_type="application/xml",
+    )
 
 
 @app.get(
