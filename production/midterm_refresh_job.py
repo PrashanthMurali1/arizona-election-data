@@ -1,8 +1,8 @@
-"""Scheduled 2026 midterm results refresh (Relay entry point, every 30 minutes).
+"""Scheduled 2026 midterm results refresh (Relay entry point, every five minutes).
 
 Fetches every Arizona race from civicAPI's race search, retains the raw response and publishes the
-normalized snapshot and legislative district boundaries that the API serves. The database is not
-touched. A failed run leaves the previous snapshot in place and exits non-zero.
+transactional SQLite snapshots and legislative district boundaries. A failed run leaves prior
+valid results in place. Relay's existing election-production resource also excludes deployments.
 """
 
 import json
@@ -28,6 +28,28 @@ def write_status(**fields):
 
 
 def main():
+    # OS advisory locks release automatically on process death (unlike a running status marker).
+    # Production runs on Linux; Windows uses its equivalent for local validation.
+    STATUS.parent.mkdir(parents=True, exist_ok=True)
+    with STATUS.with_suffix(".lock").open("a+") as lock:
+        try:
+            if os.name == "nt":
+                import msvcrt
+                lock.seek(0)
+                lock.write(" ")
+                lock.flush()
+                lock.seek(0)
+                msvcrt.locking(lock.fileno(), msvcrt.LK_NBLCK, 1)
+            else:
+                import fcntl
+                fcntl.flock(lock, fcntl.LOCK_EX | fcntl.LOCK_NB)
+        except OSError:
+            emit(logging.WARNING, "midterm_refresh_skipped", outcome="lock_held")
+            return 0  # another authorized refresh already owns publication
+        return run()
+
+
+def run():
     configure_logging('refresh')
     started = datetime.now(timezone.utc).isoformat()
     clock = time.monotonic()

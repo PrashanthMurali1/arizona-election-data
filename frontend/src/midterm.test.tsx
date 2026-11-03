@@ -5,11 +5,58 @@ import { sortCounties } from "./results";
 import {
   countyResults,
   districtResults,
+  midtermIsStale,
   toCandidates,
   toResults,
   withDistrictIds,
 } from "./midterm";
-import type { Geography, MidtermCandidate, MidtermRace } from "./types";
+import type {
+  Geography,
+  MidtermCandidate,
+  MidtermRace,
+  MidtermResults,
+} from "./types";
+
+it("marks locally cached races overdue using their own retrieval times and server freshness windows", () => {
+  const now = Date.parse("2026-11-04T12:00:00Z");
+  const snapshot = (races: MidtermRace[]): MidtermResults => ({
+    election_date: "2026-11-03",
+    source_url: "",
+    retrieved_at: new Date(now).toISOString(),
+    stale: false,
+    refresh_error: null,
+    revision: "r1",
+    offices: { governor: races },
+  });
+  const old = (minutes: number, extra: Partial<MidtermRace> = {}) =>
+    race(null, [], {
+      retrieved_at: new Date(now - minutes * 60_000).toISOString(),
+      ...extra,
+    });
+  expect(midtermIsStale(snapshot([old(14)]), now)).toBe(false);
+  expect(midtermIsStale(snapshot([old(16)]), now)).toBe(true);
+  expect(
+    midtermIsStale(snapshot([old(359, { percent_reporting: 100 })]), now),
+  ).toBe(false);
+  expect(
+    midtermIsStale(snapshot([old(361, { percent_reporting: 100 })]), now),
+  ).toBe(true);
+  expect(
+    midtermIsStale(snapshot([old(999, { status: "certified" })]), now),
+  ).toBe(false);
+  expect(
+    midtermIsStale(snapshot([old(1, { refresh_error: "offline" })]), now),
+  ).toBe(true);
+  expect(
+    midtermIsStale(
+      {
+        ...snapshot([race(null, [])]),
+        retrieved_at: new Date(now - 16 * 60_000).toISOString(),
+      },
+      now,
+    ),
+  ).toBe(true);
+});
 
 const candidate = (
   name: string,

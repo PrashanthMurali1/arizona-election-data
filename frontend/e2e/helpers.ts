@@ -102,7 +102,7 @@ export const midtermResults = (
 ) => ({
   election_date: "2026-11-03",
   source_url: "https://civicapi.org/api/v2/race/search?province=AZ",
-  retrieved_at: "2026-11-04T01:00:00+00:00",
+  retrieved_at: new Date().toISOString(),
   stale,
   refresh_error: stale ? "Timeout: down" : null,
   revision: "fixture",
@@ -150,7 +150,7 @@ export const chamberGeography = {
 
 export async function mockMidterm(page: Page, ...bodies: object[]) {
   let calls = 0;
-  await page.route("**/api/midterm-2026", (route) =>
+  await page.route("**/api/midterm-2026?office=*", (route) =>
     route.fulfill({ json: bodies[Math.min(calls++, bodies.length - 1)] }),
   );
   // One announcement of the fixture revision, then no reconnect for ten minutes.

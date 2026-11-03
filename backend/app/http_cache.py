@@ -38,9 +38,8 @@ class BrowserCacheRoute(APIRoute):
             elif path.startswith(("/api/geography/", "/api/midterm-2026/geography/")):
                 policy = "private, max-age=86400, must-revalidate, no-transform"
             elif path == "/api/midterm-2026":
-                # Cached for two hours; the update stream (see midterm_updates) tells open pages when
-                # the 30-minute job publishes new results, and they revalidate by ETag.
-                policy = "private, max-age=7200, must-revalidate, no-transform"
+                # SSE refreshes promptly; a short browser TTL bounds a missed notification.
+                policy = "private, max-age=60, must-revalidate, no-transform"
             elif path == "/api/elections/az-2026-early-voting/activity":
                 policy = "private, max-age=300, must-revalidate, no-transform"
             else:
