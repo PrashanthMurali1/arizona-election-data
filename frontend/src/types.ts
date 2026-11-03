@@ -212,6 +212,11 @@ export interface MidtermRace {
   seats: number | null;
   candidates: MidtermCandidate[];
   counties: MidtermCounty[];
+  retrieved_at?: string | null;
+  source_updated_at?: string | null;
+  results_state?: string;
+  status?: string;
+  refresh_error?: string | null;
 }
 export interface MidtermCounty {
   fips: string;

@@ -11,6 +11,7 @@ from fastapi.responses import Response, StreamingResponse, FileResponse
 from xml.sax.saxutils import escape
 from sqlalchemy import select, func
 from sqlalchemy.orm import Session
+from sqlalchemy.exc import SQLAlchemyError
 from .database import SessionLocal
 from .models import (
     Contest,
@@ -140,23 +141,47 @@ def midterm_geography(chamber: str):
         raise HTTPException(404, "Unknown chamber")
     try:
         return midterm.chamber_geography(chamber)
-    except (requests.RequestException, ValueError, KeyError, TypeError) as exc:
+    except (requests.RequestException, ValueError, KeyError, TypeError, SQLAlchemyError) as exc:
         emit(logging.ERROR, "midterm_geography_failed", exc=exc, outcome="failed")
         raise HTTPException(503, "District boundaries are temporarily unavailable")
 
 
 @app.get("/api/midterm-2026", response_model=midterm.MidtermOut)
-def midterm_results(response: Response):
-    """Unofficial civicAPI results for every 2026 Arizona midterm race (snapshot, or shared live fallback)."""
+def midterm_results(response: Response, office: str | None = None):
+    """Stored results, optionally restricted to the selected office without loading other races."""
+    if office is not None and office not in midterm.OFFICES.values():
+        raise HTTPException(404, "Unknown midterm office")
     try:
-        value = midterm.cache.get()
+        if office:
+            from . import live_results
+            value = midterm.MidtermOut(**live_results.read(midterm.ELECTION_DATE, office))
+        else:
+            value = midterm.cache.get()
         if value.stale or value.revision == "live":
             # No update notification covers these, so browsers must not hold them for two hours.
             response.headers["X-Cache-Policy"] = "private, no-cache, no-transform"
         return value
-    except (requests.RequestException, ValueError, KeyError, TypeError) as exc:
+    except (requests.RequestException, ValueError, KeyError, TypeError, SQLAlchemyError) as exc:
         emit(logging.ERROR, "midterm_feed_failed", exc=exc, outcome="failed")
         raise HTTPException(503, "Live midterm results are temporarily unavailable")
+
+
+@app.get("/api/midterm-2026/catalog")
+def midterm_catalog():
+    """Lightweight catalog; no candidates or county payloads and no upstream access."""
+    from .database import SessionLocal
+    from .models import LiveRaceSnapshot
+    from sqlalchemy import select
+    try:
+        with SessionLocal() as session:
+            rows = session.execute(select(LiveRaceSnapshot.office, LiveRaceSnapshot.race_id)
+                .where(LiveRaceSnapshot.election_date == midterm.ELECTION_DATE)
+                .order_by(LiveRaceSnapshot.office, LiveRaceSnapshot.race_id)).all()
+    except SQLAlchemyError as exc:
+        emit(logging.ERROR, "midterm_catalog_failed", exc=exc, outcome="failed")
+        raise HTTPException(503, "Live midterm results are temporarily unavailable")
+    return {"election_date": midterm.ELECTION_DATE,
+        "offices": [{"office": office, "race_id": race_id} for office, race_id in rows]}
 
 
 @app.get('/api/historical-elections/{id}', response_model=HistoricalOverviewOut)

@@ -132,9 +132,10 @@ test("districts and counties turn from grey to the leading party as votes arrive
     page.getByRole("button", { name: /^Maricopa County/ }),
   ).toHaveClass(/other/);
 
-  await page.unroute("**/api/midterm-2026");
+  await page.unroute("**/api/midterm-2026?office=*");
   await page.unroute("**/api/midterm-2026/geography/*");
   await mockMidterm(page, counted(10));
+  await page.evaluate(() => localStorage.clear());
   await page.reload();
   await expect(
     page.getByRole("button", { name: /^Maricopa County/ }),
@@ -164,10 +165,11 @@ test("a failed refresh keeps the last results and warns; a cold failure shows an
     panel(page).getByRole("heading", { name: "Statewide candidate results" }),
   ).toBeVisible();
 
-  await page.unroute("**/api/midterm-2026");
-  await page.route("**/api/midterm-2026", (route) =>
+  await page.unroute("**/api/midterm-2026?office=*");
+  await page.route("**/api/midterm-2026?office=*", (route) =>
     route.fulfill({ status: 503, json: { detail: "down" } }),
   );
+  await page.evaluate(() => localStorage.clear());
   await page.reload();
   await expect(page.getByRole("alert")).toContainText(
     "Data couldn’t be loaded",
@@ -198,6 +200,7 @@ test("midterm tab fits narrow screens and works through the mobile office picker
     expect(
       await page.evaluate(() => document.documentElement.scrollWidth),
     ).toBeLessThanOrEqual(width);
+    await page.evaluate(() => localStorage.clear());
   }
 });
 
@@ -289,11 +292,21 @@ test("no Reporting % column or value when the API does not return it", async ({
 });
 
 test.describe("update notifications and caching", () => {
+  const offices = [
+    "governor",
+    "attorney-general",
+    "secretary-of-state",
+    "us-house",
+    "state-senate",
+    "state-house",
+  ];
+  type Announcement = { revision: string; offices?: string[] };
   async function fakeStream(page: Page) {
     await page.addInitScript(() => {
-      const streams: { url: string; closed: boolean; emit(r: string): void }[] =
-        [];
+      const streams: { closed: boolean; emit(value: unknown): void }[] = [];
       class FakeEventSource extends EventTarget {
+        static CLOSED = 2;
+        readyState = 1;
         closed = false;
         constructor(public url: string) {
           super();
@@ -301,13 +314,12 @@ test.describe("update notifications and caching", () => {
         }
         close() {
           this.closed = true;
+          this.readyState = 2;
         }
-        emit(revision: string) {
+        emit(value: unknown) {
           if (!this.closed)
             this.dispatchEvent(
-              new MessageEvent("revision", {
-                data: JSON.stringify({ revision }),
-              }),
+              new MessageEvent("revision", { data: JSON.stringify(value) }),
             );
         }
       }
@@ -317,150 +329,334 @@ test.describe("update notifications and caching", () => {
       });
     });
   }
-  const announce = (page: Page, revision: string) =>
+  const announce = (page: Page, value: Announcement) =>
     page.evaluate((value) => {
       (
         window as unknown as {
-          midtermStreams: { closed: boolean; emit(r: string): void }[];
+          midtermStreams: { closed: boolean; emit(value: unknown): void }[];
         }
       ).midtermStreams
-        .filter((s) => !s.closed)
-        .forEach((s) => s.emit(value));
-    }, revision);
+        .filter((source) => !source.closed)
+        .forEach((source) => source.emit(value));
+    }, value);
   const open = (page: Page) =>
     page.evaluate(
       () =>
         (
           window as unknown as { midtermStreams: { closed: boolean }[] }
-        ).midtermStreams.filter((s) => !s.closed).length,
+        ).midtermStreams.filter((source) => !source.closed).length,
     );
-
-  test("a new revision refetches past the cache; the same revision and duplicates do not; no polling", async ({
-    page,
-  }) => {
-    await fakeStream(page);
-    const requests: (string | undefined)[] = [];
-    const updated = {
-      ...midtermResults({
-        governor: [
-          race(1, "Arizona Governor", null, {
-            percent_reporting: 55,
-            total_votes: 10,
-            candidates: [
-              candidate("Katie Hobbs", "Democratic", 6, 60),
-              candidate("Andy Biggs", "Republican", 4, 40),
-            ],
-          }),
-        ],
-      }),
-      revision: "r2",
+  function body(office: string, revision = "fixture") {
+    const fixture = midtermResults();
+    return {
+      ...fixture,
+      revision,
+      offices: {
+        [office]: (fixture.offices as Record<string, unknown[]>)[office],
+      },
     };
-    await page.clock.install();
-    await page.route("**/api/midterm-2026", async (route) => {
-      requests.push(
-        (await route.request().headerValue("cache-control")) ?? undefined,
-      );
+  }
+  async function setup(
+    page: Page,
+    handler?: (office: string, count: number) => Promise<object> | object,
+  ) {
+    await fakeStream(page);
+    await mockMidterm(page, midtermResults());
+    const calls = new Map<string, number>();
+    await page.route("**/api/midterm-2026?office=*", async (route) => {
+      const office = new URL(route.request().url()).searchParams.get("office")!;
+      const count = (calls.get(office) ?? 0) + 1;
+      calls.set(office, count);
       await route.fulfill({
-        json: requests.length === 1 ? midtermResults() : updated,
+        json: handler ? await handler(office, count) : body(office),
       });
     });
-    await page.goto("/");
-    const p = panel(page);
-    await expect(p.getByText("% Reporting")).toBeVisible();
-    await expect.poll(() => open(page)).toBe(1);
-    // The page announces the revision it already shows: nothing to fetch.
-    await announce(page, "fixture");
-    // Hours pass with no timer-driven requests.
-    await page.clock.fastForward(3 * 60 * 60_000);
-    expect(requests).toHaveLength(1);
-    // The job publishes: one refetch, then the new figures are shown.
-    await announce(page, "r2");
-    await expect(p).toContainText("55.00%");
-    expect(requests).toHaveLength(2);
-    await announce(page, "r2");
-    await announce(page, "r2");
-    expect(requests).toHaveLength(2);
-  });
+    return calls;
+  }
+  const ready = async (page: Page, calls: Map<string, number>) => {
+    await expect(
+      panel(page).getByRole("heading", { name: "Statewide candidate results" }),
+    ).toBeVisible();
+    await expect.poll(() => calls.get("governor")).toBe(2);
+    await expect
+      .poll(() => offices.every((office) => calls.has(office)))
+      .toBe(true);
+  };
 
-  test("leaving the tab closes the stream; returning opens one and catches a missed revision", async ({
+  test("shows the cache-eligible Governor response while its fresh validation is pending", async ({
     page,
   }) => {
-    await fakeStream(page);
-    let calls = 0;
-    await page.route("**/api/midterm-2026", (route) =>
-      route.fulfill({
-        json:
-          ++calls === 1
-            ? midtermResults()
-            : { ...midtermResults(), revision: "r2" },
-      }),
-    );
+    let release: (() => void) | undefined;
+    await page.addInitScript(() => {
+      const original = window.fetch;
+      const modes: (RequestCache | undefined)[] = [];
+      Object.assign(window, { governorFetchModes: modes });
+      window.fetch = (input, options) => {
+        if (String(input).includes("office=governor"))
+          modes.push(options?.cache);
+        return original(input, options);
+      };
+    });
+    const calls = await setup(page, async (office, count) => {
+      if (office === "governor" && count === 2)
+        await new Promise<void>((resolve) => {
+          release = resolve;
+        });
+      const fixture = body(office);
+      if (office === "governor" && count === 2)
+        (
+          fixture.offices.governor[0] as { percent_reporting: number }
+        ).percent_reporting = 55;
+      return fixture;
+    });
     await page.goto("/");
+    await expect(
+      panel(page).getByRole("heading", { name: "Statewide candidate results" }),
+    ).toBeVisible();
+    await expect.poll(() => typeof release).toBe("function");
+    await expect(panel(page)).not.toContainText("55.00%");
+    await expect.poll(() => calls.size).toBe(6);
+    release!();
+    await expect(panel(page)).toContainText("55.00%");
+    expect(
+      await page.evaluate(
+        () =>
+          (window as unknown as { governorFetchModes: RequestCache[] })
+            .governorFetchModes,
+      ),
+    ).toEqual(["default", "no-cache"]);
+  });
+
+  test("shows Governor first, validates it before bounded background prefetch, and keeps visits warm", async ({
+    page,
+  }) => {
+    const releases: (() => void)[] = [];
+    let backgroundActive = 0;
+    let maxBackgroundActive = 0;
+    let governorCalls = 0;
+    const calls = await setup(page, async (office, count) => {
+      if (office === "governor") {
+        governorCalls = count;
+        return body(office);
+      }
+      expect(governorCalls).toBe(2);
+      expect(
+        await panel(page)
+          .getByRole("heading", { name: "Statewide candidate results" })
+          .isVisible(),
+      ).toBe(true);
+      backgroundActive++;
+      maxBackgroundActive = Math.max(backgroundActive, maxBackgroundActive);
+      await new Promise<void>((resolve) => releases.push(resolve));
+      backgroundActive--;
+      return body(office);
+    });
+    await page.goto("/");
+    await expect.poll(() => releases.length).toBe(2);
+    expect(maxBackgroundActive).toBe(2);
+    expect(
+      [...calls.keys()].filter((office) => office !== "governor"),
+    ).toHaveLength(2);
+    releases.splice(0).forEach((release) => release());
+    await expect.poll(() => releases.length).toBe(2);
+    releases.splice(0).forEach((release) => release());
+    await expect.poll(() => releases.length).toBe(1);
+    releases.splice(0).forEach((release) => release());
+    await expect.poll(() => backgroundActive).toBe(0);
+    expect(calls.size).toBe(6);
+    expect(maxBackgroundActive).toBeLessThanOrEqual(2);
+    await nav(page)
+      .getByRole("button", { name: "U.S. House", exact: true })
+      .click();
+    await expect(
+      panel(page).getByRole("heading", { name: "District by district" }),
+    ).toBeVisible();
+    await page.getByRole("tab", { name: "Federal Elections" }).click();
+    await page.getByRole("tab", { name: "2026 Midterm Results" }).click();
+    await expect(
+      nav(page).getByRole("button", { name: "U.S. House", exact: true }),
+    ).toHaveAttribute("aria-pressed", "true");
+    await expect(
+      panel(page).getByRole("heading", { name: "District by district" }),
+    ).toBeVisible();
+    expect(calls.get("us-house")).toBe(1);
+    expect(
+      await page.evaluate(() =>
+        Object.keys(localStorage).filter(
+          (key) =>
+            key.startsWith("az-midterm-2026:v1:") &&
+            key !== "az-midterm-2026:v1:selected",
+        ),
+      ),
+    ).toEqual([]);
+  });
+
+  test("a global revision refreshes all prefetched offices and a targeted revision refreshes only named offices", async ({
+    page,
+  }) => {
+    let revision = "fixture";
+    const calls = await setup(page, (office) => body(office, revision));
+    await page.goto("/");
+    await ready(page, calls);
+    revision = "r2";
+    await announce(page, { revision });
+    await expect
+      .poll(() =>
+        offices.every(
+          (office) => calls.get(office) === (office === "governor" ? 3 : 2),
+        ),
+      )
+      .toBe(true);
+    await announce(page, { revision });
+    expect(calls.get("governor")).toBe(3);
+    expect(calls.get("us-house")).toBe(2);
+    revision = "r3";
+    await announce(page, { revision, offices: ["us-house"] });
+    await expect.poll(() => calls.get("us-house")).toBe(3);
+    expect(calls.get("governor")).toBe(3);
+    expect(calls.get("state-house")).toBe(2);
+  });
+
+  test("an announced refresh preserves selected county details and scroll while loading", async ({
+    page,
+  }) => {
+    let refresh = false;
+    let release: (() => void) | undefined;
+    const calls = await setup(page, async (office) => {
+      if (refresh && office === "governor")
+        await new Promise<void>((resolve) => {
+          release = resolve;
+        });
+      const fixture = body(office, refresh ? "r2" : "fixture");
+      if (office === "governor" && refresh)
+        (fixture.offices.governor[0] as { id: number }).id = 999;
+      return fixture;
+    });
+    await page.goto("/");
+    await ready(page, calls);
+    await panel(page)
+      .getByRole("button", { name: /^Maricopa County/ })
+      .press("Enter");
+    const detail = panel(page).getByRole("region", {
+      name: "Selected county details",
+    });
+    await expect(detail).toContainText("Maricopa County");
+    await detail.evaluate((element) =>
+      element.setAttribute("data-preserved", "yes"),
+    );
+    const scroll = await page.evaluate(() => {
+      window.scrollTo(0, 250);
+      return window.scrollY;
+    });
+    refresh = true;
+    await announce(page, { revision: "r2", offices: ["governor"] });
+    await expect.poll(() => typeof release).toBe("function");
+    await expect(detail).toContainText("Maricopa County");
+    expect(await page.evaluate(() => window.scrollY)).toBe(scroll);
+    const response = page.waitForResponse((response) =>
+      response.url().includes("office=governor"),
+    );
+    release!();
+    await response;
+    await expect(detail).toContainText("Maricopa County");
+    await expect(detail).toHaveAttribute("data-preserved", "yes");
+    expect(await page.evaluate(() => window.scrollY)).toBe(scroll);
+  });
+
+  test("cached results age visibly offline without stream events or a completed refresh", async ({
+    page,
+  }) => {
+    await page.clock.install();
+    const calls = await setup(page, (office, count) => {
+      if (office === "governor" && count > 2)
+        return new Promise<object>(() => {});
+      return body(office);
+    });
+    await page.goto("/");
+    await ready(page, calls);
+    await expect(panel(page)).not.toContainText(
+      "Showing the last results we loaded",
+    );
+    await page.context().setOffline(true);
+    await page.clock.fastForward(16 * 60_000);
+    await expect(panel(page)).toContainText(
+      "Showing the last results we loaded",
+    );
+    await page.getByRole("tab", { name: "Federal Elections" }).click();
+    await page.getByRole("tab", { name: "2026 Midterm Results" }).click();
+    await expect(
+      panel(page).getByRole("heading", { name: "Statewide candidate results" }),
+    ).toBeVisible();
+    await expect(panel(page)).toContainText(
+      "Showing the last results we loaded",
+    );
+  });
+
+  test("leaving the tab closes the stream; returning opens one and catches missed revisions", async ({
+    page,
+  }) => {
+    let revision = "fixture";
+    const calls = await setup(page, (office) => body(office, revision));
+    await page.goto("/");
+    await ready(page, calls);
     await expect.poll(() => open(page)).toBe(1);
     await page.getByRole("tab", { name: "Federal Elections" }).click();
     await expect.poll(() => open(page)).toBe(0);
     await page.getByRole("tab", { name: "2026 Midterm Results" }).click();
     await expect.poll(() => open(page)).toBe(1);
-    // The new stream's first event announces the revision published while away.
-    await announce(page, "r2");
-    await expect.poll(() => calls).toBeGreaterThanOrEqual(2);
+    revision = "r2";
+    await announce(page, { revision });
+    await expect.poll(() => calls.get("governor")).toBe(3);
+    await expect.poll(() => calls.get("us-house")).toBe(2);
   });
 
-  test("a failed refetch is retried when the same revision is announced again", async ({
+  test("a failed fresh request retains results and retries on a repeated revision", async ({
     page,
   }) => {
-    await fakeStream(page);
-    let calls = 0;
     let failing = false;
-    const updated = { ...midtermResults(), revision: "r2" };
-    await page.route("**/api/midterm-2026", (route) => {
-      calls++;
-      if (failing) return route.fulfill({ status: 503, json: { detail: "x" } });
-      return route.fulfill({
-        json: calls === 1 ? midtermResults() : updated,
-      });
+    let revision = "fixture";
+    const calls = await setup(page, (office) => {
+      if (failing && office === "governor") throw Error("test offline");
+      return body(office, revision);
+    });
+    // Override the handler to use an HTTP failure rather than an unhandled test exception.
+    await page.route("**/api/midterm-2026?office=governor", async (route) => {
+      calls.set("governor", (calls.get("governor") ?? 0) + 1);
+      await route.fulfill(
+        failing
+          ? { status: 503, json: { detail: "offline" } }
+          : { json: body("governor", revision) },
+      );
     });
     await page.goto("/");
-    await expect.poll(() => open(page)).toBe(1);
-    await expect(panel(page).getByText("% Reporting")).toBeVisible();
+    await ready(page, calls);
     failing = true;
-    await announce(page, "r2");
+    revision = "r2";
+    await announce(page, { revision, offices: ["governor"] });
     await expect(panel(page)).toContainText(
       "Showing the last results we loaded",
     );
-    const failedCalls = calls;
-    await announce(page, "r2"); // the stream reconnected and announced the revision again
-    await expect.poll(() => calls).toBe(failedCalls + 1);
+    await expect(
+      panel(page).getByRole("heading", { name: "Statewide candidate results" }),
+    ).toBeVisible();
+    const failedCalls = calls.get("governor")!;
     failing = false;
-    await announce(page, "r2");
+    await announce(page, { revision, offices: ["governor"] });
+    await expect.poll(() => calls.get("governor")).toBe(failedCalls + 1);
     await expect(panel(page)).not.toContainText(
       "Showing the last results we loaded",
     );
   });
 
-  test("degraded (live or stale) results are rechecked every five minutes; healthy ones are not", async ({
+  test("the five-minute backstop revalidates Governor and prefetched offices", async ({
     page,
   }) => {
-    await fakeStream(page);
     await page.clock.install();
-    let calls = 0;
-    await page.route("**/api/midterm-2026", (route) => {
-      calls++;
-      return route.fulfill({
-        json: {
-          ...midtermResults(),
-          revision: calls < 3 ? "live" : "snapshot-1",
-        },
-      });
-    });
+    const calls = await setup(page);
     await page.goto("/");
-    await expect(panel(page).getByText("% Reporting")).toBeVisible();
-    expect(calls).toBe(1);
+    await ready(page, calls);
     await page.clock.fastForward(5 * 60_000 + 1);
-    await expect.poll(() => calls).toBe(2);
-    await page.clock.fastForward(5 * 60_000 + 1);
-    await expect.poll(() => calls).toBe(3); // now a real snapshot: back to the long backstop
-    await page.clock.fastForward(30 * 60_000);
-    expect(calls).toBe(3);
+    await expect.poll(() => calls.get("governor")).toBe(3);
+    await expect.poll(() => calls.get("us-house")).toBe(2);
   });
 });

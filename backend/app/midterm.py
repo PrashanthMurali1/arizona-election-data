@@ -1,20 +1,17 @@
-"""2026 midterm results from civicAPI's race search.
+"""Scheduled civicAPI ingestion and database-only results serving.
 
-One search request returns every Arizona race. A scheduled job (production/midterm_refresh_job.py,
-every 30 minutes under Relay) fetches it, retains the raw response and atomically publishes a
-normalized snapshot plus the legislative district boundaries under data/raw/2026/midterm. The API only
-reads that snapshot. If it is missing or older than three hours the API falls back to one shared live
-fetch (cached for 20 seconds), so results never disappear. Nothing is written to the database: these
-are unofficial, changing figures, not a retained import. A failed reload serves the last good response
-with `stale` set.
+Unofficial snapshots live separately from certified historical tables. HTTP requests never fetch
+upstream; overdue snapshots remain visible and carry an explicit stale marker.
 """
 
 import hashlib
 import json
+import math
 import os
 import re
 import threading
 import time
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -67,6 +64,12 @@ class Race(BaseModel):
     seats: int | None = None
     candidates: list[Candidate]
     counties: list[County] = []
+    retrieved_at: str | None = None
+    status: str = "unofficial"
+    results_state: str = "unreported"
+    source_updated_at: str | None = None
+    attempted_at: str | None = None
+    refresh_error: str | None = None
 
 
 class MidtermOut(BaseModel):
@@ -85,7 +88,8 @@ def number(value, kind):
     if value is None or isinstance(value, bool):
         return None
     try:
-        return kind(value)
+        result = kind(value)
+        return result if math.isfinite(result) and result >= 0 else None
     except (TypeError, ValueError):
         return None
 
@@ -114,6 +118,8 @@ def race(raw, office):
         total_votes=sum(c.votes or 0 for c in candidates), called=any(c.winner for c in candidates),
         source_url=f"https://civicapi.org/api/v2/race/{raw['id']}",
         seats=number(raw.get("seats"), int), candidates=candidates,
+        results_state="partial" if any(c.votes is None for c in candidates) else
+            ("reported" if any((c.votes or 0) > 0 for c in candidates) else "unreported"),
     )
 
 
@@ -171,9 +177,22 @@ KEEP_RAW = 200
 
 
 def get(url, **kwargs):
-    response = requests.get(url, timeout=TIMEOUT, allow_redirects=False, **kwargs)
-    response.raise_for_status()
-    return response
+    # At most two attempts, including bounded Retry-After on throttling. No request-path callers.
+    for attempt in range(2):
+        try:
+            response = requests.get(url, timeout=TIMEOUT, allow_redirects=False, **kwargs)
+            response.raise_for_status()
+            return response
+        except requests.RequestException as exc:
+            status = getattr(getattr(exc, "response", None), "status_code", None)
+            if attempt or (status is not None and status != 429 and status < 500):
+                raise
+            delay = 1
+            try:
+                delay = min(30, max(1, int(exc.response.headers.get("Retry-After", "1"))))
+            except (AttributeError, ValueError):
+                pass
+            time.sleep(delay)
 
 
 def county_results(race_id):
@@ -194,27 +213,49 @@ def search():
 
 
 def fetch(response=None, prior=None):
-    """Fetch and normalize every race.
-
-    `prior` is None for the live fallback, where a failed county request just omits that race map.
-    The scheduled job passes the previous snapshot counties by race id instead: a failed or empty
-    county response keeps the previous counties, and a failure with nothing to keep fails the run,
-    so a blank county map is never published as a good snapshot.
-    """
+    """Scheduled fetch; a failed county detail retains the entire previous race."""
     response = response or search()
     value = normalize(response.json(), datetime.now(timezone.utc).isoformat())
-    for office in STATEWIDE:
-        for item in value["offices"][office]:
-            if prior is None:
-                item.counties = fetch_counties(item.id)
+    # Completed races need only a two-hour check. A called race is not necessarily complete.
+    from .live_results import COMPLETED_SECONDS
+    skipped = set()
+    for office, items in value["offices"].items():
+        for index, item in enumerate(items):
+            previous = (prior or {}).get(item.id)
+            if not isinstance(previous, dict):
                 continue
-            try:
-                fresh = county_results(item.id)
-            except (requests.RequestException, ValueError, AttributeError):
-                if not prior.get(item.id):
-                    raise
-                fresh = []
-            item.counties = fresh or [County(**c) for c in prior.get(item.id, [])]
+            stamp = previous.get("retrieved_at")
+            recent = False
+            if stamp:
+                recent = (datetime.now(timezone.utc) - datetime.fromisoformat(stamp)).total_seconds() < COMPLETED_SECONDS
+            if previous.get("status") == "certified" or (previous.get("percent_reporting") == 100 and recent):
+                items[index] = Race(**previous)
+                skipped.add(item.id)
+    def complete(item):
+        if item.id in skipped:
+            return item
+        try:
+            fresh = county_results(item.id)
+            if not fresh:
+                if not (prior or {}).get(item.id) and item.results_state == "unreported":
+                    return item
+                raise ValueError("County results missing")
+            item.counties = fresh
+            return item
+        except (requests.RequestException, ValueError, AttributeError) as exc:
+            previous = (prior or {}).get(item.id)
+            # Keep the entire previous race, never attach old counties to new statewide totals.
+            error = f"{type(exc).__name__}: {exc}"
+            if isinstance(previous, dict):
+                return Race(**{**previous, "refresh_error": error})
+            # A new race still publishes its statewide totals; the other races must not wait on it.
+            item.refresh_error = error
+            return item
+    with ThreadPoolExecutor(max_workers=3) as executor:
+        targets = [(office, item) for office in STATEWIDE for item in value["offices"][office]]
+        results = list(executor.map(complete, [item for _, item in targets]))
+        for office in STATEWIDE:
+            value["offices"][office] = [result for (name, _), result in zip(targets, results) if name == office]
     return value
 
 
@@ -275,10 +316,17 @@ def write_json(path, value):
 
 def refresh(directory=None):
     """Scheduled job: fetch everything, retain the raw search response, then publish atomically."""
+    persistent = directory is None
     directory = Path(directory or DIR)
     response = search()
     previous = read_snapshot(directory, now=lambda: 0) or {}  # age does not matter for reuse
-    prior = {race["id"]: race.get("counties") or [] for races in previous.get("offices", {}).values() for race in races}
+    if persistent:
+        from . import live_results
+        try:
+            previous = live_results.read(ELECTION_DATE)
+        except ValueError:
+            pass
+    prior = {race["id"]: race for races in previous.get("offices", {}).values() for race in races}
     value = fetch(response, prior)
     digest = hashlib.sha256(response.content).hexdigest()
     raw = directory / "raw" / f"search-{digest}.json"
@@ -288,6 +336,10 @@ def refresh(directory=None):
         for old in sorted(raw.parent.glob("search-*.json"), key=lambda p: p.stat().st_mtime)[:-KEEP_RAW]:
             old.unlink()
     value["raw_sha256"] = digest
+    # The transaction is the publication boundary. The file is only an operator/raw compatibility
+    # artifact; serving and SSE revision checks use SQLite.
+    if persistent:
+        live_results.publish(to_json(value))
     # Results first: district boundaries are fixed for 2026, so they are fetched only when missing and
     # an outage of that static path can never hold back new vote counts (the API fetches them itself).
     write_json(directory / "latest.json", to_json(value))
@@ -317,11 +369,19 @@ def read_snapshot(directory=None, now=time.time):
 
 def snapshot_revision(directory=None):
     """The revision /api/midterm-2026 currently serves ("live" when it is not using a snapshot)."""
+    if directory is None:
+        from . import live_results
+        try:
+            return live_results.revision(ELECTION_DATE)
+        except ValueError:
+            return "unavailable"
     snapshot = read_snapshot(directory)
     return snapshot["revision"] if snapshot else "live"
 
 
 def snapshot_stamp(directory=None):
+    if directory is None:
+        return snapshot_revision()
     try:
         return (Path(directory or DIR) / "latest.json").stat().st_mtime_ns
     except OSError:
@@ -329,8 +389,9 @@ def snapshot_stamp(directory=None):
 
 
 def load():
-    """Prefer the scheduled job's snapshot; fetch live only when it is missing or stale."""
-    return read_snapshot() or {**fetch(), "revision": "live"}
+    """Database only, including across process restarts and upstream outages."""
+    from . import live_results
+    return live_results.read(ELECTION_DATE)
 
 
 geography_cache = {}
@@ -343,9 +404,7 @@ def chamber_geography(chamber):
     try:
         return json.loads(path.read_text())
     except (OSError, ValueError):
-        if chamber not in geography_cache:  # boundaries are fixed for 2026; fetch once per process
-            geography_cache[chamber] = fetch_geography(chamber)
-        return geography_cache[chamber]
+        raise ValueError("Scheduled district boundaries are unavailable")
 
 
 class Cache:
@@ -360,7 +419,8 @@ class Cache:
         self.error = None
 
     def output(self):
-        return MidtermOut(**self.value, stale=self.error is not None, refresh_error=self.error)
+        return MidtermOut(**{**self.value, "stale": bool(self.error or self.value.get("stale")),
+            "refresh_error": self.error or self.value.get("refresh_error")})
 
     def get(self):
         # With a value in hand, only one thread reloads; the others serve the last good value at once
@@ -370,7 +430,13 @@ class Cache:
         try:
             # A newly published snapshot is served at once, so it always matches the revision
             # announced on the update stream.
-            published = self.stamp()
+            try:
+                published = self.stamp()
+            except Exception as exc:
+                if self.value is None:
+                    raise
+                self.error = f"{type(exc).__name__}: {exc}"
+                return self.output()
             if self.value is None or published != self.loaded_stamp or self.clock() - self.loaded_at >= self.ttl:
                 self.loaded_stamp = published
                 try:

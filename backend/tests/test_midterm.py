@@ -78,7 +78,7 @@ def test_endpoint_serves_normalized_json_with_validators(monkeypatch):
     monkeypatch.setattr(midterm, "cache", midterm.Cache(lambda: {**midterm.normalize(PAYLOAD, "2026-11-04T00:00:00+00:00"), "revision": "abc"}, stamp=lambda: None))
     client = TestClient(app)
     response = client.get("/api/midterm-2026")
-    assert response.status_code == 200 and "max-age=7200" in response.headers["cache-control"]
+    assert response.status_code == 200 and "max-age=60" in response.headers["cache-control"]
     assert response.json()["offices"]["governor"][0]["candidates"][0]["name"]
     assert client.get("/api/midterm-2026", headers={"if-none-match": response.headers["etag"]}).status_code == 304
 
@@ -123,7 +123,7 @@ def test_refresh_publishes_snapshot_atomically_and_api_prefers_it(monkeypatch, t
             return PAYLOAD
 
     monkeypatch.setattr(midterm, "search", lambda: Response())
-    monkeypatch.setattr(midterm, "fetch_counties", lambda race_id: [])
+    monkeypatch.setattr(midterm, "county_results", lambda race_id: [])
     monkeypatch.setattr(midterm, "fetch_geography", lambda chamber: {"type": "FeatureCollection", "features": []})
     value = midterm.refresh(tmp_path)
     assert value["raw_sha256"]
@@ -285,13 +285,14 @@ def test_failed_county_request_keeps_previous_counties_instead_of_publishing_a_b
     assert len(empty["offices"]["governor"][0].counties) == 1
 
 
-def test_county_failure_with_nothing_to_keep_fails_the_run_and_publishes_nothing(monkeypatch, tmp_path):
+def test_county_failure_with_nothing_to_keep_publishes_statewide_totals_with_an_error(monkeypatch, tmp_path):
     def down(race_id):
         raise requests.Timeout("slow")
 
-    with pytest.raises(requests.Timeout):
-        refresh_with(monkeypatch, tmp_path, counties=down)
-    assert not (tmp_path / "latest.json").exists()
+    value = refresh_with(monkeypatch, tmp_path, counties=down)
+    governor = value["offices"]["governor"][0]
+    assert governor.counties == [] and "Timeout" in governor.refresh_error
+    assert (tmp_path / "latest.json").exists()
 
 
 def test_boundary_outage_never_blocks_new_results(monkeypatch, tmp_path):
@@ -322,15 +323,12 @@ def test_truncated_search_result_is_rejected():
         midterm.normalize({**PAYLOAD, "count": len(PAYLOAD["races"]) + 1}, "t")
 
 
-def test_unusable_snapshot_file_falls_back_to_live(monkeypatch, tmp_path):
-    (tmp_path / "latest.json").write_text('{"offices": "nope"}')
-    assert midterm.read_snapshot(tmp_path) is None
-    (tmp_path / "latest.json").write_text("{truncated")
-    assert midterm.read_snapshot(tmp_path) is None
-    monkeypatch.setattr(midterm, "DIR", tmp_path)
-    monkeypatch.setattr(midterm, "fetch", lambda: midterm.normalize(PAYLOAD, "t"))
-    value = midterm.load()
-    assert value["revision"] == "live" and value["offices"]["us-house"]
+def test_unusable_snapshot_file_never_triggers_upstream(monkeypatch, tmp_path):
+    from backend.app import live_results
+    monkeypatch.setattr(live_results, 'read', lambda *_args: (_ for _ in ()).throw(ValueError('No scheduled snapshot')))
+    monkeypatch.setattr(midterm, 'fetch', lambda: pytest.fail('request performed upstream fetch'))
+    with pytest.raises(ValueError, match='scheduled snapshot'):
+        midterm.load()
 
 
 def test_live_and_stale_responses_are_not_cacheable_for_two_hours(monkeypatch):
@@ -341,7 +339,7 @@ def test_live_and_stale_responses_are_not_cacheable_for_two_hours(monkeypatch):
     assert "x-cache-policy" not in response.headers
     fresh = {**live, "revision": "abc123"}
     monkeypatch.setattr(midterm, "cache", midterm.Cache(lambda: fresh, stamp=lambda: None))
-    assert "max-age=7200" in TestClient(app).get("/api/midterm-2026").headers["cache-control"]
+    assert "max-age=60" in TestClient(app).get("/api/midterm-2026").headers["cache-control"]
 
 
 def test_geography_endpoint_distinguishes_unknown_chamber_from_a_bad_boundary_file(monkeypatch):

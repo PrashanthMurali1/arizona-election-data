@@ -3,6 +3,24 @@ from sqlalchemy.orm import Mapped, mapped_column
 from .database import Base
 
 
+class LiveRaceSnapshot(Base):
+    __tablename__ = "live_race_snapshots"
+    __table_args__ = (UniqueConstraint("election_date", "race_id"),)
+    id: Mapped[str] = mapped_column(primary_key=True)
+    election_date: Mapped[str] = mapped_column(index=True)
+    race_id: Mapped[int]
+    office: Mapped[str] = mapped_column(index=True)
+    payload: Mapped[dict] = mapped_column(JSON)
+    revision: Mapped[str]
+    retrieved_at: Mapped[str]
+    source_url: Mapped[str]
+    raw_sha256: Mapped[str | None]
+    completed: Mapped[bool]
+    certified: Mapped[bool] = mapped_column(default=False)
+    attempted_at: Mapped[str]
+    refresh_error: Mapped[str | None]
+
+
 class Office(Base):
     __tablename__ = "offices"
     id: Mapped[str] = mapped_column(primary_key=True)

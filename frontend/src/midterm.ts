@@ -4,6 +4,7 @@ import type {
   MidtermCandidate,
   MidtermCounty,
   MidtermRace,
+  MidtermResults,
   Results,
 } from "./types";
 
@@ -21,6 +22,30 @@ export const districtOffices: readonly string[] = [
   "state-senate",
   "state-house",
 ];
+
+// Match the server's overdue windows, including when the browser is offline.
+export function midtermIsStale(
+  data: MidtermResults,
+  now = Date.now(),
+): boolean {
+  if (data.stale || data.refresh_error) return true;
+  const races = Object.values(data.offices).flat();
+  const overdue = (retrieved: string, completed = false) => {
+    const age = now - Date.parse(retrieved);
+    return !Number.isFinite(age) || age > (completed ? 6 * 60 : 15) * 60_000;
+  };
+  return races.length
+    ? races.some(
+        (race) =>
+          race.status !== "certified" &&
+          (Boolean(race.refresh_error) ||
+            overdue(
+              race.retrieved_at || data.retrieved_at,
+              race.percent_reporting === 100,
+            )),
+      )
+    : overdue(data.retrieved_at);
+}
 
 const codes: Record<string, string> = {
   Democratic: "DEM",

@@ -23,6 +23,7 @@ import {
   withDistrictIds,
 } from "../midterm";
 import { useMidterm } from "../useMidterm";
+import { initialMidtermOffice, rememberMidtermOffice } from "../midtermCache";
 
 function Explorer({
   heading,
@@ -230,11 +231,13 @@ function DistrictOffice({
 }
 
 export default function MidtermResults() {
-  const { data, error, refreshError } = useMidterm();
-  const [office, setOffice] = useState<string>("governor");
-  if (error && !data) return <ErrorState message={error} />;
-  if (!data) return <Loading />;
-  const races = data.offices[office] ?? [];
+  const [office, updateOffice] = useState(initialMidtermOffice);
+  const setOffice = (value: string) => {
+    rememberMidtermOffice(value);
+    updateOffice(value);
+  };
+  const { data, error, refreshError } = useMidterm(office);
+  const races = data?.offices[office] ?? [];
   const label = midtermOffices.find(([id]) => id === office)![1];
   return (
     <div className="catalog-layout">
@@ -277,26 +280,38 @@ export default function MidtermResults() {
             · November 3, 2026
           </span>
         </div>
-        <p className="muted midterm-source" role="status">
-          Unofficial results · Source: <a href={data.source_url}>civicAPI</a> ·
-          Retrieved {reportTime(data.retrieved_at)}
-        </p>
-        {(data.stale || refreshError) && (
-          <div className="warn notice" role="alert">
-            <div>
-              <strong>Showing the last results we loaded.</strong>
-              <p>
-                The latest refresh failed, so these figures may be out of date.
-              </p>
-            </div>
-          </div>
-        )}
-        {races.length === 0 ? (
-          <p className="empty">No races available for this office yet.</p>
-        ) : districtOffices.includes(office) ? (
-          <DistrictOffice key={office} office={office} races={races} />
+        {!data ? (
+          error ? (
+            <ErrorState message={error} />
+          ) : (
+            <Loading />
+          )
         ) : (
-          <StatewideOffice key={races[0].id} race={races[0]} />
+          <>
+            <p className="muted midterm-source" role="status">
+              Unofficial results · Source:{" "}
+              <a href={data.source_url}>civicAPI</a> · Retrieved{" "}
+              {reportTime(data.retrieved_at)}
+            </p>
+            {(data.stale || refreshError) && (
+              <div className="warn notice" role="alert">
+                <div>
+                  <strong>Showing the last results we loaded.</strong>
+                  <p>
+                    The latest results could not be confirmed, so these figures
+                    may be out of date.
+                  </p>
+                </div>
+              </div>
+            )}
+            {races.length === 0 ? (
+              <p className="empty">No races available for this office yet.</p>
+            ) : districtOffices.includes(office) ? (
+              <DistrictOffice key={office} office={office} races={races} />
+            ) : (
+              <StatewideOffice key={office} race={races[0]} />
+            )}
+          </>
         )}
       </section>
     </div>
