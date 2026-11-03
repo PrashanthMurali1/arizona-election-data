@@ -365,12 +365,14 @@ def test_retained_pdf_endpoint_checks_digest_and_rejects_unknown_id(tmp_path, mo
     import json
     path.write_text(json.dumps(doc))
     monkeypatch.setattr(archive,'ROOT',tmp_path)
-    monkeypatch.setattr(archive,'document_paths',lambda:[path])
-    assert historical_source('historical-canvass-1933').path == pdf
+    monkeypatch.setattr(archive,'document_paths',lambda root:[path])
+    engine=create_engine('sqlite://');session=sessionmaker(engine)()
+    assert historical_source('historical-canvass-1933',session).path == pdf
     pdf.write_bytes(b'changed')
     with pytest.raises(HTTPException) as changed:
-        historical_source('historical-canvass-1933')
+        historical_source('historical-canvass-1933',session)
     assert changed.value.status_code == 409
     with pytest.raises(HTTPException) as missing:
-        historical_source('unknown')
+        historical_source('unknown',session)
     assert missing.value.status_code == 404
+    session.close();engine.dispose()

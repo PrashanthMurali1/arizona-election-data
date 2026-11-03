@@ -20,7 +20,9 @@ def context(s, id):
         raise HTTPException(404, 'Presidential election not found')
     year = int(id.split('-')[1])
     from scripts.historical_canvasses import contest_id
-    path = ROOT / f'data/raw/early-canvasses/{year}.json'
+    from scripts.historical_assets import runtime_root
+    root = runtime_root(s, ROOT)
+    path = root / f'data/raw/early-canvasses/{year}.json'
     if not path.is_file():
         raise HTTPException(404, 'Presidential source not found')
     doc = json.loads(path.read_text(encoding='utf-8'))
@@ -30,7 +32,7 @@ def context(s, id):
     contest = s.get(Contest, contest_id(year, raw))
     if contest is None:
         raise HTTPException(404, 'Presidential election has not been imported')
-    mapping = json.loads((ROOT/'data/raw/early-canvasses/presidential-tickets.json').read_text(encoding='utf-8'))[str(year)]
+    mapping = json.loads((root/'data/raw/early-canvasses/presidential-tickets.json').read_text(encoding='utf-8'))[str(year)]
     selected = []
     for party, ticket in mapping.items():
         rows = [(i, c) for i, c in enumerate(raw['candidates']) if c['party'] == party and not c['write_in']]

@@ -80,6 +80,22 @@ def test_shared_senate_canvass_imports_house_too():
     assert d.data_offices(['data/raw/us-senate/2024-indexed-canvass.txt'])==['us-house','us-senate']
 
 
+def test_senate_transcription_and_provenance_are_not_house_inputs():
+    assert d.data_offices(['data/raw/us-senate/1986-provenance.json',
+        'data/raw/us-senate/1986-transcription.csv',
+        'data/processed/us-senate/az-1986-us-senate.json'])==['us-senate']
+
+
+def test_historical_archive_uses_one_dedicated_import_scope():
+    paths=['data/raw/early-canvasses/1911.json',
+           'data/raw/early-canvasses/presidential-tickets.json',
+           'data/raw/early-canvasses/pdfs/1911-1960 compilation.pdf',
+           'data/raw/historical-canvasses/1966.json',
+           'data/processed/historical-canvasses/1911.json']
+    assert d.data_offices(paths)==['historical']
+    assert d.data_offices(paths+['data/processed/1994.json'])==['governor','historical']
+
+
 def test_fingerprint_ignores_only_declared_generated_reports():
     entries={'data/processed/1994.json':'one'}
     assert d.data_fingerprint(entries)==d.data_fingerprint({**entries,'data/data-release.json':'version','data/processed/reconciliation.json':'report'})

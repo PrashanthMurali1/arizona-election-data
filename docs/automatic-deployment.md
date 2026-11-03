@@ -118,9 +118,26 @@ The original deployment lock and Relay resource lock serialize scheduled jobs.
 No initialize/migrate dependency is implicitly launched.
 
 Mappings cover Governor, Attorney General, Senate and House, including shared
-statewide canvasses. Unknown data paths, geography/2026 inputs, and data combined
+statewide canvasses. Senate-specific transcription/provenance files select only
+the Senate importer; shared canvass changes still select House as well.
+The `historical` scope covers the retained early/historical canvass directories
+and their normalized archive, using `scripts/historical_canvasses.py` directly.
+It imports all archived federal, executive and legislative offices without
+running the unrelated modern House snapshot bootstrap.
+Unknown data paths, geography/2026 inputs, and data combined
 with schema/model/database/runtime dependency changes fail before import. These
 require a separately reviewed release procedure; they are never silently skipped.
+
+Historical releases also retain a verified immutable copy of their source JSON,
+presidential-ticket metadata and PDFs under the state volume's
+`historical-data/releases/<fingerprint>/`. This bundle is staged before the
+release ledger advances. The API selects the latest committed historical
+bundle, including after later non-historical releases; it does not depend on
+the temporary import mount or the maintainer's preview database. A missing
+applied bundle is an error rather than a fallback to stale files. Disposable
+candidate checks reconstruct that bundle beside their copied database.
+Database-only exports must retain the matching historical bundle too; the
+existing raw-source export alone does not contain these versioned assets.
 
 Imports can commit before a later office/report fails. Such failures retain the
 pending fingerprint and backup, leave the version unadvanced, and stop before

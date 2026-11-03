@@ -19,6 +19,14 @@ def test_data_release_runner_is_available():
     assert (ROOT / 'production/apply_data_release.py').is_file()
 
 
+def test_historical_scope_does_not_run_modern_house_bootstrap(monkeypatch):
+    module=importlib.import_module('production.apply_data_release')
+    commands=[]
+    monkeypatch.setattr(module.subprocess,'run',lambda command,**kwargs:commands.append(command))
+    module.run_import('historical')
+    assert commands==[[sys.executable,str(ROOT/'scripts/historical_canvasses.py')]]
+
+
 @pytest.fixture
 def runner(tmp_path, monkeypatch):
     module = importlib.import_module('production.apply_data_release')
@@ -72,6 +80,29 @@ def test_import_is_backed_up_and_ledger_commits_with_version(runner):
     assert state['release']['commit'] == COMMIT
     assert state['release']['fingerprint'] == FINGERPRINT
     assert state['release']['offices'] == ['governor', 'us-senate']
+
+
+def test_historical_assets_are_ready_before_release_is_visible(runner,monkeypatch):
+    module,db,events=runner
+    from scripts import historical_assets
+    def stage(data_root,database,fingerprint):
+        assert database==db and fingerprint==FINGERPRINT
+        assert module.read_release_state()['version']==0
+        assert module.read_release_state()['pending'] is not None
+        events.append('assets')
+    monkeypatch.setattr(historical_assets,'stage_assets',stage)
+    apply(module,offices=['historical'])
+    assert events==['lock','backup','historical','assets','unlock']
+    assert module.read_release_state()['version']==1
+
+
+def test_failed_asset_copy_keeps_release_pending(runner,monkeypatch):
+    module,db,events=runner
+    from scripts import historical_assets
+    monkeypatch.setattr(historical_assets,'stage_assets',lambda *a:(_ for _ in ()).throw(OSError('copy failed')))
+    with pytest.raises(module.ReleaseError):apply(module,offices=['historical'])
+    assert module.read_release_state()['version']==0
+    assert module.read_release_state()['pending']['fingerprint']==FINGERPRINT
 
 
 def test_failed_import_retains_anchor_and_refuses_different_content(runner, monkeypatch):

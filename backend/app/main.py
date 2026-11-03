@@ -128,20 +128,22 @@ def historical_election(id: str, s: DB):
 
 
 @app.get('/api/historical-sources/{id}', include_in_schema=False)
-def historical_source(id: str):
+def historical_source(id: str, s: DB):
     import json
     import hashlib
     from scripts.historical_canvasses import document_paths, document_sources, document_source_id, ROOT
+    from scripts.historical_assets import runtime_root
+    root = runtime_root(s, ROOT)
 
-    for path in document_paths():
+    for path in document_paths(root):
         document = json.loads(path.read_text(encoding='utf-8'))
         if 'contests' not in document:
             continue
         for source_path, info in document_sources(document).items():
             if document_source_id(document, source_path) != id:
                 continue
-            pdf = (ROOT / source_path).resolve()
-            if not pdf.is_relative_to(ROOT / 'data/raw') or not pdf.is_file():
+            pdf = (root / source_path).resolve()
+            if not pdf.is_relative_to(root / 'data/raw') or not pdf.is_file():
                 raise HTTPException(404, 'Retained historical source not found')
             if hashlib.sha256(pdf.read_bytes()).hexdigest() != info['sha256']:
                 raise HTTPException(409, 'Retained source checksum mismatch')

@@ -18,7 +18,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 from production import manage_db
 
-OFFICES = {'governor', 'attorney-general', 'us-senate', 'us-house'}
+OFFICES = {'governor', 'attorney-general', 'us-senate', 'us-house', 'historical'}
 
 # This stdlib-only program can also run in the current backend before the helper
 # has been deployed. Reading an existing database never creates ledger tables.
@@ -84,7 +84,10 @@ def run_import(office):
     try:
         # No raw importer text, traceback, arbitrary source metadata, or paths
         # reach logs or an unbounded in-memory capture buffer.
-        subprocess.run([sys.executable, str(ROOT / 'scripts/import_data.py'), '--office', office],
+        command = ([sys.executable, str(ROOT / 'scripts/historical_canvasses.py')]
+                   if office == 'historical' else
+                   [sys.executable, str(ROOT / 'scripts/import_data.py'), '--office', office])
+        subprocess.run(command,
                        cwd=ROOT, stdout=subprocess.DEVNULL, stderr=subprocess.STDOUT,
                        check=True, timeout=900)
     except Exception:
@@ -164,6 +167,11 @@ def apply_release(version, commit, fingerprint, summary, offices):
             # failed later office must never let another release reuse its version.
             for office in offices:
                 run_import(office)
+            if 'historical' in offices:
+                # Keep the PDFs, presidential tickets and source JSON on the
+                # persistent state volume. The temporary import mount is removed.
+                from scripts.historical_assets import stage_assets
+                stage_assets(ROOT / 'data', manage_db.DB, fingerprint)
             with closing(sqlite3.connect(manage_db.DB, timeout=30)) as connection:
                 with connection:
                     connection.execute('BEGIN IMMEDIATE')
