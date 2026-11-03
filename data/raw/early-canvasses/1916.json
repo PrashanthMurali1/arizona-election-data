@@ -1,0 +1,440 @@
+{
+  "year": 1916,
+  "date": "1916-11-07",
+  "kind": "general",
+  "source_path": "data/raw/early-canvasses/pdfs/1916.pdf",
+  "source_sha256": "6709ba4bd0ce16cd940fb01e6729525eb0692b42a83fffebab02a8235ef9fb7f",
+  "absent_offices": [
+    "state-house",
+    "state-senate"
+  ],
+  "contests": [
+    {
+      "office_id": "president",
+      "district": "at-large",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "[Illegible presidential elector, printed row 1]",
+          "party": "UNK",
+          "write_in": false,
+          "votes": null
+        },
+        {
+          "name": "[Illegible presidential elector, printed row 2]",
+          "party": "UNK",
+          "write_in": false,
+          "votes": null
+        },
+        {
+          "name": "[Illegible presidential elector, printed row 3]",
+          "party": "UNK",
+          "write_in": false,
+          "votes": null
+        },
+        {
+          "name": "[Illegible presidential elector, printed row 4]",
+          "party": "UNK",
+          "write_in": false,
+          "votes": null
+        },
+        {
+          "name": "[Illegible presidential elector, printed row 5]",
+          "party": "UNK",
+          "write_in": false,
+          "votes": null
+        },
+        {
+          "name": "[Illegible presidential elector, printed row 6]",
+          "party": "UNK",
+          "write_in": false,
+          "votes": null
+        },
+        {
+          "name": "[Illegible presidential elector, printed row 7]",
+          "party": "UNK",
+          "write_in": false,
+          "votes": null
+        },
+        {
+          "name": "[Illegible presidential elector, printed row 8]",
+          "party": "UNK",
+          "write_in": false,
+          "votes": null
+        },
+        {
+          "name": "[Illegible presidential elector, printed row 9]",
+          "party": "UNK",
+          "write_in": false,
+          "votes": null
+        },
+        {
+          "name": "[Illegible presidential elector, printed row 10]",
+          "party": "UNK",
+          "write_in": false,
+          "votes": null
+        },
+        {
+          "name": "[Illegible presidential elector, printed row 11]",
+          "party": "UNK",
+          "write_in": false,
+          "votes": null
+        },
+        {
+          "name": "[Illegible presidential elector, printed row 12]",
+          "party": "UNK",
+          "write_in": false,
+          "votes": null
+        }
+      ],
+      "notes": "The upper-left name/party section of the original source page is washed out completely. Twelve individual elector rows remain visible, with separately printed county cells and totals on the right; no ticket/slate sums are inferred. Placeholder labels identify physical source rows only and are not candidate identities.",
+      "multi_seat": true
+    },
+    {
+      "office_id": "us-senate",
+      "district": null,
+      "page": 2,
+      "candidates": [
+        {
+          "name": "Henry F. Ashurst",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 29873
+        },
+        {
+          "name": "Joseph H. Kibbey",
+          "party": "REP",
+          "write_in": false,
+          "votes": 21261
+        },
+        {
+          "name": "W. S. Bradford",
+          "party": "Soc",
+          "write_in": false,
+          "votes": 2827
+        }
+      ],
+      "notes": "Typed retranscription of the original source table on PDF p1. The supplied pages do not include legislative candidate returns."
+    },
+    {
+      "office_id": "us-house",
+      "district": "at-large",
+      "page": 2,
+      "candidates": [
+        {
+          "name": "Carl Hayden",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 34577
+        },
+        {
+          "name": "Henry L. Eads",
+          "party": "REP",
+          "write_in": false,
+          "votes": 14907
+        },
+        {
+          "name": "J. R. Barnette",
+          "party": "Soc",
+          "write_in": false,
+          "votes": 3080
+        }
+      ],
+      "notes": "Typed retranscription of original PDF p1."
+    },
+    {
+      "office_id": "governor",
+      "district": null,
+      "page": 2,
+      "candidates": [
+        {
+          "name": "Geo. W. P. Hunt",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 27946
+        },
+        {
+          "name": "Thos. E. Campbell",
+          "party": "REP",
+          "write_in": false,
+          "votes": 27976
+        },
+        {
+          "name": "Peter T. Robertson",
+          "party": "Soc",
+          "write_in": false,
+          "votes": 1875
+        },
+        {
+          "name": "R. E. Dunlap",
+          "party": "Proh",
+          "write_in": false,
+          "votes": 596
+        }
+      ],
+      "notes": "Printed source totals retained as stated; no elected-candidate determination is supplied here."
+    },
+    {
+      "office_id": "secretary-of-state",
+      "district": null,
+      "page": 2,
+      "candidates": [
+        {
+          "name": "Sidney P. Osborn",
+          "party": "DEM",
+          "write_in": false,
+          "votes": null
+        },
+        {
+          "name": "Joe V. Prochaska",
+          "party": "REP",
+          "write_in": false,
+          "votes": 18152
+        },
+        {
+          "name": "Alice S. Eddy",
+          "party": "Soc",
+          "write_in": false,
+          "votes": 3073
+        }
+      ],
+      "notes": "Sidney P. Osborn total is degraded: visible pattern 3?,075. No digit inferred."
+    },
+    {
+      "office_id": "attorney-general",
+      "district": null,
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Wiley E. Jones",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 28218,
+          "county_votes": {
+            "04001": 463,
+            "04003": 5076,
+            "04005": 1068,
+            "04007": 3084,
+            "04009": 1080,
+            "04011": 1543,
+            "04013": 6412,
+            "04015": 1247,
+            "04017": 957,
+            "04019": 2146,
+            "04021": 1200,
+            "04023": 718,
+            "04025": 2822,
+            "04027": 1175
+          }
+        },
+        {
+          "name": "Frederick C. Struckmeyer",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 21297,
+          "county_votes": {
+            "04001": 432,
+            "04003": 3841,
+            "04005": 842,
+            "04007": 1416,
+            "04009": 960,
+            "04011": 657,
+            "04013": 6398,
+            "04015": 576,
+            "04017": 687,
+            "04019": 2177,
+            "04021": 721,
+            "04023": 662,
+            "04025": 1715,
+            "04027": 713
+          }
+        },
+        {
+          "name": "William S. Crowe",
+          "party": "Soc",
+          "write_in": false,
+          "votes": 3224,
+          "county_votes": {
+            "04001": 17,
+            "04003": 608,
+            "04005": 63,
+            "04007": 682,
+            "04009": 152,
+            "04011": 112,
+            "04013": 548,
+            "04015": 290,
+            "04017": 35,
+            "04019": 171,
+            "04021": 58,
+            "04023": 55,
+            "04025": 313,
+            "04027": 159
+          }
+        }
+      ],
+      "notes": "The supplied typed source explicitly marks both Jones and Struckmeyer (D). This source party marker is retained rather than silently corrected. Legislative returns are absent from supplied pages."
+    }
+  ],
+  "unresolved": [
+    {
+      "office_id": "president",
+      "page": 1,
+      "candidate": "[Illegible presidential elector, printed row 1]",
+      "fields": [
+        "name",
+        "party",
+        "votes"
+      ],
+      "reason": "Elector names/parties erased in source; total glyphs insufficiently legible to associate reliably."
+    },
+    {
+      "office_id": "president",
+      "page": 1,
+      "candidate": "[Illegible presidential elector, printed row 2]",
+      "fields": [
+        "name",
+        "party",
+        "votes"
+      ],
+      "reason": "Elector names/parties erased in source; total glyphs insufficiently legible to associate reliably."
+    },
+    {
+      "office_id": "president",
+      "page": 1,
+      "candidate": "[Illegible presidential elector, printed row 3]",
+      "fields": [
+        "name",
+        "party",
+        "votes"
+      ],
+      "reason": "Elector names/parties erased in source; total glyphs insufficiently legible to associate reliably."
+    },
+    {
+      "office_id": "president",
+      "page": 1,
+      "candidate": "[Illegible presidential elector, printed row 4]",
+      "fields": [
+        "name",
+        "party",
+        "votes"
+      ],
+      "reason": "Elector names/parties erased in source; total glyphs insufficiently legible to associate reliably."
+    },
+    {
+      "office_id": "president",
+      "page": 1,
+      "candidate": "[Illegible presidential elector, printed row 5]",
+      "fields": [
+        "name",
+        "party",
+        "votes"
+      ],
+      "reason": "Elector names/parties erased in source; total glyphs insufficiently legible to associate reliably."
+    },
+    {
+      "office_id": "president",
+      "page": 1,
+      "candidate": "[Illegible presidential elector, printed row 6]",
+      "fields": [
+        "name",
+        "party",
+        "votes"
+      ],
+      "reason": "Elector names/parties erased in source; total glyphs insufficiently legible to associate reliably."
+    },
+    {
+      "office_id": "president",
+      "page": 1,
+      "candidate": "[Illegible presidential elector, printed row 7]",
+      "fields": [
+        "name",
+        "party",
+        "votes"
+      ],
+      "reason": "Elector names/parties erased in source; total glyphs insufficiently legible to associate reliably."
+    },
+    {
+      "office_id": "president",
+      "page": 1,
+      "candidate": "[Illegible presidential elector, printed row 8]",
+      "fields": [
+        "name",
+        "party",
+        "votes"
+      ],
+      "reason": "Elector names/parties erased in source; total glyphs insufficiently legible to associate reliably."
+    },
+    {
+      "office_id": "president",
+      "page": 1,
+      "candidate": "[Illegible presidential elector, printed row 9]",
+      "fields": [
+        "name",
+        "party",
+        "votes"
+      ],
+      "reason": "Elector names/parties erased in source; total glyphs insufficiently legible to associate reliably."
+    },
+    {
+      "office_id": "president",
+      "page": 1,
+      "candidate": "[Illegible presidential elector, printed row 10]",
+      "fields": [
+        "name",
+        "party",
+        "votes"
+      ],
+      "reason": "Elector names/parties erased in source; total glyphs insufficiently legible to associate reliably."
+    },
+    {
+      "office_id": "president",
+      "page": 1,
+      "candidate": "[Illegible presidential elector, printed row 11]",
+      "fields": [
+        "name",
+        "party",
+        "votes"
+      ],
+      "reason": "Elector names/parties erased in source; total glyphs insufficiently legible to associate reliably."
+    },
+    {
+      "office_id": "president",
+      "page": 1,
+      "candidate": "[Illegible presidential elector, printed row 12]",
+      "fields": [
+        "name",
+        "party",
+        "votes"
+      ],
+      "reason": "Elector names/parties erased in source; total glyphs insufficiently legible to associate reliably."
+    },
+    {
+      "office_id": "secretary-of-state",
+      "candidate": "Sidney P. Osborn",
+      "page": 2,
+      "field": "votes",
+      "reason": "Degraded printed total, visible pattern 3?,075."
+    },
+    {
+      "office_id": "attorney-general",
+      "candidate": "Wiley E. Jones",
+      "page": 3,
+      "field": "county_reconciliation",
+      "reason": "Transcribed visible county cells sum 28991; printed total is 28218. Source is degraded; figures need further source review, no adjustment inferred."
+    },
+    {
+      "office_id": "attorney-general",
+      "candidate": "Frederick C. Struckmeyer",
+      "page": 3,
+      "field": "county_reconciliation",
+      "reason": "Transcribed visible county cells sum 21797; printed total is 21297. Source is degraded; figures need further source review, no adjustment inferred."
+    },
+    {
+      "office_id": "attorney-general",
+      "candidate": "William S. Crowe",
+      "page": 3,
+      "field": "county_reconciliation",
+      "reason": "Transcribed visible county cells sum 3263; printed total is 3224. Source is degraded; figures need further source review, no adjustment inferred."
+    }
+  ]
+}

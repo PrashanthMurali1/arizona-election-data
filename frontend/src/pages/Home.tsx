@@ -12,7 +12,7 @@ const catalogTabs = [
   {
     id: "federal",
     label: "Federal Elections",
-    offices: ["us-senate", "us-house"],
+    offices: ["us-senate", "us-house", "president"],
   },
   {
     id: "state",
@@ -200,6 +200,7 @@ export default function Home() {
                               ? [
                                   ["us-senate", "U.S. Senate"],
                                   ["us-house", "U.S. House"],
+                                  ["president", "Presidential elections"],
                                 ]
                               : [
                                   ["governor", "Governor"],
@@ -254,6 +255,7 @@ export default function Home() {
                                 ? [
                                     ["us-senate", "U.S. Senate"],
                                     ["us-house", "U.S. House"],
+                                    ["president", "Presidential elections"],
                                   ]
                                 : [
                                     ["governor", "Governor"],

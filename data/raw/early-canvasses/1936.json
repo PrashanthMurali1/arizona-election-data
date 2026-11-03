@@ -1,0 +1,329 @@
+{
+  "year": 1936,
+  "date": "1936-11-03",
+  "kind": "general",
+  "source_path": "data/raw/early-canvasses/pdfs/1936.pdf",
+  "source_sha256": "f68d5ab063e553f53963b8c3d0e2938f55a322d176e69e5f0b1fb798526e0a5a",
+  "absent_offices": [
+    "us-senate",
+    "state-house",
+    "state-senate"
+  ],
+  "contests": [
+    {
+      "office_id": "president",
+      "district": "at-large",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "J. J. (Jack) O'Dowd",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 86722
+        },
+        {
+          "name": "J. G. Peterson",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 86722
+        },
+        {
+          "name": "Mrs. W. H. Reeves",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 86722
+        },
+        {
+          "name": "Jack C. Kinney",
+          "party": "REP",
+          "write_in": false,
+          "votes": 33433
+        },
+        {
+          "name": "E. J. Nordyke",
+          "party": "REP",
+          "write_in": false,
+          "votes": 33433
+        },
+        {
+          "name": "J. C. Reed",
+          "party": "REP",
+          "write_in": false,
+          "votes": 33433
+        },
+        {
+          "name": "Alzina P. Boone",
+          "party": "Prohibition",
+          "write_in": false,
+          "votes": 384
+        },
+        {
+          "name": "John W. Forney",
+          "party": "Prohibition",
+          "write_in": false,
+          "votes": 384
+        },
+        {
+          "name": "O. R. Weed",
+          "party": "Prohibition",
+          "write_in": false,
+          "votes": 384
+        },
+        {
+          "name": "Anna Chase",
+          "party": "Socialist",
+          "write_in": false,
+          "votes": 317
+        },
+        {
+          "name": "Eli Link",
+          "party": "Socialist",
+          "write_in": false,
+          "votes": 317
+        },
+        {
+          "name": "Alva Shewey",
+          "party": "Socialist",
+          "write_in": false,
+          "votes": 317
+        },
+        {
+          "name": "Leona W. Moore",
+          "party": "Union",
+          "write_in": false,
+          "votes": 3307
+        },
+        {
+          "name": "C. B. Spooner",
+          "party": "Union",
+          "write_in": false,
+          "votes": 3307
+        },
+        {
+          "name": "W. J. Wherry",
+          "party": "Union",
+          "write_in": false,
+          "votes": 3307
+        }
+      ],
+      "notes": "Each elector has a separately printed total, preserved as individual rows. Totals are not summed into presidential ticket votes. Source ticket labels: Democratic?Roosevelt; Republican?Landon; Prohibition?Colvin; Socialist?Thomas; Union?Lemke."
+    },
+    {
+      "office_id": "us-house",
+      "district": "at-large",
+      "page": 2,
+      "candidates": [
+        {
+          "name": "John R. Murdock",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 84343
+        },
+        {
+          "name": "George L. Burgess",
+          "party": "REP",
+          "write_in": false,
+          "votes": 20383
+        },
+        {
+          "name": "A. B. Potter",
+          "party": "Socialist",
+          "write_in": false,
+          "votes": 295
+        },
+        {
+          "name": "E. C. Whitesitt",
+          "party": "Union",
+          "write_in": false,
+          "votes": 3729
+        }
+      ]
+    },
+    {
+      "office_id": "governor",
+      "district": null,
+      "page": 2,
+      "candidates": [
+        {
+          "name": "R. C. Stanford",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 87678,
+          "county_votes": {
+            "04001": 1661,
+            "04003": 7783,
+            "04005": 2446,
+            "04007": 5254,
+            "04009": 3440,
+            "04011": 1560,
+            "04013": 34098,
+            "04015": 1955,
+            "04017": 2852,
+            "04019": 11502,
+            "04021": 3552,
+            "04023": 1698,
+            "04025": 6648,
+            "04027": 3229
+          }
+        },
+        {
+          "name": "Thomas E. Campbell",
+          "party": "REP",
+          "write_in": false,
+          "votes": 36114,
+          "county_votes": {
+            "04001": 691,
+            "04003": 2566,
+            "04005": 1346,
+            "04007": 1390,
+            "04009": 988,
+            "04011": 208,
+            "04013": 13303,
+            "04015": 506,
+            "04017": 1297,
+            "04019": 7075,
+            "04021": 1305,
+            "04023": 851,
+            "04025": 3290,
+            "04027": 1298
+          }
+        },
+        {
+          "name": "Paul J. Lindaman",
+          "party": "Socialist",
+          "write_in": false,
+          "votes": 260,
+          "county_votes": {
+            "04001": 3,
+            "04003": 58,
+            "04005": 7,
+            "04007": 9,
+            "04009": 2,
+            "04011": null,
+            "04013": 69,
+            "04015": 13,
+            "04017": 15,
+            "04019": 36,
+            "04021": 3,
+            "04023": 3,
+            "04025": 28,
+            "04027": 14
+          }
+        }
+      ]
+    },
+    {
+      "office_id": "secretary-of-state",
+      "district": null,
+      "page": 2,
+      "candidates": [
+        {
+          "name": "James H. Kerby",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 80439,
+          "county_votes": {
+            "04001": 1449,
+            "04003": 7726,
+            "04005": 2098,
+            "04007": 4972,
+            "04009": 2883,
+            "04011": 1543,
+            "04013": 31233,
+            "04015": 1866,
+            "04017": 2068,
+            "04019": 10290,
+            "04021": 3396,
+            "04023": 1609,
+            "04025": 5998,
+            "04027": 3308
+          }
+        },
+        {
+          "name": "Charles J. McQuillan",
+          "party": "REP",
+          "write_in": false,
+          "votes": 34864,
+          "county_votes": {
+            "04001": 706,
+            "04003": 2088,
+            "04005": 1262,
+            "04007": 1261,
+            "04009": 1147,
+            "04011": 183,
+            "04013": 12954,
+            "04015": 434,
+            "04017": 1805,
+            "04019": 7284,
+            "04021": 1124,
+            "04023": 749,
+            "04025": 2999,
+            "04027": 868
+          }
+        }
+      ]
+    },
+    {
+      "office_id": "attorney-general",
+      "district": null,
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Joe Conway",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 84865,
+          "county_votes": {
+            "04001": 1632,
+            "04003": 8180,
+            "04005": 2407,
+            "04007": 5272,
+            "04009": 2999,
+            "04011": 1551,
+            "04013": 31474,
+            "04015": 1840,
+            "04017": 2811,
+            "04019": 11372,
+            "04021": 3694,
+            "04023": 1775,
+            "04025": 6463,
+            "04027": 3391
+          }
+        },
+        {
+          "name": "Henry H. Miller",
+          "party": "REP",
+          "write_in": false,
+          "votes": 31352,
+          "county_votes": {
+            "04001": 522,
+            "04003": 1650,
+            "04005": 968,
+            "04007": 1009,
+            "04009": 1031,
+            "04011": 151,
+            "04013": 13477,
+            "04015": 422,
+            "04017": 970,
+            "04019": 6238,
+            "04021": 938,
+            "04023": 579,
+            "04025": 2596,
+            "04027": 801
+          }
+        }
+      ],
+      "notes": " Joe Conway: printed candidate total 84,865 differs from printed county entries summing to 84,861; both are retained as printed."
+    }
+  ],
+  "unresolved": [
+    {
+      "office_id": "state-house",
+      "reason": "No state legislative candidate returns appear in retained source."
+    },
+    {
+      "office_id": "state-senate",
+      "reason": "No state legislative candidate returns appear in retained source."
+    }
+  ]
+}

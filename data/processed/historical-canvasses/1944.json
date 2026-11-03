@@ -1,0 +1,3017 @@
+{
+  "year": 1944,
+  "date": "1944-11-07",
+  "kind": "general",
+  "source_sha256": "ab8b005a3139ffa2944f6fdbcb96df28c74f7f7c00bae40f0fb8bbccfe5f4013",
+  "absent_offices": [
+    "state-house",
+    "state-senate"
+  ],
+  "unresolved": [
+    {
+      "office_id": "governor",
+      "page": 7,
+      "field": "candidate_name",
+      "reason": "Paper loss obscures beginning of three write-in names: [damaged] Jones, [damaged] Lee Peters, [damaged] R. Ward. Totals legible and preserved."
+    },
+    {
+      "office_id": "president",
+      "page": 7,
+      "field": "candidate_name",
+      "reason": "One write-in reads O'Brwin; spelling uncertain in scan. Raw printed transcription retained."
+    },
+    {
+      "office_id": "governor",
+      "page": 2,
+      "candidate": "Jerrie W. Lee",
+      "field": "county_votes",
+      "reason": "Pima printed cell appears 314 and is retained; do not repair from total."
+    }
+  ],
+  "contests": [
+    {
+      "office_id": "president",
+      "district": "at-large",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Democratic elector slate",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 80926
+        },
+        {
+          "name": "Republican elector slate",
+          "party": "REP",
+          "write_in": false,
+          "votes": 56287
+        },
+        {
+          "name": "Prohibition elector slate",
+          "party": "P",
+          "write_in": false,
+          "votes": 421
+        },
+        {
+          "name": "Norman Thomas",
+          "party": "NP",
+          "write_in": true,
+          "votes": 5,
+          "source_row_id": "reported-entry-4"
+        },
+        {
+          "name": "Binderup",
+          "party": "NP",
+          "write_in": true,
+          "votes": 1
+        },
+        {
+          "name": "Thomas",
+          "party": "NP",
+          "write_in": true,
+          "votes": 2
+        },
+        {
+          "name": "Ruth Greenburg",
+          "party": "NP",
+          "write_in": true,
+          "votes": 30,
+          "source_row_id": "reported-entry-7"
+        },
+        {
+          "name": "Millard Craig",
+          "party": "NP",
+          "write_in": true,
+          "votes": 29
+        },
+        {
+          "name": "Elizabeth Pendleton",
+          "party": "NP",
+          "write_in": true,
+          "votes": 29,
+          "source_row_id": "reported-entry-9"
+        },
+        {
+          "name": "Polly Dougherty",
+          "party": "NP",
+          "write_in": true,
+          "votes": 19
+        },
+        {
+          "name": "Earl P. Feichert",
+          "party": "NP",
+          "write_in": true,
+          "votes": 1
+        },
+        {
+          "name": "James Yates",
+          "party": "NP",
+          "write_in": true,
+          "votes": 2
+        },
+        {
+          "name": "Ruth Greenburg",
+          "party": "None",
+          "write_in": true,
+          "votes": 1,
+          "source_row_id": "reported-entry-13"
+        },
+        {
+          "name": "Mildred R. Craig",
+          "party": "None",
+          "write_in": true,
+          "votes": 1
+        },
+        {
+          "name": "Polley E. Dougherty",
+          "party": "None",
+          "write_in": true,
+          "votes": 1,
+          "source_row_id": "reported-entry-15"
+        },
+        {
+          "name": "Polley E. Dougherty",
+          "party": "NP",
+          "write_in": true,
+          "votes": 10,
+          "source_row_id": "reported-entry-16"
+        },
+        {
+          "name": "Elizabeth Pendleton",
+          "party": "None",
+          "write_in": true,
+          "votes": 1,
+          "source_row_id": "reported-entry-17"
+        },
+        {
+          "name": "Ruth Greenburg",
+          "party": "Soc.",
+          "write_in": true,
+          "votes": 2,
+          "source_row_id": "reported-entry-18"
+        },
+        {
+          "name": "Polley Dougherty",
+          "party": "Soc.",
+          "write_in": true,
+          "votes": 2
+        },
+        {
+          "name": "E. R. Pendleton",
+          "party": "Soc.",
+          "write_in": true,
+          "votes": 2
+        },
+        {
+          "name": "Mildred Craig",
+          "party": "Soc.",
+          "write_in": true,
+          "votes": 2
+        },
+        {
+          "name": "Fegtly",
+          "party": "NP",
+          "write_in": true,
+          "votes": 1
+        },
+        {
+          "name": "O'Brwin",
+          "party": "NP",
+          "write_in": true,
+          "votes": 1
+        },
+        {
+          "name": "O'Malley",
+          "party": "NP",
+          "write_in": true,
+          "votes": 1
+        },
+        {
+          "name": "Wilson",
+          "party": "NP",
+          "write_in": true,
+          "votes": 1
+        },
+        {
+          "name": "Roosevelt",
+          "party": "NP",
+          "write_in": true,
+          "votes": 1
+        },
+        {
+          "name": "Norman Thomas",
+          "party": "Soc.",
+          "write_in": true,
+          "votes": 2,
+          "source_row_id": "reported-entry-27"
+        },
+        {
+          "name": "Cordell Hull",
+          "party": "NP",
+          "write_in": true,
+          "votes": 1
+        },
+        {
+          "name": "Dewey",
+          "party": "NP",
+          "write_in": true,
+          "votes": 1
+        }
+      ],
+      "notes": "Grouped printed slate totals. Roosevelt DEM electors: Henry M. Beard, Ed Cahill, Claire N. Webb, E. T. Williams, Jr. Dewey REP electors: Mary A. Feg tly [source reads Fegtly], E. V. O'Malley, Thomas H. O'Brien, C. B. Wilson. Watson P electors: F. H. Chadwick, Mrs. J. A. LeMay, Don M. Headley, Will S. James. Page6 repeats each elector with the same slate figure; no summation. Additional individual write-ins below are transcribed from p7, with raw party distinctions preserved; these are individual elector votes and must not be combined as presidential votes. Same-name entries appearing with different write-in/party labels are retained as distinct reported entries; no identity merge is inferred.",
+      "multi_seat": true,
+      "contest_id": "az-1944-historical-president-district-at-large",
+      "reconciliation": {
+        "status": "reported",
+        "page": 1,
+        "district": "at-large",
+        "candidates": [
+          {
+            "candidate": "Democratic elector slate",
+            "official_total": 80926,
+            "official_statewide": 80926,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Republican elector slate",
+            "official_total": 56287,
+            "official_statewide": 56287,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Prohibition elector slate",
+            "official_total": 421,
+            "official_statewide": 421,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Norman Thomas",
+            "official_total": 5,
+            "official_statewide": 5,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Binderup",
+            "official_total": 1,
+            "official_statewide": 1,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Thomas",
+            "official_total": 2,
+            "official_statewide": 2,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Ruth Greenburg",
+            "official_total": 30,
+            "official_statewide": 30,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Millard Craig",
+            "official_total": 29,
+            "official_statewide": 29,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Elizabeth Pendleton",
+            "official_total": 29,
+            "official_statewide": 29,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Polly Dougherty",
+            "official_total": 19,
+            "official_statewide": 19,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Earl P. Feichert",
+            "official_total": 1,
+            "official_statewide": 1,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "James Yates",
+            "official_total": 2,
+            "official_statewide": 2,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Ruth Greenburg",
+            "official_total": 1,
+            "official_statewide": 1,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Mildred R. Craig",
+            "official_total": 1,
+            "official_statewide": 1,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Polley E. Dougherty",
+            "official_total": 1,
+            "official_statewide": 1,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Polley E. Dougherty",
+            "official_total": 10,
+            "official_statewide": 10,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Elizabeth Pendleton",
+            "official_total": 1,
+            "official_statewide": 1,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Ruth Greenburg",
+            "official_total": 2,
+            "official_statewide": 2,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Polley Dougherty",
+            "official_total": 2,
+            "official_statewide": 2,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "E. R. Pendleton",
+            "official_total": 2,
+            "official_statewide": 2,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Mildred Craig",
+            "official_total": 2,
+            "official_statewide": 2,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Fegtly",
+            "official_total": 1,
+            "official_statewide": 1,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "O'Brwin",
+            "official_total": 1,
+            "official_statewide": 1,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "O'Malley",
+            "official_total": 1,
+            "official_statewide": 1,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Wilson",
+            "official_total": 1,
+            "official_statewide": 1,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Roosevelt",
+            "official_total": 1,
+            "official_statewide": 1,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Norman Thomas",
+            "official_total": 2,
+            "official_statewide": 2,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Cordell Hull",
+            "official_total": 1,
+            "official_statewide": 1,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Dewey",
+            "official_total": 1,
+            "official_statewide": 1,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "presidential-electors",
+        "notes": "Grouped printed slate totals. Roosevelt DEM electors: Henry M. Beard, Ed Cahill, Claire N. Webb, E. T. Williams, Jr. Dewey REP electors: Mary A. Feg tly [source reads Fegtly], E. V. O'Malley, Thomas H. O'Brien, C. B. Wilson. Watson P electors: F. H. Chadwick, Mrs. J. A. LeMay, Don M. Headley, Will S. James. Page6 repeats each elector with the same slate figure; no summation. Additional individual write-ins below are transcribed from p7, with raw party distinctions preserved; these are individual elector votes and must not be combined as presidential votes. Same-name entries appearing with different write-in/party labels are retained as distinct reported entries; no identity merge is inferred."
+      }
+    },
+    {
+      "office_id": "us-senate",
+      "district": null,
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Carl Hayden",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 90335,
+          "county_votes": {
+            "04001": 1328,
+            "04003": 7476,
+            "04005": 2597,
+            "04007": 5001,
+            "04009": 2260,
+            "04011": 2047,
+            "04013": 36812,
+            "04015": 1541,
+            "04017": 3078,
+            "04019": 14629,
+            "04021": 3358,
+            "04023": 1488,
+            "04025": 5012,
+            "04027": 3708
+          },
+          "source_row_id": "reported-entry-1"
+        },
+        {
+          "name": "Fred W. Fickett",
+          "party": "REP",
+          "write_in": false,
+          "votes": 39891,
+          "county_votes": {
+            "04001": 427,
+            "04003": 2218,
+            "04005": 1092,
+            "04007": 1542,
+            "04009": 696,
+            "04011": 446,
+            "04013": 17797,
+            "04015": 593,
+            "04017": 940,
+            "04019": 8628,
+            "04021": 1375,
+            "04023": 463,
+            "04025": 2442,
+            "04027": 1232
+          },
+          "source_row_id": "reported-entry-2"
+        },
+        {
+          "name": "Rev. Yates",
+          "party": "NP",
+          "write_in": true,
+          "votes": 1
+        },
+        {
+          "name": "Thomas N. Jolly",
+          "party": "P",
+          "write_in": true,
+          "votes": 1
+        },
+        {
+          "name": "Mildred Craig",
+          "party": "NP",
+          "write_in": true,
+          "votes": 1
+        },
+        {
+          "name": "Truman",
+          "party": "R",
+          "write_in": true,
+          "votes": 1
+        },
+        {
+          "name": "Thomas",
+          "party": "Soc.",
+          "write_in": true,
+          "votes": 1
+        },
+        {
+          "name": "Rene Jennings",
+          "party": "P",
+          "write_in": true,
+          "votes": 1
+        },
+        {
+          "name": "Carl Hayden",
+          "party": "NP",
+          "write_in": true,
+          "votes": 1,
+          "source_row_id": "reported-entry-9"
+        },
+        {
+          "name": "Carl Hayden",
+          "party": "None",
+          "write_in": true,
+          "votes": 1,
+          "source_row_id": "reported-entry-10"
+        },
+        {
+          "name": "Fred W. Fickett",
+          "party": "NP",
+          "write_in": true,
+          "votes": 1,
+          "source_row_id": "reported-entry-11"
+        }
+      ],
+      "notes": "Republican row continued on p2; miscellaneous write-ins on p7 retained separately. Same-name entries appearing with different write-in/party labels are retained as distinct reported entries; no identity merge is inferred.",
+      "contest_id": "az-1944-us-senate",
+      "reconciliation": {
+        "status": "reported",
+        "page": 1,
+        "district": null,
+        "candidates": [
+          {
+            "candidate": "Carl Hayden",
+            "official_total": 90335,
+            "official_statewide": 90335,
+            "county_sum": 90335,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "Fred W. Fickett",
+            "official_total": 39891,
+            "official_statewide": 39891,
+            "county_sum": 39891,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "Rev. Yates",
+            "official_total": 1,
+            "official_statewide": 1,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Thomas N. Jolly",
+            "official_total": 1,
+            "official_statewide": 1,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Mildred Craig",
+            "official_total": 1,
+            "official_statewide": 1,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Truman",
+            "official_total": 1,
+            "official_statewide": 1,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Thomas",
+            "official_total": 1,
+            "official_statewide": 1,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Rene Jennings",
+            "official_total": 1,
+            "official_statewide": 1,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Carl Hayden",
+            "official_total": 1,
+            "official_statewide": 1,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Carl Hayden",
+            "official_total": 1,
+            "official_statewide": 1,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Fred W. Fickett",
+            "official_total": 1,
+            "official_statewide": 1,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": false,
+        "result_basis": "candidate-votes",
+        "notes": "Republican row continued on p2; miscellaneous write-ins on p7 retained separately. Same-name entries appearing with different write-in/party labels are retained as distinct reported entries; no identity merge is inferred."
+      }
+    },
+    {
+      "office_id": "us-house",
+      "district": "at-large",
+      "page": 2,
+      "candidates": [
+        {
+          "name": "Richard F. (Dick) Harless",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 86691
+        },
+        {
+          "name": "John R. Murdock",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 88532
+        },
+        {
+          "name": "Margaret Adams Rockwell",
+          "party": "REP",
+          "write_in": false,
+          "votes": 39035
+        },
+        {
+          "name": "A. M. Ward",
+          "party": "REP",
+          "write_in": false,
+          "votes": 36352
+        },
+        {
+          "name": "A. Walter Gehres",
+          "party": "P",
+          "write_in": false,
+          "votes": 469
+        },
+        {
+          "name": "Polley E. Dougherty",
+          "party": "NP",
+          "write_in": true,
+          "votes": 1
+        },
+        {
+          "name": "D. Pendleton",
+          "party": "NP",
+          "write_in": true,
+          "votes": 1
+        },
+        {
+          "name": "D. O. Ensley",
+          "party": "None",
+          "write_in": true,
+          "votes": 1
+        },
+        {
+          "name": "Richard Harless",
+          "party": "NP",
+          "write_in": true,
+          "votes": 3
+        },
+        {
+          "name": "John Murdock",
+          "party": "NP",
+          "write_in": true,
+          "votes": 2
+        },
+        {
+          "name": "Margaret A. Rockwell",
+          "party": "NP",
+          "write_in": true,
+          "votes": 1
+        },
+        {
+          "name": "Robert Vivian",
+          "party": "Ind.",
+          "write_in": true,
+          "votes": 1
+        },
+        {
+          "name": "Wol M. Fox",
+          "party": "NP",
+          "write_in": true,
+          "votes": 1
+        },
+        {
+          "name": "Mary Stella Rosenburg",
+          "party": "DEM",
+          "write_in": true,
+          "votes": 1
+        }
+      ],
+      "notes": "Two elected, as printed. Miscellaneous write-ins on p7 below. Same-name entries appearing with different write-in/party labels are retained as distinct reported entries; no identity merge is inferred.",
+      "multi_seat": true,
+      "contest_id": "az-1944-historical-us-house-district-at-large",
+      "reconciliation": {
+        "status": "reported",
+        "page": 2,
+        "district": "at-large",
+        "candidates": [
+          {
+            "candidate": "Richard F. (Dick) Harless",
+            "official_total": 86691,
+            "official_statewide": 86691,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "John R. Murdock",
+            "official_total": 88532,
+            "official_statewide": 88532,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Margaret Adams Rockwell",
+            "official_total": 39035,
+            "official_statewide": 39035,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "A. M. Ward",
+            "official_total": 36352,
+            "official_statewide": 36352,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "A. Walter Gehres",
+            "official_total": 469,
+            "official_statewide": 469,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Polley E. Dougherty",
+            "official_total": 1,
+            "official_statewide": 1,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "D. Pendleton",
+            "official_total": 1,
+            "official_statewide": 1,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "D. O. Ensley",
+            "official_total": 1,
+            "official_statewide": 1,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Richard Harless",
+            "official_total": 3,
+            "official_statewide": 3,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "John Murdock",
+            "official_total": 2,
+            "official_statewide": 2,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Margaret A. Rockwell",
+            "official_total": 1,
+            "official_statewide": 1,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Robert Vivian",
+            "official_total": 1,
+            "official_statewide": 1,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Wol M. Fox",
+            "official_total": 1,
+            "official_statewide": 1,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Mary Stella Rosenburg",
+            "official_total": 1,
+            "official_statewide": 1,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": "Two elected, as printed. Miscellaneous write-ins on p7 below. Same-name entries appearing with different write-in/party labels are retained as distinct reported entries; no identity merge is inferred."
+      }
+    },
+    {
+      "office_id": "governor",
+      "district": null,
+      "page": 2,
+      "candidates": [
+        {
+          "name": "Sidney P. Osborn",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 100220,
+          "county_votes": {
+            "04001": 1505,
+            "04003": 8344,
+            "04005": 2851,
+            "04007": 5555,
+            "04009": 2752,
+            "04011": 2229,
+            "04013": 39406,
+            "04015": 1669,
+            "04017": 3390,
+            "04019": 17245,
+            "04021": 3650,
+            "04023": 1623,
+            "04025": 5820,
+            "04027": 4181
+          }
+        },
+        {
+          "name": "Jerrie W. Lee",
+          "party": "REP",
+          "write_in": false,
+          "votes": 27261,
+          "county_votes": {
+            "04001": 395,
+            "04003": 1657,
+            "04005": 967,
+            "04007": 1315,
+            "04009": 564,
+            "04011": 369,
+            "04013": 16163,
+            "04015": 505,
+            "04017": 784,
+            "04019": 314,
+            "04021": 1172,
+            "04023": 344,
+            "04025": 1819,
+            "04027": 893
+          }
+        },
+        {
+          "name": "Charles R. Osburn",
+          "party": "P",
+          "write_in": false,
+          "votes": 1161,
+          "county_votes": {
+            "04001": 8,
+            "04003": 30,
+            "04005": 30,
+            "04007": 69,
+            "04009": 39,
+            "04011": 22,
+            "04013": 362,
+            "04015": 15,
+            "04017": 16,
+            "04019": 377,
+            "04021": 36,
+            "04023": 4,
+            "04025": 107,
+            "04027": 46
+          }
+        },
+        {
+          "name": "Samuel W. Hamilton",
+          "party": "NP",
+          "write_in": true,
+          "votes": 3,
+          "source_row_id": "reported-entry-4"
+        },
+        {
+          "name": "S. D. Davidson",
+          "party": "REP",
+          "write_in": true,
+          "votes": 1
+        },
+        {
+          "name": "S. I. Blochhart",
+          "party": "NP",
+          "write_in": true,
+          "votes": 5,
+          "source_row_id": "reported-entry-6"
+        },
+        {
+          "name": "Samuel W. Hamilton",
+          "party": "None",
+          "write_in": true,
+          "votes": 1,
+          "source_row_id": "reported-entry-7"
+        },
+        {
+          "name": "E. I. O'Malley",
+          "party": "NP",
+          "write_in": true,
+          "votes": 1
+        },
+        {
+          "name": "James H. Kerby",
+          "party": "None",
+          "write_in": true,
+          "votes": 2
+        },
+        {
+          "name": "Ralph Fowler",
+          "party": "None",
+          "write_in": true,
+          "votes": 1
+        },
+        {
+          "name": "Harry B. Dean",
+          "party": "NP",
+          "write_in": true,
+          "votes": 1
+        },
+        {
+          "name": "Harry Michael",
+          "party": "None",
+          "write_in": true,
+          "votes": 1
+        },
+        {
+          "name": "Michael",
+          "party": "None",
+          "write_in": true,
+          "votes": 1
+        },
+        {
+          "name": "Raynor B. Smith",
+          "party": "None",
+          "write_in": true,
+          "votes": 1
+        },
+        {
+          "name": "S. I. Blochhart",
+          "party": "None",
+          "write_in": true,
+          "votes": 1,
+          "source_row_id": "reported-entry-15"
+        },
+        {
+          "name": "W. C. Pierce",
+          "party": "None",
+          "write_in": true,
+          "votes": 1
+        },
+        {
+          "name": "Marshall Anderson",
+          "party": "NP",
+          "write_in": true,
+          "votes": 1
+        },
+        {
+          "name": "Dr. S. I. Blochhart",
+          "party": "Rep.",
+          "write_in": true,
+          "votes": 2
+        },
+        {
+          "name": "Sidney Osborn",
+          "party": "NP",
+          "write_in": true,
+          "votes": 3
+        },
+        {
+          "name": "Laverl Hill",
+          "party": "None",
+          "write_in": true,
+          "votes": 1
+        },
+        {
+          "name": "[damaged] Jones",
+          "party": "None",
+          "write_in": true,
+          "votes": 1
+        },
+        {
+          "name": "[damaged] Lee Peters",
+          "party": "None",
+          "write_in": true,
+          "votes": 1
+        },
+        {
+          "name": "[damaged] R. Ward",
+          "party": "None",
+          "write_in": true,
+          "votes": 2
+        },
+        {
+          "name": "William Coxon",
+          "party": "None",
+          "write_in": true,
+          "votes": 1
+        },
+        {
+          "name": "Charles B. White",
+          "party": "None",
+          "write_in": true,
+          "votes": 1
+        },
+        {
+          "name": "J. D. Overfield",
+          "party": "None",
+          "write_in": true,
+          "votes": 1
+        },
+        {
+          "name": "George Dell",
+          "party": "None",
+          "write_in": true,
+          "votes": 1
+        },
+        {
+          "name": "Wade Church",
+          "party": "NP",
+          "write_in": true,
+          "votes": 1
+        },
+        {
+          "name": "Jack Kinney",
+          "party": "REP",
+          "write_in": true,
+          "votes": 8
+        }
+      ],
+      "notes": "Miscellaneous write-ins on p7 listed separately with their printed party labels. Some names damaged by paper loss; unresolved entries explicitly identified. Same-name entries appearing with different write-in/party labels are retained as distinct reported entries; no identity merge is inferred.",
+      "contest_id": "az-1944-governor",
+      "reconciliation": {
+        "status": "reported",
+        "page": 2,
+        "district": null,
+        "candidates": [
+          {
+            "candidate": "Sidney P. Osborn",
+            "official_total": 100220,
+            "official_statewide": 100220,
+            "county_sum": 100220,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "Jerrie W. Lee",
+            "official_total": 27261,
+            "official_statewide": 27261,
+            "county_sum": 27261,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "Charles R. Osburn",
+            "official_total": 1161,
+            "official_statewide": 1161,
+            "county_sum": 1161,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "Samuel W. Hamilton",
+            "official_total": 3,
+            "official_statewide": 3,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "S. D. Davidson",
+            "official_total": 1,
+            "official_statewide": 1,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "S. I. Blochhart",
+            "official_total": 5,
+            "official_statewide": 5,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Samuel W. Hamilton",
+            "official_total": 1,
+            "official_statewide": 1,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "E. I. O'Malley",
+            "official_total": 1,
+            "official_statewide": 1,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "James H. Kerby",
+            "official_total": 2,
+            "official_statewide": 2,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Ralph Fowler",
+            "official_total": 1,
+            "official_statewide": 1,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Harry B. Dean",
+            "official_total": 1,
+            "official_statewide": 1,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Harry Michael",
+            "official_total": 1,
+            "official_statewide": 1,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Michael",
+            "official_total": 1,
+            "official_statewide": 1,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Raynor B. Smith",
+            "official_total": 1,
+            "official_statewide": 1,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "S. I. Blochhart",
+            "official_total": 1,
+            "official_statewide": 1,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "W. C. Pierce",
+            "official_total": 1,
+            "official_statewide": 1,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Marshall Anderson",
+            "official_total": 1,
+            "official_statewide": 1,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Dr. S. I. Blochhart",
+            "official_total": 2,
+            "official_statewide": 2,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Sidney Osborn",
+            "official_total": 3,
+            "official_statewide": 3,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Laverl Hill",
+            "official_total": 1,
+            "official_statewide": 1,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "[damaged] Jones",
+            "official_total": 1,
+            "official_statewide": 1,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "[damaged] Lee Peters",
+            "official_total": 1,
+            "official_statewide": 1,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "[damaged] R. Ward",
+            "official_total": 2,
+            "official_statewide": 2,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "William Coxon",
+            "official_total": 1,
+            "official_statewide": 1,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Charles B. White",
+            "official_total": 1,
+            "official_statewide": 1,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "J. D. Overfield",
+            "official_total": 1,
+            "official_statewide": 1,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "George Dell",
+            "official_total": 1,
+            "official_statewide": 1,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Wade Church",
+            "official_total": 1,
+            "official_statewide": 1,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Jack Kinney",
+            "official_total": 8,
+            "official_statewide": 8,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": false,
+        "result_basis": "candidate-votes",
+        "notes": "Miscellaneous write-ins on p7 listed separately with their printed party labels. Some names damaged by paper loss; unresolved entries explicitly identified. Same-name entries appearing with different write-in/party labels are retained as distinct reported entries; no identity merge is inferred."
+      }
+    },
+    {
+      "office_id": "secretary-of-state",
+      "district": null,
+      "page": 2,
+      "candidates": [
+        {
+          "name": "Dan E. Garvey",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 91749,
+          "county_votes": {
+            "04001": 1289,
+            "04003": 7723,
+            "04005": 2413,
+            "04007": 5225,
+            "04009": 2325,
+            "04011": 2064,
+            "04013": 36797,
+            "04015": 1469,
+            "04017": 2998,
+            "04019": 16224,
+            "04021": 3361,
+            "04023": 1487,
+            "04025": 4842,
+            "04027": 3532
+          },
+          "source_row_id": "reported-entry-1"
+        },
+        {
+          "name": "David S. Davis",
+          "party": "REP",
+          "write_in": false,
+          "votes": 33504,
+          "county_votes": {
+            "04001": 391,
+            "04003": 1626,
+            "04005": 965,
+            "04007": 1300,
+            "04009": 527,
+            "04011": 360,
+            "04013": 15909,
+            "04015": 520,
+            "04017": 844,
+            "04019": 6385,
+            "04021": 1232,
+            "04023": 341,
+            "04025": 2114,
+            "04027": 990
+          },
+          "source_row_id": "reported-entry-2"
+        },
+        {
+          "name": "George J. Harer",
+          "party": "P",
+          "write_in": false,
+          "votes": 635,
+          "county_votes": {
+            "04001": 6,
+            "04003": 16,
+            "04005": 19,
+            "04007": 43,
+            "04009": 18,
+            "04011": 9,
+            "04013": 238,
+            "04015": 10,
+            "04017": 11,
+            "04019": 126,
+            "04021": 30,
+            "04023": 4,
+            "04025": 78,
+            "04027": 27
+          }
+        },
+        {
+          "name": "Dan E. Garvey",
+          "party": "NP",
+          "write_in": true,
+          "votes": 2,
+          "source_row_id": "reported-entry-4"
+        },
+        {
+          "name": "David S. Davis",
+          "party": "NP",
+          "write_in": true,
+          "votes": 1,
+          "source_row_id": "reported-entry-5"
+        }
+      ],
+      "notes": "Miscellaneous write-ins on p7 below. Same-name entries appearing with different write-in/party labels are retained as distinct reported entries; no identity merge is inferred.",
+      "contest_id": "az-1944-secretary-of-state",
+      "reconciliation": {
+        "status": "reported",
+        "page": 2,
+        "district": null,
+        "candidates": [
+          {
+            "candidate": "Dan E. Garvey",
+            "official_total": 91749,
+            "official_statewide": 91749,
+            "county_sum": 91749,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "David S. Davis",
+            "official_total": 33504,
+            "official_statewide": 33504,
+            "county_sum": 33504,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "George J. Harer",
+            "official_total": 635,
+            "official_statewide": 635,
+            "county_sum": 635,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "Dan E. Garvey",
+            "official_total": 2,
+            "official_statewide": 2,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "David S. Davis",
+            "official_total": 1,
+            "official_statewide": 1,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": false,
+        "result_basis": "candidate-votes",
+        "notes": "Miscellaneous write-ins on p7 below. Same-name entries appearing with different write-in/party labels are retained as distinct reported entries; no identity merge is inferred."
+      }
+    },
+    {
+      "office_id": "attorney-general",
+      "district": null,
+      "page": 2,
+      "candidates": [
+        {
+          "name": "John L. Sullivan",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 89429,
+          "county_votes": {
+            "04001": 1336,
+            "04003": 7681,
+            "04005": 2465,
+            "04007": 5305,
+            "04009": 2427,
+            "04011": 2107,
+            "04013": 35267,
+            "04015": 1537,
+            "04017": 3013,
+            "04019": 15142,
+            "04021": 3403,
+            "04023": 1449,
+            "04025": 4648,
+            "04027": 3650
+          },
+          "source_row_id": "reported-entry-1"
+        },
+        {
+          "name": "Ralph Barry",
+          "party": "REP",
+          "write_in": false,
+          "votes": 37982,
+          "county_votes": {
+            "04001": 399,
+            "04003": 1807,
+            "04005": 1075,
+            "04007": 1377,
+            "04009": 530,
+            "04011": 380,
+            "04013": 18207,
+            "04015": 516,
+            "04017": 938,
+            "04019": 7487,
+            "04021": 1200,
+            "04023": 385,
+            "04025": 2615,
+            "04027": 1066
+          },
+          "source_row_id": "reported-entry-2"
+        },
+        {
+          "name": "Thomas Croaf",
+          "party": "DEM",
+          "write_in": true,
+          "votes": 1
+        },
+        {
+          "name": "John L. Sullivan",
+          "party": "NP",
+          "write_in": true,
+          "votes": 1,
+          "source_row_id": "reported-entry-4"
+        },
+        {
+          "name": "Ralph Barry",
+          "party": "NP",
+          "write_in": true,
+          "votes": 2,
+          "source_row_id": "reported-entry-5"
+        },
+        {
+          "name": "Pat Gline",
+          "party": "DEM",
+          "write_in": true,
+          "votes": 1
+        }
+      ],
+      "notes": "Miscellaneous write-ins on p7 below. Same-name entries appearing with different write-in/party labels are retained as distinct reported entries; no identity merge is inferred.",
+      "contest_id": "az-1944-attorney-general",
+      "reconciliation": {
+        "status": "reported",
+        "page": 2,
+        "district": null,
+        "candidates": [
+          {
+            "candidate": "John L. Sullivan",
+            "official_total": 89429,
+            "official_statewide": 89429,
+            "county_sum": 89430,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 1
+          },
+          {
+            "candidate": "Ralph Barry",
+            "official_total": 37982,
+            "official_statewide": 37982,
+            "county_sum": 37982,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "Thomas Croaf",
+            "official_total": 1,
+            "official_statewide": 1,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "John L. Sullivan",
+            "official_total": 1,
+            "official_statewide": 1,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Ralph Barry",
+            "official_total": 2,
+            "official_statewide": 2,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Pat Gline",
+            "official_total": 1,
+            "official_statewide": 1,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": false,
+        "result_basis": "candidate-votes",
+        "notes": "Miscellaneous write-ins on p7 below. Same-name entries appearing with different write-in/party labels are retained as distinct reported entries; no identity merge is inferred."
+      }
+    }
+  ]
+}

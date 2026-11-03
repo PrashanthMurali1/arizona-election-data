@@ -1,0 +1,559 @@
+{
+  "year": 1911,
+  "date": "1911-12-12",
+  "kind": "general",
+  "source_path": "data/raw/early-canvasses/pdfs/1911.pdf",
+  "source_sha256": "a6c81f4f67e503815eec0cb23e99f42bf541e7b91b6b4c1e5218b29881c240d7",
+  "absent_offices": [
+    "president",
+    "state-house",
+    "state-senate"
+  ],
+  "contests": [
+    {
+      "office_id": "us-senate",
+      "district": null,
+      "page": 1,
+      "candidates": [
+        {
+          "name": "H. F. Ashurst",
+          "party": "DEM",
+          "write_in": false,
+          "votes": null,
+          "county_votes": {
+            "04001": 240,
+            "04003": 1847,
+            "04005": 267,
+            "04007": 957,
+            "04009": 645,
+            "04011": 563,
+            "04013": 2304,
+            "04015": 362,
+            "04017": 354,
+            "04019": 770,
+            "04021": 378,
+            "04023": 295,
+            "04025": 1279,
+            "04027": 611
+          }
+        },
+        {
+          "name": "M. A. Smith",
+          "party": "DEM",
+          "write_in": false,
+          "votes": null,
+          "county_votes": {
+            "04001": 242,
+            "04003": 1836,
+            "04005": 261,
+            "04007": 933,
+            "04009": 637,
+            "04011": 575,
+            "04013": 2208,
+            "04015": 325,
+            "04017": 314,
+            "04019": 930,
+            "04021": 394,
+            "04023": 304,
+            "04025": 1064,
+            "04027": 575
+          }
+        },
+        {
+          "name": "R. H. Cameron",
+          "party": "UNK",
+          "write_in": false,
+          "votes": null,
+          "county_votes": {
+            "04001": 393,
+            "04003": 1588,
+            "04005": 448,
+            "04007": 679,
+            "04009": 414,
+            "04011": 494,
+            "04013": 1998,
+            "04015": 180,
+            "04017": 410,
+            "04019": 943,
+            "04021": 354,
+            "04023": 245,
+            "04025": 1055,
+            "04027": 439
+          }
+        },
+        {
+          "name": "H. A. Smith",
+          "party": "REP",
+          "write_in": false,
+          "votes": null,
+          "county_votes": {
+            "04001": 372,
+            "04003": 1708,
+            "04005": 385,
+            "04007": 604,
+            "04009": 416,
+            "04011": 479,
+            "04013": 1933,
+            "04015": 135,
+            "04017": 327,
+            "04019": 949,
+            "04021": 304,
+            "04023": 238,
+            "04025": 995,
+            "04027": 383
+          }
+        },
+        {
+          "name": "E. Johnson",
+          "party": "Soc",
+          "write_in": false,
+          "votes": null,
+          "county_votes": {
+            "04001": 9,
+            "04003": 230,
+            "04005": 24,
+            "04007": 197,
+            "04009": 104,
+            "04011": 54,
+            "04013": 160,
+            "04015": 111,
+            "04017": 8,
+            "04019": 31,
+            "04021": 36,
+            "04023": 22,
+            "04025": 178,
+            "04027": 70
+          }
+        },
+        {
+          "name": "E. R. Simonton",
+          "party": "Soc",
+          "write_in": false,
+          "votes": null,
+          "county_votes": {
+            "04001": 8,
+            "04003": 226,
+            "04005": 17,
+            "04007": 218,
+            "04009": 106,
+            "04011": 55,
+            "04013": 146,
+            "04015": 104,
+            "04017": 9,
+            "04019": 38,
+            "04021": 39,
+            "04023": 18,
+            "04025": 172,
+            "04027": 65
+          }
+        }
+      ],
+      "notes": "Prestatehood selection of two U.S. Senators in one source table; no winner or single-seat inference. R. H. Cameron has no printed party marker. The source scan clips the final digit of the printed TOTAL column on page 1. Printed totals remain null; county cells retain source evidence. No legislative candidate tables occur in the supplied three-page return.",
+      "multi_seat": true
+    },
+    {
+      "office_id": "us-house",
+      "district": "at-large",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Carl Hayden",
+          "party": "DEM",
+          "write_in": false,
+          "votes": null
+        },
+        {
+          "name": "J. S. Williams",
+          "party": "REP",
+          "write_in": false,
+          "votes": null
+        },
+        {
+          "name": "John Halberg",
+          "party": "Soc",
+          "write_in": false,
+          "votes": null
+        },
+        {
+          "name": "E. W. Chafin",
+          "party": "Pro",
+          "write_in": false,
+          "votes": null
+        }
+      ],
+      "notes": "The source scan clips the final digit of the printed TOTAL column on page 1. Printed totals remain null; county cells retain source evidence. No legislative candidate tables occur in the supplied three-page return."
+    },
+    {
+      "office_id": "governor",
+      "district": null,
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Geo. W. P. Hunt",
+          "party": "DEM",
+          "write_in": false,
+          "votes": null,
+          "county_votes": {
+            "04001": 265,
+            "04003": 2017,
+            "04005": 284,
+            "04007": 1068,
+            "04009": 645,
+            "04011": 600,
+            "04013": 2272,
+            "04015": 359,
+            "04017": 333,
+            "04019": 879,
+            "04021": 364,
+            "04023": 307,
+            "04025": 1084,
+            "04027": 646
+          }
+        },
+        {
+          "name": "E. W. Wells",
+          "party": "REP",
+          "write_in": false,
+          "votes": null,
+          "county_votes": {
+            "04001": 358,
+            "04003": 1458,
+            "04005": 403,
+            "04007": 545,
+            "04009": 403,
+            "04011": 464,
+            "04013": 1969,
+            "04015": 152,
+            "04017": 385,
+            "04019": 911,
+            "04021": 353,
+            "04023": 237,
+            "04025": 1175,
+            "04027": 353
+          }
+        },
+        {
+          "name": "P. W. Gallentine",
+          "party": "Soc",
+          "write_in": false,
+          "votes": null,
+          "county_votes": {
+            "04001": 8,
+            "04003": 250,
+            "04005": 15,
+            "04007": 218,
+            "04009": 111,
+            "04011": 60,
+            "04013": 142,
+            "04015": 120,
+            "04017": 5,
+            "04019": 29,
+            "04021": 39,
+            "04023": 23,
+            "04025": 157,
+            "04027": 70
+          }
+        },
+        {
+          "name": "T. W. Otis",
+          "party": "Pro",
+          "write_in": false,
+          "votes": null,
+          "county_votes": {
+            "04001": 1,
+            "04003": 3,
+            "04005": 2,
+            "04007": 3,
+            "04009": 0,
+            "04011": 0,
+            "04013": 39,
+            "04015": 2,
+            "04017": 1,
+            "04019": 5,
+            "04021": 2,
+            "04023": 0,
+            "04025": 10,
+            "04027": 1
+          }
+        }
+      ],
+      "notes": "The source scan clips the final digit of the printed TOTAL column on page 1. Printed totals remain null; county cells retain source evidence. No legislative candidate tables occur in the supplied three-page return."
+    },
+    {
+      "office_id": "secretary-of-state",
+      "district": null,
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Sidney P. Osborn",
+          "party": "DEM",
+          "write_in": false,
+          "votes": null
+        },
+        {
+          "name": "J. F. Cleaveland",
+          "party": "REP",
+          "write_in": false,
+          "votes": null
+        },
+        {
+          "name": "G. H. Newsholme",
+          "party": "Soc",
+          "write_in": false,
+          "votes": null
+        },
+        {
+          "name": "Roy Sibley",
+          "party": "Pro",
+          "write_in": false,
+          "votes": null
+        }
+      ],
+      "notes": "The source scan clips the final digit of the printed TOTAL column on page 1. Printed totals remain null; county cells retain source evidence. No legislative candidate tables occur in the supplied three-page return. Some Cochise cells are degraded; omitted county maps rather than guessing."
+    },
+    {
+      "office_id": "attorney-general",
+      "district": null,
+      "page": 2,
+      "candidates": [
+        {
+          "name": "G. P. Bullard",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 10650,
+          "county_votes": {
+            "04001": 257,
+            "04003": 1957,
+            "04005": 285,
+            "04007": 938,
+            "04009": 628,
+            "04011": 587,
+            "04013": 2098,
+            "04015": 343,
+            "04017": 330,
+            "04019": 805,
+            "04021": 353,
+            "04023": 288,
+            "04025": 1164,
+            "04027": 617
+          }
+        },
+        {
+          "name": "G. D. Christy",
+          "party": "REP",
+          "write_in": false,
+          "votes": 9000,
+          "county_votes": {
+            "04001": 359,
+            "04003": 1581,
+            "04005": 377,
+            "04007": 580,
+            "04009": 392,
+            "04011": 444,
+            "04013": 2138,
+            "04015": 138,
+            "04017": 361,
+            "04019": 926,
+            "04021": 329,
+            "04023": 246,
+            "04025": 982,
+            "04027": 347
+          }
+        },
+        {
+          "name": "J. N. Morrison",
+          "party": "Soc",
+          "write_in": false,
+          "votes": 1373,
+          "county_votes": {
+            "04001": 8,
+            "04003": 274,
+            "04005": 16,
+            "04007": 238,
+            "04009": 114,
+            "04011": 66,
+            "04013": 163,
+            "04015": 122,
+            "04017": 7,
+            "04019": 45,
+            "04021": 42,
+            "04023": 19,
+            "04025": 183,
+            "04027": 75
+          }
+        },
+        {
+          "name": "Ostora Gibson",
+          "party": "Pro",
+          "write_in": false,
+          "votes": 90,
+          "county_votes": {
+            "04001": 1,
+            "04003": 18,
+            "04005": 2,
+            "04007": 2,
+            "04009": 0,
+            "04011": 0,
+            "04013": 40,
+            "04015": 2,
+            "04017": 3,
+            "04019": 5,
+            "04021": 3,
+            "04023": 1,
+            "04025": 10,
+            "04027": 3
+          }
+        }
+      ]
+    }
+  ],
+  "unresolved": [
+    {
+      "office_id": "us-senate",
+      "candidate": "H. F. Ashurst",
+      "field": "votes",
+      "page": 1,
+      "reason": "Final digit of printed total clipped at source scan right edge."
+    },
+    {
+      "office_id": "us-senate",
+      "candidate": "M. A. Smith",
+      "field": "votes",
+      "page": 1,
+      "reason": "Final digit of printed total clipped at source scan right edge."
+    },
+    {
+      "office_id": "us-senate",
+      "candidate": "R. H. Cameron",
+      "field": "votes",
+      "page": 1,
+      "reason": "Final digit of printed total clipped at source scan right edge."
+    },
+    {
+      "office_id": "us-senate",
+      "candidate": "H. A. Smith",
+      "field": "votes",
+      "page": 1,
+      "reason": "Final digit of printed total clipped at source scan right edge."
+    },
+    {
+      "office_id": "us-senate",
+      "candidate": "E. Johnson",
+      "field": "votes",
+      "page": 1,
+      "reason": "Final digit of printed total clipped at source scan right edge."
+    },
+    {
+      "office_id": "us-senate",
+      "candidate": "E. R. Simonton",
+      "field": "votes",
+      "page": 1,
+      "reason": "Final digit of printed total clipped at source scan right edge."
+    },
+    {
+      "office_id": "us-house",
+      "candidate": "Carl Hayden",
+      "field": "votes",
+      "page": 1,
+      "reason": "Final digit of printed total clipped at source scan right edge."
+    },
+    {
+      "office_id": "us-house",
+      "candidate": "J. S. Williams",
+      "field": "votes",
+      "page": 1,
+      "reason": "Final digit of printed total clipped at source scan right edge."
+    },
+    {
+      "office_id": "us-house",
+      "candidate": "John Halberg",
+      "field": "votes",
+      "page": 1,
+      "reason": "Final digit of printed total clipped at source scan right edge."
+    },
+    {
+      "office_id": "us-house",
+      "candidate": "E. W. Chafin",
+      "field": "votes",
+      "page": 1,
+      "reason": "Final digit of printed total clipped at source scan right edge."
+    },
+    {
+      "office_id": "governor",
+      "candidate": "Geo. W. P. Hunt",
+      "field": "votes",
+      "page": 1,
+      "reason": "Final digit of printed total clipped at source scan right edge."
+    },
+    {
+      "office_id": "governor",
+      "candidate": "E. W. Wells",
+      "field": "votes",
+      "page": 1,
+      "reason": "Final digit of printed total clipped at source scan right edge."
+    },
+    {
+      "office_id": "governor",
+      "candidate": "P. W. Gallentine",
+      "field": "votes",
+      "page": 1,
+      "reason": "Final digit of printed total clipped at source scan right edge."
+    },
+    {
+      "office_id": "governor",
+      "candidate": "T. W. Otis",
+      "field": "votes",
+      "page": 1,
+      "reason": "Final digit of printed total clipped at source scan right edge."
+    },
+    {
+      "office_id": "secretary-of-state",
+      "candidate": "Sidney P. Osborn",
+      "field": "votes",
+      "page": 1,
+      "reason": "Final digit of printed total clipped at source scan right edge."
+    },
+    {
+      "office_id": "secretary-of-state",
+      "candidate": "J. F. Cleaveland",
+      "field": "votes",
+      "page": 1,
+      "reason": "Final digit of printed total clipped at source scan right edge."
+    },
+    {
+      "office_id": "secretary-of-state",
+      "candidate": "G. H. Newsholme",
+      "field": "votes",
+      "page": 1,
+      "reason": "Final digit of printed total clipped at source scan right edge."
+    },
+    {
+      "office_id": "secretary-of-state",
+      "candidate": "Roy Sibley",
+      "field": "votes",
+      "page": 1,
+      "reason": "Final digit of printed total clipped at source scan right edge."
+    },
+    {
+      "office_id": "us-senate",
+      "candidate": "R. H. Cameron",
+      "field": "party",
+      "page": 1,
+      "reason": "No party marker printed; retained UNK."
+    },
+    {
+      "office_id": "attorney-general",
+      "candidate": "G. D. Christy",
+      "page": 2,
+      "field": "county_reconciliation",
+      "reason": "Transcribed visible county cells sum 9200; printed total is 9000. Source is degraded; figures need further source review, no adjustment inferred."
+    },
+    {
+      "office_id": "attorney-general",
+      "candidate": "J. N. Morrison",
+      "page": 2,
+      "field": "county_reconciliation",
+      "reason": "Transcribed visible county cells sum 1372; printed total is 1373. Source is degraded; figures need further source review, no adjustment inferred."
+    }
+  ]
+}

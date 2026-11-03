@@ -1,5 +1,7 @@
 {
   "year": 1966,
+  "date": "1966-11-08",
+  "kind": "general",
   "source_sha256": "a0d800e71e872e5b60a5d6b1d224652b91646adfb3e396074047099587fd9a86",
   "absent_offices": [
     "president",
@@ -34,21 +36,56 @@
           {
             "candidate": "L. Alton (Pat) Riggs",
             "official_total": 49913,
+            "official_statewide": 49913,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           },
           {
             "candidate": "John J. Rhodes",
             "official_total": 102007,
+            "official_statewide": 102007,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           }
         ],
         "county_count": 14,
         "coverage": "contest_totals",
         "multi_seat": false,
+        "result_basis": "candidate-votes",
         "notes": ""
       }
     },
@@ -79,21 +116,56 @@
           {
             "candidate": "Morris K. Udall",
             "official_total": 66813,
+            "official_statewide": 66813,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           },
           {
             "candidate": "G. Alfred McGinnis",
             "official_total": 45326,
+            "official_statewide": 45326,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           }
         ],
         "county_count": 14,
         "coverage": "contest_totals",
         "multi_seat": false,
+        "result_basis": "candidate-votes",
         "notes": ""
       }
     },
@@ -124,21 +196,56 @@
           {
             "candidate": "George F. Senner, Jr.",
             "official_total": 43219,
+            "official_statewide": 43219,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           },
           {
             "candidate": "Sam Steiger",
             "official_total": 57145,
+            "official_statewide": 57145,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           }
         ],
         "county_count": 14,
         "coverage": "contest_totals",
         "multi_seat": false,
+        "result_basis": "candidate-votes",
         "notes": ""
       }
     },
@@ -169,21 +276,56 @@
           {
             "candidate": "Sam Goddard",
             "official_total": 174904,
+            "official_statewide": 174904,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           },
           {
             "candidate": "John R. (Jack) Williams",
             "official_total": 203438,
+            "official_statewide": 203438,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           }
         ],
         "county_count": 14,
         "coverage": "contest_totals",
         "multi_seat": false,
+        "result_basis": "candidate-votes",
         "notes": ""
       }
     },
@@ -224,14 +366,17 @@
           {
             "candidate": "Wesley Bolin",
             "official_total": 223950,
+            "official_statewide": 223950,
             "county_sum": 223950,
             "county_coverage": 14,
+            "missing_counties": [],
             "difference": 0
           }
         ],
         "county_count": 14,
         "coverage": "county",
         "multi_seat": false,
+        "result_basis": "candidate-votes",
         "notes": ""
       }
     },
@@ -294,21 +439,26 @@
           {
             "candidate": "Reid F. Woodford",
             "official_total": 149955,
+            "official_statewide": 149955,
             "county_sum": 149955,
             "county_coverage": 14,
+            "missing_counties": [],
             "difference": 0
           },
           {
             "candidate": "Darrell F. Smith",
             "official_total": 205292,
+            "official_statewide": 205292,
             "county_sum": 205292,
             "county_coverage": 14,
+            "missing_counties": [],
             "difference": 0
           }
         ],
         "county_count": 14,
         "coverage": "county",
         "multi_seat": false,
+        "result_basis": "candidate-votes",
         "notes": ""
       }
     },
@@ -351,35 +501,104 @@
           {
             "candidate": "Mabel S. Ellis",
             "official_total": 5826,
+            "official_statewide": 5826,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           },
           {
             "candidate": "Leo Sullivan",
             "official_total": 6312,
+            "official_statewide": 6312,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           },
           {
             "candidate": "Gladys Gardner",
             "official_total": 7410,
+            "official_statewide": 7410,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           },
           {
             "candidate": "W. D. (Bill) Lyman",
             "official_total": 7849,
+            "official_statewide": 7849,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           }
         ],
         "county_count": 14,
         "coverage": "contest_totals",
         "multi_seat": true,
+        "result_basis": "candidate-votes",
         "notes": ""
       }
     },
@@ -410,21 +629,56 @@
           {
             "candidate": "Milton O. \"Mo\" Lindner, Jr.",
             "official_total": 6368,
+            "official_statewide": 6368,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           },
           {
             "candidate": "Boyd Tenney",
             "official_total": 7888,
+            "official_statewide": 7888,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           }
         ],
         "county_count": 14,
         "coverage": "contest_totals",
         "multi_seat": true,
+        "result_basis": "candidate-votes",
         "notes": ""
       }
     },
@@ -467,35 +721,104 @@
           {
             "candidate": "W. L. \"Tay\" Cook",
             "official_total": 12802,
+            "official_statewide": 12802,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           },
           {
             "candidate": "James A. \"Jim\" Elliott",
             "official_total": 12796,
+            "official_statewide": 12796,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           },
           {
             "candidate": "A. L. \"Fat\" Hawes",
             "official_total": 12269,
+            "official_statewide": 12269,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           },
           {
             "candidate": "Ed Sawyer",
             "official_total": 12592,
+            "official_statewide": 12592,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           }
         ],
         "county_count": 14,
         "coverage": "contest_totals",
         "multi_seat": true,
+        "result_basis": "candidate-votes",
         "notes": ""
       }
     },
@@ -532,28 +855,80 @@
           {
             "candidate": "Dan S. Kitchel",
             "official_total": 11904,
+            "official_statewide": 11904,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           },
           {
             "candidate": "A. R. Spikes",
             "official_total": 11724,
+            "official_statewide": 11724,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           },
           {
             "candidate": "W. L. Bristol",
             "official_total": 6999,
+            "official_statewide": 6999,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           }
         ],
         "county_count": 14,
         "coverage": "contest_totals",
         "multi_seat": true,
+        "result_basis": "candidate-votes",
         "notes": ""
       }
     },
@@ -602,42 +977,128 @@
           {
             "candidate": "Jack A. Brown",
             "official_total": 9136,
+            "official_statewide": 9136,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           },
           {
             "candidate": "Frank L. Crosby",
             "official_total": 9237,
+            "official_statewide": 9237,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           },
           {
             "candidate": "Lloyd L. House",
             "official_total": 8324,
+            "official_statewide": 8324,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           },
           {
             "candidate": "Clay B. Simer",
             "official_total": 8438,
+            "official_statewide": 8438,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           },
           {
             "candidate": "Drew Shumway",
             "official_total": 6727,
+            "official_statewide": 6727,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           }
         ],
         "county_count": 14,
         "coverage": "contest_totals",
         "multi_seat": true,
+        "result_basis": "candidate-votes",
         "notes": ""
       }
     },
@@ -674,28 +1135,80 @@
           {
             "candidate": "Glenn Blansett",
             "official_total": 7403,
+            "official_statewide": 7403,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           },
           {
             "candidate": "William \"Bill\" Huso",
             "official_total": 8573,
+            "official_statewide": 8573,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           },
           {
             "candidate": "Arthur C. Whiting",
             "official_total": 6731,
+            "official_statewide": 6731,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           }
         ],
         "county_count": 14,
         "coverage": "contest_totals",
         "multi_seat": true,
+        "result_basis": "candidate-votes",
         "notes": ""
       }
     },
@@ -726,21 +1239,56 @@
           {
             "candidate": "Harold L. Huffer",
             "official_total": 3967,
+            "official_statewide": 3967,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           },
           {
             "candidate": "Sam A. McConnell, Jr.",
             "official_total": 3945,
+            "official_statewide": 3945,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           }
         ],
         "county_count": 14,
         "coverage": "contest_totals",
         "multi_seat": true,
+        "result_basis": "candidate-votes",
         "notes": ""
       }
     },
@@ -771,21 +1319,56 @@
           {
             "candidate": "Thos. M. (Tommy) Knoles, Jr.",
             "official_total": 4605,
+            "official_statewide": 4605,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           },
           {
             "candidate": "Alfred E. Wohlschlegel",
             "official_total": 2865,
+            "official_statewide": 2865,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           }
         ],
         "county_count": 14,
         "coverage": "contest_totals",
         "multi_seat": true,
+        "result_basis": "candidate-votes",
         "notes": ""
       }
     },
@@ -834,42 +1417,128 @@
           {
             "candidate": "Polly Getzwiller",
             "official_total": 15263,
+            "official_statewide": 15263,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           },
           {
             "candidate": "A. V. \"Bill\" Hardt",
             "official_total": 15075,
+            "official_statewide": 15075,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           },
           {
             "candidate": "E. C. \"Polly\" Rosenbaum",
             "official_total": 14764,
+            "official_statewide": 14764,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           },
           {
             "candidate": "Frederick S. Smith",
             "official_total": 13702,
+            "official_statewide": 13702,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           },
           {
             "candidate": "Kenneth Rogers",
             "official_total": 7680,
+            "official_statewide": 7680,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           }
         ],
         "county_count": 14,
         "coverage": "contest_totals",
         "multi_seat": true,
+        "result_basis": "candidate-votes",
         "notes": ""
       }
     },
@@ -900,21 +1569,56 @@
           {
             "candidate": "Clarence L. Carpenter",
             "official_total": 15920,
+            "official_statewide": 15920,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           },
           {
             "candidate": "E. B. \"Blodie\" Thode",
             "official_total": 14764,
+            "official_statewide": 14764,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           }
         ],
         "county_count": 14,
         "coverage": "contest_totals",
         "multi_seat": true,
+        "result_basis": "candidate-votes",
         "notes": ""
       }
     },
@@ -945,21 +1649,56 @@
           {
             "candidate": "Charles A. (Charlie) Johnson",
             "official_total": 7191,
+            "official_statewide": 7191,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           },
           {
             "candidate": "M. G. \"Pop\" Miniken",
             "official_total": 6995,
+            "official_statewide": 6995,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           }
         ],
         "county_count": 14,
         "coverage": "contest_totals",
         "multi_seat": true,
+        "result_basis": "candidate-votes",
         "notes": ""
       }
     },
@@ -984,14 +1723,32 @@
           {
             "candidate": "Harold C. Giss",
             "official_total": 7790,
+            "official_statewide": 7790,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           }
         ],
         "county_count": 14,
         "coverage": "contest_totals",
         "multi_seat": true,
+        "result_basis": "candidate-votes",
         "notes": ""
       }
     },
@@ -1028,28 +1785,80 @@
           {
             "candidate": "Tony Carrillo",
             "official_total": 7663,
+            "official_statewide": 7663,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           },
           {
             "candidate": "E. S. (Bud) Walker",
             "official_total": 7833,
+            "official_statewide": 7833,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           },
           {
             "candidate": "James R. Grainger",
             "official_total": 3830,
+            "official_statewide": 3830,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           }
         ],
         "county_count": 14,
         "coverage": "contest_totals",
         "multi_seat": true,
+        "result_basis": "candidate-votes",
         "notes": ""
       }
     },
@@ -1074,14 +1883,32 @@
           {
             "candidate": "Joe Castillo",
             "official_total": 8436,
+            "official_statewide": 8436,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           }
         ],
         "county_count": 14,
         "coverage": "contest_totals",
         "multi_seat": true,
+        "result_basis": "candidate-votes",
         "notes": ""
       }
     },
@@ -1118,28 +1945,80 @@
           {
             "candidate": "Etta Mae Hutcheson",
             "official_total": 6116,
+            "official_statewide": 6116,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           },
           {
             "candidate": "Ethel Maynard",
             "official_total": 5013,
+            "official_statewide": 5013,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           },
           {
             "candidate": "Morgan Maxwell, Jr.",
             "official_total": 4452,
+            "official_statewide": 4452,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           }
         ],
         "county_count": 14,
         "coverage": "contest_totals",
         "multi_seat": true,
+        "result_basis": "candidate-votes",
         "notes": ""
       }
     },
@@ -1170,21 +2049,56 @@
           {
             "candidate": "F. T. \"Limie\" Gibbings",
             "official_total": 5624,
+            "official_statewide": 5624,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           },
           {
             "candidate": "Maxwell R. Palmer, Jr.",
             "official_total": 3747,
+            "official_statewide": 3747,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           }
         ],
         "county_count": 14,
         "coverage": "contest_totals",
         "multi_seat": true,
+        "result_basis": "candidate-votes",
         "notes": ""
       }
     },
@@ -1221,28 +2135,80 @@
           {
             "candidate": "R. P. \"Bob\" Fricks",
             "official_total": 6505,
+            "official_statewide": 6505,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           },
           {
             "candidate": "Sam Lena",
             "official_total": 6781,
+            "official_statewide": 6781,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           },
           {
             "candidate": "Walter Frank Dellow",
             "official_total": 5245,
+            "official_statewide": 5245,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           }
         ],
         "county_count": 14,
         "coverage": "contest_totals",
         "multi_seat": true,
+        "result_basis": "candidate-votes",
         "notes": ""
       }
     },
@@ -1273,21 +2239,56 @@
           {
             "candidate": "Sol Ahee",
             "official_total": 4959,
+            "official_statewide": 4959,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           },
           {
             "candidate": "Ernest Garfield",
             "official_total": 6817,
+            "official_statewide": 6817,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           }
         ],
         "county_count": 14,
         "coverage": "contest_totals",
         "multi_seat": true,
+        "result_basis": "candidate-votes",
         "notes": ""
       }
     },
@@ -1324,28 +2325,80 @@
           {
             "candidate": "David Wine",
             "official_total": 5920,
+            "official_statewide": 5920,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           },
           {
             "candidate": "Richard E. Bailey",
             "official_total": 7414,
+            "official_statewide": 7414,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           },
           {
             "candidate": "Thomas N. \"Tom\" Goodwin",
             "official_total": 7351,
+            "official_statewide": 7351,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           }
         ],
         "county_count": 14,
         "coverage": "contest_totals",
         "multi_seat": true,
+        "result_basis": "candidate-votes",
         "notes": ""
       }
     },
@@ -1370,14 +2423,32 @@
           {
             "candidate": "Douglas S. Holsclaw",
             "official_total": 8425,
+            "official_statewide": 8425,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           }
         ],
         "county_count": 14,
         "coverage": "contest_totals",
         "multi_seat": true,
+        "result_basis": "candidate-votes",
         "notes": ""
       }
     },
@@ -1414,28 +2485,80 @@
           {
             "candidate": "Ray Martin",
             "official_total": 5812,
+            "official_statewide": 5812,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           },
           {
             "candidate": "David B. Stone",
             "official_total": 6893,
+            "official_statewide": 6893,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           },
           {
             "candidate": "Albert C. Williams",
             "official_total": 7085,
+            "official_statewide": 7085,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           }
         ],
         "county_count": 14,
         "coverage": "contest_totals",
         "multi_seat": true,
+        "result_basis": "candidate-votes",
         "notes": ""
       }
     },
@@ -1466,21 +2589,56 @@
           {
             "candidate": "Frank Appleton",
             "official_total": 6172,
+            "official_statewide": 6172,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           },
           {
             "candidate": "Thomas G. Beaham",
             "official_total": 6924,
+            "official_statewide": 6924,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           }
         ],
         "county_count": 14,
         "coverage": "contest_totals",
         "multi_seat": true,
+        "result_basis": "candidate-votes",
         "notes": ""
       }
     },
@@ -1523,35 +2681,104 @@
           {
             "candidate": "George B. Marvel",
             "official_total": 4437,
+            "official_statewide": 4437,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           },
           {
             "candidate": "Joseph \"Joe\" Minarik",
             "official_total": 5163,
+            "official_statewide": 5163,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           },
           {
             "candidate": "Scott Alexander",
             "official_total": 8947,
+            "official_statewide": 8947,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           },
           {
             "candidate": "W. A. \"Tony\" Buehl",
             "official_total": 8174,
+            "official_statewide": 8174,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           }
         ],
         "county_count": 14,
         "coverage": "contest_totals",
         "multi_seat": true,
+        "result_basis": "candidate-votes",
         "notes": ""
       }
     },
@@ -1582,21 +2809,56 @@
           {
             "candidate": "Edward F. Hennessy",
             "official_total": 4919,
+            "official_statewide": 4919,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           },
           {
             "candidate": "William C. Jacquin",
             "official_total": 8803,
+            "official_statewide": 8803,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           }
         ],
         "county_count": 14,
         "coverage": "contest_totals",
         "multi_seat": true,
+        "result_basis": "candidate-votes",
         "notes": ""
       }
     },
@@ -1639,35 +2901,104 @@
           {
             "candidate": "Dr. John Carney",
             "official_total": 6700,
+            "official_statewide": 6700,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           },
           {
             "candidate": "William Petersen",
             "official_total": 5814,
+            "official_statewide": 5814,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           },
           {
             "candidate": "Walter E. Bloom",
             "official_total": 7338,
+            "official_statewide": 7338,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           },
           {
             "candidate": "James F. Holley",
             "official_total": 7260,
+            "official_statewide": 7260,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           }
         ],
         "county_count": 14,
         "coverage": "contest_totals",
         "multi_seat": true,
+        "result_basis": "candidate-votes",
         "notes": ""
       }
     },
@@ -1698,21 +3029,56 @@
           {
             "candidate": "Ed Hamblen",
             "official_total": 5813,
+            "official_statewide": 5813,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           },
           {
             "candidate": "Marshall Humphrey",
             "official_total": 7901,
+            "official_statewide": 7901,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           }
         ],
         "county_count": 14,
         "coverage": "contest_totals",
         "multi_seat": true,
+        "result_basis": "candidate-votes",
         "notes": ""
       }
     },
@@ -1755,35 +3121,104 @@
           {
             "candidate": "Donald Bogle",
             "official_total": 3841,
+            "official_statewide": 3841,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           },
           {
             "candidate": "Duke Morris",
             "official_total": 4707,
+            "official_statewide": 4707,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           },
           {
             "candidate": "D. Delos Ellsworth",
             "official_total": 9908,
+            "official_statewide": 9908,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           },
           {
             "candidate": "Stan Turley",
             "official_total": 9764,
+            "official_statewide": 9764,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           }
         ],
         "county_count": 14,
         "coverage": "contest_totals",
         "multi_seat": true,
+        "result_basis": "candidate-votes",
         "notes": ""
       }
     },
@@ -1808,14 +3243,32 @@
           {
             "candidate": "Wm. S. Porter",
             "official_total": 10550,
+            "official_statewide": 10550,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           }
         ],
         "county_count": 14,
         "coverage": "contest_totals",
         "multi_seat": true,
+        "result_basis": "candidate-votes",
         "notes": ""
       }
     },
@@ -1858,35 +3311,104 @@
           {
             "candidate": "N. James Gremanis",
             "official_total": 3474,
+            "official_statewide": 3474,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           },
           {
             "candidate": "Vernon Smith",
             "official_total": 3982,
+            "official_statewide": 3982,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           },
           {
             "candidate": "Sam Flake",
             "official_total": 10177,
+            "official_statewide": 10177,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           },
           {
             "candidate": "John C. Pritzlaff",
             "official_total": 11395,
+            "official_statewide": 11395,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           }
         ],
         "county_count": 14,
         "coverage": "contest_totals",
         "multi_seat": true,
+        "result_basis": "candidate-votes",
         "notes": ""
       }
     },
@@ -1917,21 +3439,56 @@
           {
             "candidate": "L. H. Bell",
             "official_total": 5400,
+            "official_statewide": 5400,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           },
           {
             "candidate": "John B. Conlan",
             "official_total": 9324,
+            "official_statewide": 9324,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           }
         ],
         "county_count": 14,
         "coverage": "contest_totals",
         "multi_seat": true,
+        "result_basis": "candidate-votes",
         "notes": ""
       }
     },
@@ -1974,35 +3531,104 @@
           {
             "candidate": "Robert L. Reding",
             "official_total": 4798,
+            "official_statewide": 4798,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           },
           {
             "candidate": "Dorothy Boone Survaunt",
             "official_total": 4082,
+            "official_statewide": 4082,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           },
           {
             "candidate": "Frank Kelley",
             "official_total": 8451,
+            "official_statewide": 8451,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           },
           {
             "candidate": "James Shelley",
             "official_total": 8717,
+            "official_statewide": 8717,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           }
         ],
         "county_count": 14,
         "coverage": "contest_totals",
         "multi_seat": true,
+        "result_basis": "candidate-votes",
         "notes": ""
       }
     },
@@ -2033,21 +3659,56 @@
           {
             "candidate": "Kemper Goodwin",
             "official_total": 5827,
+            "official_statewide": 5827,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           },
           {
             "candidate": "David B. Kret",
             "official_total": 7411,
+            "official_statewide": 7411,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           }
         ],
         "county_count": 14,
         "coverage": "contest_totals",
         "multi_seat": true,
+        "result_basis": "candidate-votes",
         "notes": ""
       }
     },
@@ -2090,35 +3751,104 @@
           {
             "candidate": "Eleanor P. Breen",
             "official_total": 4193,
+            "official_statewide": 4193,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           },
           {
             "candidate": "Frank Kadish",
             "official_total": 4374,
+            "official_statewide": 4374,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           },
           {
             "candidate": "Ruth Adams",
             "official_total": 9615,
+            "official_statewide": 9615,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           },
           {
             "candidate": "John D. Roeder",
             "official_total": 9591,
+            "official_statewide": 9591,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           }
         ],
         "county_count": 14,
         "coverage": "contest_totals",
         "multi_seat": true,
+        "result_basis": "candidate-votes",
         "notes": ""
       }
     },
@@ -2143,14 +3873,32 @@
           {
             "candidate": "Isabel Burgess",
             "official_total": 10424,
+            "official_statewide": 10424,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           }
         ],
         "county_count": 14,
         "coverage": "contest_totals",
         "multi_seat": true,
+        "result_basis": "candidate-votes",
         "notes": ""
       }
     },
@@ -2187,28 +3935,80 @@
           {
             "candidate": "W. F. \"Pat\" Vipperman",
             "official_total": 6395,
+            "official_statewide": 6395,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           },
           {
             "candidate": "Laverne E. Welker",
             "official_total": 6329,
+            "official_statewide": 6329,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           },
           {
             "candidate": "D. Lee Jones",
             "official_total": 6549,
+            "official_statewide": 6549,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           }
         ],
         "county_count": 14,
         "coverage": "contest_totals",
         "multi_seat": true,
+        "result_basis": "candidate-votes",
         "notes": ""
       }
     },
@@ -2239,21 +4039,56 @@
           {
             "candidate": "Wing F. Ong",
             "official_total": 6435,
+            "official_statewide": 6435,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           },
           {
             "candidate": "J. Howard Hoelzer",
             "official_total": 5572,
+            "official_statewide": 5572,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           }
         ],
         "county_count": 14,
         "coverage": "contest_totals",
         "multi_seat": true,
+        "result_basis": "candidate-votes",
         "notes": ""
       }
     },
@@ -2290,28 +4125,80 @@
           {
             "candidate": "Tony Abril",
             "official_total": 7138,
+            "official_statewide": 7138,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           },
           {
             "candidate": "Leon Thompson",
             "official_total": 7547,
+            "official_statewide": 7547,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           },
           {
             "candidate": "Ford Smith",
             "official_total": 2460,
+            "official_statewide": 2460,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           }
         ],
         "county_count": 14,
         "coverage": "contest_totals",
         "multi_seat": true,
+        "result_basis": "candidate-votes",
         "notes": ""
       }
     },
@@ -2336,14 +4223,32 @@
           {
             "candidate": "Cloves Campbell",
             "official_total": 7862,
+            "official_statewide": 7862,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           }
         ],
         "county_count": 14,
         "coverage": "contest_totals",
         "multi_seat": true,
+        "result_basis": "candidate-votes",
         "notes": ""
       }
     },
@@ -2386,35 +4291,104 @@
           {
             "candidate": "N. Pike Johnson, Jr.",
             "official_total": 4795,
+            "official_statewide": 4795,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           },
           {
             "candidate": "Sybil Udall",
             "official_total": 5474,
+            "official_statewide": 5474,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           },
           {
             "candidate": "Elizabeth Adams Rockwell",
             "official_total": 7717,
+            "official_statewide": 7717,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           },
           {
             "candidate": "Jay Stuckey",
             "official_total": 7826,
+            "official_statewide": 7826,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           }
         ],
         "county_count": 14,
         "coverage": "contest_totals",
         "multi_seat": true,
+        "result_basis": "candidate-votes",
         "notes": ""
       }
     },
@@ -2445,21 +4419,56 @@
           {
             "candidate": "Gerald A. Pollock",
             "official_total": 5251,
+            "official_statewide": 5251,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           },
           {
             "candidate": "Orme Lewis, Jr.",
             "official_total": 7787,
+            "official_statewide": 7787,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           }
         ],
         "county_count": 14,
         "coverage": "contest_totals",
         "multi_seat": true,
+        "result_basis": "candidate-votes",
         "notes": ""
       }
     },
@@ -2502,35 +4511,104 @@
           {
             "candidate": "Herbert F. Knauss",
             "official_total": 4989,
+            "official_statewide": 4989,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           },
           {
             "candidate": "Michael Mignella",
             "official_total": 5569,
+            "official_statewide": 5569,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           },
           {
             "candidate": "Burton S. Barr",
             "official_total": 9158,
+            "official_statewide": 9158,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           },
           {
             "candidate": "Ruth Peck",
             "official_total": 8855,
+            "official_statewide": 8855,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           }
         ],
         "county_count": 14,
         "coverage": "contest_totals",
         "multi_seat": true,
+        "result_basis": "candidate-votes",
         "notes": ""
       }
     },
@@ -2561,21 +4639,56 @@
           {
             "candidate": "Rosendo Gutierrez",
             "official_total": 6250,
+            "official_statewide": 6250,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           },
           {
             "candidate": "Chet Goldberg, Jr.",
             "official_total": 8326,
+            "official_statewide": 8326,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           }
         ],
         "county_count": 14,
         "coverage": "contest_totals",
         "multi_seat": true,
+        "result_basis": "candidate-votes",
         "notes": ""
       }
     },
@@ -2618,35 +4731,104 @@
           {
             "candidate": "Joseph E. Lawrence",
             "official_total": 5126,
+            "official_statewide": 5126,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           },
           {
             "candidate": "Robert B. Selman",
             "official_total": 4396,
+            "official_statewide": 4396,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           },
           {
             "candidate": "Stan Akers",
             "official_total": 9243,
+            "official_statewide": 9243,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           },
           {
             "candidate": "Timothy A. Barrow",
             "official_total": 10095,
+            "official_statewide": 10095,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           }
         ],
         "county_count": 14,
         "coverage": "contest_totals",
         "multi_seat": true,
+        "result_basis": "candidate-votes",
         "notes": ""
       }
     },
@@ -2677,21 +4859,56 @@
           {
             "candidate": "Bruce Wallace",
             "official_total": 5201,
+            "official_statewide": 5201,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           },
           {
             "candidate": "Bob Wilcox",
             "official_total": 9439,
+            "official_statewide": 9439,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           }
         ],
         "county_count": 14,
         "coverage": "contest_totals",
         "multi_seat": true,
+        "result_basis": "candidate-votes",
         "notes": ""
       }
     },
@@ -2728,28 +4945,80 @@
           {
             "candidate": "Bill Brown",
             "official_total": 4953,
+            "official_statewide": 4953,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           },
           {
             "candidate": "Davidson Jenks",
             "official_total": 9555,
+            "official_statewide": 9555,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           },
           {
             "candidate": "George J. Pale",
             "official_total": 9451,
+            "official_statewide": 9451,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           }
         ],
         "county_count": 14,
         "coverage": "contest_totals",
         "multi_seat": true,
+        "result_basis": "candidate-votes",
         "notes": ""
       }
     },
@@ -2774,14 +5043,32 @@
           {
             "candidate": "Ray A. Goetze",
             "official_total": 9963,
+            "official_statewide": 9963,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           }
         ],
         "county_count": 14,
         "coverage": "contest_totals",
         "multi_seat": true,
+        "result_basis": "candidate-votes",
         "notes": ""
       }
     },
@@ -2824,35 +5111,104 @@
           {
             "candidate": "Harry E. Craig",
             "official_total": 6669,
+            "official_statewide": 6669,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           },
           {
             "candidate": "M. C. Plummer",
             "official_total": 6156,
+            "official_statewide": 6156,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           },
           {
             "candidate": "Rex J. Farley",
             "official_total": 7586,
+            "official_statewide": 7586,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           },
           {
             "candidate": "Joseph Shaughnessy, Jr.",
             "official_total": 7983,
+            "official_statewide": 7983,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           }
         ],
         "county_count": 14,
         "coverage": "contest_totals",
         "multi_seat": true,
+        "result_basis": "candidate-votes",
         "notes": ""
       }
     },
@@ -2883,21 +5239,56 @@
           {
             "candidate": "George W. Peck",
             "official_total": 6243,
+            "official_statewide": 6243,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           },
           {
             "candidate": "Christopher T. Johnson",
             "official_total": 8436,
+            "official_statewide": 8436,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           }
         ],
         "county_count": 14,
         "coverage": "contest_totals",
         "multi_seat": true,
+        "result_basis": "candidate-votes",
         "notes": ""
       }
     },
@@ -2940,35 +5331,104 @@
           {
             "candidate": "Al Frantz",
             "official_total": 6055,
+            "official_statewide": 6055,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           },
           {
             "candidate": "J. R. Rickard",
             "official_total": 6279,
+            "official_statewide": 6279,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           },
           {
             "candidate": "J. H. Evenson",
             "official_total": 5842,
+            "official_statewide": 5842,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           },
           {
             "candidate": "Bess B. Stinson",
             "official_total": 6701,
+            "official_statewide": 6701,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           }
         ],
         "county_count": 14,
         "coverage": "contest_totals",
         "multi_seat": true,
+        "result_basis": "candidate-votes",
         "notes": ""
       }
     },
@@ -2999,21 +5459,56 @@
           {
             "candidate": "William T. Crowley",
             "official_total": 6548,
+            "official_statewide": 6548,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           },
           {
             "candidate": "George Klock",
             "official_total": 5929,
+            "official_statewide": 5929,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           }
         ],
         "county_count": 14,
         "coverage": "contest_totals",
         "multi_seat": true,
+        "result_basis": "candidate-votes",
         "notes": ""
       }
     },
@@ -3050,28 +5545,80 @@
           {
             "candidate": "Art Coppinger",
             "official_total": 7157,
+            "official_statewide": 7157,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           },
           {
             "candidate": "Manuel Pena",
             "official_total": 6720,
+            "official_statewide": 6720,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           },
           {
             "candidate": "William A. Herron",
             "official_total": 4275,
+            "official_statewide": 4275,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           }
         ],
         "county_count": 14,
         "coverage": "contest_totals",
         "multi_seat": true,
+        "result_basis": "candidate-votes",
         "notes": ""
       }
     },
@@ -3102,21 +5649,56 @@
           {
             "candidate": "Bob Stump",
             "official_total": 7706,
+            "official_statewide": 7706,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           },
           {
             "candidate": "A. J. LaSalvia",
             "official_total": 3327,
+            "official_statewide": 3327,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           }
         ],
         "county_count": 14,
         "coverage": "contest_totals",
         "multi_seat": true,
+        "result_basis": "candidate-votes",
         "notes": ""
       }
     },
@@ -3159,35 +5741,104 @@
           {
             "candidate": "J. Lee Henry",
             "official_total": 4640,
+            "official_statewide": 4640,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           },
           {
             "candidate": "Harold W. Smith",
             "official_total": 5901,
+            "official_statewide": 5901,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           },
           {
             "candidate": "Al Kluender",
             "official_total": 7239,
+            "official_statewide": 7239,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           },
           {
             "candidate": "Fred Koory, Jr.",
             "official_total": 6596,
+            "official_statewide": 6596,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           }
         ],
         "county_count": 14,
         "coverage": "contest_totals",
         "multi_seat": true,
+        "result_basis": "candidate-votes",
         "notes": ""
       }
     },
@@ -3224,28 +5875,80 @@
           {
             "candidate": "M. J. Brown",
             "official_total": 4833,
+            "official_statewide": 4833,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           },
           {
             "candidate": "Dan Halacy",
             "official_total": 6193,
+            "official_statewide": 6193,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           },
           {
             "candidate": "T. C. Rhodes",
             "official_total": 1819,
+            "official_statewide": 1819,
             "county_sum": null,
             "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
             "difference": null
           }
         ],
         "county_count": 14,
         "coverage": "contest_totals",
         "multi_seat": true,
+        "result_basis": "candidate-votes",
         "notes": ""
       }
     }

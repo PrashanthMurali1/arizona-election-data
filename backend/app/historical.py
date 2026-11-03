@@ -15,17 +15,17 @@ def groups(session):
 
 
 def archive_id(event, office):
-    return f'az-{event.year}-historical-{office}'
+    return f'az-{event.year}-historical-{office}' + ('-special' if event.kind == 'special' else '')
 
 
 def entry(session, event, office, contests):
     return dict(id=archive_id(event, office), year=event.year, date=event.date,
-        office_id=office, office=session.get(Office, office).name, kind=event.kind,
+        office_id=office, office='Territorial delegate to Congress' if office == 'us-house' and event.year < 1911 else session.get(Office, office).name, kind=event.kind,
         status='reported' if all(c.status in {'verified', 'reported'} for c in contests) else 'incomplete',
         notes='Official historical canvass. District results are separate contests; historical district maps are unavailable.',
         county_count=0, candidate_count=session.scalar(select(func.count()).select_from(Participation).where(Participation.contest_id.in_([c.id for c in contests]))),
         boundary_id=contests[0].boundary_id, district_count=len(contests),
-        selection_label=f'{event.year} General', district_label=None)
+        selection_label=f'{event.year} {event.kind.title()}', district_label=None)
 
 
 def catalog(session):
@@ -41,19 +41,24 @@ def overview(session, id):
         def district_key(c):
             label = session.get(GeographicUnit, c.jurisdiction_id).name.removeprefix('District ')
             parts = re.match(r'(\d+)(.*)', label)
-            return (int(parts[1]), parts[2])
+            return (0, int(parts[1]), parts[2]) if parts else (1, 0, label.casefold())
         rows = []
         for c in sorted(contests, key=district_key):
             unit = session.get(GeographicUnit, c.jurisdiction_id)
             run = session.scalar(select(ImportRun).where(ImportRun.contest_id == c.id).order_by(ImportRun.id.desc()))
             value = results(session, c, unit)
             # Neither chamber is assumed to have a single seat historically.
-            if office in {'state-house', 'state-senate'}:
+            if office in {'state-house', 'state-senate', 'president'} or (run and run.report.get('multi_seat')):
                 value.winner = None
             rows.append(dict(district=unit.name.removeprefix('District '), contest_id=c.id,
-                results=value, page=run.report.get('page') if run else None, notes=c.notes))
+                results=value, page=run.report.get('page') if run else None, notes=c.notes, source_id=c.source_id))
         source_ids = sorted({c.source_id for c in contests})
+        for c in contests:
+            run = session.scalar(select(ImportRun).where(ImportRun.contest_id == c.id).order_by(ImportRun.id.desc()))
+            if run:
+                source_ids = sorted(set(source_ids) | set(run.report.get('supplemental_source_ids', [])))
         return dict(election=entry(session, event, office, contests), contests=rows,
-            map_available=False, multi_seat=office in {'state-house', 'state-senate'},
+            map_available=False, multi_seat=office in {'state-house', 'state-senate', 'president'},
+            result_basis='presidential-electors' if office == 'president' else 'district-votes',
             sources=[SourceOut.model_validate(session.get(Source, sid), from_attributes=True) for sid in source_ids])
     raise HTTPException(404, 'Historical election archive not found')

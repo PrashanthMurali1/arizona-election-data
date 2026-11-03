@@ -95,6 +95,7 @@ class HistoricalContestOut(BaseModel):
     results: ResultsOut
     page: int | None
     notes: str
+    source_id: str | None = None
 
 
 class HistoricalOverviewOut(BaseModel):
@@ -103,6 +104,7 @@ class HistoricalOverviewOut(BaseModel):
     map_available: bool
     multi_seat: bool
     sources: list[SourceOut]
+    result_basis: str = 'district-votes'
 
 
 class GeometryOut(BaseModel):

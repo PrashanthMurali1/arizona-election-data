@@ -1,0 +1,7189 @@
+{
+  "year": 1958,
+  "date": "1958-11-04",
+  "kind": "general",
+  "source_sha256": "39c9bf1757b511b86e65f925c7cdd4a7e7cdfb7365c98d0c31c37c17c30ceed5",
+  "absent_offices": [
+    "president"
+  ],
+  "unresolved": [],
+  "contests": [
+    {
+      "office_id": "us-senate",
+      "district": null,
+      "page": 4,
+      "candidates": [
+        {
+          "name": "Ernest W. McFarland",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 129030,
+          "county_votes": {
+            "04001": 1140,
+            "04003": 5951,
+            "04005": 2576,
+            "04007": 4704,
+            "04009": 1918,
+            "04011": 2874,
+            "04013": 61351,
+            "04015": 1169,
+            "04017": 2557,
+            "04019": 28818,
+            "04021": 5927,
+            "04023": 1367,
+            "04025": 3623,
+            "04027": 5055
+          }
+        },
+        {
+          "name": "Barry Goldwater",
+          "party": "REP",
+          "write_in": false,
+          "votes": 164593,
+          "county_votes": {
+            "04001": 1396,
+            "04003": 6036,
+            "04005": 3853,
+            "04007": 3678,
+            "04009": 2326,
+            "04011": 1272,
+            "04013": 90942,
+            "04015": 1369,
+            "04017": 3451,
+            "04019": 32929,
+            "04021": 5210,
+            "04023": 1464,
+            "04025": 5737,
+            "04027": 4930
+          }
+        }
+      ],
+      "notes": "",
+      "contest_id": "az-1958-us-senate",
+      "reconciliation": {
+        "status": "verified",
+        "page": 4,
+        "district": null,
+        "candidates": [
+          {
+            "candidate": "Ernest W. McFarland",
+            "official_total": 129030,
+            "official_statewide": 129030,
+            "county_sum": 129030,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "Barry Goldwater",
+            "official_total": 164593,
+            "official_statewide": 164593,
+            "county_sum": 164593,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          }
+        ],
+        "county_count": 14,
+        "coverage": "county",
+        "multi_seat": false,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "us-house",
+      "district": "1",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "Joe Haldiman, Jr.",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 59816
+        },
+        {
+          "name": "John J. Rhodes",
+          "party": "REP",
+          "write_in": false,
+          "votes": 86959
+        }
+      ],
+      "notes": "",
+      "contest_id": "az-1958-historical-us-house-district-1",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "1",
+        "candidates": [
+          {
+            "candidate": "Joe Haldiman, Jr.",
+            "official_total": 59816,
+            "official_statewide": 59816,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "John J. Rhodes",
+            "official_total": 86959,
+            "official_statewide": 86959,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": false,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "us-house",
+      "district": "2",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "Stewart L. Udall",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 79651
+        },
+        {
+          "name": "John G. (Jack) Speiden",
+          "party": "REP",
+          "write_in": false,
+          "votes": 51140
+        }
+      ],
+      "notes": "",
+      "contest_id": "az-1958-historical-us-house-district-2",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "2",
+        "candidates": [
+          {
+            "candidate": "Stewart L. Udall",
+            "official_total": 79651,
+            "official_statewide": 79651,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "John G. (Jack) Speiden",
+            "official_total": 51140,
+            "official_statewide": 51140,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": false,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "governor",
+      "district": null,
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Robert Morrison",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 130329,
+          "county_votes": {
+            "04001": 1181,
+            "04003": 6210,
+            "04005": 2553,
+            "04007": 4730,
+            "04009": 1945,
+            "04011": 2923,
+            "04013": 59593,
+            "04015": 1227,
+            "04017": 2524,
+            "04019": 31306,
+            "04021": 5627,
+            "04023": 1739,
+            "04025": 3547,
+            "04027": 5224
+          }
+        },
+        {
+          "name": "Paul Fannin",
+          "party": "REP",
+          "write_in": false,
+          "votes": 160136,
+          "county_votes": {
+            "04001": 1309,
+            "04003": 5617,
+            "04005": 3802,
+            "04007": 3546,
+            "04009": 2238,
+            "04011": 1162,
+            "04013": 91712,
+            "04015": 1208,
+            "04017": 3404,
+            "04019": 29460,
+            "04021": 5261,
+            "04023": 1005,
+            "04025": 5751,
+            "04027": 4661
+          }
+        }
+      ],
+      "notes": "",
+      "contest_id": "az-1958-governor",
+      "reconciliation": {
+        "status": "verified",
+        "page": 5,
+        "district": null,
+        "candidates": [
+          {
+            "candidate": "Robert Morrison",
+            "official_total": 130329,
+            "official_statewide": 130329,
+            "county_sum": 130329,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "Paul Fannin",
+            "official_total": 160136,
+            "official_statewide": 160136,
+            "county_sum": 160136,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          }
+        ],
+        "county_count": 14,
+        "coverage": "county",
+        "multi_seat": false,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "secretary-of-state",
+      "district": null,
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Wesley Bolin",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 184855,
+          "county_votes": {
+            "04001": 1706,
+            "04003": 9120,
+            "04005": 4619,
+            "04007": 6667,
+            "04009": 2693,
+            "04011": 3536,
+            "04013": 89057,
+            "04015": 1880,
+            "04017": 4139,
+            "04019": 37003,
+            "04021": 8451,
+            "04023": 1923,
+            "04025": 6412,
+            "04027": 7649
+          }
+        }
+      ],
+      "notes": "",
+      "contest_id": "az-1958-secretary-of-state",
+      "reconciliation": {
+        "status": "verified",
+        "page": 5,
+        "district": null,
+        "candidates": [
+          {
+            "candidate": "Wesley Bolin",
+            "official_total": 184855,
+            "official_statewide": 184855,
+            "county_sum": 184855,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          }
+        ],
+        "county_count": 14,
+        "coverage": "county",
+        "multi_seat": false,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "attorney-general",
+      "district": null,
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Wade Church",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 153815,
+          "county_votes": {
+            "04001": 1426,
+            "04003": 7812,
+            "04005": 3471,
+            "04007": 5695,
+            "04009": 2543,
+            "04011": 3258,
+            "04013": 71424,
+            "04015": 1460,
+            "04017": 3281,
+            "04019": 33716,
+            "04021": 6966,
+            "04023": 1743,
+            "04025": 4647,
+            "04027": 6373
+          }
+        },
+        {
+          "name": "Laurens L. Henderson",
+          "party": "REP",
+          "write_in": false,
+          "votes": 122913,
+          "county_votes": {
+            "04001": 912,
+            "04003": 3322,
+            "04005": 2478,
+            "04007": 2191,
+            "04009": 1293,
+            "04011": 625,
+            "04013": 73589,
+            "04015": 770,
+            "04017": 2345,
+            "04019": 24126,
+            "04021": 3512,
+            "04023": 634,
+            "04025": 4071,
+            "04027": 3045
+          }
+        }
+      ],
+      "notes": "",
+      "contest_id": "az-1958-attorney-general",
+      "reconciliation": {
+        "status": "verified",
+        "page": 5,
+        "district": null,
+        "candidates": [
+          {
+            "candidate": "Wade Church",
+            "official_total": 153815,
+            "official_statewide": 153815,
+            "county_sum": 153815,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "Laurens L. Henderson",
+            "official_total": 122913,
+            "official_statewide": 122913,
+            "county_sum": 122913,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          }
+        ],
+        "county_count": 14,
+        "coverage": "county",
+        "multi_seat": false,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "Apache",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Melvin C. Greer",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 1712
+        },
+        {
+          "name": "Lynn Lockhart",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 1691
+        }
+      ],
+      "notes": "",
+      "contest_id": "az-1958-historical-state-senate-district-Apache",
+      "reconciliation": {
+        "status": "reported",
+        "page": 1,
+        "district": "Apache",
+        "candidates": [
+          {
+            "candidate": "Melvin C. Greer",
+            "official_total": 1712,
+            "official_statewide": 1712,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Lynn Lockhart",
+            "official_total": 1691,
+            "official_statewide": 1691,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "Apache",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "James S. Shreeve",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 1570
+        },
+        {
+          "name": "Sam Day III",
+          "party": "UNK",
+          "write_in": false,
+          "votes": 874
+        }
+      ],
+      "notes": "No party label is printed beside Sam Day III; no affiliation is inferred.",
+      "contest_id": "az-1958-historical-state-house-district-Apache",
+      "reconciliation": {
+        "status": "reported",
+        "page": 1,
+        "district": "Apache",
+        "candidates": [
+          {
+            "candidate": "James S. Shreeve",
+            "official_total": 1570,
+            "official_statewide": 1570,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Sam Day III",
+            "official_total": 874,
+            "official_statewide": 874,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": "No party label is printed beside Sam Day III; no affiliation is inferred."
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "Cochise",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Dan S. Kitchel",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 8750
+        },
+        {
+          "name": "A. R. Spikes",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 8754
+        }
+      ],
+      "notes": "",
+      "contest_id": "az-1958-historical-state-senate-district-Cochise",
+      "reconciliation": {
+        "status": "reported",
+        "page": 1,
+        "district": "Cochise",
+        "candidates": [
+          {
+            "candidate": "Dan S. Kitchel",
+            "official_total": 8750,
+            "official_statewide": 8750,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "A. R. Spikes",
+            "official_total": 8754,
+            "official_statewide": 8754,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "Cochise-1",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Clyde M. Dalton",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 2661
+        }
+      ],
+      "notes": "",
+      "contest_id": "az-1958-historical-state-house-district-Cochise-1",
+      "reconciliation": {
+        "status": "reported",
+        "page": 1,
+        "district": "Cochise-1",
+        "candidates": [
+          {
+            "candidate": "Clyde M. Dalton",
+            "official_total": 2661,
+            "official_statewide": 2661,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "Cochise-2",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Andrew J. (Jack) Gilbert",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 2898
+        }
+      ],
+      "notes": "",
+      "contest_id": "az-1958-historical-state-house-district-Cochise-2",
+      "reconciliation": {
+        "status": "reported",
+        "page": 1,
+        "district": "Cochise-2",
+        "candidates": [
+          {
+            "candidate": "Andrew J. (Jack) Gilbert",
+            "official_total": 2898,
+            "official_statewide": 2898,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "Cochise-3",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Charles O. Bloomquist",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 1808
+        }
+      ],
+      "notes": "",
+      "contest_id": "az-1958-historical-state-house-district-Cochise-3",
+      "reconciliation": {
+        "status": "reported",
+        "page": 1,
+        "district": "Cochise-3",
+        "candidates": [
+          {
+            "candidate": "Charles O. Bloomquist",
+            "official_total": 1808,
+            "official_statewide": 1808,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "Cochise-4",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "W. L. (Tay) Cook",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 2082
+        }
+      ],
+      "notes": "",
+      "contest_id": "az-1958-historical-state-house-district-Cochise-4",
+      "reconciliation": {
+        "status": "reported",
+        "page": 1,
+        "district": "Cochise-4",
+        "candidates": [
+          {
+            "candidate": "W. L. (Tay) Cook",
+            "official_total": 2082,
+            "official_statewide": 2082,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "Coconino",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Robert W. Prochnow",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 4940
+        },
+        {
+          "name": "Fred F. Udine",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 4299
+        }
+      ],
+      "notes": "",
+      "contest_id": "az-1958-historical-state-senate-district-Coconino",
+      "reconciliation": {
+        "status": "reported",
+        "page": 1,
+        "district": "Coconino",
+        "candidates": [
+          {
+            "candidate": "Robert W. Prochnow",
+            "official_total": 4940,
+            "official_statewide": 4940,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Fred F. Udine",
+            "official_total": 4299,
+            "official_statewide": 4299,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "Coconino-1",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Thomas M. (Tommy) Knoles, Jr.",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 2754
+        }
+      ],
+      "notes": "",
+      "contest_id": "az-1958-historical-state-house-district-Coconino-1",
+      "reconciliation": {
+        "status": "reported",
+        "page": 1,
+        "district": "Coconino-1",
+        "candidates": [
+          {
+            "candidate": "Thomas M. (Tommy) Knoles, Jr.",
+            "official_total": 2754,
+            "official_statewide": 2754,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "Coconino-2",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Harold Scudder",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 2028
+        }
+      ],
+      "notes": "",
+      "contest_id": "az-1958-historical-state-house-district-Coconino-2",
+      "reconciliation": {
+        "status": "reported",
+        "page": 1,
+        "district": "Coconino-2",
+        "candidates": [
+          {
+            "candidate": "Harold Scudder",
+            "official_total": 2028,
+            "official_statewide": 2028,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "Gila",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Clarence L. Carpenter",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 6557
+        },
+        {
+          "name": "William A. Sullivan",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 6334
+        }
+      ],
+      "notes": "",
+      "contest_id": "az-1958-historical-state-senate-district-Gila",
+      "reconciliation": {
+        "status": "reported",
+        "page": 1,
+        "district": "Gila",
+        "candidates": [
+          {
+            "candidate": "Clarence L. Carpenter",
+            "official_total": 6557,
+            "official_statewide": 6557,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "William A. Sullivan",
+            "official_total": 6334,
+            "official_statewide": 6334,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "Gila-1",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "R. E. (Arky) Burnham",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 1993
+        }
+      ],
+      "notes": "",
+      "contest_id": "az-1958-historical-state-house-district-Gila-1",
+      "reconciliation": {
+        "status": "reported",
+        "page": 1,
+        "district": "Gila-1",
+        "candidates": [
+          {
+            "candidate": "R. E. (Arky) Burnham",
+            "official_total": 1993,
+            "official_statewide": 1993,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "Gila-2",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Nelson D. Brayton",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 1695
+        }
+      ],
+      "notes": "",
+      "contest_id": "az-1958-historical-state-house-district-Gila-2",
+      "reconciliation": {
+        "status": "reported",
+        "page": 1,
+        "district": "Gila-2",
+        "candidates": [
+          {
+            "candidate": "Nelson D. Brayton",
+            "official_total": 1695,
+            "official_statewide": 1695,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "Gila-3",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Edwynne C. (Polly) Rosenbaum",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 3043
+        }
+      ],
+      "notes": "",
+      "contest_id": "az-1958-historical-state-house-district-Gila-3",
+      "reconciliation": {
+        "status": "reported",
+        "page": 1,
+        "district": "Gila-3",
+        "candidates": [
+          {
+            "candidate": "Edwynne C. (Polly) Rosenbaum",
+            "official_total": 3043,
+            "official_statewide": 3043,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "Graham",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "John Mickelson",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 2901
+        },
+        {
+          "name": "Jim Smith",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 2649
+        }
+      ],
+      "notes": "",
+      "contest_id": "az-1958-historical-state-senate-district-Graham",
+      "reconciliation": {
+        "status": "reported",
+        "page": 1,
+        "district": "Graham",
+        "candidates": [
+          {
+            "candidate": "John Mickelson",
+            "official_total": 2901,
+            "official_statewide": 2901,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Jim Smith",
+            "official_total": 2649,
+            "official_statewide": 2649,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "Graham-1",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "E. L. Tidwell",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 2058
+        }
+      ],
+      "notes": "",
+      "contest_id": "az-1958-historical-state-house-district-Graham-1",
+      "reconciliation": {
+        "status": "reported",
+        "page": 1,
+        "district": "Graham-1",
+        "candidates": [
+          {
+            "candidate": "E. L. Tidwell",
+            "official_total": 2058,
+            "official_statewide": 2058,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "Graham-2",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Milton Lines",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 797
+        }
+      ],
+      "notes": "",
+      "contest_id": "az-1958-historical-state-house-district-Graham-2",
+      "reconciliation": {
+        "status": "reported",
+        "page": 1,
+        "district": "Graham-2",
+        "candidates": [
+          {
+            "candidate": "Milton Lines",
+            "official_total": 797,
+            "official_statewide": 797,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "Greenlee",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Carl Gale",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 3398
+        },
+        {
+          "name": "M. L. (Marshall) Simms",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 3589
+        }
+      ],
+      "notes": "",
+      "contest_id": "az-1958-historical-state-senate-district-Greenlee",
+      "reconciliation": {
+        "status": "reported",
+        "page": 1,
+        "district": "Greenlee",
+        "candidates": [
+          {
+            "candidate": "Carl Gale",
+            "official_total": 3398,
+            "official_statewide": 3398,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "M. L. (Marshall) Simms",
+            "official_total": 3589,
+            "official_statewide": 3589,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "Greenlee-1",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Tom W. Berry",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 1645
+        }
+      ],
+      "notes": "",
+      "contest_id": "az-1958-historical-state-house-district-Greenlee-1",
+      "reconciliation": {
+        "status": "reported",
+        "page": 1,
+        "district": "Greenlee-1",
+        "candidates": [
+          {
+            "candidate": "Tom W. Berry",
+            "official_total": 1645,
+            "official_statewide": 1645,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "Greenlee-2",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "G. O. (Sonny) Biles",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 2010
+        }
+      ],
+      "notes": "",
+      "contest_id": "az-1958-historical-state-house-district-Greenlee-2",
+      "reconciliation": {
+        "status": "reported",
+        "page": 1,
+        "district": "Greenlee-2",
+        "candidates": [
+          {
+            "candidate": "G. O. (Sonny) Biles",
+            "official_total": 2010,
+            "official_statewide": 2010,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "Maricopa",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Hilliard T. Brooke",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 71508
+        },
+        {
+          "name": "Frank G. Murphy",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 74683
+        },
+        {
+          "name": "Charles H. Garland",
+          "party": "REP",
+          "write_in": false,
+          "votes": 64735
+        },
+        {
+          "name": "Wm. R. Pyper",
+          "party": "REP",
+          "write_in": false,
+          "votes": 61682
+        }
+      ],
+      "notes": "",
+      "contest_id": "az-1958-historical-state-senate-district-Maricopa",
+      "reconciliation": {
+        "status": "reported",
+        "page": 1,
+        "district": "Maricopa",
+        "candidates": [
+          {
+            "candidate": "Hilliard T. Brooke",
+            "official_total": 71508,
+            "official_statewide": 71508,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Frank G. Murphy",
+            "official_total": 74683,
+            "official_statewide": 74683,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Charles H. Garland",
+            "official_total": 64735,
+            "official_statewide": 64735,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Wm. R. Pyper",
+            "official_total": 61682,
+            "official_statewide": 61682,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "Maricopa-1",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Jack Adam",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 1628
+        },
+        {
+          "name": "Marshall Humphrey",
+          "party": "REP",
+          "write_in": false,
+          "votes": 2304
+        }
+      ],
+      "notes": "",
+      "contest_id": "az-1958-historical-state-house-district-Maricopa-1",
+      "reconciliation": {
+        "status": "reported",
+        "page": 1,
+        "district": "Maricopa-1",
+        "candidates": [
+          {
+            "candidate": "Jack Adam",
+            "official_total": 1628,
+            "official_statewide": 1628,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Marshall Humphrey",
+            "official_total": 2304,
+            "official_statewide": 2304,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "Maricopa-2",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Orin C. Fuller",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 1466
+        },
+        {
+          "name": "Wm. S. Porter",
+          "party": "REP",
+          "write_in": false,
+          "votes": 2613
+        }
+      ],
+      "notes": "",
+      "contest_id": "az-1958-historical-state-house-district-Maricopa-2",
+      "reconciliation": {
+        "status": "reported",
+        "page": 1,
+        "district": "Maricopa-2",
+        "candidates": [
+          {
+            "candidate": "Orin C. Fuller",
+            "official_total": 1466,
+            "official_statewide": 1466,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Wm. S. Porter",
+            "official_total": 2613,
+            "official_statewide": 2613,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "Maricopa-3",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Wayne C. Pomeroy",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 2019
+        },
+        {
+          "name": "Waldo L. DeWitt",
+          "party": "REP",
+          "write_in": false,
+          "votes": 2066
+        }
+      ],
+      "notes": "",
+      "contest_id": "az-1958-historical-state-house-district-Maricopa-3",
+      "reconciliation": {
+        "status": "reported",
+        "page": 1,
+        "district": "Maricopa-3",
+        "candidates": [
+          {
+            "candidate": "Wayne C. Pomeroy",
+            "official_total": 2019,
+            "official_statewide": 2019,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Waldo L. DeWitt",
+            "official_total": 2066,
+            "official_statewide": 2066,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "Maricopa-4",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "J. O. Grimes",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 2458
+        },
+        {
+          "name": "John E. Wiley",
+          "party": "REP",
+          "write_in": false,
+          "votes": 1494
+        }
+      ],
+      "notes": "",
+      "contest_id": "az-1958-historical-state-house-district-Maricopa-4",
+      "reconciliation": {
+        "status": "reported",
+        "page": 1,
+        "district": "Maricopa-4",
+        "candidates": [
+          {
+            "candidate": "J. O. Grimes",
+            "official_total": 2458,
+            "official_statewide": 2458,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "John E. Wiley",
+            "official_total": 1494,
+            "official_statewide": 1494,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "Maricopa-5",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Elmer C. King",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 2630
+        },
+        {
+          "name": "Sarah E. Crowder",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 1307
+        }
+      ],
+      "notes": "",
+      "contest_id": "az-1958-historical-state-house-district-Maricopa-5",
+      "reconciliation": {
+        "status": "reported",
+        "page": 1,
+        "district": "Maricopa-5",
+        "candidates": [
+          {
+            "candidate": "Elmer C. King",
+            "official_total": 2630,
+            "official_statewide": 2630,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Sarah E. Crowder",
+            "official_total": 1307,
+            "official_statewide": 1307,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "Maricopa-6",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Carl Austin",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 2501
+        },
+        {
+          "name": "Mabel E. Pinyan",
+          "party": "REP",
+          "write_in": false,
+          "votes": 1066
+        }
+      ],
+      "notes": "",
+      "contest_id": "az-1958-historical-state-house-district-Maricopa-6",
+      "reconciliation": {
+        "status": "reported",
+        "page": 1,
+        "district": "Maricopa-6",
+        "candidates": [
+          {
+            "candidate": "Carl Austin",
+            "official_total": 2501,
+            "official_statewide": 2501,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Mabel E. Pinyan",
+            "official_total": 1066,
+            "official_statewide": 1066,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "Maricopa-7",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Bob Stump",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 2566
+        },
+        {
+          "name": "Mort Brayer",
+          "party": "REP",
+          "write_in": false,
+          "votes": 878
+        }
+      ],
+      "notes": "",
+      "contest_id": "az-1958-historical-state-house-district-Maricopa-7",
+      "reconciliation": {
+        "status": "reported",
+        "page": 1,
+        "district": "Maricopa-7",
+        "candidates": [
+          {
+            "candidate": "Bob Stump",
+            "official_total": 2566,
+            "official_statewide": 2566,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Mort Brayer",
+            "official_total": 878,
+            "official_statewide": 878,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "Maricopa-8",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Carl Sims, Sr.",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 2491
+        }
+      ],
+      "notes": "",
+      "contest_id": "az-1958-historical-state-house-district-Maricopa-8",
+      "reconciliation": {
+        "status": "reported",
+        "page": 1,
+        "district": "Maricopa-8",
+        "candidates": [
+          {
+            "candidate": "Carl Sims, Sr.",
+            "official_total": 2491,
+            "official_statewide": 2491,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "Maricopa-9",
+      "page": 2,
+      "candidates": [
+        {
+          "name": "Sidney Kartus",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 2354
+        }
+      ],
+      "notes": "",
+      "contest_id": "az-1958-historical-state-house-district-Maricopa-9",
+      "reconciliation": {
+        "status": "reported",
+        "page": 2,
+        "district": "Maricopa-9",
+        "candidates": [
+          {
+            "candidate": "Sidney Kartus",
+            "official_total": 2354,
+            "official_statewide": 2354,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "Maricopa-10",
+      "page": 2,
+      "candidates": [
+        {
+          "name": "Martin P. Toscano",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 2550
+        }
+      ],
+      "notes": "",
+      "contest_id": "az-1958-historical-state-house-district-Maricopa-10",
+      "reconciliation": {
+        "status": "reported",
+        "page": 2,
+        "district": "Maricopa-10",
+        "candidates": [
+          {
+            "candidate": "Martin P. Toscano",
+            "official_total": 2550,
+            "official_statewide": 2550,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "Maricopa-11",
+      "page": 2,
+      "candidates": [
+        {
+          "name": "Frank Bowman",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 2561
+        },
+        {
+          "name": "C. W. Myers",
+          "party": "REP",
+          "write_in": false,
+          "votes": 2486
+        }
+      ],
+      "notes": "",
+      "contest_id": "az-1958-historical-state-house-district-Maricopa-11",
+      "reconciliation": {
+        "status": "reported",
+        "page": 2,
+        "district": "Maricopa-11",
+        "candidates": [
+          {
+            "candidate": "Frank Bowman",
+            "official_total": 2561,
+            "official_statewide": 2561,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "C. W. Myers",
+            "official_total": 2486,
+            "official_statewide": 2486,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "Maricopa-12",
+      "page": 2,
+      "candidates": [
+        {
+          "name": "Sherman R. Dent",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 3007
+        },
+        {
+          "name": "Theodore Cogswell",
+          "party": "REP",
+          "write_in": false,
+          "votes": 1683
+        }
+      ],
+      "notes": "",
+      "contest_id": "az-1958-historical-state-house-district-Maricopa-12",
+      "reconciliation": {
+        "status": "reported",
+        "page": 2,
+        "district": "Maricopa-12",
+        "candidates": [
+          {
+            "candidate": "Sherman R. Dent",
+            "official_total": 3007,
+            "official_statewide": 3007,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Theodore Cogswell",
+            "official_total": 1683,
+            "official_statewide": 1683,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "Maricopa-13",
+      "page": 2,
+      "candidates": [
+        {
+          "name": "Conrad James Carreon",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 1740
+        }
+      ],
+      "notes": "",
+      "contest_id": "az-1958-historical-state-house-district-Maricopa-13",
+      "reconciliation": {
+        "status": "reported",
+        "page": 2,
+        "district": "Maricopa-13",
+        "candidates": [
+          {
+            "candidate": "Conrad James Carreon",
+            "official_total": 1740,
+            "official_statewide": 1740,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "Maricopa-14",
+      "page": 2,
+      "candidates": [
+        {
+          "name": "Marie S. Earle",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 2001
+        }
+      ],
+      "notes": "",
+      "contest_id": "az-1958-historical-state-house-district-Maricopa-14",
+      "reconciliation": {
+        "status": "reported",
+        "page": 2,
+        "district": "Maricopa-14",
+        "candidates": [
+          {
+            "candidate": "Marie S. Earle",
+            "official_total": 2001,
+            "official_statewide": 2001,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "Maricopa-15",
+      "page": 2,
+      "candidates": [
+        {
+          "name": "Harry S. Ruppelius",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 1635
+        },
+        {
+          "name": "Gerry Eliot",
+          "party": "REP",
+          "write_in": false,
+          "votes": 2036
+        }
+      ],
+      "notes": "",
+      "contest_id": "az-1958-historical-state-house-district-Maricopa-15",
+      "reconciliation": {
+        "status": "reported",
+        "page": 2,
+        "district": "Maricopa-15",
+        "candidates": [
+          {
+            "candidate": "Harry S. Ruppelius",
+            "official_total": 1635,
+            "official_statewide": 1635,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Gerry Eliot",
+            "official_total": 2036,
+            "official_statewide": 2036,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "Maricopa-16",
+      "page": 2,
+      "candidates": [
+        {
+          "name": "Jack E. Gardner",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 2274
+        }
+      ],
+      "notes": "",
+      "contest_id": "az-1958-historical-state-house-district-Maricopa-16",
+      "reconciliation": {
+        "status": "reported",
+        "page": 2,
+        "district": "Maricopa-16",
+        "candidates": [
+          {
+            "candidate": "Jack E. Gardner",
+            "official_total": 2274,
+            "official_statewide": 2274,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "Maricopa-17",
+      "page": 2,
+      "candidates": [
+        {
+          "name": "S. Earl Pugh",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 4376
+        }
+      ],
+      "notes": "",
+      "contest_id": "az-1958-historical-state-house-district-Maricopa-17",
+      "reconciliation": {
+        "status": "reported",
+        "page": 2,
+        "district": "Maricopa-17",
+        "candidates": [
+          {
+            "candidate": "S. Earl Pugh",
+            "official_total": 4376,
+            "official_statewide": 4376,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "Maricopa-18",
+      "page": 2,
+      "candidates": [
+        {
+          "name": "Willis D. Oldham",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 1530
+        },
+        {
+          "name": "Robert L. Myers",
+          "party": "REP",
+          "write_in": false,
+          "votes": 2059
+        }
+      ],
+      "notes": "",
+      "contest_id": "az-1958-historical-state-house-district-Maricopa-18",
+      "reconciliation": {
+        "status": "reported",
+        "page": 2,
+        "district": "Maricopa-18",
+        "candidates": [
+          {
+            "candidate": "Willis D. Oldham",
+            "official_total": 1530,
+            "official_statewide": 1530,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Robert L. Myers",
+            "official_total": 2059,
+            "official_statewide": 2059,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "Maricopa-19",
+      "page": 2,
+      "candidates": [
+        {
+          "name": "Del J. Rogers",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 1706
+        },
+        {
+          "name": "Emogene Jennings",
+          "party": "REP",
+          "write_in": false,
+          "votes": 1912
+        }
+      ],
+      "notes": "",
+      "contest_id": "az-1958-historical-state-house-district-Maricopa-19",
+      "reconciliation": {
+        "status": "reported",
+        "page": 2,
+        "district": "Maricopa-19",
+        "candidates": [
+          {
+            "candidate": "Del J. Rogers",
+            "official_total": 1706,
+            "official_statewide": 1706,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Emogene Jennings",
+            "official_total": 1912,
+            "official_statewide": 1912,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "Maricopa-20",
+      "page": 2,
+      "candidates": [
+        {
+          "name": "Wm. F. Vipperman, Jr.",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 1964
+        }
+      ],
+      "notes": "",
+      "contest_id": "az-1958-historical-state-house-district-Maricopa-20",
+      "reconciliation": {
+        "status": "reported",
+        "page": 2,
+        "district": "Maricopa-20",
+        "candidates": [
+          {
+            "candidate": "Wm. F. Vipperman, Jr.",
+            "official_total": 1964,
+            "official_statewide": 1964,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "Maricopa-21",
+      "page": 2,
+      "candidates": [
+        {
+          "name": "Henry A. Church III",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 1650
+        },
+        {
+          "name": "Don Reese",
+          "party": "REP",
+          "write_in": false,
+          "votes": 4214
+        }
+      ],
+      "notes": "",
+      "contest_id": "az-1958-historical-state-house-district-Maricopa-21",
+      "reconciliation": {
+        "status": "reported",
+        "page": 2,
+        "district": "Maricopa-21",
+        "candidates": [
+          {
+            "candidate": "Henry A. Church III",
+            "official_total": 1650,
+            "official_statewide": 1650,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Don Reese",
+            "official_total": 4214,
+            "official_statewide": 4214,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "Maricopa-22",
+      "page": 2,
+      "candidates": [
+        {
+          "name": "Charles L. Scott",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 1519
+        },
+        {
+          "name": "Elmer T. Burson",
+          "party": "REP",
+          "write_in": false,
+          "votes": 2507
+        }
+      ],
+      "notes": "",
+      "contest_id": "az-1958-historical-state-house-district-Maricopa-22",
+      "reconciliation": {
+        "status": "reported",
+        "page": 2,
+        "district": "Maricopa-22",
+        "candidates": [
+          {
+            "candidate": "Charles L. Scott",
+            "official_total": 1519,
+            "official_statewide": 1519,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Elmer T. Burson",
+            "official_total": 2507,
+            "official_statewide": 2507,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "Maricopa-23",
+      "page": 2,
+      "candidates": [
+        {
+          "name": "J. C. Bennett",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 1751
+        },
+        {
+          "name": "W. I. Lowry",
+          "party": "REP",
+          "write_in": false,
+          "votes": 1774
+        }
+      ],
+      "notes": "",
+      "contest_id": "az-1958-historical-state-house-district-Maricopa-23",
+      "reconciliation": {
+        "status": "reported",
+        "page": 2,
+        "district": "Maricopa-23",
+        "candidates": [
+          {
+            "candidate": "J. C. Bennett",
+            "official_total": 1751,
+            "official_statewide": 1751,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "W. I. Lowry",
+            "official_total": 1774,
+            "official_statewide": 1774,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "Maricopa-24",
+      "page": 2,
+      "candidates": [
+        {
+          "name": "Ted Mote",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 1522
+        },
+        {
+          "name": "Ruth Peck",
+          "party": "REP",
+          "write_in": false,
+          "votes": 2095
+        }
+      ],
+      "notes": "",
+      "contest_id": "az-1958-historical-state-house-district-Maricopa-24",
+      "reconciliation": {
+        "status": "reported",
+        "page": 2,
+        "district": "Maricopa-24",
+        "candidates": [
+          {
+            "candidate": "Ted Mote",
+            "official_total": 1522,
+            "official_statewide": 1522,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Ruth Peck",
+            "official_total": 2095,
+            "official_statewide": 2095,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "Maricopa-25",
+      "page": 2,
+      "candidates": [
+        {
+          "name": "George S. Sebestyen",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 1468
+        },
+        {
+          "name": "Chet Goldberg, Jr.",
+          "party": "REP",
+          "write_in": false,
+          "votes": 2189
+        }
+      ],
+      "notes": "",
+      "contest_id": "az-1958-historical-state-house-district-Maricopa-25",
+      "reconciliation": {
+        "status": "reported",
+        "page": 2,
+        "district": "Maricopa-25",
+        "candidates": [
+          {
+            "candidate": "George S. Sebestyen",
+            "official_total": 1468,
+            "official_statewide": 1468,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Chet Goldberg, Jr.",
+            "official_total": 2189,
+            "official_statewide": 2189,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "Maricopa-26",
+      "page": 2,
+      "candidates": [
+        {
+          "name": "Don L. Riggs",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 1586
+        },
+        {
+          "name": "Robert Brewer",
+          "party": "REP",
+          "write_in": false,
+          "votes": 1932
+        }
+      ],
+      "notes": "",
+      "contest_id": "az-1958-historical-state-house-district-Maricopa-26",
+      "reconciliation": {
+        "status": "reported",
+        "page": 2,
+        "district": "Maricopa-26",
+        "candidates": [
+          {
+            "candidate": "Don L. Riggs",
+            "official_total": 1586,
+            "official_statewide": 1586,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Robert Brewer",
+            "official_total": 1932,
+            "official_statewide": 1932,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "Maricopa-27",
+      "page": 2,
+      "candidates": [
+        {
+          "name": "Charles H. Oatman",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 2021
+        },
+        {
+          "name": "Ruth C. Kuntz",
+          "party": "REP",
+          "write_in": false,
+          "votes": 1647
+        }
+      ],
+      "notes": "",
+      "contest_id": "az-1958-historical-state-house-district-Maricopa-27",
+      "reconciliation": {
+        "status": "reported",
+        "page": 2,
+        "district": "Maricopa-27",
+        "candidates": [
+          {
+            "candidate": "Charles H. Oatman",
+            "official_total": 2021,
+            "official_statewide": 2021,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Ruth C. Kuntz",
+            "official_total": 1647,
+            "official_statewide": 1647,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "Maricopa-28",
+      "page": 2,
+      "candidates": [
+        {
+          "name": "Bill Stephens",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 3181
+        }
+      ],
+      "notes": "",
+      "contest_id": "az-1958-historical-state-house-district-Maricopa-28",
+      "reconciliation": {
+        "status": "reported",
+        "page": 2,
+        "district": "Maricopa-28",
+        "candidates": [
+          {
+            "candidate": "Bill Stephens",
+            "official_total": 3181,
+            "official_statewide": 3181,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "Maricopa-29",
+      "page": 2,
+      "candidates": [
+        {
+          "name": "John C. Hughes",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 1601
+        },
+        {
+          "name": "Priscilla H. Hays",
+          "party": "REP",
+          "write_in": false,
+          "votes": 1725
+        }
+      ],
+      "notes": "",
+      "contest_id": "az-1958-historical-state-house-district-Maricopa-29",
+      "reconciliation": {
+        "status": "reported",
+        "page": 2,
+        "district": "Maricopa-29",
+        "candidates": [
+          {
+            "candidate": "John C. Hughes",
+            "official_total": 1601,
+            "official_statewide": 1601,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Priscilla H. Hays",
+            "official_total": 1725,
+            "official_statewide": 1725,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "Maricopa-30",
+      "page": 2,
+      "candidates": [
+        {
+          "name": "Barney Blazina",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 1564
+        },
+        {
+          "name": "F. A. Higgins",
+          "party": "REP",
+          "write_in": false,
+          "votes": 2087
+        }
+      ],
+      "notes": "",
+      "contest_id": "az-1958-historical-state-house-district-Maricopa-30",
+      "reconciliation": {
+        "status": "reported",
+        "page": 2,
+        "district": "Maricopa-30",
+        "candidates": [
+          {
+            "candidate": "Barney Blazina",
+            "official_total": 1564,
+            "official_statewide": 1564,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "F. A. Higgins",
+            "official_total": 2087,
+            "official_statewide": 2087,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "Maricopa-31",
+      "page": 2,
+      "candidates": [
+        {
+          "name": "Wing F. Ong",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 2155
+        },
+        {
+          "name": "David H. Campbell",
+          "party": "REP",
+          "write_in": false,
+          "votes": 3596
+        }
+      ],
+      "notes": "",
+      "contest_id": "az-1958-historical-state-house-district-Maricopa-31",
+      "reconciliation": {
+        "status": "reported",
+        "page": 2,
+        "district": "Maricopa-31",
+        "candidates": [
+          {
+            "candidate": "Wing F. Ong",
+            "official_total": 2155,
+            "official_statewide": 2155,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "David H. Campbell",
+            "official_total": 3596,
+            "official_statewide": 3596,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "Maricopa-32",
+      "page": 2,
+      "candidates": [
+        {
+          "name": "Richard E. Brand",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 985
+        },
+        {
+          "name": "Arthur B. Schellenberg",
+          "party": "REP",
+          "write_in": false,
+          "votes": 2575
+        }
+      ],
+      "notes": "",
+      "contest_id": "az-1958-historical-state-house-district-Maricopa-32",
+      "reconciliation": {
+        "status": "reported",
+        "page": 2,
+        "district": "Maricopa-32",
+        "candidates": [
+          {
+            "candidate": "Richard E. Brand",
+            "official_total": 985,
+            "official_statewide": 985,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Arthur B. Schellenberg",
+            "official_total": 2575,
+            "official_statewide": 2575,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "Maricopa-33",
+      "page": 2,
+      "candidates": [
+        {
+          "name": "Merle E. Hays",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 2192
+        },
+        {
+          "name": "L. W. Hacker",
+          "party": "REP",
+          "write_in": false,
+          "votes": 1933
+        }
+      ],
+      "notes": "",
+      "contest_id": "az-1958-historical-state-house-district-Maricopa-33",
+      "reconciliation": {
+        "status": "reported",
+        "page": 2,
+        "district": "Maricopa-33",
+        "candidates": [
+          {
+            "candidate": "Merle E. Hays",
+            "official_total": 2192,
+            "official_statewide": 2192,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "L. W. Hacker",
+            "official_total": 1933,
+            "official_statewide": 1933,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "Maricopa-34",
+      "page": 2,
+      "candidates": [
+        {
+          "name": "David L. Jones",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 2054
+        },
+        {
+          "name": "Gene B. McClellan",
+          "party": "REP",
+          "write_in": false,
+          "votes": 2584
+        }
+      ],
+      "notes": "",
+      "contest_id": "az-1958-historical-state-house-district-Maricopa-34",
+      "reconciliation": {
+        "status": "reported",
+        "page": 2,
+        "district": "Maricopa-34",
+        "candidates": [
+          {
+            "candidate": "David L. Jones",
+            "official_total": 2054,
+            "official_statewide": 2054,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Gene B. McClellan",
+            "official_total": 2584,
+            "official_statewide": 2584,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "Maricopa-35",
+      "page": 2,
+      "candidates": [
+        {
+          "name": "W. B. Barkley",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 2374
+        },
+        {
+          "name": "Edna M. Meyers",
+          "party": "REP",
+          "write_in": false,
+          "votes": 1188
+        }
+      ],
+      "notes": "",
+      "contest_id": "az-1958-historical-state-house-district-Maricopa-35",
+      "reconciliation": {
+        "status": "reported",
+        "page": 2,
+        "district": "Maricopa-35",
+        "candidates": [
+          {
+            "candidate": "W. B. Barkley",
+            "official_total": 2374,
+            "official_statewide": 2374,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Edna M. Meyers",
+            "official_total": 1188,
+            "official_statewide": 1188,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "Maricopa-36",
+      "page": 2,
+      "candidates": [
+        {
+          "name": "Lewis B. Brankamp",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 1789
+        },
+        {
+          "name": "W. K. McElhaney",
+          "party": "REP",
+          "write_in": false,
+          "votes": 1554
+        }
+      ],
+      "notes": "",
+      "contest_id": "az-1958-historical-state-house-district-Maricopa-36",
+      "reconciliation": {
+        "status": "reported",
+        "page": 2,
+        "district": "Maricopa-36",
+        "candidates": [
+          {
+            "candidate": "Lewis B. Brankamp",
+            "official_total": 1789,
+            "official_statewide": 1789,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "W. K. McElhaney",
+            "official_total": 1554,
+            "official_statewide": 1554,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "Maricopa-37",
+      "page": 2,
+      "candidates": [
+        {
+          "name": "T. C. Rhodes",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 2797
+        }
+      ],
+      "notes": "",
+      "contest_id": "az-1958-historical-state-house-district-Maricopa-37",
+      "reconciliation": {
+        "status": "reported",
+        "page": 2,
+        "district": "Maricopa-37",
+        "candidates": [
+          {
+            "candidate": "T. C. Rhodes",
+            "official_total": 2797,
+            "official_statewide": 2797,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "Mohave",
+      "page": 2,
+      "candidates": [
+        {
+          "name": "C. Clyde Bollinger",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 1763
+        },
+        {
+          "name": "Robert Morrow",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 1774
+        },
+        {
+          "name": "Ben R. Joy",
+          "party": "REP",
+          "write_in": false,
+          "votes": 715
+        }
+      ],
+      "notes": "",
+      "contest_id": "az-1958-historical-state-senate-district-Mohave",
+      "reconciliation": {
+        "status": "reported",
+        "page": 2,
+        "district": "Mohave",
+        "candidates": [
+          {
+            "candidate": "C. Clyde Bollinger",
+            "official_total": 1763,
+            "official_statewide": 1763,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Robert Morrow",
+            "official_total": 1774,
+            "official_statewide": 1774,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Ben R. Joy",
+            "official_total": 715,
+            "official_statewide": 715,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "Mohave",
+      "page": 2,
+      "candidates": [
+        {
+          "name": "J. J. Glancy",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 2030
+        }
+      ],
+      "notes": "",
+      "contest_id": "az-1958-historical-state-house-district-Mohave",
+      "reconciliation": {
+        "status": "reported",
+        "page": 2,
+        "district": "Mohave",
+        "candidates": [
+          {
+            "candidate": "J. J. Glancy",
+            "official_total": 2030,
+            "official_statewide": 2030,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "Navajo",
+      "page": 2,
+      "candidates": [
+        {
+          "name": "Glenn Blansett",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 3458
+        },
+        {
+          "name": "J. Morris Richards",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 3217
+        },
+        {
+          "name": "William R. Bourdon",
+          "party": "REP",
+          "write_in": false,
+          "votes": 2869
+        }
+      ],
+      "notes": "",
+      "contest_id": "az-1958-historical-state-senate-district-Navajo",
+      "reconciliation": {
+        "status": "reported",
+        "page": 2,
+        "district": "Navajo",
+        "candidates": [
+          {
+            "candidate": "Glenn Blansett",
+            "official_total": 3458,
+            "official_statewide": 3458,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "J. Morris Richards",
+            "official_total": 3217,
+            "official_statewide": 3217,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "William R. Bourdon",
+            "official_total": 2869,
+            "official_statewide": 2869,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "Navajo-1",
+      "page": 2,
+      "candidates": [
+        {
+          "name": "A. Belton Palmer",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 1424
+        },
+        {
+          "name": "Augusta T. Larson",
+          "party": "REP",
+          "write_in": false,
+          "votes": 1935
+        }
+      ],
+      "notes": "",
+      "contest_id": "az-1958-historical-state-house-district-Navajo-1",
+      "reconciliation": {
+        "status": "reported",
+        "page": 2,
+        "district": "Navajo-1",
+        "candidates": [
+          {
+            "candidate": "A. Belton Palmer",
+            "official_total": 1424,
+            "official_statewide": 1424,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Augusta T. Larson",
+            "official_total": 1935,
+            "official_statewide": 1935,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "Navajo-2",
+      "page": 2,
+      "candidates": [
+        {
+          "name": "Lee F. Dover",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 2064
+        }
+      ],
+      "notes": "",
+      "contest_id": "az-1958-historical-state-house-district-Navajo-2",
+      "reconciliation": {
+        "status": "reported",
+        "page": 2,
+        "district": "Navajo-2",
+        "candidates": [
+          {
+            "candidate": "Lee F. Dover",
+            "official_total": 2064,
+            "official_statewide": 2064,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "Pima",
+      "page": 2,
+      "candidates": [
+        {
+          "name": "Thomas Collins",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 29198
+        },
+        {
+          "name": "David Wine",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 32885
+        },
+        {
+          "name": "Hiram S. (Hi) Corbett",
+          "party": "REP",
+          "write_in": false,
+          "votes": 32267
+        }
+      ],
+      "notes": "",
+      "contest_id": "az-1958-historical-state-senate-district-Pima",
+      "reconciliation": {
+        "status": "reported",
+        "page": 2,
+        "district": "Pima",
+        "candidates": [
+          {
+            "candidate": "Thomas Collins",
+            "official_total": 29198,
+            "official_statewide": 29198,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "David Wine",
+            "official_total": 32885,
+            "official_statewide": 32885,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Hiram S. (Hi) Corbett",
+            "official_total": 32267,
+            "official_statewide": 32267,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "Pima-1",
+      "page": 2,
+      "candidates": [
+        {
+          "name": "Emmett S. (Bud) Walker",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 1870
+        }
+      ],
+      "notes": "",
+      "contest_id": "az-1958-historical-state-house-district-Pima-1",
+      "reconciliation": {
+        "status": "reported",
+        "page": 2,
+        "district": "Pima-1",
+        "candidates": [
+          {
+            "candidate": "Emmett S. (Bud) Walker",
+            "official_total": 1870,
+            "official_statewide": 1870,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "Pima-2",
+      "page": 2,
+      "candidates": [
+        {
+          "name": "Arnold Elias",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 3133
+        },
+        {
+          "name": "Harry Badet",
+          "party": "REP",
+          "write_in": false,
+          "votes": 1985
+        }
+      ],
+      "notes": "",
+      "contest_id": "az-1958-historical-state-house-district-Pima-2",
+      "reconciliation": {
+        "status": "reported",
+        "page": 2,
+        "district": "Pima-2",
+        "candidates": [
+          {
+            "candidate": "Arnold Elias",
+            "official_total": 3133,
+            "official_statewide": 3133,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Harry Badet",
+            "official_total": 1985,
+            "official_statewide": 1985,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "Pima-3",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Etta Mae Hutcheson",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 1093
+        }
+      ],
+      "notes": "",
+      "contest_id": "az-1958-historical-state-house-district-Pima-3",
+      "reconciliation": {
+        "status": "reported",
+        "page": 3,
+        "district": "Pima-3",
+        "candidates": [
+          {
+            "candidate": "Etta Mae Hutcheson",
+            "official_total": 1093,
+            "official_statewide": 1093,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "Pima-4",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "James L. Kennedy",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 3335
+        }
+      ],
+      "notes": "",
+      "contest_id": "az-1958-historical-state-house-district-Pima-4",
+      "reconciliation": {
+        "status": "reported",
+        "page": 3,
+        "district": "Pima-4",
+        "candidates": [
+          {
+            "candidate": "James L. Kennedy",
+            "official_total": 3335,
+            "official_statewide": 3335,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "Pima-5",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Dr. Thomas D. Fridena",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 1160
+        }
+      ],
+      "notes": "",
+      "contest_id": "az-1958-historical-state-house-district-Pima-5",
+      "reconciliation": {
+        "status": "reported",
+        "page": 3,
+        "district": "Pima-5",
+        "candidates": [
+          {
+            "candidate": "Dr. Thomas D. Fridena",
+            "official_total": 1160,
+            "official_statewide": 1160,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "Pima-6",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Claire Camisa",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 781
+        },
+        {
+          "name": "Douglas S. Holsclaw",
+          "party": "REP",
+          "write_in": false,
+          "votes": 1416
+        }
+      ],
+      "notes": "",
+      "contest_id": "az-1958-historical-state-house-district-Pima-6",
+      "reconciliation": {
+        "status": "reported",
+        "page": 3,
+        "district": "Pima-6",
+        "candidates": [
+          {
+            "candidate": "Claire Camisa",
+            "official_total": 781,
+            "official_statewide": 781,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Douglas S. Holsclaw",
+            "official_total": 1416,
+            "official_statewide": 1416,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "Pima-7",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Kathryn L. Woodward",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 1743
+        },
+        {
+          "name": "David G. Hawkins",
+          "party": "REP",
+          "write_in": false,
+          "votes": 1930
+        }
+      ],
+      "notes": "",
+      "contest_id": "az-1958-historical-state-house-district-Pima-7",
+      "reconciliation": {
+        "status": "reported",
+        "page": 3,
+        "district": "Pima-7",
+        "candidates": [
+          {
+            "candidate": "Kathryn L. Woodward",
+            "official_total": 1743,
+            "official_statewide": 1743,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "David G. Hawkins",
+            "official_total": 1930,
+            "official_statewide": 1930,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "Pima-8",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Maurice Krotenberg",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 1086
+        },
+        {
+          "name": "V. S. (John) Hostetter",
+          "party": "REP",
+          "write_in": false,
+          "votes": 1988
+        }
+      ],
+      "notes": "",
+      "contest_id": "az-1958-historical-state-house-district-Pima-8",
+      "reconciliation": {
+        "status": "reported",
+        "page": 3,
+        "district": "Pima-8",
+        "candidates": [
+          {
+            "candidate": "Maurice Krotenberg",
+            "official_total": 1086,
+            "official_statewide": 1086,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "V. S. (John) Hostetter",
+            "official_total": 1988,
+            "official_statewide": 1988,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "Pima-9",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "William I. Minor",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 1961
+        },
+        {
+          "name": "Earl J. Ballinger",
+          "party": "REP",
+          "write_in": false,
+          "votes": 1434
+        },
+        {
+          "name": "Richard J. Dowdall",
+          "party": "Clean Government",
+          "write_in": false,
+          "votes": 347
+        }
+      ],
+      "notes": "",
+      "contest_id": "az-1958-historical-state-house-district-Pima-9",
+      "reconciliation": {
+        "status": "reported",
+        "page": 3,
+        "district": "Pima-9",
+        "candidates": [
+          {
+            "candidate": "William I. Minor",
+            "official_total": 1961,
+            "official_statewide": 1961,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Earl J. Ballinger",
+            "official_total": 1434,
+            "official_statewide": 1434,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Richard J. Dowdall",
+            "official_total": 347,
+            "official_statewide": 347,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "Pima-10",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Albert M. Hopper",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 2925
+        },
+        {
+          "name": "Alvin Wessler",
+          "party": "REP",
+          "write_in": false,
+          "votes": 3329
+        }
+      ],
+      "notes": "",
+      "contest_id": "az-1958-historical-state-house-district-Pima-10",
+      "reconciliation": {
+        "status": "reported",
+        "page": 3,
+        "district": "Pima-10",
+        "candidates": [
+          {
+            "candidate": "Albert M. Hopper",
+            "official_total": 2925,
+            "official_statewide": 2925,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Alvin Wessler",
+            "official_total": 3329,
+            "official_statewide": 3329,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "Pima-11",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Ray Martin",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 2863
+        },
+        {
+          "name": "Bill Gruber",
+          "party": "REP",
+          "write_in": false,
+          "votes": 2548
+        }
+      ],
+      "notes": "",
+      "contest_id": "az-1958-historical-state-house-district-Pima-11",
+      "reconciliation": {
+        "status": "reported",
+        "page": 3,
+        "district": "Pima-11",
+        "candidates": [
+          {
+            "candidate": "Ray Martin",
+            "official_total": 2863,
+            "official_statewide": 2863,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Bill Gruber",
+            "official_total": 2548,
+            "official_statewide": 2548,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "Pima-12",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "William (Bill) Ramsay",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 1625
+        },
+        {
+          "name": "John H. Haugh",
+          "party": "REP",
+          "write_in": false,
+          "votes": 2556
+        }
+      ],
+      "notes": "",
+      "contest_id": "az-1958-historical-state-house-district-Pima-12",
+      "reconciliation": {
+        "status": "reported",
+        "page": 3,
+        "district": "Pima-12",
+        "candidates": [
+          {
+            "candidate": "William (Bill) Ramsay",
+            "official_total": 1625,
+            "official_statewide": 1625,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "John H. Haugh",
+            "official_total": 2556,
+            "official_statewide": 2556,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "Pima-13",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Cliff Kramer",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 2256
+        },
+        {
+          "name": "Thomas C. Webster",
+          "party": "REP",
+          "write_in": false,
+          "votes": 2360
+        }
+      ],
+      "notes": "",
+      "contest_id": "az-1958-historical-state-house-district-Pima-13",
+      "reconciliation": {
+        "status": "reported",
+        "page": 3,
+        "district": "Pima-13",
+        "candidates": [
+          {
+            "candidate": "Cliff Kramer",
+            "official_total": 2256,
+            "official_statewide": 2256,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Thomas C. Webster",
+            "official_total": 2360,
+            "official_statewide": 2360,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "Pima-14",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Emilio Carrillo",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 1745
+        },
+        {
+          "name": "Evelyn F. Mann",
+          "party": "REP",
+          "write_in": false,
+          "votes": 503
+        }
+      ],
+      "notes": "",
+      "contest_id": "az-1958-historical-state-house-district-Pima-14",
+      "reconciliation": {
+        "status": "reported",
+        "page": 3,
+        "district": "Pima-14",
+        "candidates": [
+          {
+            "candidate": "Emilio Carrillo",
+            "official_total": 1745,
+            "official_statewide": 1745,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Evelyn F. Mann",
+            "official_total": 503,
+            "official_statewide": 503,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "Pima-15",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Darlene C. (Mrs. Wm. J.) Bray",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 1422
+        },
+        {
+          "name": "W. G. (Bill) Bodell",
+          "party": "REP",
+          "write_in": false,
+          "votes": 1484
+        }
+      ],
+      "notes": "",
+      "contest_id": "az-1958-historical-state-house-district-Pima-15",
+      "reconciliation": {
+        "status": "reported",
+        "page": 3,
+        "district": "Pima-15",
+        "candidates": [
+          {
+            "candidate": "Darlene C. (Mrs. Wm. J.) Bray",
+            "official_total": 1422,
+            "official_statewide": 1422,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "W. G. (Bill) Bodell",
+            "official_total": 1484,
+            "official_statewide": 1484,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "Pima-16",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Harold L. Cook",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 3263
+        }
+      ],
+      "notes": "",
+      "contest_id": "az-1958-historical-state-house-district-Pima-16",
+      "reconciliation": {
+        "status": "reported",
+        "page": 3,
+        "district": "Pima-16",
+        "candidates": [
+          {
+            "candidate": "Harold L. Cook",
+            "official_total": 3263,
+            "official_statewide": 3263,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "Pinal",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Ben Arnold",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 8104
+        },
+        {
+          "name": "Charles S. Goff",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 7586
+        }
+      ],
+      "notes": "",
+      "contest_id": "az-1958-historical-state-senate-district-Pinal",
+      "reconciliation": {
+        "status": "reported",
+        "page": 3,
+        "district": "Pinal",
+        "candidates": [
+          {
+            "candidate": "Ben Arnold",
+            "official_total": 8104,
+            "official_statewide": 8104,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Charles S. Goff",
+            "official_total": 7586,
+            "official_statewide": 7586,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "Pinal-1",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Charles Moody",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 2448
+        }
+      ],
+      "notes": "",
+      "contest_id": "az-1958-historical-state-house-district-Pinal-1",
+      "reconciliation": {
+        "status": "reported",
+        "page": 3,
+        "district": "Pinal-1",
+        "candidates": [
+          {
+            "candidate": "Charles Moody",
+            "official_total": 2448,
+            "official_statewide": 2448,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "Pinal-2",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Frederick S. Smith",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 3315
+        }
+      ],
+      "notes": "",
+      "contest_id": "az-1958-historical-state-house-district-Pinal-2",
+      "reconciliation": {
+        "status": "reported",
+        "page": 3,
+        "district": "Pinal-2",
+        "candidates": [
+          {
+            "candidate": "Frederick S. Smith",
+            "official_total": 3315,
+            "official_statewide": 3315,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "Pinal-3",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "E. B. Thode",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 3031
+        }
+      ],
+      "notes": "",
+      "contest_id": "az-1958-historical-state-house-district-Pinal-3",
+      "reconciliation": {
+        "status": "reported",
+        "page": 3,
+        "district": "Pinal-3",
+        "candidates": [
+          {
+            "candidate": "E. B. Thode",
+            "official_total": 3031,
+            "official_statewide": 3031,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "Santa Cruz",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Neilson Brown",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 1843
+        },
+        {
+          "name": "C. B. (Bert) Smith",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 1887
+        },
+        {
+          "name": "Lawrence E. Sexton",
+          "party": "REP",
+          "write_in": false,
+          "votes": 975
+        }
+      ],
+      "notes": "",
+      "contest_id": "az-1958-historical-state-senate-district-Santa-Cruz",
+      "reconciliation": {
+        "status": "reported",
+        "page": 3,
+        "district": "Santa Cruz",
+        "candidates": [
+          {
+            "candidate": "Neilson Brown",
+            "official_total": 1843,
+            "official_statewide": 1843,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "C. B. (Bert) Smith",
+            "official_total": 1887,
+            "official_statewide": 1887,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Lawrence E. Sexton",
+            "official_total": 975,
+            "official_statewide": 975,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "Santa Cruz",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Robert R. (Bob) Hathaway",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 2275
+        }
+      ],
+      "notes": "",
+      "contest_id": "az-1958-historical-state-house-district-Santa-Cruz",
+      "reconciliation": {
+        "status": "reported",
+        "page": 3,
+        "district": "Santa Cruz",
+        "candidates": [
+          {
+            "candidate": "Robert R. (Bob) Hathaway",
+            "official_total": 2275,
+            "official_statewide": 2275,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "Yavapai",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Chas. H. (Chick) Orme",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 6132
+        },
+        {
+          "name": "David H. Palmer",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 6233
+        }
+      ],
+      "notes": "",
+      "contest_id": "az-1958-historical-state-senate-district-Yavapai",
+      "reconciliation": {
+        "status": "reported",
+        "page": 3,
+        "district": "Yavapai",
+        "candidates": [
+          {
+            "candidate": "Chas. H. (Chick) Orme",
+            "official_total": 6132,
+            "official_statewide": 6132,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "David H. Palmer",
+            "official_total": 6233,
+            "official_statewide": 6233,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "Yavapai-1",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Mabel S. Ellis",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 2218
+        }
+      ],
+      "notes": "",
+      "contest_id": "az-1958-historical-state-house-district-Yavapai-1",
+      "reconciliation": {
+        "status": "reported",
+        "page": 3,
+        "district": "Yavapai-1",
+        "candidates": [
+          {
+            "candidate": "Mabel S. Ellis",
+            "official_total": 2218,
+            "official_statewide": 2218,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "Yavapai-2",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Joseph L. (Joe) Allen",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 1608
+        },
+        {
+          "name": "Dick W. Martin",
+          "party": "REP",
+          "write_in": false,
+          "votes": 1501
+        }
+      ],
+      "notes": "",
+      "contest_id": "az-1958-historical-state-house-district-Yavapai-2",
+      "reconciliation": {
+        "status": "reported",
+        "page": 3,
+        "district": "Yavapai-2",
+        "candidates": [
+          {
+            "candidate": "Joseph L. (Joe) Allen",
+            "official_total": 1608,
+            "official_statewide": 1608,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Dick W. Martin",
+            "official_total": 1501,
+            "official_statewide": 1501,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "Yavapai-3",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Milton O. (Mo) Lindner",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 1785
+        },
+        {
+          "name": "Robert W. Varner",
+          "party": "REP",
+          "write_in": false,
+          "votes": 1133
+        }
+      ],
+      "notes": "",
+      "contest_id": "az-1958-historical-state-house-district-Yavapai-3",
+      "reconciliation": {
+        "status": "reported",
+        "page": 3,
+        "district": "Yavapai-3",
+        "candidates": [
+          {
+            "candidate": "Milton O. (Mo) Lindner",
+            "official_total": 1785,
+            "official_statewide": 1785,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Robert W. Varner",
+            "official_total": 1133,
+            "official_statewide": 1133,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "Yuma",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Harold C. Giss",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 7535
+        },
+        {
+          "name": "Ray H. Thompson",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 6664
+        }
+      ],
+      "notes": "",
+      "contest_id": "az-1958-historical-state-senate-district-Yuma",
+      "reconciliation": {
+        "status": "reported",
+        "page": 3,
+        "district": "Yuma",
+        "candidates": [
+          {
+            "candidate": "Harold C. Giss",
+            "official_total": 7535,
+            "official_statewide": 7535,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Ray H. Thompson",
+            "official_total": 6664,
+            "official_statewide": 6664,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "Yuma-1",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "C. D. Miller",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 2196
+        }
+      ],
+      "notes": "",
+      "contest_id": "az-1958-historical-state-house-district-Yuma-1",
+      "reconciliation": {
+        "status": "reported",
+        "page": 3,
+        "district": "Yuma-1",
+        "candidates": [
+          {
+            "candidate": "C. D. Miller",
+            "official_total": 2196,
+            "official_statewide": 2196,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "Yuma-2",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Robert (Bob) Klawer",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 3061
+        }
+      ],
+      "notes": "",
+      "contest_id": "az-1958-historical-state-house-district-Yuma-2",
+      "reconciliation": {
+        "status": "reported",
+        "page": 3,
+        "district": "Yuma-2",
+        "candidates": [
+          {
+            "candidate": "Robert (Bob) Klawer",
+            "official_total": 3061,
+            "official_statewide": 3061,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "Yuma-3",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Clara Osborne Botzum",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 1980
+        },
+        {
+          "name": "Mary A. Burns",
+          "party": "REP",
+          "write_in": false,
+          "votes": 948
+        }
+      ],
+      "notes": "",
+      "contest_id": "az-1958-historical-state-house-district-Yuma-3",
+      "reconciliation": {
+        "status": "reported",
+        "page": 3,
+        "district": "Yuma-3",
+        "candidates": [
+          {
+            "candidate": "Clara Osborne Botzum",
+            "official_total": 1980,
+            "official_statewide": 1980,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Mary A. Burns",
+            "official_total": 948,
+            "official_statewide": 948,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    }
+  ]
+}

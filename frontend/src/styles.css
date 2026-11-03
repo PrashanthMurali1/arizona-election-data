@@ -776,6 +776,9 @@ main {
   gap: 24px;
   align-items: start;
 }
+.explorer.without-map {
+  grid-template-columns: minmax(0, 1fr);
+}
 .map-region {
   background: var(--map-base);
   padding: 24px;
@@ -2987,8 +2990,7 @@ tr.active th button {
   --glass-edge: rgba(255, 255, 255, 0.3);
   --glass-rim: rgba(190, 210, 245, 0.22);
   --glass-sheen: rgba(200, 220, 255, 0.14);
-  --glass-shadow:
-    0 2px 4px rgba(0, 0, 0, 0.35), 0 22px 56px rgba(0, 0, 0, 0.5);
+  --glass-shadow: 0 2px 4px rgba(0, 0, 0, 0.35), 0 22px 56px rgba(0, 0, 0, 0.5);
   --lit-fill: rgba(160, 200, 255, 0.2);
   --lit-ring: rgba(190, 215, 255, 0.85);
   --field-a: rgba(52, 104, 200, 0.62);
@@ -3152,7 +3154,9 @@ td {
   }
 }
 /* Without blur support, or when the visitor asks for less transparency, panels go solid. */
-@supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
+@supports not (
+  (backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))
+) {
   .result-summary,
   .table-region,
   .selection-panel,

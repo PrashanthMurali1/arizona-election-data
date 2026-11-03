@@ -1,0 +1,1939 @@
+{
+  "year": 1958,
+  "date": "1958-11-04",
+  "kind": "general",
+  "source_path": "data/raw/early-canvasses/pdfs/1958.pdf",
+  "source_sha256": "39c9bf1757b511b86e65f925c7cdd4a7e7cdfb7365c98d0c31c37c17c30ceed5",
+  "absent_offices": [
+    "president"
+  ],
+  "contests": [
+    {
+      "office_id": "us-senate",
+      "district": null,
+      "page": 4,
+      "candidates": [
+        {
+          "name": "Ernest W. McFarland",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 129030,
+          "county_votes": {
+            "04001": 1140,
+            "04003": 5951,
+            "04005": 2576,
+            "04007": 4704,
+            "04009": 1918,
+            "04011": 2874,
+            "04013": 61351,
+            "04015": 1169,
+            "04017": 2557,
+            "04019": 28818,
+            "04021": 5927,
+            "04023": 1367,
+            "04025": 3623,
+            "04027": 5055
+          }
+        },
+        {
+          "name": "Barry Goldwater",
+          "party": "REP",
+          "write_in": false,
+          "votes": 164593,
+          "county_votes": {
+            "04001": 1396,
+            "04003": 6036,
+            "04005": 3853,
+            "04007": 3678,
+            "04009": 2326,
+            "04011": 1272,
+            "04013": 90942,
+            "04015": 1369,
+            "04017": 3451,
+            "04019": 32929,
+            "04021": 5210,
+            "04023": 1464,
+            "04025": 5737,
+            "04027": 4930
+          }
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "office_id": "us-house",
+      "district": "1",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "Joe Haldiman, Jr.",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 59816
+        },
+        {
+          "name": "John J. Rhodes",
+          "party": "REP",
+          "write_in": false,
+          "votes": 86959
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "office_id": "us-house",
+      "district": "2",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "Stewart L. Udall",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 79651
+        },
+        {
+          "name": "John G. (Jack) Speiden",
+          "party": "REP",
+          "write_in": false,
+          "votes": 51140
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "office_id": "governor",
+      "district": null,
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Robert Morrison",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 130329,
+          "county_votes": {
+            "04001": 1181,
+            "04003": 6210,
+            "04005": 2553,
+            "04007": 4730,
+            "04009": 1945,
+            "04011": 2923,
+            "04013": 59593,
+            "04015": 1227,
+            "04017": 2524,
+            "04019": 31306,
+            "04021": 5627,
+            "04023": 1739,
+            "04025": 3547,
+            "04027": 5224
+          }
+        },
+        {
+          "name": "Paul Fannin",
+          "party": "REP",
+          "write_in": false,
+          "votes": 160136,
+          "county_votes": {
+            "04001": 1309,
+            "04003": 5617,
+            "04005": 3802,
+            "04007": 3546,
+            "04009": 2238,
+            "04011": 1162,
+            "04013": 91712,
+            "04015": 1208,
+            "04017": 3404,
+            "04019": 29460,
+            "04021": 5261,
+            "04023": 1005,
+            "04025": 5751,
+            "04027": 4661
+          }
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "office_id": "secretary-of-state",
+      "district": null,
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Wesley Bolin",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 184855,
+          "county_votes": {
+            "04001": 1706,
+            "04003": 9120,
+            "04005": 4619,
+            "04007": 6667,
+            "04009": 2693,
+            "04011": 3536,
+            "04013": 89057,
+            "04015": 1880,
+            "04017": 4139,
+            "04019": 37003,
+            "04021": 8451,
+            "04023": 1923,
+            "04025": 6412,
+            "04027": 7649
+          }
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "office_id": "attorney-general",
+      "district": null,
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Wade Church",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 153815,
+          "county_votes": {
+            "04001": 1426,
+            "04003": 7812,
+            "04005": 3471,
+            "04007": 5695,
+            "04009": 2543,
+            "04011": 3258,
+            "04013": 71424,
+            "04015": 1460,
+            "04017": 3281,
+            "04019": 33716,
+            "04021": 6966,
+            "04023": 1743,
+            "04025": 4647,
+            "04027": 6373
+          }
+        },
+        {
+          "name": "Laurens L. Henderson",
+          "party": "REP",
+          "write_in": false,
+          "votes": 122913,
+          "county_votes": {
+            "04001": 912,
+            "04003": 3322,
+            "04005": 2478,
+            "04007": 2191,
+            "04009": 1293,
+            "04011": 625,
+            "04013": 73589,
+            "04015": 770,
+            "04017": 2345,
+            "04019": 24126,
+            "04021": 3512,
+            "04023": 634,
+            "04025": 4071,
+            "04027": 3045
+          }
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "office_id": "state-senate",
+      "district": "Apache",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Melvin C. Greer",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 1712
+        },
+        {
+          "name": "Lynn Lockhart",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 1691
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "office_id": "state-house",
+      "district": "Apache",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "James S. Shreeve",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 1570
+        },
+        {
+          "name": "Sam Day III",
+          "party": "UNK",
+          "write_in": false,
+          "votes": 874
+        }
+      ],
+      "notes": "No party label is printed beside Sam Day III; no affiliation is inferred."
+    },
+    {
+      "office_id": "state-senate",
+      "district": "Cochise",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Dan S. Kitchel",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 8750
+        },
+        {
+          "name": "A. R. Spikes",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 8754
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "office_id": "state-house",
+      "district": "Cochise-1",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Clyde M. Dalton",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 2661
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "office_id": "state-house",
+      "district": "Cochise-2",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Andrew J. (Jack) Gilbert",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 2898
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "office_id": "state-house",
+      "district": "Cochise-3",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Charles O. Bloomquist",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 1808
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "office_id": "state-house",
+      "district": "Cochise-4",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "W. L. (Tay) Cook",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 2082
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "office_id": "state-senate",
+      "district": "Coconino",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Robert W. Prochnow",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 4940
+        },
+        {
+          "name": "Fred F. Udine",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 4299
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "office_id": "state-house",
+      "district": "Coconino-1",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Thomas M. (Tommy) Knoles, Jr.",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 2754
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "office_id": "state-house",
+      "district": "Coconino-2",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Harold Scudder",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 2028
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "office_id": "state-senate",
+      "district": "Gila",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Clarence L. Carpenter",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 6557
+        },
+        {
+          "name": "William A. Sullivan",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 6334
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "office_id": "state-house",
+      "district": "Gila-1",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "R. E. (Arky) Burnham",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 1993
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "office_id": "state-house",
+      "district": "Gila-2",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Nelson D. Brayton",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 1695
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "office_id": "state-house",
+      "district": "Gila-3",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Edwynne C. (Polly) Rosenbaum",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 3043
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "office_id": "state-senate",
+      "district": "Graham",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "John Mickelson",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 2901
+        },
+        {
+          "name": "Jim Smith",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 2649
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "office_id": "state-house",
+      "district": "Graham-1",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "E. L. Tidwell",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 2058
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "office_id": "state-house",
+      "district": "Graham-2",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Milton Lines",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 797
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "office_id": "state-senate",
+      "district": "Greenlee",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Carl Gale",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 3398
+        },
+        {
+          "name": "M. L. (Marshall) Simms",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 3589
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "office_id": "state-house",
+      "district": "Greenlee-1",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Tom W. Berry",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 1645
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "office_id": "state-house",
+      "district": "Greenlee-2",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "G. O. (Sonny) Biles",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 2010
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "office_id": "state-senate",
+      "district": "Maricopa",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Hilliard T. Brooke",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 71508
+        },
+        {
+          "name": "Frank G. Murphy",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 74683
+        },
+        {
+          "name": "Charles H. Garland",
+          "party": "REP",
+          "write_in": false,
+          "votes": 64735
+        },
+        {
+          "name": "Wm. R. Pyper",
+          "party": "REP",
+          "write_in": false,
+          "votes": 61682
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "office_id": "state-house",
+      "district": "Maricopa-1",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Jack Adam",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 1628
+        },
+        {
+          "name": "Marshall Humphrey",
+          "party": "REP",
+          "write_in": false,
+          "votes": 2304
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "office_id": "state-house",
+      "district": "Maricopa-2",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Orin C. Fuller",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 1466
+        },
+        {
+          "name": "Wm. S. Porter",
+          "party": "REP",
+          "write_in": false,
+          "votes": 2613
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "office_id": "state-house",
+      "district": "Maricopa-3",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Wayne C. Pomeroy",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 2019
+        },
+        {
+          "name": "Waldo L. DeWitt",
+          "party": "REP",
+          "write_in": false,
+          "votes": 2066
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "office_id": "state-house",
+      "district": "Maricopa-4",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "J. O. Grimes",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 2458
+        },
+        {
+          "name": "John E. Wiley",
+          "party": "REP",
+          "write_in": false,
+          "votes": 1494
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "office_id": "state-house",
+      "district": "Maricopa-5",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Elmer C. King",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 2630
+        },
+        {
+          "name": "Sarah E. Crowder",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 1307
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "office_id": "state-house",
+      "district": "Maricopa-6",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Carl Austin",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 2501
+        },
+        {
+          "name": "Mabel E. Pinyan",
+          "party": "REP",
+          "write_in": false,
+          "votes": 1066
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "office_id": "state-house",
+      "district": "Maricopa-7",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Bob Stump",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 2566
+        },
+        {
+          "name": "Mort Brayer",
+          "party": "REP",
+          "write_in": false,
+          "votes": 878
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "office_id": "state-house",
+      "district": "Maricopa-8",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Carl Sims, Sr.",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 2491
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "office_id": "state-house",
+      "district": "Maricopa-9",
+      "page": 2,
+      "candidates": [
+        {
+          "name": "Sidney Kartus",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 2354
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "office_id": "state-house",
+      "district": "Maricopa-10",
+      "page": 2,
+      "candidates": [
+        {
+          "name": "Martin P. Toscano",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 2550
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "office_id": "state-house",
+      "district": "Maricopa-11",
+      "page": 2,
+      "candidates": [
+        {
+          "name": "Frank Bowman",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 2561
+        },
+        {
+          "name": "C. W. Myers",
+          "party": "REP",
+          "write_in": false,
+          "votes": 2486
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "office_id": "state-house",
+      "district": "Maricopa-12",
+      "page": 2,
+      "candidates": [
+        {
+          "name": "Sherman R. Dent",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 3007
+        },
+        {
+          "name": "Theodore Cogswell",
+          "party": "REP",
+          "write_in": false,
+          "votes": 1683
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "office_id": "state-house",
+      "district": "Maricopa-13",
+      "page": 2,
+      "candidates": [
+        {
+          "name": "Conrad James Carreon",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 1740
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "office_id": "state-house",
+      "district": "Maricopa-14",
+      "page": 2,
+      "candidates": [
+        {
+          "name": "Marie S. Earle",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 2001
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "office_id": "state-house",
+      "district": "Maricopa-15",
+      "page": 2,
+      "candidates": [
+        {
+          "name": "Harry S. Ruppelius",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 1635
+        },
+        {
+          "name": "Gerry Eliot",
+          "party": "REP",
+          "write_in": false,
+          "votes": 2036
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "office_id": "state-house",
+      "district": "Maricopa-16",
+      "page": 2,
+      "candidates": [
+        {
+          "name": "Jack E. Gardner",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 2274
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "office_id": "state-house",
+      "district": "Maricopa-17",
+      "page": 2,
+      "candidates": [
+        {
+          "name": "S. Earl Pugh",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 4376
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "office_id": "state-house",
+      "district": "Maricopa-18",
+      "page": 2,
+      "candidates": [
+        {
+          "name": "Willis D. Oldham",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 1530
+        },
+        {
+          "name": "Robert L. Myers",
+          "party": "REP",
+          "write_in": false,
+          "votes": 2059
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "office_id": "state-house",
+      "district": "Maricopa-19",
+      "page": 2,
+      "candidates": [
+        {
+          "name": "Del J. Rogers",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 1706
+        },
+        {
+          "name": "Emogene Jennings",
+          "party": "REP",
+          "write_in": false,
+          "votes": 1912
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "office_id": "state-house",
+      "district": "Maricopa-20",
+      "page": 2,
+      "candidates": [
+        {
+          "name": "Wm. F. Vipperman, Jr.",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 1964
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "office_id": "state-house",
+      "district": "Maricopa-21",
+      "page": 2,
+      "candidates": [
+        {
+          "name": "Henry A. Church III",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 1650
+        },
+        {
+          "name": "Don Reese",
+          "party": "REP",
+          "write_in": false,
+          "votes": 4214
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "office_id": "state-house",
+      "district": "Maricopa-22",
+      "page": 2,
+      "candidates": [
+        {
+          "name": "Charles L. Scott",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 1519
+        },
+        {
+          "name": "Elmer T. Burson",
+          "party": "REP",
+          "write_in": false,
+          "votes": 2507
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "office_id": "state-house",
+      "district": "Maricopa-23",
+      "page": 2,
+      "candidates": [
+        {
+          "name": "J. C. Bennett",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 1751
+        },
+        {
+          "name": "W. I. Lowry",
+          "party": "REP",
+          "write_in": false,
+          "votes": 1774
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "office_id": "state-house",
+      "district": "Maricopa-24",
+      "page": 2,
+      "candidates": [
+        {
+          "name": "Ted Mote",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 1522
+        },
+        {
+          "name": "Ruth Peck",
+          "party": "REP",
+          "write_in": false,
+          "votes": 2095
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "office_id": "state-house",
+      "district": "Maricopa-25",
+      "page": 2,
+      "candidates": [
+        {
+          "name": "George S. Sebestyen",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 1468
+        },
+        {
+          "name": "Chet Goldberg, Jr.",
+          "party": "REP",
+          "write_in": false,
+          "votes": 2189
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "office_id": "state-house",
+      "district": "Maricopa-26",
+      "page": 2,
+      "candidates": [
+        {
+          "name": "Don L. Riggs",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 1586
+        },
+        {
+          "name": "Robert Brewer",
+          "party": "REP",
+          "write_in": false,
+          "votes": 1932
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "office_id": "state-house",
+      "district": "Maricopa-27",
+      "page": 2,
+      "candidates": [
+        {
+          "name": "Charles H. Oatman",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 2021
+        },
+        {
+          "name": "Ruth C. Kuntz",
+          "party": "REP",
+          "write_in": false,
+          "votes": 1647
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "office_id": "state-house",
+      "district": "Maricopa-28",
+      "page": 2,
+      "candidates": [
+        {
+          "name": "Bill Stephens",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 3181
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "office_id": "state-house",
+      "district": "Maricopa-29",
+      "page": 2,
+      "candidates": [
+        {
+          "name": "John C. Hughes",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 1601
+        },
+        {
+          "name": "Priscilla H. Hays",
+          "party": "REP",
+          "write_in": false,
+          "votes": 1725
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "office_id": "state-house",
+      "district": "Maricopa-30",
+      "page": 2,
+      "candidates": [
+        {
+          "name": "Barney Blazina",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 1564
+        },
+        {
+          "name": "F. A. Higgins",
+          "party": "REP",
+          "write_in": false,
+          "votes": 2087
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "office_id": "state-house",
+      "district": "Maricopa-31",
+      "page": 2,
+      "candidates": [
+        {
+          "name": "Wing F. Ong",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 2155
+        },
+        {
+          "name": "David H. Campbell",
+          "party": "REP",
+          "write_in": false,
+          "votes": 3596
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "office_id": "state-house",
+      "district": "Maricopa-32",
+      "page": 2,
+      "candidates": [
+        {
+          "name": "Richard E. Brand",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 985
+        },
+        {
+          "name": "Arthur B. Schellenberg",
+          "party": "REP",
+          "write_in": false,
+          "votes": 2575
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "office_id": "state-house",
+      "district": "Maricopa-33",
+      "page": 2,
+      "candidates": [
+        {
+          "name": "Merle E. Hays",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 2192
+        },
+        {
+          "name": "L. W. Hacker",
+          "party": "REP",
+          "write_in": false,
+          "votes": 1933
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "office_id": "state-house",
+      "district": "Maricopa-34",
+      "page": 2,
+      "candidates": [
+        {
+          "name": "David L. Jones",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 2054
+        },
+        {
+          "name": "Gene B. McClellan",
+          "party": "REP",
+          "write_in": false,
+          "votes": 2584
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "office_id": "state-house",
+      "district": "Maricopa-35",
+      "page": 2,
+      "candidates": [
+        {
+          "name": "W. B. Barkley",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 2374
+        },
+        {
+          "name": "Edna M. Meyers",
+          "party": "REP",
+          "write_in": false,
+          "votes": 1188
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "office_id": "state-house",
+      "district": "Maricopa-36",
+      "page": 2,
+      "candidates": [
+        {
+          "name": "Lewis B. Brankamp",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 1789
+        },
+        {
+          "name": "W. K. McElhaney",
+          "party": "REP",
+          "write_in": false,
+          "votes": 1554
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "office_id": "state-house",
+      "district": "Maricopa-37",
+      "page": 2,
+      "candidates": [
+        {
+          "name": "T. C. Rhodes",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 2797
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "office_id": "state-senate",
+      "district": "Mohave",
+      "page": 2,
+      "candidates": [
+        {
+          "name": "C. Clyde Bollinger",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 1763
+        },
+        {
+          "name": "Robert Morrow",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 1774
+        },
+        {
+          "name": "Ben R. Joy",
+          "party": "REP",
+          "write_in": false,
+          "votes": 715
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "office_id": "state-house",
+      "district": "Mohave",
+      "page": 2,
+      "candidates": [
+        {
+          "name": "J. J. Glancy",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 2030
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "office_id": "state-senate",
+      "district": "Navajo",
+      "page": 2,
+      "candidates": [
+        {
+          "name": "Glenn Blansett",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 3458
+        },
+        {
+          "name": "J. Morris Richards",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 3217
+        },
+        {
+          "name": "William R. Bourdon",
+          "party": "REP",
+          "write_in": false,
+          "votes": 2869
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "office_id": "state-house",
+      "district": "Navajo-1",
+      "page": 2,
+      "candidates": [
+        {
+          "name": "A. Belton Palmer",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 1424
+        },
+        {
+          "name": "Augusta T. Larson",
+          "party": "REP",
+          "write_in": false,
+          "votes": 1935
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "office_id": "state-house",
+      "district": "Navajo-2",
+      "page": 2,
+      "candidates": [
+        {
+          "name": "Lee F. Dover",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 2064
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "office_id": "state-senate",
+      "district": "Pima",
+      "page": 2,
+      "candidates": [
+        {
+          "name": "Thomas Collins",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 29198
+        },
+        {
+          "name": "David Wine",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 32885
+        },
+        {
+          "name": "Hiram S. (Hi) Corbett",
+          "party": "REP",
+          "write_in": false,
+          "votes": 32267
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "office_id": "state-house",
+      "district": "Pima-1",
+      "page": 2,
+      "candidates": [
+        {
+          "name": "Emmett S. (Bud) Walker",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 1870
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "office_id": "state-house",
+      "district": "Pima-2",
+      "page": 2,
+      "candidates": [
+        {
+          "name": "Arnold Elias",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 3133
+        },
+        {
+          "name": "Harry Badet",
+          "party": "REP",
+          "write_in": false,
+          "votes": 1985
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "office_id": "state-house",
+      "district": "Pima-3",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Etta Mae Hutcheson",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 1093
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "office_id": "state-house",
+      "district": "Pima-4",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "James L. Kennedy",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 3335
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "office_id": "state-house",
+      "district": "Pima-5",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Dr. Thomas D. Fridena",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 1160
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "office_id": "state-house",
+      "district": "Pima-6",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Claire Camisa",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 781
+        },
+        {
+          "name": "Douglas S. Holsclaw",
+          "party": "REP",
+          "write_in": false,
+          "votes": 1416
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "office_id": "state-house",
+      "district": "Pima-7",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Kathryn L. Woodward",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 1743
+        },
+        {
+          "name": "David G. Hawkins",
+          "party": "REP",
+          "write_in": false,
+          "votes": 1930
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "office_id": "state-house",
+      "district": "Pima-8",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Maurice Krotenberg",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 1086
+        },
+        {
+          "name": "V. S. (John) Hostetter",
+          "party": "REP",
+          "write_in": false,
+          "votes": 1988
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "office_id": "state-house",
+      "district": "Pima-9",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "William I. Minor",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 1961
+        },
+        {
+          "name": "Earl J. Ballinger",
+          "party": "REP",
+          "write_in": false,
+          "votes": 1434
+        },
+        {
+          "name": "Richard J. Dowdall",
+          "party": "Clean Government",
+          "write_in": false,
+          "votes": 347
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "office_id": "state-house",
+      "district": "Pima-10",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Albert M. Hopper",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 2925
+        },
+        {
+          "name": "Alvin Wessler",
+          "party": "REP",
+          "write_in": false,
+          "votes": 3329
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "office_id": "state-house",
+      "district": "Pima-11",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Ray Martin",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 2863
+        },
+        {
+          "name": "Bill Gruber",
+          "party": "REP",
+          "write_in": false,
+          "votes": 2548
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "office_id": "state-house",
+      "district": "Pima-12",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "William (Bill) Ramsay",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 1625
+        },
+        {
+          "name": "John H. Haugh",
+          "party": "REP",
+          "write_in": false,
+          "votes": 2556
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "office_id": "state-house",
+      "district": "Pima-13",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Cliff Kramer",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 2256
+        },
+        {
+          "name": "Thomas C. Webster",
+          "party": "REP",
+          "write_in": false,
+          "votes": 2360
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "office_id": "state-house",
+      "district": "Pima-14",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Emilio Carrillo",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 1745
+        },
+        {
+          "name": "Evelyn F. Mann",
+          "party": "REP",
+          "write_in": false,
+          "votes": 503
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "office_id": "state-house",
+      "district": "Pima-15",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Darlene C. (Mrs. Wm. J.) Bray",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 1422
+        },
+        {
+          "name": "W. G. (Bill) Bodell",
+          "party": "REP",
+          "write_in": false,
+          "votes": 1484
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "office_id": "state-house",
+      "district": "Pima-16",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Harold L. Cook",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 3263
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "office_id": "state-senate",
+      "district": "Pinal",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Ben Arnold",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 8104
+        },
+        {
+          "name": "Charles S. Goff",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 7586
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "office_id": "state-house",
+      "district": "Pinal-1",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Charles Moody",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 2448
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "office_id": "state-house",
+      "district": "Pinal-2",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Frederick S. Smith",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 3315
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "office_id": "state-house",
+      "district": "Pinal-3",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "E. B. Thode",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 3031
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "office_id": "state-senate",
+      "district": "Santa Cruz",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Neilson Brown",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 1843
+        },
+        {
+          "name": "C. B. (Bert) Smith",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 1887
+        },
+        {
+          "name": "Lawrence E. Sexton",
+          "party": "REP",
+          "write_in": false,
+          "votes": 975
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "office_id": "state-house",
+      "district": "Santa Cruz",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Robert R. (Bob) Hathaway",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 2275
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "office_id": "state-senate",
+      "district": "Yavapai",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Chas. H. (Chick) Orme",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 6132
+        },
+        {
+          "name": "David H. Palmer",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 6233
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "office_id": "state-house",
+      "district": "Yavapai-1",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Mabel S. Ellis",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 2218
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "office_id": "state-house",
+      "district": "Yavapai-2",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Joseph L. (Joe) Allen",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 1608
+        },
+        {
+          "name": "Dick W. Martin",
+          "party": "REP",
+          "write_in": false,
+          "votes": 1501
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "office_id": "state-house",
+      "district": "Yavapai-3",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Milton O. (Mo) Lindner",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 1785
+        },
+        {
+          "name": "Robert W. Varner",
+          "party": "REP",
+          "write_in": false,
+          "votes": 1133
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "office_id": "state-senate",
+      "district": "Yuma",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Harold C. Giss",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 7535
+        },
+        {
+          "name": "Ray H. Thompson",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 6664
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "office_id": "state-house",
+      "district": "Yuma-1",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "C. D. Miller",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 2196
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "office_id": "state-house",
+      "district": "Yuma-2",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Robert (Bob) Klawer",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 3061
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "office_id": "state-house",
+      "district": "Yuma-3",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Clara Osborne Botzum",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 1980
+        },
+        {
+          "name": "Mary A. Burns",
+          "party": "REP",
+          "write_in": false,
+          "votes": 948
+        }
+      ],
+      "notes": ""
+    }
+  ],
+  "unresolved": []
+}

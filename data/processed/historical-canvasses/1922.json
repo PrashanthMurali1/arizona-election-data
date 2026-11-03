@@ -1,0 +1,487 @@
+{
+  "year": 1922,
+  "date": "1922-11-07",
+  "kind": "general",
+  "source_sha256": "ba82f9c04566a945bb98967770e73689156a57b2373e8cbaa978c1f94b019b58",
+  "absent_offices": [
+    "state-house",
+    "state-senate",
+    "president"
+  ],
+  "unresolved": [],
+  "contests": [
+    {
+      "office_id": "us-senate",
+      "district": null,
+      "page": 8,
+      "candidates": [
+        {
+          "name": "Henry F. Ashurst",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 39722,
+          "county_votes": {
+            "04001": 776,
+            "04003": 5840,
+            "04005": 1253,
+            "04007": 4045,
+            "04009": 1546,
+            "04011": 1056,
+            "04013": 11008,
+            "04015": 1315,
+            "04017": 1354,
+            "04019": 3912,
+            "04021": 1567,
+            "04023": 965,
+            "04025": 3405,
+            "04027": 1680
+          }
+        },
+        {
+          "name": "Jas. H. McClintock",
+          "party": "REP",
+          "write_in": false,
+          "votes": 21358,
+          "county_votes": {
+            "04001": 411,
+            "04003": 2534,
+            "04005": 727,
+            "04007": 1280,
+            "04009": 418,
+            "04011": 266,
+            "04013": 8206,
+            "04015": 438,
+            "04017": 534,
+            "04019": 2373,
+            "04021": 531,
+            "04023": 526,
+            "04025": 2244,
+            "04027": 870
+          }
+        }
+      ],
+      "notes": "",
+      "contest_id": "az-1922-us-senate",
+      "reconciliation": {
+        "status": "verified",
+        "page": 8,
+        "district": null,
+        "candidates": [
+          {
+            "candidate": "Henry F. Ashurst",
+            "official_total": 39722,
+            "official_statewide": 39722,
+            "county_sum": 39722,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "Jas. H. McClintock",
+            "official_total": 21358,
+            "official_statewide": 21358,
+            "county_sum": 21358,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          }
+        ],
+        "county_count": 14,
+        "coverage": "county",
+        "multi_seat": false,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "us-house",
+      "district": "at-large",
+      "page": 8,
+      "candidates": [
+        {
+          "name": "Carl Hayden",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 45121,
+          "county_votes": {
+            "04001": 411,
+            "04003": 2534,
+            "04005": 727,
+            "04007": 1192,
+            "04009": 1611,
+            "04011": 1044,
+            "04013": 13920,
+            "04015": 1484,
+            "04017": 1500,
+            "04019": 4225,
+            "04021": 1744,
+            "04023": 1021,
+            "04025": 3972,
+            "04027": 1877
+          }
+        },
+        {
+          "name": "Emma M. Guild",
+          "party": "REP",
+          "write_in": false,
+          "votes": 14601,
+          "county_votes": {
+            "04001": 334,
+            "04003": 2060,
+            "04005": 482,
+            "04007": 1039,
+            "04009": 352,
+            "04011": 204,
+            "04013": 4875,
+            "04015": 214,
+            "04017": 357,
+            "04019": 1877,
+            "04021": 389,
+            "04023": 439,
+            "04025": 1395,
+            "04027": 584
+          }
+        }
+      ],
+      "notes": "Original booklet printed total retained. The typed duplicate has handwritten corrections to Hayden county cells/total; those annotations are not silently substituted. Printed county/total difference retained: Carl Hayden: county sum 37,262; printed total 45,121.",
+      "contest_id": "az-1922-historical-us-house-district-at-large",
+      "reconciliation": {
+        "status": "reported",
+        "page": 8,
+        "district": "at-large",
+        "candidates": [
+          {
+            "candidate": "Carl Hayden",
+            "official_total": 45121,
+            "official_statewide": 45121,
+            "county_sum": 37262,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": -7859
+          },
+          {
+            "candidate": "Emma M. Guild",
+            "official_total": 14601,
+            "official_statewide": 14601,
+            "county_sum": 14601,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": false,
+        "result_basis": "candidate-votes",
+        "notes": "Original booklet printed total retained. The typed duplicate has handwritten corrections to Hayden county cells/total; those annotations are not silently substituted. Printed county/total difference retained: Carl Hayden: county sum 37,262; printed total 45,121."
+      }
+    },
+    {
+      "office_id": "governor",
+      "district": null,
+      "page": 8,
+      "candidates": [
+        {
+          "name": "Geo. W. P. Hunt",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 37310
+        },
+        {
+          "name": "Thomas E. Campbell",
+          "party": "REP",
+          "write_in": false,
+          "votes": 30599
+        },
+        {
+          "name": "R. C. Stanford",
+          "party": "NONE",
+          "write_in": true,
+          "votes": 6
+        },
+        {
+          "name": "Chas. D. Ward",
+          "party": "NONE",
+          "write_in": true,
+          "votes": 3
+        }
+      ],
+      "notes": "Two named write-ins are printed on source page 9. Primary candidate county tables are on page 8; write-in totals are statewide only.",
+      "contest_id": "az-1922-governor",
+      "reconciliation": {
+        "status": "reported",
+        "page": 8,
+        "district": null,
+        "candidates": [
+          {
+            "candidate": "Geo. W. P. Hunt",
+            "official_total": 37310,
+            "official_statewide": 37310,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Thomas E. Campbell",
+            "official_total": 30599,
+            "official_statewide": 30599,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "R. C. Stanford",
+            "official_total": 6,
+            "official_statewide": 6,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Chas. D. Ward",
+            "official_total": 3,
+            "official_statewide": 3,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": false,
+        "result_basis": "candidate-votes",
+        "notes": "Two named write-ins are printed on source page 9. Primary candidate county tables are on page 8; write-in totals are statewide only."
+      }
+    },
+    {
+      "office_id": "secretary-of-state",
+      "district": null,
+      "page": 8,
+      "candidates": [
+        {
+          "name": "James H. Kerby",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 35326,
+          "county_votes": {
+            "04001": 679,
+            "04003": 4720,
+            "04005": 909,
+            "04007": 3558,
+            "04009": 1470,
+            "04011": 1021,
+            "04013": 11009,
+            "04015": 1084,
+            "04017": 1122,
+            "04019": 3240,
+            "04021": 1164,
+            "04023": 872,
+            "04025": 2906,
+            "04027": 1472
+          }
+        },
+        {
+          "name": "Ernest Hall",
+          "party": "REP",
+          "write_in": false,
+          "votes": 26055,
+          "county_votes": {
+            "04001": 552,
+            "04003": 3393,
+            "04005": 1026,
+            "04007": 1681,
+            "04009": 572,
+            "04011": 442,
+            "04013": 8505,
+            "04015": 588,
+            "04017": 759,
+            "04019": 3170,
+            "04021": 1002,
+            "04023": 662,
+            "04025": 2539,
+            "04027": 1164
+          }
+        }
+      ],
+      "notes": " Printed county/total difference retained: James H. Kerby: county sum 35,226; printed total 35,326.",
+      "contest_id": "az-1922-secretary-of-state",
+      "reconciliation": {
+        "status": "reported",
+        "page": 8,
+        "district": null,
+        "candidates": [
+          {
+            "candidate": "James H. Kerby",
+            "official_total": 35326,
+            "official_statewide": 35326,
+            "county_sum": 35226,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": -100
+          },
+          {
+            "candidate": "Ernest Hall",
+            "official_total": 26055,
+            "official_statewide": 26055,
+            "county_sum": 26055,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": false,
+        "result_basis": "candidate-votes",
+        "notes": " Printed county/total difference retained: James H. Kerby: county sum 35,226; printed total 35,326."
+      }
+    },
+    {
+      "office_id": "attorney-general",
+      "district": null,
+      "page": 9,
+      "candidates": [
+        {
+          "name": "John W. Murphy",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 35335,
+          "county_votes": {
+            "04001": 673,
+            "04003": 4807,
+            "04005": 964,
+            "04007": 3972,
+            "04009": 1369,
+            "04011": 1002,
+            "04013": 10674,
+            "04015": 1156,
+            "04017": 1048,
+            "04019": 3224,
+            "04021": 1284,
+            "04023": 890,
+            "04025": 2788,
+            "04027": 1484
+          }
+        },
+        {
+          "name": "W. J. Galbraith",
+          "party": "REP",
+          "write_in": false,
+          "votes": 25512,
+          "county_votes": {
+            "04001": 520,
+            "04003": 3246,
+            "04005": 922,
+            "04007": 1601,
+            "04009": 657,
+            "04011": 365,
+            "04013": 8509,
+            "04015": 503,
+            "04017": 779,
+            "04019": 3216,
+            "04021": 858,
+            "04023": 635,
+            "04025": 2574,
+            "04027": 1127
+          }
+        }
+      ],
+      "notes": "",
+      "contest_id": "az-1922-attorney-general",
+      "reconciliation": {
+        "status": "verified",
+        "page": 9,
+        "district": null,
+        "candidates": [
+          {
+            "candidate": "John W. Murphy",
+            "official_total": 35335,
+            "official_statewide": 35335,
+            "county_sum": 35335,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "W. J. Galbraith",
+            "official_total": 25512,
+            "official_statewide": 25512,
+            "county_sum": 25512,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          }
+        ],
+        "county_count": 14,
+        "coverage": "county",
+        "multi_seat": false,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    }
+  ]
+}

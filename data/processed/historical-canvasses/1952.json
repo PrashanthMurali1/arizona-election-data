@@ -1,0 +1,585 @@
+{
+  "year": 1952,
+  "date": "1952-11-04",
+  "kind": "general",
+  "source_sha256": "7f1ae47c7421f3fe10a1e784130ad7d88318c0cf3e08e75ac7c8aa8bf6f011b3",
+  "absent_offices": [
+    "state-house",
+    "state-senate"
+  ],
+  "unresolved": [],
+  "contests": [
+    {
+      "office_id": "president",
+      "district": "at-large",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Democratic elector slate",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 108528,
+          "county_votes": {
+            "04001": 1193,
+            "04003": 5640,
+            "04005": 2408,
+            "04007": 4928,
+            "04009": 2200,
+            "04011": 3019,
+            "04013": 50285,
+            "04015": 1066,
+            "04017": 2593,
+            "04019": 21237,
+            "04021": 4522,
+            "04023": 1365,
+            "04025": 3628,
+            "04027": 4444
+          }
+        },
+        {
+          "name": "Republican elector slate",
+          "party": "REP",
+          "write_in": false,
+          "votes": 152042,
+          "county_votes": {
+            "04001": 1767,
+            "04003": 6495,
+            "04005": 3827,
+            "04007": 3770,
+            "04009": 2191,
+            "04011": 1377,
+            "04013": 74249,
+            "04015": 1746,
+            "04017": 3478,
+            "04019": 32113,
+            "04021": 4985,
+            "04023": 1716,
+            "04025": 6567,
+            "04027": 4761
+          }
+        }
+      ],
+      "notes": "Grouped elector slate totals, not individual-elector vote sums. Stevenson DEM electors: Ana Frohmiller, Howard D. Grant, Joe Hunt, L. Alton \"Pat\" Riggs. Eisenhower REP electors: Sam Dick, Guy Anderson, Laurens L. Henderson, F. B. Patterson.",
+      "multi_seat": true,
+      "contest_id": "az-1952-historical-president-district-at-large",
+      "reconciliation": {
+        "status": "reported",
+        "page": 1,
+        "district": "at-large",
+        "candidates": [
+          {
+            "candidate": "Democratic elector slate",
+            "official_total": 108528,
+            "official_statewide": 108528,
+            "county_sum": 108528,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "Republican elector slate",
+            "official_total": 152042,
+            "official_statewide": 152042,
+            "county_sum": 149042,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": -3000
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "presidential-electors",
+        "notes": "Grouped elector slate totals, not individual-elector vote sums. Stevenson DEM electors: Ana Frohmiller, Howard D. Grant, Joe Hunt, L. Alton \"Pat\" Riggs. Eisenhower REP electors: Sam Dick, Guy Anderson, Laurens L. Henderson, F. B. Patterson."
+      }
+    },
+    {
+      "office_id": "us-senate",
+      "district": null,
+      "page": 2,
+      "candidates": [
+        {
+          "name": "Ernest W. McFarland",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 125338,
+          "county_votes": {
+            "04001": 1375,
+            "04003": 7188,
+            "04005": 2790,
+            "04007": 5540,
+            "04009": 2475,
+            "04011": 3128,
+            "04013": 56884,
+            "04015": 1469,
+            "04017": 3022,
+            "04019": 24096,
+            "04021": 5495,
+            "04023": 1651,
+            "04025": 4706,
+            "04027": 5519
+          }
+        },
+        {
+          "name": "Barry M. Goldwater",
+          "party": "REP",
+          "write_in": false,
+          "votes": 132063,
+          "county_votes": {
+            "04001": 1474,
+            "04003": 4791,
+            "04005": 3295,
+            "04007": 3033,
+            "04009": 1722,
+            "04011": 1152,
+            "04013": 69485,
+            "04015": 1255,
+            "04017": 2934,
+            "04019": 28551,
+            "04021": 3899,
+            "04023": 1370,
+            "04025": 5535,
+            "04027": 3567
+          }
+        }
+      ],
+      "contest_id": "az-1952-us-senate",
+      "reconciliation": {
+        "status": "verified",
+        "page": 2,
+        "district": null,
+        "candidates": [
+          {
+            "candidate": "Ernest W. McFarland",
+            "official_total": 125338,
+            "official_statewide": 125338,
+            "county_sum": 125338,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "Barry M. Goldwater",
+            "official_total": 132063,
+            "official_statewide": 132063,
+            "county_sum": 132063,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          }
+        ],
+        "county_count": 14,
+        "coverage": "county",
+        "multi_seat": false,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "us-house",
+      "district": "1",
+      "page": 2,
+      "candidates": [
+        {
+          "name": "John R. Murdock",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 56622
+        },
+        {
+          "name": "John J. Rhodes",
+          "party": "REP",
+          "write_in": false,
+          "votes": 66512
+        }
+      ],
+      "contest_id": "az-1952-historical-us-house-district-1",
+      "reconciliation": {
+        "status": "reported",
+        "page": 2,
+        "district": "1",
+        "candidates": [
+          {
+            "candidate": "John R. Murdock",
+            "official_total": 56622,
+            "official_statewide": 56622,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "John J. Rhodes",
+            "official_total": 66512,
+            "official_statewide": 66512,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": false,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "us-house",
+      "district": "2",
+      "page": 2,
+      "candidates": [
+        {
+          "name": "Harold A. Patten",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 71245
+        },
+        {
+          "name": "William C. Frey",
+          "party": "REP",
+          "write_in": false,
+          "votes": 54021
+        }
+      ],
+      "contest_id": "az-1952-historical-us-house-district-2",
+      "reconciliation": {
+        "status": "reported",
+        "page": 2,
+        "district": "2",
+        "candidates": [
+          {
+            "candidate": "Harold A. Patten",
+            "official_total": 71245,
+            "official_statewide": 71245,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "William C. Frey",
+            "official_total": 54021,
+            "official_statewide": 54021,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": false,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "governor",
+      "district": null,
+      "page": 2,
+      "candidates": [
+        {
+          "name": "Joe C. Haldiman",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 103693,
+          "county_votes": {
+            "04001": 1231,
+            "04003": 5739,
+            "04005": 2208,
+            "04007": 5048,
+            "04009": 2114,
+            "04011": 2976,
+            "04013": 48362,
+            "04015": 1289,
+            "04017": 2506,
+            "04019": 18603,
+            "04021": 4278,
+            "04023": 1308,
+            "04025": 4065,
+            "04027": 3966
+          }
+        },
+        {
+          "name": "Howard Pyle",
+          "party": "REP",
+          "write_in": false,
+          "votes": 156592,
+          "county_votes": {
+            "04001": 1737,
+            "04003": 6380,
+            "04005": 4015,
+            "04007": 3715,
+            "04009": 2307,
+            "04011": 1376,
+            "04013": 79216,
+            "04015": 1509,
+            "04017": 3585,
+            "04019": 34232,
+            "04021": 5255,
+            "04023": 1791,
+            "04025": 6253,
+            "04027": 5221
+          }
+        }
+      ],
+      "contest_id": "az-1952-governor",
+      "reconciliation": {
+        "status": "verified",
+        "page": 2,
+        "district": null,
+        "candidates": [
+          {
+            "candidate": "Joe C. Haldiman",
+            "official_total": 103693,
+            "official_statewide": 103693,
+            "county_sum": 103693,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "Howard Pyle",
+            "official_total": 156592,
+            "official_statewide": 156592,
+            "county_sum": 156592,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          }
+        ],
+        "county_count": 14,
+        "coverage": "county",
+        "multi_seat": false,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "secretary-of-state",
+      "district": null,
+      "page": 2,
+      "candidates": [
+        {
+          "name": "Wesley Bolin",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 143724,
+          "county_votes": {
+            "04001": 1503,
+            "04003": 8048,
+            "04005": 3413,
+            "04007": 6155,
+            "04009": 2844,
+            "04011": 3385,
+            "04013": 67815,
+            "04015": 1622,
+            "04017": 3680,
+            "04019": 25602,
+            "04021": 6160,
+            "04023": 1832,
+            "04025": 5732,
+            "04027": 5933
+          }
+        },
+        {
+          "name": "John H. Eversole",
+          "party": "REP",
+          "write_in": false,
+          "votes": 103061,
+          "county_votes": {
+            "04001": 1158,
+            "04003": 3142,
+            "04005": 2243,
+            "04007": 2084,
+            "04009": 1091,
+            "04011": 762,
+            "04013": 55212,
+            "04015": 903,
+            "04017": 1953,
+            "04019": 24201,
+            "04021": 2905,
+            "04023": 947,
+            "04025": 3882,
+            "04027": 2578
+          }
+        }
+      ],
+      "contest_id": "az-1952-secretary-of-state",
+      "reconciliation": {
+        "status": "verified",
+        "page": 2,
+        "district": null,
+        "candidates": [
+          {
+            "candidate": "Wesley Bolin",
+            "official_total": 143724,
+            "official_statewide": 143724,
+            "county_sum": 143724,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "John H. Eversole",
+            "official_total": 103061,
+            "official_statewide": 103061,
+            "county_sum": 103061,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          }
+        ],
+        "county_count": 14,
+        "coverage": "county",
+        "multi_seat": false,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "attorney-general",
+      "district": null,
+      "page": 2,
+      "candidates": [
+        {
+          "name": "Fred O. Wilson",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 116047,
+          "county_votes": {
+            "04001": 1458,
+            "04003": 6444,
+            "04005": 3012,
+            "04007": 5390,
+            "04009": 2474,
+            "04011": 3196,
+            "04013": 55282,
+            "04015": 1501,
+            "04017": 3233,
+            "04019": 18506,
+            "04021": 5009,
+            "04023": 1399,
+            "04025": 4588,
+            "04027": 4555
+          }
+        },
+        {
+          "name": "Ross F. Jones",
+          "party": "REP",
+          "write_in": false,
+          "votes": 133963,
+          "county_votes": {
+            "04001": 1343,
+            "04003": 4937,
+            "04005": 2794,
+            "04007": 2978,
+            "04009": 1574,
+            "04011": 975,
+            "04013": 67984,
+            "04015": 1033,
+            "04017": 2518,
+            "04019": 38052,
+            "04021": 4151,
+            "04023": 1484,
+            "04025": 5066,
+            "04027": 4074
+          }
+        }
+      ],
+      "contest_id": "az-1952-attorney-general",
+      "reconciliation": {
+        "status": "reported",
+        "page": 2,
+        "district": null,
+        "candidates": [
+          {
+            "candidate": "Fred O. Wilson",
+            "official_total": 116047,
+            "official_statewide": 116047,
+            "county_sum": 116047,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "Ross F. Jones",
+            "official_total": 133963,
+            "official_statewide": 133963,
+            "county_sum": 138963,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 5000
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": false,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    }
+  ]
+}

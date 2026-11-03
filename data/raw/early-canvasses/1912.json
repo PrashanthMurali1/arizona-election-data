@@ -1,0 +1,155 @@
+{
+  "year": 1912,
+  "date": "1912-11-05",
+  "kind": "general",
+  "source_path": "data/raw/early-canvasses/pdfs/1912.pdf",
+  "source_sha256": "4d3afffbe7f82d9b04028dbac089ae0135a706f14c6c337e05aa337cf79d04d8",
+  "absent_offices": [
+    "us-senate",
+    "governor",
+    "attorney-general",
+    "secretary-of-state",
+    "state-house",
+    "state-senate"
+  ],
+  "contests": [
+    {
+      "office_id": "president",
+      "district": "at-large",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Wiley E. Jones",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 10324
+        },
+        {
+          "name": "W. T. Webb",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 10174
+        },
+        {
+          "name": "John R. Hampton",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 10130
+        },
+        {
+          "name": "Fred S. Breen",
+          "party": "REP",
+          "write_in": false,
+          "votes": 2986
+        },
+        {
+          "name": "Walter Talbot",
+          "party": "REP",
+          "write_in": false,
+          "votes": 2975
+        },
+        {
+          "name": "Hoval A. Smith",
+          "party": "REP",
+          "write_in": false,
+          "votes": 3021
+        },
+        {
+          "name": "E. S. Clark",
+          "party": "Prog",
+          "write_in": false,
+          "votes": 6949
+        },
+        {
+          "name": "John C. Greenway",
+          "party": "Prog",
+          "write_in": false,
+          "votes": 6879
+        },
+        {
+          "name": "Dwight B. Heard",
+          "party": "Prog",
+          "write_in": false,
+          "votes": 6873
+        },
+        {
+          "name": "J. L. Brooks",
+          "party": "Soc",
+          "write_in": false,
+          "votes": 3163
+        },
+        {
+          "name": "E. B. Simonton",
+          "party": "Soc",
+          "write_in": false,
+          "votes": 3139
+        },
+        {
+          "name": "Paul E. White",
+          "party": "Soc",
+          "write_in": false,
+          "votes": 3132
+        },
+        {
+          "name": "Thos. F. Wilson",
+          "party": "Pro",
+          "write_in": false,
+          "votes": 265
+        },
+        {
+          "name": "J. Stanley Howard",
+          "party": "Pro",
+          "write_in": false,
+          "votes": 221
+        },
+        {
+          "name": "Roy E. Sibley",
+          "party": "Pro",
+          "write_in": false,
+          "votes": 219
+        }
+      ],
+      "notes": "Presidential elector votes: each named elector has a separately printed total. These are elector selections, not aggregated presidential ticket votes; totals across electors must not be pooled.",
+      "multi_seat": true
+    },
+    {
+      "office_id": "us-house",
+      "district": "at-large",
+      "page": 2,
+      "candidates": [
+        {
+          "name": "Carl Hayden",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 11389
+        },
+        {
+          "name": "Thos. E. Campbell",
+          "party": "REP",
+          "write_in": false,
+          "votes": 3110
+        },
+        {
+          "name": "Robt. S. Fisher",
+          "party": "Prog",
+          "write_in": false,
+          "votes": 5819
+        },
+        {
+          "name": "A. Chas. Smith",
+          "party": "Soc",
+          "write_in": false,
+          "votes": 3034
+        },
+        {
+          "name": "O. Gibson",
+          "party": "Pro",
+          "write_in": false,
+          "votes": 193
+        }
+      ],
+      "notes": "The certified candidate returns in this source cover presidential electors and Representative in Congress only. Remaining requested offices are not printed in this supplied return."
+    }
+  ],
+  "unresolved": []
+}

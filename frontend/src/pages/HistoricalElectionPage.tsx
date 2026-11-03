@@ -17,10 +17,12 @@ interface HistoricalArchive {
     results: Results;
     page: number | null;
     notes: string;
+    source_id?: string | null;
   }[];
   sources: Source[];
   multi_seat: boolean;
   map_available: boolean;
+  result_basis?: string;
 }
 
 export default function HistoricalElectionPage({ id }: { id: string }) {
@@ -37,7 +39,17 @@ export default function HistoricalElectionPage({ id }: { id: string }) {
   const years = (catalog.data ?? [data.election])
     .filter((e) => e.office_id === data.election.office_id)
     .sort((a, b) => b.date.localeCompare(a.date));
-  const source = data.sources[0];
+  const source =
+    data.sources.find((s) => s.id === active?.source_id) ?? data.sources[0];
+  const electors =
+    data.result_basis === "presidential-electors" ||
+    data.election.office_id === "president";
+  const unitLabel = (label: string) =>
+    label === "at-large"
+      ? "At-large"
+      : /^\d/.test(label)
+        ? `District ${label}`
+        : label;
   return (
     <>
       <div className="breadcrumbs">
@@ -54,7 +66,13 @@ export default function HistoricalElectionPage({ id }: { id: string }) {
           <h1>
             {data.election.office} <span>{data.election.year}</span>
           </h1>
-          <p>General election · {data.contests.length} district contests</p>
+          <p>
+            {data.election.kind === "special" ? "Special" : "General"} election
+            ·{" "}
+            {electors
+              ? "Presidential elector returns"
+              : `${data.contests.length} district contests`}
+          </p>
           <Availability status={data.election.status} />
         </div>
         <div className="year-picker">
@@ -77,9 +95,11 @@ export default function HistoricalElectionPage({ id }: { id: string }) {
         aria-label="Historical district results"
       >
         <div className="panel-heading">
-          <h2>District results</h2>
+          <h2>{electors ? "Elector results" : "District results"}</h2>
           <div className="year-picker">
-            <label htmlFor="historical-district">District</label>
+            <label htmlFor="historical-district">
+              {electors ? "Contest" : "District"}
+            </label>
             <select
               id="historical-district"
               value={active?.district ?? ""}
@@ -87,18 +107,28 @@ export default function HistoricalElectionPage({ id }: { id: string }) {
             >
               {data.contests.map((c) => (
                 <option key={c.district} value={c.district}>
-                  District {c.district}
+                  {unitLabel(c.district)}
                 </option>
               ))}
             </select>
           </div>
         </div>
         <div className="historical-results-body">
-          <p className="footnote">
-            Historical district maps are unavailable. Each district has its own
-            candidate results.
-          </p>
-          {data.multi_seat && (
+          {!electors && (
+            <p className="footnote">
+              Historical district maps are unavailable. Each district has its
+              own candidate results.
+            </p>
+          )}
+          {electors && (
+            <p className="footnote">
+              These are the presidential elector results printed in the canvass.
+              Individual elector tallies are preserved separately; they are not
+              combined into an inferred presidential ticket total. Shares are of
+              the votes in this table, not a count of voters.
+            </p>
+          )}
+          {data.multi_seat && !electors && (
             <p className="footnote">
               Historical legislative districts could elect multiple members.
               Shares below are percentages of candidate votes, not voters.
@@ -107,7 +137,11 @@ export default function HistoricalElectionPage({ id }: { id: string }) {
           )}
           {active ? (
             <div aria-live="polite" aria-atomic="true">
-              <h3>District {active.district}</h3>
+              <h3>
+                {electors
+                  ? "Statewide elector votes"
+                  : unitLabel(active.district)}
+              </h3>
               <Availability status={active.results.status} />
               <CandidateSummary results={active.results} />
               <p className="footnote">{active.notes}</p>

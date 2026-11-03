@@ -1,0 +1,449 @@
+{
+  "year": 1924,
+  "date": "1924-11-04",
+  "kind": "general",
+  "source_sha256": "6504af588148754140b13923ae45877816f22f08e8771d60d09d85abc88ade35",
+  "absent_offices": [
+    "us-senate",
+    "state-house",
+    "state-senate"
+  ],
+  "unresolved": [],
+  "contests": [
+    {
+      "office_id": "president",
+      "district": "at-large",
+      "page": 2,
+      "candidates": [
+        {
+          "name": "Democratic elector slate",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 26235
+        },
+        {
+          "name": "Republican elector slate",
+          "party": "REP",
+          "write_in": false,
+          "votes": 30516
+        },
+        {
+          "name": "Independent Progressive elector slate",
+          "party": "Ind. Prog.",
+          "write_in": false,
+          "votes": 17210
+        }
+      ],
+      "notes": "Grouped slate totals as printed. Democratic electors: G. D. Barclay, Richard H. Ramsey, Sidney Sapp. Republican: J. H. Campbell, George O. Ford, Sharlot M. Hall. Independent Progressive: T. H. Greenfield, Louis G. Hummel, Margaret Shaffer.",
+      "contest_id": "az-1924-historical-president-district-at-large",
+      "reconciliation": {
+        "status": "reported",
+        "page": 2,
+        "district": "at-large",
+        "candidates": [
+          {
+            "candidate": "Democratic elector slate",
+            "official_total": 26235,
+            "official_statewide": 26235,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Republican elector slate",
+            "official_total": 30516,
+            "official_statewide": 30516,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Independent Progressive elector slate",
+            "official_total": 17210,
+            "official_statewide": 17210,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "presidential-electors",
+        "notes": "Grouped slate totals as printed. Democratic electors: G. D. Barclay, Richard H. Ramsey, Sidney Sapp. Republican: J. H. Campbell, George O. Ford, Sharlot M. Hall. Independent Progressive: T. H. Greenfield, Louis G. Hummel, Margaret Shaffer."
+      }
+    },
+    {
+      "office_id": "us-house",
+      "district": "at-large",
+      "page": 2,
+      "candidates": [
+        {
+          "name": "Carl Hayden",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 40329
+        },
+        {
+          "name": "W. J. Galbraith",
+          "party": "REP",
+          "write_in": false,
+          "votes": 8628
+        }
+      ],
+      "notes": "",
+      "contest_id": "az-1924-historical-us-house-district-at-large",
+      "reconciliation": {
+        "status": "reported",
+        "page": 2,
+        "district": "at-large",
+        "candidates": [
+          {
+            "candidate": "Carl Hayden",
+            "official_total": 40329,
+            "official_statewide": 40329,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "W. J. Galbraith",
+            "official_total": 8628,
+            "official_statewide": 8628,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": false,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "governor",
+      "district": null,
+      "page": 2,
+      "candidates": [
+        {
+          "name": "Geo. W. P. Hunt",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 38372
+        },
+        {
+          "name": "Dwight B. Heard",
+          "party": "REP",
+          "write_in": false,
+          "votes": 37571
+        }
+      ],
+      "notes": "",
+      "contest_id": "az-1924-governor",
+      "reconciliation": {
+        "status": "reported",
+        "page": 2,
+        "district": null,
+        "candidates": [
+          {
+            "candidate": "Geo. W. P. Hunt",
+            "official_total": 38372,
+            "official_statewide": 38372,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Dwight B. Heard",
+            "official_total": 37571,
+            "official_statewide": 37571,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": false,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "secretary-of-state",
+      "district": null,
+      "page": 2,
+      "candidates": [
+        {
+          "name": "James H. Kerby",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 42735
+        },
+        {
+          "name": "A. H. McClure",
+          "party": "REP",
+          "write_in": false,
+          "votes": 12269
+        }
+      ],
+      "notes": "",
+      "contest_id": "az-1924-secretary-of-state",
+      "reconciliation": {
+        "status": "reported",
+        "page": 2,
+        "district": null,
+        "candidates": [
+          {
+            "candidate": "James H. Kerby",
+            "official_total": 42735,
+            "official_statewide": 42735,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "A. H. McClure",
+            "official_total": 12269,
+            "official_statewide": 12269,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": false,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "attorney-general",
+      "district": null,
+      "page": 3,
+      "candidates": [
+        {
+          "name": "John W. Murphy",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 38327
+        },
+        {
+          "name": "C. R. Holton",
+          "party": "REP",
+          "write_in": false,
+          "votes": 26047
+        }
+      ],
+      "notes": "",
+      "contest_id": "az-1924-attorney-general",
+      "reconciliation": {
+        "status": "reported",
+        "page": 3,
+        "district": null,
+        "candidates": [
+          {
+            "candidate": "John W. Murphy",
+            "official_total": 38327,
+            "official_statewide": 38327,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "C. R. Holton",
+            "official_total": 26047,
+            "official_statewide": 26047,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": false,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    }
+  ]
+}

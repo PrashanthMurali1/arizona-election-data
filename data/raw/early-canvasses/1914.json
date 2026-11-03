@@ -1,0 +1,21 @@
+{
+  "year": 1914,
+  "date": "1914-11-03",
+  "kind": "general",
+  "source_path": "data/raw/early-canvasses/pdfs/1914.pdf",
+  "source_sha256": "4912c894125d116723cd53181c8b70173b945dbce6af4d11c2fe48d075676489",
+  "absent_offices": [
+    "us-house",
+    "us-senate",
+    "president",
+    "governor",
+    "attorney-general",
+    "secretary-of-state",
+    "state-house",
+    "state-senate"
+  ],
+  "contests": [],
+  "unresolved": [],
+  "record_type": "inventory",
+  "notes": "All five supplied pages were visually inspected. PDF pages 1-4 (printed report pp15-18) contain only constitutional amendments, referenda and initiatives; PDF p5 contains voter registration. No candidate election returns are present. This source does not establish absence of candidate elections in 1914."
+}

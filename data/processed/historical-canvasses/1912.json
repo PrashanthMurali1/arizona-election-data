@@ -1,0 +1,660 @@
+{
+  "year": 1912,
+  "date": "1912-11-05",
+  "kind": "general",
+  "source_sha256": "4d3afffbe7f82d9b04028dbac089ae0135a706f14c6c337e05aa337cf79d04d8",
+  "absent_offices": [
+    "us-senate",
+    "governor",
+    "attorney-general",
+    "secretary-of-state",
+    "state-house",
+    "state-senate"
+  ],
+  "unresolved": [],
+  "contests": [
+    {
+      "office_id": "president",
+      "district": "at-large",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Wiley E. Jones",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 10324
+        },
+        {
+          "name": "W. T. Webb",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 10174
+        },
+        {
+          "name": "John R. Hampton",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 10130
+        },
+        {
+          "name": "Fred S. Breen",
+          "party": "REP",
+          "write_in": false,
+          "votes": 2986
+        },
+        {
+          "name": "Walter Talbot",
+          "party": "REP",
+          "write_in": false,
+          "votes": 2975
+        },
+        {
+          "name": "Hoval A. Smith",
+          "party": "REP",
+          "write_in": false,
+          "votes": 3021
+        },
+        {
+          "name": "E. S. Clark",
+          "party": "Prog",
+          "write_in": false,
+          "votes": 6949
+        },
+        {
+          "name": "John C. Greenway",
+          "party": "Prog",
+          "write_in": false,
+          "votes": 6879
+        },
+        {
+          "name": "Dwight B. Heard",
+          "party": "Prog",
+          "write_in": false,
+          "votes": 6873
+        },
+        {
+          "name": "J. L. Brooks",
+          "party": "Soc",
+          "write_in": false,
+          "votes": 3163
+        },
+        {
+          "name": "E. B. Simonton",
+          "party": "Soc",
+          "write_in": false,
+          "votes": 3139
+        },
+        {
+          "name": "Paul E. White",
+          "party": "Soc",
+          "write_in": false,
+          "votes": 3132
+        },
+        {
+          "name": "Thos. F. Wilson",
+          "party": "Pro",
+          "write_in": false,
+          "votes": 265
+        },
+        {
+          "name": "J. Stanley Howard",
+          "party": "Pro",
+          "write_in": false,
+          "votes": 221
+        },
+        {
+          "name": "Roy E. Sibley",
+          "party": "Pro",
+          "write_in": false,
+          "votes": 219
+        }
+      ],
+      "notes": "Presidential elector votes: each named elector has a separately printed total. These are elector selections, not aggregated presidential ticket votes; totals across electors must not be pooled.",
+      "multi_seat": true,
+      "contest_id": "az-1912-historical-president-district-at-large",
+      "reconciliation": {
+        "status": "reported",
+        "page": 1,
+        "district": "at-large",
+        "candidates": [
+          {
+            "candidate": "Wiley E. Jones",
+            "official_total": 10324,
+            "official_statewide": 10324,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "W. T. Webb",
+            "official_total": 10174,
+            "official_statewide": 10174,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "John R. Hampton",
+            "official_total": 10130,
+            "official_statewide": 10130,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Fred S. Breen",
+            "official_total": 2986,
+            "official_statewide": 2986,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Walter Talbot",
+            "official_total": 2975,
+            "official_statewide": 2975,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Hoval A. Smith",
+            "official_total": 3021,
+            "official_statewide": 3021,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "E. S. Clark",
+            "official_total": 6949,
+            "official_statewide": 6949,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "John C. Greenway",
+            "official_total": 6879,
+            "official_statewide": 6879,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Dwight B. Heard",
+            "official_total": 6873,
+            "official_statewide": 6873,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "J. L. Brooks",
+            "official_total": 3163,
+            "official_statewide": 3163,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "E. B. Simonton",
+            "official_total": 3139,
+            "official_statewide": 3139,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Paul E. White",
+            "official_total": 3132,
+            "official_statewide": 3132,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Thos. F. Wilson",
+            "official_total": 265,
+            "official_statewide": 265,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "J. Stanley Howard",
+            "official_total": 221,
+            "official_statewide": 221,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Roy E. Sibley",
+            "official_total": 219,
+            "official_statewide": 219,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "presidential-electors",
+        "notes": "Presidential elector votes: each named elector has a separately printed total. These are elector selections, not aggregated presidential ticket votes; totals across electors must not be pooled."
+      }
+    },
+    {
+      "office_id": "us-house",
+      "district": "at-large",
+      "page": 2,
+      "candidates": [
+        {
+          "name": "Carl Hayden",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 11389
+        },
+        {
+          "name": "Thos. E. Campbell",
+          "party": "REP",
+          "write_in": false,
+          "votes": 3110
+        },
+        {
+          "name": "Robt. S. Fisher",
+          "party": "Prog",
+          "write_in": false,
+          "votes": 5819
+        },
+        {
+          "name": "A. Chas. Smith",
+          "party": "Soc",
+          "write_in": false,
+          "votes": 3034
+        },
+        {
+          "name": "O. Gibson",
+          "party": "Pro",
+          "write_in": false,
+          "votes": 193
+        }
+      ],
+      "notes": "The certified candidate returns in this source cover presidential electors and Representative in Congress only. Remaining requested offices are not printed in this supplied return.",
+      "contest_id": "az-1912-historical-us-house-district-at-large",
+      "reconciliation": {
+        "status": "reported",
+        "page": 2,
+        "district": "at-large",
+        "candidates": [
+          {
+            "candidate": "Carl Hayden",
+            "official_total": 11389,
+            "official_statewide": 11389,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Thos. E. Campbell",
+            "official_total": 3110,
+            "official_statewide": 3110,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Robt. S. Fisher",
+            "official_total": 5819,
+            "official_statewide": 5819,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "A. Chas. Smith",
+            "official_total": 3034,
+            "official_statewide": 3034,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "O. Gibson",
+            "official_total": 193,
+            "official_statewide": 193,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": false,
+        "result_basis": "candidate-votes",
+        "notes": "The certified candidate returns in this source cover presidential electors and Representative in Congress only. Remaining requested offices are not printed in this supplied return."
+      }
+    }
+  ]
+}

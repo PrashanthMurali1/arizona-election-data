@@ -1,0 +1,585 @@
+{
+  "year": 1932,
+  "date": "1932-11-08",
+  "kind": "general",
+  "source_path": "data/raw/early-canvasses/pdfs/1932.pdf",
+  "source_sha256": "ef1069930b3ec97b6ea3bf1533eac043b09a69e47f650d4de123f41daf5c59b0",
+  "absent_offices": [
+    "state-house",
+    "state-senate"
+  ],
+  "contests": [
+    {
+      "office_id": "president",
+      "district": "at-large",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Democratic elector slate",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 79264
+        },
+        {
+          "name": "Republican elector slate",
+          "party": "REP",
+          "write_in": false,
+          "votes": 36104
+        },
+        {
+          "name": "Communist elector slate",
+          "party": "COM",
+          "write_in": false,
+          "votes": 256
+        },
+        {
+          "name": "Arizona Progressive Democratic elector slate",
+          "party": "Arizona Prog. Dem.",
+          "write_in": false,
+          "votes": 9
+        },
+        {
+          "name": "Socialist elector slate",
+          "party": "SOC",
+          "write_in": false,
+          "votes": 2618
+        },
+        {
+          "name": "Unnamed write-ins (REP)",
+          "party": "REP",
+          "write_in": true,
+          "votes": 1
+        },
+        {
+          "name": "Unnamed write-ins (SOC)",
+          "party": "SOC",
+          "write_in": true,
+          "votes": 1
+        },
+        {
+          "name": "Unnamed write-ins (NP)",
+          "party": "NP",
+          "write_in": true,
+          "votes": 6
+        }
+      ],
+      "notes": "Each named party elector slate is bracketed with one printed total, retained once. Democratic: John C. Flynn, William R. Matthews, Roy Wayland. Republican: L. M. McKinley, John C. Phillips, Joseph Udall. Communist: E. J. Bryan, J. R. Macaulay, John Parker. Socialist: Geo. W. Barnes, Mary L. Sherwood, Willard L. McBride. Arizona Prog. Dem. has 9 Maricopa votes but no elector names printed. Page 4 separately reports miscellaneous unnamed write-ins by party; these aggregate rows are preserved and are not identified individuals."
+    },
+    {
+      "office_id": "us-senate",
+      "district": null,
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Carl Hayden",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 74310,
+          "county_votes": {
+            "04001": 1323,
+            "04003": 7540,
+            "04005": 2457,
+            "04007": 3892,
+            "04009": 2527,
+            "04011": 1602,
+            "04013": 25859,
+            "04015": 1339,
+            "04017": 2800,
+            "04019": 11576,
+            "04021": 2951,
+            "04023": 1543,
+            "04025": 6129,
+            "04027": 2772
+          }
+        },
+        {
+          "name": "Ralph Cameron",
+          "party": "REP",
+          "write_in": false,
+          "votes": 35737,
+          "county_votes": {
+            "04001": 537,
+            "04003": 2613,
+            "04005": 1073,
+            "04007": 2453,
+            "04009": 740,
+            "04011": 274,
+            "04013": 16258,
+            "04015": 694,
+            "04017": 894,
+            "04019": 4787,
+            "04021": 1079,
+            "04023": 519,
+            "04025": 2308,
+            "04027": 1508
+          }
+        },
+        {
+          "name": "Ed. Haustgen",
+          "party": "COM",
+          "write_in": false,
+          "votes": 306,
+          "county_votes": {
+            "04001": 2,
+            "04003": 8,
+            "04005": 4,
+            "04007": 17,
+            "04009": 32,
+            "04011": 16,
+            "04013": 85,
+            "04015": 13,
+            "04017": 1,
+            "04019": 64,
+            "04021": 6,
+            "04023": 6,
+            "04025": 26,
+            "04027": 26
+          }
+        },
+        {
+          "name": "Lester B. Woolever",
+          "party": "SOC",
+          "write_in": false,
+          "votes": 1110,
+          "county_votes": {
+            "04001": 1,
+            "04003": 269,
+            "04005": 17,
+            "04007": 91,
+            "04009": 31,
+            "04011": 2,
+            "04013": 144,
+            "04015": 35,
+            "04017": 170,
+            "04019": 117,
+            "04021": 12,
+            "04023": 8,
+            "04025": 91,
+            "04027": 122
+          }
+        },
+        {
+          "name": "Unnamed write-ins (DEM)",
+          "party": "DEM",
+          "write_in": true,
+          "votes": 2
+        },
+        {
+          "name": "Unnamed write-ins (SOC)",
+          "party": "SOC",
+          "write_in": true,
+          "votes": 2
+        },
+        {
+          "name": "Unnamed write-ins (NP)",
+          "party": "NP",
+          "write_in": true,
+          "votes": 1
+        }
+      ],
+      "notes": " Page 4 separately reports miscellaneous unnamed write-ins by party; these aggregate rows are preserved and are not identified individuals."
+    },
+    {
+      "office_id": "us-house",
+      "district": "at-large",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Lewis W. Douglas",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 75469
+        },
+        {
+          "name": "H. B. Wilkinson",
+          "party": "REP",
+          "write_in": false,
+          "votes": 29710
+        },
+        {
+          "name": "Charles Lattal",
+          "party": "COM",
+          "write_in": false,
+          "votes": 293
+        },
+        {
+          "name": "Ladd Vomicil",
+          "party": "SOC",
+          "write_in": false,
+          "votes": 1112
+        },
+        {
+          "name": "Unnamed write-ins (REP)",
+          "party": "REP",
+          "write_in": true,
+          "votes": 1
+        },
+        {
+          "name": "Unnamed write-ins (NP)",
+          "party": "NP",
+          "write_in": true,
+          "votes": 4
+        }
+      ],
+      "notes": " Page 4 separately reports miscellaneous unnamed write-ins by party; these aggregate rows are preserved and are not identified individuals."
+    },
+    {
+      "office_id": "governor",
+      "district": null,
+      "page": 2,
+      "candidates": [
+        {
+          "name": "B. B. Moeur",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 75314,
+          "county_votes": {
+            "04001": 1101,
+            "04003": 7724,
+            "04005": 2402,
+            "04007": 4441,
+            "04009": 3006,
+            "04011": 1588,
+            "04013": 29118,
+            "04015": 1603,
+            "04017": 2479,
+            "04019": 8403,
+            "04021": 3049,
+            "04023": 1356,
+            "04025": 5791,
+            "04027": 3253
+          }
+        },
+        {
+          "name": "Jack C. Kinney",
+          "party": "REP",
+          "write_in": false,
+          "votes": 42202,
+          "county_votes": {
+            "04001": 946,
+            "04003": 3290,
+            "04005": 1385,
+            "04007": 2189,
+            "04009": 795,
+            "04011": 387,
+            "04013": 15148,
+            "04015": 633,
+            "04017": 1528,
+            "04019": 9282,
+            "04021": 1210,
+            "04023": 821,
+            "04025": 3148,
+            "04027": 1440
+          }
+        },
+        {
+          "name": "M. E. Gehon",
+          "party": "COM",
+          "write_in": false,
+          "votes": 198,
+          "county_votes": {
+            "04001": 1,
+            "04003": 2,
+            "04005": 4,
+            "04007": 17,
+            "04009": 7,
+            "04011": 10,
+            "04013": 86,
+            "04015": 8,
+            "04017": 1,
+            "04019": 39,
+            "04021": 4,
+            "04023": 1,
+            "04025": 11,
+            "04027": 7
+          }
+        },
+        {
+          "name": "A. Bettwy",
+          "party": "Arizona Prog. Dem.",
+          "write_in": false,
+          "votes": 584,
+          "county_votes": {
+            "04001": 2,
+            "04003": 29,
+            "04005": 2,
+            "04007": 29,
+            "04009": 21,
+            "04011": 10,
+            "04013": 283,
+            "04015": 8,
+            "04017": 0,
+            "04019": 47,
+            "04021": 8,
+            "04023": 106,
+            "04025": 20,
+            "04027": 19
+          }
+        },
+        {
+          "name": "Lawrence McGivern",
+          "party": "SOC",
+          "write_in": false,
+          "votes": 826,
+          "county_votes": {
+            "04001": 1,
+            "04003": 208,
+            "04005": 14,
+            "04007": 79,
+            "04009": 16,
+            "04011": 1,
+            "04013": 110,
+            "04015": 20,
+            "04017": 144,
+            "04019": 48,
+            "04021": 8,
+            "04023": 5,
+            "04025": 81,
+            "04027": 91
+          }
+        },
+        {
+          "name": "Unnamed write-ins (DEM)",
+          "party": "DEM",
+          "write_in": true,
+          "votes": 1
+        },
+        {
+          "name": "Unnamed write-ins (REP)",
+          "party": "REP",
+          "write_in": true,
+          "votes": 1
+        },
+        {
+          "name": "Unnamed write-ins (SOC)",
+          "party": "SOC",
+          "write_in": true,
+          "votes": 1
+        },
+        {
+          "name": "Unnamed write-ins (NP)",
+          "party": "NP",
+          "write_in": true,
+          "votes": 2
+        }
+      ],
+      "notes": " Page 4 separately reports miscellaneous unnamed write-ins by party; these aggregate rows are preserved and are not identified individuals."
+    },
+    {
+      "office_id": "secretary-of-state",
+      "district": null,
+      "page": 2,
+      "candidates": [
+        {
+          "name": "James H. Kerby",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 71547,
+          "county_votes": {
+            "04001": 1120,
+            "04003": 7498,
+            "04005": 2163,
+            "04007": 4470,
+            "04009": 2449,
+            "04011": 1552,
+            "04013": 25715,
+            "04015": 1491,
+            "04017": 2453,
+            "04019": 9996,
+            "04021": 2899,
+            "04023": 1382,
+            "04025": 5327,
+            "04027": 3032
+          }
+        },
+        {
+          "name": "Hugh R. Daggs",
+          "party": "REP",
+          "write_in": false,
+          "votes": 34445,
+          "county_votes": {
+            "04001": 691,
+            "04003": 2527,
+            "04005": 1171,
+            "04007": 1640,
+            "04009": 748,
+            "04011": 303,
+            "04013": 14249,
+            "04015": 440,
+            "04017": 1201,
+            "04019": 6142,
+            "04021": 974,
+            "04023": 630,
+            "04025": 2727,
+            "04027": 1002
+          }
+        },
+        {
+          "name": "James B. Carr",
+          "party": "COM",
+          "write_in": false,
+          "votes": 641,
+          "county_votes": {
+            "04001": 3,
+            "04003": 42,
+            "04005": 8,
+            "04007": 33,
+            "04009": 38,
+            "04011": 17,
+            "04013": 122,
+            "04015": 26,
+            "04017": 16,
+            "04019": 119,
+            "04021": 10,
+            "04023": 12,
+            "04025": 71,
+            "04027": 124
+          }
+        },
+        {
+          "name": "J. M. Brennan",
+          "party": "Arizona Prog. Dem.",
+          "write_in": false,
+          "votes": 1133,
+          "county_votes": {
+            "04001": 3,
+            "04003": 62,
+            "04005": 4,
+            "04007": 56,
+            "04009": 24,
+            "04011": 10,
+            "04013": 647,
+            "04015": 23,
+            "04017": 17,
+            "04019": 112,
+            "04021": 11,
+            "04023": 46,
+            "04025": 56,
+            "04027": 62
+          }
+        },
+        {
+          "name": "Unnamed write-ins (DEM)",
+          "party": "DEM",
+          "write_in": true,
+          "votes": 3
+        },
+        {
+          "name": "Unnamed write-ins (REP)",
+          "party": "REP",
+          "write_in": true,
+          "votes": 8
+        },
+        {
+          "name": "Unnamed write-ins (SOC)",
+          "party": "SOC",
+          "write_in": true,
+          "votes": 3
+        },
+        {
+          "name": "Unnamed write-ins (NP)",
+          "party": "NP",
+          "write_in": true,
+          "votes": 2
+        }
+      ],
+      "notes": " Page 4 separately reports miscellaneous unnamed write-ins by party; these aggregate rows are preserved and are not identified individuals."
+    },
+    {
+      "office_id": "attorney-general",
+      "district": null,
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Arthur T. LaPrade",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 74176,
+          "county_votes": {
+            "04001": 1230,
+            "04003": 7701,
+            "04005": 2246,
+            "04007": 4769,
+            "04009": 2565,
+            "04011": 1646,
+            "04013": 26285,
+            "04015": 1439,
+            "04017": 2687,
+            "04019": 10861,
+            "04021": 2958,
+            "04023": 1494,
+            "04025": 5490,
+            "04027": 2805
+          }
+        },
+        {
+          "name": "Geo. T. Wilson",
+          "party": "REP",
+          "write_in": false,
+          "votes": 33311,
+          "county_votes": {
+            "04001": 620,
+            "04003": 2380,
+            "04005": 1091,
+            "04007": 1380,
+            "04009": 595,
+            "04011": 212,
+            "04013": 14713,
+            "04015": 516,
+            "04017": 1126,
+            "04019": 5365,
+            "04021": 938,
+            "04023": 566,
+            "04025": 2631,
+            "04027": 1178
+          }
+        },
+        {
+          "name": "Clarence Laughrey",
+          "party": "COM",
+          "write_in": false,
+          "votes": 546,
+          "county_votes": {
+            "04001": 5,
+            "04003": 37,
+            "04005": 6,
+            "04007": 32,
+            "04009": 22,
+            "04011": 13,
+            "04013": 121,
+            "04015": 33,
+            "04017": 18,
+            "04019": 114,
+            "04021": 11,
+            "04023": 11,
+            "04025": 54,
+            "04027": 69
+          }
+        },
+        {
+          "name": "Unnamed write-ins (DEM)",
+          "party": "DEM",
+          "write_in": true,
+          "votes": 2
+        },
+        {
+          "name": "Unnamed write-ins (NP)",
+          "party": "NP",
+          "write_in": true,
+          "votes": 2
+        }
+      ],
+      "notes": " Page 4 separately reports miscellaneous unnamed write-ins by party; these aggregate rows are preserved and are not identified individuals."
+    }
+  ],
+  "unresolved": [
+    {
+      "office_id": "state-house",
+      "reason": "No state legislative candidate returns appear in retained source."
+    },
+    {
+      "office_id": "state-senate",
+      "reason": "No state legislative candidate returns appear in retained source."
+    }
+  ]
+}

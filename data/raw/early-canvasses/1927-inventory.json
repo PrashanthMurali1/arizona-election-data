@@ -1,0 +1,10 @@
+{
+  "record_type": "inventory",
+  "year": 1927,
+  "date": null,
+  "kind": null,
+  "source_path": "data/raw/early-canvasses/pdfs/1927 Special.pdf",
+  "source_sha256": "60977f83ba84d3b9102c437eed268bd6372b36c85fff4af4d69dda233cad73c7",
+  "contests": [],
+  "notes": "May 31, 1927 special election on constitutional amendments and referendum measures; no requested candidate-office contests."
+}

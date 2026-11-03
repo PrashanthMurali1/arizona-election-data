@@ -1,0 +1,462 @@
+{
+  "year": 1938,
+  "date": "1938-11-08",
+  "kind": "general",
+  "source_sha256": "aa7e92abee77dabdfdc43e4b3b9bc74abddbfec7934a339006c9c168d6ac80c8",
+  "absent_offices": [
+    "president",
+    "state-house",
+    "state-senate"
+  ],
+  "unresolved": [
+    {
+      "office_id": "state-house",
+      "reason": "No state legislative candidate returns appear in retained source."
+    },
+    {
+      "office_id": "state-senate",
+      "reason": "No state legislative candidate returns appear in retained source."
+    }
+  ],
+  "contests": [
+    {
+      "office_id": "us-senate",
+      "district": null,
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Carl Hayden",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 82714,
+          "county_votes": {
+            "04001": 1988,
+            "04003": 7528,
+            "04005": 2739,
+            "04007": 4768,
+            "04009": 2761,
+            "04011": 1803,
+            "04013": 30153,
+            "04015": 1646,
+            "04017": 3046,
+            "04019": 11932,
+            "04021": 3695,
+            "04023": 1550,
+            "04025": 5654,
+            "04027": 3451
+          }
+        },
+        {
+          "name": "Burt H. Clingan",
+          "party": "REP",
+          "write_in": false,
+          "votes": 25378,
+          "county_votes": {
+            "04001": 284,
+            "04003": 1724,
+            "04005": 748,
+            "04007": 1633,
+            "04009": 916,
+            "04011": 174,
+            "04013": 11148,
+            "04015": 481,
+            "04017": 532,
+            "04019": 3276,
+            "04021": 962,
+            "04023": 574,
+            "04025": 2254,
+            "04027": 672
+          }
+        }
+      ],
+      "contest_id": "az-1938-us-senate",
+      "reconciliation": {
+        "status": "verified",
+        "page": 1,
+        "district": null,
+        "candidates": [
+          {
+            "candidate": "Carl Hayden",
+            "official_total": 82714,
+            "official_statewide": 82714,
+            "county_sum": 82714,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "Burt H. Clingan",
+            "official_total": 25378,
+            "official_statewide": 25378,
+            "county_sum": 25378,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          }
+        ],
+        "county_count": 14,
+        "coverage": "county",
+        "multi_seat": false,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "us-house",
+      "district": "at-large",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "John R. Murdock",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 83556
+        },
+        {
+          "name": "M. E. (Mike) Cassidy",
+          "party": "REP",
+          "write_in": false,
+          "votes": 20502
+        }
+      ],
+      "contest_id": "az-1938-historical-us-house-district-at-large",
+      "reconciliation": {
+        "status": "reported",
+        "page": 1,
+        "district": "at-large",
+        "candidates": [
+          {
+            "candidate": "John R. Murdock",
+            "official_total": 83556,
+            "official_statewide": 83556,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "M. E. (Mike) Cassidy",
+            "official_total": 20502,
+            "official_statewide": 20502,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": false,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "governor",
+      "district": null,
+      "page": 1,
+      "candidates": [
+        {
+          "name": "James H. Kerby",
+          "party": "Arizona Ind. Democrat",
+          "write_in": false,
+          "votes": 4814,
+          "county_votes": {
+            "04001": 67,
+            "04003": 501,
+            "04005": 104,
+            "04007": 342,
+            "04009": 166,
+            "04011": 147,
+            "04013": 2144,
+            "04015": 108,
+            "04017": 127,
+            "04019": 360,
+            "04021": 136,
+            "04023": 38,
+            "04025": 346,
+            "04027": 228
+          }
+        },
+        {
+          "name": "P. T. (Bob) Jones",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 80350,
+          "county_votes": {
+            "04001": 2144,
+            "04003": 7457,
+            "04005": 2851,
+            "04007": 4912,
+            "04009": 3212,
+            "04011": 1743,
+            "04013": 27007,
+            "04015": 1776,
+            "04017": 2986,
+            "04019": 11557,
+            "04021": 3549,
+            "04023": 1687,
+            "04025": 5845,
+            "04027": 3624
+          }
+        },
+        {
+          "name": "Jerrie W. Lee",
+          "party": "REP",
+          "write_in": false,
+          "votes": 32022,
+          "county_votes": {
+            "04001": 405,
+            "04003": 1954,
+            "04005": 952,
+            "04007": 1722,
+            "04009": 827,
+            "04011": 176,
+            "04013": 15296,
+            "04015": 389,
+            "04017": 932,
+            "04019": 4354,
+            "04021": 1272,
+            "04023": 555,
+            "04025": 2563,
+            "04027": 625
+          }
+        }
+      ],
+      "contest_id": "az-1938-governor",
+      "reconciliation": {
+        "status": "verified",
+        "page": 1,
+        "district": null,
+        "candidates": [
+          {
+            "candidate": "James H. Kerby",
+            "official_total": 4814,
+            "official_statewide": 4814,
+            "county_sum": 4814,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "P. T. (Bob) Jones",
+            "official_total": 80350,
+            "official_statewide": 80350,
+            "county_sum": 80350,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "Jerrie W. Lee",
+            "official_total": 32022,
+            "official_statewide": 32022,
+            "county_sum": 32022,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          }
+        ],
+        "county_count": 14,
+        "coverage": "county",
+        "multi_seat": false,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "secretary-of-state",
+      "district": null,
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Harry M. Moore",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 86679,
+          "county_votes": {
+            "04001": 1923,
+            "04003": 7914,
+            "04005": 2579,
+            "04007": 5305,
+            "04009": 3119,
+            "04011": 1830,
+            "04013": 32698,
+            "04015": 1699,
+            "04017": 2843,
+            "04019": 11933,
+            "04021": 3833,
+            "04023": 1491,
+            "04025": 6106,
+            "04027": 3406
+          }
+        },
+        {
+          "name": "E. V. Cumming",
+          "party": "REP",
+          "write_in": false,
+          "votes": 19149,
+          "county_votes": {
+            "04001": 340,
+            "04003": 1095,
+            "04005": 675,
+            "04007": 913,
+            "04009": 456,
+            "04011": 133,
+            "04013": 7773,
+            "04015": 338,
+            "04017": 649,
+            "04019": 3260,
+            "04021": 702,
+            "04023": 651,
+            "04025": 1587,
+            "04027": 577
+          }
+        }
+      ],
+      "contest_id": "az-1938-secretary-of-state",
+      "reconciliation": {
+        "status": "verified",
+        "page": 1,
+        "district": null,
+        "candidates": [
+          {
+            "candidate": "Harry M. Moore",
+            "official_total": 86679,
+            "official_statewide": 86679,
+            "county_sum": 86679,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "E. V. Cumming",
+            "official_total": 19149,
+            "official_statewide": 19149,
+            "county_sum": 19149,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          }
+        ],
+        "county_count": 14,
+        "coverage": "county",
+        "multi_seat": false,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "attorney-general",
+      "district": null,
+      "page": 2,
+      "candidates": [
+        {
+          "name": "Joe Conway",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 86588,
+          "county_votes": {
+            "04001": 1974,
+            "04003": 7951,
+            "04005": 2740,
+            "04007": 5562,
+            "04009": 3106,
+            "04011": 1853,
+            "04013": 32426,
+            "04015": 1773,
+            "04017": 3002,
+            "04019": 11004,
+            "04021": 3915,
+            "04023": 1732,
+            "04025": 6209,
+            "04027": 3341
+          }
+        },
+        {
+          "name": "Samuel H. Fowler",
+          "party": "REP",
+          "write_in": false,
+          "votes": 21951,
+          "county_votes": {
+            "04001": 356,
+            "04003": 1321,
+            "04005": 682,
+            "04007": 910,
+            "04009": 514,
+            "04011": 134,
+            "04013": 8794,
+            "04015": 341,
+            "04017": 637,
+            "04019": 4663,
+            "04021": 699,
+            "04023": 370,
+            "04025": 1793,
+            "04027": 737
+          }
+        }
+      ],
+      "contest_id": "az-1938-attorney-general",
+      "reconciliation": {
+        "status": "verified",
+        "page": 2,
+        "district": null,
+        "candidates": [
+          {
+            "candidate": "Joe Conway",
+            "official_total": 86588,
+            "official_statewide": 86588,
+            "county_sum": 86588,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "Samuel H. Fowler",
+            "official_total": 21951,
+            "official_statewide": 21951,
+            "county_sum": 21951,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          }
+        ],
+        "county_count": 14,
+        "coverage": "county",
+        "multi_seat": false,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    }
+  ]
+}

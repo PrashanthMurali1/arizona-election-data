@@ -1,0 +1,268 @@
+{
+  "year": 1922,
+  "date": "1922-11-07",
+  "kind": "general",
+  "source_path": "data/raw/early-canvasses/pdfs/1922.1.pdf",
+  "source_sha256": "ba82f9c04566a945bb98967770e73689156a57b2373e8cbaa978c1f94b019b58",
+  "absent_offices": [
+    "state-house",
+    "state-senate",
+    "president"
+  ],
+  "contests": [
+    {
+      "office_id": "us-senate",
+      "district": null,
+      "page": 8,
+      "candidates": [
+        {
+          "name": "Henry F. Ashurst",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 39722,
+          "county_votes": {
+            "04001": 776,
+            "04003": 5840,
+            "04005": 1253,
+            "04007": 4045,
+            "04009": 1546,
+            "04011": 1056,
+            "04013": 11008,
+            "04015": 1315,
+            "04017": 1354,
+            "04019": 3912,
+            "04021": 1567,
+            "04023": 965,
+            "04025": 3405,
+            "04027": 1680
+          }
+        },
+        {
+          "name": "Jas. H. McClintock",
+          "party": "REP",
+          "write_in": false,
+          "votes": 21358,
+          "county_votes": {
+            "04001": 411,
+            "04003": 2534,
+            "04005": 727,
+            "04007": 1280,
+            "04009": 418,
+            "04011": 266,
+            "04013": 8206,
+            "04015": 438,
+            "04017": 534,
+            "04019": 2373,
+            "04021": 531,
+            "04023": 526,
+            "04025": 2244,
+            "04027": 870
+          }
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "office_id": "us-house",
+      "district": "at-large",
+      "page": 8,
+      "candidates": [
+        {
+          "name": "Carl Hayden",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 45121,
+          "county_votes": {
+            "04001": 411,
+            "04003": 2534,
+            "04005": 727,
+            "04007": 1192,
+            "04009": 1611,
+            "04011": 1044,
+            "04013": 13920,
+            "04015": 1484,
+            "04017": 1500,
+            "04019": 4225,
+            "04021": 1744,
+            "04023": 1021,
+            "04025": 3972,
+            "04027": 1877
+          }
+        },
+        {
+          "name": "Emma M. Guild",
+          "party": "REP",
+          "write_in": false,
+          "votes": 14601,
+          "county_votes": {
+            "04001": 334,
+            "04003": 2060,
+            "04005": 482,
+            "04007": 1039,
+            "04009": 352,
+            "04011": 204,
+            "04013": 4875,
+            "04015": 214,
+            "04017": 357,
+            "04019": 1877,
+            "04021": 389,
+            "04023": 439,
+            "04025": 1395,
+            "04027": 584
+          }
+        }
+      ],
+      "notes": "Original booklet printed total retained. The typed duplicate has handwritten corrections to Hayden county cells/total; those annotations are not silently substituted. Printed county/total difference retained: Carl Hayden: county sum 37,262; printed total 45,121."
+    },
+    {
+      "office_id": "governor",
+      "district": null,
+      "page": 8,
+      "candidates": [
+        {
+          "name": "Geo. W. P. Hunt",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 37310
+        },
+        {
+          "name": "Thomas E. Campbell",
+          "party": "REP",
+          "write_in": false,
+          "votes": 30599
+        },
+        {
+          "name": "R. C. Stanford",
+          "party": "NONE",
+          "write_in": true,
+          "votes": 6
+        },
+        {
+          "name": "Chas. D. Ward",
+          "party": "NONE",
+          "write_in": true,
+          "votes": 3
+        }
+      ],
+      "notes": "Two named write-ins are printed on source page 9. Primary candidate county tables are on page 8; write-in totals are statewide only."
+    },
+    {
+      "office_id": "secretary-of-state",
+      "district": null,
+      "page": 8,
+      "candidates": [
+        {
+          "name": "James H. Kerby",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 35326,
+          "county_votes": {
+            "04001": 679,
+            "04003": 4720,
+            "04005": 909,
+            "04007": 3558,
+            "04009": 1470,
+            "04011": 1021,
+            "04013": 11009,
+            "04015": 1084,
+            "04017": 1122,
+            "04019": 3240,
+            "04021": 1164,
+            "04023": 872,
+            "04025": 2906,
+            "04027": 1472
+          }
+        },
+        {
+          "name": "Ernest Hall",
+          "party": "REP",
+          "write_in": false,
+          "votes": 26055,
+          "county_votes": {
+            "04001": 552,
+            "04003": 3393,
+            "04005": 1026,
+            "04007": 1681,
+            "04009": 572,
+            "04011": 442,
+            "04013": 8505,
+            "04015": 588,
+            "04017": 759,
+            "04019": 3170,
+            "04021": 1002,
+            "04023": 662,
+            "04025": 2539,
+            "04027": 1164
+          }
+        }
+      ],
+      "notes": " Printed county/total difference retained: James H. Kerby: county sum 35,226; printed total 35,326."
+    },
+    {
+      "office_id": "attorney-general",
+      "district": null,
+      "page": 9,
+      "candidates": [
+        {
+          "name": "John W. Murphy",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 35335,
+          "county_votes": {
+            "04001": 673,
+            "04003": 4807,
+            "04005": 964,
+            "04007": 3972,
+            "04009": 1369,
+            "04011": 1002,
+            "04013": 10674,
+            "04015": 1156,
+            "04017": 1048,
+            "04019": 3224,
+            "04021": 1284,
+            "04023": 890,
+            "04025": 2788,
+            "04027": 1484
+          }
+        },
+        {
+          "name": "W. J. Galbraith",
+          "party": "REP",
+          "write_in": false,
+          "votes": 25512,
+          "county_votes": {
+            "04001": 520,
+            "04003": 3246,
+            "04005": 922,
+            "04007": 1601,
+            "04009": 657,
+            "04011": 365,
+            "04013": 8509,
+            "04015": 503,
+            "04017": 779,
+            "04019": 3216,
+            "04021": 858,
+            "04023": 635,
+            "04025": 2574,
+            "04027": 1127
+          }
+        }
+      ],
+      "notes": ""
+    }
+  ],
+  "unresolved": [],
+  "notes": "The supplied canvass contains statewide/federal returns, not legislative district returns. Source absence is not a claim that no legislative election occurred.",
+  "additional_sources": [
+    {
+      "path": "data/raw/early-canvasses/pdfs/1922.2.pdf",
+      "sha256": "6fd059b9bd2e4bb198a3b5e2ab55cd17902fa26dbfc2615c350c0015cef79e7b",
+      "notes": "Supplemental precinct returns or later typed canvass with handwritten corrections. Original published booklet is primary; overlapping races are not imported twice."
+    },
+    {
+      "path": "data/raw/early-canvasses/pdfs/1922.3.pdf",
+      "sha256": "ca3733158a312e5cab0aff5ce7dcf05f9a2c977c881d5fd609f0a3cf0ca16902",
+      "notes": "Supplemental precinct returns or later typed canvass with handwritten corrections. Original published booklet is primary; overlapping races are not imported twice."
+    }
+  ]
+}

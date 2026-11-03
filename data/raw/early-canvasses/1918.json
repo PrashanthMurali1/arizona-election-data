@@ -1,0 +1,204 @@
+{
+  "year": 1918,
+  "date": "1918-11-05",
+  "kind": "general",
+  "source_path": "data/raw/early-canvasses/pdfs/1918.pdf",
+  "source_sha256": "fac79356a906db1348c165b86c18533f1061905319185bb86be6146f0e99076a",
+  "absent_offices": [
+    "us-senate",
+    "president",
+    "attorney-general",
+    "state-house",
+    "state-senate"
+  ],
+  "contests": [
+    {
+      "office_id": "us-house",
+      "district": "at-large",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Carl Hayden",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 26805
+        },
+        {
+          "name": "Thos. Maddock",
+          "party": "REP",
+          "write_in": false,
+          "votes": 16822
+        },
+        {
+          "name": "Peter T. Robertson",
+          "party": "S",
+          "write_in": false,
+          "votes": 754
+        }
+      ],
+      "notes": "No U.S. Senate, Attorney General or legislative candidate tables are included in the supplied five-page return."
+    },
+    {
+      "office_id": "governor",
+      "district": null,
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Fred T. Colter",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 25588,
+          "county_votes": {
+            "04001": 528,
+            "04003": 4898,
+            "04005": 867,
+            "04007": 2876,
+            "04009": 1252,
+            "04011": 1159,
+            "04013": 4977,
+            "04015": 899,
+            "04017": 812,
+            "04019": 1842,
+            "04021": 1079,
+            "04023": 683,
+            "04025": 2590,
+            "04027": 1126
+          }
+        },
+        {
+          "name": "Thomas E. Campbell",
+          "party": "REP",
+          "write_in": false,
+          "votes": 25927,
+          "county_votes": {
+            "04001": 409,
+            "04003": 4110,
+            "04005": 935,
+            "04007": 2117,
+            "04009": 822,
+            "04011": 786,
+            "04013": 7779,
+            "04015": 527,
+            "04017": 780,
+            "04019": 2465,
+            "04021": 1169,
+            "04023": 609,
+            "04025": 2615,
+            "04027": 804
+          }
+        },
+        {
+          "name": "Geo. D. Smith",
+          "party": "S",
+          "write_in": false,
+          "votes": 442,
+          "county_votes": {
+            "04001": 0,
+            "04003": 57,
+            "04005": 21,
+            "04007": 21,
+            "04009": 11,
+            "04011": 15,
+            "04013": 138,
+            "04015": 29,
+            "04017": 11,
+            "04019": 21,
+            "04021": 9,
+            "04023": 5,
+            "04025": 60,
+            "04027": 45
+          }
+        }
+      ]
+    },
+    {
+      "office_id": "secretary-of-state",
+      "district": null,
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Mit Simms",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 28028,
+          "county_votes": {
+            "04001": 483,
+            "04003": 5537,
+            "04005": 815,
+            "04007": 3259,
+            "04009": 1541,
+            "04011": 1402,
+            "04013": 5649,
+            "04015": 873,
+            "04017": 805,
+            "04019": 1993,
+            "04021": 1214,
+            "04023": 698,
+            "04025": 2592,
+            "04027": 1167
+          }
+        },
+        {
+          "name": "Harry Kay",
+          "party": "REP",
+          "write_in": false,
+          "votes": 16660,
+          "county_votes": {
+            "04001": 258,
+            "04003": 2322,
+            "04005": 643,
+            "04007": 1010,
+            "04009": 382,
+            "04011": 343,
+            "04013": 6029,
+            "04015": 303,
+            "04017": 477,
+            "04019": 1613,
+            "04021": 639,
+            "04023": 460,
+            "04025": 1706,
+            "04027": 475
+          }
+        },
+        {
+          "name": "Alice S. Eddy",
+          "party": "S",
+          "write_in": false,
+          "votes": 1205,
+          "county_votes": {
+            "04001": 7,
+            "04003": 173,
+            "04005": 45,
+            "04007": 111,
+            "04009": 13,
+            "04011": 27,
+            "04013": 244,
+            "04015": 85,
+            "04017": 53,
+            "04019": 87,
+            "04021": 15,
+            "04023": 11,
+            "04025": 214,
+            "04027": 102
+          }
+        }
+      ]
+    }
+  ],
+  "unresolved": [
+    {
+      "office_id": "governor",
+      "candidate": "Geo. D. Smith",
+      "page": 1,
+      "field": "county_reconciliation",
+      "reason": "Transcribed visible county cells sum 443; printed total is 442. Source is degraded; figures need further source review, no adjustment inferred."
+    },
+    {
+      "office_id": "secretary-of-state",
+      "candidate": "Alice S. Eddy",
+      "page": 1,
+      "field": "county_reconciliation",
+      "reason": "Transcribed visible county cells sum 1187; printed total is 1205. Source is degraded; figures need further source review, no adjustment inferred."
+    }
+  ]
+}

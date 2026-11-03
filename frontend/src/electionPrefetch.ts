@@ -14,6 +14,7 @@ export function electionPrefetchUrls(elections: Election[], office: string) {
       "secretary-of-state",
       "state-house",
       "state-senate",
+      "president",
     ].includes(office)
   )
     return [];
@@ -28,7 +29,8 @@ export function electionPrefetchUrls(elections: Election[], office: string) {
       urls.add(`${base}/counties`);
       urls.add(`${base}/activity`);
     }
-    urls.add(`/api/geography/${election.boundary_id}`);
+    if (election.year >= 1966)
+      urls.add(`/api/geography/${election.boundary_id}`);
   }
   return [...urls];
 }

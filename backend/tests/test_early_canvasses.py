@@ -1,0 +1,154 @@
+"""Early-source identity and reporting semantics; isolated database fixtures."""
+import copy
+import hashlib
+import sys
+from pathlib import Path
+
+import pytest
+from sqlalchemy import create_engine, select
+from sqlalchemy.orm import sessionmaker
+
+ROOT = Path(__file__).resolve().parents[2]
+sys.path.insert(0, str(ROOT))
+from backend.app.database import Base
+from backend.app.models import Contest, ElectionEvent
+from scripts.historical_canvasses import validate_document, import_documents
+
+
+def source_document(tmp_path, year=1933):
+    path = tmp_path / 'source.pdf'
+    path.write_bytes(b'early source fixture')
+    return dict(year=year, date=f'{year}-10-03', kind='general', source_path='source.pdf',
+        source_sha256=hashlib.sha256(path.read_bytes()).hexdigest(), absent_offices=[], unresolved=[],
+        contests=[dict(office_id='state-senate', district='Cochise-1', page=1,
+            candidates=[dict(name='First', party='DEM', write_in=False, votes=30),
+                        dict(name='Second', party='REP', write_in=False, votes=20)])])
+
+
+def test_county_districts_and_general_special_events_do_not_collide(tmp_path):
+    doc = source_document(tmp_path)
+    validate_document(doc, tmp_path)
+    special = copy.deepcopy(doc)
+    special.update(kind='special', date='1933-11-01')
+    engine = create_engine('sqlite://')
+    Base.metadata.create_all(engine)
+    factory = sessionmaker(engine)
+    import_documents([doc, special], factory, source_root=tmp_path)
+    from backend.app.historical import catalog, overview
+    with factory() as session:
+        assert len(list(session.scalars(select(Contest)))) == 2
+        assert {e.kind for e in session.scalars(select(ElectionEvent))} == {'general','special'}
+        entries = catalog(session)
+        assert len({e['id'] for e in entries}) == 2
+        assert any(e['id'].endswith('-special') for e in entries)
+        assert all(overview(session,e['id'])['contests'][0]['district'] == 'Cochise-1' for e in entries)
+    engine.dispose()
+
+
+def test_supplemental_source_hashes_are_validated(tmp_path):
+    doc = source_document(tmp_path)
+    doc['contests'][0]['district'] = '1'
+    (tmp_path/'supplement.pdf').write_bytes(b'supplement')
+    doc['additional_sources'] = [dict(path='supplement.pdf', sha256='0'*64)]
+    with pytest.raises(ValueError, match='checksum'):
+        validate_document(doc,tmp_path)
+
+
+def test_greenlee_is_not_a_1906_county(tmp_path):
+    doc = source_document(tmp_path,1906)
+    doc['contests'][0].update(office_id='us-house',district='1')
+    doc['contests'][0]['candidates'][0]['county_votes'] = {'04011':1}
+    with pytest.raises(ValueError, match='county'):
+        validate_document(doc,tmp_path)
+
+
+def test_elector_votes_remain_separate_and_do_not_infer_a_presidential_winner(tmp_path):
+    doc = source_document(tmp_path,1912)
+    doc['contests'][0].update(office_id='president',district='at-large',multi_seat=True,
+        notes='Individual presidential elector votes, not a combined ticket vote.')
+    engine = create_engine('sqlite://')
+    Base.metadata.create_all(engine)
+    factory = sessionmaker(engine)
+    import_documents([doc],factory,source_root=tmp_path)
+    from backend.app.historical import catalog,overview
+    with factory() as session:
+        result = overview(session,catalog(session)[0]['id'])
+        assert result['result_basis'] == 'presidential-electors'
+        assert len(result['contests'][0]['results'].candidates) == 2
+        assert result['contests'][0]['results'].winner is None
+    engine.dispose()
+
+
+def test_explicit_source_rows_preserve_repeated_write_in_labels(tmp_path):
+    doc = source_document(tmp_path)
+    doc['contests'][0]['district'] = '1'
+    first = doc['contests'][0]['candidates'][0]
+    first.update(name='Repeated printed label', write_in=True, source_row_id='write-in-row-1')
+    second = copy.deepcopy(first)
+    second.update(source_row_id='write-in-row-2',party='NONE',votes=1)
+    doc['contests'][0]['candidates'].append(second)
+    validate_document(doc,tmp_path)
+    second['source_row_id']='write-in-row-1'
+    with pytest.raises(ValueError, match='duplicate'):
+        validate_document(doc,tmp_path)
+
+
+def test_two_seat_senate_selection_has_no_single_winner(tmp_path):
+    from backend.app.services import results
+    from backend.app.models import GeographicUnit
+    doc = source_document(tmp_path,1911)
+    doc['contests'][0].update(office_id='us-senate',district=None,multi_seat=True)
+    engine = create_engine('sqlite://')
+    Base.metadata.create_all(engine)
+    factory = sessionmaker(engine)
+    import_documents([doc],factory,source_root=tmp_path)
+    with factory() as session:
+        contest = session.scalar(select(Contest))
+        assert results(session,contest,session.get(GeographicUnit,'04')).winner is None
+    engine.dispose()
+
+
+def test_source_limitations_are_visible_with_the_contest(tmp_path):
+    doc = source_document(tmp_path)
+    doc['unresolved'] = [{'office_id':'state-senate','district':'Cochise-1',
+        'reason':'Printed party label is damaged.'}]
+    engine = create_engine('sqlite://')
+    Base.metadata.create_all(engine)
+    factory = sessionmaker(engine)
+    import_documents([doc],factory,source_root=tmp_path)
+    with factory() as session:
+        assert 'Printed party label is damaged.' in session.scalar(select(Contest)).notes
+    engine.dispose()
+
+
+def test_statewide_reconciliation_matches_detail_display_contract():
+    from scripts.historical_canvasses import reconcile_contest, county_units
+    contest = dict(office_id='governor',page=1,candidates=[
+        dict(name='Printed candidate',votes=None,county_votes={'04001':10})])
+    row = reconcile_contest(contest,1911)['candidates'][0]
+    assert row['official_statewide'] is None
+    assert set(row['missing_counties']) == county_units(1911) - {'04001'}
+
+
+def test_retained_pdf_endpoint_checks_digest_and_rejects_unknown_id(tmp_path, monkeypatch):
+    import scripts.historical_canvasses as archive
+    from backend.app.main import historical_source
+    from fastapi import HTTPException
+    pdf = tmp_path / 'data/raw/source.pdf'
+    pdf.parent.mkdir(parents=True)
+    pdf.write_bytes(b'PDF fixture')
+    doc = source_document(tmp_path)
+    doc.update(source_path='data/raw/source.pdf',source_sha256=hashlib.sha256(pdf.read_bytes()).hexdigest())
+    path = tmp_path / '1933.json'
+    import json
+    path.write_text(json.dumps(doc))
+    monkeypatch.setattr(archive,'ROOT',tmp_path)
+    monkeypatch.setattr(archive,'document_paths',lambda:[path])
+    assert historical_source('historical-canvass-1933').path == pdf
+    pdf.write_bytes(b'changed')
+    with pytest.raises(HTTPException) as changed:
+        historical_source('historical-canvass-1933')
+    assert changed.value.status_code == 409
+    with pytest.raises(HTTPException) as missing:
+        historical_source('unknown')
+    assert missing.value.status_code == 404

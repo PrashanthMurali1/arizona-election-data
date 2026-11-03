@@ -1,0 +1,721 @@
+{
+  "year": 1934,
+  "date": "1934-11-06",
+  "kind": "general",
+  "source_sha256": "3487b8380a97d542ad468bf9245dd13687d861fe6ee12c0200001a1d791dd26d",
+  "absent_offices": [
+    "president",
+    "state-house",
+    "state-senate"
+  ],
+  "unresolved": [
+    {
+      "office_id": "state-house",
+      "reason": "No state legislative candidate returns appear in retained source."
+    },
+    {
+      "office_id": "state-senate",
+      "reason": "No state legislative candidate returns appear in retained source."
+    }
+  ],
+  "contests": [
+    {
+      "office_id": "us-senate",
+      "district": null,
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Henry F. Ashurst",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 67648,
+          "county_votes": {
+            "04001": 1469,
+            "04003": 6136,
+            "04005": 2461,
+            "04007": 4012,
+            "04009": 2290,
+            "04011": 1253,
+            "04013": 23821,
+            "04015": 1571,
+            "04017": 2760,
+            "04019": 9692,
+            "04021": 2287,
+            "04023": 1252,
+            "04025": 5600,
+            "04027": 3044
+          }
+        },
+        {
+          "name": "J. E. Thompson",
+          "party": "REP",
+          "write_in": false,
+          "votes": 24075,
+          "county_votes": {
+            "04001": 510,
+            "04003": 1928,
+            "04005": 577,
+            "04007": 1622,
+            "04009": 591,
+            "04011": 202,
+            "04013": 10891,
+            "04015": 249,
+            "04017": 490,
+            "04019": 3006,
+            "04021": 1035,
+            "04023": 371,
+            "04025": 1895,
+            "04027": 708
+          }
+        },
+        {
+          "name": "Charles D. Pinkerton",
+          "party": "Soc",
+          "write_in": false,
+          "votes": 1591,
+          "county_votes": {
+            "04001": 1,
+            "04003": 470,
+            "04005": 25,
+            "04007": 56,
+            "04009": 24,
+            "04011": 8,
+            "04013": 449,
+            "04015": 31,
+            "04017": 83,
+            "04019": 168,
+            "04021": 40,
+            "04023": 21,
+            "04025": 152,
+            "04027": 63
+          }
+        },
+        {
+          "name": "Ramon Garcia",
+          "party": "C",
+          "write_in": false,
+          "votes": 606,
+          "county_votes": {
+            "04001": 12,
+            "04003": 29,
+            "04005": 17,
+            "04007": 19,
+            "04009": 53,
+            "04011": 16,
+            "04013": 105,
+            "04015": 21,
+            "04017": 31,
+            "04019": 119,
+            "04021": 37,
+            "04023": 23,
+            "04025": 26,
+            "04027": 98
+          }
+        }
+      ],
+      "contest_id": "az-1934-us-senate",
+      "reconciliation": {
+        "status": "verified",
+        "page": 1,
+        "district": null,
+        "candidates": [
+          {
+            "candidate": "Henry F. Ashurst",
+            "official_total": 67648,
+            "official_statewide": 67648,
+            "county_sum": 67648,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "J. E. Thompson",
+            "official_total": 24075,
+            "official_statewide": 24075,
+            "county_sum": 24075,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "Charles D. Pinkerton",
+            "official_total": 1591,
+            "official_statewide": 1591,
+            "county_sum": 1591,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "Ramon Garcia",
+            "official_total": 606,
+            "official_statewide": 606,
+            "county_sum": 606,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          }
+        ],
+        "county_count": 14,
+        "coverage": "county",
+        "multi_seat": false,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "us-house",
+      "district": "at-large",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Hoval A. Smith",
+          "party": "REP",
+          "write_in": false,
+          "votes": 28283
+        },
+        {
+          "name": "Isabella Greenway",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 65914
+        },
+        {
+          "name": "Charles A. Preston",
+          "party": "Soc",
+          "write_in": false,
+          "votes": 1478
+        },
+        {
+          "name": "Martin Gehon",
+          "party": "C",
+          "write_in": false,
+          "votes": 369
+        }
+      ],
+      "contest_id": "az-1934-historical-us-house-district-at-large",
+      "reconciliation": {
+        "status": "reported",
+        "page": 1,
+        "district": "at-large",
+        "candidates": [
+          {
+            "candidate": "Hoval A. Smith",
+            "official_total": 28283,
+            "official_statewide": 28283,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Isabella Greenway",
+            "official_total": 65914,
+            "official_statewide": 65914,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Charles A. Preston",
+            "official_total": 1478,
+            "official_statewide": 1478,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Martin Gehon",
+            "official_total": 369,
+            "official_statewide": 369,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": false,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "governor",
+      "district": null,
+      "page": 1,
+      "candidates": [
+        {
+          "name": "B. B. Moeur",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 61355,
+          "county_votes": {
+            "04001": 1624,
+            "04003": 5904,
+            "04005": 2328,
+            "04007": 3165,
+            "04009": 1954,
+            "04011": 1089,
+            "04013": 19896,
+            "04015": 1352,
+            "04017": 2586,
+            "04019": 9731,
+            "04021": 2225,
+            "04023": 1430,
+            "04025": 5266,
+            "04027": 2805
+          }
+        },
+        {
+          "name": "Thomas Maddock",
+          "party": "REP",
+          "write_in": false,
+          "votes": 39242,
+          "county_votes": {
+            "04001": 625,
+            "04003": 2770,
+            "04005": 1101,
+            "04007": 2969,
+            "04009": 1577,
+            "04011": 513,
+            "04013": 17772,
+            "04015": 591,
+            "04017": 890,
+            "04019": 4223,
+            "04021": 1558,
+            "04023": 433,
+            "04025": 2740,
+            "04027": 1480
+          }
+        },
+        {
+          "name": "Laurence McGivern",
+          "party": "Soc",
+          "write_in": false,
+          "votes": 1884,
+          "county_votes": {
+            "04001": null,
+            "04003": 641,
+            "04005": 18,
+            "04007": 54,
+            "04009": 10,
+            "04011": 5,
+            "04013": 356,
+            "04015": 49,
+            "04017": 130,
+            "04019": 205,
+            "04021": 53,
+            "04023": 22,
+            "04025": 262,
+            "04027": 79
+          }
+        },
+        {
+          "name": "Clay Naff",
+          "party": "C",
+          "write_in": false,
+          "votes": 374,
+          "county_votes": {
+            "04001": 1,
+            "04003": 19,
+            "04005": 8,
+            "04007": 12,
+            "04009": 15,
+            "04011": 10,
+            "04013": 79,
+            "04015": 25,
+            "04017": 2,
+            "04019": 76,
+            "04021": 17,
+            "04023": 11,
+            "04025": 27,
+            "04027": 72
+          }
+        }
+      ],
+      "contest_id": "az-1934-governor",
+      "reconciliation": {
+        "status": "reported",
+        "page": 1,
+        "district": null,
+        "candidates": [
+          {
+            "candidate": "B. B. Moeur",
+            "official_total": 61355,
+            "official_statewide": 61355,
+            "county_sum": 61355,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "Thomas Maddock",
+            "official_total": 39242,
+            "official_statewide": 39242,
+            "county_sum": 39242,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "Laurence McGivern",
+            "official_total": 1884,
+            "official_statewide": 1884,
+            "county_sum": 1884,
+            "county_coverage": 14,
+            "missing_counties": [
+              "04001"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Clay Naff",
+            "official_total": 374,
+            "official_statewide": 374,
+            "county_sum": 374,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": false,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "secretary-of-state",
+      "district": null,
+      "page": 1,
+      "candidates": [
+        {
+          "name": "James H. Kerby",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 59113,
+          "county_votes": {
+            "04001": 1302,
+            "04003": 5945,
+            "04005": 1772,
+            "04007": 4188,
+            "04009": 1808,
+            "04011": 1269,
+            "04013": 20847,
+            "04015": 1425,
+            "04017": 2063,
+            "04019": 7989,
+            "04021": 2262,
+            "04023": 1222,
+            "04025": 4234,
+            "04027": 2787
+          }
+        },
+        {
+          "name": "Ernest R. Hall",
+          "party": "REP",
+          "write_in": false,
+          "votes": 33179,
+          "county_votes": {
+            "04001": 664,
+            "04003": 1978,
+            "04005": 1184,
+            "04007": 1400,
+            "04009": 1097,
+            "04011": 229,
+            "04013": 14300,
+            "04015": 411,
+            "04017": 1061,
+            "04019": 4989,
+            "04021": 1087,
+            "04023": 440,
+            "04025": 3290,
+            "04027": 1049
+          }
+        },
+        {
+          "name": "James Porter",
+          "party": "C",
+          "write_in": false,
+          "votes": 717,
+          "county_votes": {
+            "04001": 9,
+            "04003": 26,
+            "04005": 15,
+            "04007": 29,
+            "04009": 51,
+            "04011": 12,
+            "04013": 128,
+            "04015": 37,
+            "04017": 28,
+            "04019": 157,
+            "04021": 45,
+            "04023": 22,
+            "04025": 52,
+            "04027": 106
+          }
+        },
+        {
+          "name": "William D. Phillips",
+          "party": "Soc",
+          "write_in": false,
+          "votes": 556,
+          "county_votes": {
+            "04001": null,
+            "04003": 506,
+            "04005": null,
+            "04007": null,
+            "04009": null,
+            "04011": null,
+            "04013": 41,
+            "04015": null,
+            "04017": null,
+            "04019": 7,
+            "04021": null,
+            "04023": null,
+            "04025": 2,
+            "04027": null
+          }
+        }
+      ],
+      "contest_id": "az-1934-secretary-of-state",
+      "reconciliation": {
+        "status": "reported",
+        "page": 1,
+        "district": null,
+        "candidates": [
+          {
+            "candidate": "James H. Kerby",
+            "official_total": 59113,
+            "official_statewide": 59113,
+            "county_sum": 59113,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "Ernest R. Hall",
+            "official_total": 33179,
+            "official_statewide": 33179,
+            "county_sum": 33179,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "James Porter",
+            "official_total": 717,
+            "official_statewide": 717,
+            "county_sum": 717,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "William D. Phillips",
+            "official_total": 556,
+            "official_statewide": 556,
+            "county_sum": 556,
+            "county_coverage": 14,
+            "missing_counties": [
+              "04001",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04015",
+              "04017",
+              "04021",
+              "04023",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": false,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "attorney-general",
+      "district": null,
+      "page": 2,
+      "candidates": [
+        {
+          "name": "John L. Sullivan",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 69836,
+          "county_votes": {
+            "04001": 1570,
+            "04003": 6943,
+            "04005": 2350,
+            "04007": 4505,
+            "04009": 2464,
+            "04011": 1298,
+            "04013": 24424,
+            "04015": 1552,
+            "04017": 2521,
+            "04019": 10204,
+            "04021": 2607,
+            "04023": 1353,
+            "04025": 4830,
+            "04027": 3215
+          }
+        },
+        {
+          "name": "O. J. Baughn",
+          "party": "REP",
+          "write_in": false,
+          "votes": 22383,
+          "county_votes": {
+            "04001": 351,
+            "04003": 1280,
+            "04005": 618,
+            "04007": 1026,
+            "04009": 371,
+            "04011": 148,
+            "04013": 10519,
+            "04015": 244,
+            "04017": 549,
+            "04019": 2862,
+            "04021": 769,
+            "04023": 294,
+            "04025": 2791,
+            "04027": 561
+          }
+        },
+        {
+          "name": "Clarence Lynch",
+          "party": "C",
+          "write_in": false,
+          "votes": 597,
+          "county_votes": {
+            "04001": 4,
+            "04003": 33,
+            "04005": 9,
+            "04007": 21,
+            "04009": 31,
+            "04011": 18,
+            "04013": 137,
+            "04015": 26,
+            "04017": 14,
+            "04019": 118,
+            "04021": 47,
+            "04023": 19,
+            "04025": 59,
+            "04027": 61
+          }
+        }
+      ],
+      "contest_id": "az-1934-attorney-general",
+      "reconciliation": {
+        "status": "verified",
+        "page": 2,
+        "district": null,
+        "candidates": [
+          {
+            "candidate": "John L. Sullivan",
+            "official_total": 69836,
+            "official_statewide": 69836,
+            "county_sum": 69836,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "O. J. Baughn",
+            "official_total": 22383,
+            "official_statewide": 22383,
+            "county_sum": 22383,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "Clarence Lynch",
+            "official_total": 597,
+            "official_statewide": 597,
+            "county_sum": 597,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          }
+        ],
+        "county_count": 14,
+        "coverage": "county",
+        "multi_seat": false,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    }
+  ]
+}

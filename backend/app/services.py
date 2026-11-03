@@ -101,10 +101,14 @@ def results(s: Session, c: Contest, unit: GeographicUnit):
         )
         for candidate in candidates:
             candidate.percent = percentages.get(candidate.name)
+    multi_seat = c.office_id in {'state-house', 'state-senate', 'president'}
+    if c.office_id == 'us-senate':
+        latest_report = s.scalar(select(ImportRun.report).where(ImportRun.contest_id == c.id).order_by(ImportRun.id.desc()).limit(1))
+        multi_seat = bool(latest_report and latest_report.get('multi_seat'))
     winner = (
         candidates[0]
         if complete
-        and c.office_id not in {'state-house', 'state-senate'}
+        and not multi_seat
         and not provisional
         and total
         and (len(candidates) == 1 or candidates[0].votes > candidates[1].votes)

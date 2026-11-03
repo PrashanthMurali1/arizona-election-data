@@ -1,0 +1,303 @@
+{
+  "year": 1920,
+  "date": "1920-11-02",
+  "kind": "general",
+  "source_path": "data/raw/early-canvasses/pdfs/1920.pdf",
+  "source_sha256": "03c5e60a640089e68a2a5a1d2e0657b2c56c0d1d7ebb005987a4501119eb3a7f",
+  "absent_offices": [
+    "state-house",
+    "state-senate"
+  ],
+  "contests": [
+    {
+      "office_id": "president",
+      "district": "at-large",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Democratic elector slate",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 29546,
+          "county_votes": {
+            "04001": 618,
+            "04003": 4450,
+            "04005": 781,
+            "04007": 2894,
+            "04009": 1261,
+            "04011": 1131,
+            "04013": 8825,
+            "04015": 722,
+            "04017": 1031,
+            "04019": 2455,
+            "04021": 1264,
+            "04023": 706,
+            "04025": 2251,
+            "04027": 1177
+          }
+        },
+        {
+          "name": "Republican elector slate",
+          "party": "REP",
+          "write_in": false,
+          "votes": 37016,
+          "county_votes": {
+            "04001": 679,
+            "04003": 5341,
+            "04005": 1342,
+            "04007": 3311,
+            "04009": 1062,
+            "04011": 905,
+            "04013": 13336,
+            "04015": 996,
+            "04017": 1078,
+            "04019": 3392,
+            "04021": 1493,
+            "04023": 850,
+            "04025": 3625,
+            "04027": 1606
+          }
+        }
+      ],
+      "notes": "One grouped vote per slate. Democratic electors B. F. Billingsley, May Belle Craig, H. T. Southworth. Republican electors James P. Boyle, Joseph W. Smith, Frank R. Stewart. Printed county/total difference retained: Democratic elector slate: county sum 29,566; printed total 29,546; Republican elector slate: county sum 39,016; printed total 37,016."
+    },
+    {
+      "office_id": "us-senate",
+      "district": null,
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Marcus A. Smith",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 29169,
+          "county_votes": {
+            "04001": 523,
+            "04003": 4587,
+            "04005": 754,
+            "04007": 2896,
+            "04009": 1224,
+            "04011": 1188,
+            "04013": 8389,
+            "04015": 773,
+            "04017": 945,
+            "04019": 2320,
+            "04021": 1184,
+            "04023": 671,
+            "04025": 2491,
+            "04027": 1224
+          }
+        },
+        {
+          "name": "Ralph H. Cameron",
+          "party": "REP",
+          "write_in": false,
+          "votes": 35893,
+          "county_votes": {
+            "04001": 683,
+            "04003": 4814,
+            "04005": 1381,
+            "04007": 2893,
+            "04009": 1198,
+            "04011": 783,
+            "04013": 11514,
+            "04015": 914,
+            "04017": 1038,
+            "04019": 3425,
+            "04021": 1534,
+            "04023": 912,
+            "04025": 3289,
+            "04027": 1515
+          }
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "office_id": "us-house",
+      "district": "at-large",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Carl Hayden",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 35397
+        },
+        {
+          "name": "James A. Dunseath",
+          "party": "REP",
+          "write_in": false,
+          "votes": 25841
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "office_id": "governor",
+      "district": null,
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Mit Simms",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 31385,
+          "county_votes": {
+            "04001": 590,
+            "04003": 4473,
+            "04005": 888,
+            "04007": 3553,
+            "04009": 1206,
+            "04011": 1308,
+            "04013": 9268,
+            "04015": 893,
+            "04017": 1047,
+            "04019": 2389,
+            "04021": 1319,
+            "04023": 708,
+            "04025": 2448,
+            "04027": 1295
+          }
+        },
+        {
+          "name": "Thos. E. Campbell",
+          "party": "REP",
+          "write_in": false,
+          "votes": null,
+          "county_votes": {
+            "04001": 728,
+            "04003": 5440,
+            "04005": 1315,
+            "04007": 2855,
+            "04009": 1394,
+            "04011": 827,
+            "04013": 11273,
+            "04015": 890,
+            "04017": 1081,
+            "04019": 3556,
+            "04021": 1491,
+            "04023": 907,
+            "04025": 3702,
+            "04027": 1601
+          }
+        }
+      ],
+      "notes": "Campbell printed statewide total is obscured in the retained scan. Readable county cells are retained; no statewide total is inferred."
+    },
+    {
+      "office_id": "secretary-of-state",
+      "district": null,
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Harry S. Ross",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 30705,
+          "county_votes": {
+            "04001": 573,
+            "04003": 5196,
+            "04005": 843,
+            "04007": 3112,
+            "04009": 1297,
+            "04011": 1212,
+            "04013": 8411,
+            "04015": 899,
+            "04017": 969,
+            "04019": 2425,
+            "04021": 1239,
+            "04023": 754,
+            "04025": 2487,
+            "04027": 1288
+          }
+        },
+        {
+          "name": "Ernest R. Hall",
+          "party": "REP",
+          "write_in": false,
+          "votes": 31643,
+          "county_votes": {
+            "04001": 611,
+            "04003": 4020,
+            "04005": 1162,
+            "04007": 2359,
+            "04009": 984,
+            "04011": 660,
+            "04013": 10856,
+            "04015": 701,
+            "04017": 919,
+            "04019": 2957,
+            "04021": 1321,
+            "04023": 763,
+            "04025": 3018,
+            "04027": 1312
+          }
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "office_id": "attorney-general",
+      "district": null,
+      "page": 2,
+      "candidates": [
+        {
+          "name": "Wiley E. Jones",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 28114,
+          "county_votes": {
+            "04001": 563,
+            "04003": 4165,
+            "04005": 917,
+            "04007": 2983,
+            "04009": 1114,
+            "04011": 1119,
+            "04013": 7990,
+            "04015": 936,
+            "04017": 1055,
+            "04019": 2319,
+            "04021": 1244,
+            "04023": 733,
+            "04025": 2390,
+            "04027": 1286
+          }
+        },
+        {
+          "name": "W. H. Galbraith",
+          "party": "REP",
+          "write_in": false,
+          "votes": 34533,
+          "county_votes": {
+            "04001": 625,
+            "04003": 4916,
+            "04005": 1164,
+            "04007": 2706,
+            "04009": 1307,
+            "04011": 803,
+            "04013": 11360,
+            "04015": 686,
+            "04017": 885,
+            "04019": 3203,
+            "04021": 1358,
+            "04023": 812,
+            "04025": 3194,
+            "04027": 1314
+          }
+        }
+      ],
+      "notes": " Printed county/total difference retained: Wiley E. Jones: county sum 28,814; printed total 28,114; W. H. Galbraith: county sum 34,333; printed total 34,533."
+    }
+  ],
+  "unresolved": [
+    {
+      "office_id": "governor",
+      "candidate": "Thos. E. Campbell",
+      "page": 1,
+      "field": "votes",
+      "reason": "Final printed total digits obscured by ink/damage."
+    }
+  ],
+  "notes": "The supplied canvass contains statewide/federal returns, not legislative district returns. Source absence is not a claim that no legislative election occurred."
+}

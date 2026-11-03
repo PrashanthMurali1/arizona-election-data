@@ -55,7 +55,7 @@ function StatewideElectionPage({
   const [state, setState] = useState<{
     detail: Detail;
     counties: Results[];
-    geo: Geography;
+    geo: Geography | null;
     activity: Activity | null;
   } | null>(null);
   const [error, setError] = useState<string | null>(null);
@@ -70,10 +70,12 @@ function StatewideElectionPage({
       .then(async (detail) => {
         const [counties, geo, activity] = await Promise.all([
           get<Results[]>(`/api/elections/${id}/counties`, controller.signal),
-          get<Geography>(
-            `/api/geography/${detail.election.boundary_id}`,
-            controller.signal,
-          ),
+          detail.election.year < 1966
+            ? Promise.resolve(null)
+            : get<Geography>(
+                `/api/geography/${detail.election.boundary_id}`,
+                controller.signal,
+              ),
           get<Activity | null>(
             `/api/elections/${id}/activity`,
             controller.signal,
@@ -152,11 +154,11 @@ function StatewideElectionPage({
                     ? " · unofficial"
                     : e.status === "reported"
                       ? " · reported"
-                    : e.status === "secondary"
-                      ? " · secondary source"
-                    : e.status !== "verified"
-                      ? " · incomplete"
-                      : ""}
+                      : e.status === "secondary"
+                        ? " · secondary source"
+                        : e.status !== "verified"
+                          ? " · incomplete"
+                          : ""}
               </option>
             ))}
           </select>
@@ -194,22 +196,30 @@ function StatewideElectionPage({
           </div>
           <span className="muted">Select a county to explore</span>
         </div>
-        <div className="county-grid explorer">
-          <section className="panel map-panel" aria-label="County winner map">
-            <div className="panel-heading">
-              <h3>Arizona</h3>
-              <span className="muted">
-                {provisional ? "Current reported leaders" : "County winners"}
-              </span>
-            </div>
-            <CountyMap
-              geography={geo}
-              counties={mapCounties}
-              selected={selected}
-              onSelect={selectCounty}
-              mode={provisional ? "unofficial" : "results"}
-            />
-          </section>
+        {!geo && (
+          <p className="footnote">
+            Historical county boundaries have not been verified for this
+            election. County results are available in the table.
+          </p>
+        )}
+        <div className={`county-grid explorer${geo ? "" : " without-map"}`}>
+          {geo && (
+            <section className="panel map-panel" aria-label="County winner map">
+              <div className="panel-heading">
+                <h3>Arizona</h3>
+                <span className="muted">
+                  {provisional ? "Current reported leaders" : "County winners"}
+                </span>
+              </div>
+              <CountyMap
+                geography={geo}
+                counties={mapCounties}
+                selected={selected}
+                onSelect={selectCounty}
+                mode={provisional ? "unofficial" : "results"}
+              />
+            </section>
+          )}
           <section
             className="panel table-panel table-region"
             aria-label="County results table"
@@ -225,9 +235,9 @@ function StatewideElectionPage({
               provisional={provisional}
             />
             <p className="footnote table-note">
-              Shares show the two leading parties and include all candidates of each party. Contest
-              votes exclude undervotes and overvotes. Turnout is the official
-              election-wide figure.
+              Shares show the two leading parties and include all candidates of
+              each party. Contest votes exclude undervotes and overvotes.
+              Turnout is the official election-wide figure.
             </p>
           </section>
         </div>
@@ -266,9 +276,14 @@ function StatewideElectionPage({
                 <h3>Beyond the contest</h3>
                 <TurnoutMetrics turnout={county.turnout} />
                 <p className="footnote">
-                  {number(county.total_votes)} {county.status === "reported" ? "reported" : county.status === "secondary" ? "secondary-source" : "verified"} votes in the{" "}
-                  {election.office.toLowerCase()} contest. This differs from
-                  total ballots cast.
+                  {number(county.total_votes)}{" "}
+                  {county.status === "reported"
+                    ? "reported"
+                    : county.status === "secondary"
+                      ? "secondary-source"
+                      : "verified"}{" "}
+                  votes in the {election.office.toLowerCase()} contest. This
+                  differs from total ballots cast.
                 </p>
               </div>
             </div>
@@ -279,8 +294,9 @@ function StatewideElectionPage({
             <div>
               <h3>Explore a county’s story</h3>
               <p>
-                Select any county on the map or in the table to see every
-                candidate’s results and official turnout.
+                Select any county{" "}
+                {geo ? "on the map or in the table" : "in the table"} to see
+                every candidate’s results and official turnout.
               </p>
             </div>
           </div>
@@ -300,49 +316,51 @@ function StatewideElectionPage({
             </a>
           ))}
         </div>
-        {election.status !== "reported" && <details>
-          <summary>View reconciliation report</summary>
-          {detail.reconciliation ? (
-            <div
-              className="table-scroll scroll-region"
-              tabIndex={0}
-              role="region"
-              aria-label="Scrollable source report"
-            >
-              <table>
-                <caption>
-                  County sums compared with published statewide totals
-                </caption>
-                <thead>
-                  <tr>
-                    <th>Candidate</th>
-                    <th>County sum</th>
-                    <th>Official statewide</th>
-                    <th>Difference</th>
-                    <th>Missing counties</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {detail.reconciliation.candidates.map((r) => (
-                    <tr key={r.candidate}>
-                      <th>{r.candidate}</th>
-                      <td>{number(r.county_sum)}</td>
-                      <td>{number(r.official_statewide)}</td>
-                      <td>{number(r.difference)}</td>
-                      <td>
-                        {r.missing_counties.length
-                          ? r.missing_counties.join(", ")
-                          : "None"}
-                      </td>
+        {election.status !== "reported" && (
+          <details>
+            <summary>View reconciliation report</summary>
+            {detail.reconciliation ? (
+              <div
+                className="table-scroll scroll-region"
+                tabIndex={0}
+                role="region"
+                aria-label="Scrollable source report"
+              >
+                <table>
+                  <caption>
+                    County sums compared with published statewide totals
+                  </caption>
+                  <thead>
+                    <tr>
+                      <th>Candidate</th>
+                      <th>County sum</th>
+                      <th>Official statewide</th>
+                      <th>Difference</th>
+                      <th>Missing counties</th>
                     </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
-          ) : (
-            <p>No verified import yet.</p>
-          )}
-        </details>}
+                  </thead>
+                  <tbody>
+                    {detail.reconciliation.candidates.map((r, index) => (
+                      <tr key={`${r.candidate}-${index}`}>
+                        <th>{r.candidate}</th>
+                        <td>{number(r.county_sum)}</td>
+                        <td>{number(r.official_statewide)}</td>
+                        <td>{number(r.difference)}</td>
+                        <td>
+                          {r.missing_counties.length
+                            ? r.missing_counties.join(", ")
+                            : "None"}
+                        </td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            ) : (
+              <p>No verified import yet.</p>
+            )}
+          </details>
+        )}
         <Link to="/methodology">Read the data methodology ↗</Link>
       </section>
     </>

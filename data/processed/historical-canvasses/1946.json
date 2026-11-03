@@ -1,0 +1,545 @@
+{
+  "year": 1946,
+  "date": "1946-11-05",
+  "kind": "general",
+  "source_sha256": "c003fcb0ed39c954f104fd9c4482c7cb3db6dfcfeae04bea00d80a72ff0d2a50",
+  "absent_offices": [
+    "president",
+    "state-house",
+    "state-senate"
+  ],
+  "unresolved": [],
+  "contests": [
+    {
+      "office_id": "us-senate",
+      "district": null,
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Ernest W. McFarland",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 80415,
+          "county_votes": {
+            "04001": 1334,
+            "04003": 6376,
+            "04005": 1882,
+            "04007": 3931,
+            "04009": 1956,
+            "04011": 1560,
+            "04013": 33940,
+            "04015": 1521,
+            "04017": 2215,
+            "04019": 13370,
+            "04021": 3198,
+            "04023": 1275,
+            "04025": 4675,
+            "04027": 3182
+          }
+        },
+        {
+          "name": "Ward S. Powers",
+          "party": "REP",
+          "write_in": false,
+          "votes": 35022,
+          "county_votes": {
+            "04001": 320,
+            "04003": 1913,
+            "04005": 808,
+            "04007": 1302,
+            "04009": 719,
+            "04011": 325,
+            "04013": 17201,
+            "04015": 433,
+            "04017": 934,
+            "04019": 6423,
+            "04021": 1044,
+            "04023": 434,
+            "04025": 2027,
+            "04027": 1136
+          }
+        },
+        {
+          "name": "Morris Graham",
+          "party": "C",
+          "write_in": false,
+          "votes": 802,
+          "county_votes": {
+            "04001": 5,
+            "04003": 16,
+            "04005": 12,
+            "04007": 83,
+            "04009": 25,
+            "04011": 39,
+            "04013": 398,
+            "04015": 34,
+            "04017": 3,
+            "04019": 84,
+            "04021": 44,
+            "04023": 4,
+            "04025": 26,
+            "04027": 29
+          }
+        }
+      ],
+      "contest_id": "az-1946-us-senate",
+      "reconciliation": {
+        "status": "reported",
+        "page": 1,
+        "district": null,
+        "candidates": [
+          {
+            "candidate": "Ernest W. McFarland",
+            "official_total": 80415,
+            "official_statewide": 80415,
+            "county_sum": 80415,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "Ward S. Powers",
+            "official_total": 35022,
+            "official_statewide": 35022,
+            "county_sum": 35019,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": -3
+          },
+          {
+            "candidate": "Morris Graham",
+            "official_total": 802,
+            "official_statewide": 802,
+            "county_sum": 802,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": false,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "us-house",
+      "district": "at-large",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Richard F. (Dick) Harless",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 71836
+        },
+        {
+          "name": "John R. Murdock",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 74948
+        },
+        {
+          "name": "Denver C. Henson",
+          "party": "REP",
+          "write_in": false,
+          "votes": 37033
+        },
+        {
+          "name": "John H. Curnutte",
+          "party": "REP",
+          "write_in": false,
+          "votes": 36185
+        },
+        {
+          "name": "Karl M. Wilson",
+          "party": "C",
+          "write_in": false,
+          "votes": 831
+        }
+      ],
+      "notes": "Two elected, as printed.",
+      "multi_seat": true,
+      "contest_id": "az-1946-historical-us-house-district-at-large",
+      "reconciliation": {
+        "status": "reported",
+        "page": 1,
+        "district": "at-large",
+        "candidates": [
+          {
+            "candidate": "Richard F. (Dick) Harless",
+            "official_total": 71836,
+            "official_statewide": 71836,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "John R. Murdock",
+            "official_total": 74948,
+            "official_statewide": 74948,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Denver C. Henson",
+            "official_total": 37033,
+            "official_statewide": 37033,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "John H. Curnutte",
+            "official_total": 36185,
+            "official_statewide": 36185,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          },
+          {
+            "candidate": "Karl M. Wilson",
+            "official_total": 831,
+            "official_statewide": 831,
+            "county_sum": null,
+            "county_coverage": 0,
+            "missing_counties": [
+              "04001",
+              "04003",
+              "04005",
+              "04007",
+              "04009",
+              "04011",
+              "04013",
+              "04015",
+              "04017",
+              "04019",
+              "04021",
+              "04023",
+              "04025",
+              "04027"
+            ],
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "result_basis": "candidate-votes",
+        "notes": "Two elected, as printed."
+      }
+    },
+    {
+      "office_id": "governor",
+      "district": null,
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Sidney P. Osborn",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 73595,
+          "county_votes": {
+            "04001": 1183,
+            "04003": 5945,
+            "04005": 1637,
+            "04007": 3651,
+            "04009": 1866,
+            "04011": 1594,
+            "04013": 30164,
+            "04015": 1572,
+            "04017": 1988,
+            "04019": 13061,
+            "04021": 2797,
+            "04023": 1230,
+            "04025": 3916,
+            "04027": 2991
+          }
+        },
+        {
+          "name": "Bruce D. Brockett",
+          "party": "REP",
+          "write_in": false,
+          "votes": 48867,
+          "county_votes": {
+            "04001": 721,
+            "04003": 2575,
+            "04005": 1343,
+            "04007": 2101,
+            "04009": 1321,
+            "04011": 427,
+            "04013": 23205,
+            "04015": 614,
+            "04017": 1367,
+            "04019": 8102,
+            "04021": 1717,
+            "04023": 566,
+            "04025": 3191,
+            "04027": 1617
+          }
+        }
+      ],
+      "contest_id": "az-1946-governor",
+      "reconciliation": {
+        "status": "verified",
+        "page": 1,
+        "district": null,
+        "candidates": [
+          {
+            "candidate": "Sidney P. Osborn",
+            "official_total": 73595,
+            "official_statewide": 73595,
+            "county_sum": 73595,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "Bruce D. Brockett",
+            "official_total": 48867,
+            "official_statewide": 48867,
+            "county_sum": 48867,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          }
+        ],
+        "county_count": 14,
+        "coverage": "county",
+        "multi_seat": false,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "secretary-of-state",
+      "district": null,
+      "page": 2,
+      "candidates": [
+        {
+          "name": "Dan E. Garvey",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 74543,
+          "county_votes": {
+            "04001": 1034,
+            "04003": 6032,
+            "04005": 1608,
+            "04007": 3684,
+            "04009": 1648,
+            "04011": 1501,
+            "04013": 31101,
+            "04015": 1413,
+            "04017": 1693,
+            "04019": 13871,
+            "04021": 2785,
+            "04023": 1209,
+            "04025": 3950,
+            "04027": 3014
+          }
+        },
+        {
+          "name": "Marshall H. Flake",
+          "party": "REP",
+          "write_in": false,
+          "votes": 38991,
+          "county_votes": {
+            "04001": 655,
+            "04003": 2021,
+            "04005": 945,
+            "04007": 1518,
+            "04009": 966,
+            "04011": 350,
+            "04013": 18904,
+            "04015": 507,
+            "04017": 1530,
+            "04019": 6354,
+            "04021": 1213,
+            "04023": 455,
+            "04025": 2385,
+            "04027": 1188
+          }
+        }
+      ],
+      "contest_id": "az-1946-secretary-of-state",
+      "reconciliation": {
+        "status": "verified",
+        "page": 2,
+        "district": null,
+        "candidates": [
+          {
+            "candidate": "Dan E. Garvey",
+            "official_total": 74543,
+            "official_statewide": 74543,
+            "county_sum": 74543,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "Marshall H. Flake",
+            "official_total": 38991,
+            "official_statewide": 38991,
+            "county_sum": 38991,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          }
+        ],
+        "county_count": 14,
+        "coverage": "county",
+        "multi_seat": false,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "attorney-general",
+      "district": null,
+      "page": 2,
+      "candidates": [
+        {
+          "name": "John L. Sullivan",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 73595,
+          "county_votes": {
+            "04001": 1224,
+            "04003": 6004,
+            "04005": 1676,
+            "04007": 3832,
+            "04009": 1817,
+            "04011": 1541,
+            "04013": 31049,
+            "04015": 1441,
+            "04017": 1994,
+            "04019": 12230,
+            "04021": 2792,
+            "04023": 1173,
+            "04025": 3830,
+            "04027": 2992
+          }
+        },
+        {
+          "name": "Fred G. Nave",
+          "party": "REP",
+          "write_in": false,
+          "votes": 41732,
+          "county_votes": {
+            "04001": 470,
+            "04003": 2081,
+            "04005": 945,
+            "04007": 1544,
+            "04009": 889,
+            "04011": 336,
+            "04013": 19210,
+            "04015": 536,
+            "04017": 1137,
+            "04019": 8107,
+            "04021": 1297,
+            "04023": 513,
+            "04025": 2764,
+            "04027": 1303
+          }
+        }
+      ],
+      "contest_id": "az-1946-attorney-general",
+      "reconciliation": {
+        "status": "reported",
+        "page": 2,
+        "district": null,
+        "candidates": [
+          {
+            "candidate": "John L. Sullivan",
+            "official_total": 73595,
+            "official_statewide": 73595,
+            "county_sum": 73595,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
+          },
+          {
+            "candidate": "Fred G. Nave",
+            "official_total": 41732,
+            "official_statewide": 41732,
+            "county_sum": 41132,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": -600
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": false,
+        "result_basis": "candidate-votes",
+        "notes": ""
+      }
+    }
+  ]
+}

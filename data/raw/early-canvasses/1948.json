@@ -1,0 +1,307 @@
+{
+  "year": 1948,
+  "date": "1948-11-02",
+  "kind": "general",
+  "source_path": "data/raw/early-canvasses/pdfs/1948.pdf",
+  "source_sha256": "35e3143e370892c71efc5d876e3fce2b86772a13add0e0a1becdba956c75e42d",
+  "absent_offices": [
+    "us-senate",
+    "state-house",
+    "state-senate"
+  ],
+  "contests": [
+    {
+      "office_id": "president",
+      "district": "at-large",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Democratic elector slate",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 95251
+        },
+        {
+          "name": "Republican elector slate",
+          "party": "REP",
+          "write_in": false,
+          "votes": 77597
+        },
+        {
+          "name": "Progressive elector slate",
+          "party": "Prog",
+          "write_in": false,
+          "votes": 3310
+        },
+        {
+          "name": "Prohibition elector slate",
+          "party": "Proh",
+          "write_in": false,
+          "votes": 786
+        },
+        {
+          "name": "Socialist Labor elector slate",
+          "party": "Soc.-Labor",
+          "write_in": false,
+          "votes": 121
+        }
+      ],
+      "notes": "Four to be elected. DEM Truman electors: A. J. Beaty, Ed Cahill, Austin Jay, Lorna Lockwood (p1); REP Dewey: Richard H. Chambers, J. C. Dolan, James G. McNary, Ed P. Spear; Prog Wallace: Sarah E. Brown, Rev. J. A. Russ, Al Schlackman, Tomas Ybarra; Proh Watson: Richard S. Beal, Esther LeMay, Samuel L. Smith, J. F. Yardell; Soc.-Labor Teichert: Arthur W. Burden, Leo F. Gillespie, Jules Golden, Nancy Golden (p2). Printed grouped slate figures, not a sum of individual elector votes.",
+      "multi_seat": true
+    },
+    {
+      "office_id": "us-house",
+      "district": "1",
+      "page": 2,
+      "candidates": [
+        {
+          "name": "John R. Murdock",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 42565
+        },
+        {
+          "name": "John H. Udall",
+          "party": "REP",
+          "write_in": false,
+          "votes": 29864
+        },
+        {
+          "name": "A. E. Templin",
+          "party": "Proh",
+          "write_in": false,
+          "votes": 481
+        }
+      ]
+    },
+    {
+      "office_id": "us-house",
+      "district": "2",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Harold A. \"Porque\" Patten",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 54066
+        },
+        {
+          "name": "Albert R. Buehman",
+          "party": "REP",
+          "write_in": false,
+          "votes": 30140
+        },
+        {
+          "name": "T. E. Abbott",
+          "party": "Proh",
+          "write_in": false,
+          "votes": 381
+        },
+        {
+          "name": "John P. Foley",
+          "party": "Prog",
+          "write_in": false,
+          "votes": 1478
+        }
+      ]
+    },
+    {
+      "office_id": "governor",
+      "district": null,
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Dan E. Garvey",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 104008,
+          "county_votes": {
+            "04001": 1544,
+            "04003": 7121,
+            "04005": 2716,
+            "04007": 5036,
+            "04009": 2115,
+            "04011": 2308,
+            "04013": 41257,
+            "04015": 1858,
+            "04017": 3001,
+            "04019": 22003,
+            "04021": 3755,
+            "04023": 1736,
+            "04025": 4909,
+            "04027": 4647
+          }
+        },
+        {
+          "name": "Bruce Brockett",
+          "party": "REP",
+          "write_in": false,
+          "votes": 70419,
+          "county_votes": {
+            "04001": 862,
+            "04003": 3184,
+            "04005": 1779,
+            "04007": 2235,
+            "04009": 1310,
+            "04011": 539,
+            "04013": 35672,
+            "04015": 860,
+            "04017": 1556,
+            "04019": 13297,
+            "04021": 2132,
+            "04023": 790,
+            "04025": 3940,
+            "04027": 2263
+          }
+        },
+        {
+          "name": "Ernest Pohle",
+          "party": "Proh",
+          "write_in": false,
+          "votes": 1340,
+          "county_votes": {
+            "04001": 10,
+            "04003": 39,
+            "04005": 17,
+            "04007": 42,
+            "04009": 17,
+            "04011": 12,
+            "04013": 849,
+            "04015": 19,
+            "04017": 11,
+            "04019": 163,
+            "04021": 22,
+            "04023": 23,
+            "04025": 90,
+            "04027": 26
+          }
+        }
+      ]
+    },
+    {
+      "office_id": "secretary-of-state",
+      "district": null,
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Wesley Bolin",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 106337,
+          "county_votes": {
+            "04001": 1452,
+            "04003": 7049,
+            "04005": 2475,
+            "04007": 5073,
+            "04009": 2220,
+            "04011": 2225,
+            "04013": 46083,
+            "04015": 1738,
+            "04017": 2798,
+            "04019": 20136,
+            "04021": 3795,
+            "04023": 1597,
+            "04025": 5038,
+            "04027": 4658
+          }
+        },
+        {
+          "name": "W. L. Bayless",
+          "party": "REP",
+          "write_in": false,
+          "votes": 55644,
+          "county_votes": {
+            "04001": 668,
+            "04003": 2411,
+            "04005": 1422,
+            "04007": 1548,
+            "04009": 753,
+            "04011": 414,
+            "04013": 26656,
+            "04015": 673,
+            "04017": 1347,
+            "04019": 12983,
+            "04021": 1656,
+            "04023": 650,
+            "04025": 2893,
+            "04027": 1570
+          }
+        },
+        {
+          "name": "F. O. LaPrade",
+          "party": "Proh",
+          "write_in": false,
+          "votes": 2993,
+          "county_votes": {
+            "04001": 11,
+            "04003": 117,
+            "04005": 38,
+            "04007": 112,
+            "04009": 67,
+            "04011": 37,
+            "04013": 1500,
+            "04015": 40,
+            "04017": 63,
+            "04019": 536,
+            "04021": 67,
+            "04023": 34,
+            "04025": 221,
+            "04027": 150
+          }
+        }
+      ]
+    },
+    {
+      "office_id": "attorney-general",
+      "district": null,
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Fred O. Wilson",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 108707,
+          "county_votes": {
+            "04001": 1588,
+            "04003": 7325,
+            "04005": 2662,
+            "04007": 5121,
+            "04009": 2359,
+            "04011": 2297,
+            "04013": 45096,
+            "04015": 1806,
+            "04017": 3039,
+            "04019": 21604,
+            "04021": 4001,
+            "04023": 1710,
+            "04025": 5254,
+            "04027": 4754
+          }
+        },
+        {
+          "name": "Laurens L. Henderson",
+          "party": "REP",
+          "write_in": false,
+          "votes": 55751,
+          "county_votes": {
+            "04001": 621,
+            "04003": 2203,
+            "04005": 1312,
+            "04007": 1544,
+            "04009": 767,
+            "04011": 398,
+            "04013": 28269,
+            "04015": 662,
+            "04017": 1244,
+            "04019": 12050,
+            "04021": 1550,
+            "04023": 606,
+            "04025": 2909,
+            "04027": 1536
+          }
+        }
+      ]
+    }
+  ],
+  "unresolved": []
+}

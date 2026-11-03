@@ -1,0 +1,122 @@
+{
+  "year": 1924,
+  "date": "1924-11-04",
+  "kind": "general",
+  "source_path": "data/raw/early-canvasses/pdfs/1924.pdf",
+  "source_sha256": "6504af588148754140b13923ae45877816f22f08e8771d60d09d85abc88ade35",
+  "absent_offices": [
+    "us-senate",
+    "state-house",
+    "state-senate"
+  ],
+  "contests": [
+    {
+      "office_id": "president",
+      "district": "at-large",
+      "page": 2,
+      "candidates": [
+        {
+          "name": "Democratic elector slate",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 26235
+        },
+        {
+          "name": "Republican elector slate",
+          "party": "REP",
+          "write_in": false,
+          "votes": 30516
+        },
+        {
+          "name": "Independent Progressive elector slate",
+          "party": "Ind. Prog.",
+          "write_in": false,
+          "votes": 17210
+        }
+      ],
+      "notes": "Grouped slate totals as printed. Democratic electors: G. D. Barclay, Richard H. Ramsey, Sidney Sapp. Republican: J. H. Campbell, George O. Ford, Sharlot M. Hall. Independent Progressive: T. H. Greenfield, Louis G. Hummel, Margaret Shaffer."
+    },
+    {
+      "office_id": "us-house",
+      "district": "at-large",
+      "page": 2,
+      "candidates": [
+        {
+          "name": "Carl Hayden",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 40329
+        },
+        {
+          "name": "W. J. Galbraith",
+          "party": "REP",
+          "write_in": false,
+          "votes": 8628
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "office_id": "governor",
+      "district": null,
+      "page": 2,
+      "candidates": [
+        {
+          "name": "Geo. W. P. Hunt",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 38372
+        },
+        {
+          "name": "Dwight B. Heard",
+          "party": "REP",
+          "write_in": false,
+          "votes": 37571
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "office_id": "secretary-of-state",
+      "district": null,
+      "page": 2,
+      "candidates": [
+        {
+          "name": "James H. Kerby",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 42735
+        },
+        {
+          "name": "A. H. McClure",
+          "party": "REP",
+          "write_in": false,
+          "votes": 12269
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "office_id": "attorney-general",
+      "district": null,
+      "page": 3,
+      "candidates": [
+        {
+          "name": "John W. Murphy",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 38327
+        },
+        {
+          "name": "C. R. Holton",
+          "party": "REP",
+          "write_in": false,
+          "votes": 26047
+        }
+      ],
+      "notes": ""
+    }
+  ],
+  "unresolved": [],
+  "notes": "The supplied file includes primary tables on page 1; only general candidate returns on pages 2?3 are imported. No legislative tables are present."
+}

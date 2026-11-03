@@ -127,3 +127,92 @@ test("new office sections and map-free historical district navigation", async ({
   }
   expect(geographyRequests).toEqual([]);
 });
+
+test("presidential electors use their matching source and special label", async ({
+  page,
+}) => {
+  const elector = {
+    ...election,
+    id: "az-1933-historical-president-special",
+    year: 1933,
+    date: "1933-10-03",
+    kind: "special",
+    office_id: "president",
+    office: "Presidential electors",
+  };
+  await page.route("**/api/**", async (route) => {
+    const path = new URL(route.request().url()).pathname;
+    if (path === "/api/elections") return route.fulfill({ json: [elector] });
+    return route.fulfill({
+      json: {
+        election: elector,
+        map_available: false,
+        multi_seat: true,
+        result_basis: "presidential-electors",
+        sources: [
+          {
+            id: "other",
+            title: "Other retained scan",
+            url: "/other.pdf",
+            notes: "",
+          },
+          {
+            id: "matching",
+            title: "Candidate returns",
+            url: "/matching.pdf",
+            notes: "",
+          },
+        ],
+        contests: [
+          {
+            district: "at-large",
+            contest_id: "fixture",
+            source_id: "matching",
+            page: 2,
+            notes: "Printed elector tally",
+            results: {
+              geoid: "fixture",
+              name: "At-large",
+              status: "reported",
+              total_votes: 100,
+              winner: null,
+              turnout: {},
+              candidates: [
+                {
+                  id: "elector",
+                  name: "Named elector",
+                  party: "DEM",
+                  party_name: "Democratic",
+                  votes: 100,
+                  percent: 100,
+                  status: "verified",
+                  write_in: false,
+                  category: "named_candidate",
+                },
+              ],
+            },
+          },
+        ],
+      },
+    });
+  });
+  for (const width of [1440, 390]) {
+    await page.setViewportSize({ width, height: 1000 });
+    await page.goto(`/elections/${elector.id}`);
+    await expect(
+      page.getByRole("heading", { name: "Elector results" }),
+    ).toBeVisible();
+    await expect(page.getByText(/Special election/)).toBeVisible();
+    await expect(
+      page.getByText("Named elector", { exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.getByRole("link", { name: /View official canvass/ }),
+    ).toHaveAttribute("href", "/matching.pdf#page=2");
+    expect(
+      await page.evaluate(
+        () => document.documentElement.scrollWidth <= innerWidth,
+      ),
+    ).toBe(true);
+  }
+});

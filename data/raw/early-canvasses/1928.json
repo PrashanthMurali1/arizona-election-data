@@ -1,0 +1,294 @@
+{
+  "year": 1928,
+  "date": "1928-11-06",
+  "kind": "general",
+  "source_path": "data/raw/early-canvasses/pdfs/1928.pdf",
+  "source_sha256": "21ac989c3a21345e12ce401c0ad7b9c36fd542f52a9fa7fb036dbc79bd260597",
+  "absent_offices": [
+    "state-house",
+    "state-senate"
+  ],
+  "contests": [
+    {
+      "office_id": "president",
+      "district": "at-large",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Democratic elector slate",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 38537
+        },
+        {
+          "name": "Republican elector slate",
+          "party": "REP",
+          "write_in": false,
+          "votes": 52533
+        },
+        {
+          "name": "Workers (Communist) elector slate",
+          "party": "Workers (Com.)",
+          "write_in": false,
+          "votes": 184
+        }
+      ],
+      "notes": "Each party slate is bracketed with one printed total, retained once without summing elector votes. Democratic (Smith): Cassie J. Pomeroy, Mrs. J. Andrew West, Bradford Duncan. Republican (Hoover): Mrs. R. L. Hoyal, J. Homer Smith, Fred S. Breen. Workers (Com.) (Foster): Frank I. Lowe, E. J. Bryan, F. N. Logan."
+    },
+    {
+      "office_id": "us-senate",
+      "district": null,
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Henry F. Ashurst",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 47013,
+          "county_votes": {
+            "04001": 988,
+            "04003": 5468,
+            "04005": 1607,
+            "04007": 3556,
+            "04009": 1695,
+            "04011": 1122,
+            "04013": 14822,
+            "04015": 748,
+            "04017": 1826,
+            "04019": 6362,
+            "04021": 1564,
+            "04023": 1098,
+            "04025": 4372,
+            "04027": 1785
+          }
+        },
+        {
+          "name": "Ralph H. Cameron",
+          "party": "REP",
+          "write_in": false,
+          "votes": 39651,
+          "county_votes": {
+            "04001": 564,
+            "04003": 4055,
+            "04005": 1165,
+            "04007": 2873,
+            "04009": 897,
+            "04011": 435,
+            "04013": 15920,
+            "04015": 963,
+            "04017": 1011,
+            "04019": 4798,
+            "04021": 1278,
+            "04023": 725,
+            "04025": 3021,
+            "04027": 1946
+          }
+        }
+      ]
+    },
+    {
+      "office_id": "us-house",
+      "district": "at-large",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "L. W. Douglas",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 50231
+        },
+        {
+          "name": "Guy Axline",
+          "party": "REP",
+          "write_in": false,
+          "votes": 31382
+        }
+      ]
+    },
+    {
+      "office_id": "governor",
+      "district": null,
+      "page": 2,
+      "candidates": [
+        {
+          "name": "Geo. W. P. Hunt",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 44553,
+          "county_votes": {
+            "04001": 1029,
+            "04003": 4937,
+            "04005": 1513,
+            "04007": 4062,
+            "04009": 1499,
+            "04011": 1081,
+            "04013": 13899,
+            "04015": 694,
+            "04017": 1835,
+            "04019": 5461,
+            "04021": 1605,
+            "04023": 1025,
+            "04025": 3846,
+            "04027": 2067
+          }
+        },
+        {
+          "name": "John C. Phillips",
+          "party": "REP",
+          "write_in": false,
+          "votes": 47829,
+          "county_votes": {
+            "04001": 662,
+            "04003": 5245,
+            "04005": 1461,
+            "04007": 2819,
+            "04009": 1481,
+            "04011": 545,
+            "04013": 18754,
+            "04015": 1182,
+            "04017": 1223,
+            "04019": 6255,
+            "04021": 1440,
+            "04023": 873,
+            "04025": 3985,
+            "04027": 1904
+          }
+        },
+        {
+          "name": "William O'Brien",
+          "party": "Workers (Com.)",
+          "write_in": false,
+          "votes": 122,
+          "county_votes": {
+            "04001": 1,
+            "04003": 17,
+            "04005": 5,
+            "04007": 6,
+            "04009": 2,
+            "04011": 5,
+            "04013": 26,
+            "04015": 5,
+            "04017": 2,
+            "04019": 29,
+            "04021": 2,
+            "04023": 2,
+            "04025": 14,
+            "04027": 6
+          }
+        }
+      ]
+    },
+    {
+      "office_id": "secretary-of-state",
+      "district": null,
+      "page": 2,
+      "candidates": [
+        {
+          "name": "J. C. Callaghan",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 44740,
+          "county_votes": {
+            "04001": 906,
+            "04003": 4887,
+            "04005": 1314,
+            "04007": 3750,
+            "04009": 1739,
+            "04011": 1090,
+            "04013": 14920,
+            "04015": 942,
+            "04017": 1554,
+            "04019": 5447,
+            "04021": 1596,
+            "04023": 878,
+            "04025": 3830,
+            "04027": 1887
+          }
+        },
+        {
+          "name": "I. P. Frazier",
+          "party": "REP",
+          "write_in": false,
+          "votes": 37502,
+          "county_votes": {
+            "04001": 576,
+            "04003": 4027,
+            "04005": 1239,
+            "04007": 2145,
+            "04009": 701,
+            "04011": 417,
+            "04013": 14860,
+            "04015": 785,
+            "04017": 1066,
+            "04019": 5240,
+            "04021": 1066,
+            "04023": 931,
+            "04025": 2998,
+            "04027": 1451
+          }
+        }
+      ]
+    },
+    {
+      "office_id": "attorney-general",
+      "district": null,
+      "page": 3,
+      "candidates": [
+        {
+          "name": "K. Berry Peterson",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 50133,
+          "county_votes": {
+            "04001": 902,
+            "04003": 5716,
+            "04005": 1276,
+            "04007": 3903,
+            "04009": 1707,
+            "04011": 1115,
+            "04013": 16438,
+            "04015": 952,
+            "04017": 1690,
+            "04019": 7345,
+            "04021": 1681,
+            "04023": 1146,
+            "04025": 4196,
+            "04027": 2066
+          }
+        },
+        {
+          "name": "Carl Tisor",
+          "party": "REP",
+          "write_in": false,
+          "votes": 30554,
+          "county_votes": {
+            "04001": 563,
+            "04003": 2867,
+            "04005": 1095,
+            "04007": 1902,
+            "04009": 659,
+            "04011": 361,
+            "04013": 12464,
+            "04015": 635,
+            "04017": 871,
+            "04019": 3849,
+            "04021": 988,
+            "04023": 596,
+            "04025": 2517,
+            "04027": 1187
+          }
+        }
+      ]
+    }
+  ],
+  "unresolved": [
+    {
+      "office_id": "state-house",
+      "reason": "No state legislative candidate returns appear in this retained statewide canvass."
+    },
+    {
+      "office_id": "state-senate",
+      "reason": "No state legislative candidate returns appear in this retained statewide canvass."
+    }
+  ]
+}
