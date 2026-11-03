@@ -3,6 +3,128 @@
   "date": "1978-11-07",
   "kind": "general",
   "source_sha256": "4aede91ebe58883839ef8ecaddb7bde5e7bd7392ad0bb415a28f1fd9fb47d172",
+  "turnout": {
+    "04001": {
+      "ballots_cast": 7142,
+      "registered_voters": 14365,
+      "percent": 49.72,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1978ge.pdf"
+    },
+    "04003": {
+      "ballots_cast": 15931,
+      "registered_voters": 26001,
+      "percent": 61.27,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1978ge.pdf"
+    },
+    "04005": {
+      "ballots_cast": 15789,
+      "registered_voters": 28457,
+      "percent": 55.48,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1978ge.pdf"
+    },
+    "04007": {
+      "ballots_cast": 9889,
+      "registered_voters": 15849,
+      "percent": 62.4,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1978ge.pdf"
+    },
+    "04009": {
+      "ballots_cast": 5962,
+      "registered_voters": 9253,
+      "percent": 64.43,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1978ge.pdf"
+    },
+    "04011": {
+      "ballots_cast": 3334,
+      "registered_voters": 5096,
+      "percent": 65.42,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1978ge.pdf"
+    },
+    "04013": {
+      "ballots_cast": 307537,
+      "registered_voters": 543282,
+      "percent": 56.61,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1978ge.pdf"
+    },
+    "04015": {
+      "ballots_cast": 12879,
+      "registered_voters": 20981,
+      "percent": 61.38,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1978ge.pdf"
+    },
+    "04017": {
+      "ballots_cast": 11420,
+      "registered_voters": 19673,
+      "percent": 57.79,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1978ge.pdf"
+    },
+    "04019": {
+      "ballots_cast": 108305,
+      "registered_voters": 197335,
+      "percent": 54.88,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1978ge.pdf"
+    },
+    "04021": {
+      "ballots_cast": 17433,
+      "registered_voters": 29444,
+      "percent": 59.21,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1978ge.pdf"
+    },
+    "04023": {
+      "ballots_cast": 4324,
+      "registered_voters": 6728,
+      "percent": 64.27,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1978ge.pdf"
+    },
+    "04025": {
+      "ballots_cast": 18263,
+      "registered_voters": 28948,
+      "percent": 63.09,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1978ge.pdf"
+    },
+    "04027": {
+      "ballots_cast": 12961,
+      "registered_voters": 24018,
+      "percent": 53.96,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1978ge.pdf"
+    },
+    "04": {
+      "ballots_cast": 551169,
+      "registered_voters": 969430,
+      "percent": 56.85,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1978ge.pdf"
+    }
+  },
   "absent_offices": [
     "president",
     "us-senate"

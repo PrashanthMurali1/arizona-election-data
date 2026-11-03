@@ -3,6 +3,7 @@
   "date": "1906-11-06",
   "kind": "general",
   "source_sha256": "922a844846b46912941e13aff771a6400f7cf0101eaebdc1030dd036b6c68e56",
+  "turnout": {},
   "absent_offices": [
     "us-senate",
     "president",

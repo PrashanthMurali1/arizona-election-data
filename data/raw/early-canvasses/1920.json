@@ -48,7 +48,7 @@
             "04007": 3311,
             "04009": 1062,
             "04011": 905,
-            "04013": 13336,
+            "04013": 11336,
             "04015": 996,
             "04017": 1078,
             "04019": 3392,
@@ -59,7 +59,7 @@
           }
         }
       ],
-      "notes": "One grouped vote per slate. Democratic electors B. F. Billingsley, May Belle Craig, H. T. Southworth. Republican electors James P. Boyle, Joseph W. Smith, Frank R. Stewart. Printed county/total difference retained: Democratic elector slate: county sum 29,566; printed total 29,546; Republican elector slate: county sum 39,016; printed total 37,016."
+      "notes": "One grouped vote per slate. Democratic electors B. F. Billingsley, May Belle Craig, H. T. Southworth. Republican electors James P. Boyle, Joseph W. Smith, Frank R. Stewart. Printed county/total difference retained: Democratic elector slate: county sum 29,566; printed total 29,546."
     },
     {
       "office_id": "us-senate",
@@ -122,13 +122,45 @@
           "name": "Carl Hayden",
           "party": "DEM",
           "write_in": false,
-          "votes": 35397
+          "votes": 35397,
+          "county_votes": {
+            "04001": 700,
+            "04003": 5071,
+            "04005": 1105,
+            "04007": 3570,
+            "04009": 1514,
+            "04011": 1277,
+            "04013": 10344,
+            "04015": 1019,
+            "04017": 1320,
+            "04019": 2661,
+            "04021": 1611,
+            "04023": 795,
+            "04025": 2960,
+            "04027": 1450
+          }
         },
         {
           "name": "James A. Dunseath",
           "party": "REP",
           "write_in": false,
-          "votes": 25841
+          "votes": 25841,
+          "county_votes": {
+            "04001": 487,
+            "04003": 3624,
+            "04005": 893,
+            "04007": 1956,
+            "04009": 685,
+            "04011": 580,
+            "04013": 8489,
+            "04015": 604,
+            "04017": 568,
+            "04019": 2861,
+            "04021": 931,
+            "04023": 721,
+            "04025": 2416,
+            "04027": 1026
+          }
         }
       ],
       "notes": ""
@@ -164,7 +196,7 @@
           "name": "Thos. E. Campbell",
           "party": "REP",
           "write_in": false,
-          "votes": null,
+          "votes": 37060,
           "county_votes": {
             "04001": 728,
             "04003": 5440,
@@ -180,10 +212,12 @@
             "04023": 907,
             "04025": 3702,
             "04027": 1601
-          }
+          },
+          "printed_total": null,
+          "votes_basis": "sum_of_official_counties"
         }
       ],
-      "notes": "Campbell printed statewide total is obscured in the retained scan. Readable county cells are retained; no statewide total is inferred."
+      "notes": "Campbell printed statewide total is obscured in the retained scan. Readable county cells are retained; no statewide total is inferred. Campbell statewide result is calculated by adding all 14 legible official county returns; the printed statewide total is obscured."
     },
     {
       "office_id": "secretary-of-state",
@@ -246,7 +280,7 @@
           "name": "Wiley E. Jones",
           "party": "DEM",
           "write_in": false,
-          "votes": 28114,
+          "votes": 28814,
           "county_votes": {
             "04001": 563,
             "04003": 4165,
@@ -268,7 +302,7 @@
           "name": "W. H. Galbraith",
           "party": "REP",
           "write_in": false,
-          "votes": 34533,
+          "votes": 34333,
           "county_votes": {
             "04001": 625,
             "04003": 4916,
@@ -287,7 +321,7 @@
           }
         }
       ],
-      "notes": " Printed county/total difference retained: Wiley E. Jones: county sum 28,814; printed total 28,114; W. H. Galbraith: county sum 34,333; printed total 34,533."
+      "notes": "Statewide totals and county cells visually verified against retained official page 2."
     }
   ],
   "unresolved": [
@@ -299,5 +333,112 @@
       "reason": "Final printed total digits obscured by ink/damage."
     }
   ],
-  "notes": "The supplied canvass contains statewide/federal returns, not legislative district returns. Source absence is not a claim that no legislative election occurred."
+  "notes": "The supplied canvass contains statewide/federal returns, not legislative district returns. Source absence is not a claim that no legislative election occurred.",
+  "turnout": {
+    "04001": {
+      "ballots_cast": null,
+      "registered_voters": 1707,
+      "percent": null,
+      "definition": "Official total registration for 1920, including registrations before the primary and before the general election. The source does not provide ballots cast or a turnout percentage.",
+      "page": 5
+    },
+    "04003": {
+      "ballots_cast": null,
+      "registered_voters": 13224,
+      "percent": null,
+      "definition": "Official total registration for 1920, including registrations before the primary and before the general election. The source does not provide ballots cast or a turnout percentage.",
+      "page": 5
+    },
+    "04005": {
+      "ballots_cast": null,
+      "registered_voters": 2838,
+      "percent": null,
+      "definition": "Official total registration for 1920, including registrations before the primary and before the general election. The source does not provide ballots cast or a turnout percentage.",
+      "page": 5
+    },
+    "04007": {
+      "ballots_cast": null,
+      "registered_voters": 9043,
+      "percent": null,
+      "definition": "Official total registration for 1920, including registrations before the primary and before the general election. The source does not provide ballots cast or a turnout percentage.",
+      "page": 5
+    },
+    "04009": {
+      "ballots_cast": null,
+      "registered_voters": 3122,
+      "percent": null,
+      "definition": "Official total registration for 1920, including registrations before the primary and before the general election. The source does not provide ballots cast or a turnout percentage.",
+      "page": 5
+    },
+    "04011": {
+      "ballots_cast": null,
+      "registered_voters": 2730,
+      "percent": null,
+      "definition": "Official total registration for 1920, including registrations before the primary and before the general election. The source does not provide ballots cast or a turnout percentage.",
+      "page": 5
+    },
+    "04013": {
+      "ballots_cast": null,
+      "registered_voters": 25409,
+      "percent": null,
+      "definition": "Official total registration for 1920, including registrations before the primary and before the general election. The source does not provide ballots cast or a turnout percentage.",
+      "page": 5
+    },
+    "04015": {
+      "ballots_cast": null,
+      "registered_voters": 2486,
+      "percent": null,
+      "definition": "Official total registration for 1920, including registrations before the primary and before the general election. The source does not provide ballots cast or a turnout percentage.",
+      "page": 5
+    },
+    "04017": {
+      "ballots_cast": null,
+      "registered_voters": 2754,
+      "percent": null,
+      "definition": "Official total registration for 1920, including registrations before the primary and before the general election. The source does not provide ballots cast or a turnout percentage.",
+      "page": 5
+    },
+    "04019": {
+      "ballots_cast": null,
+      "registered_voters": 8421,
+      "percent": null,
+      "definition": "Official total registration for 1920, including registrations before the primary and before the general election. The source does not provide ballots cast or a turnout percentage.",
+      "page": 5
+    },
+    "04021": {
+      "ballots_cast": null,
+      "registered_voters": 3756,
+      "percent": null,
+      "definition": "Official total registration for 1920, including registrations before the primary and before the general election. The source does not provide ballots cast or a turnout percentage.",
+      "page": 5
+    },
+    "04023": {
+      "ballots_cast": null,
+      "registered_voters": 2023,
+      "percent": null,
+      "definition": "Official total registration for 1920, including registrations before the primary and before the general election. The source does not provide ballots cast or a turnout percentage.",
+      "page": 5
+    },
+    "04025": {
+      "ballots_cast": null,
+      "registered_voters": 8741,
+      "percent": null,
+      "definition": "Official total registration for 1920, including registrations before the primary and before the general election. The source does not provide ballots cast or a turnout percentage.",
+      "page": 5
+    },
+    "04027": {
+      "ballots_cast": null,
+      "registered_voters": 4018,
+      "percent": null,
+      "definition": "Official total registration for 1920, including registrations before the primary and before the general election. The source does not provide ballots cast or a turnout percentage.",
+      "page": 5
+    },
+    "04": {
+      "ballots_cast": null,
+      "registered_voters": 90272,
+      "percent": null,
+      "definition": "Official total registration for 1920, including registrations before the primary and before the general election. The source does not provide ballots cast or a turnout percentage.",
+      "page": 5
+    }
+  }
 }

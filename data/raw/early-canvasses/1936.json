@@ -19,94 +19,334 @@
           "name": "J. J. (Jack) O'Dowd",
           "party": "DEM",
           "write_in": false,
-          "votes": 86722
+          "votes": 86722,
+          "county_votes": {
+            "04001": 1674,
+            "04003": 8130,
+            "04005": 2578,
+            "04007": 4859,
+            "04009": 3541,
+            "04011": 1526,
+            "04013": 32031,
+            "04015": 1814,
+            "04017": 3037,
+            "04019": 12249,
+            "04021": 3498,
+            "04023": 1729,
+            "04025": 6628,
+            "04027": 3428
+          }
         },
         {
           "name": "J. G. Peterson",
           "party": "DEM",
           "write_in": false,
-          "votes": 86722
+          "votes": 86722,
+          "county_votes": {
+            "04001": 1674,
+            "04003": 8130,
+            "04005": 2578,
+            "04007": 4859,
+            "04009": 3541,
+            "04011": 1526,
+            "04013": 32031,
+            "04015": 1814,
+            "04017": 3037,
+            "04019": 12249,
+            "04021": 3498,
+            "04023": 1729,
+            "04025": 6628,
+            "04027": 3428
+          }
         },
         {
           "name": "Mrs. W. H. Reeves",
           "party": "DEM",
           "write_in": false,
-          "votes": 86722
+          "votes": 86722,
+          "county_votes": {
+            "04001": 1674,
+            "04003": 8130,
+            "04005": 2578,
+            "04007": 4859,
+            "04009": 3541,
+            "04011": 1526,
+            "04013": 32031,
+            "04015": 1814,
+            "04017": 3037,
+            "04019": 12249,
+            "04021": 3498,
+            "04023": 1729,
+            "04025": 6628,
+            "04027": 3428
+          }
         },
         {
           "name": "Jack C. Kinney",
           "party": "REP",
           "write_in": false,
-          "votes": 33433
+          "votes": 33433,
+          "county_votes": {
+            "04001": 638,
+            "04003": 2092,
+            "04005": 1140,
+            "04007": 1526,
+            "04009": 680,
+            "04011": 218,
+            "04013": 13671,
+            "04015": 609,
+            "04017": 1052,
+            "04019": 6079,
+            "04021": 1216,
+            "04023": 742,
+            "04025": 2794,
+            "04027": 976
+          }
         },
         {
           "name": "E. J. Nordyke",
           "party": "REP",
           "write_in": false,
-          "votes": 33433
+          "votes": 33433,
+          "county_votes": {
+            "04001": 638,
+            "04003": 2092,
+            "04005": 1140,
+            "04007": 1526,
+            "04009": 680,
+            "04011": 218,
+            "04013": 13671,
+            "04015": 609,
+            "04017": 1052,
+            "04019": 6079,
+            "04021": 1216,
+            "04023": 742,
+            "04025": 2794,
+            "04027": 976
+          }
         },
         {
           "name": "J. C. Reed",
           "party": "REP",
           "write_in": false,
-          "votes": 33433
+          "votes": 33433,
+          "county_votes": {
+            "04001": 638,
+            "04003": 2092,
+            "04005": 1140,
+            "04007": 1526,
+            "04009": 680,
+            "04011": 218,
+            "04013": 13671,
+            "04015": 609,
+            "04017": 1052,
+            "04019": 6079,
+            "04021": 1216,
+            "04023": 742,
+            "04025": 2794,
+            "04027": 976
+          }
         },
         {
           "name": "Alzina P. Boone",
           "party": "Prohibition",
           "write_in": false,
-          "votes": 384
+          "votes": 384,
+          "county_votes": {
+            "04001": 4,
+            "04003": 3,
+            "04005": 12,
+            "04007": 9,
+            "04009": 67,
+            "04011": 0,
+            "04013": 188,
+            "04015": 1,
+            "04017": 3,
+            "04019": 41,
+            "04021": 11,
+            "04023": 3,
+            "04025": 32,
+            "04027": 10
+          }
         },
         {
           "name": "John W. Forney",
           "party": "Prohibition",
           "write_in": false,
-          "votes": 384
+          "votes": 384,
+          "county_votes": {
+            "04001": 4,
+            "04003": 3,
+            "04005": 12,
+            "04007": 9,
+            "04009": 67,
+            "04011": 0,
+            "04013": 188,
+            "04015": 1,
+            "04017": 3,
+            "04019": 41,
+            "04021": 11,
+            "04023": 3,
+            "04025": 32,
+            "04027": 10
+          }
         },
         {
           "name": "O. R. Weed",
           "party": "Prohibition",
           "write_in": false,
-          "votes": 384
+          "votes": 384,
+          "county_votes": {
+            "04001": 4,
+            "04003": 3,
+            "04005": 12,
+            "04007": 9,
+            "04009": 67,
+            "04011": 0,
+            "04013": 188,
+            "04015": 1,
+            "04017": 3,
+            "04019": 41,
+            "04021": 11,
+            "04023": 3,
+            "04025": 32,
+            "04027": 10
+          }
         },
         {
           "name": "Anna Chase",
           "party": "Socialist",
           "write_in": false,
-          "votes": 317
+          "votes": 317,
+          "county_votes": {
+            "04001": 4,
+            "04003": 42,
+            "04005": 10,
+            "04007": 10,
+            "04009": 9,
+            "04011": 1,
+            "04013": 123,
+            "04015": 11,
+            "04017": 15,
+            "04019": 43,
+            "04021": 7,
+            "04023": 3,
+            "04025": 22,
+            "04027": 17
+          }
         },
         {
           "name": "Eli Link",
           "party": "Socialist",
           "write_in": false,
-          "votes": 317
+          "votes": 317,
+          "county_votes": {
+            "04001": 4,
+            "04003": 42,
+            "04005": 10,
+            "04007": 10,
+            "04009": 9,
+            "04011": 1,
+            "04013": 123,
+            "04015": 11,
+            "04017": 15,
+            "04019": 43,
+            "04021": 7,
+            "04023": 3,
+            "04025": 22,
+            "04027": 17
+          }
         },
         {
           "name": "Alva Shewey",
           "party": "Socialist",
           "write_in": false,
-          "votes": 317
+          "votes": 317,
+          "county_votes": {
+            "04001": 4,
+            "04003": 42,
+            "04005": 10,
+            "04007": 10,
+            "04009": 9,
+            "04011": 1,
+            "04013": 123,
+            "04015": 11,
+            "04017": 15,
+            "04019": 43,
+            "04021": 7,
+            "04023": 3,
+            "04025": 22,
+            "04027": 17
+          }
         },
         {
           "name": "Leona W. Moore",
           "party": "Union",
           "write_in": false,
-          "votes": 3307
+          "votes": 3307,
+          "county_votes": {
+            "04001": 7,
+            "04003": 232,
+            "04005": 89,
+            "04007": 164,
+            "04009": 78,
+            "04011": 26,
+            "04013": 1597,
+            "04015": 94,
+            "04017": 35,
+            "04019": 178,
+            "04021": 136,
+            "04023": 53,
+            "04025": 450,
+            "04027": 168
+          }
         },
         {
           "name": "C. B. Spooner",
           "party": "Union",
           "write_in": false,
-          "votes": 3307
+          "votes": 3307,
+          "county_votes": {
+            "04001": 7,
+            "04003": 232,
+            "04005": 89,
+            "04007": 164,
+            "04009": 78,
+            "04011": 26,
+            "04013": 1597,
+            "04015": 94,
+            "04017": 35,
+            "04019": 178,
+            "04021": 136,
+            "04023": 53,
+            "04025": 450,
+            "04027": 168
+          }
         },
         {
           "name": "W. J. Wherry",
           "party": "Union",
           "write_in": false,
-          "votes": 3307
+          "votes": 3307,
+          "county_votes": {
+            "04001": 7,
+            "04003": 232,
+            "04005": 89,
+            "04007": 164,
+            "04009": 78,
+            "04011": 26,
+            "04013": 1597,
+            "04015": 94,
+            "04017": 35,
+            "04019": 178,
+            "04021": 136,
+            "04023": 53,
+            "04025": 450,
+            "04027": 168
+          }
         }
       ],
-      "notes": "Each elector has a separately printed total, preserved as individual rows. Totals are not summed into presidential ticket votes. Source ticket labels: Democratic?Roosevelt; Republican?Landon; Prohibition?Colvin; Socialist?Thomas; Union?Lemke."
+      "notes": "Each elector has a separately printed total, preserved as individual rows. Totals are not summed into presidential ticket votes. Source ticket labels: Democratic?Roosevelt; Republican?Landon; Prohibition?Colvin; Socialist?Thomas; Union?Lemke. County returns for each elector transcribed individually from page 1; repeated elector figures are not additional presidential ballots."
     },
     {
       "office_id": "us-house",
@@ -117,27 +357,92 @@
           "name": "John R. Murdock",
           "party": "DEM",
           "write_in": false,
-          "votes": 84343
+          "votes": 84343,
+          "county_votes": {
+            "04001": 1394,
+            "04003": 7731,
+            "04005": 2217,
+            "04007": 4949,
+            "04009": 3336,
+            "04011": 1530,
+            "04013": 32825,
+            "04015": 1680,
+            "04017": 2778,
+            "04019": 11729,
+            "04021": 3474,
+            "04023": 1621,
+            "04025": 5873,
+            "04027": 3206
+          }
         },
         {
           "name": "George L. Burgess",
           "party": "REP",
           "write_in": false,
-          "votes": 20383
+          "votes": 20383,
+          "county_votes": {
+            "04001": 385,
+            "04003": 1197,
+            "04005": 591,
+            "04007": 865,
+            "04009": 406,
+            "04011": 106,
+            "04013": 8491,
+            "04015": 321,
+            "04017": 587,
+            "04019": 4052,
+            "04021": 771,
+            "04023": 408,
+            "04025": 1590,
+            "04027": 613
+          }
         },
         {
           "name": "A. B. Potter",
           "party": "Socialist",
           "write_in": false,
-          "votes": 295
+          "votes": 295,
+          "county_votes": {
+            "04001": 3,
+            "04003": 62,
+            "04005": 9,
+            "04007": 13,
+            "04009": 2,
+            "04011": 0,
+            "04013": 93,
+            "04015": 11,
+            "04017": 22,
+            "04019": 32,
+            "04021": 3,
+            "04023": 4,
+            "04025": 25,
+            "04027": 16
+          }
         },
         {
           "name": "E. C. Whitesitt",
           "party": "Union",
           "write_in": false,
-          "votes": 3729
+          "votes": 3729,
+          "county_votes": {
+            "04001": 5,
+            "04003": 245,
+            "04005": 95,
+            "04007": 151,
+            "04009": 94,
+            "04011": 7,
+            "04013": 1717,
+            "04015": 96,
+            "04017": 45,
+            "04019": 215,
+            "04021": 123,
+            "04023": 60,
+            "04025": 656,
+            "04027": 220
+          }
         }
-      ]
+      ],
+      "notes": " County figures visually transcribed from retained canvass page 2; printed county column headings determine GEOIDs."
     },
     {
       "office_id": "governor",
@@ -199,7 +504,7 @@
             "04005": 7,
             "04007": 9,
             "04009": 2,
-            "04011": null,
+            "04011": 0,
             "04013": 69,
             "04015": 13,
             "04017": 15,
@@ -313,7 +618,7 @@
           }
         }
       ],
-      "notes": " Joe Conway: printed candidate total 84,865 differs from printed county entries summing to 84,861; both are retained as printed."
+      "notes": " Joe Conway: printed candidate total 84,865 differs from printed county entries summing to 84,861; both are retained as printed. Conway county cells sum to 84,861, while page 3 prints statewide total 84,865; source figures retained without balancing."
     }
   ],
   "unresolved": [
@@ -324,6 +629,13 @@
     {
       "office_id": "state-senate",
       "reason": "No state legislative candidate returns appear in retained source."
+    },
+    {
+      "office_id": "attorney-general",
+      "page": 3,
+      "candidate": "Joe Conway",
+      "field": "votes",
+      "reason": "Printed county figures sum to 84,861; printed statewide total is 84,865. Both retained as printed."
     }
   ]
 }

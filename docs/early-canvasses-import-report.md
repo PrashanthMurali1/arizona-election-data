@@ -68,3 +68,7 @@ The preview is running at http://127.0.0.1:5173/ using the explicit `backend/loc
 ## Subsequent source correction
 
 A 37th retained PDF, `1917Report.pdf`, corrects the 1916 event without adding contests. All six 1916 contests now reconcile exactly across 14 counties. The corrected source replaces the earlier uncertain names, totals and county cells; the earlier scan remains retained. See [correction details](1916-report-corrections.md).
+
+## County data, turnout and presidential display corrections
+
+The follow-up [historical results corrections](historical-results-corrections.md) supersede the earlier map omission and elector-only presentation decisions, fill omitted readable county/turnout tables, and correct source transcription mistakes. Historical county maps are restored; presidential pages show nominees.

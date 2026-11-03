@@ -48,7 +48,7 @@
             "04007": 3770,
             "04009": 2191,
             "04011": 1377,
-            "04013": 74249,
+            "04013": 77249,
             "04015": 1746,
             "04017": 3478,
             "04019": 32113,
@@ -122,13 +122,19 @@
           "name": "John R. Murdock",
           "party": "DEM",
           "write_in": false,
-          "votes": 56622
+          "votes": 56622,
+          "county_votes": {
+            "04013": 56622
+          }
         },
         {
           "name": "John J. Rhodes",
           "party": "REP",
           "write_in": false,
-          "votes": 66512
+          "votes": 66512,
+          "county_votes": {
+            "04013": 66512
+          }
         }
       ]
     },
@@ -141,13 +147,43 @@
           "name": "Harold A. Patten",
           "party": "DEM",
           "write_in": false,
-          "votes": 71245
+          "votes": 71245,
+          "county_votes": {
+            "04001": 1448,
+            "04003": 7343,
+            "04005": 3065,
+            "04007": 5537,
+            "04009": 2529,
+            "04011": 3200,
+            "04015": 1471,
+            "04017": 3064,
+            "04019": 25951,
+            "04021": 5550,
+            "04023": 1776,
+            "04025": 4840,
+            "04027": 5471
+          }
         },
         {
           "name": "William C. Frey",
           "party": "REP",
           "write_in": false,
-          "votes": 54021
+          "votes": 54021,
+          "county_votes": {
+            "04001": 1214,
+            "04003": 3832,
+            "04005": 2621,
+            "04007": 2543,
+            "04009": 1364,
+            "04011": 876,
+            "04015": 1064,
+            "04017": 2461,
+            "04019": 25631,
+            "04021": 3314,
+            "04023": 1076,
+            "04025": 4850,
+            "04027": 3175
+          }
         }
       ]
     },
@@ -295,7 +331,7 @@
             "04013": 67984,
             "04015": 1033,
             "04017": 2518,
-            "04019": 38052,
+            "04019": 33052,
             "04021": 4151,
             "04023": 1484,
             "04025": 5066,
@@ -305,5 +341,127 @@
       ]
     }
   ],
-  "unresolved": []
+  "unresolved": [],
+  "turnout": {
+    "04001": {
+      "ballots_cast": 3135,
+      "registered_voters": 4289,
+      "percent": 73.1,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1952.1.pdf"
+    },
+    "04003": {
+      "ballots_cast": 12205,
+      "registered_voters": 14881,
+      "percent": 82.0,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1952.1.pdf"
+    },
+    "04005": {
+      "ballots_cast": 6471,
+      "registered_voters": 8108,
+      "percent": 79.8,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1952.1.pdf"
+    },
+    "04007": {
+      "ballots_cast": 9017,
+      "registered_voters": 11088,
+      "percent": 81.3,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1952.1.pdf"
+    },
+    "04009": {
+      "ballots_cast": 4348,
+      "registered_voters": 5563,
+      "percent": 78.2,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1952.1.pdf"
+    },
+    "04011": {
+      "ballots_cast": 4513,
+      "registered_voters": 5532,
+      "percent": 81.6,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1952.1.pdf"
+    },
+    "04013": {
+      "ballots_cast": 130340,
+      "registered_voters": 162589,
+      "percent": 80.2,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1952.1.pdf"
+    },
+    "04015": {
+      "ballots_cast": 2886,
+      "registered_voters": 3717,
+      "percent": 77.6,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1952.1.pdf"
+    },
+    "04017": {
+      "ballots_cast": 6331,
+      "registered_voters": 7613,
+      "percent": 83.2,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1952.1.pdf"
+    },
+    "04019": {
+      "ballots_cast": 55076,
+      "registered_voters": 64594,
+      "percent": 85.3,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1952.1.pdf"
+    },
+    "04021": {
+      "ballots_cast": 9754,
+      "registered_voters": 13015,
+      "percent": 74.9,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1952.1.pdf"
+    },
+    "04023": {
+      "ballots_cast": 3211,
+      "registered_voters": 3918,
+      "percent": 82.0,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1952.1.pdf"
+    },
+    "04025": {
+      "ballots_cast": 10591,
+      "registered_voters": 13171,
+      "percent": 80.4,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1952.1.pdf"
+    },
+    "04027": {
+      "ballots_cast": 9447,
+      "registered_voters": 12005,
+      "percent": 78.7,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1952.1.pdf"
+    },
+    "04": {
+      "ballots_cast": 267325,
+      "registered_voters": 330083,
+      "percent": 81.0,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1952.1.pdf"
+    }
+  }
 }

@@ -3,6 +3,113 @@
   "date": "1922-11-07",
   "kind": "general",
   "source_sha256": "ba82f9c04566a945bb98967770e73689156a57b2373e8cbaa978c1f94b019b58",
+  "turnout": {
+    "04001": {
+      "ballots_cast": null,
+      "registered_voters": 1647,
+      "percent": null,
+      "definition": "Official total registration for 1922, including registrations before the primary and before the general election. The source does not provide ballots cast or a turnout percentage.",
+      "page": 2
+    },
+    "04003": {
+      "ballots_cast": null,
+      "registered_voters": 12008,
+      "percent": null,
+      "definition": "Official total registration for 1922, including registrations before the primary and before the general election. The source does not provide ballots cast or a turnout percentage.",
+      "page": 2
+    },
+    "04005": {
+      "ballots_cast": null,
+      "registered_voters": 2904,
+      "percent": null,
+      "definition": "Official total registration for 1922, including registrations before the primary and before the general election. The source does not provide ballots cast or a turnout percentage.",
+      "page": 2
+    },
+    "04007": {
+      "ballots_cast": null,
+      "registered_voters": 8223,
+      "percent": null,
+      "definition": "Official total registration for 1922, including registrations before the primary and before the general election. The source does not provide ballots cast or a turnout percentage.",
+      "page": 2
+    },
+    "04009": {
+      "ballots_cast": null,
+      "registered_voters": 2841,
+      "percent": null,
+      "definition": "Official total registration for 1922, including registrations before the primary and before the general election. The source does not provide ballots cast or a turnout percentage.",
+      "page": 2
+    },
+    "04011": {
+      "ballots_cast": null,
+      "registered_voters": 2015,
+      "percent": null,
+      "definition": "Official total registration for 1922, including registrations before the primary and before the general election. The source does not provide ballots cast or a turnout percentage.",
+      "page": 2
+    },
+    "04013": {
+      "ballots_cast": null,
+      "registered_voters": 29471,
+      "percent": null,
+      "definition": "Official total registration for 1922, including registrations before the primary and before the general election. The source does not provide ballots cast or a turnout percentage.",
+      "page": 2
+    },
+    "04015": {
+      "ballots_cast": null,
+      "registered_voters": 2998,
+      "percent": null,
+      "definition": "Official total registration for 1922, including registrations before the primary and before the general election. The source does not provide ballots cast or a turnout percentage.",
+      "page": 2
+    },
+    "04017": {
+      "ballots_cast": null,
+      "registered_voters": 3035,
+      "percent": null,
+      "definition": "Official total registration for 1922, including registrations before the primary and before the general election. The source does not provide ballots cast or a turnout percentage.",
+      "page": 2
+    },
+    "04019": {
+      "ballots_cast": null,
+      "registered_voters": 9291,
+      "percent": null,
+      "definition": "Official total registration for 1922, including registrations before the primary and before the general election. The source does not provide ballots cast or a turnout percentage.",
+      "page": 2
+    },
+    "04021": {
+      "ballots_cast": null,
+      "registered_voters": 3210,
+      "percent": null,
+      "definition": "Official total registration for 1922, including registrations before the primary and before the general election. The source does not provide ballots cast or a turnout percentage.",
+      "page": 2
+    },
+    "04023": {
+      "ballots_cast": null,
+      "registered_voters": 2033,
+      "percent": null,
+      "definition": "Official total registration for 1922, including registrations before the primary and before the general election. The source does not provide ballots cast or a turnout percentage.",
+      "page": 2
+    },
+    "04025": {
+      "ballots_cast": null,
+      "registered_voters": 8917,
+      "percent": null,
+      "definition": "Official total registration for 1922, including registrations before the primary and before the general election. The source does not provide ballots cast or a turnout percentage.",
+      "page": 2
+    },
+    "04027": {
+      "ballots_cast": null,
+      "registered_voters": 3702,
+      "percent": null,
+      "definition": "Official total registration for 1922, including registrations before the primary and before the general election. The source does not provide ballots cast or a turnout percentage.",
+      "page": 2
+    },
+    "04": {
+      "ballots_cast": null,
+      "registered_voters": 92295,
+      "percent": null,
+      "definition": "Official total registration for 1922, including registrations before the primary and before the general election. The source does not provide ballots cast or a turnout percentage.",
+      "page": 2
+    }
+  },
   "absent_offices": [
     "state-house",
     "state-senate",
@@ -185,13 +292,45 @@
           "name": "Geo. W. P. Hunt",
           "party": "DEM",
           "write_in": false,
-          "votes": 37310
+          "votes": 37310,
+          "county_votes": {
+            "04001": 700,
+            "04003": 5047,
+            "04005": 1246,
+            "04007": 3799,
+            "04009": 1311,
+            "04011": 1062,
+            "04013": 11196,
+            "04015": 1366,
+            "04017": 1053,
+            "04019": 3392,
+            "04021": 1283,
+            "04023": 872,
+            "04025": 3198,
+            "04027": 1785
+          }
         },
         {
           "name": "Thomas E. Campbell",
           "party": "REP",
           "write_in": false,
-          "votes": 30599
+          "votes": 30599,
+          "county_votes": {
+            "04001": 666,
+            "04003": 3822,
+            "04005": 962,
+            "04007": 2255,
+            "04009": 1047,
+            "04011": 508,
+            "04013": 9705,
+            "04015": 604,
+            "04017": 1048,
+            "04019": 3728,
+            "04021": 1145,
+            "04023": 768,
+            "04025": 3068,
+            "04027": 1273
+          }
         },
         {
           "name": "R. C. Stanford",
@@ -206,7 +345,7 @@
           "votes": 3
         }
       ],
-      "notes": "Two named write-ins are printed on source page 9. Primary candidate county tables are on page 8; write-in totals are statewide only.",
+      "notes": "Primary candidate county returns are transcribed from page 8. Two named write-ins are printed on page 9 as statewide totals only; no county allocation is supplied.",
       "contest_id": "az-1922-governor",
       "reconciliation": {
         "status": "reported",
@@ -217,49 +356,19 @@
             "candidate": "Geo. W. P. Hunt",
             "official_total": 37310,
             "official_statewide": 37310,
-            "county_sum": null,
-            "county_coverage": 0,
-            "missing_counties": [
-              "04001",
-              "04003",
-              "04005",
-              "04007",
-              "04009",
-              "04011",
-              "04013",
-              "04015",
-              "04017",
-              "04019",
-              "04021",
-              "04023",
-              "04025",
-              "04027"
-            ],
-            "difference": null
+            "county_sum": 37310,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
           },
           {
             "candidate": "Thomas E. Campbell",
             "official_total": 30599,
             "official_statewide": 30599,
-            "county_sum": null,
-            "county_coverage": 0,
-            "missing_counties": [
-              "04001",
-              "04003",
-              "04005",
-              "04007",
-              "04009",
-              "04011",
-              "04013",
-              "04015",
-              "04017",
-              "04019",
-              "04021",
-              "04023",
-              "04025",
-              "04027"
-            ],
-            "difference": null
+            "county_sum": 30599,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
           },
           {
             "candidate": "R. C. Stanford",
@@ -314,7 +423,7 @@
         "coverage": "contest_totals",
         "multi_seat": false,
         "result_basis": "candidate-votes",
-        "notes": "Two named write-ins are printed on source page 9. Primary candidate county tables are on page 8; write-in totals are statewide only."
+        "notes": "Primary candidate county returns are transcribed from page 8. Two named write-ins are printed on page 9 as statewide totals only; no county allocation is supplied."
       }
     },
     {
@@ -331,7 +440,7 @@
             "04001": 679,
             "04003": 4720,
             "04005": 909,
-            "04007": 3558,
+            "04007": 3658,
             "04009": 1470,
             "04011": 1021,
             "04013": 11009,
@@ -367,10 +476,10 @@
           }
         }
       ],
-      "notes": " Printed county/total difference retained: James H. Kerby: county sum 35,226; printed total 35,326.",
+      "notes": "County cells visually verified against the published official table on page 8; Gila is 3,658.",
       "contest_id": "az-1922-secretary-of-state",
       "reconciliation": {
-        "status": "reported",
+        "status": "verified",
         "page": 8,
         "district": null,
         "candidates": [
@@ -378,10 +487,10 @@
             "candidate": "James H. Kerby",
             "official_total": 35326,
             "official_statewide": 35326,
-            "county_sum": 35226,
+            "county_sum": 35326,
             "county_coverage": 14,
             "missing_counties": [],
-            "difference": -100
+            "difference": 0
           },
           {
             "candidate": "Ernest Hall",
@@ -394,10 +503,10 @@
           }
         ],
         "county_count": 14,
-        "coverage": "contest_totals",
+        "coverage": "county",
         "multi_seat": false,
         "result_basis": "candidate-votes",
-        "notes": " Printed county/total difference retained: James H. Kerby: county sum 35,226; printed total 35,326."
+        "notes": "County cells visually verified against the published official table on page 8; Gila is 3,658."
       }
     },
     {

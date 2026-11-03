@@ -70,15 +70,48 @@
           "name": "John R. Murdock",
           "party": "DEM",
           "write_in": false,
-          "votes": 83556
+          "votes": 83556,
+          "county_votes": {
+            "04001": 1901,
+            "04003": 7596,
+            "04005": 2393,
+            "04007": 5086,
+            "04009": 3090,
+            "04011": 1811,
+            "04013": 30877,
+            "04015": 1708,
+            "04017": 2849,
+            "04019": 11552,
+            "04021": 3655,
+            "04023": 1676,
+            "04025": 5930,
+            "04027": 3432
+          }
         },
         {
           "name": "M. E. (Mike) Cassidy",
           "party": "REP",
           "write_in": false,
-          "votes": 20502
+          "votes": 20502,
+          "county_votes": {
+            "04001": 296,
+            "04003": 1429,
+            "04005": 691,
+            "04007": 1093,
+            "04009": 529,
+            "04011": 136,
+            "04013": 8854,
+            "04015": 348,
+            "04017": 501,
+            "04019": 3162,
+            "04021": 913,
+            "04023": 324,
+            "04025": 1665,
+            "04027": 561
+          }
         }
-      ]
+      ],
+      "notes": " County figures visually transcribed from retained canvass page 1; printed county column headings determine GEOIDs."
     },
     {
       "office_id": "governor",

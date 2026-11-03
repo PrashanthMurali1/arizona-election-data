@@ -1,0 +1,327 @@
+{
+  "1912": {
+    "DEM": {
+      "name": "Woodrow Wilson",
+      "tally_basis": "highest_elector",
+      "source_url": "https://www.legis.iowa.gov/docs/publications/REDBK/860886.pdf",
+      "apply_to_write_ins": false,
+      "aggregation_rule": "Use the single elector with the greatest statewide vote; retain that same elector row and its county vote vector. Break ties by original source row order. Do not sum votes across electors or choose a different elector in each county."
+    },
+    "REP": {
+      "name": "William H. Taft",
+      "tally_basis": "highest_elector",
+      "source_url": "https://www.legis.iowa.gov/docs/publications/REDBK/860886.pdf",
+      "apply_to_write_ins": false,
+      "aggregation_rule": "Use the single elector with the greatest statewide vote; retain that same elector row and its county vote vector. Break ties by original source row order. Do not sum votes across electors or choose a different elector in each county."
+    },
+    "Prog": {
+      "name": "Theodore Roosevelt",
+      "tally_basis": "highest_elector",
+      "source_url": "https://www.legis.iowa.gov/docs/publications/REDBK/860886.pdf",
+      "apply_to_write_ins": false,
+      "aggregation_rule": "Use the single elector with the greatest statewide vote; retain that same elector row and its county vote vector. Break ties by original source row order. Do not sum votes across electors or choose a different elector in each county."
+    },
+    "Soc": {
+      "name": "Eugene V. Debs",
+      "tally_basis": "highest_elector",
+      "source_url": "https://www.legis.iowa.gov/docs/publications/REDBK/860886.pdf",
+      "apply_to_write_ins": false,
+      "aggregation_rule": "Use the single elector with the greatest statewide vote; retain that same elector row and its county vote vector. Break ties by original source row order. Do not sum votes across electors or choose a different elector in each county."
+    },
+    "Pro": {
+      "name": "Eugene W. Chafin",
+      "tally_basis": "highest_elector",
+      "source_url": "https://www.legis.iowa.gov/docs/publications/REDBK/860886.pdf",
+      "apply_to_write_ins": false,
+      "aggregation_rule": "Use the single elector with the greatest statewide vote; retain that same elector row and its county vote vector. Break ties by original source row order. Do not sum votes across electors or choose a different elector in each county."
+    }
+  },
+  "1916": {
+    "DEM": {
+      "name": "Woodrow Wilson",
+      "tally_basis": "highest_elector",
+      "source_url": "https://electionhistory.ct.gov/contest/22072",
+      "apply_to_write_ins": false,
+      "tally_source_url": "https://www.legis.iowa.gov/docs/shelves/redbooks/Redbook-1923-1924%20%2840GA%29.pdf",
+      "notes": "Published Arizona presidential totals match the highest elector totals: 33170, 20524, 3174, 1153. Never sum elector votes.",
+      "aggregation_rule": "Use the single elector with the greatest statewide vote; retain that same elector row and its county vote vector. Break ties by original source row order. Do not sum votes across electors or choose a different elector in each county."
+    },
+    "REP": {
+      "name": "Charles E. Hughes",
+      "tally_basis": "highest_elector",
+      "source_url": "https://electionhistory.ct.gov/contest/22072",
+      "apply_to_write_ins": false,
+      "tally_source_url": "https://www.legis.iowa.gov/docs/shelves/redbooks/Redbook-1923-1924%20%2840GA%29.pdf",
+      "notes": "Published Arizona presidential totals match the highest elector totals: 33170, 20524, 3174, 1153. Never sum elector votes.",
+      "aggregation_rule": "Use the single elector with the greatest statewide vote; retain that same elector row and its county vote vector. Break ties by original source row order. Do not sum votes across electors or choose a different elector in each county."
+    },
+    "SOC": {
+      "name": "Allan L. Benson",
+      "tally_basis": "highest_elector",
+      "source_url": "https://electionhistory.ct.gov/contest/22072",
+      "apply_to_write_ins": false,
+      "tally_source_url": "https://www.legis.iowa.gov/docs/shelves/redbooks/Redbook-1923-1924%20%2840GA%29.pdf",
+      "notes": "Published Arizona presidential totals match the highest elector totals: 33170, 20524, 3174, 1153. Never sum elector votes.",
+      "aggregation_rule": "Use the single elector with the greatest statewide vote; retain that same elector row and its county vote vector. Break ties by original source row order. Do not sum votes across electors or choose a different elector in each county."
+    },
+    "PRO": {
+      "name": "J. Frank Hanly",
+      "tally_basis": "highest_elector",
+      "source_url": "https://electionhistory.ct.gov/contest/22072",
+      "apply_to_write_ins": false,
+      "tally_source_url": "https://www.legis.iowa.gov/docs/shelves/redbooks/Redbook-1923-1924%20%2840GA%29.pdf",
+      "notes": "Published Arizona presidential totals match the highest elector totals: 33170, 20524, 3174, 1153. Never sum elector votes.",
+      "aggregation_rule": "Use the single elector with the greatest statewide vote; retain that same elector row and its county vote vector. Break ties by original source row order. Do not sum votes across electors or choose a different elector in each county."
+    }
+  },
+  "1920": {
+    "DEM": {
+      "name": "James M. Cox",
+      "tally_basis": "reported_slate",
+      "source_url": "https://www2.census.gov/library/publications/1960/compendia/hist_stats_colonial-1957/hist_stats_colonial-1957-chY.pdf",
+      "apply_to_write_ins": false
+    },
+    "REP": {
+      "name": "Warren G. Harding",
+      "tally_basis": "reported_slate",
+      "source_url": "https://www2.census.gov/library/publications/1960/compendia/hist_stats_colonial-1957/hist_stats_colonial-1957-chY.pdf",
+      "apply_to_write_ins": false
+    }
+  },
+  "1924": {
+    "DEM": {
+      "name": "John W. Davis",
+      "tally_basis": "reported_slate",
+      "source_url": "https://www2.census.gov/library/publications/1960/compendia/hist_stats_colonial-1957/hist_stats_colonial-1957-chY.pdf",
+      "apply_to_write_ins": false
+    },
+    "REP": {
+      "name": "Calvin Coolidge",
+      "tally_basis": "reported_slate",
+      "source_url": "https://www2.census.gov/library/publications/1960/compendia/hist_stats_colonial-1957/hist_stats_colonial-1957-chY.pdf",
+      "apply_to_write_ins": false
+    },
+    "Ind. Prog.": {
+      "name": "Robert M. La Follette",
+      "tally_basis": "reported_slate",
+      "source_url": "https://www2.census.gov/library/publications/1960/compendia/hist_stats_colonial-1957/hist_stats_colonial-1957-chY.pdf",
+      "apply_to_write_ins": false
+    }
+  },
+  "1928": {
+    "DEM": {
+      "name": "Alfred E. Smith",
+      "tally_basis": "reported_slate",
+      "source_url": "https://www2.census.gov/library/publications/1960/compendia/hist_stats_colonial-1957/hist_stats_colonial-1957-chY.pdf",
+      "apply_to_write_ins": false
+    },
+    "REP": {
+      "name": "Herbert Hoover",
+      "tally_basis": "reported_slate",
+      "source_url": "https://www2.census.gov/library/publications/1960/compendia/hist_stats_colonial-1957/hist_stats_colonial-1957-chY.pdf",
+      "apply_to_write_ins": false
+    },
+    "Workers (Com.)": {
+      "name": "William Z. Foster",
+      "tally_basis": "reported_slate",
+      "source_url": "https://www.govinfo.gov/content/pkg/GPO-CRECB-1936-pt9-v80/pdf/GPO-CRECB-1936-pt9-v80-4-2.pdf",
+      "apply_to_write_ins": false
+    }
+  },
+  "1932": {
+    "DEM": {
+      "name": "Franklin D. Roosevelt",
+      "tally_basis": "reported_slate",
+      "source_url": "https://www2.census.gov/library/publications/1960/compendia/hist_stats_colonial-1957/hist_stats_colonial-1957-chY.pdf",
+      "apply_to_write_ins": false
+    },
+    "REP": {
+      "name": "Herbert Hoover",
+      "tally_basis": "reported_slate",
+      "source_url": "https://www2.census.gov/library/publications/1960/compendia/hist_stats_colonial-1957/hist_stats_colonial-1957-chY.pdf",
+      "apply_to_write_ins": false
+    },
+    "COM": {
+      "name": "William Z. Foster",
+      "tally_basis": "reported_slate",
+      "source_url": "https://www2.census.gov/library/publications/1960/compendia/hist_stats_colonial-1957/hist_stats_colonial-1957-chY.pdf",
+      "apply_to_write_ins": false
+    },
+    "Arizona Prog. Dem.": {
+      "name": null,
+      "tally_basis": "reported_slate",
+      "source_url": null,
+      "apply_to_write_ins": false,
+      "notes": "Nominee unresolved in retained official source. Preserve the Arizona Progressive Democratic elector slate identity; do not assign these votes to a presidential nominee without primary-source evidence."
+    },
+    "SOC": {
+      "name": "Norman Thomas",
+      "tally_basis": "reported_slate",
+      "source_url": "https://www2.census.gov/library/publications/1960/compendia/hist_stats_colonial-1957/hist_stats_colonial-1957-chY.pdf",
+      "apply_to_write_ins": false
+    }
+  },
+  "1936": {
+    "DEM": {
+      "name": "Franklin D. Roosevelt",
+      "tally_basis": "highest_elector",
+      "source_url": "https://www2.census.gov/library/publications/1960/compendia/hist_stats_colonial-1957/hist_stats_colonial-1957-chY.pdf",
+      "apply_to_write_ins": false,
+      "aggregation_rule": "Use the single elector with the greatest statewide vote; retain that same elector row and its county vote vector. Break ties by original source row order. Do not sum votes across electors or choose a different elector in each county."
+    },
+    "REP": {
+      "name": "Alfred M. Landon",
+      "tally_basis": "highest_elector",
+      "source_url": "https://www2.census.gov/library/publications/1960/compendia/hist_stats_colonial-1957/hist_stats_colonial-1957-chY.pdf",
+      "apply_to_write_ins": false,
+      "aggregation_rule": "Use the single elector with the greatest statewide vote; retain that same elector row and its county vote vector. Break ties by original source row order. Do not sum votes across electors or choose a different elector in each county."
+    },
+    "Prohibition": {
+      "name": "D. Leigh Colvin",
+      "tally_basis": "highest_elector",
+      "source_url": "https://www2.census.gov/library/publications/1960/compendia/hist_stats_colonial-1957/hist_stats_colonial-1957-chY.pdf",
+      "apply_to_write_ins": false,
+      "aggregation_rule": "Use the single elector with the greatest statewide vote; retain that same elector row and its county vote vector. Break ties by original source row order. Do not sum votes across electors or choose a different elector in each county."
+    },
+    "Socialist": {
+      "name": "Norman Thomas",
+      "tally_basis": "highest_elector",
+      "source_url": "https://www2.census.gov/library/publications/1960/compendia/hist_stats_colonial-1957/hist_stats_colonial-1957-chY.pdf",
+      "apply_to_write_ins": false,
+      "aggregation_rule": "Use the single elector with the greatest statewide vote; retain that same elector row and its county vote vector. Break ties by original source row order. Do not sum votes across electors or choose a different elector in each county."
+    },
+    "Union": {
+      "name": "William Lemke",
+      "tally_basis": "highest_elector",
+      "source_url": "https://www2.census.gov/library/publications/1960/compendia/hist_stats_colonial-1957/hist_stats_colonial-1957-chY.pdf",
+      "apply_to_write_ins": false,
+      "aggregation_rule": "Use the single elector with the greatest statewide vote; retain that same elector row and its county vote vector. Break ties by original source row order. Do not sum votes across electors or choose a different elector in each county."
+    }
+  },
+  "1940": {
+    "DEM": {
+      "name": "Franklin D. Roosevelt",
+      "tally_basis": "reported_slate",
+      "source_url": "https://www2.census.gov/library/publications/1960/compendia/hist_stats_colonial-1957/hist_stats_colonial-1957-chY.pdf",
+      "apply_to_write_ins": false
+    },
+    "REP": {
+      "name": "Wendell L. Willkie",
+      "tally_basis": "reported_slate",
+      "source_url": "https://www2.census.gov/library/publications/1960/compendia/hist_stats_colonial-1957/hist_stats_colonial-1957-chY.pdf",
+      "apply_to_write_ins": false
+    },
+    "Proh": {
+      "name": "Roger W. Babson",
+      "tally_basis": "reported_slate",
+      "source_url": "https://www2.census.gov/library/publications/1960/compendia/hist_stats_colonial-1957/hist_stats_colonial-1957-chY.pdf",
+      "apply_to_write_ins": false
+    }
+  },
+  "1944": {
+    "DEM": {
+      "name": "Franklin D. Roosevelt",
+      "tally_basis": "reported_slate",
+      "source_url": "https://www2.census.gov/library/publications/1960/compendia/hist_stats_colonial-1957/hist_stats_colonial-1957-chY.pdf",
+      "apply_to_write_ins": false
+    },
+    "REP": {
+      "name": "Thomas E. Dewey",
+      "tally_basis": "reported_slate",
+      "source_url": "https://www2.census.gov/library/publications/1960/compendia/hist_stats_colonial-1957/hist_stats_colonial-1957-chY.pdf",
+      "apply_to_write_ins": false
+    },
+    "P": {
+      "name": "Claude A. Watson",
+      "tally_basis": "reported_slate",
+      "source_url": "https://www2.census.gov/library/publications/1960/compendia/hist_stats_colonial-1957/hist_stats_colonial-1957-chY.pdf",
+      "apply_to_write_ins": false
+    }
+  },
+  "1948": {
+    "DEM": {
+      "name": "Harry S. Truman",
+      "tally_basis": "reported_slate",
+      "source_url": "https://www2.census.gov/library/publications/1960/compendia/hist_stats_colonial-1957/hist_stats_colonial-1957-chY.pdf",
+      "apply_to_write_ins": false
+    },
+    "REP": {
+      "name": "Thomas E. Dewey",
+      "tally_basis": "reported_slate",
+      "source_url": "https://www2.census.gov/library/publications/1960/compendia/hist_stats_colonial-1957/hist_stats_colonial-1957-chY.pdf",
+      "apply_to_write_ins": false
+    },
+    "Prog": {
+      "name": "Henry A. Wallace",
+      "tally_basis": "reported_slate",
+      "source_url": "https://www2.census.gov/library/publications/1960/compendia/hist_stats_colonial-1957/hist_stats_colonial-1957-chY.pdf",
+      "apply_to_write_ins": false
+    },
+    "Proh": {
+      "name": "Claude A. Watson",
+      "tally_basis": "reported_slate",
+      "source_url": "https://www2.census.gov/library/publications/1960/compendia/hist_stats_colonial-1957/hist_stats_colonial-1957-chY.pdf",
+      "apply_to_write_ins": false
+    },
+    "Soc.-Labor": {
+      "name": "Edward A. Teichert",
+      "tally_basis": "reported_slate",
+      "source_url": "https://www2.census.gov/library/publications/1960/compendia/hist_stats_colonial-1957/hist_stats_colonial-1957-chY.pdf",
+      "apply_to_write_ins": false
+    }
+  },
+  "1952": {
+    "DEM": {
+      "name": "Adlai E. Stevenson",
+      "tally_basis": "reported_slate",
+      "source_url": "https://www2.census.gov/library/publications/1960/compendia/hist_stats_colonial-1957/hist_stats_colonial-1957-chY.pdf",
+      "apply_to_write_ins": false
+    },
+    "REP": {
+      "name": "Dwight D. Eisenhower",
+      "tally_basis": "reported_slate",
+      "source_url": "https://www2.census.gov/library/publications/1960/compendia/hist_stats_colonial-1957/hist_stats_colonial-1957-chY.pdf",
+      "apply_to_write_ins": false
+    }
+  },
+  "1960": {
+    "DEM": {
+      "name": "John F. Kennedy",
+      "tally_basis": "reported_slate",
+      "source_url": "https://www.archives.gov/electoral-college/results/1960",
+      "apply_to_write_ins": false
+    },
+    "REP": {
+      "name": "Richard M. Nixon",
+      "tally_basis": "reported_slate",
+      "source_url": "https://www.archives.gov/electoral-college/results/1960",
+      "apply_to_write_ins": false
+    },
+    "SLP": {
+      "name": "Eric Hass",
+      "tally_basis": "reported_slate",
+      "source_url": "https://history.nebraska.gov/collection_section/eric-hass-1905-1980-rg3703-am/",
+      "apply_to_write_ins": false
+    }
+  },
+  "1964": {
+    "DEM": {
+      "name": "Lyndon B. Johnson",
+      "tally_basis": "reported_slate",
+      "source_url": "https://www.archives.gov/electoral-college/results/1964",
+      "apply_to_write_ins": false
+    },
+    "REP": {
+      "name": "Barry Goldwater",
+      "tally_basis": "reported_slate",
+      "source_url": "https://www.archives.gov/electoral-college/results/1964",
+      "apply_to_write_ins": false
+    },
+    "SLP": {
+      "name": "Eric Hass",
+      "tally_basis": "reported_slate",
+      "source_url": "https://history.nebraska.gov/collection_section/eric-hass-1905-1980-rg3703-am/",
+      "apply_to_write_ins": false
+    }
+  }
+}

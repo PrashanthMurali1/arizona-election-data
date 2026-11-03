@@ -162,6 +162,74 @@ def test_statewide_reconciliation_matches_detail_display_contract():
     assert set(row['missing_counties']) == county_units(1911) - {'04001'}
 
 
+def test_unallocated_write_in_does_not_hide_reported_county_results(tmp_path):
+    from backend.app.models import GeographicUnit
+    from backend.app.services import results
+    doc = source_document(tmp_path,1932)
+    contest = doc['contests'][0]
+    contest.update(office_id='governor',district=None)
+    contest['candidates'] = [dict(name='First',party='DEM',write_in=False,votes=60,county_votes={'04001':60}),
+        dict(name='Second',party='REP',write_in=False,votes=40,county_votes={'04001':40}),
+        dict(name='Write-in',party='DEM',write_in=True,votes=1)]
+    engine = create_engine('sqlite://')
+    Base.metadata.create_all(engine)
+    factory = sessionmaker(engine)
+    import_documents([doc],factory,source_root=tmp_path)
+    with factory() as session:
+        value = results(session,session.get(Contest,'az-1932-governor'),session.get(GeographicUnit,'04001'))
+        assert value.total_votes == 100
+        assert value.partial is True
+        assert value.candidates[0].percent == 60
+        assert value.winner.name == 'First'  # Missing statewide write-in cannot overcome 20-vote margin.
+    engine.dispose()
+
+
+def test_official_turnout_is_imported_without_inventing_missing_ballots(tmp_path):
+    from backend.app.models import Turnout
+    doc = source_document(tmp_path)
+    doc['turnout'] = {'04':dict(registered_voters=100,ballots_cast=80,percent=80,definition='Official table.',page=2),
+        '04001':dict(registered_voters=20,ballots_cast=None,percent=None,definition='Registration only.',page=2)}
+    engine = create_engine('sqlite://')
+    Base.metadata.create_all(engine)
+    factory = sessionmaker(engine)
+    import_documents([doc],factory,source_root=tmp_path)
+    import_documents([doc],factory,source_root=tmp_path)
+    with factory() as session:
+        rows = {t.unit_id:t for t in session.scalars(select(Turnout))}
+        assert len(rows)==2
+        assert rows['04'].percent==80
+        assert rows['04001'].registered_voters==20
+        assert rows['04001'].ballots_cast is None
+    engine.dispose()
+
+
+def test_presidential_presentation_uses_nominees_and_one_elector_tally():
+    import json
+    from backend.app import presidential
+    doc = json.loads((ROOT/'data/raw/early-canvasses/1916.json').read_text(encoding='utf-8'))
+    engine = create_engine('sqlite://')
+    Base.metadata.create_all(engine)
+    factory = sessionmaker(engine)
+    import_documents([doc],factory)
+    with factory() as session:
+        value = presidential.detail(session,'az-1916-historical-president')
+        totals = {c.name:c.votes for c in value.statewide.candidates}
+        assert totals['Woodrow Wilson']==33170
+        assert totals['Charles E. Hughes']==20524
+        assert len(totals)==4
+        assert value.election.office=='President'
+        assert len(presidential.counties(session,'az-1916-historical-president'))==14
+        from backend.app import main
+        assert main.statewide('az-1916-historical-president',session).candidates[0].name=='Woodrow Wilson'
+        assert main.county('az-1916-historical-president','04001',session).candidates[0].name=='Woodrow Wilson'
+        assert any('presidential-names' in s.id for s in main.sources('az-1916-historical-president',session))
+        from fastapi import HTTPException
+        with pytest.raises(HTTPException) as absent:
+            presidential.detail(session,'az-1930-historical-president')
+        assert absent.value.status_code==404
+    engine.dispose()
+
+
 def test_retained_pdf_endpoint_checks_digest_and_rejects_unknown_id(tmp_path, monkeypatch):
     import scripts.historical_canvasses as archive
     from backend.app.main import historical_source

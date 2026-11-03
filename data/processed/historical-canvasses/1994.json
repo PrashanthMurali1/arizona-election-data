@@ -3,6 +3,136 @@
   "date": "1994-11-08",
   "kind": "general",
   "source_sha256": "d6a692866d98cb4141177ea013629f74a1aab704e5716b2aae9c3fc90b90f638",
+  "turnout": {
+    "04001": {
+      "ballots_cast": 17557,
+      "registered_voters": 31415,
+      "percent": 55.89,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/us-senate/pdfs/canvass1994ge.pdf"
+    },
+    "04003": {
+      "ballots_cast": 27064,
+      "registered_voters": 48807,
+      "percent": 55.45,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/us-senate/pdfs/canvass1994ge.pdf"
+    },
+    "04005": {
+      "ballots_cast": 32914,
+      "registered_voters": 59690,
+      "percent": 55.14,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/us-senate/pdfs/canvass1994ge.pdf"
+    },
+    "04007": {
+      "ballots_cast": 15599,
+      "registered_voters": 26318,
+      "percent": 59.27,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/us-senate/pdfs/canvass1994ge.pdf"
+    },
+    "04009": {
+      "ballots_cast": 7969,
+      "registered_voters": 12657,
+      "percent": 62.96,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/us-senate/pdfs/canvass1994ge.pdf"
+    },
+    "04011": {
+      "ballots_cast": 3000,
+      "registered_voters": 5192,
+      "percent": 57.78,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/us-senate/pdfs/canvass1994ge.pdf"
+    },
+    "04012": {
+      "ballots_cast": 3812,
+      "registered_voters": 7337,
+      "percent": 51.96,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/us-senate/pdfs/canvass1994ge.pdf"
+    },
+    "04013": {
+      "ballots_cast": 655732,
+      "registered_voters": 1189814,
+      "percent": 55.11,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/us-senate/pdfs/canvass1994ge.pdf"
+    },
+    "04015": {
+      "ballots_cast": 33811,
+      "registered_voters": 61581,
+      "percent": 54.9,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/us-senate/pdfs/canvass1994ge.pdf"
+    },
+    "04017": {
+      "ballots_cast": 22669,
+      "registered_voters": 40646,
+      "percent": 55.77,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/us-senate/pdfs/canvass1994ge.pdf"
+    },
+    "04019": {
+      "ballots_cast": 223547,
+      "registered_voters": 399676,
+      "percent": 55.93,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/us-senate/pdfs/canvass1994ge.pdf"
+    },
+    "04021": {
+      "ballots_cast": 31558,
+      "registered_voters": 57501,
+      "percent": 54.88,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/us-senate/pdfs/canvass1994ge.pdf"
+    },
+    "04023": {
+      "ballots_cast": 7188,
+      "registered_voters": 12829,
+      "percent": 56.03,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/us-senate/pdfs/canvass1994ge.pdf"
+    },
+    "04025": {
+      "ballots_cast": 49783,
+      "registered_voters": 78666,
+      "percent": 63.28,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/us-senate/pdfs/canvass1994ge.pdf"
+    },
+    "04027": {
+      "ballots_cast": 21521,
+      "registered_voters": 43193,
+      "percent": 49.83,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/us-senate/pdfs/canvass1994ge.pdf"
+    },
+    "04": {
+      "ballots_cast": 1153724,
+      "registered_voters": 2075322,
+      "percent": 55.59,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/us-senate/pdfs/canvass1994ge.pdf"
+    }
+  },
   "absent_offices": [
     "president"
   ],

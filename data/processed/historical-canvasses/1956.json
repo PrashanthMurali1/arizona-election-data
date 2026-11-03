@@ -3,6 +3,7 @@
   "date": "1956-11-06",
   "kind": "general",
   "source_sha256": "a687e93d9cb0352d468a6420749d1564c73c5635bd37b1ea691505bdd3163b2a",
+  "turnout": {},
   "absent_offices": [
     "president",
     "us-senate",

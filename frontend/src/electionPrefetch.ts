@@ -19,7 +19,7 @@ export function electionPrefetchUrls(elections: Election[], office: string) {
   )
     return [];
   for (const election of elections.filter((e) => e.office_id === office)) {
-    if (election.id.includes("-historical-")) {
+    if (election.id.includes("-historical-") && office !== "president") {
       urls.add(`/api/historical-elections/${election.id}`);
       continue;
     }
@@ -29,8 +29,7 @@ export function electionPrefetchUrls(elections: Election[], office: string) {
       urls.add(`${base}/counties`);
       urls.add(`${base}/activity`);
     }
-    if (election.year >= 1966)
-      urls.add(`/api/geography/${election.boundary_id}`);
+    urls.add(`/api/geography/${election.boundary_id}`);
   }
   return [...urls];
 }

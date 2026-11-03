@@ -1765,5 +1765,135 @@
       ]
     }
   ],
-  "unresolved": []
+  "unresolved": [],
+  "turnout": {
+    "04001": {
+      "ballots_cast": 14284,
+      "registered_voters": 26353,
+      "percent": 54.2,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1990ge.pdf"
+    },
+    "04003": {
+      "ballots_cast": 25409,
+      "registered_voters": 45076,
+      "percent": 56.37,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1990ge.pdf"
+    },
+    "04005": {
+      "ballots_cast": 29668,
+      "registered_voters": 55325,
+      "percent": 53.62,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1990ge.pdf"
+    },
+    "04007": {
+      "ballots_cast": 15230,
+      "registered_voters": 23012,
+      "percent": 66.18,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1990ge.pdf"
+    },
+    "04009": {
+      "ballots_cast": 7975,
+      "registered_voters": 12968,
+      "percent": 61.5,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1990ge.pdf"
+    },
+    "04011": {
+      "ballots_cast": 3071,
+      "registered_voters": 4819,
+      "percent": 63.73,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1990ge.pdf"
+    },
+    "04012": {
+      "ballots_cast": 3641,
+      "registered_voters": 7004,
+      "percent": 51.98,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1990ge.pdf"
+    },
+    "04013": {
+      "ballots_cast": 640847,
+      "registered_voters": 1062231,
+      "percent": 60.33,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1990ge.pdf"
+    },
+    "04015": {
+      "ballots_cast": 28894,
+      "registered_voters": 51747,
+      "percent": 55.84,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1990ge.pdf"
+    },
+    "04017": {
+      "ballots_cast": 18864,
+      "registered_voters": 33794,
+      "percent": 55.82,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1990ge.pdf"
+    },
+    "04019": {
+      "ballots_cast": 208368,
+      "registered_voters": 371146,
+      "percent": 56.14,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1990ge.pdf"
+    },
+    "04021": {
+      "ballots_cast": 29880,
+      "registered_voters": 50816,
+      "percent": 58.8,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1990ge.pdf"
+    },
+    "04023": {
+      "ballots_cast": 6460,
+      "registered_voters": 10805,
+      "percent": 59.79,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1990ge.pdf"
+    },
+    "04025": {
+      "ballots_cast": 43180,
+      "registered_voters": 66671,
+      "percent": 64.77,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1990ge.pdf"
+    },
+    "04027": {
+      "ballots_cast": 18964,
+      "registered_voters": 38189,
+      "percent": 49.66,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1990ge.pdf"
+    },
+    "04": {
+      "ballots_cast": 1094735,
+      "registered_voters": 1859956,
+      "percent": 58.86,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1990ge.pdf"
+    }
+  }
 }

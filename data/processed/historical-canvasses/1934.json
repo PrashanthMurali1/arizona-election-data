@@ -3,6 +3,7 @@
   "date": "1934-11-06",
   "kind": "general",
   "source_sha256": "3487b8380a97d542ad468bf9245dd13687d861fe6ee12c0200001a1d791dd26d",
+  "turnout": {},
   "absent_offices": [
     "president",
     "state-house",
@@ -172,30 +173,95 @@
           "name": "Hoval A. Smith",
           "party": "REP",
           "write_in": false,
-          "votes": 28283
+          "votes": 28283,
+          "county_votes": {
+            "04001": 445,
+            "04003": 3077,
+            "04005": 425,
+            "04007": 2496,
+            "04009": 710,
+            "04011": 302,
+            "04013": 13222,
+            "04015": 247,
+            "04017": 550,
+            "04019": 2752,
+            "04021": 1009,
+            "04023": 264,
+            "04025": 1928,
+            "04027": 856
+          }
         },
         {
           "name": "Isabella Greenway",
           "party": "DEM",
           "write_in": false,
-          "votes": 65914
+          "votes": 65914,
+          "county_votes": {
+            "04001": 1475,
+            "04003": 5538,
+            "04005": 2710,
+            "04007": 3391,
+            "04009": 2352,
+            "04011": 1213,
+            "04013": 21527,
+            "04015": 1658,
+            "04017": 2687,
+            "04019": 10756,
+            "04021": 2436,
+            "04023": 1528,
+            "04025": 5564,
+            "04027": 3079
+          }
         },
         {
           "name": "Charles A. Preston",
           "party": "Soc",
           "write_in": false,
-          "votes": 1478
+          "votes": 1478,
+          "county_votes": {
+            "04001": 1,
+            "04003": 404,
+            "04005": 15,
+            "04007": 36,
+            "04009": 31,
+            "04011": 10,
+            "04013": 472,
+            "04015": 32,
+            "04017": 88,
+            "04019": 115,
+            "04021": 36,
+            "04023": 15,
+            "04025": 152,
+            "04027": 71
+          }
         },
         {
           "name": "Martin Gehon",
           "party": "C",
           "write_in": false,
-          "votes": 369
+          "votes": 369,
+          "county_votes": {
+            "04001": 3,
+            "04003": 16,
+            "04005": 2,
+            "04007": 13,
+            "04009": 31,
+            "04011": 12,
+            "04013": 74,
+            "04015": 20,
+            "04017": 2,
+            "04019": 96,
+            "04021": 23,
+            "04023": 11,
+            "04025": 22,
+            "04027": 44
+          }
         }
       ],
+      "notes": " County figures visually transcribed from retained canvass page 1; printed county column headings determine GEOIDs.",
       "contest_id": "az-1934-historical-us-house-district-at-large",
       "reconciliation": {
-        "status": "reported",
+        "status": "verified",
         "page": 1,
         "district": "at-large",
         "candidates": [
@@ -203,104 +269,44 @@
             "candidate": "Hoval A. Smith",
             "official_total": 28283,
             "official_statewide": 28283,
-            "county_sum": null,
-            "county_coverage": 0,
-            "missing_counties": [
-              "04001",
-              "04003",
-              "04005",
-              "04007",
-              "04009",
-              "04011",
-              "04013",
-              "04015",
-              "04017",
-              "04019",
-              "04021",
-              "04023",
-              "04025",
-              "04027"
-            ],
-            "difference": null
+            "county_sum": 28283,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
           },
           {
             "candidate": "Isabella Greenway",
             "official_total": 65914,
             "official_statewide": 65914,
-            "county_sum": null,
-            "county_coverage": 0,
-            "missing_counties": [
-              "04001",
-              "04003",
-              "04005",
-              "04007",
-              "04009",
-              "04011",
-              "04013",
-              "04015",
-              "04017",
-              "04019",
-              "04021",
-              "04023",
-              "04025",
-              "04027"
-            ],
-            "difference": null
+            "county_sum": 65914,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
           },
           {
             "candidate": "Charles A. Preston",
             "official_total": 1478,
             "official_statewide": 1478,
-            "county_sum": null,
-            "county_coverage": 0,
-            "missing_counties": [
-              "04001",
-              "04003",
-              "04005",
-              "04007",
-              "04009",
-              "04011",
-              "04013",
-              "04015",
-              "04017",
-              "04019",
-              "04021",
-              "04023",
-              "04025",
-              "04027"
-            ],
-            "difference": null
+            "county_sum": 1478,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
           },
           {
             "candidate": "Martin Gehon",
             "official_total": 369,
             "official_statewide": 369,
-            "county_sum": null,
-            "county_coverage": 0,
-            "missing_counties": [
-              "04001",
-              "04003",
-              "04005",
-              "04007",
-              "04009",
-              "04011",
-              "04013",
-              "04015",
-              "04017",
-              "04019",
-              "04021",
-              "04023",
-              "04025",
-              "04027"
-            ],
-            "difference": null
+            "county_sum": 369,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
           }
         ],
         "county_count": 14,
-        "coverage": "contest_totals",
+        "coverage": "county",
         "multi_seat": false,
         "result_basis": "candidate-votes",
-        "notes": ""
+        "notes": " County figures visually transcribed from retained canvass page 1; printed county column headings determine GEOIDs."
       }
     },
     {
@@ -358,7 +364,7 @@
           "write_in": false,
           "votes": 1884,
           "county_votes": {
-            "04001": null,
+            "04001": 0,
             "04003": 641,
             "04005": 18,
             "04007": 54,
@@ -399,7 +405,7 @@
       ],
       "contest_id": "az-1934-governor",
       "reconciliation": {
-        "status": "reported",
+        "status": "verified",
         "page": 1,
         "district": null,
         "candidates": [
@@ -427,10 +433,8 @@
             "official_statewide": 1884,
             "county_sum": 1884,
             "county_coverage": 14,
-            "missing_counties": [
-              "04001"
-            ],
-            "difference": null
+            "missing_counties": [],
+            "difference": 0
           },
           {
             "candidate": "Clay Naff",
@@ -443,7 +447,7 @@
           }
         ],
         "county_count": 14,
-        "coverage": "contest_totals",
+        "coverage": "county",
         "multi_seat": false,
         "result_basis": "candidate-votes",
         "notes": ""
@@ -526,26 +530,27 @@
           "write_in": false,
           "votes": 556,
           "county_votes": {
-            "04001": null,
+            "04001": 0,
             "04003": 506,
-            "04005": null,
-            "04007": null,
-            "04009": null,
-            "04011": null,
-            "04013": 41,
-            "04015": null,
-            "04017": null,
-            "04019": 7,
-            "04021": null,
-            "04023": null,
+            "04005": 0,
+            "04007": 0,
+            "04009": 41,
+            "04011": 7,
+            "04013": 0,
+            "04015": 0,
+            "04017": 0,
+            "04019": 0,
+            "04021": 0,
+            "04023": 0,
             "04025": 2,
-            "04027": null
+            "04027": 0
           }
         }
       ],
+      "notes": " Page 1 sparse Phillips row has Cochise 506, Graham 41, Greenlee 7, Yavapai 2; other county cells blank and recorded as zero.",
       "contest_id": "az-1934-secretary-of-state",
       "reconciliation": {
-        "status": "reported",
+        "status": "verified",
         "page": 1,
         "district": null,
         "candidates": [
@@ -582,26 +587,15 @@
             "official_statewide": 556,
             "county_sum": 556,
             "county_coverage": 14,
-            "missing_counties": [
-              "04001",
-              "04005",
-              "04007",
-              "04009",
-              "04011",
-              "04015",
-              "04017",
-              "04021",
-              "04023",
-              "04027"
-            ],
-            "difference": null
+            "missing_counties": [],
+            "difference": 0
           }
         ],
         "county_count": 14,
-        "coverage": "contest_totals",
+        "coverage": "county",
         "multi_seat": false,
         "result_basis": "candidate-votes",
-        "notes": ""
+        "notes": " Page 1 sparse Phillips row has Cochise 506, Graham 41, Greenlee 7, Yavapai 2; other county cells blank and recorded as zero."
       }
     },
     {

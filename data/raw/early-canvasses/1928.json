@@ -18,22 +18,70 @@
           "name": "Democratic elector slate",
           "party": "DEM",
           "write_in": false,
-          "votes": 38537
+          "votes": 38537,
+          "county_votes": {
+            "04001": 791,
+            "04003": 4262,
+            "04005": 1172,
+            "04007": 3341,
+            "04009": 1615,
+            "04011": 935,
+            "04013": 12146,
+            "04015": 728,
+            "04017": 1316,
+            "04019": 4976,
+            "04021": 1419,
+            "04023": 962,
+            "04025": 3285,
+            "04027": 1589
+          }
         },
         {
           "name": "Republican elector slate",
           "party": "REP",
           "write_in": false,
-          "votes": 52533
+          "votes": 52533,
+          "county_votes": {
+            "04001": 837,
+            "04003": 5776,
+            "04005": 1717,
+            "04007": 3436,
+            "04009": 1238,
+            "04011": 685,
+            "04013": 20089,
+            "04015": 1127,
+            "04017": 1608,
+            "04019": 6635,
+            "04021": 1631,
+            "04023": 919,
+            "04025": 4507,
+            "04027": 2328
+          }
         },
         {
           "name": "Workers (Communist) elector slate",
           "party": "Workers (Com.)",
           "write_in": false,
-          "votes": 184
+          "votes": 184,
+          "county_votes": {
+            "04001": 0,
+            "04003": 45,
+            "04005": 12,
+            "04007": 13,
+            "04009": 8,
+            "04011": 8,
+            "04013": 34,
+            "04015": 13,
+            "04017": 0,
+            "04019": 42,
+            "04021": 4,
+            "04023": 3,
+            "04025": 2,
+            "04027": 0
+          }
         }
       ],
-      "notes": "Each party slate is bracketed with one printed total, retained once without summing elector votes. Democratic (Smith): Cassie J. Pomeroy, Mrs. J. Andrew West, Bradford Duncan. Republican (Hoover): Mrs. R. L. Hoyal, J. Homer Smith, Fred S. Breen. Workers (Com.) (Foster): Frank I. Lowe, E. J. Bryan, F. N. Logan."
+      "notes": "Each party slate is bracketed with one printed total, retained once without summing elector votes. Democratic (Smith): Cassie J. Pomeroy, Mrs. J. Andrew West, Bradford Duncan. Republican (Hoover): Mrs. R. L. Hoyal, J. Homer Smith, Fred S. Breen. Workers (Com.) (Foster): Frank I. Lowe, E. J. Bryan, F. N. Logan. Source page 1 has blank Workers slate cells for Apache and Yuma, recorded as zero; Navajo is explicitly printed as zero."
     },
     {
       "office_id": "us-senate",
@@ -95,13 +143,45 @@
           "name": "L. W. Douglas",
           "party": "DEM",
           "write_in": false,
-          "votes": 50231
+          "votes": 50231,
+          "county_votes": {
+            "04001": 898,
+            "04003": 6437,
+            "04005": 1493,
+            "04007": 4084,
+            "04009": 1990,
+            "04011": 1220,
+            "04013": 15708,
+            "04015": 835,
+            "04017": 1721,
+            "04019": 6481,
+            "04021": 1737,
+            "04023": 1208,
+            "04025": 4416,
+            "04027": 2003
+          }
         },
         {
           "name": "Guy Axline",
           "party": "REP",
           "write_in": false,
-          "votes": 31382
+          "votes": 31382,
+          "county_votes": {
+            "04001": 538,
+            "04003": 2650,
+            "04005": 1020,
+            "04007": 1860,
+            "04009": 446,
+            "04011": 300,
+            "04013": 13507,
+            "04015": 723,
+            "04017": 887,
+            "04019": 4227,
+            "04021": 953,
+            "04023": 485,
+            "04025": 2593,
+            "04027": 1193
+          }
         }
       ]
     },
@@ -289,6 +369,123 @@
     {
       "office_id": "state-senate",
       "reason": "No state legislative candidate returns appear in this retained statewide canvass."
+    },
+    {
+      "field": "turnout.04027.registered_voters",
+      "page": 6,
+      "reason": "Faded registration figures cannot be transcribed reliably."
+    },
+    {
+      "field": "turnout.04.registered_voters",
+      "page": 6,
+      "reason": "Faded statewide registration total cannot be transcribed reliably."
     }
-  ]
+  ],
+  "turnout": {
+    "04001": {
+      "ballots_cast": null,
+      "registered_voters": 2239,
+      "percent": null,
+      "definition": "Official 1928 registration on page 6: county total is the sum of the separately printed Democratic, Republican and nonpartisan registrations. No ballots cast or turnout percentage is provided.",
+      "page": 6
+    },
+    "04003": {
+      "ballots_cast": null,
+      "registered_voters": 12809,
+      "percent": null,
+      "definition": "Official 1928 registration on page 6: county total is the sum of the separately printed Democratic, Republican and nonpartisan registrations. No ballots cast or turnout percentage is provided.",
+      "page": 6
+    },
+    "04005": {
+      "ballots_cast": null,
+      "registered_voters": 3697,
+      "percent": null,
+      "definition": "Official 1928 registration on page 6: county total is the sum of the separately printed Democratic, Republican and nonpartisan registrations. No ballots cast or turnout percentage is provided.",
+      "page": 6
+    },
+    "04007": {
+      "ballots_cast": null,
+      "registered_voters": 8862,
+      "percent": null,
+      "definition": "Official 1928 registration on page 6: county total is the sum of the separately printed Democratic, Republican and nonpartisan registrations. No ballots cast or turnout percentage is provided.",
+      "page": 6
+    },
+    "04009": {
+      "ballots_cast": null,
+      "registered_voters": 3616,
+      "percent": null,
+      "definition": "Official 1928 registration on page 6: county total is the sum of the separately printed Democratic, Republican and nonpartisan registrations. No ballots cast or turnout percentage is provided.",
+      "page": 6
+    },
+    "04011": {
+      "ballots_cast": null,
+      "registered_voters": 2100,
+      "percent": null,
+      "definition": "Official 1928 registration on page 6: county total is the sum of the separately printed Democratic, Republican and nonpartisan registrations. No ballots cast or turnout percentage is provided.",
+      "page": 6
+    },
+    "04013": {
+      "ballots_cast": null,
+      "registered_voters": 42987,
+      "percent": null,
+      "definition": "Official 1928 registration on page 6: county total is the sum of the separately printed Democratic, Republican and nonpartisan registrations. No ballots cast or turnout percentage is provided.",
+      "page": 6
+    },
+    "04015": {
+      "ballots_cast": null,
+      "registered_voters": 2388,
+      "percent": null,
+      "definition": "Official 1928 registration on page 6: county total is the sum of the separately printed Democratic, Republican and nonpartisan registrations. No ballots cast or turnout percentage is provided.",
+      "page": 6
+    },
+    "04017": {
+      "ballots_cast": null,
+      "registered_voters": 4034,
+      "percent": null,
+      "definition": "Official 1928 registration on page 6: county total is the sum of the separately printed Democratic, Republican and nonpartisan registrations. No ballots cast or turnout percentage is provided.",
+      "page": 6
+    },
+    "04019": {
+      "ballots_cast": null,
+      "registered_voters": 14833,
+      "percent": null,
+      "definition": "Official 1928 registration on page 6: county total is the sum of the separately printed Democratic, Republican and nonpartisan registrations. No ballots cast or turnout percentage is provided.",
+      "page": 6
+    },
+    "04021": {
+      "ballots_cast": null,
+      "registered_voters": 2915,
+      "percent": null,
+      "definition": "Official 1928 registration on page 6: county total is the sum of the separately printed Democratic, Republican and nonpartisan registrations. No ballots cast or turnout percentage is provided.",
+      "page": 6
+    },
+    "04023": {
+      "ballots_cast": null,
+      "registered_voters": 2517,
+      "percent": null,
+      "definition": "Official 1928 registration on page 6: county total is the sum of the separately printed Democratic, Republican and nonpartisan registrations. No ballots cast or turnout percentage is provided.",
+      "page": 6
+    },
+    "04025": {
+      "ballots_cast": null,
+      "registered_voters": 10116,
+      "percent": null,
+      "definition": "Official 1928 registration on page 6: county total is the sum of the separately printed Democratic, Republican and nonpartisan registrations. No ballots cast or turnout percentage is provided.",
+      "page": 6
+    },
+    "04027": {
+      "ballots_cast": null,
+      "registered_voters": null,
+      "percent": null,
+      "definition": "Yuma registration digits on official page 6 are too faint to read reliably; no value is inferred.",
+      "page": 6
+    },
+    "04": {
+      "ballots_cast": null,
+      "registered_voters": null,
+      "percent": null,
+      "definition": "The statewide registration totals on page 6 are too faint to transcribe reliably; no total is inferred. Ballots cast and turnout percentage are not supplied.",
+      "page": 6
+    }
+  }
 }

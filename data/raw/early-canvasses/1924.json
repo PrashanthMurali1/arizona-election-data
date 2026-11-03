@@ -19,22 +19,70 @@
           "name": "Democratic elector slate",
           "party": "DEM",
           "write_in": false,
-          "votes": 26235
+          "votes": 26235,
+          "county_votes": {
+            "04001": 548,
+            "04003": 3496,
+            "04005": 711,
+            "04007": 2218,
+            "04009": 1252,
+            "04011": 768,
+            "04013": 9177,
+            "04015": 475,
+            "04017": 684,
+            "04019": 2594,
+            "04021": 988,
+            "04023": 673,
+            "04025": 1800,
+            "04027": 851
+          }
         },
         {
           "name": "Republican elector slate",
           "party": "REP",
           "write_in": false,
-          "votes": 30516
+          "votes": 30516,
+          "county_votes": {
+            "04001": 620,
+            "04003": 3712,
+            "04005": 1045,
+            "04007": 2193,
+            "04009": 813,
+            "04011": 404,
+            "04013": 10611,
+            "04015": 738,
+            "04017": 1060,
+            "04019": 3559,
+            "04021": 1075,
+            "04023": 579,
+            "04025": 2827,
+            "04027": 1280
+          }
         },
         {
           "name": "Independent Progressive elector slate",
           "party": "Ind. Prog.",
           "write_in": false,
-          "votes": 17210
+          "votes": 17210,
+          "county_votes": {
+            "04001": 110,
+            "04003": 2491,
+            "04005": 561,
+            "04007": 1937,
+            "04009": 386,
+            "04011": 176,
+            "04013": 3970,
+            "04015": 729,
+            "04017": 727,
+            "04019": 2286,
+            "04021": 568,
+            "04023": 198,
+            "04025": 2136,
+            "04027": 935
+          }
         }
       ],
-      "notes": "Grouped slate totals as printed. Democratic electors: G. D. Barclay, Richard H. Ramsey, Sidney Sapp. Republican: J. H. Campbell, George O. Ford, Sharlot M. Hall. Independent Progressive: T. H. Greenfield, Louis G. Hummel, Margaret Shaffer."
+      "notes": "Grouped slate totals as printed. Democratic electors: G. D. Barclay, Richard H. Ramsey, Sidney Sapp. Republican: J. H. Campbell, George O. Ford, Sharlot M. Hall. Independent Progressive: T. H. Greenfield, Louis G. Hummel, Margaret Shaffer. County cells cross-checked against the clear published official general-election table on PDF page 1 and typed duplicate on pages 2-3."
     },
     {
       "office_id": "us-house",
@@ -45,16 +93,48 @@
           "name": "Carl Hayden",
           "party": "DEM",
           "write_in": false,
-          "votes": 40329
+          "votes": 40329,
+          "county_votes": {
+            "04001": 799,
+            "04003": 5311,
+            "04005": 1304,
+            "04007": 3494,
+            "04009": 1567,
+            "04011": 893,
+            "04013": 12474,
+            "04015": 1162,
+            "04017": 1791,
+            "04019": 4479,
+            "04021": 1484,
+            "04023": 835,
+            "04025": 3128,
+            "04027": 1608
+          }
         },
         {
           "name": "W. J. Galbraith",
           "party": "REP",
           "write_in": false,
-          "votes": 8628
+          "votes": 8628,
+          "county_votes": {
+            "04001": 269,
+            "04003": 61,
+            "04005": 445,
+            "04007": 1108,
+            "04009": 397,
+            "04011": 233,
+            "04013": 690,
+            "04015": 297,
+            "04017": 462,
+            "04019": 2468,
+            "04021": 20,
+            "04023": 461,
+            "04025": 1685,
+            "04027": 32
+          }
         }
       ],
-      "notes": ""
+      "notes": "County cells cross-checked against the clear published official general-election table on PDF page 1 and typed duplicate on pages 2-3."
     },
     {
       "office_id": "governor",
@@ -65,16 +145,48 @@
           "name": "Geo. W. P. Hunt",
           "party": "DEM",
           "write_in": false,
-          "votes": 38372
+          "votes": 38372,
+          "county_votes": {
+            "04001": 721,
+            "04003": 4900,
+            "04005": 1243,
+            "04007": 4068,
+            "04009": 1603,
+            "04011": 864,
+            "04013": 11566,
+            "04015": 914,
+            "04017": 1261,
+            "04019": 4123,
+            "04021": 1379,
+            "04023": 743,
+            "04025": 3496,
+            "04027": 1491
+          }
         },
         {
           "name": "Dwight B. Heard",
           "party": "REP",
           "write_in": false,
-          "votes": 37571
+          "votes": 37571,
+          "county_votes": {
+            "04001": 685,
+            "04003": 4908,
+            "04005": 1245,
+            "04007": 2559,
+            "04009": 1057,
+            "04011": 519,
+            "04013": 12610,
+            "04015": 1069,
+            "04017": 1277,
+            "04019": 4274,
+            "04021": 1337,
+            "04023": 712,
+            "04025": 3613,
+            "04027": 1706
+          }
         }
       ],
-      "notes": ""
+      "notes": "County cells cross-checked against the clear published official general-election table on PDF page 1 and typed duplicate on pages 2-3."
     },
     {
       "office_id": "secretary-of-state",
@@ -85,16 +197,48 @@
           "name": "James H. Kerby",
           "party": "DEM",
           "write_in": false,
-          "votes": 42735
+          "votes": 42635,
+          "county_votes": {
+            "04001": 756,
+            "04003": 6183,
+            "04005": 1208,
+            "04007": 3840,
+            "04009": 1553,
+            "04011": 980,
+            "04013": 13896,
+            "04015": 1042,
+            "04017": 1454,
+            "04019": 4290,
+            "04021": 1485,
+            "04023": 801,
+            "04025": 3468,
+            "04027": 1679
+          }
         },
         {
           "name": "A. H. McClure",
           "party": "REP",
           "write_in": false,
-          "votes": 12269
+          "votes": 12269,
+          "county_votes": {
+            "04001": 321,
+            "04003": 47,
+            "04005": 896,
+            "04007": 1512,
+            "04009": 556,
+            "04011": 266,
+            "04013": 831,
+            "04015": 487,
+            "04017": 714,
+            "04019": 3206,
+            "04021": 38,
+            "04023": 526,
+            "04025": 2462,
+            "04027": 407
+          }
         }
       ],
-      "notes": ""
+      "notes": "County cells cross-checked against the clear published official general-election table on PDF page 1 and typed duplicate on pages 2-3."
     },
     {
       "office_id": "attorney-general",
@@ -105,18 +249,157 @@
           "name": "John W. Murphy",
           "party": "DEM",
           "write_in": false,
-          "votes": 38327
+          "votes": 38327,
+          "county_votes": {
+            "04001": 668,
+            "04003": 5298,
+            "04005": 1122,
+            "04007": 3839,
+            "04009": 1462,
+            "04011": 917,
+            "04013": 11681,
+            "04015": 952,
+            "04017": 1324,
+            "04019": 4282,
+            "04021": 1340,
+            "04023": 794,
+            "04025": 3150,
+            "04027": 1498
+          }
         },
         {
           "name": "C. R. Holton",
           "party": "REP",
           "write_in": false,
-          "votes": 26047
+          "votes": 26047,
+          "county_votes": {
+            "04001": 572,
+            "04003": 3057,
+            "04005": 944,
+            "04007": 1710,
+            "04009": 545,
+            "04011": 272,
+            "04013": 9406,
+            "04015": 632,
+            "04017": 823,
+            "04019": 3129,
+            "04021": 863,
+            "04023": 508,
+            "04025": 2652,
+            "04027": 934
+          }
         }
       ],
-      "notes": ""
+      "notes": "County cells cross-checked against the clear published official general-election table on PDF page 1 and typed duplicate on pages 2-3."
     }
   ],
   "unresolved": [],
-  "notes": "The supplied file includes primary tables on page 1; only general candidate returns on pages 2?3 are imported. No legislative tables are present."
+  "notes": "The supplied file includes both primary and general tables on page 1. General candidate returns are published on page 1 and repeated in typed form on pages 2-3; only the general election is imported. No legislative tables are present.",
+  "turnout": {
+    "04001": {
+      "ballots_cast": null,
+      "registered_voters": 1722,
+      "percent": null,
+      "definition": "Official 1924 registration: county total is the sum of the separately printed men and women registration totals on page 1; statewide total is printed directly. The source does not provide ballots cast or a turnout percentage.",
+      "page": 1
+    },
+    "04003": {
+      "ballots_cast": null,
+      "registered_voters": 12319,
+      "percent": null,
+      "definition": "Official 1924 registration: county total is the sum of the separately printed men and women registration totals on page 1; statewide total is printed directly. The source does not provide ballots cast or a turnout percentage.",
+      "page": 1
+    },
+    "04005": {
+      "ballots_cast": null,
+      "registered_voters": 3513,
+      "percent": null,
+      "definition": "Official 1924 registration: county total is the sum of the separately printed men and women registration totals on page 1; statewide total is printed directly. The source does not provide ballots cast or a turnout percentage.",
+      "page": 1
+    },
+    "04007": {
+      "ballots_cast": null,
+      "registered_voters": 8969,
+      "percent": null,
+      "definition": "Official 1924 registration: county total is the sum of the separately printed men and women registration totals on page 1; statewide total is printed directly. The source does not provide ballots cast or a turnout percentage.",
+      "page": 1
+    },
+    "04009": {
+      "ballots_cast": null,
+      "registered_voters": 3175,
+      "percent": null,
+      "definition": "Official 1924 registration: county total is the sum of the separately printed men and women registration totals on page 1; statewide total is printed directly. The source does not provide ballots cast or a turnout percentage.",
+      "page": 1
+    },
+    "04011": {
+      "ballots_cast": null,
+      "registered_voters": 1871,
+      "percent": null,
+      "definition": "Official 1924 registration: county total is the sum of the separately printed men and women registration totals on page 1; statewide total is printed directly. The source does not provide ballots cast or a turnout percentage.",
+      "page": 1
+    },
+    "04013": {
+      "ballots_cast": null,
+      "registered_voters": 32066,
+      "percent": null,
+      "definition": "Official 1924 registration: county total is the sum of the separately printed men and women registration totals on page 1; statewide total is printed directly. The source does not provide ballots cast or a turnout percentage.",
+      "page": 1
+    },
+    "04015": {
+      "ballots_cast": null,
+      "registered_voters": 2505,
+      "percent": null,
+      "definition": "Official 1924 registration: county total is the sum of the separately printed men and women registration totals on page 1; statewide total is printed directly. The source does not provide ballots cast or a turnout percentage.",
+      "page": 1
+    },
+    "04017": {
+      "ballots_cast": null,
+      "registered_voters": 3122,
+      "percent": null,
+      "definition": "Official 1924 registration: county total is the sum of the separately printed men and women registration totals on page 1; statewide total is printed directly. The source does not provide ballots cast or a turnout percentage.",
+      "page": 1
+    },
+    "04019": {
+      "ballots_cast": null,
+      "registered_voters": 11243,
+      "percent": null,
+      "definition": "Official 1924 registration: county total is the sum of the separately printed men and women registration totals on page 1; statewide total is printed directly. The source does not provide ballots cast or a turnout percentage.",
+      "page": 1
+    },
+    "04021": {
+      "ballots_cast": null,
+      "registered_voters": 3297,
+      "percent": null,
+      "definition": "Official 1924 registration: county total is the sum of the separately printed men and women registration totals on page 1; statewide total is printed directly. The source does not provide ballots cast or a turnout percentage.",
+      "page": 1
+    },
+    "04023": {
+      "ballots_cast": null,
+      "registered_voters": 1721,
+      "percent": null,
+      "definition": "Official 1924 registration: county total is the sum of the separately printed men and women registration totals on page 1; statewide total is printed directly. The source does not provide ballots cast or a turnout percentage.",
+      "page": 1
+    },
+    "04025": {
+      "ballots_cast": null,
+      "registered_voters": 9310,
+      "percent": null,
+      "definition": "Official 1924 registration: county total is the sum of the separately printed men and women registration totals on page 1; statewide total is printed directly. The source does not provide ballots cast or a turnout percentage.",
+      "page": 1
+    },
+    "04027": {
+      "ballots_cast": null,
+      "registered_voters": 3858,
+      "percent": null,
+      "definition": "Official 1924 registration: county total is the sum of the separately printed men and women registration totals on page 1; statewide total is printed directly. The source does not provide ballots cast or a turnout percentage.",
+      "page": 1
+    },
+    "04": {
+      "ballots_cast": null,
+      "registered_voters": 98691,
+      "percent": null,
+      "definition": "Official 1924 registration: county total is the sum of the separately printed men and women registration totals on page 1; statewide total is printed directly. The source does not provide ballots cast or a turnout percentage.",
+      "page": 1
+    }
+  }
 }

@@ -29,7 +29,8 @@ export default function ElectionPage() {
     ].includes(id)
   )
     return <NotFound />;
-  return id.includes("-historical-") ? (
+  return id.includes("-historical-") &&
+    !id.includes("-historical-president") ? (
     <HistoricalElectionPage key={id} id={id} />
   ) : id.includes("-us-house") ? (
     <HouseElectionPage key={id} id={id} />
@@ -70,12 +71,10 @@ function StatewideElectionPage({
       .then(async (detail) => {
         const [counties, geo, activity] = await Promise.all([
           get<Results[]>(`/api/elections/${id}/counties`, controller.signal),
-          detail.election.year < 1966
-            ? Promise.resolve(null)
-            : get<Geography>(
-                `/api/geography/${detail.election.boundary_id}`,
-                controller.signal,
-              ),
+          get<Geography>(
+            `/api/geography/${detail.election.boundary_id}`,
+            controller.signal,
+          ),
           get<Activity | null>(
             `/api/elections/${id}/activity`,
             controller.signal,
@@ -99,7 +98,9 @@ function StatewideElectionPage({
   const { detail, counties, geo, activity } = state;
   const { election, statewide } = detail;
   const county = counties.find((c) => c.geoid === selected);
-  const years = catalog.filter((e) => e.office_id === election.office_id);
+  const years = (
+    catalog.some((e) => e.id === election.id) ? catalog : [election, ...catalog]
+  ).filter((e) => e.office_id === election.office_id);
   const provisional = activity?.stage === "unofficial";
   const mapCounties = provisional
     ? counties.map((c) => ({
@@ -189,6 +190,16 @@ function StatewideElectionPage({
       )}
       {activity && <SnapshotNotice activity={activity} />}
       <CandidateOverview results={statewide} />
+      {(statewide.turnout.registered_voters != null ||
+        statewide.turnout.ballots_cast != null) && (
+        <section
+          className="result-summary turnout-panel"
+          aria-label="Election turnout"
+        >
+          <h2>Election turnout</h2>
+          <TurnoutMetrics turnout={statewide.turnout} />
+        </section>
+      )}
       <section className="county-section" id="geography-explorer">
         <div className="section-heading">
           <div>
@@ -196,12 +207,6 @@ function StatewideElectionPage({
           </div>
           <span className="muted">Select a county to explore</span>
         </div>
-        {!geo && (
-          <p className="footnote">
-            Historical county boundaries have not been verified for this
-            election. County results are available in the table.
-          </p>
-        )}
         <div className={`county-grid explorer${geo ? "" : " without-map"}`}>
           {geo && (
             <section className="panel map-panel" aria-label="County winner map">
@@ -238,6 +243,8 @@ function StatewideElectionPage({
               Shares show the two leading parties and include all candidates of
               each party. Contest votes exclude undervotes and overvotes.
               Turnout is the official election-wide figure.
+              {counties.some((c) => c.partial) &&
+                " Where the source leaves write-ins unallocated by county, shares and contest votes use the available county tallies. A winner is shown only when those missing votes cannot change the lead."}
             </p>
           </section>
         </div>

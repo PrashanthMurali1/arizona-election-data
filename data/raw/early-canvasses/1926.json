@@ -71,13 +71,45 @@
           "name": "Lewis W. Douglas",
           "party": "DEM",
           "write_in": false,
-          "votes": 43725
+          "votes": 43725,
+          "county_votes": {
+            "04001": 772,
+            "04003": 6259,
+            "04005": 1187,
+            "04007": 3384,
+            "04009": 1799,
+            "04011": 1057,
+            "04013": 12783,
+            "04015": 1041,
+            "04017": 1350,
+            "04019": 5574,
+            "04021": 1568,
+            "04023": 948,
+            "04025": 4333,
+            "04027": 1670
+          }
         },
         {
           "name": "O. J. Baughn",
           "party": "REP",
           "write_in": false,
-          "votes": 24502
+          "votes": 24502,
+          "county_votes": {
+            "04001": 433,
+            "04003": 2413,
+            "04005": 768,
+            "04007": 1703,
+            "04009": 468,
+            "04011": 236,
+            "04013": 10416,
+            "04015": 341,
+            "04017": 767,
+            "04019": 2871,
+            "04021": 787,
+            "04023": 461,
+            "04025": 1763,
+            "04027": 1075
+          }
         }
       ],
       "notes": ""
@@ -148,7 +180,7 @@
             "04001": 820,
             "04003": 6003,
             "04005": 1449,
-            "04007": 4044,
+            "04007": 4004,
             "04009": 1105,
             "04011": 1011,
             "04013": 14625,
@@ -240,5 +272,112 @@
     }
   ],
   "unresolved": [],
-  "notes": "The supplied canvass contains statewide/federal returns, not legislative district returns. Source absence is not a claim that no legislative election occurred."
+  "notes": "The supplied canvass contains statewide/federal returns, not legislative district returns. Source absence is not a claim that no legislative election occurred.",
+  "turnout": {
+    "04001": {
+      "ballots_cast": null,
+      "registered_voters": 2436,
+      "percent": null,
+      "definition": "Official total registration for 1926, including registrations before and after the primary election, as printed on page 3. The source does not provide ballots cast or a turnout percentage.",
+      "page": 3
+    },
+    "04003": {
+      "ballots_cast": null,
+      "registered_voters": 12721,
+      "percent": null,
+      "definition": "Official total registration for 1926, including registrations before and after the primary election, as printed on page 3. The source does not provide ballots cast or a turnout percentage.",
+      "page": 3
+    },
+    "04005": {
+      "ballots_cast": null,
+      "registered_voters": 3670,
+      "percent": null,
+      "definition": "Official total registration for 1926, including registrations before and after the primary election, as printed on page 3. The source does not provide ballots cast or a turnout percentage.",
+      "page": 3
+    },
+    "04007": {
+      "ballots_cast": null,
+      "registered_voters": 8914,
+      "percent": null,
+      "definition": "Official total registration for 1926, including registrations before and after the primary election, as printed on page 3. The source does not provide ballots cast or a turnout percentage.",
+      "page": 3
+    },
+    "04009": {
+      "ballots_cast": null,
+      "registered_voters": 3500,
+      "percent": null,
+      "definition": "Official total registration for 1926, including registrations before and after the primary election, as printed on page 3. The source does not provide ballots cast or a turnout percentage.",
+      "page": 3
+    },
+    "04011": {
+      "ballots_cast": null,
+      "registered_voters": 2066,
+      "percent": null,
+      "definition": "Official total registration for 1926, including registrations before and after the primary election, as printed on page 3. The source does not provide ballots cast or a turnout percentage.",
+      "page": 3
+    },
+    "04013": {
+      "ballots_cast": null,
+      "registered_voters": 36445,
+      "percent": null,
+      "definition": "Official total registration for 1926, including registrations before and after the primary election, as printed on page 3. The source does not provide ballots cast or a turnout percentage.",
+      "page": 3
+    },
+    "04015": {
+      "ballots_cast": null,
+      "registered_voters": 2361,
+      "percent": null,
+      "definition": "Official total registration for 1926, including registrations before and after the primary election, as printed on page 3. The source does not provide ballots cast or a turnout percentage.",
+      "page": 3
+    },
+    "04017": {
+      "ballots_cast": null,
+      "registered_voters": 3242,
+      "percent": null,
+      "definition": "Official total registration for 1926, including registrations before and after the primary election, as printed on page 3. The source does not provide ballots cast or a turnout percentage.",
+      "page": 3
+    },
+    "04019": {
+      "ballots_cast": null,
+      "registered_voters": 12757,
+      "percent": null,
+      "definition": "Official total registration for 1926, including registrations before and after the primary election, as printed on page 3. The source does not provide ballots cast or a turnout percentage.",
+      "page": 3
+    },
+    "04021": {
+      "ballots_cast": null,
+      "registered_voters": 3320,
+      "percent": null,
+      "definition": "Official total registration for 1926, including registrations before and after the primary election, as printed on page 3. The source does not provide ballots cast or a turnout percentage.",
+      "page": 3
+    },
+    "04023": {
+      "ballots_cast": null,
+      "registered_voters": 2264,
+      "percent": null,
+      "definition": "Official total registration for 1926, including registrations before and after the primary election, as printed on page 3. The source does not provide ballots cast or a turnout percentage.",
+      "page": 3
+    },
+    "04025": {
+      "ballots_cast": null,
+      "registered_voters": 9865,
+      "percent": null,
+      "definition": "Official total registration for 1926, including registrations before and after the primary election, as printed on page 3. The source does not provide ballots cast or a turnout percentage.",
+      "page": 3
+    },
+    "04027": {
+      "ballots_cast": null,
+      "registered_voters": 4928,
+      "percent": null,
+      "definition": "Official total registration for 1926, including registrations before and after the primary election, as printed on page 3. The source does not provide ballots cast or a turnout percentage.",
+      "page": 3
+    },
+    "04": {
+      "ballots_cast": null,
+      "registered_voters": 108489,
+      "percent": null,
+      "definition": "Official total registration for 1926, including registrations before and after the primary election, as printed on page 3. The source does not provide ballots cast or a turnout percentage.",
+      "page": 3
+    }
+  }
 }

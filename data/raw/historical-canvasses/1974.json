@@ -1638,5 +1638,127 @@
       "page": 4,
       "reason": "The embedded 1707 x 2792 JPEG on PDF page 4 was inspected directly; page CropBox equals MediaBox, so no extra row is hidden by PDF cropping. The lower-right source scan itself loses most of a fourth candidate row (only tiny top strokes remain), and three visible candidate totals are damaged. Three totals remain null and the fourth candidate identity and vote total cannot be recovered from this retained scan."
     }
-  ]
+  ],
+  "turnout": {
+    "04001": {
+      "ballots_cast": 7153,
+      "registered_voters": 13013,
+      "percent": 54.96,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1974ge.pdf"
+    },
+    "04003": {
+      "ballots_cast": 16849,
+      "registered_voters": 24981,
+      "percent": 67.45,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1974ge.pdf"
+    },
+    "04005": {
+      "ballots_cast": 16441,
+      "registered_voters": 27053,
+      "percent": 62.28,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1974ge.pdf"
+    },
+    "04007": {
+      "ballots_cast": 9464,
+      "registered_voters": 14457,
+      "percent": 65.46,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1974ge.pdf"
+    },
+    "04009": {
+      "ballots_cast": 5246,
+      "registered_voters": 8497,
+      "percent": 61.74,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1974ge.pdf"
+    },
+    "04011": {
+      "ballots_cast": 3746,
+      "registered_voters": 5328,
+      "percent": 70.31,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1974ge.pdf"
+    },
+    "04013": {
+      "ballots_cast": 316407,
+      "registered_voters": 493384,
+      "percent": 64.13,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1974ge.pdf"
+    },
+    "04015": {
+      "ballots_cast": 8975,
+      "registered_voters": 14762,
+      "percent": 60.8,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1974ge.pdf"
+    },
+    "04017": {
+      "ballots_cast": 11678,
+      "registered_voters": 18818,
+      "percent": 62.06,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1974ge.pdf"
+    },
+    "04019": {
+      "ballots_cast": 117236,
+      "registered_voters": 190488,
+      "percent": 61.54,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1974ge.pdf"
+    },
+    "04021": {
+      "ballots_cast": 17095,
+      "registered_voters": 28009,
+      "percent": 61.03,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1974ge.pdf"
+    },
+    "04023": {
+      "ballots_cast": 3469,
+      "registered_voters": 5788,
+      "percent": 59.93,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1974ge.pdf"
+    },
+    "04025": {
+      "ballots_cast": 17004,
+      "registered_voters": 24470,
+      "percent": 69.49,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1974ge.pdf"
+    },
+    "04027": {
+      "ballots_cast": 13228,
+      "registered_voters": 21785,
+      "percent": 60.72,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1974ge.pdf"
+    },
+    "04": {
+      "ballots_cast": 563991,
+      "registered_voters": 890833,
+      "percent": 63.31,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1974ge.pdf"
+    }
+  }
 }

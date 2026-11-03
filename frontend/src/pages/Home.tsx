@@ -335,9 +335,11 @@ export default function Home() {
                                                 "reported",
                                                 "secondary",
                                               ].includes(e.status)
-                                            ? e.district_count !== undefined
-                                              ? `${e.district_count} ${e.district_count === 1 ? "district" : "districts"} · ${e.candidate_count} candidates`
-                                              : `${e.county_count} counties · ${e.candidate_count} candidates`
+                                            ? e.office_id === "president"
+                                              ? `${e.county_count} counties · ${e.candidate_count} candidates`
+                                              : e.district_count !== undefined
+                                                ? `${e.district_count} ${e.district_count === 1 ? "district" : "districts"} · ${e.candidate_count} candidates`
+                                                : `${e.county_count} counties · ${e.candidate_count} candidates`
                                             : e.status === "unofficial"
                                               ? "Unofficial reported results · counting in progress"
                                               : "Source located · results awaiting verification"}

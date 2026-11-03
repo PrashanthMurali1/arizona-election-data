@@ -12,20 +12,32 @@ export function partyShare(r: Results, party: string): number | null {
   return r.total_votes == null ||
     !r.total_votes ||
     !candidates.length ||
-    candidates.some((c) => c.votes == null)
+    (!r.partial && candidates.some((c) => c.votes == null))
     ? null
-    : (candidates.reduce((n, c) => n + c.votes!, 0) / r.total_votes) * 100;
+    : (candidates.reduce((n, c) => n + (c.votes ?? 0), 0) / r.total_votes) *
+        100;
 }
 export type SortKey =
-  "name" | "DEM" | "REP" | "winner" | "total_votes" | "turnout" | `party:${string}`;
+  | "name"
+  | "DEM"
+  | "REP"
+  | "winner"
+  | "total_votes"
+  | "turnout"
+  | `party:${string}`;
 export function tableParties(rows: Results[]): string[] {
   const totals = new Map<string, number>();
-  for (const row of rows) for (const c of row.candidates) {
-    if (!c.write_in) totals.set(c.party, (totals.get(c.party) ?? 0) + (c.votes ?? 0));
-  }
+  for (const row of rows)
+    for (const c of row.candidates) {
+      if (!c.write_in)
+        totals.set(c.party, (totals.get(c.party) ?? 0) + (c.votes ?? 0));
+    }
   // Keep the familiar Dem/Rep order where both are the leading parties.
-  return [...totals].sort((a,b) => b[1]-a[1] || a[0].localeCompare(b[0]))
-    .slice(0,2).map(([party])=>party).sort();
+  return [...totals]
+    .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
+    .slice(0, 2)
+    .map(([party]) => party)
+    .sort();
 }
 export function sortCounties(
   rows: Results[],

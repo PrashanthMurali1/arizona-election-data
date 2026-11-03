@@ -22,7 +22,7 @@ const elections = [
 afterEach(() => vi.unstubAllGlobals());
 
 describe("historical election HTTP prefetch", () => {
-  it("keeps early statewide results available without unverified county maps", () => {
+  it("prefetches early statewide county maps and results", () => {
     const early = [
       {
         id: "az-1911-governor",
@@ -35,6 +35,7 @@ describe("historical election HTTP prefetch", () => {
       "/api/elections/az-1911-governor",
       "/api/elections/az-1911-governor/counties",
       "/api/elections/az-1911-governor/activity",
+      "/api/geography/county-1966-1982",
     ]);
   });
   it("prefetches historical district results without requiring geography", () => {

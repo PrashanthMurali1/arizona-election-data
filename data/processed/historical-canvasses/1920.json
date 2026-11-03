@@ -3,6 +3,113 @@
   "date": "1920-11-02",
   "kind": "general",
   "source_sha256": "03c5e60a640089e68a2a5a1d2e0657b2c56c0d1d7ebb005987a4501119eb3a7f",
+  "turnout": {
+    "04001": {
+      "ballots_cast": null,
+      "registered_voters": 1707,
+      "percent": null,
+      "definition": "Official total registration for 1920, including registrations before the primary and before the general election. The source does not provide ballots cast or a turnout percentage.",
+      "page": 5
+    },
+    "04003": {
+      "ballots_cast": null,
+      "registered_voters": 13224,
+      "percent": null,
+      "definition": "Official total registration for 1920, including registrations before the primary and before the general election. The source does not provide ballots cast or a turnout percentage.",
+      "page": 5
+    },
+    "04005": {
+      "ballots_cast": null,
+      "registered_voters": 2838,
+      "percent": null,
+      "definition": "Official total registration for 1920, including registrations before the primary and before the general election. The source does not provide ballots cast or a turnout percentage.",
+      "page": 5
+    },
+    "04007": {
+      "ballots_cast": null,
+      "registered_voters": 9043,
+      "percent": null,
+      "definition": "Official total registration for 1920, including registrations before the primary and before the general election. The source does not provide ballots cast or a turnout percentage.",
+      "page": 5
+    },
+    "04009": {
+      "ballots_cast": null,
+      "registered_voters": 3122,
+      "percent": null,
+      "definition": "Official total registration for 1920, including registrations before the primary and before the general election. The source does not provide ballots cast or a turnout percentage.",
+      "page": 5
+    },
+    "04011": {
+      "ballots_cast": null,
+      "registered_voters": 2730,
+      "percent": null,
+      "definition": "Official total registration for 1920, including registrations before the primary and before the general election. The source does not provide ballots cast or a turnout percentage.",
+      "page": 5
+    },
+    "04013": {
+      "ballots_cast": null,
+      "registered_voters": 25409,
+      "percent": null,
+      "definition": "Official total registration for 1920, including registrations before the primary and before the general election. The source does not provide ballots cast or a turnout percentage.",
+      "page": 5
+    },
+    "04015": {
+      "ballots_cast": null,
+      "registered_voters": 2486,
+      "percent": null,
+      "definition": "Official total registration for 1920, including registrations before the primary and before the general election. The source does not provide ballots cast or a turnout percentage.",
+      "page": 5
+    },
+    "04017": {
+      "ballots_cast": null,
+      "registered_voters": 2754,
+      "percent": null,
+      "definition": "Official total registration for 1920, including registrations before the primary and before the general election. The source does not provide ballots cast or a turnout percentage.",
+      "page": 5
+    },
+    "04019": {
+      "ballots_cast": null,
+      "registered_voters": 8421,
+      "percent": null,
+      "definition": "Official total registration for 1920, including registrations before the primary and before the general election. The source does not provide ballots cast or a turnout percentage.",
+      "page": 5
+    },
+    "04021": {
+      "ballots_cast": null,
+      "registered_voters": 3756,
+      "percent": null,
+      "definition": "Official total registration for 1920, including registrations before the primary and before the general election. The source does not provide ballots cast or a turnout percentage.",
+      "page": 5
+    },
+    "04023": {
+      "ballots_cast": null,
+      "registered_voters": 2023,
+      "percent": null,
+      "definition": "Official total registration for 1920, including registrations before the primary and before the general election. The source does not provide ballots cast or a turnout percentage.",
+      "page": 5
+    },
+    "04025": {
+      "ballots_cast": null,
+      "registered_voters": 8741,
+      "percent": null,
+      "definition": "Official total registration for 1920, including registrations before the primary and before the general election. The source does not provide ballots cast or a turnout percentage.",
+      "page": 5
+    },
+    "04027": {
+      "ballots_cast": null,
+      "registered_voters": 4018,
+      "percent": null,
+      "definition": "Official total registration for 1920, including registrations before the primary and before the general election. The source does not provide ballots cast or a turnout percentage.",
+      "page": 5
+    },
+    "04": {
+      "ballots_cast": null,
+      "registered_voters": 90272,
+      "percent": null,
+      "definition": "Official total registration for 1920, including registrations before the primary and before the general election. The source does not provide ballots cast or a turnout percentage.",
+      "page": 5
+    }
+  },
   "absent_offices": [
     "state-house",
     "state-senate"
@@ -56,7 +163,7 @@
             "04007": 3311,
             "04009": 1062,
             "04011": 905,
-            "04013": 13336,
+            "04013": 11336,
             "04015": 996,
             "04017": 1078,
             "04019": 3392,
@@ -67,7 +174,7 @@
           }
         }
       ],
-      "notes": "One grouped vote per slate. Democratic electors B. F. Billingsley, May Belle Craig, H. T. Southworth. Republican electors James P. Boyle, Joseph W. Smith, Frank R. Stewart. Printed county/total difference retained: Democratic elector slate: county sum 29,566; printed total 29,546; Republican elector slate: county sum 39,016; printed total 37,016.",
+      "notes": "One grouped vote per slate. Democratic electors B. F. Billingsley, May Belle Craig, H. T. Southworth. Republican electors James P. Boyle, Joseph W. Smith, Frank R. Stewart. Printed county/total difference retained: Democratic elector slate: county sum 29,566; printed total 29,546.",
       "contest_id": "az-1920-historical-president-district-at-large",
       "reconciliation": {
         "status": "reported",
@@ -87,17 +194,17 @@
             "candidate": "Republican elector slate",
             "official_total": 37016,
             "official_statewide": 37016,
-            "county_sum": 39016,
+            "county_sum": 37016,
             "county_coverage": 14,
             "missing_counties": [],
-            "difference": 2000
+            "difference": 0
           }
         ],
         "county_count": 14,
         "coverage": "contest_totals",
         "multi_seat": true,
         "result_basis": "presidential-electors",
-        "notes": "One grouped vote per slate. Democratic electors B. F. Billingsley, May Belle Craig, H. T. Southworth. Republican electors James P. Boyle, Joseph W. Smith, Frank R. Stewart. Printed county/total difference retained: Democratic elector slate: county sum 29,566; printed total 29,546; Republican elector slate: county sum 39,016; printed total 37,016."
+        "notes": "One grouped vote per slate. Democratic electors B. F. Billingsley, May Belle Craig, H. T. Southworth. Republican electors James P. Boyle, Joseph W. Smith, Frank R. Stewart. Printed county/total difference retained: Democratic elector slate: county sum 29,566; printed total 29,546."
       }
     },
     {
@@ -192,19 +299,51 @@
           "name": "Carl Hayden",
           "party": "DEM",
           "write_in": false,
-          "votes": 35397
+          "votes": 35397,
+          "county_votes": {
+            "04001": 700,
+            "04003": 5071,
+            "04005": 1105,
+            "04007": 3570,
+            "04009": 1514,
+            "04011": 1277,
+            "04013": 10344,
+            "04015": 1019,
+            "04017": 1320,
+            "04019": 2661,
+            "04021": 1611,
+            "04023": 795,
+            "04025": 2960,
+            "04027": 1450
+          }
         },
         {
           "name": "James A. Dunseath",
           "party": "REP",
           "write_in": false,
-          "votes": 25841
+          "votes": 25841,
+          "county_votes": {
+            "04001": 487,
+            "04003": 3624,
+            "04005": 893,
+            "04007": 1956,
+            "04009": 685,
+            "04011": 580,
+            "04013": 8489,
+            "04015": 604,
+            "04017": 568,
+            "04019": 2861,
+            "04021": 931,
+            "04023": 721,
+            "04025": 2416,
+            "04027": 1026
+          }
         }
       ],
       "notes": "",
       "contest_id": "az-1920-historical-us-house-district-at-large",
       "reconciliation": {
-        "status": "reported",
+        "status": "verified",
         "page": 1,
         "district": "at-large",
         "candidates": [
@@ -212,53 +351,23 @@
             "candidate": "Carl Hayden",
             "official_total": 35397,
             "official_statewide": 35397,
-            "county_sum": null,
-            "county_coverage": 0,
-            "missing_counties": [
-              "04001",
-              "04003",
-              "04005",
-              "04007",
-              "04009",
-              "04011",
-              "04013",
-              "04015",
-              "04017",
-              "04019",
-              "04021",
-              "04023",
-              "04025",
-              "04027"
-            ],
-            "difference": null
+            "county_sum": 35397,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
           },
           {
             "candidate": "James A. Dunseath",
             "official_total": 25841,
             "official_statewide": 25841,
-            "county_sum": null,
-            "county_coverage": 0,
-            "missing_counties": [
-              "04001",
-              "04003",
-              "04005",
-              "04007",
-              "04009",
-              "04011",
-              "04013",
-              "04015",
-              "04017",
-              "04019",
-              "04021",
-              "04023",
-              "04025",
-              "04027"
-            ],
-            "difference": null
+            "county_sum": 25841,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
           }
         ],
         "county_count": 14,
-        "coverage": "contest_totals",
+        "coverage": "county",
         "multi_seat": false,
         "result_basis": "candidate-votes",
         "notes": ""
@@ -295,7 +404,7 @@
           "name": "Thos. E. Campbell",
           "party": "REP",
           "write_in": false,
-          "votes": null,
+          "votes": 37060,
           "county_votes": {
             "04001": 728,
             "04003": 5440,
@@ -311,13 +420,15 @@
             "04023": 907,
             "04025": 3702,
             "04027": 1601
-          }
+          },
+          "printed_total": null,
+          "votes_basis": "sum_of_official_counties"
         }
       ],
-      "notes": "Campbell printed statewide total is obscured in the retained scan. Readable county cells are retained; no statewide total is inferred.",
+      "notes": "Campbell printed statewide total is obscured in the retained scan. Readable county cells are retained; no statewide total is inferred. Campbell statewide result is calculated by adding all 14 legible official county returns; the printed statewide total is obscured.",
       "contest_id": "az-1920-governor",
       "reconciliation": {
-        "status": "incomplete",
+        "status": "verified",
         "page": 1,
         "district": null,
         "candidates": [
@@ -332,19 +443,19 @@
           },
           {
             "candidate": "Thos. E. Campbell",
-            "official_total": null,
-            "official_statewide": null,
+            "official_total": 37060,
+            "official_statewide": 37060,
             "county_sum": 37060,
             "county_coverage": 14,
             "missing_counties": [],
-            "difference": null
+            "difference": 0
           }
         ],
         "county_count": 14,
-        "coverage": "contest_totals",
+        "coverage": "county",
         "multi_seat": false,
         "result_basis": "candidate-votes",
-        "notes": "Campbell printed statewide total is obscured in the retained scan. Readable county cells are retained; no statewide total is inferred."
+        "notes": "Campbell printed statewide total is obscured in the retained scan. Readable county cells are retained; no statewide total is inferred. Campbell statewide result is calculated by adding all 14 legible official county returns; the printed statewide total is obscured."
       }
     },
     {
@@ -439,7 +550,7 @@
           "name": "Wiley E. Jones",
           "party": "DEM",
           "write_in": false,
-          "votes": 28114,
+          "votes": 28814,
           "county_votes": {
             "04001": 563,
             "04003": 4165,
@@ -461,7 +572,7 @@
           "name": "W. H. Galbraith",
           "party": "REP",
           "write_in": false,
-          "votes": 34533,
+          "votes": 34333,
           "county_votes": {
             "04001": 625,
             "04003": 4916,
@@ -480,37 +591,37 @@
           }
         }
       ],
-      "notes": " Printed county/total difference retained: Wiley E. Jones: county sum 28,814; printed total 28,114; W. H. Galbraith: county sum 34,333; printed total 34,533.",
+      "notes": "Statewide totals and county cells visually verified against retained official page 2.",
       "contest_id": "az-1920-attorney-general",
       "reconciliation": {
-        "status": "reported",
+        "status": "verified",
         "page": 2,
         "district": null,
         "candidates": [
           {
             "candidate": "Wiley E. Jones",
-            "official_total": 28114,
-            "official_statewide": 28114,
+            "official_total": 28814,
+            "official_statewide": 28814,
             "county_sum": 28814,
             "county_coverage": 14,
             "missing_counties": [],
-            "difference": 700
+            "difference": 0
           },
           {
             "candidate": "W. H. Galbraith",
-            "official_total": 34533,
-            "official_statewide": 34533,
+            "official_total": 34333,
+            "official_statewide": 34333,
             "county_sum": 34333,
             "county_coverage": 14,
             "missing_counties": [],
-            "difference": -200
+            "difference": 0
           }
         ],
         "county_count": 14,
-        "coverage": "contest_totals",
+        "coverage": "county",
         "multi_seat": false,
         "result_basis": "candidate-votes",
-        "notes": " Printed county/total difference retained: Wiley E. Jones: county sum 28,814; printed total 28,114; W. H. Galbraith: county sum 34,333; printed total 34,533."
+        "notes": "Statewide totals and county cells visually verified against retained official page 2."
       }
     }
   ]

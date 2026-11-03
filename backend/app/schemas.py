@@ -41,7 +41,7 @@ class TurnoutOut(BaseModel):
     registered_voters: int | None = None
     percent: float | None = None
     definition: str = (
-        "N/A — official turnout has not been imported for this reporting unit."
+        "The retained canvass does not provide an election-wide ballots-cast figure for this reporting unit."
     )
     source_id: str | None = None
 
@@ -54,6 +54,7 @@ class ResultsOut(BaseModel):
     candidates: list[CandidateOut]
     winner: CandidateOut | None
     turnout: TurnoutOut
+    partial: bool = False
 
 
 class DetailOut(BaseModel):

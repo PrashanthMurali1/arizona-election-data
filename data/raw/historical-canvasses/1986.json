@@ -1622,5 +1622,135 @@
       ]
     }
   ],
-  "unresolved": []
+  "unresolved": [],
+  "turnout": {
+    "04001": {
+      "ballots_cast": 12142,
+      "registered_voters": 23653,
+      "percent": 51.33,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1986ge.pdf"
+    },
+    "04003": {
+      "ballots_cast": 22808,
+      "registered_voters": 41830,
+      "percent": 54.53,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1986ge.pdf"
+    },
+    "04005": {
+      "ballots_cast": 24504,
+      "registered_voters": 45624,
+      "percent": 53.71,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1986ge.pdf"
+    },
+    "04007": {
+      "ballots_cast": 14423,
+      "registered_voters": 22521,
+      "percent": 64.04,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1986ge.pdf"
+    },
+    "04009": {
+      "ballots_cast": 7185,
+      "registered_voters": 11683,
+      "percent": 61.5,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1986ge.pdf"
+    },
+    "04011": {
+      "ballots_cast": 3072,
+      "registered_voters": 5523,
+      "percent": 55.62,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1986ge.pdf"
+    },
+    "04012": {
+      "ballots_cast": 3618,
+      "registered_voters": 6765,
+      "percent": 53.48,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1986ge.pdf"
+    },
+    "04013": {
+      "ballots_cast": 506106,
+      "registered_voters": 899405,
+      "percent": 56.27,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1986ge.pdf"
+    },
+    "04015": {
+      "ballots_cast": 22296,
+      "registered_voters": 42206,
+      "percent": 52.83,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1986ge.pdf"
+    },
+    "04017": {
+      "ballots_cast": 17135,
+      "registered_voters": 31334,
+      "percent": 54.69,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1986ge.pdf"
+    },
+    "04019": {
+      "ballots_cast": 175363,
+      "registered_voters": 329257,
+      "percent": 53.26,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1986ge.pdf"
+    },
+    "04021": {
+      "ballots_cast": 25520,
+      "registered_voters": 45102,
+      "percent": 56.58,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1986ge.pdf"
+    },
+    "04023": {
+      "ballots_cast": 5570,
+      "registered_voters": 9672,
+      "percent": 57.59,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1986ge.pdf"
+    },
+    "04025": {
+      "ballots_cast": 32855,
+      "registered_voters": 50236,
+      "percent": 65.4,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1986ge.pdf"
+    },
+    "04027": {
+      "ballots_cast": 17071,
+      "registered_voters": 33123,
+      "percent": 51.54,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1986ge.pdf"
+    },
+    "04": {
+      "ballots_cast": 889668,
+      "registered_voters": 1597934,
+      "percent": 55.68,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1986ge.pdf"
+    }
+  }
 }

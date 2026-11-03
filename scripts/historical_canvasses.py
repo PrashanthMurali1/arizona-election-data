@@ -18,7 +18,7 @@ from backend.app.database import SessionLocal
 from backend.app.models import (
     BoundaryVersion, Candidate, Contest, ElectionEvent, GeographicUnit,
     ImportRun, Office, Participation, Party, Source, VoteResult,
-    Geometry,
+    Geometry, Turnout,
 )
 from scripts.normalize import COUNTIES
 
@@ -99,6 +99,17 @@ def validate_document(document, source_root=ROOT):
     if document.get('kind', 'general') not in {'general', 'special'}:
         raise ValueError('Only general and special candidate elections are supported')
     units = county_units(year)
+    for geoid, turnout in document.get('turnout', {}).items():
+        if geoid not in units | {'04'}:
+            raise ValueError('Unknown turnout reporting unit')
+        if turnout.get('source_path', document['source_path']) not in sources:
+            raise ValueError('Turnout refers to an unretained source')
+        for key in ['ballots_cast', 'registered_voters']:
+            value = turnout.get(key)
+            if value is not None and (type(value) is not int or value < 0):
+                raise ValueError('Invalid turnout count')
+        if turnout.get('percent') is not None and not 0 <= turnout['percent'] <= 100:
+            raise ValueError('Invalid turnout percentage')
     seen = set()
     for contest in document['contests']:
         office = contest['office_id']
@@ -227,6 +238,15 @@ def import_documents(documents, session_factory=SessionLocal, source_root=ROOT):
             boundary = f'historical-results-{year}'
             session.merge(BoundaryVersion(id=boundary, vintage=year, source_id=source_id))
             session.flush()
+            for geoid, value in doc.get('turnout', {}).items():
+                turnout = session.scalar(select(Turnout).where(Turnout.event_id == event_id, Turnout.unit_id == geoid))
+                if turnout is None:
+                    turnout = Turnout(event_id=event_id,unit_id=geoid)
+                    session.add(turnout)
+                for key in ['ballots_cast','registered_voters','percent']:
+                    setattr(turnout,key,value.get(key))
+                turnout.definition = value.get('definition','Official election-wide turnout as printed.') + (f" Source PDF page {value['page']}." if value.get('page') else '')
+                turnout.source_id = document_source_id(doc,value.get('source_path'))
             for contest in doc['contests']:
                 office = contest['office_id']
                 source_path = contest.get('source_path', doc['source_path'])
@@ -331,6 +351,7 @@ def import_all(year=None, office=None):
     for doc in docs:
         kind = doc.get('kind', 'general')
         normalized = {'year': doc['year'], 'date': doc['date'], 'kind': kind, 'source_sha256': doc['source_sha256'],
+            'turnout': doc.get('turnout', {}),
             'absent_offices': doc.get('absent_offices', []), 'unresolved': doc.get('unresolved', []),
             'contests': [dict(c, contest_id=contest_id(doc['year'], c, kind),
                 reconciliation=reconcile_contest(c, doc['year'])) for c in doc['contests']]}

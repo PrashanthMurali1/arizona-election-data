@@ -3,6 +3,129 @@
   "date": "1946-11-05",
   "kind": "general",
   "source_sha256": "c003fcb0ed39c954f104fd9c4482c7cb3db6dfcfeae04bea00d80a72ff0d2a50",
+  "turnout": {
+    "04001": {
+      "ballots_cast": 2033,
+      "registered_voters": 3061,
+      "percent": 66.4,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1946.pdf"
+    },
+    "04003": {
+      "ballots_cast": 8724,
+      "registered_voters": 13605,
+      "percent": 65.5,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1946.pdf"
+    },
+    "04005": {
+      "ballots_cast": 3053,
+      "registered_voters": 5447,
+      "percent": 56.0,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1946.pdf"
+    },
+    "04007": {
+      "ballots_cast": 5950,
+      "registered_voters": 9755,
+      "percent": 60.9,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1946.pdf"
+    },
+    "04009": {
+      "ballots_cast": 3374,
+      "registered_voters": 4841,
+      "percent": 69.7,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1946.pdf"
+    },
+    "04011": {
+      "ballots_cast": 2197,
+      "registered_voters": 4455,
+      "percent": 47.3,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1946.pdf"
+    },
+    "04013": {
+      "ballots_cast": 54392,
+      "registered_voters": 84564,
+      "percent": 64.3,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1946.pdf"
+    },
+    "04015": {
+      "ballots_cast": 2306,
+      "registered_voters": 3827,
+      "percent": 60.2,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1946.pdf"
+    },
+    "04017": {
+      "ballots_cast": 3442,
+      "registered_voters": 5449,
+      "percent": 63.1,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1946.pdf"
+    },
+    "04019": {
+      "ballots_cast": 21646,
+      "registered_voters": 32429,
+      "percent": 63.6,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1946.pdf"
+    },
+    "04021": {
+      "ballots_cast": 4786,
+      "registered_voters": 7860,
+      "percent": 60.9,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1946.pdf"
+    },
+    "04023": {
+      "ballots_cast": 1855,
+      "registered_voters": 3253,
+      "percent": 57.0,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1946.pdf"
+    },
+    "04025": {
+      "ballots_cast": 7476,
+      "registered_voters": 11442,
+      "percent": 65.3,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1946.pdf"
+    },
+    "04027": {
+      "ballots_cast": 4823,
+      "registered_voters": 7820,
+      "percent": 61.6,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1946.pdf"
+    },
+    "04": {
+      "ballots_cast": 125987,
+      "registered_voters": 197808,
+      "percent": 63.7,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/early-canvasses/pdfs/1946.pdf",
+      "notes": "Printed county ballots_cast sum differs from printed statewide total by +70; preserve the official printed figures."
+    }
+  },
   "absent_offices": [
     "president",
     "state-house",
@@ -132,38 +255,118 @@
           "name": "Richard F. (Dick) Harless",
           "party": "DEM",
           "write_in": false,
-          "votes": 71836
+          "votes": 71836,
+          "county_votes": {
+            "04001": 1011,
+            "04003": 5667,
+            "04005": 1458,
+            "04007": 3467,
+            "04009": 1879,
+            "04011": 1428,
+            "04013": 31044,
+            "04015": 1156,
+            "04017": 1711,
+            "04019": 12802,
+            "04021": 2555,
+            "04023": 1140,
+            "04025": 3931,
+            "04027": 2587
+          }
         },
         {
           "name": "John R. Murdock",
           "party": "DEM",
           "write_in": false,
-          "votes": 74948
+          "votes": 74948,
+          "county_votes": {
+            "04001": 1140,
+            "04003": 6091,
+            "04005": 1648,
+            "04007": 3661,
+            "04009": 1810,
+            "04011": 1511,
+            "04013": 31764,
+            "04015": 1405,
+            "04017": 1845,
+            "04019": 13070,
+            "04021": 2681,
+            "04023": 1193,
+            "04025": 4133,
+            "04027": 2996
+          }
         },
         {
           "name": "Denver C. Henson",
           "party": "REP",
           "write_in": false,
-          "votes": 37033
+          "votes": 37033,
+          "county_votes": {
+            "04001": 380,
+            "04003": 1972,
+            "04005": 818,
+            "04007": 1326,
+            "04009": 740,
+            "04011": 327,
+            "04013": 18599,
+            "04015": 447,
+            "04017": 927,
+            "04019": 6588,
+            "04021": 1164,
+            "04023": 434,
+            "04025": 2181,
+            "04027": 1130
+          }
         },
         {
           "name": "John H. Curnutte",
           "party": "REP",
           "write_in": false,
-          "votes": 36185
+          "votes": 36185,
+          "county_votes": {
+            "04001": 387,
+            "04003": 1916,
+            "04005": 849,
+            "04007": 1361,
+            "04009": 682,
+            "04011": 312,
+            "04013": 17769,
+            "04015": 403,
+            "04017": 1142,
+            "04019": 6505,
+            "04021": 1166,
+            "04023": 434,
+            "04025": 2122,
+            "04027": 1137
+          }
         },
         {
           "name": "Karl M. Wilson",
           "party": "C",
           "write_in": false,
-          "votes": 831
+          "votes": 831,
+          "county_votes": {
+            "04001": 8,
+            "04003": 13,
+            "04005": 11,
+            "04007": 78,
+            "04009": 20,
+            "04011": 43,
+            "04013": 416,
+            "04015": 22,
+            "04017": 4,
+            "04019": 88,
+            "04021": 60,
+            "04023": 3,
+            "04025": 31,
+            "04027": 34
+          }
         }
       ],
       "notes": "Two elected, as printed.",
       "multi_seat": true,
       "contest_id": "az-1946-historical-us-house-district-at-large",
       "reconciliation": {
-        "status": "reported",
+        "status": "verified",
         "page": 1,
         "district": "at-large",
         "candidates": [
@@ -171,125 +374,50 @@
             "candidate": "Richard F. (Dick) Harless",
             "official_total": 71836,
             "official_statewide": 71836,
-            "county_sum": null,
-            "county_coverage": 0,
-            "missing_counties": [
-              "04001",
-              "04003",
-              "04005",
-              "04007",
-              "04009",
-              "04011",
-              "04013",
-              "04015",
-              "04017",
-              "04019",
-              "04021",
-              "04023",
-              "04025",
-              "04027"
-            ],
-            "difference": null
+            "county_sum": 71836,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
           },
           {
             "candidate": "John R. Murdock",
             "official_total": 74948,
             "official_statewide": 74948,
-            "county_sum": null,
-            "county_coverage": 0,
-            "missing_counties": [
-              "04001",
-              "04003",
-              "04005",
-              "04007",
-              "04009",
-              "04011",
-              "04013",
-              "04015",
-              "04017",
-              "04019",
-              "04021",
-              "04023",
-              "04025",
-              "04027"
-            ],
-            "difference": null
+            "county_sum": 74948,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
           },
           {
             "candidate": "Denver C. Henson",
             "official_total": 37033,
             "official_statewide": 37033,
-            "county_sum": null,
-            "county_coverage": 0,
-            "missing_counties": [
-              "04001",
-              "04003",
-              "04005",
-              "04007",
-              "04009",
-              "04011",
-              "04013",
-              "04015",
-              "04017",
-              "04019",
-              "04021",
-              "04023",
-              "04025",
-              "04027"
-            ],
-            "difference": null
+            "county_sum": 37033,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
           },
           {
             "candidate": "John H. Curnutte",
             "official_total": 36185,
             "official_statewide": 36185,
-            "county_sum": null,
-            "county_coverage": 0,
-            "missing_counties": [
-              "04001",
-              "04003",
-              "04005",
-              "04007",
-              "04009",
-              "04011",
-              "04013",
-              "04015",
-              "04017",
-              "04019",
-              "04021",
-              "04023",
-              "04025",
-              "04027"
-            ],
-            "difference": null
+            "county_sum": 36185,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
           },
           {
             "candidate": "Karl M. Wilson",
             "official_total": 831,
             "official_statewide": 831,
-            "county_sum": null,
-            "county_coverage": 0,
-            "missing_counties": [
-              "04001",
-              "04003",
-              "04005",
-              "04007",
-              "04009",
-              "04011",
-              "04013",
-              "04015",
-              "04017",
-              "04019",
-              "04021",
-              "04023",
-              "04025",
-              "04027"
-            ],
-            "difference": null
+            "county_sum": 831,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
           }
         ],
         "county_count": 14,
-        "coverage": "contest_totals",
+        "coverage": "county",
         "multi_seat": true,
         "result_basis": "candidate-votes",
         "notes": "Two elected, as printed."

@@ -22,94 +22,334 @@
           "name": "Wiley E. Jones",
           "party": "DEM",
           "write_in": false,
-          "votes": 10324
+          "votes": 10324,
+          "county_votes": {
+            "04001": 108,
+            "04005": 339,
+            "04003": 1973,
+            "04007": 779,
+            "04009": 540,
+            "04011": 652,
+            "04013": 2606,
+            "04015": 320,
+            "04017": 287,
+            "04019": 693,
+            "04021": 352,
+            "04023": 250,
+            "04025": 1001,
+            "04027": 424
+          }
         },
         {
           "name": "W. T. Webb",
           "party": "DEM",
           "write_in": false,
-          "votes": 10174
+          "votes": 10174,
+          "county_votes": {
+            "04001": 106,
+            "04005": 338,
+            "04003": 1947,
+            "04007": 774,
+            "04009": 534,
+            "04011": 587,
+            "04013": 2589,
+            "04015": 319,
+            "04017": 286,
+            "04019": 686,
+            "04021": 351,
+            "04023": 247,
+            "04025": 988,
+            "04027": 422
+          }
         },
         {
           "name": "John R. Hampton",
           "party": "DEM",
           "write_in": false,
-          "votes": 10130
+          "votes": 10130,
+          "county_votes": {
+            "04001": 102,
+            "04005": 337,
+            "04003": 1948,
+            "04007": 765,
+            "04009": 529,
+            "04011": 585,
+            "04013": 2579,
+            "04015": 318,
+            "04017": 281,
+            "04019": 683,
+            "04021": 351,
+            "04023": 245,
+            "04025": 986,
+            "04027": 421
+          }
         },
         {
           "name": "Fred S. Breen",
           "party": "REP",
           "write_in": false,
-          "votes": 2986
+          "votes": 2986,
+          "county_votes": {
+            "04001": 56,
+            "04005": 242,
+            "04003": 387,
+            "04007": 201,
+            "04009": 97,
+            "04011": 108,
+            "04013": 645,
+            "04015": 70,
+            "04017": 166,
+            "04019": 341,
+            "04021": 77,
+            "04023": 56,
+            "04025": 447,
+            "04027": 93
+          }
         },
         {
           "name": "Walter Talbot",
           "party": "REP",
           "write_in": false,
-          "votes": 2975
+          "votes": 2975,
+          "county_votes": {
+            "04001": 58,
+            "04005": 234,
+            "04003": 379,
+            "04007": 205,
+            "04009": 98,
+            "04011": 103,
+            "04013": 653,
+            "04015": 74,
+            "04017": 161,
+            "04019": 338,
+            "04021": 77,
+            "04023": 55,
+            "04025": 452,
+            "04027": 88
+          }
         },
         {
           "name": "Hoval A. Smith",
           "party": "REP",
           "write_in": false,
-          "votes": 3021
+          "votes": 3021,
+          "county_votes": {
+            "04001": 56,
+            "04005": 237,
+            "04003": 403,
+            "04007": 210,
+            "04009": 103,
+            "04011": 109,
+            "04013": 642,
+            "04015": 69,
+            "04017": 168,
+            "04019": 353,
+            "04021": 80,
+            "04023": 56,
+            "04025": 445,
+            "04027": 90
+          }
         },
         {
           "name": "E. S. Clark",
           "party": "Prog",
           "write_in": false,
-          "votes": 6949
+          "votes": 6949,
+          "county_votes": {
+            "04001": 79,
+            "04005": 178,
+            "04003": 1396,
+            "04007": 542,
+            "04009": 243,
+            "04011": 287,
+            "04013": 1818,
+            "04015": 228,
+            "04017": 233,
+            "04019": 615,
+            "04021": 311,
+            "04023": 123,
+            "04025": 537,
+            "04027": 359
+          }
         },
         {
           "name": "John C. Greenway",
           "party": "Prog",
           "write_in": false,
-          "votes": 6879
+          "votes": 6879,
+          "county_votes": {
+            "04001": 79,
+            "04005": 172,
+            "04003": 1405,
+            "04007": 531,
+            "04009": 242,
+            "04011": 268,
+            "04013": 1800,
+            "04015": 220,
+            "04017": 229,
+            "04019": 620,
+            "04021": 306,
+            "04023": 125,
+            "04025": 524,
+            "04027": 358
+          }
         },
         {
           "name": "Dwight B. Heard",
           "party": "Prog",
           "write_in": false,
-          "votes": 6873
+          "votes": 6873,
+          "county_votes": {
+            "04001": 79,
+            "04005": 173,
+            "04003": 1383,
+            "04007": 534,
+            "04009": 241,
+            "04011": 268,
+            "04013": 1825,
+            "04015": 222,
+            "04017": 227,
+            "04019": 611,
+            "04021": 310,
+            "04023": 124,
+            "04025": 518,
+            "04027": 358
+          }
         },
         {
           "name": "J. L. Brooks",
           "party": "Soc",
           "write_in": false,
-          "votes": 3163
+          "votes": 3163,
+          "county_votes": {
+            "04001": 10,
+            "04005": 96,
+            "04003": 819,
+            "04007": 501,
+            "04009": 164,
+            "04011": 122,
+            "04013": 472,
+            "04015": 184,
+            "04017": 40,
+            "04019": 109,
+            "04021": 61,
+            "04023": 38,
+            "04025": 358,
+            "04027": 189
+          }
         },
         {
           "name": "E. B. Simonton",
           "party": "Soc",
           "write_in": false,
-          "votes": 3139
+          "votes": 3139,
+          "county_votes": {
+            "04001": 10,
+            "04005": 96,
+            "04003": 815,
+            "04007": 505,
+            "04009": 163,
+            "04011": 111,
+            "04013": 466,
+            "04015": 188,
+            "04017": 40,
+            "04019": 107,
+            "04021": 61,
+            "04023": 37,
+            "04025": 355,
+            "04027": 186
+          }
         },
         {
           "name": "Paul E. White",
           "party": "Soc",
           "write_in": false,
-          "votes": 3132
+          "votes": 3132,
+          "county_votes": {
+            "04001": 10,
+            "04005": 95,
+            "04003": 812,
+            "04007": 504,
+            "04009": 162,
+            "04011": 111,
+            "04013": 466,
+            "04015": 185,
+            "04017": 40,
+            "04019": 108,
+            "04021": 60,
+            "04023": 39,
+            "04025": 354,
+            "04027": 186
+          }
         },
         {
           "name": "Thos. F. Wilson",
           "party": "Pro",
           "write_in": false,
-          "votes": 265
+          "votes": 265,
+          "county_votes": {
+            "04001": 2,
+            "04005": 5,
+            "04003": 28,
+            "04007": 13,
+            "04009": 7,
+            "04011": 4,
+            "04013": 131,
+            "04015": 5,
+            "04017": 7,
+            "04019": 34,
+            "04021": 1,
+            "04023": 2,
+            "04025": 21,
+            "04027": 5
+          }
         },
         {
           "name": "J. Stanley Howard",
           "party": "Pro",
           "write_in": false,
-          "votes": 221
+          "votes": 221,
+          "county_votes": {
+            "04001": 1,
+            "04005": 3,
+            "04003": 20,
+            "04007": 9,
+            "04009": 5,
+            "04011": 2,
+            "04013": 122,
+            "04015": 4,
+            "04017": 6,
+            "04019": 23,
+            "04021": 1,
+            "04023": 1,
+            "04025": 19,
+            "04027": 5
+          }
         },
         {
           "name": "Roy E. Sibley",
           "party": "Pro",
           "write_in": false,
-          "votes": 219
+          "votes": 219,
+          "county_votes": {
+            "04001": 1,
+            "04005": 3,
+            "04003": 20,
+            "04007": 9,
+            "04009": 5,
+            "04011": 2,
+            "04013": 119,
+            "04015": 4,
+            "04017": 5,
+            "04019": 25,
+            "04021": 1,
+            "04023": 1,
+            "04025": 19,
+            "04027": 5
+          }
         }
       ],
-      "notes": "Presidential elector votes: each named elector has a separately printed total. These are elector selections, not aggregated presidential ticket votes; totals across electors must not be pooled.",
+      "notes": "Presidential elector votes: each named elector has a separately printed total. These are elector selections, not aggregated presidential ticket votes; totals across electors must not be pooled. Printed county sum for E. B. Simonton is 3,140 against the printed statewide total 3,139; the source values are retained.",
       "multi_seat": true
     },
     {
@@ -121,35 +361,222 @@
           "name": "Carl Hayden",
           "party": "DEM",
           "write_in": false,
-          "votes": 11389
+          "votes": 11389,
+          "county_votes": {
+            "04001": 134,
+            "04005": 377,
+            "04003": 2109,
+            "04007": 862,
+            "04009": 567,
+            "04011": 670,
+            "04013": 3023,
+            "04015": 361,
+            "04017": 328,
+            "04019": 771,
+            "04021": 408,
+            "04023": 271,
+            "04025": 996,
+            "04027": 512
+          }
         },
         {
           "name": "Thos. E. Campbell",
           "party": "REP",
           "write_in": false,
-          "votes": 3110
+          "votes": 3110,
+          "county_votes": {
+            "04001": 54,
+            "04005": 229,
+            "04003": 377,
+            "04007": 198,
+            "04009": 99,
+            "04011": 111,
+            "04013": 598,
+            "04015": 69,
+            "04017": 158,
+            "04019": 331,
+            "04021": 71,
+            "04023": 60,
+            "04025": 662,
+            "04027": 93
+          }
         },
         {
           "name": "Robt. S. Fisher",
           "party": "Prog",
           "write_in": false,
-          "votes": 5819
+          "votes": 5819,
+          "county_votes": {
+            "04001": 56,
+            "04005": 156,
+            "04003": 1261,
+            "04007": 431,
+            "04009": 213,
+            "04011": 267,
+            "04013": 1489,
+            "04015": 186,
+            "04017": 189,
+            "04019": 565,
+            "04021": 246,
+            "04023": 100,
+            "04025": 380,
+            "04027": 281
+          }
         },
         {
           "name": "A. Chas. Smith",
           "party": "Soc",
           "write_in": false,
-          "votes": 3034
+          "votes": 3034,
+          "county_votes": {
+            "04001": 8,
+            "04005": 87,
+            "04003": 766,
+            "04007": 480,
+            "04009": 164,
+            "04011": 206,
+            "04013": 440,
+            "04015": 183,
+            "04017": 36,
+            "04019": 91,
+            "04021": 57,
+            "04023": 34,
+            "04025": 323,
+            "04027": 159
+          }
         },
         {
           "name": "O. Gibson",
           "party": "Pro",
           "write_in": false,
-          "votes": 193
+          "votes": 193,
+          "county_votes": {
+            "04001": 1,
+            "04005": 3,
+            "04003": 20,
+            "04007": 8,
+            "04009": 5,
+            "04011": 3,
+            "04013": 105,
+            "04015": 6,
+            "04017": 4,
+            "04019": 18,
+            "04021": 3,
+            "04023": 1,
+            "04025": 14,
+            "04027": 2
+          }
         }
       ],
-      "notes": "The certified candidate returns in this source cover presidential electors and Representative in Congress only. Remaining requested offices are not printed in this supplied return."
+      "notes": "The certified candidate returns in this source cover presidential electors and Representative in Congress only. Remaining requested offices are not printed in this supplied return. Printed county sum for Robt. S. Fisher is 5,820 against the printed statewide total 5,819; the source values are retained."
     }
   ],
-  "unresolved": []
+  "unresolved": [],
+  "turnout": {
+    "04001": {
+      "ballots_cast": null,
+      "registered_voters": 382,
+      "percent": null,
+      "definition": "Official registration of voters for 1912 as printed on page 5. No ballots cast or turnout percentage is provided.",
+      "page": 5
+    },
+    "04003": {
+      "ballots_cast": null,
+      "registered_voters": 5834,
+      "percent": null,
+      "definition": "Official registration of voters for 1912 as printed on page 5. No ballots cast or turnout percentage is provided.",
+      "page": 5
+    },
+    "04005": {
+      "ballots_cast": null,
+      "registered_voters": 1218,
+      "percent": null,
+      "definition": "Official registration of voters for 1912 as printed on page 5. No ballots cast or turnout percentage is provided.",
+      "page": 5
+    },
+    "04007": {
+      "ballots_cast": null,
+      "registered_voters": 2585,
+      "percent": null,
+      "definition": "Official registration of voters for 1912 as printed on page 5. No ballots cast or turnout percentage is provided.",
+      "page": 5
+    },
+    "04009": {
+      "ballots_cast": null,
+      "registered_voters": 1172,
+      "percent": null,
+      "definition": "Official registration of voters for 1912 as printed on page 5. No ballots cast or turnout percentage is provided.",
+      "page": 5
+    },
+    "04011": {
+      "ballots_cast": null,
+      "registered_voters": 1432,
+      "percent": null,
+      "definition": "Official registration of voters for 1912 as printed on page 5. No ballots cast or turnout percentage is provided.",
+      "page": 5
+    },
+    "04013": {
+      "ballots_cast": null,
+      "registered_voters": 6494,
+      "percent": null,
+      "definition": "Official registration of voters for 1912 as printed on page 5. No ballots cast or turnout percentage is provided.",
+      "page": 5
+    },
+    "04015": {
+      "ballots_cast": null,
+      "registered_voters": 1096,
+      "percent": null,
+      "definition": "Official registration of voters for 1912 as printed on page 5. No ballots cast or turnout percentage is provided.",
+      "page": 5
+    },
+    "04017": {
+      "ballots_cast": null,
+      "registered_voters": 926,
+      "percent": null,
+      "definition": "Official registration of voters for 1912 as printed on page 5. No ballots cast or turnout percentage is provided.",
+      "page": 5
+    },
+    "04019": {
+      "ballots_cast": null,
+      "registered_voters": 2463,
+      "percent": null,
+      "definition": "Official registration of voters for 1912 as printed on page 5. No ballots cast or turnout percentage is provided.",
+      "page": 5
+    },
+    "04021": {
+      "ballots_cast": null,
+      "registered_voters": 836,
+      "percent": null,
+      "definition": "Official registration of voters for 1912 as printed on page 5. No ballots cast or turnout percentage is provided.",
+      "page": 5
+    },
+    "04023": {
+      "ballots_cast": null,
+      "registered_voters": 355,
+      "percent": null,
+      "definition": "Official registration of voters for 1912 as printed on page 5. No ballots cast or turnout percentage is provided.",
+      "page": 5
+    },
+    "04025": {
+      "ballots_cast": null,
+      "registered_voters": 3205,
+      "percent": null,
+      "definition": "Official registration of voters for 1912 as printed on page 5. No ballots cast or turnout percentage is provided.",
+      "page": 5
+    },
+    "04027": {
+      "ballots_cast": null,
+      "registered_voters": 1306,
+      "percent": null,
+      "definition": "Official registration of voters for 1912 as printed on page 5. No ballots cast or turnout percentage is provided.",
+      "page": 5
+    },
+    "04": {
+      "ballots_cast": null,
+      "registered_voters": 29304,
+      "percent": null,
+      "definition": "Official registration of voters for 1912 as printed on page 5. No ballots cast or turnout percentage is provided.",
+      "page": 5
+    }
+  }
 }

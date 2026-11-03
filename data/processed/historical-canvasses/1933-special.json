@@ -3,6 +3,7 @@
   "date": "1933-10-03",
   "kind": "special",
   "source_sha256": "374c7dc4349bfec2ba3b758eeaa9152947734a41ce3f83fa29e1d91fe7cd1fdc",
+  "turnout": {},
   "absent_offices": [
     "president",
     "us-senate",

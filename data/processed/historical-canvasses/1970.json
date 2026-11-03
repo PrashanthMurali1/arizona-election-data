@@ -3,6 +3,128 @@
   "date": "1970-11-03",
   "kind": "general",
   "source_sha256": "f3f0ca16ffd030672d7868c6b8da9034a33d616b03f65d6a2fd232d9a3c9cb63",
+  "turnout": {
+    "04001": {
+      "ballots_cast": 3620,
+      "registered_voters": 6382,
+      "percent": 56.72,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1970ge.pdf"
+    },
+    "04003": {
+      "ballots_cast": 14204,
+      "registered_voters": 19963,
+      "percent": 71.16,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1970ge.pdf"
+    },
+    "04005": {
+      "ballots_cast": 9037,
+      "registered_voters": 13768,
+      "percent": 65.64,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1970ge.pdf"
+    },
+    "04007": {
+      "ballots_cast": 8127,
+      "registered_voters": 11687,
+      "percent": 69.53,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1970ge.pdf"
+    },
+    "04009": {
+      "ballots_cast": 4531,
+      "registered_voters": 6308,
+      "percent": 71.82,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1970ge.pdf"
+    },
+    "04011": {
+      "ballots_cast": 3179,
+      "registered_voters": 4270,
+      "percent": 74.44,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1970ge.pdf"
+    },
+    "04013": {
+      "ballots_cast": 234246,
+      "registered_voters": 349236,
+      "percent": 67.08,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1970ge.pdf"
+    },
+    "04015": {
+      "ballots_cast": 5598,
+      "registered_voters": 8720,
+      "percent": 57.59,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1970ge.pdf"
+    },
+    "04017": {
+      "ballots_cast": 7925,
+      "registered_voters": 11656,
+      "percent": 68.0,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1970ge.pdf"
+    },
+    "04019": {
+      "ballots_cast": 90132,
+      "registered_voters": 126313,
+      "percent": 71.36,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1970ge.pdf"
+    },
+    "04021": {
+      "ballots_cast": 14088,
+      "registered_voters": 20752,
+      "percent": 67.89,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1970ge.pdf"
+    },
+    "04023": {
+      "ballots_cast": 3022,
+      "registered_voters": 4357,
+      "percent": 69.36,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1970ge.pdf"
+    },
+    "04025": {
+      "ballots_cast": 11436,
+      "registered_voters": 16846,
+      "percent": 67.88,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1970ge.pdf"
+    },
+    "04027": {
+      "ballots_cast": 11484,
+      "registered_voters": 18193,
+      "percent": 63.12,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1970ge.pdf"
+    },
+    "04": {
+      "ballots_cast": 420629,
+      "registered_voters": 618451,
+      "percent": 68.01,
+      "definition": "Official total ballots cast (all contests); registered voters and percentage as printed.",
+      "page": 1,
+      "source_path": "data/raw/governor-historical/pdfs/canvass1970ge.pdf"
+    }
+  },
   "absent_offices": [
     "president"
   ],

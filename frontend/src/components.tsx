@@ -83,6 +83,12 @@ export function CandidateRow({
 export function CandidateSummary({ results }: { results: Results }) {
   return (
     <div className="candidate-summary">
+      {results.partial && (
+        <p className="footnote">
+          Shares use the reported candidate votes. Some source entries are not
+          allocated to this county.
+        </p>
+      )}
       {results.candidates.length ? (
         results.candidates.map((c) => <CandidateRow key={c.id} candidate={c} />)
       ) : (

@@ -21,19 +21,67 @@
           "name": "Carl Hayden",
           "party": "DEM",
           "write_in": false,
-          "votes": 26805
+          "votes": 26805,
+          "county_votes": {
+            "04001": 481,
+            "04003": 4656,
+            "04005": 950,
+            "04007": 3091,
+            "04009": 1337,
+            "04011": 1182,
+            "04013": 6567,
+            "04015": 887,
+            "04017": 839,
+            "04019": 1592,
+            "04021": 1219,
+            "04023": 703,
+            "04025": 2310,
+            "04027": 991
+          }
         },
         {
           "name": "Thos. Maddock",
           "party": "REP",
           "write_in": false,
-          "votes": 16822
+          "votes": 16822,
+          "county_votes": {
+            "04001": 243,
+            "04003": 2864,
+            "04005": 730,
+            "04007": 1093,
+            "04009": 400,
+            "04011": 465,
+            "04013": 5157,
+            "04015": 390,
+            "04017": 446,
+            "04019": 1582,
+            "04021": 707,
+            "04023": 461,
+            "04025": 1809,
+            "04027": 475
+          }
         },
         {
           "name": "Peter T. Robertson",
           "party": "S",
           "write_in": false,
-          "votes": 754
+          "votes": 754,
+          "county_votes": {
+            "04001": 1,
+            "04003": 156,
+            "04005": 25,
+            "04007": 61,
+            "04009": 15,
+            "04011": 14,
+            "04013": 175,
+            "04015": 44,
+            "04017": 13,
+            "04019": 37,
+            "04021": 18,
+            "04023": 8,
+            "04025": 94,
+            "04027": 93
+          }
         }
       ],
       "notes": "No U.S. Senate, Attorney General or legislative candidate tables are included in the supplied five-page return."
@@ -50,7 +98,7 @@
           "votes": 25588,
           "county_votes": {
             "04001": 528,
-            "04003": 4898,
+            "04003": 4893,
             "04005": 867,
             "04007": 2876,
             "04009": 1252,
@@ -91,12 +139,12 @@
           "name": "Geo. D. Smith",
           "party": "S",
           "write_in": false,
-          "votes": 442,
+          "votes": 444,
           "county_votes": {
             "04001": 0,
             "04003": 57,
             "04005": 21,
-            "04007": 21,
+            "04007": 24,
             "04009": 11,
             "04011": 15,
             "04013": 138,
@@ -109,7 +157,8 @@
             "04027": 45
           }
         }
-      ]
+      ],
+      "notes": "County cells and printed totals are retained as shown on source page 1. Colter county sum 25,583 differs from printed total 25,588; Smith county sum 446 differs from printed total 444. No adjustment is inferred to reconcile the source."
     },
     {
       "office_id": "secretary-of-state",
@@ -144,7 +193,7 @@
           "write_in": false,
           "votes": 16660,
           "county_votes": {
-            "04001": 258,
+            "04001": 250,
             "04003": 2322,
             "04005": 643,
             "04007": 1010,
@@ -167,7 +216,7 @@
           "votes": 1205,
           "county_votes": {
             "04001": 7,
-            "04003": 173,
+            "04003": 176,
             "04005": 45,
             "04007": 111,
             "04009": 13,
@@ -176,13 +225,14 @@
             "04015": 85,
             "04017": 53,
             "04019": 87,
-            "04021": 15,
+            "04021": 45,
             "04023": 11,
             "04025": 214,
             "04027": 102
           }
         }
-      ]
+      ],
+      "notes": "County cells and printed totals are retained as shown on source page 1. Harry Kay county sum 16,652 differs from printed total 16,660; Alice S. Eddy county sum 1,220 differs from printed total 1,205. No adjustment is inferred to reconcile the source."
     }
   ],
   "unresolved": [
@@ -200,5 +250,112 @@
       "field": "county_reconciliation",
       "reason": "Transcribed visible county cells sum 1187; printed total is 1205. Source is degraded; figures need further source review, no adjustment inferred."
     }
-  ]
+  ],
+  "turnout": {
+    "04001": {
+      "ballots_cast": null,
+      "registered_voters": 807,
+      "percent": null,
+      "definition": "Official registration of voters for 1918, as printed. The source does not provide ballots cast or a turnout percentage. Apache registration is printed as 807 even though candidate votes exceed that figure; no correction is inferred.",
+      "page": 5
+    },
+    "04003": {
+      "ballots_cast": null,
+      "registered_voters": 13766,
+      "percent": null,
+      "definition": "Official registration of voters for 1918, as printed. The source does not provide ballots cast or a turnout percentage. Apache registration is printed as 807 even though candidate votes exceed that figure; no correction is inferred.",
+      "page": 5
+    },
+    "04005": {
+      "ballots_cast": null,
+      "registered_voters": 2785,
+      "percent": null,
+      "definition": "Official registration of voters for 1918, as printed. The source does not provide ballots cast or a turnout percentage. Apache registration is printed as 807 even though candidate votes exceed that figure; no correction is inferred.",
+      "page": 5
+    },
+    "04007": {
+      "ballots_cast": null,
+      "registered_voters": 8021,
+      "percent": null,
+      "definition": "Official registration of voters for 1918, as printed. The source does not provide ballots cast or a turnout percentage. Apache registration is printed as 807 even though candidate votes exceed that figure; no correction is inferred.",
+      "page": 5
+    },
+    "04009": {
+      "ballots_cast": null,
+      "registered_voters": 2877,
+      "percent": null,
+      "definition": "Official registration of voters for 1918, as printed. The source does not provide ballots cast or a turnout percentage. Apache registration is printed as 807 even though candidate votes exceed that figure; no correction is inferred.",
+      "page": 5
+    },
+    "04011": {
+      "ballots_cast": null,
+      "registered_voters": 2835,
+      "percent": null,
+      "definition": "Official registration of voters for 1918, as printed. The source does not provide ballots cast or a turnout percentage. Apache registration is printed as 807 even though candidate votes exceed that figure; no correction is inferred.",
+      "page": 5
+    },
+    "04013": {
+      "ballots_cast": null,
+      "registered_voters": 19940,
+      "percent": null,
+      "definition": "Official registration of voters for 1918, as printed. The source does not provide ballots cast or a turnout percentage. Apache registration is printed as 807 even though candidate votes exceed that figure; no correction is inferred.",
+      "page": 5
+    },
+    "04015": {
+      "ballots_cast": null,
+      "registered_voters": 2333,
+      "percent": null,
+      "definition": "Official registration of voters for 1918, as printed. The source does not provide ballots cast or a turnout percentage. Apache registration is printed as 807 even though candidate votes exceed that figure; no correction is inferred.",
+      "page": 5
+    },
+    "04017": {
+      "ballots_cast": null,
+      "registered_voters": 2381,
+      "percent": null,
+      "definition": "Official registration of voters for 1918, as printed. The source does not provide ballots cast or a turnout percentage. Apache registration is printed as 807 even though candidate votes exceed that figure; no correction is inferred.",
+      "page": 5
+    },
+    "04019": {
+      "ballots_cast": null,
+      "registered_voters": 7091,
+      "percent": null,
+      "definition": "Official registration of voters for 1918, as printed. The source does not provide ballots cast or a turnout percentage. Apache registration is printed as 807 even though candidate votes exceed that figure; no correction is inferred.",
+      "page": 5
+    },
+    "04021": {
+      "ballots_cast": null,
+      "registered_voters": 3091,
+      "percent": null,
+      "definition": "Official registration of voters for 1918, as printed. The source does not provide ballots cast or a turnout percentage. Apache registration is printed as 807 even though candidate votes exceed that figure; no correction is inferred.",
+      "page": 5
+    },
+    "04023": {
+      "ballots_cast": null,
+      "registered_voters": 1556,
+      "percent": null,
+      "definition": "Official registration of voters for 1918, as printed. The source does not provide ballots cast or a turnout percentage. Apache registration is printed as 807 even though candidate votes exceed that figure; no correction is inferred.",
+      "page": 5
+    },
+    "04025": {
+      "ballots_cast": null,
+      "registered_voters": 8737,
+      "percent": null,
+      "definition": "Official registration of voters for 1918, as printed. The source does not provide ballots cast or a turnout percentage. Apache registration is printed as 807 even though candidate votes exceed that figure; no correction is inferred.",
+      "page": 5
+    },
+    "04027": {
+      "ballots_cast": null,
+      "registered_voters": 3137,
+      "percent": null,
+      "definition": "Official registration of voters for 1918, as printed. The source does not provide ballots cast or a turnout percentage. Apache registration is printed as 807 even though candidate votes exceed that figure; no correction is inferred.",
+      "page": 5
+    },
+    "04": {
+      "ballots_cast": null,
+      "registered_voters": 79357,
+      "percent": null,
+      "definition": "Official registration of voters for 1918, as printed. The source does not provide ballots cast or a turnout percentage. Apache registration is printed as 807 even though candidate votes exceed that figure; no correction is inferred.",
+      "page": 5
+    }
+  }
 }

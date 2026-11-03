@@ -36,7 +36,7 @@ from .schemas import (
     HistoricalOverviewOut,
 )
 from .http_cache import BrowserCacheRoute
-from . import house, historical
+from . import house, historical, presidential
 from . import early_vote_updates
 from .lifecycle import activity, CONTEST, AG_CONTEST
 from .services import metadata, results
@@ -168,6 +168,8 @@ def sitemap(s: DB):
     response_model=HistoricalOverviewOut | HouseOverviewOut | HouseDistrictDetailOut | DetailOut,
 )
 def election(id: str, s: DB):
+    if presidential.is_archive(id):
+        return presidential.detail(s,id)
     if '-historical-' in id and '-district-' not in id:
         return historical.overview(s, id)
     if house.is_overview(id):
@@ -220,6 +222,8 @@ def election(id: str, s: DB):
 
 @app.get("/api/elections/{id}/statewide", response_model=ResultsOut)
 def statewide(id: str, s: DB):
+    if presidential.is_archive(id):
+        return presidential.detail(s,id).statewide
     c = contest(s, id)
     if c.office_id == "us-house":
         raise HTTPException(
@@ -231,6 +235,8 @@ def statewide(id: str, s: DB):
 
 @app.get("/api/elections/{id}/counties", response_model=list[ResultsOut])
 def counties(id: str, s: DB):
+    if presidential.is_archive(id):
+        return presidential.counties(s,id)
     c = contest(s, id)
     units = s.scalars(
         select(GeographicUnit)
@@ -245,6 +251,12 @@ def counties(id: str, s: DB):
 
 @app.get("/api/elections/{id}/counties/{geoid}", response_model=ResultsOut)
 def county(id: str, geoid: str, s: DB):
+    if presidential.is_archive(id):
+        values = presidential.counties(s,id)
+        value = next((v for v in values if v.geoid == geoid),None)
+        if value is None:
+            raise HTTPException(404,'County not found')
+        return value
     c = contest(s, id)
     u = s.scalar(
         select(GeographicUnit)
@@ -262,6 +274,8 @@ def county(id: str, geoid: str, s: DB):
 
 @app.get("/api/elections/{id}/sources", response_model=list[SourceOut])
 def sources(id: str, s: DB):
+    if presidential.is_archive(id):
+        return presidential.detail(s,id).sources
     if '-historical-' in id and '-district-' not in id:
         return historical.overview(s, id)['sources']
     if house.is_overview(id):
@@ -274,6 +288,9 @@ def sources(id: str, s: DB):
 
 @app.get("/api/elections/{id}/activity", response_model=EarlyVotingActivityOut | ActivityOut | None)
 def election_activity(id: str, s: DB):
+    if presidential.is_archive(id):
+        presidential.context(s,id)
+        return None
     if house.is_overview(id):
         house.resolve(s, id)
         return None

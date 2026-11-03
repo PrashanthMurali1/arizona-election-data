@@ -20,11 +20,11 @@ def archive_id(event, office):
 
 def entry(session, event, office, contests):
     return dict(id=archive_id(event, office), year=event.year, date=event.date,
-        office_id=office, office='Territorial delegate to Congress' if office == 'us-house' and event.year < 1911 else session.get(Office, office).name, kind=event.kind,
+        office_id=office, office='President' if office == 'president' else 'Territorial delegate to Congress' if office == 'us-house' and event.year < 1911 else session.get(Office, office).name, kind=event.kind,
         status='reported' if all(c.status in {'verified', 'reported'} for c in contests) else 'incomplete',
         notes='Official historical canvass. District results are separate contests; historical district maps are unavailable.',
-        county_count=0, candidate_count=session.scalar(select(func.count()).select_from(Participation).where(Participation.contest_id.in_([c.id for c in contests]))),
-        boundary_id=contests[0].boundary_id, district_count=len(contests),
+        county_count=14 if office == 'president' else 0, candidate_count=session.scalar(select(func.count(func.distinct(Participation.party_id)) if office == 'president' else func.count()).select_from(Participation).where(Participation.contest_id.in_([c.id for c in contests]), *([Participation.write_in == False] if office == 'president' else []))),
+        boundary_id='county-1966-1982' if office == 'president' else contests[0].boundary_id, district_count=len(contests),
         selection_label=f'{event.year} {event.kind.title()}', district_label=None)
 
 

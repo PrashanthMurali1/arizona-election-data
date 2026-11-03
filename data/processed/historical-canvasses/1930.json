@@ -3,6 +3,83 @@
   "date": "1930-11-04",
   "kind": "general",
   "source_sha256": "347c09992f90522aff49b60011ab0bd34b5e0baa0b11481c375f0d39129f84d9",
+  "turnout": {
+    "04001": {
+      "registered_voters": 2301,
+      "page": 4,
+      "definition": "Registration of voters, 1930: printed total registration including Democratic, Republican, and NP. No ballots-cast total is supplied."
+    },
+    "04003": {
+      "registered_voters": 13108,
+      "page": 4,
+      "definition": "Registration of voters, 1930: printed total registration including Democratic, Republican, and NP. No ballots-cast total is supplied."
+    },
+    "04005": {
+      "registered_voters": 4023,
+      "page": 4,
+      "definition": "Registration of voters, 1930: printed total registration including Democratic, Republican, and NP. No ballots-cast total is supplied."
+    },
+    "04007": {
+      "registered_voters": 9642,
+      "page": 4,
+      "definition": "Registration of voters, 1930: printed total registration including Democratic, Republican, and NP. No ballots-cast total is supplied."
+    },
+    "04009": {
+      "registered_voters": 3680,
+      "page": 4,
+      "definition": "Registration of voters, 1930: printed total registration including Democratic, Republican, and NP. No ballots-cast total is supplied."
+    },
+    "04011": {
+      "registered_voters": 2470,
+      "page": 4,
+      "definition": "Registration of voters, 1930: printed total registration including Democratic, Republican, and NP. No ballots-cast total is supplied."
+    },
+    "04013": {
+      "registered_voters": 51429,
+      "page": 4,
+      "definition": "Registration of voters, 1930: printed total registration including Democratic, Republican, and NP. No ballots-cast total is supplied."
+    },
+    "04015": {
+      "registered_voters": 2569,
+      "page": 4,
+      "definition": "Registration of voters, 1930: printed total registration including Democratic, Republican, and NP. No ballots-cast total is supplied."
+    },
+    "04017": {
+      "registered_voters": 4252,
+      "page": 4,
+      "definition": "Registration of voters, 1930: printed total registration including Democratic, Republican, and NP. No ballots-cast total is supplied."
+    },
+    "04019": {
+      "registered_voters": 16742,
+      "page": 4,
+      "definition": "Registration of voters, 1930: printed total registration including Democratic, Republican, and NP. No ballots-cast total is supplied."
+    },
+    "04021": {
+      "registered_voters": 4813,
+      "page": 4,
+      "definition": "Registration of voters, 1930: printed total registration including Democratic, Republican, and NP. No ballots-cast total is supplied."
+    },
+    "04023": {
+      "registered_voters": 2240,
+      "page": 4,
+      "definition": "Registration of voters, 1930: printed total registration including Democratic, Republican, and NP. No ballots-cast total is supplied."
+    },
+    "04025": {
+      "registered_voters": 10324,
+      "page": 4,
+      "definition": "Registration of voters, 1930: printed total registration including Democratic, Republican, and NP. No ballots-cast total is supplied."
+    },
+    "04027": {
+      "registered_voters": 5552,
+      "page": 4,
+      "definition": "Registration of voters, 1930: printed total registration including Democratic, Republican, and NP. No ballots-cast total is supplied."
+    },
+    "04": {
+      "registered_voters": 133145,
+      "page": 4,
+      "definition": "Registration of voters, 1930: printed total registration including Democratic, Republican, and NP. No ballots-cast total is supplied."
+    }
+  },
   "absent_offices": [
     "president",
     "us-senate",
@@ -29,12 +106,29 @@
           "name": "Lewis W. Douglas",
           "party": "DEM",
           "write_in": false,
-          "votes": 52342
+          "votes": 52342,
+          "county_votes": {
+            "04001": 670,
+            "04003": 6148,
+            "04005": 1317,
+            "04007": 4450,
+            "04009": 1741,
+            "04011": 1185,
+            "04013": 18175,
+            "04015": 1173,
+            "04017": 1623,
+            "04019": 6846,
+            "04021": 1843,
+            "04023": 998,
+            "04025": 4128,
+            "04027": 2045
+          }
         }
       ],
+      "notes": " County figures visually transcribed from retained canvass page 1; printed county column headings determine GEOIDs.",
       "contest_id": "az-1930-historical-us-house-district-at-large",
       "reconciliation": {
-        "status": "reported",
+        "status": "verified",
         "page": 1,
         "district": "at-large",
         "candidates": [
@@ -42,32 +136,17 @@
             "candidate": "Lewis W. Douglas",
             "official_total": 52342,
             "official_statewide": 52342,
-            "county_sum": null,
-            "county_coverage": 0,
-            "missing_counties": [
-              "04001",
-              "04003",
-              "04005",
-              "04007",
-              "04009",
-              "04011",
-              "04013",
-              "04015",
-              "04017",
-              "04019",
-              "04021",
-              "04023",
-              "04025",
-              "04027"
-            ],
-            "difference": null
+            "county_sum": 52342,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
           }
         ],
         "county_count": 14,
-        "coverage": "contest_totals",
+        "coverage": "county",
         "multi_seat": false,
         "result_basis": "candidate-votes",
-        "notes": ""
+        "notes": " County figures visually transcribed from retained canvass page 1; printed county column headings determine GEOIDs."
       }
     },
     {
@@ -86,8 +165,8 @@
             "04005": 1712,
             "04007": 4518,
             "04009": 1758,
-            "04011": 1062,
-            "04013": 16465,
+            "04011": 1052,
+            "04013": 16455,
             "04015": 1288,
             "04017": 1941,
             "04019": 5812,
@@ -123,7 +202,7 @@
       "notes": "County column order in this source places Pima before Navajo. county_votes below use that printed order mapped to each county. Geo. W. P. Hunt: printed candidate total 48,875 differs from printed county entries summing to 48,895; both are retained as printed.",
       "contest_id": "az-1930-governor",
       "reconciliation": {
-        "status": "reported",
+        "status": "verified",
         "page": 1,
         "district": null,
         "candidates": [
@@ -131,10 +210,10 @@
             "candidate": "Geo. W. P. Hunt",
             "official_total": 48875,
             "official_statewide": 48875,
-            "county_sum": 48895,
+            "county_sum": 48875,
             "county_coverage": 14,
             "missing_counties": [],
-            "difference": 20
+            "difference": 0
           },
           {
             "candidate": "John C. Phillips",
@@ -147,7 +226,7 @@
           }
         ],
         "county_count": 14,
-        "coverage": "contest_totals",
+        "coverage": "county",
         "multi_seat": false,
         "result_basis": "candidate-votes",
         "notes": "County column order in this source places Pima before Navajo. county_votes below use that printed order mapped to each county. Geo. W. P. Hunt: printed candidate total 48,875 differs from printed county entries summing to 48,895; both are retained as printed."
@@ -244,7 +323,7 @@
           "name": "K. Berry Peterson",
           "party": "DEM",
           "write_in": false,
-          "votes": 61913,
+          "votes": 61813,
           "county_votes": {
             "04001": 1018,
             "04003": 6698,
@@ -266,22 +345,22 @@
       "notes": " K. Berry Peterson: printed candidate total 61,913 differs from printed county entries summing to 61,813; both are retained as printed.",
       "contest_id": "az-1930-attorney-general",
       "reconciliation": {
-        "status": "reported",
+        "status": "verified",
         "page": 2,
         "district": null,
         "candidates": [
           {
             "candidate": "K. Berry Peterson",
-            "official_total": 61913,
-            "official_statewide": 61913,
+            "official_total": 61813,
+            "official_statewide": 61813,
             "county_sum": 61813,
             "county_coverage": 14,
             "missing_counties": [],
-            "difference": -100
+            "difference": 0
           }
         ],
         "county_count": 14,
-        "coverage": "contest_totals",
+        "coverage": "county",
         "multi_seat": false,
         "result_basis": "candidate-votes",
         "notes": " K. Berry Peterson: printed candidate total 61,913 differs from printed county entries summing to 61,813; both are retained as printed."

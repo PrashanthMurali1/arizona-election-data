@@ -128,87 +128,80 @@ test("new office sections and map-free historical district navigation", async ({
   expect(geographyRequests).toEqual([]);
 });
 
-test("presidential electors use their matching source and special label", async ({
+test("presidential candidates and early county maps are shown", async ({
   page,
 }) => {
-  const elector = {
+  const president = {
     ...election,
-    id: "az-1933-historical-president-special",
-    year: 1933,
-    date: "1933-10-03",
-    kind: "special",
+    id: "az-1964-historical-president",
+    year: 1964,
+    date: "1964-11-03",
     office_id: "president",
-    office: "Presidential electors",
+    office: "President",
+    boundary_id: "county-1966-1982",
+  };
+  const statewide = {
+    geoid: "04",
+    name: "Arizona",
+    status: "reported",
+    total_votes: 100,
+    winner: null,
+    turnout: {
+      ballots_cast: 100,
+      registered_voters: 150,
+      percent: 66.67,
+      definition: "Official turnout.",
+    },
+    candidates: [
+      {
+        id: "johnson",
+        name: "Lyndon B. Johnson",
+        party: "DEM",
+        party_name: "Democratic",
+        votes: 100,
+        percent: 100,
+        status: "verified",
+        write_in: false,
+        category: "presidential_candidate",
+      },
+    ],
   };
   await page.route("**/api/**", async (route) => {
     const path = new URL(route.request().url()).pathname;
-    if (path === "/api/elections") return route.fulfill({ json: [elector] });
+    if (path === "/api/elections") return route.fulfill({ json: [president] });
+    if (path.endsWith("/counties")) return route.fulfill({ json: [] });
+    if (path.endsWith("/activity")) return route.fulfill({ json: null });
+    if (path.includes("/geography/"))
+      return route.fulfill({
+        json: { boundary_id: "county-1966-1982", vintage: 1966, features: [] },
+      });
     return route.fulfill({
       json: {
-        election: elector,
-        map_available: false,
-        multi_seat: true,
-        result_basis: "presidential-electors",
-        sources: [
-          {
-            id: "other",
-            title: "Other retained scan",
-            url: "/other.pdf",
-            notes: "",
-          },
-          {
-            id: "matching",
-            title: "Candidate returns",
-            url: "/matching.pdf",
-            notes: "",
-          },
-        ],
-        contests: [
-          {
-            district: "at-large",
-            contest_id: "fixture",
-            source_id: "matching",
-            page: 2,
-            notes: "Printed elector tally",
-            results: {
-              geoid: "fixture",
-              name: "At-large",
-              status: "reported",
-              total_votes: 100,
-              winner: null,
-              turnout: {},
-              candidates: [
-                {
-                  id: "elector",
-                  name: "Named elector",
-                  party: "DEM",
-                  party_name: "Democratic",
-                  votes: 100,
-                  percent: 100,
-                  status: "verified",
-                  write_in: false,
-                  category: "named_candidate",
-                },
-              ],
-            },
-          },
-        ],
+        election: president,
+        statewide,
+        sources: [],
+        reconciliation: { notes: "Official party returns.", candidates: [] },
       },
     });
   });
   for (const width of [1440, 390]) {
     await page.setViewportSize({ width, height: 1000 });
-    await page.goto(`/elections/${elector.id}`);
+    await page.goto(`/elections/${president.id}`);
     await expect(
-      page.getByRole("heading", { name: "Elector results" }),
-    ).toBeVisible();
-    await expect(page.getByText(/Special election/)).toBeVisible();
-    await expect(
-      page.getByText("Named elector", { exact: true }),
+      page.getByRole("heading", { name: "President 1964" }),
     ).toBeVisible();
     await expect(
-      page.getByRole("link", { name: /View official canvass/ }),
-    ).toHaveAttribute("href", "/matching.pdf#page=2");
+      page.getByText("Lyndon B. Johnson", { exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.getByRole("region", { name: "County winner map" }),
+    ).toBeVisible();
+    await expect(
+      page.getByRole("region", { name: "Election turnout" }),
+    ).toBeVisible();
+    await expect(
+      page.getByText("Elector results", { exact: true }),
+    ).toHaveCount(0);
     expect(
       await page.evaluate(
         () => document.documentElement.scrollWidth <= innerWidth,

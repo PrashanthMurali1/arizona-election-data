@@ -3,6 +3,7 @@
   "date": "1911-12-12",
   "kind": "general",
   "source_sha256": "a6c81f4f67e503815eec0cb23e99f42bf541e7b91b6b4c1e5218b29881c240d7",
+  "turnout": {},
   "absent_offices": [
     "president",
     "state-house",

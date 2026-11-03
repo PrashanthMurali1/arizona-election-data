@@ -3,6 +3,83 @@
   "date": "1940-11-05",
   "kind": "general",
   "source_sha256": "248ef6377c43aa56dd2b8dd2e431f912e6e6e0c03870b97b6f31916f1462fe84",
+  "turnout": {
+    "04001": {
+      "registered_voters": 3908,
+      "page": 9,
+      "definition": "Official total registration for general election November 5, 1940, from dated November 26, 1940 tabulation. Page 9 explicitly labels total figures official and party figures non-official. Page 7 summary differs by including precinct counts in its totals; page 9 official totals are retained. No ballots-cast or turnout percentage inferred."
+    },
+    "04003": {
+      "registered_voters": 14352,
+      "page": 9,
+      "definition": "Official total registration for general election November 5, 1940, from dated November 26, 1940 tabulation. Page 9 explicitly labels total figures official and party figures non-official. Page 7 summary differs by including precinct counts in its totals; page 9 official totals are retained. No ballots-cast or turnout percentage inferred."
+    },
+    "04005": {
+      "registered_voters": 6532,
+      "page": 9,
+      "definition": "Official total registration for general election November 5, 1940, from dated November 26, 1940 tabulation. Page 9 explicitly labels total figures official and party figures non-official. Page 7 summary differs by including precinct counts in its totals; page 9 official totals are retained. No ballots-cast or turnout percentage inferred."
+    },
+    "04007": {
+      "registered_voters": 10471,
+      "page": 9,
+      "definition": "Official total registration for general election November 5, 1940, from dated November 26, 1940 tabulation. Page 9 explicitly labels total figures official and party figures non-official. Page 7 summary differs by including precinct counts in its totals; page 9 official totals are retained. No ballots-cast or turnout percentage inferred."
+    },
+    "04009": {
+      "registered_voters": 5682,
+      "page": 9,
+      "definition": "Official total registration for general election November 5, 1940, from dated November 26, 1940 tabulation. Page 9 explicitly labels total figures official and party figures non-official. Page 7 summary differs by including precinct counts in its totals; page 9 official totals are retained. No ballots-cast or turnout percentage inferred."
+    },
+    "04011": {
+      "registered_voters": 3735,
+      "page": 9,
+      "definition": "Official total registration for general election November 5, 1940, from dated November 26, 1940 tabulation. Page 9 explicitly labels total figures official and party figures non-official. Page 7 summary differs by including precinct counts in its totals; page 9 official totals are retained. No ballots-cast or turnout percentage inferred."
+    },
+    "04013": {
+      "registered_voters": 75519,
+      "page": 9,
+      "definition": "Official total registration for general election November 5, 1940, from dated November 26, 1940 tabulation. Page 9 explicitly labels total figures official and party figures non-official. Page 7 summary differs by including precinct counts in its totals; page 9 official totals are retained. No ballots-cast or turnout percentage inferred."
+    },
+    "04015": {
+      "registered_voters": 4309,
+      "page": 9,
+      "definition": "Official total registration for general election November 5, 1940, from dated November 26, 1940 tabulation. Page 9 explicitly labels total figures official and party figures non-official. Page 7 summary differs by including precinct counts in its totals; page 9 official totals are retained. No ballots-cast or turnout percentage inferred."
+    },
+    "04017": {
+      "registered_voters": 5646,
+      "page": 9,
+      "definition": "Official total registration for general election November 5, 1940, from dated November 26, 1940 tabulation. Page 9 explicitly labels total figures official and party figures non-official. Page 7 summary differs by including precinct counts in its totals; page 9 official totals are retained. No ballots-cast or turnout percentage inferred."
+    },
+    "04019": {
+      "registered_voters": 28429,
+      "page": 9,
+      "definition": "Official total registration for general election November 5, 1940, from dated November 26, 1940 tabulation. Page 9 explicitly labels total figures official and party figures non-official. Page 7 summary differs by including precinct counts in its totals; page 9 official totals are retained. No ballots-cast or turnout percentage inferred."
+    },
+    "04021": {
+      "registered_voters": 8789,
+      "page": 9,
+      "definition": "Official total registration for general election November 5, 1940, from dated November 26, 1940 tabulation. Page 9 explicitly labels total figures official and party figures non-official. Page 7 summary differs by including precinct counts in its totals; page 9 official totals are retained. No ballots-cast or turnout percentage inferred."
+    },
+    "04023": {
+      "registered_voters": 3565,
+      "page": 9,
+      "definition": "Official total registration for general election November 5, 1940, from dated November 26, 1940 tabulation. Page 9 explicitly labels total figures official and party figures non-official. Page 7 summary differs by including precinct counts in its totals; page 9 official totals are retained. No ballots-cast or turnout percentage inferred."
+    },
+    "04025": {
+      "registered_voters": 13132,
+      "page": 9,
+      "definition": "Official total registration for general election November 5, 1940, from dated November 26, 1940 tabulation. Page 9 explicitly labels total figures official and party figures non-official. Page 7 summary differs by including precinct counts in its totals; page 9 official totals are retained. No ballots-cast or turnout percentage inferred."
+    },
+    "04027": {
+      "registered_voters": 7694,
+      "page": 9,
+      "definition": "Official total registration for general election November 5, 1940, from dated November 26, 1940 tabulation. Page 9 explicitly labels total figures official and party figures non-official. Page 7 summary differs by including precinct counts in its totals; page 9 official totals are retained. No ballots-cast or turnout percentage inferred."
+    },
+    "04": {
+      "registered_voters": 191763,
+      "page": 9,
+      "definition": "Official total registration for general election November 5, 1940, from dated November 26, 1940 tabulation. Page 9 explicitly labels total figures official and party figures non-official. Page 7 summary differs by including precinct counts in its totals; page 9 official totals are retained. No ballots-cast or turnout percentage inferred."
+    }
+  },
   "absent_offices": [
     "state-house",
     "state-senate"
@@ -15,6 +92,13 @@
     {
       "office_id": "state-senate",
       "reason": "No state legislative candidate returns appear in retained source."
+    },
+    {
+      "office_id": "president",
+      "page": 6,
+      "candidate": "Prohibition elector slate",
+      "field": "votes",
+      "reason": "Printed county figures sum to 744; printed statewide slate total is 742. Both source figures retained."
     }
   ],
   "contests": [
@@ -141,18 +225,51 @@
           "name": "John R. Murdock",
           "party": "DEM",
           "write_in": false,
-          "votes": 99424
+          "votes": 99424,
+          "county_votes": {
+            "04001": 1981,
+            "04003": 9360,
+            "04005": 3012,
+            "04007": 5910,
+            "04009": 2977,
+            "04011": 2186,
+            "04013": 36560,
+            "04015": 2168,
+            "04017": 3084,
+            "04019": 15339,
+            "04021": 4539,
+            "04023": 1814,
+            "04025": 6449,
+            "04027": 4045
+          }
         },
         {
           "name": "K. T. Palmer",
           "party": "REP",
           "write_in": false,
-          "votes": 40360
+          "votes": 40360,
+          "county_votes": {
+            "04001": 557,
+            "04003": 2071,
+            "04005": 1357,
+            "04007": 1743,
+            "04009": 853,
+            "04011": 387,
+            "04013": 18189,
+            "04015": 684,
+            "04017": 1070,
+            "04019": 7003,
+            "04021": 1573,
+            "04023": 533,
+            "04025": 2825,
+            "04027": 1515
+          }
         }
       ],
+      "notes": " County figures visually transcribed from retained canvass page 1; printed county column headings determine GEOIDs.",
       "contest_id": "az-1940-historical-us-house-district-at-large",
       "reconciliation": {
-        "status": "reported",
+        "status": "verified",
         "page": 1,
         "district": "at-large",
         "candidates": [
@@ -160,56 +277,26 @@
             "candidate": "John R. Murdock",
             "official_total": 99424,
             "official_statewide": 99424,
-            "county_sum": null,
-            "county_coverage": 0,
-            "missing_counties": [
-              "04001",
-              "04003",
-              "04005",
-              "04007",
-              "04009",
-              "04011",
-              "04013",
-              "04015",
-              "04017",
-              "04019",
-              "04021",
-              "04023",
-              "04025",
-              "04027"
-            ],
-            "difference": null
+            "county_sum": 99424,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
           },
           {
             "candidate": "K. T. Palmer",
             "official_total": 40360,
             "official_statewide": 40360,
-            "county_sum": null,
-            "county_coverage": 0,
-            "missing_counties": [
-              "04001",
-              "04003",
-              "04005",
-              "04007",
-              "04009",
-              "04011",
-              "04013",
-              "04015",
-              "04017",
-              "04019",
-              "04021",
-              "04023",
-              "04025",
-              "04027"
-            ],
-            "difference": null
+            "county_sum": 40360,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
           }
         ],
         "county_count": 14,
-        "coverage": "contest_totals",
+        "coverage": "county",
         "multi_seat": false,
         "result_basis": "candidate-votes",
-        "notes": ""
+        "notes": " County figures visually transcribed from retained canvass page 1; printed county column headings determine GEOIDs."
       }
     },
     {
@@ -529,22 +616,70 @@
           "name": "Democratic elector slate",
           "party": "DEM",
           "write_in": false,
-          "votes": 95267
+          "votes": 95267,
+          "county_votes": {
+            "04001": 1969,
+            "04003": 8748,
+            "04005": 3025,
+            "04007": 5752,
+            "04009": 3130,
+            "04011": 2175,
+            "04013": 35055,
+            "04015": 2024,
+            "04017": 3052,
+            "04019": 14035,
+            "04021": 4411,
+            "04023": 1536,
+            "04025": 6217,
+            "04027": 4138
+          }
         },
         {
           "name": "Republican elector slate",
           "party": "REP",
           "write_in": false,
-          "votes": 54030
+          "votes": 54030,
+          "county_votes": {
+            "04001": 926,
+            "04003": 3170,
+            "04005": 1913,
+            "04007": 2624,
+            "04009": 1161,
+            "04011": 619,
+            "04013": 22610,
+            "04015": 1198,
+            "04017": 1533,
+            "04019": 9445,
+            "04021": 1996,
+            "04023": 978,
+            "04025": 3987,
+            "04027": 1870
+          }
         },
         {
           "name": "Prohibition elector slate",
           "party": "Proh",
           "write_in": false,
-          "votes": 742
+          "votes": 742,
+          "county_votes": {
+            "04001": 3,
+            "04003": 32,
+            "04005": 15,
+            "04007": 31,
+            "04009": 19,
+            "04011": 9,
+            "04013": 414,
+            "04015": 2,
+            "04017": 12,
+            "04019": 82,
+            "04021": 22,
+            "04023": 2,
+            "04025": 78,
+            "04027": 23
+          }
         }
       ],
-      "notes": "Page 5 prints one county column and one total for each grouped slate, retained once. Roosevelt slate: W. P. Bowman, A. P. Martin, Mrs. W. P. Stuart. Willkie slate: H. M. Elias, C. J. McQuillan, J. E. Thompson. Page 6 prints Babson slate: Mrs. A. P. Boone, E. R. Weed, W. J. Gordon, total 742. No elector totals are summed.",
+      "notes": "Page 5 prints one county column and one total for each grouped slate, retained once. Roosevelt slate: W. P. Bowman, A. P. Martin, Mrs. W. P. Stuart. Willkie slate: H. M. Elias, C. J. McQuillan, J. E. Thompson. Page 6 prints Babson slate: Mrs. A. P. Boone, E. R. Weed, W. J. Gordon, total 742. No elector totals are summed. County slate returns transcribed from pages 5 (Democratic and Republican) and 6 (Prohibition). Prohibition county cells sum to 744 while the printed statewide slate total is 742; both are retained as printed without balancing.",
       "contest_id": "az-1940-historical-president-district-at-large",
       "reconciliation": {
         "status": "reported",
@@ -555,80 +690,35 @@
             "candidate": "Democratic elector slate",
             "official_total": 95267,
             "official_statewide": 95267,
-            "county_sum": null,
-            "county_coverage": 0,
-            "missing_counties": [
-              "04001",
-              "04003",
-              "04005",
-              "04007",
-              "04009",
-              "04011",
-              "04013",
-              "04015",
-              "04017",
-              "04019",
-              "04021",
-              "04023",
-              "04025",
-              "04027"
-            ],
-            "difference": null
+            "county_sum": 95267,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
           },
           {
             "candidate": "Republican elector slate",
             "official_total": 54030,
             "official_statewide": 54030,
-            "county_sum": null,
-            "county_coverage": 0,
-            "missing_counties": [
-              "04001",
-              "04003",
-              "04005",
-              "04007",
-              "04009",
-              "04011",
-              "04013",
-              "04015",
-              "04017",
-              "04019",
-              "04021",
-              "04023",
-              "04025",
-              "04027"
-            ],
-            "difference": null
+            "county_sum": 54030,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 0
           },
           {
             "candidate": "Prohibition elector slate",
             "official_total": 742,
             "official_statewide": 742,
-            "county_sum": null,
-            "county_coverage": 0,
-            "missing_counties": [
-              "04001",
-              "04003",
-              "04005",
-              "04007",
-              "04009",
-              "04011",
-              "04013",
-              "04015",
-              "04017",
-              "04019",
-              "04021",
-              "04023",
-              "04025",
-              "04027"
-            ],
-            "difference": null
+            "county_sum": 744,
+            "county_coverage": 14,
+            "missing_counties": [],
+            "difference": 2
           }
         ],
         "county_count": 14,
         "coverage": "contest_totals",
         "multi_seat": true,
         "result_basis": "presidential-electors",
-        "notes": "Page 5 prints one county column and one total for each grouped slate, retained once. Roosevelt slate: W. P. Bowman, A. P. Martin, Mrs. W. P. Stuart. Willkie slate: H. M. Elias, C. J. McQuillan, J. E. Thompson. Page 6 prints Babson slate: Mrs. A. P. Boone, E. R. Weed, W. J. Gordon, total 742. No elector totals are summed."
+        "notes": "Page 5 prints one county column and one total for each grouped slate, retained once. Roosevelt slate: W. P. Bowman, A. P. Martin, Mrs. W. P. Stuart. Willkie slate: H. M. Elias, C. J. McQuillan, J. E. Thompson. Page 6 prints Babson slate: Mrs. A. P. Boone, E. R. Weed, W. J. Gordon, total 742. No elector totals are summed. County slate returns transcribed from pages 5 (Democratic and Republican) and 6 (Prohibition). Prohibition county cells sum to 744 while the printed statewide slate total is 742; both are retained as printed without balancing."
       }
     }
   ]

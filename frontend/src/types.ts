@@ -70,6 +70,7 @@ export interface Turnout {
   source_id: string | null;
 }
 export interface Results {
+  partial?: boolean;
   geoid: string;
   name: string;
   status: string;
@@ -128,7 +129,12 @@ export interface Participation {
 export interface Activity {
   revision?: string;
   stage: "pre_results" | "unofficial" | "certified";
-  candidate_availability: "not_released" | "not_imported" | "published" | "test_data" | "not_reporting";
+  candidate_availability:
+    | "not_released"
+    | "not_imported"
+    | "published"
+    | "test_data"
+    | "not_reporting";
   provider_participation?: {
     provider: string;
     reports: {

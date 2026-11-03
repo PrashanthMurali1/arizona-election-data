@@ -3,6 +3,128 @@
   "date": "1916-11-07",
   "kind": "general",
   "source_sha256": "219827afa73c179e7847a8f35eb709c5ae5c48b8eb4ab7f21c7704b40bb2952c",
+  "turnout": {
+    "04001": {
+      "ballots_cast": null,
+      "registered_voters": 1331,
+      "percent": null,
+      "definition": "Official voter registration only; total ballots cast and turnout percentage are not supplied by this table.",
+      "page": 7,
+      "source_path": "data/raw/early-canvasses/pdfs/1916.pdf"
+    },
+    "04003": {
+      "ballots_cast": null,
+      "registered_voters": 14750,
+      "percent": null,
+      "definition": "Official voter registration only; total ballots cast and turnout percentage are not supplied by this table.",
+      "page": 7,
+      "source_path": "data/raw/early-canvasses/pdfs/1916.pdf"
+    },
+    "04005": {
+      "ballots_cast": null,
+      "registered_voters": 2989,
+      "percent": null,
+      "definition": "Official voter registration only; total ballots cast and turnout percentage are not supplied by this table.",
+      "page": 7,
+      "source_path": "data/raw/early-canvasses/pdfs/1916.pdf"
+    },
+    "04007": {
+      "ballots_cast": null,
+      "registered_voters": 7984,
+      "percent": null,
+      "definition": "Official voter registration only; total ballots cast and turnout percentage are not supplied by this table.",
+      "page": 7,
+      "source_path": "data/raw/early-canvasses/pdfs/1916.pdf"
+    },
+    "04009": {
+      "ballots_cast": null,
+      "registered_voters": 3098,
+      "percent": null,
+      "definition": "Official voter registration only; total ballots cast and turnout percentage are not supplied by this table.",
+      "page": 7,
+      "source_path": "data/raw/early-canvasses/pdfs/1916.pdf"
+    },
+    "04011": {
+      "ballots_cast": null,
+      "registered_voters": 3211,
+      "percent": null,
+      "definition": "Official voter registration only; total ballots cast and turnout percentage are not supplied by this table.",
+      "page": 7,
+      "source_path": "data/raw/early-canvasses/pdfs/1916.pdf"
+    },
+    "04013": {
+      "ballots_cast": null,
+      "registered_voters": 19933,
+      "percent": null,
+      "definition": "Official voter registration only; total ballots cast and turnout percentage are not supplied by this table.",
+      "page": 7,
+      "source_path": "data/raw/early-canvasses/pdfs/1916.pdf"
+    },
+    "04015": {
+      "ballots_cast": null,
+      "registered_voters": 3610,
+      "percent": null,
+      "definition": "Official voter registration only; total ballots cast and turnout percentage are not supplied by this table.",
+      "page": 7,
+      "source_path": "data/raw/early-canvasses/pdfs/1916.pdf"
+    },
+    "04017": {
+      "ballots_cast": null,
+      "registered_voters": 2421,
+      "percent": null,
+      "definition": "Official voter registration only; total ballots cast and turnout percentage are not supplied by this table.",
+      "page": 7,
+      "source_path": "data/raw/early-canvasses/pdfs/1916.pdf"
+    },
+    "04019": {
+      "ballots_cast": null,
+      "registered_voters": 6482,
+      "percent": null,
+      "definition": "Official voter registration only; total ballots cast and turnout percentage are not supplied by this table.",
+      "page": 7,
+      "source_path": "data/raw/early-canvasses/pdfs/1916.pdf"
+    },
+    "04021": {
+      "ballots_cast": null,
+      "registered_voters": 2984,
+      "percent": null,
+      "definition": "Official voter registration only; total ballots cast and turnout percentage are not supplied by this table.",
+      "page": 7,
+      "source_path": "data/raw/early-canvasses/pdfs/1916.pdf"
+    },
+    "04023": {
+      "ballots_cast": null,
+      "registered_voters": 1819,
+      "percent": null,
+      "definition": "Official voter registration only; total ballots cast and turnout percentage are not supplied by this table.",
+      "page": 7,
+      "source_path": "data/raw/early-canvasses/pdfs/1916.pdf"
+    },
+    "04025": {
+      "ballots_cast": null,
+      "registered_voters": 7181,
+      "percent": null,
+      "definition": "Official voter registration only; total ballots cast and turnout percentage are not supplied by this table.",
+      "page": 7,
+      "source_path": "data/raw/early-canvasses/pdfs/1916.pdf"
+    },
+    "04027": {
+      "ballots_cast": null,
+      "registered_voters": 3189,
+      "percent": null,
+      "definition": "Official voter registration only; total ballots cast and turnout percentage are not supplied by this table.",
+      "page": 7,
+      "source_path": "data/raw/early-canvasses/pdfs/1916.pdf"
+    },
+    "04": {
+      "ballots_cast": null,
+      "registered_voters": 80982,
+      "percent": null,
+      "definition": "Official voter registration only; total ballots cast and turnout percentage are not supplied by this table.",
+      "page": 7,
+      "source_path": "data/raw/early-canvasses/pdfs/1916.pdf"
+    }
+  },
   "absent_offices": [
     "state-house",
     "state-senate"
