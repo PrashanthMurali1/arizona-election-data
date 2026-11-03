@@ -202,9 +202,15 @@ def data_offices(paths):
     for path in paths:
         if not substantive_data(path):
             continue
-        if path.startswith(('data/raw/us-senate/', 'data/processed/us-senate/')):
+        if path.startswith(('data/raw/early-canvasses/', 'data/raw/historical-canvasses/',
+                            'data/processed/historical-canvasses/')):
+            # These archives include all federal/executive/legislative offices.
+            # Their dedicated importer does not reimport modern House snapshots.
+            offices.add('historical')
+        elif path.startswith(('data/raw/us-senate/', 'data/processed/us-senate/')):
             offices.add('us-senate')
-            if path.startswith('data/raw/us-senate/'):
+            senate_only = re.fullmatch(r'data/raw/us-senate/[0-9]{4}-(?:provenance\.json|transcription\.csv|turnout-transcription\.csv)', path)
+            if path.startswith('data/raw/us-senate/') and not senate_only:
                 offices.add('us-house')  # House also consumes shared statewide canvasses.
         elif path.startswith(('data/raw/us-house/', 'data/processed/us-house/')):
             offices.add('us-house')
@@ -718,9 +724,13 @@ class Worker:
                 (check_root / 'backups').mkdir()
                 self.docker('run', '--rm', '--network', 'none', '--user', '0:0',
                     '--label',marker,
+                    '--mount', f'type=bind,source={release / "data"},target=/reference-data,readonly',
                     '--mount', f'type=bind,source={local},target=/app/backend/local',
                     '--mount', f'type=bind,source={check_root / "backups"},target=/backups',
-                    test_image, 'python', 'production/manage_db.py', 'migrate', phase='test')
+                    test_image, 'python', '-c',
+                    "from pathlib import Path; from scripts.historical_assets import stage_from_ledger; "
+                    "stage_from_ledger(Path('/reference-data'),Path('/app/backend/local/elections.db')); "
+                    "from production.manage_db import migrate; migrate()", phase='test')
                 network = PROJECT + '-check-' + uuid4().hex[:10]
                 # A separate bridge isolates service discovery from production.
                 # Docker Desktop internal networks cannot publish to host Playwright.

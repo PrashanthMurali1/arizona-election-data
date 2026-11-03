@@ -67,8 +67,9 @@ def party_id(label, year):
     return {'R': 'REP', 'Rep.': 'REP', 'D': 'DEM', 'None': 'NONE', 'Ind.': 'IND'}.get(label, PARTY_ALIASES.get(label, label))
 
 
-def document_paths():
-    return sorted([*RAW.glob('[12][0-9][0-9][0-9]*.json'), *EARLY_RAW.glob('[12][0-9][0-9][0-9]*.json')])
+def document_paths(root=ROOT):
+    return sorted([p for name in ('historical-canvasses', 'early-canvasses')
+        for p in (Path(root) / 'data/raw' / name).glob('[12][0-9][0-9][0-9]*.json')])
 
 
 def document_sources(document):
