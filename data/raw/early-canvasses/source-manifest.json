@@ -54,6 +54,15 @@
     "notes": "Original filename retained; election identity follows the document heading."
   },
   {
+    "path": "data/raw/early-canvasses/pdfs/1917Report.pdf",
+    "sha256": "219827afa73c179e7847a8f35eb709c5ae5c48b8eb4ab7f21c7704b40bb2952c",
+    "pages": 29,
+    "records": [
+      "data/raw/early-canvasses/1916.json"
+    ],
+    "notes": "Report dated January 2, 1917; 1916 candidate returns on PDF pages 24-29 (printed pages 26-31). Clearer primary evidence supersedes degraded 1916.pdf."
+  },
+  {
     "path": "data/raw/early-canvasses/pdfs/1918.pdf",
     "sha256": "fac79356a906db1348c165b86c18533f1061905319185bb86be6146f0e99076a",
     "pages": 5,

@@ -46,7 +46,7 @@ The supplied 36 PDFs are retained verbatim with SHA-256 hashes in `data/raw/earl
 - 1922.1.pdf is the primary published candidate source. 1922.2.pdf and 1922.3.pdf are retained supplements. Printed totals are preserved rather than replaced by later handwriting. Carl Hayden?s printed total of 45,121 differs from the readable published county cells; the typed duplicate also differs for Emma M. Guild.
 - 1950.pdf contains referendum returns; candidate returns come from 1950.1.pdf. The file named 1952.2.pdf is headed November 2, 1954; it supplies the 1954 event, with 1954.pdf retained as an alternate scan.
 - 1956.pdf contains only legislative returns. Most earlier supplied canvasses omit legislative tables. No unsupplied office returns are fabricated.
-- 1911 has 18 unreadable candidate totals, 1916 has 13, and the 1920 Campbell governor total is obscured. These 32 totals remain null; readable county figures remain visible. Some 1916 elector identities are explicitly marked unreadable.
+- The original batch left 32 totals null. The subsequently supplied 1917 report resolves all 13 missing 1916 totals and the elector identities; 18 unreadable 1911 totals and the obscured 1920 Campbell governor total remain unavailable. See [1916 corrections](1916-report-corrections.md).
 - Damaged or uncertain names and party labels remain marked as printed. The 1944 write-in supplement includes repeated names with different party/write-in labels; separate source-row identities preserve those reported entries without assuming a merge.
 - County/state arithmetic differences remain visible in reconciliation. Examples include the 1918 minor-candidate rows and 1964 Goldwater slate (1 vote), Goddard (50), Kleindienst (50), and O?Reilly (20). They are not adjusted to force agreement.
 - Each transcription records its page, retained source hash, missing office coverage and unresolved fields. Applicable unresolved notes are shown with the contest. Sources and supplements have checked local PDF links.
@@ -64,3 +64,7 @@ The supplied 36 PDFs are retained verbatim with SHA-256 hashes in `data/raw/earl
 ## Local review
 
 The preview is running at http://127.0.0.1:5173/ using the explicit `backend/local/historical-preview-20261103.db`, with a pre-import SQLite backup beside it. The default database and public deployment were not changed. Work remains on `feature/historical-canvasses-1966-1994` for local testing; no merge or push was requested.
+
+## Subsequent source correction
+
+A 37th retained PDF, `1917Report.pdf`, corrects the 1916 event without adding contests. All six 1916 contests now reconcile exactly across 14 counties. The corrected source replaces the earlier uncertain names, totals and county cells; the earlier scan remains retained. See [correction details](1916-report-corrections.md).

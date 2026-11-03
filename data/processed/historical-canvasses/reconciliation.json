@@ -962,729 +962,6 @@
     "supplemental_source_ids": []
   },
   {
-    "status": "incomplete",
-    "page": 1,
-    "district": "at-large",
-    "candidates": [
-      {
-        "candidate": "[Illegible presidential elector, printed row 1]",
-        "official_total": null,
-        "official_statewide": null,
-        "county_sum": null,
-        "county_coverage": 0,
-        "missing_counties": [
-          "04001",
-          "04003",
-          "04005",
-          "04007",
-          "04009",
-          "04011",
-          "04013",
-          "04015",
-          "04017",
-          "04019",
-          "04021",
-          "04023",
-          "04025",
-          "04027"
-        ],
-        "difference": null
-      },
-      {
-        "candidate": "[Illegible presidential elector, printed row 2]",
-        "official_total": null,
-        "official_statewide": null,
-        "county_sum": null,
-        "county_coverage": 0,
-        "missing_counties": [
-          "04001",
-          "04003",
-          "04005",
-          "04007",
-          "04009",
-          "04011",
-          "04013",
-          "04015",
-          "04017",
-          "04019",
-          "04021",
-          "04023",
-          "04025",
-          "04027"
-        ],
-        "difference": null
-      },
-      {
-        "candidate": "[Illegible presidential elector, printed row 3]",
-        "official_total": null,
-        "official_statewide": null,
-        "county_sum": null,
-        "county_coverage": 0,
-        "missing_counties": [
-          "04001",
-          "04003",
-          "04005",
-          "04007",
-          "04009",
-          "04011",
-          "04013",
-          "04015",
-          "04017",
-          "04019",
-          "04021",
-          "04023",
-          "04025",
-          "04027"
-        ],
-        "difference": null
-      },
-      {
-        "candidate": "[Illegible presidential elector, printed row 4]",
-        "official_total": null,
-        "official_statewide": null,
-        "county_sum": null,
-        "county_coverage": 0,
-        "missing_counties": [
-          "04001",
-          "04003",
-          "04005",
-          "04007",
-          "04009",
-          "04011",
-          "04013",
-          "04015",
-          "04017",
-          "04019",
-          "04021",
-          "04023",
-          "04025",
-          "04027"
-        ],
-        "difference": null
-      },
-      {
-        "candidate": "[Illegible presidential elector, printed row 5]",
-        "official_total": null,
-        "official_statewide": null,
-        "county_sum": null,
-        "county_coverage": 0,
-        "missing_counties": [
-          "04001",
-          "04003",
-          "04005",
-          "04007",
-          "04009",
-          "04011",
-          "04013",
-          "04015",
-          "04017",
-          "04019",
-          "04021",
-          "04023",
-          "04025",
-          "04027"
-        ],
-        "difference": null
-      },
-      {
-        "candidate": "[Illegible presidential elector, printed row 6]",
-        "official_total": null,
-        "official_statewide": null,
-        "county_sum": null,
-        "county_coverage": 0,
-        "missing_counties": [
-          "04001",
-          "04003",
-          "04005",
-          "04007",
-          "04009",
-          "04011",
-          "04013",
-          "04015",
-          "04017",
-          "04019",
-          "04021",
-          "04023",
-          "04025",
-          "04027"
-        ],
-        "difference": null
-      },
-      {
-        "candidate": "[Illegible presidential elector, printed row 7]",
-        "official_total": null,
-        "official_statewide": null,
-        "county_sum": null,
-        "county_coverage": 0,
-        "missing_counties": [
-          "04001",
-          "04003",
-          "04005",
-          "04007",
-          "04009",
-          "04011",
-          "04013",
-          "04015",
-          "04017",
-          "04019",
-          "04021",
-          "04023",
-          "04025",
-          "04027"
-        ],
-        "difference": null
-      },
-      {
-        "candidate": "[Illegible presidential elector, printed row 8]",
-        "official_total": null,
-        "official_statewide": null,
-        "county_sum": null,
-        "county_coverage": 0,
-        "missing_counties": [
-          "04001",
-          "04003",
-          "04005",
-          "04007",
-          "04009",
-          "04011",
-          "04013",
-          "04015",
-          "04017",
-          "04019",
-          "04021",
-          "04023",
-          "04025",
-          "04027"
-        ],
-        "difference": null
-      },
-      {
-        "candidate": "[Illegible presidential elector, printed row 9]",
-        "official_total": null,
-        "official_statewide": null,
-        "county_sum": null,
-        "county_coverage": 0,
-        "missing_counties": [
-          "04001",
-          "04003",
-          "04005",
-          "04007",
-          "04009",
-          "04011",
-          "04013",
-          "04015",
-          "04017",
-          "04019",
-          "04021",
-          "04023",
-          "04025",
-          "04027"
-        ],
-        "difference": null
-      },
-      {
-        "candidate": "[Illegible presidential elector, printed row 10]",
-        "official_total": null,
-        "official_statewide": null,
-        "county_sum": null,
-        "county_coverage": 0,
-        "missing_counties": [
-          "04001",
-          "04003",
-          "04005",
-          "04007",
-          "04009",
-          "04011",
-          "04013",
-          "04015",
-          "04017",
-          "04019",
-          "04021",
-          "04023",
-          "04025",
-          "04027"
-        ],
-        "difference": null
-      },
-      {
-        "candidate": "[Illegible presidential elector, printed row 11]",
-        "official_total": null,
-        "official_statewide": null,
-        "county_sum": null,
-        "county_coverage": 0,
-        "missing_counties": [
-          "04001",
-          "04003",
-          "04005",
-          "04007",
-          "04009",
-          "04011",
-          "04013",
-          "04015",
-          "04017",
-          "04019",
-          "04021",
-          "04023",
-          "04025",
-          "04027"
-        ],
-        "difference": null
-      },
-      {
-        "candidate": "[Illegible presidential elector, printed row 12]",
-        "official_total": null,
-        "official_statewide": null,
-        "county_sum": null,
-        "county_coverage": 0,
-        "missing_counties": [
-          "04001",
-          "04003",
-          "04005",
-          "04007",
-          "04009",
-          "04011",
-          "04013",
-          "04015",
-          "04017",
-          "04019",
-          "04021",
-          "04023",
-          "04025",
-          "04027"
-        ],
-        "difference": null
-      }
-    ],
-    "county_count": 14,
-    "coverage": "contest_totals",
-    "multi_seat": true,
-    "result_basis": "presidential-electors",
-    "notes": "The upper-left name/party section of the original source page is washed out completely. Twelve individual elector rows remain visible, with separately printed county cells and totals on the right; no ticket/slate sums are inferred. Placeholder labels identify physical source rows only and are not candidate identities.",
-    "contest": "az-1916-historical-president-district-at-large",
-    "source_id": "historical-canvass-1916",
-    "source_sha256": "6709ba4bd0ce16cd940fb01e6729525eb0692b42a83fffebab02a8235ef9fb7f",
-    "supplemental_source_ids": []
-  },
-  {
-    "status": "reported",
-    "page": 2,
-    "district": null,
-    "candidates": [
-      {
-        "candidate": "Henry F. Ashurst",
-        "official_total": 29873,
-        "official_statewide": 29873,
-        "county_sum": null,
-        "county_coverage": 0,
-        "missing_counties": [
-          "04001",
-          "04003",
-          "04005",
-          "04007",
-          "04009",
-          "04011",
-          "04013",
-          "04015",
-          "04017",
-          "04019",
-          "04021",
-          "04023",
-          "04025",
-          "04027"
-        ],
-        "difference": null
-      },
-      {
-        "candidate": "Joseph H. Kibbey",
-        "official_total": 21261,
-        "official_statewide": 21261,
-        "county_sum": null,
-        "county_coverage": 0,
-        "missing_counties": [
-          "04001",
-          "04003",
-          "04005",
-          "04007",
-          "04009",
-          "04011",
-          "04013",
-          "04015",
-          "04017",
-          "04019",
-          "04021",
-          "04023",
-          "04025",
-          "04027"
-        ],
-        "difference": null
-      },
-      {
-        "candidate": "W. S. Bradford",
-        "official_total": 2827,
-        "official_statewide": 2827,
-        "county_sum": null,
-        "county_coverage": 0,
-        "missing_counties": [
-          "04001",
-          "04003",
-          "04005",
-          "04007",
-          "04009",
-          "04011",
-          "04013",
-          "04015",
-          "04017",
-          "04019",
-          "04021",
-          "04023",
-          "04025",
-          "04027"
-        ],
-        "difference": null
-      }
-    ],
-    "county_count": 14,
-    "coverage": "contest_totals",
-    "multi_seat": false,
-    "result_basis": "candidate-votes",
-    "notes": "Typed retranscription of the original source table on PDF p1. The supplied pages do not include legislative candidate returns.",
-    "contest": "az-1916-us-senate",
-    "source_id": "historical-canvass-1916",
-    "source_sha256": "6709ba4bd0ce16cd940fb01e6729525eb0692b42a83fffebab02a8235ef9fb7f",
-    "supplemental_source_ids": []
-  },
-  {
-    "status": "reported",
-    "page": 2,
-    "district": "at-large",
-    "candidates": [
-      {
-        "candidate": "Carl Hayden",
-        "official_total": 34577,
-        "official_statewide": 34577,
-        "county_sum": null,
-        "county_coverage": 0,
-        "missing_counties": [
-          "04001",
-          "04003",
-          "04005",
-          "04007",
-          "04009",
-          "04011",
-          "04013",
-          "04015",
-          "04017",
-          "04019",
-          "04021",
-          "04023",
-          "04025",
-          "04027"
-        ],
-        "difference": null
-      },
-      {
-        "candidate": "Henry L. Eads",
-        "official_total": 14907,
-        "official_statewide": 14907,
-        "county_sum": null,
-        "county_coverage": 0,
-        "missing_counties": [
-          "04001",
-          "04003",
-          "04005",
-          "04007",
-          "04009",
-          "04011",
-          "04013",
-          "04015",
-          "04017",
-          "04019",
-          "04021",
-          "04023",
-          "04025",
-          "04027"
-        ],
-        "difference": null
-      },
-      {
-        "candidate": "J. R. Barnette",
-        "official_total": 3080,
-        "official_statewide": 3080,
-        "county_sum": null,
-        "county_coverage": 0,
-        "missing_counties": [
-          "04001",
-          "04003",
-          "04005",
-          "04007",
-          "04009",
-          "04011",
-          "04013",
-          "04015",
-          "04017",
-          "04019",
-          "04021",
-          "04023",
-          "04025",
-          "04027"
-        ],
-        "difference": null
-      }
-    ],
-    "county_count": 14,
-    "coverage": "contest_totals",
-    "multi_seat": false,
-    "result_basis": "candidate-votes",
-    "notes": "Typed retranscription of original PDF p1.",
-    "contest": "az-1916-historical-us-house-district-at-large",
-    "source_id": "historical-canvass-1916",
-    "source_sha256": "6709ba4bd0ce16cd940fb01e6729525eb0692b42a83fffebab02a8235ef9fb7f",
-    "supplemental_source_ids": []
-  },
-  {
-    "status": "reported",
-    "page": 2,
-    "district": null,
-    "candidates": [
-      {
-        "candidate": "Geo. W. P. Hunt",
-        "official_total": 27946,
-        "official_statewide": 27946,
-        "county_sum": null,
-        "county_coverage": 0,
-        "missing_counties": [
-          "04001",
-          "04003",
-          "04005",
-          "04007",
-          "04009",
-          "04011",
-          "04013",
-          "04015",
-          "04017",
-          "04019",
-          "04021",
-          "04023",
-          "04025",
-          "04027"
-        ],
-        "difference": null
-      },
-      {
-        "candidate": "Thos. E. Campbell",
-        "official_total": 27976,
-        "official_statewide": 27976,
-        "county_sum": null,
-        "county_coverage": 0,
-        "missing_counties": [
-          "04001",
-          "04003",
-          "04005",
-          "04007",
-          "04009",
-          "04011",
-          "04013",
-          "04015",
-          "04017",
-          "04019",
-          "04021",
-          "04023",
-          "04025",
-          "04027"
-        ],
-        "difference": null
-      },
-      {
-        "candidate": "Peter T. Robertson",
-        "official_total": 1875,
-        "official_statewide": 1875,
-        "county_sum": null,
-        "county_coverage": 0,
-        "missing_counties": [
-          "04001",
-          "04003",
-          "04005",
-          "04007",
-          "04009",
-          "04011",
-          "04013",
-          "04015",
-          "04017",
-          "04019",
-          "04021",
-          "04023",
-          "04025",
-          "04027"
-        ],
-        "difference": null
-      },
-      {
-        "candidate": "R. E. Dunlap",
-        "official_total": 596,
-        "official_statewide": 596,
-        "county_sum": null,
-        "county_coverage": 0,
-        "missing_counties": [
-          "04001",
-          "04003",
-          "04005",
-          "04007",
-          "04009",
-          "04011",
-          "04013",
-          "04015",
-          "04017",
-          "04019",
-          "04021",
-          "04023",
-          "04025",
-          "04027"
-        ],
-        "difference": null
-      }
-    ],
-    "county_count": 14,
-    "coverage": "contest_totals",
-    "multi_seat": false,
-    "result_basis": "candidate-votes",
-    "notes": "Printed source totals retained as stated; no elected-candidate determination is supplied here.",
-    "contest": "az-1916-governor",
-    "source_id": "historical-canvass-1916",
-    "source_sha256": "6709ba4bd0ce16cd940fb01e6729525eb0692b42a83fffebab02a8235ef9fb7f",
-    "supplemental_source_ids": []
-  },
-  {
-    "status": "incomplete",
-    "page": 2,
-    "district": null,
-    "candidates": [
-      {
-        "candidate": "Sidney P. Osborn",
-        "official_total": null,
-        "official_statewide": null,
-        "county_sum": null,
-        "county_coverage": 0,
-        "missing_counties": [
-          "04001",
-          "04003",
-          "04005",
-          "04007",
-          "04009",
-          "04011",
-          "04013",
-          "04015",
-          "04017",
-          "04019",
-          "04021",
-          "04023",
-          "04025",
-          "04027"
-        ],
-        "difference": null
-      },
-      {
-        "candidate": "Joe V. Prochaska",
-        "official_total": 18152,
-        "official_statewide": 18152,
-        "county_sum": null,
-        "county_coverage": 0,
-        "missing_counties": [
-          "04001",
-          "04003",
-          "04005",
-          "04007",
-          "04009",
-          "04011",
-          "04013",
-          "04015",
-          "04017",
-          "04019",
-          "04021",
-          "04023",
-          "04025",
-          "04027"
-        ],
-        "difference": null
-      },
-      {
-        "candidate": "Alice S. Eddy",
-        "official_total": 3073,
-        "official_statewide": 3073,
-        "county_sum": null,
-        "county_coverage": 0,
-        "missing_counties": [
-          "04001",
-          "04003",
-          "04005",
-          "04007",
-          "04009",
-          "04011",
-          "04013",
-          "04015",
-          "04017",
-          "04019",
-          "04021",
-          "04023",
-          "04025",
-          "04027"
-        ],
-        "difference": null
-      }
-    ],
-    "county_count": 14,
-    "coverage": "contest_totals",
-    "multi_seat": false,
-    "result_basis": "candidate-votes",
-    "notes": "Sidney P. Osborn total is degraded: visible pattern 3?,075. No digit inferred.",
-    "contest": "az-1916-secretary-of-state",
-    "source_id": "historical-canvass-1916",
-    "source_sha256": "6709ba4bd0ce16cd940fb01e6729525eb0692b42a83fffebab02a8235ef9fb7f",
-    "supplemental_source_ids": []
-  },
-  {
-    "status": "reported",
-    "page": 3,
-    "district": null,
-    "candidates": [
-      {
-        "candidate": "Wiley E. Jones",
-        "official_total": 28218,
-        "official_statewide": 28218,
-        "county_sum": 28991,
-        "county_coverage": 14,
-        "missing_counties": [],
-        "difference": 773
-      },
-      {
-        "candidate": "Frederick C. Struckmeyer",
-        "official_total": 21297,
-        "official_statewide": 21297,
-        "county_sum": 21797,
-        "county_coverage": 14,
-        "missing_counties": [],
-        "difference": 500
-      },
-      {
-        "candidate": "William S. Crowe",
-        "official_total": 3224,
-        "official_statewide": 3224,
-        "county_sum": 3263,
-        "county_coverage": 14,
-        "missing_counties": [],
-        "difference": 39
-      }
-    ],
-    "county_count": 14,
-    "coverage": "contest_totals",
-    "multi_seat": false,
-    "result_basis": "candidate-votes",
-    "notes": "The supplied typed source explicitly marks both Jones and Struckmeyer (D). This source party marker is retained rather than silently corrected. Legislative returns are absent from supplied pages.",
-    "contest": "az-1916-attorney-general",
-    "source_id": "historical-canvass-1916",
-    "source_sha256": "6709ba4bd0ce16cd940fb01e6729525eb0692b42a83fffebab02a8235ef9fb7f",
-    "supplemental_source_ids": []
-  },
-  {
     "status": "reported",
     "page": 1,
     "district": "at-large",
@@ -82290,5 +81567,365 @@
     "source_id": "historical-canvass-1994",
     "source_sha256": "d6a692866d98cb4141177ea013629f74a1aab704e5716b2aae9c3fc90b90f638",
     "supplemental_source_ids": []
+  },
+  {
+    "status": "verified",
+    "page": 24,
+    "district": "at-large",
+    "candidates": [
+      {
+        "candidate": "Lamar Cobb",
+        "official_total": 33170,
+        "official_statewide": 33170,
+        "county_sum": 33170,
+        "county_coverage": 14,
+        "missing_counties": [],
+        "difference": 0
+      },
+      {
+        "candidate": "Harry E. Pickett",
+        "official_total": 33150,
+        "official_statewide": 33150,
+        "county_sum": 33150,
+        "county_coverage": 14,
+        "missing_counties": [],
+        "difference": 0
+      },
+      {
+        "candidate": "Homer R. Wood",
+        "official_total": 33157,
+        "official_statewide": 33157,
+        "county_sum": 33157,
+        "county_coverage": 14,
+        "missing_counties": [],
+        "difference": 0
+      },
+      {
+        "candidate": "W. W. Cook",
+        "official_total": 20522,
+        "official_statewide": 20522,
+        "county_sum": 20522,
+        "county_coverage": 14,
+        "missing_counties": [],
+        "difference": 0
+      },
+      {
+        "candidate": "John C. Greenway",
+        "official_total": 20520,
+        "official_statewide": 20520,
+        "county_sum": 20520,
+        "county_coverage": 14,
+        "missing_counties": [],
+        "difference": 0
+      },
+      {
+        "candidate": "J. L. Hubbell",
+        "official_total": 20524,
+        "official_statewide": 20524,
+        "county_sum": 20524,
+        "county_coverage": 14,
+        "missing_counties": [],
+        "difference": 0
+      },
+      {
+        "candidate": "Beverly Blunt",
+        "official_total": 3174,
+        "official_statewide": 3174,
+        "county_sum": 3174,
+        "county_coverage": 14,
+        "missing_counties": [],
+        "difference": 0
+      },
+      {
+        "candidate": "James E. Pawley",
+        "official_total": 3172,
+        "official_statewide": 3172,
+        "county_sum": 3172,
+        "county_coverage": 14,
+        "missing_counties": [],
+        "difference": 0
+      },
+      {
+        "candidate": "T. C. Pruett",
+        "official_total": 3172,
+        "official_statewide": 3172,
+        "county_sum": 3172,
+        "county_coverage": 14,
+        "missing_counties": [],
+        "difference": 0
+      },
+      {
+        "candidate": "Eugene W. Chafin",
+        "official_total": 1153,
+        "official_statewide": 1153,
+        "county_sum": 1153,
+        "county_coverage": 14,
+        "missing_counties": [],
+        "difference": 0
+      },
+      {
+        "candidate": "O. Gibson",
+        "official_total": 1145,
+        "official_statewide": 1145,
+        "county_sum": 1145,
+        "county_coverage": 14,
+        "missing_counties": [],
+        "difference": 0
+      },
+      {
+        "candidate": "J. Stanley Howard",
+        "official_total": 1148,
+        "official_statewide": 1148,
+        "county_sum": 1148,
+        "county_coverage": 14,
+        "missing_counties": [],
+        "difference": 0
+      }
+    ],
+    "county_count": 14,
+    "coverage": "county",
+    "multi_seat": true,
+    "result_basis": "presidential-electors",
+    "notes": "1917 Secretary of State report, printed pages 26-27 (PDF pages 24-25); county columns continue on the following page. Printed totals retained independently of county sums. Individual elector tallies; do not combine them into a presidential ticket total.",
+    "contest": "az-1916-historical-president-district-at-large",
+    "source_id": "historical-canvass-1916",
+    "source_sha256": "219827afa73c179e7847a8f35eb709c5ae5c48b8eb4ab7f21c7704b40bb2952c",
+    "supplemental_source_ids": [
+      "historical-canvass-1916-supplement-6709ba4bd0ce"
+    ]
+  },
+  {
+    "status": "verified",
+    "page": 24,
+    "district": null,
+    "candidates": [
+      {
+        "candidate": "Henry F. Ashurst",
+        "official_total": 29873,
+        "official_statewide": 29873,
+        "county_sum": 29873,
+        "county_coverage": 14,
+        "missing_counties": [],
+        "difference": 0
+      },
+      {
+        "candidate": "Joseph H. Kibbey",
+        "official_total": 21261,
+        "official_statewide": 21261,
+        "county_sum": 21261,
+        "county_coverage": 14,
+        "missing_counties": [],
+        "difference": 0
+      },
+      {
+        "candidate": "W. S. Bradford",
+        "official_total": 2827,
+        "official_statewide": 2827,
+        "county_sum": 2827,
+        "county_coverage": 14,
+        "missing_counties": [],
+        "difference": 0
+      }
+    ],
+    "county_count": 14,
+    "coverage": "county",
+    "multi_seat": false,
+    "result_basis": "candidate-votes",
+    "notes": "1917 Secretary of State report, printed pages 26-27 (PDF pages 24-25); county columns continue on the following page. Printed totals retained independently of county sums.",
+    "contest": "az-1916-us-senate",
+    "source_id": "historical-canvass-1916",
+    "source_sha256": "219827afa73c179e7847a8f35eb709c5ae5c48b8eb4ab7f21c7704b40bb2952c",
+    "supplemental_source_ids": [
+      "historical-canvass-1916-supplement-6709ba4bd0ce"
+    ]
+  },
+  {
+    "status": "verified",
+    "page": 24,
+    "district": "at-large",
+    "candidates": [
+      {
+        "candidate": "Carl Hayden",
+        "official_total": 34377,
+        "official_statewide": 34377,
+        "county_sum": 34377,
+        "county_coverage": 14,
+        "missing_counties": [],
+        "difference": 0
+      },
+      {
+        "candidate": "Henry L. Eads",
+        "official_total": 14907,
+        "official_statewide": 14907,
+        "county_sum": 14907,
+        "county_coverage": 14,
+        "missing_counties": [],
+        "difference": 0
+      },
+      {
+        "candidate": "J. R. Barnette",
+        "official_total": 3060,
+        "official_statewide": 3060,
+        "county_sum": 3060,
+        "county_coverage": 14,
+        "missing_counties": [],
+        "difference": 0
+      }
+    ],
+    "county_count": 14,
+    "coverage": "county",
+    "multi_seat": false,
+    "result_basis": "candidate-votes",
+    "notes": "1917 Secretary of State report, printed pages 26-27 (PDF pages 24-25); county columns continue on the following page. Printed totals retained independently of county sums.",
+    "contest": "az-1916-historical-us-house-district-at-large",
+    "source_id": "historical-canvass-1916",
+    "source_sha256": "219827afa73c179e7847a8f35eb709c5ae5c48b8eb4ab7f21c7704b40bb2952c",
+    "supplemental_source_ids": [
+      "historical-canvass-1916-supplement-6709ba4bd0ce"
+    ]
+  },
+  {
+    "status": "verified",
+    "page": 26,
+    "district": null,
+    "candidates": [
+      {
+        "candidate": "Geo. W. P. Hunt",
+        "official_total": 27946,
+        "official_statewide": 27946,
+        "county_sum": 27946,
+        "county_coverage": 14,
+        "missing_counties": [],
+        "difference": 0
+      },
+      {
+        "candidate": "Thomas E. Campbell",
+        "official_total": 27976,
+        "official_statewide": 27976,
+        "county_sum": 27976,
+        "county_coverage": 14,
+        "missing_counties": [],
+        "difference": 0
+      },
+      {
+        "candidate": "Peter T. Robertson",
+        "official_total": 1975,
+        "official_statewide": 1975,
+        "county_sum": 1975,
+        "county_coverage": 14,
+        "missing_counties": [],
+        "difference": 0
+      },
+      {
+        "candidate": "R. E. Dunlap",
+        "official_total": 396,
+        "official_statewide": 396,
+        "county_sum": 396,
+        "county_coverage": 14,
+        "missing_counties": [],
+        "difference": 0
+      }
+    ],
+    "county_count": 14,
+    "coverage": "county",
+    "multi_seat": false,
+    "result_basis": "candidate-votes",
+    "notes": "1917 Secretary of State report, printed pages 28-29 (PDF pages 26-27); county columns continue on the following page. Printed totals retained independently of county sums. Dashes in Dunlap?s county cells are transcribed as zero, not missing values. These are the report?s certified canvass figures, not a later adjudicated outcome.",
+    "contest": "az-1916-governor",
+    "source_id": "historical-canvass-1916",
+    "source_sha256": "219827afa73c179e7847a8f35eb709c5ae5c48b8eb4ab7f21c7704b40bb2952c",
+    "supplemental_source_ids": [
+      "historical-canvass-1916-supplement-6709ba4bd0ce"
+    ]
+  },
+  {
+    "status": "verified",
+    "page": 26,
+    "district": null,
+    "candidates": [
+      {
+        "candidate": "Sidney P. Osborn",
+        "official_total": 33075,
+        "official_statewide": 33075,
+        "county_sum": 33075,
+        "county_coverage": 14,
+        "missing_counties": [],
+        "difference": 0
+      },
+      {
+        "candidate": "Joe V. Prochaska",
+        "official_total": 18182,
+        "official_statewide": 18182,
+        "county_sum": 18182,
+        "county_coverage": 14,
+        "missing_counties": [],
+        "difference": 0
+      },
+      {
+        "candidate": "Alice S. Eddy",
+        "official_total": 3073,
+        "official_statewide": 3073,
+        "county_sum": 3073,
+        "county_coverage": 14,
+        "missing_counties": [],
+        "difference": 0
+      }
+    ],
+    "county_count": 14,
+    "coverage": "county",
+    "multi_seat": false,
+    "result_basis": "candidate-votes",
+    "notes": "1917 Secretary of State report, printed pages 28-29 (PDF pages 26-27); county columns continue on the following page. Printed totals retained independently of county sums.",
+    "contest": "az-1916-secretary-of-state",
+    "source_id": "historical-canvass-1916",
+    "source_sha256": "219827afa73c179e7847a8f35eb709c5ae5c48b8eb4ab7f21c7704b40bb2952c",
+    "supplemental_source_ids": [
+      "historical-canvass-1916-supplement-6709ba4bd0ce"
+    ]
+  },
+  {
+    "status": "verified",
+    "page": 26,
+    "district": null,
+    "candidates": [
+      {
+        "candidate": "Wiley E. Jones",
+        "official_total": 28218,
+        "official_statewide": 28218,
+        "county_sum": 28218,
+        "county_coverage": 14,
+        "missing_counties": [],
+        "difference": 0
+      },
+      {
+        "candidate": "John L. Gust",
+        "official_total": 21297,
+        "official_statewide": 21297,
+        "county_sum": 21297,
+        "county_coverage": 14,
+        "missing_counties": [],
+        "difference": 0
+      },
+      {
+        "candidate": "William S. Crowe",
+        "official_total": 3224,
+        "official_statewide": 3224,
+        "county_sum": 3224,
+        "county_coverage": 14,
+        "missing_counties": [],
+        "difference": 0
+      }
+    ],
+    "county_count": 14,
+    "coverage": "county",
+    "multi_seat": false,
+    "result_basis": "candidate-votes",
+    "notes": "1917 Secretary of State report, printed pages 28-29 (PDF pages 26-27); county columns continue on the following page. Printed totals retained independently of county sums.",
+    "contest": "az-1916-attorney-general",
+    "source_id": "historical-canvass-1916",
+    "source_sha256": "219827afa73c179e7847a8f35eb709c5ae5c48b8eb4ab7f21c7704b40bb2952c",
+    "supplemental_source_ids": [
+      "historical-canvass-1916-supplement-6709ba4bd0ce"
+    ]
   }
 ]

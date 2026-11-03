@@ -15,6 +15,38 @@ from backend.app.models import Contest, ElectionEvent
 from scripts.historical_canvasses import validate_document, import_documents
 
 
+def test_clearer_1916_report_replaces_uncertain_rows_without_duplicates():
+    import json
+    from backend.app.models import Candidate, Participation, GeographicUnit, Source
+    from backend.app.services import results
+    corrected = json.loads((ROOT/'data/raw/early-canvasses/1916.json').read_text(encoding='utf-8'))
+    previous = copy.deepcopy(corrected)
+    previous['contests'][0]['candidates'][0].update(name='Unreadable elector',votes=None)
+    previous['contests'][-1]['candidates'][1]['name'] = 'Incorrect candidate'
+    engine = create_engine('sqlite://')
+    Base.metadata.create_all(engine)
+    factory = sessionmaker(engine)
+    import_documents([previous],factory)
+    import_documents([corrected],factory)
+    with factory() as session:
+        assert len(list(session.scalars(select(Participation)))) == 28
+        assert 'Incorrect candidate' not in set(session.scalars(select(Candidate.name)))
+        from scripts.historical_canvasses import document_source_id
+        supplement = session.get(Source, document_source_id(corrected, corrected['additional_sources'][0]['path']))
+        assert supplement.title == corrected['additional_sources'][0]['title']
+        assert 'superseded' in supplement.notes
+        attorney = session.get(Contest,'az-1916-attorney-general')
+        value = results(session,attorney,session.get(GeographicUnit,'04'))
+        assert next(c.votes for c in value.candidates if c.name == 'John L. Gust') == 21297
+        for contest in session.scalars(select(Contest)):
+            assert contest.status == 'verified'
+        from backend.app.historical import overview
+        electors = overview(session,'az-1916-historical-president')
+        assert electors['contests'][0]['results'].winner is None
+        assert all(c.votes is not None for c in electors['contests'][0]['results'].candidates)
+    engine.dispose()
+
+
 def source_document(tmp_path, year=1933):
     path = tmp_path / 'source.pdf'
     path.write_bytes(b'early source fixture')

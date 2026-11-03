@@ -209,9 +209,9 @@ def import_documents(documents, session_factory=SessionLocal, source_root=ROOT):
                 sid = document_source_id(doc, path)
                 url = f'/api/historical-sources/{sid}'
                 session.merge(Source(id=sid,
-                    title=doc.get('source_title', f'Arizona Secretary of State — {year} official canvass'),
+                    title=info.get('title') or (doc.get('source_title') if path == doc['source_path'] else None) or f'Arizona Secretary of State — {year} official canvass' + (' (supplement)' if path != doc['source_path'] else ''),
                     url=url, sha256=info['sha256'],
-                    notes='Official returns supplied by the project maintainer. Candidate totals visually transcribed from the cited pages. County coverage varies by contest; missing figures remain unavailable.'))
+                    notes=info.get('notes') or 'Official returns supplied by the project maintainer. Candidate totals visually transcribed from the cited pages. County coverage varies by contest; missing figures remain unavailable.'))
             source_id = document_source_id(doc)
             prior_event = session.get(ElectionEvent, event_id)
             if prior_event and (prior_event.date != doc['date'] or prior_event.kind != kind):

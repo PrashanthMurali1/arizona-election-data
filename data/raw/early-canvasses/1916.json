@@ -2,208 +2,618 @@
   "year": 1916,
   "date": "1916-11-07",
   "kind": "general",
-  "source_path": "data/raw/early-canvasses/pdfs/1916.pdf",
-  "source_sha256": "6709ba4bd0ce16cd940fb01e6729525eb0692b42a83fffebab02a8235ef9fb7f",
+  "source_path": "data/raw/early-canvasses/pdfs/1917Report.pdf",
+  "source_sha256": "219827afa73c179e7847a8f35eb709c5ae5c48b8eb4ab7f21c7704b40bb2952c",
+  "source_title": "Arizona Secretary of State - January 2, 1917 report: 1916 general election returns",
+  "additional_sources": [
+    {
+      "path": "data/raw/early-canvasses/pdfs/1916.pdf",
+      "sha256": "6709ba4bd0ce16cd940fb01e6729525eb0692b42a83fffebab02a8235ef9fb7f",
+      "notes": "Earlier degraded scan retained for provenance; superseded for these candidate returns by the clearer 1917 official report.",
+      "title": "Arizona Secretary of State - degraded 1916 canvass scan (superseded)"
+    }
+  ],
   "absent_offices": [
     "state-house",
     "state-senate"
   ],
+  "notes": "Candidate figures corrected from the Secretary of State report dated January 2, 1917. Returns certified December 6, 1916, as printed on report page 31 (PDF page 29). Earlier degraded scan retained as a supplement. Legislative returns are not included in this report.",
   "contests": [
     {
       "office_id": "president",
       "district": "at-large",
-      "page": 1,
+      "page": 24,
       "candidates": [
         {
-          "name": "[Illegible presidential elector, printed row 1]",
-          "party": "UNK",
+          "name": "Lamar Cobb",
+          "party": "DEM",
           "write_in": false,
-          "votes": null
+          "votes": 33170,
+          "county_votes": {
+            "04001": 648,
+            "04003": 6115,
+            "04005": 1171,
+            "04007": 3686,
+            "04009": 1597,
+            "04011": 1492,
+            "04013": 7634,
+            "04015": 1335,
+            "04017": 1240,
+            "04019": 2079,
+            "04021": 1232,
+            "04023": 726,
+            "04025": 2893,
+            "04027": 1322
+          }
         },
         {
-          "name": "[Illegible presidential elector, printed row 2]",
-          "party": "UNK",
+          "name": "Harry E. Pickett",
+          "party": "DEM",
           "write_in": false,
-          "votes": null
+          "votes": 33150,
+          "county_votes": {
+            "04001": 648,
+            "04003": 6115,
+            "04005": 1171,
+            "04007": 3686,
+            "04009": 1577,
+            "04011": 1492,
+            "04013": 7634,
+            "04015": 1335,
+            "04017": 1240,
+            "04019": 2079,
+            "04021": 1232,
+            "04023": 726,
+            "04025": 2893,
+            "04027": 1322
+          }
         },
         {
-          "name": "[Illegible presidential elector, printed row 3]",
-          "party": "UNK",
+          "name": "Homer R. Wood",
+          "party": "DEM",
           "write_in": false,
-          "votes": null
+          "votes": 33157,
+          "county_votes": {
+            "04001": 648,
+            "04003": 6115,
+            "04005": 1171,
+            "04007": 3686,
+            "04009": 1584,
+            "04011": 1492,
+            "04013": 7634,
+            "04015": 1335,
+            "04017": 1240,
+            "04019": 2079,
+            "04021": 1232,
+            "04023": 726,
+            "04025": 2893,
+            "04027": 1322
+          }
         },
         {
-          "name": "[Illegible presidential elector, printed row 4]",
-          "party": "UNK",
+          "name": "W. W. Cook",
+          "party": "REP",
           "write_in": false,
-          "votes": null
+          "votes": 20522,
+          "county_votes": {
+            "04001": 311,
+            "04003": 3203,
+            "04005": 802,
+            "04007": 1495,
+            "04009": 495,
+            "04011": 672,
+            "04013": 5747,
+            "04015": 643,
+            "04017": 574,
+            "04019": 2616,
+            "04021": 855,
+            "04023": 666,
+            "04025": 1716,
+            "04027": 727
+          }
         },
         {
-          "name": "[Illegible presidential elector, printed row 5]",
-          "party": "UNK",
+          "name": "John C. Greenway",
+          "party": "REP",
           "write_in": false,
-          "votes": null
+          "votes": 20520,
+          "county_votes": {
+            "04001": 311,
+            "04003": 3203,
+            "04005": 802,
+            "04007": 1495,
+            "04009": 493,
+            "04011": 672,
+            "04013": 5747,
+            "04015": 643,
+            "04017": 574,
+            "04019": 2616,
+            "04021": 855,
+            "04023": 666,
+            "04025": 1716,
+            "04027": 727
+          }
         },
         {
-          "name": "[Illegible presidential elector, printed row 6]",
-          "party": "UNK",
+          "name": "J. L. Hubbell",
+          "party": "REP",
           "write_in": false,
-          "votes": null
+          "votes": 20524,
+          "county_votes": {
+            "04001": 311,
+            "04003": 3203,
+            "04005": 802,
+            "04007": 1495,
+            "04009": 497,
+            "04011": 672,
+            "04013": 5747,
+            "04015": 643,
+            "04017": 574,
+            "04019": 2616,
+            "04021": 855,
+            "04023": 666,
+            "04025": 1716,
+            "04027": 727
+          }
         },
         {
-          "name": "[Illegible presidential elector, printed row 7]",
-          "party": "UNK",
+          "name": "Beverly Blunt",
+          "party": "SOC",
           "write_in": false,
-          "votes": null
+          "votes": 3174,
+          "county_votes": {
+            "04001": 16,
+            "04003": 694,
+            "04005": 77,
+            "04007": 510,
+            "04009": 119,
+            "04011": 156,
+            "04013": 574,
+            "04015": 243,
+            "04017": 25,
+            "04019": 150,
+            "04021": 60,
+            "04023": 42,
+            "04025": 331,
+            "04027": 177
+          }
         },
         {
-          "name": "[Illegible presidential elector, printed row 8]",
-          "party": "UNK",
+          "name": "James E. Pawley",
+          "party": "SOC",
           "write_in": false,
-          "votes": null
+          "votes": 3172,
+          "county_votes": {
+            "04001": 16,
+            "04003": 694,
+            "04005": 77,
+            "04007": 510,
+            "04009": 117,
+            "04011": 156,
+            "04013": 574,
+            "04015": 243,
+            "04017": 25,
+            "04019": 150,
+            "04021": 60,
+            "04023": 42,
+            "04025": 331,
+            "04027": 177
+          }
         },
         {
-          "name": "[Illegible presidential elector, printed row 9]",
-          "party": "UNK",
+          "name": "T. C. Pruett",
+          "party": "SOC",
           "write_in": false,
-          "votes": null
+          "votes": 3172,
+          "county_votes": {
+            "04001": 16,
+            "04003": 694,
+            "04005": 77,
+            "04007": 510,
+            "04009": 117,
+            "04011": 156,
+            "04013": 574,
+            "04015": 243,
+            "04017": 25,
+            "04019": 150,
+            "04021": 60,
+            "04023": 42,
+            "04025": 331,
+            "04027": 177
+          }
         },
         {
-          "name": "[Illegible presidential elector, printed row 10]",
-          "party": "UNK",
+          "name": "Eugene W. Chafin",
+          "party": "PRO",
           "write_in": false,
-          "votes": null
+          "votes": 1153,
+          "county_votes": {
+            "04001": 5,
+            "04003": 120,
+            "04005": 22,
+            "04007": 42,
+            "04009": 44,
+            "04011": 14,
+            "04013": 685,
+            "04015": 5,
+            "04017": 42,
+            "04019": 77,
+            "04021": 32,
+            "04023": 8,
+            "04025": 43,
+            "04027": 14
+          }
         },
         {
-          "name": "[Illegible presidential elector, printed row 11]",
-          "party": "UNK",
+          "name": "O. Gibson",
+          "party": "PRO",
           "write_in": false,
-          "votes": null
+          "votes": 1145,
+          "county_votes": {
+            "04001": 5,
+            "04003": 120,
+            "04005": 22,
+            "04007": 42,
+            "04009": 36,
+            "04011": 14,
+            "04013": 685,
+            "04015": 5,
+            "04017": 42,
+            "04019": 77,
+            "04021": 32,
+            "04023": 8,
+            "04025": 43,
+            "04027": 14
+          }
         },
         {
-          "name": "[Illegible presidential elector, printed row 12]",
-          "party": "UNK",
+          "name": "J. Stanley Howard",
+          "party": "PRO",
           "write_in": false,
-          "votes": null
+          "votes": 1148,
+          "county_votes": {
+            "04001": 5,
+            "04003": 120,
+            "04005": 22,
+            "04007": 42,
+            "04009": 39,
+            "04011": 14,
+            "04013": 685,
+            "04015": 5,
+            "04017": 42,
+            "04019": 77,
+            "04021": 32,
+            "04023": 8,
+            "04025": 43,
+            "04027": 14
+          }
         }
       ],
-      "notes": "The upper-left name/party section of the original source page is washed out completely. Twelve individual elector rows remain visible, with separately printed county cells and totals on the right; no ticket/slate sums are inferred. Placeholder labels identify physical source rows only and are not candidate identities.",
+      "notes": "1917 Secretary of State report, printed pages 26-27 (PDF pages 24-25); county columns continue on the following page. Printed totals retained independently of county sums. Individual elector tallies; do not combine them into a presidential ticket total.",
       "multi_seat": true
     },
     {
       "office_id": "us-senate",
       "district": null,
-      "page": 2,
+      "page": 24,
       "candidates": [
         {
           "name": "Henry F. Ashurst",
           "party": "DEM",
           "write_in": false,
-          "votes": 29873
+          "votes": 29873,
+          "county_votes": {
+            "04001": 477,
+            "04003": 5542,
+            "04005": 962,
+            "04007": 3187,
+            "04009": 1478,
+            "04011": 1408,
+            "04013": 6293,
+            "04015": 1360,
+            "04017": 1059,
+            "04019": 2168,
+            "04021": 1189,
+            "04023": 738,
+            "04025": 2699,
+            "04027": 1313
+          }
         },
         {
           "name": "Joseph H. Kibbey",
           "party": "REP",
           "write_in": false,
-          "votes": 21261
+          "votes": 21261,
+          "county_votes": {
+            "04001": 234,
+            "04003": 3472,
+            "04005": 662,
+            "04007": 1533,
+            "04009": 609,
+            "04011": 601,
+            "04013": 7113,
+            "04015": 540,
+            "04017": 645,
+            "04019": 2099,
+            "04021": 851,
+            "04023": 575,
+            "04025": 1689,
+            "04027": 638
+          }
         },
         {
           "name": "W. S. Bradford",
-          "party": "Soc",
+          "party": "SOC",
           "write_in": false,
-          "votes": 2827
+          "votes": 2827,
+          "county_votes": {
+            "04001": 10,
+            "04003": 569,
+            "04005": 56,
+            "04007": 519,
+            "04009": 123,
+            "04011": 101,
+            "04013": 524,
+            "04015": 244,
+            "04017": 35,
+            "04019": 120,
+            "04021": 47,
+            "04023": 34,
+            "04025": 288,
+            "04027": 157
+          }
         }
       ],
-      "notes": "Typed retranscription of the original source table on PDF p1. The supplied pages do not include legislative candidate returns."
+      "notes": "1917 Secretary of State report, printed pages 26-27 (PDF pages 24-25); county columns continue on the following page. Printed totals retained independently of county sums."
     },
     {
       "office_id": "us-house",
       "district": "at-large",
-      "page": 2,
+      "page": 24,
       "candidates": [
         {
           "name": "Carl Hayden",
           "party": "DEM",
           "write_in": false,
-          "votes": 34577
+          "votes": 34377,
+          "county_votes": {
+            "04001": 593,
+            "04003": 6400,
+            "04005": 1150,
+            "04007": 3514,
+            "04009": 1634,
+            "04011": 1472,
+            "04013": 8288,
+            "04015": 1143,
+            "04017": 1186,
+            "04019": 2471,
+            "04021": 1467,
+            "04023": 803,
+            "04025": 2855,
+            "04027": 1401
+          }
         },
         {
           "name": "Henry L. Eads",
           "party": "REP",
           "write_in": false,
-          "votes": 14907
+          "votes": 14907,
+          "county_votes": {
+            "04001": 217,
+            "04003": 2245,
+            "04005": 542,
+            "04007": 1022,
+            "04009": 417,
+            "04011": 481,
+            "04013": 4649,
+            "04015": 450,
+            "04017": 441,
+            "04019": 1698,
+            "04021": 463,
+            "04023": 488,
+            "04025": 1292,
+            "04027": 502
+          }
         },
         {
           "name": "J. R. Barnette",
-          "party": "Soc",
+          "party": "SOC",
           "write_in": false,
-          "votes": 3080
+          "votes": 3060,
+          "county_votes": {
+            "04001": 12,
+            "04003": 591,
+            "04005": 66,
+            "04007": 577,
+            "04009": 129,
+            "04011": 116,
+            "04013": 542,
+            "04015": 279,
+            "04017": 34,
+            "04019": 136,
+            "04021": 54,
+            "04023": 34,
+            "04025": 330,
+            "04027": 160
+          }
         }
       ],
-      "notes": "Typed retranscription of original PDF p1."
+      "notes": "1917 Secretary of State report, printed pages 26-27 (PDF pages 24-25); county columns continue on the following page. Printed totals retained independently of county sums."
     },
     {
       "office_id": "governor",
       "district": null,
-      "page": 2,
+      "page": 26,
       "candidates": [
         {
           "name": "Geo. W. P. Hunt",
           "party": "DEM",
           "write_in": false,
-          "votes": 27946
+          "votes": 27946,
+          "county_votes": {
+            "04001": 566,
+            "04003": 5274,
+            "04005": 1041,
+            "04007": 3681,
+            "04009": 1013,
+            "04011": 1371,
+            "04013": 5087,
+            "04015": 1379,
+            "04017": 870,
+            "04019": 2233,
+            "04021": 1059,
+            "04023": 715,
+            "04025": 2385,
+            "04027": 1272
+          }
         },
         {
-          "name": "Thos. E. Campbell",
+          "name": "Thomas E. Campbell",
           "party": "REP",
           "write_in": false,
-          "votes": 27976
+          "votes": 27976,
+          "county_votes": {
+            "04001": 471,
+            "04003": 4433,
+            "04005": 1105,
+            "04007": 1923,
+            "04009": 1212,
+            "04011": 968,
+            "04013": 8549,
+            "04015": 711,
+            "04017": 952,
+            "04019": 2561,
+            "04021": 1111,
+            "04023": 704,
+            "04025": 2435,
+            "04027": 841
+          }
         },
         {
           "name": "Peter T. Robertson",
-          "party": "Soc",
+          "party": "SOC",
           "write_in": false,
-          "votes": 1875
+          "votes": 1975,
+          "county_votes": {
+            "04001": 10,
+            "04003": 392,
+            "04005": 54,
+            "04007": 267,
+            "04009": 93,
+            "04011": 34,
+            "04013": 482,
+            "04015": 163,
+            "04017": 20,
+            "04019": 83,
+            "04021": 39,
+            "04023": 24,
+            "04025": 162,
+            "04027": 152
+          }
         },
         {
           "name": "R. E. Dunlap",
-          "party": "Proh",
+          "party": "PRO",
           "write_in": false,
-          "votes": 596
+          "votes": 396,
+          "county_votes": {
+            "04001": 0,
+            "04003": 0,
+            "04005": 0,
+            "04007": 0,
+            "04009": 0,
+            "04011": 3,
+            "04013": 342,
+            "04015": 0,
+            "04017": 23,
+            "04019": 0,
+            "04021": 19,
+            "04023": 7,
+            "04025": 2,
+            "04027": 0
+          }
         }
       ],
-      "notes": "Printed source totals retained as stated; no elected-candidate determination is supplied here."
+      "notes": "1917 Secretary of State report, printed pages 28-29 (PDF pages 26-27); county columns continue on the following page. Printed totals retained independently of county sums. Dashes in Dunlap?s county cells are transcribed as zero, not missing values. These are the report?s certified canvass figures, not a later adjudicated outcome."
     },
     {
       "office_id": "secretary-of-state",
       "district": null,
-      "page": 2,
+      "page": 26,
       "candidates": [
         {
           "name": "Sidney P. Osborn",
           "party": "DEM",
           "write_in": false,
-          "votes": null
+          "votes": 33075,
+          "county_votes": {
+            "04001": 656,
+            "04003": 6048,
+            "04005": 1164,
+            "04007": 3282,
+            "04009": 1513,
+            "04011": 1590,
+            "04013": 7368,
+            "04015": 1415,
+            "04017": 1188,
+            "04019": 2618,
+            "04021": 1330,
+            "04023": 759,
+            "04025": 2750,
+            "04027": 1394
+          }
         },
         {
           "name": "Joe V. Prochaska",
           "party": "REP",
           "write_in": false,
-          "votes": 18152
+          "votes": 18182,
+          "county_votes": {
+            "04001": 277,
+            "04003": 2740,
+            "04005": 737,
+            "04007": 1626,
+            "04009": 514,
+            "04011": 492,
+            "04013": 5789,
+            "04015": 438,
+            "04017": 515,
+            "04019": 1844,
+            "04021": 632,
+            "04023": 550,
+            "04025": 1470,
+            "04027": 558
+          }
         },
         {
           "name": "Alice S. Eddy",
-          "party": "Soc",
+          "party": "SOC",
           "write_in": false,
-          "votes": 3073
+          "votes": 3073,
+          "county_votes": {
+            "04001": 13,
+            "04003": 562,
+            "04005": 68,
+            "04007": 551,
+            "04009": 130,
+            "04011": 91,
+            "04013": 608,
+            "04015": 281,
+            "04017": 30,
+            "04019": 139,
+            "04021": 63,
+            "04023": 43,
+            "04025": 330,
+            "04027": 164
+          }
         }
       ],
-      "notes": "Sidney P. Osborn total is degraded: visible pattern 3?,075. No digit inferred."
+      "notes": "1917 Secretary of State report, printed pages 28-29 (PDF pages 26-27); county columns continue on the following page. Printed totals retained independently of county sums."
     },
     {
       "office_id": "attorney-general",
       "district": null,
-      "page": 3,
+      "page": 26,
       "candidates": [
         {
           "name": "Wiley E. Jones",
@@ -213,28 +623,28 @@
           "county_votes": {
             "04001": 463,
             "04003": 5076,
-            "04005": 1068,
+            "04005": 1065,
             "04007": 3084,
-            "04009": 1080,
-            "04011": 1543,
+            "04009": 1030,
+            "04011": 1343,
             "04013": 6412,
             "04015": 1247,
-            "04017": 957,
+            "04017": 937,
             "04019": 2146,
             "04021": 1200,
             "04023": 718,
-            "04025": 2822,
+            "04025": 2322,
             "04027": 1175
           }
         },
         {
-          "name": "Frederick C. Struckmeyer",
-          "party": "DEM",
+          "name": "John L. Gust",
+          "party": "REP",
           "write_in": false,
           "votes": 21297,
           "county_votes": {
             "04001": 432,
-            "04003": 3841,
+            "04003": 3341,
             "04005": 842,
             "04007": 1416,
             "04009": 960,
@@ -251,190 +661,29 @@
         },
         {
           "name": "William S. Crowe",
-          "party": "Soc",
+          "party": "SOC",
           "write_in": false,
           "votes": 3224,
           "county_votes": {
             "04001": 17,
-            "04003": 608,
-            "04005": 63,
+            "04003": 603,
+            "04005": 68,
             "04007": 682,
-            "04009": 152,
+            "04009": 132,
             "04011": 112,
             "04013": 548,
             "04015": 290,
             "04017": 35,
             "04019": 171,
-            "04021": 58,
-            "04023": 55,
+            "04021": 59,
+            "04023": 35,
             "04025": 313,
             "04027": 159
           }
         }
       ],
-      "notes": "The supplied typed source explicitly marks both Jones and Struckmeyer (D). This source party marker is retained rather than silently corrected. Legislative returns are absent from supplied pages."
+      "notes": "1917 Secretary of State report, printed pages 28-29 (PDF pages 26-27); county columns continue on the following page. Printed totals retained independently of county sums."
     }
   ],
-  "unresolved": [
-    {
-      "office_id": "president",
-      "page": 1,
-      "candidate": "[Illegible presidential elector, printed row 1]",
-      "fields": [
-        "name",
-        "party",
-        "votes"
-      ],
-      "reason": "Elector names/parties erased in source; total glyphs insufficiently legible to associate reliably."
-    },
-    {
-      "office_id": "president",
-      "page": 1,
-      "candidate": "[Illegible presidential elector, printed row 2]",
-      "fields": [
-        "name",
-        "party",
-        "votes"
-      ],
-      "reason": "Elector names/parties erased in source; total glyphs insufficiently legible to associate reliably."
-    },
-    {
-      "office_id": "president",
-      "page": 1,
-      "candidate": "[Illegible presidential elector, printed row 3]",
-      "fields": [
-        "name",
-        "party",
-        "votes"
-      ],
-      "reason": "Elector names/parties erased in source; total glyphs insufficiently legible to associate reliably."
-    },
-    {
-      "office_id": "president",
-      "page": 1,
-      "candidate": "[Illegible presidential elector, printed row 4]",
-      "fields": [
-        "name",
-        "party",
-        "votes"
-      ],
-      "reason": "Elector names/parties erased in source; total glyphs insufficiently legible to associate reliably."
-    },
-    {
-      "office_id": "president",
-      "page": 1,
-      "candidate": "[Illegible presidential elector, printed row 5]",
-      "fields": [
-        "name",
-        "party",
-        "votes"
-      ],
-      "reason": "Elector names/parties erased in source; total glyphs insufficiently legible to associate reliably."
-    },
-    {
-      "office_id": "president",
-      "page": 1,
-      "candidate": "[Illegible presidential elector, printed row 6]",
-      "fields": [
-        "name",
-        "party",
-        "votes"
-      ],
-      "reason": "Elector names/parties erased in source; total glyphs insufficiently legible to associate reliably."
-    },
-    {
-      "office_id": "president",
-      "page": 1,
-      "candidate": "[Illegible presidential elector, printed row 7]",
-      "fields": [
-        "name",
-        "party",
-        "votes"
-      ],
-      "reason": "Elector names/parties erased in source; total glyphs insufficiently legible to associate reliably."
-    },
-    {
-      "office_id": "president",
-      "page": 1,
-      "candidate": "[Illegible presidential elector, printed row 8]",
-      "fields": [
-        "name",
-        "party",
-        "votes"
-      ],
-      "reason": "Elector names/parties erased in source; total glyphs insufficiently legible to associate reliably."
-    },
-    {
-      "office_id": "president",
-      "page": 1,
-      "candidate": "[Illegible presidential elector, printed row 9]",
-      "fields": [
-        "name",
-        "party",
-        "votes"
-      ],
-      "reason": "Elector names/parties erased in source; total glyphs insufficiently legible to associate reliably."
-    },
-    {
-      "office_id": "president",
-      "page": 1,
-      "candidate": "[Illegible presidential elector, printed row 10]",
-      "fields": [
-        "name",
-        "party",
-        "votes"
-      ],
-      "reason": "Elector names/parties erased in source; total glyphs insufficiently legible to associate reliably."
-    },
-    {
-      "office_id": "president",
-      "page": 1,
-      "candidate": "[Illegible presidential elector, printed row 11]",
-      "fields": [
-        "name",
-        "party",
-        "votes"
-      ],
-      "reason": "Elector names/parties erased in source; total glyphs insufficiently legible to associate reliably."
-    },
-    {
-      "office_id": "president",
-      "page": 1,
-      "candidate": "[Illegible presidential elector, printed row 12]",
-      "fields": [
-        "name",
-        "party",
-        "votes"
-      ],
-      "reason": "Elector names/parties erased in source; total glyphs insufficiently legible to associate reliably."
-    },
-    {
-      "office_id": "secretary-of-state",
-      "candidate": "Sidney P. Osborn",
-      "page": 2,
-      "field": "votes",
-      "reason": "Degraded printed total, visible pattern 3?,075."
-    },
-    {
-      "office_id": "attorney-general",
-      "candidate": "Wiley E. Jones",
-      "page": 3,
-      "field": "county_reconciliation",
-      "reason": "Transcribed visible county cells sum 28991; printed total is 28218. Source is degraded; figures need further source review, no adjustment inferred."
-    },
-    {
-      "office_id": "attorney-general",
-      "candidate": "Frederick C. Struckmeyer",
-      "page": 3,
-      "field": "county_reconciliation",
-      "reason": "Transcribed visible county cells sum 21797; printed total is 21297. Source is degraded; figures need further source review, no adjustment inferred."
-    },
-    {
-      "office_id": "attorney-general",
-      "candidate": "William S. Crowe",
-      "page": 3,
-      "field": "county_reconciliation",
-      "reason": "Transcribed visible county cells sum 3263; printed total is 3224. Source is degraded; figures need further source review, no adjustment inferred."
-    }
-  ]
+  "unresolved": []
 }
