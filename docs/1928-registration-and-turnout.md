@@ -5,11 +5,11 @@ The prior raw record had only 13 numeric county registrations, with Yuma and the
 Source: https://apps.azsos.gov/election/VoterReg/History/General/#1928
 Official PDF: https://apps.azsos.gov/election/VoterReg/History/Year/1928.pdf
 
-The sum of the 14 published county registrations is 119,728. The same official table prints a flagged statewide total of 119,528, a 200-person discrepancy. Both are retained in the raw record; the displayed statewide registration denominator is the derived county sum, with an explicit note. Presidential race participation is 91,254 / 119,728 = 76.22%.
+The sum of the 14 published county registrations is 119,728. The same official table prints a flagged statewide total of 119,528, a 200-person discrepancy. Both are retained in the raw record; the displayed statewide registration denominator is the derived county sum, with an explicit note. Presidential turnout is 91,254 / 119,728 = 76.22%.
 
 The importer now derives missing statewide registration only when all counties have numeric registration totals. It never treats a partial county sum as complete.
 
-RightDataUSA's 1928 page reports 39% statewide turnout and the same 91,254 presidential votes. Inspection of its returned HTML found its turnout tooltip explicitly describes an estimated percentage of the voting-age population. It therefore uses a different denominator from this application's registered-voter race participation.
+RightDataUSA's 1928 page reports 39% statewide turnout and the same 91,254 presidential votes. Inspection of its returned HTML found its turnout tooltip explicitly describes an estimated percentage of the voting-age population. It therefore uses a different denominator from this application's registered-voter turnout.
 
 RightDataUSA: https://www.rightdatausa.com/election_results?y=1928&t=P&r=N&s=AZ&d=00&WhichMap=vs
 Turnout definitions: https://electionlab.mit.edu/research/voter-turnout

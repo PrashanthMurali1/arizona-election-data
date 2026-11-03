@@ -210,7 +210,7 @@ test("presidential candidates and early county maps are shown", async ({
   }
 });
 
-test("registration-only canvasses show calculated race participation", async ({
+test("registration-only canvasses show calculated turnout", async ({
   page,
 }) => {
   const governor = {
@@ -229,7 +229,7 @@ test("registration-only canvasses show calculated race participation", async ({
     registered_voters: 90272,
     percent: 75.82085,
     definition:
-      "Calculated race participation: votes in this race divided by registered voters.",
+      "Calculated turnout: votes in this race divided by registered voters.",
   };
   const statewide = {
     geoid: "04",
@@ -282,6 +282,9 @@ test("registration-only canvasses show calculated race participation", async ({
     await expect(panel.getByText("68,445", { exact: true })).toBeVisible();
     await expect(
       panel.getByText("Votes cast in this race", { exact: true }),
+    ).toBeVisible();
+    await expect(
+      panel.getByText("Turnout (% registered)", { exact: true }),
     ).toBeVisible();
     await expect(panel.getByText("N/A", { exact: true })).toHaveCount(0);
     await expect(

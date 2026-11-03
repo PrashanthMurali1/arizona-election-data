@@ -5,7 +5,7 @@ from .schemas import *
 
 
 def turnout_with_participation(turnout: TurnoutOut, votes: int | None):
-    """Use the published turnout first, otherwise show calculated race participation."""
+    """Use the published turnout first, otherwise show calculated turnout."""
     if turnout.percent is not None or not turnout.registered_voters:
         return turnout
     if turnout.ballots_cast is not None:
@@ -15,7 +15,7 @@ def turnout_with_participation(turnout: TurnoutOut, votes: int | None):
         return turnout
     return turnout.model_copy(update=dict(percent=100*votes/turnout.registered_voters,
         votes_cast=votes,basis='contest_votes',
-        definition=f'Calculated race participation: {votes:,} reported votes / {turnout.registered_voters:,} registered voters x 100. '
+        definition=f'Calculated turnout: {votes:,} reported votes / {turnout.registered_voters:,} registered voters x 100. '
         'Counts votes in this race; blank and invalid ballots are not included. '
         + (turnout.definition if 'Statewide registration calculated' in turnout.definition else '')))
 
@@ -94,7 +94,8 @@ def results(s: Session, c: Contest, unit: GeographicUnit):
     historical = c.source_id.startswith('historical-canvass-')
     known = [v.votes for _, _, _, v in rows if v is not None and v.votes is not None]
     partial = historical and bool(known) and len(known) != len(rows)
-    total = sum(known) if complete or (historical and known) else None
+    missing_regular = any(not p.write_in and (v is None or v.votes is None) for p, _, _, v in rows)
+    total = sum(known) if complete or (historical and known and not missing_regular) else None
     candidates = [
         CandidateOut(
             id=p.id,

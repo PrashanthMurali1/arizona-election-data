@@ -217,6 +217,27 @@ def test_registration_and_race_votes_produce_calculated_participation():
     assert turnout_with_participation(TurnoutOut(registered_voters=100),None).percent is None
 
 
+def test_1911_complete_counties_produce_statewide_results():
+    import json
+    from backend.app.models import GeographicUnit
+    from backend.app.services import results
+    doc=json.loads((ROOT/'data/raw/early-canvasses/1911.json').read_text(encoding='utf-8'))
+    engine=create_engine('sqlite://');Base.metadata.create_all(engine);factory=sessionmaker(engine)
+    import_documents([doc],factory)
+    with factory() as session:
+        governor=results(session,session.get(Contest,'az-1911-governor'),session.get(GeographicUnit,'04'))
+        assert governor.total_votes==21615
+        assert governor.winner.name=='Geo. W. P. Hunt'
+        assert next(c.votes for c in governor.candidates if c.name=='T. W. Otis')==79
+        senate=results(session,session.get(Contest,'az-1911-us-senate'),session.get(GeographicUnit,'04'))
+        assert len(senate.candidates)==6 and all(c.votes is not None for c in senate.candidates)
+        assert senate.winner is None
+        secretary=results(session,session.get(Contest,'az-1911-secretary-of-state'),session.get(GeographicUnit,'04'))
+        assert secretary.total_votes is None
+        assert all(c.percent is None for c in secretary.candidates)
+    engine.dispose()
+
+
 def test_statewide_registration_is_derived_only_from_complete_county_totals():
     from scripts.historical_canvasses import derive_registration_total,county_units
     doc = dict(year=1928,turnout={g:{'registered_voters':10} for g in county_units(1928)})

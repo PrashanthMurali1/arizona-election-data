@@ -39,6 +39,6 @@ The updated preview is running at http://127.0.0.1:5173/ on the existing feature
 
 ## Calculated participation for registration-only sources
 
-Registration-only records now produce race participation in the API and UI: reported votes in that race / registered voters x 100. The panel shows Votes cast in this race and Calculated race participation; these values are not relabeled as a published count of all ballots. The same calculation is available in county tables and details. Published election-wide ballots and rates retain priority. Multiple-member contests do not sum candidate votes into a voter count; presidential calculation follows ticket aggregation.
+Registration-only records now produce turnout in the API and UI: reported votes in that race / registered voters x 100. The panel shows Votes cast in this race and Calculated turnout; these values are not relabeled as a published count of all ballots. The same calculation is available in county tables and details. Published election-wide ballots and rates retain priority. Multiple-member contests do not sum candidate votes into a voter count; presidential calculation follows ticket aggregation.
 
 Verified examples: 1920 Governor 68,445 / 90,272 = 75.82%; 1940 Governor 148,967 / 191,763 = 77.68%. Statewide and all 14 county rates checked for 1920, 1922, 1924, 1930 and 1940. Published 1944 turnout remains 78.1%. Tests: 26 backend historical/cache, 22 frontend unit, 3 browser regression tests; six live desktop/mobile participation-panel checks passed. Production build passed.

@@ -72,3 +72,7 @@ A 37th retained PDF, `1917Report.pdf`, corrects the 1916 event without adding co
 ## County data, turnout and presidential display corrections
 
 The follow-up [historical results corrections](historical-results-corrections.md) supersede the earlier map omission and elector-only presentation decisions, fill omitted readable county/turnout tables, and correct source transcription mistakes. Historical county maps are restored; presidential pages show nominees.
+
+## 1911 follow-up
+
+[1911 result corrections](1911-results-corrections.md) replace the previously missing statewide totals wherever complete county figures permit a sum, add omitted county returns, and document the three damaged Secretary of State cells that remain unresolved.

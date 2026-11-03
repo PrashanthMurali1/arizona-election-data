@@ -19,7 +19,7 @@
           "name": "H. F. Ashurst",
           "party": "DEM",
           "write_in": false,
-          "votes": null,
+          "votes": 10872,
           "county_votes": {
             "04001": 240,
             "04003": 1847,
@@ -35,13 +35,15 @@
             "04023": 295,
             "04025": 1279,
             "04027": 611
-          }
+          },
+          "printed_total": null,
+          "votes_basis": "sum_of_official_counties"
         },
         {
           "name": "M. A. Smith",
           "party": "DEM",
           "write_in": false,
-          "votes": null,
+          "votes": 10598,
           "county_votes": {
             "04001": 242,
             "04003": 1836,
@@ -57,13 +59,15 @@
             "04023": 304,
             "04025": 1064,
             "04027": 575
-          }
+          },
+          "printed_total": null,
+          "votes_basis": "sum_of_official_counties"
         },
         {
           "name": "R. H. Cameron",
           "party": "UNK",
           "write_in": false,
-          "votes": null,
+          "votes": 9640,
           "county_votes": {
             "04001": 393,
             "04003": 1588,
@@ -79,13 +83,15 @@
             "04023": 245,
             "04025": 1055,
             "04027": 439
-          }
+          },
+          "printed_total": null,
+          "votes_basis": "sum_of_official_counties"
         },
         {
           "name": "H. A. Smith",
           "party": "REP",
           "write_in": false,
-          "votes": null,
+          "votes": 9228,
           "county_votes": {
             "04001": 372,
             "04003": 1708,
@@ -101,13 +107,15 @@
             "04023": 238,
             "04025": 995,
             "04027": 383
-          }
+          },
+          "printed_total": null,
+          "votes_basis": "sum_of_official_counties"
         },
         {
           "name": "E. Johnson",
           "party": "Soc",
           "write_in": false,
-          "votes": null,
+          "votes": 1234,
           "county_votes": {
             "04001": 9,
             "04003": 230,
@@ -123,13 +131,15 @@
             "04023": 22,
             "04025": 178,
             "04027": 70
-          }
+          },
+          "printed_total": null,
+          "votes_basis": "sum_of_official_counties"
         },
         {
           "name": "E. R. Simonton",
           "party": "Soc",
           "write_in": false,
-          "votes": null,
+          "votes": 1221,
           "county_votes": {
             "04001": 8,
             "04003": 226,
@@ -145,10 +155,12 @@
             "04023": 18,
             "04025": 172,
             "04027": 65
-          }
+          },
+          "printed_total": null,
+          "votes_basis": "sum_of_official_counties"
         }
       ],
-      "notes": "Prestatehood selection of two U.S. Senators in one source table; no winner or single-seat inference. R. H. Cameron has no printed party marker. The source scan clips the final digit of the printed TOTAL column on page 1. Printed totals remain null; county cells retain source evidence. No legislative candidate tables occur in the supplied three-page return.",
+      "notes": "Official December 12, 1911 returns. Missing final digits in the clipped statewide column are replaced with the sum of all 14 official county returns, explicitly marked as derived. Printed county dashes mean zero. Two seats were being filled; candidate votes are not a count of unique ballots and no single winner is inferred.",
       "multi_seat": true
     },
     {
@@ -160,28 +172,100 @@
           "name": "Carl Hayden",
           "party": "DEM",
           "write_in": false,
-          "votes": null
+          "votes": 11556,
+          "county_votes": {
+            "04001": 267,
+            "04003": 1916,
+            "04005": 312,
+            "04007": 1016,
+            "04009": 668,
+            "04011": 593,
+            "04013": 2598,
+            "04015": 367,
+            "04017": 370,
+            "04019": 863,
+            "04021": 425,
+            "04023": 292,
+            "04025": 1235,
+            "04027": 634
+          },
+          "printed_total": null,
+          "votes_basis": "sum_of_official_counties"
         },
         {
           "name": "J. S. Williams",
           "party": "REP",
           "write_in": false,
-          "votes": null
+          "votes": 8485,
+          "county_votes": {
+            "04001": 349,
+            "04003": 1566,
+            "04005": 348,
+            "04007": 554,
+            "04009": 377,
+            "04011": 455,
+            "04013": 1669,
+            "04015": 121,
+            "04017": 323,
+            "04019": 899,
+            "04021": 276,
+            "04023": 257,
+            "04025": 939,
+            "04027": 352
+          },
+          "printed_total": null,
+          "votes_basis": "sum_of_official_counties"
         },
         {
           "name": "John Halberg",
           "party": "Soc",
           "write_in": false,
-          "votes": null
+          "votes": 1252,
+          "county_votes": {
+            "04001": 8,
+            "04003": 236,
+            "04005": 18,
+            "04007": 220,
+            "04009": 105,
+            "04011": 60,
+            "04013": 137,
+            "04015": 118,
+            "04017": 7,
+            "04019": 33,
+            "04021": 40,
+            "04023": 19,
+            "04025": 182,
+            "04027": 69
+          },
+          "printed_total": null,
+          "votes_basis": "sum_of_official_counties"
         },
         {
           "name": "E. W. Chafin",
           "party": "Pro",
           "write_in": false,
-          "votes": null
+          "votes": 88,
+          "county_votes": {
+            "04001": 1,
+            "04003": 10,
+            "04005": 2,
+            "04007": 3,
+            "04009": 0,
+            "04011": 0,
+            "04013": 44,
+            "04015": 2,
+            "04017": 1,
+            "04019": 15,
+            "04021": 2,
+            "04023": 0,
+            "04025": 7,
+            "04027": 1
+          },
+          "printed_total": null,
+          "votes_basis": "sum_of_official_counties"
         }
       ],
-      "notes": "The source scan clips the final digit of the printed TOTAL column on page 1. Printed totals remain null; county cells retain source evidence. No legislative candidate tables occur in the supplied three-page return."
+      "notes": "Official December 12, 1911 returns. Missing final digits in the clipped statewide column are replaced with the sum of all 14 official county returns, explicitly marked as derived. Printed county dashes mean zero. "
     },
     {
       "office_id": "governor",
@@ -192,7 +276,7 @@
           "name": "Geo. W. P. Hunt",
           "party": "DEM",
           "write_in": false,
-          "votes": null,
+          "votes": 11123,
           "county_votes": {
             "04001": 265,
             "04003": 2017,
@@ -208,13 +292,15 @@
             "04023": 307,
             "04025": 1084,
             "04027": 646
-          }
+          },
+          "printed_total": null,
+          "votes_basis": "sum_of_official_counties"
         },
         {
           "name": "E. W. Wells",
           "party": "REP",
           "write_in": false,
-          "votes": null,
+          "votes": 9166,
           "county_votes": {
             "04001": 358,
             "04003": 1458,
@@ -230,13 +316,15 @@
             "04023": 237,
             "04025": 1175,
             "04027": 353
-          }
+          },
+          "printed_total": null,
+          "votes_basis": "sum_of_official_counties"
         },
         {
           "name": "P. W. Gallentine",
           "party": "Soc",
           "write_in": false,
-          "votes": null,
+          "votes": 1247,
           "county_votes": {
             "04001": 8,
             "04003": 250,
@@ -252,16 +340,18 @@
             "04023": 23,
             "04025": 157,
             "04027": 70
-          }
+          },
+          "printed_total": null,
+          "votes_basis": "sum_of_official_counties"
         },
         {
           "name": "T. W. Otis",
           "party": "Pro",
           "write_in": false,
-          "votes": null,
+          "votes": 79,
           "county_votes": {
             "04001": 1,
-            "04003": 3,
+            "04003": 13,
             "04005": 2,
             "04007": 3,
             "04009": 0,
@@ -274,10 +364,12 @@
             "04023": 0,
             "04025": 10,
             "04027": 1
-          }
+          },
+          "printed_total": null,
+          "votes_basis": "sum_of_official_counties"
         }
       ],
-      "notes": "The source scan clips the final digit of the printed TOTAL column on page 1. Printed totals remain null; county cells retain source evidence. No legislative candidate tables occur in the supplied three-page return."
+      "notes": "Official December 12, 1911 returns. Missing final digits in the clipped statewide column are replaced with the sum of all 14 official county returns, explicitly marked as derived. Printed county dashes mean zero. "
     },
     {
       "office_id": "secretary-of-state",
@@ -288,28 +380,94 @@
           "name": "Sidney P. Osborn",
           "party": "DEM",
           "write_in": false,
-          "votes": null
+          "votes": null,
+          "county_votes": {
+            "04001": 259,
+            "04003": null,
+            "04005": 281,
+            "04007": 962,
+            "04009": 643,
+            "04011": 582,
+            "04013": 1899,
+            "04015": 353,
+            "04017": 349,
+            "04019": 811,
+            "04021": 370,
+            "04023": 296,
+            "04025": 1127,
+            "04027": 606
+          }
         },
         {
-          "name": "J. F. Cleaveland",
+          "name": "J. F. Cleveland",
           "party": "REP",
           "write_in": false,
-          "votes": null
+          "votes": null,
+          "county_votes": {
+            "04001": 356,
+            "04003": null,
+            "04005": 388,
+            "04007": 558,
+            "04009": 389,
+            "04011": 478,
+            "04013": 2324,
+            "04015": 131,
+            "04017": 342,
+            "04019": 925,
+            "04021": 324,
+            "04023": 240,
+            "04025": 1026,
+            "04027": 369
+          }
         },
         {
           "name": "G. H. Newsholme",
           "party": "Soc",
           "write_in": false,
-          "votes": null
+          "votes": null,
+          "county_votes": {
+            "04001": 8,
+            "04003": null,
+            "04005": 16,
+            "04007": 226,
+            "04009": 109,
+            "04011": 62,
+            "04013": 161,
+            "04015": 117,
+            "04017": 6,
+            "04019": 34,
+            "04021": 39,
+            "04023": 23,
+            "04025": 171,
+            "04027": 73
+          }
         },
         {
           "name": "Roy Sibley",
           "party": "Pro",
           "write_in": false,
-          "votes": null
+          "votes": 78,
+          "county_votes": {
+            "04001": 1,
+            "04003": 14,
+            "04005": 2,
+            "04007": 2,
+            "04009": 0,
+            "04011": 0,
+            "04013": 36,
+            "04015": 1,
+            "04017": 1,
+            "04019": 8,
+            "04021": 2,
+            "04023": 0,
+            "04025": 8,
+            "04027": 3
+          },
+          "printed_total": null,
+          "votes_basis": "sum_of_official_counties"
         }
       ],
-      "notes": "The source scan clips the final digit of the printed TOTAL column on page 1. Printed totals remain null; county cells retain source evidence. No legislative candidate tables occur in the supplied three-page return. Some Cochise cells are degraded; omitted county maps rather than guessing."
+      "notes": "Official December 12, 1911 returns. Missing final digits in the clipped statewide column are replaced with the sum of all 14 official county returns, explicitly marked as derived. Printed county dashes mean zero. All legible county cells are transcribed. Three Cochise cells have damaged final digits and remain unavailable; corresponding statewide totals cannot yet be reconstructed exactly."
     },
     {
       "office_id": "attorney-general",
@@ -345,7 +503,7 @@
           "votes": 9000,
           "county_votes": {
             "04001": 359,
-            "04003": 1581,
+            "04003": 1381,
             "04005": 377,
             "04007": 580,
             "04009": 392,
@@ -404,156 +562,46 @@
             "04027": 3
           }
         }
-      ]
+      ],
+      "notes": "Official December 12, 1911 returns. Missing final digits in the clipped statewide column are replaced with the sum of all 14 official county returns, explicitly marked as derived. Printed county dashes mean zero. "
     }
   ],
   "unresolved": [
     {
-      "office_id": "us-senate",
-      "candidate": "H. F. Ashurst",
-      "field": "votes",
-      "page": 1,
-      "reason": "Final digit of printed total clipped at source scan right edge."
-    },
-    {
-      "office_id": "us-senate",
-      "candidate": "M. A. Smith",
-      "field": "votes",
-      "page": 1,
-      "reason": "Final digit of printed total clipped at source scan right edge."
-    },
-    {
-      "office_id": "us-senate",
-      "candidate": "R. H. Cameron",
-      "field": "votes",
-      "page": 1,
-      "reason": "Final digit of printed total clipped at source scan right edge."
-    },
-    {
-      "office_id": "us-senate",
-      "candidate": "H. A. Smith",
-      "field": "votes",
-      "page": 1,
-      "reason": "Final digit of printed total clipped at source scan right edge."
-    },
-    {
-      "office_id": "us-senate",
-      "candidate": "E. Johnson",
-      "field": "votes",
-      "page": 1,
-      "reason": "Final digit of printed total clipped at source scan right edge."
-    },
-    {
-      "office_id": "us-senate",
-      "candidate": "E. R. Simonton",
-      "field": "votes",
-      "page": 1,
-      "reason": "Final digit of printed total clipped at source scan right edge."
-    },
-    {
-      "office_id": "us-house",
-      "candidate": "Carl Hayden",
-      "field": "votes",
-      "page": 1,
-      "reason": "Final digit of printed total clipped at source scan right edge."
-    },
-    {
-      "office_id": "us-house",
-      "candidate": "J. S. Williams",
-      "field": "votes",
-      "page": 1,
-      "reason": "Final digit of printed total clipped at source scan right edge."
-    },
-    {
-      "office_id": "us-house",
-      "candidate": "John Halberg",
-      "field": "votes",
-      "page": 1,
-      "reason": "Final digit of printed total clipped at source scan right edge."
-    },
-    {
-      "office_id": "us-house",
-      "candidate": "E. W. Chafin",
-      "field": "votes",
-      "page": 1,
-      "reason": "Final digit of printed total clipped at source scan right edge."
-    },
-    {
-      "office_id": "governor",
-      "candidate": "Geo. W. P. Hunt",
-      "field": "votes",
-      "page": 1,
-      "reason": "Final digit of printed total clipped at source scan right edge."
-    },
-    {
-      "office_id": "governor",
-      "candidate": "E. W. Wells",
-      "field": "votes",
-      "page": 1,
-      "reason": "Final digit of printed total clipped at source scan right edge."
-    },
-    {
-      "office_id": "governor",
-      "candidate": "P. W. Gallentine",
-      "field": "votes",
-      "page": 1,
-      "reason": "Final digit of printed total clipped at source scan right edge."
-    },
-    {
-      "office_id": "governor",
-      "candidate": "T. W. Otis",
-      "field": "votes",
-      "page": 1,
-      "reason": "Final digit of printed total clipped at source scan right edge."
-    },
-    {
       "office_id": "secretary-of-state",
       "candidate": "Sidney P. Osborn",
-      "field": "votes",
+      "field": "county_votes.04003",
       "page": 1,
-      "reason": "Final digit of printed total clipped at source scan right edge."
+      "reason": "Final digit of Cochise figure is damaged in the retained scan; all other 13 county figures are transcribed. The clipped statewide column cannot resolve the missing digit."
     },
     {
       "office_id": "secretary-of-state",
-      "candidate": "J. F. Cleaveland",
-      "field": "votes",
+      "candidate": "J. F. Cleveland",
+      "field": "county_votes.04003",
       "page": 1,
-      "reason": "Final digit of printed total clipped at source scan right edge."
+      "reason": "Final digit of Cochise figure is damaged in the retained scan; all other 13 county figures are transcribed. The clipped statewide column cannot resolve the missing digit."
     },
     {
       "office_id": "secretary-of-state",
       "candidate": "G. H. Newsholme",
-      "field": "votes",
+      "field": "county_votes.04003",
       "page": 1,
-      "reason": "Final digit of printed total clipped at source scan right edge."
-    },
-    {
-      "office_id": "secretary-of-state",
-      "candidate": "Roy Sibley",
-      "field": "votes",
-      "page": 1,
-      "reason": "Final digit of printed total clipped at source scan right edge."
+      "reason": "Final digit of Cochise figure is damaged in the retained scan; all other 13 county figures are transcribed. The clipped statewide column cannot resolve the missing digit."
     },
     {
       "office_id": "us-senate",
       "candidate": "R. H. Cameron",
       "field": "party",
       "page": 1,
-      "reason": "No party marker printed; retained UNK."
-    },
-    {
-      "office_id": "attorney-general",
-      "candidate": "G. D. Christy",
-      "page": 2,
-      "field": "county_reconciliation",
-      "reason": "Transcribed visible county cells sum 9200; printed total is 9000. Source is degraded; figures need further source review, no adjustment inferred."
+      "reason": "Party marker omitted in the printed table; retained as UNK pending authoritative party metadata."
     },
     {
       "office_id": "attorney-general",
       "candidate": "J. N. Morrison",
-      "page": 2,
       "field": "county_reconciliation",
-      "reason": "Transcribed visible county cells sum 1372; printed total is 1373. Source is degraded; figures need further source review, no adjustment inferred."
+      "page": 2,
+      "reason": "Printed county cells sum 1372; printed statewide total 1373. Both preserved as printed."
     }
-  ]
+  ],
+  "notes": "The statewide totals missing because of clipping are calculated from complete county returns wherever possible. No registration or ballots-cast table appears in this three-page source."
 }

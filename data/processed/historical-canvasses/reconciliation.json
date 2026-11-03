@@ -52,404 +52,6 @@
     "supplemental_source_ids": []
   },
   {
-    "status": "incomplete",
-    "page": 1,
-    "district": null,
-    "candidates": [
-      {
-        "candidate": "H. F. Ashurst",
-        "official_total": null,
-        "official_statewide": null,
-        "county_sum": 10872,
-        "county_coverage": 14,
-        "missing_counties": [],
-        "difference": null
-      },
-      {
-        "candidate": "M. A. Smith",
-        "official_total": null,
-        "official_statewide": null,
-        "county_sum": 10598,
-        "county_coverage": 14,
-        "missing_counties": [],
-        "difference": null
-      },
-      {
-        "candidate": "R. H. Cameron",
-        "official_total": null,
-        "official_statewide": null,
-        "county_sum": 9640,
-        "county_coverage": 14,
-        "missing_counties": [],
-        "difference": null
-      },
-      {
-        "candidate": "H. A. Smith",
-        "official_total": null,
-        "official_statewide": null,
-        "county_sum": 9228,
-        "county_coverage": 14,
-        "missing_counties": [],
-        "difference": null
-      },
-      {
-        "candidate": "E. Johnson",
-        "official_total": null,
-        "official_statewide": null,
-        "county_sum": 1234,
-        "county_coverage": 14,
-        "missing_counties": [],
-        "difference": null
-      },
-      {
-        "candidate": "E. R. Simonton",
-        "official_total": null,
-        "official_statewide": null,
-        "county_sum": 1221,
-        "county_coverage": 14,
-        "missing_counties": [],
-        "difference": null
-      }
-    ],
-    "county_count": 14,
-    "coverage": "contest_totals",
-    "multi_seat": true,
-    "result_basis": "candidate-votes",
-    "notes": "Prestatehood selection of two U.S. Senators in one source table; no winner or single-seat inference. R. H. Cameron has no printed party marker. The source scan clips the final digit of the printed TOTAL column on page 1. Printed totals remain null; county cells retain source evidence. No legislative candidate tables occur in the supplied three-page return.",
-    "contest": "az-1911-us-senate",
-    "source_id": "historical-canvass-1911",
-    "source_sha256": "a6c81f4f67e503815eec0cb23e99f42bf541e7b91b6b4c1e5218b29881c240d7",
-    "supplemental_source_ids": []
-  },
-  {
-    "status": "incomplete",
-    "page": 1,
-    "district": "at-large",
-    "candidates": [
-      {
-        "candidate": "Carl Hayden",
-        "official_total": null,
-        "official_statewide": null,
-        "county_sum": null,
-        "county_coverage": 0,
-        "missing_counties": [
-          "04001",
-          "04003",
-          "04005",
-          "04007",
-          "04009",
-          "04011",
-          "04013",
-          "04015",
-          "04017",
-          "04019",
-          "04021",
-          "04023",
-          "04025",
-          "04027"
-        ],
-        "difference": null
-      },
-      {
-        "candidate": "J. S. Williams",
-        "official_total": null,
-        "official_statewide": null,
-        "county_sum": null,
-        "county_coverage": 0,
-        "missing_counties": [
-          "04001",
-          "04003",
-          "04005",
-          "04007",
-          "04009",
-          "04011",
-          "04013",
-          "04015",
-          "04017",
-          "04019",
-          "04021",
-          "04023",
-          "04025",
-          "04027"
-        ],
-        "difference": null
-      },
-      {
-        "candidate": "John Halberg",
-        "official_total": null,
-        "official_statewide": null,
-        "county_sum": null,
-        "county_coverage": 0,
-        "missing_counties": [
-          "04001",
-          "04003",
-          "04005",
-          "04007",
-          "04009",
-          "04011",
-          "04013",
-          "04015",
-          "04017",
-          "04019",
-          "04021",
-          "04023",
-          "04025",
-          "04027"
-        ],
-        "difference": null
-      },
-      {
-        "candidate": "E. W. Chafin",
-        "official_total": null,
-        "official_statewide": null,
-        "county_sum": null,
-        "county_coverage": 0,
-        "missing_counties": [
-          "04001",
-          "04003",
-          "04005",
-          "04007",
-          "04009",
-          "04011",
-          "04013",
-          "04015",
-          "04017",
-          "04019",
-          "04021",
-          "04023",
-          "04025",
-          "04027"
-        ],
-        "difference": null
-      }
-    ],
-    "county_count": 14,
-    "coverage": "contest_totals",
-    "multi_seat": false,
-    "result_basis": "candidate-votes",
-    "notes": "The source scan clips the final digit of the printed TOTAL column on page 1. Printed totals remain null; county cells retain source evidence. No legislative candidate tables occur in the supplied three-page return.",
-    "contest": "az-1911-historical-us-house-district-at-large",
-    "source_id": "historical-canvass-1911",
-    "source_sha256": "a6c81f4f67e503815eec0cb23e99f42bf541e7b91b6b4c1e5218b29881c240d7",
-    "supplemental_source_ids": []
-  },
-  {
-    "status": "incomplete",
-    "page": 1,
-    "district": null,
-    "candidates": [
-      {
-        "candidate": "Geo. W. P. Hunt",
-        "official_total": null,
-        "official_statewide": null,
-        "county_sum": 11123,
-        "county_coverage": 14,
-        "missing_counties": [],
-        "difference": null
-      },
-      {
-        "candidate": "E. W. Wells",
-        "official_total": null,
-        "official_statewide": null,
-        "county_sum": 9166,
-        "county_coverage": 14,
-        "missing_counties": [],
-        "difference": null
-      },
-      {
-        "candidate": "P. W. Gallentine",
-        "official_total": null,
-        "official_statewide": null,
-        "county_sum": 1247,
-        "county_coverage": 14,
-        "missing_counties": [],
-        "difference": null
-      },
-      {
-        "candidate": "T. W. Otis",
-        "official_total": null,
-        "official_statewide": null,
-        "county_sum": 69,
-        "county_coverage": 14,
-        "missing_counties": [],
-        "difference": null
-      }
-    ],
-    "county_count": 14,
-    "coverage": "contest_totals",
-    "multi_seat": false,
-    "result_basis": "candidate-votes",
-    "notes": "The source scan clips the final digit of the printed TOTAL column on page 1. Printed totals remain null; county cells retain source evidence. No legislative candidate tables occur in the supplied three-page return.",
-    "contest": "az-1911-governor",
-    "source_id": "historical-canvass-1911",
-    "source_sha256": "a6c81f4f67e503815eec0cb23e99f42bf541e7b91b6b4c1e5218b29881c240d7",
-    "supplemental_source_ids": []
-  },
-  {
-    "status": "incomplete",
-    "page": 1,
-    "district": null,
-    "candidates": [
-      {
-        "candidate": "Sidney P. Osborn",
-        "official_total": null,
-        "official_statewide": null,
-        "county_sum": null,
-        "county_coverage": 0,
-        "missing_counties": [
-          "04001",
-          "04003",
-          "04005",
-          "04007",
-          "04009",
-          "04011",
-          "04013",
-          "04015",
-          "04017",
-          "04019",
-          "04021",
-          "04023",
-          "04025",
-          "04027"
-        ],
-        "difference": null
-      },
-      {
-        "candidate": "J. F. Cleaveland",
-        "official_total": null,
-        "official_statewide": null,
-        "county_sum": null,
-        "county_coverage": 0,
-        "missing_counties": [
-          "04001",
-          "04003",
-          "04005",
-          "04007",
-          "04009",
-          "04011",
-          "04013",
-          "04015",
-          "04017",
-          "04019",
-          "04021",
-          "04023",
-          "04025",
-          "04027"
-        ],
-        "difference": null
-      },
-      {
-        "candidate": "G. H. Newsholme",
-        "official_total": null,
-        "official_statewide": null,
-        "county_sum": null,
-        "county_coverage": 0,
-        "missing_counties": [
-          "04001",
-          "04003",
-          "04005",
-          "04007",
-          "04009",
-          "04011",
-          "04013",
-          "04015",
-          "04017",
-          "04019",
-          "04021",
-          "04023",
-          "04025",
-          "04027"
-        ],
-        "difference": null
-      },
-      {
-        "candidate": "Roy Sibley",
-        "official_total": null,
-        "official_statewide": null,
-        "county_sum": null,
-        "county_coverage": 0,
-        "missing_counties": [
-          "04001",
-          "04003",
-          "04005",
-          "04007",
-          "04009",
-          "04011",
-          "04013",
-          "04015",
-          "04017",
-          "04019",
-          "04021",
-          "04023",
-          "04025",
-          "04027"
-        ],
-        "difference": null
-      }
-    ],
-    "county_count": 14,
-    "coverage": "contest_totals",
-    "multi_seat": false,
-    "result_basis": "candidate-votes",
-    "notes": "The source scan clips the final digit of the printed TOTAL column on page 1. Printed totals remain null; county cells retain source evidence. No legislative candidate tables occur in the supplied three-page return. Some Cochise cells are degraded; omitted county maps rather than guessing.",
-    "contest": "az-1911-secretary-of-state",
-    "source_id": "historical-canvass-1911",
-    "source_sha256": "a6c81f4f67e503815eec0cb23e99f42bf541e7b91b6b4c1e5218b29881c240d7",
-    "supplemental_source_ids": []
-  },
-  {
-    "status": "reported",
-    "page": 2,
-    "district": null,
-    "candidates": [
-      {
-        "candidate": "G. P. Bullard",
-        "official_total": 10650,
-        "official_statewide": 10650,
-        "county_sum": 10650,
-        "county_coverage": 14,
-        "missing_counties": [],
-        "difference": 0
-      },
-      {
-        "candidate": "G. D. Christy",
-        "official_total": 9000,
-        "official_statewide": 9000,
-        "county_sum": 9200,
-        "county_coverage": 14,
-        "missing_counties": [],
-        "difference": 200
-      },
-      {
-        "candidate": "J. N. Morrison",
-        "official_total": 1373,
-        "official_statewide": 1373,
-        "county_sum": 1372,
-        "county_coverage": 14,
-        "missing_counties": [],
-        "difference": -1
-      },
-      {
-        "candidate": "Ostora Gibson",
-        "official_total": 90,
-        "official_statewide": 90,
-        "county_sum": 90,
-        "county_coverage": 14,
-        "missing_counties": [],
-        "difference": 0
-      }
-    ],
-    "county_count": 14,
-    "coverage": "contest_totals",
-    "multi_seat": false,
-    "result_basis": "candidate-votes",
-    "notes": "",
-    "contest": "az-1911-attorney-general",
-    "source_id": "historical-canvass-1911",
-    "source_sha256": "a6c81f4f67e503815eec0cb23e99f42bf541e7b91b6b4c1e5218b29881c240d7",
-    "supplemental_source_ids": []
-  },
-  {
     "status": "reported",
     "page": 1,
     "district": "at-large",
@@ -79128,5 +78730,289 @@
     "supplemental_source_ids": [
       "historical-registration-1928"
     ]
+  },
+  {
+    "status": "verified",
+    "page": 1,
+    "district": null,
+    "candidates": [
+      {
+        "candidate": "H. F. Ashurst",
+        "official_total": 10872,
+        "official_statewide": 10872,
+        "county_sum": 10872,
+        "county_coverage": 14,
+        "missing_counties": [],
+        "difference": 0
+      },
+      {
+        "candidate": "M. A. Smith",
+        "official_total": 10598,
+        "official_statewide": 10598,
+        "county_sum": 10598,
+        "county_coverage": 14,
+        "missing_counties": [],
+        "difference": 0
+      },
+      {
+        "candidate": "R. H. Cameron",
+        "official_total": 9640,
+        "official_statewide": 9640,
+        "county_sum": 9640,
+        "county_coverage": 14,
+        "missing_counties": [],
+        "difference": 0
+      },
+      {
+        "candidate": "H. A. Smith",
+        "official_total": 9228,
+        "official_statewide": 9228,
+        "county_sum": 9228,
+        "county_coverage": 14,
+        "missing_counties": [],
+        "difference": 0
+      },
+      {
+        "candidate": "E. Johnson",
+        "official_total": 1234,
+        "official_statewide": 1234,
+        "county_sum": 1234,
+        "county_coverage": 14,
+        "missing_counties": [],
+        "difference": 0
+      },
+      {
+        "candidate": "E. R. Simonton",
+        "official_total": 1221,
+        "official_statewide": 1221,
+        "county_sum": 1221,
+        "county_coverage": 14,
+        "missing_counties": [],
+        "difference": 0
+      }
+    ],
+    "county_count": 14,
+    "coverage": "county",
+    "multi_seat": true,
+    "result_basis": "candidate-votes",
+    "notes": "Official December 12, 1911 returns. Missing final digits in the clipped statewide column are replaced with the sum of all 14 official county returns, explicitly marked as derived. Printed county dashes mean zero. Two seats were being filled; candidate votes are not a count of unique ballots and no single winner is inferred.",
+    "contest": "az-1911-us-senate",
+    "source_id": "historical-canvass-1911",
+    "source_sha256": "a6c81f4f67e503815eec0cb23e99f42bf541e7b91b6b4c1e5218b29881c240d7",
+    "supplemental_source_ids": []
+  },
+  {
+    "status": "verified",
+    "page": 1,
+    "district": "at-large",
+    "candidates": [
+      {
+        "candidate": "Carl Hayden",
+        "official_total": 11556,
+        "official_statewide": 11556,
+        "county_sum": 11556,
+        "county_coverage": 14,
+        "missing_counties": [],
+        "difference": 0
+      },
+      {
+        "candidate": "J. S. Williams",
+        "official_total": 8485,
+        "official_statewide": 8485,
+        "county_sum": 8485,
+        "county_coverage": 14,
+        "missing_counties": [],
+        "difference": 0
+      },
+      {
+        "candidate": "John Halberg",
+        "official_total": 1252,
+        "official_statewide": 1252,
+        "county_sum": 1252,
+        "county_coverage": 14,
+        "missing_counties": [],
+        "difference": 0
+      },
+      {
+        "candidate": "E. W. Chafin",
+        "official_total": 88,
+        "official_statewide": 88,
+        "county_sum": 88,
+        "county_coverage": 14,
+        "missing_counties": [],
+        "difference": 0
+      }
+    ],
+    "county_count": 14,
+    "coverage": "county",
+    "multi_seat": false,
+    "result_basis": "candidate-votes",
+    "notes": "Official December 12, 1911 returns. Missing final digits in the clipped statewide column are replaced with the sum of all 14 official county returns, explicitly marked as derived. Printed county dashes mean zero. ",
+    "contest": "az-1911-historical-us-house-district-at-large",
+    "source_id": "historical-canvass-1911",
+    "source_sha256": "a6c81f4f67e503815eec0cb23e99f42bf541e7b91b6b4c1e5218b29881c240d7",
+    "supplemental_source_ids": []
+  },
+  {
+    "status": "verified",
+    "page": 1,
+    "district": null,
+    "candidates": [
+      {
+        "candidate": "Geo. W. P. Hunt",
+        "official_total": 11123,
+        "official_statewide": 11123,
+        "county_sum": 11123,
+        "county_coverage": 14,
+        "missing_counties": [],
+        "difference": 0
+      },
+      {
+        "candidate": "E. W. Wells",
+        "official_total": 9166,
+        "official_statewide": 9166,
+        "county_sum": 9166,
+        "county_coverage": 14,
+        "missing_counties": [],
+        "difference": 0
+      },
+      {
+        "candidate": "P. W. Gallentine",
+        "official_total": 1247,
+        "official_statewide": 1247,
+        "county_sum": 1247,
+        "county_coverage": 14,
+        "missing_counties": [],
+        "difference": 0
+      },
+      {
+        "candidate": "T. W. Otis",
+        "official_total": 79,
+        "official_statewide": 79,
+        "county_sum": 79,
+        "county_coverage": 14,
+        "missing_counties": [],
+        "difference": 0
+      }
+    ],
+    "county_count": 14,
+    "coverage": "county",
+    "multi_seat": false,
+    "result_basis": "candidate-votes",
+    "notes": "Official December 12, 1911 returns. Missing final digits in the clipped statewide column are replaced with the sum of all 14 official county returns, explicitly marked as derived. Printed county dashes mean zero. ",
+    "contest": "az-1911-governor",
+    "source_id": "historical-canvass-1911",
+    "source_sha256": "a6c81f4f67e503815eec0cb23e99f42bf541e7b91b6b4c1e5218b29881c240d7",
+    "supplemental_source_ids": []
+  },
+  {
+    "status": "incomplete",
+    "page": 1,
+    "district": null,
+    "candidates": [
+      {
+        "candidate": "Sidney P. Osborn",
+        "official_total": null,
+        "official_statewide": null,
+        "county_sum": 8538,
+        "county_coverage": 14,
+        "missing_counties": [
+          "04003"
+        ],
+        "difference": null
+      },
+      {
+        "candidate": "J. F. Cleveland",
+        "official_total": null,
+        "official_statewide": null,
+        "county_sum": 7850,
+        "county_coverage": 14,
+        "missing_counties": [
+          "04003"
+        ],
+        "difference": null
+      },
+      {
+        "candidate": "G. H. Newsholme",
+        "official_total": null,
+        "official_statewide": null,
+        "county_sum": 1045,
+        "county_coverage": 14,
+        "missing_counties": [
+          "04003"
+        ],
+        "difference": null
+      },
+      {
+        "candidate": "Roy Sibley",
+        "official_total": 78,
+        "official_statewide": 78,
+        "county_sum": 78,
+        "county_coverage": 14,
+        "missing_counties": [],
+        "difference": 0
+      }
+    ],
+    "county_count": 14,
+    "coverage": "contest_totals",
+    "multi_seat": false,
+    "result_basis": "candidate-votes",
+    "notes": "Official December 12, 1911 returns. Missing final digits in the clipped statewide column are replaced with the sum of all 14 official county returns, explicitly marked as derived. Printed county dashes mean zero. All legible county cells are transcribed. Three Cochise cells have damaged final digits and remain unavailable; corresponding statewide totals cannot yet be reconstructed exactly.",
+    "contest": "az-1911-secretary-of-state",
+    "source_id": "historical-canvass-1911",
+    "source_sha256": "a6c81f4f67e503815eec0cb23e99f42bf541e7b91b6b4c1e5218b29881c240d7",
+    "supplemental_source_ids": []
+  },
+  {
+    "status": "reported",
+    "page": 2,
+    "district": null,
+    "candidates": [
+      {
+        "candidate": "G. P. Bullard",
+        "official_total": 10650,
+        "official_statewide": 10650,
+        "county_sum": 10650,
+        "county_coverage": 14,
+        "missing_counties": [],
+        "difference": 0
+      },
+      {
+        "candidate": "G. D. Christy",
+        "official_total": 9000,
+        "official_statewide": 9000,
+        "county_sum": 9000,
+        "county_coverage": 14,
+        "missing_counties": [],
+        "difference": 0
+      },
+      {
+        "candidate": "J. N. Morrison",
+        "official_total": 1373,
+        "official_statewide": 1373,
+        "county_sum": 1372,
+        "county_coverage": 14,
+        "missing_counties": [],
+        "difference": -1
+      },
+      {
+        "candidate": "Ostora Gibson",
+        "official_total": 90,
+        "official_statewide": 90,
+        "county_sum": 90,
+        "county_coverage": 14,
+        "missing_counties": [],
+        "difference": 0
+      }
+    ],
+    "county_count": 14,
+    "coverage": "contest_totals",
+    "multi_seat": false,
+    "result_basis": "candidate-votes",
+    "notes": "Official December 12, 1911 returns. Missing final digits in the clipped statewide column are replaced with the sum of all 14 official county returns, explicitly marked as derived. Printed county dashes mean zero. ",
+    "contest": "az-1911-attorney-general",
+    "source_id": "historical-canvass-1911",
+    "source_sha256": "a6c81f4f67e503815eec0cb23e99f42bf541e7b91b6b4c1e5218b29881c240d7",
+    "supplemental_source_ids": []
   }
 ]

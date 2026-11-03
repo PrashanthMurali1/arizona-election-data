@@ -369,10 +369,10 @@ export default function Methodology() {
           <p>
             When registration and race vote totals are available without a
             published election-wide turnout rate, this site shows calculated
-            race participation: votes in that race divided by registered voters.
-            It excludes blank and invalid ballots. The label explicitly
-            identifies the registered-voter denominator, so it can be
-            distinguished from population-based turnout.
+            turnout: votes in that race divided by registered voters. It
+            excludes blank and invalid ballots. The label explicitly identifies
+            the registered-voter denominator, so it can be distinguished from
+            population-based turnout.
           </p>
           <p>
             A missing statewide registration total can be calculated from a

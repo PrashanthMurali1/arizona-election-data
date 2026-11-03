@@ -36,9 +36,7 @@ export default function CountyTable({
     { key: "total_votes", label: "Contest votes" },
     {
       key: "turnout",
-      label: counties.some((r) => r.turnout.basis === "contest_votes")
-        ? "Race participation"
-        : "Turnout",
+      label: "Turnout",
     },
   ];
   const rows = useMemo(
