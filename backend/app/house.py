@@ -31,7 +31,7 @@ def groups(s):
     grouped = {}
     for contest in s.scalars(
         select(Contest)
-        .where(Contest.office_id == "us-house")
+        .where(Contest.office_id == "us-house", Contest.id.not_like('az-%-historical-%'))
         .order_by(Contest.jurisdiction_id)
     ):
         grouped.setdefault(contest.event_id, []).append(contest)

@@ -22,6 +22,18 @@ const elections = [
 afterEach(() => vi.unstubAllGlobals());
 
 describe("historical election HTTP prefetch", () => {
+  it("prefetches historical district results without requiring geography", () => {
+    const historical = [
+      {
+        id: "az-1966-historical-state-senate",
+        office_id: "state-senate",
+        boundary_id: "historical-results-1966",
+      },
+    ] as Election[];
+    expect(electionPrefetchUrls(historical, "state-senate")).toEqual([
+      "/api/historical-elections/az-1966-historical-state-senate",
+    ]);
+  });
   it("covers each office's page dependencies and deduplicates shared boundaries", () => {
     expect(electionPrefetchUrls(elections, "us-senate")).toEqual([
       "/api/elections/senate-old",

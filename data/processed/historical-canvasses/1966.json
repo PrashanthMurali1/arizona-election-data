@@ -1,0 +1,3253 @@
+{
+  "year": 1966,
+  "source_sha256": "a0d800e71e872e5b60a5d6b1d224652b91646adfb3e396074047099587fd9a86",
+  "absent_offices": [
+    "president",
+    "us-senate"
+  ],
+  "unresolved": [],
+  "contests": [
+    {
+      "office_id": "us-house",
+      "district": "1",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "L. Alton (Pat) Riggs",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 49913
+        },
+        {
+          "name": "John J. Rhodes",
+          "party": "REP",
+          "write_in": false,
+          "votes": 102007
+        }
+      ],
+      "contest_id": "az-1966-historical-us-house-district-1",
+      "reconciliation": {
+        "status": "reported",
+        "page": 1,
+        "district": "1",
+        "candidates": [
+          {
+            "candidate": "L. Alton (Pat) Riggs",
+            "official_total": 49913,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "John J. Rhodes",
+            "official_total": 102007,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": false,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "us-house",
+      "district": "2",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Morris K. Udall",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 66813
+        },
+        {
+          "name": "G. Alfred McGinnis",
+          "party": "REP",
+          "write_in": false,
+          "votes": 45326
+        }
+      ],
+      "contest_id": "az-1966-historical-us-house-district-2",
+      "reconciliation": {
+        "status": "reported",
+        "page": 1,
+        "district": "2",
+        "candidates": [
+          {
+            "candidate": "Morris K. Udall",
+            "official_total": 66813,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "G. Alfred McGinnis",
+            "official_total": 45326,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": false,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "us-house",
+      "district": "3",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "George F. Senner, Jr.",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 43219
+        },
+        {
+          "name": "Sam Steiger",
+          "party": "REP",
+          "write_in": false,
+          "votes": 57145
+        }
+      ],
+      "contest_id": "az-1966-historical-us-house-district-3",
+      "reconciliation": {
+        "status": "reported",
+        "page": 1,
+        "district": "3",
+        "candidates": [
+          {
+            "candidate": "George F. Senner, Jr.",
+            "official_total": 43219,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Sam Steiger",
+            "official_total": 57145,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": false,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "governor",
+      "district": null,
+      "page": 2,
+      "candidates": [
+        {
+          "name": "Sam Goddard",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 174904
+        },
+        {
+          "name": "John R. (Jack) Williams",
+          "party": "REP",
+          "write_in": false,
+          "votes": 203438
+        }
+      ],
+      "contest_id": "az-1966-governor",
+      "reconciliation": {
+        "status": "reported",
+        "page": 2,
+        "district": null,
+        "candidates": [
+          {
+            "candidate": "Sam Goddard",
+            "official_total": 174904,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "John R. (Jack) Williams",
+            "official_total": 203438,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": false,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "secretary-of-state",
+      "district": null,
+      "page": 2,
+      "candidates": [
+        {
+          "name": "Wesley Bolin",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 223950,
+          "county_votes": {
+            "04001": 2351,
+            "04003": 9567,
+            "04005": 4724,
+            "04007": 7013,
+            "04009": 2808,
+            "04011": 2995,
+            "04013": 116805,
+            "04015": 2285,
+            "04017": 5191,
+            "04019": 43642,
+            "04021": 10084,
+            "04023": 1917,
+            "04025": 6526,
+            "04027": 8042
+          }
+        }
+      ],
+      "contest_id": "az-1966-secretary-of-state",
+      "reconciliation": {
+        "status": "verified",
+        "page": 2,
+        "district": null,
+        "candidates": [
+          {
+            "candidate": "Wesley Bolin",
+            "official_total": 223950,
+            "county_sum": 223950,
+            "county_coverage": 14,
+            "difference": 0
+          }
+        ],
+        "county_count": 14,
+        "coverage": "county",
+        "multi_seat": false,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "attorney-general",
+      "district": null,
+      "page": 2,
+      "candidates": [
+        {
+          "name": "Reid F. Woodford",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 149955,
+          "county_votes": {
+            "04001": 1486,
+            "04003": 6510,
+            "04005": 2550,
+            "04007": 4896,
+            "04009": 2263,
+            "04011": 2469,
+            "04013": 76001,
+            "04015": 1451,
+            "04017": 2813,
+            "04019": 31721,
+            "04021": 6955,
+            "04023": 1446,
+            "04025": 4083,
+            "04027": 5311
+          }
+        },
+        {
+          "name": "Darrell F. Smith",
+          "party": "REP",
+          "write_in": false,
+          "votes": 205292,
+          "county_votes": {
+            "04001": 1521,
+            "04003": 5600,
+            "04005": 4668,
+            "04007": 3038,
+            "04009": 1694,
+            "04011": 857,
+            "04013": 123694,
+            "04015": 1839,
+            "04017": 3820,
+            "04019": 40398,
+            "04021": 5621,
+            "04023": 1074,
+            "04025": 6556,
+            "04027": 4912
+          }
+        }
+      ],
+      "contest_id": "az-1966-attorney-general",
+      "reconciliation": {
+        "status": "verified",
+        "page": 2,
+        "district": null,
+        "candidates": [
+          {
+            "candidate": "Reid F. Woodford",
+            "official_total": 149955,
+            "county_sum": 149955,
+            "county_coverage": 14,
+            "difference": 0
+          },
+          {
+            "candidate": "Darrell F. Smith",
+            "official_total": 205292,
+            "county_sum": 205292,
+            "county_coverage": 14,
+            "difference": 0
+          }
+        ],
+        "county_count": 14,
+        "coverage": "county",
+        "multi_seat": false,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "1",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Mabel S. Ellis",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 5826
+        },
+        {
+          "name": "Leo Sullivan",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 6312
+        },
+        {
+          "name": "Gladys Gardner",
+          "party": "REP",
+          "write_in": false,
+          "votes": 7410
+        },
+        {
+          "name": "W. D. (Bill) Lyman",
+          "party": "REP",
+          "write_in": false,
+          "votes": 7849
+        }
+      ],
+      "contest_id": "az-1966-historical-state-house-district-1",
+      "reconciliation": {
+        "status": "reported",
+        "page": 3,
+        "district": "1",
+        "candidates": [
+          {
+            "candidate": "Mabel S. Ellis",
+            "official_total": 5826,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Leo Sullivan",
+            "official_total": 6312,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Gladys Gardner",
+            "official_total": 7410,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "W. D. (Bill) Lyman",
+            "official_total": 7849,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "1",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Milton O. \"Mo\" Lindner, Jr.",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 6368
+        },
+        {
+          "name": "Boyd Tenney",
+          "party": "REP",
+          "write_in": false,
+          "votes": 7888
+        }
+      ],
+      "contest_id": "az-1966-historical-state-senate-district-1",
+      "reconciliation": {
+        "status": "reported",
+        "page": 3,
+        "district": "1",
+        "candidates": [
+          {
+            "candidate": "Milton O. \"Mo\" Lindner, Jr.",
+            "official_total": 6368,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Boyd Tenney",
+            "official_total": 7888,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "2",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "W. L. \"Tay\" Cook",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 12802
+        },
+        {
+          "name": "James A. \"Jim\" Elliott",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 12796
+        },
+        {
+          "name": "A. L. \"Fat\" Hawes",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 12269
+        },
+        {
+          "name": "Ed Sawyer",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 12592
+        }
+      ],
+      "contest_id": "az-1966-historical-state-house-district-2",
+      "reconciliation": {
+        "status": "reported",
+        "page": 3,
+        "district": "2",
+        "candidates": [
+          {
+            "candidate": "W. L. \"Tay\" Cook",
+            "official_total": 12802,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "James A. \"Jim\" Elliott",
+            "official_total": 12796,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "A. L. \"Fat\" Hawes",
+            "official_total": 12269,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Ed Sawyer",
+            "official_total": 12592,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "2",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Dan S. Kitchel",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 11904
+        },
+        {
+          "name": "A. R. Spikes",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 11724
+        },
+        {
+          "name": "W. L. Bristol",
+          "party": "REP",
+          "write_in": false,
+          "votes": 6999
+        }
+      ],
+      "contest_id": "az-1966-historical-state-senate-district-2",
+      "reconciliation": {
+        "status": "reported",
+        "page": 3,
+        "district": "2",
+        "candidates": [
+          {
+            "candidate": "Dan S. Kitchel",
+            "official_total": 11904,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "A. R. Spikes",
+            "official_total": 11724,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "W. L. Bristol",
+            "official_total": 6999,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "3",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Jack A. Brown",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 9136
+        },
+        {
+          "name": "Frank L. Crosby",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 9237
+        },
+        {
+          "name": "Lloyd L. House",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 8324
+        },
+        {
+          "name": "Clay B. Simer",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 8438
+        },
+        {
+          "name": "Drew Shumway",
+          "party": "REP",
+          "write_in": false,
+          "votes": 6727
+        }
+      ],
+      "contest_id": "az-1966-historical-state-house-district-3",
+      "reconciliation": {
+        "status": "reported",
+        "page": 3,
+        "district": "3",
+        "candidates": [
+          {
+            "candidate": "Jack A. Brown",
+            "official_total": 9136,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Frank L. Crosby",
+            "official_total": 9237,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Lloyd L. House",
+            "official_total": 8324,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Clay B. Simer",
+            "official_total": 8438,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Drew Shumway",
+            "official_total": 6727,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "3",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Glenn Blansett",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 7403
+        },
+        {
+          "name": "William \"Bill\" Huso",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 8573
+        },
+        {
+          "name": "Arthur C. Whiting",
+          "party": "REP",
+          "write_in": false,
+          "votes": 6731
+        }
+      ],
+      "contest_id": "az-1966-historical-state-senate-district-3",
+      "reconciliation": {
+        "status": "reported",
+        "page": 3,
+        "district": "3",
+        "candidates": [
+          {
+            "candidate": "Glenn Blansett",
+            "official_total": 7403,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "William \"Bill\" Huso",
+            "official_total": 8573,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Arthur C. Whiting",
+            "official_total": 6731,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "4",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Harold L. Huffer",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 3967
+        },
+        {
+          "name": "Sam A. McConnell, Jr.",
+          "party": "REP",
+          "write_in": false,
+          "votes": 3945
+        }
+      ],
+      "contest_id": "az-1966-historical-state-house-district-4",
+      "reconciliation": {
+        "status": "reported",
+        "page": 3,
+        "district": "4",
+        "candidates": [
+          {
+            "candidate": "Harold L. Huffer",
+            "official_total": 3967,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Sam A. McConnell, Jr.",
+            "official_total": 3945,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "4",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Thos. M. (Tommy) Knoles, Jr.",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 4605
+        },
+        {
+          "name": "Alfred E. Wohlschlegel",
+          "party": "REP",
+          "write_in": false,
+          "votes": 2865
+        }
+      ],
+      "contest_id": "az-1966-historical-state-senate-district-4",
+      "reconciliation": {
+        "status": "reported",
+        "page": 3,
+        "district": "4",
+        "candidates": [
+          {
+            "candidate": "Thos. M. (Tommy) Knoles, Jr.",
+            "official_total": 4605,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Alfred E. Wohlschlegel",
+            "official_total": 2865,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "5",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Polly Getzwiller",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 15263
+        },
+        {
+          "name": "A. V. \"Bill\" Hardt",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 15075
+        },
+        {
+          "name": "E. C. \"Polly\" Rosenbaum",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 14764
+        },
+        {
+          "name": "Frederick S. Smith",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 13702
+        },
+        {
+          "name": "Kenneth Rogers",
+          "party": "REP",
+          "write_in": false,
+          "votes": 7680
+        }
+      ],
+      "contest_id": "az-1966-historical-state-house-district-5",
+      "reconciliation": {
+        "status": "reported",
+        "page": 3,
+        "district": "5",
+        "candidates": [
+          {
+            "candidate": "Polly Getzwiller",
+            "official_total": 15263,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "A. V. \"Bill\" Hardt",
+            "official_total": 15075,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "E. C. \"Polly\" Rosenbaum",
+            "official_total": 14764,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Frederick S. Smith",
+            "official_total": 13702,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Kenneth Rogers",
+            "official_total": 7680,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "5",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Clarence L. Carpenter",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 15920
+        },
+        {
+          "name": "E. B. \"Blodie\" Thode",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 14764
+        }
+      ],
+      "contest_id": "az-1966-historical-state-senate-district-5",
+      "reconciliation": {
+        "status": "reported",
+        "page": 3,
+        "district": "5",
+        "candidates": [
+          {
+            "candidate": "Clarence L. Carpenter",
+            "official_total": 15920,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "E. B. \"Blodie\" Thode",
+            "official_total": 14764,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "6",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Charles A. (Charlie) Johnson",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 7191
+        },
+        {
+          "name": "M. G. \"Pop\" Miniken",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 6995
+        }
+      ],
+      "contest_id": "az-1966-historical-state-house-district-6",
+      "reconciliation": {
+        "status": "reported",
+        "page": 3,
+        "district": "6",
+        "candidates": [
+          {
+            "candidate": "Charles A. (Charlie) Johnson",
+            "official_total": 7191,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "M. G. \"Pop\" Miniken",
+            "official_total": 6995,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "6",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Harold C. Giss",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 7790
+        }
+      ],
+      "contest_id": "az-1966-historical-state-senate-district-6",
+      "reconciliation": {
+        "status": "reported",
+        "page": 3,
+        "district": "6",
+        "candidates": [
+          {
+            "candidate": "Harold C. Giss",
+            "official_total": 7790,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "7-A",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Tony Carrillo",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 7663
+        },
+        {
+          "name": "E. S. (Bud) Walker",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 7833
+        },
+        {
+          "name": "James R. Grainger",
+          "party": "REP",
+          "write_in": false,
+          "votes": 3830
+        }
+      ],
+      "contest_id": "az-1966-historical-state-house-district-7-A",
+      "reconciliation": {
+        "status": "reported",
+        "page": 3,
+        "district": "7-A",
+        "candidates": [
+          {
+            "candidate": "Tony Carrillo",
+            "official_total": 7663,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "E. S. (Bud) Walker",
+            "official_total": 7833,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "James R. Grainger",
+            "official_total": 3830,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "7-A",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Joe Castillo",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 8436
+        }
+      ],
+      "contest_id": "az-1966-historical-state-senate-district-7-A",
+      "reconciliation": {
+        "status": "reported",
+        "page": 3,
+        "district": "7-A",
+        "candidates": [
+          {
+            "candidate": "Joe Castillo",
+            "official_total": 8436,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "7-B",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Etta Mae Hutcheson",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 6116
+        },
+        {
+          "name": "Ethel Maynard",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 5013
+        },
+        {
+          "name": "Morgan Maxwell, Jr.",
+          "party": "REP",
+          "write_in": false,
+          "votes": 4452
+        }
+      ],
+      "contest_id": "az-1966-historical-state-house-district-7-B",
+      "reconciliation": {
+        "status": "reported",
+        "page": 3,
+        "district": "7-B",
+        "candidates": [
+          {
+            "candidate": "Etta Mae Hutcheson",
+            "official_total": 6116,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Ethel Maynard",
+            "official_total": 5013,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Morgan Maxwell, Jr.",
+            "official_total": 4452,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "7-B",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "F. T. \"Limie\" Gibbings",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 5624
+        },
+        {
+          "name": "Maxwell R. Palmer, Jr.",
+          "party": "REP",
+          "write_in": false,
+          "votes": 3747
+        }
+      ],
+      "contest_id": "az-1966-historical-state-senate-district-7-B",
+      "reconciliation": {
+        "status": "reported",
+        "page": 3,
+        "district": "7-B",
+        "candidates": [
+          {
+            "candidate": "F. T. \"Limie\" Gibbings",
+            "official_total": 5624,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Maxwell R. Palmer, Jr.",
+            "official_total": 3747,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "7-C",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "R. P. \"Bob\" Fricks",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 6505
+        },
+        {
+          "name": "Sam Lena",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 6781
+        },
+        {
+          "name": "Walter Frank Dellow",
+          "party": "REP",
+          "write_in": false,
+          "votes": 5245
+        }
+      ],
+      "contest_id": "az-1966-historical-state-house-district-7-C",
+      "reconciliation": {
+        "status": "reported",
+        "page": 3,
+        "district": "7-C",
+        "candidates": [
+          {
+            "candidate": "R. P. \"Bob\" Fricks",
+            "official_total": 6505,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Sam Lena",
+            "official_total": 6781,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Walter Frank Dellow",
+            "official_total": 5245,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "7-C",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Sol Ahee",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 4959
+        },
+        {
+          "name": "Ernest Garfield",
+          "party": "REP",
+          "write_in": false,
+          "votes": 6817
+        }
+      ],
+      "contest_id": "az-1966-historical-state-senate-district-7-C",
+      "reconciliation": {
+        "status": "reported",
+        "page": 3,
+        "district": "7-C",
+        "candidates": [
+          {
+            "candidate": "Sol Ahee",
+            "official_total": 4959,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Ernest Garfield",
+            "official_total": 6817,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "7-D",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "David Wine",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 5920
+        },
+        {
+          "name": "Richard E. Bailey",
+          "party": "REP",
+          "write_in": false,
+          "votes": 7414
+        },
+        {
+          "name": "Thomas N. \"Tom\" Goodwin",
+          "party": "REP",
+          "write_in": false,
+          "votes": 7351
+        }
+      ],
+      "contest_id": "az-1966-historical-state-house-district-7-D",
+      "reconciliation": {
+        "status": "reported",
+        "page": 3,
+        "district": "7-D",
+        "candidates": [
+          {
+            "candidate": "David Wine",
+            "official_total": 5920,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Richard E. Bailey",
+            "official_total": 7414,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Thomas N. \"Tom\" Goodwin",
+            "official_total": 7351,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "7-D",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Douglas S. Holsclaw",
+          "party": "REP",
+          "write_in": false,
+          "votes": 8425
+        }
+      ],
+      "contest_id": "az-1966-historical-state-senate-district-7-D",
+      "reconciliation": {
+        "status": "reported",
+        "page": 3,
+        "district": "7-D",
+        "candidates": [
+          {
+            "candidate": "Douglas S. Holsclaw",
+            "official_total": 8425,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "7-E",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Ray Martin",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 5812
+        },
+        {
+          "name": "David B. Stone",
+          "party": "REP",
+          "write_in": false,
+          "votes": 6893
+        },
+        {
+          "name": "Albert C. Williams",
+          "party": "REP",
+          "write_in": false,
+          "votes": 7085
+        }
+      ],
+      "contest_id": "az-1966-historical-state-house-district-7-E",
+      "reconciliation": {
+        "status": "reported",
+        "page": 3,
+        "district": "7-E",
+        "candidates": [
+          {
+            "candidate": "Ray Martin",
+            "official_total": 5812,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "David B. Stone",
+            "official_total": 6893,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Albert C. Williams",
+            "official_total": 7085,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "7-E",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Frank Appleton",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 6172
+        },
+        {
+          "name": "Thomas G. Beaham",
+          "party": "REP",
+          "write_in": false,
+          "votes": 6924
+        }
+      ],
+      "contest_id": "az-1966-historical-state-senate-district-7-E",
+      "reconciliation": {
+        "status": "reported",
+        "page": 3,
+        "district": "7-E",
+        "candidates": [
+          {
+            "candidate": "Frank Appleton",
+            "official_total": 6172,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Thomas G. Beaham",
+            "official_total": 6924,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "7-F",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "George B. Marvel",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 4437
+        },
+        {
+          "name": "Joseph \"Joe\" Minarik",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 5163
+        },
+        {
+          "name": "Scott Alexander",
+          "party": "REP",
+          "write_in": false,
+          "votes": 8947
+        },
+        {
+          "name": "W. A. \"Tony\" Buehl",
+          "party": "REP",
+          "write_in": false,
+          "votes": 8174
+        }
+      ],
+      "contest_id": "az-1966-historical-state-house-district-7-F",
+      "reconciliation": {
+        "status": "reported",
+        "page": 3,
+        "district": "7-F",
+        "candidates": [
+          {
+            "candidate": "George B. Marvel",
+            "official_total": 4437,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Joseph \"Joe\" Minarik",
+            "official_total": 5163,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Scott Alexander",
+            "official_total": 8947,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "W. A. \"Tony\" Buehl",
+            "official_total": 8174,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "7-F",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Edward F. Hennessy",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 4919
+        },
+        {
+          "name": "William C. Jacquin",
+          "party": "REP",
+          "write_in": false,
+          "votes": 8803
+        }
+      ],
+      "contest_id": "az-1966-historical-state-senate-district-7-F",
+      "reconciliation": {
+        "status": "reported",
+        "page": 3,
+        "district": "7-F",
+        "candidates": [
+          {
+            "candidate": "Edward F. Hennessy",
+            "official_total": 4919,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "William C. Jacquin",
+            "official_total": 8803,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "8-A",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "Dr. John Carney",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 6700
+        },
+        {
+          "name": "William Petersen",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 5814
+        },
+        {
+          "name": "Walter E. Bloom",
+          "party": "REP",
+          "write_in": false,
+          "votes": 7338
+        },
+        {
+          "name": "James F. Holley",
+          "party": "REP",
+          "write_in": false,
+          "votes": 7260
+        }
+      ],
+      "contest_id": "az-1966-historical-state-house-district-8-A",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "8-A",
+        "candidates": [
+          {
+            "candidate": "Dr. John Carney",
+            "official_total": 6700,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "William Petersen",
+            "official_total": 5814,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Walter E. Bloom",
+            "official_total": 7338,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "James F. Holley",
+            "official_total": 7260,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "8-A",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "Ed Hamblen",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 5813
+        },
+        {
+          "name": "Marshall Humphrey",
+          "party": "REP",
+          "write_in": false,
+          "votes": 7901
+        }
+      ],
+      "contest_id": "az-1966-historical-state-senate-district-8-A",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "8-A",
+        "candidates": [
+          {
+            "candidate": "Ed Hamblen",
+            "official_total": 5813,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Marshall Humphrey",
+            "official_total": 7901,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "8-B",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "Donald Bogle",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 3841
+        },
+        {
+          "name": "Duke Morris",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 4707
+        },
+        {
+          "name": "D. Delos Ellsworth",
+          "party": "REP",
+          "write_in": false,
+          "votes": 9908
+        },
+        {
+          "name": "Stan Turley",
+          "party": "REP",
+          "write_in": false,
+          "votes": 9764
+        }
+      ],
+      "contest_id": "az-1966-historical-state-house-district-8-B",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "8-B",
+        "candidates": [
+          {
+            "candidate": "Donald Bogle",
+            "official_total": 3841,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Duke Morris",
+            "official_total": 4707,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "D. Delos Ellsworth",
+            "official_total": 9908,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Stan Turley",
+            "official_total": 9764,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "8-B",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "Wm. S. Porter",
+          "party": "REP",
+          "write_in": false,
+          "votes": 10550
+        }
+      ],
+      "contest_id": "az-1966-historical-state-senate-district-8-B",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "8-B",
+        "candidates": [
+          {
+            "candidate": "Wm. S. Porter",
+            "official_total": 10550,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "8-C",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "N. James Gremanis",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 3474
+        },
+        {
+          "name": "Vernon Smith",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 3982
+        },
+        {
+          "name": "Sam Flake",
+          "party": "REP",
+          "write_in": false,
+          "votes": 10177
+        },
+        {
+          "name": "John C. Pritzlaff",
+          "party": "REP",
+          "write_in": false,
+          "votes": 11395
+        }
+      ],
+      "contest_id": "az-1966-historical-state-house-district-8-C",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "8-C",
+        "candidates": [
+          {
+            "candidate": "N. James Gremanis",
+            "official_total": 3474,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Vernon Smith",
+            "official_total": 3982,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Sam Flake",
+            "official_total": 10177,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "John C. Pritzlaff",
+            "official_total": 11395,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "8-C",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "L. H. Bell",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 5400
+        },
+        {
+          "name": "John B. Conlan",
+          "party": "REP",
+          "write_in": false,
+          "votes": 9324
+        }
+      ],
+      "contest_id": "az-1966-historical-state-senate-district-8-C",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "8-C",
+        "candidates": [
+          {
+            "candidate": "L. H. Bell",
+            "official_total": 5400,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "John B. Conlan",
+            "official_total": 9324,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "8-D",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "Robert L. Reding",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 4798
+        },
+        {
+          "name": "Dorothy Boone Survaunt",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 4082
+        },
+        {
+          "name": "Frank Kelley",
+          "party": "REP",
+          "write_in": false,
+          "votes": 8451
+        },
+        {
+          "name": "James Shelley",
+          "party": "REP",
+          "write_in": false,
+          "votes": 8717
+        }
+      ],
+      "contest_id": "az-1966-historical-state-house-district-8-D",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "8-D",
+        "candidates": [
+          {
+            "candidate": "Robert L. Reding",
+            "official_total": 4798,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Dorothy Boone Survaunt",
+            "official_total": 4082,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Frank Kelley",
+            "official_total": 8451,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "James Shelley",
+            "official_total": 8717,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "8-D",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "Kemper Goodwin",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 5827
+        },
+        {
+          "name": "David B. Kret",
+          "party": "REP",
+          "write_in": false,
+          "votes": 7411
+        }
+      ],
+      "contest_id": "az-1966-historical-state-senate-district-8-D",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "8-D",
+        "candidates": [
+          {
+            "candidate": "Kemper Goodwin",
+            "official_total": 5827,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "David B. Kret",
+            "official_total": 7411,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "8-E",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "Eleanor P. Breen",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 4193
+        },
+        {
+          "name": "Frank Kadish",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 4374
+        },
+        {
+          "name": "Ruth Adams",
+          "party": "REP",
+          "write_in": false,
+          "votes": 9615
+        },
+        {
+          "name": "John D. Roeder",
+          "party": "REP",
+          "write_in": false,
+          "votes": 9591
+        }
+      ],
+      "contest_id": "az-1966-historical-state-house-district-8-E",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "8-E",
+        "candidates": [
+          {
+            "candidate": "Eleanor P. Breen",
+            "official_total": 4193,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Frank Kadish",
+            "official_total": 4374,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Ruth Adams",
+            "official_total": 9615,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "John D. Roeder",
+            "official_total": 9591,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "8-E",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "Isabel Burgess",
+          "party": "REP",
+          "write_in": false,
+          "votes": 10424
+        }
+      ],
+      "contest_id": "az-1966-historical-state-senate-district-8-E",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "8-E",
+        "candidates": [
+          {
+            "candidate": "Isabel Burgess",
+            "official_total": 10424,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "8-F",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "W. F. \"Pat\" Vipperman",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 6395
+        },
+        {
+          "name": "Laverne E. Welker",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 6329
+        },
+        {
+          "name": "D. Lee Jones",
+          "party": "REP",
+          "write_in": false,
+          "votes": 6549
+        }
+      ],
+      "contest_id": "az-1966-historical-state-house-district-8-F",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "8-F",
+        "candidates": [
+          {
+            "candidate": "W. F. \"Pat\" Vipperman",
+            "official_total": 6395,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Laverne E. Welker",
+            "official_total": 6329,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "D. Lee Jones",
+            "official_total": 6549,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "8-F",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "Wing F. Ong",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 6435
+        },
+        {
+          "name": "J. Howard Hoelzer",
+          "party": "REP",
+          "write_in": false,
+          "votes": 5572
+        }
+      ],
+      "contest_id": "az-1966-historical-state-senate-district-8-F",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "8-F",
+        "candidates": [
+          {
+            "candidate": "Wing F. Ong",
+            "official_total": 6435,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "J. Howard Hoelzer",
+            "official_total": 5572,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "8-G",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "Tony Abril",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 7138
+        },
+        {
+          "name": "Leon Thompson",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 7547
+        },
+        {
+          "name": "Ford Smith",
+          "party": "REP",
+          "write_in": false,
+          "votes": 2460
+        }
+      ],
+      "contest_id": "az-1966-historical-state-house-district-8-G",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "8-G",
+        "candidates": [
+          {
+            "candidate": "Tony Abril",
+            "official_total": 7138,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Leon Thompson",
+            "official_total": 7547,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Ford Smith",
+            "official_total": 2460,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "8-G",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "Cloves Campbell",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 7862
+        }
+      ],
+      "contest_id": "az-1966-historical-state-senate-district-8-G",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "8-G",
+        "candidates": [
+          {
+            "candidate": "Cloves Campbell",
+            "official_total": 7862,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "8-H",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "N. Pike Johnson, Jr.",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 4795
+        },
+        {
+          "name": "Sybil Udall",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 5474
+        },
+        {
+          "name": "Elizabeth Adams Rockwell",
+          "party": "REP",
+          "write_in": false,
+          "votes": 7717
+        },
+        {
+          "name": "Jay Stuckey",
+          "party": "REP",
+          "write_in": false,
+          "votes": 7826
+        }
+      ],
+      "contest_id": "az-1966-historical-state-house-district-8-H",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "8-H",
+        "candidates": [
+          {
+            "candidate": "N. Pike Johnson, Jr.",
+            "official_total": 4795,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Sybil Udall",
+            "official_total": 5474,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Elizabeth Adams Rockwell",
+            "official_total": 7717,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Jay Stuckey",
+            "official_total": 7826,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "8-H",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "Gerald A. Pollock",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 5251
+        },
+        {
+          "name": "Orme Lewis, Jr.",
+          "party": "REP",
+          "write_in": false,
+          "votes": 7787
+        }
+      ],
+      "contest_id": "az-1966-historical-state-senate-district-8-H",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "8-H",
+        "candidates": [
+          {
+            "candidate": "Gerald A. Pollock",
+            "official_total": 5251,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Orme Lewis, Jr.",
+            "official_total": 7787,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "8-I",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "Herbert F. Knauss",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 4989
+        },
+        {
+          "name": "Michael Mignella",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 5569
+        },
+        {
+          "name": "Burton S. Barr",
+          "party": "REP",
+          "write_in": false,
+          "votes": 9158
+        },
+        {
+          "name": "Ruth Peck",
+          "party": "REP",
+          "write_in": false,
+          "votes": 8855
+        }
+      ],
+      "contest_id": "az-1966-historical-state-house-district-8-I",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "8-I",
+        "candidates": [
+          {
+            "candidate": "Herbert F. Knauss",
+            "official_total": 4989,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Michael Mignella",
+            "official_total": 5569,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Burton S. Barr",
+            "official_total": 9158,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Ruth Peck",
+            "official_total": 8855,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "8-I",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "Rosendo Gutierrez",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 6250
+        },
+        {
+          "name": "Chet Goldberg, Jr.",
+          "party": "REP",
+          "write_in": false,
+          "votes": 8326
+        }
+      ],
+      "contest_id": "az-1966-historical-state-senate-district-8-I",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "8-I",
+        "candidates": [
+          {
+            "candidate": "Rosendo Gutierrez",
+            "official_total": 6250,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Chet Goldberg, Jr.",
+            "official_total": 8326,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "8-J",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "Joseph E. Lawrence",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 5126
+        },
+        {
+          "name": "Robert B. Selman",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 4396
+        },
+        {
+          "name": "Stan Akers",
+          "party": "REP",
+          "write_in": false,
+          "votes": 9243
+        },
+        {
+          "name": "Timothy A. Barrow",
+          "party": "REP",
+          "write_in": false,
+          "votes": 10095
+        }
+      ],
+      "contest_id": "az-1966-historical-state-house-district-8-J",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "8-J",
+        "candidates": [
+          {
+            "candidate": "Joseph E. Lawrence",
+            "official_total": 5126,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Robert B. Selman",
+            "official_total": 4396,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Stan Akers",
+            "official_total": 9243,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Timothy A. Barrow",
+            "official_total": 10095,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "8-J",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "Bruce Wallace",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 5201
+        },
+        {
+          "name": "Bob Wilcox",
+          "party": "REP",
+          "write_in": false,
+          "votes": 9439
+        }
+      ],
+      "contest_id": "az-1966-historical-state-senate-district-8-J",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "8-J",
+        "candidates": [
+          {
+            "candidate": "Bruce Wallace",
+            "official_total": 5201,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Bob Wilcox",
+            "official_total": 9439,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "8-K",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "Bill Brown",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 4953
+        },
+        {
+          "name": "Davidson Jenks",
+          "party": "REP",
+          "write_in": false,
+          "votes": 9555
+        },
+        {
+          "name": "George J. Pale",
+          "party": "REP",
+          "write_in": false,
+          "votes": 9451
+        }
+      ],
+      "contest_id": "az-1966-historical-state-house-district-8-K",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "8-K",
+        "candidates": [
+          {
+            "candidate": "Bill Brown",
+            "official_total": 4953,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Davidson Jenks",
+            "official_total": 9555,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "George J. Pale",
+            "official_total": 9451,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "8-K",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "Ray A. Goetze",
+          "party": "REP",
+          "write_in": false,
+          "votes": 9963
+        }
+      ],
+      "contest_id": "az-1966-historical-state-senate-district-8-K",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "8-K",
+        "candidates": [
+          {
+            "candidate": "Ray A. Goetze",
+            "official_total": 9963,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "8-L",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "Harry E. Craig",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 6669
+        },
+        {
+          "name": "M. C. Plummer",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 6156
+        },
+        {
+          "name": "Rex J. Farley",
+          "party": "REP",
+          "write_in": false,
+          "votes": 7586
+        },
+        {
+          "name": "Joseph Shaughnessy, Jr.",
+          "party": "REP",
+          "write_in": false,
+          "votes": 7983
+        }
+      ],
+      "contest_id": "az-1966-historical-state-house-district-8-L",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "8-L",
+        "candidates": [
+          {
+            "candidate": "Harry E. Craig",
+            "official_total": 6669,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "M. C. Plummer",
+            "official_total": 6156,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Rex J. Farley",
+            "official_total": 7586,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Joseph Shaughnessy, Jr.",
+            "official_total": 7983,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "8-L",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "George W. Peck",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 6243
+        },
+        {
+          "name": "Christopher T. Johnson",
+          "party": "REP",
+          "write_in": false,
+          "votes": 8436
+        }
+      ],
+      "contest_id": "az-1966-historical-state-senate-district-8-L",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "8-L",
+        "candidates": [
+          {
+            "candidate": "George W. Peck",
+            "official_total": 6243,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Christopher T. Johnson",
+            "official_total": 8436,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "8-M",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "Al Frantz",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 6055
+        },
+        {
+          "name": "J. R. Rickard",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 6279
+        },
+        {
+          "name": "J. H. Evenson",
+          "party": "REP",
+          "write_in": false,
+          "votes": 5842
+        },
+        {
+          "name": "Bess B. Stinson",
+          "party": "REP",
+          "write_in": false,
+          "votes": 6701
+        }
+      ],
+      "contest_id": "az-1966-historical-state-house-district-8-M",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "8-M",
+        "candidates": [
+          {
+            "candidate": "Al Frantz",
+            "official_total": 6055,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "J. R. Rickard",
+            "official_total": 6279,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "J. H. Evenson",
+            "official_total": 5842,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Bess B. Stinson",
+            "official_total": 6701,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "8-M",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "William T. Crowley",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 6548
+        },
+        {
+          "name": "George Klock",
+          "party": "REP",
+          "write_in": false,
+          "votes": 5929
+        }
+      ],
+      "contest_id": "az-1966-historical-state-senate-district-8-M",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "8-M",
+        "candidates": [
+          {
+            "candidate": "William T. Crowley",
+            "official_total": 6548,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "George Klock",
+            "official_total": 5929,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "8-N",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "Art Coppinger",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 7157
+        },
+        {
+          "name": "Manuel Pena",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 6720
+        },
+        {
+          "name": "William A. Herron",
+          "party": "REP",
+          "write_in": false,
+          "votes": 4275
+        }
+      ],
+      "contest_id": "az-1966-historical-state-house-district-8-N",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "8-N",
+        "candidates": [
+          {
+            "candidate": "Art Coppinger",
+            "official_total": 7157,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Manuel Pena",
+            "official_total": 6720,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "William A. Herron",
+            "official_total": 4275,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "8-N",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "Bob Stump",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 7706
+        },
+        {
+          "name": "A. J. LaSalvia",
+          "party": "REP",
+          "write_in": false,
+          "votes": 3327
+        }
+      ],
+      "contest_id": "az-1966-historical-state-senate-district-8-N",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "8-N",
+        "candidates": [
+          {
+            "candidate": "Bob Stump",
+            "official_total": 7706,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "A. J. LaSalvia",
+            "official_total": 3327,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "8-O",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "J. Lee Henry",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 4640
+        },
+        {
+          "name": "Harold W. Smith",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 5901
+        },
+        {
+          "name": "Al Kluender",
+          "party": "REP",
+          "write_in": false,
+          "votes": 7239
+        },
+        {
+          "name": "Fred Koory, Jr.",
+          "party": "REP",
+          "write_in": false,
+          "votes": 6596
+        }
+      ],
+      "contest_id": "az-1966-historical-state-house-district-8-O",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "8-O",
+        "candidates": [
+          {
+            "candidate": "J. Lee Henry",
+            "official_total": 4640,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Harold W. Smith",
+            "official_total": 5901,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Al Kluender",
+            "official_total": 7239,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Fred Koory, Jr.",
+            "official_total": 6596,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "8-O",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "M. J. Brown",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 4833
+        },
+        {
+          "name": "Dan Halacy",
+          "party": "REP",
+          "write_in": false,
+          "votes": 6193
+        },
+        {
+          "name": "T. C. Rhodes",
+          "party": "I",
+          "write_in": false,
+          "votes": 1819
+        }
+      ],
+      "contest_id": "az-1966-historical-state-senate-district-8-O",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "8-O",
+        "candidates": [
+          {
+            "candidate": "M. J. Brown",
+            "official_total": 4833,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Dan Halacy",
+            "official_total": 6193,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "T. C. Rhodes",
+            "official_total": 1819,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    }
+  ]
+}

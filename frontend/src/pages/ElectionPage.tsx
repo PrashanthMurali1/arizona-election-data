@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { Link, useNavigate, useParams } from "react-router-dom";
 import type { Activity, Detail, Election, Geography, Results } from "../types";
 import HouseElectionPage from "./HouseElectionPage";
+import HistoricalElectionPage from "./HistoricalElectionPage";
 import SnapshotNotice from "../SnapshotNotice";
 import { get, useResource } from "../api";
 import {
@@ -28,7 +29,9 @@ export default function ElectionPage() {
     ].includes(id)
   )
     return <NotFound />;
-  return id.includes("-us-house") ? (
+  return id.includes("-historical-") ? (
+    <HistoricalElectionPage key={id} id={id} />
+  ) : id.includes("-us-house") ? (
     <HouseElectionPage key={id} id={id} />
   ) : (
     <StatewideElectionRoute id={id} />

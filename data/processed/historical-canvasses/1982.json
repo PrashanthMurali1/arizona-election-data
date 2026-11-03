@@ -1,0 +1,4205 @@
+{
+  "year": 1982,
+  "source_sha256": "cab01bb8ba5ad5bf6fa2ce7e49e688a15b7d7ce041e9b6883f5eb755ae464540",
+  "absent_offices": [
+    "president"
+  ],
+  "unresolved": [],
+  "contests": [
+    {
+      "office_id": "us-senate",
+      "district": null,
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Dennis DeConcini",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 411970,
+          "county_votes": {
+            "04001": 6455,
+            "04003": 12907,
+            "04005": 13888,
+            "04007": 7721,
+            "04009": 3994,
+            "04011": 2630,
+            "04013": 199671,
+            "04015": 9799,
+            "04017": 8223,
+            "04019": 104764,
+            "04021": 14316,
+            "04023": 3162,
+            "04025": 12582,
+            "04027": 11858
+          }
+        },
+        {
+          "name": "Pete Dunn",
+          "party": "REP",
+          "write_in": false,
+          "votes": 291749,
+          "county_votes": {
+            "04001": 2517,
+            "04003": 6787,
+            "04005": 6517,
+            "04007": 3812,
+            "04009": 2517,
+            "04011": 575,
+            "04013": 180917,
+            "04015": 8057,
+            "04017": 5437,
+            "04019": 47041,
+            "04021": 6474,
+            "04023": 1460,
+            "04025": 13036,
+            "04027": 6602
+          }
+        },
+        {
+          "name": "Randall \"Pete Bardo\" Clamons",
+          "party": "L",
+          "write_in": false,
+          "votes": 20100,
+          "county_votes": {
+            "04001": 238,
+            "04003": 418,
+            "04005": 901,
+            "04007": 218,
+            "04009": 99,
+            "04011": 38,
+            "04013": 10235,
+            "04015": 351,
+            "04017": 297,
+            "04019": 5686,
+            "04021": 426,
+            "04023": 122,
+            "04025": 758,
+            "04027": 313
+          }
+        },
+        {
+          "name": "Rob Roper",
+          "party": "SW",
+          "write_in": true,
+          "votes": 66,
+          "county_votes": {
+            "04001": 1,
+            "04003": 1,
+            "04005": 2,
+            "04007": 1,
+            "04009": 0,
+            "04011": 1,
+            "04013": 49,
+            "04015": 1,
+            "04017": 0,
+            "04019": 8,
+            "04021": 0,
+            "04023": 0,
+            "04025": 1,
+            "04027": 1
+          }
+        }
+      ],
+      "contest_id": "az-1982-us-senate",
+      "reconciliation": {
+        "status": "verified",
+        "page": 1,
+        "district": null,
+        "candidates": [
+          {
+            "candidate": "Dennis DeConcini",
+            "official_total": 411970,
+            "county_sum": 411970,
+            "county_coverage": 14,
+            "difference": 0
+          },
+          {
+            "candidate": "Pete Dunn",
+            "official_total": 291749,
+            "county_sum": 291749,
+            "county_coverage": 14,
+            "difference": 0
+          },
+          {
+            "candidate": "Randall \"Pete Bardo\" Clamons",
+            "official_total": 20100,
+            "county_sum": 20100,
+            "county_coverage": 14,
+            "difference": 0
+          },
+          {
+            "candidate": "Rob Roper",
+            "official_total": 66,
+            "county_sum": 66,
+            "county_coverage": 14,
+            "difference": 0
+          }
+        ],
+        "county_count": 14,
+        "coverage": "county",
+        "multi_seat": false,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "us-house",
+      "district": "1",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "William E. \"Bill\" Hegarty",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 41261
+        },
+        {
+          "name": "John McCain",
+          "party": "REP",
+          "write_in": false,
+          "votes": 89116
+        },
+        {
+          "name": "Richard K. Dodge",
+          "party": "L",
+          "write_in": false,
+          "votes": 4850
+        }
+      ],
+      "contest_id": "az-1982-historical-us-house-district-1",
+      "reconciliation": {
+        "status": "reported",
+        "page": 1,
+        "district": "1",
+        "candidates": [
+          {
+            "candidate": "William E. \"Bill\" Hegarty",
+            "official_total": 41261,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "John McCain",
+            "official_total": 89116,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Richard K. Dodge",
+            "official_total": 4850,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": false,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "us-house",
+      "district": "2",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Morris K. Udall",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 73468
+        },
+        {
+          "name": "Roy B. Laos",
+          "party": "REP",
+          "write_in": false,
+          "votes": 28407
+        },
+        {
+          "name": "Jessica Sampson",
+          "party": "YSA",
+          "write_in": false,
+          "votes": 1799
+        }
+      ],
+      "contest_id": "az-1982-historical-us-house-district-2",
+      "reconciliation": {
+        "status": "reported",
+        "page": 1,
+        "district": "2",
+        "candidates": [
+          {
+            "candidate": "Morris K. Udall",
+            "official_total": 73468,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Roy B. Laos",
+            "official_total": 28407,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Jessica Sampson",
+            "official_total": 1799,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": false,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "us-house",
+      "district": "3",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Pat Bosch",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 58644
+        },
+        {
+          "name": "Bob Stump",
+          "party": "REP",
+          "write_in": false,
+          "votes": 101198
+        }
+      ],
+      "contest_id": "az-1982-historical-us-house-district-3",
+      "reconciliation": {
+        "status": "reported",
+        "page": 1,
+        "district": "3",
+        "candidates": [
+          {
+            "candidate": "Pat Bosch",
+            "official_total": 58644,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Bob Stump",
+            "official_total": 101198,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": false,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "us-house",
+      "district": "4",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Wayne O. Earley",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 44182
+        },
+        {
+          "name": "Eldon Rudd",
+          "party": "REP",
+          "write_in": false,
+          "votes": 95620
+        },
+        {
+          "name": "Richard A. \"Dick\" Stauffer",
+          "party": "L",
+          "write_in": false,
+          "votes": 5664
+        }
+      ],
+      "contest_id": "az-1982-historical-us-house-district-4",
+      "reconciliation": {
+        "status": "reported",
+        "page": 1,
+        "district": "4",
+        "candidates": [
+          {
+            "candidate": "Wayne O. Earley",
+            "official_total": 44182,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Eldon Rudd",
+            "official_total": 95620,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Richard A. \"Dick\" Stauffer",
+            "official_total": 5664,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": false,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "us-house",
+      "district": "5",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Jim McNulty",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 82938
+        },
+        {
+          "name": "Jim Kolbe",
+          "party": "REP",
+          "write_in": false,
+          "votes": 80531
+        },
+        {
+          "name": "Richard D. Auster",
+          "party": "L",
+          "write_in": false,
+          "votes": 3332
+        },
+        {
+          "name": "Denis Gerald Green",
+          "party": "I",
+          "write_in": true,
+          "votes": 1
+        }
+      ],
+      "contest_id": "az-1982-historical-us-house-district-5",
+      "reconciliation": {
+        "status": "reported",
+        "page": 1,
+        "district": "5",
+        "candidates": [
+          {
+            "candidate": "Jim McNulty",
+            "official_total": 82938,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Jim Kolbe",
+            "official_total": 80531,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Richard D. Auster",
+            "official_total": 3332,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Denis Gerald Green",
+            "official_total": 1,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": false,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "governor",
+      "district": null,
+      "page": 2,
+      "candidates": [
+        {
+          "name": "Bruce Babbitt",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 453795,
+          "county_votes": {
+            "04001": 6584,
+            "04003": 13196,
+            "04005": 14773,
+            "04007": 7343,
+            "04009": 4127,
+            "04011": 2578,
+            "04013": 228217,
+            "04015": 10533,
+            "04017": 8566,
+            "04019": 113982,
+            "04021": 14527,
+            "04023": 3519,
+            "04025": 14339,
+            "04027": 11511
+          }
+        },
+        {
+          "name": "Leo Corbet",
+          "party": "REP",
+          "write_in": false,
+          "votes": 235877,
+          "county_votes": {
+            "04001": 2723,
+            "04003": 6082,
+            "04005": 4997,
+            "04007": 3645,
+            "04009": 2123,
+            "04011": 580,
+            "04013": 142938,
+            "04015": 6617,
+            "04017": 4611,
+            "04019": 38235,
+            "04021": 5882,
+            "04023": 1098,
+            "04025": 9930,
+            "04027": 6416
+          }
+        },
+        {
+          "name": "Sam Steiger",
+          "party": "L",
+          "write_in": false,
+          "votes": 36649,
+          "county_votes": {
+            "04001": 546,
+            "04003": 815,
+            "04005": 1643,
+            "04007": 769,
+            "04009": 399,
+            "04011": 125,
+            "04013": 20457,
+            "04015": 1033,
+            "04017": 759,
+            "04019": 5873,
+            "04021": 1076,
+            "04023": 161,
+            "04025": 2127,
+            "04027": 866
+          }
+        },
+        {
+          "name": "Frank Henry Beversdorf, Sr.",
+          "party": "I",
+          "write_in": true,
+          "votes": 2,
+          "county_votes": {
+            "04001": 0,
+            "04003": 0,
+            "04005": 0,
+            "04007": 0,
+            "04009": 0,
+            "04011": 0,
+            "04013": 1,
+            "04015": 0,
+            "04017": 1,
+            "04019": 0,
+            "04021": 0,
+            "04023": 0,
+            "04025": 0,
+            "04027": 0
+          }
+        },
+        {
+          "name": "Dave Duncan",
+          "party": "REP",
+          "write_in": true,
+          "votes": 28,
+          "county_votes": {
+            "04001": 0,
+            "04003": 0,
+            "04005": 4,
+            "04007": 0,
+            "04009": 0,
+            "04011": 0,
+            "04013": 18,
+            "04015": 0,
+            "04017": 5,
+            "04019": 0,
+            "04021": 0,
+            "04023": 0,
+            "04025": 1,
+            "04027": 0
+          }
+        },
+        {
+          "name": "Sandy Greeneltch",
+          "party": "ND",
+          "write_in": true,
+          "votes": 13,
+          "county_votes": {
+            "04001": 0,
+            "04003": 0,
+            "04005": 2,
+            "04007": 0,
+            "04009": 0,
+            "04011": 0,
+            "04013": 4,
+            "04015": 0,
+            "04017": 1,
+            "04019": 2,
+            "04021": 1,
+            "04023": 0,
+            "04025": 1,
+            "04027": 2
+          }
+        }
+      ],
+      "notes": "Sandy Greeneltch did not indicate party preference, per source footnote.",
+      "contest_id": "az-1982-governor",
+      "reconciliation": {
+        "status": "verified",
+        "page": 2,
+        "district": null,
+        "candidates": [
+          {
+            "candidate": "Bruce Babbitt",
+            "official_total": 453795,
+            "county_sum": 453795,
+            "county_coverage": 14,
+            "difference": 0
+          },
+          {
+            "candidate": "Leo Corbet",
+            "official_total": 235877,
+            "county_sum": 235877,
+            "county_coverage": 14,
+            "difference": 0
+          },
+          {
+            "candidate": "Sam Steiger",
+            "official_total": 36649,
+            "county_sum": 36649,
+            "county_coverage": 14,
+            "difference": 0
+          },
+          {
+            "candidate": "Frank Henry Beversdorf, Sr.",
+            "official_total": 2,
+            "county_sum": 2,
+            "county_coverage": 14,
+            "difference": 0
+          },
+          {
+            "candidate": "Dave Duncan",
+            "official_total": 28,
+            "county_sum": 28,
+            "county_coverage": 14,
+            "difference": 0
+          },
+          {
+            "candidate": "Sandy Greeneltch",
+            "official_total": 13,
+            "county_sum": 13,
+            "county_coverage": 14,
+            "difference": 0
+          }
+        ],
+        "county_count": 14,
+        "coverage": "county",
+        "multi_seat": false,
+        "notes": "Sandy Greeneltch did not indicate party preference, per source footnote."
+      }
+    },
+    {
+      "office_id": "secretary-of-state",
+      "district": null,
+      "page": 2,
+      "candidates": [
+        {
+          "name": "Rose Mofford",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 425795,
+          "county_votes": {
+            "04001": 7005,
+            "04003": 11509,
+            "04005": 14270,
+            "04007": 8687,
+            "04009": 4428,
+            "04011": 2655,
+            "04013": 223932,
+            "04015": 11042,
+            "04017": 9081,
+            "04019": 88533,
+            "04021": 14945,
+            "04023": 2607,
+            "04025": 14868,
+            "04027": 12233
+          }
+        },
+        {
+          "name": "Alex F. Jacome",
+          "party": "REP",
+          "write_in": false,
+          "votes": 243363,
+          "county_votes": {
+            "04001": 1926,
+            "04003": 7244,
+            "04005": 4929,
+            "04007": 2462,
+            "04009": 1645,
+            "04011": 482,
+            "04013": 133978,
+            "04015": 5988,
+            "04017": 3778,
+            "04019": 59199,
+            "04021": 5278,
+            "04023": 1787,
+            "04025": 9383,
+            "04027": 5284
+          }
+        },
+        {
+          "name": "Dick Causer",
+          "party": "L",
+          "write_in": false,
+          "votes": 22827,
+          "county_votes": {
+            "04001": 393,
+            "04003": 584,
+            "04005": 1279,
+            "04007": 307,
+            "04009": 187,
+            "04011": 68,
+            "04013": 11636,
+            "04015": 599,
+            "04017": 414,
+            "04019": 5192,
+            "04021": 623,
+            "04023": 109,
+            "04025": 955,
+            "04027": 481
+          }
+        }
+      ],
+      "contest_id": "az-1982-secretary-of-state",
+      "reconciliation": {
+        "status": "verified",
+        "page": 2,
+        "district": null,
+        "candidates": [
+          {
+            "candidate": "Rose Mofford",
+            "official_total": 425795,
+            "county_sum": 425795,
+            "county_coverage": 14,
+            "difference": 0
+          },
+          {
+            "candidate": "Alex F. Jacome",
+            "official_total": 243363,
+            "county_sum": 243363,
+            "county_coverage": 14,
+            "difference": 0
+          },
+          {
+            "candidate": "Dick Causer",
+            "official_total": 22827,
+            "county_sum": 22827,
+            "county_coverage": 14,
+            "difference": 0
+          }
+        ],
+        "county_count": 14,
+        "coverage": "county",
+        "multi_seat": false,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "attorney-general",
+      "district": null,
+      "page": 2,
+      "candidates": [
+        {
+          "name": "Richard A. Garcia",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 238917,
+          "county_votes": {
+            "04001": 5566,
+            "04003": 8172,
+            "04005": 8454,
+            "04007": 4866,
+            "04009": 2468,
+            "04011": 1939,
+            "04013": 100606,
+            "04015": 5669,
+            "04017": 5853,
+            "04019": 69774,
+            "04021": 9723,
+            "04023": 2437,
+            "04025": 6609,
+            "04027": 6781
+          }
+        },
+        {
+          "name": "Bob Corbin",
+          "party": "REP",
+          "write_in": false,
+          "votes": 427914,
+          "county_votes": {
+            "04001": 3311,
+            "04003": 10321,
+            "04005": 10703,
+            "04007": 6102,
+            "04009": 3682,
+            "04011": 1176,
+            "04013": 259457,
+            "04015": 11163,
+            "04017": 7066,
+            "04019": 74360,
+            "04021": 10348,
+            "04023": 1893,
+            "04025": 17666,
+            "04027": 10666
+          }
+        },
+        {
+          "name": "Suzanne Kannarr",
+          "party": "L",
+          "write_in": false,
+          "votes": 30325,
+          "county_votes": {
+            "04001": 477,
+            "04003": 887,
+            "04005": 1346,
+            "04007": 467,
+            "04009": 235,
+            "04011": 93,
+            "04013": 14851,
+            "04015": 749,
+            "04017": 588,
+            "04019": 7705,
+            "04021": 814,
+            "04023": 191,
+            "04025": 1210,
+            "04027": 712
+          }
+        }
+      ],
+      "contest_id": "az-1982-attorney-general",
+      "reconciliation": {
+        "status": "verified",
+        "page": 2,
+        "district": null,
+        "candidates": [
+          {
+            "candidate": "Richard A. Garcia",
+            "official_total": 238917,
+            "county_sum": 238917,
+            "county_coverage": 14,
+            "difference": 0
+          },
+          {
+            "candidate": "Bob Corbin",
+            "official_total": 427914,
+            "county_sum": 427914,
+            "county_coverage": 14,
+            "difference": 0
+          },
+          {
+            "candidate": "Suzanne Kannarr",
+            "official_total": 30325,
+            "county_sum": 30325,
+            "county_coverage": 14,
+            "difference": 0
+          }
+        ],
+        "county_count": 14,
+        "coverage": "county",
+        "multi_seat": false,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "1",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "John U. Hays",
+          "party": "REP",
+          "write_in": false,
+          "votes": 23660
+        }
+      ],
+      "contest_id": "az-1982-historical-state-senate-district-1",
+      "reconciliation": {
+        "status": "reported",
+        "page": 3,
+        "district": "1",
+        "candidates": [
+          {
+            "candidate": "John U. Hays",
+            "official_total": 23660,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "1",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Jim Thomas",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 13374
+        },
+        {
+          "name": "Don Aldridge",
+          "party": "REP",
+          "write_in": false,
+          "votes": 17455
+        },
+        {
+          "name": "Jerry Everall",
+          "party": "REP",
+          "write_in": false,
+          "votes": 18292
+        }
+      ],
+      "contest_id": "az-1982-historical-state-house-district-1",
+      "reconciliation": {
+        "status": "reported",
+        "page": 3,
+        "district": "1",
+        "candidates": [
+          {
+            "candidate": "Jim Thomas",
+            "official_total": 13374,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Don Aldridge",
+            "official_total": 17455,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Jerry Everall",
+            "official_total": 18292,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "2",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Tony Gabaldon",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 14334
+        },
+        {
+          "name": "John R. Orr",
+          "party": "REP",
+          "write_in": false,
+          "votes": 13990
+        }
+      ],
+      "contest_id": "az-1982-historical-state-senate-district-2",
+      "reconciliation": {
+        "status": "reported",
+        "page": 3,
+        "district": "2",
+        "candidates": [
+          {
+            "candidate": "Tony Gabaldon",
+            "official_total": 14334,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "John R. Orr",
+            "official_total": 13990,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "2",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Sam A. McConnell, Jr.",
+          "party": "REP",
+          "write_in": false,
+          "votes": 18697
+        },
+        {
+          "name": "John Wettaw",
+          "party": "REP",
+          "write_in": false,
+          "votes": 18484
+        }
+      ],
+      "contest_id": "az-1982-historical-state-house-district-2",
+      "reconciliation": {
+        "status": "reported",
+        "page": 3,
+        "district": "2",
+        "candidates": [
+          {
+            "candidate": "Sam A. McConnell, Jr.",
+            "official_total": 18697,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "John Wettaw",
+            "official_total": 18484,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "3",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Arthur J. Hubbard, Sr.",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 13833
+        },
+        {
+          "name": "MacArthur Lanakila Stant",
+          "party": "REP",
+          "write_in": false,
+          "votes": 2612
+        }
+      ],
+      "contest_id": "az-1982-historical-state-senate-district-3",
+      "reconciliation": {
+        "status": "reported",
+        "page": 3,
+        "district": "3",
+        "candidates": [
+          {
+            "candidate": "Arthur J. Hubbard, Sr.",
+            "official_total": 13833,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "MacArthur Lanakila Stant",
+            "official_total": 2612,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "3",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Benjamin Hanley",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 12165
+        },
+        {
+          "name": "Daniel Peaches",
+          "party": "REP",
+          "write_in": false,
+          "votes": 7140
+        }
+      ],
+      "contest_id": "az-1982-historical-state-house-district-3",
+      "reconciliation": {
+        "status": "reported",
+        "page": 3,
+        "district": "3",
+        "candidates": [
+          {
+            "candidate": "Benjamin Hanley",
+            "official_total": 12165,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Daniel Peaches",
+            "official_total": 7140,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "4",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "A. V. \"Bill\" Hardt",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 15132
+        }
+      ],
+      "contest_id": "az-1982-historical-state-senate-district-4",
+      "reconciliation": {
+        "status": "reported",
+        "page": 3,
+        "district": "4",
+        "candidates": [
+          {
+            "candidate": "A. V. \"Bill\" Hardt",
+            "official_total": 15132,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "4",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Edward G. \"Bunch\" Guerrero",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 11287
+        },
+        {
+          "name": "E. C. \"Polly\" Rosenbaum",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 13410
+        },
+        {
+          "name": "Jack D. Brown",
+          "party": "REP",
+          "write_in": false,
+          "votes": 7685
+        },
+        {
+          "name": "John A. Collings",
+          "party": "REP",
+          "write_in": false,
+          "votes": 8179
+        }
+      ],
+      "contest_id": "az-1982-historical-state-house-district-4",
+      "reconciliation": {
+        "status": "reported",
+        "page": 3,
+        "district": "4",
+        "candidates": [
+          {
+            "candidate": "Edward G. \"Bunch\" Guerrero",
+            "official_total": 11287,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "E. C. \"Polly\" Rosenbaum",
+            "official_total": 13410,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Jack D. Brown",
+            "official_total": 7685,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "John A. Collings",
+            "official_total": 8179,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "5",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Jones Osborn",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 11117
+        },
+        {
+          "name": "Al Face",
+          "party": "REP",
+          "write_in": false,
+          "votes": 7459
+        }
+      ],
+      "contest_id": "az-1982-historical-state-senate-district-5",
+      "reconciliation": {
+        "status": "reported",
+        "page": 3,
+        "district": "5",
+        "candidates": [
+          {
+            "candidate": "Jones Osborn",
+            "official_total": 11117,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Al Face",
+            "official_total": 7459,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "5",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Frank McElhaney",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 10745
+        },
+        {
+          "name": "Robert J. \"Bob\" McLendon",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 9428
+        },
+        {
+          "name": "Morris \"Court\" Courtright",
+          "party": "REP",
+          "write_in": false,
+          "votes": 9162
+        }
+      ],
+      "contest_id": "az-1982-historical-state-house-district-5",
+      "reconciliation": {
+        "status": "reported",
+        "page": 3,
+        "district": "5",
+        "candidates": [
+          {
+            "candidate": "Frank McElhaney",
+            "official_total": 10745,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Robert J. \"Bob\" McLendon",
+            "official_total": 9428,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Morris \"Court\" Courtright",
+            "official_total": 9162,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "6",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Polly Getzwiller",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 10527
+        },
+        {
+          "name": "James W. Alverson",
+          "party": "REP",
+          "write_in": false,
+          "votes": 7215
+        }
+      ],
+      "contest_id": "az-1982-historical-state-senate-district-6",
+      "reconciliation": {
+        "status": "reported",
+        "page": 3,
+        "district": "6",
+        "candidates": [
+          {
+            "candidate": "Polly Getzwiller",
+            "official_total": 10527,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "James W. Alverson",
+            "official_total": 7215,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "6",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Enrique \"Henry\" Celaya",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 7844
+        },
+        {
+          "name": "Henry Evans",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 9364
+        },
+        {
+          "name": "A. Mac Carvalho",
+          "party": "REP",
+          "write_in": false,
+          "votes": 4105
+        },
+        {
+          "name": "Jim Hartdegen",
+          "party": "REP",
+          "write_in": false,
+          "votes": 9076
+        }
+      ],
+      "contest_id": "az-1982-historical-state-house-district-6",
+      "reconciliation": {
+        "status": "reported",
+        "page": 3,
+        "district": "6",
+        "candidates": [
+          {
+            "candidate": "Enrique \"Henry\" Celaya",
+            "official_total": 7844,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Henry Evans",
+            "official_total": 9364,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "A. Mac Carvalho",
+            "official_total": 4105,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Jim Hartdegen",
+            "official_total": 9076,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "7",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Peter D. Rios",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 12487
+        },
+        {
+          "name": "Barbara Peck",
+          "party": "REP",
+          "write_in": false,
+          "votes": 8363
+        }
+      ],
+      "contest_id": "az-1982-historical-state-senate-district-7",
+      "reconciliation": {
+        "status": "reported",
+        "page": 3,
+        "district": "7",
+        "candidates": [
+          {
+            "candidate": "Peter D. Rios",
+            "official_total": 12487,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Barbara Peck",
+            "official_total": 8363,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "7",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Roy Hudson",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 10815
+        },
+        {
+          "name": "Richard \"Dick\" Pacheco",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 10802
+        },
+        {
+          "name": "George W. Kline",
+          "party": "REP",
+          "write_in": false,
+          "votes": 8122
+        }
+      ],
+      "contest_id": "az-1982-historical-state-house-district-7",
+      "reconciliation": {
+        "status": "reported",
+        "page": 3,
+        "district": "7",
+        "candidates": [
+          {
+            "candidate": "Roy Hudson",
+            "official_total": 10815,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Richard \"Dick\" Pacheco",
+            "official_total": 10802,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "George W. Kline",
+            "official_total": 8122,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "8",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "Ed C. Sawyer",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 15960
+        }
+      ],
+      "contest_id": "az-1982-historical-state-senate-district-8",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "8",
+        "candidates": [
+          {
+            "candidate": "Ed C. Sawyer",
+            "official_total": 15960,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "8",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "Gus Arzberger",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 9227
+        },
+        {
+          "name": "Steve J. Vukcevich",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 12057
+        },
+        {
+          "name": "Joe Lane",
+          "party": "REP",
+          "write_in": false,
+          "votes": 10944
+        },
+        {
+          "name": "Steven Porter",
+          "party": "REP",
+          "write_in": false,
+          "votes": 5303
+        }
+      ],
+      "contest_id": "az-1982-historical-state-house-district-8",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "8",
+        "candidates": [
+          {
+            "candidate": "Gus Arzberger",
+            "official_total": 9227,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Steve J. Vukcevich",
+            "official_total": 12057,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Joe Lane",
+            "official_total": 10944,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Steven Porter",
+            "official_total": 5303,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "9",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "James L. Baker",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 12766
+        },
+        {
+          "name": "Jeffrey J. Hill",
+          "party": "REP",
+          "write_in": false,
+          "votes": 13508
+        }
+      ],
+      "contest_id": "az-1982-historical-state-senate-district-9",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "9",
+        "candidates": [
+          {
+            "candidate": "James L. Baker",
+            "official_total": 12766,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Jeffrey J. Hill",
+            "official_total": 13508,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "9",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "Suzanne E. Caldarello",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 10965
+        },
+        {
+          "name": "Mark O. Mills",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 8129
+        },
+        {
+          "name": "Bart Baker",
+          "party": "REP",
+          "write_in": false,
+          "votes": 13019
+        },
+        {
+          "name": "Bill English",
+          "party": "REP",
+          "write_in": false,
+          "votes": 15199
+        },
+        {
+          "name": "Richard G. Rose",
+          "party": "L",
+          "write_in": false,
+          "votes": 1328
+        }
+      ],
+      "contest_id": "az-1982-historical-state-house-district-9",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "9",
+        "candidates": [
+          {
+            "candidate": "Suzanne E. Caldarello",
+            "official_total": 10965,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Mark O. Mills",
+            "official_total": 8129,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Bart Baker",
+            "official_total": 13019,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Bill English",
+            "official_total": 15199,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Richard G. Rose",
+            "official_total": 1328,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "10",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "Luis Armando Gonzales",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 10643
+        },
+        {
+          "name": "Buck Crouch",
+          "party": "L",
+          "write_in": false,
+          "votes": 3611
+        }
+      ],
+      "contest_id": "az-1982-historical-state-senate-district-10",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "10",
+        "candidates": [
+          {
+            "candidate": "Luis Armando Gonzales",
+            "official_total": 10643,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Buck Crouch",
+            "official_total": 3611,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "10",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "Carmen F. Cajero",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 10151
+        },
+        {
+          "name": "Jesus \"Chuy\" Higuera",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 8621
+        },
+        {
+          "name": "Terry J. Orgill",
+          "party": "L",
+          "write_in": false,
+          "votes": 3249
+        }
+      ],
+      "contest_id": "az-1982-historical-state-house-district-10",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "10",
+        "candidates": [
+          {
+            "candidate": "Carmen F. Cajero",
+            "official_total": 10151,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Jesus \"Chuy\" Higuera",
+            "official_total": 8621,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Terry J. Orgill",
+            "official_total": 3249,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "11",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "Jaime P. Gutierrez",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 15306
+        },
+        {
+          "name": "George F. Beasley",
+          "party": "REP",
+          "write_in": false,
+          "votes": 6913
+        }
+      ],
+      "contest_id": "az-1982-historical-state-senate-district-11",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "11",
+        "candidates": [
+          {
+            "candidate": "Jaime P. Gutierrez",
+            "official_total": 15306,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "George F. Beasley",
+            "official_total": 6913,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "11",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "Peter Goudinoff",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 12791
+        },
+        {
+          "name": "John Kromko",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 11559
+        },
+        {
+          "name": "Mike Morales",
+          "party": "REP",
+          "write_in": false,
+          "votes": 10183
+        }
+      ],
+      "contest_id": "az-1982-historical-state-house-district-11",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "11",
+        "candidates": [
+          {
+            "candidate": "Peter Goudinoff",
+            "official_total": 12791,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "John Kromko",
+            "official_total": 11559,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Mike Morales",
+            "official_total": 10183,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "12",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "David E. Bradshaw",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 14045
+        },
+        {
+          "name": "John T. Mawhinney",
+          "party": "REP",
+          "write_in": false,
+          "votes": 16089
+        },
+        {
+          "name": "David Foster",
+          "party": "ND",
+          "write_in": true,
+          "votes": 6
+        }
+      ],
+      "notes": "David Foster did not indicate party preference, per source footnote.",
+      "contest_id": "az-1982-historical-state-senate-district-12",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "12",
+        "candidates": [
+          {
+            "candidate": "David E. Bradshaw",
+            "official_total": 14045,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "John T. Mawhinney",
+            "official_total": 16089,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "David Foster",
+            "official_total": 6,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": "David Foster did not indicate party preference, per source footnote."
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "12",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "Gordon Fuller",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 13729
+        },
+        {
+          "name": "William E. Minette",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 13053
+        },
+        {
+          "name": "Pete Hershberger",
+          "party": "REP",
+          "write_in": false,
+          "votes": 14722
+        },
+        {
+          "name": "Jack B. Jewett",
+          "party": "REP",
+          "write_in": false,
+          "votes": 14213
+        }
+      ],
+      "contest_id": "az-1982-historical-state-house-district-12",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "12",
+        "candidates": [
+          {
+            "candidate": "Gordon Fuller",
+            "official_total": 13729,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "William E. Minette",
+            "official_total": 13053,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Pete Hershberger",
+            "official_total": 14722,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Jack B. Jewett",
+            "official_total": 14213,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "13",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "Douglas P. Mitchell",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 14071
+        },
+        {
+          "name": "Greg Lunn",
+          "party": "REP",
+          "write_in": false,
+          "votes": 17869
+        }
+      ],
+      "contest_id": "az-1982-historical-state-senate-district-13",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "13",
+        "candidates": [
+          {
+            "candidate": "Douglas P. Mitchell",
+            "official_total": 14071,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Greg Lunn",
+            "official_total": 17869,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "13",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "David C. Bartlett",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 14786
+        },
+        {
+          "name": "Andy Nichols",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 12921
+        },
+        {
+          "name": "Larry Hawke",
+          "party": "REP",
+          "write_in": false,
+          "votes": 16816
+        },
+        {
+          "name": "Dave Noel",
+          "party": "REP",
+          "write_in": false,
+          "votes": 13446
+        },
+        {
+          "name": "Herbert C. Johnson",
+          "party": "L",
+          "write_in": false,
+          "votes": 1626
+        }
+      ],
+      "contest_id": "az-1982-historical-state-house-district-13",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "13",
+        "candidates": [
+          {
+            "candidate": "David C. Bartlett",
+            "official_total": 14786,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Andy Nichols",
+            "official_total": 12921,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Larry Hawke",
+            "official_total": 16816,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Dave Noel",
+            "official_total": 13446,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Herbert C. Johnson",
+            "official_total": 1626,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "14",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "Georgia Cole Brousseau",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 13286
+        },
+        {
+          "name": "William J. \"Bill\" DeLong",
+          "party": "REP",
+          "write_in": false,
+          "votes": 14504
+        }
+      ],
+      "contest_id": "az-1982-historical-state-senate-district-14",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "14",
+        "candidates": [
+          {
+            "candidate": "Georgia Cole Brousseau",
+            "official_total": 13286,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "William J. \"Bill\" DeLong",
+            "official_total": 14504,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "14",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "Terry James Lehrling",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 9881
+        },
+        {
+          "name": "Cindy L. Resnick",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 13230
+        },
+        {
+          "name": "Jim Green",
+          "party": "REP",
+          "write_in": false,
+          "votes": 13812
+        },
+        {
+          "name": "Elizabeth H. \"Lew\" Macy",
+          "party": "REP",
+          "write_in": false,
+          "votes": 13214
+        }
+      ],
+      "contest_id": "az-1982-historical-state-house-district-14",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "14",
+        "candidates": [
+          {
+            "candidate": "Terry James Lehrling",
+            "official_total": 9881,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Cindy L. Resnick",
+            "official_total": 13230,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Jim Green",
+            "official_total": 13812,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Elizabeth H. \"Lew\" Macy",
+            "official_total": 13214,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "15",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Alan \"A.L.\" L. Bowlsby",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 7900
+        },
+        {
+          "name": "S. H. \"Hal\" Runyan",
+          "party": "REP",
+          "write_in": false,
+          "votes": 16143
+        }
+      ],
+      "contest_id": "az-1982-historical-state-senate-district-15",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "15",
+        "candidates": [
+          {
+            "candidate": "Alan \"A.L.\" L. Bowlsby",
+            "official_total": 7900,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "S. H. \"Hal\" Runyan",
+            "official_total": 16143,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "15",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "D. R. Peiffer",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 7291
+        },
+        {
+          "name": "J. Weatherby",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 7631
+        },
+        {
+          "name": "Bob Denny",
+          "party": "REP",
+          "write_in": false,
+          "votes": 15129
+        },
+        {
+          "name": "James B. Ratliff",
+          "party": "REP",
+          "write_in": false,
+          "votes": 14796
+        }
+      ],
+      "contest_id": "az-1982-historical-state-house-district-15",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "15",
+        "candidates": [
+          {
+            "candidate": "D. R. Peiffer",
+            "official_total": 7291,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "J. Weatherby",
+            "official_total": 7631,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Bob Denny",
+            "official_total": 15129,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "James B. Ratliff",
+            "official_total": 14796,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "16",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Marcia G. Weeks",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 11822
+        },
+        {
+          "name": "Wayne Stump",
+          "party": "REP",
+          "write_in": false,
+          "votes": 11974
+        }
+      ],
+      "contest_id": "az-1982-historical-state-senate-district-16",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "16",
+        "candidates": [
+          {
+            "candidate": "Marcia G. Weeks",
+            "official_total": 11822,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Wayne Stump",
+            "official_total": 11974,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "16",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Dom Michelsen",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 8561
+        },
+        {
+          "name": "Bob Hungerford",
+          "party": "REP",
+          "write_in": false,
+          "votes": 15193
+        },
+        {
+          "name": "Rhonda Thomas",
+          "party": "REP",
+          "write_in": false,
+          "votes": 14507
+        },
+        {
+          "name": "Stephen \"Speedy\" Clark",
+          "party": "L",
+          "write_in": false,
+          "votes": 1862
+        }
+      ],
+      "contest_id": "az-1982-historical-state-house-district-16",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "16",
+        "candidates": [
+          {
+            "candidate": "Dom Michelsen",
+            "official_total": 8561,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Bob Hungerford",
+            "official_total": 15193,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Rhonda Thomas",
+            "official_total": 14507,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Stephen \"Speedy\" Clark",
+            "official_total": 1862,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "17",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Anne Lindeman",
+          "party": "REP",
+          "write_in": false,
+          "votes": 22248
+        }
+      ],
+      "contest_id": "az-1982-historical-state-senate-district-17",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "17",
+        "candidates": [
+          {
+            "candidate": "Anne Lindeman",
+            "official_total": 22248,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "17",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Justin \"Jed\" Smith",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 9213
+        },
+        {
+          "name": "Sterling Ridge",
+          "party": "REP",
+          "write_in": false,
+          "votes": 16275
+        },
+        {
+          "name": "Patricia \"Pat\" Wright",
+          "party": "REP",
+          "write_in": false,
+          "votes": 18815
+        }
+      ],
+      "contest_id": "az-1982-historical-state-house-district-17",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "17",
+        "candidates": [
+          {
+            "candidate": "Justin \"Jed\" Smith",
+            "official_total": 9213,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Sterling Ridge",
+            "official_total": 16275,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Patricia \"Pat\" Wright",
+            "official_total": 18815,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "18",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Barry Becker",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 9013
+        },
+        {
+          "name": "Tony West",
+          "party": "REP",
+          "write_in": false,
+          "votes": 16711
+        }
+      ],
+      "contest_id": "az-1982-historical-state-senate-district-18",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "18",
+        "candidates": [
+          {
+            "candidate": "Barry Becker",
+            "official_total": 9013,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Tony West",
+            "official_total": 16711,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "18",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Terry Edward Choate",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 7283
+        },
+        {
+          "name": "Phillis Hawkins",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 9361
+        },
+        {
+          "name": "Burton S. Barr",
+          "party": "REP",
+          "write_in": false,
+          "votes": 16859
+        },
+        {
+          "name": "Jane Dee Hull",
+          "party": "REP",
+          "write_in": false,
+          "votes": 14809
+        }
+      ],
+      "contest_id": "az-1982-historical-state-house-district-18",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "18",
+        "candidates": [
+          {
+            "candidate": "Terry Edward Choate",
+            "official_total": 7283,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Phillis Hawkins",
+            "official_total": 9361,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Burton S. Barr",
+            "official_total": 16859,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Jane Dee Hull",
+            "official_total": 14809,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "19",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "J. L. \"Jerry\" Horacek, Sr.",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 8634
+        },
+        {
+          "name": "Bill Davis",
+          "party": "REP",
+          "write_in": false,
+          "votes": 16182
+        }
+      ],
+      "contest_id": "az-1982-historical-state-senate-district-19",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "19",
+        "candidates": [
+          {
+            "candidate": "J. L. \"Jerry\" Horacek, Sr.",
+            "official_total": 8634,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Bill Davis",
+            "official_total": 16182,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "19",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "M. L. \"Peggy\" Horacek",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 7290
+        },
+        {
+          "name": "Cindy Roberts",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 8275
+        },
+        {
+          "name": "Jan Brewer",
+          "party": "REP",
+          "write_in": false,
+          "votes": 15394
+        },
+        {
+          "name": "Nancy Wessel",
+          "party": "REP",
+          "write_in": false,
+          "votes": 15468
+        }
+      ],
+      "contest_id": "az-1982-historical-state-house-district-19",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "19",
+        "candidates": [
+          {
+            "candidate": "M. L. \"Peggy\" Horacek",
+            "official_total": 7290,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Cindy Roberts",
+            "official_total": 8275,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Jan Brewer",
+            "official_total": 15394,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Nancy Wessel",
+            "official_total": 15468,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "20",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Lela Alston",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 12819
+        },
+        {
+          "name": "Steve Hargan",
+          "party": "REP",
+          "write_in": false,
+          "votes": 8584
+        }
+      ],
+      "contest_id": "az-1982-historical-state-senate-district-20",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "20",
+        "candidates": [
+          {
+            "candidate": "Lela Alston",
+            "official_total": 12819,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Steve Hargan",
+            "official_total": 8584,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "20",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Glenn Davis",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 11291
+        },
+        {
+          "name": "Debbie McCune",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 12162
+        },
+        {
+          "name": "Violet Gibbs",
+          "party": "REP",
+          "write_in": false,
+          "votes": 7172
+        },
+        {
+          "name": "Royann Jordan",
+          "party": "REP",
+          "write_in": false,
+          "votes": 9140
+        }
+      ],
+      "contest_id": "az-1982-historical-state-house-district-20",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "20",
+        "candidates": [
+          {
+            "candidate": "Glenn Davis",
+            "official_total": 11291,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Debbie McCune",
+            "official_total": 12162,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Violet Gibbs",
+            "official_total": 7172,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Royann Jordan",
+            "official_total": 9140,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "21",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Carl J. Kunasek",
+          "party": "REP",
+          "write_in": false,
+          "votes": 17688
+        }
+      ],
+      "contest_id": "az-1982-historical-state-senate-district-21",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "21",
+        "candidates": [
+          {
+            "candidate": "Carl J. Kunasek",
+            "official_total": 17688,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "21",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "John Warren Foster",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 7364
+        },
+        {
+          "name": "Russ Hanks",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 6805
+        },
+        {
+          "name": "Henry H. Haws",
+          "party": "REP",
+          "write_in": false,
+          "votes": 13798
+        },
+        {
+          "name": "Leslie Whiting Johnson",
+          "party": "REP",
+          "write_in": false,
+          "votes": 12712
+        },
+        {
+          "name": "Steve Machol",
+          "party": "L",
+          "write_in": false,
+          "votes": 1030
+        }
+      ],
+      "contest_id": "az-1982-historical-state-house-district-21",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "21",
+        "candidates": [
+          {
+            "candidate": "John Warren Foster",
+            "official_total": 7364,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Russ Hanks",
+            "official_total": 6805,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Henry H. Haws",
+            "official_total": 13798,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Leslie Whiting Johnson",
+            "official_total": 12712,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Steve Machol",
+            "official_total": 1030,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "22",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Manuel \"Lito\" Peña, Jr.",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 6641
+        },
+        {
+          "name": "Caroline Coronado",
+          "party": "REP",
+          "write_in": false,
+          "votes": 4647
+        }
+      ],
+      "contest_id": "az-1982-historical-state-senate-district-22",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "22",
+        "candidates": [
+          {
+            "candidate": "Manuel \"Lito\" Peña, Jr.",
+            "official_total": 6641,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Caroline Coronado",
+            "official_total": 4647,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "22",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Art Hamilton",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 7960
+        },
+        {
+          "name": "Earl V. Wilcox",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 7751
+        },
+        {
+          "name": "Jack Jones",
+          "party": "L",
+          "write_in": false,
+          "votes": 1662
+        }
+      ],
+      "contest_id": "az-1982-historical-state-house-district-22",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "22",
+        "candidates": [
+          {
+            "candidate": "Art Hamilton",
+            "official_total": 7960,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Earl V. Wilcox",
+            "official_total": 7751,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Jack Jones",
+            "official_total": 1662,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "23",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Alfredo Gutierrez",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 9144
+        },
+        {
+          "name": "Bennie Joe \"Bossa Nova\" Brown",
+          "party": "REP",
+          "write_in": false,
+          "votes": 1919
+        },
+        {
+          "name": "B. W. Chad Raible",
+          "party": "L",
+          "write_in": false,
+          "votes": 641
+        }
+      ],
+      "contest_id": "az-1982-historical-state-senate-district-23",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "23",
+        "candidates": [
+          {
+            "candidate": "Alfredo Gutierrez",
+            "official_total": 9144,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Bennie Joe \"Bossa Nova\" Brown",
+            "official_total": 1919,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "B. W. Chad Raible",
+            "official_total": 641,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "23",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Armando Ruiz",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 6998
+        },
+        {
+          "name": "Carolyn Walker",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 7616
+        },
+        {
+          "name": "Maxine Provost Brubaker",
+          "party": "REP",
+          "write_in": false,
+          "votes": 2311
+        },
+        {
+          "name": "Roderick A. Jacobsen",
+          "party": "REP",
+          "write_in": false,
+          "votes": 2076
+        },
+        {
+          "name": "Karen Emden",
+          "party": "L",
+          "write_in": false,
+          "votes": 738
+        },
+        {
+          "name": "James Eric Weightman",
+          "party": "L",
+          "write_in": false,
+          "votes": 590
+        }
+      ],
+      "contest_id": "az-1982-historical-state-house-district-23",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "23",
+        "candidates": [
+          {
+            "candidate": "Armando Ruiz",
+            "official_total": 6998,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Carolyn Walker",
+            "official_total": 7616,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Maxine Provost Brubaker",
+            "official_total": 2311,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Roderick A. Jacobsen",
+            "official_total": 2076,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Karen Emden",
+            "official_total": 738,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "James Eric Weightman",
+            "official_total": 590,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "24",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Tom Beauchamp",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 10478
+        },
+        {
+          "name": "Pete Corpstein",
+          "party": "REP",
+          "write_in": false,
+          "votes": 13968
+        }
+      ],
+      "contest_id": "az-1982-historical-state-senate-district-24",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "24",
+        "candidates": [
+          {
+            "candidate": "Tom Beauchamp",
+            "official_total": 10478,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Pete Corpstein",
+            "official_total": 13968,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "24",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Linda Becker",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 7935
+        },
+        {
+          "name": "Lyn B. Hall",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 7089
+        },
+        {
+          "name": "Chris Herstam",
+          "party": "REP",
+          "write_in": false,
+          "votes": 13619
+        },
+        {
+          "name": "Cal Holman",
+          "party": "REP",
+          "write_in": false,
+          "votes": 12913
+        },
+        {
+          "name": "John Webster Harrer",
+          "party": "L",
+          "write_in": false,
+          "votes": 1423
+        },
+        {
+          "name": "Kathy Harrer",
+          "party": "L",
+          "write_in": false,
+          "votes": 1730
+        }
+      ],
+      "contest_id": "az-1982-historical-state-house-district-24",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "24",
+        "candidates": [
+          {
+            "candidate": "Linda Becker",
+            "official_total": 7935,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Lyn B. Hall",
+            "official_total": 7089,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Chris Herstam",
+            "official_total": 13619,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Cal Holman",
+            "official_total": 12913,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "John Webster Harrer",
+            "official_total": 1423,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Kathy Harrer",
+            "official_total": 1730,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "25",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Dave Silcox",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 10188
+        },
+        {
+          "name": "Jacque Steiner",
+          "party": "REP",
+          "write_in": false,
+          "votes": 14821
+        }
+      ],
+      "contest_id": "az-1982-historical-state-senate-district-25",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "25",
+        "candidates": [
+          {
+            "candidate": "Dave Silcox",
+            "official_total": 10188,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Jacque Steiner",
+            "official_total": 14821,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "25",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Wayne Doty",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 8112
+        },
+        {
+          "name": "Steve Tidler",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 8310
+        },
+        {
+          "name": "Don Kenney",
+          "party": "REP",
+          "write_in": false,
+          "votes": 14248
+        },
+        {
+          "name": "Elizabeth Adams Rockwell",
+          "party": "REP",
+          "write_in": false,
+          "votes": 13390
+        },
+        {
+          "name": "Marjorie Groce",
+          "party": "L",
+          "write_in": false,
+          "votes": 1718
+        }
+      ],
+      "contest_id": "az-1982-historical-state-house-district-25",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "25",
+        "candidates": [
+          {
+            "candidate": "Wayne Doty",
+            "official_total": 8112,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Steve Tidler",
+            "official_total": 8310,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Don Kenney",
+            "official_total": 14248,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Elizabeth Adams Rockwell",
+            "official_total": 13390,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Marjorie Groce",
+            "official_total": 1718,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "26",
+      "page": 6,
+      "candidates": [
+        {
+          "name": "Conrad \"Jimmy\" Carreon",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 9086
+        },
+        {
+          "name": "Peter Kay",
+          "party": "REP",
+          "write_in": false,
+          "votes": 17989
+        }
+      ],
+      "contest_id": "az-1982-historical-state-senate-district-26",
+      "reconciliation": {
+        "status": "reported",
+        "page": 6,
+        "district": "26",
+        "candidates": [
+          {
+            "candidate": "Conrad \"Jimmy\" Carreon",
+            "official_total": 9086,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Peter Kay",
+            "official_total": 17989,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "26",
+      "page": 6,
+      "candidates": [
+        {
+          "name": "George Hetrick",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 9338
+        },
+        {
+          "name": "Frank Kelley",
+          "party": "REP",
+          "write_in": false,
+          "votes": 17587
+        },
+        {
+          "name": "Jim Meredith",
+          "party": "REP",
+          "write_in": false,
+          "votes": 18336
+        }
+      ],
+      "contest_id": "az-1982-historical-state-house-district-26",
+      "reconciliation": {
+        "status": "reported",
+        "page": 6,
+        "district": "26",
+        "candidates": [
+          {
+            "candidate": "George Hetrick",
+            "official_total": 9338,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Frank Kelley",
+            "official_total": 17587,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Jim Meredith",
+            "official_total": 18336,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "27",
+      "page": 6,
+      "candidates": [
+        {
+          "name": "David Cohen",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 7653
+        },
+        {
+          "name": "Juanita Harelson",
+          "party": "REP",
+          "write_in": false,
+          "votes": 14696
+        },
+        {
+          "name": "Jennifer Douglas",
+          "party": "L",
+          "write_in": false,
+          "votes": 1556
+        }
+      ],
+      "contest_id": "az-1982-historical-state-senate-district-27",
+      "reconciliation": {
+        "status": "reported",
+        "page": 6,
+        "district": "27",
+        "candidates": [
+          {
+            "candidate": "David Cohen",
+            "official_total": 7653,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Juanita Harelson",
+            "official_total": 14696,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Jennifer Douglas",
+            "official_total": 1556,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "27",
+      "page": 6,
+      "candidates": [
+        {
+          "name": "Dwight Langham",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 6274
+        },
+        {
+          "name": "Jo Ann G. Pedrick",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 10353
+        },
+        {
+          "name": "Bev Hermon",
+          "party": "REP",
+          "write_in": false,
+          "votes": 13146
+        },
+        {
+          "name": "Doug Todd",
+          "party": "REP",
+          "write_in": false,
+          "votes": 13539
+        }
+      ],
+      "contest_id": "az-1982-historical-state-house-district-27",
+      "reconciliation": {
+        "status": "reported",
+        "page": 6,
+        "district": "27",
+        "candidates": [
+          {
+            "candidate": "Dwight Langham",
+            "official_total": 6274,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Jo Ann G. Pedrick",
+            "official_total": 10353,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Bev Hermon",
+            "official_total": 13146,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Doug Todd",
+            "official_total": 13539,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "28",
+      "page": 6,
+      "candidates": [
+        {
+          "name": "Monroe \"Mickey\" Dingott",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 6985
+        },
+        {
+          "name": "Robert B. Usdane",
+          "party": "REP",
+          "write_in": false,
+          "votes": 21510
+        }
+      ],
+      "contest_id": "az-1982-historical-state-senate-district-28",
+      "reconciliation": {
+        "status": "reported",
+        "page": 6,
+        "district": "28",
+        "candidates": [
+          {
+            "candidate": "Monroe \"Mickey\" Dingott",
+            "official_total": 6985,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Robert B. Usdane",
+            "official_total": 21510,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "28",
+      "page": 6,
+      "candidates": [
+        {
+          "name": "Fred E. Tenney",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 8465
+        },
+        {
+          "name": "Paul R. Messinger",
+          "party": "REP",
+          "write_in": false,
+          "votes": 21069
+        },
+        {
+          "name": "Jim Skelly",
+          "party": "REP",
+          "write_in": false,
+          "votes": 19287
+        },
+        {
+          "name": "Duncan Dodge",
+          "party": "L",
+          "write_in": false,
+          "votes": 2737
+        }
+      ],
+      "contest_id": "az-1982-historical-state-house-district-28",
+      "reconciliation": {
+        "status": "reported",
+        "page": 6,
+        "district": "28",
+        "candidates": [
+          {
+            "candidate": "Fred E. Tenney",
+            "official_total": 8465,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Paul R. Messinger",
+            "official_total": 21069,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Jim Skelly",
+            "official_total": 19287,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Duncan Dodge",
+            "official_total": 2737,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "29",
+      "page": 6,
+      "candidates": [
+        {
+          "name": "Jack J. Taylor",
+          "party": "REP",
+          "write_in": false,
+          "votes": 16939
+        }
+      ],
+      "contest_id": "az-1982-historical-state-senate-district-29",
+      "reconciliation": {
+        "status": "reported",
+        "page": 6,
+        "district": "29",
+        "candidates": [
+          {
+            "candidate": "Jack J. Taylor",
+            "official_total": 16939,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "29",
+      "page": 6,
+      "candidates": [
+        {
+          "name": "Diane Swart Calderón",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 6236
+        },
+        {
+          "name": "Jo Taft",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 4631
+        },
+        {
+          "name": "Jim Cooper",
+          "party": "REP",
+          "write_in": false,
+          "votes": 12973
+        },
+        {
+          "name": "Lela Steffey",
+          "party": "REP",
+          "write_in": false,
+          "votes": 12645
+        }
+      ],
+      "contest_id": "az-1982-historical-state-house-district-29",
+      "reconciliation": {
+        "status": "reported",
+        "page": 6,
+        "district": "29",
+        "candidates": [
+          {
+            "candidate": "Diane Swart Calderón",
+            "official_total": 6236,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Jo Taft",
+            "official_total": 4631,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Jim Cooper",
+            "official_total": 12973,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Lela Steffey",
+            "official_total": 12645,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "30",
+      "page": 6,
+      "candidates": [
+        {
+          "name": "Stan Turley",
+          "party": "REP",
+          "write_in": false,
+          "votes": 17924
+        }
+      ],
+      "contest_id": "az-1982-historical-state-senate-district-30",
+      "reconciliation": {
+        "status": "reported",
+        "page": 6,
+        "district": "30",
+        "candidates": [
+          {
+            "candidate": "Stan Turley",
+            "official_total": 17924,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "30",
+      "page": 6,
+      "candidates": [
+        {
+          "name": "Wayne Thomas Pelzer",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 6216
+        },
+        {
+          "name": "Mark W. Killian",
+          "party": "REP",
+          "write_in": false,
+          "votes": 14690
+        },
+        {
+          "name": "James J. Sossaman",
+          "party": "REP",
+          "write_in": false,
+          "votes": 14394
+        }
+      ],
+      "contest_id": "az-1982-historical-state-house-district-30",
+      "reconciliation": {
+        "status": "reported",
+        "page": 6,
+        "district": "30",
+        "candidates": [
+          {
+            "candidate": "Wayne Thomas Pelzer",
+            "official_total": 6216,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Mark W. Killian",
+            "official_total": 14690,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "James J. Sossaman",
+            "official_total": 14394,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    }
+  ]
+}

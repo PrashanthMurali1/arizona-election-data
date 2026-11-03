@@ -17,7 +17,13 @@ const catalogTabs = [
   {
     id: "state",
     label: "State Elections",
-    offices: ["governor", "attorney-general"],
+    offices: [
+      "governor",
+      "attorney-general",
+      "secretary-of-state",
+      "state-house",
+      "state-senate",
+    ],
   },
 ] as const;
 
@@ -198,6 +204,9 @@ export default function Home() {
                               : [
                                   ["governor", "Governor"],
                                   ["attorney-general", "Attorney General"],
+                                  ["secretary-of-state", "Secretary of State"],
+                                  ["state-house", "State House"],
+                                  ["state-senate", "State Senate"],
                                 ]
                             ).map(([value, label]) => (
                               <button
@@ -249,6 +258,12 @@ export default function Home() {
                                 : [
                                     ["governor", "Governor"],
                                     ["attorney-general", "Attorney General"],
+                                    [
+                                      "secretary-of-state",
+                                      "Secretary of State",
+                                    ],
+                                    ["state-house", "State House"],
+                                    ["state-senate", "State Senate"],
                                   ]
                               ).map(([value, label]) => (
                                 <option key={value} value={value}>
@@ -272,7 +287,13 @@ export default function Home() {
                             </h2>
                             <span className="small muted">
                               {categoryElections.length} elections ·{" "}
-                              {selectedOffices.includes("us-house")
+                              {selectedOffices.some((o) =>
+                                [
+                                  "us-house",
+                                  "state-house",
+                                  "state-senate",
+                                ].includes(o),
+                              )
                                 ? "Districts"
                                 : "Statewide office"}
                             </span>
@@ -307,7 +328,11 @@ export default function Home() {
                                           : "General election · "}
                                         {e.status === "civicapi"
                                           ? `${e.district_count ?? 1} special-election district · civicAPI candidate report`
-                                          : ["verified", "reported", "secondary"].includes(e.status)
+                                          : [
+                                                "verified",
+                                                "reported",
+                                                "secondary",
+                                              ].includes(e.status)
                                             ? e.district_count !== undefined
                                               ? `${e.district_count} ${e.district_count === 1 ? "district" : "districts"} · ${e.candidate_count} candidates`
                                               : `${e.county_count} counties · ${e.candidate_count} candidates`
@@ -318,7 +343,11 @@ export default function Home() {
                                       <span className="sr-only">
                                         {e.status === "civicapi"
                                           ? "Explore civicAPI report"
-                                          : ["verified", "reported", "secondary"].includes(e.status)
+                                          : [
+                                                "verified",
+                                                "reported",
+                                                "secondary",
+                                              ].includes(e.status)
                                             ? "Explore results"
                                             : "View availability"}
                                       </span>

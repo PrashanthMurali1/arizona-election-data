@@ -89,6 +89,22 @@ class HouseDistrictDetailOut(BaseModel):
     reconciliation: dict[str, Any] | None
 
 
+class HistoricalContestOut(BaseModel):
+    district: str
+    contest_id: str
+    results: ResultsOut
+    page: int | None
+    notes: str
+
+
+class HistoricalOverviewOut(BaseModel):
+    election: HouseElectionOut
+    contests: list[HistoricalContestOut]
+    map_available: bool
+    multi_seat: bool
+    sources: list[SourceOut]
+
+
 class GeometryOut(BaseModel):
     type: str = "FeatureCollection"
     boundary_id: str

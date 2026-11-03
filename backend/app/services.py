@@ -104,6 +104,7 @@ def results(s: Session, c: Contest, unit: GeographicUnit):
     winner = (
         candidates[0]
         if complete
+        and c.office_id not in {'state-house', 'state-senate'}
         and not provisional
         and total
         and (len(candidates) == 1 or candidates[0].votes > candidates[1].votes)

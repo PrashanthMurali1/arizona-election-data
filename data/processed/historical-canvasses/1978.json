@@ -1,0 +1,4062 @@
+{
+  "year": 1978,
+  "source_sha256": "4aede91ebe58883839ef8ecaddb7bde5e7bd7392ad0bb415a28f1fd9fb47d172",
+  "absent_offices": [
+    "president",
+    "us-senate"
+  ],
+  "unresolved": [],
+  "contests": [
+    {
+      "office_id": "us-house",
+      "district": "1",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Ken Graves",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 33178
+        },
+        {
+          "name": "John J. Rhodes",
+          "party": "REP",
+          "write_in": false,
+          "votes": 81108
+        }
+      ],
+      "contest_id": "az-1978-historical-us-house-district-1",
+      "reconciliation": {
+        "status": "reported",
+        "page": 1,
+        "district": "1",
+        "candidates": [
+          {
+            "candidate": "Ken Graves",
+            "official_total": 33178,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "John J. Rhodes",
+            "official_total": 81108,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": false,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "us-house",
+      "district": "2",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Morris K. Udall",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 67878
+        },
+        {
+          "name": "Tom Richey",
+          "party": "REP",
+          "write_in": false,
+          "votes": 58697
+        },
+        {
+          "name": "Joe Bach",
+          "party": "L",
+          "write_in": false,
+          "votes": 1402
+        },
+        {
+          "name": "Betsy McDonald",
+          "party": "SW",
+          "write_in": false,
+          "votes": 1220
+        }
+      ],
+      "contest_id": "az-1978-historical-us-house-district-2",
+      "reconciliation": {
+        "status": "reported",
+        "page": 1,
+        "district": "2",
+        "candidates": [
+          {
+            "candidate": "Morris K. Udall",
+            "official_total": 67878,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Tom Richey",
+            "official_total": 58697,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Joe Bach",
+            "official_total": 1402,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Betsy McDonald",
+            "official_total": 1220,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": false,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "us-house",
+      "district": "3",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Bob Stump",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 111850
+        },
+        {
+          "name": "Kathleen Cooke",
+          "party": "L",
+          "write_in": false,
+          "votes": 19813
+        }
+      ],
+      "contest_id": "az-1978-historical-us-house-district-3",
+      "reconciliation": {
+        "status": "reported",
+        "page": 1,
+        "district": "3",
+        "candidates": [
+          {
+            "candidate": "Bob Stump",
+            "official_total": 111850,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Kathleen Cooke",
+            "official_total": 19813,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": false,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "us-house",
+      "district": "4",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Michael \"Mike\" McCormick",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 48661
+        },
+        {
+          "name": "Eldon Rudd",
+          "party": "REP",
+          "write_in": false,
+          "votes": 90768
+        },
+        {
+          "name": "Lawrence W. Jerome",
+          "party": "L",
+          "write_in": false,
+          "votes": 4407
+        }
+      ],
+      "contest_id": "az-1978-historical-us-house-district-4",
+      "reconciliation": {
+        "status": "reported",
+        "page": 1,
+        "district": "4",
+        "candidates": [
+          {
+            "candidate": "Michael \"Mike\" McCormick",
+            "official_total": 48661,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Eldon Rudd",
+            "official_total": 90768,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Lawrence W. Jerome",
+            "official_total": 4407,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": false,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "governor",
+      "district": null,
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Bruce Babbitt",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 282605
+        },
+        {
+          "name": "Evan (Ev) Mecham",
+          "party": "REP",
+          "write_in": false,
+          "votes": 241093
+        },
+        {
+          "name": "V. Gene Lewter",
+          "party": "L",
+          "write_in": false,
+          "votes": 10421
+        },
+        {
+          "name": "Jessica Sampson",
+          "party": "SW",
+          "write_in": false,
+          "votes": 4437
+        }
+      ],
+      "contest_id": "az-1978-governor",
+      "reconciliation": {
+        "status": "reported",
+        "page": 1,
+        "district": null,
+        "candidates": [
+          {
+            "candidate": "Bruce Babbitt",
+            "official_total": 282605,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Evan (Ev) Mecham",
+            "official_total": 241093,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "V. Gene Lewter",
+            "official_total": 10421,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Jessica Sampson",
+            "official_total": 4437,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": false,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "secretary-of-state",
+      "district": null,
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Rose Mofford",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 282736,
+          "county_votes": {
+            "04001": 4364,
+            "04003": 8914,
+            "04005": 9717,
+            "04007": 6909,
+            "04009": 2934,
+            "04011": 2414,
+            "04013": 150691,
+            "04015": 6587,
+            "04017": 6119,
+            "04019": 55175,
+            "04021": 10508,
+            "04023": 2407,
+            "04025": 8277,
+            "04027": 7720
+          }
+        },
+        {
+          "name": "Henry Hawn",
+          "party": "REP",
+          "write_in": false,
+          "votes": 208222,
+          "county_votes": {
+            "04001": 1793,
+            "04003": 5390,
+            "04005": 4368,
+            "04007": 2180,
+            "04009": 2392,
+            "04011": 649,
+            "04013": 125439,
+            "04015": 4623,
+            "04017": 4330,
+            "04019": 39551,
+            "04021": 4923,
+            "04023": 1063,
+            "04025": 7687,
+            "04027": 3834
+          }
+        },
+        {
+          "name": "Monica Swift",
+          "party": "L",
+          "write_in": false,
+          "votes": 23605,
+          "county_votes": {
+            "04001": 343,
+            "04003": 643,
+            "04005": 789,
+            "04007": 273,
+            "04009": 175,
+            "04011": 110,
+            "04013": 13233,
+            "04015": 435,
+            "04017": 360,
+            "04019": 4816,
+            "04021": 754,
+            "04023": 233,
+            "04025": 848,
+            "04027": 593
+          }
+        }
+      ],
+      "contest_id": "az-1978-secretary-of-state",
+      "reconciliation": {
+        "status": "verified",
+        "page": 1,
+        "district": null,
+        "candidates": [
+          {
+            "candidate": "Rose Mofford",
+            "official_total": 282736,
+            "county_sum": 282736,
+            "county_coverage": 14,
+            "difference": 0
+          },
+          {
+            "candidate": "Henry Hawn",
+            "official_total": 208222,
+            "county_sum": 208222,
+            "county_coverage": 14,
+            "difference": 0
+          },
+          {
+            "candidate": "Monica Swift",
+            "official_total": 23605,
+            "county_sum": 23605,
+            "county_coverage": 14,
+            "difference": 0
+          }
+        ],
+        "county_count": 14,
+        "coverage": "county",
+        "multi_seat": false,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "attorney-general",
+      "district": null,
+      "page": 2,
+      "candidates": [
+        {
+          "name": "Dino DeConcini",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 242169,
+          "county_votes": {
+            "04001": 4081,
+            "04003": 8674,
+            "04005": 7732,
+            "04007": 5177,
+            "04009": 2786,
+            "04011": 2219,
+            "04013": 113410,
+            "04015": 5512,
+            "04017": 5487,
+            "04019": 62963,
+            "04021": 9226,
+            "04023": 2612,
+            "04025": 6201,
+            "04027": 6089
+          }
+        },
+        {
+          "name": "Bob Corbin",
+          "party": "REP",
+          "write_in": false,
+          "votes": 260564,
+          "county_votes": {
+            "04001": 1844,
+            "04003": 5985,
+            "04005": 6431,
+            "04007": 3767,
+            "04009": 2560,
+            "04011": 857,
+            "04013": 167696,
+            "04015": 6122,
+            "04017": 4970,
+            "04019": 36773,
+            "04021": 6585,
+            "04023": 1269,
+            "04025": 10009,
+            "04027": 5696
+          }
+        },
+        {
+          "name": "James T. Kirk",
+          "party": "L",
+          "write_in": false,
+          "votes": 23837,
+          "county_votes": {
+            "04001": 579,
+            "04003": 569,
+            "04005": 909,
+            "04007": 397,
+            "04009": 217,
+            "04011": 92,
+            "04013": 12158,
+            "04015": 447,
+            "04017": 476,
+            "04019": 5747,
+            "04021": 734,
+            "04023": 140,
+            "04025": 838,
+            "04027": 534
+          }
+        },
+        {
+          "name": "Frances Morgan",
+          "party": "DEM",
+          "write_in": true,
+          "votes": 23,
+          "county_votes": {
+            "04001": 0,
+            "04003": 4,
+            "04005": 0,
+            "04007": 1,
+            "04009": 0,
+            "04011": 0,
+            "04013": 14,
+            "04015": 1,
+            "04017": 0,
+            "04019": 1,
+            "04021": 1,
+            "04023": 0,
+            "04025": 0,
+            "04027": 1
+          }
+        }
+      ],
+      "contest_id": "az-1978-attorney-general",
+      "reconciliation": {
+        "status": "verified",
+        "page": 2,
+        "district": null,
+        "candidates": [
+          {
+            "candidate": "Dino DeConcini",
+            "official_total": 242169,
+            "county_sum": 242169,
+            "county_coverage": 14,
+            "difference": 0
+          },
+          {
+            "candidate": "Bob Corbin",
+            "official_total": 260564,
+            "county_sum": 260564,
+            "county_coverage": 14,
+            "difference": 0
+          },
+          {
+            "candidate": "James T. Kirk",
+            "official_total": 23837,
+            "county_sum": 23837,
+            "county_coverage": 14,
+            "difference": 0
+          },
+          {
+            "candidate": "Frances Morgan",
+            "official_total": 23,
+            "county_sum": 23,
+            "county_coverage": 14,
+            "difference": 0
+          }
+        ],
+        "county_count": 14,
+        "coverage": "county",
+        "multi_seat": false,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "1",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Boyd Tenney",
+          "party": "REP",
+          "write_in": false,
+          "votes": 18573
+        }
+      ],
+      "contest_id": "az-1978-historical-state-senate-district-1",
+      "reconciliation": {
+        "status": "reported",
+        "page": 3,
+        "district": "1",
+        "candidates": [
+          {
+            "candidate": "Boyd Tenney",
+            "official_total": 18573,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "2",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Tony Gabaldon",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 11269
+        }
+      ],
+      "contest_id": "az-1978-historical-state-senate-district-2",
+      "reconciliation": {
+        "status": "reported",
+        "page": 3,
+        "district": "2",
+        "candidates": [
+          {
+            "candidate": "Tony Gabaldon",
+            "official_total": 11269,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "3",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Arthur J. Hubbard, Sr.",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 10424
+        }
+      ],
+      "contest_id": "az-1978-historical-state-senate-district-3",
+      "reconciliation": {
+        "status": "reported",
+        "page": 3,
+        "district": "3",
+        "candidates": [
+          {
+            "candidate": "Arthur J. Hubbard, Sr.",
+            "official_total": 10424,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "4",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "A. V. \"Bill\" Hardt",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 11788
+        },
+        {
+          "name": "Dennis I. Davis",
+          "party": "REP",
+          "write_in": false,
+          "votes": 7885
+        }
+      ],
+      "contest_id": "az-1978-historical-state-senate-district-4",
+      "reconciliation": {
+        "status": "reported",
+        "page": 3,
+        "district": "4",
+        "candidates": [
+          {
+            "candidate": "A. V. \"Bill\" Hardt",
+            "official_total": 11788,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Dennis I. Davis",
+            "official_total": 7885,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "5",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Jones Osborn",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 8800
+        }
+      ],
+      "contest_id": "az-1978-historical-state-senate-district-5",
+      "reconciliation": {
+        "status": "reported",
+        "page": 3,
+        "district": "5",
+        "candidates": [
+          {
+            "candidate": "Jones Osborn",
+            "official_total": 8800,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "6",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "Polly Getzwiller",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 8520
+        }
+      ],
+      "contest_id": "az-1978-historical-state-senate-district-6",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "6",
+        "candidates": [
+          {
+            "candidate": "Polly Getzwiller",
+            "official_total": 8520,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "7",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "William L. Swink",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 9219
+        }
+      ],
+      "contest_id": "az-1978-historical-state-senate-district-7",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "7",
+        "candidates": [
+          {
+            "candidate": "William L. Swink",
+            "official_total": 9219,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "8",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "Ed C. Sawyer",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 13559
+        }
+      ],
+      "contest_id": "az-1978-historical-state-senate-district-8",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "8",
+        "candidates": [
+          {
+            "candidate": "Ed C. Sawyer",
+            "official_total": 13559,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "9",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "John J. Hutton",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 7915
+        },
+        {
+          "name": "Jeffrey J. Hill",
+          "party": "REP",
+          "write_in": false,
+          "votes": 9361
+        }
+      ],
+      "contest_id": "az-1978-historical-state-senate-district-9",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "9",
+        "candidates": [
+          {
+            "candidate": "John J. Hutton",
+            "official_total": 7915,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Jeffrey J. Hill",
+            "official_total": 9361,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "10",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "Luis Armando Gonzales",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 5605
+        },
+        {
+          "name": "Roy E. Woods",
+          "party": "REP",
+          "write_in": false,
+          "votes": 2108
+        },
+        {
+          "name": "Diane Crouch",
+          "party": "L",
+          "write_in": false,
+          "votes": 387
+        },
+        {
+          "name": "Lorenzo Torrez",
+          "party": "I",
+          "write_in": false,
+          "votes": 327
+        }
+      ],
+      "contest_id": "az-1978-historical-state-senate-district-10",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "10",
+        "candidates": [
+          {
+            "candidate": "Luis Armando Gonzales",
+            "official_total": 5605,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Roy E. Woods",
+            "official_total": 2108,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Diane Crouch",
+            "official_total": 387,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Lorenzo Torrez",
+            "official_total": 327,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "11",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "Jaime P. Gutierrez",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 9241
+        },
+        {
+          "name": "Emil S. Sasiadek",
+          "party": "IW",
+          "write_in": false,
+          "votes": 2010
+        }
+      ],
+      "notes": "Emil S. Sasiadek is labeled (IW) in the source; abbreviation retained without expansion.",
+      "contest_id": "az-1978-historical-state-senate-district-11",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "11",
+        "candidates": [
+          {
+            "candidate": "Jaime P. Gutierrez",
+            "official_total": 9241,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Emil S. Sasiadek",
+            "official_total": 2010,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": "Emil S. Sasiadek is labeled (IW) in the source; abbreviation retained without expansion."
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "12",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "Sue Dye",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 9493
+        },
+        {
+          "name": "John T. Mawhinney",
+          "party": "REP",
+          "write_in": false,
+          "votes": 11908
+        }
+      ],
+      "contest_id": "az-1978-historical-state-senate-district-12",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "12",
+        "candidates": [
+          {
+            "candidate": "Sue Dye",
+            "official_total": 9493,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "John T. Mawhinney",
+            "official_total": 11908,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "13",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Morris Farr",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 9740
+        },
+        {
+          "name": "Greg Lunn",
+          "party": "REP",
+          "write_in": false,
+          "votes": 9371
+        },
+        {
+          "name": "Wilfred \"Bill\" Olschewski",
+          "party": "L",
+          "write_in": false,
+          "votes": 498
+        }
+      ],
+      "contest_id": "az-1978-historical-state-senate-district-13",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "13",
+        "candidates": [
+          {
+            "candidate": "Morris Farr",
+            "official_total": 9740,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Greg Lunn",
+            "official_total": 9371,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Wilfred \"Bill\" Olschewski",
+            "official_total": 498,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "14",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Jim Kolbe",
+          "party": "REP",
+          "write_in": false,
+          "votes": 18192
+        }
+      ],
+      "contest_id": "az-1978-historical-state-senate-district-14",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "14",
+        "candidates": [
+          {
+            "candidate": "Jim Kolbe",
+            "official_total": 18192,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "15",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "S. H. \"Hal\" Runyan",
+          "party": "REP",
+          "write_in": false,
+          "votes": 14574
+        }
+      ],
+      "contest_id": "az-1978-historical-state-senate-district-15",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "15",
+        "candidates": [
+          {
+            "candidate": "S. H. \"Hal\" Runyan",
+            "official_total": 14574,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "16",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Marcia Weeks",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 10929
+        },
+        {
+          "name": "Dr. Wayne Stump",
+          "party": "REP",
+          "write_in": false,
+          "votes": 12254
+        },
+        {
+          "name": "James C. Cameron",
+          "party": "L",
+          "write_in": false,
+          "votes": 1121
+        }
+      ],
+      "contest_id": "az-1978-historical-state-senate-district-16",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "16",
+        "candidates": [
+          {
+            "candidate": "Marcia Weeks",
+            "official_total": 10929,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Dr. Wayne Stump",
+            "official_total": 12254,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "James C. Cameron",
+            "official_total": 1121,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "17",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Anne Lindeman",
+          "party": "REP",
+          "write_in": false,
+          "votes": 20779
+        }
+      ],
+      "contest_id": "az-1978-historical-state-senate-district-17",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "17",
+        "candidates": [
+          {
+            "candidate": "Anne Lindeman",
+            "official_total": 20779,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "18",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Phyllis G. Rowe",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 5691
+        },
+        {
+          "name": "Leo Corbet",
+          "party": "REP",
+          "write_in": false,
+          "votes": 9901
+        },
+        {
+          "name": "Kathi O'Connell",
+          "party": "L",
+          "write_in": false,
+          "votes": 913
+        }
+      ],
+      "contest_id": "az-1978-historical-state-senate-district-18",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "18",
+        "candidates": [
+          {
+            "candidate": "Phyllis G. Rowe",
+            "official_total": 5691,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Leo Corbet",
+            "official_total": 9901,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Kathi O'Connell",
+            "official_total": 913,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "19",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Ray Rottas",
+          "party": "REP",
+          "write_in": false,
+          "votes": 12676
+        }
+      ],
+      "contest_id": "az-1978-historical-state-senate-district-19",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "19",
+        "candidates": [
+          {
+            "candidate": "Ray Rottas",
+            "official_total": 12676,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "20",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Lela Alston",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 7768
+        },
+        {
+          "name": "George Hussey",
+          "party": "REP",
+          "write_in": false,
+          "votes": 5283
+        }
+      ],
+      "contest_id": "az-1978-historical-state-senate-district-20",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "20",
+        "candidates": [
+          {
+            "candidate": "Lela Alston",
+            "official_total": 7768,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "George Hussey",
+            "official_total": 5283,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "21",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Richard Kimball",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 6851
+        },
+        {
+          "name": "Tim Heyes",
+          "party": "REP",
+          "write_in": false,
+          "votes": 6211
+        },
+        {
+          "name": "Don Stott",
+          "party": "L",
+          "write_in": false,
+          "votes": 432
+        }
+      ],
+      "contest_id": "az-1978-historical-state-senate-district-21",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "21",
+        "candidates": [
+          {
+            "candidate": "Richard Kimball",
+            "official_total": 6851,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Tim Heyes",
+            "official_total": 6211,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Don Stott",
+            "official_total": 432,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "22",
+      "page": 6,
+      "candidates": [
+        {
+          "name": "Manuel \"Lito\" Pena, Jr.",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 5672
+        }
+      ],
+      "contest_id": "az-1978-historical-state-senate-district-22",
+      "reconciliation": {
+        "status": "reported",
+        "page": 6,
+        "district": "22",
+        "candidates": [
+          {
+            "candidate": "Manuel \"Lito\" Pena, Jr.",
+            "official_total": 5672,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "23",
+      "page": 6,
+      "candidates": [
+        {
+          "name": "Alfredo Gutierrez",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 3790
+        },
+        {
+          "name": "Bennie Joe (Bossa-Nova) Brown",
+          "party": "REP",
+          "write_in": false,
+          "votes": 902
+        }
+      ],
+      "contest_id": "az-1978-historical-state-senate-district-23",
+      "reconciliation": {
+        "status": "reported",
+        "page": 6,
+        "district": "23",
+        "candidates": [
+          {
+            "candidate": "Alfredo Gutierrez",
+            "official_total": 3790,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Bennie Joe (Bossa-Nova) Brown",
+            "official_total": 902,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "24",
+      "page": 6,
+      "candidates": [
+        {
+          "name": "Jean Reed Roberts",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 10713
+        },
+        {
+          "name": "John C. Pritzlaff, Jr.",
+          "party": "REP",
+          "write_in": false,
+          "votes": 23826
+        },
+        {
+          "name": "Randy Dana Paulsen",
+          "party": "L",
+          "write_in": false,
+          "votes": 1691
+        }
+      ],
+      "contest_id": "az-1978-historical-state-senate-district-24",
+      "reconciliation": {
+        "status": "reported",
+        "page": 6,
+        "district": "24",
+        "candidates": [
+          {
+            "candidate": "Jean Reed Roberts",
+            "official_total": 10713,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "John C. Pritzlaff, Jr.",
+            "official_total": 23826,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Randy Dana Paulsen",
+            "official_total": 1691,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "25",
+      "page": 6,
+      "candidates": [
+        {
+          "name": "Jerri Pastor",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 5419
+        },
+        {
+          "name": "Trudy Camping",
+          "party": "REP",
+          "write_in": false,
+          "votes": 6931
+        },
+        {
+          "name": "Michael C. Monson",
+          "party": "L",
+          "write_in": false,
+          "votes": 525
+        }
+      ],
+      "contest_id": "az-1978-historical-state-senate-district-25",
+      "reconciliation": {
+        "status": "reported",
+        "page": 6,
+        "district": "25",
+        "candidates": [
+          {
+            "candidate": "Jerri Pastor",
+            "official_total": 5419,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Trudy Camping",
+            "official_total": 6931,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Michael C. Monson",
+            "official_total": 525,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "26",
+      "page": 6,
+      "candidates": [
+        {
+          "name": "Rod McMullin",
+          "party": "REP",
+          "write_in": false,
+          "votes": 11933
+        },
+        {
+          "name": "Leona Kroger",
+          "party": "L",
+          "write_in": false,
+          "votes": 2659
+        }
+      ],
+      "contest_id": "az-1978-historical-state-senate-district-26",
+      "reconciliation": {
+        "status": "reported",
+        "page": 6,
+        "district": "26",
+        "candidates": [
+          {
+            "candidate": "Rod McMullin",
+            "official_total": 11933,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Leona Kroger",
+            "official_total": 2659,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "27",
+      "page": 6,
+      "candidates": [
+        {
+          "name": "Bob Ashe",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 8305
+        },
+        {
+          "name": "James A. \"Jim\" Mack",
+          "party": "REP",
+          "write_in": false,
+          "votes": 12463
+        },
+        {
+          "name": "Leanna F. Garrison",
+          "party": "L",
+          "write_in": false,
+          "votes": 1088
+        }
+      ],
+      "contest_id": "az-1978-historical-state-senate-district-27",
+      "reconciliation": {
+        "status": "reported",
+        "page": 6,
+        "district": "27",
+        "candidates": [
+          {
+            "candidate": "Bob Ashe",
+            "official_total": 8305,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "James A. \"Jim\" Mack",
+            "official_total": 12463,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Leanna F. Garrison",
+            "official_total": 1088,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "28",
+      "page": 6,
+      "candidates": [
+        {
+          "name": "Imogene (Gene) Moore",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 5442
+        },
+        {
+          "name": "Robert B. Usdane",
+          "party": "REP",
+          "write_in": false,
+          "votes": 12639
+        },
+        {
+          "name": "Sumner D. Dodge",
+          "party": "L",
+          "write_in": false,
+          "votes": 808
+        }
+      ],
+      "contest_id": "az-1978-historical-state-senate-district-28",
+      "reconciliation": {
+        "status": "reported",
+        "page": 6,
+        "district": "28",
+        "candidates": [
+          {
+            "candidate": "Imogene (Gene) Moore",
+            "official_total": 5442,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Robert B. Usdane",
+            "official_total": 12639,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Sumner D. Dodge",
+            "official_total": 808,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "29",
+      "page": 6,
+      "candidates": [
+        {
+          "name": "George E. Claeseman",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 3537
+        },
+        {
+          "name": "Jack J. Taylor",
+          "party": "REP",
+          "write_in": false,
+          "votes": 12109
+        }
+      ],
+      "contest_id": "az-1978-historical-state-senate-district-29",
+      "reconciliation": {
+        "status": "reported",
+        "page": 6,
+        "district": "29",
+        "candidates": [
+          {
+            "candidate": "George E. Claeseman",
+            "official_total": 3537,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Jack J. Taylor",
+            "official_total": 12109,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "30",
+      "page": 6,
+      "candidates": [
+        {
+          "name": "Stan Turley",
+          "party": "REP",
+          "write_in": false,
+          "votes": 19666
+        }
+      ],
+      "contest_id": "az-1978-historical-state-senate-district-30",
+      "reconciliation": {
+        "status": "reported",
+        "page": 6,
+        "district": "30",
+        "candidates": [
+          {
+            "candidate": "Stan Turley",
+            "official_total": 19666,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "1",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "D. R. (Don) Gump",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 7594
+        },
+        {
+          "name": "Jerri Wagner",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 9538
+        },
+        {
+          "name": "John H. Hays",
+          "party": "REP",
+          "write_in": false,
+          "votes": 16928
+        },
+        {
+          "name": "Jerry Everall",
+          "party": "REP",
+          "write_in": false,
+          "votes": 13673
+        },
+        {
+          "name": "William \"Bill\" Pynchon",
+          "party": "I",
+          "write_in": false,
+          "votes": 3583
+        }
+      ],
+      "contest_id": "az-1978-historical-state-house-district-1",
+      "reconciliation": {
+        "status": "reported",
+        "page": 3,
+        "district": "1",
+        "candidates": [
+          {
+            "candidate": "D. R. (Don) Gump",
+            "official_total": 7594,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Jerri Wagner",
+            "official_total": 9538,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "John H. Hays",
+            "official_total": 16928,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Jerry Everall",
+            "official_total": 13673,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "William \"Bill\" Pynchon",
+            "official_total": 3583,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "2",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Annice Husband",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 7603
+        },
+        {
+          "name": "Joe E. Lingerfelt",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 5106
+        },
+        {
+          "name": "Sam A. McConnell, Jr.",
+          "party": "REP",
+          "write_in": false,
+          "votes": 7698
+        },
+        {
+          "name": "John Wettaw",
+          "party": "REP",
+          "write_in": false,
+          "votes": 9275
+        }
+      ],
+      "contest_id": "az-1978-historical-state-house-district-2",
+      "reconciliation": {
+        "status": "reported",
+        "page": 3,
+        "district": "2",
+        "candidates": [
+          {
+            "candidate": "Annice Husband",
+            "official_total": 7603,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Joe E. Lingerfelt",
+            "official_total": 5106,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Sam A. McConnell, Jr.",
+            "official_total": 7698,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "John Wettaw",
+            "official_total": 9275,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "3",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Benjamin Hanley",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 9194
+        },
+        {
+          "name": "Daniel Peaches",
+          "party": "REP",
+          "write_in": false,
+          "votes": 7533
+        }
+      ],
+      "contest_id": "az-1978-historical-state-house-district-3",
+      "reconciliation": {
+        "status": "reported",
+        "page": 3,
+        "district": "3",
+        "candidates": [
+          {
+            "candidate": "Benjamin Hanley",
+            "official_total": 9194,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Daniel Peaches",
+            "official_total": 7533,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "4",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Edward G. (Bunch) Guerrero",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 9502
+        },
+        {
+          "name": "E. C. \"Polly\" Rosenbaum",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 10681
+        },
+        {
+          "name": "Frances Geissler",
+          "party": "REP",
+          "write_in": false,
+          "votes": 6781
+        },
+        {
+          "name": "Dorothy L. Schatz",
+          "party": "REP",
+          "write_in": false,
+          "votes": 7909
+        }
+      ],
+      "contest_id": "az-1978-historical-state-house-district-4",
+      "reconciliation": {
+        "status": "reported",
+        "page": 3,
+        "district": "4",
+        "candidates": [
+          {
+            "candidate": "Edward G. (Bunch) Guerrero",
+            "official_total": 9502,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "E. C. \"Polly\" Rosenbaum",
+            "official_total": 10681,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Frances Geissler",
+            "official_total": 6781,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Dorothy L. Schatz",
+            "official_total": 7909,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "5",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Frank McElhaney",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 6821
+        },
+        {
+          "name": "Bob (Red) Phillips",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 5782
+        },
+        {
+          "name": "Morris \"Court\" Courtright",
+          "party": "REP",
+          "write_in": false,
+          "votes": 5997
+        }
+      ],
+      "contest_id": "az-1978-historical-state-house-district-5",
+      "reconciliation": {
+        "status": "reported",
+        "page": 3,
+        "district": "5",
+        "candidates": [
+          {
+            "candidate": "Frank McElhaney",
+            "official_total": 6821,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Bob (Red) Phillips",
+            "official_total": 5782,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Morris \"Court\" Courtright",
+            "official_total": 5997,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "6",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "Renz D. Jennings",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 5460
+        },
+        {
+          "name": "Manuel (Manny) Marin",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 5400
+        },
+        {
+          "name": "Jim Hartdegen",
+          "party": "REP",
+          "write_in": false,
+          "votes": 5717
+        },
+        {
+          "name": "James Alverson",
+          "party": "I",
+          "write_in": false,
+          "votes": 1884
+        }
+      ],
+      "contest_id": "az-1978-historical-state-house-district-6",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "6",
+        "candidates": [
+          {
+            "candidate": "Renz D. Jennings",
+            "official_total": 5460,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Manuel (Manny) Marin",
+            "official_total": 5400,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Jim Hartdegen",
+            "official_total": 5717,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "James Alverson",
+            "official_total": 1884,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "7",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "Marjory \"Marge\" Ollson",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 6173
+        },
+        {
+          "name": "Richard \"Dick\" Pacheco",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 7822
+        },
+        {
+          "name": "Richard Frederick Koppe, Jr.",
+          "party": "REP",
+          "write_in": false,
+          "votes": 4185
+        },
+        {
+          "name": "Lloyd R. Logan, Jr.",
+          "party": "REP",
+          "write_in": false,
+          "votes": 4684
+        }
+      ],
+      "contest_id": "az-1978-historical-state-house-district-7",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "7",
+        "candidates": [
+          {
+            "candidate": "Marjory \"Marge\" Ollson",
+            "official_total": 6173,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Richard \"Dick\" Pacheco",
+            "official_total": 7822,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Richard Frederick Koppe, Jr.",
+            "official_total": 4185,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Lloyd R. Logan, Jr.",
+            "official_total": 4684,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "8",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "James A. \"Jim\" Elliott",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 7818
+        },
+        {
+          "name": "Steve J. Vukcevich",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 8492
+        },
+        {
+          "name": "Joe Lane",
+          "party": "REP",
+          "write_in": false,
+          "votes": 9941
+        }
+      ],
+      "contest_id": "az-1978-historical-state-house-district-8",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "8",
+        "candidates": [
+          {
+            "candidate": "James A. \"Jim\" Elliott",
+            "official_total": 7818,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Steve J. Vukcevich",
+            "official_total": 8492,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Joe Lane",
+            "official_total": 9941,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "9",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "Gordon A. Burgess",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 7427
+        },
+        {
+          "name": "David \"Lucky\" Lindsay",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 6348
+        },
+        {
+          "name": "Burt Baker",
+          "party": "REP",
+          "write_in": false,
+          "votes": 7935
+        },
+        {
+          "name": "Bill (William J.) English",
+          "party": "REP",
+          "write_in": false,
+          "votes": 8970
+        }
+      ],
+      "contest_id": "az-1978-historical-state-house-district-9",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "9",
+        "candidates": [
+          {
+            "candidate": "Gordon A. Burgess",
+            "official_total": 7427,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "David \"Lucky\" Lindsay",
+            "official_total": 6348,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Burt Baker",
+            "official_total": 7935,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Bill (William J.) English",
+            "official_total": 8970,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "10",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "Larry Bahill",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 6061
+        },
+        {
+          "name": "Carmen F. Cajero",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 5712
+        },
+        {
+          "name": "Buck Crouch",
+          "party": "L",
+          "write_in": false,
+          "votes": 597
+        },
+        {
+          "name": "Jerry Crouch",
+          "party": "L",
+          "write_in": false,
+          "votes": 711
+        }
+      ],
+      "contest_id": "az-1978-historical-state-house-district-10",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "10",
+        "candidates": [
+          {
+            "candidate": "Larry Bahill",
+            "official_total": 6061,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Carmen F. Cajero",
+            "official_total": 5712,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Buck Crouch",
+            "official_total": 597,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Jerry Crouch",
+            "official_total": 711,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "11",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "Emilio Carrillo",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 5834
+        },
+        {
+          "name": "Peter Goudinoff",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 6528
+        },
+        {
+          "name": "Mike Morales",
+          "party": "REP",
+          "write_in": false,
+          "votes": 6056
+        }
+      ],
+      "contest_id": "az-1978-historical-state-house-district-11",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "11",
+        "candidates": [
+          {
+            "candidate": "Emilio Carrillo",
+            "official_total": 5834,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Peter Goudinoff",
+            "official_total": 6528,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Mike Morales",
+            "official_total": 6056,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "12",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "John Kromko",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 10410
+        },
+        {
+          "name": "Joe Skinner",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 6605
+        },
+        {
+          "name": "Claudell Bailey",
+          "party": "REP",
+          "write_in": false,
+          "votes": 8869
+        },
+        {
+          "name": "Thomas N. \"Tom\" Goodwin",
+          "party": "REP",
+          "write_in": false,
+          "votes": 12482
+        },
+        {
+          "name": "Robert Stockbridge",
+          "party": "L",
+          "write_in": false,
+          "votes": 976
+        }
+      ],
+      "contest_id": "az-1978-historical-state-house-district-12",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "12",
+        "candidates": [
+          {
+            "candidate": "John Kromko",
+            "official_total": 10410,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Joe Skinner",
+            "official_total": 6605,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Claudell Bailey",
+            "official_total": 8869,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Thomas N. \"Tom\" Goodwin",
+            "official_total": 12482,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Robert Stockbridge",
+            "official_total": 976,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "13",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Sister Clare Dunn",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 10448
+        },
+        {
+          "name": "Bruce Wheeler",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 9101
+        },
+        {
+          "name": "Larry Hawke",
+          "party": "REP",
+          "write_in": false,
+          "votes": 9775
+        },
+        {
+          "name": "S. H. \"Mr. Seth\" Linthicum",
+          "party": "REP",
+          "write_in": false,
+          "votes": 6812
+        },
+        {
+          "name": "Rita Olschewski",
+          "party": "L",
+          "write_in": false,
+          "votes": 602
+        },
+        {
+          "name": "William \"Bill\" Stefanow",
+          "party": "L",
+          "write_in": false,
+          "votes": 410
+        }
+      ],
+      "contest_id": "az-1978-historical-state-house-district-13",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "13",
+        "candidates": [
+          {
+            "candidate": "Sister Clare Dunn",
+            "official_total": 10448,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Bruce Wheeler",
+            "official_total": 9101,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Larry Hawke",
+            "official_total": 9775,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "S. H. \"Mr. Seth\" Linthicum",
+            "official_total": 6812,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Rita Olschewski",
+            "official_total": 602,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "William \"Bill\" Stefanow",
+            "official_total": 410,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "14",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Peter Stoss",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 6009
+        },
+        {
+          "name": "Matt Welch",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 9223
+        },
+        {
+          "name": "Arnold Jeffers",
+          "party": "REP",
+          "write_in": false,
+          "votes": 15808
+        },
+        {
+          "name": "Ralph Soelter",
+          "party": "REP",
+          "write_in": false,
+          "votes": 12081
+        }
+      ],
+      "contest_id": "az-1978-historical-state-house-district-14",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "14",
+        "candidates": [
+          {
+            "candidate": "Peter Stoss",
+            "official_total": 6009,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Matt Welch",
+            "official_total": 9223,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Arnold Jeffers",
+            "official_total": 15808,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Ralph Soelter",
+            "official_total": 12081,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "15",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Bob Denny",
+          "party": "REP",
+          "write_in": false,
+          "votes": 12658
+        },
+        {
+          "name": "James B. Ratliff",
+          "party": "REP",
+          "write_in": false,
+          "votes": 12284
+        },
+        {
+          "name": "David L. McNeill",
+          "party": "L",
+          "write_in": false,
+          "votes": 2760
+        }
+      ],
+      "contest_id": "az-1978-historical-state-house-district-15",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "15",
+        "candidates": [
+          {
+            "candidate": "Bob Denny",
+            "official_total": 12658,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "James B. Ratliff",
+            "official_total": 12284,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "David L. McNeill",
+            "official_total": 2760,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "16",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Jim Keffer",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 10410
+        },
+        {
+          "name": "Steve Poe",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 6756
+        },
+        {
+          "name": "Bob Hungerford",
+          "party": "REP",
+          "write_in": false,
+          "votes": 13338
+        },
+        {
+          "name": "Diane B. McCarthy",
+          "party": "REP",
+          "write_in": false,
+          "votes": 12438
+        },
+        {
+          "name": "John Kannarr",
+          "party": "L",
+          "write_in": false,
+          "votes": 685
+        },
+        {
+          "name": "Patricia A. Van",
+          "party": "L",
+          "write_in": false,
+          "votes": 1252
+        },
+        {
+          "name": "Mark Vollmar",
+          "party": "I",
+          "write_in": false,
+          "votes": 683
+        }
+      ],
+      "contest_id": "az-1978-historical-state-house-district-16",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "16",
+        "candidates": [
+          {
+            "candidate": "Jim Keffer",
+            "official_total": 10410,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Steve Poe",
+            "official_total": 6756,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Bob Hungerford",
+            "official_total": 13338,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Diane B. McCarthy",
+            "official_total": 12438,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "John Kannarr",
+            "official_total": 685,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Patricia A. Van",
+            "official_total": 1252,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Mark Vollmar",
+            "official_total": 683,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "17",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Wilbert J. \"Chili\" Davis",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 6365
+        },
+        {
+          "name": "C. W. \"Bill\" Lewis",
+          "party": "REP",
+          "write_in": false,
+          "votes": 15724
+        },
+        {
+          "name": "Patricia \"Pat\" Wright",
+          "party": "REP",
+          "write_in": false,
+          "votes": 17666
+        }
+      ],
+      "contest_id": "az-1978-historical-state-house-district-17",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "17",
+        "candidates": [
+          {
+            "candidate": "Wilbert J. \"Chili\" Davis",
+            "official_total": 6365,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "C. W. \"Bill\" Lewis",
+            "official_total": 15724,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Patricia \"Pat\" Wright",
+            "official_total": 17666,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "18",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Jerome \"Jerry\" Denomme",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 5192
+        },
+        {
+          "name": "Burton S. Barr",
+          "party": "REP",
+          "write_in": false,
+          "votes": 11318
+        },
+        {
+          "name": "Pete Dunn",
+          "party": "REP",
+          "write_in": false,
+          "votes": 10473
+        },
+        {
+          "name": "Fred R. Esser",
+          "party": "L",
+          "write_in": false,
+          "votes": 1257
+        },
+        {
+          "name": "Joe M. O'Connell",
+          "party": "L",
+          "write_in": false,
+          "votes": 1392
+        }
+      ],
+      "contest_id": "az-1978-historical-state-house-district-18",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "18",
+        "candidates": [
+          {
+            "candidate": "Jerome \"Jerry\" Denomme",
+            "official_total": 5192,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Burton S. Barr",
+            "official_total": 11318,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Pete Dunn",
+            "official_total": 10473,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Fred R. Esser",
+            "official_total": 1257,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Joe M. O'Connell",
+            "official_total": 1392,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "19",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Alan L. Flory",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 3632
+        },
+        {
+          "name": "William F. (Bill) Perkins",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 4645
+        },
+        {
+          "name": "June Dee Hull",
+          "party": "REP",
+          "write_in": false,
+          "votes": 9955
+        },
+        {
+          "name": "Tony West",
+          "party": "REP",
+          "write_in": false,
+          "votes": 10667
+        },
+        {
+          "name": "Michael A. Vogt",
+          "party": "L",
+          "write_in": false,
+          "votes": 889
+        }
+      ],
+      "contest_id": "az-1978-historical-state-house-district-19",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "19",
+        "candidates": [
+          {
+            "candidate": "Alan L. Flory",
+            "official_total": 3632,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "William F. (Bill) Perkins",
+            "official_total": 4645,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "June Dee Hull",
+            "official_total": 9955,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Tony West",
+            "official_total": 10667,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Michael A. Vogt",
+            "official_total": 889,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "20",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Debbie McCune",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 7350
+        },
+        {
+          "name": "Sue Tucker",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 5769
+        },
+        {
+          "name": "Lillian Jordan",
+          "party": "REP",
+          "write_in": false,
+          "votes": 7064
+        },
+        {
+          "name": "Leona R. Miller",
+          "party": "REP",
+          "write_in": false,
+          "votes": 4230
+        }
+      ],
+      "contest_id": "az-1978-historical-state-house-district-20",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "20",
+        "candidates": [
+          {
+            "candidate": "Debbie McCune",
+            "official_total": 7350,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Sue Tucker",
+            "official_total": 5769,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Lillian Jordan",
+            "official_total": 7064,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Leona R. Miller",
+            "official_total": 4230,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "21",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Jaedene Cox",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 5138
+        },
+        {
+          "name": "Robert \"R. T.\" Griffin",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 4715
+        },
+        {
+          "name": "Donald Kenney",
+          "party": "REP",
+          "write_in": false,
+          "votes": 6765
+        },
+        {
+          "name": "Elizabeth Adams Rockwell",
+          "party": "REP",
+          "write_in": false,
+          "votes": 7089
+        },
+        {
+          "name": "A. B. Culp",
+          "party": "L",
+          "write_in": false,
+          "votes": 522
+        },
+        {
+          "name": "Robert M. Dugger",
+          "party": "L",
+          "write_in": false,
+          "votes": 528
+        }
+      ],
+      "contest_id": "az-1978-historical-state-house-district-21",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "21",
+        "candidates": [
+          {
+            "candidate": "Jaedene Cox",
+            "official_total": 5138,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Robert \"R. T.\" Griffin",
+            "official_total": 4715,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Donald Kenney",
+            "official_total": 6765,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Elizabeth Adams Rockwell",
+            "official_total": 7089,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "A. B. Culp",
+            "official_total": 522,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Robert M. Dugger",
+            "official_total": 528,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "22",
+      "page": 6,
+      "candidates": [
+        {
+          "name": "Art Hamilton",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 4873
+        },
+        {
+          "name": "Earl V. Wilcox",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 4764
+        },
+        {
+          "name": "Raymond J. Stengel",
+          "party": "L",
+          "write_in": false,
+          "votes": 1183
+        }
+      ],
+      "contest_id": "az-1978-historical-state-house-district-22",
+      "reconciliation": {
+        "status": "reported",
+        "page": 6,
+        "district": "22",
+        "candidates": [
+          {
+            "candidate": "Art Hamilton",
+            "official_total": 4873,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Earl V. Wilcox",
+            "official_total": 4764,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Raymond J. Stengel",
+            "official_total": 1183,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "23",
+      "page": 6,
+      "candidates": [
+        {
+          "name": "Tony R. Abril, Sr.",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 3331
+        },
+        {
+          "name": "Leon Thompson",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 3668
+        },
+        {
+          "name": "Tyler Olson",
+          "party": "L",
+          "write_in": false,
+          "votes": 616
+        }
+      ],
+      "contest_id": "az-1978-historical-state-house-district-23",
+      "reconciliation": {
+        "status": "reported",
+        "page": 6,
+        "district": "23",
+        "candidates": [
+          {
+            "candidate": "Tony R. Abril, Sr.",
+            "official_total": 3331,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Leon Thompson",
+            "official_total": 3668,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Tyler Olson",
+            "official_total": 616,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "24",
+      "page": 6,
+      "candidates": [
+        {
+          "name": "Gene Bullock",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 9009
+        },
+        {
+          "name": "David A. Gorman",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 9931
+        },
+        {
+          "name": "Pete Corpstein",
+          "party": "REP",
+          "write_in": false,
+          "votes": 22697
+        },
+        {
+          "name": "Cal Holman",
+          "party": "REP",
+          "write_in": false,
+          "votes": 21263
+        },
+        {
+          "name": "Debbie M. Norwitz",
+          "party": "L",
+          "write_in": false,
+          "votes": 2081
+        },
+        {
+          "name": "Virginia M. Paulsen",
+          "party": "L",
+          "write_in": false,
+          "votes": 3088
+        }
+      ],
+      "contest_id": "az-1978-historical-state-house-district-24",
+      "reconciliation": {
+        "status": "reported",
+        "page": 6,
+        "district": "24",
+        "candidates": [
+          {
+            "candidate": "Gene Bullock",
+            "official_total": 9009,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "David A. Gorman",
+            "official_total": 9931,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Pete Corpstein",
+            "official_total": 22697,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Cal Holman",
+            "official_total": 21263,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Debbie M. Norwitz",
+            "official_total": 2081,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Virginia M. Paulsen",
+            "official_total": 3088,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "25",
+      "page": 6,
+      "candidates": [
+        {
+          "name": "Louis Rhodes",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 5858
+        },
+        {
+          "name": "Mark Winemiller",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 4728
+        },
+        {
+          "name": "D. Lee Jones",
+          "party": "REP",
+          "write_in": false,
+          "votes": 6324
+        },
+        {
+          "name": "Jacque Steiner",
+          "party": "REP",
+          "write_in": false,
+          "votes": 6622
+        }
+      ],
+      "contest_id": "az-1978-historical-state-house-district-25",
+      "reconciliation": {
+        "status": "reported",
+        "page": 6,
+        "district": "25",
+        "candidates": [
+          {
+            "candidate": "Louis Rhodes",
+            "official_total": 5858,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Mark Winemiller",
+            "official_total": 4728,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "D. Lee Jones",
+            "official_total": 6324,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Jacque Steiner",
+            "official_total": 6622,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "26",
+      "page": 6,
+      "candidates": [
+        {
+          "name": "Mary C. Hegarty",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 5120
+        },
+        {
+          "name": "Edith \"Jo\" Laetz",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 3724
+        },
+        {
+          "name": "Peter Kay",
+          "party": "REP",
+          "write_in": false,
+          "votes": 8862
+        },
+        {
+          "name": "Frank Kelley",
+          "party": "REP",
+          "write_in": false,
+          "votes": 9551
+        },
+        {
+          "name": "James G. Jefferies",
+          "party": "L",
+          "write_in": false,
+          "votes": 925
+        },
+        {
+          "name": "Joan Vanderslice",
+          "party": "L",
+          "write_in": false,
+          "votes": 883
+        }
+      ],
+      "contest_id": "az-1978-historical-state-house-district-26",
+      "reconciliation": {
+        "status": "reported",
+        "page": 6,
+        "district": "26",
+        "candidates": [
+          {
+            "candidate": "Mary C. Hegarty",
+            "official_total": 5120,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Edith \"Jo\" Laetz",
+            "official_total": 3724,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Peter Kay",
+            "official_total": 8862,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Frank Kelley",
+            "official_total": 9551,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "James G. Jefferies",
+            "official_total": 925,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Joan Vanderslice",
+            "official_total": 883,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "27",
+      "page": 6,
+      "candidates": [
+        {
+          "name": "Peggy Burton",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 6980
+        },
+        {
+          "name": "Gene Kadish",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 8837
+        },
+        {
+          "name": "Juanita Harelson",
+          "party": "REP",
+          "write_in": false,
+          "votes": 12671
+        },
+        {
+          "name": "Doug Todd",
+          "party": "REP",
+          "write_in": false,
+          "votes": 11196
+        },
+        {
+          "name": "Marilyn Steffen",
+          "party": "L",
+          "write_in": false,
+          "votes": 1272
+        }
+      ],
+      "contest_id": "az-1978-historical-state-house-district-27",
+      "reconciliation": {
+        "status": "reported",
+        "page": 6,
+        "district": "27",
+        "candidates": [
+          {
+            "candidate": "Peggy Burton",
+            "official_total": 6980,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Gene Kadish",
+            "official_total": 8837,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Juanita Harelson",
+            "official_total": 12671,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Doug Todd",
+            "official_total": 11196,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Marilyn Steffen",
+            "official_total": 1272,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "28",
+      "page": 6,
+      "candidates": [
+        {
+          "name": "Scudder Gookin",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 5042
+        },
+        {
+          "name": "Tony Raineri",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 7342
+        },
+        {
+          "name": "David B. Kret",
+          "party": "REP",
+          "write_in": false,
+          "votes": 10103
+        },
+        {
+          "name": "Jim Skelly",
+          "party": "REP",
+          "write_in": false,
+          "votes": 12132
+        },
+        {
+          "name": "Mack C. Lake",
+          "party": "L",
+          "write_in": false,
+          "votes": 822
+        }
+      ],
+      "contest_id": "az-1978-historical-state-house-district-28",
+      "reconciliation": {
+        "status": "reported",
+        "page": 6,
+        "district": "28",
+        "candidates": [
+          {
+            "candidate": "Scudder Gookin",
+            "official_total": 5042,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Tony Raineri",
+            "official_total": 7342,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "David B. Kret",
+            "official_total": 10103,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Jim Skelly",
+            "official_total": 12132,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Mack C. Lake",
+            "official_total": 822,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "29",
+      "page": 6,
+      "candidates": [
+        {
+          "name": "Donna J. Carlson",
+          "party": "REP",
+          "write_in": false,
+          "votes": 12642
+        },
+        {
+          "name": "Jim Cooper",
+          "party": "REP",
+          "write_in": false,
+          "votes": 11765
+        }
+      ],
+      "contest_id": "az-1978-historical-state-house-district-29",
+      "reconciliation": {
+        "status": "reported",
+        "page": 6,
+        "district": "29",
+        "candidates": [
+          {
+            "candidate": "Donna J. Carlson",
+            "official_total": 12642,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Jim Cooper",
+            "official_total": 11765,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "30",
+      "page": 6,
+      "candidates": [
+        {
+          "name": "Doug Hale",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 6822
+        },
+        {
+          "name": "Harold Lindmark",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 6368
+        },
+        {
+          "name": "Carl J. Kunasek",
+          "party": "REP",
+          "write_in": false,
+          "votes": 14092
+        },
+        {
+          "name": "James J. Sossaman",
+          "party": "REP",
+          "write_in": false,
+          "votes": 15981
+        }
+      ],
+      "contest_id": "az-1978-historical-state-house-district-30",
+      "reconciliation": {
+        "status": "reported",
+        "page": 6,
+        "district": "30",
+        "candidates": [
+          {
+            "candidate": "Doug Hale",
+            "official_total": 6822,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Harold Lindmark",
+            "official_total": 6368,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Carl J. Kunasek",
+            "official_total": 14092,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "James J. Sossaman",
+            "official_total": 15981,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    }
+  ]
+}

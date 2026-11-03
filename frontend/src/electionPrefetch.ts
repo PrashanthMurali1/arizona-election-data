@@ -6,10 +6,22 @@ import { cacheUrl } from "./cacheUrl";
 export function electionPrefetchUrls(elections: Election[], office: string) {
   const urls = new Set<string>();
   if (
-    !["us-senate", "us-house", "governor", "attorney-general"].includes(office)
+    ![
+      "us-senate",
+      "us-house",
+      "governor",
+      "attorney-general",
+      "secretary-of-state",
+      "state-house",
+      "state-senate",
+    ].includes(office)
   )
     return [];
   for (const election of elections.filter((e) => e.office_id === office)) {
+    if (election.id.includes("-historical-")) {
+      urls.add(`/api/historical-elections/${election.id}`);
+      continue;
+    }
     const base = `/api/elections/${election.id}`;
     urls.add(base);
     if (office !== "us-house") {

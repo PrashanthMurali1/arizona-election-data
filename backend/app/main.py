@@ -33,9 +33,10 @@ from .schemas import (
     HouseOverviewOut,
     HouseDistrictDetailOut,
     HouseDistrictOut,
+    HistoricalOverviewOut,
 )
 from .http_cache import BrowserCacheRoute
-from . import house
+from . import house, historical
 from . import early_vote_updates
 from .lifecycle import activity, CONTEST, AG_CONTEST
 from .services import metadata, results
@@ -115,10 +116,15 @@ def elections(s: DB):
         metadata(s, c)
         for c in s.scalars(
             select(Contest)
-            .where(Contest.office_id != "us-house", Contest.id.not_in([CONTEST, AG_CONTEST]))
+            .where(Contest.office_id != "us-house", Contest.jurisdiction_id == "04", Contest.id.not_in([CONTEST, AG_CONTEST]))
             .order_by(Contest.id.desc())
         )
-    ] + house.catalog(s)
+    ] + house.catalog(s) + historical.catalog(s)
+
+
+@app.get('/api/historical-elections/{id}', response_model=HistoricalOverviewOut)
+def historical_election(id: str, s: DB):
+    return historical.overview(s, id)
 
 
 SITE_URL = "https://azelections.app"
@@ -137,9 +143,11 @@ def sitemap(s: DB):
 
 @app.get(
     "/api/elections/{id}",
-    response_model=HouseOverviewOut | HouseDistrictDetailOut | DetailOut,
+    response_model=HistoricalOverviewOut | HouseOverviewOut | HouseDistrictDetailOut | DetailOut,
 )
 def election(id: str, s: DB):
+    if '-historical-' in id and '-district-' not in id:
+        return historical.overview(s, id)
     if house.is_overview(id):
         return house.overview(s, id)
     requested_id = id
@@ -168,6 +176,8 @@ def election(id: str, s: DB):
     source_ids.update(
         s.scalars(select(Turnout.source_id).where(Turnout.event_id == c.event_id))
     )
+    if run:
+        source_ids.update(run.report.get('supplemental_source_ids', []))
     source_ids.difference_update(source.id for source in sources)
     sources.extend(s.get(Source, source_id) for source_id in sorted(source_ids))
     current_activity = activity(s, id)
@@ -230,6 +240,8 @@ def county(id: str, geoid: str, s: DB):
 
 @app.get("/api/elections/{id}/sources", response_model=list[SourceOut])
 def sources(id: str, s: DB):
+    if '-historical-' in id and '-district-' not in id:
+        return historical.overview(s, id)['sources']
     if house.is_overview(id):
         return house.overview(s, id)["sources"]
     c = contest(s, id)

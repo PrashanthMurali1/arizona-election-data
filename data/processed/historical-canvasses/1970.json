@@ -1,0 +1,3464 @@
+{
+  "year": 1970,
+  "source_sha256": "f3f0ca16ffd030672d7868c6b8da9034a33d616b03f65d6a2fd232d9a3c9cb63",
+  "absent_offices": [
+    "president"
+  ],
+  "unresolved": [
+    {
+      "office_id": "state-house",
+      "district": "22",
+      "page": 5,
+      "candidate": "James H. (Jim) McCutchan",
+      "field": "votes",
+      "reason": "Source scan clips final digit; visible prefix 5,99."
+    },
+    {
+      "office_id": "state-house",
+      "district": "22",
+      "page": 5,
+      "candidate": "Howard Adams",
+      "field": "votes",
+      "reason": "Source scan clips final digit; visible prefix 7,32."
+    }
+  ],
+  "contests": [
+    {
+      "office_id": "us-senate",
+      "district": null,
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Sam Grossman",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 179512,
+          "county_votes": {
+            "04001": 1552,
+            "04003": 7407,
+            "04005": 3539,
+            "04007": 4833,
+            "04009": 2032,
+            "04011": 2236,
+            "04013": 88284,
+            "04015": 2593,
+            "04017": 3159,
+            "04019": 45325,
+            "04021": 7488,
+            "04023": 1647,
+            "04025": 3837,
+            "04027": 5580
+          }
+        },
+        {
+          "name": "Paul Fannin",
+          "party": "REP",
+          "write_in": false,
+          "votes": 228284,
+          "county_votes": {
+            "04001": 1827,
+            "04003": 6316,
+            "04005": 5145,
+            "04007": 2969,
+            "04009": 2309,
+            "04011": 811,
+            "04013": 140555,
+            "04015": 2982,
+            "04017": 4419,
+            "04019": 41242,
+            "04021": 6079,
+            "04023": 1187,
+            "04025": 7060,
+            "04027": 5383
+          }
+        }
+      ],
+      "contest_id": "az-1970-us-senate",
+      "reconciliation": {
+        "status": "verified",
+        "page": 1,
+        "district": null,
+        "candidates": [
+          {
+            "candidate": "Sam Grossman",
+            "official_total": 179512,
+            "county_sum": 179512,
+            "county_coverage": 14,
+            "difference": 0
+          },
+          {
+            "candidate": "Paul Fannin",
+            "official_total": 228284,
+            "county_sum": 228284,
+            "county_coverage": 14,
+            "difference": 0
+          }
+        ],
+        "county_count": 14,
+        "coverage": "county",
+        "multi_seat": false,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "us-house",
+      "district": "1",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Gerald A. Pollock",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 45870
+        },
+        {
+          "name": "John J. Rhodes",
+          "party": "REP",
+          "write_in": false,
+          "votes": 99706
+        }
+      ],
+      "contest_id": "az-1970-historical-us-house-district-1",
+      "reconciliation": {
+        "status": "reported",
+        "page": 1,
+        "district": "1",
+        "candidates": [
+          {
+            "candidate": "Gerald A. Pollock",
+            "official_total": 45870,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "John J. Rhodes",
+            "official_total": 99706,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": false,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "us-house",
+      "district": "2",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Morris K. Udall",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 86760
+        },
+        {
+          "name": "Morris Herring",
+          "party": "REP",
+          "write_in": false,
+          "votes": 37561
+        },
+        {
+          "name": "Cliff (Tamale) Thomallo",
+          "party": "AIP",
+          "write_in": false,
+          "votes": 1357
+        }
+      ],
+      "contest_id": "az-1970-historical-us-house-district-2",
+      "reconciliation": {
+        "status": "reported",
+        "page": 1,
+        "district": "2",
+        "candidates": [
+          {
+            "candidate": "Morris K. Udall",
+            "official_total": 86760,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Morris Herring",
+            "official_total": 37561,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Cliff (Tamale) Thomallo",
+            "official_total": 1357,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": false,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "us-house",
+      "district": "3",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Orren Beaty",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 49626
+        },
+        {
+          "name": "Sam Steiger",
+          "party": "REP",
+          "write_in": false,
+          "votes": 81239
+        }
+      ],
+      "contest_id": "az-1970-historical-us-house-district-3",
+      "reconciliation": {
+        "status": "reported",
+        "page": 1,
+        "district": "3",
+        "candidates": [
+          {
+            "candidate": "Orren Beaty",
+            "official_total": 49626,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Sam Steiger",
+            "official_total": 81239,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": false,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "governor",
+      "district": null,
+      "page": 2,
+      "candidates": [
+        {
+          "name": "Raul H. Castro",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 202053
+        },
+        {
+          "name": "Jack Williams",
+          "party": "REP",
+          "write_in": false,
+          "votes": 209356
+        }
+      ],
+      "contest_id": "az-1970-governor",
+      "reconciliation": {
+        "status": "reported",
+        "page": 2,
+        "district": null,
+        "candidates": [
+          {
+            "candidate": "Raul H. Castro",
+            "official_total": 202053,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Jack Williams",
+            "official_total": 209356,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": false,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "secretary-of-state",
+      "district": null,
+      "page": 2,
+      "candidates": [
+        {
+          "name": "Wesley Bolin",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 211270,
+          "county_votes": {
+            "04001": 2048,
+            "04003": 8720,
+            "04005": 4655,
+            "04007": 5557,
+            "04009": 2703,
+            "04011": 2525,
+            "04013": 107863,
+            "04015": 2902,
+            "04017": 4670,
+            "04019": 47005,
+            "04021": 8588,
+            "04023": 1837,
+            "04025": 5124,
+            "04027": 7073
+          }
+        },
+        {
+          "name": "John Roeder",
+          "party": "REP",
+          "write_in": false,
+          "votes": 188770,
+          "county_votes": {
+            "04001": 1240,
+            "04003": 4683,
+            "04005": 3770,
+            "04007": 2130,
+            "04009": 1494,
+            "04011": 489,
+            "04013": 117351,
+            "04015": 2404,
+            "04017": 2777,
+            "04019": 37610,
+            "04021": 4614,
+            "04023": 852,
+            "04025": 5779,
+            "04027": 3577
+          }
+        }
+      ],
+      "contest_id": "az-1970-secretary-of-state",
+      "reconciliation": {
+        "status": "verified",
+        "page": 2,
+        "district": null,
+        "candidates": [
+          {
+            "candidate": "Wesley Bolin",
+            "official_total": 211270,
+            "county_sum": 211270,
+            "county_coverage": 14,
+            "difference": 0
+          },
+          {
+            "candidate": "John Roeder",
+            "official_total": 188770,
+            "county_sum": 188770,
+            "county_coverage": 14,
+            "difference": 0
+          }
+        ],
+        "county_count": 14,
+        "coverage": "county",
+        "multi_seat": false,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "attorney-general",
+      "district": null,
+      "page": 2,
+      "candidates": [
+        {
+          "name": "Elizabeth Stover",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 161739,
+          "county_votes": {
+            "04001": 1615,
+            "04003": 6746,
+            "04005": 3278,
+            "04007": 4608,
+            "04009": 1993,
+            "04011": 2194,
+            "04013": 82159,
+            "04015": 2169,
+            "04017": 3160,
+            "04019": 36766,
+            "04021": 7022,
+            "04023": 1440,
+            "04025": 3644,
+            "04027": 4945
+          }
+        },
+        {
+          "name": "Gary K. Nelson",
+          "party": "REP",
+          "write_in": false,
+          "votes": 233856,
+          "county_votes": {
+            "04001": 1601,
+            "04003": 6388,
+            "04005": 4985,
+            "04007": 2900,
+            "04009": 2136,
+            "04011": 719,
+            "04013": 141140,
+            "04015": 3035,
+            "04017": 4167,
+            "04019": 46973,
+            "04021": 5879,
+            "04023": 1137,
+            "04025": 7139,
+            "04027": 5657
+          }
+        }
+      ],
+      "contest_id": "az-1970-attorney-general",
+      "reconciliation": {
+        "status": "verified",
+        "page": 2,
+        "district": null,
+        "candidates": [
+          {
+            "candidate": "Elizabeth Stover",
+            "official_total": 161739,
+            "county_sum": 161739,
+            "county_coverage": 14,
+            "difference": 0
+          },
+          {
+            "candidate": "Gary K. Nelson",
+            "official_total": 233856,
+            "county_sum": 233856,
+            "county_coverage": 14,
+            "difference": 0
+          }
+        ],
+        "county_count": 14,
+        "coverage": "county",
+        "multi_seat": false,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "1",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "Irene Mikulewicz",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 7217
+        },
+        {
+          "name": "Ray Everett",
+          "party": "REP",
+          "write_in": false,
+          "votes": 10263
+        },
+        {
+          "name": "Gladys Gardner",
+          "party": "REP",
+          "write_in": false,
+          "votes": 11368
+        }
+      ],
+      "contest_id": "az-1970-historical-state-house-district-1",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "1",
+        "candidates": [
+          {
+            "candidate": "Irene Mikulewicz",
+            "official_total": 7217,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Ray Everett",
+            "official_total": 10263,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Gladys Gardner",
+            "official_total": 11368,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "1",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "Howard D. Jorgenson",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 6561
+        },
+        {
+          "name": "Boyd Tenney",
+          "party": "REP",
+          "write_in": false,
+          "votes": 11089
+        }
+      ],
+      "contest_id": "az-1970-historical-state-senate-district-1",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "1",
+        "candidates": [
+          {
+            "candidate": "Howard D. Jorgenson",
+            "official_total": 6561,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Boyd Tenney",
+            "official_total": 11089,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "2",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "Harold L. Huffer",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 3973
+        },
+        {
+          "name": "Phyllis A. Manning",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 3831
+        },
+        {
+          "name": "Fred Burke",
+          "party": "REP",
+          "write_in": false,
+          "votes": 3787
+        },
+        {
+          "name": "Sam A. McConnell, Jr.",
+          "party": "REP",
+          "write_in": false,
+          "votes": 5223
+        }
+      ],
+      "contest_id": "az-1970-historical-state-house-district-2",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "2",
+        "candidates": [
+          {
+            "candidate": "Harold L. Huffer",
+            "official_total": 3973,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Phyllis A. Manning",
+            "official_total": 3831,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Fred Burke",
+            "official_total": 3787,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Sam A. McConnell, Jr.",
+            "official_total": 5223,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "2",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "Thos. M. (Tommy) Knoles, Jr.",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 5443
+        },
+        {
+          "name": "Walter D. Bennett",
+          "party": "REP",
+          "write_in": false,
+          "votes": 3649
+        }
+      ],
+      "contest_id": "az-1970-historical-state-senate-district-2",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "2",
+        "candidates": [
+          {
+            "candidate": "Thos. M. (Tommy) Knoles, Jr.",
+            "official_total": 5443,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Walter D. Bennett",
+            "official_total": 3649,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "3",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "Glen L. Flake",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 4559
+        },
+        {
+          "name": "Boyd A. Shumway",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 5021
+        },
+        {
+          "name": "Richard M. (Chip) Culbertson",
+          "party": "REP",
+          "write_in": false,
+          "votes": 3959
+        }
+      ],
+      "contest_id": "az-1970-historical-state-house-district-3",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "3",
+        "candidates": [
+          {
+            "candidate": "Glen L. Flake",
+            "official_total": 4559,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Boyd A. Shumway",
+            "official_total": 5021,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Richard M. (Chip) Culbertson",
+            "official_total": 3959,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "3",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "Bus Mead",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 3855
+        },
+        {
+          "name": "Roy Palmer",
+          "party": "REP",
+          "write_in": false,
+          "votes": 4540
+        }
+      ],
+      "contest_id": "az-1970-historical-state-senate-district-3",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "3",
+        "candidates": [
+          {
+            "candidate": "Bus Mead",
+            "official_total": 3855,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Roy Palmer",
+            "official_total": 4540,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "4",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "G. O. \"Sonny\" Biles",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 5380
+        },
+        {
+          "name": "Jack A. Brown",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 5419
+        }
+      ],
+      "contest_id": "az-1970-historical-state-house-district-4",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "4",
+        "candidates": [
+          {
+            "candidate": "G. O. \"Sonny\" Biles",
+            "official_total": 5380,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Jack A. Brown",
+            "official_total": 5419,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "4",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "John W. (Mac) McLaughlin",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 5516
+        }
+      ],
+      "contest_id": "az-1970-historical-state-senate-district-4",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "4",
+        "candidates": [
+          {
+            "candidate": "John W. (Mac) McLaughlin",
+            "official_total": 5516,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "5",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "Elwood W. (Brad) Bradford",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 6688
+        },
+        {
+          "name": "Jones Osborn",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 6230
+        },
+        {
+          "name": "Gene Taylor",
+          "party": "REP",
+          "write_in": false,
+          "votes": 4301
+        }
+      ],
+      "contest_id": "az-1970-historical-state-house-district-5",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "5",
+        "candidates": [
+          {
+            "candidate": "Elwood W. (Brad) Bradford",
+            "official_total": 6688,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Jones Osborn",
+            "official_total": 6230,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Gene Taylor",
+            "official_total": 4301,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "5",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "Harold C. Giss",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 7753
+        }
+      ],
+      "contest_id": "az-1970-historical-state-senate-district-5",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "5",
+        "candidates": [
+          {
+            "candidate": "Harold C. Giss",
+            "official_total": 7753,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "6",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "Craig E. Davids",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 5753
+        },
+        {
+          "name": "Polly Getzwiller",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 6121
+        }
+      ],
+      "contest_id": "az-1970-historical-state-house-district-6",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "6",
+        "candidates": [
+          {
+            "candidate": "Craig E. Davids",
+            "official_total": 5753,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Polly Getzwiller",
+            "official_total": 6121,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "6",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "E. B. \"Blodie\" Thode",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 5411
+        },
+        {
+          "name": "James Mumme",
+          "party": "REP",
+          "write_in": false,
+          "votes": 4495
+        }
+      ],
+      "contest_id": "az-1970-historical-state-senate-district-6",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "6",
+        "candidates": [
+          {
+            "candidate": "E. B. \"Blodie\" Thode",
+            "official_total": 5411,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "James Mumme",
+            "official_total": 4495,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "7",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "Edward G. (Bunch) Guerrero",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 8179
+        },
+        {
+          "name": "E. C. \"Polly\" Rosenbaum",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 9435
+        }
+      ],
+      "contest_id": "az-1970-historical-state-house-district-7",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "7",
+        "candidates": [
+          {
+            "candidate": "Edward G. (Bunch) Guerrero",
+            "official_total": 8179,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "E. C. \"Polly\" Rosenbaum",
+            "official_total": 9435,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "7",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "A. V. \"Bill\" Hardt",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 9792
+        }
+      ],
+      "contest_id": "az-1970-historical-state-senate-district-7",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "7",
+        "candidates": [
+          {
+            "candidate": "A. V. \"Bill\" Hardt",
+            "official_total": 9792,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "8",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "Hank Fenn",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 7751
+        },
+        {
+          "name": "Ed C. Sawyer",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 7198
+        },
+        {
+          "name": "Walter L. (Walt) Foster",
+          "party": "REP",
+          "write_in": false,
+          "votes": 4015
+        }
+      ],
+      "contest_id": "az-1970-historical-state-house-district-8",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "8",
+        "candidates": [
+          {
+            "candidate": "Hank Fenn",
+            "official_total": 7751,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Ed C. Sawyer",
+            "official_total": 7198,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Walter L. (Walt) Foster",
+            "official_total": 4015,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "8",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "Charles Awalt",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 7928
+        },
+        {
+          "name": "Rush DeZonia",
+          "party": "REP",
+          "write_in": false,
+          "votes": 3522
+        }
+      ],
+      "contest_id": "az-1970-historical-state-senate-district-8",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "8",
+        "candidates": [
+          {
+            "candidate": "Charles Awalt",
+            "official_total": 7928,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Rush DeZonia",
+            "official_total": 3522,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "9",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Richard \"Dick\" Pacheco",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 7881
+        },
+        {
+          "name": "William R. (Bill) Ryan",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 8282
+        }
+      ],
+      "contest_id": "az-1970-historical-state-house-district-9",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "9",
+        "candidates": [
+          {
+            "candidate": "Richard \"Dick\" Pacheco",
+            "official_total": 7881,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "William R. (Bill) Ryan",
+            "official_total": 8282,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "9",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "James F. McNulty, Jr.",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 8629
+        }
+      ],
+      "contest_id": "az-1970-historical-state-senate-district-9",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "9",
+        "candidates": [
+          {
+            "candidate": "James F. McNulty, Jr.",
+            "official_total": 8629,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "10",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Bernardo M. \"Nayo\" Cajero",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 9895
+        },
+        {
+          "name": "E. S. \"Bud\" Walker",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 9628
+        }
+      ],
+      "contest_id": "az-1970-historical-state-house-district-10",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "10",
+        "candidates": [
+          {
+            "candidate": "Bernardo M. \"Nayo\" Cajero",
+            "official_total": 9895,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "E. S. \"Bud\" Walker",
+            "official_total": 9628,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "10",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Joe Castillo",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 10238
+        }
+      ],
+      "contest_id": "az-1970-historical-state-senate-district-10",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "10",
+        "candidates": [
+          {
+            "candidate": "Joe Castillo",
+            "official_total": 10238,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "11",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Etta Mae Hutcheson",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 9492
+        },
+        {
+          "name": "Ethel Maynard",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 9120
+        }
+      ],
+      "contest_id": "az-1970-historical-state-house-district-11",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "11",
+        "candidates": [
+          {
+            "candidate": "Etta Mae Hutcheson",
+            "official_total": 9492,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Ethel Maynard",
+            "official_total": 9120,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "11",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "F. T. \"Limie\" Gibbings",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 9376
+        }
+      ],
+      "contest_id": "az-1970-historical-state-senate-district-11",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "11",
+        "candidates": [
+          {
+            "candidate": "F. T. \"Limie\" Gibbings",
+            "official_total": 9376,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "12",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "R. P. \"Bob\" Fricks",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 9082
+        },
+        {
+          "name": "J. H. (Jim) Dewberry, Jr.",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 9228
+        },
+        {
+          "name": "James Ray",
+          "party": "AIP",
+          "write_in": false,
+          "votes": 1734
+        }
+      ],
+      "contest_id": "az-1970-historical-state-house-district-12",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "12",
+        "candidates": [
+          {
+            "candidate": "R. P. \"Bob\" Fricks",
+            "official_total": 9082,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "J. H. (Jim) Dewberry, Jr.",
+            "official_total": 9228,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "James Ray",
+            "official_total": 1734,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "12",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Sam Lena",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 10397
+        }
+      ],
+      "contest_id": "az-1970-historical-state-senate-district-12",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "12",
+        "candidates": [
+          {
+            "candidate": "Sam Lena",
+            "official_total": 10397,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "13",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Marshall H. Chazen",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 6438
+        },
+        {
+          "name": "Fred Novy",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 5371
+        },
+        {
+          "name": "Thomas N. (Tom) Goodwin",
+          "party": "REP",
+          "write_in": false,
+          "votes": 8167
+        },
+        {
+          "name": "H. Thomas (Tom) Kincaid",
+          "party": "REP",
+          "write_in": false,
+          "votes": 8067
+        }
+      ],
+      "contest_id": "az-1970-historical-state-house-district-13",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "13",
+        "candidates": [
+          {
+            "candidate": "Marshall H. Chazen",
+            "official_total": 6438,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Fred Novy",
+            "official_total": 5371,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Thomas N. (Tom) Goodwin",
+            "official_total": 8167,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "H. Thomas (Tom) Kincaid",
+            "official_total": 8067,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "13",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Douglas S. Holsclaw",
+          "party": "REP",
+          "write_in": false,
+          "votes": 11525
+        }
+      ],
+      "contest_id": "az-1970-historical-state-senate-district-13",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "13",
+        "candidates": [
+          {
+            "candidate": "Douglas S. Holsclaw",
+            "official_total": 11525,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "14",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Helen Grace Carlson",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 6407
+        },
+        {
+          "name": "James J. Magner",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 6389
+        },
+        {
+          "name": "David B. Stone",
+          "party": "REP",
+          "write_in": false,
+          "votes": 6567
+        },
+        {
+          "name": "Albert C. Williams",
+          "party": "REP",
+          "write_in": false,
+          "votes": 6272
+        },
+        {
+          "name": "Rev. George Butler",
+          "party": "AIP",
+          "write_in": false,
+          "votes": 631
+        },
+        {
+          "name": "Lawrence F. Oliver",
+          "party": "AIP",
+          "write_in": false,
+          "votes": 553
+        }
+      ],
+      "contest_id": "az-1970-historical-state-house-district-14",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "14",
+        "candidates": [
+          {
+            "candidate": "Helen Grace Carlson",
+            "official_total": 6407,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "James J. Magner",
+            "official_total": 6389,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "David B. Stone",
+            "official_total": 6567,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Albert C. Williams",
+            "official_total": 6272,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Rev. George Butler",
+            "official_total": 631,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Lawrence F. Oliver",
+            "official_total": 553,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "14",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Scott Alexander",
+          "party": "REP",
+          "write_in": false,
+          "votes": 9550
+        },
+        {
+          "name": "Anthony D. Bogden",
+          "party": "AIP",
+          "write_in": false,
+          "votes": 1592
+        }
+      ],
+      "contest_id": "az-1970-historical-state-senate-district-14",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "14",
+        "candidates": [
+          {
+            "candidate": "Scott Alexander",
+            "official_total": 9550,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Anthony D. Bogden",
+            "official_total": 1592,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "15",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Robert A. (Bob) Strauss",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 7457
+        },
+        {
+          "name": "W. A. \"Tony\" Buehl",
+          "party": "REP",
+          "write_in": false,
+          "votes": 10581
+        },
+        {
+          "name": "Charles W. King",
+          "party": "REP",
+          "write_in": false,
+          "votes": 8866
+        }
+      ],
+      "contest_id": "az-1970-historical-state-house-district-15",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "15",
+        "candidates": [
+          {
+            "candidate": "Robert A. (Bob) Strauss",
+            "official_total": 7457,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "W. A. \"Tony\" Buehl",
+            "official_total": 10581,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Charles W. King",
+            "official_total": 8866,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "15",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "William C. Jacquin",
+          "party": "REP",
+          "write_in": false,
+          "votes": 12496
+        }
+      ],
+      "contest_id": "az-1970-historical-state-senate-district-15",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "15",
+        "candidates": [
+          {
+            "candidate": "William C. Jacquin",
+            "official_total": 12496,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "16",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Peter D. Foley",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 6047
+        },
+        {
+          "name": "Chris Lawlor",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 6124
+        },
+        {
+          "name": "C. W. \"Bill\" Lewis",
+          "party": "REP",
+          "write_in": false,
+          "votes": 9036
+        },
+        {
+          "name": "Hal Runyan",
+          "party": "REP",
+          "write_in": false,
+          "votes": 8220
+        }
+      ],
+      "contest_id": "az-1970-historical-state-house-district-16",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "16",
+        "candidates": [
+          {
+            "candidate": "Peter D. Foley",
+            "official_total": 6047,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Chris Lawlor",
+            "official_total": 6124,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "C. W. \"Bill\" Lewis",
+            "official_total": 9036,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Hal Runyan",
+            "official_total": 8220,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "16",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Lyle W. King",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 5958
+        },
+        {
+          "name": "Fred Koory, Jr.",
+          "party": "REP",
+          "write_in": false,
+          "votes": 9561
+        }
+      ],
+      "contest_id": "az-1970-historical-state-senate-district-16",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "16",
+        "candidates": [
+          {
+            "candidate": "Lyle W. King",
+            "official_total": 5958,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Fred Koory, Jr.",
+            "official_total": 9561,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "17",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Rudy Kalcich",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 5535
+        },
+        {
+          "name": "Harold Moll",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 5745
+        },
+        {
+          "name": "James B. Ratliff",
+          "party": "REP",
+          "write_in": false,
+          "votes": 11201
+        },
+        {
+          "name": "Stuart Schoenburg",
+          "party": "REP",
+          "write_in": false,
+          "votes": 11462
+        }
+      ],
+      "contest_id": "az-1970-historical-state-house-district-17",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "17",
+        "candidates": [
+          {
+            "candidate": "Rudy Kalcich",
+            "official_total": 5535,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Harold Moll",
+            "official_total": 5745,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "James B. Ratliff",
+            "official_total": 11201,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Stuart Schoenburg",
+            "official_total": 11462,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "17",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Donald G. Knox",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 6224
+        },
+        {
+          "name": "Ray A. Goetze",
+          "party": "REP",
+          "write_in": false,
+          "votes": 11239
+        }
+      ],
+      "contest_id": "az-1970-historical-state-senate-district-17",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "17",
+        "candidates": [
+          {
+            "candidate": "Donald G. Knox",
+            "official_total": 6224,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Ray A. Goetze",
+            "official_total": 11239,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "18",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "George Senner Wright",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 5984
+        },
+        {
+          "name": "John T. Zastrow",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 6490
+        },
+        {
+          "name": "Don Stewart",
+          "party": "REP",
+          "write_in": false,
+          "votes": 8513
+        },
+        {
+          "name": "Bob Strother",
+          "party": "REP",
+          "write_in": false,
+          "votes": 8305
+        }
+      ],
+      "contest_id": "az-1970-historical-state-house-district-18",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "18",
+        "candidates": [
+          {
+            "candidate": "George Senner Wright",
+            "official_total": 5984,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "John T. Zastrow",
+            "official_total": 6490,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Don Stewart",
+            "official_total": 8513,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Bob Strother",
+            "official_total": 8305,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "18",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Ray Johnson",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 6797
+        },
+        {
+          "name": "Joe Shaughnessy, Jr.",
+          "party": "REP",
+          "write_in": false,
+          "votes": 8370
+        }
+      ],
+      "contest_id": "az-1970-historical-state-senate-district-18",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "18",
+        "candidates": [
+          {
+            "candidate": "Ray Johnson",
+            "official_total": 6797,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Joe Shaughnessy, Jr.",
+            "official_total": 8370,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "19",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Eugene E. Geary",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 5357
+        },
+        {
+          "name": "Stan Akers",
+          "party": "REP",
+          "write_in": false,
+          "votes": 9711
+        },
+        {
+          "name": "Timothy A. Barrow",
+          "party": "REP",
+          "write_in": false,
+          "votes": 10077
+        }
+      ],
+      "contest_id": "az-1970-historical-state-house-district-19",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "19",
+        "candidates": [
+          {
+            "candidate": "Eugene E. Geary",
+            "official_total": 5357,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Stan Akers",
+            "official_total": 9711,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Timothy A. Barrow",
+            "official_total": 10077,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "19",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Richard Wilks",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 5109
+        },
+        {
+          "name": "Ray Rottas",
+          "party": "REP",
+          "write_in": false,
+          "votes": 9766
+        }
+      ],
+      "contest_id": "az-1970-historical-state-senate-district-19",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "19",
+        "candidates": [
+          {
+            "candidate": "Richard Wilks",
+            "official_total": 5109,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Ray Rottas",
+            "official_total": 9766,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "20",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Stanley J. Marks",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 4407
+        },
+        {
+          "name": "Ann M. Sawyer",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 5317
+        },
+        {
+          "name": "Ruth Adams",
+          "party": "REP",
+          "write_in": false,
+          "votes": 10021
+        },
+        {
+          "name": "Richard Burgess",
+          "party": "REP",
+          "write_in": false,
+          "votes": 10222
+        }
+      ],
+      "contest_id": "az-1970-historical-state-house-district-20",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "20",
+        "candidates": [
+          {
+            "candidate": "Stanley J. Marks",
+            "official_total": 4407,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Ann M. Sawyer",
+            "official_total": 5317,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Ruth Adams",
+            "official_total": 10021,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Richard Burgess",
+            "official_total": 10222,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "20",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Sandra D. O'Connor",
+          "party": "REP",
+          "write_in": false,
+          "votes": 12223
+        }
+      ],
+      "contest_id": "az-1970-historical-state-senate-district-20",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "20",
+        "candidates": [
+          {
+            "candidate": "Sandra D. O'Connor",
+            "official_total": 12223,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "21",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Gordon Cornelius",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 3501
+        },
+        {
+          "name": "John Paul Jones",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 6379
+        },
+        {
+          "name": "Sam Flake",
+          "party": "REP",
+          "write_in": false,
+          "votes": 9493
+        },
+        {
+          "name": "Peter Kay",
+          "party": "REP",
+          "write_in": false,
+          "votes": 11065
+        }
+      ],
+      "contest_id": "az-1970-historical-state-house-district-21",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "21",
+        "candidates": [
+          {
+            "candidate": "Gordon Cornelius",
+            "official_total": 3501,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "John Paul Jones",
+            "official_total": 6379,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Sam Flake",
+            "official_total": 9493,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Peter Kay",
+            "official_total": 11065,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "21",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Guy Stillman",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 6860
+        },
+        {
+          "name": "John B. Conlan",
+          "party": "REP",
+          "write_in": false,
+          "votes": 8999
+        }
+      ],
+      "contest_id": "az-1970-historical-state-senate-district-21",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "21",
+        "candidates": [
+          {
+            "candidate": "Guy Stillman",
+            "official_total": 6860,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "John B. Conlan",
+            "official_total": 8999,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "22",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "William T. (Bill) Crowley",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 6494
+        },
+        {
+          "name": "James H. (Jim) McCutchan",
+          "party": "DEM",
+          "write_in": false,
+          "votes": null
+        },
+        {
+          "name": "Howard Adams",
+          "party": "REP",
+          "write_in": false,
+          "votes": null
+        },
+        {
+          "name": "Bill McCune",
+          "party": "REP",
+          "write_in": false,
+          "votes": 8386
+        }
+      ],
+      "notes": "The source scan clips the right edge of the final digits for James H. (Jim) McCutchan and Howard Adams; visible prefixes are 5,99 and 7,32 respectively.",
+      "contest_id": "az-1970-historical-state-house-district-22",
+      "reconciliation": {
+        "status": "incomplete",
+        "page": 5,
+        "district": "22",
+        "candidates": [
+          {
+            "candidate": "William T. (Bill) Crowley",
+            "official_total": 6494,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "James H. (Jim) McCutchan",
+            "official_total": null,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Howard Adams",
+            "official_total": null,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Bill McCune",
+            "official_total": 8386,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": "The source scan clips the right edge of the final digits for James H. (Jim) McCutchan and Howard Adams; visible prefixes are 5,99 and 7,32 respectively."
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "22",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "James F. (Jim) Dooley",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 6922
+        },
+        {
+          "name": "Bess B. Stinson",
+          "party": "REP",
+          "write_in": false,
+          "votes": 7738
+        }
+      ],
+      "contest_id": "az-1970-historical-state-senate-district-22",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "22",
+        "candidates": [
+          {
+            "candidate": "James F. (Jim) Dooley",
+            "official_total": 6922,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Bess B. Stinson",
+            "official_total": 7738,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "23",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Burton S. Barr",
+          "party": "REP",
+          "write_in": false,
+          "votes": 10595
+        },
+        {
+          "name": "Ruth Peck",
+          "party": "REP",
+          "write_in": false,
+          "votes": 10340
+        }
+      ],
+      "contest_id": "az-1970-historical-state-house-district-23",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "23",
+        "candidates": [
+          {
+            "candidate": "Burton S. Barr",
+            "official_total": 10595,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Ruth Peck",
+            "official_total": 10340,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "23",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Mildred Hagerty",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 5265
+        },
+        {
+          "name": "Leo Corbet",
+          "party": "REP",
+          "write_in": false,
+          "votes": 9621
+        }
+      ],
+      "contest_id": "az-1970-historical-state-senate-district-23",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "23",
+        "candidates": [
+          {
+            "candidate": "Mildred Hagerty",
+            "official_total": 5265,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Leo Corbet",
+            "official_total": 9621,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "24",
+      "page": 6,
+      "candidates": [
+        {
+          "name": "Janet R. Stoffa",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 4851
+        },
+        {
+          "name": "Loren Vaughn, Jr.",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 5601
+        },
+        {
+          "name": "Elizabeth Adams Rockwell",
+          "party": "REP",
+          "write_in": false,
+          "votes": 7643
+        },
+        {
+          "name": "Jay C. Stuckey, Sr.",
+          "party": "REP",
+          "write_in": false,
+          "votes": 7930
+        }
+      ],
+      "contest_id": "az-1970-historical-state-house-district-24",
+      "reconciliation": {
+        "status": "reported",
+        "page": 6,
+        "district": "24",
+        "candidates": [
+          {
+            "candidate": "Janet R. Stoffa",
+            "official_total": 4851,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Loren Vaughn, Jr.",
+            "official_total": 5601,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Elizabeth Adams Rockwell",
+            "official_total": 7643,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Jay C. Stuckey, Sr.",
+            "official_total": 7930,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "24",
+      "page": 6,
+      "candidates": [
+        {
+          "name": "Ruth McGregor",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 5414
+        },
+        {
+          "name": "Howard S. Baldwin",
+          "party": "REP",
+          "write_in": false,
+          "votes": 7897
+        }
+      ],
+      "contest_id": "az-1970-historical-state-senate-district-24",
+      "reconciliation": {
+        "status": "reported",
+        "page": 6,
+        "district": "24",
+        "candidates": [
+          {
+            "candidate": "Ruth McGregor",
+            "official_total": 5414,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Howard S. Baldwin",
+            "official_total": 7897,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "25",
+      "page": 6,
+      "candidates": [
+        {
+          "name": "W. F. \"Pat\" Vipperman",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 6885
+        },
+        {
+          "name": "D. Lee Jones",
+          "party": "REP",
+          "write_in": false,
+          "votes": 7415
+        },
+        {
+          "name": "Jim Skelly",
+          "party": "REP",
+          "write_in": false,
+          "votes": 7332
+        }
+      ],
+      "contest_id": "az-1970-historical-state-house-district-25",
+      "reconciliation": {
+        "status": "reported",
+        "page": 6,
+        "district": "25",
+        "candidates": [
+          {
+            "candidate": "W. F. \"Pat\" Vipperman",
+            "official_total": 6885,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "D. Lee Jones",
+            "official_total": 7415,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Jim Skelly",
+            "official_total": 7332,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "25",
+      "page": 6,
+      "candidates": [
+        {
+          "name": "Archie C. Ryan",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 6116
+        },
+        {
+          "name": "Trudy Camping",
+          "party": "REP",
+          "write_in": false,
+          "votes": 7422
+        }
+      ],
+      "contest_id": "az-1970-historical-state-senate-district-25",
+      "reconciliation": {
+        "status": "reported",
+        "page": 6,
+        "district": "25",
+        "candidates": [
+          {
+            "candidate": "Archie C. Ryan",
+            "official_total": 6116,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Trudy Camping",
+            "official_total": 7422,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "26",
+      "page": 6,
+      "candidates": [
+        {
+          "name": "Mary L. Gilbert",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 4334
+        },
+        {
+          "name": "Nancy Robb Vandergrift",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 5112
+        },
+        {
+          "name": "Bob Hungerford",
+          "party": "REP",
+          "write_in": false,
+          "votes": 8624
+        },
+        {
+          "name": "Frank Kelley",
+          "party": "REP",
+          "write_in": false,
+          "votes": 7850
+        },
+        {
+          "name": "Charlene Brooks",
+          "party": "AIP",
+          "write_in": false,
+          "votes": 691
+        }
+      ],
+      "contest_id": "az-1970-historical-state-house-district-26",
+      "reconciliation": {
+        "status": "reported",
+        "page": 6,
+        "district": "26",
+        "candidates": [
+          {
+            "candidate": "Mary L. Gilbert",
+            "official_total": 4334,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Nancy Robb Vandergrift",
+            "official_total": 5112,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Bob Hungerford",
+            "official_total": 8624,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Frank Kelley",
+            "official_total": 7850,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Charlene Brooks",
+            "official_total": 691,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "26",
+      "page": 6,
+      "candidates": [
+        {
+          "name": "John V. Riggs",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 6654
+        },
+        {
+          "name": "David B. Kret",
+          "party": "REP",
+          "write_in": false,
+          "votes": 7309
+        }
+      ],
+      "contest_id": "az-1970-historical-state-senate-district-26",
+      "reconciliation": {
+        "status": "reported",
+        "page": 6,
+        "district": "26",
+        "candidates": [
+          {
+            "candidate": "John V. Riggs",
+            "official_total": 6654,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "David B. Kret",
+            "official_total": 7309,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "27",
+      "page": 6,
+      "candidates": [
+        {
+          "name": "Art Coppinger",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 7367
+        },
+        {
+          "name": "Manuel \"Lito\" Pena",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 7038
+        },
+        {
+          "name": "Leonard Clayton Goltry",
+          "party": "REP",
+          "write_in": false,
+          "votes": 3668
+        },
+        {
+          "name": "John F. McCauley",
+          "party": "REP",
+          "write_in": false,
+          "votes": 4845
+        }
+      ],
+      "contest_id": "az-1970-historical-state-house-district-27",
+      "reconciliation": {
+        "status": "reported",
+        "page": 6,
+        "district": "27",
+        "candidates": [
+          {
+            "candidate": "Art Coppinger",
+            "official_total": 7367,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Manuel \"Lito\" Pena",
+            "official_total": 7038,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Leonard Clayton Goltry",
+            "official_total": 3668,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "John F. McCauley",
+            "official_total": 4845,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "27",
+      "page": 6,
+      "candidates": [
+        {
+          "name": "Bob Stump",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 9042
+        }
+      ],
+      "contest_id": "az-1970-historical-state-senate-district-27",
+      "reconciliation": {
+        "status": "reported",
+        "page": 6,
+        "district": "27",
+        "candidates": [
+          {
+            "candidate": "Bob Stump",
+            "official_total": 9042,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "28",
+      "page": 6,
+      "candidates": [
+        {
+          "name": "Horace E. Owens",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 7833
+        },
+        {
+          "name": "Leon Thompson",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 8845
+        }
+      ],
+      "contest_id": "az-1970-historical-state-house-district-28",
+      "reconciliation": {
+        "status": "reported",
+        "page": 6,
+        "district": "28",
+        "candidates": [
+          {
+            "candidate": "Horace E. Owens",
+            "official_total": 7833,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Leon Thompson",
+            "official_total": 8845,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "28",
+      "page": 6,
+      "candidates": [
+        {
+          "name": "Cloves C. Campbell",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 9071
+        }
+      ],
+      "contest_id": "az-1970-historical-state-senate-district-28",
+      "reconciliation": {
+        "status": "reported",
+        "page": 6,
+        "district": "28",
+        "candidates": [
+          {
+            "candidate": "Cloves C. Campbell",
+            "official_total": 9071,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "29",
+      "page": 6,
+      "candidates": [
+        {
+          "name": "Efren Navarette",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 6190
+        },
+        {
+          "name": "Tim Weeks",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 6185
+        },
+        {
+          "name": "Michael Goodwin",
+          "party": "REP",
+          "write_in": false,
+          "votes": 9267
+        },
+        {
+          "name": "James J. Sossaman",
+          "party": "REP",
+          "write_in": false,
+          "votes": 9246
+        }
+      ],
+      "contest_id": "az-1970-historical-state-house-district-29",
+      "reconciliation": {
+        "status": "reported",
+        "page": 6,
+        "district": "29",
+        "candidates": [
+          {
+            "candidate": "Efren Navarette",
+            "official_total": 6190,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Tim Weeks",
+            "official_total": 6185,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Michael Goodwin",
+            "official_total": 9267,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "James J. Sossaman",
+            "official_total": 9246,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "29",
+      "page": 6,
+      "candidates": [
+        {
+          "name": "Richard S. Berry",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 6968
+        },
+        {
+          "name": "James A. (Jim) Mack",
+          "party": "REP",
+          "write_in": false,
+          "votes": 8919
+        }
+      ],
+      "contest_id": "az-1970-historical-state-senate-district-29",
+      "reconciliation": {
+        "status": "reported",
+        "page": 6,
+        "district": "29",
+        "candidates": [
+          {
+            "candidate": "Richard S. Berry",
+            "official_total": 6968,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "James A. (Jim) Mack",
+            "official_total": 8919,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "30",
+      "page": 6,
+      "candidates": [
+        {
+          "name": "Jim Cooper",
+          "party": "REP",
+          "write_in": false,
+          "votes": 10268
+        },
+        {
+          "name": "Stan Turley",
+          "party": "REP",
+          "write_in": false,
+          "votes": 11750
+        }
+      ],
+      "contest_id": "az-1970-historical-state-house-district-30",
+      "reconciliation": {
+        "status": "reported",
+        "page": 6,
+        "district": "30",
+        "candidates": [
+          {
+            "candidate": "Jim Cooper",
+            "official_total": 10268,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Stan Turley",
+            "official_total": 11750,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "30",
+      "page": 6,
+      "candidates": [
+        {
+          "name": "Delos Ellsworth",
+          "party": "REP",
+          "write_in": false,
+          "votes": 12053
+        }
+      ],
+      "contest_id": "az-1970-historical-state-senate-district-30",
+      "reconciliation": {
+        "status": "reported",
+        "page": 6,
+        "district": "30",
+        "candidates": [
+          {
+            "candidate": "Delos Ellsworth",
+            "official_total": 12053,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 14,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    }
+  ]
+}

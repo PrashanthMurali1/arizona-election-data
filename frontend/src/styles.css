@@ -2110,6 +2110,27 @@ select {
 .county-detail.selection-panel {
   padding: 0;
 }
+.historical-panel .panel-heading {
+  flex-wrap: wrap;
+}
+.historical-results-body {
+  padding: 0 28px 28px;
+}
+.historical-results-body > .footnote {
+  max-width: 72ch;
+  margin-bottom: 12px;
+}
+.historical-results-body .candidate-summary {
+  margin: 16px 0;
+}
+.historical-panel .year-picker {
+  min-width: 180px;
+}
+@media (max-width: 560px) {
+  .historical-panel .year-picker {
+    width: 100%;
+  }
+}
 .county-detail .panel-heading {
   padding: 24px 28px 12px;
   align-items: start;

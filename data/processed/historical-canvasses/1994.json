@@ -1,0 +1,4133 @@
+{
+  "year": 1994,
+  "source_sha256": "d6a692866d98cb4141177ea013629f74a1aab704e5716b2aae9c3fc90b90f638",
+  "absent_offices": [
+    "president"
+  ],
+  "unresolved": [],
+  "contests": [
+    {
+      "office_id": "us-senate",
+      "district": null,
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Sam Coppersmith",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 442510,
+          "county_votes": {
+            "04001": 10819,
+            "04003": 10352,
+            "04005": 14962,
+            "04007": 6231,
+            "04009": 2771,
+            "04011": 1258,
+            "04012": 1339,
+            "04013": 228021,
+            "04015": 11314,
+            "04017": 10107,
+            "04019": 105127,
+            "04021": 13815,
+            "04023": 3712,
+            "04025": 15216,
+            "04027": 7466
+          }
+        },
+        {
+          "name": "Jon Kyl",
+          "party": "REP",
+          "write_in": false,
+          "votes": 600999,
+          "county_votes": {
+            "04001": 5321,
+            "04003": 14216,
+            "04005": 14571,
+            "04007": 7748,
+            "04009": 4607,
+            "04011": 1473,
+            "04012": 2061,
+            "04013": 362348,
+            "04015": 19005,
+            "04017": 10891,
+            "04019": 100970,
+            "04021": 14538,
+            "04023": 2601,
+            "04025": 28374,
+            "04027": 12275
+          }
+        },
+        {
+          "name": "Scott Grainger",
+          "party": "L",
+          "write_in": false,
+          "votes": 75493,
+          "county_votes": {
+            "04001": 710,
+            "04003": 1746,
+            "04005": 2355,
+            "04007": 1104,
+            "04009": 341,
+            "04011": 124,
+            "04012": 257,
+            "04013": 45998,
+            "04015": 2151,
+            "04017": 1023,
+            "04019": 11628,
+            "04021": 2145,
+            "04023": 317,
+            "04025": 4552,
+            "04027": 1042
+          }
+        },
+        {
+          "name": "Mark Pope",
+          "party": "N",
+          "write_in": true,
+          "votes": 58,
+          "county_votes": {
+            "04001": 2,
+            "04003": 0,
+            "04005": 4,
+            "04007": 1,
+            "04009": 0,
+            "04011": 0,
+            "04012": 0,
+            "04013": 35,
+            "04015": 4,
+            "04017": 2,
+            "04019": 3,
+            "04021": 5,
+            "04023": 0,
+            "04025": 2,
+            "04027": 0
+          }
+        }
+      ],
+      "contest_id": "az-1994-us-senate",
+      "reconciliation": {
+        "status": "verified",
+        "page": 1,
+        "district": null,
+        "candidates": [
+          {
+            "candidate": "Sam Coppersmith",
+            "official_total": 442510,
+            "county_sum": 442510,
+            "county_coverage": 15,
+            "difference": 0
+          },
+          {
+            "candidate": "Jon Kyl",
+            "official_total": 600999,
+            "county_sum": 600999,
+            "county_coverage": 15,
+            "difference": 0
+          },
+          {
+            "candidate": "Scott Grainger",
+            "official_total": 75493,
+            "county_sum": 75493,
+            "county_coverage": 15,
+            "difference": 0
+          },
+          {
+            "candidate": "Mark Pope",
+            "official_total": 58,
+            "county_sum": 58,
+            "county_coverage": 15,
+            "difference": 0
+          }
+        ],
+        "county_count": 15,
+        "coverage": "county",
+        "multi_seat": false,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "governor",
+      "district": null,
+      "page": 2,
+      "candidates": [
+        {
+          "name": "EDDIE BASHA",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 500702,
+          "county_votes": {
+            "04001": 12409,
+            "04003": 10647,
+            "04005": 17110,
+            "04007": 7770,
+            "04009": 3101,
+            "04011": 1358,
+            "04012": 1773,
+            "04013": 272298,
+            "04015": 12656,
+            "04017": 11949,
+            "04019": 104669,
+            "04021": 16338,
+            "04023": 3978,
+            "04025": 17584,
+            "04027": 7062
+          }
+        },
+        {
+          "name": "FIFE SYMINGTON",
+          "party": "REP",
+          "write_in": false,
+          "votes": 593492,
+          "county_votes": {
+            "04001": 4229,
+            "04003": 15203,
+            "04005": 13971,
+            "04007": 6978,
+            "04009": 4570,
+            "04011": 1522,
+            "04012": 1850,
+            "04013": 349473,
+            "04015": 19315,
+            "04017": 9780,
+            "04019": 107287,
+            "04021": 13755,
+            "04023": 2856,
+            "04025": 29213,
+            "04027": 13490
+          }
+        },
+        {
+          "name": "JOHN BUTTRICK",
+          "party": "L",
+          "write_in": false,
+          "votes": 35222,
+          "county_votes": {
+            "04001": 423,
+            "04003": 759,
+            "04005": 1213,
+            "04007": 520,
+            "04009": 143,
+            "04011": 59,
+            "04012": 117,
+            "04013": 21623,
+            "04015": 922,
+            "04017": 524,
+            "04019": 5637,
+            "04021": 794,
+            "04023": 112,
+            "04025": 1882,
+            "04027": 494
+          }
+        },
+        {
+          "name": "WALTER L. BASSETT",
+          "party": "I",
+          "write_in": true,
+          "votes": 11,
+          "county_votes": {
+            "04001": 0,
+            "04003": 0,
+            "04005": 0,
+            "04007": 0,
+            "04009": 0,
+            "04011": 0,
+            "04012": 0,
+            "04013": 3,
+            "04015": 0,
+            "04017": 2,
+            "04019": 1,
+            "04021": 0,
+            "04023": 0,
+            "04025": 5,
+            "04027": 0
+          }
+        },
+        {
+          "name": "CHARLES M. \"CHUCK\" CRAWFORD",
+          "party": "REP",
+          "write_in": true,
+          "votes": 11,
+          "county_votes": {
+            "04001": 0,
+            "04003": 0,
+            "04005": 0,
+            "04007": 1,
+            "04009": 0,
+            "04011": 0,
+            "04012": 0,
+            "04013": 4,
+            "04015": 1,
+            "04017": 0,
+            "04019": 0,
+            "04021": 4,
+            "04023": 0,
+            "04025": 1,
+            "04027": 0
+          }
+        },
+        {
+          "name": "WILL \"TIGER\" DAVIS, II",
+          "party": "REP",
+          "write_in": true,
+          "votes": 5,
+          "county_votes": {
+            "04001": 0,
+            "04003": 0,
+            "04005": 1,
+            "04007": 0,
+            "04009": 0,
+            "04011": 0,
+            "04012": 0,
+            "04013": 3,
+            "04015": 1,
+            "04017": 0,
+            "04019": 0,
+            "04021": 0,
+            "04023": 0,
+            "04025": 0,
+            "04027": 0
+          }
+        },
+        {
+          "name": "CAROLINE P. KILLEEN",
+          "party": "DEM",
+          "write_in": true,
+          "votes": 29,
+          "county_votes": {
+            "04001": 2,
+            "04003": 2,
+            "04005": 6,
+            "04007": 0,
+            "04009": 0,
+            "04011": 1,
+            "04012": 0,
+            "04013": 10,
+            "04015": 3,
+            "04017": 0,
+            "04019": 3,
+            "04021": 0,
+            "04023": 0,
+            "04025": 2,
+            "04027": 0
+          }
+        },
+        {
+          "name": "ILIAS KOSTOPOULOS",
+          "party": "I",
+          "write_in": true,
+          "votes": 3,
+          "county_votes": {
+            "04001": 0,
+            "04003": 0,
+            "04005": 0,
+            "04007": 0,
+            "04009": 0,
+            "04011": 0,
+            "04012": 0,
+            "04013": 3,
+            "04015": 0,
+            "04017": 0,
+            "04019": 0,
+            "04021": 0,
+            "04023": 0,
+            "04025": 0,
+            "04027": 0
+          }
+        },
+        {
+          "name": "S. J. ROBERTS",
+          "party": "DEM",
+          "write_in": true,
+          "votes": 11,
+          "county_votes": {
+            "04001": 0,
+            "04003": 0,
+            "04005": 0,
+            "04007": 0,
+            "04009": 0,
+            "04011": 0,
+            "04012": 0,
+            "04013": 9,
+            "04015": 2,
+            "04017": 0,
+            "04019": 0,
+            "04021": 0,
+            "04023": 0,
+            "04025": 0,
+            "04027": 0
+          }
+        },
+        {
+          "name": "JOHN WRIGHT",
+          "party": "N",
+          "write_in": true,
+          "votes": 121,
+          "county_votes": {
+            "04001": 0,
+            "04003": 2,
+            "04005": 1,
+            "04007": 0,
+            "04009": 0,
+            "04011": 0,
+            "04012": 0,
+            "04013": 109,
+            "04015": 1,
+            "04017": 0,
+            "04019": 3,
+            "04021": 3,
+            "04023": 0,
+            "04025": 2,
+            "04027": 0
+          }
+        }
+      ],
+      "contest_id": "az-1994-governor",
+      "reconciliation": {
+        "status": "verified",
+        "page": 2,
+        "district": null,
+        "candidates": [
+          {
+            "candidate": "EDDIE BASHA",
+            "official_total": 500702,
+            "county_sum": 500702,
+            "county_coverage": 15,
+            "difference": 0
+          },
+          {
+            "candidate": "FIFE SYMINGTON",
+            "official_total": 593492,
+            "county_sum": 593492,
+            "county_coverage": 15,
+            "difference": 0
+          },
+          {
+            "candidate": "JOHN BUTTRICK",
+            "official_total": 35222,
+            "county_sum": 35222,
+            "county_coverage": 15,
+            "difference": 0
+          },
+          {
+            "candidate": "WALTER L. BASSETT",
+            "official_total": 11,
+            "county_sum": 11,
+            "county_coverage": 15,
+            "difference": 0
+          },
+          {
+            "candidate": "CHARLES M. \"CHUCK\" CRAWFORD",
+            "official_total": 11,
+            "county_sum": 11,
+            "county_coverage": 15,
+            "difference": 0
+          },
+          {
+            "candidate": "WILL \"TIGER\" DAVIS, II",
+            "official_total": 5,
+            "county_sum": 5,
+            "county_coverage": 15,
+            "difference": 0
+          },
+          {
+            "candidate": "CAROLINE P. KILLEEN",
+            "official_total": 29,
+            "county_sum": 29,
+            "county_coverage": 15,
+            "difference": 0
+          },
+          {
+            "candidate": "ILIAS KOSTOPOULOS",
+            "official_total": 3,
+            "county_sum": 3,
+            "county_coverage": 15,
+            "difference": 0
+          },
+          {
+            "candidate": "S. J. ROBERTS",
+            "official_total": 11,
+            "county_sum": 11,
+            "county_coverage": 15,
+            "difference": 0
+          },
+          {
+            "candidate": "JOHN WRIGHT",
+            "official_total": 121,
+            "county_sum": 121,
+            "county_coverage": 15,
+            "difference": 0
+          }
+        ],
+        "county_count": 15,
+        "coverage": "county",
+        "multi_seat": false,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "attorney-general",
+      "district": null,
+      "page": 2,
+      "candidates": [
+        {
+          "name": "GRANT WOODS",
+          "party": "REP",
+          "write_in": false,
+          "votes": 838265,
+          "county_votes": {
+            "04001": 9649,
+            "04003": 20240,
+            "04005": 21888,
+            "04007": 11064,
+            "04009": 5954,
+            "04011": 2009,
+            "04012": 2739,
+            "04013": 479701,
+            "04015": 24538,
+            "04017": 15235,
+            "04019": 166410,
+            "04021": 22453,
+            "04023": 4829,
+            "04025": 35661,
+            "04027": 15895
+          }
+        },
+        {
+          "name": "JOHN E. KAROW",
+          "party": "L",
+          "write_in": false,
+          "votes": 207710,
+          "county_votes": {
+            "04001": 5183,
+            "04003": 4496,
+            "04005": 7367,
+            "04007": 2918,
+            "04009": 1203,
+            "04011": 486,
+            "04012": 675,
+            "04013": 117685,
+            "04015": 6040,
+            "04017": 5163,
+            "04019": 36998,
+            "04021": 5394,
+            "04023": 1150,
+            "04025": 9322,
+            "04027": 3630
+          }
+        }
+      ],
+      "contest_id": "az-1994-attorney-general",
+      "reconciliation": {
+        "status": "verified",
+        "page": 2,
+        "district": null,
+        "candidates": [
+          {
+            "candidate": "GRANT WOODS",
+            "official_total": 838265,
+            "county_sum": 838265,
+            "county_coverage": 15,
+            "difference": 0
+          },
+          {
+            "candidate": "JOHN E. KAROW",
+            "official_total": 207710,
+            "county_sum": 207710,
+            "county_coverage": 15,
+            "difference": 0
+          }
+        ],
+        "county_count": 15,
+        "coverage": "county",
+        "multi_seat": false,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "us-house",
+      "district": "1",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Chuck Blanchard",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 70627
+        },
+        {
+          "name": "Matt Salmon",
+          "party": "REP",
+          "write_in": false,
+          "votes": 101350
+        },
+        {
+          "name": "Bob Howarth",
+          "party": "L",
+          "write_in": false,
+          "votes": 8890
+        }
+      ],
+      "contest_id": "az-1994-historical-us-house-district-1",
+      "reconciliation": {
+        "status": "reported",
+        "page": 1,
+        "district": "1",
+        "candidates": [
+          {
+            "candidate": "Chuck Blanchard",
+            "official_total": 70627,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Matt Salmon",
+            "official_total": 101350,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Bob Howarth",
+            "official_total": 8890,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 15,
+        "coverage": "contest_totals",
+        "multi_seat": false,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "us-house",
+      "district": "2",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Ed Pastor",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 62589
+        },
+        {
+          "name": "Robert MacDonald",
+          "party": "REP",
+          "write_in": false,
+          "votes": 32797
+        },
+        {
+          "name": "James Bertrand",
+          "party": "L",
+          "write_in": false,
+          "votes": 5060
+        }
+      ],
+      "contest_id": "az-1994-historical-us-house-district-2",
+      "reconciliation": {
+        "status": "reported",
+        "page": 1,
+        "district": "2",
+        "candidates": [
+          {
+            "candidate": "Ed Pastor",
+            "official_total": 62589,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Robert MacDonald",
+            "official_total": 32797,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "James Bertrand",
+            "official_total": 5060,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 15,
+        "coverage": "contest_totals",
+        "multi_seat": false,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "us-house",
+      "district": "3",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Howard Lee Sprague",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 61939
+        },
+        {
+          "name": "Bob Stump",
+          "party": "REP",
+          "write_in": false,
+          "votes": 145396
+        }
+      ],
+      "contest_id": "az-1994-historical-us-house-district-3",
+      "reconciliation": {
+        "status": "reported",
+        "page": 1,
+        "district": "3",
+        "candidates": [
+          {
+            "candidate": "Howard Lee Sprague",
+            "official_total": 61939,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Bob Stump",
+            "official_total": 145396,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 15,
+        "coverage": "contest_totals",
+        "multi_seat": false,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "us-house",
+      "district": "4",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Carol Cure",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 69760
+        },
+        {
+          "name": "John Shadegg",
+          "party": "REP",
+          "write_in": false,
+          "votes": 116714
+        },
+        {
+          "name": "Mark J. Yannone",
+          "party": "L",
+          "write_in": false,
+          "votes": 7428
+        }
+      ],
+      "contest_id": "az-1994-historical-us-house-district-4",
+      "reconciliation": {
+        "status": "reported",
+        "page": 1,
+        "district": "4",
+        "candidates": [
+          {
+            "candidate": "Carol Cure",
+            "official_total": 69760,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "John Shadegg",
+            "official_total": 116714,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Mark J. Yannone",
+            "official_total": 7428,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 15,
+        "coverage": "contest_totals",
+        "multi_seat": false,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "us-house",
+      "district": "5",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Gary Auerbach",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 63436
+        },
+        {
+          "name": "Jim Kolbe",
+          "party": "REP",
+          "write_in": false,
+          "votes": 149514
+        },
+        {
+          "name": "Phillip W. Murphy",
+          "party": "L",
+          "write_in": false,
+          "votes": 7821
+        }
+      ],
+      "contest_id": "az-1994-historical-us-house-district-5",
+      "reconciliation": {
+        "status": "reported",
+        "page": 1,
+        "district": "5",
+        "candidates": [
+          {
+            "candidate": "Gary Auerbach",
+            "official_total": 63436,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Jim Kolbe",
+            "official_total": 149514,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Phillip W. Murphy",
+            "official_total": 7821,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 15,
+        "coverage": "contest_totals",
+        "multi_seat": false,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "us-house",
+      "district": "6",
+      "page": 1,
+      "candidates": [
+        {
+          "name": "Karan English",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 81321
+        },
+        {
+          "name": "J. D. Hayworth",
+          "party": "REP",
+          "write_in": false,
+          "votes": 107060
+        },
+        {
+          "name": "Sequoia R. Fuller",
+          "party": "L",
+          "write_in": false,
+          "votes": 7687
+        }
+      ],
+      "contest_id": "az-1994-historical-us-house-district-6",
+      "reconciliation": {
+        "status": "reported",
+        "page": 1,
+        "district": "6",
+        "candidates": [
+          {
+            "candidate": "Karan English",
+            "official_total": 81321,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "J. D. Hayworth",
+            "official_total": 107060,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Sequoia R. Fuller",
+            "official_total": 7687,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 15,
+        "coverage": "contest_totals",
+        "multi_seat": false,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "secretary-of-state",
+      "district": null,
+      "page": 2,
+      "candidates": [
+        {
+          "name": "Pete Rios",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 404216,
+          "county_votes": {
+            "04001": 9814,
+            "04003": 10456,
+            "04005": 13096,
+            "04007": 6958,
+            "04009": 3008,
+            "04011": 1506,
+            "04012": 1361,
+            "04013": 203229,
+            "04015": 10394,
+            "04017": 10109,
+            "04019": 93360,
+            "04021": 15849,
+            "04023": 4059,
+            "04025": 13485,
+            "04027": 7532
+          }
+        },
+        {
+          "name": "Jane Dee Hull",
+          "party": "REP",
+          "write_in": false,
+          "votes": 604024,
+          "county_votes": {
+            "04001": 5135,
+            "04003": 13642,
+            "04005": 14408,
+            "04007": 6417,
+            "04009": 3843,
+            "04011": 955,
+            "04012": 1842,
+            "04013": 368604,
+            "04015": 18405,
+            "04017": 8898,
+            "04019": 107799,
+            "04021": 12177,
+            "04023": 2209,
+            "04025": 28233,
+            "04027": 11457
+          }
+        },
+        {
+          "name": "Ernest Hancock",
+          "party": "L",
+          "write_in": false,
+          "votes": 70118,
+          "county_votes": {
+            "04001": 1595,
+            "04003": 1627,
+            "04005": 2719,
+            "04007": 1175,
+            "04009": 584,
+            "04011": 180,
+            "04012": 278,
+            "04013": 39606,
+            "04015": 2360,
+            "04017": 2163,
+            "04019": 10111,
+            "04021": 1964,
+            "04023": 271,
+            "04025": 4233,
+            "04027": 1252
+          }
+        }
+      ],
+      "contest_id": "az-1994-secretary-of-state",
+      "reconciliation": {
+        "status": "verified",
+        "page": 2,
+        "district": null,
+        "candidates": [
+          {
+            "candidate": "Pete Rios",
+            "official_total": 404216,
+            "county_sum": 404216,
+            "county_coverage": 15,
+            "difference": 0
+          },
+          {
+            "candidate": "Jane Dee Hull",
+            "official_total": 604024,
+            "county_sum": 604024,
+            "county_coverage": 15,
+            "difference": 0
+          },
+          {
+            "candidate": "Ernest Hancock",
+            "official_total": 70118,
+            "county_sum": 70118,
+            "county_coverage": 15,
+            "difference": 0
+          }
+        ],
+        "county_count": 15,
+        "coverage": "county",
+        "multi_seat": false,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "1",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Carol Springer",
+          "party": "REP",
+          "write_in": false,
+          "votes": 39725
+        }
+      ],
+      "contest_id": "az-1994-historical-state-senate-district-1",
+      "reconciliation": {
+        "status": "reported",
+        "page": 3,
+        "district": "1",
+        "candidates": [
+          {
+            "candidate": "Carol Springer",
+            "official_total": 39725,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 15,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "1",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Dolores P. \"Lori\" Connelly",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 17041
+        },
+        {
+          "name": "Don Aldridge",
+          "party": "REP",
+          "write_in": false,
+          "votes": 29654
+        },
+        {
+          "name": "Sue Lynch",
+          "party": "REP",
+          "write_in": false,
+          "votes": 31204
+        }
+      ],
+      "contest_id": "az-1994-historical-state-house-district-1",
+      "reconciliation": {
+        "status": "reported",
+        "page": 3,
+        "district": "1",
+        "candidates": [
+          {
+            "candidate": "Dolores P. \"Lori\" Connelly",
+            "official_total": 17041,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Don Aldridge",
+            "official_total": 29654,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Sue Lynch",
+            "official_total": 31204,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 15,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "2",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "John Wettaw",
+          "party": "REP",
+          "write_in": false,
+          "votes": 33139
+        },
+        {
+          "name": "Sunny Reid",
+          "party": "L",
+          "write_in": false,
+          "votes": 7953
+        }
+      ],
+      "contest_id": "az-1994-historical-state-senate-district-2",
+      "reconciliation": {
+        "status": "reported",
+        "page": 3,
+        "district": "2",
+        "candidates": [
+          {
+            "candidate": "John Wettaw",
+            "official_total": 33139,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Sunny Reid",
+            "official_total": 7953,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 15,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "2",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Florence Karlstrom",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 17644
+        },
+        {
+          "name": "Joe Hart",
+          "party": "REP",
+          "write_in": false,
+          "votes": 19889
+        },
+        {
+          "name": "John Verkamp",
+          "party": "REP",
+          "write_in": false,
+          "votes": 24771
+        }
+      ],
+      "contest_id": "az-1994-historical-state-house-district-2",
+      "reconciliation": {
+        "status": "reported",
+        "page": 3,
+        "district": "2",
+        "candidates": [
+          {
+            "candidate": "Florence Karlstrom",
+            "official_total": 17644,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Joe Hart",
+            "official_total": 19889,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "John Verkamp",
+            "official_total": 24771,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 15,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "3",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "James Henderson, Jr.",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 23487
+        },
+        {
+          "name": "Charles H. Young",
+          "party": "REP",
+          "write_in": true,
+          "votes": 161
+        }
+      ],
+      "contest_id": "az-1994-historical-state-senate-district-3",
+      "reconciliation": {
+        "status": "reported",
+        "page": 3,
+        "district": "3",
+        "candidates": [
+          {
+            "candidate": "James Henderson, Jr.",
+            "official_total": 23487,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Charles H. Young",
+            "official_total": 161,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 15,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "3",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Benjamin Hanley",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 14351
+        },
+        {
+          "name": "Jack C. Jackson",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 17254
+        },
+        {
+          "name": "Gilene Begay",
+          "party": "REP",
+          "write_in": false,
+          "votes": 8552
+        },
+        {
+          "name": "Ben Manuelito, Jr.",
+          "party": "REP",
+          "write_in": false,
+          "votes": 7912
+        }
+      ],
+      "contest_id": "az-1994-historical-state-house-district-3",
+      "reconciliation": {
+        "status": "reported",
+        "page": 3,
+        "district": "3",
+        "candidates": [
+          {
+            "candidate": "Benjamin Hanley",
+            "official_total": 14351,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Jack C. Jackson",
+            "official_total": 17254,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Gilene Begay",
+            "official_total": 8552,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Ben Manuelito, Jr.",
+            "official_total": 7912,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 15,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "4",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "A. V. \"Bill\" Hardt",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 26288
+        }
+      ],
+      "contest_id": "az-1994-historical-state-senate-district-4",
+      "reconciliation": {
+        "status": "reported",
+        "page": 3,
+        "district": "4",
+        "candidates": [
+          {
+            "candidate": "A. V. \"Bill\" Hardt",
+            "official_total": 26288,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 15,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "4",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Jack A. Brown",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 18266
+        },
+        {
+          "name": "E. C. \"Polly\" Rosenbaum",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 17993
+        },
+        {
+          "name": "David C. Farnsworth",
+          "party": "REP",
+          "write_in": false,
+          "votes": 20780
+        }
+      ],
+      "contest_id": "az-1994-historical-state-house-district-4",
+      "reconciliation": {
+        "status": "reported",
+        "page": 3,
+        "district": "4",
+        "candidates": [
+          {
+            "candidate": "Jack A. Brown",
+            "official_total": 18266,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "E. C. \"Polly\" Rosenbaum",
+            "official_total": 17993,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "David C. Farnsworth",
+            "official_total": 20780,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 15,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "5",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Jim Wombacher",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 8700
+        },
+        {
+          "name": "Jim Buster",
+          "party": "REP",
+          "write_in": false,
+          "votes": 16240
+        }
+      ],
+      "contest_id": "az-1994-historical-state-senate-district-5",
+      "reconciliation": {
+        "status": "reported",
+        "page": 3,
+        "district": "5",
+        "candidates": [
+          {
+            "candidate": "Jim Wombacher",
+            "official_total": 8700,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Jim Buster",
+            "official_total": 16240,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 15,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "5",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Robert J. \"Bob\" McLendon",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 13845
+        },
+        {
+          "name": "Pat Conner",
+          "party": "REP",
+          "write_in": false,
+          "votes": 14938
+        },
+        {
+          "name": "La Roy F. Smith, Sr.",
+          "party": "REP",
+          "write_in": false,
+          "votes": 6853
+        }
+      ],
+      "contest_id": "az-1994-historical-state-house-district-5",
+      "reconciliation": {
+        "status": "reported",
+        "page": 3,
+        "district": "5",
+        "candidates": [
+          {
+            "candidate": "Robert J. \"Bob\" McLendon",
+            "official_total": 13845,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Pat Conner",
+            "official_total": 14938,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "La Roy F. Smith, Sr.",
+            "official_total": 6853,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 15,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "6",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "John Huppenthal",
+          "party": "REP",
+          "write_in": false,
+          "votes": 33992
+        },
+        {
+          "name": "Gregg Tivnan",
+          "party": "L",
+          "write_in": false,
+          "votes": 7328
+        }
+      ],
+      "contest_id": "az-1994-historical-state-senate-district-6",
+      "reconciliation": {
+        "status": "reported",
+        "page": 3,
+        "district": "6",
+        "candidates": [
+          {
+            "candidate": "John Huppenthal",
+            "official_total": 33992,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Gregg Tivnan",
+            "official_total": 7328,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 15,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "6",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Fulton Brock",
+          "party": "REP",
+          "write_in": false,
+          "votes": 22326
+        },
+        {
+          "name": "Lori S. Daniels",
+          "party": "REP",
+          "write_in": false,
+          "votes": 27935
+        },
+        {
+          "name": "John Marek",
+          "party": "L",
+          "write_in": false,
+          "votes": 7703
+        }
+      ],
+      "contest_id": "az-1994-historical-state-house-district-6",
+      "reconciliation": {
+        "status": "reported",
+        "page": 3,
+        "district": "6",
+        "candidates": [
+          {
+            "candidate": "Fulton Brock",
+            "official_total": 22326,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Lori S. Daniels",
+            "official_total": 27935,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "John Marek",
+            "official_total": 7703,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 15,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "7",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Robert \"Bob\" Chastain",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 13131
+        },
+        {
+          "name": "Roger Hooper",
+          "party": "REP",
+          "write_in": false,
+          "votes": 11429
+        }
+      ],
+      "contest_id": "az-1994-historical-state-senate-district-7",
+      "reconciliation": {
+        "status": "reported",
+        "page": 3,
+        "district": "7",
+        "candidates": [
+          {
+            "candidate": "Robert \"Bob\" Chastain",
+            "official_total": 13131,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Roger Hooper",
+            "official_total": 11429,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 15,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "7",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Harry Clark",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 13388
+        },
+        {
+          "name": "Rebecca Rios",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 14744
+        },
+        {
+          "name": "Robert L. Camboni",
+          "party": "L",
+          "write_in": false,
+          "votes": 4249
+        }
+      ],
+      "contest_id": "az-1994-historical-state-house-district-7",
+      "reconciliation": {
+        "status": "reported",
+        "page": 3,
+        "district": "7",
+        "candidates": [
+          {
+            "candidate": "Harry Clark",
+            "official_total": 13388,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Rebecca Rios",
+            "official_total": 14744,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Robert L. Camboni",
+            "official_total": 4249,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 15,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "8",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Gus Arzberger",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 17979
+        }
+      ],
+      "contest_id": "az-1994-historical-state-senate-district-8",
+      "reconciliation": {
+        "status": "reported",
+        "page": 3,
+        "district": "8",
+        "candidates": [
+          {
+            "candidate": "Gus Arzberger",
+            "official_total": 17979,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 15,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "8",
+      "page": 3,
+      "candidates": [
+        {
+          "name": "Paul Newman",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 14270
+        },
+        {
+          "name": "Ruben F. Ortega",
+          "party": "REP",
+          "write_in": false,
+          "votes": 15145
+        },
+        {
+          "name": "Stephen Biles",
+          "party": "REP",
+          "write_in": false,
+          "votes": 10558
+        }
+      ],
+      "contest_id": "az-1994-historical-state-house-district-8",
+      "reconciliation": {
+        "status": "reported",
+        "page": 3,
+        "district": "8",
+        "candidates": [
+          {
+            "candidate": "Paul Newman",
+            "official_total": 14270,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Ruben F. Ortega",
+            "official_total": 15145,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Stephen Biles",
+            "official_total": 10558,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 15,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "9",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "John E. Dougherty",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 16947
+        },
+        {
+          "name": "Keith A. Bee",
+          "party": "REP",
+          "write_in": false,
+          "votes": 28646
+        }
+      ],
+      "contest_id": "az-1994-historical-state-senate-district-9",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "9",
+        "candidates": [
+          {
+            "candidate": "John E. Dougherty",
+            "official_total": 16947,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Keith A. Bee",
+            "official_total": 28646,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 15,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "9",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "Bill McGibbon",
+          "party": "REP",
+          "write_in": false,
+          "votes": 25963
+        },
+        {
+          "name": "Lou-Ann M. Preble",
+          "party": "REP",
+          "write_in": false,
+          "votes": 29453
+        }
+      ],
+      "contest_id": "az-1994-historical-state-house-district-9",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "9",
+        "candidates": [
+          {
+            "candidate": "Bill McGibbon",
+            "official_total": 25963,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Lou-Ann M. Preble",
+            "official_total": 29453,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 15,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "10",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "Victor Soltero",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 14759
+        }
+      ],
+      "contest_id": "az-1994-historical-state-senate-district-10",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "10",
+        "candidates": [
+          {
+            "candidate": "Victor Soltero",
+            "official_total": 14759,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 15,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "10",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "Carmen Cajero",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 11515
+        },
+        {
+          "name": "Phillip Hubbard",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 10717
+        },
+        {
+          "name": "Robert \"Bob\" Motta",
+          "party": "REP",
+          "write_in": false,
+          "votes": 7153
+        }
+      ],
+      "contest_id": "az-1994-historical-state-house-district-10",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "10",
+        "candidates": [
+          {
+            "candidate": "Carmen Cajero",
+            "official_total": 11515,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Phillip Hubbard",
+            "official_total": 10717,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Robert \"Bob\" Motta",
+            "official_total": 7153,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 15,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "11",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "Peter Goudinoff",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 18496
+        },
+        {
+          "name": "Scott Stewart",
+          "party": "L",
+          "write_in": false,
+          "votes": 5468
+        }
+      ],
+      "contest_id": "az-1994-historical-state-senate-district-11",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "11",
+        "candidates": [
+          {
+            "candidate": "Peter Goudinoff",
+            "official_total": 18496,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Scott Stewart",
+            "official_total": 5468,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 15,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "11",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "Jorge Luis Garcia",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 12169
+        },
+        {
+          "name": "Elaine Richardson",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 14467
+        },
+        {
+          "name": "David C. Morales",
+          "party": "REP",
+          "write_in": false,
+          "votes": 8559
+        }
+      ],
+      "contest_id": "az-1994-historical-state-house-district-11",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "11",
+        "candidates": [
+          {
+            "candidate": "Jorge Luis Garcia",
+            "official_total": 12169,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Elaine Richardson",
+            "official_total": 14467,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "David C. Morales",
+            "official_total": 8559,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 15,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "12",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "Ann Day",
+          "party": "REP",
+          "write_in": false,
+          "votes": 38838
+        },
+        {
+          "name": "Roberta McMillan",
+          "party": "L",
+          "write_in": false,
+          "votes": 7738
+        }
+      ],
+      "contest_id": "az-1994-historical-state-senate-district-12",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "12",
+        "candidates": [
+          {
+            "candidate": "Ann Day",
+            "official_total": 38838,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Roberta McMillan",
+            "official_total": 7738,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 15,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "12",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "David M. Perkins",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 19503
+        },
+        {
+          "name": "Winifred \"Freddy\" Hershberger",
+          "party": "REP",
+          "write_in": false,
+          "votes": 26155
+        },
+        {
+          "name": "Dan Schottel",
+          "party": "REP",
+          "write_in": false,
+          "votes": 22008
+        }
+      ],
+      "contest_id": "az-1994-historical-state-house-district-12",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "12",
+        "candidates": [
+          {
+            "candidate": "David M. Perkins",
+            "official_total": 19503,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Winifred \"Freddy\" Hershberger",
+            "official_total": 26155,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Dan Schottel",
+            "official_total": 22008,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 15,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "13",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "Patricia A. \"Patti\" Noland",
+          "party": "REP",
+          "write_in": false,
+          "votes": 36720
+        },
+        {
+          "name": "Wes Thompson",
+          "party": "L",
+          "write_in": false,
+          "votes": 7362
+        }
+      ],
+      "contest_id": "az-1994-historical-state-senate-district-13",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "13",
+        "candidates": [
+          {
+            "candidate": "Patricia A. \"Patti\" Noland",
+            "official_total": 36720,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Wes Thompson",
+            "official_total": 7362,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 15,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "13",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "George Cunningham",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 23308
+        },
+        {
+          "name": "Andy Nichols",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 23012
+        },
+        {
+          "name": "D. Shane Wikfors",
+          "party": "REP",
+          "write_in": false,
+          "votes": 19880
+        }
+      ],
+      "contest_id": "az-1994-historical-state-house-district-13",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "13",
+        "candidates": [
+          {
+            "candidate": "George Cunningham",
+            "official_total": 23308,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Andy Nichols",
+            "official_total": 23012,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "D. Shane Wikfors",
+            "official_total": 19880,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 15,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "14",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "Ruth Solomon",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 26960
+        },
+        {
+          "name": "Douglas F. Newman",
+          "party": "L",
+          "write_in": false,
+          "votes": 7699
+        }
+      ],
+      "contest_id": "az-1994-historical-state-senate-district-14",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "14",
+        "candidates": [
+          {
+            "candidate": "Ruth Solomon",
+            "official_total": 26960,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Douglas F. Newman",
+            "official_total": 7699,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 15,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "14",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "Herschella Horton",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 17910
+        },
+        {
+          "name": "Marion L. Pickens",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 18189
+        },
+        {
+          "name": "Charles H. \"Chuck\" Josephson",
+          "party": "REP",
+          "write_in": false,
+          "votes": 16498
+        }
+      ],
+      "contest_id": "az-1994-historical-state-house-district-14",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "14",
+        "candidates": [
+          {
+            "candidate": "Herschella Horton",
+            "official_total": 17910,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Marion L. Pickens",
+            "official_total": 18189,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Charles H. \"Chuck\" Josephson",
+            "official_total": 16498,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 15,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "15",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "Austin Turner",
+          "party": "REP",
+          "write_in": false,
+          "votes": 30181
+        },
+        {
+          "name": "Lon S. Weber",
+          "party": "L",
+          "write_in": false,
+          "votes": 7369
+        }
+      ],
+      "contest_id": "az-1994-historical-state-senate-district-15",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "15",
+        "candidates": [
+          {
+            "candidate": "Austin Turner",
+            "official_total": 30181,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Lon S. Weber",
+            "official_total": 7369,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 15,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "15",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "Ned King",
+          "party": "REP",
+          "write_in": false,
+          "votes": 27261
+        },
+        {
+          "name": "Jerry Overton",
+          "party": "REP",
+          "write_in": false,
+          "votes": 21183
+        }
+      ],
+      "contest_id": "az-1994-historical-state-house-district-15",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "15",
+        "candidates": [
+          {
+            "candidate": "Ned King",
+            "official_total": 27261,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Jerry Overton",
+            "official_total": 21183,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 15,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "16",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "John Kaites",
+          "party": "REP",
+          "write_in": false,
+          "votes": 25713
+        },
+        {
+          "name": "Dean C. Pleasant",
+          "party": "L",
+          "write_in": false,
+          "votes": 7175
+        }
+      ],
+      "contest_id": "az-1994-historical-state-senate-district-16",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "16",
+        "candidates": [
+          {
+            "candidate": "John Kaites",
+            "official_total": 25713,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Dean C. Pleasant",
+            "official_total": 7175,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 15,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "16",
+      "page": 4,
+      "candidates": [
+        {
+          "name": "Becky Jordan",
+          "party": "REP",
+          "write_in": false,
+          "votes": 23817
+        },
+        {
+          "name": "Jim Weiers",
+          "party": "REP",
+          "write_in": false,
+          "votes": 15320
+        }
+      ],
+      "contest_id": "az-1994-historical-state-house-district-16",
+      "reconciliation": {
+        "status": "reported",
+        "page": 4,
+        "district": "16",
+        "candidates": [
+          {
+            "candidate": "Becky Jordan",
+            "official_total": 23817,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Jim Weiers",
+            "official_total": 15320,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 15,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "17",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Brenda Burns",
+          "party": "REP",
+          "write_in": false,
+          "votes": 28393
+        },
+        {
+          "name": "Rick Tompkins",
+          "party": "L",
+          "write_in": false,
+          "votes": 7195
+        }
+      ],
+      "contest_id": "az-1994-historical-state-senate-district-17",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "17",
+        "candidates": [
+          {
+            "candidate": "Brenda Burns",
+            "official_total": 28393,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Rick Tompkins",
+            "official_total": 7195,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 15,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "17",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Robert \"Bob\" Burns",
+          "party": "REP",
+          "write_in": false,
+          "votes": 22839
+        },
+        {
+          "name": "Jean McGrath",
+          "party": "REP",
+          "write_in": false,
+          "votes": 20459
+        },
+        {
+          "name": "Gerald A. Patton",
+          "party": "L",
+          "write_in": false,
+          "votes": 7320
+        }
+      ],
+      "contest_id": "az-1994-historical-state-house-district-17",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "17",
+        "candidates": [
+          {
+            "candidate": "Robert \"Bob\" Burns",
+            "official_total": 22839,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Jean McGrath",
+            "official_total": 20459,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Gerald A. Patton",
+            "official_total": 7320,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 15,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "18",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Marc Spitzer",
+          "party": "REP",
+          "write_in": false,
+          "votes": 26413
+        },
+        {
+          "name": "Donna Hancock",
+          "party": "L",
+          "write_in": false,
+          "votes": 9708
+        }
+      ],
+      "contest_id": "az-1994-historical-state-senate-district-18",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "18",
+        "candidates": [
+          {
+            "candidate": "Marc Spitzer",
+            "official_total": 26413,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Donna Hancock",
+            "official_total": 9708,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 15,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "18",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Susan Gerard",
+          "party": "REP",
+          "write_in": false,
+          "votes": 26536
+        },
+        {
+          "name": "Barry Wong",
+          "party": "REP",
+          "write_in": false,
+          "votes": 24856
+        },
+        {
+          "name": "Richard Rupert",
+          "party": "L",
+          "write_in": false,
+          "votes": 5218
+        },
+        {
+          "name": "Chris Wilcoxson",
+          "party": "L",
+          "write_in": false,
+          "votes": 5800
+        }
+      ],
+      "contest_id": "az-1994-historical-state-house-district-18",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "18",
+        "candidates": [
+          {
+            "candidate": "Susan Gerard",
+            "official_total": 26536,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Barry Wong",
+            "official_total": 24856,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Richard Rupert",
+            "official_total": 5218,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Chris Wilcoxson",
+            "official_total": 5800,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 15,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "19",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Jan Brewer",
+          "party": "REP",
+          "write_in": false,
+          "votes": 29624
+        }
+      ],
+      "contest_id": "az-1994-historical-state-senate-district-19",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "19",
+        "candidates": [
+          {
+            "candidate": "Jan Brewer",
+            "official_total": 29624,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 15,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "19",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Scott Bundgaard",
+          "party": "REP",
+          "write_in": false,
+          "votes": 24197
+        },
+        {
+          "name": "David L. Eberhart",
+          "party": "REP",
+          "write_in": false,
+          "votes": 24392
+        },
+        {
+          "name": "Tom Achtenberg",
+          "party": "L",
+          "write_in": false,
+          "votes": 7494
+        }
+      ],
+      "contest_id": "az-1994-historical-state-house-district-19",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "19",
+        "candidates": [
+          {
+            "candidate": "Scott Bundgaard",
+            "official_total": 24197,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "David L. Eberhart",
+            "official_total": 24392,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Tom Achtenberg",
+            "official_total": 7494,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 15,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "20",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Mary Hartley",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 11960
+        },
+        {
+          "name": "David McElhone",
+          "party": "REP",
+          "write_in": false,
+          "votes": 9486
+        },
+        {
+          "name": "Richard Lee Duncan",
+          "party": "L",
+          "write_in": false,
+          "votes": 1476
+        }
+      ],
+      "contest_id": "az-1994-historical-state-senate-district-20",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "20",
+        "candidates": [
+          {
+            "candidate": "Mary Hartley",
+            "official_total": 11960,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "David McElhone",
+            "official_total": 9486,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Richard Lee Duncan",
+            "official_total": 1476,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 15,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "20",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Kathi Foster",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 10144
+        },
+        {
+          "name": "Macario Garcia",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 8124
+        },
+        {
+          "name": "Robert Blendu",
+          "party": "REP",
+          "write_in": false,
+          "votes": 9918
+        },
+        {
+          "name": "Jules Dembinski",
+          "party": "REP",
+          "write_in": false,
+          "votes": 8076
+        }
+      ],
+      "contest_id": "az-1994-historical-state-house-district-20",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "20",
+        "candidates": [
+          {
+            "candidate": "Kathi Foster",
+            "official_total": 10144,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Macario Garcia",
+            "official_total": 8124,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Robert Blendu",
+            "official_total": 9918,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Jules Dembinski",
+            "official_total": 8076,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 15,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "21",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Stan Barnes",
+          "party": "REP",
+          "write_in": false,
+          "votes": 25808
+        }
+      ],
+      "contest_id": "az-1994-historical-state-senate-district-21",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "21",
+        "candidates": [
+          {
+            "candidate": "Stan Barnes",
+            "official_total": 25808,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 15,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "21",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Russell \"Rusty\" Bowers",
+          "party": "REP",
+          "write_in": false,
+          "votes": 20967
+        },
+        {
+          "name": "Marilyn Jarrett",
+          "party": "REP",
+          "write_in": false,
+          "votes": 22959
+        },
+        {
+          "name": "Ike Barker",
+          "party": "L",
+          "write_in": false,
+          "votes": 6064
+        }
+      ],
+      "contest_id": "az-1994-historical-state-house-district-21",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "21",
+        "candidates": [
+          {
+            "candidate": "Russell \"Rusty\" Bowers",
+            "official_total": 20967,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Marilyn Jarrett",
+            "official_total": 22959,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Ike Barker",
+            "official_total": 6064,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 15,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "22",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Manuel \"Lito\" Pena",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 9246
+        },
+        {
+          "name": "Jack C. Gunn",
+          "party": "L",
+          "write_in": false,
+          "votes": 3362
+        },
+        {
+          "name": "Willie Billy Horton",
+          "party": "DEM",
+          "write_in": true,
+          "votes": 6
+        }
+      ],
+      "contest_id": "az-1994-historical-state-senate-district-22",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "22",
+        "candidates": [
+          {
+            "candidate": "Manuel \"Lito\" Pena",
+            "official_total": 9246,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Jack C. Gunn",
+            "official_total": 3362,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Willie Billy Horton",
+            "official_total": 6,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 15,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "22",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Art Hamilton",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 8613
+        },
+        {
+          "name": "Joe Eddie Lopez",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 6438
+        },
+        {
+          "name": "John Atkins",
+          "party": "I",
+          "write_in": true,
+          "votes": 67
+        }
+      ],
+      "contest_id": "az-1994-historical-state-house-district-22",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "22",
+        "candidates": [
+          {
+            "candidate": "Art Hamilton",
+            "official_total": 8613,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Joe Eddie Lopez",
+            "official_total": 6438,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "John Atkins",
+            "official_total": 67,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 15,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "23",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Sandra Kennedy",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 10613
+        },
+        {
+          "name": "William \"Wink\" Wiess",
+          "party": "REP",
+          "write_in": false,
+          "votes": 3442
+        },
+        {
+          "name": "Bradley Cashman",
+          "party": "I",
+          "write_in": true,
+          "votes": 1
+        }
+      ],
+      "contest_id": "az-1994-historical-state-senate-district-23",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "23",
+        "candidates": [
+          {
+            "candidate": "Sandra Kennedy",
+            "official_total": 10613,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "William \"Wink\" Wiess",
+            "official_total": 3442,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Bradley Cashman",
+            "official_total": 1,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 15,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "23",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Linda G. Aguirre",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 9286
+        },
+        {
+          "name": "David Armstead",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 6592
+        }
+      ],
+      "contest_id": "az-1994-historical-state-house-district-23",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "23",
+        "candidates": [
+          {
+            "candidate": "Linda G. Aguirre",
+            "official_total": 9286,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "David Armstead",
+            "official_total": 6592,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 15,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "24",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "John Greene",
+          "party": "REP",
+          "write_in": false,
+          "votes": 29092
+        },
+        {
+          "name": "William T. Hosea",
+          "party": "L",
+          "write_in": false,
+          "votes": 7158
+        }
+      ],
+      "contest_id": "az-1994-historical-state-senate-district-24",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "24",
+        "candidates": [
+          {
+            "candidate": "John Greene",
+            "official_total": 29092,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "William T. Hosea",
+            "official_total": 7158,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 15,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "24",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Mark Fleisher",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 12016
+        },
+        {
+          "name": "Ernie Baird",
+          "party": "REP",
+          "write_in": false,
+          "votes": 19875
+        },
+        {
+          "name": "Sue Grace",
+          "party": "REP",
+          "write_in": false,
+          "votes": 23588
+        },
+        {
+          "name": "Gary Fallon",
+          "party": "L",
+          "write_in": false,
+          "votes": 5495
+        }
+      ],
+      "contest_id": "az-1994-historical-state-house-district-24",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "24",
+        "candidates": [
+          {
+            "candidate": "Mark Fleisher",
+            "official_total": 12016,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Ernie Baird",
+            "official_total": 19875,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Sue Grace",
+            "official_total": 23588,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Gary Fallon",
+            "official_total": 5495,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 15,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "25",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Chris Cummiskey",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 17943
+        },
+        {
+          "name": "Bernie Truter",
+          "party": "REP",
+          "write_in": false,
+          "votes": 11651
+        },
+        {
+          "name": "John Williams",
+          "party": "L",
+          "write_in": false,
+          "votes": 2481
+        }
+      ],
+      "contest_id": "az-1994-historical-state-senate-district-25",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "25",
+        "candidates": [
+          {
+            "candidate": "Chris Cummiskey",
+            "official_total": 17943,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Bernie Truter",
+            "official_total": 11651,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "John Williams",
+            "official_total": 2481,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 15,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "25",
+      "page": 5,
+      "candidates": [
+        {
+          "name": "Ken Cheuvront",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 13595
+        },
+        {
+          "name": "George A. Cordova",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 12210
+        },
+        {
+          "name": "Richard Bistany",
+          "party": "REP",
+          "write_in": false,
+          "votes": 13275
+        },
+        {
+          "name": "Robert Updike",
+          "party": "REP",
+          "write_in": false,
+          "votes": 13565
+        },
+        {
+          "name": "Manfred Alber",
+          "party": "L",
+          "write_in": false,
+          "votes": 1674
+        },
+        {
+          "name": "Michael L. Hansford",
+          "party": "L",
+          "write_in": false,
+          "votes": 2074
+        }
+      ],
+      "contest_id": "az-1994-historical-state-house-district-25",
+      "reconciliation": {
+        "status": "reported",
+        "page": 5,
+        "district": "25",
+        "candidates": [
+          {
+            "candidate": "Ken Cheuvront",
+            "official_total": 13595,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "George A. Cordova",
+            "official_total": 12210,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Richard Bistany",
+            "official_total": 13275,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Robert Updike",
+            "official_total": 13565,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Manfred Alber",
+            "official_total": 1674,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Michael L. Hansford",
+            "official_total": 2074,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 15,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "26",
+      "page": 6,
+      "candidates": [
+        {
+          "name": "William E. \"Bill\" Hegarty",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 14946
+        },
+        {
+          "name": "Thomas Patterson",
+          "party": "REP",
+          "write_in": false,
+          "votes": 26570
+        }
+      ],
+      "contest_id": "az-1994-historical-state-senate-district-26",
+      "reconciliation": {
+        "status": "reported",
+        "page": 6,
+        "district": "26",
+        "candidates": [
+          {
+            "candidate": "William E. \"Bill\" Hegarty",
+            "official_total": 14946,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Thomas Patterson",
+            "official_total": 26570,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 15,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "26",
+      "page": 6,
+      "candidates": [
+        {
+          "name": "Manuel V. \"Manny\" Cisneros",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 14106
+        },
+        {
+          "name": "Robin Shaw",
+          "party": "REP",
+          "write_in": false,
+          "votes": 24986
+        },
+        {
+          "name": "Tom Smith",
+          "party": "REP",
+          "write_in": false,
+          "votes": 24006
+        },
+        {
+          "name": "Mike Trueblood",
+          "party": "L",
+          "write_in": false,
+          "votes": 5040
+        }
+      ],
+      "contest_id": "az-1994-historical-state-house-district-26",
+      "reconciliation": {
+        "status": "reported",
+        "page": 6,
+        "district": "26",
+        "candidates": [
+          {
+            "candidate": "Manuel V. \"Manny\" Cisneros",
+            "official_total": 14106,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Robin Shaw",
+            "official_total": 24986,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Tom Smith",
+            "official_total": 24006,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Mike Trueblood",
+            "official_total": 5040,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 15,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "27",
+      "page": 6,
+      "candidates": [
+        {
+          "name": "Gary Richardson",
+          "party": "REP",
+          "write_in": false,
+          "votes": 23668
+        }
+      ],
+      "contest_id": "az-1994-historical-state-senate-district-27",
+      "reconciliation": {
+        "status": "reported",
+        "page": 6,
+        "district": "27",
+        "candidates": [
+          {
+            "candidate": "Gary Richardson",
+            "official_total": 23668,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 15,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "27",
+      "page": 6,
+      "candidates": [
+        {
+          "name": "Marian Axford Smea",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 14423
+        },
+        {
+          "name": "Mike Gardner",
+          "party": "REP",
+          "write_in": false,
+          "votes": 19692
+        },
+        {
+          "name": "Laura Knaperek",
+          "party": "REP",
+          "write_in": false,
+          "votes": 22302
+        },
+        {
+          "name": "Tracy Dugger",
+          "party": "L",
+          "write_in": false,
+          "votes": 4360
+        }
+      ],
+      "contest_id": "az-1994-historical-state-house-district-27",
+      "reconciliation": {
+        "status": "reported",
+        "page": 6,
+        "district": "27",
+        "candidates": [
+          {
+            "candidate": "Marian Axford Smea",
+            "official_total": 14423,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Mike Gardner",
+            "official_total": 19692,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Laura Knaperek",
+            "official_total": 22302,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Tracy Dugger",
+            "official_total": 4360,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 15,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "28",
+      "page": 6,
+      "candidates": [
+        {
+          "name": "Paul Privateer",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 15301
+        },
+        {
+          "name": "Randall Gnant",
+          "party": "REP",
+          "write_in": false,
+          "votes": 37961
+        }
+      ],
+      "contest_id": "az-1994-historical-state-senate-district-28",
+      "reconciliation": {
+        "status": "reported",
+        "page": 6,
+        "district": "28",
+        "candidates": [
+          {
+            "candidate": "Paul Privateer",
+            "official_total": 15301,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Randall Gnant",
+            "official_total": 37961,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 15,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "28",
+      "page": 6,
+      "candidates": [
+        {
+          "name": "Rex Vesey",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 15332
+        },
+        {
+          "name": "Carolyn S. Allen",
+          "party": "REP",
+          "write_in": false,
+          "votes": 36232
+        },
+        {
+          "name": "Wes Marsh",
+          "party": "REP",
+          "write_in": false,
+          "votes": 32671
+        },
+        {
+          "name": "Robert Beggs",
+          "party": "L",
+          "write_in": false,
+          "votes": 4675
+        }
+      ],
+      "contest_id": "az-1994-historical-state-house-district-28",
+      "reconciliation": {
+        "status": "reported",
+        "page": 6,
+        "district": "28",
+        "candidates": [
+          {
+            "candidate": "Rex Vesey",
+            "official_total": 15332,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Carolyn S. Allen",
+            "official_total": 36232,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Wes Marsh",
+            "official_total": 32671,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Robert Beggs",
+            "official_total": 4675,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 15,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "29",
+      "page": 6,
+      "candidates": [
+        {
+          "name": "Jerry Helmstadter",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 8353
+        },
+        {
+          "name": "David Petersen",
+          "party": "REP",
+          "write_in": false,
+          "votes": 17269
+        }
+      ],
+      "contest_id": "az-1994-historical-state-senate-district-29",
+      "reconciliation": {
+        "status": "reported",
+        "page": 6,
+        "district": "29",
+        "candidates": [
+          {
+            "candidate": "Jerry Helmstadter",
+            "official_total": 8353,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "David Petersen",
+            "official_total": 17269,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 15,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "29",
+      "page": 6,
+      "candidates": [
+        {
+          "name": "Jesse J. Charnley, Jr.",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 6700
+        },
+        {
+          "name": "Denise A. Heap",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 7875
+        },
+        {
+          "name": "Mark Anderson",
+          "party": "REP",
+          "write_in": false,
+          "votes": 15968
+        },
+        {
+          "name": "Paul Mortensen",
+          "party": "REP",
+          "write_in": false,
+          "votes": 15423
+        }
+      ],
+      "contest_id": "az-1994-historical-state-house-district-29",
+      "reconciliation": {
+        "status": "reported",
+        "page": 6,
+        "district": "29",
+        "candidates": [
+          {
+            "candidate": "Jesse J. Charnley, Jr.",
+            "official_total": 6700,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Denise A. Heap",
+            "official_total": 7875,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Mark Anderson",
+            "official_total": 15968,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Paul Mortensen",
+            "official_total": 15423,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 15,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-senate",
+      "district": "30",
+      "page": 6,
+      "candidates": [
+        {
+          "name": "Larry Chesley",
+          "party": "REP",
+          "write_in": false,
+          "votes": 30846
+        },
+        {
+          "name": "David Lawrence Janecek",
+          "party": "L",
+          "write_in": false,
+          "votes": 7693
+        }
+      ],
+      "contest_id": "az-1994-historical-state-senate-district-30",
+      "reconciliation": {
+        "status": "reported",
+        "page": 6,
+        "district": "30",
+        "candidates": [
+          {
+            "candidate": "Larry Chesley",
+            "official_total": 30846,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "David Lawrence Janecek",
+            "official_total": 7693,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 15,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    },
+    {
+      "office_id": "state-house",
+      "district": "30",
+      "page": 6,
+      "candidates": [
+        {
+          "name": "Eileen Fellner",
+          "party": "DEM",
+          "write_in": false,
+          "votes": 14337
+        },
+        {
+          "name": "Jeff Groscost",
+          "party": "REP",
+          "write_in": false,
+          "votes": 19731
+        },
+        {
+          "name": "Mark W. Killian",
+          "party": "REP",
+          "write_in": false,
+          "votes": 26868
+        }
+      ],
+      "contest_id": "az-1994-historical-state-house-district-30",
+      "reconciliation": {
+        "status": "reported",
+        "page": 6,
+        "district": "30",
+        "candidates": [
+          {
+            "candidate": "Eileen Fellner",
+            "official_total": 14337,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Jeff Groscost",
+            "official_total": 19731,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          },
+          {
+            "candidate": "Mark W. Killian",
+            "official_total": 26868,
+            "county_sum": null,
+            "county_coverage": 0,
+            "difference": null
+          }
+        ],
+        "county_count": 15,
+        "coverage": "contest_totals",
+        "multi_seat": true,
+        "notes": ""
+      }
+    }
+  ]
+}
