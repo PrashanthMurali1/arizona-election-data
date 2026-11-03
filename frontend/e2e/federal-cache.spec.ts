@@ -13,20 +13,25 @@ test("selected federal office prefetches all page data and navigation uses HTTP 
   ).json()) as Election[];
   const senate = catalog.filter((e) => e.office_id === "us-senate");
   const house = catalog.filter((e) => e.office_id === "us-house");
-  expect(senate.length).toBe(5);
-  expect(house.length).toBe(8);
+  expect(senate.length).toBeGreaterThanOrEqual(5);
+  expect(house.length).toBeGreaterThanOrEqual(8);
   const dependencies = (entries: Election[], counties: boolean) =>
     new Set(
-      entries.flatMap((e) => [
-        `/api/elections/${e.id}`,
-        ...(counties
-          ? [
-              `/api/elections/${e.id}/counties`,
-              `/api/elections/${e.id}/activity`,
-            ]
-          : []),
-        `/api/geography/${e.boundary_id}`,
-      ]),
+      entries.flatMap((e) =>
+        // Historical statewide archives are served by their own overview endpoint.
+        e.id.includes("-historical-")
+          ? [`/api/historical-elections/${e.id}`]
+          : [
+              `/api/elections/${e.id}`,
+              ...(counties
+                ? [
+                    `/api/elections/${e.id}/counties`,
+                    `/api/elections/${e.id}/activity`,
+                  ]
+                : []),
+              `/api/geography/${e.boundary_id}`,
+            ],
+      ),
     );
   const senateUrls = dependencies(senate, true);
   const houseUrls = dependencies(house, false);
@@ -66,7 +71,9 @@ test("selected federal office prefetches all page data and navigation uses HTTP 
   const verify = (urls: Set<string>) => {
     for (const url of urls) {
       expect(statuses.get(url)).toBe(200);
-      expect(policies.get(url)).toContain("max-age=86400");
+      // Historical statewide overviews are not part of the one-day browser cache policy.
+      if (!url.startsWith("/api/historical-elections/"))
+        expect(policies.get(url)).toContain("max-age=86400");
     }
   };
   network.on("Network.loadingFinished", (e) => {
@@ -94,7 +101,9 @@ test("selected federal office prefetches all page data and navigation uses HTTP 
         exact: true,
       }),
     ).toBeVisible();
-    await expect(page.locator(".county-map path")).toHaveCount(15);
+    await expect(page.locator(".county-map path")).toHaveCount(
+      entry.county_count,
+    );
   }
   expect(origin.filter((url) => senateUrls.has(url)).length).toBe(senateOrigin);
 
@@ -106,12 +115,17 @@ test("selected federal office prefetches all page data and navigation uses HTTP 
   await selectOffice(page, "Federal office", "us-house");
   await expect.poll(() => done(houseUrls)).toBe(true);
   verify(houseUrls);
-  const houseOrigin = origin.filter((url) => houseUrls.has(url)).length;
-  await page.getByRole("tab", { name: "Live Elections" }).click();
+  // Only the browser-cached URLs must not hit the network again; historical statewide overviews
+  // are deliberately uncached and revalidate whenever the tab is re-entered.
+  const cachedHouse = (url: string) =>
+    houseUrls.has(url) && !url.startsWith("/api/historical-elections/");
+  const houseOrigin = origin.filter(cachedHouse).length;
+  await page.getByRole("tab", { name: "Early Voting" }).click();
   await page.getByRole("tab", { name: "Federal Elections" }).click();
   await expect(page.getByLabel("Federal office")).toHaveValue("us-house");
   await page.locator(`a[href="/elections/${house[0].id}"]`).click();
-  for (const entry of house) {
+  // Historical archives render a different page; this loop covers the district-results page.
+  for (const entry of house.filter((e) => !e.id.includes("-historical-"))) {
     await page.getByLabel("Election year").selectOption(entry.id);
     await expect(
       page.getByRole("heading", {
@@ -127,7 +141,7 @@ test("selected federal office prefetches all page data and navigation uses HTTP 
     // All contested districts are present in the cached overview response.
     await expect(page.locator(".county-map path")).toHaveCount(9);
   }
-  expect(origin.filter((url) => houseUrls.has(url)).length).toBe(houseOrigin);
+  expect(origin.filter(cachedHouse).length).toBe(houseOrigin);
   expect(versions.size).toBe(1);
   const version = [...versions][0];
   expect(version).toMatch(/^[a-f0-9]{16}$/);

@@ -1,5 +1,5 @@
-import { test, expect } from "@playwright/test";
-import { selectOffice } from "./helpers";
+import { expect } from "@playwright/test";
+import { selectOffice, catalogCount, test } from "./helpers";
 
 test("theme switching preserves historical selection, sorting, disclosure and cached data", async ({
   page,
@@ -11,7 +11,7 @@ test("theme switching preserves historical selection, sorting, disclosure and ca
   await page.goto("/elections/az-2022-governor");
   await expect(page.locator("html")).toHaveAttribute("data-theme", "dark");
   await expect(page.getByLabel("Election year").locator("option")).toHaveCount(
-    3,
+    await catalogCount(page, "governor"),
   );
   const table = page.getByRole("region", { name: "County results table" });
   const details = page.getByRole("region", { name: "Selected county details" });
@@ -82,6 +82,7 @@ test("changing themes does not reconnect or refetch the embedded participation d
     if (r.url().includes("/az-2026-early-voting/activity")) activityRequests++;
   });
   await page.goto("/");
+  await page.getByRole("tab", { name: "Early Voting" }).click();
   await page
     .getByRole("button", {
       name: /^Pima County\. View early-voting activity\./,

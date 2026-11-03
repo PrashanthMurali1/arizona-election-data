@@ -42,9 +42,11 @@ export function Availability({
 export function CandidateRow({
   candidate,
   compact = false,
+  awaiting = false,
 }: {
   candidate: Candidate;
   compact?: boolean;
+  awaiting?: boolean;
 }) {
   return (
     <div className={`candidate-row ${compact ? "compact" : ""}`}>
@@ -63,12 +65,18 @@ export function CandidateRow({
           </small>
         </div>
         <div className="vote-value">
-          <strong>{percent(candidate.percent)}</strong>
+          <strong>
+            {awaiting
+              ? "Pending"
+              : percent(candidate.votes == null ? null : candidate.percent)}
+          </strong>
           <small>{number(candidate.votes)} votes</small>
         </div>
       </div>
-      {candidate.percent == null ? (
-        <small className="unavailable-share">Share unavailable</small>
+      {awaiting || candidate.votes == null || candidate.percent == null ? (
+        <small className="unavailable-share">
+          {awaiting ? "Awaiting results" : "Share unavailable"}
+        </small>
       ) : (
         <div className="vote-track" aria-hidden="true">
           <div
@@ -81,6 +89,7 @@ export function CandidateRow({
   );
 }
 export function CandidateSummary({ results }: { results: Results }) {
+  const awaiting = results.status === "unofficial" && results.total_votes === 0;
   return (
     <div className="candidate-summary">
       {results.partial && (
@@ -90,13 +99,75 @@ export function CandidateSummary({ results }: { results: Results }) {
         </p>
       )}
       {results.candidates.length ? (
-        results.candidates.map((c) => <CandidateRow key={c.id} candidate={c} />)
+        results.candidates.map((c) => (
+          <CandidateRow key={c.id} candidate={c} awaiting={awaiting} />
+        ))
       ) : (
         <p className="empty">
           Candidate results have not been verified for this election.
         </p>
       )}
     </div>
+  );
+}
+export function GeographyResults({
+  results,
+  title,
+  onClose,
+  unitKind = "county",
+  contestNote,
+}: {
+  results: Results;
+  title: string;
+  onClose: () => void;
+  unitKind?: "county" | "district";
+  contestNote: React.ReactNode;
+}) {
+  const turnout = results.turnout;
+  const cast =
+    turnout.basis === "contest_votes"
+      ? turnout.votes_cast
+      : turnout.ballots_cast;
+  const hasTurnout =
+    turnout.percent != null &&
+    Number.isFinite(turnout.percent) &&
+    turnout.percent >= 0 &&
+    turnout.percent <= 100 &&
+    cast != null &&
+    Number.isFinite(cast) &&
+    cast >= 0 &&
+    turnout.registered_voters != null &&
+    Number.isFinite(turnout.registered_voters) &&
+    turnout.registered_voters > 0;
+  return (
+    <>
+      <div className="panel-heading">
+        <h2>{title}</h2>
+        <button
+          className="close-button"
+          onClick={onClose}
+          aria-label={`Close ${unitKind} details`}
+        >
+          <Icon name="close" />
+        </button>
+      </div>
+      <div className={`detail-grid${hasTurnout ? "" : " without-turnout"}`}>
+        <div>
+          <h3>All candidate results</h3>
+          <CandidateSummary results={results} />
+          {!hasTurnout && (
+            <p className="footnote contest-note">{contestNote}</p>
+          )}
+        </div>
+        {hasTurnout && (
+          <div className="turnout-panel">
+            <h3>Beyond the contest</h3>
+            <TurnoutMetrics turnout={turnout} />
+            <p className="footnote">{contestNote}</p>
+          </div>
+        )}
+      </div>
+    </>
   );
 }
 export function TurnoutMetrics({ turnout }: { turnout: Turnout }) {
@@ -256,18 +327,29 @@ export function CandidateOverview({
               </dt>
               <dd>{number(results.total_votes)}</dd>
             </div>
-            <div>
-              <dt>
-                {results.turnout.basis === "contest_votes"
-                  ? "Turnout (% registered)"
-                  : unitKind === "district"
-                    ? "Official district turnout"
-                    : "Official statewide turnout"}
-              </dt>
-              <dd>{percent(results.turnout.percent)}</dd>
-            </div>
+            {results.percent_reporting !== undefined ? (
+              <div>
+                <dt>% Reporting</dt>
+                <dd>{percent(results.percent_reporting)}</dd>
+              </div>
+            ) : (
+              <div>
+                <dt>
+                  {results.turnout.basis === "contest_votes"
+                    ? "Turnout (% registered)"
+                    : unitKind === "district"
+                      ? "Official district turnout"
+                      : "Official statewide turnout"}
+                </dt>
+                <dd>{percent(results.turnout.percent)}</dd>
+              </div>
+            )}
           </dl>
-          <Link to="/methodology">Votes and turnout explained</Link>
+          <Link to="/methodology">
+            {results.percent_reporting !== undefined
+              ? "About these results"
+              : "Votes and turnout explained"}
+          </Link>
         </aside>
       </div>
       {remaining.length > 0 ? (

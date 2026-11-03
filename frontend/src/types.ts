@@ -73,6 +73,8 @@ export interface Turnout {
 }
 export interface Results {
   partial?: boolean;
+  // Share of precincts reported (0-100). Present only for live 2026 midterm results.
+  percent_reporting?: number | null;
   geoid: string;
   name: string;
   status: string;
@@ -188,4 +190,43 @@ export interface Activity {
   reported_leaders: Record<string, Candidate>;
   refresh_mode: string;
   statewide_policy: string;
+}
+
+export interface MidtermCandidate {
+  name: string;
+  party: string | null;
+  color: string | null;
+  votes: number | null;
+  percent: number | null;
+  winner: boolean;
+  seats: number | null;
+}
+export interface MidtermRace {
+  id: number;
+  name: string;
+  district: number | null;
+  percent_reporting: number | null;
+  total_votes: number;
+  called: boolean;
+  source_url: string;
+  seats: number | null;
+  candidates: MidtermCandidate[];
+  counties: MidtermCounty[];
+}
+export interface MidtermCounty {
+  fips: string;
+  name: string;
+  percent_reporting: number | null;
+  total_votes: number;
+  candidates: MidtermCandidate[];
+}
+export interface MidtermResults {
+  election_date: string;
+  source_url: string;
+  retrieved_at: string;
+  stale: boolean;
+  refresh_error: string | null;
+  // Snapshot identity announced by /api/midterm-2026/updates.
+  revision: string;
+  offices: Record<string, MidtermRace[]>;
 }

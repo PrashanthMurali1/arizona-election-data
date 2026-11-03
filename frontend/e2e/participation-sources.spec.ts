@@ -1,4 +1,5 @@
-import { test, expect } from "@playwright/test";
+import { expect } from "@playwright/test";
+import { test } from "./helpers";
 import type { Activity } from "../src/types";
 import { reportTime } from "../src/activity";
 
@@ -7,6 +8,7 @@ for (const theme of ["dark", "light"]) {
     page,
   }) => {
     await page.goto("/");
+    await page.getByRole("tab", { name: "Early Voting" }).click();
     await page
       .getByRole("button", {
         name: `${theme === "dark" ? "Dark" : "Light"} theme`,

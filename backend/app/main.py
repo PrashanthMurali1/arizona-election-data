@@ -4,6 +4,8 @@ from typing import Annotated
 from contextlib import asynccontextmanager
 import logging
 import time
+
+import requests
 from fastapi import FastAPI, Depends, HTTPException, Request
 from fastapi.responses import Response, StreamingResponse, FileResponse
 from xml.sax.saxutils import escape
@@ -36,8 +38,8 @@ from .schemas import (
     HistoricalOverviewOut,
 )
 from .http_cache import BrowserCacheRoute
-from . import house, historical, presidential
-from . import early_vote_updates
+from . import house, historical, midterm, presidential
+from . import early_vote_updates, midterm_updates
 from .lifecycle import activity, CONTEST, AG_CONTEST
 from .services import metadata, results
 from .observability import RequestLogging, emit
@@ -120,6 +122,41 @@ def elections(s: DB):
             .order_by(Contest.id.desc())
         )
     ] + house.catalog(s) + historical.catalog(s)
+
+
+@app.get("/api/midterm-2026/updates", include_in_schema=False)
+async def midterm_updates_stream(request: Request):
+    return StreamingResponse(
+        midterm_updates.events(request),
+        media_type="text/event-stream",
+        headers={"Cache-Control": "no-cache, no-transform", "X-Accel-Buffering": "no"},
+    )
+
+
+@app.get("/api/midterm-2026/geography/{chamber}", include_in_schema=False)
+def midterm_geography(chamber: str):
+    """Legislative district boundaries (GeoJSON) for the State Senate or State House map."""
+    if chamber not in midterm.CHAMBERS:
+        raise HTTPException(404, "Unknown chamber")
+    try:
+        return midterm.chamber_geography(chamber)
+    except (requests.RequestException, ValueError, KeyError, TypeError) as exc:
+        emit(logging.ERROR, "midterm_geography_failed", exc=exc, outcome="failed")
+        raise HTTPException(503, "District boundaries are temporarily unavailable")
+
+
+@app.get("/api/midterm-2026", response_model=midterm.MidtermOut)
+def midterm_results(response: Response):
+    """Unofficial civicAPI results for every 2026 Arizona midterm race (snapshot, or shared live fallback)."""
+    try:
+        value = midterm.cache.get()
+        if value.stale or value.revision == "live":
+            # No update notification covers these, so browsers must not hold them for two hours.
+            response.headers["X-Cache-Policy"] = "private, no-cache, no-transform"
+        return value
+    except (requests.RequestException, ValueError, KeyError, TypeError) as exc:
+        emit(logging.ERROR, "midterm_feed_failed", exc=exc, outcome="failed")
+        raise HTTPException(503, "Live midterm results are temporarily unavailable")
 
 
 @app.get('/api/historical-elections/{id}', response_model=HistoricalOverviewOut)

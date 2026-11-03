@@ -4,11 +4,13 @@ import type { Election } from "../types";
 import { useResource } from "../api";
 import { Availability, ErrorState, Loading } from "../components";
 import LiveElection from "./LiveElection";
+import MidtermResults from "./MidtermResults";
 import { prefetchElections } from "../electionPrefetch";
 import Icon from "../Icon";
 
 const catalogTabs = [
-  { id: "live", label: "Live Elections", offices: ["early-voting"] },
+  { id: "midterm", label: "2026 Midterm Results", offices: [] },
+  { id: "early-voting", label: "Early Voting", offices: ["early-voting"] },
   {
     id: "federal",
     label: "Federal Elections",
@@ -38,7 +40,7 @@ export default function Home() {
   );
   const [selectedTab, setSelectedTab] = useState<
     (typeof catalogTabs)[number]["id"]
-  >(requestedTab ?? "live");
+  >(requestedTab ?? "midterm");
   const [federalOffice, setFederalOffice] = useState(
     requestedTab === "federal" ? requestedOffice : "us-senate",
   );
@@ -180,7 +182,9 @@ export default function Home() {
                   tabIndex={0}
                 >
                   {selectedTab === tab.id &&
-                    (tab.id === "live" ? (
+                    (tab.id === "midterm" ? (
+                      <MidtermResults />
+                    ) : tab.id === "early-voting" ? (
                       categoryElections.length ? (
                         <LiveElection election={categoryElections[0]} />
                       ) : (
@@ -370,7 +374,7 @@ export default function Home() {
                 </div>
               ))}
             </section>
-            {selectedTab !== "live" && (
+            {selectedTab !== "midterm" && selectedTab !== "early-voting" && (
               <aside className="provenance-banner provenance">
                 <p>
                   <strong>Sources are clear for every election.</strong>

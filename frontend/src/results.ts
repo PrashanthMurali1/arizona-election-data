@@ -24,6 +24,7 @@ export type SortKey =
   | "winner"
   | "total_votes"
   | "turnout"
+  | "reporting"
   | `party:${string}`;
 export function tableParties(rows: Results[]): string[] {
   const totals = new Map<string, number>();
@@ -43,11 +44,13 @@ export function sortCounties(
   rows: Results[],
   key: SortKey,
   direction: "asc" | "desc",
+  numeric = false,
 ): Results[] {
   function value(r: Results): number | string | null {
     if (key.startsWith("party:")) return partyShare(r, key.slice(6));
     if (key === "DEM" || key === "REP") return partyShare(r, key);
     if (key === "turnout") return r.turnout.percent;
+    if (key === "reporting") return r.percent_reporting ?? null;
     if (key === "winner") return r.winner?.name ?? null;
     return r[key as "name" | "total_votes"];
   }
@@ -58,7 +61,7 @@ export function sortCounties(
     if (y == null) return -1;
     const comparison =
       typeof x === "string" && typeof y === "string"
-        ? x.localeCompare(y)
+        ? x.localeCompare(y, undefined, { numeric })
         : Number(x) - Number(y);
     return (
       comparison * (direction === "asc" ? 1 : -1) ||

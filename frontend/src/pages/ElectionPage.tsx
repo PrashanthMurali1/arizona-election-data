@@ -7,11 +7,11 @@ import SnapshotNotice from "../SnapshotNotice";
 import { get, useResource } from "../api";
 import {
   Availability,
-  CandidateSummary,
+  GeographyResults,
+  TurnoutMetrics,
   CandidateOverview,
   ErrorState,
   Loading,
-  TurnoutMetrics,
   NotFound,
 } from "../components";
 import { number } from "../results";
@@ -263,40 +263,23 @@ function StatewideElectionPage({
         aria-label="Selected county details"
       >
         {county ? (
-          <>
-            <div className="panel-heading">
-              <div>
-                <h2>{county.name} County</h2>
-              </div>
-              <button
-                className="close-button"
-                onClick={() => setSelected(null)}
-                aria-label="Close county details"
-              >
-                <Icon name="close" />
-              </button>
-            </div>
-            <div className="detail-grid">
-              <div>
-                <h3>All candidate results</h3>
-                <CandidateSummary results={county} />
-              </div>
-              <div className="turnout-panel">
-                <h3>Beyond the contest</h3>
-                <TurnoutMetrics turnout={county.turnout} />
-                <p className="footnote">
-                  {number(county.total_votes)}{" "}
-                  {county.status === "reported"
-                    ? "reported"
-                    : county.status === "secondary"
-                      ? "secondary-source"
-                      : "verified"}{" "}
-                  votes in the {election.office.toLowerCase()} contest. This
-                  differs from total ballots cast.
-                </p>
-              </div>
-            </div>
-          </>
+          <GeographyResults
+            results={county}
+            title={`${county.name} County`}
+            onClose={() => setSelected(null)}
+            contestNote={
+              <>
+                {number(county.total_votes)}{" "}
+                {county.status === "reported"
+                  ? "reported"
+                  : county.status === "secondary"
+                    ? "secondary-source"
+                    : "verified"}{" "}
+                votes in the {election.office.toLowerCase()} contest. This
+                differs from total ballots cast.
+              </>
+            }
+          />
         ) : (
           <div className="select-prompt">
             <Icon name="location" />

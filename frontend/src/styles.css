@@ -917,6 +917,37 @@ table {
 .early-table {
   min-width: 730px;
 }
+/* Live midterm tables: five short columns that fit the panel without scrolling. Fixed
+   proportional widths keep every right-aligned value evenly spaced, with no stray gaps. */
+.results-table.live {
+  table-layout: fixed;
+  min-width: 520px;
+}
+.results-table.live th,
+.results-table.live td {
+  padding-left: 8px;
+  padding-right: 8px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.results-table.live th:first-child {
+  padding-left: 20px;
+}
+.results-table.live th:nth-child(1) {
+  width: 23%;
+}
+.results-table.live th:nth-child(2) {
+  width: 16%;
+}
+.results-table.live th:nth-child(3) {
+  width: 16%;
+}
+.results-table.live th:nth-child(4) {
+  width: 24%;
+}
+.results-table.live th:nth-child(5) {
+  width: 21%;
+}
 th,
 td {
   border-bottom: 1px solid var(--line);
@@ -2181,6 +2212,25 @@ select {
   gap: 44px;
   padding: 0 28px 28px;
 }
+.detail-grid.without-turnout {
+  grid-template-columns: minmax(0, 1fr);
+}
+.detail-grid > *,
+.candidate-info > * {
+  min-width: 0;
+}
+.detail-grid .contest-note {
+  margin-top: 14px;
+}
+.county-detail .close-button {
+  flex-shrink: 0;
+}
+@media (max-width: 900px) {
+  .detail-grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 24px;
+  }
+}
 .detail-grid h3 {
   margin: 14px 0;
 }
@@ -2659,6 +2709,7 @@ tr.active th button {
     grid-column: 2;
     display: flex;
     gap: 10px;
+    flex-wrap: wrap;
     align-items: baseline;
     text-align: left;
   }
@@ -3468,4 +3519,21 @@ body::before {
     box-shadow: none;
     background: #fff;
   }
+}
+
+.midterm-source {
+  margin: 0 0 20px;
+  font-size: 13px;
+}
+.midterm-seats {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 12px;
+}
+.midterm-seats li {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
 }

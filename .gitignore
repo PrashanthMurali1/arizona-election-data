@@ -50,3 +50,6 @@ test-results/
 /.production/
 /.production-cache/
 /tmp/
+
+# Scheduled midterm refresh output (snapshot, boundaries, retained raw responses)
+/data/raw/2026/midterm/

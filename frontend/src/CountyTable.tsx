@@ -23,9 +23,17 @@ export default function CountyTable({
   provisional?: boolean;
   unitKind?: "county" | "district";
 }) {
-  const [key, setKey] = useState<SortKey>("total_votes");
-  const [direction, setDirection] = useState<"asc" | "desc">("desc");
-  const parties = tableParties(counties);
+  // Live midterm tables have no contest-votes column: start in name (district-number) order.
+  const live = counties.some((c) => c.percent_reporting !== undefined);
+  const [key, setKey] = useState<SortKey>(live ? "name" : "total_votes");
+  const [direction, setDirection] = useState<"asc" | "desc">(
+    live ? "asc" : "desc",
+  );
+  // Live midterm results: always Dem % and Rep %, no contest-votes column, and reporting %
+  // in place of turnout
+  // (civicAPI supplies no turnout); the reporting column appears only if any row has it.
+  const showReporting = counties.some((c) => c.percent_reporting != null);
+  const parties = live ? ["DEM", "REP"] : tableParties(counties);
   const columns: { key: SortKey; label: string }[] = [
     { key: "name", label: "County" },
     ...parties.map((p) => ({
@@ -33,15 +41,18 @@ export default function CountyTable({
       label: `${p[0]}${p.slice(1).toLowerCase()} %`,
     })),
     { key: "winner", label: "Winner" },
-    { key: "total_votes", label: "Contest votes" },
-    {
-      key: "turnout",
-      label: "Turnout",
-    },
+    ...(live
+      ? []
+      : [{ key: "total_votes" as SortKey, label: "Contest votes" }]),
+    ...(live
+      ? showReporting
+        ? [{ key: "reporting" as SortKey, label: "Reporting %" }]
+        : []
+      : [{ key: "turnout" as SortKey, label: "Turnout" }]),
   ];
   const rows = useMemo(
-    () => sortCounties(counties, key, direction),
-    [counties, key, direction],
+    () => sortCounties(counties, key, direction, live),
+    [counties, key, direction, live],
   );
   function sort(k: SortKey) {
     if (k === key) setDirection((d) => (d === "desc" ? "asc" : "desc"));
@@ -61,7 +72,7 @@ export default function CountyTable({
         aria-label="Scrollable election results"
         tabIndex={0}
       >
-        <table className="results-table">
+        <table className={`results-table${live ? " live" : ""}`}>
           <caption className="sr-only">
             {unitKind === "district"
               ? "District election results. Select a column heading to sort and a district name to view full results."
@@ -120,7 +131,15 @@ export default function CountyTable({
                 </th>
                 {parties.map((p) => (
                   <td key={p} className={`${partyClass(p)}-text`}>
-                    {percent(partyShare(r, p))}
+                    {percent(
+                      partyShare(r, p) ??
+                        // Live race with no votes yet: 0.00%, matching the candidate card.
+                        (live &&
+                        !r.total_votes &&
+                        r.candidates.some((c) => c.party === p)
+                          ? 0
+                          : null),
+                    )}
                   </td>
                 ))}
                 <td>
@@ -130,10 +149,14 @@ export default function CountyTable({
                     {r.winner?.name.replace(/ \(Write-In\)/, "") ?? "N/A"}
                   </span>
                 </td>
-                <td>{number(r.total_votes)}</td>
-                <td title={r.turnout.definition}>
-                  {percent(r.turnout.percent)}
-                </td>
+                {!live && <td>{number(r.total_votes)}</td>}
+                {live ? (
+                  showReporting && <td>{percent(r.percent_reporting)}</td>
+                ) : (
+                  <td title={r.turnout.definition}>
+                    {percent(r.turnout.percent)}
+                  </td>
+                )}
               </tr>
             ))}
           </tbody>
