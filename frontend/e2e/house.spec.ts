@@ -1,4 +1,4 @@
-import { selectOffice, expectCandidateCount } from "./helpers";
+import { selectOffice, expectCandidateCount, catalogCount } from "./helpers";
 import { test, expect } from "@playwright/test";
 
 test("House archive uses each district's candidates and historical geometry", async ({
@@ -12,10 +12,11 @@ test("House archive uses each district's candidates and historical geometry", as
   const office = page
     .locator(".office-section")
     .filter({ hasText: "Arizona U.S. House" });
-  await expect(office.locator(".election-card")).toHaveCount(8);
+  const archiveCount = await catalogCount(page, "us-house");
+  await expect(office.locator(".election-card")).toHaveCount(archiveCount);
   await office.locator('a[href="/elections/az-2024-us-house"]').click();
   const picker = page.getByLabel("Election year");
-  await expect(picker.locator("option")).toHaveCount(8);
+  await expect(picker.locator("option")).toHaveCount(archiveCount);
   const table = page.getByRole("region", { name: "District results table" });
   const details = page.getByRole("region", {
     name: "Selected district details",
