@@ -200,7 +200,7 @@ export default function Home() {
                               ? [
                                   ["us-senate", "U.S. Senate"],
                                   ["us-house", "U.S. House"],
-                                  ["president", "Presidential elections"],
+                                  ["president", "Presidential"],
                                 ]
                               : [
                                   ["governor", "Governor"],
@@ -255,7 +255,7 @@ export default function Home() {
                                 ? [
                                     ["us-senate", "U.S. Senate"],
                                     ["us-house", "U.S. House"],
-                                    ["president", "Presidential elections"],
+                                    ["president", "Presidential"],
                                   ]
                                 : [
                                     ["governor", "Governor"],
