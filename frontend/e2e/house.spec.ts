@@ -161,7 +161,11 @@ test("special elections display civicAPI reports and distinguish not contested d
         exact: true,
       }),
     ).toBeVisible();
-    await expect(details).toContainText("N/A");
+    await expect(details.locator(".turnout-panel")).toHaveCount(0);
+    await expect(details).not.toContainText("N/A");
+    await expect(details).toContainText(
+      /reported votes in this district.s U\.S\. House contest/,
+    );
     await page.setViewportSize({ width: 390, height: 844 });
     expect(
       await page.evaluate(() => document.documentElement.scrollWidth),
