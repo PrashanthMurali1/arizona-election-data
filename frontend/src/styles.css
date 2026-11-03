@@ -1510,7 +1510,9 @@ tr:hover th {
 }
 @media (max-width: 560px) {
   .header-inner {
-    padding: 16px 20px 0;
+    padding: max(16px, env(safe-area-inset-top))
+      max(20px, env(safe-area-inset-right)) 0
+      max(20px, env(safe-area-inset-left));
     gap: 12px;
   }
   .brand {
@@ -1529,7 +1531,7 @@ tr:hover th {
     gap: 2px;
   }
   .theme-choice button {
-    min-height: 38px;
+    min-height: 44px;
     padding: 8px;
     gap: 4px;
     font-size: 12px;
@@ -1550,7 +1552,8 @@ tr:hover th {
     text-underline-offset: 10px;
   }
   main {
-    padding: 26px 20px 40px;
+    padding: 26px max(20px, env(safe-area-inset-right)) 40px
+      max(20px, env(safe-area-inset-left));
   }
   h1 {
     font-size: 32px;
@@ -1618,8 +1621,10 @@ tr:hover th {
     width: 100%;
   }
   .archive-heading {
-    gap: 16px;
+    flex-direction: column;
+    gap: 8px;
     align-items: start;
+    padding-bottom: 16px;
   }
   .archive-heading h2 {
     font-size: 27px;
@@ -1645,7 +1650,7 @@ tr:hover th {
     line-height: 1.5;
   }
   .archive-heading .small {
-    font-size: 12px;
+    font-size: 13px;
   }
   .provenance {
     display: block;
@@ -1662,40 +1667,49 @@ tr:hover th {
     margin: 22px 0 26px;
   }
   .summary-heading {
+    flex-direction: column;
     align-items: start;
-    margin-bottom: 20px;
+    gap: 4px;
+    margin-bottom: 16px;
+  }
+  .summary-heading > a {
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+    white-space: nowrap;
   }
   .summary-heading h2 {
     font-size: 18px;
   }
   .lead-grid {
-    gap: 22px;
+    gap: 16px;
   }
   .lead-candidates {
-    grid-template-columns: 1fr;
-    gap: 24px;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 16px;
   }
   .lead-candidate + .lead-candidate {
-    padding-top: 20px;
+    padding-top: 16px;
     border-top: 1px solid var(--line);
   }
   .candidate-label strong {
     font-size: 18px;
   }
   .candidate-label {
-    margin-bottom: 10px;
+    margin-bottom: 8px;
   }
   .lead-value {
-    margin: 4px 0 12px;
+    margin: 4px 0 10px;
   }
   .lead-value strong {
-    font-size: 39px;
+    font-size: 32px;
   }
   .summary-stats {
     display: block;
-    padding-top: 20px;
+    padding-top: 16px;
   }
   .summary-stats dl {
+    flex-wrap: wrap;
     justify-content: space-between;
     gap: 18px;
   }
@@ -1896,7 +1910,9 @@ tr:hover th {
   }
   .footer {
     display: block;
-    margin: 0 20px;
+    margin: 0 max(20px, env(safe-area-inset-right)) 0
+      max(20px, env(safe-area-inset-left));
+    padding-bottom: max(32px, env(safe-area-inset-bottom));
   }
   .footer a {
     display: inline-block;
@@ -1918,7 +1934,7 @@ tr:hover th {
   }
   .theme-choice button {
     flex: 1;
-    min-height: 40px;
+    min-height: 44px;
   }
   .brand small {
     font-size: 11px;
@@ -2003,6 +2019,47 @@ select {
 .categories [role="tab"]:hover {
   color: var(--ink);
   background: transparent;
+}
+/* Keep mobile tabs on one scrollable line; a tab border cannot detach from its label. */
+@media (max-width: 900px) {
+  body {
+    min-height: 100svh;
+  }
+  .catalog-tabs {
+    flex-wrap: nowrap;
+    gap: 24px;
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+    scrollbar-color: var(--control-line) var(--surface-raised);
+  }
+  .catalog-tabs [role="tab"] {
+    flex: 0 0 auto;
+    min-height: 48px;
+    padding: 8px 0;
+    white-space: nowrap;
+    border-bottom: 3px solid transparent;
+    font-size: 14px;
+  }
+  .catalog-tabs [aria-selected="true"] {
+    text-decoration: none;
+    border-bottom-color: var(--selection-edge);
+  }
+  .catalog-tabs [role="tab"]:focus-visible {
+    outline-offset: -3px;
+  }
+  /* Wide tables keep complete labels and numbers inside their existing scroll region. */
+  .results-table.live {
+    table-layout: auto;
+    min-width: 730px;
+  }
+  .results-table.live th,
+  .results-table.live td {
+    overflow: visible;
+    text-overflow: clip;
+  }
+  .results-table.live th:nth-child(n) {
+    width: auto;
+  }
 }
 .catalog [role="tabpanel"]:focus-visible {
   outline: 3px solid var(--focus);
@@ -2647,16 +2704,6 @@ tr.active th button {
   font-weight: 700;
 }
 @media (max-width: 560px) {
-  .categories {
-    gap: 18px;
-  }
-  .categories [role="tab"] {
-    font-size: 12px;
-    min-height: 48px;
-  }
-  .categories [aria-selected="true"] {
-    text-underline-offset: 15px;
-  }
   .year-picker {
     margin-top: 20px;
     min-width: 0;
@@ -2679,6 +2726,12 @@ tr.active th button {
   }
   .county-detail .panel-heading {
     padding: 20px 20px 12px;
+  }
+  .panel-heading > h2,
+  .panel-heading > h3,
+  .candidate-label > div {
+    min-width: 0;
+    overflow-wrap: anywhere;
   }
   .county-detail .panel-heading h2,
   .county-detail .panel-heading h4 {
@@ -2774,14 +2827,6 @@ tr.active th button {
   }
   .statewide-participation .vote-track {
     margin-left: 0;
-  }
-}
-@media (max-width: 350px) {
-  .categories {
-    gap: 12px;
-  }
-  .categories [role="tab"] {
-    font-size: 11px;
   }
 }
 
