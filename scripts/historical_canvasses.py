@@ -46,6 +46,20 @@ def county_units(year):
     return {g for g, _ in COUNTIES if (year >= 1983 or g != '04012') and (year >= 1910 or g != '04011')}
 
 
+def derive_registration_total(document):
+    turnout = document.get('turnout', {})
+    state = turnout.get('04', {})
+    units = county_units(document['year'])
+    if state.get('registered_voters') is not None or not all(turnout.get(g, {}).get('registered_voters') is not None for g in units):
+        return document
+    total = sum(turnout[g]['registered_voters'] for g in units)
+    derived = dict(state, registered_voters=total, registered_voters_basis='sum_of_counties',
+        definition=f'Statewide registration calculated from all {len(units)} county registration totals: {total:,}.')
+    if document.get('registration_reference'):
+        derived['reference'] = 'registration_history'
+    return dict(document, turnout=dict(turnout, **{'04':derived}))
+
+
 def party_id(label, year):
     # Abbreviations change meaning across eras; early NP remains as printed.
     if year < 1966 and label in {'NP', 'L', 'SW'}:
@@ -209,7 +223,7 @@ def ensure_county_geography(session, year):
 
 
 def import_documents(documents, session_factory=SessionLocal, source_root=ROOT):
-    documents = [validate_document(d, source_root) for d in documents]
+    documents = [validate_document(derive_registration_total(d), source_root) for d in documents]
     reports = []
     with session_factory.begin() as session:
         for doc in documents:
@@ -224,6 +238,10 @@ def import_documents(documents, session_factory=SessionLocal, source_root=ROOT):
                     url=url, sha256=info['sha256'],
                     notes=info.get('notes') or 'Official returns supplied by the project maintainer. Candidate totals visually transcribed from the cited pages. County coverage varies by contest; missing figures remain unavailable.'))
             source_id = document_source_id(doc)
+            registration_source_id = f"historical-registration-{year}"
+            if doc.get('registration_reference'):
+                reference = doc['registration_reference']
+                session.merge(Source(id=registration_source_id,title=reference['title'],url=reference['url'],sha256='',notes=reference['notes']))
             prior_event = session.get(ElectionEvent, event_id)
             if prior_event and (prior_event.date != doc['date'] or prior_event.kind != kind):
                 raise ValueError('Conflicting election date or kind')
@@ -246,7 +264,7 @@ def import_documents(documents, session_factory=SessionLocal, source_root=ROOT):
                 for key in ['ballots_cast','registered_voters','percent']:
                     setattr(turnout,key,value.get(key))
                 turnout.definition = value.get('definition','Official election-wide turnout as printed.') + (f" Source PDF page {value['page']}." if value.get('page') else '')
-                turnout.source_id = document_source_id(doc,value.get('source_path'))
+                turnout.source_id = registration_source_id if value.get('reference') == 'registration_history' else document_source_id(doc,value.get('source_path'))
             for contest in doc['contests']:
                 office = contest['office_id']
                 source_path = contest.get('source_path', doc['source_path'])
@@ -254,7 +272,7 @@ def import_documents(documents, session_factory=SessionLocal, source_root=ROOT):
                 cid = contest_id(year, contest, kind)
                 report = reconcile_contest(contest, year)
                 report.update(contest=cid, source_id=source_id, source_sha256=document_sources(doc)[source_path]['sha256'],
-                    supplemental_source_ids=[document_source_id(doc, p) for p in document_sources(doc) if p != source_path])
+                    supplemental_source_ids=[document_source_id(doc, p) for p in document_sources(doc) if p != source_path] + ([registration_source_id] if doc.get('registration_reference') else []))
                 existing = session.get(Contest, cid)
                 if existing and existing.source_id != source_id:
                     old_rows = session.execute(select(Candidate.name, Participation.party_id, Participation.write_in, VoteResult.votes)
@@ -337,7 +355,7 @@ def import_documents(documents, session_factory=SessionLocal, source_root=ROOT):
 
 def import_all(year=None, office=None):
     paths = document_paths()
-    docs = [json.loads(p.read_text(encoding='utf-8')) for p in paths]
+    docs = [derive_registration_total(json.loads(p.read_text(encoding='utf-8'))) for p in paths]
     docs = [d for d in docs if d.get('record_type') != 'inventory' and d.get('contests') and (year is None or d['year'] == year)]
     if office:
         docs = [dict(d, contests=[c for c in d['contests'] if c['office_id'] == office]) for d in docs]

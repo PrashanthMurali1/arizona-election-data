@@ -106,7 +106,7 @@ export function TurnoutMetrics({ turnout }: { turnout: Turnout }) {
         <div>
           <small>
             {turnout.basis === "contest_votes"
-              ? "Calculated race participation"
+              ? "Race participation (% registered)"
               : turnout.basis === "calculated_ballots"
                 ? "Calculated turnout"
                 : "Official turnout"}
@@ -259,7 +259,7 @@ export function CandidateOverview({
             <div>
               <dt>
                 {results.turnout.basis === "contest_votes"
-                  ? "Calculated race participation"
+                  ? "Race participation (% registered)"
                   : unitKind === "district"
                     ? "Official district turnout"
                     : "Official statewide turnout"}

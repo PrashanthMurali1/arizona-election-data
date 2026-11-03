@@ -217,6 +217,32 @@ def test_registration_and_race_votes_produce_calculated_participation():
     assert turnout_with_participation(TurnoutOut(registered_voters=100),None).percent is None
 
 
+def test_statewide_registration_is_derived_only_from_complete_county_totals():
+    from scripts.historical_canvasses import derive_registration_total,county_units
+    doc = dict(year=1928,turnout={g:{'registered_voters':10} for g in county_units(1928)})
+    assert derive_registration_total(doc)['turnout']['04']['registered_voters']==140
+    doc['turnout']['04027']['registered_voters']=None
+    assert '04' not in derive_registration_total(doc)['turnout']
+
+
+def test_1928_registration_and_presidential_denominator_use_official_counties():
+    import json
+    from backend.app import presidential
+    from backend.app.models import Source
+    doc = json.loads((ROOT/'data/raw/early-canvasses/1928.json').read_text(encoding='utf-8'))
+    assert doc['turnout']['04']['registered_voters']==sum(v['registered_voters'] for g,v in doc['turnout'].items() if g!='04')==119728
+    assert doc['turnout']['04027']['registered_voters']==5294
+    engine=create_engine('sqlite://');Base.metadata.create_all(engine);factory=sessionmaker(engine)
+    import_documents([doc],factory)
+    with factory() as session:
+        turnout=presidential.detail(session,'az-1928-historical-president').statewide.turnout
+        assert round(turnout.percent,2)==76.22
+        assert turnout.registered_voters==119728
+        assert '200-person' in turnout.definition
+        assert 'azsos.gov' in session.get(Source,turnout.source_id).url
+    engine.dispose()
+
+
 def test_presidential_presentation_uses_nominees_and_one_elector_tally():
     import json
     from backend.app import presidential

@@ -16,7 +16,8 @@ def turnout_with_participation(turnout: TurnoutOut, votes: int | None):
     return turnout.model_copy(update=dict(percent=100*votes/turnout.registered_voters,
         votes_cast=votes,basis='contest_votes',
         definition=f'Calculated race participation: {votes:,} reported votes / {turnout.registered_voters:,} registered voters x 100. '
-        'Counts votes in this race; blank and invalid ballots are not included.'))
+        'Counts votes in this race; blank and invalid ballots are not included. '
+        + (turnout.definition if 'Statewide registration calculated' in turnout.definition else '')))
 
 
 def metadata(s: Session, c: Contest):

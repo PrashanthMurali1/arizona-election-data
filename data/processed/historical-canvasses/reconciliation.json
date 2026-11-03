@@ -1942,228 +1942,6 @@
     "district": "at-large",
     "candidates": [
       {
-        "candidate": "Democratic elector slate",
-        "official_total": 38537,
-        "official_statewide": 38537,
-        "county_sum": 38537,
-        "county_coverage": 14,
-        "missing_counties": [],
-        "difference": 0
-      },
-      {
-        "candidate": "Republican elector slate",
-        "official_total": 52533,
-        "official_statewide": 52533,
-        "county_sum": 52533,
-        "county_coverage": 14,
-        "missing_counties": [],
-        "difference": 0
-      },
-      {
-        "candidate": "Workers (Communist) elector slate",
-        "official_total": 184,
-        "official_statewide": 184,
-        "county_sum": 184,
-        "county_coverage": 14,
-        "missing_counties": [],
-        "difference": 0
-      }
-    ],
-    "county_count": 14,
-    "coverage": "county",
-    "multi_seat": true,
-    "result_basis": "presidential-electors",
-    "notes": "Each party slate is bracketed with one printed total, retained once without summing elector votes. Democratic (Smith): Cassie J. Pomeroy, Mrs. J. Andrew West, Bradford Duncan. Republican (Hoover): Mrs. R. L. Hoyal, J. Homer Smith, Fred S. Breen. Workers (Com.) (Foster): Frank I. Lowe, E. J. Bryan, F. N. Logan. Source page 1 has blank Workers slate cells for Apache and Yuma, recorded as zero; Navajo is explicitly printed as zero.",
-    "contest": "az-1928-historical-president-district-at-large",
-    "source_id": "historical-canvass-1928",
-    "source_sha256": "21ac989c3a21345e12ce401c0ad7b9c36fd542f52a9fa7fb036dbc79bd260597",
-    "supplemental_source_ids": []
-  },
-  {
-    "status": "verified",
-    "page": 1,
-    "district": null,
-    "candidates": [
-      {
-        "candidate": "Henry F. Ashurst",
-        "official_total": 47013,
-        "official_statewide": 47013,
-        "county_sum": 47013,
-        "county_coverage": 14,
-        "missing_counties": [],
-        "difference": 0
-      },
-      {
-        "candidate": "Ralph H. Cameron",
-        "official_total": 39651,
-        "official_statewide": 39651,
-        "county_sum": 39651,
-        "county_coverage": 14,
-        "missing_counties": [],
-        "difference": 0
-      }
-    ],
-    "county_count": 14,
-    "coverage": "county",
-    "multi_seat": false,
-    "result_basis": "candidate-votes",
-    "notes": "",
-    "contest": "az-1928-us-senate",
-    "source_id": "historical-canvass-1928",
-    "source_sha256": "21ac989c3a21345e12ce401c0ad7b9c36fd542f52a9fa7fb036dbc79bd260597",
-    "supplemental_source_ids": []
-  },
-  {
-    "status": "verified",
-    "page": 1,
-    "district": "at-large",
-    "candidates": [
-      {
-        "candidate": "L. W. Douglas",
-        "official_total": 50231,
-        "official_statewide": 50231,
-        "county_sum": 50231,
-        "county_coverage": 14,
-        "missing_counties": [],
-        "difference": 0
-      },
-      {
-        "candidate": "Guy Axline",
-        "official_total": 31382,
-        "official_statewide": 31382,
-        "county_sum": 31382,
-        "county_coverage": 14,
-        "missing_counties": [],
-        "difference": 0
-      }
-    ],
-    "county_count": 14,
-    "coverage": "county",
-    "multi_seat": false,
-    "result_basis": "candidate-votes",
-    "notes": "",
-    "contest": "az-1928-historical-us-house-district-at-large",
-    "source_id": "historical-canvass-1928",
-    "source_sha256": "21ac989c3a21345e12ce401c0ad7b9c36fd542f52a9fa7fb036dbc79bd260597",
-    "supplemental_source_ids": []
-  },
-  {
-    "status": "verified",
-    "page": 2,
-    "district": null,
-    "candidates": [
-      {
-        "candidate": "Geo. W. P. Hunt",
-        "official_total": 44553,
-        "official_statewide": 44553,
-        "county_sum": 44553,
-        "county_coverage": 14,
-        "missing_counties": [],
-        "difference": 0
-      },
-      {
-        "candidate": "John C. Phillips",
-        "official_total": 47829,
-        "official_statewide": 47829,
-        "county_sum": 47829,
-        "county_coverage": 14,
-        "missing_counties": [],
-        "difference": 0
-      },
-      {
-        "candidate": "William O'Brien",
-        "official_total": 122,
-        "official_statewide": 122,
-        "county_sum": 122,
-        "county_coverage": 14,
-        "missing_counties": [],
-        "difference": 0
-      }
-    ],
-    "county_count": 14,
-    "coverage": "county",
-    "multi_seat": false,
-    "result_basis": "candidate-votes",
-    "notes": "",
-    "contest": "az-1928-governor",
-    "source_id": "historical-canvass-1928",
-    "source_sha256": "21ac989c3a21345e12ce401c0ad7b9c36fd542f52a9fa7fb036dbc79bd260597",
-    "supplemental_source_ids": []
-  },
-  {
-    "status": "verified",
-    "page": 2,
-    "district": null,
-    "candidates": [
-      {
-        "candidate": "J. C. Callaghan",
-        "official_total": 44740,
-        "official_statewide": 44740,
-        "county_sum": 44740,
-        "county_coverage": 14,
-        "missing_counties": [],
-        "difference": 0
-      },
-      {
-        "candidate": "I. P. Frazier",
-        "official_total": 37502,
-        "official_statewide": 37502,
-        "county_sum": 37502,
-        "county_coverage": 14,
-        "missing_counties": [],
-        "difference": 0
-      }
-    ],
-    "county_count": 14,
-    "coverage": "county",
-    "multi_seat": false,
-    "result_basis": "candidate-votes",
-    "notes": "",
-    "contest": "az-1928-secretary-of-state",
-    "source_id": "historical-canvass-1928",
-    "source_sha256": "21ac989c3a21345e12ce401c0ad7b9c36fd542f52a9fa7fb036dbc79bd260597",
-    "supplemental_source_ids": []
-  },
-  {
-    "status": "verified",
-    "page": 3,
-    "district": null,
-    "candidates": [
-      {
-        "candidate": "K. Berry Peterson",
-        "official_total": 50133,
-        "official_statewide": 50133,
-        "county_sum": 50133,
-        "county_coverage": 14,
-        "missing_counties": [],
-        "difference": 0
-      },
-      {
-        "candidate": "Carl Tisor",
-        "official_total": 30554,
-        "official_statewide": 30554,
-        "county_sum": 30554,
-        "county_coverage": 14,
-        "missing_counties": [],
-        "difference": 0
-      }
-    ],
-    "county_count": 14,
-    "coverage": "county",
-    "multi_seat": false,
-    "result_basis": "candidate-votes",
-    "notes": "",
-    "contest": "az-1928-attorney-general",
-    "source_id": "historical-canvass-1928",
-    "source_sha256": "21ac989c3a21345e12ce401c0ad7b9c36fd542f52a9fa7fb036dbc79bd260597",
-    "supplemental_source_ids": []
-  },
-  {
-    "status": "verified",
-    "page": 1,
-    "district": "at-large",
-    "candidates": [
-      {
         "candidate": "Lewis W. Douglas",
         "official_total": 52342,
         "official_statewide": 52342,
@@ -79115,6 +78893,240 @@
     "source_sha256": "d6a692866d98cb4141177ea013629f74a1aab704e5716b2aae9c3fc90b90f638",
     "supplemental_source_ids": [
       "historical-canvass-1994-supplement-fb225a4e66e2"
+    ]
+  },
+  {
+    "status": "verified",
+    "page": 1,
+    "district": "at-large",
+    "candidates": [
+      {
+        "candidate": "Democratic elector slate",
+        "official_total": 38537,
+        "official_statewide": 38537,
+        "county_sum": 38537,
+        "county_coverage": 14,
+        "missing_counties": [],
+        "difference": 0
+      },
+      {
+        "candidate": "Republican elector slate",
+        "official_total": 52533,
+        "official_statewide": 52533,
+        "county_sum": 52533,
+        "county_coverage": 14,
+        "missing_counties": [],
+        "difference": 0
+      },
+      {
+        "candidate": "Workers (Communist) elector slate",
+        "official_total": 184,
+        "official_statewide": 184,
+        "county_sum": 184,
+        "county_coverage": 14,
+        "missing_counties": [],
+        "difference": 0
+      }
+    ],
+    "county_count": 14,
+    "coverage": "county",
+    "multi_seat": true,
+    "result_basis": "presidential-electors",
+    "notes": "Each party slate is bracketed with one printed total, retained once without summing elector votes. Democratic (Smith): Cassie J. Pomeroy, Mrs. J. Andrew West, Bradford Duncan. Republican (Hoover): Mrs. R. L. Hoyal, J. Homer Smith, Fred S. Breen. Workers (Com.) (Foster): Frank I. Lowe, E. J. Bryan, F. N. Logan. Source page 1 has blank Workers slate cells for Apache and Yuma, recorded as zero; Navajo is explicitly printed as zero.",
+    "contest": "az-1928-historical-president-district-at-large",
+    "source_id": "historical-canvass-1928",
+    "source_sha256": "21ac989c3a21345e12ce401c0ad7b9c36fd542f52a9fa7fb036dbc79bd260597",
+    "supplemental_source_ids": [
+      "historical-registration-1928"
+    ]
+  },
+  {
+    "status": "verified",
+    "page": 1,
+    "district": null,
+    "candidates": [
+      {
+        "candidate": "Henry F. Ashurst",
+        "official_total": 47013,
+        "official_statewide": 47013,
+        "county_sum": 47013,
+        "county_coverage": 14,
+        "missing_counties": [],
+        "difference": 0
+      },
+      {
+        "candidate": "Ralph H. Cameron",
+        "official_total": 39651,
+        "official_statewide": 39651,
+        "county_sum": 39651,
+        "county_coverage": 14,
+        "missing_counties": [],
+        "difference": 0
+      }
+    ],
+    "county_count": 14,
+    "coverage": "county",
+    "multi_seat": false,
+    "result_basis": "candidate-votes",
+    "notes": "",
+    "contest": "az-1928-us-senate",
+    "source_id": "historical-canvass-1928",
+    "source_sha256": "21ac989c3a21345e12ce401c0ad7b9c36fd542f52a9fa7fb036dbc79bd260597",
+    "supplemental_source_ids": [
+      "historical-registration-1928"
+    ]
+  },
+  {
+    "status": "verified",
+    "page": 1,
+    "district": "at-large",
+    "candidates": [
+      {
+        "candidate": "L. W. Douglas",
+        "official_total": 50231,
+        "official_statewide": 50231,
+        "county_sum": 50231,
+        "county_coverage": 14,
+        "missing_counties": [],
+        "difference": 0
+      },
+      {
+        "candidate": "Guy Axline",
+        "official_total": 31382,
+        "official_statewide": 31382,
+        "county_sum": 31382,
+        "county_coverage": 14,
+        "missing_counties": [],
+        "difference": 0
+      }
+    ],
+    "county_count": 14,
+    "coverage": "county",
+    "multi_seat": false,
+    "result_basis": "candidate-votes",
+    "notes": "",
+    "contest": "az-1928-historical-us-house-district-at-large",
+    "source_id": "historical-canvass-1928",
+    "source_sha256": "21ac989c3a21345e12ce401c0ad7b9c36fd542f52a9fa7fb036dbc79bd260597",
+    "supplemental_source_ids": [
+      "historical-registration-1928"
+    ]
+  },
+  {
+    "status": "verified",
+    "page": 2,
+    "district": null,
+    "candidates": [
+      {
+        "candidate": "Geo. W. P. Hunt",
+        "official_total": 44553,
+        "official_statewide": 44553,
+        "county_sum": 44553,
+        "county_coverage": 14,
+        "missing_counties": [],
+        "difference": 0
+      },
+      {
+        "candidate": "John C. Phillips",
+        "official_total": 47829,
+        "official_statewide": 47829,
+        "county_sum": 47829,
+        "county_coverage": 14,
+        "missing_counties": [],
+        "difference": 0
+      },
+      {
+        "candidate": "William O'Brien",
+        "official_total": 122,
+        "official_statewide": 122,
+        "county_sum": 122,
+        "county_coverage": 14,
+        "missing_counties": [],
+        "difference": 0
+      }
+    ],
+    "county_count": 14,
+    "coverage": "county",
+    "multi_seat": false,
+    "result_basis": "candidate-votes",
+    "notes": "",
+    "contest": "az-1928-governor",
+    "source_id": "historical-canvass-1928",
+    "source_sha256": "21ac989c3a21345e12ce401c0ad7b9c36fd542f52a9fa7fb036dbc79bd260597",
+    "supplemental_source_ids": [
+      "historical-registration-1928"
+    ]
+  },
+  {
+    "status": "verified",
+    "page": 2,
+    "district": null,
+    "candidates": [
+      {
+        "candidate": "J. C. Callaghan",
+        "official_total": 44740,
+        "official_statewide": 44740,
+        "county_sum": 44740,
+        "county_coverage": 14,
+        "missing_counties": [],
+        "difference": 0
+      },
+      {
+        "candidate": "I. P. Frazier",
+        "official_total": 37502,
+        "official_statewide": 37502,
+        "county_sum": 37502,
+        "county_coverage": 14,
+        "missing_counties": [],
+        "difference": 0
+      }
+    ],
+    "county_count": 14,
+    "coverage": "county",
+    "multi_seat": false,
+    "result_basis": "candidate-votes",
+    "notes": "",
+    "contest": "az-1928-secretary-of-state",
+    "source_id": "historical-canvass-1928",
+    "source_sha256": "21ac989c3a21345e12ce401c0ad7b9c36fd542f52a9fa7fb036dbc79bd260597",
+    "supplemental_source_ids": [
+      "historical-registration-1928"
+    ]
+  },
+  {
+    "status": "verified",
+    "page": 3,
+    "district": null,
+    "candidates": [
+      {
+        "candidate": "K. Berry Peterson",
+        "official_total": 50133,
+        "official_statewide": 50133,
+        "county_sum": 50133,
+        "county_coverage": 14,
+        "missing_counties": [],
+        "difference": 0
+      },
+      {
+        "candidate": "Carl Tisor",
+        "official_total": 30554,
+        "official_statewide": 30554,
+        "county_sum": 30554,
+        "county_coverage": 14,
+        "missing_counties": [],
+        "difference": 0
+      }
+    ],
+    "county_count": 14,
+    "coverage": "county",
+    "multi_seat": false,
+    "result_basis": "candidate-votes",
+    "notes": "",
+    "contest": "az-1928-attorney-general",
+    "source_id": "historical-canvass-1928",
+    "source_sha256": "21ac989c3a21345e12ce401c0ad7b9c36fd542f52a9fa7fb036dbc79bd260597",
+    "supplemental_source_ids": [
+      "historical-registration-1928"
     ]
   }
 ]

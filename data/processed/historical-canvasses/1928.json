@@ -8,106 +8,138 @@
       "ballots_cast": null,
       "registered_voters": 2239,
       "percent": null,
-      "definition": "Official 1928 registration on page 6: county total is the sum of the separately printed Democratic, Republican and nonpartisan registrations. No ballots cast or turnout percentage is provided.",
-      "page": 6
+      "definition": "Official 1928 general-election county registration from the Secretary of State registration-history table; checked against the retained historical scan. Ballots cast are not reported in this table.",
+      "page": 6,
+      "reference": "registration_history",
+      "reference_url": "https://apps.azsos.gov/election/VoterReg/History/General/#1928"
     },
     "04003": {
       "ballots_cast": null,
       "registered_voters": 12809,
       "percent": null,
-      "definition": "Official 1928 registration on page 6: county total is the sum of the separately printed Democratic, Republican and nonpartisan registrations. No ballots cast or turnout percentage is provided.",
-      "page": 6
+      "definition": "Official 1928 general-election county registration from the Secretary of State registration-history table; checked against the retained historical scan. Ballots cast are not reported in this table.",
+      "page": 6,
+      "reference": "registration_history",
+      "reference_url": "https://apps.azsos.gov/election/VoterReg/History/General/#1928"
     },
     "04005": {
       "ballots_cast": null,
-      "registered_voters": 3697,
+      "registered_voters": 3703,
       "percent": null,
-      "definition": "Official 1928 registration on page 6: county total is the sum of the separately printed Democratic, Republican and nonpartisan registrations. No ballots cast or turnout percentage is provided.",
-      "page": 6
+      "definition": "Official 1928 general-election county registration from the Secretary of State registration-history table; checked against the retained historical scan. Ballots cast are not reported in this table.",
+      "page": 6,
+      "reference": "registration_history",
+      "reference_url": "https://apps.azsos.gov/election/VoterReg/History/General/#1928"
     },
     "04007": {
       "ballots_cast": null,
       "registered_voters": 8862,
       "percent": null,
-      "definition": "Official 1928 registration on page 6: county total is the sum of the separately printed Democratic, Republican and nonpartisan registrations. No ballots cast or turnout percentage is provided.",
-      "page": 6
+      "definition": "Official 1928 general-election county registration from the Secretary of State registration-history table; checked against the retained historical scan. Ballots cast are not reported in this table.",
+      "page": 6,
+      "reference": "registration_history",
+      "reference_url": "https://apps.azsos.gov/election/VoterReg/History/General/#1928"
     },
     "04009": {
       "ballots_cast": null,
       "registered_voters": 3616,
       "percent": null,
-      "definition": "Official 1928 registration on page 6: county total is the sum of the separately printed Democratic, Republican and nonpartisan registrations. No ballots cast or turnout percentage is provided.",
-      "page": 6
+      "definition": "Official 1928 general-election county registration from the Secretary of State registration-history table; checked against the retained historical scan. Ballots cast are not reported in this table.",
+      "page": 6,
+      "reference": "registration_history",
+      "reference_url": "https://apps.azsos.gov/election/VoterReg/History/General/#1928"
     },
     "04011": {
       "ballots_cast": null,
       "registered_voters": 2100,
       "percent": null,
-      "definition": "Official 1928 registration on page 6: county total is the sum of the separately printed Democratic, Republican and nonpartisan registrations. No ballots cast or turnout percentage is provided.",
-      "page": 6
+      "definition": "Official 1928 general-election county registration from the Secretary of State registration-history table; checked against the retained historical scan. Ballots cast are not reported in this table.",
+      "page": 6,
+      "reference": "registration_history",
+      "reference_url": "https://apps.azsos.gov/election/VoterReg/History/General/#1928"
     },
     "04013": {
       "ballots_cast": null,
-      "registered_voters": 42987,
+      "registered_voters": 43487,
       "percent": null,
-      "definition": "Official 1928 registration on page 6: county total is the sum of the separately printed Democratic, Republican and nonpartisan registrations. No ballots cast or turnout percentage is provided.",
-      "page": 6
+      "definition": "Official 1928 general-election county registration from the Secretary of State registration-history table; checked against the retained historical scan. Ballots cast are not reported in this table.",
+      "page": 6,
+      "reference": "registration_history",
+      "reference_url": "https://apps.azsos.gov/election/VoterReg/History/General/#1928"
     },
     "04015": {
       "ballots_cast": null,
       "registered_voters": 2388,
       "percent": null,
-      "definition": "Official 1928 registration on page 6: county total is the sum of the separately printed Democratic, Republican and nonpartisan registrations. No ballots cast or turnout percentage is provided.",
-      "page": 6
+      "definition": "Official 1928 general-election county registration from the Secretary of State registration-history table; checked against the retained historical scan. Ballots cast are not reported in this table.",
+      "page": 6,
+      "reference": "registration_history",
+      "reference_url": "https://apps.azsos.gov/election/VoterReg/History/General/#1928"
     },
     "04017": {
       "ballots_cast": null,
-      "registered_voters": 4034,
+      "registered_voters": 3834,
       "percent": null,
-      "definition": "Official 1928 registration on page 6: county total is the sum of the separately printed Democratic, Republican and nonpartisan registrations. No ballots cast or turnout percentage is provided.",
-      "page": 6
+      "definition": "Official 1928 general-election county registration from the Secretary of State registration-history table; checked against the retained historical scan. Ballots cast are not reported in this table.",
+      "page": 6,
+      "reference": "registration_history",
+      "reference_url": "https://apps.azsos.gov/election/VoterReg/History/General/#1928"
     },
     "04019": {
       "ballots_cast": null,
       "registered_voters": 14833,
       "percent": null,
-      "definition": "Official 1928 registration on page 6: county total is the sum of the separately printed Democratic, Republican and nonpartisan registrations. No ballots cast or turnout percentage is provided.",
-      "page": 6
+      "definition": "Official 1928 general-election county registration from the Secretary of State registration-history table; checked against the retained historical scan. Ballots cast are not reported in this table.",
+      "page": 6,
+      "reference": "registration_history",
+      "reference_url": "https://apps.azsos.gov/election/VoterReg/History/General/#1928"
     },
     "04021": {
       "ballots_cast": null,
-      "registered_voters": 2915,
+      "registered_voters": 3925,
       "percent": null,
-      "definition": "Official 1928 registration on page 6: county total is the sum of the separately printed Democratic, Republican and nonpartisan registrations. No ballots cast or turnout percentage is provided.",
-      "page": 6
+      "definition": "Official 1928 general-election county registration from the Secretary of State registration-history table; checked against the retained historical scan. Ballots cast are not reported in this table.",
+      "page": 6,
+      "reference": "registration_history",
+      "reference_url": "https://apps.azsos.gov/election/VoterReg/History/General/#1928"
     },
     "04023": {
       "ballots_cast": null,
       "registered_voters": 2517,
       "percent": null,
-      "definition": "Official 1928 registration on page 6: county total is the sum of the separately printed Democratic, Republican and nonpartisan registrations. No ballots cast or turnout percentage is provided.",
-      "page": 6
+      "definition": "Official 1928 general-election county registration from the Secretary of State registration-history table; checked against the retained historical scan. Ballots cast are not reported in this table.",
+      "page": 6,
+      "reference": "registration_history",
+      "reference_url": "https://apps.azsos.gov/election/VoterReg/History/General/#1928"
     },
     "04025": {
       "ballots_cast": null,
-      "registered_voters": 10116,
+      "registered_voters": 10121,
       "percent": null,
-      "definition": "Official 1928 registration on page 6: county total is the sum of the separately printed Democratic, Republican and nonpartisan registrations. No ballots cast or turnout percentage is provided.",
-      "page": 6
+      "definition": "Official 1928 general-election county registration from the Secretary of State registration-history table; checked against the retained historical scan. Ballots cast are not reported in this table.",
+      "page": 6,
+      "reference": "registration_history",
+      "reference_url": "https://apps.azsos.gov/election/VoterReg/History/General/#1928"
     },
     "04027": {
       "ballots_cast": null,
-      "registered_voters": null,
+      "registered_voters": 5294,
       "percent": null,
-      "definition": "Yuma registration digits on official page 6 are too faint to read reliably; no value is inferred.",
-      "page": 6
+      "definition": "Official 1928 general-election county registration from the Secretary of State registration-history table; checked against the retained historical scan. Ballots cast are not reported in this table.",
+      "page": 6,
+      "reference": "registration_history",
+      "reference_url": "https://apps.azsos.gov/election/VoterReg/History/General/#1928"
     },
     "04": {
       "ballots_cast": null,
-      "registered_voters": null,
+      "registered_voters": 119728,
       "percent": null,
-      "definition": "The statewide registration totals on page 6 are too faint to transcribe reliably; no total is inferred. Ballots cast and turnout percentage are not supplied.",
-      "page": 6
+      "definition": "Statewide registration calculated by summing all 14 published county totals: 119728. The Secretary of State table prints 119528 and flags inconsistent historical totals; the 200-person difference is retained in this note.",
+      "page": 6,
+      "printed_registered_voters": 119528,
+      "registered_voters_basis": "sum_of_counties",
+      "reference": "registration_history",
+      "reference_url": "https://apps.azsos.gov/election/VoterReg/History/General/#1928"
     }
   },
   "absent_offices": [
@@ -124,14 +156,9 @@
       "reason": "No state legislative candidate returns appear in this retained statewide canvass."
     },
     {
-      "field": "turnout.04027.registered_voters",
-      "page": 6,
-      "reason": "Faded registration figures cannot be transcribed reliably."
-    },
-    {
       "field": "turnout.04.registered_voters",
-      "page": 6,
-      "reason": "Faded statewide registration total cannot be transcribed reliably."
+      "reason": "Secretary of State registration-history county sum is 119728; its printed statewide figure is 119528 and is marked inconsistent. Derived county sum used as the registration denominator.",
+      "source_url": "https://apps.azsos.gov/election/VoterReg/History/General/#1928"
     }
   ],
   "contests": [
