@@ -331,7 +331,13 @@ for (const width of [1440, 390, 320]) {
       expect(
         await page.evaluate(() => document.documentElement.scrollWidth),
       ).toBeLessThanOrEqual(width);
+      // Mobile tabs scroll horizontally inside the tablist: the strip must fit
+      // the viewport and every tab must fit once scrolled into view.
+      const strip = (await tabs.boundingBox())!;
+      expect(strip.x).toBeGreaterThanOrEqual(0);
+      expect(strip.x + strip.width).toBeLessThanOrEqual(width);
       for (const button of await tabs.getByRole("tab").all()) {
+        await button.scrollIntoViewIfNeeded();
         const box = await button.boundingBox();
         expect(box!.x).toBeGreaterThanOrEqual(0);
         expect(box!.x + box!.width).toBeLessThanOrEqual(width);
